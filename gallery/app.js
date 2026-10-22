@@ -123,7 +123,7 @@ async function init(){
   m.searchText=fold([m.title,m.author,m.provider,...m.tags,...m.queries.filter(q=>!m.unfulfilledQueries?.includes(q)),...m.subjects,...m.areas.map(id=>areas.find(a=>a.id===id)?.title||''),...translated].join(' '));
  }
  $('total').textContent=number(models.length)+' modelos para Code Studio y Sócrates · '+areas.length+' áreas';
- areaNav();render();const first=models.find(m=>m.id===params.get('model'))||models.find(m=>m.id===preferred[0])||models[0];if(first)selectModel(first);
+ areaNav();const first=models.find(m=>m.id===params.get('model'))||models.find(m=>m.id===preferred[0])||models[0];selected=first||null;render();if(first)selectModel(first);
 }
 init().catch(error=>{$('fatal').hidden=false;$('fatal').textContent=error.message;$('total').textContent='No se pudo abrir el catálogo';$('loading').hidden=true;});
 

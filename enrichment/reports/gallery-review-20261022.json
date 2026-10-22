@@ -14,7 +14,8 @@
     "emptySearchAndReset": "PASS",
     "pagination": "PASS",
     "desktop1440x1000": "PASS",
-    "mobile390x844NoHorizontalOverflow": "PASS"
+    "mobile390x844NoHorizontalOverflow": "PASS",
+    "deepLinkSelectsGroupedRepresentative": "PASS"
   },
   "sampledClips": {
     "oga-robot-robot": "Robot_Dance",

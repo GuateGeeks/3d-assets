@@ -37,7 +37,7 @@ if kit_path.exists():
     if (ROOT/'kits/groups.json').exists():
         groups=json.loads((ROOT/'kits/groups.json').read_text(encoding='utf-8'))
         if any(not set(g['modelIds'])<=model_ids for g in groups['groups']): raise SystemExit('Unknown variant ID')
-external=ROOT/'sources/external' 
+external=ROOT/'sources/external'
 if external.exists() and SITE.exists():
     for p in external.rglob('*'):
         if p.is_file() and (SITE/p.relative_to(ROOT)).read_bytes()!=p.read_bytes(): raise SystemExit('External evidence build mismatch')
