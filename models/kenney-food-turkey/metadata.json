@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-turkey",
+  "assetId": "kenney:kenney-food/turkey",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "turkey",
+  "titleOriginal": "turkey",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "turkey",
+    "kenney-food",
+    "food-turkey"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"turkey\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-turkey/model.glb",
+  "sourceMetadataFile": "models/kenney-food-turkey/source.json",
+  "originalDownload": "models/kenney-food-turkey/originals.zip",
+  "bytes": 47944,
+  "sha256": "829c1c29834b7fd2013a1a28d7cb3968423f426fa03a459307a60daa103b04bc",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 3,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/turkey.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-turkey/original/turkey.glb",
+        "sha256": "7d5edab26f512fdc8a5be1e31023b559b0755fcebff06ef766842e0dd356dbf5",
+        "bytes": 37192
+      },
+      {
+        "file": "models/kenney-food-turkey/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "7168aa289e1f784cba48846d4578d3663d1587804a99a36f345a93963501360b",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.9489783048629761,
+      0.7014831304550171,
+      0.3768994212150574
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "3b1c9895bc56cfd3d2f90e1d48cc2d0b8f311553f90145634104dc328a9ba8b8",
+      "triangles": 368
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

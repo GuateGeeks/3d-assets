@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-cactus-short",
+  "assetId": "kenney:kenney-nature/cactus_short",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "cactus · short",
+  "titleOriginal": "cactus_short",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "cactus_short",
+    "kenney-nature",
+    "nature-cactus"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"cactus_short\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-cactus-short/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-cactus-short/source.json",
+  "originalDownload": "models/kenney-nature-cactus-short/originals.zip",
+  "bytes": 8844,
+  "sha256": "81ac9fc4c66eacceaf4aebcb6df3468ea450a2f5081151bb11400282efbc51bd",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/cactus_short.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-cactus-short/original/cactus_short.glb",
+        "sha256": "81ac9fc4c66eacceaf4aebcb6df3468ea450a2f5081151bb11400282efbc51bd",
+        "bytes": 8844
+      }
+    ],
+    "originalDownloadSha256": "0414e8ee567d760782bcd20d8f3399b0752334ec8b4e487c93f0b80f6fbcb9e1",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.34166160225868225,
+      0.2971895933151245,
+      0.5329999923706055
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "74e15bd74f01c9b957fcf1c001277c4cc3704be28d4ac434d897a475d809da16",
+      "triangles": 116
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

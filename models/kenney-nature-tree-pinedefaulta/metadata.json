@@ -1,0 +1,109 @@
+{
+  "id": "kenney-nature-tree-pinedefaulta",
+  "assetId": "kenney:kenney-nature/tree_pineDefaultA",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "tree · pine Default A",
+  "titleOriginal": "tree_pineDefaultA",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "tree_pineDefaultA",
+    "kenney-nature",
+    "nature-tree-pine"
+  ],
+  "areas": [
+    "bosques-plantas",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"tree_pineDefaultA\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-tree-pinedefaulta/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-tree-pinedefaulta/source.json",
+  "originalDownload": "models/kenney-nature-tree-pinedefaulta/originals.zip",
+  "bytes": 17220,
+  "sha256": "60d8f352fa3659ed275e06cbddfecf8f92c8effe2977c2f2d7b29b6c9b582e46",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/tree_pineDefaultA.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-tree-pinedefaulta/original/tree_pineDefaultA.glb",
+        "sha256": "60d8f352fa3659ed275e06cbddfecf8f92c8effe2977c2f2d7b29b6c9b582e46",
+        "bytes": 17220
+      }
+    ],
+    "originalDownloadSha256": "bd6b75100b3175b7dc8058b389858ee0db2dcc5696a851b0b80fabaa0df8000e",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.5319600105285645,
+      0.5319600105285645,
+      1.5458356142044067
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "aa8a2ed59f9d72a1f6b37cf1963ccc768d8a0d12866577ca25c0553bf3c6bee6",
+      "triangles": 230
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

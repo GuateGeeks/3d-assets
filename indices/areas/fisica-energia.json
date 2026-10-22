@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "details": {
     "id": "fisica-energia",
     "title": "Física, máquinas y energía",
@@ -19,7 +19,7 @@
       "Mecanismos y medición"
     ]
   },
-  "count": 15,
+  "count": 23,
   "modelIds": [
     "0S_ePFXZbCz",
     "1tgrqxAQia",
@@ -30,11 +30,19 @@
     "8Tke6WIyZtg",
     "9gnjbN0VUUn",
     "9u6O3jg_mSc",
+    "KfauRUSZer",
     "ah89Y79JdT",
     "bvw2d4XUKR",
     "cMM3raHMCug",
     "guR2QhKFLT",
     "hLVNyFYOOX",
-    "KfauRUSZer"
+    "oga-gears-gear-06",
+    "oga-gears-gear-08",
+    "oga-gears-gear-10",
+    "oga-gears-gear-12",
+    "oga-gears-gear-14",
+    "oga-gears-gear-16",
+    "oga-gears-gear-18",
+    "oga-gears-gear-20"
   ]
 }

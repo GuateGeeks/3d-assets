@@ -1,0 +1,23 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"soda\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "Creator": {
+    "Username": "Kenney"
+  },
+  "Title": "soda",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "sourceMember": "Models/GLB format/soda.glb",
+  "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+  "originalFiles": [
+    {
+      "file": "models/kenney-food-soda/original/soda.glb",
+      "sha256": "a3682c8cd208872fff480865bccc83a454bd4bd0ee7aed4e3a928d36a6283250",
+      "bytes": 12356
+    },
+    {
+      "file": "models/kenney-food-soda/original/Textures/colormap.png",
+      "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+      "bytes": 10715
+    }
+  ]
+}

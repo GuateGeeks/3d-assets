@@ -1,0 +1,117 @@
+{
+  "id": "kenney-buildings-building-window-large-right",
+  "assetId": "kenney:kenney-buildings/building-window-large-right",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "building window large right",
+  "titleOriginal": "building-window-large-right",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Modular Buildings. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Architecture",
+  "tags": [
+    "building-window-large-right",
+    "kenney-buildings",
+    "architecture-building-window"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"building-window-large-right\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-buildings-building-window-large-right/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-building-window-large-right/source.json",
+  "originalDownload": "models/kenney-buildings-building-window-large-right/originals.zip",
+  "bytes": 11376,
+  "sha256": "c0c47584d9e5c10d32193bfd6ee25b5b2979154de66f0f5b1c4df2652c0c90a8",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Modular Buildings",
+    "sourceMember": "Models/GLB format/building-window-large-right.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-building-window-large-right/original/building-window-large-right.glb",
+        "sha256": "51c5d2d085b12d15701e0a76555383e1e1e68ef6bd809b393f9c819300fb213f",
+        "bytes": 3788
+      },
+      {
+        "file": "models/kenney-buildings-building-window-large-right/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "4cdb7a78efa12b4c1665a9f534ea395a90816390e65de94e6ea64ceaed467ae2",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "kits/kenney-buildings/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      1.0,
+      0.625
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "4e13aa9a25e8761cbeae2a906eafe44815c2ee4e3118a72ffcde1d9a80adebe0",
+      "triangles": 24
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

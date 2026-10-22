@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-ice-cream-cup",
+  "assetId": "kenney:kenney-food/ice-cream-cup",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "ice cream cup",
+  "titleOriginal": "ice-cream-cup",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "ice-cream-cup",
+    "kenney-food",
+    "food-ice"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"ice-cream-cup\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-ice-cream-cup/model.glb",
+  "sourceMetadataFile": "models/kenney-food-ice-cream-cup/source.json",
+  "originalDownload": "models/kenney-food-ice-cream-cup/originals.zip",
+  "bytes": 18572,
+  "sha256": "1e69e8566ab3cd9df8c4d06ff3b3b529e270157b5a27e52dd77b422fd238018e",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/ice-cream-cup.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-ice-cream-cup/original/ice-cream-cup.glb",
+        "sha256": "615544b8be8d413ec307cc9d542ec45ec826519f2ba8e133a6817fb3d5d3a298",
+        "bytes": 7796
+      },
+      {
+        "file": "models/kenney-food-ice-cream-cup/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "e281c20bc4ee14937e845bd85305d9899a0f91834c165107be19d6afb9fedadb",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.20106510818004608,
+      0.2321700006723404,
+      0.18039999902248383
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "54e22e3df628cfea8f8e15b598ad7b93e39e4c825bb2d44bcdabf3d19ea09f8f",
+      "triangles": 68
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

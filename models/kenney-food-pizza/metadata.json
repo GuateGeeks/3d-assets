@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-pizza",
+  "assetId": "kenney:kenney-food/pizza",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "pizza",
+  "titleOriginal": "pizza",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "pizza",
+    "kenney-food",
+    "food-pizza"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"pizza\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-pizza/model.glb",
+  "sourceMetadataFile": "models/kenney-food-pizza/source.json",
+  "originalDownload": "models/kenney-food-pizza/originals.zip",
+  "bytes": 117488,
+  "sha256": "20736bf9bd2fbbc1299971b74819a393dadfc22e2ac5eb3e42fab5f631daf3d1",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 8,
+    "nodes": 8,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/pizza.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-pizza/original/pizza.glb",
+        "sha256": "e98eda0a63421bc4e86f063ebd096a21e50254b169ddbba945d2473b59390951",
+        "bytes": 106780
+      },
+      {
+        "file": "models/kenney-food-pizza/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "5053ad34dcfffcf68146e35dd02dc17f09f4ae4bab8a22347485f7ac10fec964",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.8418000340461731,
+      0.8418000936508179,
+      0.043470002710819244
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "7b8409ba2ec74c6ed7d13939e3bbf09cd2428bdc164608397c409c8bb8441e8f",
+      "triangles": 1208
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

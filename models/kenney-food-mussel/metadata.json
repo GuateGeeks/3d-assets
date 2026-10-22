@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-mussel",
+  "assetId": "kenney:kenney-food/mussel",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "mussel",
+  "titleOriginal": "mussel",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "mussel",
+    "kenney-food",
+    "food-mussel"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"mussel\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-mussel/model.glb",
+  "sourceMetadataFile": "models/kenney-food-mussel/source.json",
+  "originalDownload": "models/kenney-food-mussel/originals.zip",
+  "bytes": 16092,
+  "sha256": "f790029413188744a6b5e40db8ecbc86361d6533ff9e44b17531bbb2764d1fa6",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/mussel.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-mussel/original/mussel.glb",
+        "sha256": "e56a342f632bbee435a3cd09befe0ba871f865694133b1a769081b9e5c4c7c9b",
+        "bytes": 5328
+      },
+      {
+        "file": "models/kenney-food-mussel/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "4e19abacef9950b76e5b21a38fd8d098a927d65c3fa0b3642f8158d36158aa23",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.09227766841650009,
+      0.1553579866886139,
+      0.04152384027838707
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "afe5e9da21c164cd73e1096e7e627054a2525eaf4bc0841aa8d73a16f6311d09",
+      "triangles": 38
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

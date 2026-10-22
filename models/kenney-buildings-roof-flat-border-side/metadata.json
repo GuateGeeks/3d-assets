@@ -1,0 +1,117 @@
+{
+  "id": "kenney-buildings-roof-flat-border-side",
+  "assetId": "kenney:kenney-buildings/roof-flat-border-side",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "roof flat border side",
+  "titleOriginal": "roof-flat-border-side",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Modular Buildings. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Architecture",
+  "tags": [
+    "roof-flat-border-side",
+    "kenney-buildings",
+    "architecture-roof"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"roof-flat-border-side\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-buildings-roof-flat-border-side/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-roof-flat-border-side/source.json",
+  "originalDownload": "models/kenney-buildings-roof-flat-border-side/originals.zip",
+  "bytes": 11072,
+  "sha256": "4484611ae13702d1be4205bed29edbcc229dbd298de83250d2d1b8c4eb11eb08",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Modular Buildings",
+    "sourceMember": "Models/GLB format/roof-flat-border-side.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-roof-flat-border-side/original/roof-flat-border-side.glb",
+        "sha256": "de11c932dce59ad7ba9f4df205216b40a65a13b6350cfb61e4a907447e359e7e",
+        "bytes": 3484
+      },
+      {
+        "file": "models/kenney-buildings-roof-flat-border-side/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "48c3a1310a15cfdf558a8bfd0a97964dd78895ac0aef79073800cef8acbe94c8",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "kits/kenney-buildings/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      1.0,
+      0.21249999105930328
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "ba6d41f432598c1b60c5c04c3742936adcc5410cd553ef978662bf285cf3097d",
+      "triangles": 20
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

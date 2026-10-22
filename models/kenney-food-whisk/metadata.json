@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-whisk",
+  "assetId": "kenney:kenney-food/whisk",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "whisk",
+  "titleOriginal": "whisk",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "whisk",
+    "kenney-food",
+    "food-whisk"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"whisk\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-whisk/model.glb",
+  "sourceMetadataFile": "models/kenney-food-whisk/source.json",
+  "originalDownload": "models/kenney-food-whisk/originals.zip",
+  "bytes": 21032,
+  "sha256": "0db3d10504d190e930a283277c08b02b0ad4635459ee5947f14c98ccc371ac71",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/whisk.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-whisk/original/whisk.glb",
+        "sha256": "4f165ee6affd4718255b36dc36d55282f926fe4801a9c87dbc8a7fbc1e6fe856",
+        "bytes": 10264
+      },
+      {
+        "file": "models/kenney-food-whisk/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "7ea4c8eb00891150e13d8682479002a19a0d371a783af8112acca909fc9142e8",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.7244098782539368,
+      0.15761663019657135,
+      0.15761663019657135
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "0d20a9d0420cf1580735c7c09e45965bc9096262b63a0f92bb7d862bce36d824",
+      "triangles": 150
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

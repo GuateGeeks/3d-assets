@@ -1,0 +1,109 @@
+{
+  "id": "kenney-nature-tree-small-fall",
+  "assetId": "kenney:kenney-nature/tree_small_fall",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "tree · small · fall",
+  "titleOriginal": "tree_small_fall",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "tree_small_fall",
+    "kenney-nature",
+    "nature-tree"
+  ],
+  "areas": [
+    "bosques-plantas",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"tree_small_fall\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-tree-small-fall/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-tree-small-fall/source.json",
+  "originalDownload": "models/kenney-nature-tree-small-fall/originals.zip",
+  "bytes": 6492,
+  "sha256": "2203da5cdb52ed442760f96916a171628a70575a0a038531bfcaa12173241cb1",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/tree_small_fall.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-tree-small-fall/original/tree_small_fall.glb",
+        "sha256": "2203da5cdb52ed442760f96916a171628a70575a0a038531bfcaa12173241cb1",
+        "bytes": 6492
+      }
+    ],
+    "originalDownloadSha256": "9efd4873d735c58ba371350ec3415a031b73efb4409b8147d65a509182fac4bb",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.35463735461235046,
+      0.4094999432563782,
+      1.1100374460220337
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "668a25747cb6201c936d98193190f8b48063707477b971b95c738049aaa75d41",
+      "triangles": 62
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

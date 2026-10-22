@@ -1,0 +1,117 @@
+{
+  "id": "kenney-buildings-window-brown-tall",
+  "assetId": "kenney:kenney-buildings/window-brown-tall",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "window brown tall",
+  "titleOriginal": "window-brown-tall",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Modular Buildings. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Architecture",
+  "tags": [
+    "window-brown-tall",
+    "kenney-buildings",
+    "architecture-window"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"window-brown-tall\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-buildings-window-brown-tall/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-window-brown-tall/source.json",
+  "originalDownload": "models/kenney-buildings-window-brown-tall/originals.zip",
+  "bytes": 14908,
+  "sha256": "c76d61850e14385ed813d8b6ccdd435ff1430ef0d8f25b441fe58991940d115f",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Modular Buildings",
+    "sourceMember": "Models/GLB format/window-brown-tall.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-window-brown-tall/original/window-brown-tall.glb",
+        "sha256": "57435424a52d092346b3428712727bbff23101f83cb47c7942adadf8ab722b11",
+        "bytes": 7320
+      },
+      {
+        "file": "models/kenney-buildings-window-brown-tall/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "975e88a07f947c61cd427908e7a71a869bc2e0f6f714bfcaca9193258b9471e7",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "kits/kenney-buildings/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.3125,
+      0.05000000074505806,
+      0.5
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "a3027cdb68d3fa7d1e8d1b37f6c1c4bf1f04d2dda8f2342dac60d3b0cd881665",
+      "triangles": 80
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

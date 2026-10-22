@@ -1,0 +1,38 @@
+{
+  "dimensionsBlender": [
+    2.1134819984436035,
+    0.20000016689300537,
+    2.1134819984436035
+  ],
+  "meshObjects": 1,
+  "polygons": 320,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "8a872494a5b64c1ab9bda1cc1a109d51214eacb402ca9fe4d3c227c80c1f4e21",
+  "sourceFile": "gear_pack/models/gear_08.obj",
+  "id": "oga-gears-gear-08",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      2.1134819984436035,
+      0.2000003159046173,
+      2.1134822368621826
+    ],
+    "meshObjects": 1,
+    "polygons": 320,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.00021134819984436036,
+  "glbSha256": "a3069ba0e47b8c9a1309ceeb0dec6f9c5003b4946ede29e1b863de8bd610ab4f",
+  "images": {
+    "source-back.png": "df6edad15ceb8fb43cbb974fe8ee113fa2178337a81b9184ce5de41389d134dc",
+    "source-side.png": "6599f7d7f439a7716aceaa8e245bf857c018d38d2c2581328511a08c3ee05f67",
+    "source-front.png": "3d9238a04ce4defd6ae4c9b3c5a0a6e4b2a9af34f84ab6230c9a863995d14916",
+    "reimport-three-quarter.png": "b7bd21161b8334f440f2af7c0c262fcfc5d371b4d062c2ab4760bc0b00638d37",
+    "source-three-quarter.png": "a44966e398af8d7034066881ed105ad35fa1a364b7e502ef241cbe3b6431fd55",
+    "source-wireframe.png": "26b9d90ba5c21c0dab013b6c1d76e1fd75e3f0e8f63dce104e158e8c5a0e6bc2"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-skewer-vegetables",
+  "assetId": "kenney:kenney-food/skewer-vegetables",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "skewer vegetables",
+  "titleOriginal": "skewer-vegetables",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "skewer-vegetables",
+    "kenney-food",
+    "food-skewer"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"skewer-vegetables\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-skewer-vegetables/model.glb",
+  "sourceMetadataFile": "models/kenney-food-skewer-vegetables/source.json",
+  "originalDownload": "models/kenney-food-skewer-vegetables/originals.zip",
+  "bytes": 33352,
+  "sha256": "b60f43c006ac4accf1cc615888f398490b69abeda89d0cc1e4cf81a842a83ce6",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 6,
+    "nodes": 6,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/skewer-vegetables.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-skewer-vegetables/original/skewer-vegetables.glb",
+        "sha256": "943cddcbddca0446f202b0331626d8b46b6126444dcb26d138ef13288b0c3905",
+        "bytes": 22604
+      },
+      {
+        "file": "models/kenney-food-skewer-vegetables/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "3b12a8c812997b4f866f8169abed53434e6b41d2c0a2a836fe75ae01bd95d641",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.5967000126838684,
+      0.10854481905698776,
+      0.10767046362161636
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "69c5343e338ff5bcd6d3d071a90e0815bae0ec2fc2e2539c10d7e30dbce71d50",
+      "triangles": 156
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

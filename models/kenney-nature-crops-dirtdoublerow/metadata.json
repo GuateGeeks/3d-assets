@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-crops-dirtdoublerow",
+  "assetId": "kenney:kenney-nature/crops_dirtDoubleRow",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "crops · dirt Double Row",
+  "titleOriginal": "crops_dirtDoubleRow",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "crops_dirtDoubleRow",
+    "kenney-nature",
+    "nature-crops-dirt"
+  ],
+  "areas": [
+    "alimentos-agricultura",
+    "bosques-plantas"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"crops_dirtDoubleRow\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-crops-dirtdoublerow/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-crops-dirtdoublerow/source.json",
+  "originalDownload": "models/kenney-nature-crops-dirtdoublerow/originals.zip",
+  "bytes": 7560,
+  "sha256": "b5c330d81a4efe0944caf5f1d1dd0c0d50227c93f2a4a57ec2425d2c9b7a2d84",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/crops_dirtDoubleRow.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-crops-dirtdoublerow/original/crops_dirtDoubleRow.glb",
+        "sha256": "b5c330d81a4efe0944caf5f1d1dd0c0d50227c93f2a4a57ec2425d2c9b7a2d84",
+        "bytes": 7560
+      }
+    ],
+    "originalDownloadSha256": "8d822ab1ccd22a5790222cc38623396fceed42055d040a257afc74aaff68d034",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      0.937999963760376,
+      0.05000000074505806
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "dde51d9b1970b9f812a4a8ed27fdbb5808e555b7974f4d47b092a62bba17190f",
+      "triangles": 88
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

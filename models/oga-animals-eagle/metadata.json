@@ -1,0 +1,113 @@
+{
+  "id": "oga-animals-eagle",
+  "assetId": "opengameart:oga-animals/Eagle",
+  "providerId": "opengameart",
+  "provider": "OpenGameArt",
+  "title": "Eagle",
+  "titleOriginal": "Eagle",
+  "author": "Quaternius",
+  "authorUrl": "https://opengameart.org/users/quaternius",
+  "sourceUrl": "https://opengameart.org/content/animated-animales-low-poly",
+  "metadataUrl": null,
+  "downloadUrl": "https://opengameart.org/sites/default/files/Animal%20Pack%20Vol.2%20by%20%40Quaternius.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Animated Animales Low Poly. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Characters",
+  "tags": [
+    "Eagle",
+    "oga-animals",
+    "character-eagle"
+  ],
+  "areas": [
+    "animales-biodiversidad",
+    "personajes-animacion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Eagle\" de Animated Animales Low Poly, por Quaternius. https://opengameart.org/content/animated-animales-low-poly. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Blender 5.2.3 LTS: BLEND convertido a GLB; materiales antiguos convertidos a PBR conservando el color difuso; restricciones de rig horneadas a curvas cuando el exportador lo requiere; dimensiones de reposo comprobadas; originales conservados.",
+  "file": "models/oga-animals-eagle/model.glb",
+  "sourceMetadataFile": "models/oga-animals-eagle/source.json",
+  "originalDownload": "models/oga-animals-eagle/originals.zip",
+  "bytes": 261604,
+  "sha256": "536a172f771e571da49123b132a7e0f0a235b2d0b8420995e2f03f16a0eb199a",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 26,
+    "materials": 4,
+    "skins": 1,
+    "joints": 24,
+    "rigged": true,
+    "animated": true,
+    "animations": 2,
+    "animationNames": [
+      "Flying",
+      "Idle"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:55:07.015562+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "provenance": {
+    "pack": "Animated Animales Low Poly",
+    "sourceMember": "Animal Pack Vol.2 by @Quaternius/Blends/Eagle.blend",
+    "originalFiles": [
+      {
+        "file": "models/oga-animals-eagle/original/Eagle.blend",
+        "sha256": "ca9d09c805d51d0df063bd25ebe3f85bc67b4e2ecc2fef174aa72f29b85e9e93",
+        "bytes": 804128
+      }
+    ],
+    "originalDownloadSha256": "14b1f76f08f8c40591450d2b03c964c14e6f88406eb69f2889f7eca980a41e19",
+    "archiveSha256": "6d8f6789d65dbdb352ebad98a4209f26b41b384e87d81bc05e9ca76139db1248",
+    "licenseEvidence": "kits/oga-animals/LICENSE.txt",
+    "conversionTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      12.54061508178711,
+      5.195199489593506,
+      1.523090124130249
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "a93e0e7272a1b28d51add9d2cc7e61e657f17bf66c8d0553c91ac27ff4af1666",
+      "triangles": 1532
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

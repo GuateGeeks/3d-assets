@@ -1,0 +1,126 @@
+{
+  "id": "oga-robot-robot",
+  "assetId": "opengameart:oga-robot/Robot",
+  "providerId": "opengameart",
+  "provider": "OpenGameArt",
+  "title": "Robot",
+  "titleOriginal": "Robot",
+  "author": "Quaternius",
+  "authorUrl": "https://opengameart.org/users/quaternius",
+  "sourceUrl": "https://opengameart.org/node/89467",
+  "metadataUrl": null,
+  "downloadUrl": "https://opengameart.org/sites/default/files/Animated%20Robot%20-%20Oct%202018.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Animated LowPoly Robot. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Characters",
+  "tags": [
+    "Robot",
+    "oga-robot",
+    "character-robot"
+  ],
+  "areas": [
+    "personajes-animacion",
+    "robotica-electronica"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Robot\" de Animated LowPoly Robot, por Quaternius. https://opengameart.org/node/89467. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Blender 5.2.3 LTS: BLEND convertido a GLB; materiales antiguos convertidos a PBR conservando el color difuso; restricciones de rig horneadas a curvas cuando el exportador lo requiere; dimensiones de reposo comprobadas; originales conservados.",
+  "file": "models/oga-robot-robot/model.glb",
+  "sourceMetadataFile": "models/oga-robot-robot/source.json",
+  "originalDownload": "models/oga-robot-robot/originals.zip",
+  "bytes": 647384,
+  "sha256": "a73c13c8347bd22c4c2ce66d0602679e29c2c7e5199d41fbec2e5dafa89d644c",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 14,
+    "nodes": 58,
+    "materials": 3,
+    "skins": 1,
+    "joints": 43,
+    "rigged": true,
+    "animated": true,
+    "animations": 14,
+    "animationNames": [
+      "Robot_Dance",
+      "Robot_Death",
+      "Robot_Idle",
+      "Robot_Jump",
+      "Robot_No",
+      "Robot_Punch",
+      "Robot_Running",
+      "Robot_Sitting",
+      "Robot_Standing",
+      "Robot_ThumbsUp",
+      "Robot_Walking",
+      "Robot_WalkJump",
+      "Robot_Wave",
+      "Robot_Yes"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:55:04.680917+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Animated LowPoly Robot",
+    "sourceMember": "Animated Robot - Oct 2018/Blend/Robot.blend",
+    "originalFiles": [
+      {
+        "file": "models/oga-robot-robot/original/Robot.blend",
+        "sha256": "06689f194aba7af110b10cb0a3fb8d42bfd70dd6dc6f4bc9a231c51f314a84b0",
+        "bytes": 1899312
+      }
+    ],
+    "originalDownloadSha256": "4db58c9a4d086aab99bd2264f16cb74079b94a88b4920fbc1691740915994d82",
+    "archiveSha256": "5128d2cf906835895b931f6c1e764296ba2e01d3a30d809035fc6c1ee8a1c1ee",
+    "licenseEvidence": "kits/oga-robot/LICENSE.txt",
+    "conversionTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      6.618549346923828,
+      2.6167526245117188,
+      4.533493518829346
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "d9f7b9328664fa7c6a45b99a6b7c36e10176ede486e7a06b7bf644909d3b2e73",
+      "triangles": 3238
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

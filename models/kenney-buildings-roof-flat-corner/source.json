@@ -1,0 +1,23 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"roof-flat-corner\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "Creator": {
+    "Username": "Kenney"
+  },
+  "Title": "roof-flat-corner",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "sourceMember": "Models/GLB format/roof-flat-corner.glb",
+  "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+  "originalFiles": [
+    {
+      "file": "models/kenney-buildings-roof-flat-corner/original/roof-flat-corner.glb",
+      "sha256": "92e74059d5c729992a7246a9fb6cd140af31e63a3a8471a60575c3b1f4c0c8e4",
+      "bytes": 3168
+    },
+    {
+      "file": "models/kenney-buildings-roof-flat-corner/original/Textures/colormap.png",
+      "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+      "bytes": 7529
+    }
+  ]
+}

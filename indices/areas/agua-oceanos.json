@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "details": {
     "id": "agua-oceanos",
     "title": "Agua y ecosistemas acuáticos",
@@ -18,7 +18,7 @@
       "Cuidado del agua"
     ]
   },
-  "count": 15,
+  "count": 31,
   "modelIds": [
     "0CrDBiCnI5e",
     "15cXqVGk0jA",
@@ -28,12 +28,28 @@
     "7-TgeTuwbzw",
     "7Cs3rTEcpcD",
     "7EfDXOcziyF",
-    "aEyLrUMMoUK",
-    "b54HnwJAXsb",
     "BEcU9rjiAq",
     "BgSZXwmm7k",
-    "fo1MBzTFRZ3",
     "KpxDpidn1Z",
-    "YwdXrwbN3o"
+    "YwdXrwbN3o",
+    "aEyLrUMMoUK",
+    "b54HnwJAXsb",
+    "fo1MBzTFRZ3",
+    "kenney-nature-ground-riverbend",
+    "kenney-nature-ground-riverbendbank",
+    "kenney-nature-ground-rivercorner",
+    "kenney-nature-ground-rivercornersmall",
+    "kenney-nature-ground-rivercross",
+    "kenney-nature-ground-riverend",
+    "kenney-nature-ground-riverendclosed",
+    "kenney-nature-ground-riveropen",
+    "kenney-nature-ground-riverrocks",
+    "kenney-nature-ground-riverside",
+    "kenney-nature-ground-riversideopen",
+    "kenney-nature-ground-riversplit",
+    "kenney-nature-ground-riverstraight",
+    "kenney-nature-ground-rivertile",
+    "kenney-nature-lily-large",
+    "kenney-nature-lily-small"
   ]
 }

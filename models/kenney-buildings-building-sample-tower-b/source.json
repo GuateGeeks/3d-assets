@@ -1,0 +1,23 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"building-sample-tower-b\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "Creator": {
+    "Username": "Kenney"
+  },
+  "Title": "building-sample-tower-b",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "sourceMember": "Models/GLB format/building-sample-tower-b.glb",
+  "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+  "originalFiles": [
+    {
+      "file": "models/kenney-buildings-building-sample-tower-b/original/building-sample-tower-b.glb",
+      "sha256": "b7360904ab4a6e26098b4ae6f761a6a98022c851faf04ea7760a0ef11328c704",
+      "bytes": 28904
+    },
+    {
+      "file": "models/kenney-buildings-building-sample-tower-b/original/Textures/colormap.png",
+      "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+      "bytes": 7529
+    }
+  ]
+}

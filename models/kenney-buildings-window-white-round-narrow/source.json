@@ -1,0 +1,23 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"window-white-round-narrow\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "Creator": {
+    "Username": "Kenney"
+  },
+  "Title": "window-white-round-narrow",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "sourceMember": "Models/GLB format/window-white-round-narrow.glb",
+  "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+  "originalFiles": [
+    {
+      "file": "models/kenney-buildings-window-white-round-narrow/original/window-white-round-narrow.glb",
+      "sha256": "2acfa0e0e8755405fe453e06474414e3592c2a423b4ec945aeba14445f38e696",
+      "bytes": 5940
+    },
+    {
+      "file": "models/kenney-buildings-window-white-round-narrow/original/Textures/colormap.png",
+      "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+      "bytes": 7529
+    }
+  ]
+}

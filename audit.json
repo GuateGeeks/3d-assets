@@ -1,20 +1,18 @@
 {
-  "models": 342,
-  "glbFiles": 342,
-  "csvRows": 342,
-  "uniqueIds": 342,
-  "subsetIndices": 55,
+  "schemaVersion": 2,
+  "models": 993,
+  "csvRows": 993,
+  "subsetIndices": 71,
+  "providers": {
+    "Poly Pizza": 342,
+    "Kenney": 637,
+    "OpenGameArt": 14
+  },
   "licenseCounts": {
     "CC-BY 3.0": 274,
-    "CC0 1.0": 68
+    "CC0 1.0": 711,
+    "CC-BY-SA 4.0": 8
   },
-  "queries": 134,
-  "queriesWithoutLiteralTitleMatch": 19,
-  "sourceSnapshotHashes": "passed",
-  "credentialScan": {
-    "textFilesScanned": 1268,
-    "matches": 0,
-    "performed": true
-  },
-  "result": "passed"
+  "result": "passed",
+  "coverageScope": "Historical Poly Pizza searches retained; enrichment is separately documented."
 }

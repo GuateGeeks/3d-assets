@@ -1,0 +1,39 @@
+{
+  "dimensionsBlender": [
+    0.37945008277893066,
+    0.403613418340683,
+    0.307391494512558
+  ],
+  "meshObjects": 1,
+  "polygons": 152,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "3667f655936f1ad4de753d9b4e2123beb8723fb89b87a7500b462ea31e63f20a",
+  "sourceFile": "Models/GLB format/cauliflower.glb",
+  "id": "kenney-food-cauliflower",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      0.37945008277893066,
+      0.403613418340683,
+      0.307391494512558
+    ],
+    "meshObjects": 1,
+    "polygons": 152,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 4.03613418340683e-05,
+  "selfContained": true,
+  "glbSha256": "838cae73388e1400771a0e3be60d8bd23d4d9fed087b851b53edfb31ee97482a",
+  "images": {
+    "source-back.png": "028a124962930c699cb206599078c0cd84f1b1c56b9331ae284ca55b1e1f73da",
+    "source-side.png": "ff608ab2f5f699fb0c46827e4c1470b0498ce1b3869945c6674e21cdf33ce4bc",
+    "source-front.png": "1a6360a4bc522ca32ac6bf0d05ed60ef7ee3b98576ae9fa24b09de4e5e6d17fe",
+    "reimport-three-quarter.png": "33fa2875c503fc9183ca6af5a00bdcc93ed518877f8ff5f1aa7ac2ddb0762ea5",
+    "source-three-quarter.png": "8b94fd306596e0b84f8fec1d63f7b822a16365970ededed5072e07c4878eb800",
+    "source-wireframe.png": "c53f4137eb27d5bd35709b4dae639915f6aa30058616a4f2d4dceab7f122a11f"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

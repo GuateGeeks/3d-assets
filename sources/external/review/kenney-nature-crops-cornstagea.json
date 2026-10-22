@@ -1,0 +1,34 @@
+{
+  "dimensionsBlender": [
+    0.30420199036598206,
+    0.30420199036598206,
+    0.5
+  ],
+  "meshObjects": 1,
+  "polygons": 100,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "085e2f0501f0f39acc10762cf46449fd962d9ac0630e7fd128cf9aa4a1edcfb5",
+  "sourceFile": "Models/GLTF format/crops_cornStageA.glb",
+  "id": "kenney-nature-crops-cornstagea",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      0.30420199036598206,
+      0.30420199036598206,
+      0.5
+    ],
+    "meshObjects": 1,
+    "polygons": 100,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 5e-05,
+  "glbSha256": "085e2f0501f0f39acc10762cf46449fd962d9ac0630e7fd128cf9aa4a1edcfb5",
+  "images": {
+    "reimport-three-quarter.png": "43a8b935fb3e2effe1359fe434094fe35619ef0e7a933bf913482fbe02ceaeb4",
+    "source-three-quarter.png": "124884022ace25a297c4b3f6df243a0b8d17e9325403809ccc09c7b38bd32375"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

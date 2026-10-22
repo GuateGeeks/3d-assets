@@ -1,0 +1,23 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"building-windows-round\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "Creator": {
+    "Username": "Kenney"
+  },
+  "Title": "building-windows-round",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "sourceMember": "Models/GLB format/building-windows-round.glb",
+  "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+  "originalFiles": [
+    {
+      "file": "models/kenney-buildings-building-windows-round/original/building-windows-round.glb",
+      "sha256": "06e60785f8ad6b562bac71c92a12adbdaa6fc25a1b80b590152bb71ea1ff2e64",
+      "bytes": 7084
+    },
+    {
+      "file": "models/kenney-buildings-building-windows-round/original/Textures/colormap.png",
+      "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+      "bytes": 7529
+    }
+  ]
+}

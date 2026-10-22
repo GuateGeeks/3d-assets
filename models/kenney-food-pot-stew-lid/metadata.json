@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-pot-stew-lid",
+  "assetId": "kenney:kenney-food/pot-stew-lid",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "pot stew lid",
+  "titleOriginal": "pot-stew-lid",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "pot-stew-lid",
+    "kenney-food",
+    "food-pot"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"pot-stew-lid\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-pot-stew-lid/model.glb",
+  "sourceMetadataFile": "models/kenney-food-pot-stew-lid/source.json",
+  "originalDownload": "models/kenney-food-pot-stew-lid/originals.zip",
+  "bytes": 26592,
+  "sha256": "544f68b70a8d542f73c505ea68f6593708a36d8f400b6e37de0f8f68162bde4f",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/pot-stew-lid.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-pot-stew-lid/original/pot-stew-lid.glb",
+        "sha256": "0e9491fb90a53298eb8594e90649c81a541988654597f06cbbfd2e65f4209fbf",
+        "bytes": 15824
+      },
+      {
+        "file": "models/kenney-food-pot-stew-lid/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "eec11887575a8bdc0ead284d8032fddd365108af25750b09bb317a4710afc946",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.6574494242668152,
+      0.6252716183662415,
+      0.11840000748634338
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "5e99c47e2203d123e8b82dbc132fb1469ae14651bc855b1e91283cf27c3b25a1",
+      "triangles": 176
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

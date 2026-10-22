@@ -1,0 +1,39 @@
+{
+  "dimensionsBlender": [
+    0.37945008277893066,
+    0.403613418340683,
+    0.307391494512558
+  ],
+  "meshObjects": 1,
+  "polygons": 140,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "6ec1db20d0d1900ed72ff66cb836fe0b0b6bcf63387fb0ff1c15ff80b7647a5c",
+  "sourceFile": "Models/GLB format/cabbage.glb",
+  "id": "kenney-food-cabbage",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      0.37945008277893066,
+      0.403613418340683,
+      0.307391494512558
+    ],
+    "meshObjects": 1,
+    "polygons": 140,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 4.03613418340683e-05,
+  "selfContained": true,
+  "glbSha256": "8c68244e6e0d1d19c7c36ed9d48b8827f012b758d38c3cfdba5b0c9e2c3d36b6",
+  "images": {
+    "source-back.png": "7f3a6ce8b28bd4a72fe153741ff10042a57897e7af4d6c6504ef569b973da68d",
+    "source-side.png": "528e9c76634f0db529b87499250b8a9a97436abc9b4e4c8bb208f5cb9dc883ef",
+    "source-front.png": "1616ebb3df7607d0552a751328114820618b1f2db93236327ec897d648f50c99",
+    "reimport-three-quarter.png": "db37396a00996d910da5226e0af103d034e7db591d21ed3cfeb46f02d99bdac4",
+    "source-three-quarter.png": "63864b9a53a71851a64ef642f6b7a6b963da56face1448b22bc7a9c70166555c",
+    "source-wireframe.png": "58eeb3dafb6b0cc632861af52407f5f72fe5f502bd44983d7d3da011cdc87694"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

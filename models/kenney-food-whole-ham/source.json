@@ -1,0 +1,23 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"whole-ham\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "Creator": {
+    "Username": "Kenney"
+  },
+  "Title": "whole-ham",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "sourceMember": "Models/GLB format/whole-ham.glb",
+  "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+  "originalFiles": [
+    {
+      "file": "models/kenney-food-whole-ham/original/whole-ham.glb",
+      "sha256": "a96903e780992a8036b4e98353999e8a527c493ddc2e3963bc070403ab273b6a",
+      "bytes": 11752
+    },
+    {
+      "file": "models/kenney-food-whole-ham/original/Textures/colormap.png",
+      "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+      "bytes": 10715
+    }
+  ]
+}

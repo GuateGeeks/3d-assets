@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-crops-bamboostagea",
+  "assetId": "kenney:kenney-nature/crops_bambooStageA",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "crops · bamboo Stage A",
+  "titleOriginal": "crops_bambooStageA",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "crops_bambooStageA",
+    "kenney-nature",
+    "nature-crops-bamboo"
+  ],
+  "areas": [
+    "alimentos-agricultura",
+    "bosques-plantas"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"crops_bambooStageA\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-crops-bamboostagea/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-crops-bamboostagea/source.json",
+  "originalDownload": "models/kenney-nature-crops-bamboostagea/originals.zip",
+  "bytes": 22092,
+  "sha256": "7bafbd69c78b1f6b92fe72e8fd6d1b6ea4b25d6af141c0baa85c27b60aa34e41",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/crops_bambooStageA.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-crops-bamboostagea/original/crops_bambooStageA.glb",
+        "sha256": "7bafbd69c78b1f6b92fe72e8fd6d1b6ea4b25d6af141c0baa85c27b60aa34e41",
+        "bytes": 22092
+      }
+    ],
+    "originalDownloadSha256": "667ceea496304adf7001f4b3def7df9ad0bae7dbfee212082c7876744ce3683a",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.34009456634521484,
+      0.30800777673721313,
+      0.5489999651908875
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "58a468705f986a3c23ba08d396d929cfd9079773e7f6c0b6c17689d7c811933c",
+      "triangles": 276
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

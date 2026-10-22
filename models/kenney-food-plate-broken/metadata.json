@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-plate-broken",
+  "assetId": "kenney:kenney-food/plate-broken",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "plate broken",
+  "titleOriginal": "plate-broken",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "plate-broken",
+    "kenney-food",
+    "food-plate"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"plate-broken\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-plate-broken/model.glb",
+  "sourceMetadataFile": "models/kenney-food-plate-broken/source.json",
+  "originalDownload": "models/kenney-food-plate-broken/originals.zip",
+  "bytes": 43940,
+  "sha256": "8e3ea0276d5f3c09e639cdb2a66be21df739d5b916af20239044a34ec12a7a53",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 8,
+    "nodes": 8,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/plate-broken.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-plate-broken/original/plate-broken.glb",
+        "sha256": "e2ea6a7d9fb93c3f3a5a23aa8ead465a0503b18606facc2f0995e309c642ed03",
+        "bytes": 33220
+      },
+      {
+        "file": "models/kenney-food-plate-broken/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "fb746252e0916b5b651d9595b2076ca333c3ef206a4a2ba02d8c34f901910bcd",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.8917739391326904,
+      0.8917739391326904,
+      0.08999999612569809
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "b89ae972b77d6c65df5f0c5d99f09a8baf0886ba4ec0d8b63ef0bae6ee42a136",
+      "triangles": 336
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

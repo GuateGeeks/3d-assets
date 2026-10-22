@@ -1,0 +1,117 @@
+{
+  "id": "kenney-buildings-door-white-window",
+  "assetId": "kenney:kenney-buildings/door-white-window",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "door white window",
+  "titleOriginal": "door-white-window",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Modular Buildings. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Architecture",
+  "tags": [
+    "door-white-window",
+    "kenney-buildings",
+    "architecture-door"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"door-white-window\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-buildings-door-white-window/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-door-white-window/source.json",
+  "originalDownload": "models/kenney-buildings-door-white-window/originals.zip",
+  "bytes": 11680,
+  "sha256": "69f27219a986e6518fb33c3e810d2ea0cc70d64a03bbbfc20d5a37106f25e8c1",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Modular Buildings",
+    "sourceMember": "Models/GLB format/door-white-window.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-door-white-window/original/door-white-window.glb",
+        "sha256": "dc465c78d70faac302bfba0b52a1289aa89b9a7ba78c96770b86c53e92a82b41",
+        "bytes": 4092
+      },
+      {
+        "file": "models/kenney-buildings-door-white-window/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "32c5678aa6adda8db6d89e0a88c99db35bd816753cc615c78b6f548dcbbbeb8c",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "kits/kenney-buildings/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.25,
+      0.05000000074505806,
+      0.5
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "cd99f8c2b5a5a6bbb9a9a0384cab912233281c4f55d9292d63ca124ace4e4501",
+      "triangles": 28
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

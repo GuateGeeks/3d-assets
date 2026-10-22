@@ -1,0 +1,60 @@
+{
+  "id": "oga-robot",
+  "title": "Animated LowPoly Robot",
+  "providerId": "opengameart",
+  "provider": "OpenGameArt",
+  "author": "Quaternius",
+  "sourceUrl": "https://opengameart.org/node/89467",
+  "downloadUrl": "https://opengameart.org/sites/default/files/Animated%20Robot%20-%20Oct%202018.zip",
+  "file": "kits/oga-robot/original.zip",
+  "sha256": "5128d2cf906835895b931f6c1e764296ba2e01d3a30d809035fc6c1ee8a1c1ee",
+  "bytes": 7015900,
+  "licenseRaw": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseFile": "kits/oga-robot/LICENSE.txt",
+  "retrievedAt": "2026-10-22T22:55:04.680917+00:00",
+  "pageSnapshotSha256": "19592705a78bcd650927143b12e5b5ccfb172e7acf9f046853cadeb236b55089",
+  "attribution": "Animated LowPoly Robot — Quaternius. https://opengameart.org/node/89467. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/",
+  "members": [
+    {
+      "file": "Animated Robot - Oct 2018/Blend/Robot.blend",
+      "bytes": 1899312,
+      "sha256": "06689f194aba7af110b10cb0a3fb8d42bfd70dd6dc6f4bc9a231c51f314a84b0"
+    },
+    {
+      "file": "Animated Robot - Oct 2018/FBX/Robot.fbx",
+      "bytes": 3297804,
+      "sha256": "38afb56db7fb17a74d30f0afc8adb5f00441a94e65d6b8ac1958732480f79eb8"
+    },
+    {
+      "file": "Animated Robot - Oct 2018/License.txt",
+      "bytes": 364,
+      "sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c"
+    },
+    {
+      "file": "Animated Robot - Oct 2018/OBJ/Robot.mtl",
+      "bytes": 586,
+      "sha256": "34bd55c15149712e52798abc196827ccca56b8bad53c145f9523cca62ade553d"
+    },
+    {
+      "file": "Animated Robot - Oct 2018/OBJ/Robot.obj",
+      "bytes": 172431,
+      "sha256": "ec8b63524aeca072ff7f6b69a911e3ea851e6b33aa9f26edd3786e3d5b9ec51e"
+    },
+    {
+      "file": "Animated Robot - Oct 2018/Preview.gif",
+      "bytes": 6055936,
+      "sha256": "c4b2fa71f64ff5e57c98e9ae6695ba51744dd225faa46e22ed3e1dcad5c3e558"
+    }
+  ],
+  "assets": [
+    {
+      "sourceMember": "Animated Robot - Oct 2018/Blend/Robot.blend",
+      "sourceName": "Robot",
+      "modelId": "oga-robot-robot",
+      "relation": "unique-or-variant"
+    }
+  ],
+  "logicalModels": 1,
+  "pageSnapshotFile": "sources/external/oga-robot/page.html"
+}

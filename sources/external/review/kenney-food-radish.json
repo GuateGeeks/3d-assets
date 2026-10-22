@@ -1,0 +1,39 @@
+{
+  "dimensionsBlender": [
+    0.34314197301864624,
+    0.34314197301864624,
+    0.5763037204742432
+  ],
+  "meshObjects": 1,
+  "polygons": 166,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "9cad692ec80a03d726a9ff7e284e99407ebc91e54102ebbadebcbcdcbca922e3",
+  "sourceFile": "Models/GLB format/radish.glb",
+  "id": "kenney-food-radish",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      0.34314197301864624,
+      0.34314197301864624,
+      0.5763037204742432
+    ],
+    "meshObjects": 1,
+    "polygons": 166,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 5.763037204742432e-05,
+  "selfContained": true,
+  "glbSha256": "0878b3ce32d404b0aa1ade7e75959e3468ec31f66206b49d1397bd45ac7a4d2d",
+  "images": {
+    "source-back.png": "051e93a36cac7f7d8774fa4f92b38b8fa5464a5aa8c51e93e719463d9b4a1471",
+    "source-side.png": "9b7cf61eadb017bf1b0edb4332f9f6b4bd2fe5c5ae068ef14411bd7fb2c24537",
+    "source-front.png": "d820c8eac80259d96be53855fa6d75678c3929aee680fa861ea380facdeeb39e",
+    "reimport-three-quarter.png": "e1939dfcb7fff23f22924ea8b03d45787e12b7186c7725a26dc4d2aa44b62a30",
+    "source-three-quarter.png": "ae6e13fb065be51745603fbaa5d1fa31cc6d4bb9ca6a7c2ecf8bdadf0d067b05",
+    "source-wireframe.png": "01a877838a40230e6ab90544e7050e2ac124626a5c20b16fdaf5b159ef888df7"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "kenney-nature-cliff-blockslopewalls-rock",
+  "assetId": "kenney:kenney-nature/cliff_blockSlopeWalls_rock",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "cliff · block Slope Walls · rock",
+  "titleOriginal": "cliff_blockSlopeWalls_rock",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "cliff_blockSlopeWalls_rock",
+    "kenney-nature",
+    "nature-cliff"
+  ],
+  "areas": [
+    "tierra-geografia",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"cliff_blockSlopeWalls_rock\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-cliff-blockslopewalls-rock/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-cliff-blockslopewalls-rock/source.json",
+  "originalDownload": "models/kenney-nature-cliff-blockslopewalls-rock/originals.zip",
+  "bytes": 8900,
+  "sha256": "055776add47ad3a13c53900a728ace7533c02f7afa27fdb57557ca117d44a55d",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/cliff_blockSlopeWalls_rock.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-cliff-blockslopewalls-rock/original/cliff_blockSlopeWalls_rock.glb",
+        "sha256": "055776add47ad3a13c53900a728ace7533c02f7afa27fdb57557ca117d44a55d",
+        "bytes": 8900
+      }
+    ],
+    "originalDownloadSha256": "344e00b2ad28f8f8f6cdfcb0bc8cdcf5d45ea20a351325d739efca8c2a07869b",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "e9cee063ea6c496795b2b8532035211592904236ae21ce3523d2242f562246bc",
+      "triangles": 106
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

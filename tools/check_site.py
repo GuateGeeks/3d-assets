@@ -3,6 +3,8 @@ from pathlib import Path
 import hashlib,json,re,sys
 ROOT=Path(__file__).resolve().parents[1]
 SITE=ROOT/'_site'
+from reindex import records
+records()  # Includes integrity of source files and QA gates for external resources.
 models=json.loads((ROOT/'index.json').read_text(encoding='utf-8'))['models']
 if len({m['id'] for m in models})!=len(models): raise SystemExit('Duplicate IDs')
 for m in models:
@@ -17,6 +19,28 @@ for m in models:
     thumb=ROOT/'gallery/thumbnails'/(m['id']+'.webp')
     if thumb.read_bytes()[:4]!=b'RIFF': raise SystemExit('Missing thumbnail')
     if SITE.exists() and (SITE/m['file']).read_bytes()!=data: raise SystemExit('Build model mismatch')
+kit_path=ROOT/'kits/index.json'
+if kit_path.exists():
+    import zipfile
+    model_ids={m['id'] for m in models}
+    for kit in json.loads(kit_path.read_text(encoding='utf-8'))['kits']:
+        archive=(ROOT/kit['file']).resolve()
+        if not archive.is_relative_to((ROOT/'kits').resolve()) or hashlib.sha256(archive.read_bytes()).hexdigest()!=kit['sha256']: raise SystemExit('Kit integrity mismatch')
+        if not (ROOT/kit['licenseFile']).is_file() or not kit['attribution']: raise SystemExit('Missing kit license/credit')
+        if hashlib.sha256((ROOT/kit['pageSnapshotFile']).read_bytes()).hexdigest()!=kit['pageSnapshotSha256']: raise SystemExit('Kit source page changed')
+        with zipfile.ZipFile(archive) as z:
+            for member in kit['members']:
+                raw=z.read(member['file'])
+                if len(raw)!=member['bytes'] or hashlib.sha256(raw).hexdigest()!=member['sha256']: raise SystemExit('Kit member integrity mismatch')
+        if any(a['modelId'] not in model_ids for a in kit.get('assets',[])): raise SystemExit('Kit model link mismatch')
+        if SITE.exists() and (SITE/kit['file']).read_bytes()!=archive.read_bytes(): raise SystemExit('Built kit mismatch')
+    if (ROOT/'kits/groups.json').exists():
+        groups=json.loads((ROOT/'kits/groups.json').read_text(encoding='utf-8'))
+        if any(not set(g['modelIds'])<=model_ids for g in groups['groups']): raise SystemExit('Unknown variant ID')
+external=ROOT/'sources/external' 
+if external.exists() and SITE.exists():
+    for p in external.rglob('*'):
+        if p.is_file() and (SITE/p.relative_to(ROOT)).read_bytes()!=p.read_bytes(): raise SystemExit('External evidence build mismatch')
 manifest=json.loads((ROOT/'gallery/dependencies.json').read_text(encoding='utf-8'))
 for m in manifest['thumbnails']:
     if m.get('error') or hashlib.sha256((ROOT/m['file']).read_bytes()).hexdigest()!=m['sha256']: raise SystemExit('Thumbnail integrity mismatch')

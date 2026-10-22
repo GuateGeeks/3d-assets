@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-pumpkin-basic",
+  "assetId": "kenney:kenney-food/pumpkin-basic",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "pumpkin basic",
+  "titleOriginal": "pumpkin-basic",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "pumpkin-basic",
+    "kenney-food",
+    "food-pumpkin"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"pumpkin-basic\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-pumpkin-basic/model.glb",
+  "sourceMetadataFile": "models/kenney-food-pumpkin-basic/source.json",
+  "originalDownload": "models/kenney-food-pumpkin-basic/originals.zip",
+  "bytes": 19248,
+  "sha256": "3ff1c3be804d23d3827d56ea90ed40e0fb69f670a7ccafa7e1c5837e76309a02",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/pumpkin-basic.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-pumpkin-basic/original/pumpkin-basic.glb",
+        "sha256": "a6148a344c2dcf9e464ebb870f7107ae5b611c6ba9bb2254e363fafdfbbc2ec9",
+        "bytes": 8484
+      },
+      {
+        "file": "models/kenney-food-pumpkin-basic/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "207b9d3d8dcbd39bf7d4c5009238f35f3b1852118dd3f5f0bf9f7885f6263f63",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.41999998688697815,
+      0.36373066902160645,
+      0.29899999499320984
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "d3cc6483228d6291b4d3bfcf45683d0889d0e1bac049a7c280b1b3ac200e3f63",
+      "triangles": 80
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

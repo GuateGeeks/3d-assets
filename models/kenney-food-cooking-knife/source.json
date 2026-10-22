@@ -1,0 +1,23 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"cooking-knife\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "Creator": {
+    "Username": "Kenney"
+  },
+  "Title": "cooking-knife",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "sourceMember": "Models/GLB format/cooking-knife.glb",
+  "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+  "originalFiles": [
+    {
+      "file": "models/kenney-food-cooking-knife/original/cooking-knife.glb",
+      "sha256": "4bec734243cb3e8fa636e17a4ef27828bdaecfc8ac23bd847b9b86f6945cb4d2",
+      "bytes": 5380
+    },
+    {
+      "file": "models/kenney-food-cooking-knife/original/Textures/colormap.png",
+      "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+      "bytes": 10715
+    }
+  ]
+}

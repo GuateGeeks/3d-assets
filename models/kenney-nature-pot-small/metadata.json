@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-pot-small",
+  "assetId": "kenney:kenney-nature/pot_small",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "pot · small",
+  "titleOriginal": "pot_small",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "pot_small",
+    "kenney-nature",
+    "nature-pot"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"pot_small\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-pot-small/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-pot-small/source.json",
+  "originalDownload": "models/kenney-nature-pot-small/originals.zip",
+  "bytes": 7004,
+  "sha256": "1141d9e16099c2103f1a177de0cae4ea979a3246439e33074923e4cfe3098df8",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/pot_small.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-pot-small/original/pot_small.glb",
+        "sha256": "1141d9e16099c2103f1a177de0cae4ea979a3246439e33074923e4cfe3098df8",
+        "bytes": 7004
+      }
+    ],
+    "originalDownloadSha256": "b25fcd41e1d82fe1786cac18e836fde0621d1d0d8e99c3ee0603d136a33c8e52",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.32344961166381836,
+      0.2801155745983124,
+      0.2679999768733978
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "d151a20c9d5ca5bf2c2559b9457fd6c8335a6448531ff4e4882d1226c5ce3c12",
+      "triangles": 72
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

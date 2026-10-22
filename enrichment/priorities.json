@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "providerAssignment": "Hipótesis de búsqueda, no disponibilidad confirmada de estos objetos.",
+  "items": [
+    {
+      "id": "guatemala-verified",
+      "priority": 0,
+      "areas": [
+        "guatemala-contexto",
+        "animales-biodiversidad",
+        "bosques-plantas",
+        "alimentos-agricultura",
+        "arte-musica",
+        "historia-patrimonio"
+      ],
+      "queries": [
+        "quetzal Pharomachrus mocinno",
+        "tapir Tapirus bairdii",
+        "ceiba Ceiba pentandra",
+        "cacao Theobroma cacao",
+        "marimba Guatemala",
+        "Tikal documented reconstruction"
+      ],
+      "providers": [
+        "sketchfab",
+        "smithsonian",
+        "opengameart"
+      ],
+      "acceptance": "Identificación específica y fuente documental; no sustituir por loro, pecarí, bambú, café, xilófono ni templo genérico.",
+      "status": "planned",
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "candidateCount": 0
+    },
+    {
+      "id": "anatomy-verified",
+      "priority": 0,
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "queries": [
+        "human lungs",
+        "human heart anatomical",
+        "human brain anatomical"
+      ],
+      "providers": [
+        "sketchfab",
+        "smithsonian",
+        "opengameart"
+      ],
+      "acceptance": "Identificación anatómica y revisión docente; representación simplificada debe declararse. No confundir chest con pulmones.",
+      "status": "planned",
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "candidateCount": 0
+    },
+    {
+      "id": "physics-machines",
+      "priority": 0,
+      "areas": [
+        "fisica-energia",
+        "robotica-electronica"
+      ],
+      "queries": [
+        "pulley mechanism",
+        "electric motor",
+        "gears mechanism"
+      ],
+      "providers": [
+        "sketchfab",
+        "opengameart"
+      ],
+      "acceptance": "Piezas y función reconocibles; ejes y pivotes útiles para control. No confundir motor con motocicleta.",
+      "status": "planned",
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "candidateCount": 0
+    },
+    {
+      "id": "playable-animation",
+      "priority": 1,
+      "areas": [
+        "personajes-animacion",
+        "animales-biodiversidad"
+      ],
+      "queries": [
+        "rigged character idle walk run jump",
+        "animated quadruped idle walk run"
+      ],
+      "providers": [
+        "opengameart",
+        "sketchfab",
+        "quaternius"
+      ],
+      "acceptance": "Skins, joints y clips inspeccionados; reproducción real y ausencia de deformaciones graves. Licencia debe permitir derivados si se crea rig o animación.",
+      "status": "planned",
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "candidateCount": 0
+    },
+    {
+      "id": "coherent-scene-packs",
+      "priority": 1,
+      "areas": [
+        "bosques-plantas",
+        "alimentos-agricultura",
+        "comunidad-ciudadania",
+        "escenarios-videojuegos"
+      ],
+      "queries": [
+        "nature kit",
+        "food kit",
+        "modular buildings"
+      ],
+      "providers": [
+        "kenney"
+      ],
+      "acceptance": "Conjuntos visualmente coherentes; seleccionar piezas útiles después de deduplicar. No contar versiones de formato como objetos nuevos.",
+      "status": "planned",
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "candidateCount": 0
+    },
+    {
+      "id": "documented-science",
+      "priority": 2,
+      "areas": [
+        "espacio-astronomia",
+        "laboratorio-ciencia",
+        "historia-patrimonio"
+      ],
+      "queries": [
+        "spacecraft instrument",
+        "scientific specimen",
+        "documented historical object"
+      ],
+      "providers": [
+        "nasa",
+        "smithsonian",
+        "polyhaven"
+      ],
+      "acceptance": "Fuente, autor, unidad y escala registradas; derivado web y precisión revisados antes de publicación.",
+      "status": "planned",
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "candidateCount": 0
+    }
+  ]
+}

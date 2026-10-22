@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-maki-vegetable",
+  "assetId": "kenney:kenney-food/maki-vegetable",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "maki vegetable",
+  "titleOriginal": "maki-vegetable",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "maki-vegetable",
+    "kenney-food",
+    "food-maki"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"maki-vegetable\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-maki-vegetable/model.glb",
+  "sourceMetadataFile": "models/kenney-food-maki-vegetable/source.json",
+  "originalDownload": "models/kenney-food-maki-vegetable/originals.zip",
+  "bytes": 16876,
+  "sha256": "91a1892a97ccd69fa6a3e4caf80c349392b6e091356db9c20d8d3670e8bb7eaa",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/maki-vegetable.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-maki-vegetable/original/maki-vegetable.glb",
+        "sha256": "1594d0e3d2502dadf4a1e4a318aadb89f697ebd988f97bf7101451e97e5fec2c",
+        "bytes": 6108
+      },
+      {
+        "file": "models/kenney-food-maki-vegetable/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "26c8c2a9833da99663e3112f8a03c962da2b156a2d46b23d4cbda42d90dd80a3",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.12000000476837158,
+      0.10392305254936218,
+      0.07000000029802322
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "6f9b9ddbfca7bbd5c2af7d034127be7bb3b3da5ceee620fb1ae2089d66341277",
+      "triangles": 56
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

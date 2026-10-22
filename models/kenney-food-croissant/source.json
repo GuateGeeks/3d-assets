@@ -1,0 +1,23 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"croissant\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "Creator": {
+    "Username": "Kenney"
+  },
+  "Title": "croissant",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "sourceMember": "Models/GLB format/croissant.glb",
+  "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+  "originalFiles": [
+    {
+      "file": "models/kenney-food-croissant/original/croissant.glb",
+      "sha256": "f2f8ee64d7850b262a6af2492cd042fa8eb6506cde49d439360ad1a3df48fe9e",
+      "bytes": 14352
+    },
+    {
+      "file": "models/kenney-food-croissant/original/Textures/colormap.png",
+      "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+      "bytes": 10715
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "kenney-nature-flower-redc",
+  "assetId": "kenney:kenney-nature/flower_redC",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "flower · red C",
+  "titleOriginal": "flower_redC",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "flower_redC",
+    "kenney-nature",
+    "nature-flower"
+  ],
+  "areas": [
+    "bosques-plantas",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"flower_redC\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-flower-redc/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-flower-redc/source.json",
+  "originalDownload": "models/kenney-nature-flower-redc/originals.zip",
+  "bytes": 7600,
+  "sha256": "5a5c9c8572e8f56287ee1f5f836f98ac08e275f31325b4bc91d2832bc142ceb7",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/flower_redC.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-flower-redc/original/flower_redC.glb",
+        "sha256": "5a5c9c8572e8f56287ee1f5f836f98ac08e275f31325b4bc91d2832bc142ceb7",
+        "bytes": 7600
+      }
+    ],
+    "originalDownloadSha256": "4050f4a8c726c242f69470946fbd238d875cc4d00968d6e83a4d16a5b3680b40",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.18059700727462769,
+      0.1810590624809265,
+      0.23250000178813934
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "f5185784161ac4a61b7733458d129cf1e756f2e32898c265a3f64685eb154857",
+      "triangles": 78
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

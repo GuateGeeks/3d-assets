@@ -1,0 +1,113 @@
+{
+  "id": "oga-animals-dog",
+  "assetId": "opengameart:oga-animals/Dog",
+  "providerId": "opengameart",
+  "provider": "OpenGameArt",
+  "title": "Dog",
+  "titleOriginal": "Dog",
+  "author": "Quaternius",
+  "authorUrl": "https://opengameart.org/users/quaternius",
+  "sourceUrl": "https://opengameart.org/content/animated-animales-low-poly",
+  "metadataUrl": null,
+  "downloadUrl": "https://opengameart.org/sites/default/files/Animal%20Pack%20Vol.2%20by%20%40Quaternius.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Animated Animales Low Poly. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Characters",
+  "tags": [
+    "Dog",
+    "oga-animals",
+    "character-dog"
+  ],
+  "areas": [
+    "animales-biodiversidad",
+    "personajes-animacion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Dog\" de Animated Animales Low Poly, por Quaternius. https://opengameart.org/content/animated-animales-low-poly. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Blender 5.2.3 LTS: BLEND convertido a GLB; materiales antiguos convertidos a PBR conservando el color difuso; restricciones de rig horneadas a curvas cuando el exportador lo requiere; dimensiones de reposo comprobadas; originales conservados.",
+  "file": "models/oga-animals-dog/model.glb",
+  "sourceMetadataFile": "models/oga-animals-dog/source.json",
+  "originalDownload": "models/oga-animals-dog/originals.zip",
+  "bytes": 146364,
+  "sha256": "1a0f4622493aea18eb95bccc2128236869fce16fb24fffb2049c2aebb0235a33",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 26,
+    "materials": 1,
+    "skins": 1,
+    "joints": 24,
+    "rigged": true,
+    "animated": true,
+    "animations": 2,
+    "animationNames": [
+      "Idle",
+      "Walking"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:55:07.015562+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "provenance": {
+    "pack": "Animated Animales Low Poly",
+    "sourceMember": "Animal Pack Vol.2 by @Quaternius/Blends/Dog.blend",
+    "originalFiles": [
+      {
+        "file": "models/oga-animals-dog/original/Dog.blend",
+        "sha256": "46442b696ea11ad8d4442a1c2d7f529c23bd0e10c2157262600a6fa1535cf2cf",
+        "bytes": 772232
+      }
+    ],
+    "originalDownloadSha256": "2a2203282dc1afa3460a09eea800e32e6ede06272e8477d45a1af502cdf5a74a",
+    "archiveSha256": "6d8f6789d65dbdb352ebad98a4209f26b41b384e87d81bc05e9ca76139db1248",
+    "licenseEvidence": "kits/oga-animals/LICENSE.txt",
+    "conversionTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      6.909321308135986,
+      2.126405715942383,
+      4.3827104568481445
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "40e498d78eb718181628f5ee683873382ebb26673939d3312b05072bc7df8b92",
+      "triangles": 602
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-stump-square",
+  "assetId": "kenney:kenney-nature/stump_square",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "stump · square",
+  "titleOriginal": "stump_square",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "stump_square",
+    "kenney-nature",
+    "nature-stump"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"stump_square\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-stump-square/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-stump-square/source.json",
+  "originalDownload": "models/kenney-nature-stump-square/originals.zip",
+  "bytes": 4584,
+  "sha256": "bf46b38e2899ee4f2046be166d1cedd157f021a771c4b3ef235aa7de4f56a873",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/stump_square.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-stump-square/original/stump_square.glb",
+        "sha256": "bf46b38e2899ee4f2046be166d1cedd157f021a771c4b3ef235aa7de4f56a873",
+        "bytes": 4584
+      }
+    ],
+    "originalDownloadSha256": "0638a2ac2e63d391befc44fba77589a9b82e21521d6d93c9d01ce27e113b3ae6",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.35958683490753174,
+      0.30000001192092896,
+      0.30000001192092896
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "40cd27750e785c972affa968ada453f3017302e47644b26f5b9b668b3e848e16",
+      "triangles": 44
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

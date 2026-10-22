@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-fence-simplelow",
+  "assetId": "kenney:kenney-nature/fence_simpleLow",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "fence · simple Low",
+  "titleOriginal": "fence_simpleLow",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "fence_simpleLow",
+    "kenney-nature",
+    "nature-fence"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"fence_simpleLow\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-fence-simplelow/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-fence-simplelow/source.json",
+  "originalDownload": "models/kenney-nature-fence-simplelow/originals.zip",
+  "bytes": 4312,
+  "sha256": "f48ce73576b4976da6416f4b4c1e221cb4b617dba6f9f52affda283910f75755",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/fence_simpleLow.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-fence-simplelow/original/fence_simpleLow.glb",
+        "sha256": "f48ce73576b4976da6416f4b4c1e221cb4b617dba6f9f52affda283910f75755",
+        "bytes": 4312
+      }
+    ],
+    "originalDownloadSha256": "b23f774bdbe21ffe13c959d98f71b1639065c2e13b8ba8e4f302cefa08e75190",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.041205883026123,
+      0.11120572686195374,
+      0.19502730667591095
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "9bd6837986c031030644217d4391c294f18f5560bd8a94064fe2fa307af9889d",
+      "triangles": 44
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

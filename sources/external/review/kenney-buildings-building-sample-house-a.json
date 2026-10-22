@@ -1,0 +1,39 @@
+{
+  "dimensionsBlender": [
+    1.0956428050994873,
+    2.0,
+    1.1437499523162842
+  ],
+  "meshObjects": 1,
+  "polygons": 312,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "28fae63b748ee8610174092c1d648a2b913a0c5f1ba07426656571766c69b415",
+  "sourceFile": "Models/GLB format/building-sample-house-a.glb",
+  "id": "kenney-buildings-building-sample-house-a",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      1.0956428050994873,
+      2.0,
+      1.1437499523162842
+    ],
+    "meshObjects": 1,
+    "polygons": 312,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0002,
+  "selfContained": true,
+  "glbSha256": "923e59caaa42e6ea942ef2bd0d59243d70681f41b7de4e164655b520573998f9",
+  "images": {
+    "source-back.png": "9ccc709a789eaf9ab531473cdd1a990a846bf902ac26d865c21719b663799d3f",
+    "source-side.png": "5b4ad28b61a88a5570a7a9bcd34387f6a978f4190196c4baf595471360a29d3f",
+    "source-front.png": "d82f381963156b9c7380e5d2a1a2ee4f1172856104c8a65292b61d6262100195",
+    "reimport-three-quarter.png": "d59aaa3a9092efda37dc86fe0731d52833a69075027bbf4ad347e4c0264c9b1b",
+    "source-three-quarter.png": "6cb3c5a9bde4b8bc64590de4d4533e5c06b09d94caaa9c7fe685e3da8a3b7f7b",
+    "source-wireframe.png": "3c46e8f8e65fac5dbd99bbd9a702d3343fb206d85dccd18a344c5021f64d2fda"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

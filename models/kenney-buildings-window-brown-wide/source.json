@@ -1,0 +1,23 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"window-brown-wide\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "Creator": {
+    "Username": "Kenney"
+  },
+  "Title": "window-brown-wide",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "sourceMember": "Models/GLB format/window-brown-wide.glb",
+  "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+  "originalFiles": [
+    {
+      "file": "models/kenney-buildings-window-brown-wide/original/window-brown-wide.glb",
+      "sha256": "b7e764d76093277316740b15d903491907e224f437abc24a00511c8cf9ef0403",
+      "bytes": 4516
+    },
+    {
+      "file": "models/kenney-buildings-window-brown-wide/original/Textures/colormap.png",
+      "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+      "bytes": 7529
+    }
+  ]
+}

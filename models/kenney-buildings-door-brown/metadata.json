@@ -1,0 +1,117 @@
+{
+  "id": "kenney-buildings-door-brown",
+  "assetId": "kenney:kenney-buildings/door-brown",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "door brown",
+  "titleOriginal": "door-brown",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Modular Buildings. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Architecture",
+  "tags": [
+    "door-brown",
+    "kenney-buildings",
+    "architecture-door"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"door-brown\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-buildings-door-brown/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-door-brown/source.json",
+  "originalDownload": "models/kenney-buildings-door-brown/originals.zip",
+  "bytes": 11660,
+  "sha256": "009eef34d454a57df90a0d1062ceb1b476f25421f33a6cfaa51f98db7cd28185",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Modular Buildings",
+    "sourceMember": "Models/GLB format/door-brown.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-door-brown/original/door-brown.glb",
+        "sha256": "05d107b6443dd210c451ae176db2fb2cc0f1c1729259aea7fbd26e89b6d769e0",
+        "bytes": 4072
+      },
+      {
+        "file": "models/kenney-buildings-door-brown/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "c044e99baed92832ebb11d2a6b8216ef6059ea10d217173a0e0123f02449369a",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "kits/kenney-buildings/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.25,
+      0.05000000074505806,
+      0.5
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "dfda738f8b5966fcad9bf38b5367a8617ddca64351dce9c4c13fc947309a586e",
+      "triangles": 28
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

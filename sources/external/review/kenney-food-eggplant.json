@@ -1,0 +1,39 @@
+{
+  "dimensionsBlender": [
+    0.20403574407100677,
+    0.21555663645267487,
+    0.405198335647583
+  ],
+  "meshObjects": 1,
+  "polygons": 124,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "79bcfd8f2368e6dfe5809f193d28bdef382da3b11a29a465ff364e3ef90a6f2e",
+  "sourceFile": "Models/GLB format/eggplant.glb",
+  "id": "kenney-food-eggplant",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      0.20403574407100677,
+      0.21555663645267487,
+      0.405198335647583
+    ],
+    "meshObjects": 1,
+    "polygons": 124,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 4.0519833564758304e-05,
+  "selfContained": true,
+  "glbSha256": "52de84962608e2d43d2b0eb72f38e1be176810948af21de0d5bb8f9fc15ec5a2",
+  "images": {
+    "source-back.png": "acf2c9febc2911ef60bd9e552222886056d6276200f6393583a9866323bdd19a",
+    "source-side.png": "52bf32392ea0587af06120121374551095d30efa6184932666888646ebd354ac",
+    "source-front.png": "ce8cf32258b460d9155fc45d86d6a18fd8016cc12a7af5cf8f167ef7e4445896",
+    "reimport-three-quarter.png": "5989d8e0b6d28d05c7ae4626dc8910c5cf1e7683b08973a9f69f5909f130b904",
+    "source-three-quarter.png": "cc38321e1b6baad2618c12e757a7429f06abf86341ad31a33c3fa35893410a8b",
+    "source-wireframe.png": "a2ce6c2835f68238f4927808d2700b4313a74d853edb36c224d3cb7d2e1fb3b5"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

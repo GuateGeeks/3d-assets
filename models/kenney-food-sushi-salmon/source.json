@@ -1,0 +1,23 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"sushi-salmon\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "Creator": {
+    "Username": "Kenney"
+  },
+  "Title": "sushi-salmon",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "sourceMember": "Models/GLB format/sushi-salmon.glb",
+  "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+  "originalFiles": [
+    {
+      "file": "models/kenney-food-sushi-salmon/original/sushi-salmon.glb",
+      "sha256": "c68c1364b8a1caba3c57c40ed68b767464c637e10c5e1e4c9428a69ab7819013",
+      "bytes": 8852
+    },
+    {
+      "file": "models/kenney-food-sushi-salmon/original/Textures/colormap.png",
+      "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+      "bytes": 10715
+    }
+  ]
+}

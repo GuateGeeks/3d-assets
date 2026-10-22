@@ -1,0 +1,479 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GuateGeeks external model candidate",
+  "description": "Registro de ingreso; cumplir el esquema no autoriza publicación. Los permisos null quedan pendientes.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "assetId",
+    "providerId",
+    "sourceUid",
+    "sourceUrl",
+    "titleOriginal",
+    "authors",
+    "areas",
+    "products",
+    "retrievedAt",
+    "licenses",
+    "attribution",
+    "originalFiles",
+    "deduplication",
+    "derivatives",
+    "review",
+    "publication"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "assetId": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+:[A-Za-z0-9_./-]+$"
+    },
+    "providerId": {
+      "enum": [
+        "kenney",
+        "opengameart",
+        "sketchfab",
+        "polyhaven",
+        "smithsonian",
+        "nasa",
+        "quaternius"
+      ]
+    },
+    "sourceUid": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "titleOriginal": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "areas": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "personajes-animacion",
+          "animales-biodiversidad",
+          "bosques-plantas",
+          "agua-oceanos",
+          "tierra-geografia",
+          "espacio-astronomia",
+          "laboratorio-ciencia",
+          "cuerpo-salud",
+          "alimentos-agricultura",
+          "matematicas-medicion",
+          "fisica-energia",
+          "robotica-electronica",
+          "computacion-redes",
+          "escuela-lenguaje",
+          "comunidad-ciudadania",
+          "transporte-movilidad",
+          "historia-patrimonio",
+          "arte-musica",
+          "deporte-recreacion",
+          "oficios-productividad",
+          "ambiente-sostenibilidad",
+          "escenarios-videojuegos",
+          "guatemala-contexto"
+        ]
+      }
+    },
+    "products": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "code-studio",
+          "socrates"
+        ]
+      }
+    },
+    "retrievedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "licenses": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "raw",
+          "id",
+          "url",
+          "evidence",
+          "permissions",
+          "restrictions",
+          "selectedAlternative"
+        ],
+        "properties": {
+          "raw": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "selectedAlternative": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "restrictions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "file",
+                "sha256",
+                "sourceUrl",
+                "capturedAt"
+              ],
+              "properties": {
+                "file": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "sourceUrl": {
+                  "type": "string",
+                  "format": "uri",
+                  "pattern": "^https://"
+                },
+                "capturedAt": {
+                  "type": "string",
+                  "format": "date-time"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "permissions": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "download",
+              "redistributeOriginal",
+              "redistributeDerivative",
+              "commercialUse",
+              "attributionRequired",
+              "shareAlike"
+            ],
+            "properties": {
+              "download": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "redistributeOriginal": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "redistributeDerivative": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "commercialUse": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "attributionRequired": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "shareAlike": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "attribution": {
+      "type": "string",
+      "minLength": 1
+    },
+    "originalFiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "file",
+          "sha256",
+          "bytes",
+          "format",
+          "role",
+          "componentLicenseRefs"
+        ],
+        "properties": {
+          "file": {
+            "type": "string",
+            "pattern": "^enrichment/staging/[A-Za-z0-9_./-]+$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "format": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "enum": [
+              "archive",
+              "mesh",
+              "texture",
+              "material",
+              "animation",
+              "preview",
+              "license",
+              "metadata"
+            ]
+          },
+          "componentLicenseRefs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "deduplication": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "existingModelIds",
+        "notes"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "NOT_RUN",
+            "unique",
+            "exact-duplicate",
+            "possible-duplicate"
+          ]
+        },
+        "existingModelIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "derivatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "file",
+          "sha256",
+          "sourceHashes",
+          "tool",
+          "toolVersion",
+          "operations",
+          "licenseRef"
+        ],
+        "properties": {
+          "file": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "sourceHashes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          "tool": {
+            "type": "string",
+            "minLength": 1
+          },
+          "toolVersion": {
+            "type": "string",
+            "minLength": 1
+          },
+          "operations": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "licenseRef": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rights",
+        "technical",
+        "visual",
+        "educational",
+        "notes"
+      ],
+      "properties": {
+        "rights": {
+          "type": "string",
+          "enum": [
+            "PASS",
+            "FAIL",
+            "BLOCKED",
+            "NOT_RUN"
+          ]
+        },
+        "technical": {
+          "type": "string",
+          "enum": [
+            "PASS",
+            "FAIL",
+            "BLOCKED",
+            "NOT_RUN"
+          ]
+        },
+        "visual": {
+          "type": "string",
+          "enum": [
+            "PASS",
+            "FAIL",
+            "BLOCKED",
+            "NOT_RUN"
+          ]
+        },
+        "educational": {
+          "type": "string",
+          "enum": [
+            "PASS",
+            "FAIL",
+            "BLOCKED",
+            "NOT_RUN"
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "publication": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "state",
+        "reason"
+      ],
+      "properties": {
+        "state": {
+          "enum": [
+            "reference-only",
+            "staging",
+            "eligible-for-promotion"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

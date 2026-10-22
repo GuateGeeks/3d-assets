@@ -1,0 +1,32 @@
+{
+  "result": "PASS",
+  "date": "2026-10-22",
+  "scope": "Manual browser review of built release; sampled animation clips, not all frames of all clips.",
+  "catalogModels": 993,
+  "kits": 6,
+  "checks": {
+    "sourceFilter": "PASS",
+    "kitFilter": "PASS",
+    "groupedView": "PASS",
+    "individualView": "PASS",
+    "variantSelectionAndDeepLink": "PASS",
+    "completeKitDownloadLinks": "PASS",
+    "emptySearchAndReset": "PASS",
+    "pagination": "PASS",
+    "desktop1440x1000": "PASS",
+    "mobile390x844NoHorizontalOverflow": "PASS"
+  },
+  "sampledClips": {
+    "oga-robot-robot": "Robot_Dance",
+    "oga-animals-cat": "Walking",
+    "oga-animals-dog": "Walking",
+    "oga-animals-eagle": "Flying",
+    "oga-animals-piranha": "Swimming",
+    "oga-animals-wolf": "Walking"
+  },
+  "observations": [
+    "Los seis animados cargan con sus materiales y cambian de pose al reproducir el clip indicado.",
+    "Los 342 recursos iniciales no se modifican en Git; la comprobación del checkout original conserva los hashes de sus 1368 archivos.",
+    "Revisión curricular pendiente; la inspección visual de los kits está documentada en sources/external/bulk-review.json."
+  ]
+}

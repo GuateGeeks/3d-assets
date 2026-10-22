@@ -13,3 +13,5 @@
 # Keep captured license/source evidence byte-for-byte.
 sources/** -text
 models/**/source.json -text
+models/**/original/** -text
+kits/** -text

@@ -1,0 +1,117 @@
+{
+  "id": "kenney-buildings-roof-flat-awning-c",
+  "assetId": "kenney:kenney-buildings/roof-flat-awning-c",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "roof flat awning c",
+  "titleOriginal": "roof-flat-awning-c",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Modular Buildings. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Architecture",
+  "tags": [
+    "roof-flat-awning-c",
+    "kenney-buildings",
+    "architecture-roof"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"roof-flat-awning-c\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-buildings-roof-flat-awning-c/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-roof-flat-awning-c/source.json",
+  "originalDownload": "models/kenney-buildings-roof-flat-awning-c/originals.zip",
+  "bytes": 14628,
+  "sha256": "7630146182201a40fb268148cc293c377ca0911330421e9dd8528b4a366b6895",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Modular Buildings",
+    "sourceMember": "Models/GLB format/roof-flat-awning-c.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-roof-flat-awning-c/original/roof-flat-awning-c.glb",
+        "sha256": "5586828be99383fb06305fcb0aceb01b1696dd2fc35f130603b27b6f9878d05a",
+        "bytes": 7044
+      },
+      {
+        "file": "models/kenney-buildings-roof-flat-awning-c/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "193befd8cf036fb00bf5c100b1c2267eb75abf24682fec64386c81b8b6050512",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "kits/kenney-buildings/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.000000238418579,
+      1.2250001430511475,
+      0.21249999105930328
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "568bb46ea6baf3b34bad88898018d65fc58553d25e4245b76407799bee2763a4",
+      "triangles": 56
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

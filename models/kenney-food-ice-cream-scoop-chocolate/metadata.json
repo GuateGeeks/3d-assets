@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-ice-cream-scoop-chocolate",
+  "assetId": "kenney:kenney-food/ice-cream-scoop-chocolate",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "ice cream scoop chocolate",
+  "titleOriginal": "ice-cream-scoop-chocolate",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "ice-cream-scoop-chocolate",
+    "kenney-food",
+    "food-ice"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"ice-cream-scoop-chocolate\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-ice-cream-scoop-chocolate/model.glb",
+  "sourceMetadataFile": "models/kenney-food-ice-cream-scoop-chocolate/source.json",
+  "originalDownload": "models/kenney-food-ice-cream-scoop-chocolate/originals.zip",
+  "bytes": 19784,
+  "sha256": "dfc43c8a957fcb4c77d827a0505b75b3dd443fd70ea209a6d8a490291d970876",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/ice-cream-scoop-chocolate.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-ice-cream-scoop-chocolate/original/ice-cream-scoop-chocolate.glb",
+        "sha256": "875c88628bb286744d7c17540fdff00fca0bfff7254a42326b32ec2bb9ffecd7",
+        "bytes": 9016
+      },
+      {
+        "file": "models/kenney-food-ice-cream-scoop-chocolate/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "13cb36a71b9fa05e41865e550219513f88648da1e6db24f0d8318efad8f7f2c5",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.2352461814880371,
+      0.2716389000415802,
+      0.1650196760892868
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "3fd333d92fc7daf6f53c547bd9bfebf878134db8303178168e9064f6a27ecad0",
+      "triangles": 80
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

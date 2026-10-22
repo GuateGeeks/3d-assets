@@ -6,6 +6,10 @@ from urllib.parse import quote
 ROOT=Path(__file__).resolve().parents[1]
 def read(p): return json.loads(p.read_text(encoding='utf-8-sig'))
 def save(p,x): p.write_text(json.dumps(x,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+if any(m.get('providerId') in {'kenney','opengameart'} for m in read(ROOT/'index.json')['models']):
+    from audit_catalog import audit
+    audit()
+    raise SystemExit(0)
 plan=read(ROOT/'selection.json'); catalog=read(ROOT/'index.json')['models']; selection=read(ROOT/'sources/selection-results.json'); ids={r['id'] for r in catalog}
 if len(ids)!=len(catalog) or ids!=set(selection): raise ValueError('Selection/catalog IDs mismatch')
 files=list((ROOT/'models').glob('*/model.glb'))

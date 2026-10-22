@@ -1,0 +1,117 @@
+{
+  "id": "kenney-buildings-roof-slanted-corner-a",
+  "assetId": "kenney:kenney-buildings/roof-slanted-corner-a",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "roof slanted corner a",
+  "titleOriginal": "roof-slanted-corner-a",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Modular Buildings. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Architecture",
+  "tags": [
+    "roof-slanted-corner-a",
+    "kenney-buildings",
+    "architecture-roof"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"roof-slanted-corner-a\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-buildings-roof-slanted-corner-a/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-roof-slanted-corner-a/source.json",
+  "originalDownload": "models/kenney-buildings-roof-slanted-corner-a/originals.zip",
+  "bytes": 12272,
+  "sha256": "9eb8b4e43bcbf5a7eda2b54d70e25993ae4a949212ac6ecc8a86f2efad0289c2",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Modular Buildings",
+    "sourceMember": "Models/GLB format/roof-slanted-corner-a.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-roof-slanted-corner-a/original/roof-slanted-corner-a.glb",
+        "sha256": "8aef6d4ee6dc6c8c9e5d9f631f99184d48185cc3dc02fb40841730b94f489b80",
+        "bytes": 4688
+      },
+      {
+        "file": "models/kenney-buildings-roof-slanted-corner-a/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "64005693987478add644f1f2007d69aa79389e10311833d5b513e31e500e0282",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "kits/kenney-buildings/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.139176607131958,
+      1.139176607131958,
+      0.7820395231246948
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "d3fea7a2db284118332404a6d37725729c4d84f6921d63fa648b5ed9d9b1d65e",
+      "triangles": 32
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

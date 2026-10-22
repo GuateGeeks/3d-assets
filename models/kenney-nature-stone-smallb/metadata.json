@@ -1,0 +1,110 @@
+{
+  "id": "kenney-nature-stone-smallb",
+  "assetId": "kenney:kenney-nature/stone_smallB",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "stone · small B",
+  "titleOriginal": "stone_smallB",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "stone_smallB",
+    "kenney-nature",
+    "nature-stone"
+  ],
+  "areas": [
+    "tierra-geografia",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"stone_smallB\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-stone-smallb/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-stone-smallb/source.json",
+  "originalDownload": "models/kenney-nature-stone-smallb/originals.zip",
+  "bytes": 3100,
+  "sha256": "27765cdf708ff130be161eeee22eb56c014cb23b6b0c657e2a7659d02dc25459",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/stone_smallB.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-stone-smallb/original/stone_smallB.glb",
+        "sha256": "27765cdf708ff130be161eeee22eb56c014cb23b6b0c657e2a7659d02dc25459",
+        "bytes": 3100
+      }
+    ],
+    "originalDownloadSha256": "aedd40f6b77e59e000c7b9c5fc7fffaa51733bc0e27d372b56ecec41c93f00cf",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.36079999804496765,
+      0.36079999804496765,
+      0.17679201066493988
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "452cc76fa22871526fcc9746846c57182683970f9a86a1727264fe06c92bab34",
+      "triangles": 24
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

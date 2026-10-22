@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-bridge-woodnarrow",
+  "assetId": "kenney:kenney-nature/bridge_woodNarrow",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "bridge · wood Narrow",
+  "titleOriginal": "bridge_woodNarrow",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "bridge_woodNarrow",
+    "kenney-nature",
+    "nature-bridge"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"bridge_woodNarrow\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-bridge-woodnarrow/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-bridge-woodnarrow/source.json",
+  "originalDownload": "models/kenney-nature-bridge-woodnarrow/originals.zip",
+  "bytes": 15708,
+  "sha256": "df46d1ba2ae557f3c69850c4faf03bcd16786fff305bce772f5b260e50def351",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/bridge_woodNarrow.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-bridge-woodnarrow/original/bridge_woodNarrow.glb",
+        "sha256": "df46d1ba2ae557f3c69850c4faf03bcd16786fff305bce772f5b260e50def351",
+        "bytes": 15708
+      }
+    ],
+    "originalDownloadSha256": "bd1a7b1dee1cce5ee68140631a198efb3926a1b3f8b8b65012fd99e988ef141f",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0399999618530273,
+      0.8399999737739563,
+      0.3499999940395355
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "2fcaa4fe1c40ca93fae7f41ca46501b09f201eb62f3389dd98274c13f07d4671",
+      "triangles": 220
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

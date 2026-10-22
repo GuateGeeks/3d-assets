@@ -4711,5 +4711,17 @@
       ],
       "review": "Revisar pertinencia semántica y visual"
     }
-  ]
+  ],
+  "enrichment": {
+    "added": 651,
+    "sources": {
+      "kenney": 637,
+      "opengameart": 14
+    },
+    "scope": "Kits completos; fichas por modelo, familias de variantes y posibles equivalentes. No acreditan por sí solos exactitud científica o cultural.",
+    "held": [
+      "oga-ant-ant"
+    ],
+    "kits": 6
+  }
 }

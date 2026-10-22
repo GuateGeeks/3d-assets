@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-fence-planks",
+  "assetId": "kenney:kenney-nature/fence_planks",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "fence · planks",
+  "titleOriginal": "fence_planks",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "fence_planks",
+    "kenney-nature",
+    "nature-fence"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"fence_planks\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-fence-planks/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-fence-planks/source.json",
+  "originalDownload": "models/kenney-nature-fence-planks/originals.zip",
+  "bytes": 7720,
+  "sha256": "2db68f60d24443dbeab05dedd92fcc665d0e21bd261c6a668ea9022a732a06a9",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/fence_planks.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-fence-planks/original/fence_planks.glb",
+        "sha256": "2db68f60d24443dbeab05dedd92fcc665d0e21bd261c6a668ea9022a732a06a9",
+        "bytes": 7720
+      }
+    ],
+    "originalDownloadSha256": "222577d66b23c87a473420b136cfe4cce88adc08878cb83ecff937a878e8d2a9",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      0.09589999914169312,
+      0.34502729773521423
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "668cc8390273d6e4290aa885108732146865723d40bedfa273ea76b9af7ef5ed",
+      "triangles": 96
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

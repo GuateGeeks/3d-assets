@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-ginger-bread-cutter",
+  "assetId": "kenney:kenney-food/ginger-bread-cutter",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "ginger bread cutter",
+  "titleOriginal": "ginger-bread-cutter",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "ginger-bread-cutter",
+    "kenney-food",
+    "food-ginger"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"ginger-bread-cutter\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-ginger-bread-cutter/model.glb",
+  "sourceMetadataFile": "models/kenney-food-ginger-bread-cutter/source.json",
+  "originalDownload": "models/kenney-food-ginger-bread-cutter/originals.zip",
+  "bytes": 22740,
+  "sha256": "a3aee2a2484aaaa7f7e9b62f8354f10c5a39404f9f718e1d356336db8ba8f175",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/ginger-bread-cutter.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-ginger-bread-cutter/original/ginger-bread-cutter.glb",
+        "sha256": "50610b28d92f27099db0b41168f681190bf0827e2d49f5bb944b12371d05abb8",
+        "bytes": 11972
+      },
+      {
+        "file": "models/kenney-food-ginger-bread-cutter/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "918b6c3cf9403bb35aed34c0fa106e28c7dd20ed635a5a45fe792edba7e63ae5",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.2919408679008484,
+      0.2693220376968384,
+      0.041999999433755875
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "13e8ff9c6c53c1e1f1b64d357063b3dbbd4f69ee24e744c57ec8f996e7213d58",
+      "triangles": 136
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

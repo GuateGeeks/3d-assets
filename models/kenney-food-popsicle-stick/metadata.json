@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-popsicle-stick",
+  "assetId": "kenney:kenney-food/popsicle-stick",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "popsicle stick",
+  "titleOriginal": "popsicle-stick",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "popsicle-stick",
+    "kenney-food",
+    "food-popsicle"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"popsicle-stick\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-popsicle-stick/model.glb",
+  "sourceMetadataFile": "models/kenney-food-popsicle-stick/source.json",
+  "originalDownload": "models/kenney-food-popsicle-stick/originals.zip",
+  "bytes": 15536,
+  "sha256": "3e56d111f91e77de87d32846d742c33253f0d6cb142d39bd9e510777eae7d796",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/popsicle-stick.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-popsicle-stick/original/popsicle-stick.glb",
+        "sha256": "0866c4dda26e1f481231fea1d4681b88f20d1d4933cfb57d2661fc3ea951572e",
+        "bytes": 4768
+      },
+      {
+        "file": "models/kenney-food-popsicle-stick/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "86f31c56613bead771aee5f1fbd5678aa61722119160d5bbb6ff635e4544d9b8",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.019999999552965164,
+      0.03999999910593033,
+      0.3400000035762787
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "32e79f0ef0aa88e0764f0306f6b122bccb4bd51d874e3f51df671c9f4021acd0",
+      "triangles": 36
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

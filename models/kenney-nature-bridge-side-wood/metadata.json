@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-bridge-side-wood",
+  "assetId": "kenney:kenney-nature/bridge_side_wood",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "bridge · side · wood",
+  "titleOriginal": "bridge_side_wood",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "bridge_side_wood",
+    "kenney-nature",
+    "nature-bridge"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"bridge_side_wood\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-bridge-side-wood/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-bridge-side-wood/source.json",
+  "originalDownload": "models/kenney-nature-bridge-side-wood/originals.zip",
+  "bytes": 10604,
+  "sha256": "3857c2a286d236375dbae209897884eebc379d18e4af39ee8414f2d9511e2c49",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/bridge_side_wood.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-bridge-side-wood/original/bridge_side_wood.glb",
+        "sha256": "3857c2a286d236375dbae209897884eebc379d18e4af39ee8414f2d9511e2c49",
+        "bytes": 10604
+      }
+    ],
+    "originalDownloadSha256": "c0e6703fe5b6fabaeb928b74b8378d1c3af020284c587ba8b3cfa94d2ed62093",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0199999809265137,
+      1.0399999618530273,
+      0.4000000059604645
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "21f1f84a1c9b865859c5875c369f5c58f775f263a4bd6ab2c72718609cd6abd0",
+      "triangles": 136
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Licence": "CC-BY-SA 4.0",
+  "Attribution": "\"Engranaje · 16 dientes\" (gear_16), por Elegant Crow, https://opengameart.org/content/gear-pack. CC-BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/. Textura: CC0Textures.com, según el crédito del autor. Adaptación GLB y miniatura: GuateGeeks; conserva CC BY-SA 4.0.",
+  "Creator": {
+    "Username": "Elegant Crow"
+  },
+  "Title": "Engranaje · 16 dientes",
+  "source": {
+    "schemaVersion": 1,
+    "providerId": "opengameart",
+    "pack": "Gear Pack (2020-09-01)",
+    "author": "Elegant Crow",
+    "pageUrl": "https://opengameart.org/content/gear-pack",
+    "downloadUrl": "https://opengameart.org/sites/default/files/gear_pack.zip",
+    "archiveSha256": "2ec380ee5499a79e742f7728295699f117d8ae8dd9ccbbb4a67bb191babd0c0a",
+    "archiveBytes": 8101503,
+    "pageSnapshotSha256": "aa194d743106bcac267f246441949c0455c0d499dba8911c110a9c0d8d357291",
+    "retrievedAt": "2026-10-22T22:32:19.925006+00:00",
+    "license": {
+      "id": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attributionRequired": true,
+      "commercialUse": true,
+      "derivatives": true,
+      "shareAlike": true
+    },
+    "licenseRaw": "CC-BY-SA 4.0",
+    "attributionNotice": "Credit is not required if you are not sharing it on other asset hosting sites, but it is always appreciated.",
+    "textureCredit": "CC0Textures.com (author statement on the source page)"
+  },
+  "member": "gear_pack/models/gear_16.obj",
+  "originalFiles": [
+    {
+      "file": "models/oga-gears-gear-16/original/gear_16.obj",
+      "sha256": "b46031802955ebc3256309c203b3cd09fc98e0228cb64204eaa397f45362ca25",
+      "bytes": 44571
+    },
+    {
+      "file": "models/oga-gears-gear-16/original/textures/gear_16_tex_512.png",
+      "sha256": "e52a6030e1c11b21d72a6042fac7c3f0b95b1e7509161e902e967c234b3dac36",
+      "bytes": 179093
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "kenney-nature-tree-plateau-fall",
+  "assetId": "kenney:kenney-nature/tree_plateau_fall",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "tree · plateau · fall",
+  "titleOriginal": "tree_plateau_fall",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "tree_plateau_fall",
+    "kenney-nature",
+    "nature-tree"
+  ],
+  "areas": [
+    "bosques-plantas",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"tree_plateau_fall\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-tree-plateau-fall/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-tree-plateau-fall/source.json",
+  "originalDownload": "models/kenney-nature-tree-plateau-fall/originals.zip",
+  "bytes": 16296,
+  "sha256": "11b2a1b09c2f90c58b1572a2245e4861d6c0d674147a17d10ccdc12abe1f13ff",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/tree_plateau_fall.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-tree-plateau-fall/original/tree_plateau_fall.glb",
+        "sha256": "11b2a1b09c2f90c58b1572a2245e4861d6c0d674147a17d10ccdc12abe1f13ff",
+        "bytes": 16296
+      }
+    ],
+    "originalDownloadSha256": "2c44845c8ebf9d6896908d59563a0aab9957bb391dd5722874f4f5e4f375d8d2",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.6117395162582397,
+      0.6549000144004822,
+      1.2493399381637573
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "cfd0dfe7919111ae936990a2c6ad36b094f5bb69dc4094854726e21a9a9605a1",
+      "triangles": 215
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

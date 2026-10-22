@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-bridge-center-stoneround",
+  "assetId": "kenney:kenney-nature/bridge_center_stoneRound",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "bridge · center · stone Round",
+  "titleOriginal": "bridge_center_stoneRound",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "bridge_center_stoneRound",
+    "kenney-nature",
+    "nature-bridge"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"bridge_center_stoneRound\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-bridge-center-stoneround/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-bridge-center-stoneround/source.json",
+  "originalDownload": "models/kenney-nature-bridge-center-stoneround/originals.zip",
+  "bytes": 5080,
+  "sha256": "ec0e73f593a3230b9f10bfe69dec5e95c8c031f1a1a81e1a308501ef3a70e68c",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/bridge_center_stoneRound.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-bridge-center-stoneround/original/bridge_center_stoneRound.glb",
+        "sha256": "ec0e73f593a3230b9f10bfe69dec5e95c8c031f1a1a81e1a308501ef3a70e68c",
+        "bytes": 5080
+      }
+    ],
+    "originalDownloadSha256": "e7877ef508dbbc6b0772d0431e30aa0b5a378369b71a9182d1d42d9e57cdd517",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      1.0,
+      0.19999997317790985
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "103cfa68562e6ffb2f4c268800513cf30b403a2d283a4fb9fae650bbe118e042",
+      "triangles": 52
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

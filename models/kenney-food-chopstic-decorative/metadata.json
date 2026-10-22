@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-chopstic-decorative",
+  "assetId": "kenney:kenney-food/chopstic-decorative",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "chopstic decorative",
+  "titleOriginal": "chopstic-decorative",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "chopstic-decorative",
+    "kenney-food",
+    "food-chopstic"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"chopstic-decorative\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-chopstic-decorative/model.glb",
+  "sourceMetadataFile": "models/kenney-food-chopstic-decorative/source.json",
+  "originalDownload": "models/kenney-food-chopstic-decorative/originals.zip",
+  "bytes": 16188,
+  "sha256": "69f30dcd18491bba8aa9dfb01a5bba4694e41cc1d9965e21c5958e88f7df85ce",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/chopstic-decorative.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-chopstic-decorative/original/chopstic-decorative.glb",
+        "sha256": "3e1d1d03838c9616c688d413d095ad0aa9a48388bf53d15e6e14b205817ba7f8",
+        "bytes": 5416
+      },
+      {
+        "file": "models/kenney-food-chopstic-decorative/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "4aba021a683bb142e92f4626ac8b5a345e066c6acb1caf07d8566baec846d93f",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.019999999552965164,
+      0.44999998807907104,
+      0.019999999552965164
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "c1d8ef36e667371c6c98b6324b6a47344e87fea5192352a34246446b0ad538f7",
+      "triangles": 36
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

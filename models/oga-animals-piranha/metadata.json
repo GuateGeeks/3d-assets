@@ -1,0 +1,113 @@
+{
+  "id": "oga-animals-piranha",
+  "assetId": "opengameart:oga-animals/Piranha",
+  "providerId": "opengameart",
+  "provider": "OpenGameArt",
+  "title": "Piranha",
+  "titleOriginal": "Piranha",
+  "author": "Quaternius",
+  "authorUrl": "https://opengameart.org/users/quaternius",
+  "sourceUrl": "https://opengameart.org/content/animated-animales-low-poly",
+  "metadataUrl": null,
+  "downloadUrl": "https://opengameart.org/sites/default/files/Animal%20Pack%20Vol.2%20by%20%40Quaternius.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Animated Animales Low Poly. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Characters",
+  "tags": [
+    "Piranha",
+    "oga-animals",
+    "character-piranha"
+  ],
+  "areas": [
+    "animales-biodiversidad",
+    "personajes-animacion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Piranha\" de Animated Animales Low Poly, por Quaternius. https://opengameart.org/content/animated-animales-low-poly. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Blender 5.2.3 LTS: BLEND convertido a GLB; materiales antiguos convertidos a PBR conservando el color difuso; restricciones de rig horneadas a curvas cuando el exportador lo requiere; dimensiones de reposo comprobadas; originales conservados.",
+  "file": "models/oga-animals-piranha/model.glb",
+  "sourceMetadataFile": "models/oga-animals-piranha/source.json",
+  "originalDownload": "models/oga-animals-piranha/originals.zip",
+  "bytes": 141916,
+  "sha256": "32ffea854724eca0e4add6f1036908b06432505dffe4f212040403d709aa5084",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 11,
+    "materials": 4,
+    "skins": 1,
+    "joints": 9,
+    "rigged": true,
+    "animated": true,
+    "animations": 2,
+    "animationNames": [
+      "Bite",
+      "Swimming"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:55:07.015562+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "provenance": {
+    "pack": "Animated Animales Low Poly",
+    "sourceMember": "Animal Pack Vol.2 by @Quaternius/Blends/Piranha.blend",
+    "originalFiles": [
+      {
+        "file": "models/oga-animals-piranha/original/Piranha.blend",
+        "sha256": "5337092766cdc0fd125397f1be3c881dd3bfd120fc6d9b951eb94a74f74b97af",
+        "bytes": 740596
+      }
+    ],
+    "originalDownloadSha256": "b2570bd706e407e879db35985071d3a814debc3ffa2c0ecabbdf93605b49809a",
+    "archiveSha256": "6d8f6789d65dbdb352ebad98a4209f26b41b384e87d81bc05e9ca76139db1248",
+    "licenseEvidence": "kits/oga-animals/LICENSE.txt",
+    "conversionTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      2.4443774223327637,
+      8.941190719604492,
+      5.050972938537598
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "7ee44384a46a05792e3a8d0e94982900e5f0d7aef394be833fb546fcb37bd950",
+      "triangles": 1388
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

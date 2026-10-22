@@ -1,0 +1,111 @@
+{
+  "id": "kenney-nature-ground-rivercornersmall",
+  "assetId": "kenney:kenney-nature/ground_riverCornerSmall",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "ground · river Corner Small",
+  "titleOriginal": "ground_riverCornerSmall",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "ground_riverCornerSmall",
+    "kenney-nature",
+    "nature-ground-river"
+  ],
+  "areas": [
+    "agua-oceanos",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"ground_riverCornerSmall\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-ground-rivercornersmall/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-ground-rivercornersmall/source.json",
+  "originalDownload": "models/kenney-nature-ground-rivercornersmall/originals.zip",
+  "bytes": 4236,
+  "sha256": "fcf19878a611b57364e9dd4e9fd8b9f55bd6f9dd6334ccbf9dc437b70c3dc6ee",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/ground_riverCornerSmall.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-ground-rivercornersmall/original/ground_riverCornerSmall.glb",
+        "sha256": "fcf19878a611b57364e9dd4e9fd8b9f55bd6f9dd6334ccbf9dc437b70c3dc6ee",
+        "bytes": 4236
+      }
+    ],
+    "originalDownloadSha256": "5988f18cba51c183c9128c01daee5b60e3e288ec98a1458686ed6d317a42a829",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      1.0,
+      0.05000000074505806
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "04be95712f6bd51a196fef26f20e7b83812aadfabbb39025d783bfe618d692ae",
+      "triangles": 26
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

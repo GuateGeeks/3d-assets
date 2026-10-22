@@ -1,0 +1,116 @@
+{
+  "id": "kenney-buildings-building-sample-tower-b",
+  "assetId": "kenney:kenney-buildings/building-sample-tower-b",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "building sample tower b",
+  "titleOriginal": "building-sample-tower-b",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Modular Buildings. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Architecture",
+  "tags": [
+    "building-sample-tower-b",
+    "kenney-buildings",
+    "architecture-building-sample-tower"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"building-sample-tower-b\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-buildings-building-sample-tower-b/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-building-sample-tower-b/source.json",
+  "originalDownload": "models/kenney-buildings-building-sample-tower-b/originals.zip",
+  "bytes": 36492,
+  "sha256": "8a6fe86bd694b611633a975499edd0cb7c6176538d4a58dc2bf0bf1181926fa8",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Modular Buildings",
+    "sourceMember": "Models/GLB format/building-sample-tower-b.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-building-sample-tower-b/original/building-sample-tower-b.glb",
+        "sha256": "b7360904ab4a6e26098b4ae6f761a6a98022c851faf04ea7760a0ef11328c704",
+        "bytes": 28904
+      },
+      {
+        "file": "models/kenney-buildings-building-sample-tower-b/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "9bd47aa3651d0fbc92453fdaa65bee2ffeba97c1cd85f75303aa0e28410ba2ea",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "kits/kenney-buildings/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.100000023841858,
+      1.25,
+      1.8875000476837158
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "3a88d5b48a1365fde534158d46e3ad74b4a181a0917a03bf6c7b64e4cae2209b",
+      "triangles": 326
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}
