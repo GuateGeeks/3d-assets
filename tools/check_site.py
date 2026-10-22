@@ -26,6 +26,8 @@ for p in [ROOT/'gallery.html',*(ROOT/'gallery').glob('*.css')]:
     for ref in refs:
         if ref.startswith(('#','http:','https:','data:')): continue
         if not (p.parent/ref).is_file(): raise SystemExit('Missing local resource: '+ref)
+for item in json.loads((ROOT/'sources/documents.json').read_text(encoding='utf-8'))['sources']:
+    if hashlib.sha256((ROOT/'sources'/item['file']).read_bytes()).hexdigest()!=item['sha256']: raise SystemExit('Source evidence integrity mismatch: '+item['file'])
 secret=re.compile(r'(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{30,})')
 for p in ROOT.rglob('*'):
     if '.git' in p.parts or '_site' in p.parts or not p.is_file() or p.suffix not in {'.md','.txt','.json','.js','.html','.py','.yml','.yaml','.css'}: continue

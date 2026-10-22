@@ -9,3 +9,7 @@
 *.txt text eol=lf
 *.py text eol=lf
 *.yml text eol=lf
+
+# Keep captured license/source evidence byte-for-byte.
+sources/** -text
+models/**/source.json -text
