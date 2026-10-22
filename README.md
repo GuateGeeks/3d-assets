@@ -2,6 +2,20 @@
 
 Galería de **342 modelos GLB** para Code Studio y Sócrates, organizados en **23 áreas**. Incluye miniaturas locales, vista 3D con cámara y animaciones, búsqueda en español y filtros por área, licencia y movimiento. Los créditos se consultan en cada ficha.
 
+## Laboratorio local de rigging
+
+El [plan del laboratorio](docs/RIGGING-LAB-PLAN.md) define el flujo completo dentro
+de este proyecto: seleccionar modelos, prepararlos, generar rigs con UniRig,
+evaluar SkinTokens en el equipo local, corregir, animar, revisar en la galería
+y producir paquetes versionados. Reutilizará el catálogo y el visor existentes,
+con áreas propias para trabajo experimental y derivados revisados.
+
+Estado: planificación. La instalación y las herramientas del laboratorio están
+pendientes. La implementación en Code Studio o Sócrates comenzará después de
+completar y validar el flujo en `3d-assets`.
+
+**Galería publicada:** [guategeeks.com/3d-assets](https://guategeeks.com/3d-assets/)
+
 ## Abrir localmente
 
 Requiere Python 3.10 o posterior, sin dependencias de Python ni npm.
@@ -27,7 +41,7 @@ python tools/check_site.py
 2. En **Actions → Deploy gallery to GitHub Pages**, ejecutar **Run workflow** sobre `main`.
 3. La acción publica el artefacto `_site/` y muestra la URL del despliegue en el entorno `github-pages`.
 
-La URL esperada, una vez habilitado y ejecutado Pages, es `https://guategeeks.github.io/3d-assets/`. El repositorio es privado: la disponibilidad de Pages depende del plan de GitHub. No se modifica su visibilidad para habilitarlo. El mismo `_site/` puede alojarse en cualquier servidor estático.
+La galería está publicada en **https://guategeeks.com/3d-assets/**, bajo el dominio existente de GuateGeeks. El repositorio es público y Pages utiliza GitHub Actions. El mismo `_site/` puede alojarse en cualquier servidor estático.
 
 La validación se ejecuta automáticamente en cada push y pull request. El despliegue es manual. Las acciones están fijadas a revisiones concretas y la credencial de despliegue la proporciona `GITHUB_TOKEN` con permisos limitados de Pages/OIDC.
 
