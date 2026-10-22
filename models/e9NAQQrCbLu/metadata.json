@@ -1,0 +1,65 @@
+{
+  "id": "e9NAQQrCbLu",
+  "title": "Butterfly",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/e9NAQQrCbLu",
+  "metadataUrl": "https://api.poly.pizza/v1/model/e9NAQQrCbLu",
+  "downloadUrl": "https://static.poly.pizza/f4173d1a-1694-4f86-b1f9-429cbb3542f6.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f4173d1a-1694-4f86-b1f9-429cbb3542f6.webp",
+  "description": "#insect",
+  "category": "Animals",
+  "tags": [
+    "insect"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "butterfly"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Butterfly\" by Poly by Google, https://poly.pizza/m/e9NAQQrCbLu. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/e9NAQQrCbLu/model.glb",
+  "sourceMetadataFile": "models/e9NAQQrCbLu/source.json",
+  "bytes": 3109216,
+  "sha256": "1647611dbca8cbdc41549281bc07c3ea72973de904e827b1c6c663c989a023a9",
+  "apiTriangleCount": 1856,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.465757+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

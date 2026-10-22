@@ -1,0 +1,67 @@
+{
+  "id": "2Kng1KnfMEc",
+  "title": "Green Cactus",
+  "author": "Daniel Melchior",
+  "authorUrl": "https://poly.pizza/u/Daniel%20Melchior",
+  "sourceUrl": "https://poly.pizza/m/2Kng1KnfMEc",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2Kng1KnfMEc",
+  "downloadUrl": "https://static.poly.pizza/a26f6779-104d-492b-bac8-cfdadd12200a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/a26f6779-104d-492b-bac8-cfdadd12200a.webp",
+  "description": "Watch out for the pointy ends",
+  "category": "Objects",
+  "tags": [
+    "ariocarpus fissuratus",
+    "living rock",
+    "iguana"
+  ],
+  "areas": [
+    "bosques-plantas"
+  ],
+  "queries": [
+    "cactus"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Green Cactus\" by Daniel Melchior, https://poly.pizza/m/2Kng1KnfMEc. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2Kng1KnfMEc/model.glb",
+  "sourceMetadataFile": "models/2Kng1KnfMEc/source.json",
+  "bytes": 148184,
+  "sha256": "0d9bf77019e8a048d11e676c3e21c2f383b4124ec5793740b753614290f3692d",
+  "apiTriangleCount": 1988,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.062874+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

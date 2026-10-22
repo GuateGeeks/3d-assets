@@ -1,0 +1,68 @@
+{
+  "id": "Zj4GUkxCG9",
+  "title": "Pickup Heart",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/Zj4GUkxCG9",
+  "metadataUrl": "https://api.poly.pizza/v1/model/Zj4GUkxCG9",
+  "downloadUrl": "https://static.poly.pizza/38716c7c-cd82-4254-8cce-51a6c2491e8a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/38716c7c-cd82-4254-8cce-51a6c2491e8a.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Heart"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [
+    "human heart"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pickup Heart\" by Quaternius, https://poly.pizza/m/Zj4GUkxCG9. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/Zj4GUkxCG9/model.glb",
+  "sourceMetadataFile": "models/Zj4GUkxCG9/source.json",
+  "bytes": 35576,
+  "sha256": "5d5bdcccbfae9d26657e78458b53cf31f996a0d08460a5c2a4c2d32ca1498ce6",
+  "apiTriangleCount": 784,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:26.788824+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "anatomy-accuracy-review"
+  ],
+  "unfulfilledQueries": []
+}

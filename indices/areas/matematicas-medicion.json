@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "details": {
+    "id": "matematicas-medicion",
+    "title": "Geometría, tiempo y medición",
+    "subjects": [
+      "Matemáticas"
+    ],
+    "queries": [
+      "cube",
+      "sphere",
+      "cone",
+      "dice",
+      "ruler",
+      "clock",
+      "pizza"
+    ],
+    "activities": [
+      "Coordenadas, geometría, probabilidad y fracciones"
+    ]
+  },
+  "count": 19,
+  "modelIds": [
+    "1GYd3tw5LqW",
+    "1xtAc12dmv",
+    "1zzYwVp-KDv",
+    "2pU6Ie7DcmX",
+    "31XZ7p2-c1q",
+    "3CqPcG3ATQs",
+    "4f_lG3UcV0k",
+    "5gAoMR2YHs3",
+    "6BgO_yzhT3Y",
+    "9IWGn64Fnqo",
+    "c4sn88pFjP",
+    "CA4HtaaMJn",
+    "dLS2cGjYw6C",
+    "dwZRvbXlAus",
+    "efHt8L0V77z",
+    "eFQ60hneKwL",
+    "JQ6JqMl1gw",
+    "lAx8JytxGD",
+    "YAghI6GBls"
+  ]
+}

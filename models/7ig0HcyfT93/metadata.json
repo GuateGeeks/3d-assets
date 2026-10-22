@@ -1,0 +1,67 @@
+{
+  "id": "7ig0HcyfT93",
+  "title": "Plant - White Pot",
+  "author": "Jakers_H",
+  "authorUrl": "https://poly.pizza/u/Jakers_H",
+  "sourceUrl": "https://poly.pizza/m/7ig0HcyfT93",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7ig0HcyfT93",
+  "downloadUrl": "https://static.poly.pizza/85628984-4f9f-4576-957c-0001ed867c92.glb",
+  "thumbnailUrl": "https://static.poly.pizza/85628984-4f9f-4576-957c-0001ed867c92.webp",
+  "description": "Similar to an Aloe Vera plant",
+  "category": "Nature",
+  "tags": [
+    "pea",
+    "bloodroot",
+    "onion"
+  ],
+  "areas": [
+    "bosques-plantas"
+  ],
+  "queries": [
+    "plant"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Plant - White Pot\" by Jakers_H, https://poly.pizza/m/7ig0HcyfT93. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7ig0HcyfT93/model.glb",
+  "sourceMetadataFile": "models/7ig0HcyfT93/source.json",
+  "bytes": 178132,
+  "sha256": "80d64f3105d7d17572435584564679dfa99175ef19af0c91fe4f68ac1d9240b0",
+  "apiTriangleCount": 1756,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 25,
+    "nodes": 25,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.998750+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

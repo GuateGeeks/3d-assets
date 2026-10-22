@@ -1,0 +1,69 @@
+{
+  "id": "BgSZXwmm7k",
+  "title": "Sail Boat",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/BgSZXwmm7k",
+  "metadataUrl": "https://api.poly.pizza/v1/model/BgSZXwmm7k",
+  "downloadUrl": "https://static.poly.pizza/b1d42c7e-152a-4d56-a754-cca000a5abad.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b1d42c7e-152a-4d56-a754-cca000a5abad.webp",
+  "description": null,
+  "category": "Transport",
+  "tags": [
+    "Watercraft",
+    "Vehicle",
+    "Transportation",
+    "Boat"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "boat"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Sail Boat\" by Quaternius, https://poly.pizza/m/BgSZXwmm7k. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/BgSZXwmm7k/model.glb",
+  "sourceMetadataFile": "models/BgSZXwmm7k/source.json",
+  "bytes": 58132,
+  "sha256": "dd0d959f66c058e2afcfc01227f80b83347b5105d324690596a0c0eb6e65fb95",
+  "apiTriangleCount": 1020,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 3,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.761531+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

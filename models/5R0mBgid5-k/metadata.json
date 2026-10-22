@@ -1,0 +1,71 @@
+{
+  "id": "5R0mBgid5-k",
+  "title": "Pencil",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/5R0mBgid5-k",
+  "metadataUrl": "https://api.poly.pizza/v1/model/5R0mBgid5-k",
+  "downloadUrl": "https://static.poly.pizza/fc6c2793-53a5-4dba-bd24-23315560685b.glb",
+  "thumbnailUrl": "https://static.poly.pizza/fc6c2793-53a5-4dba-bd24-23315560685b.webp",
+  "description": "#writing #utensil #graphite #school #tool",
+  "category": "Objects",
+  "tags": [
+    "writing",
+    "utensil",
+    "graphite",
+    "school",
+    "tool"
+  ],
+  "areas": [
+    "escuela-lenguaje"
+  ],
+  "queries": [
+    "pencil"
+  ],
+  "subjects": [
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pencil\" by jeremy, https://poly.pizza/m/5R0mBgid5-k. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/5R0mBgid5-k/model.glb",
+  "sourceMetadataFile": "models/5R0mBgid5-k/source.json",
+  "bytes": 19172,
+  "sha256": "f15dc25a062e1d0f668ac64af30f113955aacb4cefbcdca3878d8f4eba0a0346",
+  "apiTriangleCount": 248,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.337594+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

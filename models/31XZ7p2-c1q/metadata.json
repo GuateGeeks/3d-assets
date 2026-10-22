@@ -1,0 +1,68 @@
+{
+  "id": "31XZ7p2-c1q",
+  "title": "Clock",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/31XZ7p2-c1q",
+  "metadataUrl": "https://api.poly.pizza/v1/model/31XZ7p2-c1q",
+  "downloadUrl": "https://static.poly.pizza/9c5b5cbe-f416-44c1-bdfb-46e6bbf29c6b.glb",
+  "thumbnailUrl": "https://static.poly.pizza/9c5b5cbe-f416-44c1-bdfb-46e6bbf29c6b.webp",
+  "description": "#timepiece #measure #time #watch",
+  "category": "Other",
+  "tags": [
+    "timepiece",
+    "measure",
+    "time",
+    "watch"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "clock"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Clock\" by jeremy, https://poly.pizza/m/31XZ7p2-c1q. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/31XZ7p2-c1q/model.glb",
+  "sourceMetadataFile": "models/31XZ7p2-c1q/source.json",
+  "bytes": 23192,
+  "sha256": "5798f938069ca4c96023fae86b0228a6396e7d1ef32451a67881c8c051a06e08",
+  "apiTriangleCount": 440,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.332890+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

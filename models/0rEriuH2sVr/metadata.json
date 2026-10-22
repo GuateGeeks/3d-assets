@@ -1,0 +1,71 @@
+{
+  "id": "0rEriuH2sVr",
+  "title": "Mayan Ziggurat",
+  "author": "Bruno Oliveira",
+  "authorUrl": "https://poly.pizza/u/Bruno%20Oliveira",
+  "sourceUrl": "https://poly.pizza/m/0rEriuH2sVr",
+  "metadataUrl": "https://api.poly.pizza/v1/model/0rEriuH2sVr",
+  "downloadUrl": "https://static.poly.pizza/64b1cd2a-5bb9-4fb7-a2cb-87681250d012.glb",
+  "thumbnailUrl": "https://static.poly.pizza/64b1cd2a-5bb9-4fb7-a2cb-87681250d012.webp",
+  "description": " ",
+  "category": "Buildings",
+  "tags": [
+    "Pyramid"
+  ],
+  "areas": [
+    "guatemala-contexto"
+  ],
+  "queries": [
+    "mayan"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Mayan Ziggurat\" by Bruno Oliveira, https://poly.pizza/m/0rEriuH2sVr. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/0rEriuH2sVr/model.glb",
+  "sourceMetadataFile": "models/0rEriuH2sVr/source.json",
+  "bytes": 15984,
+  "sha256": "148a8c9f9c970d590e08956dce7cf56caf83b8ae7d499efc1c103c0d68946292",
+  "apiTriangleCount": 240,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:51.195629+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "cultural-or-species-identification-review"
+  ],
+  "unfulfilledQueries": []
+}

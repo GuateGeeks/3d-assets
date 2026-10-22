@@ -1,0 +1,68 @@
+{
+  "id": "4l5jRtpTec",
+  "title": "Drumkit",
+  "author": "J-Toastie",
+  "authorUrl": "https://poly.pizza/u/J-Toastie",
+  "sourceUrl": "https://poly.pizza/m/4l5jRtpTec",
+  "metadataUrl": "https://api.poly.pizza/v1/model/4l5jRtpTec",
+  "downloadUrl": "https://static.poly.pizza/144c6d27-9e58-4102-8790-83d0d21140e9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/144c6d27-9e58-4102-8790-83d0d21140e9.webp",
+  "description": "Make some noise! 🥁\n\nIn a band or want to annoy your neighbour? This is for you.",
+  "category": "Furniture & Decor",
+  "tags": [
+    "Drumkit",
+    "Drum",
+    "Music",
+    "Instrument"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "drum"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Drumkit\" by J-Toastie, https://poly.pizza/m/4l5jRtpTec. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/4l5jRtpTec/model.glb",
+  "sourceMetadataFile": "models/4l5jRtpTec/source.json",
+  "bytes": 368512,
+  "sha256": "00395c7e32f2bd1563e38c8c0481e877768771ca2d869e0a5bb65127cb45508a",
+  "apiTriangleCount": 5222,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 5,
+    "nodes": 5,
+    "materials": 6,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.645391+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "8Ph79kHbt9s",
+  "title": "Bird",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/8Ph79kHbt9s",
+  "metadataUrl": "https://api.poly.pizza/v1/model/8Ph79kHbt9s",
+  "downloadUrl": "https://static.poly.pizza/990167ef-5943-4198-9da5-e6b2ff2bcd69.glb",
+  "thumbnailUrl": "https://static.poly.pizza/990167ef-5943-4198-9da5-e6b2ff2bcd69.webp",
+  "description": "#bird #black #flying #crow #raven",
+  "category": "Animals",
+  "tags": [
+    "bird",
+    "black",
+    "crow",
+    "raven"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "bird"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Bird\" by Poly by Google, https://poly.pizza/m/8Ph79kHbt9s. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/8Ph79kHbt9s/model.glb",
+  "sourceMetadataFile": "models/8Ph79kHbt9s/source.json",
+  "bytes": 41136,
+  "sha256": "47fd1b811be3f70e2fd07a0c2ff7868206d32dc2e612d4942537fc9466efa1f1",
+  "apiTriangleCount": 386,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.208036+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

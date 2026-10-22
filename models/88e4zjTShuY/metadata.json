@@ -1,0 +1,67 @@
+{
+  "id": "88e4zjTShuY",
+  "title": "rope bridge",
+  "author": "Jeremy Eyring",
+  "authorUrl": "https://poly.pizza/u/Jeremy%20Eyring",
+  "sourceUrl": "https://poly.pizza/m/88e4zjTShuY",
+  "metadataUrl": "https://api.poly.pizza/v1/model/88e4zjTShuY",
+  "downloadUrl": "https://static.poly.pizza/077e7fb2-2206-4a8d-ba59-14d64522b01a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/077e7fb2-2206-4a8d-ba59-14d64522b01a.webp",
+  "description": "bridge$",
+  "category": "Buildings",
+  "tags": [
+    "cantilever bridge",
+    "bridge"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [
+    "bridge"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"rope bridge\" by Jeremy Eyring, https://poly.pizza/m/88e4zjTShuY. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/88e4zjTShuY/model.glb",
+  "sourceMetadataFile": "models/88e4zjTShuY/source.json",
+  "bytes": 862612,
+  "sha256": "b7265d3fb24261844e61eefd02aa831c44a538a860e8606655300712787f35ef",
+  "apiTriangleCount": 7044,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 4,
+    "nodes": 4,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.444272+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

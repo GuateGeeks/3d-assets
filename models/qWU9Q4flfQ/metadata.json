@@ -1,0 +1,67 @@
+{
+  "id": "qWU9Q4flfQ",
+  "title": "Drum Set",
+  "author": "Zsky",
+  "authorUrl": "https://poly.pizza/u/Zsky",
+  "sourceUrl": "https://poly.pizza/m/qWU9Q4flfQ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/qWU9Q4flfQ",
+  "downloadUrl": "https://static.poly.pizza/3d9bbf5f-a7fd-4a6a-ad65-6a012ed6cd6e.glb",
+  "thumbnailUrl": "https://static.poly.pizza/3d9bbf5f-a7fd-4a6a-ad65-6a012ed6cd6e.webp",
+  "description": " ",
+  "category": "Furniture & Decor",
+  "tags": [
+    "Instrument",
+    "Drum kit",
+    "Drums"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "drum"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Drum Set\" by Zsky, https://poly.pizza/m/qWU9Q4flfQ. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/qWU9Q4flfQ/model.glb",
+  "sourceMetadataFile": "models/qWU9Q4flfQ/source.json",
+  "bytes": 206220,
+  "sha256": "6984789210ac9b5c1620434cc4c4edaf1d489e496de8dd997ee4bc7f330b97a2",
+  "apiTriangleCount": 2940,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 6,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.605793+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

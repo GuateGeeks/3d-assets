@@ -1,0 +1,72 @@
+{
+  "id": "dse64pqMKAR",
+  "title": "Motorcycle",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/dse64pqMKAR",
+  "metadataUrl": "https://api.poly.pizza/v1/model/dse64pqMKAR",
+  "downloadUrl": "https://static.poly.pizza/f7635710-7cfa-4768-ad70-8366ab485358.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f7635710-7cfa-4768-ad70-8366ab485358.webp",
+  "description": "#motorbike #moped",
+  "category": "Transport",
+  "tags": [
+    "motorbike"
+  ],
+  "areas": [
+    "transporte-movilidad"
+  ],
+  "queries": [
+    "motor"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Motorcycle\" by Poly by Google, https://poly.pizza/m/dse64pqMKAR. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/dse64pqMKAR/model.glb",
+  "sourceMetadataFile": "models/dse64pqMKAR/source.json",
+  "bytes": 109608,
+  "sha256": "a20a32a457e76cec52eb6c65919f3be8dbbe02d9b4a8ec5e789f11a07a4f39fc",
+  "apiTriangleCount": 6361,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.618550+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "classificationNote": "Reclasificado: búsqueda motor devolvió motocicleta; conservar consulta original como evidencia.",
+  "reviewFlags": [
+    "requested-object-not-confirmed"
+  ],
+  "unfulfilledQueries": [
+    "motor"
+  ]
+}

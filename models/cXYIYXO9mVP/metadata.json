@@ -1,0 +1,66 @@
+{
+  "id": "cXYIYXO9mVP",
+  "title": "Test Tube, red liquid",
+  "author": "Jakob Hippe",
+  "authorUrl": "https://poly.pizza/u/Jakob%20Hippe",
+  "sourceUrl": "https://poly.pizza/m/cXYIYXO9mVP",
+  "metadataUrl": "https://api.poly.pizza/v1/model/cXYIYXO9mVP",
+  "downloadUrl": "https://static.poly.pizza/ec319994-c738-490a-a297-bfc262250bab.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ec319994-c738-490a-a297-bfc262250bab.webp",
+  "description": " ",
+  "category": "Clutter",
+  "tags": [
+    "science",
+    "experiment"
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [
+    "test tube"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Test Tube, red liquid\" by Jakob Hippe, https://poly.pizza/m/cXYIYXO9mVP. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/cXYIYXO9mVP/model.glb",
+  "sourceMetadataFile": "models/cXYIYXO9mVP/source.json",
+  "bytes": 27556,
+  "sha256": "77e010747be47ed35b5a4cc3ffdf930f2b87c007764db3904527a6faebb4036d",
+  "apiTriangleCount": 334,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.191652+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

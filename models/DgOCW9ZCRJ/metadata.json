@@ -1,0 +1,96 @@
+{
+  "id": "DgOCW9ZCRJ",
+  "title": "Character Animated",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/DgOCW9ZCRJ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/DgOCW9ZCRJ",
+  "downloadUrl": "https://static.poly.pizza/1a8a9d55-9aa9-43c4-a031-d926e251d80a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/1a8a9d55-9aa9-43c4-a031-d926e251d80a.webp",
+  "description": " ",
+  "category": "People & Characters",
+  "tags": [
+    "Hero",
+    "RPG",
+    "human",
+    "man"
+  ],
+  "areas": [
+    "personajes-animacion"
+  ],
+  "queries": [
+    "animated character"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Character Animated\" by Quaternius, https://poly.pizza/m/DgOCW9ZCRJ. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/DgOCW9ZCRJ/model.glb",
+  "sourceMetadataFile": "models/DgOCW9ZCRJ/source.json",
+  "bytes": 660208,
+  "sha256": "a24a3bc1160b9ee730f0d01d0a6d2c8c74e35fa9a5671843d9a4a61444a95119",
+  "apiTriangleCount": 1246,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 47,
+    "materials": 11,
+    "skins": 2,
+    "joints": 62,
+    "rigged": true,
+    "animated": true,
+    "animations": 24,
+    "animationNames": [
+      "Attacking_Idle",
+      "Dagger_Attack",
+      "Dagger_Attack2",
+      "Death",
+      "PickUp",
+      "Punch",
+      "RecieveHit",
+      "RecieveHit_Attacking",
+      "Roll",
+      "Run",
+      "Walk",
+      "Idle",
+      "CharacterArmature|Attacking_Idle",
+      "CharacterArmature|Dagger_Attack",
+      "CharacterArmature|Dagger_Attack2",
+      "CharacterArmature|Death",
+      "CharacterArmature|Idle",
+      "CharacterArmature|PickUp",
+      "CharacterArmature|Punch",
+      "CharacterArmature|RecieveHit",
+      "CharacterArmature|RecieveHit_Attacking",
+      "CharacterArmature|Roll",
+      "CharacterArmature|Run",
+      "CharacterArmature|Walk"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:21.571359+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

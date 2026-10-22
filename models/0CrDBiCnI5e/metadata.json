@@ -1,0 +1,69 @@
+{
+  "id": "0CrDBiCnI5e",
+  "title": "underwater_enviro_coral",
+  "author": "God Appeasers",
+  "authorUrl": "https://poly.pizza/u/God%20Appeasers",
+  "sourceUrl": "https://poly.pizza/m/0CrDBiCnI5e",
+  "metadataUrl": "https://api.poly.pizza/v1/model/0CrDBiCnI5e",
+  "downloadUrl": "https://static.poly.pizza/31c3360e-e648-4770-bfe0-cc00bda8ec62.glb",
+  "thumbnailUrl": "https://static.poly.pizza/31c3360e-e648-4770-bfe0-cc00bda8ec62.webp",
+  "description": "fan coral",
+  "category": "Other",
+  "tags": [
+    "ocean",
+    "sea",
+    "underwater",
+    "scuba"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "coral"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"underwater_enviro_coral\" by God Appeasers, https://poly.pizza/m/0CrDBiCnI5e. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/0CrDBiCnI5e/model.glb",
+  "sourceMetadataFile": "models/0CrDBiCnI5e/source.json",
+  "bytes": 781140,
+  "sha256": "20279c0377459939da1e6f8365ee552c04367b964fbd0894df36881c6482a774",
+  "apiTriangleCount": 11565,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.390053+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

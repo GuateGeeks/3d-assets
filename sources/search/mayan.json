@@ -1,0 +1,84 @@
+{
+  "total": 3,
+  "results": [
+    {
+      "ID": "cf3QwX0JqGN",
+      "Title": "Mayan Temple",
+      "Description": "Basic Mayan Temple",
+      "Attribution": "\"Mayan Temple\" by Steve Atkins, https://poly.pizza/m/cf3QwX0JqGN. Licence at https://creativecommons.org/licenses/by/3.0",
+      "Thumbnail": "https://static.poly.pizza/e5e4a117-c3d0-40e0-906c-2fd2ab6f70c5.webp",
+      "Download": "https://static.poly.pizza/e5e4a117-c3d0-40e0-906c-2fd2ab6f70c5.glb",
+      "Tri Count": 12084,
+      "Creator": {
+        "Username": "Steve Atkins",
+        "DPURL": "https://static.poly.pizza/dp%2Fnull.jpg"
+      },
+      "Uploaded": "2018-04-18T17:19:13.523Z",
+      "Category": "Buildings",
+      "Tags": [
+        "maya",
+        "palenque",
+        "pyramid"
+      ],
+      "Licence": "CC-BY 3.0",
+      "Animated": false,
+      "Orbit": {
+        "phi": "1.41725",
+        "radius": "110%",
+        "theta": "3.70005"
+      }
+    },
+    {
+      "ID": "2L1BNfBSXrP",
+      "Title": "Mayan Temple",
+      "Description": "Blocks building",
+      "Attribution": "\"Mayan Temple\" by Vivien Lightfoot, https://poly.pizza/m/2L1BNfBSXrP. Licence at https://creativecommons.org/licenses/by/3.0",
+      "Thumbnail": "https://static.poly.pizza/431164c8-d9db-458a-8905-f4f31613097c.webp",
+      "Download": "https://static.poly.pizza/431164c8-d9db-458a-8905-f4f31613097c.glb",
+      "Tri Count": 1015,
+      "Creator": {
+        "Username": "Vivien Lightfoot",
+        "DPURL": "https://static.poly.pizza/dp%2Fnull.jpg"
+      },
+      "Uploaded": "2019-03-28T07:44:28.017Z",
+      "Category": "Buildings",
+      "Tags": [
+        "maya",
+        "palenque",
+        "pyramid"
+      ],
+      "Licence": "CC-BY 3.0",
+      "Animated": false,
+      "Orbit": {
+        "phi": "1.41725",
+        "radius": "110%",
+        "theta": "3.70005"
+      }
+    },
+    {
+      "ID": "0rEriuH2sVr",
+      "Title": "Mayan Ziggurat",
+      "Description": " ",
+      "Attribution": "\"Mayan Ziggurat\" by Bruno Oliveira, https://poly.pizza/m/0rEriuH2sVr. Licence at https://creativecommons.org/licenses/by/3.0",
+      "Thumbnail": "https://static.poly.pizza/64b1cd2a-5bb9-4fb7-a2cb-87681250d012.webp",
+      "Download": "https://static.poly.pizza/64b1cd2a-5bb9-4fb7-a2cb-87681250d012.glb",
+      "Tri Count": 240,
+      "Creator": {
+        "Username": "Bruno Oliveira",
+        "DPURL": "https://static.poly.pizza/dp%2Fnull.jpg"
+      },
+      "Uploaded": "2017-07-05T20:37:36.683Z",
+      "Category": "Buildings",
+      "Tags": [
+        "Pyramid"
+      ],
+      "Licence": "CC-BY 3.0",
+      "Animated": false,
+      "Orbit": {
+        "phi": "1.41725",
+        "radius": "0.8808947969899267",
+        "theta": "3.70005"
+      }
+    }
+  ]
+}

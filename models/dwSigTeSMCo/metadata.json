@@ -1,0 +1,69 @@
+{
+  "id": "dwSigTeSMCo",
+  "title": "Volcano",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/dwSigTeSMCo",
+  "metadataUrl": "https://api.poly.pizza/v1/model/dwSigTeSMCo",
+  "downloadUrl": "https://static.poly.pizza/8801c52d-2572-432d-816b-61a7efc5dc26.glb",
+  "thumbnailUrl": "https://static.poly.pizza/8801c52d-2572-432d-816b-61a7efc5dc26.webp",
+  "description": "#lava #magma #fire #mountain",
+  "category": "Nature",
+  "tags": [
+    "lava",
+    "magma",
+    "fire",
+    "mountain"
+  ],
+  "areas": [
+    "tierra-geografia"
+  ],
+  "queries": [
+    "volcano"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Volcano\" by Poly by Google, https://poly.pizza/m/dwSigTeSMCo. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/dwSigTeSMCo/model.glb",
+  "sourceMetadataFile": "models/dwSigTeSMCo/source.json",
+  "bytes": 232396,
+  "sha256": "987c01a16c48249717a9f50e782f8c2db52e2cba455660a68e8cea525433c6c5",
+  "apiTriangleCount": 522,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.807600+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

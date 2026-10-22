@@ -1,0 +1,68 @@
+{
+  "id": "DNbUoMtG3H",
+  "title": "Drone",
+  "author": "NateGazzard",
+  "authorUrl": "https://poly.pizza/u/NateGazzard",
+  "sourceUrl": "https://poly.pizza/m/DNbUoMtG3H",
+  "metadataUrl": "https://api.poly.pizza/v1/model/DNbUoMtG3H",
+  "downloadUrl": "https://static.poly.pizza/4eb88feb-cb2d-46c3-980d-3e704868361c.glb",
+  "thumbnailUrl": "https://static.poly.pizza/4eb88feb-cb2d-46c3-980d-3e704868361c.webp",
+  "description": "Quad-rotor remote drone with underside mounted camera.",
+  "category": "Transport",
+  "tags": [
+    "Flying",
+    "Aircraft",
+    "Airplane"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [
+    "drone"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Drone\" by NateGazzard, https://poly.pizza/m/DNbUoMtG3H. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/DNbUoMtG3H/model.glb",
+  "sourceMetadataFile": "models/DNbUoMtG3H/source.json",
+  "bytes": 259676,
+  "sha256": "bc9f0d765e0fdb838a9baf26b472f955a11bb2509a3337e918054241b134638d",
+  "apiTriangleCount": 4564,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 6,
+    "nodes": 6,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.427281+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

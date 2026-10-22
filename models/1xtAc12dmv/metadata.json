@@ -1,0 +1,68 @@
+{
+  "id": "1xtAc12dmv",
+  "title": "Pickup Sphere",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/1xtAc12dmv",
+  "metadataUrl": "https://api.poly.pizza/v1/model/1xtAc12dmv",
+  "downloadUrl": "https://static.poly.pizza/6a161332-261b-480c-aec2-8464ae78055f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/6a161332-261b-480c-aec2-8464ae78055f.webp",
+  "description": null,
+  "category": "Nature",
+  "tags": [
+    "Sphere",
+    "Ammunition",
+    "Grenade",
+    "Weapon"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "sphere"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pickup Sphere\" by Quaternius, https://poly.pizza/m/1xtAc12dmv. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/1xtAc12dmv/model.glb",
+  "sourceMetadataFile": "models/1xtAc12dmv/source.json",
+  "bytes": 74088,
+  "sha256": "6ef9dd5963101a757174865cf49a3e6f5c5e3f9db23db238d7045983aa4d3b8a",
+  "apiTriangleCount": 1824,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.897448+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

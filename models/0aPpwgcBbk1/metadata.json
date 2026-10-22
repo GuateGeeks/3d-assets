@@ -1,0 +1,66 @@
+{
+  "id": "0aPpwgcBbk1",
+  "title": "Tennis ball",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/0aPpwgcBbk1",
+  "metadataUrl": "https://api.poly.pizza/v1/model/0aPpwgcBbk1",
+  "downloadUrl": "https://static.poly.pizza/4c6ff1da-4263-42d6-8a74-926d2b4c3d62.glb",
+  "thumbnailUrl": "https://static.poly.pizza/4c6ff1da-4263-42d6-8a74-926d2b4c3d62.webp",
+  "description": "#racquet #sport",
+  "category": "Objects",
+  "tags": [
+    "racquet",
+    "sport"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [
+    "tennis"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Tennis ball\" by Poly by Google, https://poly.pizza/m/0aPpwgcBbk1. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/0aPpwgcBbk1/model.glb",
+  "sourceMetadataFile": "models/0aPpwgcBbk1/source.json",
+  "bytes": 66324,
+  "sha256": "5e1af77ef07c75633995799a76db38b73e87004ef859dabf887a48e5801277e6",
+  "apiTriangleCount": 440,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.503035+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "fWRtJe-ZHR6",
+  "title": "arduino",
+  "author": "Mauricio Martínez González",
+  "authorUrl": "https://poly.pizza/u/Mauricio%20Mart%C3%ADnez%20Gonz%C3%A1lez",
+  "sourceUrl": "https://poly.pizza/m/fWRtJe-ZHR6",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fWRtJe-ZHR6",
+  "downloadUrl": "https://static.poly.pizza/20f6ffbf-8647-4f8d-892d-173c2501dafb.glb",
+  "thumbnailUrl": "https://static.poly.pizza/20f6ffbf-8647-4f8d-892d-173c2501dafb.webp",
+  "description": " ",
+  "category": "Other",
+  "tags": [
+    "electronics",
+    "pcb"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [
+    "arduino"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"arduino\" by Mauricio Martínez González, https://poly.pizza/m/fWRtJe-ZHR6. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fWRtJe-ZHR6/model.glb",
+  "sourceMetadataFile": "models/fWRtJe-ZHR6/source.json",
+  "bytes": 102364,
+  "sha256": "3fc760ef4d89c8498d5b9781263edca8e52ace6e76f786d027c45163d0b7b048",
+  "apiTriangleCount": 1768,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 8,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.384698+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

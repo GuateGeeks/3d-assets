@@ -1,0 +1,70 @@
+{
+  "id": "V86Go2rlnq",
+  "title": "Desk",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/V86Go2rlnq",
+  "metadataUrl": "https://api.poly.pizza/v1/model/V86Go2rlnq",
+  "downloadUrl": "https://static.poly.pizza/91c2bf8d-0876-4801-abd3-8dd5d017ecbd.glb",
+  "thumbnailUrl": "https://static.poly.pizza/91c2bf8d-0876-4801-abd3-8dd5d017ecbd.webp",
+  "description": null,
+  "category": "Furniture & Decor",
+  "tags": [
+    "Furniture",
+    "Desk",
+    "Table",
+    "Computer"
+  ],
+  "areas": [
+    "escuela-lenguaje"
+  ],
+  "queries": [
+    "desk"
+  ],
+  "subjects": [
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Desk\" by Quaternius, https://poly.pizza/m/V86Go2rlnq. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/V86Go2rlnq/model.glb",
+  "sourceMetadataFile": "models/V86Go2rlnq/source.json",
+  "bytes": 135916,
+  "sha256": "3878f6d93d946d77f3e1be55919627a81435696252137ae33c22391c0411f3ce",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 5,
+    "nodes": 6,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.777059+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

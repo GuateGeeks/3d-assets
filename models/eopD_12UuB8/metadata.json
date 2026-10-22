@@ -1,0 +1,67 @@
+{
+  "id": "eopD_12UuB8",
+  "title": "Basketball",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/eopD_12UuB8",
+  "metadataUrl": "https://api.poly.pizza/v1/model/eopD_12UuB8",
+  "downloadUrl": "https://static.poly.pizza/e2534fbc-cb90-4b28-bb8e-4f6706957b21.glb",
+  "thumbnailUrl": "https://static.poly.pizza/e2534fbc-cb90-4b28-bb8e-4f6706957b21.webp",
+  "description": "#basketball #ball #sports",
+  "category": "Objects",
+  "tags": [
+    "basketball",
+    "ball",
+    "sports"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [
+    "basketball"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Basketball\" by Poly by Google, https://poly.pizza/m/eopD_12UuB8. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/eopD_12UuB8/model.glb",
+  "sourceMetadataFile": "models/eopD_12UuB8/source.json",
+  "bytes": 38288,
+  "sha256": "35197dc8ee43e3c65a7108d1c33e56dd20825f4bacb45b56ed33b3950547e755",
+  "apiTriangleCount": 508,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.339031+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

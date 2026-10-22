@@ -1,0 +1,70 @@
+{
+  "id": "uxIo5ge0pw",
+  "title": "Standing Desk",
+  "author": "dook",
+  "authorUrl": "https://poly.pizza/u/dook",
+  "sourceUrl": "https://poly.pizza/m/uxIo5ge0pw",
+  "metadataUrl": "https://api.poly.pizza/v1/model/uxIo5ge0pw",
+  "downloadUrl": "https://static.poly.pizza/a182ad79-8fb5-4308-9362-cb7af483b0ec.glb",
+  "thumbnailUrl": "https://static.poly.pizza/a182ad79-8fb5-4308-9362-cb7af483b0ec.webp",
+  "description": "chairs are for losers with no quads\n\nMade with objects from the Office pack: https://poly.pizza/bundle/Office-Pack-UGIy7YcQP9 ",
+  "category": "Furniture & Decor",
+  "tags": [
+    "Furniture",
+    "Table",
+    "Desk",
+    "Computer"
+  ],
+  "areas": [
+    "escuela-lenguaje"
+  ],
+  "queries": [
+    "desk"
+  ],
+  "subjects": [
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Standing Desk\" by dook, https://poly.pizza/m/uxIo5ge0pw. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/uxIo5ge0pw/model.glb",
+  "sourceMetadataFile": "models/uxIo5ge0pw/source.json",
+  "bytes": 1635376,
+  "sha256": "1b8856ca78b78a53244d1db9bd4e8f58da5c12d9c231cfe875b9b0ce1118cda8",
+  "apiTriangleCount": 21256,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 99,
+    "nodes": 105,
+    "materials": 28,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.697590+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "details": {
+    "id": "historia-patrimonio",
+    "title": "Historia y patrimonio",
+    "subjects": [
+      "Ciencias Sociales",
+      "Expresión Artística"
+    ],
+    "queries": [
+      "pyramid",
+      "temple",
+      "pottery",
+      "ruins",
+      "museum"
+    ],
+    "activities": [
+      "Museos y narración sin atribución cultural automática"
+    ]
+  },
+  "count": 8,
+  "modelIds": [
+    "3pabPM-VTTH",
+    "62oCD2veCi8",
+    "6eGK7_Kbswf",
+    "7LV6QMkGBNo",
+    "9bdkTVw8GE8",
+    "c-tEGK9e49p",
+    "cdMQnl19MB9",
+    "cf3QwX0JqGN"
+  ]
+}

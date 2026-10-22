@@ -1,0 +1,65 @@
+{
+  "id": "1F33UFXOEau",
+  "title": "Test tube, blue Liquid",
+  "author": "Jakob Hippe",
+  "authorUrl": "https://poly.pizza/u/Jakob%20Hippe",
+  "sourceUrl": "https://poly.pizza/m/1F33UFXOEau",
+  "metadataUrl": "https://api.poly.pizza/v1/model/1F33UFXOEau",
+  "downloadUrl": "https://static.poly.pizza/4fac3e47-f9ed-464d-941f-e18ea82a3fee.glb",
+  "thumbnailUrl": "https://static.poly.pizza/4fac3e47-f9ed-464d-941f-e18ea82a3fee.webp",
+  "description": " ",
+  "category": "Objects",
+  "tags": [
+    "science"
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [
+    "test tube"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Test tube, blue Liquid\" by Jakob Hippe, https://poly.pizza/m/1F33UFXOEau. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/1F33UFXOEau/model.glb",
+  "sourceMetadataFile": "models/1F33UFXOEau/source.json",
+  "bytes": 27556,
+  "sha256": "31b61786d1b88f5ec2cecf1e6717e061a1839865f448c33dd6714272b32e3b59",
+  "apiTriangleCount": 334,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.131461+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

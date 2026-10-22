@@ -1,0 +1,72 @@
+{
+  "id": "eEcIqgJzJ1",
+  "title": "Chest",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/eEcIqgJzJ1",
+  "metadataUrl": "https://api.poly.pizza/v1/model/eEcIqgJzJ1",
+  "downloadUrl": "https://static.poly.pizza/0bf6e981-5d81-446b-aeda-1908bc8d7990.glb",
+  "thumbnailUrl": "https://static.poly.pizza/0bf6e981-5d81-446b-aeda-1908bc8d7990.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Treasure"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "chest"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Chest\" by Quaternius, https://poly.pizza/m/eEcIqgJzJ1. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/eEcIqgJzJ1/model.glb",
+  "sourceMetadataFile": "models/eEcIqgJzJ1/source.json",
+  "bytes": 398908,
+  "sha256": "bfb28f12b4e8bfddf998294d50609d4e2b773b7ababf3adbb682893f21039517",
+  "apiTriangleCount": 7406,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 8,
+    "materials": 5,
+    "skins": 2,
+    "joints": 6,
+    "rigged": true,
+    "animated": true,
+    "animations": 4,
+    "animationNames": [
+      "Chest_Close",
+      "Chest_Open",
+      "Chest_Armature|Chest_Close",
+      "Chest_Armature|Chest_Open"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:39.249604+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

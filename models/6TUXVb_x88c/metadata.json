@@ -1,0 +1,67 @@
+{
+  "id": "6TUXVb_x88c",
+  "title": "Science Tubes",
+  "author": "Ryan Donaldson",
+  "authorUrl": "https://poly.pizza/u/Ryan%20Donaldson",
+  "sourceUrl": "https://poly.pizza/m/6TUXVb_x88c",
+  "metadataUrl": "https://api.poly.pizza/v1/model/6TUXVb_x88c",
+  "downloadUrl": "https://static.poly.pizza/3ccadc76-b60f-417f-9f8e-82d44b08dbf9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/3ccadc76-b60f-417f-9f8e-82d44b08dbf9.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "medium",
+    "electronics",
+    "head"
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [
+    "test tube"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Science Tubes\" by Ryan Donaldson, https://poly.pizza/m/6TUXVb_x88c. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/6TUXVb_x88c/model.glb",
+  "sourceMetadataFile": "models/6TUXVb_x88c/source.json",
+  "bytes": 103664,
+  "sha256": "198612a1cfd265a82df8ccd32d161c56e3d92423f2598c2ba4ad41069b051341",
+  "apiTriangleCount": 1344,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 8,
+    "nodes": 8,
+    "materials": 6,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.161032+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

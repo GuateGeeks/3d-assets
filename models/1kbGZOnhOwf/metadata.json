@@ -1,0 +1,74 @@
+{
+  "id": "1kbGZOnhOwf",
+  "title": "Giant Robot",
+  "author": "Dann Beeson",
+  "authorUrl": "https://poly.pizza/u/Dann%20Beeson",
+  "sourceUrl": "https://poly.pizza/m/1kbGZOnhOwf",
+  "metadataUrl": "https://api.poly.pizza/v1/model/1kbGZOnhOwf",
+  "downloadUrl": "https://static.poly.pizza/2db3d598-a711-48ea-ac66-45165e37ee87.glb",
+  "thumbnailUrl": "https://static.poly.pizza/2db3d598-a711-48ea-ac66-45165e37ee87.webp",
+  "description": "big guy",
+  "category": "People & Characters",
+  "tags": [
+    "brain",
+    "asimov",
+    "rosie"
+  ],
+  "areas": [
+    "personajes-animacion",
+    "robotica-electronica"
+  ],
+  "queries": [
+    "animated robot",
+    "robot"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Giant Robot\" by Dann Beeson, https://poly.pizza/m/1kbGZOnhOwf. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/1kbGZOnhOwf/model.glb",
+  "sourceMetadataFile": "models/1kbGZOnhOwf/source.json",
+  "bytes": 1472864,
+  "sha256": "8bf356ff0ada23726b1546a5d09a79733abac942fe09b388e77182c37f193440",
+  "apiTriangleCount": 12336,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 113,
+    "nodes": 113,
+    "materials": 10,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:21.795067+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

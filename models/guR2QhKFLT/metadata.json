@@ -1,0 +1,67 @@
+{
+  "id": "guR2QhKFLT",
+  "title": "Lever",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/guR2QhKFLT",
+  "metadataUrl": "https://api.poly.pizza/v1/model/guR2QhKFLT",
+  "downloadUrl": "https://static.poly.pizza/cade5a72-1b3f-418f-a419-372438bbdfd0.glb",
+  "thumbnailUrl": "https://static.poly.pizza/cade5a72-1b3f-418f-a419-372438bbdfd0.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Joystick",
+    "Electronics"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [
+    "lever"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Lever\" by Quaternius, https://poly.pizza/m/guR2QhKFLT. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/guR2QhKFLT/model.glb",
+  "sourceMetadataFile": "models/guR2QhKFLT/source.json",
+  "bytes": 17388,
+  "sha256": "6c52ae98575584beb79e93d4bee91ed47cca6aac70dfc1817304b361d9fa777c",
+  "apiTriangleCount": 328,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 3,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.041830+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

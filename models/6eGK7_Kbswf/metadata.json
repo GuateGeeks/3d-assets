@@ -1,0 +1,70 @@
+{
+  "id": "6eGK7_Kbswf",
+  "title": "Ruin",
+  "author": "nha pham",
+  "authorUrl": "https://poly.pizza/u/nha%20pham",
+  "sourceUrl": "https://poly.pizza/m/6eGK7_Kbswf",
+  "metadataUrl": "https://api.poly.pizza/v1/model/6eGK7_Kbswf",
+  "downloadUrl": "https://static.poly.pizza/d8bbbc0a-042f-4246-ad54-0d20f2323221.glb",
+  "thumbnailUrl": "https://static.poly.pizza/d8bbbc0a-042f-4246-ad54-0d20f2323221.webp",
+  "description": "A ruin with only stones #Vlander",
+  "category": "Other",
+  "tags": [
+    "destroy",
+    "ruination",
+    "wrecking"
+  ],
+  "areas": [
+    "historia-patrimonio"
+  ],
+  "queries": [
+    "ruins"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Ruin\" by nha pham, https://poly.pizza/m/6eGK7_Kbswf. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/6eGK7_Kbswf/model.glb",
+  "sourceMetadataFile": "models/6eGK7_Kbswf/source.json",
+  "bytes": 259964,
+  "sha256": "d3b556695bc9555192f4efd6dc8b9d95a715274a0ae4bcb89cdbe361b47a571a",
+  "apiTriangleCount": 1850,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 29,
+    "nodes": 29,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.389080+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "cultural-or-species-identification-review"
+  ],
+  "unfulfilledQueries": []
+}

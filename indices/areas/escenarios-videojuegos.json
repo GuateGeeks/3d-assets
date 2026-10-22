@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "details": {
+    "id": "escenarios-videojuegos",
+    "title": "Escenarios y juegos para Code Studio",
+    "subjects": [
+      "Expresión Artística",
+      "Matemáticas",
+      "Productividad y Desarrollo"
+    ],
+    "queries": [
+      "platform",
+      "terrain",
+      "fence",
+      "bench",
+      "door",
+      "chest"
+    ],
+    "activities": [
+      "Mundos, misiones, colisiones y eventos"
+    ]
+  },
+  "count": 20,
+  "modelIds": [
+    "00xFHE4LR_6",
+    "27mUA9VkDjl",
+    "2EvQDFgG1H3",
+    "6yo90zr_4Z_",
+    "7xmlX1JEkM",
+    "8yvoMOldbAq",
+    "a948jjnuaL",
+    "aEsU846H8u",
+    "BfEpoctX5p",
+    "dOSjmdmKaxi",
+    "e02PFKKhbr",
+    "ecGdK1XryiQ",
+    "eEcIqgJzJ1",
+    "IbCTSkyWDT",
+    "jLxjFxFRpw",
+    "m8O6mE0anP",
+    "NjrIKzZLYv",
+    "O72u4Drp8k",
+    "u78ByZHYB2",
+    "ZSQMyIqPTz"
+  ]
+}

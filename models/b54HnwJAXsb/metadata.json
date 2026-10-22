@@ -1,0 +1,69 @@
+{
+  "id": "b54HnwJAXsb",
+  "title": "Water bottle",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/b54HnwJAXsb",
+  "metadataUrl": "https://api.poly.pizza/v1/model/b54HnwJAXsb",
+  "downloadUrl": "https://static.poly.pizza/9b21d1cc-6f52-4aa1-a779-74dab4567bde.glb",
+  "thumbnailUrl": "https://static.poly.pizza/9b21d1cc-6f52-4aa1-a779-74dab4567bde.webp",
+  "description": "#beverage #liquid #container #drink",
+  "category": "Objects",
+  "tags": [
+    "beverage",
+    "liquid",
+    "container",
+    "drink"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "water"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Water bottle\" by jeremy, https://poly.pizza/m/b54HnwJAXsb. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/b54HnwJAXsb/model.glb",
+  "sourceMetadataFile": "models/b54HnwJAXsb/source.json",
+  "bytes": 17296,
+  "sha256": "7c1d8a0de98d0380222b6992d8b120dea75ab3e5160aceae9b08bc4856822025",
+  "apiTriangleCount": 312,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.575431+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

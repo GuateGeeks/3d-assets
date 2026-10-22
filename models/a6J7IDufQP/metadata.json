@@ -1,0 +1,68 @@
+{
+  "id": "a6J7IDufQP",
+  "title": "Security Camera",
+  "author": "J-Toastie",
+  "authorUrl": "https://poly.pizza/u/J-Toastie",
+  "sourceUrl": "https://poly.pizza/m/a6J7IDufQP",
+  "metadataUrl": "https://api.poly.pizza/v1/model/a6J7IDufQP",
+  "downloadUrl": "https://static.poly.pizza/2360ddcb-37fd-4bd4-b9bb-f62b0af6dac9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/2360ddcb-37fd-4bd4-b9bb-f62b0af6dac9.webp",
+  "description": "hey say hi to the camera 📸",
+  "category": "Furniture & Decor",
+  "tags": [
+    "Security",
+    "Security Camera",
+    "Camera",
+    "Cam"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "camera"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Security Camera\" by J-Toastie, https://poly.pizza/m/a6J7IDufQP. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/a6J7IDufQP/model.glb",
+  "sourceMetadataFile": "models/a6J7IDufQP/source.json",
+  "bytes": 43580,
+  "sha256": "a65bf098bcfc54802f0c9346e4da7b54cef1e2848cbd3696eb4891e27e05929d",
+  "apiTriangleCount": 568,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.109514+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

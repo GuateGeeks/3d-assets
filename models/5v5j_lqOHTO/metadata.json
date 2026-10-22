@@ -1,0 +1,70 @@
+{
+  "id": "5v5j_lqOHTO",
+  "title": "Teacher",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/5v5j_lqOHTO",
+  "metadataUrl": "https://api.poly.pizza/v1/model/5v5j_lqOHTO",
+  "downloadUrl": "https://static.poly.pizza/712974c2-66db-4a0d-8936-75b5bdd0bb74.glb",
+  "thumbnailUrl": "https://static.poly.pizza/712974c2-66db-4a0d-8936-75b5bdd0bb74.webp",
+  "description": "#educator #professor #scholar",
+  "category": "People & Characters",
+  "tags": [
+    "educator",
+    "professor",
+    "scholar"
+  ],
+  "areas": [
+    "personajes-animacion"
+  ],
+  "queries": [
+    "teacher"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Teacher\" by jeremy, https://poly.pizza/m/5v5j_lqOHTO. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/5v5j_lqOHTO/model.glb",
+  "sourceMetadataFile": "models/5v5j_lqOHTO/source.json",
+  "bytes": 75992,
+  "sha256": "9a988df47cf3d930ee17199109126cb99eb908db400d1fd33a73ea804ffa0aa4",
+  "apiTriangleCount": 252,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 6,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:21.920551+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

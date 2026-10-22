@@ -1,0 +1,68 @@
+{
+  "id": "15cXqVGk0jA",
+  "title": "Whale",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/15cXqVGk0jA",
+  "metadataUrl": "https://api.poly.pizza/v1/model/15cXqVGk0jA",
+  "downloadUrl": "https://static.poly.pizza/c9ba7c13-3082-4097-9d66-406a233f873d.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c9ba7c13-3082-4097-9d66-406a233f873d.webp",
+  "description": "#mammal #marine #cetacean #ocean",
+  "category": "Animals",
+  "tags": [
+    "Whale",
+    "Fish",
+    "Ocean"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "whale"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Whale\" by jeremy, https://poly.pizza/m/15cXqVGk0jA. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/15cXqVGk0jA/model.glb",
+  "sourceMetadataFile": "models/15cXqVGk0jA/source.json",
+  "bytes": 18932,
+  "sha256": "b49def0ae6362762340602fd6b781e239ed38a81b43213545dc59bd49f350c5b",
+  "apiTriangleCount": 248,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.542473+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

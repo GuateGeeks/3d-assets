@@ -1,0 +1,68 @@
+{
+  "id": "3UtIosDm9u-",
+  "title": "very cute airplane",
+  "author": "Akash Rudra",
+  "authorUrl": "https://poly.pizza/u/Akash%20Rudra",
+  "sourceUrl": "https://poly.pizza/m/3UtIosDm9u-",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3UtIosDm9u-",
+  "downloadUrl": "https://static.poly.pizza/b91d675e-8ebc-46e1-b739-80f5daba8515.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b91d675e-8ebc-46e1-b739-80f5daba8515.webp",
+  "description": "a very cute airplane",
+  "category": "Transport",
+  "tags": [
+    "aircraft",
+    "plane"
+  ],
+  "areas": [
+    "transporte-movilidad"
+  ],
+  "queries": [
+    "airplane"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"very cute airplane\" by Akash Rudra, https://poly.pizza/m/3UtIosDm9u-. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3UtIosDm9u-/model.glb",
+  "sourceMetadataFile": "models/3UtIosDm9u-/source.json",
+  "bytes": 643824,
+  "sha256": "b77cda3eaa33b934fd8685510b5c4bce44518421f53bd19fb14c5acb32866724",
+  "apiTriangleCount": 10691,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 57,
+    "nodes": 57,
+    "materials": 41,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.947235+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": "p92t5dG8Zd",
+  "title": "Honey",
+  "author": "Kenney",
+  "authorUrl": "https://poly.pizza/u/Kenney",
+  "sourceUrl": "https://poly.pizza/m/p92t5dG8Zd",
+  "metadataUrl": "https://api.poly.pizza/v1/model/p92t5dG8Zd",
+  "downloadUrl": "https://static.poly.pizza/5335e44a-06ac-4d35-9c43-f674be0e45c3.glb",
+  "thumbnailUrl": "https://static.poly.pizza/5335e44a-06ac-4d35-9c43-f674be0e45c3.webp",
+  "description": null,
+  "category": "Food & Drink",
+  "tags": [
+    "Jar",
+    "Vase",
+    "Pottery"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "pottery"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Honey\" by Kenney, https://poly.pizza/m/p92t5dG8Zd. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/p92t5dG8Zd/model.glb",
+  "sourceMetadataFile": "models/p92t5dG8Zd/source.json",
+  "bytes": 12868,
+  "sha256": "2a01edf476a57cf02333a471445c3c5c128a924983d81d379ba0a2f1d6ca916f",
+  "apiTriangleCount": 140,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.339911+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "requested-object-not-confirmed"
+  ],
+  "classificationNote": "Recurso reclasificado por título original: Honey; no satisface la búsqueda pottery.",
+  "unfulfilledQueries": [
+    "pottery"
+  ]
+}

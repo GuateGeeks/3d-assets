@@ -1,0 +1,65 @@
+{
+  "id": "lAx8JytxGD",
+  "title": "Traffic Cone",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/lAx8JytxGD",
+  "metadataUrl": "https://api.poly.pizza/v1/model/lAx8JytxGD",
+  "downloadUrl": "https://static.poly.pizza/4e13551a-b2fb-4117-9b57-22b2b7db394e.glb",
+  "thumbnailUrl": "https://static.poly.pizza/4e13551a-b2fb-4117-9b57-22b2b7db394e.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Cone"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "cone"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Traffic Cone\" by Quaternius, https://poly.pizza/m/lAx8JytxGD. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/lAx8JytxGD/model.glb",
+  "sourceMetadataFile": "models/lAx8JytxGD/source.json",
+  "bytes": 8280,
+  "sha256": "70fd5c97f107914f96dfa3f197041c910c0a441ec43dc2f9db07967c3761afa2",
+  "apiTriangleCount": 168,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.006681+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

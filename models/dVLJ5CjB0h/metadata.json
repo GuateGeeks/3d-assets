@@ -1,0 +1,69 @@
+{
+  "id": "dVLJ5CjB0h",
+  "title": "Red Car",
+  "author": "J-Toastie",
+  "authorUrl": "https://poly.pizza/u/J-Toastie",
+  "sourceUrl": "https://poly.pizza/m/dVLJ5CjB0h",
+  "metadataUrl": "https://api.poly.pizza/v1/model/dVLJ5CjB0h",
+  "downloadUrl": "https://static.poly.pizza/a061b874-2c4d-4f08-8c6f-eb24bd8dfcb5.glb",
+  "thumbnailUrl": "https://static.poly.pizza/a061b874-2c4d-4f08-8c6f-eb24bd8dfcb5.webp",
+  "description": "A low poly red car, It gets quite bumpy whilst driving...",
+  "category": "Transport",
+  "tags": [
+    "Car",
+    "Red",
+    "Red Car"
+  ],
+  "areas": [
+    "transporte-movilidad"
+  ],
+  "queries": [
+    "car"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Red Car\" by J-Toastie, https://poly.pizza/m/dVLJ5CjB0h. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/dVLJ5CjB0h/model.glb",
+  "sourceMetadataFile": "models/dVLJ5CjB0h/source.json",
+  "bytes": 109504,
+  "sha256": "03c8dd2fc598b5d812ee0d7f66ba1f4c42482492813dfc3070dd531593c3c1a8",
+  "apiTriangleCount": 1688,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 5,
+    "nodes": 5,
+    "materials": 12,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.785165+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

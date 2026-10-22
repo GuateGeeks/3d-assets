@@ -1,0 +1,69 @@
+{
+  "id": "0S_ePFXZbCz",
+  "title": "Wind turbine",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/0S_ePFXZbCz",
+  "metadataUrl": "https://api.poly.pizza/v1/model/0S_ePFXZbCz",
+  "downloadUrl": "https://static.poly.pizza/42f1ef26-827c-40f9-8909-fe5768d36110.glb",
+  "thumbnailUrl": "https://static.poly.pizza/42f1ef26-827c-40f9-8909-fe5768d36110.webp",
+  "description": "#renewable energy\n#wind\n#power\n#electricity",
+  "category": "Other",
+  "tags": [
+    "renewable",
+    "wind",
+    "power",
+    "electricity"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [
+    "wind turbine"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wind turbine\" by Poly by Google, https://poly.pizza/m/0S_ePFXZbCz. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/0S_ePFXZbCz/model.glb",
+  "sourceMetadataFile": "models/0S_ePFXZbCz/source.json",
+  "bytes": 36956,
+  "sha256": "aa7e32a9fbc9e5d730fc58f750bb8f4751de4db92d56a6aeaf88f223142ece60",
+  "apiTriangleCount": 348,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.799050+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

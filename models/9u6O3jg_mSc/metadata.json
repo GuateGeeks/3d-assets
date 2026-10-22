@@ -1,0 +1,73 @@
+{
+  "id": "9u6O3jg_mSc",
+  "title": "Hose wheel",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/9u6O3jg_mSc",
+  "metadataUrl": "https://api.poly.pizza/v1/model/9u6O3jg_mSc",
+  "downloadUrl": "https://static.poly.pizza/ad401714-5cbf-4a7e-9976-2c7eb27b5d38.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ad401714-5cbf-4a7e-9976-2c7eb27b5d38.webp",
+  "description": "#yard\n#hose\n#water\n#garden\n#wheel",
+  "category": "Objects",
+  "tags": [
+    "yard",
+    "hose",
+    "water",
+    "garden"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [
+    "pulley"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Hose wheel\" by Poly by Google, https://poly.pizza/m/9u6O3jg_mSc. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/9u6O3jg_mSc/model.glb",
+  "sourceMetadataFile": "models/9u6O3jg_mSc/source.json",
+  "bytes": 3893756,
+  "sha256": "8cd46191768ae8639cf5635843f21d927082a739748679f7cb84d083f7d975ce",
+  "apiTriangleCount": 58046,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 48,
+    "nodes": 48,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.683695+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "requested-object-not-confirmed"
+  ],
+  "unfulfilledQueries": [
+    "pulley"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "TvT0yqLRln",
+  "title": "Wrench",
+  "author": "Armory_3D",
+  "authorUrl": "https://poly.pizza/u/Armory_3D",
+  "sourceUrl": "https://poly.pizza/m/TvT0yqLRln",
+  "metadataUrl": "https://api.poly.pizza/v1/model/TvT0yqLRln",
+  "downloadUrl": "https://static.poly.pizza/f117ea86-ca0d-4b7a-8e32-213a1238e406.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f117ea86-ca0d-4b7a-8e32-213a1238e406.webp",
+  "description": "A tool",
+  "category": "Objects",
+  "tags": [
+    "wrench",
+    "spanner",
+    "construction",
+    "build"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [
+    "wrench"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wrench\" by Armory_3D, https://poly.pizza/m/TvT0yqLRln. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/TvT0yqLRln/model.glb",
+  "sourceMetadataFile": "models/TvT0yqLRln/source.json",
+  "bytes": 29016,
+  "sha256": "20da37f659df01c11191c63b5342f219a889f895c53d4ee091ab0616c06d23db",
+  "apiTriangleCount": 464,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.874409+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

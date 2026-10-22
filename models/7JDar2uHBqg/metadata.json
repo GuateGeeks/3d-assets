@@ -1,0 +1,67 @@
+{
+  "id": "7JDar2uHBqg",
+  "title": "Banana",
+  "author": "Zoe XR",
+  "authorUrl": "https://poly.pizza/u/Zoe%20XR",
+  "sourceUrl": "https://poly.pizza/m/7JDar2uHBqg",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7JDar2uHBqg",
+  "downloadUrl": "https://static.poly.pizza/75c02ee7-2f11-4c62-85da-d5de95aa8078.glb",
+  "thumbnailUrl": "https://static.poly.pizza/75c02ee7-2f11-4c62-85da-d5de95aa8078.webp",
+  "description": " ",
+  "category": "Food & Drink",
+  "tags": [
+    "rubber",
+    "yellow"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "banana"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Banana\" by Zoe XR, https://poly.pizza/m/7JDar2uHBqg. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7JDar2uHBqg/model.glb",
+  "sourceMetadataFile": "models/7JDar2uHBqg/source.json",
+  "bytes": 25180,
+  "sha256": "d3443c9f5a651fed67b620b5f5be6db7741468fdcfcb7041d9fe86df5708dc6d",
+  "apiTriangleCount": 226,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.191055+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

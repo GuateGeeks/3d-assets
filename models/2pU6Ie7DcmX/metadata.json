@@ -1,0 +1,67 @@
+{
+  "id": "2pU6Ie7DcmX",
+  "title": "dice set",
+  "author": "Jeremy Eyring",
+  "authorUrl": "https://poly.pizza/u/Jeremy%20Eyring",
+  "sourceUrl": "https://poly.pizza/m/2pU6Ie7DcmX",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2pU6Ie7DcmX",
+  "downloadUrl": "https://static.poly.pizza/af8b9a0e-d187-4ffe-ab93-f3e7ca5972e7.glb",
+  "thumbnailUrl": "https://static.poly.pizza/af8b9a0e-d187-4ffe-ab93-f3e7ca5972e7.webp",
+  "description": null,
+  "category": "Other",
+  "tags": [
+    "bale",
+    "cubes",
+    "ivory"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "dice"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"dice set\" by Jeremy Eyring, https://poly.pizza/m/2pU6Ie7DcmX. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2pU6Ie7DcmX/model.glb",
+  "sourceMetadataFile": "models/2pU6Ie7DcmX/source.json",
+  "bytes": 1490716,
+  "sha256": "e487405a444fc4a5b2efeed4b50b028ad035003331b29910619e2ecf16af9bbc",
+  "apiTriangleCount": 660,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.086875+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ecGdK1XryiQ",
+  "title": "Wooden fence",
+  "author": "Frank Lynam",
+  "authorUrl": "https://poly.pizza/u/Frank%20Lynam",
+  "sourceUrl": "https://poly.pizza/m/ecGdK1XryiQ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/ecGdK1XryiQ",
+  "downloadUrl": "https://static.poly.pizza/6f9990ae-d202-4a40-9953-11805d1ae78f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/6f9990ae-d202-4a40-9953-11805d1ae78f.webp",
+  "description": "A lowpoly fence modelled in Blender",
+  "category": "Objects",
+  "tags": [
+    "picket",
+    "fence"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "fence"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wooden fence\" by Frank Lynam, https://poly.pizza/m/ecGdK1XryiQ. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/ecGdK1XryiQ/model.glb",
+  "sourceMetadataFile": "models/ecGdK1XryiQ/source.json",
+  "bytes": 19692,
+  "sha256": "8ff20d9fda935c3445caaf429bdcca823c1d95d3b80853a7375b91069496579b",
+  "apiTriangleCount": 172,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 8,
+    "nodes": 8,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.919564+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

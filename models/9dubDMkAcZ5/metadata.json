@@ -1,0 +1,67 @@
+{
+  "id": "9dubDMkAcZ5",
+  "title": "Flower",
+  "author": "Zoe XR",
+  "authorUrl": "https://poly.pizza/u/Zoe%20XR",
+  "sourceUrl": "https://poly.pizza/m/9dubDMkAcZ5",
+  "metadataUrl": "https://api.poly.pizza/v1/model/9dubDMkAcZ5",
+  "downloadUrl": "https://static.poly.pizza/30188ab9-1129-4335-b96c-d1625e2498b0.glb",
+  "thumbnailUrl": "https://static.poly.pizza/30188ab9-1129-4335-b96c-d1625e2498b0.webp",
+  "description": null,
+  "category": "Nature",
+  "tags": [
+    "bloom",
+    "blossom",
+    "efflorescence"
+  ],
+  "areas": [
+    "bosques-plantas"
+  ],
+  "queries": [
+    "flower"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Flower\" by Zoe XR, https://poly.pizza/m/9dubDMkAcZ5. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/9dubDMkAcZ5/model.glb",
+  "sourceMetadataFile": "models/9dubDMkAcZ5/source.json",
+  "bytes": 44480,
+  "sha256": "bbbab6cf1de4d157f379faca91b04b0aef4319ebfdf0ae4b18dad54b57b21e97",
+  "apiTriangleCount": 298,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 3,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.867136+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

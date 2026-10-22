@@ -1,0 +1,87 @@
+{
+  "id": "kKtL4zvS3n",
+  "title": "Animated Platformer Character",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/kKtL4zvS3n",
+  "metadataUrl": "https://api.poly.pizza/v1/model/kKtL4zvS3n",
+  "downloadUrl": "https://static.poly.pizza/906e29d9-2e15-4c5c-a38a-fb99023acc9c.glb",
+  "thumbnailUrl": "https://static.poly.pizza/906e29d9-2e15-4c5c-a38a-fb99023acc9c.webp",
+  "description": " ",
+  "category": "People & Characters",
+  "tags": [
+    "Cute"
+  ],
+  "areas": [
+    "personajes-animacion"
+  ],
+  "queries": [
+    "animated character"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Animated Platformer Character\" by Quaternius, https://poly.pizza/m/kKtL4zvS3n. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kKtL4zvS3n/model.glb",
+  "sourceMetadataFile": "models/kKtL4zvS3n/source.json",
+  "bytes": 453384,
+  "sha256": "140d72d10993ebe83815170fc0a061a9190b499e41b63ded0e10c8c4ec876108",
+  "apiTriangleCount": 2348,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 4,
+    "nodes": 45,
+    "materials": 6,
+    "skins": 4,
+    "joints": 116,
+    "rigged": true,
+    "animated": true,
+    "animations": 18,
+    "animationNames": [
+      "CharacterArmature|Death",
+      "CharacterArmature|Duck",
+      "CharacterArmature|HitReact",
+      "CharacterArmature|Idle",
+      "CharacterArmature|Idle_Gun",
+      "CharacterArmature|Idle_Shoot",
+      "CharacterArmature|Jump",
+      "CharacterArmature|Jump_Idle",
+      "CharacterArmature|Jump_Land",
+      "CharacterArmature|No",
+      "CharacterArmature|Punch",
+      "CharacterArmature|Run",
+      "CharacterArmature|Run_Gun",
+      "CharacterArmature|Run_Shoot",
+      "CharacterArmature|Walk",
+      "CharacterArmature|Walk_Gun",
+      "CharacterArmature|Wave",
+      "CharacterArmature|Yes"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:21.660970+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

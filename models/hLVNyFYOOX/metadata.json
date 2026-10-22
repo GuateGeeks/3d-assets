@@ -1,0 +1,69 @@
+{
+  "id": "hLVNyFYOOX",
+  "title": "Car Battery",
+  "author": "J-Toastie",
+  "authorUrl": "https://poly.pizza/u/J-Toastie",
+  "sourceUrl": "https://poly.pizza/m/hLVNyFYOOX",
+  "metadataUrl": "https://api.poly.pizza/v1/model/hLVNyFYOOX",
+  "downloadUrl": "https://static.poly.pizza/b99e4594-bcaa-4096-9d6f-4793c0f241b5.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b99e4594-bcaa-4096-9d6f-4793c0f241b5.webp",
+  "description": "throw these into the ocean when you're done with them to recharge the electric eels ",
+  "category": "Objects",
+  "tags": [
+    "Battery",
+    "Power Source",
+    "Power",
+    "Car Battery"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [
+    "battery"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Car Battery\" by J-Toastie, https://poly.pizza/m/hLVNyFYOOX. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/hLVNyFYOOX/model.glb",
+  "sourceMetadataFile": "models/hLVNyFYOOX/source.json",
+  "bytes": 36132,
+  "sha256": "2596b479ea215cf15e7010035af8bc1401a87fe8adaed59769e3f9bdd975a383",
+  "apiTriangleCount": 294,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.008733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

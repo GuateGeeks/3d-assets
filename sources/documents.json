@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "file": "poly-pizza-api.SKILL.md",
+      "url": "https://raw.githubusercontent.com/jasonkneen/tiny-world-builder/main/.agents/skills/poly-pizza-api/SKILL.md",
+      "capturedAt": "2026-10-22T19:48:43.956129+00:00",
+      "bytes": 7416,
+      "sha256": "994867d9bfe4e9f6df4f59436c387f58d7147b3f1ae657216cd8e50457423390"
+    },
+    {
+      "file": "api-v1.1.html",
+      "url": "https://poly.pizza/docs/api/v1.1",
+      "capturedAt": "2026-10-22T19:48:43.956129+00:00",
+      "bytes": 57338,
+      "sha256": "df7fd514f5e771a682482a5b4455e8dcac0e8c4915dbb898c30ff41e8275ab6e"
+    },
+    {
+      "file": "terms.html",
+      "url": "https://poly.pizza/docs/tos",
+      "capturedAt": "2026-10-22T19:48:43.956129+00:00",
+      "bytes": 87589,
+      "sha256": "a3dc3b8754e1e6ad2ba92e981f9f88c082c9aa679472ad41473960ec8d68ba9b"
+    },
+    {
+      "file": "cc-by-3.0.html",
+      "url": "https://creativecommons.org/licenses/by/3.0/",
+      "capturedAt": "2026-10-22T19:48:43.956129+00:00",
+      "bytes": 31824,
+      "sha256": "befae005d7dc8701eed58fe2080fda2889c3749272d6c8aba8e8310114112095"
+    },
+    {
+      "file": "cc0-1.0.html",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "capturedAt": "2026-10-22T19:48:43.956129+00:00",
+      "bytes": 30248,
+      "sha256": "abb4d48fc8b85de52b377dd105532c6c549f515d492a8e1712bc99e7316a1f12"
+    }
+  ],
+  "skillDirectoryUrl": "https://www.skillsdirectory.com/skills/jasonkneen-poly-pizza-api"
+}

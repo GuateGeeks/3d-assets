@@ -1,0 +1,68 @@
+{
+  "id": "7iHJ519SwxG",
+  "title": "Fire Truck",
+  "author": "Ivan Klus",
+  "authorUrl": "https://poly.pizza/u/Ivan%20Klus",
+  "sourceUrl": "https://poly.pizza/m/7iHJ519SwxG",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7iHJ519SwxG",
+  "downloadUrl": "https://static.poly.pizza/08660636-2148-4656-b6bc-ca72a312f90f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/08660636-2148-4656-b6bc-ca72a312f90f.webp",
+  "description": " ",
+  "category": "Transport",
+  "tags": [
+    "fire engine",
+    "hose",
+    "axe"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [
+    "fire truck"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Fire Truck\" by Ivan Klus, https://poly.pizza/m/7iHJ519SwxG. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7iHJ519SwxG/model.glb",
+  "sourceMetadataFile": "models/7iHJ519SwxG/source.json",
+  "bytes": 255676,
+  "sha256": "4a5bbbeb51b744ba2b59f8943176f90d0f0378575892097c4a311cca8151f476",
+  "apiTriangleCount": 2120,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 122,
+    "nodes": 122,
+    "materials": 11,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.118688+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "UGOWjMUC5U",
+  "title": "Laptop",
+  "author": "J-Toastie",
+  "authorUrl": "https://poly.pizza/u/J-Toastie",
+  "sourceUrl": "https://poly.pizza/m/UGOWjMUC5U",
+  "metadataUrl": "https://api.poly.pizza/v1/model/UGOWjMUC5U",
+  "downloadUrl": "https://static.poly.pizza/c5e17526-37cf-42e5-b5f0-b426e1774e91.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c5e17526-37cf-42e5-b5f0-b426e1774e91.webp",
+  "description": "Perfect for 3D modelling 👀",
+  "category": "Other",
+  "tags": [
+    "Laptop",
+    "Technology",
+    "Portable PC"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [
+    "laptop"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Laptop\" by J-Toastie, https://poly.pizza/m/UGOWjMUC5U. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/UGOWjMUC5U/model.glb",
+  "sourceMetadataFile": "models/UGOWjMUC5U/source.json",
+  "bytes": 132204,
+  "sha256": "968790b6d9136b53ba6f629d2caffe9892bf89377723861c1ad8eaed5484cbe8",
+  "apiTriangleCount": 2000,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:33.934495+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "HIyVF2jsHR",
+  "title": "Guitar",
+  "author": "Zsky",
+  "authorUrl": "https://poly.pizza/u/Zsky",
+  "sourceUrl": "https://poly.pizza/m/HIyVF2jsHR",
+  "metadataUrl": "https://api.poly.pizza/v1/model/HIyVF2jsHR",
+  "downloadUrl": "https://static.poly.pizza/f43e2fc1-ef2f-4e65-acea-588d27c034bd.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f43e2fc1-ef2f-4e65-acea-588d27c034bd.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Guitar",
+    "Musical Instrument"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "guitar"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Guitar\" by Zsky, https://poly.pizza/m/HIyVF2jsHR. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/HIyVF2jsHR/model.glb",
+  "sourceMetadataFile": "models/HIyVF2jsHR/source.json",
+  "bytes": 81924,
+  "sha256": "c05836c707cdc9ebb51ed7c77d31397e0d04c8642861c02901a2e9a8bcd60791",
+  "apiTriangleCount": 1170,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.567575+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

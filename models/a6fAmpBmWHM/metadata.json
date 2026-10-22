@@ -1,0 +1,67 @@
+{
+  "id": "a6fAmpBmWHM",
+  "title": "Beaker",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/a6fAmpBmWHM",
+  "metadataUrl": "https://api.poly.pizza/v1/model/a6fAmpBmWHM",
+  "downloadUrl": "https://static.poly.pizza/5c1c9160-2131-4f59-aa7f-8c350bd43947.glb",
+  "thumbnailUrl": "https://static.poly.pizza/5c1c9160-2131-4f59-aa7f-8c350bd43947.webp",
+  "description": "#chemistry #science ",
+  "category": "Objects",
+  "tags": [
+    "chemistry",
+    "science",
+    ""
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [
+    "beaker"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Beaker\" by Poly by Google, https://poly.pizza/m/a6fAmpBmWHM. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/a6fAmpBmWHM/model.glb",
+  "sourceMetadataFile": "models/a6fAmpBmWHM/source.json",
+  "bytes": 109388,
+  "sha256": "1ae80ed2b84413a32e0a4fe2c0c3801e7d69966f839d5181d8f494f883f6db3c",
+  "apiTriangleCount": 312,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.223885+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

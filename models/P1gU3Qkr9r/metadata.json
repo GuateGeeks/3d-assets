@@ -1,0 +1,96 @@
+{
+  "id": "P1gU3Qkr9r",
+  "title": "Wolf",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/P1gU3Qkr9r",
+  "metadataUrl": "https://api.poly.pizza/v1/model/P1gU3Qkr9r",
+  "downloadUrl": "https://static.poly.pizza/f1d12388-e39b-4157-b32a-646a1d089fc4.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f1d12388-e39b-4157-b32a-646a1d089fc4.webp",
+  "description": null,
+  "category": "Animals",
+  "tags": [
+    "Wolf",
+    "Animal",
+    "Coyote",
+    "Dog"
+  ],
+  "areas": [
+    "personajes-animacion"
+  ],
+  "queries": [
+    "animated animal"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wolf\" by Quaternius, https://poly.pizza/m/P1gU3Qkr9r. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/P1gU3Qkr9r/model.glb",
+  "sourceMetadataFile": "models/P1gU3Qkr9r/source.json",
+  "bytes": 986712,
+  "sha256": "16ac96339d06f7def9af20d5d9b27622d61e53580dab43970c9edb1bffbe8f84",
+  "apiTriangleCount": 1928,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 70,
+    "materials": 4,
+    "skins": 1,
+    "joints": 51,
+    "rigged": true,
+    "animated": true,
+    "animations": 24,
+    "animationNames": [
+      "Attack",
+      "Death",
+      "Eating",
+      "Gallop",
+      "Gallop_Jump",
+      "Idle_HitReact_Left",
+      "Idle_HitReact_Right",
+      "Jump_ToIdle",
+      "Walk",
+      "Idle_2_HeadLow",
+      "Idle_2",
+      "Idle",
+      "AnimalArmature|Attack",
+      "AnimalArmature|Death",
+      "AnimalArmature|Eating",
+      "AnimalArmature|Gallop",
+      "AnimalArmature|Gallop_Jump",
+      "AnimalArmature|Idle",
+      "AnimalArmature|Idle_2",
+      "AnimalArmature|Idle_2_HeadLow",
+      "AnimalArmature|Idle_HitReact_Left",
+      "AnimalArmature|Idle_HitReact_Right",
+      "AnimalArmature|Jump_ToIdle",
+      "AnimalArmature|Walk"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:21.840986+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

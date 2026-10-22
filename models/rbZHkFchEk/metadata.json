@@ -1,0 +1,66 @@
+{
+  "id": "rbZHkFchEk",
+  "title": "Hand Saw",
+  "author": "CreativeTrio",
+  "authorUrl": "https://poly.pizza/u/CreativeTrio",
+  "sourceUrl": "https://poly.pizza/m/rbZHkFchEk",
+  "metadataUrl": "https://api.poly.pizza/v1/model/rbZHkFchEk",
+  "downloadUrl": "https://static.poly.pizza/1a46c407-6675-4e40-b3e4-786a4c0ac395.glb",
+  "thumbnailUrl": "https://static.poly.pizza/1a46c407-6675-4e40-b3e4-786a4c0ac395.webp",
+  "description": " ",
+  "category": "Objects",
+  "tags": [
+    "Tool"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [
+    "saw"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Hand Saw\" by CreativeTrio, https://poly.pizza/m/rbZHkFchEk. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/rbZHkFchEk/model.glb",
+  "sourceMetadataFile": "models/rbZHkFchEk/source.json",
+  "bytes": 64572,
+  "sha256": "922e589c729384dd92cec2c9ee0f5fe8dc7b1b23291eff6650ad6ccd9343c47d",
+  "apiTriangleCount": 616,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.973619+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

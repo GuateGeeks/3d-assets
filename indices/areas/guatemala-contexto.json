@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "details": {
+    "id": "guatemala-contexto",
+    "title": "Contexto guatemalteco y mesoamericano",
+    "subjects": [
+      "Ciencias Sociales",
+      "Ciencias Naturales y Tecnología",
+      "Expresión Artística",
+      "Lenguaje L1",
+      "Lenguaje L2"
+    ],
+    "queries": [
+      "quetzal",
+      "jaguar",
+      "toucan",
+      "tapir",
+      "ceiba",
+      "coffee",
+      "cacao",
+      "marimba",
+      "mayan",
+      "tikal"
+    ],
+    "activities": [
+      "Narración y biodiversidad local; validar identificación de especies y procedencia cultural antes de publicar"
+    ]
+  },
+  "count": 9,
+  "modelIds": [
+    "0rEriuH2sVr",
+    "2L1BNfBSXrP",
+    "4fb-oMr2uUF",
+    "7ONZQTx9Tuz",
+    "cf3QwX0JqGN",
+    "EWVe4TaOiB",
+    "FDG8rFhvv7",
+    "fFVqukPnc62",
+    "fIuM_PW5prV"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "dOSjmdmKaxi",
+  "title": "Bench",
+  "author": "Ev Amitay",
+  "authorUrl": "https://poly.pizza/u/Ev%20Amitay",
+  "sourceUrl": "https://poly.pizza/m/dOSjmdmKaxi",
+  "metadataUrl": "https://api.poly.pizza/v1/model/dOSjmdmKaxi",
+  "downloadUrl": "https://static.poly.pizza/623120d8-bebf-4bd9-bb09-3162c06c9741.glb",
+  "thumbnailUrl": "https://static.poly.pizza/623120d8-bebf-4bd9-bb09-3162c06c9741.webp",
+  "description": " ",
+  "category": "Furniture & Decor",
+  "tags": [
+    "seat",
+    "park bench"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "bench"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Bench\" by Ev Amitay, https://poly.pizza/m/dOSjmdmKaxi. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/dOSjmdmKaxi/model.glb",
+  "sourceMetadataFile": "models/dOSjmdmKaxi/source.json",
+  "bytes": 21556,
+  "sha256": "9cc0bcba3ee55e4103c013412e15cd4c93673c456cf8cd92a3ac0755f1773878",
+  "apiTriangleCount": 288,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.985496+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,69 @@
+{
+  "id": "75V_MLvKMqM",
+  "title": "House",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/75V_MLvKMqM",
+  "metadataUrl": "https://api.poly.pizza/v1/model/75V_MLvKMqM",
+  "downloadUrl": "https://static.poly.pizza/bd8c9cad-072d-46bc-998f-1d31c3d85ce2.glb",
+  "thumbnailUrl": "https://static.poly.pizza/bd8c9cad-072d-46bc-998f-1d31c3d85ce2.webp",
+  "description": "#home #abode #building #dwelling",
+  "category": "Buildings",
+  "tags": [
+    "home",
+    "abode",
+    "building",
+    "dwelling"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [
+    "house"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"House\" by Poly by Google, https://poly.pizza/m/75V_MLvKMqM. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/75V_MLvKMqM/model.glb",
+  "sourceMetadataFile": "models/75V_MLvKMqM/source.json",
+  "bytes": 234264,
+  "sha256": "90a70e4b4d6c82b384e5bdd3e6ada01b874c5e1adfbc1a1b8e938b7b6fbf4ae9",
+  "apiTriangleCount": 439,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.910358+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

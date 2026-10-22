@@ -1,0 +1,67 @@
+{
+  "id": "PeM20xAT0V",
+  "title": "Sign Hospital",
+  "author": "Kenney",
+  "authorUrl": "https://poly.pizza/u/Kenney",
+  "sourceUrl": "https://poly.pizza/m/PeM20xAT0V",
+  "metadataUrl": "https://api.poly.pizza/v1/model/PeM20xAT0V",
+  "downloadUrl": "https://static.poly.pizza/04dc8c21-6780-4541-a1fa-bccad3237b1f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/04dc8c21-6780-4541-a1fa-bccad3237b1f.webp",
+  "description": " ",
+  "category": "Objects",
+  "tags": [
+    "sign",
+    "health"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [
+    "hospital"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Sign Hospital\" by Kenney, https://poly.pizza/m/PeM20xAT0V. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/PeM20xAT0V/model.glb",
+  "sourceMetadataFile": "models/PeM20xAT0V/source.json",
+  "bytes": 8824,
+  "sha256": "194e6d0e87d6030ea4d147ff61e7ce08912163e162cfb2ca5a701ebccc3c7435",
+  "apiTriangleCount": 92,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.078628+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

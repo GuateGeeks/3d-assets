@@ -1,0 +1,68 @@
+{
+  "id": "c1zld-II5RD",
+  "title": "Carrot",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/c1zld-II5RD",
+  "metadataUrl": "https://api.poly.pizza/v1/model/c1zld-II5RD",
+  "downloadUrl": "https://static.poly.pizza/ed3154be-2f1b-4334-8b7e-6b6952ae0efe.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ed3154be-2f1b-4334-8b7e-6b6952ae0efe.webp",
+  "description": "#vegetable #root #plant",
+  "category": "Food & Drink",
+  "tags": [
+    "vegetable",
+    "root",
+    "plant"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "carrot"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Carrot\" by jeremy, https://poly.pizza/m/c1zld-II5RD. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/c1zld-II5RD/model.glb",
+  "sourceMetadataFile": "models/c1zld-II5RD/source.json",
+  "bytes": 26112,
+  "sha256": "40263e6daed69485421fad909570f328f6b4924991aa3eb8927a4127b53e1cbd",
+  "apiTriangleCount": 272,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.486671+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

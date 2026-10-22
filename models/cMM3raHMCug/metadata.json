@@ -1,0 +1,66 @@
+{
+  "id": "cMM3raHMCug",
+  "title": "Gear",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/cMM3raHMCug",
+  "metadataUrl": "https://api.poly.pizza/v1/model/cMM3raHMCug",
+  "downloadUrl": "https://static.poly.pizza/941cc901-0994-4d3c-bf19-9ff09a5f96d1.glb",
+  "thumbnailUrl": "https://static.poly.pizza/941cc901-0994-4d3c-bf19-9ff09a5f96d1.webp",
+  "description": "#turn\n#engine",
+  "category": "Other",
+  "tags": [
+    "turn\nengine"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [
+    "gear"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Gear\" by Poly by Google, https://poly.pizza/m/cMM3raHMCug. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/cMM3raHMCug/model.glb",
+  "sourceMetadataFile": "models/cMM3raHMCug/source.json",
+  "bytes": 15972,
+  "sha256": "dbe41570b570e0cb1765f68cb85d0bfce7106495103198c383292016b25f8999",
+  "apiTriangleCount": 880,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.623487+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

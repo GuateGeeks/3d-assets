@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "details": {
+    "id": "deporte-recreacion",
+    "title": "Deporte y recreación",
+    "subjects": [
+      "Educación Física"
+    ],
+    "queries": [
+      "soccer ball",
+      "basketball",
+      "tennis",
+      "skateboard",
+      "playground"
+    ],
+    "activities": [
+      "Reglas, trayectorias y juegos"
+    ]
+  },
+  "count": 13,
+  "modelIds": [
+    "0aPpwgcBbk1",
+    "57u6P7Sr7K0",
+    "72XCHXgHlg7",
+    "7cVH1Xt-LYy",
+    "7Dfn4VtTCWY",
+    "7xIavsUAq7z",
+    "85FpUr2fHkH",
+    "9z5905buuy3",
+    "cms3_9IcYbB",
+    "ee0cso-KZnC",
+    "eopD_12UuB8",
+    "fnDmeCySRhV",
+    "wNXXIhP0ip"
+  ]
+}

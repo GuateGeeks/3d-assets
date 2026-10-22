@@ -1,0 +1,70 @@
+{
+  "id": "ctIRaIM3zXu",
+  "title": "Windmill",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/ctIRaIM3zXu",
+  "metadataUrl": "https://api.poly.pizza/v1/model/ctIRaIM3zXu",
+  "downloadUrl": "https://static.poly.pizza/1b81d893-ed98-4c0e-9f68-2f3d125a4e43.glb",
+  "thumbnailUrl": "https://static.poly.pizza/1b81d893-ed98-4c0e-9f68-2f3d125a4e43.webp",
+  "description": "#turbine #energy #blades #sails",
+  "category": "Buildings",
+  "tags": [
+    "turbine",
+    "energy",
+    "blades",
+    "sails"
+  ],
+  "areas": [
+    "ambiente-sostenibilidad"
+  ],
+  "queries": [
+    "windmill"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Windmill\" by Poly by Google, https://poly.pizza/m/ctIRaIM3zXu. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/ctIRaIM3zXu/model.glb",
+  "sourceMetadataFile": "models/ctIRaIM3zXu/source.json",
+  "bytes": 275396,
+  "sha256": "1ef5bd24d0d7e427476edbb37540bdf35201b6cbcabd68d8683d7b5219a60f7f",
+  "apiTriangleCount": 584,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.439946+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

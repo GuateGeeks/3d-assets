@@ -1,0 +1,69 @@
+{
+  "id": "fFCCghvRImG",
+  "title": "Montreal Bus",
+  "author": "Nick Ladd",
+  "authorUrl": "https://poly.pizza/u/Nick%20Ladd",
+  "sourceUrl": "https://poly.pizza/m/fFCCghvRImG",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fFCCghvRImG",
+  "downloadUrl": "https://static.poly.pizza/acc9ab7a-ed54-4c1c-adb1-f5fe161eebd5.glb",
+  "thumbnailUrl": "https://static.poly.pizza/acc9ab7a-ed54-4c1c-adb1-f5fe161eebd5.webp",
+  "description": "Montreal-Style STM bus",
+  "category": "Transport",
+  "tags": [
+    "expo",
+    "strap",
+    "metro"
+  ],
+  "areas": [
+    "transporte-movilidad"
+  ],
+  "queries": [
+    "bus"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Montreal Bus\" by Nick Ladd, https://poly.pizza/m/fFCCghvRImG. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fFCCghvRImG/model.glb",
+  "sourceMetadataFile": "models/fFCCghvRImG/source.json",
+  "bytes": 389620,
+  "sha256": "5a870d638becd9bc51db2d6d26ce5d6b7e2d9b35964d1dbbfd4439700fa18cec",
+  "apiTriangleCount": 2551,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 59,
+    "nodes": 59,
+    "materials": 11,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.520671+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

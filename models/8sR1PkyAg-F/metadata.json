@@ -1,0 +1,66 @@
+{
+  "id": "8sR1PkyAg-F",
+  "title": "Light switch",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/8sR1PkyAg-F",
+  "metadataUrl": "https://api.poly.pizza/v1/model/8sR1PkyAg-F",
+  "downloadUrl": "https://static.poly.pizza/f502ad13-cde0-411b-8d8a-18fb4f58c0e6.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f502ad13-cde0-411b-8d8a-18fb4f58c0e6.webp",
+  "description": "#lights",
+  "category": "Objects",
+  "tags": [
+    "lights"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [
+    "switch"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Light switch\" by Poly by Google, https://poly.pizza/m/8sR1PkyAg-F. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/8sR1PkyAg-F/model.glb",
+  "sourceMetadataFile": "models/8sR1PkyAg-F/source.json",
+  "bytes": 11428,
+  "sha256": "c1f98d4f1d113163fa4fd989c66f7a96d2ce48e2fdc8dcf0e117591fcd2aa517",
+  "apiTriangleCount": 332,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.790343+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

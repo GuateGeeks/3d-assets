@@ -1,0 +1,66 @@
+{
+  "id": "4mPkOKdzAk-",
+  "title": "Rocket ship",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/4mPkOKdzAk-",
+  "metadataUrl": "https://api.poly.pizza/v1/model/4mPkOKdzAk-",
+  "downloadUrl": "https://static.poly.pizza/9e443482-759e-4894-bd16-622ef3aa3c39.glb",
+  "thumbnailUrl": "https://static.poly.pizza/9e443482-759e-4894-bd16-622ef3aa3c39.webp",
+  "description": "#space",
+  "category": "Transport",
+  "tags": [
+    "space"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "rocket"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Rocket ship\" by Poly by Google, https://poly.pizza/m/4mPkOKdzAk-. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/4mPkOKdzAk-/model.glb",
+  "sourceMetadataFile": "models/4mPkOKdzAk-/source.json",
+  "bytes": 200948,
+  "sha256": "66d7d603285442c6781dd86c7567fa70a0732cddeb4b00da9f936ee3a4b84206",
+  "apiTriangleCount": 437,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.889545+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

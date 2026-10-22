@@ -1,0 +1,67 @@
+{
+  "id": "1YoE664mJTd",
+  "title": "Piano",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/1YoE664mJTd",
+  "metadataUrl": "https://api.poly.pizza/v1/model/1YoE664mJTd",
+  "downloadUrl": "https://static.poly.pizza/475b3f98-4f4f-4cd6-9472-e5f8c04cf050.glb",
+  "thumbnailUrl": "https://static.poly.pizza/475b3f98-4f4f-4cd6-9472-e5f8c04cf050.webp",
+  "description": "#instrument #keyboard #music",
+  "category": "Objects",
+  "tags": [
+    "instrument",
+    "keyboard",
+    "music"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "piano"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Piano\" by Poly by Google, https://poly.pizza/m/1YoE664mJTd. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/1YoE664mJTd/model.glb",
+  "sourceMetadataFile": "models/1YoE664mJTd/source.json",
+  "bytes": 136780,
+  "sha256": "3f6c762e5f4f29884bb5f8d0f5fce91268632e9e212a516de3d57b5f93c54526",
+  "apiTriangleCount": 1264,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 68,
+    "nodes": 68,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.770721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

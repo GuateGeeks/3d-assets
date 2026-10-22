@@ -1,0 +1,83 @@
+{
+  "id": "HMnuH5geEG",
+  "title": "Man",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/HMnuH5geEG",
+  "metadataUrl": "https://api.poly.pizza/v1/model/HMnuH5geEG",
+  "downloadUrl": "https://static.poly.pizza/3746be88-6799-4817-929b-6bc067c47caa.glb",
+  "thumbnailUrl": "https://static.poly.pizza/3746be88-6799-4817-929b-6bc067c47caa.webp",
+  "description": " ",
+  "category": "People & Characters",
+  "tags": [
+    "Person",
+    "Man",
+    "Human",
+    "character"
+  ],
+  "areas": [
+    "personajes-animacion"
+  ],
+  "queries": [
+    "person"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Man\" by Quaternius, https://poly.pizza/m/HMnuH5geEG. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/HMnuH5geEG/model.glb",
+  "sourceMetadataFile": "models/HMnuH5geEG/source.json",
+  "bytes": 493196,
+  "sha256": "dad8fa3ca2bc7760892f9ff47f544941179e50acb2aa772cf9f035154a37fc58",
+  "apiTriangleCount": 1216,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 45,
+    "materials": 6,
+    "skins": 1,
+    "joints": 31,
+    "rigged": true,
+    "animated": true,
+    "animations": 11,
+    "animationNames": [
+      "HumanArmature|Man_Clapping",
+      "HumanArmature|Man_Death",
+      "HumanArmature|Man_Idle",
+      "HumanArmature|Man_Jump",
+      "HumanArmature|Man_Punch",
+      "HumanArmature|Man_Run",
+      "HumanArmature|Man_RunningJump",
+      "HumanArmature|Man_Sitting",
+      "HumanArmature|Man_Standing",
+      "HumanArmature|Man_SwordSlash",
+      "HumanArmature|Man_Walk"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:21.882795+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

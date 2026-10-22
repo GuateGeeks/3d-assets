@@ -1,0 +1,67 @@
+{
+  "id": "8BQFbUMOeC",
+  "title": "Farm Dirt",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/8BQFbUMOeC",
+  "metadataUrl": "https://api.poly.pizza/v1/model/8BQFbUMOeC",
+  "downloadUrl": "https://static.poly.pizza/0a2ecf5d-4134-4294-b07d-d699255da589.glb",
+  "thumbnailUrl": "https://static.poly.pizza/0a2ecf5d-4134-4294-b07d-d699255da589.webp",
+  "description": null,
+  "category": "Food & Drink",
+  "tags": [
+    "Dirt"
+  ],
+  "areas": [
+    "ambiente-sostenibilidad"
+  ],
+  "queries": [
+    "farm"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Farm Dirt\" by Quaternius, https://poly.pizza/m/8BQFbUMOeC. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/8BQFbUMOeC/model.glb",
+  "sourceMetadataFile": "models/8BQFbUMOeC/source.json",
+  "bytes": 17916,
+  "sha256": "59d83e1693a7899d83aed1d8e824fa743e9f3e5d5cfd2a3e1f422e897f42f495",
+  "apiTriangleCount": 800,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.638609+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "fnDmeCySRhV",
+  "title": "Soccer ball",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/fnDmeCySRhV",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fnDmeCySRhV",
+  "downloadUrl": "https://static.poly.pizza/3f36d792-bf1e-48f6-8d9d-f16e1680d5e9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/3f36d792-bf1e-48f6-8d9d-f16e1680d5e9.webp",
+  "description": "#sports",
+  "category": "Objects",
+  "tags": [
+    "sports"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [
+    "soccer ball"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Soccer ball\" by Poly by Google, https://poly.pizza/m/fnDmeCySRhV. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fnDmeCySRhV/model.glb",
+  "sourceMetadataFile": "models/fnDmeCySRhV/source.json",
+  "bytes": 19824,
+  "sha256": "045f0aa431d4b3a4a9721ae22ab5c2878036fb61abe40b00a0e78a4185d156ee",
+  "apiTriangleCount": 180,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.216813+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

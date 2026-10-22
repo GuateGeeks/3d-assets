@@ -1,0 +1,67 @@
+{
+  "id": "q9zNs4U5NG",
+  "title": "Microscope",
+  "author": "Username12",
+  "authorUrl": "https://poly.pizza/u/Username12",
+  "sourceUrl": "https://poly.pizza/m/q9zNs4U5NG",
+  "metadataUrl": "https://api.poly.pizza/v1/model/q9zNs4U5NG",
+  "downloadUrl": "https://static.poly.pizza/53ba8bbb-26e0-44d6-8057-f20307038e0c.glb",
+  "thumbnailUrl": "https://static.poly.pizza/53ba8bbb-26e0-44d6-8057-f20307038e0c.webp",
+  "description": " ",
+  "category": "Objects",
+  "tags": [
+    "white",
+    "science",
+    "lab"
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [
+    "microscope"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Microscope\" by Username12, https://poly.pizza/m/q9zNs4U5NG. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/q9zNs4U5NG/model.glb",
+  "sourceMetadataFile": "models/q9zNs4U5NG/source.json",
+  "bytes": 133204,
+  "sha256": "21590e8242c2c4aaad1784a4a2be27a9b80cb7251a78442bb48faf3fc6033f11",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 35,
+    "nodes": 35,
+    "materials": 7,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.103905+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

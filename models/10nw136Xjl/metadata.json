@@ -1,0 +1,71 @@
+{
+  "id": "10nw136Xjl",
+  "title": "Bridge",
+  "author": "Pixel",
+  "authorUrl": "https://poly.pizza/u/Pixel",
+  "sourceUrl": "https://poly.pizza/m/10nw136Xjl",
+  "metadataUrl": "https://api.poly.pizza/v1/model/10nw136Xjl",
+  "downloadUrl": "https://static.poly.pizza/0e0509d4-1436-40b5-a1e1-d0a0adb172b8.glb",
+  "thumbnailUrl": "https://static.poly.pizza/0e0509d4-1436-40b5-a1e1-d0a0adb172b8.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Wood",
+    "Hardwood"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [
+    "bridge"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Bridge\" by Pixel, https://poly.pizza/m/10nw136Xjl. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/10nw136Xjl/model.glb",
+  "sourceMetadataFile": "models/10nw136Xjl/source.json",
+  "bytes": 190616,
+  "sha256": "fcbb062b9594ef136c4fea91ccfd3c69664d762fcc4bacda19df42b12692c432",
+  "apiTriangleCount": 252,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": true,
+    "animations": 3,
+    "animationNames": [
+      "Bridge-wooden-lighter|Fisher|Take 001|BaseLayer",
+      "Bridge-wooden-lighter|Fisher|Take 001|BaseLayer.001",
+      "Bridge-wooden-lighter|Fisher|Take 001|BaseLayer.002"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.398759+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

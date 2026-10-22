@@ -1,0 +1,65 @@
+{
+  "id": "5vbJ5vildOq",
+  "title": "Piano",
+  "author": "Bruno Oliveira",
+  "authorUrl": "https://poly.pizza/u/Bruno%20Oliveira",
+  "sourceUrl": "https://poly.pizza/m/5vbJ5vildOq",
+  "metadataUrl": "https://api.poly.pizza/v1/model/5vbJ5vildOq",
+  "downloadUrl": "https://static.poly.pizza/40a2ba70-c3c0-49f3-931a-539f021609bb.glb",
+  "thumbnailUrl": "https://static.poly.pizza/40a2ba70-c3c0-49f3-931a-539f021609bb.webp",
+  "description": " ",
+  "category": "Objects",
+  "tags": [
+    "grand piano"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "piano"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Piano\" by Bruno Oliveira, https://poly.pizza/m/5vbJ5vildOq. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/5vbJ5vildOq/model.glb",
+  "sourceMetadataFile": "models/5vbJ5vildOq/source.json",
+  "bytes": 53108,
+  "sha256": "28935109778a1f1829119f8892cc2105a4b75487511360c7aa4ca4afbc657fa2",
+  "apiTriangleCount": 1576,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 7,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.807085+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

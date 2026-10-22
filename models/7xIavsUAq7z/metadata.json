@@ -1,0 +1,67 @@
+{
+  "id": "7xIavsUAq7z",
+  "title": "Skateboard",
+  "author": "Michael Fuchs",
+  "authorUrl": "https://poly.pizza/u/Michael%20Fuchs",
+  "sourceUrl": "https://poly.pizza/m/7xIavsUAq7z",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7xIavsUAq7z",
+  "downloadUrl": "https://static.poly.pizza/24b4417d-7014-481e-91b3-702fbedb25d2.glb",
+  "thumbnailUrl": "https://static.poly.pizza/24b4417d-7014-481e-91b3-702fbedb25d2.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "surfboard",
+    "skate",
+    "plank"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [
+    "skateboard"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Skateboard\" by Michael Fuchs, https://poly.pizza/m/7xIavsUAq7z. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7xIavsUAq7z/model.glb",
+  "sourceMetadataFile": "models/7xIavsUAq7z/source.json",
+  "bytes": 394748,
+  "sha256": "5fed822333ada42271df1de736f96eda386d9f3b4cff5c450d10e6a77def454a",
+  "apiTriangleCount": 5080,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 11,
+    "nodes": 11,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.615523+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

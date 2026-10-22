@@ -1,0 +1,71 @@
+{
+  "id": "c-tEGK9e49p",
+  "title": "Pyramid",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/c-tEGK9e49p",
+  "metadataUrl": "https://api.poly.pizza/v1/model/c-tEGK9e49p",
+  "downloadUrl": "https://static.poly.pizza/e388ae1f-f495-4904-8e76-278a608fac58.glb",
+  "thumbnailUrl": "https://static.poly.pizza/e388ae1f-f495-4904-8e76-278a608fac58.webp",
+  "description": "#Egypt #burial #grave #desert",
+  "category": "Buildings",
+  "tags": [
+    "Egypt",
+    "burial",
+    "grave",
+    "desert"
+  ],
+  "areas": [
+    "historia-patrimonio"
+  ],
+  "queries": [
+    "pyramid"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pyramid\" by Poly by Google, https://poly.pizza/m/c-tEGK9e49p. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/c-tEGK9e49p/model.glb",
+  "sourceMetadataFile": "models/c-tEGK9e49p/source.json",
+  "bytes": 163680,
+  "sha256": "09f121dfeeb732b2c5f670f13b5a3d029e3668bd96fa757db79eb820a9270954",
+  "apiTriangleCount": 314,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.065642+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "cultural-or-species-identification-review"
+  ],
+  "unfulfilledQueries": []
+}

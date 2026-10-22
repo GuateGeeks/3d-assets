@@ -1,0 +1,67 @@
+{
+  "id": "bfj3-mQuRBS",
+  "title": "War Hammer",
+  "author": "Brandon Evans",
+  "authorUrl": "https://poly.pizza/u/Brandon%20Evans",
+  "sourceUrl": "https://poly.pizza/m/bfj3-mQuRBS",
+  "metadataUrl": "https://api.poly.pizza/v1/model/bfj3-mQuRBS",
+  "downloadUrl": "https://static.poly.pizza/9a2a9c4a-5c2f-4c28-8f60-355db753f9da.glb",
+  "thumbnailUrl": "https://static.poly.pizza/9a2a9c4a-5c2f-4c28-8f60-355db753f9da.webp",
+  "description": " ",
+  "category": "Objects",
+  "tags": [
+    "gavel",
+    "forge"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [
+    "hammer"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"War Hammer\" by Brandon Evans, https://poly.pizza/m/bfj3-mQuRBS. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/bfj3-mQuRBS/model.glb",
+  "sourceMetadataFile": "models/bfj3-mQuRBS/source.json",
+  "bytes": 51156,
+  "sha256": "d4aba3498cc3d0214fc5938a3d90119d11e68fb6f8598775873853e2a8ea06bb",
+  "apiTriangleCount": 884,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.766718+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

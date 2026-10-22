@@ -1,0 +1,65 @@
+{
+  "id": "85FpUr2fHkH",
+  "title": "Basketball court",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/85FpUr2fHkH",
+  "metadataUrl": "https://api.poly.pizza/v1/model/85FpUr2fHkH",
+  "downloadUrl": "https://static.poly.pizza/2a18465d-d353-47c5-85ec-273b189c1612.glb",
+  "thumbnailUrl": "https://static.poly.pizza/2a18465d-d353-47c5-85ec-273b189c1612.webp",
+  "description": "#sports",
+  "category": "Scenes & Levels",
+  "tags": [
+    "sports"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [
+    "basketball"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Basketball court\" by Poly by Google, https://poly.pizza/m/85FpUr2fHkH. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/85FpUr2fHkH/model.glb",
+  "sourceMetadataFile": "models/85FpUr2fHkH/source.json",
+  "bytes": 1299568,
+  "sha256": "fcf675ae08e7bcd9ceea62036545e19cc340f60176d7b4cf4ff99842c63d9d38",
+  "apiTriangleCount": 780,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.297896+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

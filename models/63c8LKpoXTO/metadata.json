@@ -1,0 +1,66 @@
+{
+  "id": "63c8LKpoXTO",
+  "title": "Moon",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/63c8LKpoXTO",
+  "metadataUrl": "https://api.poly.pizza/v1/model/63c8LKpoXTO",
+  "downloadUrl": "https://static.poly.pizza/6729d67e-08ee-4394-8c83-09fdb1e05d52.glb",
+  "thumbnailUrl": "https://static.poly.pizza/6729d67e-08ee-4394-8c83-09fdb1e05d52.webp",
+  "description": "#space",
+  "category": "Scenes & Levels",
+  "tags": [
+    "space"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "moon"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Moon\" by Poly by Google, https://poly.pizza/m/63c8LKpoXTO. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/63c8LKpoXTO/model.glb",
+  "sourceMetadataFile": "models/63c8LKpoXTO/source.json",
+  "bytes": 355644,
+  "sha256": "6e3da0f699b69e078627aee7ef834240efc5053957282861cd989d226386bf53",
+  "apiTriangleCount": 1212,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.657023+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

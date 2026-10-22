@@ -1,0 +1,68 @@
+{
+  "id": "m8O6mE0anP",
+  "title": "StoneBrook Race Circuit",
+  "author": "Lostinside",
+  "authorUrl": "https://poly.pizza/u/Lostinside",
+  "sourceUrl": "https://poly.pizza/m/m8O6mE0anP",
+  "metadataUrl": "https://api.poly.pizza/v1/model/m8O6mE0anP",
+  "downloadUrl": "https://static.poly.pizza/3e7831ad-8d20-4fa5-8951-5f6d8724f848.glb",
+  "thumbnailUrl": "https://static.poly.pizza/3e7831ad-8d20-4fa5-8951-5f6d8724f848.webp",
+  "description": "race track StoneBrook Race Circuit",
+  "category": "Scenes & Levels",
+  "tags": [
+    "circuit "
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "circuit"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"StoneBrook Race Circuit\" by Lostinside, https://poly.pizza/m/m8O6mE0anP. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/m8O6mE0anP/model.glb",
+  "sourceMetadataFile": "models/m8O6mE0anP/source.json",
+  "bytes": 2635940,
+  "sha256": "297465e3ab1b02f1537d930315adc7df773159caf05fd5add01bb11c65c7e0b1",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 289,
+    "nodes": 289,
+    "materials": 25,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.284601+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "classificationNote": "Reclasificado: circuito de carreras, no placa electrónica.",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

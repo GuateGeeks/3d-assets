@@ -1,0 +1,69 @@
+{
+  "id": "ftnL_OvlkCx",
+  "title": "Schoolhouse",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/ftnL_OvlkCx",
+  "metadataUrl": "https://api.poly.pizza/v1/model/ftnL_OvlkCx",
+  "downloadUrl": "https://static.poly.pizza/60a7b5e3-e062-41eb-804b-b218edac3783.glb",
+  "thumbnailUrl": "https://static.poly.pizza/60a7b5e3-e062-41eb-804b-b218edac3783.webp",
+  "description": "#education #institute #academy",
+  "category": "Buildings",
+  "tags": [
+    "education",
+    "institute",
+    "academy"
+  ],
+  "areas": [
+    "escuela-lenguaje"
+  ],
+  "queries": [
+    "school"
+  ],
+  "subjects": [
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Schoolhouse\" by Poly by Google, https://poly.pizza/m/ftnL_OvlkCx. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/ftnL_OvlkCx/model.glb",
+  "sourceMetadataFile": "models/ftnL_OvlkCx/source.json",
+  "bytes": 1490648,
+  "sha256": "069ea6e3df7ff6d33bc75ab99320e3b448657946d387fb01025e0f7cec23229a",
+  "apiTriangleCount": 1576,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.573702+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

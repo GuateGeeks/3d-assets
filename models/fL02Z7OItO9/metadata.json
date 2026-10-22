@@ -1,0 +1,68 @@
+{
+  "id": "fL02Z7OItO9",
+  "title": "Circuit parts",
+  "author": "Bill Baran (Sirkut)",
+  "authorUrl": "https://poly.pizza/u/Bill%20Baran%20%28Sirkut%29",
+  "sourceUrl": "https://poly.pizza/m/fL02Z7OItO9",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fL02Z7OItO9",
+  "downloadUrl": "https://static.poly.pizza/78edaa37-0d1e-49ca-89cf-eb8a9e409426.glb",
+  "thumbnailUrl": "https://static.poly.pizza/78edaa37-0d1e-49ca-89cf-eb8a9e409426.webp",
+  "description": "Circuit board and components",
+  "category": "Other",
+  "tags": [
+    "series",
+    "bridge",
+    "bridging"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [
+    "circuit"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Circuit parts\" by Bill Baran (Sirkut), https://poly.pizza/m/fL02Z7OItO9. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fL02Z7OItO9/model.glb",
+  "sourceMetadataFile": "models/fL02Z7OItO9/source.json",
+  "bytes": 596508,
+  "sha256": "9e9b6696b724c8fc2b9650150cd9763bd05ead38f3bee28777b142d22d1c1b2d",
+  "apiTriangleCount": 6154,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 103,
+    "nodes": 103,
+    "materials": 12,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.216475+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,84 @@
+{
+  "total": 3,
+  "results": [
+    {
+      "ID": "5mPRPZkI3qt",
+      "Title": "Brain",
+      "Description": "#anatomy",
+      "Attribution": "\"Brain\" by Poly by Google, https://poly.pizza/m/5mPRPZkI3qt. Licence at https://creativecommons.org/licenses/by/3.0",
+      "Thumbnail": "https://static.poly.pizza/f16b3b74-1fdd-47a6-b7cd-cdf0d6f10058.webp",
+      "Download": "https://static.poly.pizza/f16b3b74-1fdd-47a6-b7cd-cdf0d6f10058.glb",
+      "Tri Count": 0,
+      "Creator": {
+        "Username": "Poly by Google",
+        "DPURL": "https://static.poly.pizza/dp%2Fpolygoogle.jpg"
+      },
+      "Uploaded": "2017-10-23T03:31:35.121Z",
+      "Category": "Objects",
+      "Tags": [
+        "anatomy"
+      ],
+      "Licence": "CC-BY 3.0",
+      "Animated": false,
+      "Orbit": {
+        "phi": "1.36368",
+        "radius": "288.75823755716993",
+        "theta": "5.50480"
+      }
+    },
+    {
+      "ID": "3pFTE9hJQpL",
+      "Title": "Brain In A Jar 💭",
+      "Description": "Pondering the questions of reality.",
+      "Attribution": "\"Brain In A Jar 💭\" by Chris Ross, https://poly.pizza/m/3pFTE9hJQpL. Licence at https://creativecommons.org/licenses/by/3.0",
+      "Thumbnail": "https://static.poly.pizza/50e410ea-3686-4ef2-8130-416d32a25bcc.webp",
+      "Download": "https://static.poly.pizza/50e410ea-3686-4ef2-8130-416d32a25bcc.glb",
+      "Tri Count": 43730,
+      "Creator": {
+        "Username": "Chris Ross",
+        "DPURL": "https://static.poly.pizza/dp%2Fnull.jpg"
+      },
+      "Uploaded": "2017-07-09T00:05:39.807Z",
+      "Category": "Objects",
+      "Tags": [
+        "Brain",
+        "Jar",
+        "Experiment"
+      ],
+      "Licence": "CC-BY 3.0",
+      "Animated": false,
+      "Orbit": {
+        "phi": "1.31392",
+        "radius": "15.595871770235773",
+        "theta": "6.28319"
+      }
+    },
+    {
+      "ID": "YihDCHsOPO",
+      "Title": "Brain",
+      "Description": "the soft, mushy, wrinkly thing inside your head",
+      "Attribution": "\"Brain\" by J-Toastie, https://poly.pizza/m/YihDCHsOPO. Licence at https://creativecommons.org/licenses/by/3.0",
+      "Thumbnail": "https://static.poly.pizza/ced5c1af-0289-48ef-9622-ee4ba5382141.webp",
+      "Download": "https://static.poly.pizza/ced5c1af-0289-48ef-9622-ee4ba5382141.glb",
+      "Tri Count": null,
+      "Creator": {
+        "Username": "J-Toastie",
+        "DPURL": "https://static.poly.pizza/dp%2F2a18493e-a521-40ff-8c30-f7cfcdb513dd.jpg"
+      },
+      "Uploaded": "2026-09-04T15:29:47.230Z",
+      "Category": "Objects",
+      "Tags": [
+        "Brain",
+        "Organ",
+        "Human"
+      ],
+      "Licence": "CC-BY 3.0",
+      "Animated": false,
+      "Orbit": {
+        "phi": "1.61660",
+        "radius": "0.8394542908289135",
+        "theta": "13.34198"
+      }
+    }
+  ]
+}

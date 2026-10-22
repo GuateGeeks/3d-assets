@@ -1,0 +1,65 @@
+{
+  "id": "wOomnJNisB",
+  "title": "Paint Bucket",
+  "author": "Don Carson",
+  "authorUrl": "https://poly.pizza/u/Don%20Carson",
+  "sourceUrl": "https://poly.pizza/m/wOomnJNisB",
+  "metadataUrl": "https://api.poly.pizza/v1/model/wOomnJNisB",
+  "downloadUrl": "https://static.poly.pizza/ed0f2e93-759e-421e-a80f-4b8f040772ff.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ed0f2e93-759e-421e-a80f-4b8f040772ff.webp",
+  "description": null,
+  "category": "Food & Drink",
+  "tags": [
+    "Bucket"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "paint"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Paint Bucket\" by Don Carson, https://poly.pizza/m/wOomnJNisB. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/wOomnJNisB/model.glb",
+  "sourceMetadataFile": "models/wOomnJNisB/source.json",
+  "bytes": 46612,
+  "sha256": "719e57058b266dbb5abf1cf888f949b15b81043636f6d2b4a6801cd57cab7b2d",
+  "apiTriangleCount": 518,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.958410+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

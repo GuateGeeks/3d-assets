@@ -1,0 +1,68 @@
+{
+  "id": "9gnjbN0VUUn",
+  "title": "Battery",
+  "author": "Bruno Oliveira",
+  "authorUrl": "https://poly.pizza/u/Bruno%20Oliveira",
+  "sourceUrl": "https://poly.pizza/m/9gnjbN0VUUn",
+  "metadataUrl": "https://api.poly.pizza/v1/model/9gnjbN0VUUn",
+  "downloadUrl": "https://static.poly.pizza/af1eb69c-b8bf-4751-9bef-bf0a97aa3432.glb",
+  "thumbnailUrl": "https://static.poly.pizza/af1eb69c-b8bf-4751-9bef-bf0a97aa3432.webp",
+  "description": "Battery",
+  "category": "Objects",
+  "tags": [
+    "assault",
+    "barrage",
+    "bombardment"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [
+    "battery"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Battery\" by Bruno Oliveira, https://poly.pizza/m/9gnjbN0VUUn. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/9gnjbN0VUUn/model.glb",
+  "sourceMetadataFile": "models/9gnjbN0VUUn/source.json",
+  "bytes": 22896,
+  "sha256": "40791c74129a6a901dfe0221e0e68ef176e23388a1bf73e5a4ed8e1f4b5462fe",
+  "apiTriangleCount": 372,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.941498+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

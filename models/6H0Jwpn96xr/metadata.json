@@ -1,0 +1,71 @@
+{
+  "id": "6H0Jwpn96xr",
+  "title": "Solar battery",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/6H0Jwpn96xr",
+  "metadataUrl": "https://api.poly.pizza/v1/model/6H0Jwpn96xr",
+  "downloadUrl": "https://static.poly.pizza/44a039bc-92d4-4386-b809-91010fb8499b.glb",
+  "thumbnailUrl": "https://static.poly.pizza/44a039bc-92d4-4386-b809-91010fb8499b.webp",
+  "description": "#energy #sun",
+  "category": "Other",
+  "tags": [
+    "energy",
+    "sun"
+  ],
+  "areas": [
+    "fisica-energia",
+    "ambiente-sostenibilidad"
+  ],
+  "queries": [
+    "solar panel",
+    "solar"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Solar battery\" by Poly by Google, https://poly.pizza/m/6H0Jwpn96xr. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/6H0Jwpn96xr/model.glb",
+  "sourceMetadataFile": "models/6H0Jwpn96xr/source.json",
+  "bytes": 51964,
+  "sha256": "91f0a85e334754109b799b27c9c5f2acbf483accd175fc8c45dcf23c5761c7a7",
+  "apiTriangleCount": 262,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.874122+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

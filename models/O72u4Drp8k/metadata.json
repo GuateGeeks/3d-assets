@@ -1,0 +1,68 @@
+{
+  "id": "O72u4Drp8k",
+  "title": "Chest",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/O72u4Drp8k",
+  "metadataUrl": "https://api.poly.pizza/v1/model/O72u4Drp8k",
+  "downloadUrl": "https://static.poly.pizza/803af4ae-433f-4b05-b1f1-c6a2da02d768.glb",
+  "thumbnailUrl": "https://static.poly.pizza/803af4ae-433f-4b05-b1f1-c6a2da02d768.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Box",
+    "Treasure"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "chest"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Chest\" by Quaternius, https://poly.pizza/m/O72u4Drp8k. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/O72u4Drp8k/model.glb",
+  "sourceMetadataFile": "models/O72u4Drp8k/source.json",
+  "bytes": 95736,
+  "sha256": "07193221a749d5dcf2b0a3d82d4ee9831da2e2c4ca71b395050a88bb2babe75b",
+  "apiTriangleCount": 1676,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 3,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:39.180260+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1xBl-8de6b0",
+  "title": "Light Switch",
+  "author": "Jarlan Perez",
+  "authorUrl": "https://poly.pizza/u/Jarlan%20Perez",
+  "sourceUrl": "https://poly.pizza/m/1xBl-8de6b0",
+  "metadataUrl": "https://api.poly.pizza/v1/model/1xBl-8de6b0",
+  "downloadUrl": "https://static.poly.pizza/581fbec2-e53a-4852-b38a-d5e1a9cabe89.glb",
+  "thumbnailUrl": "https://static.poly.pizza/581fbec2-e53a-4852-b38a-d5e1a9cabe89.webp",
+  "description": " ",
+  "category": "Objects",
+  "tags": [
+    "button",
+    "dimmer",
+    "escutcheon"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [
+    "switch"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Light Switch\" by Jarlan Perez, https://poly.pizza/m/1xBl-8de6b0. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/1xBl-8de6b0/model.glb",
+  "sourceMetadataFile": "models/1xBl-8de6b0/source.json",
+  "bytes": 9684,
+  "sha256": "06d72019727779b12ee2685b3220cab716b105eef3f68f3f6001e83f8c443942",
+  "apiTriangleCount": 156,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.722490+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "5qD-9AvW0eh",
+  "title": "Shop",
+  "author": "Shaun Glowa",
+  "authorUrl": "https://poly.pizza/u/Shaun%20Glowa",
+  "sourceUrl": "https://poly.pizza/m/5qD-9AvW0eh",
+  "metadataUrl": "https://api.poly.pizza/v1/model/5qD-9AvW0eh",
+  "downloadUrl": "https://static.poly.pizza/fc1b7792-6b38-449b-b440-881ed11abde0.glb",
+  "thumbnailUrl": "https://static.poly.pizza/fc1b7792-6b38-449b-b440-881ed11abde0.webp",
+  "description": "Shop",
+  "category": "Scenes & Levels",
+  "tags": [
+    "store",
+    "browse",
+    "workshop"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [
+    "shop"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Shop\" by Shaun Glowa, https://poly.pizza/m/5qD-9AvW0eh. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/5qD-9AvW0eh/model.glb",
+  "sourceMetadataFile": "models/5qD-9AvW0eh/source.json",
+  "bytes": 892740,
+  "sha256": "9b365d6081eca2bb1aa8d98c9ce6b91dbec66157e5d856cd159bc7ae34cbaae5",
+  "apiTriangleCount": 9829,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 168,
+    "nodes": 168,
+    "materials": 19,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.196746+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

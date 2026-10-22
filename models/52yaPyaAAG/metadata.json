@@ -1,0 +1,68 @@
+{
+  "id": "52yaPyaAAG",
+  "title": "Tower Windmill",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/52yaPyaAAG",
+  "metadataUrl": "https://api.poly.pizza/v1/model/52yaPyaAAG",
+  "downloadUrl": "https://static.poly.pizza/4807851f-46d4-4541-ae98-24ec0a525f0c.glb",
+  "thumbnailUrl": "https://static.poly.pizza/4807851f-46d4-4541-ae98-24ec0a525f0c.webp",
+  "description": null,
+  "category": "Buildings",
+  "tags": [
+    "Tower",
+    "Windmill"
+  ],
+  "areas": [
+    "ambiente-sostenibilidad"
+  ],
+  "queries": [
+    "windmill"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Tower Windmill\" by Quaternius, https://poly.pizza/m/52yaPyaAAG. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/52yaPyaAAG/model.glb",
+  "sourceMetadataFile": "models/52yaPyaAAG/source.json",
+  "bytes": 328416,
+  "sha256": "a547212fff5b4c99b34ccea01adbc1dc8d820b83affbd006f1cf856cc14d98bd",
+  "apiTriangleCount": 4464,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 2,
+    "materials": 7,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.513480+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

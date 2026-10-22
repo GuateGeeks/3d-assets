@@ -1,0 +1,65 @@
+{
+  "id": "7IV9LlcdNB",
+  "title": "Video Camera",
+  "author": "dook",
+  "authorUrl": "https://poly.pizza/u/dook",
+  "sourceUrl": "https://poly.pizza/m/7IV9LlcdNB",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7IV9LlcdNB",
+  "downloadUrl": "https://static.poly.pizza/fe9abc66-25d1-40a8-adf5-12f9a11c2c1a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/fe9abc66-25d1-40a8-adf5-12f9a11c2c1a.webp",
+  "description": "Quick video camera",
+  "category": "Objects",
+  "tags": [
+    "FIlm"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "camera"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Video Camera\" by dook, https://poly.pizza/m/7IV9LlcdNB. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7IV9LlcdNB/model.glb",
+  "sourceMetadataFile": "models/7IV9LlcdNB/source.json",
+  "bytes": 83372,
+  "sha256": "d5adf6182bd29799171e09a0908c107700d447dceced0bc6a6500a6a3d5e64aa",
+  "apiTriangleCount": 1308,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.145583+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

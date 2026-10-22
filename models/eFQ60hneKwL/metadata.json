@@ -1,0 +1,65 @@
+{
+  "id": "eFQ60hneKwL",
+  "title": "Traffic Cone",
+  "author": "Adam Marc Williams",
+  "authorUrl": "https://poly.pizza/u/Adam%20Marc%20Williams",
+  "sourceUrl": "https://poly.pizza/m/eFQ60hneKwL",
+  "metadataUrl": "https://api.poly.pizza/v1/model/eFQ60hneKwL",
+  "downloadUrl": "https://static.poly.pizza/4de80dbc-31ec-4cde-9b35-8424971bc412.glb",
+  "thumbnailUrl": "https://static.poly.pizza/4de80dbc-31ec-4cde-9b35-8424971bc412.webp",
+  "description": " ",
+  "category": "Objects",
+  "tags": [
+    "cone"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "cone"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Traffic Cone\" by Adam Marc Williams, https://poly.pizza/m/eFQ60hneKwL. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/eFQ60hneKwL/model.glb",
+  "sourceMetadataFile": "models/eFQ60hneKwL/source.json",
+  "bytes": 9800,
+  "sha256": "57331b3c82ebee8908270a1726c6a2dcfb733a8ce77a90e36a6e29b37cf04d4f",
+  "apiTriangleCount": 148,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.969687+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

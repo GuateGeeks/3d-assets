@@ -1,0 +1,67 @@
+{
+  "id": "72XCHXgHlg7",
+  "title": "Tennis racket",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/72XCHXgHlg7",
+  "metadataUrl": "https://api.poly.pizza/v1/model/72XCHXgHlg7",
+  "downloadUrl": "https://static.poly.pizza/f32a9f7b-9428-4686-9e7b-eb2ee7334d43.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f32a9f7b-9428-4686-9e7b-eb2ee7334d43.webp",
+  "description": "#tennis #racket #sports",
+  "category": "Objects",
+  "tags": [
+    "tennis",
+    "racket",
+    "sports"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [
+    "tennis"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Tennis racket\" by Poly by Google, https://poly.pizza/m/72XCHXgHlg7. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/72XCHXgHlg7/model.glb",
+  "sourceMetadataFile": "models/72XCHXgHlg7/source.json",
+  "bytes": 113380,
+  "sha256": "0c06f49afea785a6f72804ce187b41a6ff056d9483d61f641f8b9bc51552854d",
+  "apiTriangleCount": 2720,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 43,
+    "nodes": 43,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.461247+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

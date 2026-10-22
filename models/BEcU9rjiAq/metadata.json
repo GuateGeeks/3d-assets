@@ -1,0 +1,71 @@
+{
+  "id": "BEcU9rjiAq",
+  "title": "Fish",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/BEcU9rjiAq",
+  "metadataUrl": "https://api.poly.pizza/v1/model/BEcU9rjiAq",
+  "downloadUrl": "https://static.poly.pizza/6805b99c-5fd7-4aab-bf57-3bb645e1108a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/6805b99c-5fd7-4aab-bf57-3bb645e1108a.webp",
+  "description": null,
+  "category": "Animals",
+  "tags": [
+    "Food",
+    "Fish"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "fish"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Fish\" by Quaternius, https://poly.pizza/m/BEcU9rjiAq. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/BEcU9rjiAq/model.glb",
+  "sourceMetadataFile": "models/BEcU9rjiAq/source.json",
+  "bytes": 81508,
+  "sha256": "9607de8de8a0ac2d857f271272e70e6d8d3fd19852d979c2cfbe9eafe1e4fcc5",
+  "apiTriangleCount": 686,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 11,
+    "materials": 3,
+    "skins": 1,
+    "joints": 6,
+    "rigged": true,
+    "animated": true,
+    "animations": 1,
+    "animationNames": [
+      "Armature|Swim"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.232901+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "api-animation-metadata-disagrees-with-glb"
+  ],
+  "unfulfilledQueries": []
+}

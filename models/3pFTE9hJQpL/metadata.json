@@ -1,0 +1,71 @@
+{
+  "id": "3pFTE9hJQpL",
+  "title": "Brain In A Jar 💭",
+  "author": "Chris Ross",
+  "authorUrl": "https://poly.pizza/u/Chris%20Ross",
+  "sourceUrl": "https://poly.pizza/m/3pFTE9hJQpL",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3pFTE9hJQpL",
+  "downloadUrl": "https://static.poly.pizza/50e410ea-3686-4ef2-8130-416d32a25bcc.glb",
+  "thumbnailUrl": "https://static.poly.pizza/50e410ea-3686-4ef2-8130-416d32a25bcc.webp",
+  "description": "Pondering the questions of reality.",
+  "category": "Objects",
+  "tags": [
+    "Brain",
+    "Jar",
+    "Experiment"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [
+    "brain",
+    "human brain"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Brain In A Jar 💭\" by Chris Ross, https://poly.pizza/m/3pFTE9hJQpL. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3pFTE9hJQpL/model.glb",
+  "sourceMetadataFile": "models/3pFTE9hJQpL/source.json",
+  "bytes": 5508552,
+  "sha256": "3cf409d74ea4c0532ae30b23aea5e1f53464da554cc73d0d649df38d81452a00",
+  "apiTriangleCount": 43730,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 11,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.761358+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "anatomy-accuracy-review"
+  ],
+  "unfulfilledQueries": []
+}

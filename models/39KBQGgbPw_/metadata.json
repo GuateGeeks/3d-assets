@@ -1,0 +1,68 @@
+{
+  "id": "39KBQGgbPw_",
+  "title": "Banana Peeled",
+  "author": "Sean Tarrant",
+  "authorUrl": "https://poly.pizza/u/Sean%20Tarrant",
+  "sourceUrl": "https://poly.pizza/m/39KBQGgbPw_",
+  "metadataUrl": "https://api.poly.pizza/v1/model/39KBQGgbPw_",
+  "downloadUrl": "https://static.poly.pizza/f3d8a507-c4e3-4ba5-8c06-036cde6bc756.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f3d8a507-c4e3-4ba5-8c06-036cde6bc756.webp",
+  "description": "A banana that has been peeled half way.",
+  "category": "Food & Drink",
+  "tags": [
+    "peel",
+    "plantain",
+    "skin"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "banana"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Banana Peeled\" by Sean Tarrant, https://poly.pizza/m/39KBQGgbPw_. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/39KBQGgbPw_/model.glb",
+  "sourceMetadataFile": "models/39KBQGgbPw_/source.json",
+  "bytes": 30108,
+  "sha256": "1583f067391b284b938087fe972d06c8aac4eae91ae31092808a0c6dfacb6323",
+  "apiTriangleCount": 374,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.228555+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

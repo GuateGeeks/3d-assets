@@ -1,0 +1,67 @@
+{
+  "id": "dKjB2Gm4-rj",
+  "title": "Trumpet",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/dKjB2Gm4-rj",
+  "metadataUrl": "https://api.poly.pizza/v1/model/dKjB2Gm4-rj",
+  "downloadUrl": "https://static.poly.pizza/51fb9cc0-82d2-404f-bb36-f61bd3c34341.glb",
+  "thumbnailUrl": "https://static.poly.pizza/51fb9cc0-82d2-404f-bb36-f61bd3c34341.webp",
+  "description": "#music #instrument #band",
+  "category": "Objects",
+  "tags": [
+    "music",
+    "instrument",
+    "band"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "trumpet"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Trumpet\" by Poly by Google, https://poly.pizza/m/dKjB2Gm4-rj. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/dKjB2Gm4-rj/model.glb",
+  "sourceMetadataFile": "models/dKjB2Gm4-rj/source.json",
+  "bytes": 305900,
+  "sha256": "49eff31bed9f62e827f74bd6e43df98bcf9e9e3c1963cc460b10bf1e91b567a7",
+  "apiTriangleCount": 25384,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.844166+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "bzLVwG4AzvA",
+  "title": "Island",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/bzLVwG4AzvA",
+  "metadataUrl": "https://api.poly.pizza/v1/model/bzLVwG4AzvA",
+  "downloadUrl": "https://static.poly.pizza/f3ac854c-2313-4b46-ac44-24ca3f17f042.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f3ac854c-2313-4b46-ac44-24ca3f17f042.webp",
+  "description": null,
+  "category": "Scenes & Levels",
+  "tags": [
+    "archipelago",
+    "isle",
+    "peninsula"
+  ],
+  "areas": [
+    "tierra-geografia"
+  ],
+  "queries": [
+    "island"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Island\" by Poly by Google, https://poly.pizza/m/bzLVwG4AzvA. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/bzLVwG4AzvA/model.glb",
+  "sourceMetadataFile": "models/bzLVwG4AzvA/source.json",
+  "bytes": 70996,
+  "sha256": "be58e0854603da189f8bbc4584e073589b5945c37cd243d4f410fb9175324f3b",
+  "apiTriangleCount": 3555,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.055644+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

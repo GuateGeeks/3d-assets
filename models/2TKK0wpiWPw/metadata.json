@@ -1,0 +1,68 @@
+{
+  "id": "2TKK0wpiWPw",
+  "title": "AA battery",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/2TKK0wpiWPw",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2TKK0wpiWPw",
+  "downloadUrl": "https://static.poly.pizza/9db711a7-2476-4aec-b29c-6f56b4a668a3.glb",
+  "thumbnailUrl": "https://static.poly.pizza/9db711a7-2476-4aec-b29c-6f56b4a668a3.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "aaa",
+    "duracell",
+    "steps"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [
+    "battery"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"AA battery\" by Poly by Google, https://poly.pizza/m/2TKK0wpiWPw. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2TKK0wpiWPw/model.glb",
+  "sourceMetadataFile": "models/2TKK0wpiWPw/source.json",
+  "bytes": 14108,
+  "sha256": "c65d2026adb7f98b0bb4411e4183fbf070ed22a04d1fb84f8ed4d5d7d39beab5",
+  "apiTriangleCount": 260,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.974472+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

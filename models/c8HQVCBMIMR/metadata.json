@@ -1,0 +1,67 @@
+{
+  "id": "c8HQVCBMIMR",
+  "title": "Magnifying Glass",
+  "author": "Gabriel Valdivia",
+  "authorUrl": "https://poly.pizza/u/Gabriel%20Valdivia",
+  "sourceUrl": "https://poly.pizza/m/c8HQVCBMIMR",
+  "metadataUrl": "https://api.poly.pizza/v1/model/c8HQVCBMIMR",
+  "downloadUrl": "https://static.poly.pizza/84ad2697-71c7-4e5d-8e38-f031c3825db1.glb",
+  "thumbnailUrl": "https://static.poly.pizza/84ad2697-71c7-4e5d-8e38-f031c3825db1.webp",
+  "description": "#dailyblocks",
+  "category": "Other",
+  "tags": [
+    "hand glass",
+    "simple microscope",
+    "microscope"
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [
+    "magnifying glass"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Magnifying Glass\" by Gabriel Valdivia, https://poly.pizza/m/c8HQVCBMIMR. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/c8HQVCBMIMR/model.glb",
+  "sourceMetadataFile": "models/c8HQVCBMIMR/source.json",
+  "bytes": 16252,
+  "sha256": "9c2960c6aad35e9b321b75ff49961f89eb858164de70f9fc8c2b66bd620ea0dd",
+  "apiTriangleCount": 256,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.307865+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

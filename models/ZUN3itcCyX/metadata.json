@@ -1,0 +1,69 @@
+{
+  "id": "ZUN3itcCyX",
+  "title": "Avocado",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/ZUN3itcCyX",
+  "metadataUrl": "https://api.poly.pizza/v1/model/ZUN3itcCyX",
+  "downloadUrl": "https://static.poly.pizza/eeb28e86-ad06-4b13-aba0-54dcdad850cd.glb",
+  "thumbnailUrl": "https://static.poly.pizza/eeb28e86-ad06-4b13-aba0-54dcdad850cd.webp",
+  "description": null,
+  "category": "Food & Drink",
+  "tags": [
+    "Food",
+    "Fruit",
+    "Produce",
+    "Avocado"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "avocado"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Avocado\" by Quaternius, https://poly.pizza/m/ZUN3itcCyX. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/ZUN3itcCyX/model.glb",
+  "sourceMetadataFile": "models/ZUN3itcCyX/source.json",
+  "bytes": 16020,
+  "sha256": "be91c6eef6514cf900e320d777b9b386f0a4a2b92c9d618abd7b5cc958cb0b65",
+  "apiTriangleCount": 336,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.270794+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

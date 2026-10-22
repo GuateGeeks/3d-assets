@@ -1,0 +1,70 @@
+{
+  "id": "59muuwqSsq",
+  "title": "Carrot",
+  "author": "Kenney",
+  "authorUrl": "https://poly.pizza/u/Kenney",
+  "sourceUrl": "https://poly.pizza/m/59muuwqSsq",
+  "metadataUrl": "https://api.poly.pizza/v1/model/59muuwqSsq",
+  "downloadUrl": "https://static.poly.pizza/63ff505a-c1dc-49d6-bcd8-f18db459e007.glb",
+  "thumbnailUrl": "https://static.poly.pizza/63ff505a-c1dc-49d6-bcd8-f18db459e007.webp",
+  "description": null,
+  "category": "Food & Drink",
+  "tags": [
+    "Plant",
+    "Carrot",
+    "Food",
+    "Root",
+    "Vegetable"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "carrot"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Carrot\" by Kenney, https://poly.pizza/m/59muuwqSsq. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/59muuwqSsq/model.glb",
+  "sourceMetadataFile": "models/59muuwqSsq/source.json",
+  "bytes": 12768,
+  "sha256": "86329db7e0bbab3f99a9ee4652045d491a93b50416c36a030fe9f7e950bfe8a5",
+  "apiTriangleCount": 148,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.538866+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

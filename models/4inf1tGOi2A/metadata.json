@@ -1,0 +1,67 @@
+{
+  "id": "4inf1tGOi2A",
+  "title": "Saw",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/4inf1tGOi2A",
+  "metadataUrl": "https://api.poly.pizza/v1/model/4inf1tGOi2A",
+  "downloadUrl": "https://static.poly.pizza/bd1ac991-d443-46ac-a792-88f0e13a4d2d.glb",
+  "thumbnailUrl": "https://static.poly.pizza/bd1ac991-d443-46ac-a792-88f0e13a4d2d.webp",
+  "description": "#construction #tool",
+  "category": "Objects",
+  "tags": [
+    "construction",
+    "tool"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [
+    "saw"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Saw\" by jeremy, https://poly.pizza/m/4inf1tGOi2A. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/4inf1tGOi2A/model.glb",
+  "sourceMetadataFile": "models/4inf1tGOi2A/source.json",
+  "bytes": 18832,
+  "sha256": "926b72c6a0f322712ee9e372105eb16313c779559d141a357478251e1269ee0c",
+  "apiTriangleCount": 316,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.940010+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

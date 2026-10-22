@@ -1,0 +1,67 @@
+{
+  "id": "2g9Jm7kvIU",
+  "title": "Backpack",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/2g9Jm7kvIU",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2g9Jm7kvIU",
+  "downloadUrl": "https://static.poly.pizza/0d29cdc2-0baf-4bf7-835f-075b34c70b61.glb",
+  "thumbnailUrl": "https://static.poly.pizza/0d29cdc2-0baf-4bf7-835f-075b34c70b61.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Bag"
+  ],
+  "areas": [
+    "escuela-lenguaje"
+  ],
+  "queries": [
+    "backpack"
+  ],
+  "subjects": [
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Backpack\" by Quaternius, https://poly.pizza/m/2g9Jm7kvIU. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2g9Jm7kvIU/model.glb",
+  "sourceMetadataFile": "models/2g9Jm7kvIU/source.json",
+  "bytes": 99444,
+  "sha256": "315a559dc389f0a3a98395222d56c2db45b4bd505c93db282c7e34011f6e5c0f",
+  "apiTriangleCount": 1748,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.521264+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

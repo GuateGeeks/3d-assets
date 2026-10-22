@@ -1,0 +1,66 @@
+{
+  "id": "ah8WSBbizA6",
+  "title": "Rocketship",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/ah8WSBbizA6",
+  "metadataUrl": "https://api.poly.pizza/v1/model/ah8WSBbizA6",
+  "downloadUrl": "https://static.poly.pizza/61b5e7bf-f85d-415e-9d0c-beed1dbfa345.glb",
+  "thumbnailUrl": "https://static.poly.pizza/61b5e7bf-f85d-415e-9d0c-beed1dbfa345.webp",
+  "description": "#space",
+  "category": "Transport",
+  "tags": [
+    "space"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "rocket"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Rocketship\" by jeremy, https://poly.pizza/m/ah8WSBbizA6. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/ah8WSBbizA6/model.glb",
+  "sourceMetadataFile": "models/ah8WSBbizA6/source.json",
+  "bytes": 42912,
+  "sha256": "8648bf49a7f6e3e7985cebe34bb2ed95fe69d44ab5bb21e840011ad809ea856a",
+  "apiTriangleCount": 800,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.850987+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

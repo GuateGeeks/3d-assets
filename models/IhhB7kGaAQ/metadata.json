@@ -1,0 +1,67 @@
+{
+  "id": "IhhB7kGaAQ",
+  "title": "Corn",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/IhhB7kGaAQ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/IhhB7kGaAQ",
+  "downloadUrl": "https://static.poly.pizza/89af1f9b-305a-40a0-8c7a-e2ad81a529b9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/89af1f9b-305a-40a0-8c7a-e2ad81a529b9.webp",
+  "description": null,
+  "category": "Nature",
+  "tags": [
+    "Outdoors",
+    "Nature"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "corn"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Corn\" by Quaternius, https://poly.pizza/m/IhhB7kGaAQ. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/IhhB7kGaAQ/model.glb",
+  "sourceMetadataFile": "models/IhhB7kGaAQ/source.json",
+  "bytes": 43288,
+  "sha256": "fb3731a9814a2bdaeef2b15642119f03bcacbc48d96b5e05df5904aeebee7395",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.040398+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,69 @@
+{
+  "id": "9g1aIbfR9Y",
+  "title": "Planet",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/9g1aIbfR9Y",
+  "metadataUrl": "https://api.poly.pizza/v1/model/9g1aIbfR9Y",
+  "downloadUrl": "https://static.poly.pizza/649106b2-c7a3-4e05-8034-1a60e1d124df.glb",
+  "thumbnailUrl": "https://static.poly.pizza/649106b2-c7a3-4e05-8034-1a60e1d124df.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Astronomy",
+    "Outer Space",
+    "Planet",
+    "Sphere"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "planet"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Planet\" by Quaternius, https://poly.pizza/m/9g1aIbfR9Y. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/9g1aIbfR9Y/model.glb",
+  "sourceMetadataFile": "models/9g1aIbfR9Y/source.json",
+  "bytes": 74072,
+  "sha256": "67c67ac2b2f5af3f6c1f549b696b6872ef0b818e8c005420794d6175164ed674",
+  "apiTriangleCount": 2010,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.492731+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

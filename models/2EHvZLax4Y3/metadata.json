@@ -1,0 +1,66 @@
+{
+  "id": "2EHvZLax4Y3",
+  "title": "Computer",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/2EHvZLax4Y3",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2EHvZLax4Y3",
+  "downloadUrl": "https://static.poly.pizza/4fd289d6-e578-4466-863c-8f6f3a5e6a9d.glb",
+  "thumbnailUrl": "https://static.poly.pizza/4fd289d6-e578-4466-863c-8f6f3a5e6a9d.webp",
+  "description": "#desktop #pc",
+  "category": "Other",
+  "tags": [
+    "desktop",
+    "pc"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [
+    "computer"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Computer\" by Poly by Google, https://poly.pizza/m/2EHvZLax4Y3. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2EHvZLax4Y3/model.glb",
+  "sourceMetadataFile": "models/2EHvZLax4Y3/source.json",
+  "bytes": 179576,
+  "sha256": "1a8aea4ce1f872bc7d80e44f7b715700dd4dbf1e56c4a923ca671689a44b765d",
+  "apiTriangleCount": 2360,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 5,
+    "nodes": 5,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:33.679394+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "3Ae_y67lzvd",
+  "title": "Drone",
+  "author": "Silly Fear",
+  "authorUrl": "https://poly.pizza/u/Silly%20Fear",
+  "sourceUrl": "https://poly.pizza/m/3Ae_y67lzvd",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3Ae_y67lzvd",
+  "downloadUrl": "https://static.poly.pizza/af2c7cd7-255b-47e3-b06a-e0ce5f500064.glb",
+  "thumbnailUrl": "https://static.poly.pizza/af2c7cd7-255b-47e3-b06a-e0ce5f500064.webp",
+  "description": "Phantom series",
+  "category": "Transport",
+  "tags": [
+    "pilotless aircraft",
+    "monotone",
+    "dawdler"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [
+    "drone"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Drone\" by Silly Fear, https://poly.pizza/m/3Ae_y67lzvd. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3Ae_y67lzvd/model.glb",
+  "sourceMetadataFile": "models/3Ae_y67lzvd/source.json",
+  "bytes": 228308,
+  "sha256": "f774aad4f1929897a021977cacc4f223d422f5bc19ea18ca43ae115826712686",
+  "apiTriangleCount": 2397,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 65,
+    "nodes": 65,
+    "materials": 7,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.472645+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

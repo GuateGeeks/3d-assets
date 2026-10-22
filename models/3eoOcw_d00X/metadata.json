@@ -1,0 +1,72 @@
+{
+  "id": "3eoOcw_d00X",
+  "title": "Collared peccary",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/3eoOcw_d00X",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3eoOcw_d00X",
+  "downloadUrl": "https://static.poly.pizza/63773da4-4131-4536-9bc9-d903433af33f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/63773da4-4131-4536-9bc9-d903433af33f.webp",
+  "description": "#animal #mammal #hog",
+  "category": "Animals",
+  "tags": [
+    "animal",
+    "mammal",
+    "hog"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "tapir"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Collared peccary\" by Poly by Google, https://poly.pizza/m/3eoOcw_d00X. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3eoOcw_d00X/model.glb",
+  "sourceMetadataFile": "models/3eoOcw_d00X/source.json",
+  "bytes": 1839436,
+  "sha256": "de467e1cd798099bb69e9221954c2d3c327a12a34acb4bdb62ec6f2f628fbcc5",
+  "apiTriangleCount": 792,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:43.033065+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "requested-object-not-confirmed"
+  ],
+  "classificationNote": "Recurso reclasificado por título original: Collared peccary; no satisface la búsqueda tapir.",
+  "unfulfilledQueries": [
+    "tapir"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "2L1BNfBSXrP",
+  "title": "Mayan Temple",
+  "author": "Vivien Lightfoot",
+  "authorUrl": "https://poly.pizza/u/Vivien%20Lightfoot",
+  "sourceUrl": "https://poly.pizza/m/2L1BNfBSXrP",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2L1BNfBSXrP",
+  "downloadUrl": "https://static.poly.pizza/431164c8-d9db-458a-8905-f4f31613097c.glb",
+  "thumbnailUrl": "https://static.poly.pizza/431164c8-d9db-458a-8905-f4f31613097c.webp",
+  "description": "Blocks building",
+  "category": "Buildings",
+  "tags": [
+    "maya",
+    "palenque",
+    "pyramid"
+  ],
+  "areas": [
+    "guatemala-contexto"
+  ],
+  "queries": [
+    "mayan"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Mayan Temple\" by Vivien Lightfoot, https://poly.pizza/m/2L1BNfBSXrP. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2L1BNfBSXrP/model.glb",
+  "sourceMetadataFile": "models/2L1BNfBSXrP/source.json",
+  "bytes": 177784,
+  "sha256": "1c352d9f45dc1be89db1aa0a03c8651267a1708cf3459037e49f0693f51338db",
+  "apiTriangleCount": 1015,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 87,
+    "nodes": 87,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:50.498668+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "cultural-or-species-identification-review"
+  ],
+  "unfulfilledQueries": []
+}

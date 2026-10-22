@@ -1,0 +1,70 @@
+{
+  "id": "8ciDd9k8wha",
+  "title": "Airplane",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/8ciDd9k8wha",
+  "metadataUrl": "https://api.poly.pizza/v1/model/8ciDd9k8wha",
+  "downloadUrl": "https://static.poly.pizza/4754ce4b-40ec-4089-8be4-98ce7230bfe4.glb",
+  "thumbnailUrl": "https://static.poly.pizza/4754ce4b-40ec-4089-8be4-98ce7230bfe4.webp",
+  "description": "#aviation #aircraft #airline #jet",
+  "category": "Transport",
+  "tags": [
+    "aviation",
+    "aircraft",
+    "airline",
+    "jet"
+  ],
+  "areas": [
+    "transporte-movilidad"
+  ],
+  "queries": [
+    "airplane"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Airplane\" by Poly by Google, https://poly.pizza/m/8ciDd9k8wha. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/8ciDd9k8wha/model.glb",
+  "sourceMetadataFile": "models/8ciDd9k8wha/source.json",
+  "bytes": 236520,
+  "sha256": "d18a06b336c49328b6dbd54bffd877592f2703a33e153167a436b5237dd6a7c1",
+  "apiTriangleCount": 1292,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 7,
+    "nodes": 7,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.986589+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

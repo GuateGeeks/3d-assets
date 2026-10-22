@@ -1,0 +1,68 @@
+{
+  "id": "4tOmpD9-xsV",
+  "title": "Apple",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/4tOmpD9-xsV",
+  "metadataUrl": "https://api.poly.pizza/v1/model/4tOmpD9-xsV",
+  "downloadUrl": "https://static.poly.pizza/ca290e62-255e-4a92-b165-6c35aa274639.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ca290e62-255e-4a92-b165-6c35aa274639.webp",
+  "description": "#fruit #plant #tree",
+  "category": "Food & Drink",
+  "tags": [
+    "fruit",
+    "plant",
+    "tree"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "apple"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Apple\" by jeremy, https://poly.pizza/m/4tOmpD9-xsV. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/4tOmpD9-xsV/model.glb",
+  "sourceMetadataFile": "models/4tOmpD9-xsV/source.json",
+  "bytes": 21540,
+  "sha256": "a89e346eb2a77de581ba3a58c4ba27f6e62842bdac34b44f1f5028ed3acd0010",
+  "apiTriangleCount": 220,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.580664+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

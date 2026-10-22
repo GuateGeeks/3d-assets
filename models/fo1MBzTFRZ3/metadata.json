@@ -1,0 +1,68 @@
+{
+  "id": "fo1MBzTFRZ3",
+  "title": "Whale",
+  "author": "sirkitree",
+  "authorUrl": "https://poly.pizza/u/sirkitree",
+  "sourceUrl": "https://poly.pizza/m/fo1MBzTFRZ3",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fo1MBzTFRZ3",
+  "downloadUrl": "https://static.poly.pizza/6cd8a022-0fec-43c5-87ab-d7f36a45eb91.glb",
+  "thumbnailUrl": "https://static.poly.pizza/6cd8a022-0fec-43c5-87ab-d7f36a45eb91.webp",
+  "description": "#lowpolyanimals",
+  "category": "Animals",
+  "tags": [
+    "hulk",
+    "giant",
+    "heavyweight"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "whale"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Whale\" by sirkitree, https://poly.pizza/m/fo1MBzTFRZ3. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fo1MBzTFRZ3/model.glb",
+  "sourceMetadataFile": "models/fo1MBzTFRZ3/source.json",
+  "bytes": 177004,
+  "sha256": "a945542da925aac0a10252794a831919a303757439ce7e884231a5dacdebfda2",
+  "apiTriangleCount": 2124,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 11,
+    "nodes": 11,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.474167+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

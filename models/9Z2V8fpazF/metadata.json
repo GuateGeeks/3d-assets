@@ -1,0 +1,70 @@
+{
+  "id": "9Z2V8fpazF",
+  "title": "Frog",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/9Z2V8fpazF",
+  "metadataUrl": "https://api.poly.pizza/v1/model/9Z2V8fpazF",
+  "downloadUrl": "https://static.poly.pizza/08416495-b056-4ed7-b23b-5a10e82277a0.glb",
+  "thumbnailUrl": "https://static.poly.pizza/08416495-b056-4ed7-b23b-5a10e82277a0.webp",
+  "description": null,
+  "category": "Animals",
+  "tags": [
+    "Animal"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "frog"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Frog\" by Quaternius, https://poly.pizza/m/9Z2V8fpazF. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/9Z2V8fpazF/model.glb",
+  "sourceMetadataFile": "models/9Z2V8fpazF/source.json",
+  "bytes": 587360,
+  "sha256": "92dc96c90e7228676f8c43dc7711ba5ed5505029ebb2f6d4ad198d9e35bdbfe0",
+  "apiTriangleCount": 0,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 44,
+    "materials": 4,
+    "skins": 1,
+    "joints": 28,
+    "rigged": true,
+    "animated": true,
+    "animations": 4,
+    "animationNames": [
+      "FrogArmature|Frog_Attack",
+      "FrogArmature|Frog_Death",
+      "FrogArmature|Frog_Idle",
+      "FrogArmature|Frog_Jump"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.403904+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

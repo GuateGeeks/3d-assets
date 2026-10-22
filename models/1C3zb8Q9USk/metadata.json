@@ -1,0 +1,65 @@
+{
+  "id": "1C3zb8Q9USk",
+  "title": "Satellite",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/1C3zb8Q9USk",
+  "metadataUrl": "https://api.poly.pizza/v1/model/1C3zb8Q9USk",
+  "downloadUrl": "https://static.poly.pizza/bc748445-ace9-4c1f-b6c8-0e38cb3222de.glb",
+  "thumbnailUrl": "https://static.poly.pizza/bc748445-ace9-4c1f-b6c8-0e38cb3222de.webp",
+  "description": "#space",
+  "category": "Objects",
+  "tags": [
+    "space"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [
+    "satellite"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Satellite\" by Poly by Google, https://poly.pizza/m/1C3zb8Q9USk. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/1C3zb8Q9USk/model.glb",
+  "sourceMetadataFile": "models/1C3zb8Q9USk/source.json",
+  "bytes": 1420168,
+  "sha256": "e05c3193fbfaccdd6f813829c793e074e9c2bd08e92348b8a55d80347f835e6b",
+  "apiTriangleCount": 914,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.115893+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

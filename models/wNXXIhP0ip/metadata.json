@@ -1,0 +1,69 @@
+{
+  "id": "wNXXIhP0ip",
+  "title": "Basketball",
+  "author": "Zer0_Time",
+  "authorUrl": "https://poly.pizza/u/Zer0_Time",
+  "sourceUrl": "https://poly.pizza/m/wNXXIhP0ip",
+  "metadataUrl": "https://api.poly.pizza/v1/model/wNXXIhP0ip",
+  "downloadUrl": "https://static.poly.pizza/23cf3830-1385-406c-b458-5c42b6eec051.glb",
+  "thumbnailUrl": "https://static.poly.pizza/23cf3830-1385-406c-b458-5c42b6eec051.webp",
+  "description": "National Collegiate Athletic Association (NCAA) men's ball sized",
+  "category": "Objects",
+  "tags": [
+    "basketball game",
+    "basket",
+    "basketballing",
+    "hoop",
+    "basketball hoop"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [
+    "basketball"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Basketball\" by Zer0_Time, https://poly.pizza/m/wNXXIhP0ip. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/wNXXIhP0ip/model.glb",
+  "sourceMetadataFile": "models/wNXXIhP0ip/source.json",
+  "bytes": 100976,
+  "sha256": "ac712964722ff4c30b00351e3c19adcaf999c3432f93a0198e05b25c07c97b88",
+  "apiTriangleCount": 1420,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.377719+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

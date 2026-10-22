@@ -1,0 +1,75 @@
+{
+  "id": "AZzoJo1FBm",
+  "title": "Animated Character Base",
+  "author": "J-Toastie",
+  "authorUrl": "https://poly.pizza/u/J-Toastie",
+  "sourceUrl": "https://poly.pizza/m/AZzoJo1FBm",
+  "metadataUrl": "https://api.poly.pizza/v1/model/AZzoJo1FBm",
+  "downloadUrl": "https://static.poly.pizza/297685ba-7845-4e7a-9280-54b88baac49a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/297685ba-7845-4e7a-9280-54b88baac49a.webp",
+  "description": "A blank character template!\n\n(Idle animation is from mixamo i also forgot to name the animation idle😔)",
+  "category": "People & Characters",
+  "tags": [
+    "Template",
+    "Character",
+    "Human",
+    "Person"
+  ],
+  "areas": [
+    "personajes-animacion"
+  ],
+  "queries": [
+    "animated character"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Animated Character Base\" by J-Toastie, https://poly.pizza/m/AZzoJo1FBm. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/AZzoJo1FBm/model.glb",
+  "sourceMetadataFile": "models/AZzoJo1FBm/source.json",
+  "bytes": 344884,
+  "sha256": "0a557402f6f9411c708d49b428f2e22f443861be8602b53d650b4aba6d2c03d6",
+  "apiTriangleCount": 2096,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 67,
+    "materials": 1,
+    "skins": 1,
+    "joints": 52,
+    "rigged": true,
+    "animated": true,
+    "animations": 1,
+    "animationNames": [
+      "mixamo.com"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:21.614646+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "third-party-animation-mentioned"
+  ],
+  "unfulfilledQueries": []
+}

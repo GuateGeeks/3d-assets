@@ -1,0 +1,66 @@
+{
+  "id": "2LCcq8vhqJ3",
+  "title": "Turtle",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/2LCcq8vhqJ3",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2LCcq8vhqJ3",
+  "downloadUrl": "https://static.poly.pizza/4a6957fa-543c-4e64-b6cf-7e9d5523026a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/4a6957fa-543c-4e64-b6cf-7e9d5523026a.webp",
+  "description": "#shell #reptile",
+  "category": "Animals",
+  "tags": [
+    "shell",
+    "reptile"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "turtle"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Turtle\" by Poly by Google, https://poly.pizza/m/2LCcq8vhqJ3. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2LCcq8vhqJ3/model.glb",
+  "sourceMetadataFile": "models/2LCcq8vhqJ3/source.json",
+  "bytes": 115884,
+  "sha256": "484cce3383e0cdbfb710ccd0318fa13d23a9609ab1a7a600437657a47b1cdae7",
+  "apiTriangleCount": 3930,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 6,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.571123+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "4TpBWdzKDf2",
+  "title": "Rock",
+  "author": "Danni Bittman",
+  "authorUrl": "https://poly.pizza/u/Danni%20Bittman",
+  "sourceUrl": "https://poly.pizza/m/4TpBWdzKDf2",
+  "metadataUrl": "https://api.poly.pizza/v1/model/4TpBWdzKDf2",
+  "downloadUrl": "https://static.poly.pizza/500cdd0f-bfdd-4144-a45d-d5d02c4e569d.glb",
+  "thumbnailUrl": "https://static.poly.pizza/500cdd0f-bfdd-4144-a45d-d5d02c4e569d.webp",
+  "description": " ",
+  "category": "Nature",
+  "tags": [
+    "stone"
+  ],
+  "areas": [
+    "tierra-geografia"
+  ],
+  "queries": [
+    "rock"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Rock\" by Danni Bittman, https://poly.pizza/m/4TpBWdzKDf2. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/4TpBWdzKDf2/model.glb",
+  "sourceMetadataFile": "models/4TpBWdzKDf2/source.json",
+  "bytes": 9724,
+  "sha256": "69de800a8bf7799ee79ccc0bfda054e11f22a0ae1c8df4fe7cbdd4e9d90dd95d",
+  "apiTriangleCount": 108,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.205946+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

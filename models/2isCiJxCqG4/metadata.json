@@ -1,0 +1,68 @@
+{
+  "id": "2isCiJxCqG4",
+  "title": "Saturn",
+  "author": "Zoe XR",
+  "authorUrl": "https://poly.pizza/u/Zoe%20XR",
+  "sourceUrl": "https://poly.pizza/m/2isCiJxCqG4",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2isCiJxCqG4",
+  "downloadUrl": "https://static.poly.pizza/27fff16b-3ddc-4e02-a841-22e5cdde1018.glb",
+  "thumbnailUrl": "https://static.poly.pizza/27fff16b-3ddc-4e02-a841-22e5cdde1018.webp",
+  "description": null,
+  "category": "Other",
+  "tags": [
+    "jupiter",
+    "apollo",
+    "venus"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "saturn"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Saturn\" by Zoe XR, https://poly.pizza/m/2isCiJxCqG4. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2isCiJxCqG4/model.glb",
+  "sourceMetadataFile": "models/2isCiJxCqG4/source.json",
+  "bytes": 47308,
+  "sha256": "db3078e1dbbc4b9d6cae205837abf67d3fca166de1a5ac61ce8c63e4d9e5d434",
+  "apiTriangleCount": 540,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 3,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.712981+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

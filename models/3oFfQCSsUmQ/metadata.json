@@ -1,0 +1,67 @@
+{
+  "id": "3oFfQCSsUmQ",
+  "title": "Keyboard",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/3oFfQCSsUmQ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3oFfQCSsUmQ",
+  "downloadUrl": "https://static.poly.pizza/8dc7a33e-9ed8-4e01-a7a1-b3717ac35c51.glb",
+  "thumbnailUrl": "https://static.poly.pizza/8dc7a33e-9ed8-4e01-a7a1-b3717ac35c51.webp",
+  "description": "#typing #input #computer ",
+  "category": "Other",
+  "tags": [
+    "typing",
+    "input",
+    "computer"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [
+    "keyboard"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Keyboard\" by Poly by Google, https://poly.pizza/m/3oFfQCSsUmQ. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3oFfQCSsUmQ/model.glb",
+  "sourceMetadataFile": "models/3oFfQCSsUmQ/source.json",
+  "bytes": 140100,
+  "sha256": "ea47924f14af012329aeb68a3c3648bf5e59669a0528ad375cf301b459abc66c",
+  "apiTriangleCount": 1972,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:33.815038+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

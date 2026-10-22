@@ -1,0 +1,68 @@
+{
+  "id": "7QMEqafOyI4",
+  "title": "Refracting Telescope",
+  "author": "Jon Wiley",
+  "authorUrl": "https://poly.pizza/u/Jon%20Wiley",
+  "sourceUrl": "https://poly.pizza/m/7QMEqafOyI4",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7QMEqafOyI4",
+  "downloadUrl": "https://static.poly.pizza/03e15ddf-c78c-4285-b446-51223eb9d3a3.glb",
+  "thumbnailUrl": "https://static.poly.pizza/03e15ddf-c78c-4285-b446-51223eb9d3a3.webp",
+  "description": "Refracting telescope with spotting scope, diagonal, eyepiece, and tripod.",
+  "category": "Other",
+  "tags": [
+    "telescope",
+    "newtonian telescope",
+    "optical telescope"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "telescope"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Refracting Telescope\" by Jon Wiley, https://poly.pizza/m/7QMEqafOyI4. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7QMEqafOyI4/model.glb",
+  "sourceMetadataFile": "models/7QMEqafOyI4/source.json",
+  "bytes": 276816,
+  "sha256": "ee678f139071fc634f5ab6c3e92335309ca06e76ae36e542e90e8f0fb7f9b45c",
+  "apiTriangleCount": 2698,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 66,
+    "nodes": 66,
+    "materials": 10,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.993028+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

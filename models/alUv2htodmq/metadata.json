@@ -1,0 +1,66 @@
+{
+  "id": "alUv2htodmq",
+  "title": "Mushrooms",
+  "author": "Jarlan Perez",
+  "authorUrl": "https://poly.pizza/u/Jarlan%20Perez",
+  "sourceUrl": "https://poly.pizza/m/alUv2htodmq",
+  "metadataUrl": "https://api.poly.pizza/v1/model/alUv2htodmq",
+  "downloadUrl": "https://static.poly.pizza/050c6d81-d8e4-4507-8116-c947de606527.glb",
+  "thumbnailUrl": "https://static.poly.pizza/050c6d81-d8e4-4507-8116-c947de606527.webp",
+  "description": " ",
+  "category": "Nature",
+  "tags": [
+    "shrooms",
+    "plant"
+  ],
+  "areas": [
+    "bosques-plantas"
+  ],
+  "queries": [
+    "mushroom"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Mushrooms\" by Jarlan Perez, https://poly.pizza/m/alUv2htodmq. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/alUv2htodmq/model.glb",
+  "sourceMetadataFile": "models/alUv2htodmq/source.json",
+  "bytes": 97168,
+  "sha256": "f449a5559be3fea70f38fb33e555a3508d81a9e9b72bb61758844a7a05a72252",
+  "apiTriangleCount": 1892,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.200850+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

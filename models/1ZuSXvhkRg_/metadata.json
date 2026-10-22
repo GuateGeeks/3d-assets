@@ -1,0 +1,70 @@
+{
+  "id": "1ZuSXvhkRg_",
+  "title": "Boat",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/1ZuSXvhkRg_",
+  "metadataUrl": "https://api.poly.pizza/v1/model/1ZuSXvhkRg_",
+  "downloadUrl": "https://static.poly.pizza/815d44ae-7a75-4c23-9a7f-0d6c51cd54d5.glb",
+  "thumbnailUrl": "https://static.poly.pizza/815d44ae-7a75-4c23-9a7f-0d6c51cd54d5.webp",
+  "description": "#ship #barge #naval #dinghy #cargo",
+  "category": "Transport",
+  "tags": [
+    "ship",
+    "barge",
+    "naval",
+    "dinghy",
+    "cargo"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "boat"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Boat\" by Poly by Google, https://poly.pizza/m/1ZuSXvhkRg_. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/1ZuSXvhkRg_/model.glb",
+  "sourceMetadataFile": "models/1ZuSXvhkRg_/source.json",
+  "bytes": 247212,
+  "sha256": "15c3a16e3eae04ab2738c8456f9c00a292890e478913bb371f7e6e43bc4da01f",
+  "apiTriangleCount": 4486,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.728696+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

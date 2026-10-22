@@ -1,0 +1,68 @@
+{
+  "id": "RtLRqYjfMs",
+  "title": "Rock",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/RtLRqYjfMs",
+  "metadataUrl": "https://api.poly.pizza/v1/model/RtLRqYjfMs",
+  "downloadUrl": "https://static.poly.pizza/87d3dfd2-de47-4b03-b9f1-4c84c2a605b0.glb",
+  "thumbnailUrl": "https://static.poly.pizza/87d3dfd2-de47-4b03-b9f1-4c84c2a605b0.webp",
+  "description": null,
+  "category": "Nature",
+  "tags": [
+    "Nature",
+    "Outdoors",
+    "Rock"
+  ],
+  "areas": [
+    "tierra-geografia"
+  ],
+  "queries": [
+    "rock"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Rock\" by Quaternius, https://poly.pizza/m/RtLRqYjfMs. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/RtLRqYjfMs/model.glb",
+  "sourceMetadataFile": "models/RtLRqYjfMs/source.json",
+  "bytes": 30648,
+  "sha256": "f515dce62fda16b1a265ce511d284e95b46443876a234f40896958d7e68d4ecd",
+  "apiTriangleCount": 632,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.254061+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

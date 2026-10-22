@@ -1,0 +1,20 @@
+{
+  "models": 342,
+  "glbFiles": 342,
+  "csvRows": 342,
+  "uniqueIds": 342,
+  "subsetIndices": 55,
+  "licenseCounts": {
+    "CC-BY 3.0": 274,
+    "CC0 1.0": 68
+  },
+  "queries": 134,
+  "queriesWithoutLiteralTitleMatch": 19,
+  "sourceSnapshotHashes": "passed",
+  "credentialScan": {
+    "textFilesScanned": 1268,
+    "matches": 0,
+    "performed": true
+  },
+  "result": "passed"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "b-y9HDTsu7q",
+  "title": "Saturn",
+  "author": "Jarlan Perez",
+  "authorUrl": "https://poly.pizza/u/Jarlan%20Perez",
+  "sourceUrl": "https://poly.pizza/m/b-y9HDTsu7q",
+  "metadataUrl": "https://api.poly.pizza/v1/model/b-y9HDTsu7q",
+  "downloadUrl": "https://static.poly.pizza/52c2e148-9ba3-4fc6-9949-7769afabd30d.glb",
+  "thumbnailUrl": "https://static.poly.pizza/52c2e148-9ba3-4fc6-9949-7769afabd30d.webp",
+  "description": null,
+  "category": "Scenes & Levels",
+  "tags": [
+    "jupiter",
+    "apollo",
+    "venus"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "saturn"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Saturn\" by Jarlan Perez, https://poly.pizza/m/b-y9HDTsu7q. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/b-y9HDTsu7q/model.glb",
+  "sourceMetadataFile": "models/b-y9HDTsu7q/source.json",
+  "bytes": 72028,
+  "sha256": "7025ae0e29a1f40be7481aecd03e0ae16b47915a1a4804345562431507c034d0",
+  "apiTriangleCount": 1174,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.752793+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

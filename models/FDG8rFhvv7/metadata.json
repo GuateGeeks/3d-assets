@@ -1,0 +1,72 @@
+{
+  "id": "FDG8rFhvv7",
+  "title": "Coffee Shop",
+  "author": "majesticmaje",
+  "authorUrl": "https://poly.pizza/u/majesticmaje",
+  "sourceUrl": "https://poly.pizza/m/FDG8rFhvv7",
+  "metadataUrl": "https://api.poly.pizza/v1/model/FDG8rFhvv7",
+  "downloadUrl": "https://static.poly.pizza/d787b628-f60b-4280-ac48-3a6a9e115928.glb",
+  "thumbnailUrl": "https://static.poly.pizza/d787b628-f60b-4280-ac48-3a6a9e115928.webp",
+  "description": " Made using the coffee house pack\nhttps://poly.pizza/bundle/Coffeehouse-Lounge-Pack-6iH5dHrr4x",
+  "category": "Scenes & Levels",
+  "tags": [
+    "Coffee",
+    "Scene"
+  ],
+  "areas": [
+    "guatemala-contexto"
+  ],
+  "queries": [
+    "coffee"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Coffee Shop\" by majesticmaje, https://poly.pizza/m/FDG8rFhvv7. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/FDG8rFhvv7/model.glb",
+  "sourceMetadataFile": "models/FDG8rFhvv7/source.json",
+  "bytes": 17083820,
+  "sha256": "bca4819eefb96491d41446ba9fb5bd6cf1b43082eae09925d6c8a3834d9bd096",
+  "apiTriangleCount": 14273,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 178,
+    "nodes": 178,
+    "materials": 419,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:48.080278+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "cultural-or-species-identification-review"
+  ],
+  "unfulfilledQueries": []
+}

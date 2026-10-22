@@ -1,0 +1,67 @@
+{
+  "id": "0nfSsetwy0Z",
+  "title": "Camera",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/0nfSsetwy0Z",
+  "metadataUrl": "https://api.poly.pizza/v1/model/0nfSsetwy0Z",
+  "downloadUrl": "https://static.poly.pizza/5816c144-82dc-4e1b-a0d9-7f3609d6887c.glb",
+  "thumbnailUrl": "https://static.poly.pizza/5816c144-82dc-4e1b-a0d9-7f3609d6887c.webp",
+  "description": "#photography #photos #digital",
+  "category": "Other",
+  "tags": [
+    "photography",
+    "photos",
+    "digital"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "camera"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Camera\" by Poly by Google, https://poly.pizza/m/0nfSsetwy0Z. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/0nfSsetwy0Z/model.glb",
+  "sourceMetadataFile": "models/0nfSsetwy0Z/source.json",
+  "bytes": 1588164,
+  "sha256": "eee68c9c9e936459c76fe5ae3b2259e407f549e076793ae34ccd3d45e50b25c5",
+  "apiTriangleCount": 743,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.073136+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

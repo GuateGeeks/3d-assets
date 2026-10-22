@@ -1,0 +1,68 @@
+{
+  "id": "oYtDty0fR6",
+  "title": "Pine Trees",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/oYtDty0fR6",
+  "metadataUrl": "https://api.poly.pizza/v1/model/oYtDty0fR6",
+  "downloadUrl": "https://static.poly.pizza/1d499f8b-5a1b-4966-9a35-10c0d3841e91.glb",
+  "thumbnailUrl": "https://static.poly.pizza/1d499f8b-5a1b-4966-9a35-10c0d3841e91.webp",
+  "description": null,
+  "category": "Nature",
+  "tags": [
+    "Plant",
+    "Tree",
+    "Leaf",
+    "Conifer"
+  ],
+  "areas": [
+    "bosques-plantas"
+  ],
+  "queries": [
+    "tree"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pine Trees\" by Quaternius, https://poly.pizza/m/oYtDty0fR6. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/oYtDty0fR6/model.glb",
+  "sourceMetadataFile": "models/oYtDty0fR6/source.json",
+  "bytes": 99604,
+  "sha256": "aea959025a31b0d250d7c94c96cf9456f9fcdaf9fb269790029d85adae3703c4",
+  "apiTriangleCount": 3666,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.760207+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

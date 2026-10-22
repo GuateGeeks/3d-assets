@@ -1,0 +1,70 @@
+{
+  "id": "6lZSwZSWTPw",
+  "title": "Shark tooth",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/6lZSwZSWTPw",
+  "metadataUrl": "https://api.poly.pizza/v1/model/6lZSwZSWTPw",
+  "downloadUrl": "https://static.poly.pizza/b9aaaa05-95e4-4c56-a270-b73788f49058.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b9aaaa05-95e4-4c56-a270-b73788f49058.webp",
+  "description": "#shark #tooth #bone",
+  "category": "Animals",
+  "tags": [
+    "shark",
+    "tooth",
+    "bone"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [
+    "tooth"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Shark tooth\" by Poly by Google, https://poly.pizza/m/6lZSwZSWTPw. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/6lZSwZSWTPw/model.glb",
+  "sourceMetadataFile": "models/6lZSwZSWTPw/source.json",
+  "bytes": 15368,
+  "sha256": "df6ddf3b8d9ac76020831dadd4272683347f983a6bf0cece37030d0652a5302f",
+  "apiTriangleCount": 188,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.832697+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "anatomy-accuracy-review"
+  ],
+  "unfulfilledQueries": []
+}

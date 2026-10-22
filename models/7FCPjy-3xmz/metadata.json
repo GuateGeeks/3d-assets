@@ -1,0 +1,67 @@
+{
+  "id": "7FCPjy-3xmz",
+  "title": "Drum Kit",
+  "author": "smoj",
+  "authorUrl": "https://poly.pizza/u/smoj",
+  "sourceUrl": "https://poly.pizza/m/7FCPjy-3xmz",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7FCPjy-3xmz",
+  "downloadUrl": "https://static.poly.pizza/56bea38d-cb46-43e2-976b-2ed5d0827ffe.glb",
+  "thumbnailUrl": "https://static.poly.pizza/56bea38d-cb46-43e2-976b-2ed5d0827ffe.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "snare",
+    "set",
+    "det"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "drum"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Drum Kit\" by smoj, https://poly.pizza/m/7FCPjy-3xmz. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7FCPjy-3xmz/model.glb",
+  "sourceMetadataFile": "models/7FCPjy-3xmz/source.json",
+  "bytes": 416052,
+  "sha256": "4893bf0cd89542862298456be893bce24742947d31c8293230b817e91629d5de",
+  "apiTriangleCount": 3776,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 111,
+    "nodes": 111,
+    "materials": 11,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.685147+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

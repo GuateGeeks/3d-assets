@@ -1,0 +1,68 @@
+{
+  "id": "ahOO6wz8sV0",
+  "title": "Banana",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/ahOO6wz8sV0",
+  "metadataUrl": "https://api.poly.pizza/v1/model/ahOO6wz8sV0",
+  "downloadUrl": "https://static.poly.pizza/10e92ada-e509-4a04-9e38-96db9eecb29a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/10e92ada-e509-4a04-9e38-96db9eecb29a.webp",
+  "description": "#fruit #tropical #plaintain",
+  "category": "Food & Drink",
+  "tags": [
+    "fruit",
+    "tropical",
+    "plaintain"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "banana"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Banana\" by Poly by Google, https://poly.pizza/m/ahOO6wz8sV0. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/ahOO6wz8sV0/model.glb",
+  "sourceMetadataFile": "models/ahOO6wz8sV0/source.json",
+  "bytes": 7380,
+  "sha256": "61ed0a676c85f52bf94b846c3eaa8bb69ef95da6361ab22651aeb50acb178083",
+  "apiTriangleCount": 78,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.145852+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

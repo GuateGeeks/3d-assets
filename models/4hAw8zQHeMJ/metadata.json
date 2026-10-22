@@ -1,0 +1,70 @@
+{
+  "id": "4hAw8zQHeMJ",
+  "title": "Gears",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/4hAw8zQHeMJ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/4hAw8zQHeMJ",
+  "downloadUrl": "https://static.poly.pizza/978106b1-a560-442a-b4e8-1dc54c06c1d2.glb",
+  "thumbnailUrl": "https://static.poly.pizza/978106b1-a560-442a-b4e8-1dc54c06c1d2.webp",
+  "description": "#metal #parts #tools #factory #manufacturing",
+  "category": "Objects",
+  "tags": [
+    "metal",
+    "parts",
+    "tools",
+    "factory",
+    "manufacturing"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [
+    "gear"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Gears\" by Poly by Google, https://poly.pizza/m/4hAw8zQHeMJ. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/4hAw8zQHeMJ/model.glb",
+  "sourceMetadataFile": "models/4hAw8zQHeMJ/source.json",
+  "bytes": 50460,
+  "sha256": "ad73215c94c802c08ceea1a690716849fff14b3f92ae3fe1c9ac74068ca0f051",
+  "apiTriangleCount": 792,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 4,
+    "nodes": 4,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.580265+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

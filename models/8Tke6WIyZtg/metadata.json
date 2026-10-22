@@ -1,0 +1,68 @@
+{
+  "id": "8Tke6WIyZtg",
+  "title": "Wind turbine",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/8Tke6WIyZtg",
+  "metadataUrl": "https://api.poly.pizza/v1/model/8Tke6WIyZtg",
+  "downloadUrl": "https://static.poly.pizza/e6b02958-8f16-423e-8322-036b5379ef0b.glb",
+  "thumbnailUrl": "https://static.poly.pizza/e6b02958-8f16-423e-8322-036b5379ef0b.webp",
+  "description": "#wind #energy #generator",
+  "category": "Scenes & Levels",
+  "tags": [
+    "wind",
+    "energy",
+    "generator"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [
+    "wind turbine"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wind turbine\" by Poly by Google, https://poly.pizza/m/8Tke6WIyZtg. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/8Tke6WIyZtg/model.glb",
+  "sourceMetadataFile": "models/8Tke6WIyZtg/source.json",
+  "bytes": 15996,
+  "sha256": "b2535996a6d12911018b65cf8133a25ca201f5bf203996e03c64405249a0f29d",
+  "apiTriangleCount": 584,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.723493+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

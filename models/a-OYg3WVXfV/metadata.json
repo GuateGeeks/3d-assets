@@ -1,0 +1,72 @@
+{
+  "id": "a-OYg3WVXfV",
+  "title": "Xylophone",
+  "author": "Daniel Melchior",
+  "authorUrl": "https://poly.pizza/u/Daniel%20Melchior",
+  "sourceUrl": "https://poly.pizza/m/a-OYg3WVXfV",
+  "metadataUrl": "https://api.poly.pizza/v1/model/a-OYg3WVXfV",
+  "downloadUrl": "https://static.poly.pizza/f3f55659-b705-4877-ae87-27a5426d4b3e.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f3f55659-b705-4877-ae87-27a5426d4b3e.webp",
+  "description": "Lets make a song.\n\nCreated for use in my mobile app \"AR Alphabet Flashcards\", an augmented reality app for young children. It's available in the play store: https://play.google.com/store/apps/details?id=com.DanielMelchior.ARAlphabetFlashcards_updated",
+  "category": "Objects",
+  "tags": [
+    "marimba",
+    "glockenspiel",
+    "percussion instrument"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "marimba"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Xylophone\" by Daniel Melchior, https://poly.pizza/m/a-OYg3WVXfV. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/a-OYg3WVXfV/model.glb",
+  "sourceMetadataFile": "models/a-OYg3WVXfV/source.json",
+  "bytes": 307388,
+  "sha256": "f8e1e20dc769f5b062c31b2166d7d5c60008e110da42e83fef820cc2aa391ea5",
+  "apiTriangleCount": 3448,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 17,
+    "nodes": 17,
+    "materials": 10,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:49.681081+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "requested-object-not-confirmed"
+  ],
+  "classificationNote": "Recurso reclasificado por título original: Xylophone; no satisface la búsqueda marimba.",
+  "unfulfilledQueries": [
+    "marimba"
+  ]
+}

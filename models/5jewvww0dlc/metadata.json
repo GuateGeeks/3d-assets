@@ -1,0 +1,68 @@
+{
+  "id": "5jewvww0dlc",
+  "title": "deep space robot",
+  "author": "Tom De Wispelaere",
+  "authorUrl": "https://poly.pizza/u/Tom%20De%20Wispelaere",
+  "sourceUrl": "https://poly.pizza/m/5jewvww0dlc",
+  "metadataUrl": "https://api.poly.pizza/v1/model/5jewvww0dlc",
+  "downloadUrl": "https://static.poly.pizza/ba17f0b5-4126-460f-bdb6-15629ab8e279.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ba17f0b5-4126-460f-bdb6-15629ab8e279.webp",
+  "description": null,
+  "category": "Animals",
+  "tags": [
+    "abyss",
+    "probe",
+    "chasm"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [
+    "robot"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"deep space robot\" by Tom De Wispelaere, https://poly.pizza/m/5jewvww0dlc. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/5jewvww0dlc/model.glb",
+  "sourceMetadataFile": "models/5jewvww0dlc/source.json",
+  "bytes": 1521772,
+  "sha256": "997c189c409d7ad802a50a8b60672c92a2648fe337ff3979d02791e796f54f27",
+  "apiTriangleCount": 20419,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 100,
+    "nodes": 100,
+    "materials": 11,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.131213+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "dXISS4OsDQv",
+  "title": "Trumpet",
+  "author": "Anonymous",
+  "authorUrl": "https://poly.pizza/u/Anonymous",
+  "sourceUrl": "https://poly.pizza/m/dXISS4OsDQv",
+  "metadataUrl": "https://api.poly.pizza/v1/model/dXISS4OsDQv",
+  "downloadUrl": "https://static.poly.pizza/ab6b474c-c49a-45f3-83cb-102f87dcf944.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ab6b474c-c49a-45f3-83cb-102f87dcf944.webp",
+  "description": " ",
+  "category": "Objects",
+  "tags": [
+    "cornet",
+    "horn",
+    "trumpeter",
+    "instrument"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "trumpet"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Trumpet\" by Anonymous, https://poly.pizza/m/dXISS4OsDQv. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/dXISS4OsDQv/model.glb",
+  "sourceMetadataFile": "models/dXISS4OsDQv/source.json",
+  "bytes": 36340,
+  "sha256": "a60335556f026e8b76c6a1cfaa4e9e90bb7d912246dd5687fad07a58ce34546a",
+  "apiTriangleCount": 720,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.888993+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

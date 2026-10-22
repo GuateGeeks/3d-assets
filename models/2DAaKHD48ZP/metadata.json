@@ -1,0 +1,65 @@
+{
+  "id": "2DAaKHD48ZP",
+  "title": "Mushroom",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/2DAaKHD48ZP",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2DAaKHD48ZP",
+  "downloadUrl": "https://static.poly.pizza/7298b2d4-1848-4ed4-8922-eb3b42cf1625.glb",
+  "thumbnailUrl": "https://static.poly.pizza/7298b2d4-1848-4ed4-8922-eb3b42cf1625.webp",
+  "description": " ",
+  "category": "Nature",
+  "tags": [
+    "plant"
+  ],
+  "areas": [
+    "bosques-plantas"
+  ],
+  "queries": [
+    "mushroom"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Mushroom\" by jeremy, https://poly.pizza/m/2DAaKHD48ZP. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2DAaKHD48ZP/model.glb",
+  "sourceMetadataFile": "models/2DAaKHD48ZP/source.json",
+  "bytes": 22052,
+  "sha256": "0c64d9eedd2db5d2134aec0ad3cd088e49662a4706dba9bdb735732351c9a52f",
+  "apiTriangleCount": 350,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.134270+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

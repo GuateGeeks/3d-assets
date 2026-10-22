@@ -1,0 +1,72 @@
+{
+  "id": "dpl7B31PqWX",
+  "title": "Parrot",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/dpl7B31PqWX",
+  "metadataUrl": "https://api.poly.pizza/v1/model/dpl7B31PqWX",
+  "downloadUrl": "https://static.poly.pizza/03d39342-5dca-45e3-a0e0-db405e5be4e9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/03d39342-5dca-45e3-a0e0-db405e5be4e9.webp",
+  "description": "#bird #avian #tropical",
+  "category": "Animals",
+  "tags": [
+    "bird",
+    "avian",
+    "tropical"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "quetzal"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Parrot\" by Poly by Google, https://poly.pizza/m/dpl7B31PqWX. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/dpl7B31PqWX/model.glb",
+  "sourceMetadataFile": "models/dpl7B31PqWX/source.json",
+  "bytes": 71096,
+  "sha256": "58c0f9395b90a669d118fd276cbbb8e173bc5b747c845faf3834e750a3393253",
+  "apiTriangleCount": 1412,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:39.861631+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "requested-object-not-confirmed"
+  ],
+  "classificationNote": "Recurso reclasificado por título original: Parrot; no satisface la búsqueda quetzal.",
+  "unfulfilledQueries": [
+    "quetzal"
+  ]
+}

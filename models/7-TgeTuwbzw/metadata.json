@@ -1,0 +1,68 @@
+{
+  "id": "7-TgeTuwbzw",
+  "title": "Whale",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/7-TgeTuwbzw",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7-TgeTuwbzw",
+  "downloadUrl": "https://static.poly.pizza/be5d0872-e2c3-45d1-bbee-44d6324e661f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/be5d0872-e2c3-45d1-bbee-44d6324e661f.webp",
+  "description": "#mammal #marine #cetacean",
+  "category": "Animals",
+  "tags": [
+    "mammal",
+    "marine",
+    "cetacean"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "whale"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Whale\" by Poly by Google, https://poly.pizza/m/7-TgeTuwbzw. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7-TgeTuwbzw/model.glb",
+  "sourceMetadataFile": "models/7-TgeTuwbzw/source.json",
+  "bytes": 29388,
+  "sha256": "97308da909ea29e7eb3fdbf7fd25345a933ed81c5ff51491d0a3f4be2d089418",
+  "apiTriangleCount": 422,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.507187+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

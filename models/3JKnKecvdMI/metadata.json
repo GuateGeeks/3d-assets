@@ -1,0 +1,68 @@
+{
+  "id": "3JKnKecvdMI",
+  "title": "Wind Turbine",
+  "author": "Colin Hopkins",
+  "authorUrl": "https://poly.pizza/u/Colin%20Hopkins",
+  "sourceUrl": "https://poly.pizza/m/3JKnKecvdMI",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3JKnKecvdMI",
+  "downloadUrl": "https://static.poly.pizza/e2cb636f-0964-41a1-bc67-a64ce770ed2b.glb",
+  "thumbnailUrl": "https://static.poly.pizza/e2cb636f-0964-41a1-bc67-a64ce770ed2b.webp",
+  "description": "Wind energy is completely clean and emission-free. The only challenge is storing the energy generated for windless days.",
+  "category": "Other",
+  "tags": [
+    "wind farm",
+    "windmill",
+    "photovoltaic"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [
+    "wind turbine"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wind Turbine\" by Colin Hopkins, https://poly.pizza/m/3JKnKecvdMI. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3JKnKecvdMI/model.glb",
+  "sourceMetadataFile": "models/3JKnKecvdMI/source.json",
+  "bytes": 36164,
+  "sha256": "73a6398bef229434b9ee8c3f1df8e5bd06839626673dae23525b280105848921",
+  "apiTriangleCount": 376,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 8,
+    "nodes": 8,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.759976+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "24WsfFi7Q8s",
+  "title": "Dog",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/24WsfFi7Q8s",
+  "metadataUrl": "https://api.poly.pizza/v1/model/24WsfFi7Q8s",
+  "downloadUrl": "https://static.poly.pizza/b6c1f68b-9a71-4b7f-8b5f-456d0f3ebf6a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b6c1f68b-9a71-4b7f-8b5f-456d0f3ebf6a.webp",
+  "description": "#canine #mammal #pet #household",
+  "category": "Animals",
+  "tags": [
+    "canine",
+    "mammal",
+    "pet",
+    "household"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "dog"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Dog\" by Poly by Google, https://poly.pizza/m/24WsfFi7Q8s. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/24WsfFi7Q8s/model.glb",
+  "sourceMetadataFile": "models/24WsfFi7Q8s/source.json",
+  "bytes": 25752,
+  "sha256": "f504745ae9406a35ba487a4a5ee5c68884dee0d770d50012fd38b7395daed788",
+  "apiTriangleCount": 378,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.042225+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

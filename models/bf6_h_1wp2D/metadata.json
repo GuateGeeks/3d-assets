@@ -1,0 +1,66 @@
+{
+  "id": "bf6_h_1wp2D",
+  "title": "Acoustic Guitar",
+  "author": "Dave Edwards",
+  "authorUrl": "https://poly.pizza/u/Dave%20Edwards",
+  "sourceUrl": "https://poly.pizza/m/bf6_h_1wp2D",
+  "metadataUrl": "https://api.poly.pizza/v1/model/bf6_h_1wp2D",
+  "downloadUrl": "https://static.poly.pizza/328adb3b-60ea-4bdb-bc41-c9d3dc79fcfb.glb",
+  "thumbnailUrl": "https://static.poly.pizza/328adb3b-60ea-4bdb-bc41-c9d3dc79fcfb.webp",
+  "description": "FormFonts 3D has been making LOW POLY 3D models for professionals for 12 years. Our 3D model library has more than 75,000 professionally made 3D models - all available by subscription for $199/year single user license. \nGo to www.formfonts.com",
+  "category": "Objects",
+  "tags": [
+    "guitar",
+    "Music"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "guitar"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Acoustic Guitar\" by Dave Edwards, https://poly.pizza/m/bf6_h_1wp2D. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/bf6_h_1wp2D/model.glb",
+  "sourceMetadataFile": "models/bf6_h_1wp2D/source.json",
+  "bytes": 689996,
+  "sha256": "4cac75dce93cf75266f132f0aac52c1a5514f18857545fea3914fa2eb2d53c0a",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 59,
+    "nodes": 59,
+    "materials": 6,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.530700+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

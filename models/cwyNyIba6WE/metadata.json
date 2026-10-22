@@ -1,0 +1,68 @@
+{
+  "id": "cwyNyIba6WE",
+  "title": "Tree frog",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/cwyNyIba6WE",
+  "metadataUrl": "https://api.poly.pizza/v1/model/cwyNyIba6WE",
+  "downloadUrl": "https://static.poly.pizza/e230bddb-8124-48e6-83fb-0f21adaff8a3.glb",
+  "thumbnailUrl": "https://static.poly.pizza/e230bddb-8124-48e6-83fb-0f21adaff8a3.webp",
+  "description": "#tree #frog #toad #amphibian",
+  "category": "Animals",
+  "tags": [
+    "tree",
+    "frog",
+    "toad",
+    "amphibian"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "frog"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Tree frog\" by Poly by Google, https://poly.pizza/m/cwyNyIba6WE. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/cwyNyIba6WE/model.glb",
+  "sourceMetadataFile": "models/cwyNyIba6WE/source.json",
+  "bytes": 56624,
+  "sha256": "9b392d953aa51348becf3649dfa610c78f5e19e68c539315ed0fade3e6d7a999",
+  "apiTriangleCount": 756,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.361099+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

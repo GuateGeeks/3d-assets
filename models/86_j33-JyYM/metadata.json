@@ -1,0 +1,69 @@
+{
+  "id": "86_j33-JyYM",
+  "title": "Toothbrush",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/86_j33-JyYM",
+  "metadataUrl": "https://api.poly.pizza/v1/model/86_j33-JyYM",
+  "downloadUrl": "https://static.poly.pizza/bb0ff025-dc9a-4d9f-8bcc-bfe3e396cf7b.glb",
+  "thumbnailUrl": "https://static.poly.pizza/bb0ff025-dc9a-4d9f-8bcc-bfe3e396cf7b.webp",
+  "description": "#teeth #dental",
+  "category": "Objects",
+  "tags": [
+    "teeth",
+    "dental"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [
+    "tooth"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Toothbrush\" by Poly by Google, https://poly.pizza/m/86_j33-JyYM. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/86_j33-JyYM/model.glb",
+  "sourceMetadataFile": "models/86_j33-JyYM/source.json",
+  "bytes": 20928,
+  "sha256": "295b90588323fb1cacf8c380a14ac0416365f157d23e1879aadb248cd3ca4dad",
+  "apiTriangleCount": 676,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.900840+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "anatomy-accuracy-review"
+  ],
+  "unfulfilledQueries": []
+}

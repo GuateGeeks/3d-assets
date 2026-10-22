@@ -1,0 +1,69 @@
+{
+  "id": "j4KsIuJYnq",
+  "title": "Small Bridge",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/j4KsIuJYnq",
+  "metadataUrl": "https://api.poly.pizza/v1/model/j4KsIuJYnq",
+  "downloadUrl": "https://static.poly.pizza/e36966b4-e13e-46e8-aa2c-f9b643536d46.glb",
+  "thumbnailUrl": "https://static.poly.pizza/e36966b4-e13e-46e8-aa2c-f9b643536d46.webp",
+  "description": null,
+  "category": "Transport",
+  "tags": [
+    "Wood",
+    "Airplane",
+    "Transportation",
+    "Vehicle"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [
+    "bridge"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Small Bridge\" by Quaternius, https://poly.pizza/m/j4KsIuJYnq. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/j4KsIuJYnq/model.glb",
+  "sourceMetadataFile": "models/j4KsIuJYnq/source.json",
+  "bytes": 72792,
+  "sha256": "055ec4fa6c401f655641894ee4b0bd360c28b7907bc00183ef3b1eabd6fc0890",
+  "apiTriangleCount": 2880,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.347654+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

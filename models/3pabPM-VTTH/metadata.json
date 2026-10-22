@@ -1,0 +1,70 @@
+{
+  "id": "3pabPM-VTTH",
+  "title": "Pyramid",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/3pabPM-VTTH",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3pabPM-VTTH",
+  "downloadUrl": "https://static.poly.pizza/0b9661f9-58df-4389-9fca-5df9b5453c1d.glb",
+  "thumbnailUrl": "https://static.poly.pizza/0b9661f9-58df-4389-9fca-5df9b5453c1d.webp",
+  "description": "#Egypt #monument #burial\n",
+  "category": "Buildings",
+  "tags": [
+    "Egypt",
+    "monument",
+    "burial\n"
+  ],
+  "areas": [
+    "historia-patrimonio"
+  ],
+  "queries": [
+    "pyramid"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pyramid\" by Poly by Google, https://poly.pizza/m/3pabPM-VTTH. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3pabPM-VTTH/model.glb",
+  "sourceMetadataFile": "models/3pabPM-VTTH/source.json",
+  "bytes": 5028,
+  "sha256": "35f1e9b386fadd1f1128b692b3cc48e4022fbec7f0f8678acad2ca99f239d4b0",
+  "apiTriangleCount": 16,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.094824+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "cultural-or-species-identification-review"
+  ],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "akzBrALzbei",
+  "title": "Fire Station with Fire Trucks",
+  "author": "Ivan Klus",
+  "authorUrl": "https://poly.pizza/u/Ivan%20Klus",
+  "sourceUrl": "https://poly.pizza/m/akzBrALzbei",
+  "metadataUrl": "https://api.poly.pizza/v1/model/akzBrALzbei",
+  "downloadUrl": "https://static.poly.pizza/b727cda7-022c-477f-bb5b-e1c1511cd2b7.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b727cda7-022c-477f-bb5b-e1c1511cd2b7.webp",
+  "description": null,
+  "category": "Buildings",
+  "tags": [
+    "fire engine",
+    "fire truck",
+    "fire station"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [
+    "fire truck"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Fire Station with Fire Trucks\" by Ivan Klus, https://poly.pizza/m/akzBrALzbei. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/akzBrALzbei/model.glb",
+  "sourceMetadataFile": "models/akzBrALzbei/source.json",
+  "bytes": 771436,
+  "sha256": "ab0620ded4570fe00ffd541bbc166ee62fca495eaee69d36316faaea89574012",
+  "apiTriangleCount": 8268,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 185,
+    "nodes": 185,
+    "materials": 15,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.159816+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

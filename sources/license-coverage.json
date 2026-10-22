@@ -1,0 +1,13 @@
+{
+  "policy": "Sin filtro de licencia. Todas las licencias encontradas se conservan; no se inventan licencias no devueltas por la API.",
+  "searchResponses": 134,
+  "candidateOccurrencesByLicense": {
+    "CC-BY 3.0": 1113,
+    "CC0 1.0": 362
+  },
+  "uniqueCandidates": 1277,
+  "uniqueCandidatesByLicense": {
+    "CC-BY 3.0": 957,
+    "CC0 1.0": 320
+  }
+}

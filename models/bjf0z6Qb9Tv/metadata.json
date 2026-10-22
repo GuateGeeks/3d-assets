@@ -1,0 +1,68 @@
+{
+  "id": "bjf0z6Qb9Tv",
+  "title": "skull003",
+  "author": "Jake K-H",
+  "authorUrl": "https://poly.pizza/u/Jake%20K-H",
+  "sourceUrl": "https://poly.pizza/m/bjf0z6Qb9Tv",
+  "metadataUrl": "https://api.poly.pizza/v1/model/bjf0z6Qb9Tv",
+  "downloadUrl": "https://static.poly.pizza/c7441a0a-4f5b-4cc4-9a7d-ac678fac3858.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c7441a0a-4f5b-4cc4-9a7d-ac678fac3858.webp",
+  "description": "skull003",
+  "category": "Other",
+  "tags": [
+    "skull but three idk"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [
+    "human skull"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"skull003\" by Jake K-H, https://poly.pizza/m/bjf0z6Qb9Tv. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/bjf0z6Qb9Tv/model.glb",
+  "sourceMetadataFile": "models/bjf0z6Qb9Tv/source.json",
+  "bytes": 206664,
+  "sha256": "36779c1e4371baea5fd2ac77f6407f006874c6e4da22bc946320a8a9fb200339",
+  "apiTriangleCount": 11408,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:28.364830+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "anatomy-accuracy-review"
+  ],
+  "unfulfilledQueries": []
+}

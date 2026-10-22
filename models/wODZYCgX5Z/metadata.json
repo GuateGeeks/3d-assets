@@ -1,0 +1,75 @@
+{
+  "id": "wODZYCgX5Z",
+  "title": "Skeleton",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/wODZYCgX5Z",
+  "metadataUrl": "https://api.poly.pizza/v1/model/wODZYCgX5Z",
+  "downloadUrl": "https://static.poly.pizza/b1ea7fcc-7d7f-4e93-aac5-507358399a7b.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b1ea7fcc-7d7f-4e93-aac5-507358399a7b.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Alien",
+    "Skeleton"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [
+    "skeleton"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Skeleton\" by Quaternius, https://poly.pizza/m/wODZYCgX5Z. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/wODZYCgX5Z/model.glb",
+  "sourceMetadataFile": "models/wODZYCgX5Z/source.json",
+  "bytes": 178460,
+  "sha256": "ccdc14bb5ebe996fff407081af7f13466e874c14498a6281a775382c5e55cc59",
+  "apiTriangleCount": 1810,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 20,
+    "materials": 1,
+    "skins": 1,
+    "joints": 12,
+    "rigged": true,
+    "animated": true,
+    "animations": 5,
+    "animationNames": [
+      "SkeletonArmature|Skeleton_Attack",
+      "SkeletonArmature|Skeleton_Death",
+      "SkeletonArmature|Skeleton_Idle",
+      "SkeletonArmature|Skeleton_Running",
+      "SkeletonArmature|Skeleton_Spawn"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.500867+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "anatomy-accuracy-review"
+  ],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "u78ByZHYB2",
+  "title": "Valley Terrain",
+  "author": "Zsky",
+  "authorUrl": "https://poly.pizza/u/Zsky",
+  "sourceUrl": "https://poly.pizza/m/u78ByZHYB2",
+  "metadataUrl": "https://api.poly.pizza/v1/model/u78ByZHYB2",
+  "downloadUrl": "https://static.poly.pizza/1a9214f5-6917-48bf-865e-452f86acdc9f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/1a9214f5-6917-48bf-865e-452f86acdc9f.webp",
+  "description": " ",
+  "category": "Scenes & Levels",
+  "tags": [
+    "Mountains"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "terrain"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Valley Terrain\" by Zsky, https://poly.pizza/m/u78ByZHYB2. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/u78ByZHYB2/model.glb",
+  "sourceMetadataFile": "models/u78ByZHYB2/source.json",
+  "bytes": 230704,
+  "sha256": "ada5120e1197d772743dc2f1937de96836038922b094b5f85533e490753b0fd5",
+  "apiTriangleCount": 2675,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.751143+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

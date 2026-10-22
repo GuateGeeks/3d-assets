@@ -1,0 +1,68 @@
+{
+  "id": "fxKdRjNq20j",
+  "title": "Circuit board 1",
+  "author": "Bill Baran (Sirkut)",
+  "authorUrl": "https://poly.pizza/u/Bill%20Baran%20%28Sirkut%29",
+  "sourceUrl": "https://poly.pizza/m/fxKdRjNq20j",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fxKdRjNq20j",
+  "downloadUrl": "https://static.poly.pizza/dd7ae7db-b993-4d94-b0e4-4385ae43776a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/dd7ae7db-b993-4d94-b0e4-4385ae43776a.webp",
+  "description": null,
+  "category": "Other",
+  "tags": [
+    "card",
+    "component",
+    "motherboard"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [
+    "circuit"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Circuit board 1\" by Bill Baran (Sirkut), https://poly.pizza/m/fxKdRjNq20j. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fxKdRjNq20j/model.glb",
+  "sourceMetadataFile": "models/fxKdRjNq20j/source.json",
+  "bytes": 441460,
+  "sha256": "f3acbd67f82366d818db9d2f68ba6c7c7a88b009d13451caf11583f7db9660eb",
+  "apiTriangleCount": 6052,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 17,
+    "nodes": 17,
+    "materials": 13,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.171816+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

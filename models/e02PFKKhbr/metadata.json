@@ -1,0 +1,67 @@
+{
+  "id": "e02PFKKhbr",
+  "title": "Fence",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/e02PFKKhbr",
+  "metadataUrl": "https://api.poly.pizza/v1/model/e02PFKKhbr",
+  "downloadUrl": "https://static.poly.pizza/ee42b0f4-fbcd-425f-804e-02d791bc35f6.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ee42b0f4-fbcd-425f-804e-02d791bc35f6.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "fence"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "fence"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Fence\" by Quaternius, https://poly.pizza/m/e02PFKKhbr. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/e02PFKKhbr/model.glb",
+  "sourceMetadataFile": "models/e02PFKKhbr/source.json",
+  "bytes": 10616,
+  "sha256": "0c35f9fb6b9ff69501463834e3f6cf7d565979aa4caae19445344d87400c70c8",
+  "apiTriangleCount": 188,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.886814+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "JQ6JqMl1gw",
+  "title": "Ruler",
+  "author": "J-Toastie",
+  "authorUrl": "https://poly.pizza/u/J-Toastie",
+  "sourceUrl": "https://poly.pizza/m/JQ6JqMl1gw",
+  "metadataUrl": "https://api.poly.pizza/v1/model/JQ6JqMl1gw",
+  "downloadUrl": "https://static.poly.pizza/7f61115d-3a8f-445a-9cbf-149ff7240750.glb",
+  "thumbnailUrl": "https://static.poly.pizza/7f61115d-3a8f-445a-9cbf-149ff7240750.webp",
+  "description": "Measuring is cool I guess... Or you can use it as a weapon. Ah yes, the latter sounds better. ",
+  "category": "Objects",
+  "tags": [
+    "Ruler",
+    "Tool",
+    "Measure"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "ruler"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Ruler\" by J-Toastie, https://poly.pizza/m/JQ6JqMl1gw. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/JQ6JqMl1gw/model.glb",
+  "sourceMetadataFile": "models/JQ6JqMl1gw/source.json",
+  "bytes": 14424,
+  "sha256": "bf1c7c8f2e7d40c19d92f19ef950dace7cde28edbe47c934aeb22224213bc3cf",
+  "apiTriangleCount": 32,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.261791+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

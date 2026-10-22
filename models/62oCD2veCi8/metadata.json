@@ -1,0 +1,70 @@
+{
+  "id": "62oCD2veCi8",
+  "title": "Pyramid",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/62oCD2veCi8",
+  "metadataUrl": "https://api.poly.pizza/v1/model/62oCD2veCi8",
+  "downloadUrl": "https://static.poly.pizza/c325c0f2-9c30-427a-acfe-c11d466a3c5d.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c325c0f2-9c30-427a-acfe-c11d466a3c5d.webp",
+  "description": "#Egypt #burial #pharoah",
+  "category": "Buildings",
+  "tags": [
+    "Egypt",
+    "burial",
+    "pharoah"
+  ],
+  "areas": [
+    "historia-patrimonio"
+  ],
+  "queries": [
+    "pyramid"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pyramid\" by Poly by Google, https://poly.pizza/m/62oCD2veCi8. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/62oCD2veCi8/model.glb",
+  "sourceMetadataFile": "models/62oCD2veCi8/source.json",
+  "bytes": 3784296,
+  "sha256": "ce134750d2aaa40ffdd2f23adee0fda929aba5c1b3aa1eefa448226c31a40b64",
+  "apiTriangleCount": 68,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.154796+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "cultural-or-species-identification-review"
+  ],
+  "unfulfilledQueries": []
+}

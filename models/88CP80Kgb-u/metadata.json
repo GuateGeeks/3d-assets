@@ -1,0 +1,69 @@
+{
+  "id": "88CP80Kgb-u",
+  "title": "Earth",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/88CP80Kgb-u",
+  "metadataUrl": "https://api.poly.pizza/v1/model/88CP80Kgb-u",
+  "downloadUrl": "https://static.poly.pizza/dd881bef-7c0d-4f41-8f81-23862135cafb.glb",
+  "thumbnailUrl": "https://static.poly.pizza/dd881bef-7c0d-4f41-8f81-23862135cafb.webp",
+  "description": "#planet #world #solarsystem #space\n",
+  "category": "Nature",
+  "tags": [
+    "planet",
+    "world",
+    "solarsystem",
+    "space\n"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "earth"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Earth\" by Poly by Google, https://poly.pizza/m/88CP80Kgb-u. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/88CP80Kgb-u/model.glb",
+  "sourceMetadataFile": "models/88CP80Kgb-u/source.json",
+  "bytes": 94712,
+  "sha256": "d4c48fd1b7a9afab2c399dc9f790618edf3e8e79a9426fdc5242603bb5a58b7c",
+  "apiTriangleCount": 974,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.594093+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

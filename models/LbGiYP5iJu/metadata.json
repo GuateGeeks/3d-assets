@@ -1,0 +1,69 @@
+{
+  "id": "LbGiYP5iJu",
+  "title": "Solar Panel Ground",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/LbGiYP5iJu",
+  "metadataUrl": "https://api.poly.pizza/v1/model/LbGiYP5iJu",
+  "downloadUrl": "https://static.poly.pizza/2ef8645e-3f27-48f8-ac76-c4989a63a647.glb",
+  "thumbnailUrl": "https://static.poly.pizza/2ef8645e-3f27-48f8-ac76-c4989a63a647.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Solar",
+    "Panel",
+    "Energy"
+  ],
+  "areas": [
+    "ambiente-sostenibilidad"
+  ],
+  "queries": [
+    "solar"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Solar Panel Ground\" by Quaternius, https://poly.pizza/m/LbGiYP5iJu. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/LbGiYP5iJu/model.glb",
+  "sourceMetadataFile": "models/LbGiYP5iJu/source.json",
+  "bytes": 23556,
+  "sha256": "d7e74c6afd6bad54bd503971015d04713633afcf2bc536fd6533e639cbed2657",
+  "apiTriangleCount": 372,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.403410+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

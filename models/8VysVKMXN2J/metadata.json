@@ -1,0 +1,67 @@
+{
+  "id": "8VysVKMXN2J",
+  "title": "Airplane",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/8VysVKMXN2J",
+  "metadataUrl": "https://api.poly.pizza/v1/model/8VysVKMXN2J",
+  "downloadUrl": "https://static.poly.pizza/13293400-c90f-4cc0-966a-7e07d38f7565.glb",
+  "thumbnailUrl": "https://static.poly.pizza/13293400-c90f-4cc0-966a-7e07d38f7565.webp",
+  "description": "#plane",
+  "category": "Transport",
+  "tags": [
+    "plane"
+  ],
+  "areas": [
+    "transporte-movilidad"
+  ],
+  "queries": [
+    "airplane"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Airplane\" by Poly by Google, https://poly.pizza/m/8VysVKMXN2J. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/8VysVKMXN2J/model.glb",
+  "sourceMetadataFile": "models/8VysVKMXN2J/source.json",
+  "bytes": 377648,
+  "sha256": "2f9a5382e70bdbef5d54024c6846a3a53389b889d73121159fb335352d311388",
+  "apiTriangleCount": 1770,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.025906+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

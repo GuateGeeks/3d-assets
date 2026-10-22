@@ -1,0 +1,68 @@
+{
+  "id": "XSwahu252t",
+  "title": "Trashcan",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/XSwahu252t",
+  "metadataUrl": "https://api.poly.pizza/v1/model/XSwahu252t",
+  "downloadUrl": "https://static.poly.pizza/aa75d363-49ae-4066-be9b-a875f9da4cb9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/aa75d363-49ae-4066-be9b-a875f9da4cb9.webp",
+  "description": " ",
+  "category": "Food & Drink",
+  "tags": [
+    "bin",
+    "Garbage"
+  ],
+  "areas": [
+    "ambiente-sostenibilidad"
+  ],
+  "queries": [
+    "trash bin"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Trashcan\" by Quaternius, https://poly.pizza/m/XSwahu252t. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/XSwahu252t/model.glb",
+  "sourceMetadataFile": "models/XSwahu252t/source.json",
+  "bytes": 24452,
+  "sha256": "13ab0e6971b8880edc24e79884265133990f1476124d7ca71ca88a0e1ec62bca",
+  "apiTriangleCount": 739,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.336609+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

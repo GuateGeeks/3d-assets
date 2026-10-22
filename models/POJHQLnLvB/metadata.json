@@ -1,0 +1,66 @@
+{
+  "id": "POJHQLnLvB",
+  "title": "Wrench",
+  "author": "CreativeTrio",
+  "authorUrl": "https://poly.pizza/u/CreativeTrio",
+  "sourceUrl": "https://poly.pizza/m/POJHQLnLvB",
+  "metadataUrl": "https://api.poly.pizza/v1/model/POJHQLnLvB",
+  "downloadUrl": "https://static.poly.pizza/cfa77cff-e66e-40d4-8ad9-aecafe283475.glb",
+  "thumbnailUrl": "https://static.poly.pizza/cfa77cff-e66e-40d4-8ad9-aecafe283475.webp",
+  "description": " ",
+  "category": "Transport",
+  "tags": [
+    "Tool"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [
+    "wrench"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wrench\" by CreativeTrio, https://poly.pizza/m/POJHQLnLvB. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/POJHQLnLvB/model.glb",
+  "sourceMetadataFile": "models/POJHQLnLvB/source.json",
+  "bytes": 37860,
+  "sha256": "82b9f58ef167a1d9d042996a47156e6697a3f766d5957e1c66865f89204c7d3f",
+  "apiTriangleCount": 469,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.803645+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

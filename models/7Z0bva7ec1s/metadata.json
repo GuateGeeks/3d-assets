@@ -1,0 +1,69 @@
+{
+  "id": "7Z0bva7ec1s",
+  "title": "Adjustable Desk",
+  "author": "jeff cobesign",
+  "authorUrl": "https://poly.pizza/u/jeff%20cobesign",
+  "sourceUrl": "https://poly.pizza/m/7Z0bva7ec1s",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7Z0bva7ec1s",
+  "downloadUrl": "https://static.poly.pizza/be656f2b-22ce-4c84-af9b-5f0356a62b1f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/be656f2b-22ce-4c84-af9b-5f0356a62b1f.webp",
+  "description": "One of my very first 3D scenes made in Blender, and I repeat upload it for several times to make it look right. But if you have troubles with this obj.zip, please let me know",
+  "category": "Objects",
+  "tags": [
+    "desktop",
+    "table",
+    "office"
+  ],
+  "areas": [
+    "escuela-lenguaje"
+  ],
+  "queries": [
+    "desk"
+  ],
+  "subjects": [
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Adjustable Desk\" by jeff cobesign, https://poly.pizza/m/7Z0bva7ec1s. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7Z0bva7ec1s/model.glb",
+  "sourceMetadataFile": "models/7Z0bva7ec1s/source.json",
+  "bytes": 296300,
+  "sha256": "0e74f80a6b71e3d240b66c87db017e6b24f2ca8dd1649fa8203ee78ed775ae49",
+  "apiTriangleCount": 6100,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 23,
+    "nodes": 23,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.734117+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

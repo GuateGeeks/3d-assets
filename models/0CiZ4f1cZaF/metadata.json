@@ -1,0 +1,69 @@
+{
+  "id": "0CiZ4f1cZaF",
+  "title": "Wall painting",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/0CiZ4f1cZaF",
+  "metadataUrl": "https://api.poly.pizza/v1/model/0CiZ4f1cZaF",
+  "downloadUrl": "https://static.poly.pizza/8b546a02-3167-4183-a4d8-6b6db5c65574.glb",
+  "thumbnailUrl": "https://static.poly.pizza/8b546a02-3167-4183-a4d8-6b6db5c65574.webp",
+  "description": "#art #decoration #decor",
+  "category": "Clutter",
+  "tags": [
+    "mural",
+    "fresco",
+    "ground",
+    "tablature",
+    "plaque"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "paint"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wall painting\" by jeremy, https://poly.pizza/m/0CiZ4f1cZaF. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/0CiZ4f1cZaF/model.glb",
+  "sourceMetadataFile": "models/0CiZ4f1cZaF/source.json",
+  "bytes": 10976,
+  "sha256": "d2af64a0340d6c193c331057cff57fe0967f935b85a9d58488fbd05ecf46765c",
+  "apiTriangleCount": 106,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 6,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.027411+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "7dHLjQ8eZhu",
+  "title": "Magnet",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/7dHLjQ8eZhu",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7dHLjQ8eZhu",
+  "downloadUrl": "https://static.poly.pizza/6159b428-0f8e-4211-b45f-7b128e493bda.glb",
+  "thumbnailUrl": "https://static.poly.pizza/6159b428-0f8e-4211-b45f-7b128e493bda.webp",
+  "description": "#magneticfield #positive #negative #electriccurrent",
+  "category": "Objects",
+  "tags": [
+    "magneticfield",
+    "positive",
+    "negative",
+    "electriccurrent"
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [
+    "magnet"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Magnet\" by Poly by Google, https://poly.pizza/m/7dHLjQ8eZhu. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7dHLjQ8eZhu/model.glb",
+  "sourceMetadataFile": "models/7dHLjQ8eZhu/source.json",
+  "bytes": 9608,
+  "sha256": "46fea9b9d4ac894129c22da0706e4524e8511872413018d1803d766a545179c5",
+  "apiTriangleCount": 132,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.426063+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

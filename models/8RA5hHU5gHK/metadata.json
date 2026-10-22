@@ -1,0 +1,70 @@
+{
+  "id": "8RA5hHU5gHK",
+  "title": "Heart",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/8RA5hHU5gHK",
+  "metadataUrl": "https://api.poly.pizza/v1/model/8RA5hHU5gHK",
+  "downloadUrl": "https://static.poly.pizza/41fe734e-c012-46bd-a95c-dbef729befec.glb",
+  "thumbnailUrl": "https://static.poly.pizza/41fe734e-c012-46bd-a95c-dbef729befec.webp",
+  "description": " ",
+  "category": "Objects",
+  "tags": [
+    "icon",
+    "heart"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [
+    "heart",
+    "human heart"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Heart\" by Poly by Google, https://poly.pizza/m/8RA5hHU5gHK. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/8RA5hHU5gHK/model.glb",
+  "sourceMetadataFile": "models/8RA5hHU5gHK/source.json",
+  "bytes": 6248,
+  "sha256": "e4962fcf7cecb80553edfadaac60047576c84e1750e259093ef4431c9ae4a6a9",
+  "apiTriangleCount": 208,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.575624+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "anatomy-accuracy-review"
+  ],
+  "unfulfilledQueries": []
+}

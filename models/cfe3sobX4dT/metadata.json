@@ -1,0 +1,68 @@
+{
+  "id": "cfe3sobX4dT",
+  "title": "Wheelbarrow",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/cfe3sobX4dT",
+  "metadataUrl": "https://api.poly.pizza/v1/model/cfe3sobX4dT",
+  "downloadUrl": "https://static.poly.pizza/b74bf8eb-866d-49c5-903b-d343baf51ffe.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b74bf8eb-866d-49c5-903b-d343baf51ffe.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "barrow",
+    "garden cart",
+    "lawn cart"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [
+    "wheelbarrow"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wheelbarrow\" by Poly by Google, https://poly.pizza/m/cfe3sobX4dT. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/cfe3sobX4dT/model.glb",
+  "sourceMetadataFile": "models/cfe3sobX4dT/source.json",
+  "bytes": 39760,
+  "sha256": "481b5cacf0b13329b77f3c07d4dde8001489832c7e79c654092c4fb3ed1459eb",
+  "apiTriangleCount": 930,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.049413+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

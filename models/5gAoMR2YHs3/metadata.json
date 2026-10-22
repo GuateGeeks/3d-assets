@@ -1,0 +1,69 @@
+{
+  "id": "5gAoMR2YHs3",
+  "title": "Analog clock",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/5gAoMR2YHs3",
+  "metadataUrl": "https://api.poly.pizza/v1/model/5gAoMR2YHs3",
+  "downloadUrl": "https://static.poly.pizza/83ac02a5-b467-464a-b874-17317b9e5dac.glb",
+  "thumbnailUrl": "https://static.poly.pizza/83ac02a5-b467-464a-b874-17317b9e5dac.webp",
+  "description": "#timepiece #measure #hands #hours #minutes",
+  "category": "Objects",
+  "tags": [
+    "timepiece",
+    "measure",
+    "hands",
+    "hours",
+    "minutes"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "clock"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Analog clock\" by Poly by Google, https://poly.pizza/m/5gAoMR2YHs3. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/5gAoMR2YHs3/model.glb",
+  "sourceMetadataFile": "models/5gAoMR2YHs3/source.json",
+  "bytes": 13656,
+  "sha256": "0eb1148843fc9fb9a564dccaf1f892026ce01d24c4256701e8943f0539394822",
+  "apiTriangleCount": 588,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.297569+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

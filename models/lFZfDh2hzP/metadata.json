@@ -1,0 +1,78 @@
+{
+  "id": "lFZfDh2hzP",
+  "title": "Robot Enemy Legs Gun",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/lFZfDh2hzP",
+  "metadataUrl": "https://api.poly.pizza/v1/model/lFZfDh2hzP",
+  "downloadUrl": "https://static.poly.pizza/c320ce4a-25be-4704-bda9-b67e1aa97a70.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c320ce4a-25be-4704-bda9-b67e1aa97a70.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Robot"
+  ],
+  "areas": [
+    "personajes-animacion"
+  ],
+  "queries": [
+    "animated robot"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Robot Enemy Legs Gun\" by Quaternius, https://poly.pizza/m/lFZfDh2hzP. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/lFZfDh2hzP/model.glb",
+  "sourceMetadataFile": "models/lFZfDh2hzP/source.json",
+  "bytes": 324096,
+  "sha256": "fda86deed47bef0877f0e890de60c41101ca2f06937834b25110392b8b2afd7c",
+  "apiTriangleCount": 4702,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 28,
+    "materials": 7,
+    "skins": 2,
+    "joints": 30,
+    "rigged": true,
+    "animated": true,
+    "animations": 7,
+    "animationNames": [
+      "CharacterArmature|Attack",
+      "CharacterArmature|Death",
+      "CharacterArmature|Idle",
+      "CharacterArmature|Jump",
+      "CharacterArmature|Run",
+      "CharacterArmature|Shoot",
+      "CharacterArmature|Walk"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:21.749019+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "fantasy-or-combat-classroom-review"
+  ],
+  "unfulfilledQueries": []
+}

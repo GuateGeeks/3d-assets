@@ -1,0 +1,71 @@
+{
+  "id": "1yCRUwFnwX",
+  "title": "Heart",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/1yCRUwFnwX",
+  "metadataUrl": "https://api.poly.pizza/v1/model/1yCRUwFnwX",
+  "downloadUrl": "https://static.poly.pizza/a53d4e74-46dd-43d3-9815-82cef1fa8ccc.glb",
+  "thumbnailUrl": "https://static.poly.pizza/a53d4e74-46dd-43d3-9815-82cef1fa8ccc.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Heart",
+    "Icon",
+    "Life",
+    "Power up"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [
+    "heart"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Heart\" by Quaternius, https://poly.pizza/m/1yCRUwFnwX. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/1yCRUwFnwX/model.glb",
+  "sourceMetadataFile": "models/1yCRUwFnwX/source.json",
+  "bytes": 13984,
+  "sha256": "a4acac986a8d557aa1bd9ffad4291ec26c7e49f6faaa716943c22394f42f5793",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.610897+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "anatomy-accuracy-review"
+  ],
+  "unfulfilledQueries": []
+}

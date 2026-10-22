@@ -1,0 +1,68 @@
+{
+  "id": "9bdkTVw8GE8",
+  "title": "The Entryway - Museum Diorama",
+  "author": "Joshua Johanson",
+  "authorUrl": "https://poly.pizza/u/Joshua%20Johanson",
+  "sourceUrl": "https://poly.pizza/m/9bdkTVw8GE8",
+  "metadataUrl": "https://api.poly.pizza/v1/model/9bdkTVw8GE8",
+  "downloadUrl": "https://static.poly.pizza/259a59a0-267c-4a57-bd59-faae6dafd1cb.glb",
+  "thumbnailUrl": "https://static.poly.pizza/259a59a0-267c-4a57-bd59-faae6dafd1cb.webp",
+  "description": "Diorama",
+  "category": "Scenes & Levels",
+  "tags": [
+    "building"
+  ],
+  "areas": [
+    "historia-patrimonio"
+  ],
+  "queries": [
+    "museum"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"The Entryway - Museum Diorama\" by Joshua Johanson, https://poly.pizza/m/9bdkTVw8GE8. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/9bdkTVw8GE8/model.glb",
+  "sourceMetadataFile": "models/9bdkTVw8GE8/source.json",
+  "bytes": 2342812,
+  "sha256": "950b57f8b0d24b253158ba117194e4c4d1306ae1e0a76667117e6a7ae3db0142",
+  "apiTriangleCount": 8545,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 528,
+    "nodes": 528,
+    "materials": 18,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.450414+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "cultural-or-species-identification-review"
+  ],
+  "unfulfilledQueries": []
+}

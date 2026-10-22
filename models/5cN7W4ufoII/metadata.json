@@ -1,0 +1,67 @@
+{
+  "id": "5cN7W4ufoII",
+  "title": "Gaming Computer",
+  "author": "Alex Safayan",
+  "authorUrl": "https://poly.pizza/u/Alex%20Safayan",
+  "sourceUrl": "https://poly.pizza/m/5cN7W4ufoII",
+  "metadataUrl": "https://api.poly.pizza/v1/model/5cN7W4ufoII",
+  "downloadUrl": "https://static.poly.pizza/c106ad08-24b4-4d2e-88ee-632d9635faeb.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c106ad08-24b4-4d2e-88ee-632d9635faeb.webp",
+  "description": "I modeled my own VR computer #MadeWithBlocks\n\n#computer #lowpoly #desktop #gaming #vr",
+  "category": "Other",
+  "tags": [
+    "lag",
+    "ante",
+    "arcade"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [
+    "computer"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Gaming Computer\" by Alex Safayan, https://poly.pizza/m/5cN7W4ufoII. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/5cN7W4ufoII/model.glb",
+  "sourceMetadataFile": "models/5cN7W4ufoII/source.json",
+  "bytes": 348716,
+  "sha256": "2f4c4fef1d36175b64457e725931c31528bfa4bf2b953a038ab235938e5e9aaf",
+  "apiTriangleCount": 2264,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 145,
+    "nodes": 145,
+    "materials": 16,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:33.769412+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "dYKICaHpK0c",
+  "title": "Cat",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/dYKICaHpK0c",
+  "metadataUrl": "https://api.poly.pizza/v1/model/dYKICaHpK0c",
+  "downloadUrl": "https://static.poly.pizza/9d6c2acd-b906-4293-87e2-e4707ea35b7f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/9d6c2acd-b906-4293-87e2-e4707ea35b7f.webp",
+  "description": "#feline #pet #kitty ",
+  "category": "Animals",
+  "tags": [
+    "feline",
+    "pet",
+    "kitty",
+    ""
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "cat"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Cat\" by Poly by Google, https://poly.pizza/m/dYKICaHpK0c. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/dYKICaHpK0c/model.glb",
+  "sourceMetadataFile": "models/dYKICaHpK0c/source.json",
+  "bytes": 54432,
+  "sha256": "4d2e72c56a8b477745e025a90d90760cf50d7a4dd005e4aafac632d9274a103b",
+  "apiTriangleCount": 516,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.171346+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

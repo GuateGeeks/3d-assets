@@ -1,0 +1,4715 @@
+{
+  "scope": "Primera página de hasta 12 candidatos por consulta; coincidencia nominal no acredita exactitud educativa, científica ni cultural.",
+  "queries": [
+    {
+      "area": "personajes-animacion",
+      "query": "animated character",
+      "totalApiResults": 100,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Character Animated",
+        "Animated Character Base",
+        "Animated Platformer Character",
+        "Animated Base Character"
+      ],
+      "downloaded": [
+        {
+          "id": "AZzoJo1FBm",
+          "title": "Animated Character Base",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "DgOCW9ZCRJ",
+          "title": "Character Animated",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "kKtL4zvS3n",
+          "title": "Animated Platformer Character",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "personajes-animacion",
+      "query": "animated robot",
+      "totalApiResults": 156,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Animated Robot"
+      ],
+      "downloaded": [
+        {
+          "id": "1kbGZOnhOwf",
+          "title": "Giant Robot",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "lFZfDh2hzP",
+          "title": "Robot Enemy Legs Gun",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "QCm7qe9uNJ",
+          "title": "Animated Robot",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "personajes-animacion",
+      "query": "animated animal",
+      "totalApiResults": 291,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "P1gU3Qkr9r",
+          "title": "Wolf",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "personajes-animacion",
+      "query": "person",
+      "totalApiResults": 47,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "HMnuH5geEG",
+          "title": "Man",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "personajes-animacion",
+      "query": "teacher",
+      "totalApiResults": 10,
+      "inspectedResults": 10,
+      "literalTitleMatches": [
+        "Teacher"
+      ],
+      "downloaded": [
+        {
+          "id": "5v5j_lqOHTO",
+          "title": "Teacher",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "animales-biodiversidad",
+      "query": "dog",
+      "totalApiResults": 98,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Dog in plane",
+        "Dog",
+        "Dog",
+        "Dog",
+        "Dog"
+      ],
+      "downloaded": [
+        {
+          "id": "24WsfFi7Q8s",
+          "title": "Dog",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "6Y6MQye_n1h",
+          "title": "Dog in plane",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "eDmSVe4TKwF",
+          "title": "Dog",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "animales-biodiversidad",
+      "query": "cat",
+      "totalApiResults": 106,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Cat",
+        "Dingus the cat",
+        "Cat",
+        "Tubbs the cat",
+        "Cat",
+        "cat loaf",
+        "Cat",
+        "Cat",
+        "Cat"
+      ],
+      "downloaded": [
+        {
+          "id": "4dXgbKLHD9",
+          "title": "Dingus the cat",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "6dM1J6f6pm9",
+          "title": "Cat",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dYKICaHpK0c",
+          "title": "Cat",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "animales-biodiversidad",
+      "query": "bird",
+      "totalApiResults": 152,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Bird",
+        "bird"
+      ],
+      "downloaded": [
+        {
+          "id": "1TjSVf4Yl79",
+          "title": "bird",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "8Ph79kHbt9s",
+          "title": "Bird",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "cdcl5UwlYWd",
+          "title": "Western bluebird",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "animales-biodiversidad",
+      "query": "frog",
+      "totalApiResults": 44,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Frog",
+        "Tree frog",
+        "Frog",
+        "Frog",
+        "Frog",
+        "Frog Man",
+        "Frog",
+        "Frog",
+        "Poison dart frog",
+        "Frog"
+      ],
+      "downloaded": [
+        {
+          "id": "07-wJ9bkzul",
+          "title": "Frog",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "9Z2V8fpazF",
+          "title": "Frog",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "cwyNyIba6WE",
+          "title": "Tree frog",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "animales-biodiversidad",
+      "query": "butterfly",
+      "totalApiResults": 71,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Butterfly",
+        "Butterfly",
+        "Butterfly",
+        "butterfly",
+        "Monarch Butterfly",
+        "Beautiful Butterfly",
+        "Butterfly",
+        "Butterfly",
+        "Butterfly"
+      ],
+      "downloaded": [
+        {
+          "id": "2ZwYwkTVnfG",
+          "title": "Butterfly",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "814CINpG3H1",
+          "title": "Butterfly",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "e9NAQQrCbLu",
+          "title": "Butterfly",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "animales-biodiversidad",
+      "query": "turtle",
+      "totalApiResults": 13,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Turtle",
+        "Turtle",
+        "Turtle",
+        "Turtle",
+        "Turtle Character",
+        "Turtle",
+        "Turtle",
+        "Long-Necked Turtle"
+      ],
+      "downloaded": [
+        {
+          "id": "0Sylqo1dCfu",
+          "title": "Turtle",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "2LCcq8vhqJ3",
+          "title": "Turtle",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fklSEvGm1Q8",
+          "title": "Turtle",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "bosques-plantas",
+      "query": "tree",
+      "totalApiResults": 299,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Tree",
+        "Trees",
+        "Pine Trees",
+        "Big Tree",
+        "Tree",
+        "Tree-2",
+        "Tree",
+        "Pine Tree",
+        "Birch Trees",
+        "Tree"
+      ],
+      "downloaded": [
+        {
+          "id": "6Yjt8nIwLsD",
+          "title": "Tree",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "etFGNvsiFv",
+          "title": "Trees",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "oYtDty0fR6",
+          "title": "Pine Trees",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "bosques-plantas",
+      "query": "flower",
+      "totalApiResults": 298,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Flowers",
+        "Flower",
+        "Flower",
+        "Bell Flower",
+        "Flower",
+        "Pastel Plume Flowers",
+        "Flowers"
+      ],
+      "downloaded": [
+        {
+          "id": "9dubDMkAcZ5",
+          "title": "Flower",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fg5U0dl1Sd3",
+          "title": "Flower",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "NBUxHir6FJ",
+          "title": "Flowers",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "bosques-plantas",
+      "query": "plant",
+      "totalApiResults": 277,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Fiddle-leaf Plant",
+        "House plant",
+        "Plant - White Pot",
+        "Coffee plant",
+        "Plants - Assorted shelf plants",
+        "Ranking plant",
+        "Aloe plant"
+      ],
+      "downloaded": [
+        {
+          "id": "2ag6_uuqsnb",
+          "title": "Fiddle-leaf Plant",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "3qh9saogdJd",
+          "title": "House plant",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7ig0HcyfT93",
+          "title": "Plant - White Pot",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "bosques-plantas",
+      "query": "cactus",
+      "totalApiResults": 120,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Cactus",
+        "Green Cactus",
+        "Cactus",
+        "Cactus",
+        "Prickly pear cactus",
+        "Barrel cactus",
+        "Cactus",
+        "Pipe organ cactus",
+        "Cactus",
+        "Cactus Flowers"
+      ],
+      "downloaded": [
+        {
+          "id": "1_3Ur2-LAs8",
+          "title": "Cactus",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "2Kng1KnfMEc",
+          "title": "Green Cactus",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "9UCcl_W0Xq3",
+          "title": "Cactus",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "bosques-plantas",
+      "query": "mushroom",
+      "totalApiResults": 31,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Mushroom",
+        "Mushrooms",
+        "Mushrooms",
+        "Mushroom",
+        "Mushroom",
+        "Mushroom",
+        "Lowpoly White Mushroom",
+        "Mushroom Character",
+        "Mushroom",
+        "Mushroom",
+        "Mushroom King"
+      ],
+      "downloaded": [
+        {
+          "id": "2DAaKHD48ZP",
+          "title": "Mushroom",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "alUv2htodmq",
+          "title": "Mushrooms",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "f35tumnmt3N",
+          "title": "Mushrooms",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "agua-oceanos",
+      "query": "fish",
+      "totalApiResults": 135,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Fish",
+        "Fish",
+        "Fish",
+        "Angler Fish",
+        "Fish",
+        "Fish Bone"
+      ],
+      "downloaded": [
+        {
+          "id": "3GPUntjwqCa",
+          "title": "Goldfish",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "aEyLrUMMoUK",
+          "title": "Fish",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "BEcU9rjiAq",
+          "title": "Fish",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "agua-oceanos",
+      "query": "coral",
+      "totalApiResults": 33,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "coral",
+        "Orange Coral",
+        "Coral",
+        "Coral",
+        "Coral Reef Set3",
+        "coral",
+        "Coral Reef Set"
+      ],
+      "downloaded": [
+        {
+          "id": "0CrDBiCnI5e",
+          "title": "underwater_enviro_coral",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "3HEc6LvqCJd",
+          "title": "Orange Coral",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7Cs3rTEcpcD",
+          "title": "coral",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "agua-oceanos",
+      "query": "whale",
+      "totalApiResults": 42,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Whale",
+        "Whale",
+        "Whale",
+        "Whale",
+        "Sperm Whale",
+        "Killer Whale",
+        "Finback whale",
+        "Whale tail"
+      ],
+      "downloaded": [
+        {
+          "id": "15cXqVGk0jA",
+          "title": "Whale",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7-TgeTuwbzw",
+          "title": "Whale",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fo1MBzTFRZ3",
+          "title": "Whale",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "agua-oceanos",
+      "query": "water",
+      "totalApiResults": 13,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Water bottle",
+        "Water Bottle",
+        "Water Can",
+        "Water Fountain",
+        "Water fountain made in Blocks",
+        "Water bottle",
+        "Water bottle",
+        "Drop water"
+      ],
+      "downloaded": [
+        {
+          "id": "7EfDXOcziyF",
+          "title": "Water Can",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "b54HnwJAXsb",
+          "title": "Water bottle",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "KpxDpidn1Z",
+          "title": "Water Bottle",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "agua-oceanos",
+      "query": "boat",
+      "totalApiResults": 111,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Boat",
+        "Boat",
+        "Sail Boat",
+        "Boat",
+        "Boat",
+        "Boat"
+      ],
+      "downloaded": [
+        {
+          "id": "1ZuSXvhkRg_",
+          "title": "Boat",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "BgSZXwmm7k",
+          "title": "Sail Boat",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "YwdXrwbN3o",
+          "title": "Boat",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "tierra-geografia",
+      "query": "volcano",
+      "totalApiResults": 7,
+      "inspectedResults": 7,
+      "literalTitleMatches": [
+        "Volcano",
+        "Volcano",
+        "Volcano",
+        "Volcano"
+      ],
+      "downloaded": [
+        {
+          "id": "4xoTMiF0D5J",
+          "title": "Volcano",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "8gkFBBcS6aM",
+          "title": "Volcano",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dwSigTeSMCo",
+          "title": "Volcano",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "tierra-geografia",
+      "query": "mountain",
+      "totalApiResults": 49,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Mountain",
+        "Mountains",
+        "Mountain",
+        "Mountain",
+        "Mountain Cabin",
+        "Mountain Scene",
+        "Mountain with Snow"
+      ],
+      "downloaded": [
+        {
+          "id": "0Fl55ZzsVzT",
+          "title": "Mountain",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "8mWDJgGcXSH",
+          "title": "Mountaintop",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "w9VBrh7Nz0",
+          "title": "Mountains",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "tierra-geografia",
+      "query": "island",
+      "totalApiResults": 25,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Island",
+        "Island",
+        "Island",
+        "Empty Island",
+        "Floating Island",
+        "Swamp Island",
+        "Floaty Island",
+        "Island",
+        "Winter Island",
+        "Floating Island",
+        "Low poly floating islands"
+      ],
+      "downloaded": [
+        {
+          "id": "bzLVwG4AzvA",
+          "title": "Island",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "C03O8OQq6O",
+          "title": "Island",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fG9iP5afr7U",
+          "title": "Island",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "tierra-geografia",
+      "query": "rock",
+      "totalApiResults": 100,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Rocks",
+        "Rock",
+        "Rock",
+        "Rocks",
+        "Rock",
+        "Rock Large",
+        "Rocks",
+        "Rock",
+        "Rock",
+        "Rock Flat"
+      ],
+      "downloaded": [
+        {
+          "id": "4TpBWdzKDf2",
+          "title": "Rock",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "OQvi8PIZ40",
+          "title": "Rocks",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "RtLRqYjfMs",
+          "title": "Rock",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "tierra-geografia",
+      "query": "globe",
+      "totalApiResults": 37,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Globe",
+        "Globe",
+        "Low Poly Globe"
+      ],
+      "downloaded": [
+        {
+          "id": "2445qv4neDQ",
+          "title": "Globe",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "a7ZAkNc0F24",
+          "title": "Low Poly Globe",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "Y4Dof9b2p5",
+          "title": "Globe",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "espacio-astronomia",
+      "query": "planet",
+      "totalApiResults": 47,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Planets",
+        "Planet",
+        "Planet",
+        "Planet",
+        "Planet"
+      ],
+      "downloaded": [
+        {
+          "id": "18Uxrb2dIc",
+          "title": "Planet",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "3_tN7i962hZ",
+          "title": "Planets",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "9g1aIbfR9Y",
+          "title": "Planet",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "espacio-astronomia",
+      "query": "earth",
+      "totalApiResults": 22,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Earth",
+        "Earth",
+        "Earth",
+        "Earth",
+        "Earth",
+        "Earth and Moon",
+        "Satellite orbiting Earth",
+        "Earth"
+      ],
+      "downloaded": [
+        {
+          "id": "1I5ip-3VOfv",
+          "title": "Earth",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "3U-XAIY031u",
+          "title": "Earth",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "88CP80Kgb-u",
+          "title": "Earth",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "espacio-astronomia",
+      "query": "moon",
+      "totalApiResults": 9,
+      "inspectedResults": 9,
+      "literalTitleMatches": [
+        "Moon",
+        "Moon",
+        "Moon",
+        "Moon",
+        "Moon",
+        "Moon",
+        "Earth and Moon",
+        "Moon",
+        "Moon Girl"
+      ],
+      "downloaded": [
+        {
+          "id": "63c8LKpoXTO",
+          "title": "Moon",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "9OPocAqXM0u",
+          "title": "Moon",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fvTF0KVsPAa",
+          "title": "Moon",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "espacio-astronomia",
+      "query": "saturn",
+      "totalApiResults": 69,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Saturn",
+        "Saturn",
+        "Derpy Saturn"
+      ],
+      "downloaded": [
+        {
+          "id": "2isCiJxCqG4",
+          "title": "Saturn",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7cRLZh4BDTv",
+          "title": "Derpy Saturn",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "b-y9HDTsu7q",
+          "title": "Saturn",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "espacio-astronomia",
+      "query": "rocket",
+      "totalApiResults": 46,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Rocket ship",
+        "Rocket Ship",
+        "Rocket ship",
+        "Space rocket"
+      ],
+      "downloaded": [
+        {
+          "id": "4mPkOKdzAk-",
+          "title": "Rocket ship",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "a5ChWS6uW0y",
+          "title": "Rocketship",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "ah8WSBbizA6",
+          "title": "Rocketship",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "espacio-astronomia",
+      "query": "telescope",
+      "totalApiResults": 28,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Telescope",
+        "Telescope",
+        "Refracting Telescope",
+        "Telescope",
+        "Telescope",
+        "Hubble telescope"
+      ],
+      "downloaded": [
+        {
+          "id": "3HJCpDzBQEw",
+          "title": "Telescope",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7QMEqafOyI4",
+          "title": "Refracting Telescope",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "RjyTCQvA8b",
+          "title": "Telescope",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "laboratorio-ciencia",
+      "query": "microscope",
+      "totalApiResults": 24,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Microscope",
+        "Omax compound microscope",
+        "Microscope"
+      ],
+      "downloaded": [
+        {
+          "id": "05VXLT8kN4k",
+          "title": "Microscope",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dcuaH6bEkwn",
+          "title": "Omax compound microscope",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "q9zNs4U5NG",
+          "title": "Microscope",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "laboratorio-ciencia",
+      "query": "test tube",
+      "totalApiResults": 137,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Test tube, blue Liquid",
+        "Test Tube, red liquid"
+      ],
+      "downloaded": [
+        {
+          "id": "1F33UFXOEau",
+          "title": "Test tube, blue Liquid",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "6TUXVb_x88c",
+          "title": "Science Tubes",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "cXYIYXO9mVP",
+          "title": "Test Tube, red liquid",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "laboratorio-ciencia",
+      "query": "beaker",
+      "totalApiResults": 187,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Beaker"
+      ],
+      "downloaded": [
+        {
+          "id": "a6fAmpBmWHM",
+          "title": "Beaker",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "laboratorio-ciencia",
+      "query": "magnifying glass",
+      "totalApiResults": 27,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Magnifying glass",
+        "Magnifying Glass",
+        "Magnifying glass",
+        "Magnifying Glass"
+      ],
+      "downloaded": [
+        {
+          "id": "bcdkW7a4AG5",
+          "title": "Magnifying glass",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "c8HQVCBMIMR",
+          "title": "Magnifying Glass",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fvtGqQ6olh-",
+          "title": "Magnifying glass",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "laboratorio-ciencia",
+      "query": "magnet",
+      "totalApiResults": 10,
+      "inspectedResults": 10,
+      "literalTitleMatches": [
+        "Magnet",
+        "Magnet",
+        "Magnet"
+      ],
+      "downloaded": [
+        {
+          "id": "7dHLjQ8eZhu",
+          "title": "Magnet",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dD2RIIea6WR",
+          "title": "Magnet",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "e6JzvzwGt7v",
+          "title": "Magnet",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "cuerpo-salud",
+      "query": "skeleton",
+      "totalApiResults": 56,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Skeleton",
+        "Skeleton",
+        "Skeleton",
+        "skeleton",
+        "Skeleton",
+        "Skeleton",
+        "Skeleton Boy"
+      ],
+      "downloaded": [
+        {
+          "id": "frU5VxsCGZJ",
+          "title": "Skeleton",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "wODZYCgX5Z",
+          "title": "Skeleton",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "yq5ATpujSt",
+          "title": "Skeleton",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "cuerpo-salud",
+      "query": "heart",
+      "totalApiResults": 6,
+      "inspectedResults": 6,
+      "literalTitleMatches": [
+        "Heart",
+        "Heart",
+        "Heart",
+        "Hearts",
+        "Pickup Heart"
+      ],
+      "downloaded": [
+        {
+          "id": "1yCRUwFnwX",
+          "title": "Heart",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "5POtMKIT_Ze",
+          "title": "Heart",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "8RA5hHU5gHK",
+          "title": "Heart",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "cuerpo-salud",
+      "query": "brain",
+      "totalApiResults": 3,
+      "inspectedResults": 3,
+      "literalTitleMatches": [
+        "Brain",
+        "Brain In A Jar 💭",
+        "Brain"
+      ],
+      "downloaded": [
+        {
+          "id": "3pFTE9hJQpL",
+          "title": "Brain In A Jar 💭",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "5mPRPZkI3qt",
+          "title": "Brain",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "YihDCHsOPO",
+          "title": "Brain",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "cuerpo-salud",
+      "query": "tooth",
+      "totalApiResults": 22,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Shark tooth",
+        "Tooth"
+      ],
+      "downloaded": [
+        {
+          "id": "66NBoNdhb03",
+          "title": "Tooth",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "6lZSwZSWTPw",
+          "title": "Shark tooth",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "86_j33-JyYM",
+          "title": "Toothbrush",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "cuerpo-salud",
+      "query": "first aid",
+      "totalApiResults": 25,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "First Aid Kit",
+        "First Aid Kit"
+      ],
+      "downloaded": [
+        {
+          "id": "Hp80p6148W",
+          "title": "First Aid Kit",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "wP00rePSRD",
+          "title": "First Aid Kit",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "cuerpo-salud",
+      "query": "human heart",
+      "totalApiResults": 12,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "5POtMKIT_Ze",
+          "title": "Heart",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "8RA5hHU5gHK",
+          "title": "Heart",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "Zj4GUkxCG9",
+          "title": "Pickup Heart",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "cuerpo-salud",
+      "query": "lungs",
+      "totalApiResults": 2,
+      "inspectedResults": 2,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "6yo90zr_4Z_",
+          "title": "Chest",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "lungs"
+          ],
+          "classificationNote": "Recurso reclasificado por título original: Chest; no satisface la búsqueda lungs."
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "cuerpo-salud",
+      "query": "human skull",
+      "totalApiResults": 62,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "bjf0z6Qb9Tv",
+          "title": "skull003",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "DJT7N0HuVB",
+          "title": "Skull",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "EAsVEJwsv7",
+          "title": "Skull",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "cuerpo-salud",
+      "query": "human brain",
+      "totalApiResults": 3,
+      "inspectedResults": 3,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "3pFTE9hJQpL",
+          "title": "Brain In A Jar 💭",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "5mPRPZkI3qt",
+          "title": "Brain",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "YihDCHsOPO",
+          "title": "Brain",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "alimentos-agricultura",
+      "query": "corn",
+      "totalApiResults": 30,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Ear of corn",
+        "Corn",
+        "Field of corn",
+        "Corn",
+        "Corn",
+        "Corn plant phases",
+        "Corn Seed",
+        "Ear of corn"
+      ],
+      "downloaded": [
+        {
+          "id": "3zsUEPnTdFt",
+          "title": "Ear of corn",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dE73diXi82k",
+          "title": "Field of corn",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "IhhB7kGaAQ",
+          "title": "Corn",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "alimentos-agricultura",
+      "query": "banana",
+      "totalApiResults": 30,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Banana",
+        "Banana",
+        "Banana Peeled",
+        "Banana Bundle",
+        "Banana",
+        "Banana",
+        "Banana",
+        "cartoon banana car",
+        "Banana Tree",
+        "Banana"
+      ],
+      "downloaded": [
+        {
+          "id": "39KBQGgbPw_",
+          "title": "Banana Peeled",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7JDar2uHBqg",
+          "title": "Banana",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "ahOO6wz8sV0",
+          "title": "Banana",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "alimentos-agricultura",
+      "query": "avocado",
+      "totalApiResults": 33,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Avocado",
+        "Avocado",
+        "Avocado",
+        "AVOCADO",
+        "Avocado",
+        "Avocado Character",
+        "Avocado Half",
+        "Avocado"
+      ],
+      "downloaded": [
+        {
+          "id": "1rEBMmsgfk_",
+          "title": "Avocado",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "mjjd3bgEhT",
+          "title": "Avocado",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "ZUN3itcCyX",
+          "title": "Avocado",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "alimentos-agricultura",
+      "query": "carrot",
+      "totalApiResults": 58,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Carrot",
+        "Carrot",
+        "Carrot",
+        "Carrot",
+        "Carrot",
+        "Carrot Character",
+        "Carrots",
+        "Carrot",
+        "Crate of Carrots",
+        "Carrot",
+        "Cut carrots"
+      ],
+      "downloaded": [
+        {
+          "id": "3oFkNid6ofx",
+          "title": "Carrot",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "59muuwqSsq",
+          "title": "Carrot",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "c1zld-II5RD",
+          "title": "Carrot",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "alimentos-agricultura",
+      "query": "apple",
+      "totalApiResults": 42,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Apple",
+        "Apple",
+        "Apple - red",
+        "Apple",
+        "Apple - Red",
+        "Apple",
+        "Apple Green",
+        "Apple",
+        "Shark apple",
+        "Bitten Apple",
+        "Apple Half",
+        "Apple tree"
+      ],
+      "downloaded": [
+        {
+          "id": "4F8_RIWgPC-",
+          "title": "Apple - red",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "4tOmpD9-xsV",
+          "title": "Apple",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "9cFoY7E-8mu",
+          "title": "Apple",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "alimentos-agricultura",
+      "query": "tractor",
+      "totalApiResults": 84,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Tractor",
+        "Tractor"
+      ],
+      "downloaded": [
+        {
+          "id": "5TGoA5N14c5",
+          "title": "Tractor",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "eiXGnD1wN5q",
+          "title": "Tractor",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "matematicas-medicion",
+      "query": "cube",
+      "totalApiResults": 84,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Rubik's cube",
+        "Cube Bricks",
+        "Cube Crate",
+        "Cube Guy Character",
+        "Rubik's cube",
+        "Cube Exclamation",
+        "Portal: Companion Cube"
+      ],
+      "downloaded": [
+        {
+          "id": "4f_lG3UcV0k",
+          "title": "Rubik's cube",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "c4sn88pFjP",
+          "title": "Cube Bricks",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "YAghI6GBls",
+          "title": "Cube Crate",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "matematicas-medicion",
+      "query": "sphere",
+      "totalApiResults": 28,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Pickup Sphere"
+      ],
+      "downloaded": [
+        {
+          "id": "1xtAc12dmv",
+          "title": "Pickup Sphere",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "matematicas-medicion",
+      "query": "cone",
+      "totalApiResults": 30,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Cone Shape",
+        "Traffic Cone",
+        "Traffic Cone",
+        "Traffic Cone",
+        "Cone",
+        "Road Cone",
+        "Traffic Cone",
+        "cone",
+        "Cone",
+        "Pine cone",
+        "Cone"
+      ],
+      "downloaded": [
+        {
+          "id": "6BgO_yzhT3Y",
+          "title": "Cone Shape",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "eFQ60hneKwL",
+          "title": "Traffic Cone",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "lAx8JytxGD",
+          "title": "Traffic Cone",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "matematicas-medicion",
+      "query": "dice",
+      "totalApiResults": 15,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Dice",
+        "dice set",
+        "6 sided dice",
+        "Dice",
+        "Dice",
+        "Dice",
+        "Pair of Dice",
+        "Dice",
+        "Dice Wand",
+        "Dice"
+      ],
+      "downloaded": [
+        {
+          "id": "1GYd3tw5LqW",
+          "title": "6 sided dice",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "2pU6Ie7DcmX",
+          "title": "dice set",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dLS2cGjYw6C",
+          "title": "Dice",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "matematicas-medicion",
+      "query": "ruler",
+      "totalApiResults": 6,
+      "inspectedResults": 6,
+      "literalTitleMatches": [
+        "Ruler",
+        "Ruler",
+        "Ruler",
+        "Dyslexia Reading Ruler"
+      ],
+      "downloaded": [
+        {
+          "id": "1zzYwVp-KDv",
+          "title": "Ruler",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "3CqPcG3ATQs",
+          "title": "Ruler",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "JQ6JqMl1gw",
+          "title": "Ruler",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "matematicas-medicion",
+      "query": "clock",
+      "totalApiResults": 36,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Analog clock",
+        "Clock",
+        "Clock",
+        "Alarm Clock",
+        "Grandfathers Clock",
+        "Digital clock",
+        "cuckoo clock",
+        "Alarm Clock",
+        "Clock Icon (Simple)",
+        "Cuckoo Clock",
+        "Clock"
+      ],
+      "downloaded": [
+        {
+          "id": "31XZ7p2-c1q",
+          "title": "Clock",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "5gAoMR2YHs3",
+          "title": "Analog clock",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dwZRvbXlAus",
+          "title": "Clock",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "matematicas-medicion",
+      "query": "pizza",
+      "totalApiResults": 32,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Pepperoni pizza",
+        "Pizza Slice",
+        "Supreme Pizza",
+        "Pizza",
+        "Pizza",
+        "Pizza Box",
+        "Pizza Steve",
+        "Pizza Margherita",
+        "Slice of pizza",
+        "Pizza",
+        "Pizza",
+        "Cool Pizza"
+      ],
+      "downloaded": [
+        {
+          "id": "9IWGn64Fnqo",
+          "title": "Pepperoni pizza",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "CA4HtaaMJn",
+          "title": "Pizza Slice",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "efHt8L0V77z",
+          "title": "Supreme Pizza",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "fisica-energia",
+      "query": "gear",
+      "totalApiResults": 12,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Collectible Gear",
+        "Gears",
+        "Gear",
+        "Gear",
+        "Gear VR controller",
+        "DJ gear"
+      ],
+      "downloaded": [
+        {
+          "id": "1tgrqxAQia",
+          "title": "Collectible Gear",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "4hAw8zQHeMJ",
+          "title": "Gears",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "cMM3raHMCug",
+          "title": "Gear",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "fisica-energia",
+      "query": "pulley",
+      "totalApiResults": 9,
+      "inspectedResults": 9,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "9u6O3jg_mSc",
+          "title": "Hose wheel",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "pulley"
+          ],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "fisica-energia",
+      "query": "wind turbine",
+      "totalApiResults": 50,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Wind turbine",
+        "Wind Turbine",
+        "Wind turbine",
+        "Wind turbine",
+        "Wind Turbine"
+      ],
+      "downloaded": [
+        {
+          "id": "0S_ePFXZbCz",
+          "title": "Wind turbine",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "3JKnKecvdMI",
+          "title": "Wind Turbine",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "8Tke6WIyZtg",
+          "title": "Wind turbine",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "fisica-energia",
+      "query": "solar panel",
+      "totalApiResults": 37,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Solar Panel",
+        "Flat Solar Panel",
+        "Solar Panel Ground",
+        "Solar Panel Structure"
+      ],
+      "downloaded": [
+        {
+          "id": "6H0Jwpn96xr",
+          "title": "Solar battery",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "ah89Y79JdT",
+          "title": "Solar Panel",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "bvw2d4XUKR",
+          "title": "Flat Solar Panel",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "fisica-energia",
+      "query": "battery",
+      "totalApiResults": 16,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Battery",
+        "AA battery",
+        "Car Battery",
+        "Battery",
+        "Battery",
+        "Battery",
+        "Battery",
+        "Battery",
+        "Solar battery",
+        "Solar battery"
+      ],
+      "downloaded": [
+        {
+          "id": "2TKK0wpiWPw",
+          "title": "AA battery",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "9gnjbN0VUUn",
+          "title": "Battery",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "hLVNyFYOOX",
+          "title": "Car Battery",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "fisica-energia",
+      "query": "lever",
+      "totalApiResults": 5,
+      "inspectedResults": 5,
+      "literalTitleMatches": [
+        "Lever",
+        "Lever"
+      ],
+      "downloaded": [
+        {
+          "id": "guR2QhKFLT",
+          "title": "Lever",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "KfauRUSZer",
+          "title": "Lever",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "robotica-electronica",
+      "query": "robot",
+      "totalApiResults": 121,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Animated Robot",
+        "deep space robot",
+        "Giant Robot",
+        "Butter Robot",
+        "Robot",
+        "Robot",
+        "Robot Enemy Flying",
+        "Rigged robot"
+      ],
+      "downloaded": [
+        {
+          "id": "1kbGZOnhOwf",
+          "title": "Giant Robot",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "5jewvww0dlc",
+          "title": "deep space robot",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "QCm7qe9uNJ",
+          "title": "Animated Robot",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "robotica-electronica",
+      "query": "circuit",
+      "totalApiResults": 5,
+      "inspectedResults": 5,
+      "literalTitleMatches": [
+        "Circuit board 1",
+        "Circuit parts",
+        "StoneBrook Race Circuit"
+      ],
+      "downloaded": [
+        {
+          "id": "fL02Z7OItO9",
+          "title": "Circuit parts",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fxKdRjNq20j",
+          "title": "Circuit board 1",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "m8O6mE0anP",
+          "title": "StoneBrook Race Circuit",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": "Reclasificado: circuito de carreras, no placa electrónica."
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "robotica-electronica",
+      "query": "arduino",
+      "totalApiResults": 7,
+      "inspectedResults": 7,
+      "literalTitleMatches": [
+        "Arduino Uno",
+        "arduino"
+      ],
+      "downloaded": [
+        {
+          "id": "2BEJQybmqQT",
+          "title": "Arduino Uno",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fWRtJe-ZHR6",
+          "title": "arduino",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "robotica-electronica",
+      "query": "drone",
+      "totalApiResults": 21,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Drone",
+        "Drone",
+        "Stinger Drone",
+        "Bot Drone",
+        "Anti-Gravity Drone",
+        "VR DRONE",
+        "Little Drone",
+        "Drone with Orb",
+        "Predator Drone",
+        "camera drone"
+      ],
+      "downloaded": [
+        {
+          "id": "3Ae_y67lzvd",
+          "title": "Drone",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "6CUQX98vha4",
+          "title": "Stinger Drone",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "DNbUoMtG3H",
+          "title": "Drone",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "robotica-electronica",
+      "query": "motor",
+      "totalApiResults": 12,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "5_MTCnqfUTr",
+          "title": "Motorcycle",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "motor"
+          ],
+          "classificationNote": "Reclasificado: búsqueda motor devolvió motocicleta; conservar consulta original como evidencia."
+        },
+        {
+          "id": "bBbozwADWnS",
+          "title": "Motorcycle",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "motor"
+          ],
+          "classificationNote": "Reclasificado: búsqueda motor devolvió motocicleta; conservar consulta original como evidencia."
+        },
+        {
+          "id": "dse64pqMKAR",
+          "title": "Motorcycle",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "motor"
+          ],
+          "classificationNote": "Reclasificado: búsqueda motor devolvió motocicleta; conservar consulta original como evidencia."
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "robotica-electronica",
+      "query": "switch",
+      "totalApiResults": 13,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Light Switch",
+        "Light Switch",
+        "Light switch",
+        "Button Switch",
+        "Switch",
+        "Nintendo Switch",
+        "Light switch",
+        "Simple buttons switches dials",
+        "switch"
+      ],
+      "downloaded": [
+        {
+          "id": "1xBl-8de6b0",
+          "title": "Light Switch",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "8sR1PkyAg-F",
+          "title": "Light switch",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "drzI0Tg_uKT",
+          "title": "Light Switch",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "robotica-electronica",
+      "query": "electric motor",
+      "totalApiResults": 7,
+      "inspectedResults": 7,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "ZPlQHwiqTp",
+          "title": "Large Electric Generator",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "electric motor"
+          ],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "computacion-redes",
+      "query": "computer",
+      "totalApiResults": 96,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Computer",
+        "Simple computer",
+        "Gaming Computer",
+        "Desktop computer",
+        "Computer",
+        "super computer",
+        "Computer Room",
+        "Computer Screen",
+        "Computer 90s"
+      ],
+      "downloaded": [
+        {
+          "id": "2EHvZLax4Y3",
+          "title": "Computer",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "5cN7W4ufoII",
+          "title": "Gaming Computer",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "doMMnviJrGi",
+          "title": "Simple computer",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "computacion-redes",
+      "query": "keyboard",
+      "totalApiResults": 35,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Keyboard",
+        "Keyboard",
+        "Keyboard",
+        "Keyboard",
+        "Computer keyboard",
+        "Keyboard",
+        "Computer Keyboard",
+        "Keyboard"
+      ],
+      "downloaded": [
+        {
+          "id": "3oFfQCSsUmQ",
+          "title": "Keyboard",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "aPwr5p1dluw",
+          "title": "Keyboard",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fOy2zvPJAj-",
+          "title": "Keyboard",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "computacion-redes",
+      "query": "laptop",
+      "totalApiResults": 50,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Laptop",
+        "Laptop",
+        "Laptop / MacBook Pro",
+        "Laptop",
+        "Laptop",
+        "Laptop",
+        "Laptop",
+        "Laptop & Monitor",
+        "Basic Laptop",
+        "Laptop"
+      ],
+      "downloaded": [
+        {
+          "id": "27hcX_w47Jb",
+          "title": "Laptop / MacBook Pro",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fEYeMIiRNHM",
+          "title": "Laptop",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "UGOWjMUC5U",
+          "title": "Laptop",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "computacion-redes",
+      "query": "server",
+      "totalApiResults": 1,
+      "inspectedResults": 1,
+      "literalTitleMatches": [
+        "server rack"
+      ],
+      "downloaded": [
+        {
+          "id": "6ijQclm8jxw",
+          "title": "server rack",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "computacion-redes",
+      "query": "satellite",
+      "totalApiResults": 45,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Satellite",
+        "Satellite",
+        "Satellite dish",
+        "Satellite",
+        "Satellite",
+        "Sputnik satellite",
+        "Satellite antenna",
+        "Satellite",
+        "Satellite orbiting Earth"
+      ],
+      "downloaded": [
+        {
+          "id": "1C3zb8Q9USk",
+          "title": "Satellite",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "5iVbfDhRnN7",
+          "title": "Satellite dish",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fmYHY1leH_P",
+          "title": "Satellite",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "escuela-lenguaje",
+      "query": "book",
+      "totalApiResults": 78,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Open Book",
+        "Book Stack",
+        "Books",
+        "open book",
+        "Book (Blue)",
+        "books",
+        "brown book",
+        "Book",
+        "Book",
+        "Books",
+        "Book"
+      ],
+      "downloaded": [
+        {
+          "id": "1WggoIFq8tx",
+          "title": "Book Stack",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dxt7dETAy9",
+          "title": "Books",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "FsCIGEfTEs",
+          "title": "Open Book",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "escuela-lenguaje",
+      "query": "pencil",
+      "totalApiResults": 109,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Pencil",
+        "Pencil",
+        "Simple Pencil!",
+        "Brush Pencil",
+        "Pencil",
+        "Pencil",
+        "Pencil!",
+        "Colored Pencil",
+        "Pencil Character",
+        "Pencil sharpener",
+        "Pencil"
+      ],
+      "downloaded": [
+        {
+          "id": "3Sd2klX0_s4",
+          "title": "Pencil",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "5R0mBgid5-k",
+          "title": "Pencil",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "b03PQ_a7ojX",
+          "title": "Simple Pencil!",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "escuela-lenguaje",
+      "query": "backpack",
+      "totalApiResults": 44,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Backpack",
+        "Backpack",
+        "Backpack",
+        "Open Backpack",
+        "Backpack",
+        "Backpack",
+        "Backpack",
+        "Backpack & Flashlight",
+        "Hiking Backpack"
+      ],
+      "downloaded": [
+        {
+          "id": "2g9Jm7kvIU",
+          "title": "Backpack",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "uRRsiIZKHG",
+          "title": "Backpack",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "vF7TuXCPDH",
+          "title": "Backpack",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "escuela-lenguaje",
+      "query": "school",
+      "totalApiResults": 17,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "SCHOOL BUS",
+        "school desk"
+      ],
+      "downloaded": [
+        {
+          "id": "2_1dZHNPJqJ",
+          "title": "SCHOOL BUS",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "eP6XIy9ox83",
+          "title": "school desk",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "ftnL_OvlkCx",
+          "title": "Schoolhouse",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "escuela-lenguaje",
+      "query": "desk",
+      "totalApiResults": 220,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Standing Desk",
+        "Adjustable Desk",
+        "Desk",
+        "Desk",
+        "Desk",
+        "Standing Desk",
+        "Desk",
+        "Desk",
+        "Desk Corner",
+        "Desk",
+        "Executive Desk"
+      ],
+      "downloaded": [
+        {
+          "id": "7Z0bva7ec1s",
+          "title": "Adjustable Desk",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "uxIo5ge0pw",
+          "title": "Standing Desk",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "V86Go2rlnq",
+          "title": "Desk",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "comunidad-ciudadania",
+      "query": "house",
+      "totalApiResults": 133,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Farm house",
+        "House interior",
+        "House",
+        "house interiors",
+        "House",
+        "Fantasy House",
+        "House with driveway",
+        "House"
+      ],
+      "downloaded": [
+        {
+          "id": "75V_MLvKMqM",
+          "title": "House",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "AQQ2g0YE2D",
+          "title": "House interior",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "bHyQe5jzdiQ",
+          "title": "Farm house",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "comunidad-ciudadania",
+      "query": "hospital",
+      "totalApiResults": 7,
+      "inspectedResults": 7,
+      "literalTitleMatches": [
+        "Hospital",
+        "GRADD Hospital Room",
+        "Sign Hospital"
+      ],
+      "downloaded": [
+        {
+          "id": "9sUalfQ76kn",
+          "title": "GRADD Hospital Room",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "asNvyjkcSG1",
+          "title": "Hospital",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "PeM20xAT0V",
+          "title": "Sign Hospital",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "comunidad-ciudadania",
+      "query": "fire truck",
+      "totalApiResults": 56,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Fire Truck",
+        "Fire Station with Fire Trucks"
+      ],
+      "downloaded": [
+        {
+          "id": "7iHJ519SwxG",
+          "title": "Fire Truck",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "akzBrALzbei",
+          "title": "Fire Station with Fire Trucks",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "eNPaSEPrst8",
+          "title": "Fire hydrant",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "comunidad-ciudadania",
+      "query": "traffic light",
+      "totalApiResults": 98,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Three way traffic light",
+        "Traffic light",
+        "Traffic Light",
+        "Traffic light",
+        "Traffic Light",
+        "Traffic light",
+        "Traffic Light",
+        "Traffic light",
+        "Traffic light"
+      ],
+      "downloaded": [
+        {
+          "id": "57rxXzowK8w",
+          "title": "Traffic light",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "5eb8E34txWa",
+          "title": "Traffic Light",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "ayAwgj82oUR",
+          "title": "Three way traffic light",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "comunidad-ciudadania",
+      "query": "bridge",
+      "totalApiResults": 67,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Small Bridge",
+        "Bridge",
+        "rope bridge",
+        "Bridge",
+        "Bridge",
+        "Wood bridge",
+        "Bridge",
+        "Bridge for cars or a dock",
+        "Wood Bridge",
+        "Bridge"
+      ],
+      "downloaded": [
+        {
+          "id": "10nw136Xjl",
+          "title": "Bridge",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "88e4zjTShuY",
+          "title": "rope bridge",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "j4KsIuJYnq",
+          "title": "Small Bridge",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "transporte-movilidad",
+      "query": "bus",
+      "totalApiResults": 24,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Bus",
+        "SCHOOL BUS",
+        "Montreal Bus",
+        "Bus",
+        "Bus",
+        "Bus",
+        "Bus Stop",
+        "Bus stop sign"
+      ],
+      "downloaded": [
+        {
+          "id": "2_1dZHNPJqJ",
+          "title": "SCHOOL BUS",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "4CPpvEmrMoF",
+          "title": "Bus",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fFCCghvRImG",
+          "title": "Montreal Bus",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "transporte-movilidad",
+      "query": "bicycle",
+      "totalApiResults": 43,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Bicycle",
+        "Bicycle",
+        "Bicycle",
+        "Bicycle",
+        "Bicycle",
+        "Bicycle"
+      ],
+      "downloaded": [
+        {
+          "id": "19VoUuA2pcN",
+          "title": "Bicycle",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "axc03j3xKfz",
+          "title": "Bicycle",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "b6USSQA731J",
+          "title": "Bicycle",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "transporte-movilidad",
+      "query": "car",
+      "totalApiResults": 138,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "CAR Model",
+        "Car",
+        "Red Car",
+        "Police Car",
+        "cartoon banana car",
+        "Sports Car",
+        "Sports Car"
+      ],
+      "downloaded": [
+        {
+          "id": "5zUWP5UsLg-",
+          "title": "CAR Model",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "75h3mi6uHuC",
+          "title": "Car",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dVLJ5CjB0h",
+          "title": "Red Car",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "transporte-movilidad",
+      "query": "train",
+      "totalApiResults": 50,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Train",
+        "Train",
+        "Bullet train",
+        "Cargo Train Front",
+        "Cargo Train Wagon",
+        "Bullet train",
+        "Train"
+      ],
+      "downloaded": [
+        {
+          "id": "7UGWg1k6Pwp",
+          "title": "Train",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "b9NCKiXV0IZ",
+          "title": "Bullet train",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fm-ioGYuEhx",
+          "title": "Train",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "transporte-movilidad",
+      "query": "airplane",
+      "totalApiResults": 141,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "very cute airplane",
+        "Airplane",
+        "Airplane",
+        "Airplane",
+        "Small Airplane",
+        "Airplane",
+        "Airplane",
+        "Airplane",
+        "Paper airplane"
+      ],
+      "downloaded": [
+        {
+          "id": "3UtIosDm9u-",
+          "title": "very cute airplane",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "8ciDd9k8wha",
+          "title": "Airplane",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "8VysVKMXN2J",
+          "title": "Airplane",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "historia-patrimonio",
+      "query": "pyramid",
+      "totalApiResults": 31,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Pyramid",
+        "Pyramid",
+        "Pyramid",
+        "Step Pyramid",
+        "Pyramid",
+        "Pyramids",
+        "Pyramid"
+      ],
+      "downloaded": [
+        {
+          "id": "3pabPM-VTTH",
+          "title": "Pyramid",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "62oCD2veCi8",
+          "title": "Pyramid",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "c-tEGK9e49p",
+          "title": "Pyramid",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "historia-patrimonio",
+      "query": "temple",
+      "totalApiResults": 57,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Greek Temple",
+        "Temple of Prophecy: Ruined",
+        "Mayan Temple",
+        "Temple Entrance",
+        "temple for tilt integration",
+        "Mayan Temple",
+        "Temple"
+      ],
+      "downloaded": [
+        {
+          "id": "7LV6QMkGBNo",
+          "title": "Temple of Prophecy: Ruined",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "cdMQnl19MB9",
+          "title": "Greek Temple",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "cf3QwX0JqGN",
+          "title": "Mayan Temple",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "tikal"
+          ],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "historia-patrimonio",
+      "query": "pottery",
+      "totalApiResults": 128,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "p92t5dG8Zd",
+          "title": "Honey",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [
+            "pottery"
+          ],
+          "classificationNote": "Recurso reclasificado por título original: Honey; no satisface la búsqueda pottery."
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "historia-patrimonio",
+      "query": "ruins",
+      "totalApiResults": 6,
+      "inspectedResults": 6,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "6eGK7_Kbswf",
+          "title": "Ruin",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "historia-patrimonio",
+      "query": "museum",
+      "totalApiResults": 1,
+      "inspectedResults": 1,
+      "literalTitleMatches": [
+        "The Entryway - Museum Diorama"
+      ],
+      "downloaded": [
+        {
+          "id": "9bdkTVw8GE8",
+          "title": "The Entryway - Museum Diorama",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "arte-musica",
+      "query": "guitar",
+      "totalApiResults": 77,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Electric guitar",
+        "Acoustic Guitar",
+        "Guitar",
+        "Acoustic guitar",
+        "Guitar",
+        "Electric guitar",
+        "Acoustic Guitar",
+        "Guitar",
+        "Bass Guitar",
+        "Guitar Amp",
+        "Acoustic guitar",
+        "Guitar"
+      ],
+      "downloaded": [
+        {
+          "id": "bf6_h_1wp2D",
+          "title": "Acoustic Guitar",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "eoSib2-NN9Y",
+          "title": "Electric guitar",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "HIyVF2jsHR",
+          "title": "Guitar",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "arte-musica",
+      "query": "drum",
+      "totalApiResults": 55,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Drum Set",
+        "Drum Kit",
+        "Drum",
+        "Drum",
+        "Drum stick",
+        "Full Drum Kit",
+        "Oil Drum",
+        "Drum Machine 2"
+      ],
+      "downloaded": [
+        {
+          "id": "4l5jRtpTec",
+          "title": "Drumkit",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7FCPjy-3xmz",
+          "title": "Drum Kit",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "qWU9Q4flfQ",
+          "title": "Drum Set",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "arte-musica",
+      "query": "piano",
+      "totalApiResults": 61,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Piano",
+        "Piano",
+        "Piano",
+        "Piano Keys",
+        "Piano",
+        "Piano",
+        "Piano"
+      ],
+      "downloaded": [
+        {
+          "id": "1YoE664mJTd",
+          "title": "Piano",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "5vbJ5vildOq",
+          "title": "Piano",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7U-93vxPOER",
+          "title": "Piano",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "arte-musica",
+      "query": "trumpet",
+      "totalApiResults": 25,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Trumpet",
+        "Trumpet",
+        "Trumpet",
+        "Trumpet"
+      ],
+      "downloaded": [
+        {
+          "id": "0Mj5XgeGtKJ",
+          "title": "Trumpet",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dKjB2Gm4-rj",
+          "title": "Trumpet",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dXISS4OsDQv",
+          "title": "Trumpet",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "arte-musica",
+      "query": "paint",
+      "totalApiResults": 42,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Paint Bucket",
+        "paint kit mini",
+        "Paint Can",
+        "Paint brush",
+        "Paint Brush",
+        "Paint Brush"
+      ],
+      "downloaded": [
+        {
+          "id": "0CiZ4f1cZaF",
+          "title": "Wall painting",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "62zn39CRkbG",
+          "title": "Wall painting",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "wOomnJNisB",
+          "title": "Paint Bucket",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "arte-musica",
+      "query": "camera",
+      "totalApiResults": 66,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Camera",
+        "Security Camera",
+        "Video Camera",
+        "Camera",
+        "Camera stand",
+        "Instant Camera",
+        "Classic video camera",
+        "Camera",
+        "Camera",
+        "Movie / film camera on tripod",
+        "Camera"
+      ],
+      "downloaded": [
+        {
+          "id": "0nfSsetwy0Z",
+          "title": "Camera",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7IV9LlcdNB",
+          "title": "Video Camera",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "a6J7IDufQP",
+          "title": "Security Camera",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "deporte-recreacion",
+      "query": "soccer ball",
+      "totalApiResults": 58,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Soccer ball",
+        "Soccer ball"
+      ],
+      "downloaded": [
+        {
+          "id": "57u6P7Sr7K0",
+          "title": "Simple soccer football",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "9z5905buuy3",
+          "title": "Soccer ball",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fnDmeCySRhV",
+          "title": "Soccer ball",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "deporte-recreacion",
+      "query": "basketball",
+      "totalApiResults": 32,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Basketball court",
+        "Basketball",
+        "Basketball"
+      ],
+      "downloaded": [
+        {
+          "id": "85FpUr2fHkH",
+          "title": "Basketball court",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "eopD_12UuB8",
+          "title": "Basketball",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "wNXXIhP0ip",
+          "title": "Basketball",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "deporte-recreacion",
+      "query": "tennis",
+      "totalApiResults": 29,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Tennis court",
+        "Tennis racket",
+        "Tennis ball",
+        "Tennis Ball",
+        "Tennis ball",
+        "Table tennis paddle",
+        "Table Tennis Paddle",
+        "Table tennis table"
+      ],
+      "downloaded": [
+        {
+          "id": "0aPpwgcBbk1",
+          "title": "Tennis ball",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "72XCHXgHlg7",
+          "title": "Tennis racket",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7cVH1Xt-LYy",
+          "title": "Tennis court",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "deporte-recreacion",
+      "query": "skateboard",
+      "totalApiResults": 28,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Skateboard",
+        "Skateboard",
+        "Skateboard",
+        "Skateboard",
+        "Skateboard",
+        "Complete Skateboard",
+        "Long board (Skateboard)",
+        "Skateboard",
+        "Skateboard Character"
+      ],
+      "downloaded": [
+        {
+          "id": "7Dfn4VtTCWY",
+          "title": "Skateboard",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7xIavsUAq7z",
+          "title": "Skateboard",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "cms3_9IcYbB",
+          "title": "Skateboard",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "deporte-recreacion",
+      "query": "playground",
+      "totalApiResults": 49,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "ee0cso-KZnC",
+          "title": "Play Structure",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "oficios-productividad",
+      "query": "hammer",
+      "totalApiResults": 75,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Hammer",
+        "Doublesided Hammer",
+        "War Hammer",
+        "Hammer",
+        "Hammer",
+        "Hammer",
+        "the wall hammer",
+        "Sledge Hammer",
+        "SCI-FI Hammer"
+      ],
+      "downloaded": [
+        {
+          "id": "bfj3-mQuRBS",
+          "title": "War Hammer",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "cOizz1RJnb3",
+          "title": "Hammer",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "UIXvQ73DS1",
+          "title": "Doublesided Hammer",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "oficios-productividad",
+      "query": "wrench",
+      "totalApiResults": 24,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Wrench",
+        "Wrench",
+        "Wrench",
+        "Wrench",
+        "Wrench"
+      ],
+      "downloaded": [
+        {
+          "id": "enyBvm6bJQL",
+          "title": "Wrench",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "POJHQLnLvB",
+          "title": "Wrench",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "TvT0yqLRln",
+          "title": "Wrench",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "oficios-productividad",
+      "query": "saw",
+      "totalApiResults": 19,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Saw Blade",
+        "Saw",
+        "Hand Saw",
+        "Hand saw",
+        "Saw Platform",
+        "Sawmill Saw",
+        "Wooden Bat Saw"
+      ],
+      "downloaded": [
+        {
+          "id": "4inf1tGOi2A",
+          "title": "Saw",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "HLOlecPOVD",
+          "title": "Saw Blade",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "rbZHkFchEk",
+          "title": "Hand Saw",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "oficios-productividad",
+      "query": "wheelbarrow",
+      "totalApiResults": 50,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Wheelbarrow",
+        "Wheelbarrow",
+        "Wheelbarrow",
+        "Wheelbarrow"
+      ],
+      "downloaded": [
+        {
+          "id": "6XpEkgDXwkU",
+          "title": "Wheelbarrow",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "7rvJk5Cc9T0",
+          "title": "Wheelbarrow",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "cfe3sobX4dT",
+          "title": "Wheelbarrow",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "oficios-productividad",
+      "query": "shop",
+      "totalApiResults": 20,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Little Shop",
+        "Shop",
+        "Shop",
+        "Coffee Shop",
+        "Black Smith Shop",
+        "Shop 01"
+      ],
+      "downloaded": [
+        {
+          "id": "3nle0xL2QDP",
+          "title": "Shop",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "5qD-9AvW0eh",
+          "title": "Shop",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "96HQXGhe693",
+          "title": "Little Shop",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "ambiente-sostenibilidad",
+      "query": "recycle",
+      "totalApiResults": 32,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Recycle bin"
+      ],
+      "downloaded": [
+        {
+          "id": "92Iv-tdQ49h",
+          "title": "Recycle bin",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "ambiente-sostenibilidad",
+      "query": "trash bin",
+      "totalApiResults": 90,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "3n-T6f35rdm",
+          "title": "Trash Can",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "i7HDuYDLkx",
+          "title": "Trashcan Small",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "XSwahu252t",
+          "title": "Trashcan",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "ambiente-sostenibilidad",
+      "query": "solar",
+      "totalApiResults": 36,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Solar Panel",
+        "Solar battery",
+        "Solar Panel Ground",
+        "Flat Solar Panel",
+        "Solar battery",
+        "Solar Panel Structure",
+        "Solar System"
+      ],
+      "downloaded": [
+        {
+          "id": "6H0Jwpn96xr",
+          "title": "Solar battery",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "ah89Y79JdT",
+          "title": "Solar Panel",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "LbGiYP5iJu",
+          "title": "Solar Panel Ground",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "ambiente-sostenibilidad",
+      "query": "windmill",
+      "totalApiResults": 20,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Windmill",
+        "Windmill",
+        "Tower Windmill",
+        "Windmill",
+        "Windmill",
+        "Windmill",
+        "Windmill",
+        "Windmill"
+      ],
+      "downloaded": [
+        {
+          "id": "52yaPyaAAG",
+          "title": "Tower Windmill",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "9BIMVqxyHV",
+          "title": "Windmill",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "ctIRaIM3zXu",
+          "title": "Windmill",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "ambiente-sostenibilidad",
+      "query": "farm",
+      "totalApiResults": 50,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Farm",
+        "Farm",
+        "Farm Dirt",
+        "Farm"
+      ],
+      "downloaded": [
+        {
+          "id": "5GDbUJV2vQb",
+          "title": "Farm",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "8BQFbUMOeC",
+          "title": "Farm Dirt",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dSjXKezYeBo",
+          "title": "Farm",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "escenarios-videojuegos",
+      "query": "platform",
+      "totalApiResults": 39,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Grass Platform",
+        "Platform",
+        "Stone Platform",
+        "Air Platform",
+        "Cyberpunk Platform",
+        "Cyberpunk Platform",
+        "Spike Platform"
+      ],
+      "downloaded": [
+        {
+          "id": "7xmlX1JEkM",
+          "title": "Grass Platform",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "aEsU846H8u",
+          "title": "Platform",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "BfEpoctX5p",
+          "title": "Stone Platform",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "escenarios-videojuegos",
+      "query": "terrain",
+      "totalApiResults": 47,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Valley Terrain"
+      ],
+      "downloaded": [
+        {
+          "id": "27mUA9VkDjl",
+          "title": "TerrainSnow02",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "8yvoMOldbAq",
+          "title": "TerrainSnow01",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "u78ByZHYB2",
+          "title": "Valley Terrain",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "escenarios-videojuegos",
+      "query": "fence",
+      "totalApiResults": 300,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Fence",
+        "Wooden fence",
+        "Fence",
+        "Metal Fence",
+        "Fence",
+        "Picket fence",
+        "Fence",
+        "White Picket Fence",
+        "Fence Section",
+        "Fence",
+        "Fence"
+      ],
+      "downloaded": [
+        {
+          "id": "e02PFKKhbr",
+          "title": "Fence",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "ecGdK1XryiQ",
+          "title": "Wooden fence",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "ZSQMyIqPTz",
+          "title": "Fence",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "escenarios-videojuegos",
+      "query": "bench",
+      "totalApiResults": 72,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Bench",
+        "Bench",
+        "Bench",
+        "Park Bench",
+        "Bench",
+        "Park Bench",
+        "Bench",
+        "Bench",
+        "Bench",
+        "Bench",
+        "Modern Bench"
+      ],
+      "downloaded": [
+        {
+          "id": "2EvQDFgG1H3",
+          "title": "Bench",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "dOSjmdmKaxi",
+          "title": "Bench",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "jLxjFxFRpw",
+          "title": "Bench",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "escenarios-videojuegos",
+      "query": "door",
+      "totalApiResults": 124,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Door",
+        "Nice Door",
+        "Door",
+        "Door",
+        "Door Double",
+        "Arch Door",
+        "Door",
+        "Doors Round Arch",
+        "Door Round",
+        "Door"
+      ],
+      "downloaded": [
+        {
+          "id": "00xFHE4LR_6",
+          "title": "Nice Door",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "a948jjnuaL",
+          "title": "Door",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "NjrIKzZLYv",
+          "title": "Doorway",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "escenarios-videojuegos",
+      "query": "chest",
+      "totalApiResults": 29,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Chest",
+        "Chest",
+        "Chest",
+        "Chest with Gold",
+        "Chest",
+        "Chest Closed",
+        "Ocean Chest",
+        "Treasure Chest",
+        "Chest Gold",
+        "Chest",
+        "Treasure chest"
+      ],
+      "downloaded": [
+        {
+          "id": "eEcIqgJzJ1",
+          "title": "Chest",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "IbCTSkyWDT",
+          "title": "Chest",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "O72u4Drp8k",
+          "title": "Chest",
+          "license": "CC0 1.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "guatemala-contexto",
+      "query": "quetzal",
+      "totalApiResults": 5,
+      "inspectedResults": 5,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "dpl7B31PqWX",
+          "title": "Parrot",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "quetzal"
+          ],
+          "classificationNote": "Recurso reclasificado por título original: Parrot; no satisface la búsqueda quetzal."
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "guatemala-contexto",
+      "query": "jaguar",
+      "totalApiResults": 23,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Jaguar"
+      ],
+      "downloaded": [
+        {
+          "id": "4fb-oMr2uUF",
+          "title": "Jaguar",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "guatemala-contexto",
+      "query": "toucan",
+      "totalApiResults": 36,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Toco Toucan"
+      ],
+      "downloaded": [
+        {
+          "id": "fFVqukPnc62",
+          "title": "Toco Toucan",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "guatemala-contexto",
+      "query": "tapir",
+      "totalApiResults": 31,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "3eoOcw_d00X",
+          "title": "Collared peccary",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "tapir"
+          ],
+          "classificationNote": "Recurso reclasificado por título original: Collared peccary; no satisface la búsqueda tapir."
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "guatemala-contexto",
+      "query": "ceiba",
+      "totalApiResults": 47,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "auVD_m-ugF0",
+          "title": "Bamboo",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "ceiba"
+          ],
+          "classificationNote": "Recurso reclasificado por título original: Bamboo; no satisface la búsqueda ceiba."
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "guatemala-contexto",
+      "query": "coffee",
+      "totalApiResults": 95,
+      "inspectedResults": 12,
+      "literalTitleMatches": [
+        "Coffee cup",
+        "Coffee Machine",
+        "Coffee Shop",
+        "Coffee cup",
+        "Coffee bean",
+        "Coffee Machine",
+        "Coffee Machine",
+        "Coffee Mug"
+      ],
+      "downloaded": [
+        {
+          "id": "EWVe4TaOiB",
+          "title": "Coffee Machine",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "FDG8rFhvv7",
+          "title": "Coffee Shop",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "fIuM_PW5prV",
+          "title": "Coffee cup",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "guatemala-contexto",
+      "query": "cacao",
+      "totalApiResults": 41,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "7ONZQTx9Tuz",
+          "title": "Coffee bean",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "cacao"
+          ],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "guatemala-contexto",
+      "query": "marimba",
+      "totalApiResults": 22,
+      "inspectedResults": 12,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "a-OYg3WVXfV",
+          "title": "Xylophone",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "marimba"
+          ],
+          "classificationNote": "Recurso reclasificado por título original: Xylophone; no satisface la búsqueda marimba."
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    },
+    {
+      "area": "guatemala-contexto",
+      "query": "mayan",
+      "totalApiResults": 3,
+      "inspectedResults": 3,
+      "literalTitleMatches": [
+        "Mayan Temple",
+        "Mayan Temple",
+        "Mayan Ziggurat"
+      ],
+      "downloaded": [
+        {
+          "id": "0rEriuH2sVr",
+          "title": "Mayan Ziggurat",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "2L1BNfBSXrP",
+          "title": "Mayan Temple",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [],
+          "classificationNote": null
+        },
+        {
+          "id": "cf3QwX0JqGN",
+          "title": "Mayan Temple",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "tikal"
+          ],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar modelo antes de publicar"
+    },
+    {
+      "area": "guatemala-contexto",
+      "query": "tikal",
+      "totalApiResults": 7,
+      "inspectedResults": 7,
+      "literalTitleMatches": [],
+      "downloaded": [
+        {
+          "id": "cf3QwX0JqGN",
+          "title": "Mayan Temple",
+          "license": "CC-BY 3.0",
+          "unfulfilledQueries": [
+            "tikal"
+          ],
+          "classificationNote": null
+        }
+      ],
+      "review": "Revisar pertinencia semántica y visual"
+    }
+  ]
+}

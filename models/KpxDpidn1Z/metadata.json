@@ -1,0 +1,66 @@
+{
+  "id": "KpxDpidn1Z",
+  "title": "Water Bottle",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/KpxDpidn1Z",
+  "metadataUrl": "https://api.poly.pizza/v1/model/KpxDpidn1Z",
+  "downloadUrl": "https://static.poly.pizza/3ebef9a3-c2df-49ee-abe1-df38b5777bcd.glb",
+  "thumbnailUrl": "https://static.poly.pizza/3ebef9a3-c2df-49ee-abe1-df38b5777bcd.webp",
+  "description": null,
+  "category": "Food & Drink",
+  "tags": [
+    "Bottle"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "water"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Water Bottle\" by Quaternius, https://poly.pizza/m/KpxDpidn1Z. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/KpxDpidn1Z/model.glb",
+  "sourceMetadataFile": "models/KpxDpidn1Z/source.json",
+  "bytes": 18792,
+  "sha256": "abdb532223cc06545a893eef3edcfb16df5fffc994a6927e74249dd2326b799c",
+  "apiTriangleCount": 260,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.612893+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

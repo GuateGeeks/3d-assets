@@ -1,0 +1,68 @@
+{
+  "id": "2445qv4neDQ",
+  "title": "Globe",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/2445qv4neDQ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2445qv4neDQ",
+  "downloadUrl": "https://static.poly.pizza/962dd03e-f0ee-4ca7-911c-3a89f58d2f6f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/962dd03e-f0ee-4ca7-911c-3a89f58d2f6f.webp",
+  "description": "#earth #world #globe",
+  "category": "Objects",
+  "tags": [
+    "Earth",
+    "Map",
+    "World"
+  ],
+  "areas": [
+    "tierra-geografia"
+  ],
+  "queries": [
+    "globe"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Globe\" by jeremy, https://poly.pizza/m/2445qv4neDQ. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2445qv4neDQ/model.glb",
+  "sourceMetadataFile": "models/2445qv4neDQ/source.json",
+  "bytes": 39828,
+  "sha256": "4824a5b852a9dbece0e81c90bb754e219470b3e7255da1c8c3c6507b98205c6c",
+  "apiTriangleCount": 532,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.287234+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "7LV6QMkGBNo",
+  "title": "Temple of Prophecy: Ruined",
+  "author": "Duncan Anderson",
+  "authorUrl": "https://poly.pizza/u/Duncan%20Anderson",
+  "sourceUrl": "https://poly.pizza/m/7LV6QMkGBNo",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7LV6QMkGBNo",
+  "downloadUrl": "https://static.poly.pizza/a101b3cc-e176-4c5c-897d-cc68e15114e9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/a101b3cc-e176-4c5c-897d-cc68e15114e9.webp",
+  "description": "A lower budget design for the Temple of Prophecy, based on the ruins of the Tholos at Delphi",
+  "category": "Buildings",
+  "tags": [
+    "prospect",
+    "prospecting",
+    "folly"
+  ],
+  "areas": [
+    "historia-patrimonio"
+  ],
+  "queries": [
+    "temple"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Temple of Prophecy: Ruined\" by Duncan Anderson, https://poly.pizza/m/7LV6QMkGBNo. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7LV6QMkGBNo/model.glb",
+  "sourceMetadataFile": "models/7LV6QMkGBNo/source.json",
+  "bytes": 419116,
+  "sha256": "c85dfe2dd2467725f65e7e791c944fdf93ec8eaab1b6e67f97fd73f516e3bfb1",
+  "apiTriangleCount": 2595,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 51,
+    "nodes": 51,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.243517+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "cultural-or-species-identification-review"
+  ],
+  "unfulfilledQueries": []
+}

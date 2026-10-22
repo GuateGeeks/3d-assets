@@ -1,0 +1,69 @@
+{
+  "id": "YwdXrwbN3o",
+  "title": "Boat",
+  "author": "Pixel",
+  "authorUrl": "https://poly.pizza/u/Pixel",
+  "sourceUrl": "https://poly.pizza/m/YwdXrwbN3o",
+  "metadataUrl": "https://api.poly.pizza/v1/model/YwdXrwbN3o",
+  "downloadUrl": "https://static.poly.pizza/66ae3fa9-d6de-45dc-86c0-659786b865e1.glb",
+  "thumbnailUrl": "https://static.poly.pizza/66ae3fa9-d6de-45dc-86c0-659786b865e1.webp",
+  "description": null,
+  "category": "Transport",
+  "tags": [
+    "Rowboat",
+    "Boat",
+    "Vehicle",
+    "Canoe"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "boat"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Boat\" by Pixel, https://poly.pizza/m/YwdXrwbN3o. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/YwdXrwbN3o/model.glb",
+  "sourceMetadataFile": "models/YwdXrwbN3o/source.json",
+  "bytes": 182140,
+  "sha256": "fee1ee45e5457d146857d064982922a378d909794e34a2fc89572bb946ba8464",
+  "apiTriangleCount": 412,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.687518+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

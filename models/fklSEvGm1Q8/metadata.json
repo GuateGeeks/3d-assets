@@ -1,0 +1,68 @@
+{
+  "id": "fklSEvGm1Q8",
+  "title": "Turtle",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/fklSEvGm1Q8",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fklSEvGm1Q8",
+  "downloadUrl": "https://static.poly.pizza/7c64cc2c-b9aa-4edd-bc32-9e95d66ca5e0.glb",
+  "thumbnailUrl": "https://static.poly.pizza/7c64cc2c-b9aa-4edd-bc32-9e95d66ca5e0.webp",
+  "description": "#sea #marine #reptile #tortise",
+  "category": "Animals",
+  "tags": [
+    "sea",
+    "marine",
+    "reptile",
+    "tortise"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "turtle"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Turtle\" by Poly by Google, https://poly.pizza/m/fklSEvGm1Q8. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fklSEvGm1Q8/model.glb",
+  "sourceMetadataFile": "models/fklSEvGm1Q8/source.json",
+  "bytes": 101888,
+  "sha256": "96f9cb7c678810f77c69fa697fd17f76905d09276566856beea6e54d4d10b590",
+  "apiTriangleCount": 1748,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.609395+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

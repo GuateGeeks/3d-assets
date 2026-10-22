@@ -1,0 +1,72 @@
+{
+  "id": "2_1dZHNPJqJ",
+  "title": "SCHOOL BUS",
+  "author": "Kyle Li",
+  "authorUrl": "https://poly.pizza/u/Kyle%20Li",
+  "sourceUrl": "https://poly.pizza/m/2_1dZHNPJqJ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2_1dZHNPJqJ",
+  "downloadUrl": "https://static.poly.pizza/90875552-dda2-4f1c-868b-0c63971a8347.glb",
+  "thumbnailUrl": "https://static.poly.pizza/90875552-dda2-4f1c-868b-0c63971a8347.webp",
+  "description": "MADE IN TINKERCAD",
+  "category": "Objects",
+  "tags": [
+    "school bus"
+  ],
+  "areas": [
+    "escuela-lenguaje",
+    "transporte-movilidad"
+  ],
+  "queries": [
+    "school",
+    "bus"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"SCHOOL BUS\" by Kyle Li, https://poly.pizza/m/2_1dZHNPJqJ. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2_1dZHNPJqJ/model.glb",
+  "sourceMetadataFile": "models/2_1dZHNPJqJ/source.json",
+  "bytes": 327036,
+  "sha256": "8d53270bf4ac5f84a07ecd021141dfc0d42b487152368d377494a212ed764898",
+  "apiTriangleCount": 25046,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 7,
+    "nodes": 8,
+    "materials": 7,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.609664+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2EvQDFgG1H3",
+  "title": "Bench",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/2EvQDFgG1H3",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2EvQDFgG1H3",
+  "downloadUrl": "https://static.poly.pizza/81698b0d-6734-4ffd-8cbe-e8990f8c31ef.glb",
+  "thumbnailUrl": "https://static.poly.pizza/81698b0d-6734-4ffd-8cbe-e8990f8c31ef.webp",
+  "description": "#park #seating",
+  "category": "Objects",
+  "tags": [
+    "park",
+    "seating"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "bench"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Bench\" by Poly by Google, https://poly.pizza/m/2EvQDFgG1H3. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2EvQDFgG1H3/model.glb",
+  "sourceMetadataFile": "models/2EvQDFgG1H3/source.json",
+  "bytes": 24504,
+  "sha256": "bc1f1d514a2c9f44b73876f9300d6fa0ef3acbac7bbd81684e19c89cd5955dd9",
+  "apiTriangleCount": 168,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 14,
+    "nodes": 14,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:39.017851+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "6CUQX98vha4",
+  "title": "Stinger Drone",
+  "author": "Aaron Clifford",
+  "authorUrl": "https://poly.pizza/u/Aaron%20Clifford",
+  "sourceUrl": "https://poly.pizza/m/6CUQX98vha4",
+  "metadataUrl": "https://api.poly.pizza/v1/model/6CUQX98vha4",
+  "downloadUrl": "https://static.poly.pizza/298bd901-cb15-4d7a-b73f-c4f669dd0204.glb",
+  "thumbnailUrl": "https://static.poly.pizza/298bd901-cb15-4d7a-b73f-c4f669dd0204.webp",
+  "description": "Another asset for Triviacide - this one is a little drone that fires lasers.",
+  "category": "Transport",
+  "tags": [
+    "bee",
+    "honeybee",
+    "ali"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [
+    "drone"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Stinger Drone\" by Aaron Clifford, https://poly.pizza/m/6CUQX98vha4. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/6CUQX98vha4/model.glb",
+  "sourceMetadataFile": "models/6CUQX98vha4/source.json",
+  "bytes": 94904,
+  "sha256": "1ddb7e36fa9a0cf43e6a16689162e5f430fd73351b1a80d90f722c46465de334",
+  "apiTriangleCount": 1132,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 7,
+    "nodes": 7,
+    "materials": 6,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.521185+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

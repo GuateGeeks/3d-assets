@@ -1,0 +1,68 @@
+{
+  "id": "3oFkNid6ofx",
+  "title": "Carrot",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/3oFkNid6ofx",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3oFkNid6ofx",
+  "downloadUrl": "https://static.poly.pizza/ef21b5c7-934b-49f3-9763-771d176119ea.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ef21b5c7-934b-49f3-9763-771d176119ea.webp",
+  "description": "#root #vegetable #plant",
+  "category": "Food & Drink",
+  "tags": [
+    "root",
+    "vegetable",
+    "plant"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "carrot"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Carrot\" by Poly by Google, https://poly.pizza/m/3oFkNid6ofx. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3oFkNid6ofx/model.glb",
+  "sourceMetadataFile": "models/3oFkNid6ofx/source.json",
+  "bytes": 14888,
+  "sha256": "2bc765298aca931542d385e21e8e5194e5be71b4c20922f8d0f83a3bef439e08",
+  "apiTriangleCount": 598,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.442420+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

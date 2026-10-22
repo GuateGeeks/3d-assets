@@ -1,0 +1,59 @@
+{
+  "total": 2,
+  "results": [
+    {
+      "ID": "6yo90zr_4Z_",
+      "Title": "Chest",
+      "Description": "For more info, visit: http://modelybayer.blogspot.cz",
+      "Attribution": "\"Chest\" by Tomáš Bayer, https://poly.pizza/m/6yo90zr_4Z_. Licence at https://creativecommons.org/licenses/by/3.0",
+      "Thumbnail": "https://static.poly.pizza/2e2f93fd-ae9b-476b-923e-2e2f8b61540d.webp",
+      "Download": "https://static.poly.pizza/2e2f93fd-ae9b-476b-923e-2e2f8b61540d.glb",
+      "Tri Count": 749,
+      "Creator": {
+        "Username": "Tomáš Bayer",
+        "DPURL": "https://static.poly.pizza/dp%2Fnull.jpg"
+      },
+      "Uploaded": "2017-11-01T21:46:21.212Z",
+      "Category": "Objects",
+      "Tags": [
+        "thorax",
+        "dresser",
+        "pectus"
+      ],
+      "Licence": "CC-BY 3.0",
+      "Animated": false,
+      "Orbit": {
+        "phi": "1.31884",
+        "radius": "110%",
+        "theta": "0.87089"
+      }
+    },
+    {
+      "ID": "5l4tKhuqWIn",
+      "Title": "Chest",
+      "Description": "The lid is a separate object to allot it to open if using in a game.",
+      "Attribution": "\"Chest\" by Thomas DR, https://poly.pizza/m/5l4tKhuqWIn. Licence at https://creativecommons.org/licenses/by/3.0",
+      "Thumbnail": "https://static.poly.pizza/224b5670-4d22-4501-981c-ad6e275a68fb.webp",
+      "Download": "https://static.poly.pizza/224b5670-4d22-4501-981c-ad6e275a68fb.glb",
+      "Tri Count": 144,
+      "Creator": {
+        "Username": "Thomas DR",
+        "DPURL": "https://static.poly.pizza/dp%2Fnull.jpg"
+      },
+      "Uploaded": "2018-05-22T18:05:16.596Z",
+      "Category": "Objects",
+      "Tags": [
+        "thorax",
+        "dresser",
+        "pectus"
+      ],
+      "Licence": "CC-BY 3.0",
+      "Animated": false,
+      "Orbit": {
+        "phi": "1.41725",
+        "radius": "110%",
+        "theta": "3.70005"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "f35tumnmt3N",
+  "title": "Mushrooms",
+  "author": "Danni Bittman",
+  "authorUrl": "https://poly.pizza/u/Danni%20Bittman",
+  "sourceUrl": "https://poly.pizza/m/f35tumnmt3N",
+  "metadataUrl": "https://api.poly.pizza/v1/model/f35tumnmt3N",
+  "downloadUrl": "https://static.poly.pizza/cadd7ed0-d0c9-4578-a5b6-9898a6f5bea9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/cadd7ed0-d0c9-4578-a5b6-9898a6f5bea9.webp",
+  "description": null,
+  "category": "Nature",
+  "tags": [
+    "mushroom cloud",
+    "mushroom-shaped cloud",
+    "shrooms"
+  ],
+  "areas": [
+    "bosques-plantas"
+  ],
+  "queries": [
+    "mushroom"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Mushrooms\" by Danni Bittman, https://poly.pizza/m/f35tumnmt3N. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/f35tumnmt3N/model.glb",
+  "sourceMetadataFile": "models/f35tumnmt3N/source.json",
+  "bytes": 64820,
+  "sha256": "0758ceb47f8d105450944f6f920778ec84b4ac626fb82325a10f5766c45425c4",
+  "apiTriangleCount": 1200,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.167468+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "3HEc6LvqCJd",
+  "title": "Orange Coral",
+  "author": "Device Lab",
+  "authorUrl": "https://poly.pizza/u/Device%20Lab",
+  "sourceUrl": "https://poly.pizza/m/3HEc6LvqCJd",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3HEc6LvqCJd",
+  "downloadUrl": "https://static.poly.pizza/7296b910-cb6a-4384-b1fd-17f9bb03885f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/7296b910-cb6a-4384-b1fd-17f9bb03885f.webp",
+  "description": " ",
+  "category": "Other",
+  "tags": [
+    "ocean",
+    "sea",
+    "plant"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "coral"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Orange Coral\" by Device Lab, https://poly.pizza/m/3HEc6LvqCJd. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3HEc6LvqCJd/model.glb",
+  "sourceMetadataFile": "models/3HEc6LvqCJd/source.json",
+  "bytes": 160056,
+  "sha256": "905ef2c048ac0bda8de4d05eaedd2b428aae715b3d587a58e512b01972196b5d",
+  "apiTriangleCount": 2472,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.435551+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

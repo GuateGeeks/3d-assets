@@ -1,0 +1,70 @@
+{
+  "id": "bvw2d4XUKR",
+  "title": "Flat Solar Panel",
+  "author": "michu",
+  "authorUrl": "https://poly.pizza/u/michu",
+  "sourceUrl": "https://poly.pizza/m/bvw2d4XUKR",
+  "metadataUrl": "https://api.poly.pizza/v1/model/bvw2d4XUKR",
+  "downloadUrl": "https://static.poly.pizza/f42478ff-bce3-40f7-9373-aea898515abc.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f42478ff-bce3-40f7-9373-aea898515abc.webp",
+  "description": "simple flat solar panel",
+  "category": "Objects",
+  "tags": [
+    "solar panel",
+    "house",
+    "roof",
+    "decoration",
+    "sun"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [
+    "solar panel"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Flat Solar Panel\" by michu, https://poly.pizza/m/bvw2d4XUKR. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/bvw2d4XUKR/model.glb",
+  "sourceMetadataFile": "models/bvw2d4XUKR/source.json",
+  "bytes": 27012,
+  "sha256": "3673ac482418fb0f36b4defa24338a02857d33aaaccef8d5e70cc3c8b882d7c0",
+  "apiTriangleCount": 496,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.906675+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "5eb8E34txWa",
+  "title": "Traffic Light",
+  "author": "Jarlan Perez",
+  "authorUrl": "https://poly.pizza/u/Jarlan%20Perez",
+  "sourceUrl": "https://poly.pizza/m/5eb8E34txWa",
+  "metadataUrl": "https://api.poly.pizza/v1/model/5eb8E34txWa",
+  "downloadUrl": "https://static.poly.pizza/9a8dbbbf-19e4-4fdf-861d-88ce1428273d.glb",
+  "thumbnailUrl": "https://static.poly.pizza/9a8dbbbf-19e4-4fdf-861d-88ce1428273d.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "traffic signal",
+    "stoplight",
+    "amber"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [
+    "traffic light"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Traffic Light\" by Jarlan Perez, https://poly.pizza/m/5eb8E34txWa. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/5eb8E34txWa/model.glb",
+  "sourceMetadataFile": "models/5eb8E34txWa/source.json",
+  "bytes": 66324,
+  "sha256": "f878cd3e0fad5d070bb347f3c89c3f0decb28b09c81d64995c9d190a231691a6",
+  "apiTriangleCount": 1100,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 7,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.310515+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

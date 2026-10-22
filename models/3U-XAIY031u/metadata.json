@@ -1,0 +1,67 @@
+{
+  "id": "3U-XAIY031u",
+  "title": "Earth",
+  "author": "Zoe XR",
+  "authorUrl": "https://poly.pizza/u/Zoe%20XR",
+  "sourceUrl": "https://poly.pizza/m/3U-XAIY031u",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3U-XAIY031u",
+  "downloadUrl": "https://static.poly.pizza/741a8bcf-af42-49d4-927b-96d778524402.glb",
+  "thumbnailUrl": "https://static.poly.pizza/741a8bcf-af42-49d4-927b-96d778524402.webp",
+  "description": " ",
+  "category": "Other",
+  "tags": [
+    "world",
+    "Globe"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "earth"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Earth\" by Zoe XR, https://poly.pizza/m/3U-XAIY031u. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3U-XAIY031u/model.glb",
+  "sourceMetadataFile": "models/3U-XAIY031u/source.json",
+  "bytes": 71164,
+  "sha256": "bc4213000c078e7d28dbd44fa0c302d8861a726376f25b508d57c6cbadb19608",
+  "apiTriangleCount": 960,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.561517+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

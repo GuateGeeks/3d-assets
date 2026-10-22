@@ -1,0 +1,67 @@
+{
+  "id": "a948jjnuaL",
+  "title": "Door",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/a948jjnuaL",
+  "metadataUrl": "https://api.poly.pizza/v1/model/a948jjnuaL",
+  "downloadUrl": "https://static.poly.pizza/ef9c0c29-7571-4599-b9ad-c4f9279557a5.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ef9c0c29-7571-4599-b9ad-c4f9279557a5.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Door"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "door"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Door\" by Quaternius, https://poly.pizza/m/a948jjnuaL. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/a948jjnuaL/model.glb",
+  "sourceMetadataFile": "models/a948jjnuaL/source.json",
+  "bytes": 46136,
+  "sha256": "38c80d7012c4f930cbae01fdd9bf2a0d25d4dd70aeb687e32e37b01a35c72248",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 4,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:39.082673+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

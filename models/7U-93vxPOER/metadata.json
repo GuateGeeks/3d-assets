@@ -1,0 +1,67 @@
+{
+  "id": "7U-93vxPOER",
+  "title": "Piano",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/7U-93vxPOER",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7U-93vxPOER",
+  "downloadUrl": "https://static.poly.pizza/c217645d-d51f-4b36-8237-7bffe0e49029.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c217645d-d51f-4b36-8237-7bffe0e49029.webp",
+  "description": "#instrument #music #keyboard",
+  "category": "Objects",
+  "tags": [
+    "instrument",
+    "music",
+    "keyboard"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "piano"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Piano\" by jeremy, https://poly.pizza/m/7U-93vxPOER. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7U-93vxPOER/model.glb",
+  "sourceMetadataFile": "models/7U-93vxPOER/source.json",
+  "bytes": 103804,
+  "sha256": "a559db2005279807977be66cfffdf6e89d93aee2d3c7fe6f16333166bebe16ef",
+  "apiTriangleCount": 1936,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.729462+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

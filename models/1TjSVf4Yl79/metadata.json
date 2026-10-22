@@ -1,0 +1,67 @@
+{
+  "id": "1TjSVf4Yl79",
+  "title": "bird",
+  "author": "Kelli Ray",
+  "authorUrl": "https://poly.pizza/u/Kelli%20Ray",
+  "sourceUrl": "https://poly.pizza/m/1TjSVf4Yl79",
+  "metadataUrl": "https://api.poly.pizza/v1/model/1TjSVf4Yl79",
+  "downloadUrl": "https://static.poly.pizza/8b6c0acf-a117-483d-bb09-fd1bedfaf78c.glb",
+  "thumbnailUrl": "https://static.poly.pizza/8b6c0acf-a117-483d-bb09-fd1bedfaf78c.webp",
+  "description": "animal",
+  "category": "Animals",
+  "tags": [
+    "fowl",
+    "chick",
+    "shuttlecock"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "bird"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"bird\" by Kelli Ray, https://poly.pizza/m/1TjSVf4Yl79. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/1TjSVf4Yl79/model.glb",
+  "sourceMetadataFile": "models/1TjSVf4Yl79/source.json",
+  "bytes": 84840,
+  "sha256": "d75431f9fade3eecf03429bc2bc81a7e20392a756fdd86f2f8483560ae65f144",
+  "apiTriangleCount": 156,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 10,
+    "nodes": 10,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.248728+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

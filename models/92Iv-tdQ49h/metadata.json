@@ -1,0 +1,69 @@
+{
+  "id": "92Iv-tdQ49h",
+  "title": "Recycle bin",
+  "author": "Yuwei Xi",
+  "authorUrl": "https://poly.pizza/u/Yuwei%20Xi",
+  "sourceUrl": "https://poly.pizza/m/92Iv-tdQ49h",
+  "metadataUrl": "https://api.poly.pizza/v1/model/92Iv-tdQ49h",
+  "downloadUrl": "https://static.poly.pizza/d8863466-8833-4781-840d-bc45904c035c.glb",
+  "thumbnailUrl": "https://static.poly.pizza/d8863466-8833-4781-840d-bc45904c035c.webp",
+  "description": null,
+  "category": "Furniture & Decor",
+  "tags": [
+    "icon",
+    "can",
+    "recycling"
+  ],
+  "areas": [
+    "ambiente-sostenibilidad"
+  ],
+  "queries": [
+    "recycle"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Recycle bin\" by Yuwei Xi, https://poly.pizza/m/92Iv-tdQ49h. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/92Iv-tdQ49h/model.glb",
+  "sourceMetadataFile": "models/92Iv-tdQ49h/source.json",
+  "bytes": 54552,
+  "sha256": "431cfe575255ddec7713c7e57e5ee169feca03808e6e5678db221b25591c0cce",
+  "apiTriangleCount": 536,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 14,
+    "nodes": 14,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.263375+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

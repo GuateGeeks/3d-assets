@@ -1,0 +1,67 @@
+{
+  "id": "6ijQclm8jxw",
+  "title": "server rack",
+  "author": "Jeremy Eyring",
+  "authorUrl": "https://poly.pizza/u/Jeremy%20Eyring",
+  "sourceUrl": "https://poly.pizza/m/6ijQclm8jxw",
+  "metadataUrl": "https://api.poly.pizza/v1/model/6ijQclm8jxw",
+  "downloadUrl": "https://static.poly.pizza/a9b585dc-68f4-4a3b-a6b2-ec729cb92aa3.glb",
+  "thumbnailUrl": "https://static.poly.pizza/a9b585dc-68f4-4a3b-a6b2-ec729cb92aa3.webp",
+  "description": null,
+  "category": "Other",
+  "tags": [
+    "tray",
+    "hit",
+    "chase"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [
+    "server"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"server rack\" by Jeremy Eyring, https://poly.pizza/m/6ijQclm8jxw. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/6ijQclm8jxw/model.glb",
+  "sourceMetadataFile": "models/6ijQclm8jxw/source.json",
+  "bytes": 1822516,
+  "sha256": "95f6f779dcbf40c05ee29670545634deff2f04c64829e7bb90303304dbf93d78",
+  "apiTriangleCount": 760,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 17,
+    "nodes": 17,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.066775+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

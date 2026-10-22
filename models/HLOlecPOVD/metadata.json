@@ -1,0 +1,66 @@
+{
+  "id": "HLOlecPOVD",
+  "title": "Saw Blade",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/HLOlecPOVD",
+  "metadataUrl": "https://api.poly.pizza/v1/model/HLOlecPOVD",
+  "downloadUrl": "https://static.poly.pizza/943d61f9-8656-4b25-8782-c57b71be3e1b.glb",
+  "thumbnailUrl": "https://static.poly.pizza/943d61f9-8656-4b25-8782-c57b71be3e1b.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "buzz saw"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [
+    "saw"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Saw Blade\" by Quaternius, https://poly.pizza/m/HLOlecPOVD. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/HLOlecPOVD/model.glb",
+  "sourceMetadataFile": "models/HLOlecPOVD/source.json",
+  "bytes": 38900,
+  "sha256": "2c17d7fda6d3480fba9098fcfbbef765130ab22acba52728f2abc0466799552a",
+  "apiTriangleCount": 1240,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.906466+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

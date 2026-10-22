@@ -1,0 +1,67 @@
+{
+  "id": "dwZRvbXlAus",
+  "title": "Clock",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/dwZRvbXlAus",
+  "metadataUrl": "https://api.poly.pizza/v1/model/dwZRvbXlAus",
+  "downloadUrl": "https://static.poly.pizza/373e3e08-4bc8-47f2-8b9b-f7ddeef2f8f2.glb",
+  "thumbnailUrl": "https://static.poly.pizza/373e3e08-4bc8-47f2-8b9b-f7ddeef2f8f2.webp",
+  "description": "#clock #analog #time",
+  "category": "Objects",
+  "tags": [
+    "clock",
+    "analog",
+    "time"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "clock"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Clock\" by Poly by Google, https://poly.pizza/m/dwZRvbXlAus. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/dwZRvbXlAus/model.glb",
+  "sourceMetadataFile": "models/dwZRvbXlAus/source.json",
+  "bytes": 61576,
+  "sha256": "b2b2265df5278da819d898317da252c1aea8f7b97f048ef5446267f7d61bc618",
+  "apiTriangleCount": 516,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 4,
+    "nodes": 4,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.369694+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

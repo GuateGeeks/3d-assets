@@ -1,0 +1,76 @@
+{
+  "id": "ZPlQHwiqTp",
+  "title": "Large Electric Generator",
+  "author": "miro_art_studio",
+  "authorUrl": "https://poly.pizza/u/miro_art_studio",
+  "sourceUrl": "https://poly.pizza/m/ZPlQHwiqTp",
+  "metadataUrl": "https://api.poly.pizza/v1/model/ZPlQHwiqTp",
+  "downloadUrl": "https://static.poly.pizza/e81145eb-091e-4803-9523-8611bd7e24e4.glb",
+  "thumbnailUrl": "https://static.poly.pizza/e81145eb-091e-4803-9523-8611bd7e24e4.webp",
+  "description": "A big industrial-factory power generator because i couldn't find a one🤷‍♀️",
+  "category": "Objects",
+  "tags": [
+    "factory",
+    "power generator",
+    "elctrecity",
+    "machinery",
+    "engine",
+    "industrial",
+    "diesel generator"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [
+    "electric motor"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Large Electric Generator\" by miro_art_studio, https://poly.pizza/m/ZPlQHwiqTp. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/ZPlQHwiqTp/model.glb",
+  "sourceMetadataFile": "models/ZPlQHwiqTp/source.json",
+  "bytes": 581452,
+  "sha256": "4f3a1207eeed03f75a351e9d4de1a411213402328d0bf1258621e0c4272b8859",
+  "apiTriangleCount": 15786,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 9,
+    "nodes": 10,
+    "materials": 6,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:33.643368+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "requested-object-not-confirmed"
+  ],
+  "unfulfilledQueries": [
+    "electric motor"
+  ]
+}

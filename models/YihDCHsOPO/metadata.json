@@ -1,0 +1,71 @@
+{
+  "id": "YihDCHsOPO",
+  "title": "Brain",
+  "author": "J-Toastie",
+  "authorUrl": "https://poly.pizza/u/J-Toastie",
+  "sourceUrl": "https://poly.pizza/m/YihDCHsOPO",
+  "metadataUrl": "https://api.poly.pizza/v1/model/YihDCHsOPO",
+  "downloadUrl": "https://static.poly.pizza/ced5c1af-0289-48ef-9622-ee4ba5382141.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ced5c1af-0289-48ef-9622-ee4ba5382141.webp",
+  "description": "the soft, mushy, wrinkly thing inside your head",
+  "category": "Objects",
+  "tags": [
+    "Brain",
+    "Organ",
+    "Human"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [
+    "brain",
+    "human brain"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Brain\" by J-Toastie, https://poly.pizza/m/YihDCHsOPO. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/YihDCHsOPO/model.glb",
+  "sourceMetadataFile": "models/YihDCHsOPO/source.json",
+  "bytes": 121876,
+  "sha256": "e5228d0a5d524c6418787d570db5d1aea9e8a7f8ac5cd5497b1152d199c440e7",
+  "apiTriangleCount": null,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.797434+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "anatomy-accuracy-review"
+  ],
+  "unfulfilledQueries": []
+}

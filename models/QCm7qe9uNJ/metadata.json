@@ -1,0 +1,92 @@
+{
+  "id": "QCm7qe9uNJ",
+  "title": "Animated Robot",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/QCm7qe9uNJ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/QCm7qe9uNJ",
+  "downloadUrl": "https://static.poly.pizza/7d95dbce-8c73-489b-8298-f430b1f0dbdf.glb",
+  "thumbnailUrl": "https://static.poly.pizza/7d95dbce-8c73-489b-8298-f430b1f0dbdf.webp",
+  "description": " ",
+  "category": "People & Characters",
+  "tags": [
+    "Machine",
+    "AI",
+    "NPC",
+    "robot",
+    "android",
+    "chraracter"
+  ],
+  "areas": [
+    "personajes-animacion",
+    "robotica-electronica"
+  ],
+  "queries": [
+    "animated robot",
+    "robot"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Animated Robot\" by Quaternius, https://poly.pizza/m/QCm7qe9uNJ. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/QCm7qe9uNJ/model.glb",
+  "sourceMetadataFile": "models/QCm7qe9uNJ/source.json",
+  "bytes": 401024,
+  "sha256": "54f1a6999cca701cdc2f8fb67bcd9a283e1154cb80cac356f031bed7c2e74cbe",
+  "apiTriangleCount": 1425,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 14,
+    "nodes": 74,
+    "materials": 5,
+    "skins": 2,
+    "joints": 86,
+    "rigged": true,
+    "animated": true,
+    "animations": 14,
+    "animationNames": [
+      "RobotArmature|Robot_Dance",
+      "RobotArmature|Robot_Death",
+      "RobotArmature|Robot_Idle",
+      "RobotArmature|Robot_Jump",
+      "RobotArmature|Robot_No",
+      "RobotArmature|Robot_Punch",
+      "RobotArmature|Robot_Running",
+      "RobotArmature|Robot_Sitting",
+      "RobotArmature|Robot_Standing",
+      "RobotArmature|Robot_ThumbsUp",
+      "RobotArmature|Robot_Walking",
+      "RobotArmature|Robot_WalkJump",
+      "RobotArmature|Robot_Wave",
+      "RobotArmature|Robot_Yes"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:21.708258+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

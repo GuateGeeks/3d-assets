@@ -1,0 +1,66 @@
+{
+  "id": "YAghI6GBls",
+  "title": "Cube Crate",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/YAghI6GBls",
+  "metadataUrl": "https://api.poly.pizza/v1/model/YAghI6GBls",
+  "downloadUrl": "https://static.poly.pizza/9b0c7d9b-344c-48d2-9a49-a59df0f4f838.glb",
+  "thumbnailUrl": "https://static.poly.pizza/9b0c7d9b-344c-48d2-9a49-a59df0f4f838.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Label",
+    "Crate"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "cube"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Cube Crate\" by Quaternius, https://poly.pizza/m/YAghI6GBls. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/YAghI6GBls/model.glb",
+  "sourceMetadataFile": "models/YAghI6GBls/source.json",
+  "bytes": 12960,
+  "sha256": "e0c4c5946b53ba314ec6e22bdb5d3329e4a2f0950b3c477a88e0d456d85baea8",
+  "apiTriangleCount": 264,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.855277+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

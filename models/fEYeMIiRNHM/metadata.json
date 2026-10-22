@@ -1,0 +1,68 @@
+{
+  "id": "fEYeMIiRNHM",
+  "title": "Laptop",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/fEYeMIiRNHM",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fEYeMIiRNHM",
+  "downloadUrl": "https://static.poly.pizza/76869dc6-0d86-4e64-8825-57639ea0bc4a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/76869dc6-0d86-4e64-8825-57639ea0bc4a.webp",
+  "description": "#PC #computer #mobile #portable",
+  "category": "Other",
+  "tags": [
+    "PC",
+    "computer",
+    "mobile",
+    "portable"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [
+    "laptop"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Laptop\" by Poly by Google, https://poly.pizza/m/fEYeMIiRNHM. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fEYeMIiRNHM/model.glb",
+  "sourceMetadataFile": "models/fEYeMIiRNHM/source.json",
+  "bytes": 142884,
+  "sha256": "12cd7bc8a8d4aa6ee0a8d0dd11320ef05986144e43eeb3f35d64a78389fcf803",
+  "apiTriangleCount": 1084,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 77,
+    "nodes": 77,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:33.975577+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

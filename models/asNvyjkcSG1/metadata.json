@@ -1,0 +1,69 @@
+{
+  "id": "asNvyjkcSG1",
+  "title": "Hospital",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/asNvyjkcSG1",
+  "metadataUrl": "https://api.poly.pizza/v1/model/asNvyjkcSG1",
+  "downloadUrl": "https://static.poly.pizza/cbc9b41c-5fc0-4e6b-9bc6-1d5aa43ba2fd.glb",
+  "thumbnailUrl": "https://static.poly.pizza/cbc9b41c-5fc0-4e6b-9bc6-1d5aa43ba2fd.webp",
+  "description": "#hospital #clinic #building #structure",
+  "category": "Buildings",
+  "tags": [
+    "hospital",
+    "clinic",
+    "building",
+    "structure"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [
+    "hospital"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Hospital\" by Poly by Google, https://poly.pizza/m/asNvyjkcSG1. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/asNvyjkcSG1/model.glb",
+  "sourceMetadataFile": "models/asNvyjkcSG1/source.json",
+  "bytes": 726804,
+  "sha256": "7a49a38f6b6729497906d4198a08a2b5de99790dc5ebb31451f477ca4df38caf",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.952520+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

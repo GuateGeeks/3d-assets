@@ -1,0 +1,87 @@
+{
+  "id": "yq5ATpujSt",
+  "title": "Skeleton",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/yq5ATpujSt",
+  "metadataUrl": "https://api.poly.pizza/v1/model/yq5ATpujSt",
+  "downloadUrl": "https://static.poly.pizza/a089d0ae-5a26-448b-b038-4884d64099e3.glb",
+  "thumbnailUrl": "https://static.poly.pizza/a089d0ae-5a26-448b-b038-4884d64099e3.webp",
+  "description": null,
+  "category": "People & Characters",
+  "tags": [
+    "Baby",
+    "Person",
+    "Face",
+    "Head"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [
+    "skeleton"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Skeleton\" by Quaternius, https://poly.pizza/m/yq5ATpujSt. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/yq5ATpujSt/model.glb",
+  "sourceMetadataFile": "models/yq5ATpujSt/source.json",
+  "bytes": 791608,
+  "sha256": "80be43fa7bd961faef44fa82a8067048a48ba329d65fed663a184ee73a18aacb",
+  "apiTriangleCount": 14260,
+  "apiAnimated": true,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 77,
+    "materials": 2,
+    "skins": 1,
+    "joints": 58,
+    "rigged": true,
+    "animated": true,
+    "animations": 15,
+    "animationNames": [
+      "CharacterArmature|CharacterArmature|CharacterArmature|Death|CharacterArmature|Dea",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Duck|CharacterArmature|Duck",
+      "CharacterArmature|CharacterArmature|CharacterArmature|HitReact|CharacterArmature|",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Idle|CharacterArmature|Idle",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Jump_Idlea|CharacterArmatur",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Jump_Idle|CharacterArmature",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Jump_Land|CharacterArmature",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Jump|CharacterArmature|Jump",
+      "CharacterArmature|CharacterArmature|CharacterArmature|No|CharacterArmature|No",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Punch|CharacterArmature|Pun",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Run|CharacterArmature|Run",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Sword|CharacterArmature|Swo",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Walk|CharacterArmature|Walk",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Wave|CharacterArmature|Wave",
+      "CharacterArmature|CharacterArmature|CharacterArmature|Yes|CharacterArmature|Yes"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.548546+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "anatomy-accuracy-review"
+  ],
+  "unfulfilledQueries": []
+}

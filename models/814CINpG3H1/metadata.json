@@ -1,0 +1,66 @@
+{
+  "id": "814CINpG3H1",
+  "title": "Butterfly",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/814CINpG3H1",
+  "metadataUrl": "https://api.poly.pizza/v1/model/814CINpG3H1",
+  "downloadUrl": "https://static.poly.pizza/d2ee416f-470a-4fa0-b512-60e2b5e0d920.glb",
+  "thumbnailUrl": "https://static.poly.pizza/d2ee416f-470a-4fa0-b512-60e2b5e0d920.webp",
+  "description": "#insect #moth ",
+  "category": "Animals",
+  "tags": [
+    "insect",
+    "moth"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "butterfly"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Butterfly\" by Poly by Google, https://poly.pizza/m/814CINpG3H1. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/814CINpG3H1/model.glb",
+  "sourceMetadataFile": "models/814CINpG3H1/source.json",
+  "bytes": 20800,
+  "sha256": "e619948e664848a5f8d61e6f032a1b6398dd7a5505d17f8220a6d97619bf9da6",
+  "apiTriangleCount": 618,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.536219+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

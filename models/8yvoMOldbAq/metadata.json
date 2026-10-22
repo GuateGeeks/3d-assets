@@ -1,0 +1,68 @@
+{
+  "id": "8yvoMOldbAq",
+  "title": "TerrainSnow01",
+  "author": "Aimé Tribolet",
+  "authorUrl": "https://poly.pizza/u/Aim%C3%A9%20Tribolet",
+  "sourceUrl": "https://poly.pizza/m/8yvoMOldbAq",
+  "metadataUrl": "https://api.poly.pizza/v1/model/8yvoMOldbAq",
+  "downloadUrl": "https://static.poly.pizza/b626bb26-02ae-4333-87f5-8b8f303d8731.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b626bb26-02ae-4333-87f5-8b8f303d8731.webp",
+  "description": "Terrain with rocks and snow\n(Made for MozFest London 2017)",
+  "category": "Scenes & Levels",
+  "tags": [
+    "rocks",
+    "mountain"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "terrain"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"TerrainSnow01\" by Aimé Tribolet, https://poly.pizza/m/8yvoMOldbAq. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/8yvoMOldbAq/model.glb",
+  "sourceMetadataFile": "models/8yvoMOldbAq/source.json",
+  "bytes": 1881980,
+  "sha256": "58ddf9092ef86d168dc4ec3a3f31ae997d131772ecc39676a93235bdd2e718d2",
+  "apiTriangleCount": 21070,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 317,
+    "nodes": 317,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.856759+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

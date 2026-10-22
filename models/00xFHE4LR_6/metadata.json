@@ -1,0 +1,69 @@
+{
+  "id": "00xFHE4LR_6",
+  "title": "Nice Door",
+  "author": "Wesley Thompson",
+  "authorUrl": "https://poly.pizza/u/Wesley%20Thompson",
+  "sourceUrl": "https://poly.pizza/m/00xFHE4LR_6",
+  "metadataUrl": "https://api.poly.pizza/v1/model/00xFHE4LR_6",
+  "downloadUrl": "https://static.poly.pizza/3d0ad2c5-5260-41be-a64a-d693c9d4cac9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/3d0ad2c5-5260-41be-a64a-d693c9d4cac9.webp",
+  "description": null,
+  "category": "Other",
+  "tags": [
+    "fast",
+    "ned",
+    "catch"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "door"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Nice Door\" by Wesley Thompson, https://poly.pizza/m/00xFHE4LR_6. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/00xFHE4LR_6/model.glb",
+  "sourceMetadataFile": "models/00xFHE4LR_6/source.json",
+  "bytes": 54588,
+  "sha256": "64ee7e9951617bf67351538690e219aa98e5902a3e08e3338360491a4a46d60e",
+  "apiTriangleCount": 756,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:39.146084+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

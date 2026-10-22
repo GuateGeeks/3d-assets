@@ -1,0 +1,67 @@
+{
+  "id": "9IWGn64Fnqo",
+  "title": "Pepperoni pizza",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/9IWGn64Fnqo",
+  "metadataUrl": "https://api.poly.pizza/v1/model/9IWGn64Fnqo",
+  "downloadUrl": "https://static.poly.pizza/ae6120e9-f8a7-4ec4-905f-ea17cbfacbcc.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ae6120e9-f8a7-4ec4-905f-ea17cbfacbcc.webp",
+  "description": "#cheese #italian ",
+  "category": "Food & Drink",
+  "tags": [
+    "cheese",
+    "italian",
+    ""
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "pizza"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pepperoni pizza\" by Poly by Google, https://poly.pizza/m/9IWGn64Fnqo. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/9IWGn64Fnqo/model.glb",
+  "sourceMetadataFile": "models/9IWGn64Fnqo/source.json",
+  "bytes": 3240904,
+  "sha256": "2158f67c426a0af82940f421385c1429a96712553e30a6d037dfd3f260651a45",
+  "apiTriangleCount": 2192,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.430314+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

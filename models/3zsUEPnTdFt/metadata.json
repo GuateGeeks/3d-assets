@@ -1,0 +1,69 @@
+{
+  "id": "3zsUEPnTdFt",
+  "title": "Ear of corn",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/3zsUEPnTdFt",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3zsUEPnTdFt",
+  "downloadUrl": "https://static.poly.pizza/8168ff10-9727-40b1-806e-ea7f994db036.glb",
+  "thumbnailUrl": "https://static.poly.pizza/8168ff10-9727-40b1-806e-ea7f994db036.webp",
+  "description": "#plant #food #starch #husk",
+  "category": "Nature",
+  "tags": [
+    "plant",
+    "food",
+    "starch",
+    "husk"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "corn"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Ear of corn\" by Poly by Google, https://poly.pizza/m/3zsUEPnTdFt. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3zsUEPnTdFt/model.glb",
+  "sourceMetadataFile": "models/3zsUEPnTdFt/source.json",
+  "bytes": 6403912,
+  "sha256": "1279b5f47e5add78d307041cd7ec7511cf6e1df0ab0a373aeb9f8a35bae4b6ee",
+  "apiTriangleCount": 1168,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:29.990771+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

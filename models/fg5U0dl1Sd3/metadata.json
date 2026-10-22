@@ -1,0 +1,67 @@
+{
+  "id": "fg5U0dl1Sd3",
+  "title": "Flower",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/fg5U0dl1Sd3",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fg5U0dl1Sd3",
+  "downloadUrl": "https://static.poly.pizza/42e07323-89d3-4b3f-bc59-32e11f3ab981.glb",
+  "thumbnailUrl": "https://static.poly.pizza/42e07323-89d3-4b3f-bc59-32e11f3ab981.webp",
+  "description": null,
+  "category": "Nature",
+  "tags": [
+    "bloom",
+    "blossom",
+    "efflorescence"
+  ],
+  "areas": [
+    "bosques-plantas"
+  ],
+  "queries": [
+    "flower"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Flower\" by Poly by Google, https://poly.pizza/m/fg5U0dl1Sd3. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fg5U0dl1Sd3/model.glb",
+  "sourceMetadataFile": "models/fg5U0dl1Sd3/source.json",
+  "bytes": 282352,
+  "sha256": "42146acdabfced0a445ebd2828ddd0290f9095ff9802c4c745c72ba0f11e3889",
+  "apiTriangleCount": 1160,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.832972+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

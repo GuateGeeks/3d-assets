@@ -1,0 +1,67 @@
+{
+  "id": "dcuaH6bEkwn",
+  "title": "Omax compound microscope",
+  "author": "3Donimus",
+  "authorUrl": "https://poly.pizza/u/3Donimus",
+  "sourceUrl": "https://poly.pizza/m/dcuaH6bEkwn",
+  "metadataUrl": "https://api.poly.pizza/v1/model/dcuaH6bEkwn",
+  "downloadUrl": "https://static.poly.pizza/97dca3fe-24d1-495a-996b-7b5e472afcad.glb",
+  "thumbnailUrl": "https://static.poly.pizza/97dca3fe-24d1-495a-996b-7b5e472afcad.webp",
+  "description": "An Omax Binocular Compound Microscope. I thought it would be a great challenge to model, plus one day I would love to own one, specially a digital one. Hope you like it.\n\nBuilt with Blocks 4.0. Great update!",
+  "category": "Other",
+  "tags": [
+    "microprojector",
+    "triplet",
+    "ferrite"
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [
+    "microscope"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Omax compound microscope\" by 3Donimus, https://poly.pizza/m/dcuaH6bEkwn. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/dcuaH6bEkwn/model.glb",
+  "sourceMetadataFile": "models/dcuaH6bEkwn/source.json",
+  "bytes": 2261532,
+  "sha256": "cf1059ba5bb9675ec82f5757dfd679bdcd6fe696a14764380e0faacaacb98a2a",
+  "apiTriangleCount": 20580,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 108,
+    "nodes": 108,
+    "materials": 9,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.065752+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

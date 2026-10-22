@@ -1,0 +1,69 @@
+{
+  "id": "w9VBrh7Nz0",
+  "title": "Mountains",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/w9VBrh7Nz0",
+  "metadataUrl": "https://api.poly.pizza/v1/model/w9VBrh7Nz0",
+  "downloadUrl": "https://static.poly.pizza/37567fee-ed12-4122-a1ae-ffe14b378739.glb",
+  "thumbnailUrl": "https://static.poly.pizza/37567fee-ed12-4122-a1ae-ffe14b378739.webp",
+  "description": null,
+  "category": "Nature",
+  "tags": [
+    "Plastic Bag",
+    "Plastic",
+    "Nature",
+    "Outdoors"
+  ],
+  "areas": [
+    "tierra-geografia"
+  ],
+  "queries": [
+    "mountain"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Mountains\" by Quaternius, https://poly.pizza/m/w9VBrh7Nz0. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/w9VBrh7Nz0/model.glb",
+  "sourceMetadataFile": "models/w9VBrh7Nz0/source.json",
+  "bytes": 154432,
+  "sha256": "48d973fc0c74acad75c995d508be05408af10611afc6d6f8096abdf3e0642ce7",
+  "apiTriangleCount": 2008,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.967138+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ah89Y79JdT",
+  "title": "Solar Panel",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/ah89Y79JdT",
+  "metadataUrl": "https://api.poly.pizza/v1/model/ah89Y79JdT",
+  "downloadUrl": "https://static.poly.pizza/7a7d151e-b40a-4f5f-9372-7d5c9fb18072.glb",
+  "thumbnailUrl": "https://static.poly.pizza/7a7d151e-b40a-4f5f-9372-7d5c9fb18072.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Electrical Device"
+  ],
+  "areas": [
+    "fisica-energia",
+    "ambiente-sostenibilidad"
+  ],
+  "queries": [
+    "solar panel",
+    "solar"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Solar Panel\" by Quaternius, https://poly.pizza/m/ah89Y79JdT. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/ah89Y79JdT/model.glb",
+  "sourceMetadataFile": "models/ah89Y79JdT/source.json",
+  "bytes": 43724,
+  "sha256": "2e7d429ad216bb8d2ac08d6d11c4d56359264ee1067d8b32726c387f284dd2ff",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.835753+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

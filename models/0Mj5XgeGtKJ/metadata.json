@@ -1,0 +1,67 @@
+{
+  "id": "0Mj5XgeGtKJ",
+  "title": "Trumpet",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/0Mj5XgeGtKJ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/0Mj5XgeGtKJ",
+  "downloadUrl": "https://static.poly.pizza/18e3c8ce-1e7a-47c0-9fb3-4d27898d00bd.glb",
+  "thumbnailUrl": "https://static.poly.pizza/18e3c8ce-1e7a-47c0-9fb3-4d27898d00bd.webp",
+  "description": "#instrument #band #jazz #brass",
+  "category": "Objects",
+  "tags": [
+    "Instrument",
+    "Brass",
+    "Musical"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "trumpet"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Trumpet\" by jeremy, https://poly.pizza/m/0Mj5XgeGtKJ. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/0Mj5XgeGtKJ/model.glb",
+  "sourceMetadataFile": "models/0Mj5XgeGtKJ/source.json",
+  "bytes": 36320,
+  "sha256": "0129e53495495ba4a2cf19927a6e4d835b51e163db6faf370fe4379e37b2704f",
+  "apiTriangleCount": 720,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.924331+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

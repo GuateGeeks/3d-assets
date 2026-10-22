@@ -1,0 +1,66 @@
+{
+  "id": "aPwr5p1dluw",
+  "title": "Keyboard",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/aPwr5p1dluw",
+  "metadataUrl": "https://api.poly.pizza/v1/model/aPwr5p1dluw",
+  "downloadUrl": "https://static.poly.pizza/b924dfb3-e914-4b88-bd2e-84860a9aad86.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b924dfb3-e914-4b88-bd2e-84860a9aad86.webp",
+  "description": "#input #computer",
+  "category": "Other",
+  "tags": [
+    "input",
+    "computer"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [
+    "keyboard"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Keyboard\" by Poly by Google, https://poly.pizza/m/aPwr5p1dluw. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/aPwr5p1dluw/model.glb",
+  "sourceMetadataFile": "models/aPwr5p1dluw/source.json",
+  "bytes": 44712,
+  "sha256": "aa90bcb631d5fe37761f67b5ec2d9f98e5da21bc19aa5e410fe8b30c72407070",
+  "apiTriangleCount": 2224,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:33.894402+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

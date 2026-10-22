@@ -1,0 +1,65 @@
+{
+  "id": "6Y6MQye_n1h",
+  "title": "Dog in plane",
+  "author": "Nikki Morin",
+  "authorUrl": "https://poly.pizza/u/Nikki%20Morin",
+  "sourceUrl": "https://poly.pizza/m/6Y6MQye_n1h",
+  "metadataUrl": "https://api.poly.pizza/v1/model/6Y6MQye_n1h",
+  "downloadUrl": "https://static.poly.pizza/86303311-0009-4e8f-8cd8-8d152b02f551.glb",
+  "thumbnailUrl": "https://static.poly.pizza/86303311-0009-4e8f-8cd8-8d152b02f551.webp",
+  "description": " ",
+  "category": "Animals",
+  "tags": [
+    "wisdom"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "dog"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Dog in plane\" by Nikki Morin, https://poly.pizza/m/6Y6MQye_n1h. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/6Y6MQye_n1h/model.glb",
+  "sourceMetadataFile": "models/6Y6MQye_n1h/source.json",
+  "bytes": 83812,
+  "sha256": "ec3075b49b207c0fc33578f4a5e87217509f61515a780df1457b1b5c66e2022e",
+  "apiTriangleCount": 2544,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:21.957995+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

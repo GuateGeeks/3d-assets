@@ -1,0 +1,67 @@
+{
+  "id": "b6USSQA731J",
+  "title": "Bicycle",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/b6USSQA731J",
+  "metadataUrl": "https://api.poly.pizza/v1/model/b6USSQA731J",
+  "downloadUrl": "https://static.poly.pizza/b88ea7fb-e4d2-49fe-a372-448b36fc2a69.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b88ea7fb-e4d2-49fe-a372-448b36fc2a69.webp",
+  "description": "#bike",
+  "category": "Transport",
+  "tags": [
+    "bike"
+  ],
+  "areas": [
+    "transporte-movilidad"
+  ],
+  "queries": [
+    "bicycle"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Bicycle\" by Poly by Google, https://poly.pizza/m/b6USSQA731J. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/b6USSQA731J/model.glb",
+  "sourceMetadataFile": "models/b6USSQA731J/source.json",
+  "bytes": 231324,
+  "sha256": "1ea41b6121ca7835bc75748dafa38a39f56efe34e18f2cbc36de780367f0751f",
+  "apiTriangleCount": 3712,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.610905+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

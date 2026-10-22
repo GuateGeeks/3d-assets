@@ -1,0 +1,69 @@
+{
+  "id": "bcdkW7a4AG5",
+  "title": "Magnifying glass",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/bcdkW7a4AG5",
+  "metadataUrl": "https://api.poly.pizza/v1/model/bcdkW7a4AG5",
+  "downloadUrl": "https://static.poly.pizza/ac7237c5-0c6f-44e8-8d0b-11b7e9722a67.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ac7237c5-0c6f-44e8-8d0b-11b7e9722a67.webp",
+  "description": "#tool #lens #handheld #zoom",
+  "category": "Objects",
+  "tags": [
+    "tool",
+    "lens",
+    "handheld",
+    "zoom",
+    "icon"
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [
+    "magnifying glass"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Magnifying glass\" by Poly by Google, https://poly.pizza/m/bcdkW7a4AG5. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/bcdkW7a4AG5/model.glb",
+  "sourceMetadataFile": "models/bcdkW7a4AG5/source.json",
+  "bytes": 41136,
+  "sha256": "de4d7fb702c0233370ae53b596fe381b7b44236cb8a9e75f024cdc30aeae01a3",
+  "apiTriangleCount": 880,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 4,
+    "nodes": 4,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:25.268114+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

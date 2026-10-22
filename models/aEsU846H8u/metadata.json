@@ -1,0 +1,67 @@
+{
+  "id": "aEsU846H8u",
+  "title": "Platform",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/aEsU846H8u",
+  "metadataUrl": "https://api.poly.pizza/v1/model/aEsU846H8u",
+  "downloadUrl": "https://static.poly.pizza/8debb92d-1ef5-429b-94d0-02c0b76a2a40.glb",
+  "thumbnailUrl": "https://static.poly.pizza/8debb92d-1ef5-429b-94d0-02c0b76a2a40.webp",
+  "description": null,
+  "category": "Other",
+  "tags": [
+    "Platformer"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "platform"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Platform\" by Quaternius, https://poly.pizza/m/aEsU846H8u. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/aEsU846H8u/model.glb",
+  "sourceMetadataFile": "models/aEsU846H8u/source.json",
+  "bytes": 27932,
+  "sha256": "9399dbedc1225e0702d79f5242ea1ce224c93600948d7f25461b29ee417d189b",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.690977+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

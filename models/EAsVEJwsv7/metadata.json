@@ -1,0 +1,68 @@
+{
+  "id": "EAsVEJwsv7",
+  "title": "Skull",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/EAsVEJwsv7",
+  "metadataUrl": "https://api.poly.pizza/v1/model/EAsVEJwsv7",
+  "downloadUrl": "https://static.poly.pizza/ed9c61ec-7112-4d2d-b980-4975983300f7.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ed9c61ec-7112-4d2d-b980-4975983300f7.webp",
+  "description": " ",
+  "category": "Clutter",
+  "tags": [
+    "skull"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [
+    "human skull"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Skull\" by Quaternius, https://poly.pizza/m/EAsVEJwsv7. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/EAsVEJwsv7/model.glb",
+  "sourceMetadataFile": "models/EAsVEJwsv7/source.json",
+  "bytes": 76860,
+  "sha256": "16ce719ed8770c9cf0a9d0680be5e727d398358f519c6d6792349b0c82f5aeb7",
+  "apiTriangleCount": 1392,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:29.114690+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "anatomy-accuracy-review"
+  ],
+  "unfulfilledQueries": []
+}

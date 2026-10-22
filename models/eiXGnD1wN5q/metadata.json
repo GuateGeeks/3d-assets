@@ -1,0 +1,68 @@
+{
+  "id": "eiXGnD1wN5q",
+  "title": "Tractor",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/eiXGnD1wN5q",
+  "metadataUrl": "https://api.poly.pizza/v1/model/eiXGnD1wN5q",
+  "downloadUrl": "https://static.poly.pizza/060b24b3-5f9d-4cf7-8a7b-a71cac5d77be.glb",
+  "thumbnailUrl": "https://static.poly.pizza/060b24b3-5f9d-4cf7-8a7b-a71cac5d77be.webp",
+  "description": "#vehicle #agriculture #farming",
+  "category": "Transport",
+  "tags": [
+    "vehicle",
+    "agriculture",
+    "farming"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [
+    "tractor"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Tractor\" by Poly by Google, https://poly.pizza/m/eiXGnD1wN5q. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/eiXGnD1wN5q/model.glb",
+  "sourceMetadataFile": "models/eiXGnD1wN5q/source.json",
+  "bytes": 1959224,
+  "sha256": "49833685f8f4e5ba626d746114316327d4d6888cec062767d90c8152fe4154fe",
+  "apiTriangleCount": 2766,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.746417+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

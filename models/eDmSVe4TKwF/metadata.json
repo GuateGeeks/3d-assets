@@ -1,0 +1,68 @@
+{
+  "id": "eDmSVe4TKwF",
+  "title": "Dog",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/eDmSVe4TKwF",
+  "metadataUrl": "https://api.poly.pizza/v1/model/eDmSVe4TKwF",
+  "downloadUrl": "https://static.poly.pizza/c19e2b0b-db36-4713-96bb-8964e3cb05a9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c19e2b0b-db36-4713-96bb-8964e3cb05a9.webp",
+  "description": "#canine #mammal #pet #bark",
+  "category": "Animals",
+  "tags": [
+    "canine",
+    "mammal",
+    "pet",
+    "bark"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "dog"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Dog\" by Poly by Google, https://poly.pizza/m/eDmSVe4TKwF. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/eDmSVe4TKwF/model.glb",
+  "sourceMetadataFile": "models/eDmSVe4TKwF/source.json",
+  "bytes": 11912,
+  "sha256": "f92cfe7bee8efe80c6cdea460a781c5753e60490c24b0324c72ca82fac876ad9",
+  "apiTriangleCount": 558,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:21.997012+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

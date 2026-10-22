@@ -1,0 +1,65 @@
+{
+  "id": "doMMnviJrGi",
+  "title": "Simple computer",
+  "author": "Robert Schlyter",
+  "authorUrl": "https://poly.pizza/u/Robert%20Schlyter",
+  "sourceUrl": "https://poly.pizza/m/doMMnviJrGi",
+  "metadataUrl": "https://api.poly.pizza/v1/model/doMMnviJrGi",
+  "downloadUrl": "https://static.poly.pizza/4f68868e-5e24-48ff-92a5-442c8bf3d0f7.glb",
+  "thumbnailUrl": "https://static.poly.pizza/4f68868e-5e24-48ff-92a5-442c8bf3d0f7.webp",
+  "description": "My first test in Blocks.",
+  "category": "Other",
+  "tags": [
+    "computer"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [
+    "computer"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Simple computer\" by Robert Schlyter, https://poly.pizza/m/doMMnviJrGi. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/doMMnviJrGi/model.glb",
+  "sourceMetadataFile": "models/doMMnviJrGi/source.json",
+  "bytes": 70236,
+  "sha256": "70cdb8ab3d664fd53900577279048c2bb80ee69257fa1b289dedf893dfd44694",
+  "apiTriangleCount": 484,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 34,
+    "nodes": 34,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:33.716800+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

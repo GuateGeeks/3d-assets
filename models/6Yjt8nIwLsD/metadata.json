@@ -1,0 +1,67 @@
+{
+  "id": "6Yjt8nIwLsD",
+  "title": "Tree",
+  "author": "Marc Solà",
+  "authorUrl": "https://poly.pizza/u/Marc%20Sol%C3%A0",
+  "sourceUrl": "https://poly.pizza/m/6Yjt8nIwLsD",
+  "metadataUrl": "https://api.poly.pizza/v1/model/6Yjt8nIwLsD",
+  "downloadUrl": "https://static.poly.pizza/e1349d8c-4037-4245-bdc2-3b79c417828f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/e1349d8c-4037-4245-bdc2-3b79c417828f.webp",
+  "description": null,
+  "category": "Nature",
+  "tags": [
+    "tree diagram",
+    "conifer",
+    "shrub"
+  ],
+  "areas": [
+    "bosques-plantas"
+  ],
+  "queries": [
+    "tree"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Tree\" by Marc Solà, https://poly.pizza/m/6Yjt8nIwLsD. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/6Yjt8nIwLsD/model.glb",
+  "sourceMetadataFile": "models/6Yjt8nIwLsD/source.json",
+  "bytes": 70188,
+  "sha256": "13a45f89430f2a171f25bf42516819bda1298d787da78d816abd2767c7d03c4e",
+  "apiTriangleCount": 932,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.674541+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

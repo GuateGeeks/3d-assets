@@ -1,0 +1,66 @@
+{
+  "id": "efHt8L0V77z",
+  "title": "Supreme Pizza",
+  "author": "Jarlan Perez",
+  "authorUrl": "https://poly.pizza/u/Jarlan%20Perez",
+  "sourceUrl": "https://poly.pizza/m/efHt8L0V77z",
+  "metadataUrl": "https://api.poly.pizza/v1/model/efHt8L0V77z",
+  "downloadUrl": "https://static.poly.pizza/e598babe-fa95-43a9-94ef-bcb008b99e62.glb",
+  "thumbnailUrl": "https://static.poly.pizza/e598babe-fa95-43a9-94ef-bcb008b99e62.webp",
+  "description": " ",
+  "category": "Food & Drink",
+  "tags": [
+    "topping",
+    "dinner"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "pizza"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Supreme Pizza\" by Jarlan Perez, https://poly.pizza/m/efHt8L0V77z. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/efHt8L0V77z/model.glb",
+  "sourceMetadataFile": "models/efHt8L0V77z/source.json",
+  "bytes": 333176,
+  "sha256": "7bed56cf658b2ba5de901cf45cb6d6eddd0318c263c747d8bece874ba8f1fdf4",
+  "apiTriangleCount": 6002,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 7,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.509929+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

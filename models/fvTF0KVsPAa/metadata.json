@@ -1,0 +1,68 @@
+{
+  "id": "fvTF0KVsPAa",
+  "title": "Moon",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/fvTF0KVsPAa",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fvTF0KVsPAa",
+  "downloadUrl": "https://static.poly.pizza/a0e3501a-d1d4-4591-9934-0c730be4a9b5.glb",
+  "thumbnailUrl": "https://static.poly.pizza/a0e3501a-d1d4-4591-9934-0c730be4a9b5.webp",
+  "description": "#astronomy #space #solarsystem",
+  "category": "Nature",
+  "tags": [
+    "astronomy",
+    "space",
+    "solarsystem"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "moon"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Moon\" by jeremy, https://poly.pizza/m/fvTF0KVsPAa. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fvTF0KVsPAa/model.glb",
+  "sourceMetadataFile": "models/fvTF0KVsPAa/source.json",
+  "bytes": 12340,
+  "sha256": "f05724fb5a1fd06e71ba0c13178de8f1f74866513cfdff22810005a0b5777fec",
+  "apiTriangleCount": 204,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.684667+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

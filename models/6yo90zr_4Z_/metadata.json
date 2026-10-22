@@ -1,0 +1,74 @@
+{
+  "id": "6yo90zr_4Z_",
+  "title": "Chest",
+  "author": "Tomáš Bayer",
+  "authorUrl": "https://poly.pizza/u/Tom%C3%A1%C5%A1%20Bayer",
+  "sourceUrl": "https://poly.pizza/m/6yo90zr_4Z_",
+  "metadataUrl": "https://api.poly.pizza/v1/model/6yo90zr_4Z_",
+  "downloadUrl": "https://static.poly.pizza/2e2f93fd-ae9b-476b-923e-2e2f8b61540d.glb",
+  "thumbnailUrl": "https://static.poly.pizza/2e2f93fd-ae9b-476b-923e-2e2f8b61540d.webp",
+  "description": "For more info, visit: http://modelybayer.blogspot.cz",
+  "category": "Objects",
+  "tags": [
+    "thorax",
+    "dresser",
+    "pectus"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "lungs"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Chest\" by Tomáš Bayer, https://poly.pizza/m/6yo90zr_4Z_. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/6yo90zr_4Z_/model.glb",
+  "sourceMetadataFile": "models/6yo90zr_4Z_/source.json",
+  "bytes": 622072,
+  "sha256": "863818f2f8dbfb3b2743c9cfa53fe2ad3dd1d2c203f94a5511d452358ab5d1bd",
+  "apiTriangleCount": 749,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 10,
+    "nodes": 10,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:27.620593+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "requested-object-not-confirmed"
+  ],
+  "classificationNote": "Recurso reclasificado por título original: Chest; no satisface la búsqueda lungs.",
+  "unfulfilledQueries": [
+    "lungs"
+  ]
+}

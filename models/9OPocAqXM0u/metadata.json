@@ -1,0 +1,67 @@
+{
+  "id": "9OPocAqXM0u",
+  "title": "Moon",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/9OPocAqXM0u",
+  "metadataUrl": "https://api.poly.pizza/v1/model/9OPocAqXM0u",
+  "downloadUrl": "https://static.poly.pizza/5b5aaeac-e2f2-4d2b-ad4b-a7f1726f1897.glb",
+  "thumbnailUrl": "https://static.poly.pizza/5b5aaeac-e2f2-4d2b-ad4b-a7f1726f1897.webp",
+  "description": "#space ",
+  "category": "Objects",
+  "tags": [
+    "space",
+    ""
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "moon"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Moon\" by Poly by Google, https://poly.pizza/m/9OPocAqXM0u. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/9OPocAqXM0u/model.glb",
+  "sourceMetadataFile": "models/9OPocAqXM0u/source.json",
+  "bytes": 131200,
+  "sha256": "cb962e31e1643eac69e8ff643f92c8d69309778421f3b6afbc6622f9ebbae3b5",
+  "apiTriangleCount": 6456,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.624141+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

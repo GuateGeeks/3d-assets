@@ -1,0 +1,67 @@
+{
+  "id": "9sUalfQ76kn",
+  "title": "GRADD Hospital Room",
+  "author": "GRADD CO",
+  "authorUrl": "https://poly.pizza/u/GRADD%20CO",
+  "sourceUrl": "https://poly.pizza/m/9sUalfQ76kn",
+  "metadataUrl": "https://api.poly.pizza/v1/model/9sUalfQ76kn",
+  "downloadUrl": "https://static.poly.pizza/d8989cd8-33d1-49a1-8139-31215dbdcf84.glb",
+  "thumbnailUrl": "https://static.poly.pizza/d8989cd8-33d1-49a1-8139-31215dbdcf84.webp",
+  "description": " ",
+  "category": "Scenes & Levels",
+  "tags": [
+    "ward",
+    "surgery"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [
+    "hospital"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"GRADD Hospital Room\" by GRADD CO, https://poly.pizza/m/9sUalfQ76kn. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/9sUalfQ76kn/model.glb",
+  "sourceMetadataFile": "models/9sUalfQ76kn/source.json",
+  "bytes": 7972252,
+  "sha256": "6b15769dc4a2713a7465a4289153f32dc58850df2ae013c5738d92ccb6ce06b0",
+  "apiTriangleCount": 61151,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 178,
+    "nodes": 178,
+    "materials": 69,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.044419+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

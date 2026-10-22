@@ -1,0 +1,68 @@
+{
+  "id": "cdcl5UwlYWd",
+  "title": "Western bluebird",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/cdcl5UwlYWd",
+  "metadataUrl": "https://api.poly.pizza/v1/model/cdcl5UwlYWd",
+  "downloadUrl": "https://static.poly.pizza/25cd38f9-7d42-4be2-9cb9-974046e1b339.glb",
+  "thumbnailUrl": "https://static.poly.pizza/25cd38f9-7d42-4be2-9cb9-974046e1b339.webp",
+  "description": "#bluejay #avian #forest #thrush",
+  "category": "Animals",
+  "tags": [
+    "bluejay",
+    "avian",
+    "forest",
+    "thrush"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "bird"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Western bluebird\" by Poly by Google, https://poly.pizza/m/cdcl5UwlYWd. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/cdcl5UwlYWd/model.glb",
+  "sourceMetadataFile": "models/cdcl5UwlYWd/source.json",
+  "bytes": 774192,
+  "sha256": "21483b114c628e85924c7198b6a6b52afe58c68f5f58640071f57f2527f5f313",
+  "apiTriangleCount": 894,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.290495+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

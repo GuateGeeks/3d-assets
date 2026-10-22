@@ -1,0 +1,69 @@
+{
+  "id": "i7HDuYDLkx",
+  "title": "Trashcan Small",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/i7HDuYDLkx",
+  "metadataUrl": "https://api.poly.pizza/v1/model/i7HDuYDLkx",
+  "downloadUrl": "https://static.poly.pizza/2e578103-ce2b-4b31-af0b-af507a52ebc2.glb",
+  "thumbnailUrl": "https://static.poly.pizza/2e578103-ce2b-4b31-af0b-af507a52ebc2.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Waste Container",
+    "Bin",
+    "Trash"
+  ],
+  "areas": [
+    "ambiente-sostenibilidad"
+  ],
+  "queries": [
+    "trash bin"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Trashcan Small\" by Quaternius, https://poly.pizza/m/i7HDuYDLkx. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/i7HDuYDLkx/model.glb",
+  "sourceMetadataFile": "models/i7HDuYDLkx/source.json",
+  "bytes": 11796,
+  "sha256": "6ca0c87eb00f4be690a235287f8469efa1f33200eb882efd3b2202545ccb9af4",
+  "apiTriangleCount": 260,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.371315+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

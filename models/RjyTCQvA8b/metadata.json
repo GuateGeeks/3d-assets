@@ -1,0 +1,67 @@
+{
+  "id": "RjyTCQvA8b",
+  "title": "Telescope",
+  "author": "CreativeTrio",
+  "authorUrl": "https://poly.pizza/u/CreativeTrio",
+  "sourceUrl": "https://poly.pizza/m/RjyTCQvA8b",
+  "metadataUrl": "https://api.poly.pizza/v1/model/RjyTCQvA8b",
+  "downloadUrl": "https://static.poly.pizza/2c0070d8-e239-4a8f-939f-be5b2007ce93.glb",
+  "thumbnailUrl": "https://static.poly.pizza/2c0070d8-e239-4a8f-939f-be5b2007ce93.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Tripod",
+    "Telescope"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "telescope"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Telescope\" by CreativeTrio, https://poly.pizza/m/RjyTCQvA8b. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/RjyTCQvA8b/model.glb",
+  "sourceMetadataFile": "models/RjyTCQvA8b/source.json",
+  "bytes": 62720,
+  "sha256": "01311b0f92d7a61795ecfc7693d9886461c9572fcab28fdcd533df540d2eb387",
+  "apiTriangleCount": 734,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.959755+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "OQvi8PIZ40",
+  "title": "Rocks",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/OQvi8PIZ40",
+  "metadataUrl": "https://api.poly.pizza/v1/model/OQvi8PIZ40",
+  "downloadUrl": "https://static.poly.pizza/c6f65def-08c5-4c81-b17f-f37b171ad911.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c6f65def-08c5-4c81-b17f-f37b171ad911.webp",
+  "description": null,
+  "category": "Nature",
+  "tags": [
+    "Nature",
+    "Rock"
+  ],
+  "areas": [
+    "tierra-geografia"
+  ],
+  "queries": [
+    "rock"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Rocks\" by Quaternius, https://poly.pizza/m/OQvi8PIZ40. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/OQvi8PIZ40/model.glb",
+  "sourceMetadataFile": "models/OQvi8PIZ40/source.json",
+  "bytes": 5940,
+  "sha256": "f2085fb5edfe6ec33b7fe9dd8969fdc016900c18649b94c9ba703d8413cdcd97",
+  "apiTriangleCount": 84,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.171262+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

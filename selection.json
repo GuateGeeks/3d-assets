@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "modelsPerQuery": 3,
+  "selectionPolicy": "Relevancia API, sin filtro de licencia; asociaciones temáticas pendientes de revisión docente, sin acreditación de cobertura CNB.",
+  "areas": [
+    {
+      "id": "personajes-animacion",
+      "title": "Personajes, narrativa y animación",
+      "subjects": [
+        "Lenguaje L1",
+        "Lenguaje L2",
+        "Lenguaje L3",
+        "Expresión Artística"
+      ],
+      "queries": [
+        "animated character",
+        "animated robot",
+        "animated animal",
+        "person",
+        "teacher"
+      ],
+      "activities": [
+        "Narración multilingüe",
+        "Eventos y animación"
+      ]
+    },
+    {
+      "id": "animales-biodiversidad",
+      "title": "Animales y biodiversidad",
+      "subjects": [
+        "Ciencias Naturales y Tecnología"
+      ],
+      "queries": [
+        "dog",
+        "cat",
+        "bird",
+        "frog",
+        "butterfly",
+        "turtle"
+      ],
+      "activities": [
+        "Clasificación de seres vivos",
+        "Simulación de hábitats"
+      ]
+    },
+    {
+      "id": "bosques-plantas",
+      "title": "Bosques y plantas",
+      "subjects": [
+        "Ciencias Naturales y Tecnología"
+      ],
+      "queries": [
+        "tree",
+        "flower",
+        "plant",
+        "cactus",
+        "mushroom"
+      ],
+      "activities": [
+        "Diseñar ecosistemas"
+      ]
+    },
+    {
+      "id": "agua-oceanos",
+      "title": "Agua y ecosistemas acuáticos",
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Formación Ciudadana"
+      ],
+      "queries": [
+        "fish",
+        "coral",
+        "whale",
+        "water",
+        "boat"
+      ],
+      "activities": [
+        "Cuidado del agua"
+      ]
+    },
+    {
+      "id": "tierra-geografia",
+      "title": "Tierra, relieve y geografía",
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Ciencias Sociales"
+      ],
+      "queries": [
+        "volcano",
+        "mountain",
+        "island",
+        "rock",
+        "globe"
+      ],
+      "activities": [
+        "Relieve y riesgos naturales"
+      ]
+    },
+    {
+      "id": "espacio-astronomia",
+      "title": "Espacio y astronomía",
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "queries": [
+        "planet",
+        "earth",
+        "moon",
+        "saturn",
+        "rocket",
+        "telescope"
+      ],
+      "activities": [
+        "Órbitas programadas con escalas explícitas"
+      ]
+    },
+    {
+      "id": "laboratorio-ciencia",
+      "title": "Laboratorio e investigación",
+      "subjects": [
+        "Ciencias Naturales y Tecnología"
+      ],
+      "queries": [
+        "microscope",
+        "test tube",
+        "beaker",
+        "magnifying glass",
+        "magnet"
+      ],
+      "activities": [
+        "Identificar instrumentos"
+      ]
+    },
+    {
+      "id": "cuerpo-salud",
+      "title": "Cuerpo humano y salud",
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Educación Física"
+      ],
+      "queries": [
+        "skeleton",
+        "heart",
+        "brain",
+        "tooth",
+        "first aid",
+        "human heart",
+        "lungs",
+        "human skull",
+        "human brain"
+      ],
+      "activities": [
+        "Representación esquemática sujeta a revisión científica"
+      ]
+    },
+    {
+      "id": "alimentos-agricultura",
+      "title": "Alimentos, agricultura y nutrición",
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Productividad y Desarrollo"
+      ],
+      "queries": [
+        "corn",
+        "banana",
+        "avocado",
+        "carrot",
+        "apple",
+        "tractor"
+      ],
+      "activities": [
+        "Clasificar alimentos y representar producción"
+      ]
+    },
+    {
+      "id": "matematicas-medicion",
+      "title": "Geometría, tiempo y medición",
+      "subjects": [
+        "Matemáticas"
+      ],
+      "queries": [
+        "cube",
+        "sphere",
+        "cone",
+        "dice",
+        "ruler",
+        "clock",
+        "pizza"
+      ],
+      "activities": [
+        "Coordenadas, geometría, probabilidad y fracciones"
+      ]
+    },
+    {
+      "id": "fisica-energia",
+      "title": "Física, máquinas y energía",
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "queries": [
+        "gear",
+        "pulley",
+        "wind turbine",
+        "solar panel",
+        "battery",
+        "lever"
+      ],
+      "activities": [
+        "Mecanismos y medición"
+      ]
+    },
+    {
+      "id": "robotica-electronica",
+      "title": "Robótica y electrónica STEAM",
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Productividad y Desarrollo"
+      ],
+      "queries": [
+        "robot",
+        "circuit",
+        "arduino",
+        "drone",
+        "motor",
+        "switch",
+        "electric motor"
+      ],
+      "activities": [
+        "CiudadBots, Curiosity y máquinas de estados"
+      ]
+    },
+    {
+      "id": "computacion-redes",
+      "title": "Computación y redes",
+      "subjects": [
+        "Productividad y Desarrollo"
+      ],
+      "queries": [
+        "computer",
+        "keyboard",
+        "laptop",
+        "server",
+        "satellite"
+      ],
+      "activities": [
+        "Hardware y comunicación"
+      ]
+    },
+    {
+      "id": "escuela-lenguaje",
+      "title": "Escuela, lectura y vocabulario",
+      "subjects": [
+        "Lenguaje L1",
+        "Lenguaje L2",
+        "Lenguaje L3"
+      ],
+      "queries": [
+        "book",
+        "pencil",
+        "backpack",
+        "school",
+        "desk"
+      ],
+      "activities": [
+        "Vocabulario multilingüe y relatos"
+      ]
+    },
+    {
+      "id": "comunidad-ciudadania",
+      "title": "Comunidad, servicios y ciudadanía",
+      "subjects": [
+        "Ciencias Sociales",
+        "Formación Ciudadana"
+      ],
+      "queries": [
+        "house",
+        "hospital",
+        "fire truck",
+        "traffic light",
+        "bridge"
+      ],
+      "activities": [
+        "Servicios y convivencia"
+      ]
+    },
+    {
+      "id": "transporte-movilidad",
+      "title": "Transporte y movilidad",
+      "subjects": [
+        "Ciencias Sociales",
+        "Matemáticas",
+        "Formación Ciudadana"
+      ],
+      "queries": [
+        "bus",
+        "bicycle",
+        "car",
+        "train",
+        "airplane"
+      ],
+      "activities": [
+        "Rutas, distancias y seguridad vial"
+      ]
+    },
+    {
+      "id": "historia-patrimonio",
+      "title": "Historia y patrimonio",
+      "subjects": [
+        "Ciencias Sociales",
+        "Expresión Artística"
+      ],
+      "queries": [
+        "pyramid",
+        "temple",
+        "pottery",
+        "ruins",
+        "museum"
+      ],
+      "activities": [
+        "Museos y narración sin atribución cultural automática"
+      ]
+    },
+    {
+      "id": "arte-musica",
+      "title": "Arte y música",
+      "subjects": [
+        "Expresión Artística"
+      ],
+      "queries": [
+        "guitar",
+        "drum",
+        "piano",
+        "trumpet",
+        "paint",
+        "camera"
+      ],
+      "activities": [
+        "Composición y escenarios musicales"
+      ]
+    },
+    {
+      "id": "deporte-recreacion",
+      "title": "Deporte y recreación",
+      "subjects": [
+        "Educación Física"
+      ],
+      "queries": [
+        "soccer ball",
+        "basketball",
+        "tennis",
+        "skateboard",
+        "playground"
+      ],
+      "activities": [
+        "Reglas, trayectorias y juegos"
+      ]
+    },
+    {
+      "id": "oficios-productividad",
+      "title": "Oficios, herramientas y productividad",
+      "subjects": [
+        "Productividad y Desarrollo",
+        "Matemáticas"
+      ],
+      "queries": [
+        "hammer",
+        "wrench",
+        "saw",
+        "wheelbarrow",
+        "shop"
+      ],
+      "activities": [
+        "Herramientas y proyectos"
+      ]
+    },
+    {
+      "id": "ambiente-sostenibilidad",
+      "title": "Ambiente y sostenibilidad",
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Formación Ciudadana",
+        "Productividad y Desarrollo"
+      ],
+      "queries": [
+        "recycle",
+        "trash bin",
+        "solar",
+        "windmill",
+        "farm"
+      ],
+      "activities": [
+        "Reciclaje y comunidad sostenible"
+      ]
+    },
+    {
+      "id": "escenarios-videojuegos",
+      "title": "Escenarios y juegos para Code Studio",
+      "subjects": [
+        "Expresión Artística",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "queries": [
+        "platform",
+        "terrain",
+        "fence",
+        "bench",
+        "door",
+        "chest"
+      ],
+      "activities": [
+        "Mundos, misiones, colisiones y eventos"
+      ]
+    },
+    {
+      "id": "guatemala-contexto",
+      "title": "Contexto guatemalteco y mesoamericano",
+      "subjects": [
+        "Ciencias Sociales",
+        "Ciencias Naturales y Tecnología",
+        "Expresión Artística",
+        "Lenguaje L1",
+        "Lenguaje L2"
+      ],
+      "queries": [
+        "quetzal",
+        "jaguar",
+        "toucan",
+        "tapir",
+        "ceiba",
+        "coffee",
+        "cacao",
+        "marimba",
+        "mayan",
+        "tikal"
+      ],
+      "activities": [
+        "Narración y biodiversidad local; validar identificación de especies y procedencia cultural antes de publicar"
+      ]
+    }
+  ]
+}

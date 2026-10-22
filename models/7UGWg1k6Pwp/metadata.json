@@ -1,0 +1,67 @@
+{
+  "id": "7UGWg1k6Pwp",
+  "title": "Train",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/7UGWg1k6Pwp",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7UGWg1k6Pwp",
+  "downloadUrl": "https://static.poly.pizza/3b8726ae-8154-4c3e-8917-18b65a5e734e.glb",
+  "thumbnailUrl": "https://static.poly.pizza/3b8726ae-8154-4c3e-8917-18b65a5e734e.webp",
+  "description": "#transportation",
+  "category": "Transport",
+  "tags": [
+    "transportation"
+  ],
+  "areas": [
+    "transporte-movilidad"
+  ],
+  "queries": [
+    "train"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Train\" by Poly by Google, https://poly.pizza/m/7UGWg1k6Pwp. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7UGWg1k6Pwp/model.glb",
+  "sourceMetadataFile": "models/7UGWg1k6Pwp/source.json",
+  "bytes": 61344,
+  "sha256": "d50b6ffec8f84103a244aeb05709305d50e7b4119f7c95652d7ce8ee050507eb",
+  "apiTriangleCount": 3104,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.867925+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

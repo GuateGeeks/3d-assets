@@ -1,0 +1,69 @@
+{
+  "id": "18Uxrb2dIc",
+  "title": "Planet",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/18Uxrb2dIc",
+  "metadataUrl": "https://api.poly.pizza/v1/model/18Uxrb2dIc",
+  "downloadUrl": "https://static.poly.pizza/14f2d768-c6d0-4174-b9ed-0adba110ab89.glb",
+  "thumbnailUrl": "https://static.poly.pizza/14f2d768-c6d0-4174-b9ed-0adba110ab89.webp",
+  "description": null,
+  "category": "Nature",
+  "tags": [
+    "Soccer Ball",
+    "Sport",
+    "Sphere",
+    "Hoodie"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "planet"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Planet\" by Quaternius, https://poly.pizza/m/18Uxrb2dIc. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/18Uxrb2dIc/model.glb",
+  "sourceMetadataFile": "models/18Uxrb2dIc/source.json",
+  "bytes": 86312,
+  "sha256": "db0f8c45c856170f6b6e5592337c3f3125ed5164269829fdf5d60206147d4201",
+  "apiTriangleCount": 2178,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.453944+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

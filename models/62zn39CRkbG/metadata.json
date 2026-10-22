@@ -1,0 +1,68 @@
+{
+  "id": "62zn39CRkbG",
+  "title": "Wall painting",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/62zn39CRkbG",
+  "metadataUrl": "https://api.poly.pizza/v1/model/62zn39CRkbG",
+  "downloadUrl": "https://static.poly.pizza/cd0af234-561a-461c-a048-0e0c58d96ac5.glb",
+  "thumbnailUrl": "https://static.poly.pizza/cd0af234-561a-461c-a048-0e0c58d96ac5.webp",
+  "description": "#mona #lisa",
+  "category": "Furniture & Decor",
+  "tags": [
+    "mona",
+    "lisa",
+    "art",
+    "picture"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [
+    "paint"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wall painting\" by jeremy, https://poly.pizza/m/62zn39CRkbG. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/62zn39CRkbG/model.glb",
+  "sourceMetadataFile": "models/62zn39CRkbG/source.json",
+  "bytes": 10144,
+  "sha256": "1db40fd8126b1ce7a24435d79567ebf4c52ac174fd92c95a61ff23f09b3cc96b",
+  "apiTriangleCount": 122,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.994182+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

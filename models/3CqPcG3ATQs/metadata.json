@@ -1,0 +1,68 @@
+{
+  "id": "3CqPcG3ATQs",
+  "title": "Ruler",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/3CqPcG3ATQs",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3CqPcG3ATQs",
+  "downloadUrl": "https://static.poly.pizza/27a40e42-99fe-4fcf-ba5e-1bb45335a7c4.glb",
+  "thumbnailUrl": "https://static.poly.pizza/27a40e42-99fe-4fcf-ba5e-1bb45335a7c4.webp",
+  "description": "#measure #tool #inches #lineguage",
+  "category": "Objects",
+  "tags": [
+    "measure",
+    "tool",
+    "inches",
+    "lineguage"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "ruler"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Ruler\" by Poly by Google, https://poly.pizza/m/3CqPcG3ATQs. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3CqPcG3ATQs/model.glb",
+  "sourceMetadataFile": "models/3CqPcG3ATQs/source.json",
+  "bytes": 2336516,
+  "sha256": "26744b8dcbf9db1bb6cecdc447502069d8083d35e2de224ac54d8093df7e865c",
+  "apiTriangleCount": 800,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.182501+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

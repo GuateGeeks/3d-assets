@@ -1,0 +1,67 @@
+{
+  "id": "07-wJ9bkzul",
+  "title": "Frog",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/07-wJ9bkzul",
+  "metadataUrl": "https://api.poly.pizza/v1/model/07-wJ9bkzul",
+  "downloadUrl": "https://static.poly.pizza/e5c99b64-ccfe-4781-bbf9-00170e506246.glb",
+  "thumbnailUrl": "https://static.poly.pizza/e5c99b64-ccfe-4781-bbf9-00170e506246.webp",
+  "description": "#amphibian #toad #pond",
+  "category": "Animals",
+  "tags": [
+    "amphibian",
+    "toad",
+    "lil guy"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "frog"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Frog\" by jeremy, https://poly.pizza/m/07-wJ9bkzul. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/07-wJ9bkzul/model.glb",
+  "sourceMetadataFile": "models/07-wJ9bkzul/source.json",
+  "bytes": 28080,
+  "sha256": "e44b56e8d23fde06d2dd6d1d700b55731ba338115bb3cba3360e6c0518e1a440",
+  "apiTriangleCount": 416,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.326657+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

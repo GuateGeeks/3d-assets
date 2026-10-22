@@ -1,0 +1,68 @@
+{
+  "id": "fOy2zvPJAj-",
+  "title": "Keyboard",
+  "author": "Alex Safayan",
+  "authorUrl": "https://poly.pizza/u/Alex%20Safayan",
+  "sourceUrl": "https://poly.pizza/m/fOy2zvPJAj-",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fOy2zvPJAj-",
+  "downloadUrl": "https://static.poly.pizza/1f6cf483-4859-4fda-a706-5bbeb005dd45.glb",
+  "thumbnailUrl": "https://static.poly.pizza/1f6cf483-4859-4fda-a706-5bbeb005dd45.webp",
+  "description": "A low poly keyboard #MadeWithBlocks",
+  "category": "Other",
+  "tags": [
+    "keypad",
+    "piano",
+    "typing",
+    "computer"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [
+    "keyboard"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Keyboard\" by Alex Safayan, https://poly.pizza/m/fOy2zvPJAj-. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fOy2zvPJAj-/model.glb",
+  "sourceMetadataFile": "models/fOy2zvPJAj-/source.json",
+  "bytes": 119824,
+  "sha256": "65991f56c29c577ef0555666704ab4d96f1d28495b344a8d63181e7227ddf1a0",
+  "apiTriangleCount": 612,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 67,
+    "nodes": 67,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:33.854825+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

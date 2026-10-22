@@ -1,0 +1,66 @@
+{
+  "id": "ee0cso-KZnC",
+  "title": "Play Structure",
+  "author": "Emmett “TawpShelf” Baber",
+  "authorUrl": "https://poly.pizza/u/Emmett%20%E2%80%9CTawpShelf%E2%80%9D%20Baber",
+  "sourceUrl": "https://poly.pizza/m/ee0cso-KZnC",
+  "metadataUrl": "https://api.poly.pizza/v1/model/ee0cso-KZnC",
+  "downloadUrl": "https://static.poly.pizza/18d0b3f6-dcba-4493-b8b5-e59bcc84fd54.glb",
+  "thumbnailUrl": "https://static.poly.pizza/18d0b3f6-dcba-4493-b8b5-e59bcc84fd54.webp",
+  "description": " ",
+  "category": "Buildings",
+  "tags": [
+    "jungle gym",
+    "playground"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [
+    "playground"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Play Structure\" by Emmett “TawpShelf” Baber, https://poly.pizza/m/ee0cso-KZnC. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/ee0cso-KZnC/model.glb",
+  "sourceMetadataFile": "models/ee0cso-KZnC/source.json",
+  "bytes": 697528,
+  "sha256": "141e436e21516e9c30b219e84bc0fa6034e4387229c759e3eebb7ecc02f501e6",
+  "apiTriangleCount": 7026,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 76,
+    "nodes": 76,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.653811+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "7xmlX1JEkM",
+  "title": "Grass Platform",
+  "author": "J-Toastie",
+  "authorUrl": "https://poly.pizza/u/J-Toastie",
+  "sourceUrl": "https://poly.pizza/m/7xmlX1JEkM",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7xmlX1JEkM",
+  "downloadUrl": "https://static.poly.pizza/6ed25f70-bbec-4415-a813-f627bc8afa35.glb",
+  "thumbnailUrl": "https://static.poly.pizza/6ed25f70-bbec-4415-a813-f627bc8afa35.webp",
+  "description": "A small grass platform.",
+  "category": "Nature",
+  "tags": [
+    " Platformer",
+    "Platform",
+    "Grass",
+    "Dirt"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "platform"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Grass Platform\" by J-Toastie, https://poly.pizza/m/7xmlX1JEkM. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7xmlX1JEkM/model.glb",
+  "sourceMetadataFile": "models/7xmlX1JEkM/source.json",
+  "bytes": 6372,
+  "sha256": "fc443a51e7da75a51d982c61d1f1baeedb63a4aebf57d78cc259de3f1adf1b8a",
+  "apiTriangleCount": 52,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.662763+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

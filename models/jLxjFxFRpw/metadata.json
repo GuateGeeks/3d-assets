@@ -1,0 +1,69 @@
+{
+  "id": "jLxjFxFRpw",
+  "title": "Bench",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/jLxjFxFRpw",
+  "metadataUrl": "https://api.poly.pizza/v1/model/jLxjFxFRpw",
+  "downloadUrl": "https://static.poly.pizza/1361c268-20f7-4e73-a931-ce434c6b503e.glb",
+  "thumbnailUrl": "https://static.poly.pizza/1361c268-20f7-4e73-a931-ce434c6b503e.webp",
+  "description": " ",
+  "category": "Furniture & Decor",
+  "tags": [
+    "Bench",
+    "Park Bench",
+    "Chair"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "bench"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Bench\" by Quaternius, https://poly.pizza/m/jLxjFxFRpw. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/jLxjFxFRpw/model.glb",
+  "sourceMetadataFile": "models/jLxjFxFRpw/source.json",
+  "bytes": 21952,
+  "sha256": "9e923fef29388cca35f8eb473e95bc5ef32fea733682e9e54b6b944e3c055204",
+  "apiTriangleCount": 376,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:39.048894+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

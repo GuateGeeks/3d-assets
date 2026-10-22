@@ -1,0 +1,68 @@
+{
+  "id": "96HQXGhe693",
+  "title": "Little Shop",
+  "author": "Jakers_H",
+  "authorUrl": "https://poly.pizza/u/Jakers_H",
+  "sourceUrl": "https://poly.pizza/m/96HQXGhe693",
+  "metadataUrl": "https://api.poly.pizza/v1/model/96HQXGhe693",
+  "downloadUrl": "https://static.poly.pizza/906bb6b0-e1bd-4ba0-9eee-7ac7238474f9.glb",
+  "thumbnailUrl": "https://static.poly.pizza/906bb6b0-e1bd-4ba0-9eee-7ac7238474f9.webp",
+  "description": "Some kind of old delicatessen/grocery shop. The scale is a bit off.\n\nFeel free to add some customers.",
+  "category": "Scenes & Levels",
+  "tags": [
+    "boutique",
+    "nell",
+    "cafe"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [
+    "shop"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Little Shop\" by Jakers_H, https://poly.pizza/m/96HQXGhe693. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/96HQXGhe693/model.glb",
+  "sourceMetadataFile": "models/96HQXGhe693/source.json",
+  "bytes": 2380216,
+  "sha256": "b8fd1ca6ec025abf542de328d8427be860834fe8c88b02c1f58ecd83ab5d36d7",
+  "apiTriangleCount": 42704,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 24,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.154019+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

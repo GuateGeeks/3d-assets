@@ -1,0 +1,77 @@
+{
+  "id": "3_tN7i962hZ",
+  "title": "Planets",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/3_tN7i962hZ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3_tN7i962hZ",
+  "downloadUrl": "https://static.poly.pizza/906be02b-46db-4dc9-8a68-04f2ae6d3853.glb",
+  "thumbnailUrl": "https://static.poly.pizza/906be02b-46db-4dc9-8a68-04f2ae6d3853.webp",
+  "description": "#planets #planet #solarsystem #mercury #venus #earth #mars #jupiter #saturn #uranus #neptune #pluto",
+  "category": "Nature",
+  "tags": [
+    "planets",
+    "planet",
+    "solarsystem",
+    "mercury",
+    "venus",
+    "earth",
+    "mars",
+    "jupiter",
+    "saturn",
+    "uranus",
+    "neptune",
+    "pluto"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "planet"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Planets\" by Poly by Google, https://poly.pizza/m/3_tN7i962hZ. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3_tN7i962hZ/model.glb",
+  "sourceMetadataFile": "models/3_tN7i962hZ/source.json",
+  "bytes": 2733732,
+  "sha256": "354335837b10c000bb1459fc4cb3d614553fce75f16925671c2ffaec941e7e3a",
+  "apiTriangleCount": 1164,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.412546+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

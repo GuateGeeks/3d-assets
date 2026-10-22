@@ -1,0 +1,67 @@
+{
+  "id": "FsCIGEfTEs",
+  "title": "Open Book",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/FsCIGEfTEs",
+  "metadataUrl": "https://api.poly.pizza/v1/model/FsCIGEfTEs",
+  "downloadUrl": "https://static.poly.pizza/8127840e-d767-4dbf-89a8-1aad1fffed13.glb",
+  "thumbnailUrl": "https://static.poly.pizza/8127840e-d767-4dbf-89a8-1aad1fffed13.webp",
+  "description": " ",
+  "category": "Clutter",
+  "tags": [
+    "book"
+  ],
+  "areas": [
+    "escuela-lenguaje"
+  ],
+  "queries": [
+    "book"
+  ],
+  "subjects": [
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Open Book\" by Quaternius, https://poly.pizza/m/FsCIGEfTEs. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/FsCIGEfTEs/model.glb",
+  "sourceMetadataFile": "models/FsCIGEfTEs/source.json",
+  "bytes": 34976,
+  "sha256": "5e2341d6a227f5cffd4b9118388a34e2f8f0b875401e3f6dd35b399ff7cafb05",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.232203+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

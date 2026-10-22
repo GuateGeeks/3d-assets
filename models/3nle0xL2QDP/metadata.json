@@ -1,0 +1,68 @@
+{
+  "id": "3nle0xL2QDP",
+  "title": "Shop",
+  "author": "Ev Amitay",
+  "authorUrl": "https://poly.pizza/u/Ev%20Amitay",
+  "sourceUrl": "https://poly.pizza/m/3nle0xL2QDP",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3nle0xL2QDP",
+  "downloadUrl": "https://static.poly.pizza/14e6eba5-c5ad-4cc9-84fb-2c66bb80b5d7.glb",
+  "thumbnailUrl": "https://static.poly.pizza/14e6eba5-c5ad-4cc9-84fb-2c66bb80b5d7.webp",
+  "description": "First go at Blocks, inspired by Digital Sun Games' Moonlighter.",
+  "category": "Buildings",
+  "tags": [
+    "store",
+    "browse",
+    "workshop"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [
+    "shop"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Shop\" by Ev Amitay, https://poly.pizza/m/3nle0xL2QDP. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3nle0xL2QDP/model.glb",
+  "sourceMetadataFile": "models/3nle0xL2QDP/source.json",
+  "bytes": 130376,
+  "sha256": "0f9d059fed0f23ee3c3e7a17c92072528f9861e7cab3d91d0e933854afd1da2d",
+  "apiTriangleCount": 1748,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 9,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.230508+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

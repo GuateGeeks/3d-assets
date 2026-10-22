@@ -1,0 +1,69 @@
+{
+  "id": "5zUWP5UsLg-",
+  "title": "CAR Model",
+  "author": "Ignition Labs",
+  "authorUrl": "https://poly.pizza/u/Ignition%20Labs",
+  "sourceUrl": "https://poly.pizza/m/5zUWP5UsLg-",
+  "metadataUrl": "https://api.poly.pizza/v1/model/5zUWP5UsLg-",
+  "downloadUrl": "https://static.poly.pizza/f8c6bcd5-92a2-4f88-b821-64935a00216f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f8c6bcd5-92a2-4f88-b821-64935a00216f.webp",
+  "description": " ",
+  "category": "Transport",
+  "tags": [
+    "lamborghini",
+    "sports car",
+    "racing"
+  ],
+  "areas": [
+    "transporte-movilidad"
+  ],
+  "queries": [
+    "car"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"CAR Model\" by Ignition Labs, https://poly.pizza/m/5zUWP5UsLg-. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/5zUWP5UsLg-/model.glb",
+  "sourceMetadataFile": "models/5zUWP5UsLg-/source.json",
+  "bytes": 1829316,
+  "sha256": "c04bb20bce55ea878e4b340ed23492a1d6834bd40fdafc5512c06abd7c7079eb",
+  "apiTriangleCount": 7396,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 6,
+    "nodes": 6,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.702379+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

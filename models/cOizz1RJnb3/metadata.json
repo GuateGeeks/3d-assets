@@ -1,0 +1,67 @@
+{
+  "id": "cOizz1RJnb3",
+  "title": "Hammer",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/cOizz1RJnb3",
+  "metadataUrl": "https://api.poly.pizza/v1/model/cOizz1RJnb3",
+  "downloadUrl": "https://static.poly.pizza/c4e48baf-d6de-4d27-9edb-7364bc6994b6.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c4e48baf-d6de-4d27-9edb-7364bc6994b6.webp",
+  "description": "#tool #construction",
+  "category": "Objects",
+  "tags": [
+    "tool",
+    "construction"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [
+    "hammer"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Hammer\" by jeremy, https://poly.pizza/m/cOizz1RJnb3. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/cOizz1RJnb3/model.glb",
+  "sourceMetadataFile": "models/cOizz1RJnb3/source.json",
+  "bytes": 14908,
+  "sha256": "1d0b075fe64074255ab33f4be232ae60cff9b20dbd2592541831afa238ce84c7",
+  "apiTriangleCount": 60,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.692387+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "6BgO_yzhT3Y",
+  "title": "Cone Shape",
+  "author": "S. Paul Michael",
+  "authorUrl": "https://poly.pizza/u/S.%20Paul%20Michael",
+  "sourceUrl": "https://poly.pizza/m/6BgO_yzhT3Y",
+  "metadataUrl": "https://api.poly.pizza/v1/model/6BgO_yzhT3Y",
+  "downloadUrl": "https://static.poly.pizza/c6e4c52f-dfcc-4565-9ee2-a76c8700041f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c6e4c52f-dfcc-4565-9ee2-a76c8700041f.webp",
+  "description": null,
+  "category": "Other",
+  "tags": [
+    "cone",
+    "conoid",
+    "conical"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "cone"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Cone Shape\" by S. Paul Michael, https://poly.pizza/m/6BgO_yzhT3Y. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/6BgO_yzhT3Y/model.glb",
+  "sourceMetadataFile": "models/6BgO_yzhT3Y/source.json",
+  "bytes": 15204,
+  "sha256": "5af05bf661dad55b2a6065829c19e8382442a4ec602368860adafafaae0de49f",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.936582+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

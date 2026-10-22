@@ -1,0 +1,68 @@
+{
+  "id": "7Cs3rTEcpcD",
+  "title": "coral",
+  "author": "Kelli Ray",
+  "authorUrl": "https://poly.pizza/u/Kelli%20Ray",
+  "sourceUrl": "https://poly.pizza/m/7Cs3rTEcpcD",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7Cs3rTEcpcD",
+  "downloadUrl": "https://static.poly.pizza/3b858f91-3159-47e9-8bf6-a3ee5476f421.glb",
+  "thumbnailUrl": "https://static.poly.pizza/3b858f91-3159-47e9-8bf6-a3ee5476f421.webp",
+  "description": "sea , kelp , fish",
+  "category": "Animals",
+  "tags": [
+    "precious coral",
+    "red coral",
+    "reefs"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [
+    "coral"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"coral\" by Kelli Ray, https://poly.pizza/m/7Cs3rTEcpcD. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7Cs3rTEcpcD/model.glb",
+  "sourceMetadataFile": "models/7Cs3rTEcpcD/source.json",
+  "bytes": 41804,
+  "sha256": "2453931abf966c241b8c06738b9c0ef7b2742c6811526ece1cb161818f4b238a",
+  "apiTriangleCount": 1120,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:23.346329+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

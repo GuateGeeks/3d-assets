@@ -1,0 +1,65 @@
+{
+  "id": "CA4HtaaMJn",
+  "title": "Pizza Slice",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/CA4HtaaMJn",
+  "metadataUrl": "https://api.poly.pizza/v1/model/CA4HtaaMJn",
+  "downloadUrl": "https://static.poly.pizza/b76298f9-9ff1-48ba-a000-c966ced03e90.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b76298f9-9ff1-48ba-a000-c966ced03e90.webp",
+  "description": " ",
+  "category": "Food & Drink",
+  "tags": [
+    "pizza"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "pizza"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pizza Slice\" by Quaternius, https://poly.pizza/m/CA4HtaaMJn. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/CA4HtaaMJn/model.glb",
+  "sourceMetadataFile": "models/CA4HtaaMJn/source.json",
+  "bytes": 23420,
+  "sha256": "9ced453f1b284414df8804beed642d9af4cf289669a1f7cc75a8c667a4470a90",
+  "apiTriangleCount": 392,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.465566+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

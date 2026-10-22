@@ -1,0 +1,66 @@
+{
+  "id": "c4sn88pFjP",
+  "title": "Cube Bricks",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/c4sn88pFjP",
+  "metadataUrl": "https://api.poly.pizza/v1/model/c4sn88pFjP",
+  "downloadUrl": "https://static.poly.pizza/88196cab-1605-439a-b8ef-d94c377eae7a.glb",
+  "thumbnailUrl": "https://static.poly.pizza/88196cab-1605-439a-b8ef-d94c377eae7a.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Brick",
+    "Mario"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "cube"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Cube Bricks\" by Quaternius, https://poly.pizza/m/c4sn88pFjP. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/c4sn88pFjP/model.glb",
+  "sourceMetadataFile": "models/c4sn88pFjP/source.json",
+  "bytes": 51608,
+  "sha256": "00f25ab65da822ac58d8e583bb1fd512d90865b6a7e01929b02c175ba9192290",
+  "apiTriangleCount": 1456,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:30.820439+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "57u6P7Sr7K0",
+  "title": "Simple soccer football",
+  "author": "Smirnoff Alexander",
+  "authorUrl": "https://poly.pizza/u/Smirnoff%20Alexander",
+  "sourceUrl": "https://poly.pizza/m/57u6P7Sr7K0",
+  "metadataUrl": "https://api.poly.pizza/v1/model/57u6P7Sr7K0",
+  "downloadUrl": "https://static.poly.pizza/47a40265-29f4-466d-9aa5-d0c093936864.glb",
+  "thumbnailUrl": "https://static.poly.pizza/47a40265-29f4-466d-9aa5-d0c093936864.webp",
+  "description": "Made with Blender 3D",
+  "category": "Objects",
+  "tags": [
+    "goalkeeper",
+    "handball",
+    "scrimmage"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [
+    "soccer ball"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Simple soccer football\" by Smirnoff Alexander, https://poly.pizza/m/57u6P7Sr7K0. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/57u6P7Sr7K0/model.glb",
+  "sourceMetadataFile": "models/57u6P7Sr7K0/source.json",
+  "bytes": 546684,
+  "sha256": "c22a18f072d7b864badc88d55cc7a57f35b197cc1d9ce85348fc3239133acb1e",
+  "apiTriangleCount": 13200,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.183559+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

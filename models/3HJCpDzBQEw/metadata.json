@@ -1,0 +1,68 @@
+{
+  "id": "3HJCpDzBQEw",
+  "title": "Telescope",
+  "author": "Don Carson",
+  "authorUrl": "https://poly.pizza/u/Don%20Carson",
+  "sourceUrl": "https://poly.pizza/m/3HJCpDzBQEw",
+  "metadataUrl": "https://api.poly.pizza/v1/model/3HJCpDzBQEw",
+  "downloadUrl": "https://static.poly.pizza/70f0867c-4b60-43d1-87de-826731012ffc.glb",
+  "thumbnailUrl": "https://static.poly.pizza/70f0867c-4b60-43d1-87de-826731012ffc.webp",
+  "description": "Simple Telescope with tripod, stool, book and a hot cup of coffee",
+  "category": "Objects",
+  "tags": [
+    "scope",
+    "binoculars",
+    "periscope"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "telescope"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Telescope\" by Don Carson, https://poly.pizza/m/3HJCpDzBQEw. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/3HJCpDzBQEw/model.glb",
+  "sourceMetadataFile": "models/3HJCpDzBQEw/source.json",
+  "bytes": 164956,
+  "sha256": "264f3ae734aaecb7739a799537d80e653a4f2c5a084ab5b54b8dffe340a06d5c",
+  "apiTriangleCount": 2200,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 3,
+    "materials": 10,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.919387+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

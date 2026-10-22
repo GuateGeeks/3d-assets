@@ -1,0 +1,68 @@
+{
+  "id": "2BEJQybmqQT",
+  "title": "Arduino Uno",
+  "author": "M Ferrieu",
+  "authorUrl": "https://poly.pizza/u/M%20Ferrieu",
+  "sourceUrl": "https://poly.pizza/m/2BEJQybmqQT",
+  "metadataUrl": "https://api.poly.pizza/v1/model/2BEJQybmqQT",
+  "downloadUrl": "https://static.poly.pizza/7b4f037a-e52f-4042-bbc7-c2a4221260c7.glb",
+  "thumbnailUrl": "https://static.poly.pizza/7b4f037a-e52f-4042-bbc7-c2a4221260c7.webp",
+  "description": "Arduino Uno",
+  "category": "Other",
+  "tags": [
+    "dos",
+    "game",
+    "one"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [
+    "arduino"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Arduino Uno\" by M Ferrieu, https://poly.pizza/m/2BEJQybmqQT. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/2BEJQybmqQT/model.glb",
+  "sourceMetadataFile": "models/2BEJQybmqQT/source.json",
+  "bytes": 2477792,
+  "sha256": "4c0c4c8399c1827a5f7d21166beee9a3503b3f81e7d635d0b615e1cb02f11592",
+  "apiTriangleCount": 36231,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 460,
+    "nodes": 460,
+    "materials": 52,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:32.344266+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

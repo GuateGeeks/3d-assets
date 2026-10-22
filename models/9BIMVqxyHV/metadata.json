@@ -1,0 +1,68 @@
+{
+  "id": "9BIMVqxyHV",
+  "title": "Windmill",
+  "author": "Pixel",
+  "authorUrl": "https://poly.pizza/u/Pixel",
+  "sourceUrl": "https://poly.pizza/m/9BIMVqxyHV",
+  "metadataUrl": "https://api.poly.pizza/v1/model/9BIMVqxyHV",
+  "downloadUrl": "https://static.poly.pizza/238c4134-1915-4b83-80aa-dee461bcf959.glb",
+  "thumbnailUrl": "https://static.poly.pizza/238c4134-1915-4b83-80aa-dee461bcf959.webp",
+  "description": " ",
+  "category": "Buildings",
+  "tags": [
+    "Building",
+    "Architecture"
+  ],
+  "areas": [
+    "ambiente-sostenibilidad"
+  ],
+  "queries": [
+    "windmill"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Windmill\" by Pixel, https://poly.pizza/m/9BIMVqxyHV. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/9BIMVqxyHV/model.glb",
+  "sourceMetadataFile": "models/9BIMVqxyHV/source.json",
+  "bytes": 299968,
+  "sha256": "6414f6cc5136951ce0b8e9f0b115b6579255db1102249538aab856debff96a19",
+  "apiTriangleCount": 1985,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:38.474696+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

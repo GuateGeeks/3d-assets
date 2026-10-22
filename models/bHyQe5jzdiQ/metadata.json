@@ -1,0 +1,68 @@
+{
+  "id": "bHyQe5jzdiQ",
+  "title": "Farm house",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/bHyQe5jzdiQ",
+  "metadataUrl": "https://api.poly.pizza/v1/model/bHyQe5jzdiQ",
+  "downloadUrl": "https://static.poly.pizza/fedcf063-38c2-4ece-b064-f29960dd2193.glb",
+  "thumbnailUrl": "https://static.poly.pizza/fedcf063-38c2-4ece-b064-f29960dd2193.webp",
+  "description": " ",
+  "category": "Buildings",
+  "tags": [
+    "pen",
+    "sty",
+    "home"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [
+    "house"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Farm house\" by Poly by Google, https://poly.pizza/m/bHyQe5jzdiQ. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/bHyQe5jzdiQ/model.glb",
+  "sourceMetadataFile": "models/bHyQe5jzdiQ/source.json",
+  "bytes": 1131980,
+  "sha256": "a8bb55a1908680c10fe8d73c8227f655549f92a6f28ae31682ca577504a3a275",
+  "apiTriangleCount": 2047,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.821164+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

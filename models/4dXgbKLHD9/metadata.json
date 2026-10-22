@@ -1,0 +1,67 @@
+{
+  "id": "4dXgbKLHD9",
+  "title": "Dingus the cat",
+  "author": "alwayshasbean",
+  "authorUrl": "https://poly.pizza/u/alwayshasbean",
+  "sourceUrl": "https://poly.pizza/m/4dXgbKLHD9",
+  "metadataUrl": "https://api.poly.pizza/v1/model/4dXgbKLHD9",
+  "downloadUrl": "https://static.poly.pizza/7ebad68c-3f89-45f1-a0b5-04514e8a4e52.glb",
+  "thumbnailUrl": "https://static.poly.pizza/7ebad68c-3f89-45f1-a0b5-04514e8a4e52.webp",
+  "description": "he is also known as maxwell and real cat’s name is Jess, i didn’t know it nor the source of photo at the time since i got the original image from discord\n\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2874462324",
+  "category": "Animals",
+  "tags": [
+    "Cat",
+    "bingus",
+    "Maxwell"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [
+    "cat"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Dingus the cat\" by alwayshasbean, https://poly.pizza/m/4dXgbKLHD9. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/4dXgbKLHD9/model.glb",
+  "sourceMetadataFile": "models/4dXgbKLHD9/source.json",
+  "bytes": 179276,
+  "sha256": "78a3c87ef9c7470d0785ce3862fad7f5e43fa383c18475983f42d752f81cbca7",
+  "apiTriangleCount": 592,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 3,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:22.137403+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

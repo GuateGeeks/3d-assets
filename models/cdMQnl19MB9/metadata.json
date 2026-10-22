@@ -1,0 +1,70 @@
+{
+  "id": "cdMQnl19MB9",
+  "title": "Greek Temple",
+  "author": "Alexandre Thomas (Ashtom)",
+  "authorUrl": "https://poly.pizza/u/Alexandre%20Thomas%20%28Ashtom%29",
+  "sourceUrl": "https://poly.pizza/m/cdMQnl19MB9",
+  "metadataUrl": "https://api.poly.pizza/v1/model/cdMQnl19MB9",
+  "downloadUrl": "https://static.poly.pizza/ab9c5809-9dd3-431a-ad3d-313f18288312.glb",
+  "thumbnailUrl": "https://static.poly.pizza/ab9c5809-9dd3-431a-ad3d-313f18288312.webp",
+  "description": "Greek inspired temple with a basin in the center.",
+  "category": "Buildings",
+  "tags": [
+    "gunmetal",
+    "cella",
+    "ephesus"
+  ],
+  "areas": [
+    "historia-patrimonio"
+  ],
+  "queries": [
+    "temple"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Greek Temple\" by Alexandre Thomas (Ashtom), https://poly.pizza/m/cdMQnl19MB9. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/cdMQnl19MB9/model.glb",
+  "sourceMetadataFile": "models/cdMQnl19MB9/source.json",
+  "bytes": 394864,
+  "sha256": "afce21be6d004326994b1b68483b1f9ff71d0302466e5c8a84c6503e0ce1c680",
+  "apiTriangleCount": 5212,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 42,
+    "nodes": 42,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:36.198445+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [
+    "cultural-or-species-identification-review"
+  ],
+  "unfulfilledQueries": []
+}

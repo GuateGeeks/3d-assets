@@ -1,0 +1,67 @@
+{
+  "id": "IbCTSkyWDT",
+  "title": "Chest",
+  "author": "Quaternius",
+  "authorUrl": "https://poly.pizza/u/Quaternius",
+  "sourceUrl": "https://poly.pizza/m/IbCTSkyWDT",
+  "metadataUrl": "https://api.poly.pizza/v1/model/IbCTSkyWDT",
+  "downloadUrl": "https://static.poly.pizza/b4373a5a-463e-43e1-aece-7dda31788c0d.glb",
+  "thumbnailUrl": "https://static.poly.pizza/b4373a5a-463e-43e1-aece-7dda31788c0d.webp",
+  "description": null,
+  "category": "Objects",
+  "tags": [
+    "Treasure"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [
+    "chest"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Chest\" by Quaternius, https://poly.pizza/m/IbCTSkyWDT. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/IbCTSkyWDT/model.glb",
+  "sourceMetadataFile": "models/IbCTSkyWDT/source.json",
+  "bytes": 95156,
+  "sha256": "7109636736dee7867787f2e3b143e0ba4c8bc76c9efe74f81984eaf875cab206",
+  "apiTriangleCount": 0,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:39.212498+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

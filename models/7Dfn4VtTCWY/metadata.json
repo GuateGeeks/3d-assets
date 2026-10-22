@@ -1,0 +1,68 @@
+{
+  "id": "7Dfn4VtTCWY",
+  "title": "Skateboard",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/7Dfn4VtTCWY",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7Dfn4VtTCWY",
+  "downloadUrl": "https://static.poly.pizza/c4bf9201-1924-410e-87ab-1202ff07858f.glb",
+  "thumbnailUrl": "https://static.poly.pizza/c4bf9201-1924-410e-87ab-1202ff07858f.webp",
+  "description": "#hobby #sport #equipment #riding\n",
+  "category": "Transport",
+  "tags": [
+    "hobby",
+    "sport",
+    "equipment",
+    "riding\n"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [
+    "skateboard"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Skateboard\" by Poly by Google, https://poly.pizza/m/7Dfn4VtTCWY. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7Dfn4VtTCWY/model.glb",
+  "sourceMetadataFile": "models/7Dfn4VtTCWY/source.json",
+  "bytes": 1148924,
+  "sha256": "5e74118963832b24d7e1bc5fc7de1c17ec641a305f197b0a3e4bd8b4af214355",
+  "apiTriangleCount": 756,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:37.544399+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

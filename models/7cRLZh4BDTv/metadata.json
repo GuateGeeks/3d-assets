@@ -1,0 +1,66 @@
+{
+  "id": "7cRLZh4BDTv",
+  "title": "Derpy Saturn",
+  "author": "RyanDaSPLARK !",
+  "authorUrl": "https://poly.pizza/u/RyanDaSPLARK%20%21",
+  "sourceUrl": "https://poly.pizza/m/7cRLZh4BDTv",
+  "metadataUrl": "https://api.poly.pizza/v1/model/7cRLZh4BDTv",
+  "downloadUrl": "https://static.poly.pizza/f931e6e1-bc28-406d-b448-69c2ab10b878.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f931e6e1-bc28-406d-b448-69c2ab10b878.webp",
+  "description": "Best creation I have made so far XD",
+  "category": "People & Characters",
+  "tags": [
+    "god"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [
+    "saturn"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Derpy Saturn\" by RyanDaSPLARK !, https://poly.pizza/m/7cRLZh4BDTv. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/7cRLZh4BDTv/model.glb",
+  "sourceMetadataFile": "models/7cRLZh4BDTv/source.json",
+  "bytes": 80964,
+  "sha256": "4c3959b9924edc52e146ac3f82996a56c7f17dcec26b7c2b9f35d7d0b7b13a75",
+  "apiTriangleCount": 1337,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:24.784223+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

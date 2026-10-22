@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "details": {
+    "id": "escuela-lenguaje",
+    "title": "Escuela, lectura y vocabulario",
+    "subjects": [
+      "Lenguaje L1",
+      "Lenguaje L2",
+      "Lenguaje L3"
+    ],
+    "queries": [
+      "book",
+      "pencil",
+      "backpack",
+      "school",
+      "desk"
+    ],
+    "activities": [
+      "Vocabulario multilingüe y relatos"
+    ]
+  },
+  "count": 15,
+  "modelIds": [
+    "1WggoIFq8tx",
+    "2_1dZHNPJqJ",
+    "2g9Jm7kvIU",
+    "3Sd2klX0_s4",
+    "5R0mBgid5-k",
+    "7Z0bva7ec1s",
+    "b03PQ_a7ojX",
+    "dxt7dETAy9",
+    "eP6XIy9ox83",
+    "FsCIGEfTEs",
+    "ftnL_OvlkCx",
+    "uRRsiIZKHG",
+    "uxIo5ge0pw",
+    "V86Go2rlnq",
+    "vF7TuXCPDH"
+  ]
+}

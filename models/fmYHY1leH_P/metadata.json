@@ -1,0 +1,66 @@
+{
+  "id": "fmYHY1leH_P",
+  "title": "Satellite",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/fmYHY1leH_P",
+  "metadataUrl": "https://api.poly.pizza/v1/model/fmYHY1leH_P",
+  "downloadUrl": "https://static.poly.pizza/06e36157-284e-46df-8889-cb2b6b03bd2b.glb",
+  "thumbnailUrl": "https://static.poly.pizza/06e36157-284e-46df-8889-cb2b6b03bd2b.webp",
+  "description": "#space #orbit",
+  "category": "Other",
+  "tags": [
+    "space",
+    "orbit"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [
+    "satellite"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Satellite\" by Poly by Google, https://poly.pizza/m/fmYHY1leH_P. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/fmYHY1leH_P/model.glb",
+  "sourceMetadataFile": "models/fmYHY1leH_P/source.json",
+  "bytes": 46784,
+  "sha256": "d4312b7f1f1a5ef9c344b4ba77625f9bb7ee003a8be31fefc05accf6b5feba17",
+  "apiTriangleCount": 1943,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:34.150998+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

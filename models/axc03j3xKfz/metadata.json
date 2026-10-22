@@ -1,0 +1,70 @@
+{
+  "id": "axc03j3xKfz",
+  "title": "Bicycle",
+  "author": "jeremy",
+  "authorUrl": "https://poly.pizza/u/jeremy",
+  "sourceUrl": "https://poly.pizza/m/axc03j3xKfz",
+  "metadataUrl": "https://api.poly.pizza/v1/model/axc03j3xKfz",
+  "downloadUrl": "https://static.poly.pizza/a561821d-efb9-4a36-ae99-61eff0772cf7.glb",
+  "thumbnailUrl": "https://static.poly.pizza/a561821d-efb9-4a36-ae99-61eff0772cf7.webp",
+  "description": "#bike #pedal #tandem #recreation\n",
+  "category": "Transport",
+  "tags": [
+    "bike",
+    "pedal",
+    "tandem",
+    "recreation\n"
+  ],
+  "areas": [
+    "transporte-movilidad"
+  ],
+  "queries": [
+    "bicycle"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana",
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Bicycle\" by jeremy, https://poly.pizza/m/axc03j3xKfz. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/axc03j3xKfz/model.glb",
+  "sourceMetadataFile": "models/axc03j3xKfz/source.json",
+  "bytes": 122472,
+  "sha256": "46d8cce8cdbf1639c3e479cd48af68bb57d99264efa7d7fc41587994406d62fb",
+  "apiTriangleCount": 2466,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:35.655515+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}

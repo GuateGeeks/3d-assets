@@ -1,0 +1,67 @@
+{
+  "id": "dLS2cGjYw6C",
+  "title": "Dice",
+  "author": "Poly by Google",
+  "authorUrl": "https://poly.pizza/u/Poly%20by%20Google",
+  "sourceUrl": "https://poly.pizza/m/dLS2cGjYw6C",
+  "metadataUrl": "https://api.poly.pizza/v1/model/dLS2cGjYw6C",
+  "downloadUrl": "https://static.poly.pizza/f1e18671-9b26-4d3f-97a8-e2f158559a67.glb",
+  "thumbnailUrl": "https://static.poly.pizza/f1e18671-9b26-4d3f-97a8-e2f158559a67.webp",
+  "description": "#dice #casino #game",
+  "category": "Objects",
+  "tags": [
+    "dice",
+    "casino",
+    "game"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [
+    "dice"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY 3.0",
+  "license": {
+    "id": "CC-BY-3.0",
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Dice\" by Poly by Google, https://poly.pizza/m/dLS2cGjYw6C. Licence at https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/dLS2cGjYw6C/model.glb",
+  "sourceMetadataFile": "models/dLS2cGjYw6C/source.json",
+  "bytes": 318052,
+  "sha256": "745b2adfb4d0493b0b9ce086e238ba44bfe2d6f48f61cbd55437b8c635d7d9b9",
+  "apiTriangleCount": 16968,
+  "apiAnimated": false,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T19:46:31.043297+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisar adecuación visual, cultural y científica; asociación por búsqueda, sin acreditación curricular",
+  "reviewFlags": [],
+  "unfulfilledQueries": []
+}
