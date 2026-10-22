@@ -104,7 +104,7 @@ document.querySelectorAll('a[href="#catalog"]').forEach(link=>link.addEventListe
 document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&!e.altKey&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){e.preventDefault();$('search').focus();}});
 async function init(){
  if(location.protocol==='file:')throw new Error('Abre esta galería con el servidor local: python tools/serve_gallery.py. Después entra a http://127.0.0.1:4376/gallery.html');
- const [catalog,plan]=await Promise.all(['index.json','selection.json'].map(async path=>{const response=await fetch(path);if(!response.ok)throw new Error('No se pudo cargar '+path);return response.json();}));
+ const [catalog,plan]=await Promise.all(['index.json','selection.json'].map(async path=>{const response=await fetch(path,{cache:'no-cache'});if(!response.ok)throw new Error('No se pudo cargar '+path);return response.json();}));
  models=catalog.models;kits=catalog.kits||[];areas=plan.areas;for(const m of models){m.providerId ||= 'poly-pizza';m.provider ||= 'Poly Pizza';}
  const params=new URLSearchParams(location.hash.slice(1));for(const key of ['area','provider','kit','view','license','motion','sort','q'])if(params.has(key))state[key]=params.get(key);state.page=Math.max(1,Number(params.get('page'))||1);
  if(!areas.some(a=>a.id===state.area))state.area='';

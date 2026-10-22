@@ -1,6 +1,6 @@
 """Build a fully local static site; only publish the explicit file set below."""
 from pathlib import Path
-import html,json,shutil
+import html,json,shutil,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'_site'
 if OUT.resolve()!=ROOT.resolve()/'_site' or OUT.is_symlink(): raise SystemExit('Unsafe output directory')
@@ -17,6 +17,9 @@ for name in ['documents.json','license-coverage.json','cc-by-3.0.html','cc0-1.0.
     shutil.copy2(ROOT/'sources'/name,source/name)
 if (ROOT/'sources/external').is_dir(): shutil.copytree(ROOT/'sources/external',source/'external')
 page=(ROOT/'gallery.html').read_text(encoding='utf-8-sig').replace('href="ATTRIBUTIONS.md"','href="credits.html"').replace('href="COVERAGE.md"','href="coverage.html"').replace('href="kits/index.json"','href="kits.html"')
+for asset in ['gallery/app.js','gallery/style.css']:
+    version=hashlib.sha256((ROOT/asset).read_bytes()).hexdigest()[:12]
+    page=page.replace(chr(34)+asset+chr(34),chr(34)+asset+'?v='+version+chr(34))
 for name in ['index.html','gallery.html']: (OUT/name).write_text(page,encoding='utf-8')
 (OUT/'.nojekyll').touch()
 models=json.loads((ROOT/'index.json').read_text(encoding='utf-8'))['models']
