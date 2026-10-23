@@ -1,17 +1,107 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "purpose": "workflow-routing-preferences-not-runtime-or-benchmark",
   "profiles": {
-    "bootstrap": {"model": "gpt-6-astra", "reasoningEffort": "high"},
-    "architecture": {"model": "gpt-6-astra", "reasoningEffort": "xhigh"},
-    "implementation": {"model": "gpt-6.1-sol", "reasoningEffort": "high"},
-    "review": {"model": "gpt-6-astra", "reasoningEffort": "xhigh"},
-    "documentation": {"model": "gpt-6-luna", "reasoningEffort": "medium"}
+    "bootstrap": {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "medium"
+    },
+    "architecture": {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "medium"
+    },
+    "composition": {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "medium"
+    },
+    "coordination": {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "medium"
+    },
+    "implementation": {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "medium"
+    },
+    "boundedTask": {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "medium"
+    },
+    "component": {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "medium"
+    },
+    "variant": {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "medium"
+    },
+    "review": {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "medium",
+      "requiresIndependentContext": true,
+      "requiresOpenedImages": true
+    },
+    "difficultDiagnosis": {
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high",
+      "requiresObservedFailure": true
+    },
+    "documentation": {
+      "model": "gpt-6-luna",
+      "reasoningEffort": "medium"
+    }
   },
   "imagePreferences": {
-    "exploration": "gpt-image-2.5-flare",
-    "refinement": "gpt-image-2.5-sunburst",
+    "exploration": null,
+    "refinement": null,
     "availability": "NOT_RUN",
     "providerEnabled": false
-  }
+  },
+  "allowedModels": [
+    "gpt-6.1-sol",
+    "gpt-6-luna"
+  ],
+  "unavailableModelPolicy": "BLOCKED-no-silent-substitution",
+  "iteration": {
+    "defaultCorrectionRounds": 2,
+    "keepFailedRuns": true,
+    "componentLibrary": "creation-lab/components",
+    "gates": [
+      "technical",
+      "visual",
+      "content"
+    ],
+    "provenanceRequired": true,
+    "recordRequestedAndActualModelAndEffortForAllRoles": true,
+    "correctionScope": "total-per-session-shared-across-stages",
+    "initialStageRunsExcludedFromCorrections": [
+      "blockout",
+      "detail"
+    ]
+  },
+  "modes": {
+    "sol": {
+      "coordinatorModel": "gpt-6.1-sol",
+      "authorModels": [
+        "gpt-6.1-sol"
+      ],
+      "reviewerModel": "gpt-6.1-sol"
+    },
+    "mixed": {
+      "coordinatorModel": "gpt-6.1-sol",
+      "authorModels": [
+        "gpt-6.1-sol",
+        "gpt-6-luna"
+      ],
+      "reviewerModel": "gpt-6.1-sol"
+    },
+    "luna": {
+      "coordinatorModel": "gpt-6-luna",
+      "authorModels": [
+        "gpt-6-luna"
+      ],
+      "reviewerModel": "gpt-6-luna"
+    }
+  },
+  "defaultMode": "mixed",
+  "telemetryProvenance": "coordinator-declarations-not-backend-attestation"
 }

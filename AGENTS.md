@@ -32,9 +32,24 @@ consumidores futuros; el trabajo actual se completa y valida aquí primero.
 - Configuración y credenciales globales se mantienen fuera del repositorio.
   No guardes conversaciones privadas, claves ni tokens en fuentes publicables.
 
-Distribución inicial de trabajo: Astra `high` para diagnóstico, Astra `xhigh`
-para arquitectura/revisión, Sol `high` para implementación y Luna `medium`
-para documentación acotada. Es una estrategia de trabajo, no un benchmark.
+El workflow de producción usa solo Sol/Luna por defecto: Sol `medium` para composición y
+coordinación, Luna `medium` para tareas delimitadas, componentes y variantes,
+y otro contexto Sol `medium` para revisión independiente con imágenes abiertas.
+Escala a Sol `high` únicamente para diagnóstico difícil. Registra modelo y esfuerzo
+solicitados y reales de todos los roles; si no están disponibles, registra el bloqueo,
+sin sustituirlos silenciosamente. Los perfiles son planificación, no enforcement
+remoto ni resultados de benchmark. Lee el
+[workflow iterativo](creation-lab/docs/ITERATIVE-WORKFLOW.md) para el protocolo. Una petición explícita de benchmark con otros modelos define
+una condición aislada; conserva el default de producción y registra sus diferencias.
+
+Reutiliza componentes fiables de `creation-lab/components` y resuelve blockout,
+escala y composición antes del detalle. Por defecto, permite dos rondas de
+corrección totales por sesión, compartidas entre etapas y aparte de la primera
+ejecución blockout y la primera detail; conserva fallos y evidencia nueva por ronda. No relajes gates ni presupuestos para cerrar: técnica, visual y
+contenido se dictaminan por separado; procedencia/derechos sigue siendo requisito.
+Conserva escala física, materiales y procedencia al transferir a rigging.
+Esta mejora de proceso aún necesita comparación controlada; no implica superioridad
+medida sobre el piloto histórico.
 
 Al cerrar un corte, conserva el aprendizaje que cambia decisiones en el skill
 correspondiente y enlaza evidencia desde el estado del laboratorio. Comprueba

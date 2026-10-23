@@ -1,0 +1,919 @@
+{
+  "schemaVersion": 1,
+  "clientDate": "2026-10-22",
+  "scope": "Tooling smoke, not model-quality benchmark or biological approval",
+  "unitTests": {
+    "platform": "Windows Python 3.12 with native Blender",
+    "passed": 36,
+    "skipped": 0,
+    "includesRealBlenderTests": 3,
+    "command": "python -m unittest discover -s creation-lab/tests -v",
+    "optInEnvironment": "CREATION_TEST_BLENDER"
+  },
+  "skills": {
+    "entrypoints": 10,
+    "localLinks": 59,
+    "status": "PASS",
+    "bundledQuickValidateOwnSkills": 8
+  },
+  "blender": {
+    "version": "5.2.3 LTS",
+    "build": "e13b728c6880",
+    "engine": "Cycles CPU",
+    "samples": 24,
+    "threads": 2,
+    "resolution": 768
+  },
+  "demo": {
+    "sessionRelativePath": "creation-lab/.local/iterations/20261023T040558Z-b4eb37fe",
+    "evidenceAvailability": "Local ignored runs; regenerate with documented demo commands",
+    "status": "PASS",
+    "correctionsUsed": 1,
+    "runs": [
+      {
+        "runId": "001-dae405010f0e",
+        "stage": "blockout",
+        "technical": "FAIL",
+        "manifestSha256": "f171c634c618054061f1fbf9bb5e76fd8f78a89279f95679c450d7db7f3081ff",
+        "generatorSha256": "d244f5d85767d0e034ef9fe63f8c65c7710e58b554d09c294c28ed4833c898ab",
+        "visual": "NOT_RUN",
+        "content": "NOT_RUN",
+        "reviewSha256": null,
+        "sourceMetrics": {
+          "meshes": 19,
+          "vertices": 2684,
+          "triangles": 5292,
+          "bboxMinM": [
+            -0.14994274079799652,
+            -0.07999999821186066,
+            -0.05000000074505806
+          ],
+          "bboxMaxM": [
+            0.15000000596046448,
+            0.06295190006494522,
+            0.017639808356761932
+          ],
+          "dimensionsM": [
+            0.299942746758461,
+            0.14295189827680588,
+            0.06763980910181999
+          ],
+          "materials": {
+            "219e9b466a003c4dcd0e5ad04adab0450f8c3453ae0ee104a7730cef8d68e378": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.045,
+                    0.32,
+                    0.34,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "51996c2996024876156c2c190465b36a7ab8ffe47a4ee5497ea5834a817e83c5": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.88,
+                    0.43,
+                    0.14,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "9b97d0477e4f79ad2cdf1412465d7ab4d3ad045389783a0022f18a396e9685d3": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.63,
+                    0.79,
+                    0.69,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.65,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "deae42a0692f94432705e02c014068f5bbf6c8cc7e4ed40942ac752026dc5dc1": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.035,
+                    0.075,
+                    0.13,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "fab7250775655ab473d6b0afdf26ec8c179061610db583fd3754bfeced0f4cb0": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.13,
+                    0.38,
+                    0.66,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            }
+          },
+          "textureCount": 0
+        }
+      },
+      {
+        "runId": "002-56199a04eeee",
+        "stage": "blockout",
+        "technical": "PASS",
+        "manifestSha256": "7d5f249c2cb785d8a5bb36c7a5126a4f81c9bd70f50a46ba2dc29923e17e3569",
+        "generatorSha256": "55e34ec1fb8b37e90bdb0f9e7319157179d6f6ecebcd2affad1966cb4aa2b76b",
+        "visual": "PASS",
+        "content": "PASS",
+        "reviewSha256": "b55760f417f3dea99feb46a7c34a09d15801f5ab8608cd4972de0e00dbd76a7b",
+        "sourceMetrics": {
+          "meshes": 19,
+          "vertices": 2684,
+          "triangles": 5292,
+          "bboxMinM": [
+            -0.14994274079799652,
+            -0.07999999821186066,
+            -0.05000000074505806
+          ],
+          "bboxMaxM": [
+            0.15005725622177124,
+            0.06295190006494522,
+            0.017639808356761932
+          ],
+          "dimensionsM": [
+            0.29999999701976776,
+            0.14295189827680588,
+            0.06763980910181999
+          ],
+          "materials": {
+            "219e9b466a003c4dcd0e5ad04adab0450f8c3453ae0ee104a7730cef8d68e378": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.045,
+                    0.32,
+                    0.34,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "51996c2996024876156c2c190465b36a7ab8ffe47a4ee5497ea5834a817e83c5": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.88,
+                    0.43,
+                    0.14,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "9b97d0477e4f79ad2cdf1412465d7ab4d3ad045389783a0022f18a396e9685d3": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.63,
+                    0.79,
+                    0.69,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.65,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "deae42a0692f94432705e02c014068f5bbf6c8cc7e4ed40942ac752026dc5dc1": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.035,
+                    0.075,
+                    0.13,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "fab7250775655ab473d6b0afdf26ec8c179061610db583fd3754bfeced0f4cb0": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.13,
+                    0.38,
+                    0.66,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            }
+          },
+          "textureCount": 0
+        }
+      },
+      {
+        "runId": "003-6bd6f90135d3",
+        "stage": "detail",
+        "technical": "PASS",
+        "manifestSha256": "1f54c9b4dc34b687b490bf348730eb47bc501b68a76c6131a1259f92bf0697f6",
+        "generatorSha256": "55e34ec1fb8b37e90bdb0f9e7319157179d6f6ecebcd2affad1966cb4aa2b76b",
+        "visual": "PASS",
+        "content": "PASS",
+        "reviewSha256": "3237985f7e5fc122823d02183429e8737db1f36a1ce260db1f5c46e39fe851a3",
+        "sourceMetrics": {
+          "meshes": 19,
+          "vertices": 2684,
+          "triangles": 5292,
+          "bboxMinM": [
+            -0.14994274079799652,
+            -0.07999999821186066,
+            -0.05000000074505806
+          ],
+          "bboxMaxM": [
+            0.15005725622177124,
+            0.06295190006494522,
+            0.017639808356761932
+          ],
+          "dimensionsM": [
+            0.29999999701976776,
+            0.14295189827680588,
+            0.06763980910181999
+          ],
+          "materials": {
+            "219e9b466a003c4dcd0e5ad04adab0450f8c3453ae0ee104a7730cef8d68e378": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.045,
+                    0.32,
+                    0.34,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "51996c2996024876156c2c190465b36a7ab8ffe47a4ee5497ea5834a817e83c5": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.88,
+                    0.43,
+                    0.14,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "9b97d0477e4f79ad2cdf1412465d7ab4d3ad045389783a0022f18a396e9685d3": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.63,
+                    0.79,
+                    0.69,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.65,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "deae42a0692f94432705e02c014068f5bbf6c8cc7e4ed40942ac752026dc5dc1": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.035,
+                    0.075,
+                    0.13,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            },
+            "fab7250775655ab473d6b0afdf26ec8c179061610db583fd3754bfeced0f4cb0": {
+              "inputs": {
+                "Base Color": {
+                  "default": [
+                    0.13,
+                    0.38,
+                    0.66,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Metallic": {
+                  "default": 0.0,
+                  "links": []
+                },
+                "Roughness": {
+                  "default": 0.5,
+                  "links": []
+                },
+                "Alpha": {
+                  "default": 1.0,
+                  "links": []
+                },
+                "Normal": {
+                  "default": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "links": []
+                },
+                "Emission Color": {
+                  "default": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "links": []
+                },
+                "Emission Strength": {
+                  "default": 0.0,
+                  "links": []
+                }
+              },
+              "textures": [],
+              "backfaceCulling": false
+            }
+          },
+          "textureCount": 0
+        }
+      }
+    ],
+    "author": {
+      "actorId": "/root/sol_luna_components",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high"
+    },
+    "reviewer": {
+      "actorId": "/root/iterate_review",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high"
+    },
+    "method": "Same corrected demo generator at blockout and detail; demonstrates gates, not another independent authorship"
+  },
+  "independentReview": {
+    "crossSessionReuse": "FIXED and regression tested",
+    "interruptedRunRecovery": "FIXED and regression tested",
+    "sixImagesOpenedPerReviewedRun": true
+  },
+  "claudeBenchmark": {
+    "prompt": "creation-lab/prompts/08-claude-benchmark.md",
+    "execution": "NOT_RUN",
+    "defaultSolLunaPreserved": true
+  },
+  "sourceFiles": {
+    "AGENTS.md": "dcede2dfda5227e7095fb1eb430b1ba4254ca9a9cbe047b038df56db0a39f8df",
+    "SETUP.md": "c5a7687b2438f6f3dfcb29c99e88b88b449bca8d3f794f961481c48acd05ff68",
+    ".github/workflows/validate.yml": "9f98074338c9c9969d0dd85a2de903675179ec96fae10b33dcb390e43e8acede",
+    "creation-lab/README.md": "2913273330a4cf2a184204a23cce773b2e1174b1d95e7d1396762f3926c3252a",
+    "creation-lab/START-HERE.md": "f1e67cf0ca91a28ff6f128ee31b662325bd54181f3464f55b19a1f03f3a2d452",
+    "creation-lab/docs/MODELS.md": "dca9b05777b4ef4f8ba8dbc7f221ba7c26de7ea2fca5e559f8bf17c8be807223",
+    "creation-lab/docs/STATUS.md": "0b5d2d2e0716a8a6b19a9d638956c6aa87bbaa449f06ba05d64a663f16ca772a",
+    "creation-lab/docs/ACCEPTANCE.md": "84f2031a865bbb38bb0f0aeb1e7398caeb3077c005ca43477b8fe958c742ed63",
+    "creation-lab/docs/ITERATIVE-WORKFLOW.md": "52dc91c54d113a6f1d2df44dd9f55b622eefef3a09e360e51cf014c41e8324aa",
+    "creation-lab/config/model-profiles.json": "0226ae41794911e5517cb5b42b99f8f02ca7ca02d087de81b0505fc7d6f2f20d",
+    "creation-lab/config/benchmark-plan.json": "3aff5e14e242599d0afbd5a02b31efe5ae94c820f206c1778fe79ba39487eb9d",
+    "creation-lab/config/codex.example.toml": "7da60307905cd541bbe8aa1e97ecd1cf0804e5136855c18cc1c798f27f5d0253",
+    "creation-lab/iterate.py": "80fe9f538fe3ceb395857356e5a4ee67b6dcfab98014562c6a9e39f8115fbd9b",
+    "creation-lab/scripts/iteration_worker.py": "42f6b7198a7b44ab6fdc2cf10122548bff2836beb1f4899e912b0b5097c638b6",
+    "creation-lab/examples/component-demo.py": "55e34ec1fb8b37e90bdb0f9e7319157179d6f6ecebcd2affad1966cb4aa2b76b",
+    "creation-lab/tests/test_components.py": "f057d0e796b06e76b40f9ccb93c31e159f1094de64475be644976d72d91e6110",
+    "creation-lab/tests/component_probe.py": "13af5a847527e9dd4c417f46f9e5233481a894bcb364c7d991aad9fc2f5c76ca",
+    "creation-lab/tests/test_iterate.py": "015c7d783136b4b863c18a63c9d19ebba84ad96a6a23105428a55c8460e25802",
+    "creation-lab/prompts/08-claude-benchmark.md": "ef134eb2cafce0249680d6867829ed7dd612905a7e57ca519b4fe062205dd942",
+    "creation-lab/prompts/00-bootstrap.md": "e914b149a0e646bac446e596c5c66e2fd2e6001383dcf8391f023acae6fffd37",
+    "creation-lab/prompts/01-core.md": "a3cf3e8f29164cf8270d48f61fe669ebb2268d8a46fd517fb1270e3c1b9cdbd1",
+    "creation-lab/prompts/02-concept.md": "198bd42c550ffb4ae10136ce78c9c674e013ab7b3eff9df596614d7ceabc008e",
+    "creation-lab/prompts/03-lowpoly.md": "e2eed64b47a9d69cc5b0ed42dde486bbcebf6527a22392f6943c6b60b5303647",
+    "creation-lab/prompts/04-highdetail.md": "b5c9fce190af14082c068e1a32b3a4364876f8d4fef1bfaba42ee7c12be6545e",
+    "creation-lab/prompts/05-scene.md": "dd3fb625c4e066fd2ffe6232e9591e36c6d56a6572aeb06d42643a564372b031",
+    "creation-lab/prompts/06-organic.md": "8ad23295d8ab22d7f81326d0545d7429a43bd88c19fd6016e8a6ebec27a4a879",
+    "creation-lab/prompts/07-benchmark.md": "2906bf12fc7990068baeb3813156d3f343542bf5b2a58ca2e102a93b14014579",
+    ".agents/skills/gg3d-art-direction/SKILL.md": "e1b6fe8dad738953ec797c8ce5d4f7611752095c92197c82437eaf6ddfc9897a",
+    ".agents/skills/gg3d-benchmark/SKILL.md": "c43acb663bb1f2c8951df6a0c1bdbdfc7d2ff5ce61b73cc705597a1ea02bf7a9",
+    ".agents/skills/gg3d-export-qa/SKILL.md": "4a80daedf677416fd3d33e47ee567e93544dbf510e459cfef416b82b7fb043cc",
+    ".agents/skills/gg3d-highdetail/SKILL.md": "29a30195a100e34e20f358d6078109eca50efe6b3404432d28e1704d8bb4bda7",
+    ".agents/skills/gg3d-lowpoly/SKILL.md": "4d02009446e30be61e3b353849b17f196a5e899a08ba17deb423748c91423bcc",
+    ".agents/skills/gg3d-pipeline/SKILL.md": "df1c1103da5239203e7fddc8e3a84d6ac96979da84b6fc02022559870c6c22d7",
+    ".agents/skills/gg3d-rigging/SKILL.md": "741f54718b47f114b2e1261d230c788166cd2e2d9e54e450c8f19f4ecc6676b1",
+    ".agents/skills/gg3d-visual-qa/SKILL.md": "be29c3537aadfd2b5791176e4bc5a6a2468713207495e13b1117b96df786b843",
+    ".agents/skills/gg3d-benchmark/references/pilot-and-handoff.md": "f76dc979ce8eb32b5d23590a3cec93733e3cd57843f9e5eb1031841f13db77b3",
+    "creation-lab/components/README.md": "b6004109628c773972d0935509a84ef89966b8c20fbfd8d3f04ca9ccb3770654",
+    "creation-lab/components/__init__.py": "92e84064bdac3684da122ed4672911fdafff489ab7e15016ba73eca82bff458e",
+    "creation-lab/components/blender.py": "b6fa944adf0c1444fadb8e7262714e90459b8db62ff0f7ff65d1d2b5c29c5496",
+    "creation-lab/components/demo-brief.json": "c83cd6f14c6704a0789cfe9d6ae211b8cb48f2405673059e1cdc8cfde90d534b",
+    "creation-lab/components/geometry.py": "9611dd23a53d281f1dbdef5b6503f51561ebbdbb314b3880cc11a8233c9e76c6"
+  },
+  "sourceHashConvention": "SHA-256 of repository text encoded UTF-8 with LF; receipt excluded"
+}

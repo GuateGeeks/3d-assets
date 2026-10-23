@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "component-blockout-demo",
+  "purpose": "Demostrar componentes geométricos reutilizables y su transferencia; no es una célula final ni biología aprobada.",
+  "parts": [
+    {"id": "shell", "label": "Envoltura y borde continuo"},
+    {"id": "contained_fill", "label": "Relleno contenido"},
+    {"id": "cisterna", "label": "Lámina aplanada"},
+    {"id": "anchors", "label": "Anclajes de superficie"},
+    {"id": "sphere", "label": "Esfera de polos únicos"}
+  ],
+  "displayScale": {"units": "m", "longestDimension": 0.30, "tolerance": 0.00001},
+  "budgets": {"triangles": 6000, "materials": 5, "meshObjects": 19, "glbBytes": 1048576},
+  "seed": 20261022,
+  "provenance": {
+    "author": "Project component library; execution actor is recorded separately by iterate.py",
+    "origin": "Original parametric geometry. A/D benchmark supplied lessons on single poles and frozen normals; no benchmark asset is copied.",
+    "license": "Repository license; no external geometry or textures"
+  },
+  "blockoutChecks": [
+    "La envoltura tiene un borde continuo y el relleno queda dentro de su cavidad.",
+    "La lámina y la esfera aparecen separadas de la envoltura y entre sí.",
+    "Los anclajes se apoyan sobre la lámina sin flotar perceptiblemente."
+  ],
+  "contentChecks": [
+    "La demostración identifica cinco componentes y no se presenta como célula final ni biología aprobada.",
+    "Los cinco componentes conservan sus IDs y materiales al reimportar GLB."
+  ]
+}

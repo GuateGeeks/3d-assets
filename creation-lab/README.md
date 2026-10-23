@@ -37,3 +37,13 @@ Los hashes están en `manifest.json`. La CLI verifica coincidencia exacta; `--op
 `handoff` crea `candidate.json` con GLB y `.blend` hashados, procedencia/licencia, dimensiones, ejes Blender +Z arriba/-Y frente y conversión glTF +Y arriba, métricas y QA. Solo es candidato; no copia ni promueve recursos. El [adaptador de rigging](docs/INTEGRATION.md) recibe esa entrega con `lab/lab.py ingest --candidate`, registra la normalización de la dimensión mayor a 2 m y restaura las coordenadas originales después de UniRig. `eligibleForPromotion` requiere todos los gates PASS; no autoriza ni efectúa publicación. La deformación del rig nuevo requiere su propia revisión.
 
 Los tests stdlib prueban contratos de entrada, rutas con espacios, aislamiento, integridad y errores. No simulan Blender. La evidencia Blender se obtiene ejecutando el canario real y permanece en runs locales ignorados; los reportes/documentación curados deben referenciar sus hashes.
+# Nuevas creaciones con revisión iterativa
+
+Usa [ITERATIVE-WORKFLOW](docs/ITERATIVE-WORKFLOW.md) y `python creation-lab/iterate.py --help`
+desde la raíz del repositorio. Esta ruta añade componentes paramétricos, blockout
+antes del detalle, dos correcciones por sesión y revisiones ligadas a hashes.
+El [demo](components/README.md) comprueba herramientas, no calidad de una célula.
+La CLI `create.py` y su canario M1 conservan sus contratos existentes.
+
+El [prompt para Claude Code](prompts/08-claude-benchmark.md) prepara una comparación
+Haiku/Sonnet/Opus aislada, sin modificar el default Sol/Luna ni el piloto histórico.
