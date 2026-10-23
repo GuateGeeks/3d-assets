@@ -1,32 +1,114 @@
-Trabaja en https://github.com/GuateGeeks/3d-assets.git y ejecuta un benchmark controlado de creación 3D con Claude Haiku, Claude Sonnet y Claude Opus. Necesito artefactos reales y resultados reproducibles, no una comparación basada en opiniones.
+Trabaja en este repositorio 3d-assets. Quiero un benchmark reproducible de
+creación 3D educativa con Claude Haiku, Sonnet y Opus. El caso es una célula
+animal para secundaria, con trece estructuras y etiquetas en español.
 
-ALCANCE
-Usa el mismo caso del piloto existente: célula animal eucariota para secundaria, con trece estructuras y etiquetas en español. Es un piloto de un brief, no el benchmark M7 completo. Compara modelos como autores de código procedural de Blender; no lo describas como texto-a-3D de un motor externo.
+Esta petición autoriza usar esas tres familias para este benchmark aislado,
+como excepción explícita al default Sol/Luna del repositorio. Conserva ese
+default para producción. No simules otra identidad de modelo para pasar un
+validador y no atribuyas a Haiku código escrito o reparado por Opus/Sonnet.
 
-PREPARACIÓN
-1. Clona el repositorio si hace falta; identifica el commit base y los cambios locales. Trabaja en una rama y directorio propios. Conserva intactos los cambios ajenos, el catálogo público, los originales y la evidencia histórica. No hagas push ni despliegues.
-2. Lee AGENTS.md, SETUP.md, creation-lab/START-HERE.md, creation-lab/docs/ACCEPTANCE.md, .agents/skills/gg3d-benchmark/SKILL.md y su referencia references/pilot-and-handoff.md. Del piloto creation-lab/benchmarks/animal-cell-20261022/ lee README.md, brief.json, AUTHORING.md, protocol.json y el harness necesario.
-3. Comprueba las herramientas disponibles y registra las versiones reales. Localiza Blender en este equipo: no reutilices ciegamente rutas de informes históricos. Ejecuta el diagnóstico y el canario antes del lote. El harness existente ejecuta código ya guardado: ejecutar sus condiciones A–F no vuelve a consultar un modelo y no cuenta como autoría de Claude.
+1. INSPECCIÓN Y PREPARACIÓN
+Lee AGENTS.md, SETUP.md, creation-lab/START-HERE.md,
+creation-lab/docs/ITERATIVE-WORKFLOW.md, los skills gg3d-pipeline,
+gg3d-benchmark, gg3d-lowpoly, gg3d-visual-qa y gg3d-export-qa, y el brief
+creation-lab/benchmarks/animal-cell-20261022/brief.json.
+Comprueba git status, herramientas, Blender y CLI --help. Conserva cambios
+ajenos, modelos originales, índices, entorno UniRig y servidores existentes.
+Usa un directorio y puerto propios. No modifiques el benchmark histórico.
 
-DISEÑO EXPERIMENTAL
-Para este experimento la asignación de autores es Haiku/Sonnet/Opus por petición del usuario. Registra esa excepción sin cambiar los perfiles predeterminados Sol/Luna del repositorio.
-4. Identifica los IDs exactos disponibles de Haiku, Sonnet y Opus y congélalos en un protocolo nuevo. Registra modelo solicitado, modelo efectivo si es comprobable, ajustes de razonamiento compatibles, límites y herramientas. No inventes equivalencias entre opciones de esfuerzo de diferentes familias.
-5. Ejecuta tres autorías independientes por familia: nueve propuestas nuevas. En cada repetición usa semilla 20261022, 20261023 o 20261024, compartida por los tres modelos. La repetición incluye una nueva llamada de autoría; regenerar varias veces un script idéntico no constituye varias autorías.
-6. Cada autor recibe un contexto nuevo con idéntico brief, contrato, documentación de API necesaria y recursos. No recibe generadores, renders, puntuaciones ni correcciones de otras condiciones o del piloto histórico. Oculta los resultados históricos hasta cerrar su autoría. Conserva los prompts exactos y las respuestas relevantes, sin secretos.
-7. Conserva los límites del brief: dimensión mayor 0.30 m con su tolerancia, hasta 45,000 triángulos, 24 materiales, 350 objetos de malla y GLB de hasta 8 MiB; orientación y corte abierto según el contrato. No cambies presupuestos ni tolerancias para hacer aprobar una propuesta.
-8. Usa el mismo harness, versión de Blender, cámaras, iluminación, resolución, muestras y CPU del protocolo para todas las condiciones. Congela y guarda hashes antes del lote. Registra cualquier desviación del entorno. Ordena las condiciones de forma intercalada y registra el orden; una sola carga pesada de GPU a la vez si alguna fase la requiere.
-9. Permite como máximo una reparación técnica por propuesta, realizada por el mismo modelo con un informe estandarizado del fallo. No permitas retoques estéticos del coordinador. Conserva siempre código, artefactos, tiempos y fallos de la primera versión y de la reparación. Informa resultados iniciales y finales por separado.
-10. Usa únicamente herramientas y acceso a modelos ya autorizados. Si no puedes invocar una familia o se requiere gasto de API sin autorización, marca esa condición BLOCKED o NOT_RUN, documenta el requisito y completa lo ejecutable. No sustituyas un modelo por otro ni simules resultados. Protege las credenciales.
+Resuelve los modelos Haiku, Sonnet y Opus realmente disponibles en este entorno
+mediante Claude Code/tu proveedor y su documentación oficial. Registra versión
+de Claude Code, proveedor, alias solicitado, ID exacto resuelto y esfuerzo real
+por agente. No supongas que un alias fija una versión. No uses opusplan ni
+fallbacks que mezclen autores: si un runtime cambia de modelo, marca ese intento
+como contaminado y consérvalo fuera de la comparación principal. Si no puedes
+seleccionar o confirmar una familia, marca esa condición BLOCKED; no la imites
+con el modelo de la conversación. Usa el acceso ya configurado; no busques
+credenciales en otros archivos ni actives proveedores pagados adicionales.
 
-EJECUCIÓN Y REVISIÓN
-11. Crea una carpeta de benchmark nueva con fecha e ID; adapta el harness para nueve condiciones sin sobrescribir el piloto ni asumir que sus scripts admiten automáticamente más de A–F. Comprueba las opciones reales con --help.
-12. Cada run debe conservar generador ejecutado, snapshots del harness y QA, source.blend, asset.glb, parts.json, logs, versiones, comandos, tiempos y SHA-256. Renderiza frente, lateral, espalda, tres cuartos, wireframe y tres cuartos del GLB reimportado. Reabre el .blend y reimporta GLB en procesos limpios. Comprueba escala, ejes, límites, geometría, normales, UV, materiales, las trece partes y dependencias. Ejecuta Khronos glTF Validator si está disponible.
-13. Usa una revisión ciega en un contexto independiente, con IDs anónimos y sin mapping de autores. Abre realmente las seis vistas y registra sus hashes. Si falta una imagen o no tienes capacidad visual, declara la revisión incompleta. No apruebes contenido solo porque existen trece IDs.
-14. Reutiliza la rúbrica del piloto: biología visible 30, legibilidad 25, composición 15, forma y sombreado 15, utilidad educativa 15. Informa por separado gates técnicos, visuales y de contenido. La revisión biológica cubre lo visible y no constituye validación docente o anatómica exhaustiva. Una puntuación alta no anula un gate fallido.
-15. Mide por separado autoría, construcción, render, reapertura, exportación, validación y reparación. Registra tokens y costo solo si existe telemetría; usa null/no disponible cuando falte. No deduzcas latencia de inferencia ni gasto a partir del tiempo de Blender o de una tarifa supuesta. Documenta intervenciones humanas y concurrencia.
+La CLI iterate.py actual admite solamente Sol/Luna. Para este encargo implementa
+un perfil de benchmark explícito y aislado que permita registrar los IDs Claude
+confirmados por rol/condición, con pruebas de rechazo de modelos fuera del perfil.
+Mantén los defaults Sol/Luna y todos los controles de evidencia. No elimines ni
+relajes la validación de modelos globalmente. Reutiliza el worker, la biblioteca
+components y el QA existentes; documenta comandos realmente implementados.
 
-ENTREGA
-16. Entrega protocolo, brief y contrato congelados, recibo de autoría, resultados CSV/JSON, revisiones ligadas a hashes, fallos y reparaciones, fuentes y GLB, y un visor local para comparar las nueve propuestas con etiquetas y descargas. Comprueba rotación, etiquetas, encuadre y descargas en el navegador.
-17. Empaqueta evidencia con inventario y hashes, y comprueba su restauración en un directorio nuevo. Un clon debe poder abrir el visor y los artefactos sin acceso a tu .local ni credenciales. No publiques experimentos en index.json ni en la galería principal.
-18. Resume por familia tasa de aprobación inicial/final, puntuaciones individuales y mediana/rango, tiempos, reparaciones y costo observable. Con tres propuestas por familia informa incertidumbre y evita declarar superioridad general. Solo compara con el piloto histórico en un apartado separado que explique diferencias de entorno y protocolo.
-19. Finaliza con enlaces locales, comando exacto para abrir el visor, ubicación del paquete y tabla PASS/FAIL/BLOCKED/NOT_RUN. Todo resultado afirmado debe tener evidencia. Si falta acceso a un modelo, entrega además el procedimiento exacto para completar sus condiciones después.
+2. PROTOCOLO ANTES DE GENERAR
+Congela un protocolo versionado en creation-lab/benchmarks/claude-animal-cell/.
+Matriz principal: tres familias x tres autorías independientes = nueve réplicas.
+Cada réplica comienza en contexto nuevo, escribe su propio generador y tiene
+su propia sesión. Reejecutar el mismo script no cuenta como nueva autoría.
+Escoge un esfuerzo común realmente soportado cuando sea posible; si no lo hay,
+registra diferencias y compara configuraciones completas. No equipares a ciegas
+medium/high entre familias o proveedores. No amplíes a más condiciones sin motivo.
+
+Todos reciben el mismo brief, biblioteca de componentes, fuentes educativas,
+cámaras, presupuestos, seed y límites. Conserva 0.30 m de dimensión mayor,
+45 000 triángulos, 24 materiales, 350 mallas y GLB de hasta 8 MiB del brief.
+Mantén Blender/renderer y el código común congelados durante el batch. Los
+autores no pueden leer otros generadores, evaluaciones o resultados del piloto.
+Pueden utilizar la biblioteca compartida: registra su hash y aclara que el
+experimento mide creación asistida por componentes, no generación desde cero.
+
+El coordinador puede ser Opus, pero solo organiza. No escribe ni corrige la
+geometría de las condiciones. Cada familia realiza tanto su generación como
+sus reparaciones. Registra coordinación y revisión aparte del autor y del coste
+de autoría. Los renders Blender se ejecutan secuencialmente en este equipo.
+
+3. FLUJO DE CADA RÉPLICA
+Produce primero un blockout: envoltura abierta, núcleo y volúmenes distinguibles
+de las trece partes. Renderiza y revisa visibilidad y relaciones antes del detalle.
+Después construye las formas detalladas: cisternas aplanadas, ribosomas anclados
+al RER, REL tubular, mitocondrias con crestas interiores, núcleo/nucléolo,
+centríolos y demás estructuras requeridas. Conserva part_id y anclajes de etiquetas.
+
+Permite hasta dos correcciones totales por sesión, además del primer blockout
+y el primer detalle. Incluyen arreglos técnicos y visuales; no hay intentos
+estéticos ocultos. El feedback debe identificar vista, defecto y cambio requerido;
+no incluir código escrito por otro modelo. Un fallo técnico sin renders puede
+repararse desde sus logs. Conserva todas las versiones y revisiones. Si se agota
+el presupuesto, deja BLOCKED/FAIL con la causa y continúa las otras réplicas.
+
+Usa el mismo reviewer Opus, versión/esfuerzo fijados y contextos independientes
+para todas las condiciones. Entrega al reviewer el brief, imágenes y etiquetas
+con IDs ciegos, sin modelo autor ni código. Mantén el mapping fuera de ese
+contexto. El reviewer abre realmente las seis vistas y registra sus hashes.
+Esto compara autores bajo un mismo sistema de revisión asistida; no es un
+benchmark de flujos exclusivamente Haiku/Sonnet/Opus de extremo a extremo.
+Declara el posible sesgo del revisor de la misma familia y no atribuyas su
+aprobación a un docente externo. Un segundo juicio humano queda NOT_RUN si falta.
+
+4. VALIDACIÓN
+Separa técnica, visual y contenido/biología con PASS/FAIL/BLOCKED/NOT_RUN.
+Comprueba dimensiones en todos los ejes, presupuesto, geometría no degenerada,
+materiales, GLB autocontenido, reapertura .blend y reimportación en proceso limpio.
+No relajes tolerancias por un fallo del importador: diagnostica fuente, export
+e importación separadamente. Un formato correcto no demuestra utilidad educativa.
+
+Evalúa biología visible (30), legibilidad (25), composición (15), forma/sombreado
+(15) y utilidad educativa (15). Tener trece IDs no implica tener trece estructuras
+reconocibles. Una pieza oculta se marca como no evaluable, no como correcta.
+El contenido del blockout solo aprueba disposición de volúmenes; sus checks no
+certifican el detalle todavía ausente. Verifica el visor aparte de los renders.
+
+5. ENTREGABLES Y COMPARACIÓN
+Por intento: generador exacto, biblioteca/brief/worker con hashes, recibo del
+modelo/rol/contexto, .blend, GLB, parts.json, seis renders, logs, manifest,
+diagnóstico y revisión. Guarda outputs grandes en .local con paquete restaurable
+e índice de integridad si se distribuyen; no versionar secretos, caches o entornos.
+
+Entrega protocolo, tabla por réplica, agregados por familia, fallos y limitaciones,
+visor o enlace local comprobado, y comandos para repetir desde un clon limpio.
+Muestra tasa de aceptación inicial/final, correcciones, notas y dispersión, tamaño
+y complejidad del asset, tiempo de autoría si está disponible, tiempo Blender
+por separado, tokens/coste solo observados y tiempo de coordinación/revisión.
+Ausencias de telemetría = NOT_AVAILABLE. Tres réplicas siguen siendo exploratorias.
+
+El piloto Sol/Luna/Astra de 2026 no tuvo bucle visual ni biblioteca común: úsalo
+solo como contexto histórico, nunca para declarar que Claude supera a esos modelos.
+Una comparación directa exigiría reejecutarlos con este mismo protocolo.
+
+Comprueba tests y referencias de los skills modificados. No publiques en la
+galería ni hagas push sin autorización específica para esa entrega. Termina con
+los archivos reales, lo ejecutado, lo bloqueado y una recomendación limitada
+a la evidencia obtenida. No te detengas en un plan si el entorno permite ejecutar.
