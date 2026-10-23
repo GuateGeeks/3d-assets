@@ -9,6 +9,7 @@
 *.txt text eol=lf
 *.py text eol=lf
 *.yml text eol=lf
+*.toml text eol=lf
 
 # Keep captured license/source evidence byte-for-byte.
 sources/** -text -whitespace
@@ -21,7 +22,6 @@ creation-lab/vendor/** -text -whitespace
 creation-lab/registry/** -text -whitespace
 .agents/skills/blender-codex-recipes/** -text
 .agents/skills/blender-lpm-recipes/** -text
-*.toml text eol=lf
 *.csv text eol=lf
 
 # Frozen benchmark generators and their evidence retain original bytes.
