@@ -4,10 +4,10 @@ GET /api/benchmark returns {brief, conditions:[{id, model, reasoningEffort,
 runId, technical, seconds, glbBytes, metrics:{triangles,meshes,materials},
 parts, urlGlb, urlBlend, urlPreview, review}]}. Missing values are null;
 technical is NOT_RUN when no artifact exists. parts is the parts.json object.
-The newest manifest with an existing GLB wins, including technical FAIL runs.
-Review input: reviews.json {entries:[{id,runId?,visual?,biological?,score?,summary?}]}.
+The newest completed manifest with an existing GLB wins, including technical FAIL runs.
+Review input: reviews.json {entries:[{id,runId,imageEvidence,visual?,biological?,score?,summary?}]}.
 An array or an object keyed by condition ID is also accepted. Reviews with a
-runId apply only to that exact run. No score is derived by the server.
+runId and six image hashes apply only to that exact unchanged run. No score is derived by the server.
 Only selected run artifacts are exposed; no logs, sources, paths, or listing.
 """
 import argparse
@@ -17,10 +17,12 @@ import re
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlsplit
+from benchmark_io import read_complete_manifest, review_matches_run
 
 BASE = Path(__file__).resolve().parent
 ROOT = BASE.parents[2]
 OUTPUT = ROOT / 'creation-lab' / '.local' / 'benchmarks' / BASE.name
+REVIEWS = BASE / 'reviews.json'
 VENDOR = ROOT / 'gallery' / 'vendor'
 PORT = 4393
 STATIC = {
@@ -54,7 +56,7 @@ def numeric(value):
 
 
 def load_reviews():
-    data = read_json(BASE / 'reviews.json', {})
+    data = read_json(REVIEWS, {})
     if isinstance(data, dict) and 'entries' in data:
         data = data['entries']
     if isinstance(data, list):
@@ -86,7 +88,7 @@ def discover():
         for run in runs:
             if not all(safe_file(run / filename, OUTPUT) and safe_file(run / filename, run) for filename in ('manifest.json', 'asset.glb')):
                 continue
-            manifest = read_json(run / 'manifest.json')
+            manifest = read_complete_manifest(run)
             if not isinstance(manifest, dict):
                 continue
             # A directory name is the route identity; never trust manifest paths.
@@ -107,7 +109,7 @@ def discover():
                     assets[url] = (path, mime)
                     entry[key] = url
             review = reviews.get(cid)
-            if review and (not review.get('runId') or review.get('runId') == rid):
+            if review_matches_run(run, review, manifest):
                 entry['review'] = review
             break
         conditions.append(entry)
@@ -192,10 +194,14 @@ class Handler(BaseHTTPRequestHandler):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--port', type=int, default=PORT, help='Local HTTP port (default: 4393)')
+    parser.add_argument('--runs', type=Path, default=OUTPUT, help='Folder containing A-F run directories')
+    parser.add_argument('--reviews', type=Path, default=REVIEWS, help='Review JSON; entries apply only to their exact runId')
     args = parser.parse_args()
     if not 1 <= args.port <= 65535:
         parser.error('--port must be between 1 and 65535')
     PORT = args.port
+    OUTPUT = args.runs.resolve()
+    REVIEWS = args.reviews.resolve()
     print(f'Célula animal: http://127.0.0.1:{PORT}', flush=True)
     try:
         ThreadingHTTPServer(('127.0.0.1', PORT), Handler).serve_forever()

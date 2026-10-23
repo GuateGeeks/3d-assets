@@ -45,4 +45,4 @@ python3 tools/check_site.py
 node lab/scripts/validate_review.cjs lab/.local/tools/gltf-validator/package
 ```
 
-No descargues herramientas solo para repetir una comprobación documental. El build utiliza un inventario explícito y no publica runs. Actualmente `check_site.py` excluye exactamente `lab/.local` de su escaneo de fuentes; que otro directorio esté ignorado por Git no lo excluye de ese escaneo.
+No descargues herramientas solo para repetir una comprobación documental. El build utiliza un inventario explícito y no publica runs. Consulta las exclusiones reales de `check_site.py`: que un directorio esté ignorado por Git no implica que esté excluido del escaneo de fuentes. Si otro trabajo está construyendo `_site`, no lo reconstruyas para esta comprobación; registra por separado integridad de fuentes y estado de la copia generada.

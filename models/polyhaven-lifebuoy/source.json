@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Lifebuoy\", por Hank Kaamura / Poly Haven. https://polyhaven.com/a/lifebuoy. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Hank Kaamura"
+  },
+  "Title": "Lifebuoy",
+  "sourceUrl": "https://polyhaven.com/a/lifebuoy",
+  "assetId": "lifebuoy",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-lifebuoy/original/lifebuoy_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/lifebuoy/lifebuoy_1k.gltf",
+      "bytes": 2724,
+      "md5": "295742069c8a9e56260b769322996e5b",
+      "sha256": "d9c76a8f2471249f314b3efcffe0d3956ba2d3f0b8ba528cc0f2b861561580f3"
+    },
+    {
+      "file": "models/polyhaven-lifebuoy/original/textures/lifebuoy_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lifebuoy/lifebuoy_nor_gl_1k.jpg",
+      "bytes": 907524,
+      "md5": "f8a80ee65e4776d228114f37104fbd37",
+      "sha256": "df02aca2cca3aa87daa0f1d4cd5fa2584d60ecea85672517fa334aea725dbf23"
+    },
+    {
+      "file": "models/polyhaven-lifebuoy/original/textures/lifebuoy_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lifebuoy/lifebuoy_diff_1k.jpg",
+      "bytes": 841106,
+      "md5": "c956bce9e530911e95771507547e8a6f",
+      "sha256": "f0095beca9e97996692ffdab3d3ace3fae64a3c3adf5c8eff71172add4e4cb2e"
+    },
+    {
+      "file": "models/polyhaven-lifebuoy/original/textures/lifebuoy_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lifebuoy/lifebuoy_arm_1k.jpg",
+      "bytes": 614864,
+      "md5": "a00a461982827a2faaa0c6d940740d51",
+      "sha256": "fe33182e45c2b1049195641a8081ab22e90e520b2c0dafa9cce568a53af7a207"
+    },
+    {
+      "file": "models/polyhaven-lifebuoy/original/lifebuoy.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/lifebuoy/lifebuoy.bin",
+      "bytes": 255280,
+      "md5": "4e38cfbae96b6bdfd4ca4ddad06888dd",
+      "sha256": "aa45c8d43ee11e12a4ab9f46bfb06d1baa6c687d61776ad9b06ea6b5664c0bc2"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

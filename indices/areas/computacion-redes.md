@@ -1,6 +1,6 @@
 # Computación y redes
 
-13 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+15 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -17,3 +17,5 @@
 | [Laptop](https://poly.pizza/m/fEYeMIiRNHM) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/fEYeMIiRNHM/model.glb) | 0 / 0 |
 | [Keyboard](https://poly.pizza/m/fOy2zvPJAj-) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Alex Safayan | [GLB](../../models/fOy2zvPJAj-/model.glb) | 0 / 0 |
 | [Satellite](https://poly.pizza/m/fmYHY1leH_P) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/fmYHY1leH_P/model.glb) | 0 / 0 |
+| [Placa de circuito](https://polyhaven.com/a/circuit_board) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Benny Weimer | [GLB](../../models/polyhaven-circuit-board/model.glb) | 0 / 0 |
+| [Computadora portátil clásica](https://polyhaven.com/a/classic_laptop) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Arrangemonk | [GLB](../../models/polyhaven-classic-laptop/model.glb) | 0 / 0 |

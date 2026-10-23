@@ -1,6 +1,6 @@
 # Laboratorio e investigación
 
-13 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+20 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -16,4 +16,11 @@
 | [Omax compound microscope](https://poly.pizza/m/dcuaH6bEkwn) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | 3Donimus | [GLB](../../models/dcuaH6bEkwn/model.glb) | 0 / 0 |
 | [Magnet](https://poly.pizza/m/e6JzvzwGt7v) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/e6JzvzwGt7v/model.glb) | 0 / 0 |
 | [Magnifying glass](https://poly.pizza/m/fvtGqQ6olh-) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/fvtGqQ6olh-/model.glb) | 0 / 0 |
+| [Binoculares](https://polyhaven.com/a/binoculars) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Derek Wight | [GLB](../../models/polyhaven-binoculars/model.glb) | 0 / 0 |
+| [Mechero Bunsen](https://polyhaven.com/a/bunsen_burner) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | BKS | [GLB](../../models/polyhaven-bunsen-burner/model.glb) | 0 / 0 |
+| [Equipo de química](https://polyhaven.com/a/chemistry_set) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Jiří Ptáček | [GLB](../../models/polyhaven-chemistry-set/model.glb) | 0 / 0 |
+| [Microscopio industrial](https://polyhaven.com/a/industrial_microscope) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Lukas Walzer | [GLB](../../models/polyhaven-industrial-microscope/model.glb) | 0 / 0 |
+| [Lupa](https://polyhaven.com/a/magnifying_glass_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Nazar Borodavka | [GLB](../../models/polyhaven-magnifying-glass-01/model.glb) | 0 / 0 |
+| [Binoculares antiguos](https://polyhaven.com/a/vintage_binocular) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Luke | [GLB](../../models/polyhaven-vintage-binocular/model.glb) | 0 / 0 |
+| [Microscopio antiguo](https://polyhaven.com/a/vintage_microscope) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Luis José Fernández Rodríguez | [GLB](../../models/polyhaven-vintage-microscope/model.glb) | 0 / 0 |
 | [Microscope](https://poly.pizza/m/q9zNs4U5NG) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Username12 | [GLB](../../models/q9zNs4U5NG/model.glb) | 0 / 0 |

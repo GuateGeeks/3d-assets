@@ -1,0 +1,54 @@
+{
+  "type": 2,
+  "name": "Vintage Microscope",
+  "categories": [
+    "collection: project_lighthouse",
+    "instrument",
+    "industrial",
+    "tools"
+  ],
+  "category": "Electronics & Appliances/Devices & Instruments/Lab Equipment",
+  "tags": [
+    "antique",
+    "brass",
+    "scientific",
+    "optical",
+    "lab equipment",
+    "gold"
+  ],
+  "description": "Free 8K model of a vintage brass microscope with black enamel body, knurled focus wheels, rotating dual objectives, engraved metal stage, and a cast base.",
+  "authors": {
+    "Luis José Fernández Rodríguez": "All"
+  },
+  "donated": true,
+  "category_id": "d6c96414-71f9-5680-854b-9d6351c735e1",
+  "max_resolution": [
+    8192,
+    8192
+  ],
+  "polycount": 20631,
+  "files_hash": "1ec0dfddbf0c79a3b8c34a3e794848aa145ebed9",
+  "texel_density": 12303.048683962677,
+  "dimensions": [
+    106.79882764816284,
+    181.8750947713852,
+    399.5528370141983
+  ],
+  "date_published": 1783036800,
+  "collections": [
+    "project_lighthouse"
+  ],
+  "attributes": {
+    "material": [
+      "brass",
+      "steel",
+      "glass"
+    ],
+    "condition": [
+      "clean"
+    ]
+  },
+  "img_version": "c289adb4",
+  "download_count": 400,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/vintage_microscope.png?width=256&height=256&format=webp&v=c289adb4"
+}

@@ -1,0 +1,55 @@
+{
+  "type": 2,
+  "name": "Bunsen Burner",
+  "categories": [
+    "collection: project_lighthouse",
+    "props",
+    "industrial",
+    "tools"
+  ],
+  "tags": [
+    "chemistry",
+    "lab",
+    "equipment",
+    "gas",
+    "science",
+    "testing",
+    "laboratory"
+  ],
+  "description": "Free 4K Bunsen burner model with blue cast base and ring, brushed steel tube and legs, knurled brass valve, hose barb, and subtle wear for realistic detail.",
+  "authors": {
+    "BKS": "All"
+  },
+  "donated": true,
+  "max_resolution": [
+    4096,
+    4096
+  ],
+  "polycount": 8434,
+  "files_hash": "8cfa0fa389cd410b0391534b3c9a9515d1bc5421",
+  "texel_density": 15356.424963052536,
+  "dimensions": [
+    138.89388740062714,
+    138.89388740062714,
+    173.1255203485489
+  ],
+  "date_published": 1781913600,
+  "category_id": "d6c96414-71f9-5680-854b-9d6351c735e1",
+  "category": "Electronics & Appliances/Devices & Instruments/Lab Equipment",
+  "collections": [
+    "project_lighthouse"
+  ],
+  "attributes": {
+    "condition": [
+      "worn"
+    ],
+    "material": [
+      "metal",
+      "brass",
+      "rubber"
+    ]
+  },
+  "img_version": "85d2bb65",
+  "download_count": 269,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/bunsen_burner.png?width=256&height=256&format=webp&v=85d2bb65"
+}

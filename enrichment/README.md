@@ -4,6 +4,10 @@ Estado actualizado al 22 de octubre de 2026: **seis kits completos descargados; 
 
 El listado de fuentes de la investigación anterior sigue pendiente de recuperación. Las siete plataformas de `providers.json` son una selección provisional investigada en sus páginas oficiales; no se presentan como transcripción de aquel listado.
 
+## Incorporación Poly Haven
+
+Se añadieron 28 modelos CC0 mediante `tools/polyhaven.py`, con componentes glTF nativos de 1K conservados, GLB autónomos, miniaturas propias y comparación con los 993 anteriores. El catálogo llega a 1021 fichas. `reports/polyhaven-20261022.json` y `reports/POLYHAVEN-DUPLICATES.md` documentan el lote. `groups/polyhaven.json` agrupa familias entre plataformas sin modificar metadatos previos. El visor no llama a la API ni usa previews ajenos.
+
 ## Archivos preparados
 
 - `providers.json`: fuentes, condiciones observadas, vías de adquisición, estado de acceso y siguiente acción. Que una página haya sido consultada no prueba que una descarga o una credencial funcionen.
@@ -36,7 +40,7 @@ Propuesta inicial: hasta 24 objetos nuevos después de deduplicar, elegidos por 
 5. **Preparar derivado web:** conservar originales y producir GLB separado, con operación, herramienta, versión y hashes de entrada/salida. Registrar dimensiones originales, unidades, ejes, pivote, materiales y texturas. No aplicar la normalización a 2 m del laboratorio implícitamente. Los rigs nuevos pasan por el laboratorio existente; no se ejecuta inferencia en esta fase.
 6. **Comprobar técnicamente:** GLB válido, dependencias resueltas, carga sin red externa, extensiones soportadas, métricas de malla/textura, skins/joints y nombres/duración de clips reales. La etiqueta «animated» de una plataforma no sustituye la inspección del archivo.
 7. **Revisar visualmente y educativamente:** abrir render y visor real; comprobar materiales, escala, cámara, deformaciones, clipping y clips. Registrar revisiones `PASS`, `FAIL`, `BLOCKED`, `NOT_RUN` por separado. Un proceso terminado no equivale a calidad visual.
-8. **Promover:** solo candidatos con derechos de la acción concreta y las cuatro revisiones en `PASS`. Exportar en una transacción revisable catálogo, CSV, áreas, fuentes, licencias, créditos, cobertura, miniaturas y manifiesto de integridad. Ejecutar build/check y probar la galería bajo `/3d-assets/` antes del despliegue.
+8. **Promover:** solo candidatos con derechos de la acción concreta, revisión técnica y visual en `PASS`. La evaluación educativa puede quedar `NOT_RUN` para esta biblioteca de candidatos: debe constar como pendiente y no acreditarse como adecuación curricular. Exportar en una transacción revisable catálogo, CSV, áreas, fuentes, licencias, créditos, cobertura, miniaturas y manifiesto de integridad. Ejecutar build/check y probar la galería bajo `/3d-assets/` antes del despliegue.
 
 ## Licencias e índices
 
@@ -46,7 +50,7 @@ CC0 admite copia, modificación y distribución bajo sus condiciones. CC BY-SA e
 
 `reference-only` conserva una referencia y sus condiciones sin archivo público; `staging` indica adquisición local en revisión; `eligible-for-promotion` indica elegibilidad revisada y todavía no publicación. El esquema por sí solo no verifica los derechos ni las condiciones entre estos estados.
 
-Para la futura versión del índice usar IDs con espacio de nombres (`proveedor:ID`, y miembro estable para piezas de un paquete). Conservar los IDs Poly Pizza y sus enlaces actuales. Añadir procedencias múltiples y relación original/derivado sin modificar los originales existentes. El visor necesitará filtro de fuente y estados de uso por licencia; el builder y sus textos hoy específicos de Poly Pizza deben adaptarse antes de añadir un proveedor real. Conservar selección, enlaces profundos, atribuciones, funcionamiento local y manifiestos.
+Para la futura versión del índice usar IDs con espacio de nombres (`proveedor:ID`, y miembro estable para piezas de un paquete). Conservar los IDs Poly Pizza y sus enlaces actuales. Añadir procedencias múltiples y relación original/derivado sin modificar los originales existentes. El catálogo v2 ya incorpora filtros de fuente, licencias y familias. El builder publica un inventario explícito y mantiene la galería independiente de las APIs. Conservar selección, enlaces profundos, atribuciones, funcionamiento local y manifiestos.
 
 El primer lote amplía la galería y sus índices; los modelos originales existentes permanecen intactos. Hay trabajo concurrente de creación y rigging: no incluirlo en un commit de ampliación ni reconstruir su entorno como parte de esta tarea.
 

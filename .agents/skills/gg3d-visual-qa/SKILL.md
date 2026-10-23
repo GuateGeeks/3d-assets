@@ -11,4 +11,15 @@ Compara el asset con el brief y la dirección aprobada; consulta los [criterios]
 
 Registra el estado visual aparte del técnico con `PASS`, `FAIL`, `BLOCKED` o `NOT_RUN`, una razón breve y el SHA256 de cada imagen revisada. Identifica cada defecto y la vista que lo demuestra. No apruebes renders ausentes ni conceptos pendientes.
 
+Para modelos educativos, distingue apariencia de exactitud del contenido:
+comprueba que las partes exigidas sean visibles, identificables y estén en la
+relación espacial correcta. Los nombres de objetos y etiquetas no prueban eso.
+Declara las convenciones de color/escala y limita el dictamen a lo observable.
+Si una estructura está oculta, registra la imposibilidad de evaluarla; no infieras
+un PASS por el código que supuestamente la construye.
+
+Cuando la entrega incluya un visor interactivo, comprueba también su carga,
+selección y cámara según [QA del visor](references/viewer-checks.md). Esa prueba
+de interfaz se registra por separado de la revisión de renders.
+
 Cuando esté disponible, usa `review` con `--opened-images` y un argumento `--evidence VIEW=SHA256` por cada una de las seis imágenes.

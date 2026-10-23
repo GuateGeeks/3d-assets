@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "date": "2026-10-22",
+  "catalogModels": 1021,
+  "providerModels": 28,
+  "providerGroups": 23,
+  "existingModelsComparedInFamilies": 17,
+  "scope": "Built local site under /3d-assets/; source/GLB renders inspected for all 28 models. Browser samples include industrial/vintage microscope, original Poly Pizza microscope, rigged bench vice and magnifying glass.",
+  "checks": {
+    "providerFilter": "PASS",
+    "groupedAndIndividualViews": "PASS",
+    "crossProviderVariantSelection": "PASS",
+    "duplicateNamesDisambiguatedByAuthor": "PASS",
+    "creditsAndLicenseChangeWithVariant": "PASS",
+    "individualPagination28Models": "PASS",
+    "originalGLTFAndLicenseLinks": "PASS",
+    "rigPreserved11Joints": "PASS",
+    "spanishAccentInsensitiveSearch": "PASS",
+    "desktop1440x1000": "PASS",
+    "mobile390x844NoHorizontalOverflow": "PASS"
+  },
+  "limitations": [
+    "No se evaluó calibración, funcionamiento de instrumentos ni adecuación curricular.",
+    "La inspección del navegador muestrea modelos; las comparaciones fuente y reimportación abarcan los 28."
+  ]
+}

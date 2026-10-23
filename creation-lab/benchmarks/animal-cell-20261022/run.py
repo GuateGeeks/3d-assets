@@ -22,7 +22,11 @@ def check_source(path):
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('condition',choices=list('ABCDEF'))
     p.add_argument('--blender',type=Path,required=True);p.add_argument('--attempt',type=int,default=1);p.add_argument('--timeout',type=int,default=600)
-    a=p.parse_args();protocol=json.loads((BASE/'protocol.json').read_text(encoding='utf-8'))
+    a=p.parse_args()
+    if not a.blender.is_file():p.error('--blender must name an existing executable; use an absolute path')
+    if a.attempt < 1 or a.timeout < 1:p.error('--attempt and --timeout must be positive')
+    a.blender=a.blender.resolve()
+    protocol=json.loads((BASE/'protocol.json').read_text(encoding='utf-8'))
     condition=next(c for c in protocol['conditions'] if c['id']==a.condition)
     source=BASE/'conditions'/a.condition/'generator.py';check_source(source)
     rid=datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'-'+uuid.uuid4().hex[:8]

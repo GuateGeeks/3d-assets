@@ -10,6 +10,12 @@ laboratorio de rigging siguen siendo componentes separados del mismo proyecto.
    [guía de integración](docs/INTEGRATION.md) para transferir un candidato a rigging.
 5. Sigue los [hitos](docs/IMPLEMENTATION-PLAN.md) para conceptos y producción.
 
+Para un clon nuevo, empieza por [SETUP](../SETUP.md). El
+[piloto educativo](benchmarks/animal-cell-20261022/README.md) incluye fuentes,
+GLB, evidencia restaurable y un visor local que funciona sin instalar Blender.
+Las calificaciones históricas pertenecen a sus runs; una ejecución nueva necesita
+sus propias verificaciones y revisión.
+
 El núcleo tiene una CLI local; los prompts M2–M7 preparan trabajo posterior,
 no representan capacidades artísticas ya demostradas. El canario solo prueba
 el circuito técnico. No es el robot educativo final ni un concepto aprobado.
@@ -23,7 +29,7 @@ No actualizar uno para hacer coincidir versiones con el otro.
 Desde la raíz de `3d-assets`, con Python 3.10 o posterior:
 
 ```powershell
-python creation-lab/create.py doctor --blender 'D:\SteamLibrary\steamapps\common\Blender\blender.exe'
+python creation-lab/create.py doctor --blender '/ruta/absoluta/a/blender'
 python creation-lab/create.py --help
 ```
 
@@ -45,9 +51,11 @@ código revisado y herramientas realmente probadas.
 
 ## Conexión MCP del proyecto
 
-La entrada local está preparada en `../.codex/config.toml`. Para cargar los
-skills y el puente, abre la carpeta `3d-assets` como proyecto. El lanzador
+El ejemplo distribuido es `registry/codex-mcp.example.toml`. Sigue
+[SETUP](../SETUP.md#skills-y-puente-mcp-opcional) para restaurar el runtime y crear
+tu configuración local; `.codex/config.toml` no se versiona. Para descubrir los
+skills, abre la carpeta `3d-assets` como proyecto. El lanzador opcional
 inicia y administra su propia sesión Blender sin interfaz, con un puerto local
 efímero; no utiliza una escena abierta del usuario. Su inicio, consulta y cierre
-ya se probaron. La aplicación aún no ha cargado esa entrada en este turno.
+ya se probaron en el equipo original; comprueba la conexión en cada instalación.
 Consulta [DEPENDENCIES](docs/DEPENDENCIES.md) para el alcance y los probes.

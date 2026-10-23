@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Ratchet Wrench\", por John Hutcheson / Poly Haven. https://polyhaven.com/a/ratchet_wrench. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "John Hutcheson"
+  },
+  "Title": "Ratchet Wrench",
+  "sourceUrl": "https://polyhaven.com/a/ratchet_wrench",
+  "assetId": "ratchet_wrench",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-ratchet-wrench/original/ratchet_wrench_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/ratchet_wrench/ratchet_wrench_1k.gltf",
+      "bytes": 2788,
+      "md5": "a402821ab94f6dcfdbf240a06da47ac8",
+      "sha256": "6212af117eaba863be506d0dbca06d3aefbef84e1a4172b7f8fc3c8170576eff"
+    },
+    {
+      "file": "models/polyhaven-ratchet-wrench/original/textures/ratchet_wrench_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ratchet_wrench/ratchet_wrench_nor_gl_1k.jpg",
+      "bytes": 388724,
+      "md5": "9e5b7767e4f286b76b9ba0d6c8f8e692",
+      "sha256": "abdfce5991b4ecf0eaef6f3553040cec76f0c2a2028212c81d1b199df0a50605"
+    },
+    {
+      "file": "models/polyhaven-ratchet-wrench/original/ratchet_wrench.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/ratchet_wrench/ratchet_wrench.bin",
+      "bytes": 219816,
+      "md5": "021dc261c222c50e5e07963d0cb7fa7a",
+      "sha256": "97b2ddbb13baeefd1abe76a18f89352410614af470eb60f4cada170a6c00ab5e"
+    },
+    {
+      "file": "models/polyhaven-ratchet-wrench/original/textures/ratchet_wrench_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ratchet_wrench/ratchet_wrench_arm_1k.jpg",
+      "bytes": 622307,
+      "md5": "647ec2fe71b5f0d2749cf22b83e9e09b",
+      "sha256": "54a5ea2885a73be0b7a01a997c8dd3a2e6e03513e90f1b019fd6b6b45f240fe0"
+    },
+    {
+      "file": "models/polyhaven-ratchet-wrench/original/textures/ratchet_wrench_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ratchet_wrench/ratchet_wrench_diff_1k.jpg",
+      "bytes": 286148,
+      "md5": "92bda4c684ff4ceb5a15f8a5200d17dd",
+      "sha256": "257bef443968e50d8806bac546cdc4f1655b39ee77a4ffce2b873853279cee6e"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

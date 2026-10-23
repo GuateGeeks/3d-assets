@@ -1,0 +1,57 @@
+{
+  "donated": true,
+  "name": "Lightbulb Led",
+  "type": 2,
+  "info": null,
+  "authors": {
+    "Josh Dean": "All"
+  },
+  "date_published": 1676592000,
+  "categories": [
+    "electronics",
+    "lighting",
+    "collection: the_shed"
+  ],
+  "tags": [
+    "shed",
+    "indoor",
+    "interrior",
+    "globe",
+    "light"
+  ],
+  "max_resolution": [
+    4096,
+    4096
+  ],
+  "polycount": 6420,
+  "texel_density": 20162.185001090074,
+  "dimensions": [
+    61.441509053111076,
+    61.441510915756226,
+    100.25119408965111
+  ],
+  "files_hash": "e0234a13da607a3de7a607f433b0072b20631faa",
+  "description": "Free 4K model: realistic LED bulb with frosted globe, plastic finned heatsink, metal Edison base and subtle dust and wear.",
+  "sponsors": [
+    "4714267",
+    "3237733"
+  ],
+  "category_id": "0b2c1912-1998-5404-bdeb-7d6b082ffef6",
+  "category": "Lighting/Bulbs & Fittings/Bulbs",
+  "collections": [
+    "the_shed"
+  ],
+  "attributes": {
+    "condition": [
+      "worn"
+    ],
+    "material": [
+      "glass",
+      "plastic",
+      "metal"
+    ]
+  },
+  "img_version": "a6a89a1c",
+  "download_count": 7440,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/lightbulb_led.png?width=256&height=256&format=webp&v=a6a89a1c"
+}

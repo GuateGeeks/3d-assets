@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Lightbulb Led\", por Josh Dean / Poly Haven. https://polyhaven.com/a/lightbulb_led. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Josh Dean"
+  },
+  "Title": "Lightbulb Led",
+  "sourceUrl": "https://polyhaven.com/a/lightbulb_led",
+  "assetId": "lightbulb_led",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-lightbulb-led/original/lightbulb_led_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/lightbulb_led/lightbulb_led_1k.gltf",
+      "bytes": 2779,
+      "md5": "f4aad59b74c76176b9bd8cc75beda489",
+      "sha256": "ae23f72de657c1c25d4558d86a9e8b593c608360933f9748a91c3124d600ddb3"
+    },
+    {
+      "file": "models/polyhaven-lightbulb-led/original/lightbulb_led.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/lightbulb_led/lightbulb_led.bin",
+      "bytes": 166648,
+      "md5": "27e0229c65b00bd0671311eb6b3c2be1",
+      "sha256": "7f0d1072f911f53fabee9d48579b9fe14c8425222062958d6fe50bc5d072a446"
+    },
+    {
+      "file": "models/polyhaven-lightbulb-led/original/textures/lightbulb_led_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lightbulb_led/lightbulb_led_nor_gl_1k.jpg",
+      "bytes": 258308,
+      "md5": "4cf0877961888d2ba2f710b639884132",
+      "sha256": "70988facb59f508e47e392c5c9ced86ef61586dc49656ee06bade8ab43f9ff53"
+    },
+    {
+      "file": "models/polyhaven-lightbulb-led/original/textures/lightbulb_led_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lightbulb_led/lightbulb_led_diff_1k.jpg",
+      "bytes": 326825,
+      "md5": "2f48facb3bcb5d2a6e8682d95444c48a",
+      "sha256": "ace68a18d6eed07ee182ae49e8e44e60f895046204ccef633cc6f0eda5aa30e8"
+    },
+    {
+      "file": "models/polyhaven-lightbulb-led/original/textures/lightbulb_led_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lightbulb_led/lightbulb_led_arm_1k.jpg",
+      "bytes": 470753,
+      "md5": "ebbffb4d212d655eb50e33565d72d6e2",
+      "sha256": "2c16a50d7b052d54d9f0ccf00c74dda3740430b855eae30abb9cfa439d879320"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

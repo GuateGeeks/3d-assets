@@ -17,6 +17,7 @@ Abrir http://127.0.0.1:4376/gallery.html. Para construir y comprobar:
 python tools/build_site.py
 python tools/check_site.py
 python creation-lab/registry/verify_sources.py
+python tools/check_skills.py
 python -m unittest discover -s creation-lab/tests -v
 python -m unittest discover -s lab/tests -v
 ```
@@ -39,6 +40,24 @@ En Windows, reemplazar la ruta por la de `blender.exe`. La versión observada es
 [START-HERE](creation-lab/START-HERE.md) y el [manual](creation-lab/README.md)
 para revisar imágenes, cerrar evidencia y entregar un candidato. El canario
 comprueba infraestructura; no genera personajes arbitrarios desde texto.
+
+## Benchmark educativo incluido
+
+El piloto de célula animal conserva diez ejecuciones de seis condiciones en
+archivos ZIP versionados, con hashes, fuentes Blender, GLB, renders y fallos.
+Se pueden restaurar y abrir sin Blender, GPU, npm ni una cuenta de IA:
+
+```sh
+python creation-lab/benchmarks/animal-cell-20261022/restore.py
+python creation-lab/benchmarks/animal-cell-20261022/serve.py --port 4393
+```
+
+Abrir http://127.0.0.1:4393. La restauración coloca la evidencia bajo `.local/`
+y comprueba su integridad. Las seis propuestas no están todas aprobadas para
+clase: consultar [resultados y alcance](creation-lab/benchmarks/animal-cell-20261022/RESULTS.md).
+El [manual del benchmark](creation-lab/benchmarks/animal-cell-20261022/README.md)
+explica cómo ejecutar otras condiciones con Blender, instalar el validador
+opcional fijado por npm y guardar nuevos informes sin sobrescribir los históricos.
 
 ## UniRig y comparación de deformaciones
 
@@ -68,7 +87,8 @@ conservan sus condiciones de uso. Ejecutar una inferencia a la vez.
 El [estado](lab/STATUS.md) distingue resultados históricos de trabajo pendiente.
 Un clon nuevo debe generar sus propios runs y ajustar el mapa de poses a los
 hashes producidos, según [lab/README.md](lab/README.md). Los grandes entornos,
-pesos, cachés, renders y candidatos experimentales locales no se versionan.
+pesos, cachés y candidatos experimentales locales no se versionan; el benchmark
+educativo tiene su propio paquete de evidencia explícito, descrito arriba.
 SkinTokens todavía no tiene una instalación local validada ni un instalador;
 su evaluación sigue pendiente en el [plan](docs/RIGGING-LAB-PLAN.md).
 

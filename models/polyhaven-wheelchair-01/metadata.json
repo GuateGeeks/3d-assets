@@ -1,0 +1,160 @@
+{
+  "id": "polyhaven-wheelchair-01",
+  "assetId": "polyhaven:wheelchair_01",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Silla de ruedas",
+  "titleOriginal": "Wheelchair 01",
+  "author": "Garreth Dean",
+  "authorUrl": "https://polyhaven.com/a/wheelchair_01",
+  "sourceUrl": "https://polyhaven.com/a/wheelchair_01",
+  "metadataUrl": "https://api.polyhaven.com/info/wheelchair_01",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/wheelchair_01/wheelchair_01_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Apparel & Personal Items/Mobility & Medical/Wheelchairs",
+  "tags": [
+    "infirmary",
+    "hospital",
+    "wheelchair",
+    "medical",
+    "clinic",
+    "mobilityaid",
+    "foldingwheelchair",
+    "Wheelchair 01",
+    "accessibility-wheelchairs"
+  ],
+  "areas": [
+    "cuerpo-salud",
+    "comunidad-ciudadania"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Educación Física",
+    "Formación Ciudadana"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wheelchair 01\", por Garreth Dean / Poly Haven. https://polyhaven.com/a/wheelchair_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-wheelchair-01/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/wheelchair_01/metadata.json",
+  "originalDownload": "models/polyhaven-wheelchair-01/originals.zip",
+  "bytes": 1747428,
+  "sha256": "038b27ebfdf78170b71e90f5250f093f10288ee39810e025a2b94ecd08a71229",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:15.346787+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "wheelchair_01_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-wheelchair-01/original/wheelchair_01_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/wheelchair_01/wheelchair_01_1k.gltf",
+        "bytes": 2702,
+        "md5": "53901a369849ad929d030279a3d1f719",
+        "sha256": "6a59d638ceb35e46fe543f4b8b5e94b00fe2c6f15045c1d3cd7d9f46de34f645"
+      },
+      {
+        "file": "models/polyhaven-wheelchair-01/original/textures/wheelchair_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wheelchair_01/wheelchair_01_diff_1k.jpg",
+        "bytes": 126137,
+        "md5": "8f3f7ef28ebe675f20fefb8fbafb8ac3",
+        "sha256": "15be1e2a5bd86a4c20f99157e8337016f873d4e4f2d3effc656729430214ac00"
+      },
+      {
+        "file": "models/polyhaven-wheelchair-01/original/textures/wheelchair_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wheelchair_01/wheelchair_01_nor_gl_1k.jpg",
+        "bytes": 210295,
+        "md5": "256c08e1dcf3a937b7d66a845bd21f04",
+        "sha256": "534469bf7bb00549fb383f533b7fcc0a7b4256fe59f42ec7495d1f121700f392"
+      },
+      {
+        "file": "models/polyhaven-wheelchair-01/original/wheelchair_01.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wheelchair_01/wheelchair_01.bin",
+        "bytes": 1183752,
+        "md5": "419414082dc40cae13c9141d8922a218",
+        "sha256": "66c7c1779171228f1a4691ec572a0346a258f65a88ca71ecc72b81b3bc765996"
+      },
+      {
+        "file": "models/polyhaven-wheelchair-01/original/textures/wheelchair_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wheelchair_01/wheelchair_01_arm_1k.jpg",
+        "bytes": 225508,
+        "md5": "4c4d70458a7848b9d4f60d0b2ec84d2c",
+        "sha256": "29f5b9aab6d63ca1a218f8e34d03a78e9c92e8d643a8728978882223139c9192"
+      }
+    ],
+    "originalDownloadSha256": "a83a96baf426f6b430a9556f4d8c457135ee9a4e5a7c6cfc8b2e3b095e09d66d",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/wheelchair_01/metadata.json",
+    "metadataEvidenceSha256": "d2bca29b1db54a4c3c9f3b355df30e54408ff7a0fde594b12cf32d77ccf1af3b",
+    "fileManifestEvidence": "sources/external/polyhaven/wheelchair_01/files.json",
+    "fileManifestEvidenceSha256": "5f265ef30736bbb0f00be704eabc72c6ac6fc9050460a0515e52294e7b65af5b",
+    "technicalReviewEvidence": "sources/external/polyhaven/wheelchair_01/technical-review.json",
+    "technicalReviewEvidenceSha256": "fb0a4c50fd425a1596181bbf0a28eda70d8e2717d5882def580bc661e5f48683",
+    "providerReportedPolycount": 40252,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.8240909576416016,
+      1.0908669233322144,
+      1.103501558303833
+    ],
+    "reimportDimensionsBlender": [
+      0.8240909576416016,
+      1.0908669233322144,
+      1.103501558303833
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "09b4c27a9c5dc3a0e2673242ee581de6c2b3507fe179c7bdbdfb47251999963b",
+      "triangles": 40252
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

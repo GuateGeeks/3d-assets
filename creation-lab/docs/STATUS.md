@@ -20,6 +20,7 @@ El detalle de comandos está en [README](../README.md).
 | Restauración de escala y apariencia | PASS en fixture con textura y en inferencia UniRig real; [informe y evidencia](../../lab/reports/CREATION-ADAPTER.md) |
 | Producción M2-M7 | NOT_RUN: skills, prompts y criterios preparados |
 | Piloto de célula animal | Ejecutado: seis condiciones y diez runs; D 87/100 y A 85/100 pasan técnica, visual y biología visible; [resultados](../benchmarks/animal-cell-20261022/RESULTS.md) |
+| Relevo desde un clon nuevo | Skills, scripts, locks y diez runs restaurables incluidos; [instalación](../../SETUP.md) y [verificación del repositorio](repository-handoff.json) |
 | API de imágenes y comparación con Claude | NOT_RUN; sin gasto iniciado |
 | Puente MCP oficial | PASS en proceso propio: consulta, creación, render y limpieza; entrada local configurada, carga en este chat NOT_RUN |
 
@@ -71,9 +72,9 @@ promovieron estos experimentos al catálogo.
    preparados en afirmaciones de ejecución.
 
 
-## Verificación final del núcleo
+## Verificación inicial del núcleo (histórica)
 
-Doce pruebas aprobadas, incluidas dos con Blender real. Astra recalculó 43 comprobaciones sin fallos y cerró los hallazgos del núcleo. El verificador del catálogo confirmó integridad de 342 modelos y del sitio existente. Consulta [REVIEW](REVIEW.md) y [validation.json](validation.json).
+En ese corte se aprobaron doce pruebas, incluidas dos con Blender real. Astra recalculó 43 comprobaciones sin fallos y cerró los hallazgos del núcleo. El verificador del catálogo confirmó entonces integridad de 342 modelos y del sitio existente. Consulta [REVIEW](REVIEW.md) y [validation.json](validation.json). El catálogo posterior y la entrega reproducible se comprueban por separado en [repository-handoff.json](repository-handoff.json).
 
 
 La prueba final del lanzador MCP configurado, `registry/launcher-probe-20261022T220620Z-9ee77265/report.json`, pasó conexión, modificación, render y cierre. La igualdad completa de píxeles con el render inspeccionado confirma el cubo encuadrado; véase `registry/mcp-render-comparison.json`. Ambos procesos y el puerto terminaron cerrados. La captura del viewport permanece NOT_RUN. Consulta [DEPENDENCIES](DEPENDENCIES.md) para fuentes, licencias, runtime y alcance de la conexión.

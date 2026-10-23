@@ -1,0 +1,157 @@
+{
+  "id": "polyhaven-lightbulb-led",
+  "assetId": "polyhaven:lightbulb_led",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Bombilla LED",
+  "titleOriginal": "Lightbulb Led",
+  "author": "Josh Dean",
+  "authorUrl": "https://polyhaven.com/a/lightbulb_led",
+  "sourceUrl": "https://polyhaven.com/a/lightbulb_led",
+  "metadataUrl": "https://api.polyhaven.com/info/lightbulb_led",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/lightbulb_led/lightbulb_led_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Lighting/Bulbs & Fittings/Bulbs",
+  "tags": [
+    "shed",
+    "indoor",
+    "interrior",
+    "globe",
+    "light",
+    "Lightbulb Led",
+    "lighting-lightbulbs"
+  ],
+  "areas": [
+    "fisica-energia",
+    "robotica-electronica"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Lightbulb Led\", por Josh Dean / Poly Haven. https://polyhaven.com/a/lightbulb_led. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-lightbulb-led/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/lightbulb_led/metadata.json",
+  "originalDownload": "models/polyhaven-lightbulb-led/originals.zip",
+  "bytes": 1224316,
+  "sha256": "3f5ad5c7c20ffe214e90b4132375fc5cb935a6884b12ae058b915366c49488e3",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:03.932527+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "lightbulb_led_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-lightbulb-led/original/lightbulb_led_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/lightbulb_led/lightbulb_led_1k.gltf",
+        "bytes": 2779,
+        "md5": "f4aad59b74c76176b9bd8cc75beda489",
+        "sha256": "ae23f72de657c1c25d4558d86a9e8b593c608360933f9748a91c3124d600ddb3"
+      },
+      {
+        "file": "models/polyhaven-lightbulb-led/original/lightbulb_led.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/lightbulb_led/lightbulb_led.bin",
+        "bytes": 166648,
+        "md5": "27e0229c65b00bd0671311eb6b3c2be1",
+        "sha256": "7f0d1072f911f53fabee9d48579b9fe14c8425222062958d6fe50bc5d072a446"
+      },
+      {
+        "file": "models/polyhaven-lightbulb-led/original/textures/lightbulb_led_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lightbulb_led/lightbulb_led_nor_gl_1k.jpg",
+        "bytes": 258308,
+        "md5": "4cf0877961888d2ba2f710b639884132",
+        "sha256": "70988facb59f508e47e392c5c9ced86ef61586dc49656ee06bade8ab43f9ff53"
+      },
+      {
+        "file": "models/polyhaven-lightbulb-led/original/textures/lightbulb_led_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lightbulb_led/lightbulb_led_diff_1k.jpg",
+        "bytes": 326825,
+        "md5": "2f48facb3bcb5d2a6e8682d95444c48a",
+        "sha256": "ace68a18d6eed07ee182ae49e8e44e60f895046204ccef633cc6f0eda5aa30e8"
+      },
+      {
+        "file": "models/polyhaven-lightbulb-led/original/textures/lightbulb_led_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lightbulb_led/lightbulb_led_arm_1k.jpg",
+        "bytes": 470753,
+        "md5": "ebbffb4d212d655eb50e33565d72d6e2",
+        "sha256": "2c16a50d7b052d54d9f0ccf00c74dda3740430b855eae30abb9cfa439d879320"
+      }
+    ],
+    "originalDownloadSha256": "e9be6deb9a3c6471f548bac6444e5268f2219d9097239337a0fd31e6d39c3b89",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/lightbulb_led/metadata.json",
+    "metadataEvidenceSha256": "806164c429ebf662954114c31c478bbb7b65d7be8c99dd4a69a66f98d0358c3e",
+    "fileManifestEvidence": "sources/external/polyhaven/lightbulb_led/files.json",
+    "fileManifestEvidenceSha256": "55eec2d7d6e87fe39a00289577616217ec75bbeed19011d787a5f4d599bdba0e",
+    "technicalReviewEvidence": "sources/external/polyhaven/lightbulb_led/technical-review.json",
+    "technicalReviewEvidenceSha256": "1b8052bd1857298bebe18d4a9e0723cf44c68ac9d9d9b01f2beb6482f054e8f8",
+    "providerReportedPolycount": 6420,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.061441510915756226,
+      0.061441510915756226,
+      0.1002511978149414
+    ],
+    "reimportDimensionsBlender": [
+      0.061441510915756226,
+      0.061441510915756226,
+      0.1002511978149414
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "524e532bf62f4c00d2d2beffd02231f2a22d252e5000d87f0bc5aac2d6d2a8a8",
+      "triangles": 6420
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

@@ -11,6 +11,12 @@ Sigue [criterios](../../../creation-lab/docs/ACCEPTANCE.md) y [contrato de integ
 
 Usa `validate RUN` y `report RUN` cuando existan. Mantén el resultado técnico separado de la revisión visual. Una corrección crea nueva evidencia; la validación no modifica fuentes ni exports.
 
+Cero errores en Khronos glTF Validator comprueba el formato, no la fidelidad de
+importación. Si cambian normales, topología o límites, consulta el
+[diagnóstico de ida y vuelta](references/roundtrip-diagnostics.md) antes de
+atribuir el fallo al generador, exportador o importador. No relajes tolerancias
+ni conviertas una comparación parcial de diagnóstico en aprobación completa.
+
 Abre también `reimport-three-quarter.png` y compárala con la vista fuente correspondiente. Para la revisión visual se requieren sus hashes junto con los de las cinco vistas fuente. El candidato de handoff requiere export y reimportación comprobados, hashes y resultados técnicos y visuales explícitos. `handoff RUN` crea un manifiesto candidato; no lo publica ni lo convierte en asset del catálogo.
 
 Al reimportar glTF riggeado en bpy, usa `disable_bone_shape=True` cuando esté disponible o excluye explícitamente auxiliares de visualización de huesos. La Icosphere del importador no es geometría del export; contrasta el GLB desde disco antes de afirmar que cambió el asset. Las separaciones de vértices por normales/materiales tampoco demuestran agujeros: conserva la medición bruta y la evaluación soldada de diagnóstico sin modificar la fuente.

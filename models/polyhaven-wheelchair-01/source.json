@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Wheelchair 01\", por Garreth Dean / Poly Haven. https://polyhaven.com/a/wheelchair_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Garreth Dean"
+  },
+  "Title": "Wheelchair 01",
+  "sourceUrl": "https://polyhaven.com/a/wheelchair_01",
+  "assetId": "wheelchair_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-wheelchair-01/original/wheelchair_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/wheelchair_01/wheelchair_01_1k.gltf",
+      "bytes": 2702,
+      "md5": "53901a369849ad929d030279a3d1f719",
+      "sha256": "6a59d638ceb35e46fe543f4b8b5e94b00fe2c6f15045c1d3cd7d9f46de34f645"
+    },
+    {
+      "file": "models/polyhaven-wheelchair-01/original/textures/wheelchair_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wheelchair_01/wheelchair_01_diff_1k.jpg",
+      "bytes": 126137,
+      "md5": "8f3f7ef28ebe675f20fefb8fbafb8ac3",
+      "sha256": "15be1e2a5bd86a4c20f99157e8337016f873d4e4f2d3effc656729430214ac00"
+    },
+    {
+      "file": "models/polyhaven-wheelchair-01/original/textures/wheelchair_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wheelchair_01/wheelchair_01_nor_gl_1k.jpg",
+      "bytes": 210295,
+      "md5": "256c08e1dcf3a937b7d66a845bd21f04",
+      "sha256": "534469bf7bb00549fb383f533b7fcc0a7b4256fe59f42ec7495d1f121700f392"
+    },
+    {
+      "file": "models/polyhaven-wheelchair-01/original/wheelchair_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wheelchair_01/wheelchair_01.bin",
+      "bytes": 1183752,
+      "md5": "419414082dc40cae13c9141d8922a218",
+      "sha256": "66c7c1779171228f1a4691ec572a0346a258f65a88ca71ecc72b81b3bc765996"
+    },
+    {
+      "file": "models/polyhaven-wheelchair-01/original/textures/wheelchair_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wheelchair_01/wheelchair_01_arm_1k.jpg",
+      "bytes": 225508,
+      "md5": "4c4d70458a7848b9d4f60d0b2ec84d2c",
+      "sha256": "29f5b9aab6d63ca1a218f8e34d03a78e9c92e8d643a8728978882223139c9192"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

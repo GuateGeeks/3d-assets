@@ -5,10 +5,17 @@ import hashlib,json,os,re,sys
 ROOT=Path(__file__).resolve().parents[1]
 SITE=ROOT/'_site'
 from reindex import records
-records()  # Includes integrity of source files and QA gates for external resources.
+canonical_records={m['id']:m for m in records()}  # Original integrity and current group manifests.
 models=json.loads((ROOT/'index.json').read_text(encoding='utf-8'))['models']
 if len({m['id'] for m in models})!=len(models): raise SystemExit('Duplicate IDs')
+if set(canonical_records)!={m['id'] for m in models}: raise SystemExit('Stale catalog model IDs')
 for m in models:
+    if any(m.get(k)!=canonical_records[m['id']].get(k) for k in ['kitIds','variantGroupId','variantGroupTitle']): raise SystemExit('Stale catalog grouping')
+    if m.get('providerId')=='polyhaven':
+        review=json.loads((ROOT/m['provenance']['technicalReviewEvidence']).read_text(encoding='utf-8'))
+        if review['technical']!='PASS' or review['glbSha256']!=m['sha256']: raise SystemExit('Poly Haven technical review mismatch')
+        for name,digest in review['images'].items():
+            if hashlib.sha256((ROOT/name).read_bytes()).hexdigest()!=digest: raise SystemExit('Poly Haven review image changed')
     p=(ROOT/m['file']).resolve()
     if not p.is_relative_to((ROOT/'models').resolve()): raise SystemExit('Unsafe model path')
     data=p.read_bytes()

@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Rusted Spade 01\", por Blemonade / Poly Haven. https://polyhaven.com/a/rusted_spade_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Blemonade"
+  },
+  "Title": "Rusted Spade 01",
+  "sourceUrl": "https://polyhaven.com/a/rusted_spade_01",
+  "assetId": "rusted_spade_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-rusted-spade-01/original/rusted_spade_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/rusted_spade_01/rusted_spade_01_1k.gltf",
+      "bytes": 2799,
+      "md5": "491c4e090b3e836c79a3c954ba3ee213",
+      "sha256": "6395b52cd430b718b690e4c52b2f1792837b78f938b0fb79b9583c22e8a1ce62"
+    },
+    {
+      "file": "models/polyhaven-rusted-spade-01/original/textures/rusted_spade_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rusted_spade_01/rusted_spade_01_nor_gl_1k.jpg",
+      "bytes": 737050,
+      "md5": "e74e88df7540d62a922a682c69cc7065",
+      "sha256": "fd2c47c4f7ea5f72cb4ba45c1f2113d516b83c6462509d152776eb1e0a22cd96"
+    },
+    {
+      "file": "models/polyhaven-rusted-spade-01/original/rusted_spade_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/rusted_spade_01/rusted_spade_01.bin",
+      "bytes": 281064,
+      "md5": "711dd23b96e5083ab06623eb7660dacd",
+      "sha256": "43b162f092edc382e6f10fc9df1ae0fd1101cfc0f7d7d545773b37114c94310f"
+    },
+    {
+      "file": "models/polyhaven-rusted-spade-01/original/textures/rusted_spade_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rusted_spade_01/rusted_spade_01_arm_1k.jpg",
+      "bytes": 776600,
+      "md5": "7f044d6fe73243259de3d3e2a9f32f26",
+      "sha256": "8d39c9c1be0df4146267331a962d25e5f3b670b915fea7833cf665680322a539"
+    },
+    {
+      "file": "models/polyhaven-rusted-spade-01/original/textures/rusted_spade_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rusted_spade_01/rusted_spade_01_diff_1k.jpg",
+      "bytes": 625643,
+      "md5": "f45b63ecdafaf0b2a9ba11af71d499d4",
+      "sha256": "9f7e1647cfffb8d0ce48c0ed4876092c2e70155910b7948d1b9fd8015d6dbec8"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

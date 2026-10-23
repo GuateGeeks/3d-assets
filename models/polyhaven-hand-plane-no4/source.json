@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Hand Plane No4\", por Satyaki Mandal / Poly Haven. https://polyhaven.com/a/hand_plane_no4. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Satyaki Mandal"
+  },
+  "Title": "Hand Plane No4",
+  "sourceUrl": "https://polyhaven.com/a/hand_plane_no4",
+  "assetId": "hand_plane_no4",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-hand-plane-no4/original/hand_plane_no4_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/hand_plane_no4/hand_plane_no4_1k.gltf",
+      "bytes": 2917,
+      "md5": "b55927f3de30b83c6dd1761f92a1206d",
+      "sha256": "2c16b27d3ad132d46bee11fca83ceb63ec957fc042af4343fb4830fe3da7e22e"
+    },
+    {
+      "file": "models/polyhaven-hand-plane-no4/original/textures/hand_plane_no4_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_plane_no4/hand_plane_no4_diff_1k.jpg",
+      "bytes": 733120,
+      "md5": "fb9fa732a71e8fd39daedb78e0d551a1",
+      "sha256": "b109c8f6df977c5a8d78588302c06d44adb2ba34009983f31b0d528550e11ba6"
+    },
+    {
+      "file": "models/polyhaven-hand-plane-no4/original/textures/hand_plane_no4_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_plane_no4/hand_plane_no4_arm_1k.jpg",
+      "bytes": 711004,
+      "md5": "cc5885ccbbc6bd3b1a3799946426d2e7",
+      "sha256": "e73a35d2ba880a63a4a7091a0b1ccf959425c6bfb5efb0e2c65b341c6baafd98"
+    },
+    {
+      "file": "models/polyhaven-hand-plane-no4/original/textures/hand_plane_no4_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_plane_no4/hand_plane_no4_nor_gl_1k.jpg",
+      "bytes": 875917,
+      "md5": "1125b3d2e2541b1bb80296dfa0563a38",
+      "sha256": "b06dea7a3499772eaa4d059a849ea0e5d448eeff583c00420e145302b6e186a1"
+    },
+    {
+      "file": "models/polyhaven-hand-plane-no4/original/hand_plane_no4.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/hand_plane_no4/hand_plane_no4.bin",
+      "bytes": 229256,
+      "md5": "100169419da665726938e1a5bcc24121",
+      "sha256": "5c4b28d2a931f0e66de91dd976c04f109419a8d0bda527096d2b4d4d0e00b9f7"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

@@ -1,6 +1,6 @@
 # Tierra, relieve y geografía
 
-131 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+132 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -134,4 +134,5 @@
 | [stone · tall H](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-stone-tallh/model.glb) | 0 / 0 |
 | [stone · tall I](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-stone-talli/model.glb) | 0 / 0 |
 | [stone · tall J](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-stone-tallj/model.glb) | 0 / 0 |
+| [Brújula de navegación](https://polyhaven.com/a/seadogs_compass) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Benny Weimer | [GLB](../../models/polyhaven-seadogs-compass/model.glb) | 0 / 0 |
 | [Mountains](https://poly.pizza/m/w9VBrh7Nz0) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/w9VBrh7Nz0/model.glb) | 0 / 0 |

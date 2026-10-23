@@ -1,0 +1,50 @@
+{
+  "donated": true,
+  "type": 2,
+  "name": "Magnifying Glass 01",
+  "categories": [
+    "props",
+    "tools"
+  ],
+  "authors": {
+    "Nazar Borodavka": "All"
+  },
+  "date_published": 1633478400,
+  "max_resolution": [
+    8192,
+    8192
+  ],
+  "polycount": 7240,
+  "texel_density": 24602.20994179157,
+  "dimensions": [
+    132.1375072002411,
+    26.717988774180412,
+    271.5718152341225
+  ],
+  "files_hash": "6da491748884093be54c0e1ec1ca97a839889ea0",
+  "tags": [
+    "eye",
+    "focal",
+    "lense",
+    "magnifier",
+    "magnifying lens",
+    "inspection",
+    "optical tool",
+    "reading aid"
+  ],
+  "description": "Free 8K model of a classic magnifying glass with a slightly worn convex lens, subtle scratches and dust, and a matte black metal frame and handle.",
+  "category_id": "dc601232-ec2d-56d2-80de-c9acac17b25a",
+  "category": "Electronics & Appliances/Devices & Instruments/Optical Instruments",
+  "attributes": {
+    "condition": [
+      "worn"
+    ],
+    "material": [
+      "glass",
+      "metal"
+    ]
+  },
+  "img_version": "25545885",
+  "download_count": 9172,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/magnifying_glass_01.png?width=256&height=256&format=webp&v=25545885"
+}

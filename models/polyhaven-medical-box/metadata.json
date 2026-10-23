@@ -1,0 +1,160 @@
+{
+  "id": "polyhaven-medical-box",
+  "assetId": "polyhaven:medical_box",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Caja de primeros auxilios",
+  "titleOriginal": "Medical Box",
+  "author": "Ulan Cabanilla",
+  "authorUrl": "https://polyhaven.com/a/medical_box",
+  "sourceUrl": "https://polyhaven.com/a/medical_box",
+  "metadataUrl": "https://api.polyhaven.com/info/medical_box",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/medical_box/medical_box_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Apparel & Personal Items/Mobility & Medical/Medical Kits",
+  "tags": [
+    "worn",
+    "metal",
+    "green",
+    "medical",
+    "first aid",
+    "storage",
+    "scratched",
+    "Medical Box",
+    "health-medical-boxes"
+  ],
+  "areas": [
+    "cuerpo-salud",
+    "comunidad-ciudadania"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Educación Física",
+    "Formación Ciudadana"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Medical Box\", por Ulan Cabanilla / Poly Haven. https://polyhaven.com/a/medical_box. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-medical-box/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/medical_box/metadata.json",
+  "originalDownload": "models/polyhaven-medical-box/originals.zip",
+  "bytes": 1971848,
+  "sha256": "0c6de678bd663de3e377cdea8093bc05886b777764ce9ce5c63d1254c57bf089",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 5,
+    "nodes": 5,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:17.792359+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "medical_box_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-medical-box/original/medical_box_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/medical_box/medical_box_1k.gltf",
+        "bytes": 8820,
+        "md5": "8ffb8e133bdddb8d7647f3349ffe296f",
+        "sha256": "ae52391cf95b6ec6505530ad00c098a5bafb173f39371296da3ce9db6808f01f"
+      },
+      {
+        "file": "models/polyhaven-medical-box/original/textures/medical_box_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_box/medical_box_nor_gl_1k.jpg",
+        "bytes": 358278,
+        "md5": "494d022a087d7b97be59b7d5c7138195",
+        "sha256": "9afa38d3139b6cd9c022e371e3c53d2e8c21ab6cb2326a08e9457c506d82058c"
+      },
+      {
+        "file": "models/polyhaven-medical-box/original/textures/medical_box_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_box/medical_box_diff_1k.jpg",
+        "bytes": 674432,
+        "md5": "671ae67229ffd836b6a5dc259cdae74f",
+        "sha256": "64627e4be15f9a83a2d160b62e54bb9963f225c2312671b3d6d82928f7de19a9"
+      },
+      {
+        "file": "models/polyhaven-medical-box/original/textures/medical_box_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_box/medical_box_arm_1k.jpg",
+        "bytes": 805882,
+        "md5": "2eda0debe31e7bfc8dfd1066be399154",
+        "sha256": "eb61c506d05506fabd141a1a0caa130e305f81bb75847ab5dba7eaf621ad49c4"
+      },
+      {
+        "file": "models/polyhaven-medical-box/original/medical_box.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/medical_box/medical_box.bin",
+        "bytes": 127972,
+        "md5": "22d04371779d87a0e65ee97c4ad7389c",
+        "sha256": "0104f7edd5da4cd1847bf4b3c23d6d4af14c16670827387b1f33048c554da189"
+      }
+    ],
+    "originalDownloadSha256": "d62817e0c7425b78946783de9c6409fd0591d237356b060a7c8a4ec1df9fd3f2",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/medical_box/metadata.json",
+    "metadataEvidenceSha256": "76e68bee85e18d2ea00bcdd81cfc37d1cb255c125f1f5b12740aa629e94fe353",
+    "fileManifestEvidence": "sources/external/polyhaven/medical_box/files.json",
+    "fileManifestEvidenceSha256": "fd133df94e74d6e814639ed2bb91b4a2ba84fe0da61fe5995beca15b3d2fb5bd",
+    "technicalReviewEvidence": "sources/external/polyhaven/medical_box/technical-review.json",
+    "technicalReviewEvidenceSha256": "53822b735079f2b6c178ba3faea8cbc9baf1558d7ce3d9abbeb9b426d7754e29",
+    "providerReportedPolycount": 3718,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.5254814624786377,
+      0.35016927123069763,
+      0.0975121483206749
+    ],
+    "reimportDimensionsBlender": [
+      0.5254814624786377,
+      0.35016927123069763,
+      0.0975121483206749
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "79c8ce5f9e5dd37b451582cb3d898fada027fbb06a6a5f0e6666be26ba9a88d1",
+      "triangles": 3718
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

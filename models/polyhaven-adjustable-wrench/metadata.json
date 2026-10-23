@@ -1,0 +1,162 @@
+{
+  "id": "polyhaven-adjustable-wrench",
+  "assetId": "polyhaven:adjustable_wrench",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Llave ajustable",
+  "titleOriginal": "Adjustable Wrench",
+  "author": "Mateusz Sadek",
+  "authorUrl": "https://polyhaven.com/a/adjustable_wrench",
+  "sourceUrl": "https://polyhaven.com/a/adjustable_wrench",
+  "metadataUrl": "https://api.polyhaven.com/info/adjustable_wrench",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/adjustable_wrench/adjustable_wrench_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Hand Tools/Wrenches & Spanners",
+  "tags": [
+    "vintage",
+    "worn",
+    "antique",
+    "aged",
+    "shed",
+    "garage",
+    "hand tool",
+    "rustic",
+    "pipe wrench",
+    "monkey wrench",
+    "Adjustable Wrench",
+    "workshop-wrenches"
+  ],
+  "areas": [
+    "oficios-productividad",
+    "fisica-energia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Adjustable Wrench\", por Mateusz Sadek / Poly Haven. https://polyhaven.com/a/adjustable_wrench. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-adjustable-wrench/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/adjustable_wrench/metadata.json",
+  "originalDownload": "models/polyhaven-adjustable-wrench/originals.zip",
+  "bytes": 2639984,
+  "sha256": "913385483b88c58c292ee13b146f470967c73fef08a139932372c7c1e3a904fc",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 3,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:49.015643+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "adjustable_wrench_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-adjustable-wrench/original/adjustable_wrench_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/adjustable_wrench/adjustable_wrench_1k.gltf",
+        "bytes": 5659,
+        "md5": "3d0d76e90c269a2715ecc262a6bd623d",
+        "sha256": "1fc7df249bd4aa5f8cad48eb0b23381bad305b17a3095d06758d76ac1605fea1"
+      },
+      {
+        "file": "models/polyhaven-adjustable-wrench/original/textures/adjustable_wrench_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/adjustable_wrench/adjustable_wrench_nor_gl_1k.jpg",
+        "bytes": 791361,
+        "md5": "d4f2a70aed711a41200a0f14af8e40da",
+        "sha256": "68eb00858eefe4d80a75640c81dc4b202a3b946fd5800d7d2ea3cad29d8e0120"
+      },
+      {
+        "file": "models/polyhaven-adjustable-wrench/original/textures/adjustable_wrench_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/adjustable_wrench/adjustable_wrench_diff_1k.jpg",
+        "bytes": 783317,
+        "md5": "1118cb148986000a9cf87609cd75fcd0",
+        "sha256": "d4725eb3c741e337c28c0ed57712ecdfb5f3ee34f130907e34cea0b8e7809595"
+      },
+      {
+        "file": "models/polyhaven-adjustable-wrench/original/textures/adjustable_wrench_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/adjustable_wrench/adjustable_wrench_arm_1k.jpg",
+        "bytes": 872289,
+        "md5": "b5fb4066c620db229f596195243e00a3",
+        "sha256": "0fe9de7c2fce586621364cc02549d524e31b99831d93b330a51175b42e4a276a"
+      },
+      {
+        "file": "models/polyhaven-adjustable-wrench/original/adjustable_wrench.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/adjustable_wrench/adjustable_wrench.bin",
+        "bytes": 189556,
+        "md5": "b1d05a421b7e7194fd80187075923a67",
+        "sha256": "6a61050c0eb32f4139c49168fe403f04d255e9ca9255bc293e4cd4f503bd5883"
+      }
+    ],
+    "originalDownloadSha256": "1c24885704c488b8c7b557d8febfe1b8e1c53ef17f8ba9f55941d77e87fa4545",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/adjustable_wrench/metadata.json",
+    "metadataEvidenceSha256": "b8f1d58c7cda3c8e4166dc66c3cf2ece6d58d414a7da4d8d2d6e5ab3845a2f9c",
+    "fileManifestEvidence": "sources/external/polyhaven/adjustable_wrench/files.json",
+    "fileManifestEvidenceSha256": "53574c57c23b2a9f71a93f27c0130734e75d41b9fd59aa69fbfb59d59f87ec02",
+    "technicalReviewEvidence": "sources/external/polyhaven/adjustable_wrench/technical-review.json",
+    "technicalReviewEvidenceSha256": "0285fe334c536da6270a9290cfc2c7a269516f8999a17a095c6e19d1d38ce349",
+    "providerReportedPolycount": 5390,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.06834418326616287,
+      0.030590344220399857,
+      0.2541303038597107
+    ],
+    "reimportDimensionsBlender": [
+      0.06834418326616287,
+      0.030590344220399857,
+      0.2541303038597107
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "dfec94958c5ac3dd445cad6c9338b1eed3b0585ae0fef4d8085d68bf274149fc",
+      "triangles": 5390
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

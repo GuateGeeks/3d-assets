@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    0.20048236846923828,
+    0.3957216739654541,
+    0.2851486802101135
+  ],
+  "boundsMinBlender": [
+    -0.10035783052444458,
+    -0.21449434757232666,
+    -0.08558611571788788
+  ],
+  "boundsMaxBlender": [
+    0.1001245379447937,
+    0.18122734129428864,
+    0.19956256449222565
+  ],
+  "meshObjects": 4,
+  "polygons": 2863,
+  "vertices": 2183,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "polyhaven-bench-vice-01",
+  "sourceFile": "bench_vice_01_1k.gltf",
+  "glbSha256": "4dc3378d2d63e16e18dafaa82bb16eb59d4bcd7b57c1543f450da22c18141c1e",
+  "reimport": {
+    "dimensionsBlender": [
+      0.20048236846923828,
+      0.3957216739654541,
+      0.2851486802101135
+    ],
+    "boundsMinBlender": [
+      -0.10035783052444458,
+      -0.21449434757232666,
+      -0.08558611571788788
+    ],
+    "boundsMaxBlender": [
+      0.1001245379447937,
+      0.18122734129428864,
+      0.19956256449222565
+    ],
+    "meshObjects": 4,
+    "polygons": 2863,
+    "vertices": 2183,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 3.957216739654541e-05,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/polyhaven/bench_vice_01/renders/source-back.png": "af6055ec533a70aadce39892c200bc49f4754d82ed2325950be5e63e130b73ea",
+    "sources/external/polyhaven/bench_vice_01/renders/source-side.png": "bd5450deeea49031839b653ed612a07cc4303c5518fdeeac9d65879bb8ac5c49",
+    "sources/external/polyhaven/bench_vice_01/renders/source-front.png": "98a6610d15fead42c3fecc1a28a364c7b8cb7ab7ede4d701fb323ed0eebbc5e1",
+    "sources/external/polyhaven/bench_vice_01/renders/reimport-three-quarter.png": "74f241b8285151fa5030ca438ef53c85d35d06a7f0e398682914278f93a800cf",
+    "sources/external/polyhaven/bench_vice_01/renders/source-three-quarter.png": "06c2664d4345121fa606a9732a3807d3e610f40767abca770d56d71ebc10d737",
+    "sources/external/polyhaven/bench_vice_01/renders/source-wireframe.png": "76823b72855ad5239255cac19a19241013c02ff34020b9a2364d8442d3196dba"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

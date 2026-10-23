@@ -1,6 +1,6 @@
 # Física, máquinas y energía
 
-23 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+30 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -27,3 +27,10 @@
 | [Engranaje · 16 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Elegant Crow | [GLB](../../models/oga-gears-gear-16/model.glb) | 0 / 0 |
 | [Engranaje · 18 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Elegant Crow | [GLB](../../models/oga-gears-gear-18/model.glb) | 0 / 0 |
 | [Engranaje · 20 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Elegant Crow | [GLB](../../models/oga-gears-gear-20/model.glb) | 0 / 0 |
+| [Llave ajustable](https://polyhaven.com/a/adjustable_wrench) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Mateusz Sadek | [GLB](../../models/polyhaven-adjustable-wrench/model.glb) | 0 / 0 |
+| [Tornillo de banco](https://polyhaven.com/a/bench_vice_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Yann Kervran, Antanas Kep | [GLB](../../models/polyhaven-bench-vice-01/model.glb) | 1 / 0 |
+| [Mechero Bunsen](https://polyhaven.com/a/bunsen_burner) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | BKS | [GLB](../../models/polyhaven-bunsen-burner/model.glb) | 0 / 0 |
+| [Bombilla incandescente](https://polyhaven.com/a/lightbulb_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Josh Dean | [GLB](../../models/polyhaven-lightbulb-01/model.glb) | 0 / 0 |
+| [Bombilla LED](https://polyhaven.com/a/lightbulb_led) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Josh Dean | [GLB](../../models/polyhaven-lightbulb-led/model.glb) | 0 / 0 |
+| [Llave de carraca](https://polyhaven.com/a/ratchet_wrench) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | John Hutcheson | [GLB](../../models/polyhaven-ratchet-wrench/model.glb) | 0 / 0 |
+| [Multímetro analógico](https://polyhaven.com/a/retro_multimeter) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | elli moeller | [GLB](../../models/polyhaven-retro-multimeter/model.glb) | 0 / 0 |

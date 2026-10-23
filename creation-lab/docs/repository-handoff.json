@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "clientDate": "2026-10-22",
+  "clientTimezone": "America/Guatemala",
+  "checkedAt": "2026-10-23T00:30:57.103977+00:00",
+  "status": "PASS",
+  "scope": "Clean staged checkout without ignored runtime or local Codex configuration",
+  "validatedSourceTreeBeforeReceipt": "ef55f25374eb1901decd682340fc9c4d9c797875",
+  "catalog": {
+    "models": 1021,
+    "thumbnails": 1021,
+    "integrity": "PASS",
+    "cleanStaticBuild": "PASS",
+    "publicSiteBytes": 485721381,
+    "sourceCredentialScan": "PASS"
+  },
+  "sources": {
+    "verifiedFiles": 255,
+    "status": "PASS"
+  },
+  "skills": {
+    "entrypoints": 10,
+    "localLinks": 50,
+    "status": "PASS",
+    "ownSkillsQuickValidate": 8
+  },
+  "tests": {
+    "total": 59,
+    "passed": 51,
+    "skipped": 8,
+    "creation": {
+      "total": 15,
+      "passed": 13,
+      "skipped": 2
+    },
+    "rigging": {
+      "total": 26,
+      "passed": 20,
+      "skipped": 6
+    },
+    "benchmark": {
+      "total": 18,
+      "passed": 18,
+      "skipped": 0
+    }
+  },
+  "benchmark": {
+    "archives": 10,
+    "filesRestored": 287,
+    "compressedBytes": 64656749,
+    "restoredBytes": 414537090,
+    "maxArchiveBytes": 8098559,
+    "fixturesIndexSha256": "7d98420606893f85068333d7278f78c0b332ce015c229952eebd8ae006199cee",
+    "archiveHashesCrcManifestsAndCompletion": "PASS",
+    "credentialScanInArchivedText": "PASS",
+    "cleanViewerHttpChecks": 24,
+    "cleanViewerScores": {
+      "A": 85,
+      "B": 19,
+      "C": 82,
+      "D": 87,
+      "E": 44,
+      "F": 82
+    },
+    "newRunsInheritHistoricalReview": false
+  },
+  "javascriptSyntax": "PASS",
+  "optionalKhronos": {
+    "version": "2.0.0-dev.3.10",
+    "localExistingPackageValidation": {
+      "files": 10,
+      "errors": 0,
+      "warnings": 0
+    },
+    "freshNpmCi": "NOT_RUN locally; CI configured to install exact package-lock with scripts disabled and validate all restored GLBs"
+  },
+  "limitations": [
+    "Eight local Blender/bpy/corpus tests were skipped in the clean checkout, not counted as passes.",
+    "No new GPU inference or Blender generation was needed to verify distribution.",
+    "The shared working-directory _site was stale; verification built its own complete static site in the clean checkout.",
+    "Public Pages deployment is separate from the requested Git push.",
+    "Historical biological and visual ratings apply only to their exact reviewed runs."
+  ]
+}

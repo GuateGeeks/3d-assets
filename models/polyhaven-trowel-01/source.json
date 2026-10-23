@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Trowel 01\", por Satyaki Mandal / Poly Haven. https://polyhaven.com/a/trowel_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Satyaki Mandal"
+  },
+  "Title": "Trowel 01",
+  "sourceUrl": "https://polyhaven.com/a/trowel_01",
+  "assetId": "trowel_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-trowel-01/original/trowel_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/trowel_01/trowel_01_1k.gltf",
+      "bytes": 2738,
+      "md5": "24fe517d40ff9769ca7623f121accbe9",
+      "sha256": "8d392c5572a388067be6d4f87c17be4385a9ee9a740aa26fce057ace66cfac94"
+    },
+    {
+      "file": "models/polyhaven-trowel-01/original/textures/trowel_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/trowel_01/trowel_01_nor_gl_1k.jpg",
+      "bytes": 712535,
+      "md5": "75fdf1f597e6ef08123dcf2a415d031a",
+      "sha256": "19350e51cc592519b89ee00321014d8aec8568c86579d5d6b2b9d1daa6bb18de"
+    },
+    {
+      "file": "models/polyhaven-trowel-01/original/textures/trowel_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/trowel_01/trowel_01_diff_1k.jpg",
+      "bytes": 495321,
+      "md5": "a4a53c47399f5e3496fe7731eb59de7c",
+      "sha256": "13c3a0a96a7949001d77043fe6b3e211307e0dc64fa4a54beced3e4475b4b9be"
+    },
+    {
+      "file": "models/polyhaven-trowel-01/original/trowel_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/trowel_01/trowel_01.bin",
+      "bytes": 127964,
+      "md5": "51a7d1d10f08d8b184b49069e3aac207",
+      "sha256": "458119c747365f7e06637810de0391949567055a2df0a07cea8161764b7e1f65"
+    },
+    {
+      "file": "models/polyhaven-trowel-01/original/textures/trowel_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/trowel_01/trowel_01_arm_1k.jpg",
+      "bytes": 634828,
+      "md5": "993042cb8333b3dde6e5ce5a3cbc9ca2",
+      "sha256": "3a772dd71306f633506a6aa3185c9c3be9575faa2f3f8642d8b80101f5e5b79c"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

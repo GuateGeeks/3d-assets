@@ -1,6 +1,6 @@
 # Geometría, tiempo y medición
 
-135 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+138 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -139,3 +139,6 @@
 | [Engranaje · 16 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Elegant Crow | [GLB](../../models/oga-gears-gear-16/model.glb) | 0 / 0 |
 | [Engranaje · 18 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Elegant Crow | [GLB](../../models/oga-gears-gear-18/model.glb) | 0 / 0 |
 | [Engranaje · 20 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Elegant Crow | [GLB](../../models/oga-gears-gear-20/model.glb) | 0 / 0 |
+| [Cinta métrica](https://polyhaven.com/a/measuring_tape_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kuutti Siitonen | [GLB](../../models/polyhaven-measuring-tape-01/model.glb) | 0 / 0 |
+| [Multímetro analógico](https://polyhaven.com/a/retro_multimeter) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | elli moeller | [GLB](../../models/polyhaven-retro-multimeter/model.glb) | 0 / 0 |
+| [Brújula de navegación](https://polyhaven.com/a/seadogs_compass) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Benny Weimer | [GLB](../../models/polyhaven-seadogs-compass/model.glb) | 0 / 0 |

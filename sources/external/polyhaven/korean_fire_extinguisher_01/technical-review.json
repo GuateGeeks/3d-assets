@@ -1,0 +1,59 @@
+{
+  "dimensionsBlender": [
+    0.2799575924873352,
+    0.3674432635307312,
+    0.6592507362365723
+  ],
+  "boundsMinBlender": [
+    -0.1399787813425064,
+    -0.24420279264450073,
+    -3.978568940965488e-08
+  ],
+  "boundsMaxBlender": [
+    0.1399787962436676,
+    0.12324045598506927,
+    0.6592506766319275
+  ],
+  "meshObjects": 1,
+  "polygons": 9913,
+  "vertices": 6875,
+  "materials": 3,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "polyhaven-korean-fire-extinguisher-01",
+  "sourceFile": "korean_fire_extinguisher_01_1k.gltf",
+  "glbSha256": "b164b08d8d7f537b8de2d432ae6820cef3a139f3bf90c223b27fa32daeb4e321",
+  "reimport": {
+    "dimensionsBlender": [
+      0.2799575924873352,
+      0.3674432635307312,
+      0.6592507362365723
+    ],
+    "boundsMinBlender": [
+      -0.1399787813425064,
+      -0.24420279264450073,
+      -3.978568940965488e-08
+    ],
+    "boundsMaxBlender": [
+      0.1399787962436676,
+      0.12324045598506927,
+      0.6592506766319275
+    ],
+    "meshObjects": 1,
+    "polygons": 9913,
+    "vertices": 6875,
+    "materials": 3,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 6.592507362365724e-05,
+  "images": {
+    "sources/external/polyhaven/korean_fire_extinguisher_01/renders/source-back.png": "f7880366ef1e81f6e8d596e8e330d745a8296570fae60962831667019b486618",
+    "sources/external/polyhaven/korean_fire_extinguisher_01/renders/source-side.png": "e0c81bf8092c5f11d5422891bf19735ae153a59c6170ced458dfab2ab45ee003",
+    "sources/external/polyhaven/korean_fire_extinguisher_01/renders/source-front.png": "fb84ee275bde10f629733ab379319c8eaa24e1013f594b0fe6624eed108fc5b7",
+    "sources/external/polyhaven/korean_fire_extinguisher_01/renders/reimport-three-quarter.png": "a56794cffc358ff93bcea6834e139e3b36bfaa47d68bfe27779f191b35e5bfe3",
+    "sources/external/polyhaven/korean_fire_extinguisher_01/renders/source-three-quarter.png": "52bd4432ec28049799f66eb3c4390a1fcf8e85f361cf95a6d3ce88de960cd87f",
+    "sources/external/polyhaven/korean_fire_extinguisher_01/renders/source-wireframe-v2.png": "a25f8ba6d1ef0304ae268ea2898c636bf877aced063a90aa906070965edb5993"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "wireframeDiagnostic": "Clay wire shader; no geometry modifier. Earlier modifier diagnostic retained only in staging."
+}

@@ -1,0 +1,160 @@
+{
+  "id": "polyhaven-retro-multimeter",
+  "assetId": "polyhaven:retro_multimeter",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Multímetro analógico",
+  "titleOriginal": "Retro Multimeter",
+  "author": "elli moeller",
+  "authorUrl": "https://polyhaven.com/a/retro_multimeter",
+  "sourceUrl": "https://polyhaven.com/a/retro_multimeter",
+  "metadataUrl": "https://api.polyhaven.com/info/retro_multimeter",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/retro_multimeter/retro_multimeter_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Electronics & Appliances/Devices & Instruments/Lab Equipment",
+  "tags": [
+    "old",
+    "vintage",
+    "antique",
+    "analog",
+    "engineering",
+    "voltmeter",
+    "ammeter",
+    "Retro Multimeter",
+    "electronics-multimeters"
+  ],
+  "areas": [
+    "robotica-electronica",
+    "fisica-energia",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Retro Multimeter\", por elli moeller / Poly Haven. https://polyhaven.com/a/retro_multimeter. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-retro-multimeter/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/retro_multimeter/metadata.json",
+  "originalDownload": "models/polyhaven-retro-multimeter/originals.zip",
+  "bytes": 1787136,
+  "sha256": "b7123edb59d0dc54feaf557481c017a542deb22c3528333b66565035e8f06a63",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 7,
+    "nodes": 7,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:40:58.919475+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "retro_multimeter_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-retro-multimeter/original/retro_multimeter_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/retro_multimeter/retro_multimeter_1k.gltf",
+        "bytes": 13821,
+        "md5": "7709ce6ba14271e2b2991193c897502b",
+        "sha256": "47b51486a9fc1b5dab3449b3541e6bcbc3ae866e72372fcd8b67f3f45e803a97"
+      },
+      {
+        "file": "models/polyhaven-retro-multimeter/original/textures/retro_multimeter_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/retro_multimeter/retro_multimeter_nor_gl_1k.jpg",
+        "bytes": 252642,
+        "md5": "6ad1b7963ba777dbaa7bfce231ed38f6",
+        "sha256": "d30fd3007cb35e62a0a5171d148df0dba3bee688e96c76d4ffbc314761fac183"
+      },
+      {
+        "file": "models/polyhaven-retro-multimeter/original/textures/retro_multimeter_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/retro_multimeter/retro_multimeter_diff_1k.jpg",
+        "bytes": 399388,
+        "md5": "47901b8cbb376b1a3a94425c83647cf4",
+        "sha256": "46baf6d9026f3cc79cfe6105c20101ec4436f728ced143f1647931b6d68a2e3b"
+      },
+      {
+        "file": "models/polyhaven-retro-multimeter/original/textures/retro_multimeter_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/retro_multimeter/retro_multimeter_arm_1k.jpg",
+        "bytes": 454111,
+        "md5": "79e1c577441d03097ab2230e55df5a89",
+        "sha256": "3fbf956cfc9830fb866535ad8c50a6923ffb848b06707c5d957bbb8d73385c46"
+      },
+      {
+        "file": "models/polyhaven-retro-multimeter/original/retro_multimeter.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/retro_multimeter/retro_multimeter.bin",
+        "bytes": 273368,
+        "md5": "b36d88e298ffd927fb2276e55d7a3640",
+        "sha256": "c2d626778b59eaa5293f7c666433a5b0224cdb2dc38d005a056f95b2ab24b2e8"
+      }
+    ],
+    "originalDownloadSha256": "059b38156ed8fb894123fec709b526a49b7cf002d3270045870d1f82e5009156",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/retro_multimeter/metadata.json",
+    "metadataEvidenceSha256": "32e790618a3dd253667bbf91c579060efa1070f2834b5fe10b8aa300a1819369",
+    "fileManifestEvidence": "sources/external/polyhaven/retro_multimeter/files.json",
+    "fileManifestEvidenceSha256": "33a625cff659d7fb9fb5b05bb89ee980eedf513112c806ca15c1a3b844442581",
+    "technicalReviewEvidence": "sources/external/polyhaven/retro_multimeter/technical-review.json",
+    "technicalReviewEvidenceSha256": "e69bcec00b7e7624f34515f318a99fddd98aad30f9700316bbb50bf102dc5456",
+    "providerReportedPolycount": 13356,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.21597421169281006,
+      0.2026422619819641,
+      0.27863749861717224
+    ],
+    "reimportDimensionsBlender": [
+      0.21597421169281006,
+      0.2026422619819641,
+      0.27863749861717224
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "f3a120d7fe1541e16a3c528901e13a2ca56684391d738e87582698cae613925d",
+      "triangles": 8948
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

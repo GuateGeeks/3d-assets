@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Seadogs Compass\", por Benny Weimer / Poly Haven. https://polyhaven.com/a/seadogs_compass. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Benny Weimer"
+  },
+  "Title": "Seadogs Compass",
+  "sourceUrl": "https://polyhaven.com/a/seadogs_compass",
+  "assetId": "seadogs_compass",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-seadogs-compass/original/seadogs_compass_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/seadogs_compass/seadogs_compass_1k.gltf",
+      "bytes": 6060,
+      "md5": "0318994a5051b7db8510ba096f9b5f89",
+      "sha256": "eb43affaa88dcf40d47318d096f14b709d8ddc34bad46b67ed038b807e56df07"
+    },
+    {
+      "file": "models/polyhaven-seadogs-compass/original/textures/seadogs_compass_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seadogs_compass/seadogs_compass_nor_gl_1k.jpg",
+      "bytes": 674750,
+      "md5": "2cd1f97104e1d1b0f31585d356ccf0b7",
+      "sha256": "f5bdeb37f58d2967b9b31e9665e234be1b9f9e694ca35a4ca3ced17187de0ed5"
+    },
+    {
+      "file": "models/polyhaven-seadogs-compass/original/textures/seadogs_compass_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seadogs_compass/seadogs_compass_diff_1k.jpg",
+      "bytes": 727504,
+      "md5": "187da0dfe1009489de22f0386296e617",
+      "sha256": "f5bd77e551b00fcc5886cc5d13978a79447ce0be770277a116943e2ed635db27"
+    },
+    {
+      "file": "models/polyhaven-seadogs-compass/original/textures/seadogs_compass_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seadogs_compass/seadogs_compass_arm_1k.jpg",
+      "bytes": 901867,
+      "md5": "3a5bf5169a5360e13840818d5ae09f95",
+      "sha256": "3a4dd86ffb9e3d3d3423fc399011a91f69a2bfb1ab9d181672e735b8aa0a48bb"
+    },
+    {
+      "file": "models/polyhaven-seadogs-compass/original/seadogs_compass.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/seadogs_compass/seadogs_compass.bin",
+      "bytes": 385520,
+      "md5": "b982d0f8af97355aa77d920439b48823",
+      "sha256": "59089793269ffa10d7d180de5611b2bb276288f929fde93b2b705f7e83b246b5"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

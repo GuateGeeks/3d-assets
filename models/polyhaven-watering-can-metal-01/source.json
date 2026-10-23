@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Watering Can Metal 01\", por Charles Nderitu / Poly Haven. https://polyhaven.com/a/watering_can_metal_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Charles Nderitu"
+  },
+  "Title": "Watering Can Metal 01",
+  "sourceUrl": "https://polyhaven.com/a/watering_can_metal_01",
+  "assetId": "watering_can_metal_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-watering-can-metal-01/original/watering_can_metal_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/watering_can_metal_01/watering_can_metal_01_1k.gltf",
+      "bytes": 3183,
+      "md5": "38a69c7bdf66a2a9e3348b4c766c8d64",
+      "sha256": "aaf3cdf52d64d1081fc7a9113a1ee91a0f8c9bcf569b5ac9927c713b65bbbd2e"
+    },
+    {
+      "file": "models/polyhaven-watering-can-metal-01/original/textures/watering_can_metal_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/watering_can_metal_01/watering_can_metal_01_nor_gl_1k.jpg",
+      "bytes": 725001,
+      "md5": "a94eebe05e42b53dd3b8f75a9a341598",
+      "sha256": "13aaedd908aba518ab28d3401881529c9d2ee656459a110f5619b9aad2e86be7"
+    },
+    {
+      "file": "models/polyhaven-watering-can-metal-01/original/watering_can_metal_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/watering_can_metal_01/watering_can_metal_01.bin",
+      "bytes": 318736,
+      "md5": "26a41806730e420dc894a685d9a80fe3",
+      "sha256": "8d8db62f70b3a0a8887dbc31f6507bd2dfb93b2878527cc06362dca766493a32"
+    },
+    {
+      "file": "models/polyhaven-watering-can-metal-01/original/textures/watering_can_metal_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/watering_can_metal_01/watering_can_metal_01_arm_1k.jpg",
+      "bytes": 944654,
+      "md5": "ccc868c2394c1d085f1f76997626ccac",
+      "sha256": "966f78fca72dd7ae358c3199f6f7734830a7b09c782673e3e4bdfd0ce2d16689"
+    },
+    {
+      "file": "models/polyhaven-watering-can-metal-01/original/textures/watering_can_metal_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/watering_can_metal_01/watering_can_metal_01_diff_1k.jpg",
+      "bytes": 619613,
+      "md5": "ea49aa546a86f15b6401b1a1bdc8cac2",
+      "sha256": "e684096ed02bf20dbe46875185aeef02bbc50d31730badfe5853a36ccc5ee2fe"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

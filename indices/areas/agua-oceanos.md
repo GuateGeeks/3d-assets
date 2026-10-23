@@ -1,6 +1,6 @@
 # Agua y ecosistemas acuáticos
 
-31 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+33 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -35,3 +35,5 @@
 | [ground · river Tile](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-ground-rivertile/model.glb) | 0 / 0 |
 | [lily · large](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-lily-large/model.glb) | 0 / 0 |
 | [lily · small](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-lily-small/model.glb) | 0 / 0 |
+| [Chaleco salvavidas](https://polyhaven.com/a/life_jacket) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | PierreB3D | [GLB](../../models/polyhaven-life-jacket/model.glb) | 0 / 0 |
+| [Aro salvavidas](https://polyhaven.com/a/lifebuoy) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Hank Kaamura | [GLB](../../models/polyhaven-lifebuoy/model.glb) | 0 / 0 |

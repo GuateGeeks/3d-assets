@@ -1,0 +1,52 @@
+{
+  "type": 2,
+  "name": "Industrial Microscope",
+  "categories": [
+    "collection: project_lighthouse",
+    "industrial",
+    "tools",
+    "appliances"
+  ],
+  "tags": [
+    "lab",
+    "laboratory",
+    "science",
+    "testing",
+    "equipment",
+    "optical"
+  ],
+  "description": "Free 4K model of a vintage industrial microscope with binocular head, triple objective turret, textured cast-metal body, worn paint, and detailed knobs.",
+  "authors": {
+    "Lukas Walzer": "All"
+  },
+  "donated": true,
+  "max_resolution": [
+    4096,
+    4096
+  ],
+  "polycount": 16598,
+  "files_hash": "8a478e01a8143546913bb0c48712bdd06dcac2ee",
+  "texel_density": 4232.65922982601,
+  "dimensions": [
+    214.53481912612915,
+    498.0906546115875,
+    461.7440301226452
+  ],
+  "date_published": 1781913600,
+  "category_id": "dc601232-ec2d-56d2-80de-c9acac17b25a",
+  "category": "Electronics & Appliances/Devices & Instruments/Optical Instruments",
+  "collections": [
+    "project_lighthouse"
+  ],
+  "attributes": {
+    "condition": [
+      "worn"
+    ],
+    "material": [
+      "metal"
+    ]
+  },
+  "img_version": "da69bccf",
+  "download_count": 1033,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/industrial_microscope.png?width=256&height=256&format=webp&v=da69bccf"
+}

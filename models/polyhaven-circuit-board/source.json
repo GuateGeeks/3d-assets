@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Circuit Board\", por Benny Weimer / Poly Haven. https://polyhaven.com/a/circuit_board. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Benny Weimer"
+  },
+  "Title": "Circuit Board",
+  "sourceUrl": "https://polyhaven.com/a/circuit_board",
+  "assetId": "circuit_board",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-circuit-board/original/circuit_board_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/circuit_board/circuit_board_1k.gltf",
+      "bytes": 4682,
+      "md5": "843c41f2c60018c22c8226dbb2f576f7",
+      "sha256": "ecba88dcee1fbb42564b5f5fd6a1924af3c9fa7e6bf4f4d1c22dd2fa593b71eb"
+    },
+    {
+      "file": "models/polyhaven-circuit-board/original/textures/circuit_board_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/circuit_board/circuit_board_nor_gl_1k.jpg",
+      "bytes": 853499,
+      "md5": "4bd51f1630a546dc54e212325c08c6f6",
+      "sha256": "eeb181c69783c68e255f13294a98f63f720b43a10ca5065fc476491363057831"
+    },
+    {
+      "file": "models/polyhaven-circuit-board/original/textures/circuit_board_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/circuit_board/circuit_board_diff_1k.jpg",
+      "bytes": 855935,
+      "md5": "0fe13f1bc5ff853f4b7dd98a23db02d4",
+      "sha256": "c0481417d7cb35b5d6f2376a93ec8c7b609499b5f57a34d28e090e3ab9094544"
+    },
+    {
+      "file": "models/polyhaven-circuit-board/original/textures/circuit_board_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/circuit_board/circuit_board_arm_1k.jpg",
+      "bytes": 903261,
+      "md5": "62c30cacf27cffa18e54dd85d4d8ccfc",
+      "sha256": "f6f1b9136f52dd83e37632b5458649766f7ad4b3ff4e968f70ed26361af01dc5"
+    },
+    {
+      "file": "models/polyhaven-circuit-board/original/circuit_board.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/circuit_board/circuit_board.bin",
+      "bytes": 671316,
+      "md5": "3c80df445a368bf4a93207473a49c181",
+      "sha256": "66b45f7311906705cef1625085fa8413818e145773be3560bf8cee26cb5d4108"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

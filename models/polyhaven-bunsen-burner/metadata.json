@@ -1,0 +1,158 @@
+{
+  "id": "polyhaven-bunsen-burner",
+  "assetId": "polyhaven:bunsen_burner",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Mechero Bunsen",
+  "titleOriginal": "Bunsen Burner",
+  "author": "BKS",
+  "authorUrl": "https://polyhaven.com/a/bunsen_burner",
+  "sourceUrl": "https://polyhaven.com/a/bunsen_burner",
+  "metadataUrl": "https://api.polyhaven.com/info/bunsen_burner",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bunsen_burner/bunsen_burner_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Electronics & Appliances/Devices & Instruments/Lab Equipment",
+  "tags": [
+    "chemistry",
+    "lab",
+    "equipment",
+    "gas",
+    "science",
+    "testing",
+    "laboratory",
+    "Bunsen Burner",
+    "science-bunsen-burners"
+  ],
+  "areas": [
+    "laboratorio-ciencia",
+    "fisica-energia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Bunsen Burner\", por BKS / Poly Haven. https://polyhaven.com/a/bunsen_burner. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-bunsen-burner/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/bunsen_burner/metadata.json",
+  "originalDownload": "models/polyhaven-bunsen-burner/originals.zip",
+  "bytes": 2131920,
+  "sha256": "ec35329b186b871fba8a9cfddb92f98bf4a34bc00668337ac56da7927175b89d",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:40:36.313672+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "bunsen_burner_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-bunsen-burner/original/bunsen_burner_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bunsen_burner/bunsen_burner_1k.gltf",
+        "bytes": 4182,
+        "md5": "f3445637eac771cdd1f41765b1f018ea",
+        "sha256": "7c65775950cc7070513c4ce96d3d5f0035a3be5086f83cdba651a0ffc03b8a73"
+      },
+      {
+        "file": "models/polyhaven-bunsen-burner/original/textures/bunsen_burner_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bunsen_burner/bunsen_burner_nor_gl_1k.jpg",
+        "bytes": 524169,
+        "md5": "2c6e727f64d64a5b87cf34638252f450",
+        "sha256": "2b02cefc52e30c8f6d946f9f804e87d2b33dbb4a42499f22956f48283491a5f8"
+      },
+      {
+        "file": "models/polyhaven-bunsen-burner/original/textures/bunsen_burner_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bunsen_burner/bunsen_burner_diff_1k.jpg",
+        "bytes": 532526,
+        "md5": "9c99a5d0a8824dbb67a4d6cb5eb36531",
+        "sha256": "fd12b3ef7c6904b1675e26f15bb06acddefb8aa380a0a151f59cf1b1f6f3a474"
+      },
+      {
+        "file": "models/polyhaven-bunsen-burner/original/textures/bunsen_burner_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bunsen_burner/bunsen_burner_arm_1k.jpg",
+        "bytes": 803757,
+        "md5": "0698b549645a5683d18bac35b449fe82",
+        "sha256": "5d6cb8b08cefa4588f778fd843ad7cfd97246d3919e447b6213f9356f59dfa4c"
+      },
+      {
+        "file": "models/polyhaven-bunsen-burner/original/bunsen_burner.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/bunsen_burner/bunsen_burner.bin",
+        "bytes": 268876,
+        "md5": "b0c62ffca9e4c995429d8b76111c0c46",
+        "sha256": "088fb944f12617341aa521359e1655df10d07643b584ee6dc808eb3df01a6e06"
+      }
+    ],
+    "originalDownloadSha256": "a0ef5f965cfc9f741323165d6d9adcf998105fcdf549a68d55a28b6b03ed66b4",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/bunsen_burner/metadata.json",
+    "metadataEvidenceSha256": "df0d3e55d5f326e144bc95cfc663d1a52e4dd18844119096f61f1aa20e08d0e1",
+    "fileManifestEvidence": "sources/external/polyhaven/bunsen_burner/files.json",
+    "fileManifestEvidenceSha256": "677561af57be74866e2fe9967c5d5874c49703b76b5b08ab8f442ce270792ec8",
+    "technicalReviewEvidence": "sources/external/polyhaven/bunsen_burner/technical-review.json",
+    "technicalReviewEvidenceSha256": "9a74b58af0f065254dc93bac14d24e08444b45a152bee195a81f2b5f103f82c0",
+    "providerReportedPolycount": 8434,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.13889388740062714,
+      0.13889388740062714,
+      0.1731255203485489
+    ],
+    "reimportDimensionsBlender": [
+      0.13889388740062714,
+      0.13889388740062714,
+      0.1731255203485489
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "bd621e9a0755bda84960d2af39d5d712f0feeca347be788c88900fb812d6feed",
+      "triangles": 8434
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Vintage Binoculars\", por Luke / Poly Haven. https://polyhaven.com/a/vintage_binocular. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Luke"
+  },
+  "Title": "Vintage Binoculars",
+  "sourceUrl": "https://polyhaven.com/a/vintage_binocular",
+  "assetId": "vintage_binocular",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-vintage-binocular/original/vintage_binocular_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/vintage_binocular/vintage_binocular_1k.gltf",
+      "bytes": 13871,
+      "md5": "2ba7c6afeb4bcbb6cf13ce4647f36c4a",
+      "sha256": "0b217a7ce439268327ad69d7a6a938bec54e7094e75aa58d8add0df2b508c2bb"
+    },
+    {
+      "file": "models/polyhaven-vintage-binocular/original/textures/vintage_binocular_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_binocular/vintage_binocular_nor_gl_1k.jpg",
+      "bytes": 685814,
+      "md5": "49564da1940b1fa6761b418bbe64b8e5",
+      "sha256": "1943f1ce20fe0ded318ed98bc5bed8076ca9426fc714e3a33a53245b50f7361d"
+    },
+    {
+      "file": "models/polyhaven-vintage-binocular/original/textures/vintage_binocular_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_binocular/vintage_binocular_diff_1k.jpg",
+      "bytes": 640526,
+      "md5": "7f73d0ccd665971fd42f2e1df73abfd0",
+      "sha256": "2db6153cf87d3b948c7f612c97eea45038d31b19594d5084052800fccf5590f8"
+    },
+    {
+      "file": "models/polyhaven-vintage-binocular/original/textures/vintage_binocular_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_binocular/vintage_binocular_arm_1k.jpg",
+      "bytes": 749762,
+      "md5": "7385747d83f8cb176a14cad092ae0507",
+      "sha256": "5de7aeab3b8af450e1c1b60c12fa3378af85318be6ea117759f82701ed71a2ea"
+    },
+    {
+      "file": "models/polyhaven-vintage-binocular/original/vintage_binocular.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/vintage_binocular/vintage_binocular.bin",
+      "bytes": 659372,
+      "md5": "764157ca1122661fb551098c0488c44b",
+      "sha256": "d20f4ece8d4236a83ff88bd5892b6f78d9808ab60bf239a8eb87d7d6cea6f80a"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

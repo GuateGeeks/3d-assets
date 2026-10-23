@@ -40,3 +40,8 @@ Al cerrar un corte, conserva el aprendizaje que cambia decisiones en el skill
 correspondiente y enlaza evidencia desde el estado del laboratorio. Comprueba
 comandos contra el CLI y referencias locales. No dupliques todo el historial en
 los skills ni conviertas una solución de este host en una restricción universal.
+
+Para entregar un clon reproducible, sigue `SETUP.md` y comprueba los skills con
+`python tools/check_skills.py`. El benchmark educativo incluye archivos de evidencia
+restaurables; no confundas los informes de 2026 con verificaciones del equipo nuevo.
+Usa los locks y los argumentos del CLI, evitando copiar rutas de un recibo histórico.

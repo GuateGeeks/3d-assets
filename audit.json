@@ -1,16 +1,17 @@
 {
   "schemaVersion": 2,
-  "models": 993,
-  "csvRows": 993,
-  "subsetIndices": 71,
+  "models": 1021,
+  "csvRows": 1021,
+  "subsetIndices": 91,
   "providers": {
     "Poly Pizza": 342,
     "Kenney": 637,
-    "OpenGameArt": 14
+    "OpenGameArt": 14,
+    "Poly Haven": 28
   },
   "licenseCounts": {
     "CC-BY 3.0": 274,
-    "CC0 1.0": 711,
+    "CC0 1.0": 739,
     "CC-BY-SA 4.0": 8
   },
   "result": "passed",

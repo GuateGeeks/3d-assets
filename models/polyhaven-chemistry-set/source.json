@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Chemistry Set\", por Jiří Ptáček / Poly Haven. https://polyhaven.com/a/chemistry_set. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Jiří Ptáček"
+  },
+  "Title": "Chemistry Set",
+  "sourceUrl": "https://polyhaven.com/a/chemistry_set",
+  "assetId": "chemistry_set",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-chemistry-set/original/chemistry_set_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/chemistry_set/chemistry_set_1k.gltf",
+      "bytes": 79977,
+      "md5": "05a89ca960a430766ec4c3e1fdf10e79",
+      "sha256": "e02dd6433880fd3dfab82b254a6fe909c38d5a8be184b5b21004d231c11991b6"
+    },
+    {
+      "file": "models/polyhaven-chemistry-set/original/textures/chemistry_set_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/chemistry_set/chemistry_set_nor_gl_1k.jpg",
+      "bytes": 440776,
+      "md5": "bd280566cdfd32c4c106f9f734987df7",
+      "sha256": "8bccb3f526b30a60e46981ed8ea8cf40b6af40b0fde1f3c9b3f5a7e36579e0e8"
+    },
+    {
+      "file": "models/polyhaven-chemistry-set/original/textures/chemistry_set_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/chemistry_set/chemistry_set_diff_1k.jpg",
+      "bytes": 553332,
+      "md5": "a93571004c8974d96093010561128bbe",
+      "sha256": "cf013f7898f70e1479b1b0fe774668b24cc7718983a9c7bb5eaa1670b0088b4b"
+    },
+    {
+      "file": "models/polyhaven-chemistry-set/original/textures/chemistry_set_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/chemistry_set/chemistry_set_arm_1k.jpg",
+      "bytes": 950518,
+      "md5": "95cbb6982e288a69375ef99083908e40",
+      "sha256": "cca7d3b4c30e8d0563934b59e0600e9659ce6c546b77705ca87c7ae5ffd3fd7a"
+    },
+    {
+      "file": "models/polyhaven-chemistry-set/original/chemistry_set.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/chemistry_set/chemistry_set.bin",
+      "bytes": 1181556,
+      "md5": "dd34add16eb9457ffc127104f14883d9",
+      "sha256": "59c3a8adb8b77f7ecb1ce001f7d7663e5fd0f567d9fcec9006a68a56fce4cf2a"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

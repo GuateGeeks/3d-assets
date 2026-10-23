@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scope": "Preparación; ninguna nueva descarga de modelos ni promoción al catálogo.",
+  "scope": "Fuentes seleccionadas por el usuario: Kenney, OpenGameArt y Poly Haven incorporadas; las demás conservan su estado provisional.",
   "originalListStatus": "unavailable-response-load-error-in-source-chat",
   "providers": [
     {
@@ -14,7 +14,7 @@
       "licenseSources": [
         "https://kenney.nl/support"
       ],
-      "nextStep": "Inspeccionar tres paquetes piloto y sus archivos de licencia; calcular solapamiento antes de importar.",
+      "nextStep": "Ampliación incorporada con evidencia; evaluar uso docente concreto. Nuevas adquisiciones requieren revisión equivalente.",
       "seedPages": [
         {
           "title": "Nature Kit",
@@ -29,9 +29,10 @@
           "url": "https://kenney.nl/assets/modular-buildings"
         }
       ],
-      "listMembership": "provisional-original-list-unavailable",
+      "listMembership": "user-selected",
       "researchCheckedOn": "2026-10-22",
-      "adapterStatus": "not-implemented"
+      "adapterStatus": "implemented-and-verified",
+      "incorporatedModels": 637
     },
     {
       "id": "opengameart",
@@ -44,10 +45,11 @@
       "licenseSources": [
         "https://opengameart.org/content/faq"
       ],
-      "nextStep": "Buscar modelos 3D por necesidad; verificar cada componente y generar miniaturas propias.",
-      "listMembership": "provisional-original-list-unavailable",
+      "nextStep": "Ampliación incorporada con evidencia; evaluar uso docente concreto. Nuevas adquisiciones requieren revisión equivalente.",
+      "listMembership": "user-selected",
       "researchCheckedOn": "2026-10-22",
-      "adapterStatus": "not-implemented"
+      "adapterStatus": "implemented-and-verified",
+      "incorporatedModels": 14
     },
     {
       "id": "sketchfab",
@@ -78,10 +80,11 @@
         "https://polyhaven.com/license",
         "https://github.com/Poly-Haven/Public-API/blob/master/ToS.md"
       ],
-      "nextStep": "Usar API oficial con identificador GuateGeeks-3D-Assets, caché y respeto a límites del servicio. Seleccionar modelos pequeños; generar miniaturas propias.",
-      "listMembership": "provisional-original-list-unavailable",
+      "nextStep": "Ampliación incorporada con evidencia; evaluar uso docente concreto. Nuevas adquisiciones requieren revisión equivalente.",
+      "listMembership": "user-selected",
       "researchCheckedOn": "2026-10-22",
-      "adapterStatus": "not-implemented"
+      "adapterStatus": "implemented-and-verified",
+      "incorporatedModels": 28
     },
     {
       "id": "smithsonian",

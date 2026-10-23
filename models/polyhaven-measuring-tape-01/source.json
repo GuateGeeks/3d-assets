@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Measuring Tape 01\", por Kuutti Siitonen / Poly Haven. https://polyhaven.com/a/measuring_tape_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Kuutti Siitonen"
+  },
+  "Title": "Measuring Tape 01",
+  "sourceUrl": "https://polyhaven.com/a/measuring_tape_01",
+  "assetId": "measuring_tape_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-measuring-tape-01/original/measuring_tape_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/measuring_tape_01/measuring_tape_01_1k.gltf",
+      "bytes": 2720,
+      "md5": "5b7914e5a48cdd9bbf7f16a4d0e8477a",
+      "sha256": "f4d36918fcbe3de138fbf7a0c5cc1ab2c7c049db6a5e7ee24673d78d3d9ed74d"
+    },
+    {
+      "file": "models/polyhaven-measuring-tape-01/original/textures/measuring_tape_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/measuring_tape_01/measuring_tape_01_arm_1k.jpg",
+      "bytes": 143061,
+      "md5": "6bf2fc9cd5ebe5dad19c654e79c5988d",
+      "sha256": "721fa78a93d9727250123b16a8389ed815801f923bc07e6eb2e5568c5aa5f9d0"
+    },
+    {
+      "file": "models/polyhaven-measuring-tape-01/original/textures/measuring_tape_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/measuring_tape_01/measuring_tape_01_diff_1k.jpg",
+      "bytes": 83801,
+      "md5": "51485fa43d7c92abd6c7e2d1ee8361f5",
+      "sha256": "7b66c2a9a5e794336d1456dd9de684ea94bf80a0f8b821c36a0fc2cdf0804052"
+    },
+    {
+      "file": "models/polyhaven-measuring-tape-01/original/measuring_tape_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/measuring_tape_01/measuring_tape_01.bin",
+      "bytes": 94680,
+      "md5": "b1e09002fb178a078489b2964c853c4e",
+      "sha256": "9255ba5bde1df6dcbfd7103577809c4af44525fed7d2b41d17ff83ead712dfc6"
+    },
+    {
+      "file": "models/polyhaven-measuring-tape-01/original/textures/measuring_tape_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/measuring_tape_01/measuring_tape_01_nor_gl_1k.jpg",
+      "bytes": 121717,
+      "md5": "38492745403a54c41475ed128e791da3",
+      "sha256": "956bf080bb51987c2d3929e9b68fdea4e36f47c9fbf0b7dfe08260d5410f6c27"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

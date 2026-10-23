@@ -1,0 +1,155 @@
+{
+  "id": "polyhaven-industrial-microscope",
+  "assetId": "polyhaven:industrial_microscope",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Microscopio industrial",
+  "titleOriginal": "Industrial Microscope",
+  "author": "Lukas Walzer",
+  "authorUrl": "https://polyhaven.com/a/industrial_microscope",
+  "sourceUrl": "https://polyhaven.com/a/industrial_microscope",
+  "metadataUrl": "https://api.polyhaven.com/info/industrial_microscope",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/industrial_microscope/industrial_microscope_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Electronics & Appliances/Devices & Instruments/Optical Instruments",
+  "tags": [
+    "lab",
+    "laboratory",
+    "science",
+    "testing",
+    "equipment",
+    "optical",
+    "Industrial Microscope",
+    "science-microscopes"
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Industrial Microscope\", por Lukas Walzer / Poly Haven. https://polyhaven.com/a/industrial_microscope. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-industrial-microscope/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/industrial_microscope/metadata.json",
+  "originalDownload": "models/polyhaven-industrial-microscope/originals.zip",
+  "bytes": 2454916,
+  "sha256": "43c37280161bdecbc44b68c272ed30f7bdcc3e70829d0abf1b21d53de06bf867",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:40:50.428053+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "industrial_microscope_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-industrial-microscope/original/industrial_microscope_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/industrial_microscope/industrial_microscope_1k.gltf",
+        "bytes": 4270,
+        "md5": "472c893cc84e3f7e9f76454aba612e42",
+        "sha256": "91151cd484cf8f991c822f53a48487b8fa0a228cd7ccf63fbba625e1d70abb2a"
+      },
+      {
+        "file": "models/polyhaven-industrial-microscope/original/textures/industrial_microscope_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_microscope/industrial_microscope_nor_gl_1k.jpg",
+        "bytes": 566472,
+        "md5": "2e3d69f1bf720fa98bd3c76708a0b471",
+        "sha256": "ae31cce984a953bef60919c56bbc0b159cafeab96145f264937b6188e5b987ec"
+      },
+      {
+        "file": "models/polyhaven-industrial-microscope/original/textures/industrial_microscope_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_microscope/industrial_microscope_diff_1k.jpg",
+        "bytes": 508322,
+        "md5": "d98e729ea074d94a3a3e34050bc68a94",
+        "sha256": "a870e4533ae2f24c217c0744097436e7914946ffbda88ee054d0ee5c03054973"
+      },
+      {
+        "file": "models/polyhaven-industrial-microscope/original/textures/industrial_microscope_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_microscope/industrial_microscope_arm_1k.jpg",
+        "bytes": 775071,
+        "md5": "16d17224f4750da5f0c99c6ac8e1771b",
+        "sha256": "01f0df732a82c90f552be5ba08ab7a58fdb62d63b2989fa7333f23e75322949e"
+      },
+      {
+        "file": "models/polyhaven-industrial-microscope/original/industrial_microscope.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/industrial_microscope/industrial_microscope.bin",
+        "bytes": 602404,
+        "md5": "be2a9782f02eabcc9a02f67dd7c6fd33",
+        "sha256": "a99e95a04673b96f7d6eb8cd68e204a76abde77c7dad3bcaea79e55219aeea40"
+      }
+    ],
+    "originalDownloadSha256": "717df13ac14a3ffe7b65f900de715032c0f4c35e6d704a1b7c2a40a841ce898b",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/industrial_microscope/metadata.json",
+    "metadataEvidenceSha256": "53bf2630ec64ff4061341d93f57358f9e9b6ad79e73978da1e0b8f31f4a69f43",
+    "fileManifestEvidence": "sources/external/polyhaven/industrial_microscope/files.json",
+    "fileManifestEvidenceSha256": "45aaa386c242cb1a1328e87fc96bc281084abbd41c77023f7cb53aae28399107",
+    "technicalReviewEvidence": "sources/external/polyhaven/industrial_microscope/technical-review.json",
+    "technicalReviewEvidenceSha256": "4deac7c9d8e02c668163d2f1462146cc305076948a95447760f7552c50bdd1e1",
+    "providerReportedPolycount": 16598,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.21453481912612915,
+      0.4980906546115875,
+      0.4617440402507782
+    ],
+    "reimportDimensionsBlender": [
+      0.21453481912612915,
+      0.4980906546115875,
+      0.4617440402507782
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "30fea2063dbe80692604f2e8ef6c86dc3dc6653b421c75ee1d0bfbef68d54c0f",
+      "triangles": 16598
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

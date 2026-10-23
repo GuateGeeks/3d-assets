@@ -1,6 +1,6 @@
 # Robótica y electrónica STEAM
 
-23 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+27 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -27,3 +27,7 @@
 | [Engranaje · 18 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Elegant Crow | [GLB](../../models/oga-gears-gear-18/model.glb) | 0 / 0 |
 | [Engranaje · 20 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Elegant Crow | [GLB](../../models/oga-gears-gear-20/model.glb) | 0 / 0 |
 | [Robot](https://opengameart.org/node/89467) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-robot-robot/model.glb) | 1 / 14 |
+| [Placa de circuito](https://polyhaven.com/a/circuit_board) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Benny Weimer | [GLB](../../models/polyhaven-circuit-board/model.glb) | 0 / 0 |
+| [Bombilla incandescente](https://polyhaven.com/a/lightbulb_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Josh Dean | [GLB](../../models/polyhaven-lightbulb-01/model.glb) | 0 / 0 |
+| [Bombilla LED](https://polyhaven.com/a/lightbulb_led) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Josh Dean | [GLB](../../models/polyhaven-lightbulb-led/model.glb) | 0 / 0 |
+| [Multímetro analógico](https://polyhaven.com/a/retro_multimeter) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | elli moeller | [GLB](../../models/polyhaven-retro-multimeter/model.glb) | 0 / 0 |

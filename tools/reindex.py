@@ -28,23 +28,32 @@ def records():
                 p=(ROOT/file['file']).resolve()
                 if not p.is_relative_to(path.parent.resolve()) or hashlib.sha256(p.read_bytes()).hexdigest()!=file['sha256']:raise ValueError('Original evidence mismatch')
             if m['qa']['technical']!='PASS' or m['qa']['visual']!='PASS' or m['qa']['rights']!='PASS':raise ValueError('External resource has incomplete QA')
+            if m['providerId']=='polyhaven':
+                for field in ['licenseEvidence','metadataEvidence','fileManifestEvidence','technicalReviewEvidence']:
+                    if hashlib.sha256((ROOT/m['provenance'][field]).read_bytes()).hexdigest()!=m['provenance'][field+'Sha256']:raise ValueError('Poly Haven evidence changed: '+field)
         output.append(m)
-    kits_file=ROOT/'kits/index.json'
+    kits_file=ROOT/'kits/index.json';membership={}
     if kits_file.exists():
-        membership={}
         for kit in read(kits_file)['kits']:
             for entry in kit.get('assets',[]):membership.setdefault(entry['modelId'],set()).add(kit['id'])
-        group_map={mid:group for group in read(ROOT/'kits/groups.json')['groups'] for mid in group['modelIds']} if (ROOT/'kits/groups.json').exists() else {}
-        for m in output:
-            m['kitIds']=sorted(membership.get(m['id'],[]))
-            if m['id'] in group_map:
-                group=group_map[m['id']];m['variantGroupId']=group['id'];m['variantGroupTitle']=group['title']
+    group_map={}
+    for manifest in [ROOT/'kits/groups.json',*sorted((ROOT/'groups').glob('*.json'))]:
+        if not manifest.exists():continue
+        for group in read(manifest)['groups']:
+            for mid in group['modelIds']:
+                if mid not in seen:raise ValueError('Unknown grouped model '+mid)
+                if mid in group_map and group_map[mid]['id']!=group['id']:raise ValueError('Conflicting variant families '+mid)
+                group_map[mid]=group
+    for m in output:
+        m['kitIds']=sorted(membership.get(m['id'],[]))
+        if m['id'] in group_map:
+            group=group_map[m['id']];m['variantGroupId']=group['id'];m['variantGroupTitle']=group['title']
     return output
 
 def rebuild():
     plan=read(ROOT/'selection.json');rs=records()
     summary={'schemaVersion':2,'generatedAt':datetime.now(timezone.utc).isoformat(),'models':len(rs),'bytes':sum(m['bytes'] for m in rs),'rigged':sum(m['gltf']['rigged'] for m in rs),'animated':sum(m['gltf']['animated'] for m in rs),'licenses':dict(Counter(m['licenseRaw'] for m in rs)),'providers':dict(Counter(m['provider'] for m in rs)),'areas':{a['id']:sum(a['id'] in m['areas'] for m in rs) for a in plan['areas']},'errors':[],'validationScope':'SHA-256, source evidence, GLB structure and offline dependencies; external rendering QA is recorded per model'}
-    save(ROOT/'index.json',{'schemaVersion':2,'source':'Poly Pizza, Kenney and OpenGameArt','licensePolicy':'Licencias individuales conservadas; uso educativo concreto pendiente de revisión docente','models':rs,'kits':[{k:v for k,v in kit.items() if k not in {'members','assets'}} for kit in read(ROOT/'kits/index.json')['kits']] if (ROOT/'kits/index.json').exists() else []})
+    save(ROOT/'index.json',{'schemaVersion':2,'source':', '.join(sorted({m['provider'] for m in rs})),'licensePolicy':'Licencias individuales conservadas; uso educativo concreto pendiente de revisión docente','models':rs,'kits':[{k:v for k,v in kit.items() if k not in {'members','assets'}} for kit in read(ROOT/'kits/index.json')['kits']] if (ROOT/'kits/index.json').exists() else []})
     def subset(name,group,details=None):
         save(ROOT/'indices'/(name+'.json'),{'schemaVersion':2,'details':details,'count':len(group),'modelIds':[m['id'] for m in group]})
         if name.startswith(('areas/','licenses/','animation/','providers/')):

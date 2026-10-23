@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "scope": "Se abrieron y compararon las cuatro hojas de contacto: cinco vistas fuente, incluyendo diagnóstico de malla sin modificadores geométricos, y reimportación limpia GLB por cada modelo.",
+  "modelsReviewed": 28,
+  "images": {
+    "sources/external/polyhaven/review/review-sheet-01.png": "27f7edac16229ba271210f5f2318a4041c0b263dbaff4e58a0853c595a3a9ebd",
+    "sources/external/polyhaven/review/review-sheet-02.png": "5a699098f4fa5a6017918643fd8c9916e5a5dd09939535210c3170ad34c6692e",
+    "sources/external/polyhaven/review/review-sheet-03.png": "a465559919cda74d853e8aa17313b8fb2087b670a97a614994b5792e5c0bdc28",
+    "sources/external/polyhaven/review/review-sheet-04.png": "cf9faa710250bf4902b2ad20f59dcbb47c47012e66eee6cab3854438e490006f"
+  },
+  "observations": [
+    "Las vistas fuente y GLB conservan apariencia, orientación y dimensiones.",
+    "El diagnóstico de malla usa un sombreado de líneas; las imágenes iniciales con modificador quedan solo en staging.",
+    "El tornillo de banco se revisó de nuevo con disable_bone_shape para excluir auxiliares del importador; el GLB y su rig original permanecen intactos.",
+    "La bombilla incandescente conserva el vidrio oscuro observado en la fuente.",
+    "El equipo de química se conserva como conjunto publicado por el autor.",
+    "La evaluación de precisión de instrumentos y uso curricular queda NOT_RUN."
+  ],
+  "educational": "NOT_RUN",
+  "browser": "Pending separate gallery review"
+}

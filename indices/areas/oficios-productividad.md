@@ -1,6 +1,6 @@
 # Oficios, herramientas y productividad
 
-15 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+23 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -18,4 +18,12 @@
 | [Hammer](https://poly.pizza/m/cOizz1RJnb3) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | jeremy | [GLB](../../models/cOizz1RJnb3/model.glb) | 0 / 0 |
 | [Wheelbarrow](https://poly.pizza/m/cfe3sobX4dT) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/cfe3sobX4dT/model.glb) | 0 / 0 |
 | [Wrench](https://poly.pizza/m/enyBvm6bJQL) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/enyBvm6bJQL/model.glb) | 0 / 0 |
+| [Llave ajustable](https://polyhaven.com/a/adjustable_wrench) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Mateusz Sadek | [GLB](../../models/polyhaven-adjustable-wrench/model.glb) | 0 / 0 |
+| [Tornillo de banco](https://polyhaven.com/a/bench_vice_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Yann Kervran, Antanas Kep | [GLB](../../models/polyhaven-bench-vice-01/model.glb) | 1 / 0 |
+| [Cepillo de carpintería](https://polyhaven.com/a/hand_plane_no4) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-hand-plane-no4/model.glb) | 0 / 0 |
+| [Extintor con rotulación coreana](https://polyhaven.com/a/korean_fire_extinguisher_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | UM JOORIN | [GLB](../../models/polyhaven-korean-fire-extinguisher-01/model.glb) | 0 / 0 |
+| [Cinta métrica](https://polyhaven.com/a/measuring_tape_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kuutti Siitonen | [GLB](../../models/polyhaven-measuring-tape-01/model.glb) | 0 / 0 |
+| [Llave de carraca](https://polyhaven.com/a/ratchet_wrench) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | John Hutcheson | [GLB](../../models/polyhaven-ratchet-wrench/model.glb) | 0 / 0 |
+| [Pala de jardinería](https://polyhaven.com/a/rusted_spade_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Blemonade | [GLB](../../models/polyhaven-rusted-spade-01/model.glb) | 0 / 0 |
+| [Palita de jardinería](https://polyhaven.com/a/trowel_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-trowel-01/model.glb) | 0 / 0 |
 | [Hand Saw](https://poly.pizza/m/rbZHkFchEk) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | CreativeTrio | [GLB](../../models/rbZHkFchEk/model.glb) | 0 / 0 |

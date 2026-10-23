@@ -1,29 +1,29 @@
 # Índice de modelos
 
-993 modelos · 181.5 MiB.
+1021 modelos · 239.1 MiB.
 
 | Área | Modelos |
 | --- | ---: |
 | [Personajes, narrativa y animación](indices/areas/personajes-animacion.md) | 15 |
-| [Animales y biodiversidad](indices/areas/animales-biodiversidad.md) | 25 |
-| [Bosques y plantas](indices/areas/bosques-plantas.md) | 126 |
-| [Agua y ecosistemas acuáticos](indices/areas/agua-oceanos.md) | 31 |
-| [Tierra, relieve y geografía](indices/areas/tierra-geografia.md) | 131 |
+| [Animales y biodiversidad](indices/areas/animales-biodiversidad.md) | 27 |
+| [Bosques y plantas](indices/areas/bosques-plantas.md) | 128 |
+| [Agua y ecosistemas acuáticos](indices/areas/agua-oceanos.md) | 33 |
+| [Tierra, relieve y geografía](indices/areas/tierra-geografia.md) | 132 |
 | [Espacio y astronomía](indices/areas/espacio-astronomia.md) | 18 |
-| [Laboratorio e investigación](indices/areas/laboratorio-ciencia.md) | 13 |
-| [Cuerpo humano y salud](indices/areas/cuerpo-salud.md) | 18 |
-| [Alimentos, agricultura y nutrición](indices/areas/alimentos-agricultura.md) | 239 |
-| [Geometría, tiempo y medición](indices/areas/matematicas-medicion.md) | 135 |
-| [Física, máquinas y energía](indices/areas/fisica-energia.md) | 23 |
-| [Robótica y electrónica STEAM](indices/areas/robotica-electronica.md) | 23 |
-| [Computación y redes](indices/areas/computacion-redes.md) | 13 |
-| [Escuela, lectura y vocabulario](indices/areas/escuela-lenguaje.md) | 15 |
-| [Comunidad, servicios y ciudadanía](indices/areas/comunidad-ciudadania.md) | 123 |
+| [Laboratorio e investigación](indices/areas/laboratorio-ciencia.md) | 20 |
+| [Cuerpo humano y salud](indices/areas/cuerpo-salud.md) | 20 |
+| [Alimentos, agricultura y nutrición](indices/areas/alimentos-agricultura.md) | 243 |
+| [Geometría, tiempo y medición](indices/areas/matematicas-medicion.md) | 138 |
+| [Física, máquinas y energía](indices/areas/fisica-energia.md) | 30 |
+| [Robótica y electrónica STEAM](indices/areas/robotica-electronica.md) | 27 |
+| [Computación y redes](indices/areas/computacion-redes.md) | 15 |
+| [Escuela, lectura y vocabulario](indices/areas/escuela-lenguaje.md) | 16 |
+| [Comunidad, servicios y ciudadanía](indices/areas/comunidad-ciudadania.md) | 128 |
 | [Transporte y movilidad](indices/areas/transporte-movilidad.md) | 18 |
 | [Historia y patrimonio](indices/areas/historia-patrimonio.md) | 8 |
-| [Arte y música](indices/areas/arte-musica.md) | 19 |
+| [Arte y música](indices/areas/arte-musica.md) | 20 |
 | [Deporte y recreación](indices/areas/deporte-recreacion.md) | 13 |
-| [Oficios, herramientas y productividad](indices/areas/oficios-productividad.md) | 15 |
+| [Oficios, herramientas y productividad](indices/areas/oficios-productividad.md) | 23 |
 | [Ambiente y sostenibilidad](indices/areas/ambiente-sostenibilidad.md) | 13 |
 | [Escenarios y juegos para Code Studio](indices/areas/escenarios-videojuegos.md) | 436 |
 | [Contexto guatemalteco y mesoamericano](indices/areas/guatemala-contexto.md) | 9 |
@@ -1010,6 +1010,34 @@
 | [Engranaje · 20 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | Elegant Crow | CC-BY-SA 4.0 | [GLB](models/oga-gears-gear-20/model.glb) |
 | [Robot](https://opengameart.org/node/89467) | OpenGameArt | Quaternius | CC0 1.0 | [GLB](models/oga-robot-robot/model.glb) |
 | [Honey](https://poly.pizza/m/p92t5dG8Zd) | Poly Pizza | Kenney | CC0 1.0 | [GLB](models/p92t5dG8Zd/model.glb) |
+| [Llave ajustable](https://polyhaven.com/a/adjustable_wrench) | Poly Haven | Mateusz Sadek | CC0 1.0 | [GLB](models/polyhaven-adjustable-wrench/model.glb) |
+| [Tornillo de banco](https://polyhaven.com/a/bench_vice_01) | Poly Haven | Yann Kervran, Antanas Kep | CC0 1.0 | [GLB](models/polyhaven-bench-vice-01/model.glb) |
+| [Binoculares](https://polyhaven.com/a/binoculars) | Poly Haven | Derek Wight | CC0 1.0 | [GLB](models/polyhaven-binoculars/model.glb) |
+| [Mechero Bunsen](https://polyhaven.com/a/bunsen_burner) | Poly Haven | BKS | CC0 1.0 | [GLB](models/polyhaven-bunsen-burner/model.glb) |
+| [Equipo de química](https://polyhaven.com/a/chemistry_set) | Poly Haven | Jiří Ptáček | CC0 1.0 | [GLB](models/polyhaven-chemistry-set/model.glb) |
+| [Placa de circuito](https://polyhaven.com/a/circuit_board) | Poly Haven | Benny Weimer | CC0 1.0 | [GLB](models/polyhaven-circuit-board/model.glb) |
+| [Computadora portátil clásica](https://polyhaven.com/a/classic_laptop) | Poly Haven | Arrangemonk | CC0 1.0 | [GLB](models/polyhaven-classic-laptop/model.glb) |
+| [Cepillo de carpintería](https://polyhaven.com/a/hand_plane_no4) | Poly Haven | Satyaki Mandal | CC0 1.0 | [GLB](models/polyhaven-hand-plane-no4/model.glb) |
+| [Microscopio industrial](https://polyhaven.com/a/industrial_microscope) | Poly Haven | Lukas Walzer | CC0 1.0 | [GLB](models/polyhaven-industrial-microscope/model.glb) |
+| [Extintor con rotulación coreana](https://polyhaven.com/a/korean_fire_extinguisher_01) | Poly Haven | UM JOORIN | CC0 1.0 | [GLB](models/polyhaven-korean-fire-extinguisher-01/model.glb) |
+| [Chaleco salvavidas](https://polyhaven.com/a/life_jacket) | Poly Haven | PierreB3D | CC0 1.0 | [GLB](models/polyhaven-life-jacket/model.glb) |
+| [Aro salvavidas](https://polyhaven.com/a/lifebuoy) | Poly Haven | Hank Kaamura | CC0 1.0 | [GLB](models/polyhaven-lifebuoy/model.glb) |
+| [Bombilla incandescente](https://polyhaven.com/a/lightbulb_01) | Poly Haven | Josh Dean | CC0 1.0 | [GLB](models/polyhaven-lightbulb-01/model.glb) |
+| [Bombilla LED](https://polyhaven.com/a/lightbulb_led) | Poly Haven | Josh Dean | CC0 1.0 | [GLB](models/polyhaven-lightbulb-led/model.glb) |
+| [Lupa](https://polyhaven.com/a/magnifying_glass_01) | Poly Haven | Nazar Borodavka | CC0 1.0 | [GLB](models/polyhaven-magnifying-glass-01/model.glb) |
+| [Cinta métrica](https://polyhaven.com/a/measuring_tape_01) | Poly Haven | Kuutti Siitonen | CC0 1.0 | [GLB](models/polyhaven-measuring-tape-01/model.glb) |
+| [Caja de primeros auxilios](https://polyhaven.com/a/medical_box) | Poly Haven | Ulan Cabanilla | CC0 1.0 | [GLB](models/polyhaven-medical-box/model.glb) |
+| [Llave de carraca](https://polyhaven.com/a/ratchet_wrench) | Poly Haven | John Hutcheson | CC0 1.0 | [GLB](models/polyhaven-ratchet-wrench/model.glb) |
+| [Multímetro analógico](https://polyhaven.com/a/retro_multimeter) | Poly Haven | elli moeller | CC0 1.0 | [GLB](models/polyhaven-retro-multimeter/model.glb) |
+| [Pala de jardinería](https://polyhaven.com/a/rusted_spade_01) | Poly Haven | Blemonade | CC0 1.0 | [GLB](models/polyhaven-rusted-spade-01/model.glb) |
+| [Brújula de navegación](https://polyhaven.com/a/seadogs_compass) | Poly Haven | Benny Weimer | CC0 1.0 | [GLB](models/polyhaven-seadogs-compass/model.glb) |
+| [Bandeja de semillero](https://polyhaven.com/a/seeding_tray_01) | Poly Haven | Satyaki Mandal | CC0 1.0 | [GLB](models/polyhaven-seeding-tray-01/model.glb) |
+| [Palita de jardinería](https://polyhaven.com/a/trowel_01) | Poly Haven | Satyaki Mandal | CC0 1.0 | [GLB](models/polyhaven-trowel-01/model.glb) |
+| [Ukelele](https://polyhaven.com/a/Ukulele_01) | Poly Haven | Joseph Burgan | CC0 1.0 | [GLB](models/polyhaven-ukulele-01/model.glb) |
+| [Binoculares antiguos](https://polyhaven.com/a/vintage_binocular) | Poly Haven | Luke | CC0 1.0 | [GLB](models/polyhaven-vintage-binocular/model.glb) |
+| [Microscopio antiguo](https://polyhaven.com/a/vintage_microscope) | Poly Haven | Luis José Fernández Rodríguez | CC0 1.0 | [GLB](models/polyhaven-vintage-microscope/model.glb) |
+| [Regadera metálica](https://polyhaven.com/a/watering_can_metal_01) | Poly Haven | Charles Nderitu | CC0 1.0 | [GLB](models/polyhaven-watering-can-metal-01/model.glb) |
+| [Silla de ruedas](https://polyhaven.com/a/wheelchair_01) | Poly Haven | Garreth Dean | CC0 1.0 | [GLB](models/polyhaven-wheelchair-01/model.glb) |
 | [Microscope](https://poly.pizza/m/q9zNs4U5NG) | Poly Pizza | Username12 | CC-BY 3.0 | [GLB](models/q9zNs4U5NG/model.glb) |
 | [Drum Set](https://poly.pizza/m/qWU9Q4flfQ) | Poly Pizza | Zsky | CC-BY 3.0 | [GLB](models/qWU9Q4flfQ/model.glb) |
 | [Hand Saw](https://poly.pizza/m/rbZHkFchEk) | Poly Pizza | CreativeTrio | CC0 1.0 | [GLB](models/rbZHkFchEk/model.glb) |

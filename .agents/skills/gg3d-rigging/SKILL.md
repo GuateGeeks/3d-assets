@@ -12,6 +12,7 @@ Trabaja desde la raíz de `3d-assets`; no dependas del workspace padre. Lee prim
 - **Corpus existente:** `human` = Man, `quadruped` = Wolf. Conserva originales y catálogo. Las copias pierden rig/clips para inferencia; el control conserva su rig sin clips. Se normalizan explícitamente a 2 m de dimensión mayor, centro XY y suelo Z=0.
 - **Geometría nueva revisada:** usa `ingest --candidate` y después `rig --candidate` con el `preparedManifest` devuelto. Lee el [contrato de transferencia](../../../creation-lab/docs/INTEGRATION.md). No agregues el asset como otro ID del corpus ni reutilices su mapa anatómico.
 - **Rig mecánico:** decide por función si necesita articulaciones rígidas; el canario de tres bloques no demuestra que un autorig orgánico sea adecuado para un robot de ruedas.
+- **Modelo educativo por partes:** puede necesitar selección o vistas separadas sin deformación. Reutiliza el QA de geometría, escala y materiales cuando corresponda; un modelo de orgánulos no necesita UniRig solo por pasar por `creation-lab`.
 
 ## Operar lo ya implementado
 
