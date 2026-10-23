@@ -2,29 +2,33 @@
 <html lang="es">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#faf9f7">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'">
 <title>Biblioteca 3D · GuateGeeks</title>
 <link rel="icon" href="gallery/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="gallery/style.css">
-<script type="module" src="gallery/vendor/model-viewer.min.js"></script><script type="module" src="gallery/app.js"></script>
+<script type="module" src="gallery/vendor/model-viewer.min.js"></script><script type="module" src="gallery/app.js"></script><script type="module" src="gallery/lab.js"></script>
 </head><body>
 <a class="skip" href="#catalog">Ir a la galería</a>
 <header class="topbar">
 <a class="brand" href="gallery.html"><svg viewBox="0 0 32 36" aria-hidden="true"><path d="M16 2 30 10v16L16 34 2 26V10L16 2Zm0 16v16M2 10l14 8 14-8"/></svg><span>GuateGeeks<span class="brand-sub">Biblioteca 3D</span></span></a>
 <label class="search" for="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="Buscar modelos, autores o temas…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
+<a id="lab-link" class="secondary" href="gallery.html?lab=1" hidden>Laboratorio de rigging</a>
 <a class="index-link" href="index.csv" download>Índice CSV <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v5h14v-5"/></svg></a>
 </header>
 <div id="fatal" class="fatal" role="alert" hidden></div>
 <div class="workspace">
-<aside class="sidebar" aria-label="Filtrar por área"><div class="sidebar-title">Áreas de exploración</div><nav id="areas"></nav><div class="sidebar-foot">Modelos de Poly Pizza<br><a href="ATTRIBUTIONS.md">Ver todos los créditos</a></div></aside>
+<aside class="sidebar" aria-label="Filtrar por área"><div class="sidebar-title">Áreas de exploración</div><nav id="areas"></nav><div class="sidebar-foot">Poly Pizza · Kenney · OpenGameArt<br><a href="ATTRIBUTIONS.md">Ver todos los créditos</a></div></aside>
 <main id="catalog" class="catalog" tabindex="-1">
-<div class="catalog-head"><div><h1>Explora la biblioteca</h1><p id="total">Preparando los modelos…</p></div><a class="coverage-link" href="COVERAGE.md">Cobertura y revisión ↗</a></div>
+<div class="catalog-head"><div><h1>Explora la biblioteca</h1><p id="total">Preparando los modelos…</p></div><div class="catalog-links"><a class="coverage-link" href="kits/index.json">Kits completos ↗</a><a class="coverage-link" href="COVERAGE.md">Cobertura y revisión ↗</a></div></div>
 <div class="filters">
 <label class="mobile-area">Área<select id="area-select"><option value="">Todas las áreas</option></select></label>
+<label>Fuente<select id="provider"><option value="">Todas las fuentes</option></select></label>
+<label>Kit<select id="kit"><option value="">Todos los kits</option></select></label>
+<label>Vista<select id="view"><option value="grouped">Agrupar variantes</option><option value="all">Cada modelo</option></select></label>
 <label>Licencia<select id="license"><option value="">Todas las licencias</option></select></label>
 <label>Movimiento<select id="motion"><option value="">Todos los modelos</option><option value="animated">Con animaciones</option><option value="rigged">Con esqueleto</option><option value="static">Sin animaciones</option></select></label>
 <label>Orden<select id="sort"><option value="featured">Selección inicial</option><option value="name">Nombre A–Z</option><option value="size">Menor tamaño</option></select></label>
 </div>
-<div class="result-line"><p id="results" aria-live="polite" aria-atomic="true">Cargando catálogo…</p><button id="clear" class="text-button" type="button" hidden>Limpiar filtros</button></div>
+<div class="result-line"><p id="results" aria-live="polite" aria-atomic="true">Cargando catálogo…</p><a id="kit-download" class="text-button" download hidden>Descargar kit completo</a><button id="clear" class="text-button" type="button" hidden>Limpiar filtros</button></div>
 <div id="grid" class="grid" aria-label="Modelos disponibles"></div>
 <div id="empty" class="empty" hidden><h2>No hay modelos con estos filtros</h2><p>Prueba otro término o amplía el área, la licencia o el movimiento.</p><button id="empty-clear" class="secondary" type="button">Mostrar todos los modelos</button></div>
 <nav class="pagination" aria-label="Páginas de modelos"><button id="prev" class="secondary" type="button">Anterior</button><span id="pages"></span><button id="next" class="secondary" type="button">Siguiente</button></nav>
@@ -43,10 +47,11 @@
 <div id="animation-row" class="animation-row" hidden><label>Animación<select id="animation" aria-label="Clip de animación"></select></label><button id="play" class="secondary" type="button" aria-pressed="false">Reproducir</button></div>
 <div class="inspector-body">
 <div id="model-facts" class="model-facts"></div>
+<div id="variant-row" class="animation-row" hidden><label>Variantes y versiones<select id="variant" aria-label="Variante del modelo"></select></label></div>
 <div class="download-row"><a id="download" class="primary" download>Descargar GLB <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v5h14v-5"/></svg></a><button id="share" class="secondary" type="button" aria-label="Copiar enlace de este modelo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 13 4-4m-6 6-2 2a4 4 0 0 1-6-6l5-5a4 4 0 0 1 6 0m2 4 2-2a4 4 0 0 1 6 6l-5 5a4 4 0 0 1-6 0" transform="translate(1 1) scale(.9)"/></svg></button></div>
 <details class="license-details" open><summary>Licencia y créditos</summary><div class="license-top"><a id="license-link" target="_blank" rel="noopener"></a><span class="review-status">Uso por evaluar</span></div><p id="license-note"></p><p id="credit" class="credit"></p><button id="copy-credit" class="text-button" type="button">Copiar atribución</button></details>
 <details id="review-details" hidden><summary>Observaciones para revisión</summary><ul id="review-flags"></ul><p id="unfulfilled"></p></details>
-<details class="technical-details"><summary>Ficha del archivo</summary><dl id="technical"></dl><p id="description"></p><div class="source-links"><a id="metadata-link" target="_blank">Metadatos originales</a><a id="source-link" target="_blank" rel="noopener">Ver en Poly Pizza ↗</a></div></details>
+<details class="technical-details"><summary>Ficha del archivo</summary><dl id="technical"></dl><p id="description"></p><div class="source-links"><a id="metadata-link" target="_blank">Metadatos originales</a><a id="original-link" download hidden>Descargar originales</a><a id="license-evidence" target="_blank">Licencia conservada</a><a id="source-link" target="_blank" rel="noopener">Ver fuente original ↗</a></div></details>
 <a class="mobile-gallery-link secondary" href="#catalog">Ver la galería</a>
 </div></section></div>
 <div id="toast" class="toast" role="status" hidden></div>

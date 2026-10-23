@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-22T22:49:23.506490+00:00",
+  "status": "passed",
+  "skills": [
+    {
+      "skill": "blender-codex-recipes",
+      "exitCode": 0,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "skill": "blender-lpm-recipes",
+      "exitCode": 0,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "skill": "gg3d-art-direction",
+      "exitCode": 0,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "skill": "gg3d-benchmark",
+      "exitCode": 0,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "skill": "gg3d-export-qa",
+      "exitCode": 0,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "skill": "gg3d-highdetail",
+      "exitCode": 0,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "skill": "gg3d-lowpoly",
+      "exitCode": 0,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "skill": "gg3d-pipeline",
+      "exitCode": 0,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "skill": "gg3d-rigging",
+      "exitCode": 0,
+      "output": "Skill is valid!\n"
+    },
+    {
+      "skill": "gg3d-visual-qa",
+      "exitCode": 0,
+      "output": "Skill is valid!\n"
+    }
+  ],
+  "localLinksChecked": 104,
+  "missingLinks": [],
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "lab/lab.py",
+        "--help"
+      ],
+      "exitCode": 0,
+      "output": "usage: lab.py [-h] {doctor,setup,verify,smoke,prepare,ingest,rig,review} ...\n\nLocal rigging laboratory: diagnostics, isolated setup and a recorded UniRig\nsmoke test.\n\npositional arguments:\n  {doctor,setup,verify,smoke,prepare,ingest,rig,review}\n    doctor              Record host, GPU, tool and storage diagnostics\n    setup               Install pinned UniRig packages and cache its models\n    verify              Execute real CUDA kernels and Blender imports\n    smoke               Run the official giraffe installation test\n    prepare             Prepare rest-pose copies and a normalized original rig\n                        control\n    ingest              Validate and copy reviewed creation evidence;\n                        explicitly normalize an isolated candidate\n    rig                 Run generated skeleton and skinning on a prepared\n                        corpus asset\n    review              Bake equivalent diagnostic stills and build the local\n                        gallery inventory\n\noptions:\n  -h, --help            show this help message and exit\n"
+    },
+    {
+      "command": [
+        "python3",
+        "lab/lab.py",
+        "rig",
+        "--help"
+      ],
+      "exitCode": 0,
+      "output": "usage: lab.py rig [-h] (--asset {human,quadruped} | --candidate CANDIDATE)\n                  [--stage {skeleton,all}] [--seed SEED]\n                  [--voxel-backend {open3d,pyrender}] [--timeout TIMEOUT]\n\noptions:\n  -h, --help            show this help message and exit\n  --asset {human,quadruped}\n  --candidate CANDIDATE\n                        Sealed creation-prepared.json produced by ingest\n  --stage {skeleton,all}\n  --seed SEED\n  --voxel-backend {open3d,pyrender}\n  --timeout TIMEOUT\n"
+    },
+    {
+      "command": [
+        "python3",
+        "lab/lab.py",
+        "ingest",
+        "--help"
+      ],
+      "exitCode": 0,
+      "output": "usage: lab.py ingest [-h] --candidate CANDIDATE [--timeout TIMEOUT]\n\noptions:\n  -h, --help            show this help message and exit\n  --candidate CANDIDATE\n                        Closed creation-lab handoff candidate.json\n  --timeout TIMEOUT     Maximum seconds for CPU Blender preparation\n"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/serve_gallery.py",
+        "--help"
+      ],
+      "exitCode": 0,
+      "output": "usage: serve_gallery.py [-h] [--port PORT] [--built] [--prefix PREFIX] [--lab]\n\nServe the catalog and an optional, inventory-limited local rigging review.\n\noptions:\n  -h, --help       show this help message and exit\n  --port PORT\n  --built\n  --prefix PREFIX\n  --lab            Enable the local review inventory; never serve caches or\n                   weights\n"
+    }
+  ],
+  "evidencePointers": [
+    {
+      "report": "rig-human.json",
+      "runId": "20261022T213527Z-159dbb54",
+      "status": "success",
+      "consistent": true
+    },
+    {
+      "report": "rig-quadruped.json",
+      "runId": "20261022T213933Z-02f44d2c",
+      "status": "success",
+      "consistent": true
+    },
+    {
+      "report": "latest-rig-candidate.json",
+      "runId": "20261022T222206Z-91fd94f9",
+      "status": "success",
+      "consistent": true
+    }
+  ],
+  "documentSha256": {
+    ".agents/skills/gg3d-pipeline/SKILL.md": "28a6a69712d9419216025e8822b3aa60041566b1c177b99eb16b1ada66ac7b10",
+    ".agents/skills/gg3d-export-qa/SKILL.md": "e9a9f2fa5fa936cf2098e9cdf989e12b0dd12bd93015751b3179563d40ef45c1",
+    ".agents/skills/gg3d-visual-qa/SKILL.md": "7e6d2a595ff07e9bff4f15d01b598777bee0dd10682a72aac99d2c7cd8178184",
+    ".agents/skills/gg3d-rigging/SKILL.md": "464d607773b92330030f93c4ebc7f6743c2dd9a218961b9ad3fb591772f944ed",
+    ".agents/skills/gg3d-art-direction/SKILL.md": "f85b0fc2c78931b98cd0de39dee1cccf3e92e553d39e3dcce8230f707e805fec",
+    ".agents/skills/blender-codex-recipes/SKILL.md": "549c03194c4a241a0b1bc49b8dadaac739adb354780d3663c5d7cdc0a7b08dc6",
+    ".agents/skills/gg3d-benchmark/SKILL.md": "671eba3dc42b60798855bb390964ef74ccd05bead14503334e5dcc45fedd6c20",
+    ".agents/skills/blender-lpm-recipes/SKILL.md": "6ded460a11082c11458c0c99b3f723e1d68416e88ecd0e82555ba8574e6f7609",
+    ".agents/skills/gg3d-highdetail/SKILL.md": "65b5c585a314a21177f08f6a854e35b6e8715d4e1d06128181f1f3028f1056f6",
+    ".agents/skills/gg3d-lowpoly/SKILL.md": "838e017b492010390530b59e00d48b6768e75fef55426227ff4393d9c8684301",
+    ".agents/skills/gg3d-rigging/references/deformation-review.md": "f874671582e16e6b204b94a73c376e4778d6a970a17e1655517a940d74c2cb25",
+    ".agents/skills/gg3d-rigging/references/operations.md": "b68537e26bb65e90d701fdd7bde3ca1ef32478eb091660e39d2fe9f8f4d24b24",
+    "AGENTS.md": "60c28890ce660efcf808a70482837dc5fbbef4823ddc7643724d328204feba7a",
+    "README.md": "734cf4b57fd62758fd4e702b7b23afc53514563f38f01f0fc1868d979ac55c31",
+    "lab/STATUS.md": "09794109dd4170bc5bc519ba48b9c6339ec537edbe285412bed570de570f935e",
+    "lab/README.md": "43b6fa6ae0f84eb978b17f31aff1f42e6f140c2fdb51169b36ad861355fe5439",
+    "creation-lab/docs/STATUS.md": "f4cbad0f30526cac812dfbe2758d97d2593683e4002945a2445dce7025f20e2a",
+    "creation-lab/docs/INTEGRATION.md": "c4da34517f34bc02d334d4a4b4b92a13f53683c65b01a710d44c58b3a9b48148",
+    "docs/RIGGING-LAB-PLAN.md": "0e6370fd4c5523fb42850c0dcd4ec58bb48623554450cf468752471147c260be"
+  },
+  "scope": "Skills/documentation validation; existing run evidence checked; no inference or model setup executed",
+  "siteCheck": {
+    "exitCode": 1,
+    "status": "needs_attention",
+    "output": "Traceback (most recent call last):\n  File \"/home/adawolfs/projects/makecode/3d-assets/tools/check_site.py\", line 22, in <module>\n    if SITE.exists() and (SITE/m['file']).read_bytes()!=data: raise SystemExit('Build model mismatch')\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/usr/lib/python3.14/pathlib/__init__.py\", line 778, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.14/pathlib/__init__.py\", line 772, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/home/adawolfs/projects/makecode/3d-assets/_site/models/kenney-buildings-building-sample-house-a/model.glb'\n",
+    "note": "Catalog/site files are being expanded concurrently outside this skills change; no rebuild or source modification performed by this task."
+  },
+  "diffCheck": {
+    "scope": "skills and updated documentation",
+    "exitCode": 0,
+    "output": ""
+  },
+  "externalWorkingTreeIssues": {
+    "paths": [
+      "index.csv"
+    ],
+    "note": "Global diff reports generated CSV whitespace outside this skills change; preserved concurrent work."
+  }
+}

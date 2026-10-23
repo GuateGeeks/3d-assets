@@ -1,0 +1,114 @@
+{
+  "id": "B",
+  "runId": "20261022T231536Z-65c84258",
+  "score": 19,
+  "rubric": {
+    "biologicalFidelity": {
+      "score": 2,
+      "max": 30,
+      "reason": "Solo se observa una envoltura oval y una zona pálida. No es posible verificar núcleo, nucléolo, retículos, Golgi, mitocondrias, centríolos ni relaciones anatómicas. Los nombres de parts.json no cuentan como evidencia de geometría correcta."
+    },
+    "partReadability": {
+      "score": 2,
+      "max": 25,
+      "reason": "Se distinguen la superficie rosa y el volumen pálido, pero ninguna estructura interior es identificable en las seis vistas."
+    },
+    "spatialComposition": {
+      "score": 2,
+      "max": 15,
+      "reason": "El objeto está bien encuadrado, pero la abertura superior y lateral no despeja el volumen interior. La vista común de tres cuartos no ofrece el corte didáctico solicitado."
+    },
+    "shapeAndShading": {
+      "score": 9,
+      "max": 15,
+      "reason": "La silueta exterior es suave, la iluminación es uniforme y los materiales exteriores son legibles. El borde del corte es grueso y el volumen opaco central domina; la calidad de las formas interiores no puede evaluarse."
+    },
+    "educationalUsability": {
+      "score": 4,
+      "max": 15,
+      "reason": "parts.json aporta las 13 etiquetas y funciones en español, coherentes con el brief. La geometría visible no permite asociarlas a los orgánulos. Esta puntuación se limita a geometría y etiquetas disponibles; no se evaluó UI, interacción ni selección."
+    }
+  },
+  "visual": {
+    "status": "FAIL",
+    "reason": "La envoltura y el volumen interior ocultan las estructuras que la maqueta de corte abierto debía mostrar. El problema persiste en la vista reimportada."
+  },
+  "biological": {
+    "status": "BLOCKED",
+    "reason": "La biología interna está oculta. No se aprueban los controles de nucléolo, envoltura nuclear, ribosomas, RER/REL, Golgi, crestas mitocondriales, centríolos ni citoesqueleto a partir de los nombres de objetos."
+  },
+  "summary": "Revisión ciega del run final indicado, posterior a la reparación técnica anunciada, limitada a los seis hashes registrados. Se abrieron de nuevo las seis vistas. El volumen opaco sigue ocultando todos los orgánulos; no hay cambio material perceptible que justifique modificar 19/100, visual FAIL o biología BLOCKED. La vista reimportada conserva esa oclusión. La revisión anterior está preservada en history/B-20261022T224930Z-c5b4b814.json. La semejanza de los renders no prueba corrección técnica ni biológica del GLB.",
+  "defects": [
+    {
+      "view": "front",
+      "detail": "La cara visible está prácticamente cerrada por la superficie rosa; no muestra ninguno de los orgánulos previstos en el corte frontal."
+    },
+    {
+      "view": "side",
+      "detail": "La ranura vertical descubre un volumen pálido continuo y opaco, sin acceso visual al interior celular."
+    },
+    {
+      "view": "back",
+      "detail": "La abertura más ancha también muestra solo el volumen pálido; cambiar de vista no resuelve la oclusión de estructuras."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "La abertura superior y lateral de la vista común queda obturada por el volumen pálido. No se identifican núcleo, nucléolo ni orgánulos."
+    },
+    {
+      "view": "wireframe",
+      "detail": "La trama tenue permite apreciar solo la superficie exterior; no aporta evidencia legible de la organización interna ni de las crestas o cisternas."
+    },
+    {
+      "view": "reimport-three-quarter",
+      "detail": "La reimportación mantiene la oclusión total de los orgánulos. No satisface el requisito de un interior distinguible desde la cámara común."
+    }
+  ],
+  "strengths": [
+    "Silueta oval centrada y completa en el encuadre.",
+    "Iluminación suave sin ruido visual dominante y separación cromática entre envoltura rosa y volumen pálido.",
+    "Las 13 etiquetas y funciones en español están presentes en parts.json.",
+    "La vista reimportada conserva de forma aparente la silueta y los materiales exteriores de la fuente."
+  ],
+  "evidenceLimits": [
+    "La revisión abrió realmente front, side, back, three-quarter, wireframe y reimport-three-quarter mediante view_image.",
+    "La anatomía oculta no se considera aprobada ni se afirma ausente: no es verificable en estos renders.",
+    "No se evaluó UI ni comportamiento interactivo. educationalUsability considera solamente geometría visible y etiquetas de parts.json.",
+    "No se midieron dimensiones, presupuestos de polígonos, materiales, objetos ni tamaño GLB; una imagen no demuestra esas propiedades.",
+    "La evidencia puede requerir actualización si cambia cualquiera de los renders del run."
+  ],
+  "imageEvidence": [
+    {
+      "view": "front",
+      "sha256": "b4e38cdc0bfca8272674c92227697b841160d659f01e510290d0c922815ea50e"
+    },
+    {
+      "view": "side",
+      "sha256": "dc247ec30f1dee13f8fe3f21901795c2a5099d48358ff656a40b1cf0277a130f"
+    },
+    {
+      "view": "back",
+      "sha256": "0d58711a3e853e35c2e3e6b84c881db64194649c087be87ed8490c7e2ddc366a"
+    },
+    {
+      "view": "three-quarter",
+      "sha256": "c6fa774277e1e477d8b587e7a05b0543948673b2065b8a426b4644b3cc6f8afe"
+    },
+    {
+      "view": "wireframe",
+      "sha256": "7d0107a34d0cf57e3e4344eb3dc9c759641b5b6bc4e0911235b2a3f967c23f18"
+    },
+    {
+      "view": "reimport-three-quarter",
+      "sha256": "b0ec7136efa00a8841c9e4c7324e269996bbd2869959d561a4cc9a2fb4b15e10"
+    }
+  ],
+  "reviewer": "independent fresh-context assistant, blinded to author mapping",
+  "comparison": {
+    "previousRunId": "20261022T224930Z-c5b4b814",
+    "previousScore": 19,
+    "scoreChanged": false,
+    "visibleChange": "Sin cambio material perceptible en las seis vistas. La envoltura rosa y el volumen pálido continúan ocultando la anatomía interna.",
+    "previousReview": "history/B-20261022T224930Z-c5b4b814.json"
+  }
+}

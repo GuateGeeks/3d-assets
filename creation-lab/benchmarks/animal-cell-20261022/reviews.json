@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "A",
+      "runId": "20261022T231340Z-1a026b95",
+      "score": 85,
+      "rubric": {
+        "biologicalFidelity": {
+          "score": 26,
+          "max": 30,
+          "reason": "La vista de tres cuartos muestra núcleo abierto con nucléolo interior sin envoltura propia aparente y poros sugeridos, RER próximo con gránulos adheridos, REL tubular, Golgi en pila con vesículas, dos mitocondrias con una abierta y crestas interiores, y dos centríolos aproximadamente perpendiculares. Los filamentos son escasos y no forman una estrella radial única. La continuidad fina de membranas y la estructura microscópica no se resuelven en estas imágenes."
+        },
+        "partReadability": {
+          "score": 21,
+          "max": 25,
+          "reason": "Las estructuras principales se distinguen por forma, posición y color. El REL verde pálido, las vesículas amarillas y los filamentos finos pierden contraste sobre el citosol claro; los detalles de los centríolos son pequeños."
+        },
+        "spatialComposition": {
+          "score": 13,
+          "max": 15,
+          "reason": "La apertura superior ofrece una distribución despejada con núcleo dominante, Golgi independiente y mitocondria abierta en primer plano. Algunas relaciones quedan muy planas y las vistas bajas ocultan detalles interiores detrás de paredes o del núcleo."
+        },
+        "shapeAndShading": {
+          "score": 12,
+          "max": 15,
+          "reason": "Siluetas suaves, espesores coherentes e iluminación uniforme. La paleta es algo lavada y el wireframe apenas se separa del sombreado; algunos extremos de filamentos rebasan visualmente el límite de membrana."
+        },
+        "educationalUsability": {
+          "score": 13,
+          "max": 15,
+          "reason": "La geometría permite asociar la mayoría de las 13 etiquetas y funciones en español de parts.json a estructuras reconocibles. La mitocondria abierta y el núcleo facilitan explicar interior y envoltura. Esta puntuación comprende únicamente geometría y etiquetas disponibles; no se evaluó UI, interacción ni selección."
+        }
+      },
+      "visual": "PASS",
+      "biological": "PASS",
+      "summary": "Revisión ciega del run final indicado, posterior a la reparación técnica anunciada, limitada a los seis hashes registrados. Se abrieron de nuevo las seis vistas. No se observa un cambio material de composición, legibilidad, forma o relaciones biológicas respecto del run anterior, por lo que se conserva 85/100 y los dictámenes visual PASS y biológico PASS con su alcance limitado a rasgos visibles. Persisten los defectos de contraste y pequeños filamentos que parecen rebasar el borde. La revisión anterior está conservada en history/A-20261022T225937Z-f8eb57e5.json. La apariencia no verifica por sí sola la reparación técnica del GLB.",
+      "defects": [
+        {
+          "view": "three-quarter",
+          "detail": "El REL verde pálido y las vesículas amarillo claro tienen poco contraste con el citosol marfil; sus contornos pequeños requieren atención adicional para distinguirse."
+        },
+        {
+          "view": "front",
+          "detail": "El borde anterior de la mitocondria abierta oculta sus crestas desde esta vista baja. Las crestas sí se distinguen en three-quarter; la explicación de esa estructura depende de la vista elevada."
+        },
+        {
+          "view": "three-quarter",
+          "detail": "En el extremo izquierdo, pequeños segmentos de filamentos finos parecen cruzar y sobresalir del contorno de la membrana. Esa lectura debilita la representación de una red intracelular contenida."
+        },
+        {
+          "view": "wireframe",
+          "detail": "La trama es muy tenue sobre las superficies claras y no permite inspeccionar con confianza la continuidad de malla de las piezas pequeñas."
+        },
+        {
+          "view": "side",
+          "detail": "El núcleo y el borde de la maqueta tapan parte del RER y de los filamentos; el conjunto de orgánulos se lee con más claridad en la cámara común que desde esta vista lateral."
+        }
+      ],
+      "strengths": [
+        "Abertura amplia que hace visible el interior desde la cámara común.",
+        "Núcleo y nucléolo diferenciados, con poros sugeridos en la envoltura parcial.",
+        "RER con gránulos y REL tubular distinguibles, además de Golgi separado con cisternas curvas y vesículas cercanas.",
+        "Dos formas mitocondriales; una permite ver pliegues dentro de una envoltura abierta.",
+        "Par de centríolos con ejes aproximadamente perpendiculares y filamentos periféricos poco densos.",
+        "Las 13 etiquetas y funciones en español están presentes en parts.json.",
+        "La reimportación conserva de forma aparente la composición, la silueta y la distribución de materiales."
+      ],
+      "evidenceLimits": [
+        "Se abrieron realmente front, side, back, three-quarter, wireframe y reimport-three-quarter mediante view_image.",
+        "No se aprueba biología oculta. Los nombres de objetos y las designNotes de parts.json no sustituyen lo observable en imágenes.",
+        "La ausencia de estructuras vegetales incompatibles se refiere únicamente a las estructuras visibles; no constituye inventario técnico de la escena.",
+        "Los poros son sugerencias gráficas; no se verificó su perforación real. Tampoco se verificaron el número de tripletes centriolares ni la continuidad microscópica de membranas.",
+        "No se evaluó UI ni comportamiento interactivo. educationalUsability considera solamente geometría visible y etiquetas de parts.json.",
+        "No se midieron dimensiones, polígonos, materiales, objetos ni tamaño del GLB."
+      ],
+      "imageEvidence": [
+        {
+          "view": "front",
+          "sha256": "81247e3dfd78e2a140e378ecc0c7c581bb240c0ed39438fb62bbb9ccb95366b8"
+        },
+        {
+          "view": "side",
+          "sha256": "5d1cf22fdc0d22be2bdc0c0b67d8082006891f8f35e4dc1e657fe8cbbc1f6e30"
+        },
+        {
+          "view": "back",
+          "sha256": "a3fd22ce2054639f5bfbefabcd1a296c8c21d06ea42a576bf314d4aaa107a0b2"
+        },
+        {
+          "view": "three-quarter",
+          "sha256": "406ebe81dbcb101826707457777eacdadb9d7d9126b42f1d510cec75e03017ca"
+        },
+        {
+          "view": "wireframe",
+          "sha256": "d27cf2c6efc278d3918b072230f29d870f520a6d307a539761c2cd12a473fca7"
+        },
+        {
+          "view": "reimport-three-quarter",
+          "sha256": "4e9778e3280654a44a237c9f8834c32d1ec0b1c47424c31bfc05d4fab89e3147"
+        }
+      ],
+      "reviewer": "independent fresh-context assistant, blinded to author mapping",
+      "comparison": {
+        "previousRunId": "20261022T225937Z-f8eb57e5",
+        "previousScore": 85,
+        "scoreChanged": false,
+        "visibleChange": "Sin cambio material perceptible en las seis vistas a la resolución revisada. La trama del wireframe varía ligeramente; no modifica la valoración educativa.",
+        "previousReview": "history/A-20261022T225937Z-f8eb57e5.json"
+      },
+      "visualDetail": {
+        "status": "PASS",
+        "reason": "La cámara común muestra un corte abierto legible, con estructuras diferenciadas y una vista reimportada visualmente concordante. Persisten defectos menores de contraste y contorno que se detallan."
+      },
+      "biologicalDetail": {
+        "status": "PASS",
+        "reason": "Los rasgos didácticos exigidos resultan reconocibles en el conjunto de vistas: nucléolo interior, envoltura nuclear parcial con poros sugeridos, RER con gránulos, REL tubular, Golgi con vesículas, dos mitocondrias con crestas internas visibles en una y centríolos aproximadamente perpendiculares. Este PASS se limita a esos rasgos observables; no aprueba anatomía oculta ni precisión ultrastructural."
+      }
+    },
+    {
+      "id": "B",
+      "runId": "20261022T231536Z-65c84258",
+      "score": 19,
+      "rubric": {
+        "biologicalFidelity": {
+          "score": 2,
+          "max": 30,
+          "reason": "Solo se observa una envoltura oval y una zona pálida. No es posible verificar núcleo, nucléolo, retículos, Golgi, mitocondrias, centríolos ni relaciones anatómicas. Los nombres de parts.json no cuentan como evidencia de geometría correcta."
+        },
+        "partReadability": {
+          "score": 2,
+          "max": 25,
+          "reason": "Se distinguen la superficie rosa y el volumen pálido, pero ninguna estructura interior es identificable en las seis vistas."
+        },
+        "spatialComposition": {
+          "score": 2,
+          "max": 15,
+          "reason": "El objeto está bien encuadrado, pero la abertura superior y lateral no despeja el volumen interior. La vista común de tres cuartos no ofrece el corte didáctico solicitado."
+        },
+        "shapeAndShading": {
+          "score": 9,
+          "max": 15,
+          "reason": "La silueta exterior es suave, la iluminación es uniforme y los materiales exteriores son legibles. El borde del corte es grueso y el volumen opaco central domina; la calidad de las formas interiores no puede evaluarse."
+        },
+        "educationalUsability": {
+          "score": 4,
+          "max": 15,
+          "reason": "parts.json aporta las 13 etiquetas y funciones en español, coherentes con el brief. La geometría visible no permite asociarlas a los orgánulos. Esta puntuación se limita a geometría y etiquetas disponibles; no se evaluó UI, interacción ni selección."
+        }
+      },
+      "visual": "FAIL",
+      "biological": "BLOCKED",
+      "summary": "Revisión ciega del run final indicado, posterior a la reparación técnica anunciada, limitada a los seis hashes registrados. Se abrieron de nuevo las seis vistas. El volumen opaco sigue ocultando todos los orgánulos; no hay cambio material perceptible que justifique modificar 19/100, visual FAIL o biología BLOCKED. La vista reimportada conserva esa oclusión. La revisión anterior está preservada en history/B-20261022T224930Z-c5b4b814.json. La semejanza de los renders no prueba corrección técnica ni biológica del GLB.",
+      "defects": [
+        {
+          "view": "front",
+          "detail": "La cara visible está prácticamente cerrada por la superficie rosa; no muestra ninguno de los orgánulos previstos en el corte frontal."
+        },
+        {
+          "view": "side",
+          "detail": "La ranura vertical descubre un volumen pálido continuo y opaco, sin acceso visual al interior celular."
+        },
+        {
+          "view": "back",
+          "detail": "La abertura más ancha también muestra solo el volumen pálido; cambiar de vista no resuelve la oclusión de estructuras."
+        },
+        {
+          "view": "three-quarter",
+          "detail": "La abertura superior y lateral de la vista común queda obturada por el volumen pálido. No se identifican núcleo, nucléolo ni orgánulos."
+        },
+        {
+          "view": "wireframe",
+          "detail": "La trama tenue permite apreciar solo la superficie exterior; no aporta evidencia legible de la organización interna ni de las crestas o cisternas."
+        },
+        {
+          "view": "reimport-three-quarter",
+          "detail": "La reimportación mantiene la oclusión total de los orgánulos. No satisface el requisito de un interior distinguible desde la cámara común."
+        }
+      ],
+      "strengths": [
+        "Silueta oval centrada y completa en el encuadre.",
+        "Iluminación suave sin ruido visual dominante y separación cromática entre envoltura rosa y volumen pálido.",
+        "Las 13 etiquetas y funciones en español están presentes en parts.json.",
+        "La vista reimportada conserva de forma aparente la silueta y los materiales exteriores de la fuente."
+      ],
+      "evidenceLimits": [
+        "La revisión abrió realmente front, side, back, three-quarter, wireframe y reimport-three-quarter mediante view_image.",
+        "La anatomía oculta no se considera aprobada ni se afirma ausente: no es verificable en estos renders.",
+        "No se evaluó UI ni comportamiento interactivo. educationalUsability considera solamente geometría visible y etiquetas de parts.json.",
+        "No se midieron dimensiones, presupuestos de polígonos, materiales, objetos ni tamaño GLB; una imagen no demuestra esas propiedades.",
+        "La evidencia puede requerir actualización si cambia cualquiera de los renders del run."
+      ],
+      "imageEvidence": [
+        {
+          "view": "front",
+          "sha256": "b4e38cdc0bfca8272674c92227697b841160d659f01e510290d0c922815ea50e"
+        },
+        {
+          "view": "side",
+          "sha256": "dc247ec30f1dee13f8fe3f21901795c2a5099d48358ff656a40b1cf0277a130f"
+        },
+        {
+          "view": "back",
+          "sha256": "0d58711a3e853e35c2e3e6b84c881db64194649c087be87ed8490c7e2ddc366a"
+        },
+        {
+          "view": "three-quarter",
+          "sha256": "c6fa774277e1e477d8b587e7a05b0543948673b2065b8a426b4644b3cc6f8afe"
+        },
+        {
+          "view": "wireframe",
+          "sha256": "7d0107a34d0cf57e3e4344eb3dc9c759641b5b6bc4e0911235b2a3f967c23f18"
+        },
+        {
+          "view": "reimport-three-quarter",
+          "sha256": "b0ec7136efa00a8841c9e4c7324e269996bbd2869959d561a4cc9a2fb4b15e10"
+        }
+      ],
+      "reviewer": "independent fresh-context assistant, blinded to author mapping",
+      "comparison": {
+        "previousRunId": "20261022T224930Z-c5b4b814",
+        "previousScore": 19,
+        "scoreChanged": false,
+        "visibleChange": "Sin cambio material perceptible en las seis vistas. La envoltura rosa y el volumen pálido continúan ocultando la anatomía interna.",
+        "previousReview": "history/B-20261022T224930Z-c5b4b814.json"
+      },
+      "visualDetail": {
+        "status": "FAIL",
+        "reason": "La envoltura y el volumen interior ocultan las estructuras que la maqueta de corte abierto debía mostrar. El problema persiste en la vista reimportada."
+      },
+      "biologicalDetail": {
+        "status": "BLOCKED",
+        "reason": "La biología interna está oculta. No se aprueban los controles de nucléolo, envoltura nuclear, ribosomas, RER/REL, Golgi, crestas mitocondriales, centríolos ni citoesqueleto a partir de los nombres de objetos."
+      }
+    },
+    {
+      "id": "C",
+      "runId": "20261022T230200Z-5a00b5d7",
+      "score": 82,
+      "rubric": {
+        "biologicalFidelity": {
+          "score": 25,
+          "max": 30,
+          "reason": "Son reconocibles el nucléolo dentro del núcleo abierto, poros sugeridos, RER con gránulos adheridos, REL tubular, Golgi con vesículas, dos mitocondrias abiertas con crestas y centríolos aproximadamente perpendiculares. La zona pálida asignada didácticamente al citosol se prolonga por fuera y debajo de la envoltura, lo que comunica de forma ambigua su contención intracelular. Los poros cuadrados y las crestas muy simplificadas reducen fidelidad de forma."
+        },
+        "partReadability": {
+          "score": 21,
+          "max": 25,
+          "reason": "Las familias principales son distinguibles por silueta y agrupación. Los filamentos y pequeños gránulos tienen poco contraste; REL y membrana comparten un turquesa similar, y el REL se superpone a una mitocondria desde la cámara común."
+        },
+        "spatialComposition": {
+          "score": 12,
+          "max": 15,
+          "reason": "El frente bajo y la apertura superior muestran una distribución despejada. La pared posterior alta anula la lectura interna desde back y reduce la lateral. La prolongación exterior marfil agrega una segunda silueta de base que compite con el límite celular."
+        },
+        "shapeAndShading": {
+          "score": 12,
+          "max": 15,
+          "reason": "Superficies limpias, curvas continuas e iluminación suave. La paleta lavada debilita piezas pequeñas; los huecos cuadrados del núcleo y las crestas en forma de dientes son simplificaciones llamativas. El wireframe es tenue."
+        },
+        "educationalUsability": {
+          "score": 12,
+          "max": 15,
+          "reason": "Las 13 etiquetas y funciones en español de parts.json permiten asociar la mayoría de los orgánulos visibles y explicar sus interiores. La base marfil exterior sin etiqueta específica puede confundir membrana y citosol. Esta puntuación comprende únicamente geometría y etiquetas disponibles; no se evaluó UI, interacción ni selección."
+        }
+      },
+      "visual": "PASS",
+      "biological": "FAIL",
+      "summary": "Revisión ciega aplicable al run indicado y a los seis hashes registrados. Los orgánulos tienen una lectura didáctica clara y las dos mitocondrias exponen pliegues interiores. La principal reserva biológica es la zona marfil exterior que se lee como base, pero no está diferenciada del citosol en las etiquetas disponibles. La semejanza visual de fuente y reimportación no demuestra integridad técnica del GLB.",
+      "defects": [
+        {
+          "view": "front",
+          "detail": "Un volumen marfil ancho sobresale por debajo y fuera de la envoltura turquesa. Se lee como pedestal exterior; la documentación de partes solo asigna esa zona pálida al citosol y no identifica un soporte independiente."
+        },
+        {
+          "view": "back",
+          "detail": "La banda marfil exterior persiste bajo toda la envoltura, reforzando la ambigüedad de dónde termina el citosol y qué representa la base."
+        },
+        {
+          "view": "three-quarter",
+          "detail": "El REL turquesa se superpone a la mitocondria posterior derecha y comparte un tono cercano al de la membrana; parte de la estructura mitocondrial y de la red tubular pierde separación."
+        },
+        {
+          "view": "three-quarter",
+          "detail": "Los poros nucleares se presentan como grandes huecos cuadrados, una aproximación geométrica poco orgánica. El brief permite poros sugeridos, pero esta forma requiere aclarar su carácter esquemático."
+        },
+        {
+          "view": "side",
+          "detail": "La pared lateral y el REL tapan parte del núcleo y de otros orgánulos. La lectura conjunta depende mucho de la vista común elevada."
+        },
+        {
+          "view": "wireframe",
+          "detail": "La trama fina tiene poco contraste; no permite juzgar con confianza la continuidad de las piezas pequeñas ni las uniones del REL."
+        }
+      ],
+      "strengths": [
+        "Apertura superior y frente bajo que exponen el conjunto desde la cámara común.",
+        "Nucléolo visible dentro del núcleo abierto, sin una envoltura propia aparente.",
+        "RER con gránulos adheridos, distinto del REL tubular y del Golgi apilado con vesículas cercanas.",
+        "Dos mitocondrias abiertas muestran pliegues ubicados en el interior de sus envolturas.",
+        "Par de centríolos de ejes aproximadamente perpendiculares; filamentos escasos en varias direcciones.",
+        "Las 13 etiquetas y funciones en español están presentes en parts.json.",
+        "La vista reimportada conserva de forma aparente la organización y los materiales de la fuente."
+      ],
+      "evidenceLimits": [
+        "Se abrieron realmente front, side, back, three-quarter, wireframe y reimport-three-quarter mediante view_image.",
+        "No se aprueba biología oculta. Los nombres de objetos y designNotes no sustituyen la observación de los renders.",
+        "La observación de la base exterior se refiere a su lectura visual y a la ausencia de una etiqueta que la distinga del citosol; no se inspeccionó su malla ni se atribuyó una causa técnica.",
+        "No se verificaron continuidad microscópica de membranas, número de tripletes centriolares ni inventario completo de la escena.",
+        "No se evaluó UI ni comportamiento interactivo. educationalUsability considera solamente geometría visible y etiquetas de parts.json.",
+        "No se midieron dimensiones, polígonos, materiales, objetos ni tamaño del GLB."
+      ],
+      "imageEvidence": [
+        {
+          "view": "front",
+          "sha256": "0afa730de7a8b88ef50b6c6ebe59034ad84847ed6a582de1fa65966d775f5296"
+        },
+        {
+          "view": "side",
+          "sha256": "5094710470c05e19190357e54de812666e399ea571a1c1356b2d7397c59ff23f"
+        },
+        {
+          "view": "back",
+          "sha256": "c7e8a4976f1a8fe6ffec42730163817bc04353a2a9e756a7e1104d8decd36637"
+        },
+        {
+          "view": "three-quarter",
+          "sha256": "7ccbc7ca8e6ad5c8db3643b6f832aaeaed8d5ec8400fd1f7daff1793a102aaab"
+        },
+        {
+          "view": "wireframe",
+          "sha256": "d754c3cd1e0528c112c3125f05a1ca7d64fbbfe146a6d282a0cb3eff2a534992"
+        },
+        {
+          "view": "reimport-three-quarter",
+          "sha256": "5625bbbde532a6dc3ed342c8a469d9445b2fa19f0a0cae8e184950c940b1315f"
+        }
+      ],
+      "reviewer": "independent fresh-context assistant, blinded to author mapping",
+      "visualDetail": {
+        "status": "PASS",
+        "reason": "El corte abierto permite reconocer las estructuras desde la cámara común y la reimportación mantiene de forma aparente esa composición. Los defectos de contraste, superposición y base exterior quedan documentados."
+      },
+      "biologicalDetail": {
+        "status": "FAIL",
+        "reason": "Aunque se reconocen los rasgos de los orgánulos exigidos, la representación visible del límite celular resulta ambigua: la zona marfil se extiende por debajo y fuera de la membrana turquesa, sin una etiqueta de soporte separada. parts.json describe la zona pálida como citosol; antes de aprobar la contención intracelular debe corregirse esa lectura o diferenciar inequívocamente un soporte no biológico. No se infiere corrección de anatomía oculta."
+      }
+    },
+    {
+      "id": "D",
+      "runId": "20261022T231712Z-01df29e7",
+      "score": 87,
+      "rubric": {
+        "biologicalFidelity": {
+          "score": 27,
+          "max": 30,
+          "reason": "Se reconocen nucléolo interior sin envoltura propia aparente, núcleo abierto con poros sugeridos y filamentos de cromatina sin figuras en X, RER próximo con gránulos adheridos, REL tubular sin esos gránulos, Golgi separado con vesículas, dos mitocondrias abiertas con crestas y centríolos aproximadamente perpendiculares. El citoesqueleto combina filamentos periféricos y algunos segmentos próximos al centrosoma. La forma fina y la continuidad de membranas siguen sin verificarse."
+        },
+        "partReadability": {
+          "score": 22,
+          "max": 25,
+          "reason": "Las estructuras principales se distinguen por forma y posición, incluidas las crestas de ambas mitocondrias. REL, Golgi, vesículas y filamentos son pálidos; algunos detalles pequeños requieren atención para separarse del fondo."
+        },
+        "spatialComposition": {
+          "score": 13,
+          "max": 15,
+          "reason": "El corte superior despeja el interior y distribuye núcleo, retículos, Golgi y mitocondrias sin solapamientos mayores en la cámara común. Hay cierta lectura de objetos aislados sobre una superficie, y las vistas bajas ocultan parte de sus interiores."
+        },
+        "shapeAndShading": {
+          "score": 12,
+          "max": 15,
+          "reason": "Silueta continua, superficies suaves y crestas interiores legibles. La iluminación y los colores lavados reducen contraste de las piezas claras; el wireframe es poco visible. La cromatina se percibe algo angular y esquemática."
+        },
+        "educationalUsability": {
+          "score": 13,
+          "max": 15,
+          "reason": "La geometría permite asociar las 13 etiquetas y funciones en español de parts.json a estructuras reconocibles, con interiores útiles del núcleo y las mitocondrias. Esta puntuación se limita a geometría y etiquetas disponibles; no se evaluó UI, interacción ni selección."
+        }
+      },
+      "visual": "PASS",
+      "biological": "PASS",
+      "summary": "Revisión ciega del run final indicado, posterior a la reparación técnica anunciada, limitada a los seis hashes registrados. Se abrieron de nuevo las seis vistas. No se observa un cambio material en la composición, legibilidad, formas o relaciones biológicas respecto del run anterior, por lo que se conservan 87/100 y visual PASS y biología PASS con alcance limitado a rasgos visibles. Las reservas de contraste y detalle siguen vigentes. La revisión anterior está en history/D-20261022T230439Z-cff6edbd.json. La apariencia no verifica por sí sola la reparación técnica del GLB.",
+      "defects": [
+        {
+          "view": "three-quarter",
+          "detail": "El REL celeste, el Golgi amarillo y sus vesículas tienen poco contraste frente al citosol pálido; los contornos pequeños se pierden parcialmente."
+        },
+        {
+          "view": "front",
+          "detail": "Los bordes anteriores de ambas mitocondrias ocultan buena parte de las crestas en esta vista baja. El interior se comprende mejor en three-quarter."
+        },
+        {
+          "view": "side",
+          "detail": "El núcleo y el borde lateral tapan algunos componentes y dificultan apreciar el conjunto del citoesqueleto. No todas las estructuras son legibles desde este ángulo."
+        },
+        {
+          "view": "three-quarter",
+          "detail": "Los filamentos de cromatina se presentan como líneas algo angulares sobre el interior nuclear; su carácter esquemático es reconocible, pero la forma resulta menos orgánica que otras piezas."
+        },
+        {
+          "view": "wireframe",
+          "detail": "La trama tiene contraste muy bajo y no permite evaluar con confianza la topología fina de centríolos, retículos o crestas."
+        }
+      ],
+      "strengths": [
+        "Corte amplio que muestra el interior desde la cámara común sin una esfera opaca obstructiva.",
+        "Núcleo abierto con nucléolo visible, poros sugeridos y cromatina filamentosa sin cromosomas en X.",
+        "RER con gránulos próximo al núcleo y REL tubular diferenciados del Golgi con cisternas curvas.",
+        "Dos mitocondrias abiertas con pliegues visibles dentro de sus envolturas.",
+        "Centríolos de ejes aproximadamente perpendiculares, con citoesqueleto escaso que no se reduce a una única estrella radial.",
+        "Las 13 etiquetas y funciones en español están presentes en parts.json.",
+        "La vista reimportada conserva de forma aparente la presentación de la fuente."
+      ],
+      "evidenceLimits": [
+        "Se abrieron realmente front, side, back, three-quarter, wireframe y reimport-three-quarter mediante view_image.",
+        "No se aprueba biología oculta. Los nombres de objetos y designNotes no sustituyen la observación de imágenes.",
+        "Los poros son reconocibles como sugerencias gráficas; no se verificó su perforación real ni la continuidad microscópica de las membranas.",
+        "No se verificó el número exacto de tripletes de los centríolos ni el inventario completo de estructuras de la escena.",
+        "No se evaluó UI ni comportamiento interactivo. educationalUsability considera solamente geometría visible y etiquetas de parts.json.",
+        "No se midieron dimensiones, polígonos, materiales, objetos ni tamaño del GLB.",
+        "Se revisaron los renders posteriores a la reparación; la corrección topológica no se deduce de su apariencia y queda fuera de esta evaluación visual."
+      ],
+      "imageEvidence": [
+        {
+          "view": "front",
+          "sha256": "e6a9a8b224083a5039b115ee8f88c9e80c2a3b702008ed48a0e7542eb270ac09"
+        },
+        {
+          "view": "side",
+          "sha256": "2644783db2061030c53079f085a090929e72721f54c86a946d191207e40a5ecf"
+        },
+        {
+          "view": "back",
+          "sha256": "2cfb5111fbec37251038e98c522e345aca893eb8a80f08ec7b7e3c18fd618ff1"
+        },
+        {
+          "view": "three-quarter",
+          "sha256": "334b79596e46104d787c6b6a00b65e347ddd0d02e4aa18d6dbd1756ed34142a7"
+        },
+        {
+          "view": "wireframe",
+          "sha256": "2b4141e5d17777a43cd551293824245688f3f846a669d0bd290806a7238689d9"
+        },
+        {
+          "view": "reimport-three-quarter",
+          "sha256": "a44062b8d2a50ad152cfb25d37d120b08fae3c71a9a26e55f3ae02d5dbe7e5e4"
+        }
+      ],
+      "reviewer": "independent fresh-context assistant, blinded to author mapping",
+      "comparison": {
+        "previousRunId": "20261022T230439Z-cff6edbd",
+        "previousScore": 87,
+        "scoreChanged": false,
+        "visibleChange": "Sin cambio material perceptible en las seis vistas a la resolución revisada. La variación ligera del wireframe no modifica la valoración educativa.",
+        "previousReview": "history/D-20261022T230439Z-cff6edbd.json"
+      },
+      "visualDetail": {
+        "status": "PASS",
+        "reason": "La cámara común ofrece un corte abierto legible y la reimportación conserva de forma aparente su silueta, composición y materiales. Quedan mejoras de contraste y de legibilidad de detalles pequeños."
+      },
+      "biologicalDetail": {
+        "status": "PASS",
+        "reason": "Los rasgos didácticos del brief son reconocibles en el conjunto de vistas, incluidos nucléolo interior, poros sugeridos, RER con gránulos, REL tubular, Golgi con vesículas, dos mitocondrias con pliegues interiores y centríolos aproximadamente perpendiculares. El dictamen solo cubre estos rasgos visibles; no aprueba anatomía oculta, número exacto de tripletes ni continuidad ultrastructural."
+      }
+    },
+    {
+      "id": "E",
+      "runId": "20261022T231923Z-c52247de",
+      "score": 44,
+      "rubric": {
+        "biologicalFidelity": {
+          "score": 13,
+          "max": 30,
+          "reason": "Se reconocen núcleo abierto con un cuerpo de nucléolo visible, una forma mitocondrial cerrada y otra abierta, una pila amarilla asociable a Golgi y estructuras tubulares. Sin embargo, el RER se lee como grandes arcos tubulares y muchos gránulos quedan flotando o agrupados sin una asociación inequívoca a cisternas aplanadas. Los poros nucleares, la forma del par de centríolos y la organización interna de las crestas no quedan suficientemente resueltos. Una franja pálida atraviesa el límite exterior de membrana."
+        },
+        "partReadability": {
+          "score": 12,
+          "max": 25,
+          "reason": "El núcleo, nucléolo, envoltura, Golgi y formas mitocondriales tienen colores distinguibles, pero se superponen tubos, gránulos y filamentos sobre el centro. RER, ribosomas adheridos y centrosoma no se identifican con confianza por su forma y relación espacial."
+        },
+        "spatialComposition": {
+          "score": 6,
+          "max": 15,
+          "reason": "Existe una abertura frontal y superior, pero es irregular y conserva una pared grande que tapa parte del interior. Núcleo, arcos del retículo y Golgi se amontonan en profundidad; los filamentos atraviesan la lectura del conjunto. La zona pálida basal rebasa el contorno exterior."
+        },
+        "shapeAndShading": {
+          "score": 5,
+          "max": 15,
+          "reason": "Los cortes de membrana y núcleo tienen escalones y dientes prominentes. Cerca del borde superior aparece una pequeña forma circular con líneas radiales finas, de lectura incierta. Las superficies exteriores son suaves, pero esos bordes, intersecciones aparentes y superposiciones dominan la presentación."
+        },
+        "educationalUsability": {
+          "score": 8,
+          "max": 15,
+          "reason": "parts.json contiene las 13 etiquetas y funciones españolas, y algunas estructuras principales son reconocibles. La geometría no permite asociar inequívocamente todas las etiquetas ni explicar varias relaciones anatómicas requeridas. Esta puntuación considera únicamente geometría y etiquetas disponibles; no se evaluó UI, interacción ni selección."
+        }
+      },
+      "visual": "FAIL",
+      "biological": "FAIL",
+      "summary": "Revisión ciega del run final indicado y de los seis hashes registrados. Hay un interior parcialmente visible con núcleo y varios grupos de orgánulos, pero la forma del RER, la superposición de estructuras y los cortes dentados reducen mucho su utilidad didáctica. La vista reimportada es aparencialmente concordante con la fuente; esa concordancia no constituye aprobación técnica ni biológica. El primer intento E no se puntuó por falta de la vista reimportada, según informó la coordinación.",
+      "defects": [
+        {
+          "view": "front",
+          "detail": "La abertura de la membrana forma escalones grandes en el borde izquierdo y anterior; el borde de la envoltura nuclear también se ve dentado. Estos contornos distraen y hacen difícil distinguir corte didáctico de defecto de superficie."
+        },
+        {
+          "view": "three-quarter",
+          "detail": "Los arcos azul claro atribuidos al RER se leen como tubos gruesos que rodean y cruzan el núcleo, sin cisternas aplanadas legibles. Muchos gránulos pardos se acumulan a la izquierda y no muestran una adherencia clara a las caras citoplasmáticas de cisternas."
+        },
+        {
+          "view": "three-quarter",
+          "detail": "El Golgi amarillo queda parcialmente oculto por los arcos del retículo y filamentos diagonales. La mitocondria abierta izquierda se superpone a gránulos y al borde de corte, dificultando leer sus pliegues como interiores."
+        },
+        {
+          "view": "side",
+          "detail": "La organización central se comprime por superposición de núcleo, retículos, Golgi y formas mitocondriales. El par de centríolos no se reconoce con confianza como dos cilindros aproximadamente perpendiculares."
+        },
+        {
+          "view": "back",
+          "detail": "Una franja pálida sobresale a ambos lados y atraviesa visualmente el exterior de la membrana. parts.json la presenta como plano basal del citoplasma y no identifica un soporte no biológico separado."
+        },
+        {
+          "view": "three-quarter",
+          "detail": "No se distinguen poros nucleares inequívocos. Cerca del borde superior aparece una forma circular pequeña con líneas radiales finas y lectura ambigua, cuya función no puede deducirse del render."
+        },
+        {
+          "view": "reimport-three-quarter",
+          "detail": "Persisten los bordes escalonados y las superposiciones del conjunto; completar la reimportación no resuelve los defectos visuales ni prueba los rasgos biológicos ocultos."
+        }
+      ],
+      "strengths": [
+        "La abertura permite ver parte del interior desde la cámara común.",
+        "El núcleo abierto y el cuerpo visible del nucléolo se diferencian por color y escala.",
+        "La pila amarilla, las esferas pequeñas y las dos formas mitocondriales ofrecen puntos de referencia para una explicación guiada.",
+        "Las superficies exteriores amplias tienen sombreado suave y el objeto completo cabe en el encuadre.",
+        "Las 13 etiquetas y funciones en español están presentes en parts.json.",
+        "La vista reimportada mantiene de forma aparente la organización visible de la fuente."
+      ],
+      "evidenceLimits": [
+        "Se abrieron realmente las seis imágenes del run final: front, side, back, three-quarter, wireframe y reimport-three-quarter, mediante view_image.",
+        "No se aprueba biología oculta. Los nombres de objetos y designNotes no sustituyen evidencia visual de sus formas o relaciones.",
+        "No verificar poros, centríolos o crestas con suficiente claridad no equivale a afirmar que esas mallas estén ausentes de la escena.",
+        "No se inspeccionó el primer intento E; su exclusión y la falta de render reimportado fueron comunicadas por la coordinación, no comprobadas por este revisor.",
+        "No se evaluó UI ni comportamiento interactivo. educationalUsability considera solamente geometría visible y etiquetas de parts.json.",
+        "No se midieron dimensiones, polígonos, materiales, objetos ni tamaño del GLB."
+      ],
+      "excludedAttempts": [
+        {
+          "runId": "20261022T230733Z-1cb68459",
+          "score": null,
+          "reviewStatus": "NOT_RUN",
+          "reason": "La coordinación informó que solo había cinco renders y faltaba reimport-three-quarter. Este intento no se abrió ni se calificó; no hay aprobación implícita.",
+          "evidenceSource": "coordinator message; not independently inspected"
+        }
+      ],
+      "imageEvidence": [
+        {
+          "view": "front",
+          "sha256": "78ffa4dd4c7886c3a902913aa5951f3b6116a5ad4c49be3ef94d1946e1ea552f"
+        },
+        {
+          "view": "side",
+          "sha256": "d1cc5144e33df58648c3988fe4e2b662db4c3130b6905916308a97e2ee136e6c"
+        },
+        {
+          "view": "back",
+          "sha256": "569504ca8dcb66bff07bf55acf436bdf1d815fed4d3939edcf37d2b75e7664f3"
+        },
+        {
+          "view": "three-quarter",
+          "sha256": "d80e3eea0459825f49569a42dd99f2c00328c7ffbe43eae306cfe694a83cbba5"
+        },
+        {
+          "view": "wireframe",
+          "sha256": "301180eb9301414679ee74aa1372078db6b37de90223583d63c7709a0e5b977f"
+        },
+        {
+          "view": "reimport-three-quarter",
+          "sha256": "738acdcca4df167863682ae482042153585c9cb6aaa551ced7043ee4d7a57d8f"
+        }
+      ],
+      "reviewer": "independent fresh-context assistant, blinded to author mapping",
+      "visualDetail": {
+        "status": "FAIL",
+        "reason": "Los bordes escalonados de los cortes, las superposiciones centrales y las partes pequeñas ambiguas impiden una presentación clara y suficientemente acabada de la maqueta didáctica. La reimportación conserva esos problemas visibles."
+      },
+      "biologicalDetail": {
+        "status": "FAIL",
+        "reason": "El RER no comunica con claridad las cisternas aplanadas y los ribosomas adheridos requeridos; se ve como arcos tubulares con gránulos dispersos. La zona pálida rebasa el límite celular. Los poros nucleares, centríolos aproximadamente perpendiculares y pliegues mitocondriales interiores no se aprueban porque no son inequívocamente verificables en las vistas, aunque existan nombres de objetos que los declaren."
+      }
+    },
+    {
+      "id": "F",
+      "runId": "20261022T231012Z-86a34f67",
+      "score": 82,
+      "rubric": {
+        "biologicalFidelity": {
+          "score": 24,
+          "max": 30,
+          "reason": "Se reconocen nucléolo dentro del núcleo abierto, RER próximo con gránulos, REL tubular, Golgi con vesículas, dos mitocondrias con pliegues interiores y centríolos aproximadamente perpendiculares. La zona marfil se prolonga por fuera de la envoltura y vuelve ambiguo el límite del citosol. Los poros nucleares declarados en parts.json no son suficientemente distinguibles en las vistas para aprobar ese rasgo."
+        },
+        "partReadability": {
+          "score": 22,
+          "max": 25,
+          "reason": "Las estructuras principales se separan por forma, posición y grupos de color. REL, vesículas y filamentos finos tienen bajo contraste sobre el citosol. Los poros nucleares no se leen con claridad y las piezas pequeñas pierden detalle a esta resolución."
+        },
+        "spatialComposition": {
+          "score": 12,
+          "max": 15,
+          "reason": "La abertura superior y el frente bajo muestran los orgánulos desde la cámara común, con dos mitocondrias separadas y Golgi propio. La pared alta oculta casi todo desde back y reduce la lectura lateral. Una segunda silueta marfil exterior se interpreta como base."
+        },
+        "shapeAndShading": {
+          "score": 12,
+          "max": 15,
+          "reason": "Silueta exterior suave, iluminación uniforme y crestas interiores volumétricas. Algunas curvas del citoesqueleto se leen como segmentos angulares, y los materiales pálidos reducen detalle. El wireframe sigue siendo tenue en piezas pequeñas."
+        },
+        "educationalUsability": {
+          "score": 12,
+          "max": 15,
+          "reason": "Las 13 etiquetas y funciones en español de parts.json se corresponden con familias de estructuras reconocibles. La franja marfil exterior sin etiqueta de soporte y la falta de poros claramente visibles limitan la explicación anatómica. Esta puntuación se limita a geometría y etiquetas disponibles; no se evaluó UI, interacción ni selección."
+        }
+      },
+      "visual": "PASS",
+      "biological": "FAIL",
+      "summary": "Revisión ciega aplicable al run indicado y a los seis hashes registrados. Hay buena separación de orgánulos, pliegues mitocondriales internos visibles y un par de centríolos reconocible. La zona marfil exterior y los poros nucleares poco legibles limitan la fidelidad educativa. La semejanza visual entre fuente y reimportación no acredita por sí sola integridad técnica del GLB.",
+      "defects": [
+        {
+          "view": "front",
+          "detail": "Una franja marfil ancha sobresale por debajo y fuera de la membrana turquesa; se interpreta como un soporte exterior, pero parts.json no diferencia ese soporte de la zona pálida que representa citosol."
+        },
+        {
+          "view": "back",
+          "detail": "La franja marfil recorre también el exterior posterior, reforzando la ambigüedad sobre el límite entre membrana y citosol."
+        },
+        {
+          "view": "three-quarter",
+          "detail": "La envoltura nuclear visible es lisa y no muestra poros distinguibles con suficiente claridad. Los nombres nucleo__poro de parts.json no verifican que la estructura pueda reconocerse en esta presentación."
+        },
+        {
+          "view": "three-quarter",
+          "detail": "El REL celeste, las vesículas amarillo pálido y algunos filamentos pierden contraste frente al fondo marfil."
+        },
+        {
+          "view": "side",
+          "detail": "La pared lateral alta y la superposición del Golgi reducen la lectura del núcleo y de estructuras posteriores; la visión conjunta depende de la cámara común elevada."
+        },
+        {
+          "view": "wireframe",
+          "detail": "El trazo de la malla es muy tenue en los orgánulos pequeños; no ofrece evidencia suficiente para valorar su continuidad topológica fina."
+        }
+      ],
+      "strengths": [
+        "Apertura superior amplia y frente bajo que exponen el interior desde la cámara común.",
+        "Nucléolo distinguible dentro del núcleo abierto sin envoltura propia aparente.",
+        "RER con gránulos, REL tubular y Golgi en pila de cisternas curvas con vesículas cercanas.",
+        "Dos mitocondrias abiertas muestran pliegues dentro de sus envolturas, no solo rayas exteriores.",
+        "Centríolos reconocibles con ejes aproximadamente perpendiculares y filamentos escasos distribuidos por la periferia.",
+        "Las 13 etiquetas y funciones en español están presentes en parts.json.",
+        "La vista reimportada conserva de forma aparente la silueta, composición y materiales de la fuente."
+      ],
+      "evidenceLimits": [
+        "Se abrieron realmente front, side, back, three-quarter, wireframe y reimport-three-quarter mediante view_image.",
+        "No se aprueba biología oculta. Los nombres de objetos y designNotes no sustituyen la observación de los renders.",
+        "La reserva sobre la base exterior se refiere a su lectura visible y a que las etiquetas no distinguen un soporte; no se inspeccionó la malla ni se atribuyó causa técnica.",
+        "La no verificación de poros no afirma que no existan en la escena; significa que no son reconocibles con esta evidencia.",
+        "No se verificaron número de tripletes centriolares, continuidad microscópica de membranas ni inventario completo de estructuras.",
+        "No se evaluó UI ni comportamiento interactivo. educationalUsability considera solamente geometría visible y etiquetas de parts.json.",
+        "No se midieron dimensiones, polígonos, materiales, objetos ni tamaño del GLB."
+      ],
+      "imageEvidence": [
+        {
+          "view": "front",
+          "sha256": "ced0da96302953d3a5cec18b5158c3350cdaf1273908ece6b53bf06a696b9ab4"
+        },
+        {
+          "view": "side",
+          "sha256": "df51da1430352856ede96fc602a4747b3cf5f634e5f491a05bbc35c7cf119d2b"
+        },
+        {
+          "view": "back",
+          "sha256": "7a66f95112cbe4f92be215c984336bd80ab22712f772aacb284275031b250649"
+        },
+        {
+          "view": "three-quarter",
+          "sha256": "042d6f775d07dd9f216cc2b396a0b99230e6980e726c74ca4fc70ed9363fd355"
+        },
+        {
+          "view": "wireframe",
+          "sha256": "1594b726414427b07bf8570aba1b9a5480f1c241743a7e33b128ba359ea0aea8"
+        },
+        {
+          "view": "reimport-three-quarter",
+          "sha256": "024f120d747bb8eba226abe116bc16032463c87283b68b0dbc68aa741d67090b"
+        }
+      ],
+      "reviewer": "independent fresh-context assistant, blinded to author mapping",
+      "visualDetail": {
+        "status": "PASS",
+        "reason": "El corte abierto permite reconocer las estructuras desde la cámara común y la reimportación mantiene de forma aparente esa composición. Permanecen defectos de base exterior, contraste y detalles poco legibles."
+      },
+      "biologicalDetail": {
+        "status": "FAIL",
+        "reason": "La zona pálida descrita como citosol en parts.json se prolonga visualmente por debajo y fuera de la envoltura turquesa, sin etiqueta que distinga un soporte no biológico. Esa lectura del límite celular debe corregirse o aclararse antes de aprobarla. Además, los poros nucleares no quedan verificados por las vistas disponibles; no se aprueban mediante los nombres de objetos."
+      }
+    }
+  ]
+}

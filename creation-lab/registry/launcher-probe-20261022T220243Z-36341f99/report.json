@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "scope": "exact project launcher, MCP initialize/list_tools/read-only query and cleanup",
+  "globalConfigurationChanged": false,
+  "initialize": {
+    "protocolVersion": "2024-11-05",
+    "capabilities": {
+      "experimental": {},
+      "prompts": {
+        "listChanged": false
+      },
+      "resources": {
+        "subscribe": false,
+        "listChanged": false
+      },
+      "tools": {
+        "listChanged": false
+      }
+    },
+    "serverInfo": {
+      "name": "blender-mcp",
+      "version": "1.30.0"
+    },
+    "instructions": "You have access to Blender tools to interact with a Blender scene directly.\nBlender must be running with the MCP add-on enabled and connected.\n\nIMPORTANT: Respect existing structure and naming conventions.\nNEVER assume missing values - inspect the scene first.\nDo not destructively modify objects without confirmation.\n\n# Bundled Manuals\n\nReference documentation is bundled alongside this server as plain-text RST files.\nSearch and read them directly with standard text tools (grep, file read, etc.):\n  * `data/api/` - Blender Python API reference (RST files per module/class).\n    Consult when writing or debugging `bpy` code: operator signatures, type\n    properties, enum values, etc.\n  * `data/manual/` - Blender user manual (RST files mirroring the official manual structure).\n    Consult for conceptual explanations, workflow guidance, and feature overviews.\n\n# Executing Code\n\nThe `execute_blender_code` tool runs Python code via `bpy` in the connected Blender instance.\n\nThe `execute_blender_code` tool is a last resort, if there are other tools that provide\nthe functionality you need, use those instead.\n\nPrefer operators (`bpy.ops`) for standard actions (adding primitives, applying modifiers,\nsetting origins) - they handle defaults and context. Use the data API (`bpy.data`) for\nprecise control or to avoid side effects.\n\nMany operators depend on the current mode (Object, Edit, Sculpt, etc.) and which objects\nare active/selected. Verify or set the mode first - wrong mode either fails or silently\ndoes nothing.\n\nThe **active object** and **selection** are distinct. Many operators require both.\nSet them explicitly - do not assume the current state. Operators change selection and\nactive state as a side effect, so re-set both between sequential operator calls on\ndifferent objects.\n\nUpdate the dependency graph after changes before reading computed properties\n(world matrices, modifier results, etc.).\n\nIn edit mode, access mesh geometry through the bmesh API, not the regular mesh data API.\nFlush bmesh changes back to the mesh - forgetting this silently loses all edits.\n\nReturn structured data (dicts, lists) from executed code, not print output.\n\n# Scene & Data Structure\n\nBlender uses a datablock system - objects and their underlying data (meshes, materials,\ncameras, etc.) are separate entities.\n\nHierarchy:\n  * **Scene** - top-level container. A .blend can have multiple.\n  * **View Layer** - controls collection visibility/selectability.\n  * **Collection** - organizational tree. Objects live in collections; can be nested;\n    objects can belong to multiple collections.\n  * **Object** - has a transform (location, rotation, scale) and references underlying data\n    (Mesh, Curve, Camera, etc.). Multiple objects can share the same data (linked duplicates).\n  * **Datablocks** - the actual data: geometry, materials, textures, etc.\n\nKey concepts:\n  * Objects and data are separate - deleting one does not delete the other.\n  * Orphaned datablocks (zero users) are purged on save/reload or manual purge.\n  * Objects created via the data API must be linked to a collection to appear in a scene.\n  * Shared data: check user count before modifying a datablock - editing a shared mesh\n    affects all objects referencing it. Make single-user first if needed.\n  * In most cases file assets:\n    * Images, Fonts, Sounds, other `.blend` files -  corraspond to a data-block.\n\nVisibility has three independent states:\n  * **Viewport hidden** - still fully scriptable.\n  * **Disabled in view layer** - excluded; may be inaccessible to view-layer-dependent operators.\n  * **Disabled for render** - skipped during render, otherwise normal.\nCheck these when objects seem \"missing\" or operators skip them.\n\nBlender defaults to meters. Check scene unit settings before creating dimensioned objects.\n\nExploring scenes:\n  * Walk the collection hierarchy for an overview first.\n  * Don't dump entire scenes - inspect progressively for large scenes.\n  * Check object types, parenting, modifiers, and materials before making changes.\n\n# Object Types & Creation\n\nObject types: Mesh, Curve, Surface, Metaball, Text (Font), Armature, Lattice,\nEmpty, Camera, Light, Light Probe, Grease Pencil.\n\nCreating objects:\n  * Operators for standard primitives - handle defaults and collection linking.\n  * Data API for procedural/batch creation - avoids side effects (selection changes, etc.).\n  * Always link new objects to a collection.\n  * Names auto-append `.001`, `.002` on collision - capture references immediately\n    after creation, never look up by assumed name.\n\nDelete with unlinking enabled to cleanly remove from all collections.\n\nPrefer non-destructive workflows: modifiers over direct mesh edits where possible,\nkeeping changes adjustable. Apply or edit directly only when final or unavoidable.\n\n# Transformations & Coordinate Spaces\n\nLocation, rotation, and scale are in local space (parent-relative, or world if unparented).\n\nRotation mode determines which property to use (Euler, Quaternion, Axis-Angle).\nAlways check rotation mode first - writing to the wrong property is silently ignored.\n\nCoordinate spaces:\n  * **World** - global. Use the world matrix for reliable positions.\n  * **Local** - relative to parent. Location/rotation/scale operate here.\n  * **Object** - the object's own system. Mesh vertices are in object space;\n    multiply by world matrix for world positions.\n\nStrategies:\n  * The origin is the reference point for location; vertices are relative to it.\n  * Apply transforms (especially scale) before geometry-dependent operations\n    (booleans, physics) - non-uniform scale causes unexpected results.\n  * Set the parent inverse matrix when parenting to preserve visual position.\n  * Use the world matrix for world-space reads, not manual composition of\n    location/rotation/scale.\n  * The 3D cursor is a persistent world-space reference used by many operations.\n"
+  },
+  "tools": [
+    "execute_blender_code",
+    "execute_blender_code_for_cli",
+    "get_blendfile_summary_datablocks",
+    "get_blendfile_summary_datablocks_for_cli",
+    "get_blendfile_summary_missing_files",
+    "get_blendfile_summary_missing_files_for_cli",
+    "get_blendfile_summary_of_linked_libraries",
+    "get_blendfile_summary_of_linked_libraries_for_cli",
+    "get_blendfile_summary_path_info",
+    "get_blendfile_summary_path_info_for_cli",
+    "get_blendfile_summary_usage_guess",
+    "get_blendfile_summary_usage_guess_for_cli",
+    "get_object_detail_summary",
+    "get_objects_summary",
+    "get_python_api_docs",
+    "get_screenshot_of_area_as_image",
+    "get_screenshot_of_window_as_image",
+    "get_screenshot_of_window_as_json",
+    "jump_to_tab_by_name",
+    "jump_to_tab_by_space_type",
+    "jump_to_view3d_object_by_name",
+    "jump_to_view3d_object_data_by_name",
+    "render_thumbnail_to_path",
+    "render_viewport_to_path",
+    "search_api_docs",
+    "search_manual_docs"
+  ],
+  "query": {
+    "pid": 43464,
+    "version": "5.2.3 LTS",
+    "background": true,
+    "objects": 3
+  },
+  "session": {
+    "version": "1.0.3",
+    "host": "127.0.0.1",
+    "port": 57197,
+    "blender": "D:\\SteamLibrary\\steamapps\\common\\Blender\\blender.exe",
+    "globalConfigChanged": false,
+    "blenderPid": 43464,
+    "mcpPid": 28224
+  },
+  "exitCode": 0,
+  "cleanup": {
+    "version": "1.0.3",
+    "host": "127.0.0.1",
+    "port": 57197,
+    "blender": "D:\\SteamLibrary\\steamapps\\common\\Blender\\blender.exe",
+    "globalConfigChanged": false,
+    "blenderPid": 43464,
+    "mcpPid": 28224,
+    "ownedProcessesStopped": true
+  },
+  "listenerClosed": true,
+  "finishedAt": "2026-10-22T22:02:53.795274+00:00"
+}

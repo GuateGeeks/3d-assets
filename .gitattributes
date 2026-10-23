@@ -11,5 +11,18 @@
 *.yml text eol=lf
 
 # Keep captured license/source evidence byte-for-byte.
-sources/** -text
-models/**/source.json -text
+sources/** -text -whitespace
+models/**/source.json -text -whitespace
+models/**/original/** -text -whitespace
+kits/** -text -whitespace
+
+# Keep vendored sources and locked audit evidence byte-for-byte across platforms.
+creation-lab/vendor/** -text -whitespace
+creation-lab/registry/** -text -whitespace
+.agents/skills/blender-codex-recipes/** -text
+.agents/skills/blender-lpm-recipes/** -text
+*.toml text eol=lf
+*.csv text eol=lf
+
+# Frozen benchmark generators and their evidence retain original bytes.
+creation-lab/benchmarks/** -text -whitespace

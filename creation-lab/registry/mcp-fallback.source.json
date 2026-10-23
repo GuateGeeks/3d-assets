@@ -1,0 +1,59 @@
+{
+  "id": "mcp-fallback",
+  "repository": "https://github.com/ahujasid/mcp-for-blender",
+  "commit": "5a3618fccb2d982d0dd61e7a1879912c3100073b",
+  "rootLicensePaths": [
+    "LICENSE"
+  ],
+  "reviewType": "static-source-only",
+  "files": [
+    {
+      "upstreamPath": "LICENSE",
+      "url": "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/5a3618fccb2d982d0dd61e7a1879912c3100073b/LICENSE",
+      "gitBlob": "82e98f0ee1ef20d31f852ad43c91020cc51f82ea",
+      "sha256": "049501fd54d27852507853a5b88094ca1c6ff97404418a5032f3310eecc9cde6",
+      "bytes": 1071,
+      "file": "creation-lab/registry/audit-input/mcp-fallback/LICENSE"
+    },
+    {
+      "upstreamPath": "README.md",
+      "url": "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/5a3618fccb2d982d0dd61e7a1879912c3100073b/README.md",
+      "gitBlob": "3191d91c952a97336f3899ec1be8194992765cdd",
+      "sha256": "fc96f24d1a05d87e59f3c39b8631cdcfdca6464d92184e9c2e67015f482821eb",
+      "bytes": 36377,
+      "file": "creation-lab/registry/audit-input/mcp-fallback/README.md"
+    },
+    {
+      "upstreamPath": "addon.py",
+      "url": "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/5a3618fccb2d982d0dd61e7a1879912c3100073b/addon.py",
+      "gitBlob": "9ffe9d84a031b43151d9a18d86e6972d3f704946",
+      "sha256": "229ee114f0504b486bdd24bbc8b08fa9b22112f5e831ef8b2e9cc507e9ccbbfe",
+      "bytes": 287396,
+      "file": "creation-lab/registry/audit-input/mcp-fallback/addon.py"
+    },
+    {
+      "upstreamPath": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/5a3618fccb2d982d0dd61e7a1879912c3100073b/pyproject.toml",
+      "gitBlob": "b5b9b53ea2d19442e42e70c69f93d1a674032bf4",
+      "sha256": "04996707414123f2685b07700df9ee8f8b9c07f0a5cd69e070ad2b81ba3eafb1",
+      "bytes": 998,
+      "file": "creation-lab/registry/audit-input/mcp-fallback/pyproject.toml"
+    },
+    {
+      "upstreamPath": "src/blender_mcp/addon_manager.py",
+      "url": "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/5a3618fccb2d982d0dd61e7a1879912c3100073b/src/blender_mcp/addon_manager.py",
+      "gitBlob": "922ab96f7a383387430c610d58c6f5bd5416fb23",
+      "sha256": "4c6591b5c62ee4ca0217ca899749f9b80780eaaaf3cd7bb9c0965e037cbec693",
+      "bytes": 22113,
+      "file": "creation-lab/registry/audit-input/mcp-fallback/src/blender_mcp/addon_manager.py"
+    },
+    {
+      "upstreamPath": "src/blender_mcp/server.py",
+      "url": "https://raw.githubusercontent.com/ahujasid/mcp-for-blender/5a3618fccb2d982d0dd61e7a1879912c3100073b/src/blender_mcp/server.py",
+      "gitBlob": "fab8339bc65fa81ecb515422d5bfe08ea64daa83",
+      "sha256": "7a64d18a0ecf25e9de537c007bc28b9aa9ad07cc82f14640d5c41266af966c8a",
+      "bytes": 98500,
+      "file": "creation-lab/registry/audit-input/mcp-fallback/src/blender_mcp/server.py"
+    }
+  ]
+}

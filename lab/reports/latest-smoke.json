@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261022T211744Z-7452a5c2",
+  "command": "smoke",
+  "startedAt": "2026-10-22T21:17:44.433647+00:00",
+  "status": "success",
+  "engine": "unirig",
+  "profileSha256": "f1a86b92c26e03f3c151dc285d12e25861aeb3df5cc0c898c830c10c6fa52488",
+  "stages": [
+    {
+      "name": "prepare-smoke",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/prepare_smoke.py",
+        "--run-dir",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2",
+        "--voxel-backend",
+        "open3d"
+      ],
+      "startedAt": "2026-10-22T21:17:44.435425+00:00",
+      "log": "lab/.local/runs/20261022T211744Z-7452a5c2/prepare-smoke.log",
+      "sampledPeakMainChildRssBytes": 37474304,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1689,
+        "peakUsed": 1689,
+        "minimumFree": 6336,
+        "samples": 5,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 5.439
+    },
+    {
+      "name": "extract-skeleton",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "-m",
+        "src.data.extract",
+        "--config=configs/data/quick_inference.yaml",
+        "--require_suffix=glb,fbx",
+        "--faces_target_count=50000",
+        "--num_runs=1",
+        "--force_override=true",
+        "--id=0",
+        "--time=20261022T211744Z-7452a5c2",
+        "--input=input/model.glb",
+        "--output_dir=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/tmp"
+      ],
+      "startedAt": "2026-10-22T21:17:49.883732+00:00",
+      "log": "lab/.local/runs/20261022T211744Z-7452a5c2/extract-skeleton.log",
+      "sampledPeakMainChildRssBytes": 600190976,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1690,
+        "peakUsed": 1690,
+        "minimumFree": 6335,
+        "samples": 4,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 4.281
+    },
+    {
+      "name": "generate-skeleton",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/repos/UniRig/run.py",
+        "--task=configs/task/quick_inference_skeleton_articulationxl_ar_256.yaml",
+        "--seed=42",
+        "--input=input/model.glb",
+        "--output=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/output/model_skeleton.fbx",
+        "--npz_dir=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/tmp"
+      ],
+      "startedAt": "2026-10-22T21:17:54.165468+00:00",
+      "log": "lab/.local/runs/20261022T211744Z-7452a5c2/generate-skeleton.log",
+      "sampledPeakMainChildRssBytes": 4196696064,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1690,
+        "peakUsed": 7318,
+        "minimumFree": 707,
+        "samples": 32,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 33.854
+    },
+    {
+      "name": "validate-skeleton",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/inspect_fbx.py",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/output/model_skeleton.fbx",
+        "--output",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/skeleton-inspection.json"
+      ],
+      "startedAt": "2026-10-22T21:18:28.025370+00:00",
+      "log": "lab/.local/runs/20261022T211744Z-7452a5c2/validate-skeleton.log",
+      "sampledPeakMainChildRssBytes": 291573760,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1615,
+        "peakUsed": 1615,
+        "minimumFree": 6410,
+        "samples": 1,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 0.844
+    },
+    {
+      "name": "extract-skin",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "-m",
+        "src.data.extract",
+        "--config=configs/data/quick_inference.yaml",
+        "--require_suffix=glb,fbx",
+        "--faces_target_count=50000",
+        "--num_runs=1",
+        "--force_override=true",
+        "--id=0",
+        "--time=20261022T211744Z-7452a5c2",
+        "--input=input/reviewed.fbx",
+        "--output_dir=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/tmp-skin"
+      ],
+      "startedAt": "2026-10-22T21:18:28.872123+00:00",
+      "log": "lab/.local/runs/20261022T211744Z-7452a5c2/extract-skin.log",
+      "sampledPeakMainChildRssBytes": 598249472,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1615,
+        "peakUsed": 1615,
+        "minimumFree": 6410,
+        "samples": 4,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 4.294
+    },
+    {
+      "name": "generate-skin",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/repos/UniRig/run.py",
+        "--task=configs/task/quick_inference_unirig_skin.yaml",
+        "--seed=42",
+        "--input=input/reviewed.fbx",
+        "--output=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/output/model_skin.fbx",
+        "--npz_dir=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/tmp-skin",
+        "--data_name=raw_data.npz"
+      ],
+      "startedAt": "2026-10-22T21:18:33.166634+00:00",
+      "log": "lab/.local/runs/20261022T211744Z-7452a5c2/generate-skin.log",
+      "sampledPeakMainChildRssBytes": 7094681600,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1614,
+        "peakUsed": 7392,
+        "minimumFree": 633,
+        "samples": 41,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 45.927
+    },
+    {
+      "name": "validate-skin",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/inspect_fbx.py",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/output/model_skin.fbx",
+        "--require-weights",
+        "--output",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/skin-inspection.json"
+      ],
+      "startedAt": "2026-10-22T21:19:19.115482+00:00",
+      "log": "lab/.local/runs/20261022T211744Z-7452a5c2/validate-skin.log",
+      "sampledPeakMainChildRssBytes": 258670592,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1676,
+        "peakUsed": 1676,
+        "minimumFree": 6349,
+        "samples": 1,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 0.899
+    },
+    {
+      "name": "merge",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "-m",
+        "src.inference.merge",
+        "--require_suffix=glb,fbx",
+        "--num_runs=1",
+        "--id=0",
+        "--source=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/output/model_skin.fbx",
+        "--target=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/input/model.glb",
+        "--output=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/output/model_rigged.glb"
+      ],
+      "startedAt": "2026-10-22T21:19:20.014892+00:00",
+      "log": "lab/.local/runs/20261022T211744Z-7452a5c2/merge.log",
+      "sampledPeakMainChildRssBytes": 668000256,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1672,
+        "peakUsed": 1692,
+        "minimumFree": 6333,
+        "samples": 10,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 9.901
+    },
+    {
+      "name": "validate-glb",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/inspect_fbx.py",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/workspace/output/model_rigged.glb",
+        "--require-weights",
+        "--output",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T211744Z-7452a5c2/glb-inspection.json"
+      ],
+      "startedAt": "2026-10-22T21:19:29.921706+00:00",
+      "log": "lab/.local/runs/20261022T211744Z-7452a5c2/validate-glb.log",
+      "sampledPeakMainChildRssBytes": 298778624,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1692,
+        "peakUsed": 1692,
+        "minimumFree": 6333,
+        "samples": 1,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 0.839
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "lab/.local/runs/20261022T211744Z-7452a5c2/workspace/output/model_skeleton.fbx",
+      "bytes": 648492,
+      "sha256": "386ead67f6fbab7bba743fec9844f62b963a6347e665f79edc93df9e46134d67"
+    },
+    {
+      "file": "lab/.local/runs/20261022T211744Z-7452a5c2/skeleton-inspection.json",
+      "bytes": 271,
+      "sha256": "00dc6b02f4b85a3347dbb5abf82b3c5ed7149ba0352485c9eeddfbd2a5f6a2a8"
+    },
+    {
+      "file": "lab/.local/runs/20261022T211744Z-7452a5c2/workspace/output/model_skin.fbx",
+      "bytes": 764620,
+      "sha256": "f9764761f0157096d46123d3d47802eee98189e620a9ceb341c13f9c89a8e737"
+    },
+    {
+      "file": "lab/.local/runs/20261022T211744Z-7452a5c2/workspace/output/model_rigged.glb",
+      "bytes": 6682320,
+      "sha256": "dbf03ff3ed8d16451580185a8080b299e46af3c1ee5863949bea962d30ea9179"
+    },
+    {
+      "file": "lab/.local/runs/20261022T211744Z-7452a5c2/glb-inspection.json",
+      "bytes": 275,
+      "sha256": "6bc7da3803125220ca745581ff1b1013885efd7c8af9768decd4afd14524e781"
+    }
+  ],
+  "input": {
+    "file": "official:examples/giraffe.glb",
+    "sha256": "9a947cae00b169345802c08885c1e54313c6ce93c885bacf8e37e8a1f18f9e3b"
+  },
+  "seed": 42,
+  "voxelBackend": "open3d",
+  "skinningInput": {
+    "file": "official:examples/skeleton/giraffe.fbx",
+    "sha256": "73673a15c8103fbf9a6b39762768ae48e7c9404eab4850a60e4863ee400336fd"
+  },
+  "scope": "installation smoke: generated skeleton plus skinning of upstream-reviewed skeleton; no animation or visual approval",
+  "finishedAt": "2026-10-22T21:19:30.763169+00:00",
+  "seconds": 106.329
+}

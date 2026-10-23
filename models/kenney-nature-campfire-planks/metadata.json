@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-campfire-planks",
+  "assetId": "kenney:kenney-nature/campfire_planks",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "campfire · planks",
+  "titleOriginal": "campfire_planks",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "campfire_planks",
+    "kenney-nature",
+    "nature-campfire"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"campfire_planks\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-campfire-planks/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-campfire-planks/source.json",
+  "originalDownload": "models/kenney-nature-campfire-planks/originals.zip",
+  "bytes": 8148,
+  "sha256": "0d26e842f7f5cb607ad37205e930822656b7c6ba570f9d0ba6b039cea90f8ab7",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/campfire_planks.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-campfire-planks/original/campfire_planks.glb",
+        "sha256": "0d26e842f7f5cb607ad37205e930822656b7c6ba570f9d0ba6b039cea90f8ab7",
+        "bytes": 8148
+      }
+    ],
+    "originalDownloadSha256": "f63db1840cc822aba113791f4fd08013789a6ec1872f0938b65a4ab26d9f9050",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.3499999940395355,
+      0.3499999940395355,
+      0.03999999910593033
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "e7e45c9976fb28afaf3d7cfcbb0856b61bc95bed2b8e8491a35b78441bef3611",
+      "triangles": 108
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

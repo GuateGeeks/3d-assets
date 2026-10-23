@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "validator": "2.0.0-dev.3.10",
+  "recordedAt": "2026-10-22T22:05:33.464Z",
+  "status": "passed",
+  "files": 44,
+  "errors": 0,
+  "warnings": 2,
+  "results": [
+    {
+      "token": "8f4f1b9884a870fc4d113abd",
+      "file": "human/20261022T220402Z-eab41af6/control-rest.glb",
+      "sha256": "a1320e25a66c4aec13cc1230c658f82e16317ccb3f9f4612a9cd75e442da179f",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "4d43199bd839bcfafd49d446",
+      "file": "human/20261022T220402Z-eab41af6/control-rest-skeleton.glb",
+      "sha256": "5004d359aebf8f70c3112f4546b25802a604e7e6e4b17468ab75056c20118e0c",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "8ca50f38ab508b72379d326d",
+      "file": "human/20261022T220402Z-eab41af6/control-elbows.glb",
+      "sha256": "1c14ac32b1a6cac19961624144c8fb73b69c1f058271203dbc5685e71fc929d6",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "700bf7775b2e0c34492d389e",
+      "file": "human/20261022T220402Z-eab41af6/control-elbows-skeleton.glb",
+      "sha256": "a775ff4d978cdb73d94dcad8a8f55f5e341d50e96f66887a85fb7baa82f5ebf9",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "67fe03cbbb682e95428054b9",
+      "file": "human/20261022T220402Z-eab41af6/control-shoulders.glb",
+      "sha256": "e809e138f3c3c67ed8bec5e51b6af0f6eb4f3d705de65d314caea417b433f676",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "8706bd47f5650d180e05195d",
+      "file": "human/20261022T220402Z-eab41af6/control-shoulders-skeleton.glb",
+      "sha256": "1e74a72668e6c3fde994cff28199014b283be514b886086dcdf4c9e11179b188",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "6d9c6c8dc4f965502bb69268",
+      "file": "human/20261022T220402Z-eab41af6/control-knee.glb",
+      "sha256": "27013e0b7c0e21b5a22c11108bb4ce1e0505933e210296e84f44d66ac96b3462",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "8be4b0b7909c48da765b518c",
+      "file": "human/20261022T220402Z-eab41af6/control-knee-skeleton.glb",
+      "sha256": "6658347cd9f19c7212b15b54116afe81e9cfd58f1c1f4b79c41eaf5dfaa6b18a",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "4e2d472dc353abc458de324e",
+      "file": "human/20261022T220402Z-eab41af6/control-neck.glb",
+      "sha256": "e850cb256656b7b50d41e108f88fda10c949fbf89067c570128a610d78082644",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "3e099a2dd1366c9715525b8b",
+      "file": "human/20261022T220402Z-eab41af6/control-neck-skeleton.glb",
+      "sha256": "000d03f2b7237a94dda6676c18bbf05624ffe3efbb313917a667e48463f49dc2",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "8ef7a35e5740a00c0fb51c9f",
+      "file": "human/20261022T220402Z-eab41af6/candidate-rest.glb",
+      "sha256": "36de73d50a84af89034a81b05c6ca73a7f246d2b5943cecb03c7c3276e45a337",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "a5e2c41cf2aaba3269c3779d",
+      "file": "human/20261022T220402Z-eab41af6/candidate-rest-skeleton.glb",
+      "sha256": "b59eff1bf19c370746b614c2dd07e73742aec3352b69188afda0b43ec9ccadb8",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "3c576dde664ff144aa7ccdf8",
+      "file": "human/20261022T220402Z-eab41af6/candidate-elbows.glb",
+      "sha256": "50aa496edf0db980d415f8122cdaeae6160d48293d7ec3d84d5828f1d8e8e7fa",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "5b6f08dfcc251b9a41f397f6",
+      "file": "human/20261022T220402Z-eab41af6/candidate-elbows-skeleton.glb",
+      "sha256": "9f0178ab79c4743233cb95082a9d10560894317537d47d65d2f5c50366e89431",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "6bfea8460fcfeaf838082bfc",
+      "file": "human/20261022T220402Z-eab41af6/candidate-shoulders.glb",
+      "sha256": "75c295599bf1f4a3f0a84aa2477c0d7cad7b443f18cb86e8e7d84e1ff1d6dbb9",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "7ffc99c5abb8f92468173283",
+      "file": "human/20261022T220402Z-eab41af6/candidate-shoulders-skeleton.glb",
+      "sha256": "74fb1cf608d5f77aac67171ea699903ff39739028103dd8e6cc2cc5b376c6ab1",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "e10cbcbc44a16329af339545",
+      "file": "human/20261022T220402Z-eab41af6/candidate-knee.glb",
+      "sha256": "b2052ca9ca61a3f12372a109ed45c0784d2edc009394e3831e6095a0ef177c8b",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "1f49731c52b7bcb8803437ff",
+      "file": "human/20261022T220402Z-eab41af6/candidate-knee-skeleton.glb",
+      "sha256": "6b965f074509a90b496034e8d45c3d17db49b0fbc8b3c4f3b7c11123a6f0ed25",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "b6a63bfedae0864f4e9ae997",
+      "file": "human/20261022T220402Z-eab41af6/candidate-neck.glb",
+      "sha256": "c79db67853c6dd610cebf2ffdfd3572c1473426085b60f4221cb51501d4c8d85",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "652261b9a076998227330498",
+      "file": "human/20261022T220402Z-eab41af6/candidate-neck-skeleton.glb",
+      "sha256": "5c104342da35092c15634f9e76a7bbfaf0ec667d324cbc4914755353b915e97d",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "64bb953373e59d5a836cc3a1",
+      "file": "human/20261022T220402Z-eab41af6/candidate.glb",
+      "sha256": "274dccc29f65bca7583b4d337a3992929e3964c821cb1725f949dbb146e640bd",
+      "errors": 0,
+      "warnings": 1,
+      "messages": [
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/29"
+        }
+      ]
+    },
+    {
+      "token": "3c0a07a6b2ecda973f63245f",
+      "file": "human/20261022T220402Z-eab41af6/prepared.glb",
+      "sha256": "c8682e00114bf66ea46a21d570b5233096c8978d65dce7ce483d8de718a57220",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "b664b3195e243c82c4531651",
+      "file": "quadruped/20261022T220402Z-eab41af6/control-rest.glb",
+      "sha256": "2a243213f722aa8d4f21aad0c81ec6d55cb04698f82d0ae7638ba2d2dc0bcd39",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "5beac0ce771c3e4f6b83e5aa",
+      "file": "quadruped/20261022T220402Z-eab41af6/control-rest-skeleton.glb",
+      "sha256": "140c22bc0dc31f22885bce39a23ae01e1ae5fb27ea04a631decc37e39a8cef6f",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "033dc4915de5ef360b6d5308",
+      "file": "quadruped/20261022T220402Z-eab41af6/control-front.glb",
+      "sha256": "ce49f10505f25aa4503f4c5f8e77d33797db67ab2eff87638ad47a8dc821badf",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "327b26615c19ca38aa487e0f",
+      "file": "quadruped/20261022T220402Z-eab41af6/control-front-skeleton.glb",
+      "sha256": "0458626300ddc596116fe55a130c2196009d3d7632f4e21fa645df682693bbb0",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "6d648de4f897e5f42b457f13",
+      "file": "quadruped/20261022T220402Z-eab41af6/control-hind.glb",
+      "sha256": "fa535d77f1aca84aa4b9b00c161f37d027d2414d23afaa97804913294f5596d9",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "3988ab0739b7d2632232576e",
+      "file": "quadruped/20261022T220402Z-eab41af6/control-hind-skeleton.glb",
+      "sha256": "b9cca1b99741e5124bf4ac926bba2c3aa9974aba5508705bafb1e5104ae45463",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "2bd339f0f306ae55f20ff083",
+      "file": "quadruped/20261022T220402Z-eab41af6/control-neck.glb",
+      "sha256": "62bee6d71b9f96428e59271814cbd32652a0639dcd7896812c159853a37cc5df",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "d269dca226515991f4628f20",
+      "file": "quadruped/20261022T220402Z-eab41af6/control-neck-skeleton.glb",
+      "sha256": "d83f8e9e42f10c7f426560b25c537d020c106b2a056cabcadd5f6c2ce64b8801",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "f9753e05c8d886c2cd20a61d",
+      "file": "quadruped/20261022T220402Z-eab41af6/control-tail.glb",
+      "sha256": "581c7d3ff9f1d373fb8fc5085f769e55d789c74267bb622a265e6f465c01bd7e",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "8dcfe81d63128f1beb870ca1",
+      "file": "quadruped/20261022T220402Z-eab41af6/control-tail-skeleton.glb",
+      "sha256": "905569874210d667da3db16f1f776aa702923e68c88207b1f0b00799a9c7b42f",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "9283969ffca4fa85c01cd948",
+      "file": "quadruped/20261022T220402Z-eab41af6/candidate-rest.glb",
+      "sha256": "ef739f70bd99e1a79651327abae1f9187fea2c4a76c1a25bd685b5c1a0b0be8c",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "c022fd7a62ae49a2598d3eb5",
+      "file": "quadruped/20261022T220402Z-eab41af6/candidate-rest-skeleton.glb",
+      "sha256": "9b5065091e45ce77dc2bcd72c237ea9501dbb3da6e47e380b44d9f7e6d293f28",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "8698b8544f353828e9d94023",
+      "file": "quadruped/20261022T220402Z-eab41af6/candidate-front.glb",
+      "sha256": "6e43d883fb4d62a41f4264ac75fadf35c4b6c90a1735329a5de551b7340bb78f",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "bcc0bf3dc82d12e027d4760b",
+      "file": "quadruped/20261022T220402Z-eab41af6/candidate-front-skeleton.glb",
+      "sha256": "7776b7cb29a593a202b87ac13a0d8b407838c2bf83188551849faa9a14cb54ec",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "96782d8e4303e1aa16cc439e",
+      "file": "quadruped/20261022T220402Z-eab41af6/candidate-hind.glb",
+      "sha256": "51adc633f0d997f3f49ea57a82989d20959f0240d3de05a4e5365426bdf540e3",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "6e93fd4c20d1efb32da8ae48",
+      "file": "quadruped/20261022T220402Z-eab41af6/candidate-hind-skeleton.glb",
+      "sha256": "722acccb60a2b1e16508b7cedcbb87feb75b5ddf901e265f998901b4c1a31802",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "1350fc29bc3c67b494c03c0a",
+      "file": "quadruped/20261022T220402Z-eab41af6/candidate-neck.glb",
+      "sha256": "05531513847c395e088f971f61c21dc87789d4568f465a0015c17f4dbc736345",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "7656144c4e3a8c2f11e133f1",
+      "file": "quadruped/20261022T220402Z-eab41af6/candidate-neck-skeleton.glb",
+      "sha256": "7056aa3785b4628f1f3613d410d173ecc31999ca97b7bc3d16dd6c35ec18379f",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "e8de2bb750ba12f82de5ae1c",
+      "file": "quadruped/20261022T220402Z-eab41af6/candidate-tail.glb",
+      "sha256": "dc2ecc8a0a385d70680971c5e156c96d53428e05eeaaf24d9aa75e19be0e7d37",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "21153a95c739f5077ea8c5fe",
+      "file": "quadruped/20261022T220402Z-eab41af6/candidate-tail-skeleton.glb",
+      "sha256": "6087b46be77f8fca20f205def22f6123817e2c16c0b132da6ee8cf42baa13a12",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    },
+    {
+      "token": "ed51477539abfc826039707c",
+      "file": "quadruped/20261022T220402Z-eab41af6/candidate.glb",
+      "sha256": "2de490c63cb86ea14d33b0c0eed7c235ecfa670d4e6c3cd6483f3ba53a07b20a",
+      "errors": 0,
+      "warnings": 1,
+      "messages": [
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/38"
+        }
+      ]
+    },
+    {
+      "token": "16d21e5e2ad13f73132fe949",
+      "file": "quadruped/20261022T220402Z-eab41af6/prepared.glb",
+      "sha256": "3cf4234366a6c32321ffcde388173dbeeeb54fe18a764b77fc38c9df0b358f8a",
+      "errors": 0,
+      "warnings": 0,
+      "messages": []
+    }
+  ]
+}

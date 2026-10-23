@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "assets": {
+    "human": {
+      "candidateSha256": "274dccc29f65bca7583b4d337a3992929e3964c821cb1725f949dbb146e640bd",
+      "cameraOrbit": "25deg 80deg 4.4m",
+      "cameraTarget": "0m 0.94m 0m",
+      "poses": [
+        {
+          "id": "rest",
+          "label": "Reposo",
+          "description": "Comprueba silueta, simetría y posición de los pivotes antes de flexionar.",
+          "control": [],
+          "candidate": []
+        },
+        {
+          "id": "elbows",
+          "label": "Codos · 60°",
+          "description": "Flexión bilateral de codos: busca pinzamiento y arrastre del torso.",
+          "control": [
+            [
+              "LowerArm.L",
+              "Z",
+              -60
+            ],
+            [
+              "LowerArm.R",
+              "Z",
+              60
+            ]
+          ],
+          "candidate": [
+            [
+              "bone_9",
+              "Z",
+              -60
+            ],
+            [
+              "bone_17",
+              "Z",
+              60
+            ]
+          ]
+        },
+        {
+          "id": "shoulders",
+          "label": "Hombros · 35°",
+          "description": "Descenso de brazos desde la T: revisa axilas, hombros y simetría.",
+          "control": [
+            [
+              "UpperArm.L",
+              "Y",
+              35
+            ],
+            [
+              "UpperArm.R",
+              "Y",
+              -35
+            ]
+          ],
+          "candidate": [
+            [
+              "bone_8",
+              "Y",
+              35
+            ],
+            [
+              "bone_16",
+              "Y",
+              -35
+            ]
+          ]
+        },
+        {
+          "id": "knee",
+          "label": "Rodilla izquierda · 45°",
+          "description": "Flexiona solo la rodilla izquierda: revisa pérdida de volumen y movimiento de la pierna vecina.",
+          "control": [
+            [
+              "LowerLeg.L",
+              "X",
+              45
+            ],
+            [
+              "Foot.L",
+              "X",
+              45,
+              "LowerLeg.L"
+            ]
+          ],
+          "candidate": [
+            [
+              "bone_24",
+              "X",
+              45
+            ]
+          ]
+        },
+        {
+          "id": "neck",
+          "label": "Cuello · 20°",
+          "description": "Inclinación de cabeza: examina cuello, mandíbula y arrastre del pecho.",
+          "control": [
+            [
+              "Neck",
+              "X",
+              20
+            ]
+          ],
+          "candidate": [
+            [
+              "bone_5",
+              "X",
+              20
+            ]
+          ]
+        }
+      ]
+    },
+    "quadruped": {
+      "candidateSha256": "2de490c63cb86ea14d33b0c0eed7c235ecfa670d4e6c3cd6483f3ba53a07b20a",
+      "cameraOrbit": "65deg 75deg 3.6m",
+      "cameraTarget": "0m 0.5m 0m",
+      "poses": [
+        {
+          "id": "rest",
+          "label": "Reposo",
+          "description": "Revisa las cuatro patas, la línea dorsal y la separación de cuello y cola.",
+          "control": [],
+          "candidate": []
+        },
+        {
+          "id": "front",
+          "label": "Codos delanteros · 40°",
+          "description": "Flexión de ambas patas delanteras: revisa codos, pecho y separación entre patas.",
+          "control": [
+            [
+              "FrontLowerLeg.L",
+              "X",
+              40
+            ],
+            [
+              "FrontLowerLeg.R",
+              "X",
+              40
+            ],
+            [
+              "IKFrontLeg.L",
+              "X",
+              40,
+              "FrontLowerLeg.L"
+            ],
+            [
+              "IKFrontLeg.R",
+              "X",
+              40,
+              "FrontLowerLeg.R"
+            ]
+          ],
+          "candidate": [
+            [
+              "bone_17",
+              "X",
+              40
+            ],
+            [
+              "bone_22",
+              "X",
+              40
+            ]
+          ]
+        },
+        {
+          "id": "hind",
+          "label": "Rodilla trasera izquierda · 35°",
+          "description": "Flexiona la rodilla trasera izquierda: busca arrastre de cadera y de la pata derecha.",
+          "control": [
+            [
+              "BackUpperLeg.L",
+              "X",
+              35
+            ],
+            [
+              "IKBackLeg.L",
+              "X",
+              35,
+              "BackUpperLeg.L"
+            ]
+          ],
+          "candidate": [
+            [
+              "bone_26",
+              "X",
+              35
+            ]
+          ]
+        },
+        {
+          "id": "neck",
+          "label": "Cuello · 20°",
+          "description": "Inclinación de cuello: revisa unión con el torso, mandíbula y orejas.",
+          "control": [
+            [
+              "Neck2",
+              "X",
+              20
+            ]
+          ],
+          "candidate": [
+            [
+              "bone_5",
+              "X",
+              20
+            ]
+          ]
+        },
+        {
+          "id": "tail",
+          "label": "Cola · 25°",
+          "description": "Giro lateral de cola: comprueba la raíz y el arrastre del lomo.",
+          "control": [
+            [
+              "Tail1",
+              "Z",
+              25
+            ]
+          ],
+          "candidate": [
+            [
+              "bone_33",
+              "Z",
+              25
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "rotationConvention": "Each entry: bone, global axis, degrees, optional pivot bone. Independent foot controls follow the knee/elbow pivot; no inverse-kinematics solver or animation clip is involved."
+}

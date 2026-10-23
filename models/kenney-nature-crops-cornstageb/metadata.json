@@ -1,0 +1,131 @@
+{
+  "id": "kenney-nature-crops-cornstageb",
+  "assetId": "kenney:nature/crops_cornStageB",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "Maíz · etapa B",
+  "titleOriginal": "crops_cornStageB",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Recurso estilizado de Nature Kit 2.1. Escala y precisión educativa por revisar para cada actividad.",
+  "category": "Agriculture",
+  "tags": [
+    "maíz",
+    "corn",
+    "growth",
+    "crecimiento",
+    "etapa B"
+  ],
+  "areas": [
+    "alimentos-agricultura",
+    "bosques-plantas"
+  ],
+  "queries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Maíz · etapa B\" (crops_cornStageB), por Kenney, https://kenney.nl/assets/nature-kit. CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-crops-cornstageb/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-crops-cornstageb/source.json",
+  "originalDownload": "models/kenney-nature-crops-cornstageb/originals.zip",
+  "bytes": 9780,
+  "sha256": "509cec80fa70356fd65cac01eaf227bc775261ed6f3af426c64eea9b20e7d05c",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Recurso visual revisado; asignación curricular y exactitud científica o mecánica requieren revisión docente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Nature Kit 2.1",
+    "sourceMember": "Models/GLTF format/crops_cornStageB.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-crops-cornstageb/original/crops_cornStageB.glb",
+        "sha256": "509cec80fa70356fd65cac01eaf227bc775261ed6f3af426c64eea9b20e7d05c",
+        "bytes": 9780
+      }
+    ],
+    "originalDownloadSha256": "c43df84255457b3cb26db19bb68481db745417118857b4ab4543d60b3a0a88ef",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "sources/external/kenney-nature/License.txt",
+    "conversionTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.30420199036598206,
+      0.30420199036598206,
+      1.0
+    ],
+    "reimportDimensionsBlender": [
+      0.30420199036598206,
+      0.30420199036598206,
+      1.0
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "3a4fdcc85d8b90107e0af9cc60fcfdb37c9d41b98b2441cc0f6cd45edf6bfc24",
+      "triangles": 116
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewImages": [
+      {
+        "file": "sources/external/review/kenney-comparison.png",
+        "sha256": "1ec71e69d1709aa09ba57a5c56f53ae2b5d1f437544fd27f456bfdda44900391"
+      },
+      {
+        "file": "sources/external/review/oga-comparison.png",
+        "sha256": "4bf0f1c52154ff3215f193a63593f34c2a7f6e1bf5d2aa01002a90469f37dfd6"
+      },
+      {
+        "file": "sources/external/review/kenney-all-views.png",
+        "sha256": "9b82bb513563b848f22a7afc8177ed5bd712c1ee5a2080710cdd95a99d5b2e48"
+      },
+      {
+        "file": "sources/external/review/oga-all-views.png",
+        "sha256": "d9fc5c5037a0f629afb710dfa9c728f2befe14fa72e0d41dcf160354c19acbdc"
+      }
+    ]
+  }
+}

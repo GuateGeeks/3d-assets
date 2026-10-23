@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "repository": "VAST-AI/UniRig",
+  "revision": "36842e2b5947e9e60f89275b83208c8e74071c63",
+  "status": "passed",
+  "files": [
+    {
+      "file": "skeleton/articulation-xl_quantization_256/model.ckpt",
+      "bytes": 1439617174,
+      "sha256": "d8cf9b42d56e7bc316d293597ecf8c4c39a8631cdd44a261ecf388242fabd0f4",
+      "expectedSha256": "d8cf9b42d56e7bc316d293597ecf8c4c39a8631cdd44a261ecf388242fabd0f4",
+      "cachePath": "cache/huggingface/hub/models--VAST-AI--UniRig/snapshots/36842e2b5947e9e60f89275b83208c8e74071c63/skeleton/articulation-xl_quantization_256/model.ckpt"
+    },
+    {
+      "file": "skin/articulation-xl/model.ckpt",
+      "bytes": 4375464854,
+      "sha256": "9d40cf42fb9d4c10d8b373d9f4f557c6fbbc5ebacae7ae6b3dce5a0d8a18bc33",
+      "expectedSha256": "9d40cf42fb9d4c10d8b373d9f4f557c6fbbc5ebacae7ae6b3dce5a0d8a18bc33",
+      "cachePath": "cache/huggingface/hub/models--VAST-AI--UniRig/snapshots/36842e2b5947e9e60f89275b83208c8e74071c63/skin/articulation-xl/model.ckpt"
+    }
+  ],
+  "optConfigRevision": "08ab08cc4b72ff5593870b5d527cf4230323703c",
+  "optConfigSha256": "3ec75df0e166476e342cf95226ba775d8155449a7b1e430728b3ca26b425e4ab"
+}

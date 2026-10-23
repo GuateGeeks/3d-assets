@@ -1,0 +1,149 @@
+{
+  "scope": "Static creation handoff through UniRig with scale, appearance and provenance restored; deformation review pending",
+  "restoreChecks": 9,
+  "seconds": 342.604,
+  "restoredCandidate": {
+    "file": "lab/.local/runs/20261022T222206Z-91fd94f9/restored/restored.glb",
+    "bytes": 19928,
+    "sha256": "c37ab87e5b7713b69fda9cd66d08a9cf8da8d9bf177733ad9f29d72347c51444",
+    "units": "m",
+    "normalization": {
+      "matrix": [
+        [
+          6.666666507720947,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.666666507720947,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          6.666666507720947,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "inverse": [
+        [
+          0.15000000596046448,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.15000000596046448,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.15000000596046448,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "scale": 6.666666401757145,
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": "identity",
+      "targetLongestDimensionM": 2.0
+    },
+    "provenance": {
+      "author": "GuateGeeks",
+      "origin": "original",
+      "license": "CC0-1.0",
+      "method": "Procedural original three-block canary; no external model, image, or texture"
+    },
+    "visual": "NOT_RUN"
+  },
+  "dimensionsM": [
+    0.18000002950429916,
+    0.1900000348687172,
+    0.3000000419909887
+  ],
+  "rigRun": "20261022T222206Z-91fd94f9",
+  "gltf": {
+    "standardSkinCoordinates": "PASS",
+    "warning": "NODE_SKINNED_MESH_NON_ROOT",
+    "warnings": 1,
+    "errors": 0
+  },
+  "deformationReview": "NOT_RUN",
+  "independentReview": {
+    "status": "PASS",
+    "openP1P2": 0
+  },
+  "observedOn": "2026-10-22",
+  "status": "PASS",
+  "tests": {
+    "independentAdversarial": {
+      "status": "PASS",
+      "resealedMetadataRejected": 4
+    },
+    "laboratory": {
+      "status": "PASS",
+      "command": "python3 -m unittest discover -s lab/tests -v",
+      "total": 26,
+      "blenderCpu": 5
+    },
+    "creation": {
+      "status": "PASS",
+      "command": "python3 -m unittest discover -s creation-lab/tests -v",
+      "skippedOptIn": 2,
+      "passed": 10
+    }
+  },
+  "ingestRun": "20261022T222159Z-31c05d61",
+  "schemaVersion": 1,
+  "weights": {
+    "status": "passed",
+    "vertices": 288,
+    "weightedVertices": 288,
+    "armatures": 1,
+    "failures": []
+  },
+  "preservedFiles": 20,
+  "visualRest": "PASS",
+  "evidence": {
+    "creation-lab/.local/adapter-validation-20261022/fresh-clean-inspection.json": "f6c7dbc5444a1e2a100cea807126558b682a004fa5743e8a09e3be9fe1d9875c",
+    "creation-lab/.local/adapter-validation-20261022/preserved-final.json": "49b458dfa1a21500aa1aeb9ca2d0e4e276a78478595fffc7515cd6341b444b62",
+    "creation-lab/.local/adapter-validation-20261022/verify_standard_skin.py": "85480b21b502450a1e66eaaa82c1d149ad17184dd7b83a124c01f2f0e593c10b",
+    "creation-lab/.local/adapter-validation-20261022/renders-clean/source.png": "456508834dbf7d798bffd23b4cd459a85f112f04140d7e06a9ec27f1a129fc50",
+    "creation-lab/.local/adapter-validation-20261022/renders-clean/report.json": "9873bf24bf284217f438c9ad7d7862cbe577396ed42c305e4aa890d939d9f442",
+    "creation-lab/.local/adapter-validation-20261022/visual-review.json": "790c3ad726371787f60ce1e4bc8233d30bfd14aeb2ce483258deed2e871fda3b",
+    "creation-lab/.local/adapter-validation-20261022/renders-clean/restored.png": "21f838798c69f5a54a792678860021b6dda7d0b98fc28d0b16afd94d3ffa9642",
+    "creation-lab/.local/adapter-validation-20261022/standard-skin-check.json": "0ecffc1d9996130b1a5c400024501d1d2cb31dc6f960c4edc9e9d730826affc1",
+    "creation-lab/.local/adapter-validation-20261022/gltf-validation.json": "9b53ede8727332b1eb52949020c5034ea25d83cca37ed61a9916f5784af46cc1"
+  },
+  "rigReportSha256": "b3d7bed2f3438830d760d32547edb6bd4f6e70d06dd19510cdc801cf200c0762",
+  "catalogRegression": {
+    "status": "PASS",
+    "models": 342,
+    "command": "python3 tools/check_site.py",
+    "integrity": "passed",
+    "credentialScan": "passed",
+    "siteChecked": true,
+    "paths": "passed"
+  }
+}

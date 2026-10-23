@@ -1,0 +1,111 @@
+{
+  "id": "kenney-nature-ground-rivertile",
+  "assetId": "kenney:kenney-nature/ground_riverTile",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "ground · river Tile",
+  "titleOriginal": "ground_riverTile",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "ground_riverTile",
+    "kenney-nature",
+    "nature-ground-river"
+  ],
+  "areas": [
+    "agua-oceanos",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"ground_riverTile\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-ground-rivertile/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-ground-rivertile/source.json",
+  "originalDownload": "models/kenney-nature-ground-rivertile/originals.zip",
+  "bytes": 9120,
+  "sha256": "371ea7754e2869a9d1ae57261ef52aebf54ae8bd49f9b9f05dd006bfba6a758c",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 4,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/ground_riverTile.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-ground-rivertile/original/ground_riverTile.glb",
+        "sha256": "371ea7754e2869a9d1ae57261ef52aebf54ae8bd49f9b9f05dd006bfba6a758c",
+        "bytes": 9120
+      }
+    ],
+    "originalDownloadSha256": "999a6d9ad092d4ff9351d6ef162983b4b00859535dcd39470af7c488e37a706f",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      1.0,
+      0.05000000074505806
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "0c4ad38f54729d3ff2a4513aedae26d27b0989fe4b33cb32ef16a82a9c9d2c9d",
+      "triangles": 128
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

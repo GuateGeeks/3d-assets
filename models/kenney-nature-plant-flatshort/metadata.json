@@ -1,0 +1,110 @@
+{
+  "id": "kenney-nature-plant-flatshort",
+  "assetId": "kenney:kenney-nature/plant_flatShort",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "plant · flat Short",
+  "titleOriginal": "plant_flatShort",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "plant_flatShort",
+    "kenney-nature",
+    "nature-plant"
+  ],
+  "areas": [
+    "bosques-plantas",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"plant_flatShort\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-plant-flatshort/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-plant-flatshort/source.json",
+  "originalDownload": "models/kenney-nature-plant-flatshort/originals.zip",
+  "bytes": 3936,
+  "sha256": "5885f6bb6ce004eb7ccc887fd30b7671492a94be76ffeb1e64c07c47d6b7bae1",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/plant_flatShort.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-plant-flatshort/original/plant_flatShort.glb",
+        "sha256": "5885f6bb6ce004eb7ccc887fd30b7671492a94be76ffeb1e64c07c47d6b7bae1",
+        "bytes": 3936
+      }
+    ],
+    "originalDownloadSha256": "f63125f1b21b33556148cfe042a7711a03479b436b9cd5ab9a48e93d88dfe7ed",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.277619868516922,
+      0.277619868516922,
+      0.23507939279079437
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "49e3f68478be82fc20026fea9d25c40d173969dbcd6be8e81e6d5898954525d7",
+      "triangles": 44
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "kenney-nature-fence-gate",
+  "assetId": "kenney:kenney-nature/fence_gate",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "fence · gate",
+  "titleOriginal": "fence_gate",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "fence_gate",
+    "kenney-nature",
+    "nature-fence"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"fence_gate\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-fence-gate/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-fence-gate/source.json",
+  "originalDownload": "models/kenney-nature-fence-gate/originals.zip",
+  "bytes": 27652,
+  "sha256": "34d10d5620179b8a211a01eea837caa828c0782422f0b408e1a5838788888436",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 3,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/fence_gate.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-fence-gate/original/fence_gate.glb",
+        "sha256": "34d10d5620179b8a211a01eea837caa828c0782422f0b408e1a5838788888436",
+        "bytes": 27652
+      }
+    ],
+    "originalDownloadSha256": "0e6f6c3030da6103567381fe9449d4a47ef2b628dd4114df31576882fb477e51",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      0.06999999284744263,
+      0.34502729773521423
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "c3ffbdbc33b6ef9b90006d2637c175cfd6c283c892d4abc7fd105956fc453bef",
+      "triangles": 524
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

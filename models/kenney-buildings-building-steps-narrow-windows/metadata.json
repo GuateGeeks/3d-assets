@@ -1,0 +1,117 @@
+{
+  "id": "kenney-buildings-building-steps-narrow-windows",
+  "assetId": "kenney:kenney-buildings/building-steps-narrow-windows",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "building steps narrow windows",
+  "titleOriginal": "building-steps-narrow-windows",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Modular Buildings. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Architecture",
+  "tags": [
+    "building-steps-narrow-windows",
+    "kenney-buildings",
+    "architecture-building-steps"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"building-steps-narrow-windows\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-buildings-building-steps-narrow-windows/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-building-steps-narrow-windows/source.json",
+  "originalDownload": "models/kenney-buildings-building-steps-narrow-windows/originals.zip",
+  "bytes": 17912,
+  "sha256": "099c2451ce1405784717b81ec6310e13a9801c45d3653513d676cb3b09fb9158",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Modular Buildings",
+    "sourceMember": "Models/GLB format/building-steps-narrow-windows.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-building-steps-narrow-windows/original/building-steps-narrow-windows.glb",
+        "sha256": "bdacc1186ddc8a60e87a5973dcfe220ae2e9ab26b4e7f1a9909784f8c8706898",
+        "bytes": 10324
+      },
+      {
+        "file": "models/kenney-buildings-building-steps-narrow-windows/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "7ea5ca1d0aa61826cb29eeb8db87ed7545f8bcb8443274c764dc9aa4ff48d2c1",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "kits/kenney-buildings/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      1.2000000476837158,
+      0.8374999761581421
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "d9143e923ae06dee13e88ffdf337ae02da3cb438d0a8fa7fb8d57ab2bec66720",
+      "triangles": 106
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

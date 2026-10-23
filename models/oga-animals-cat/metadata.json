@@ -1,0 +1,113 @@
+{
+  "id": "oga-animals-cat",
+  "assetId": "opengameart:oga-animals/Cat",
+  "providerId": "opengameart",
+  "provider": "OpenGameArt",
+  "title": "Cat",
+  "titleOriginal": "Cat",
+  "author": "Quaternius",
+  "authorUrl": "https://opengameart.org/users/quaternius",
+  "sourceUrl": "https://opengameart.org/content/animated-animales-low-poly",
+  "metadataUrl": null,
+  "downloadUrl": "https://opengameart.org/sites/default/files/Animal%20Pack%20Vol.2%20by%20%40Quaternius.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Animated Animales Low Poly. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Characters",
+  "tags": [
+    "Cat",
+    "oga-animals",
+    "character-cat"
+  ],
+  "areas": [
+    "animales-biodiversidad",
+    "personajes-animacion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Cat\" de Animated Animales Low Poly, por Quaternius. https://opengameart.org/content/animated-animales-low-poly. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Blender 5.2.3 LTS: BLEND convertido a GLB; materiales antiguos convertidos a PBR conservando el color difuso; restricciones de rig horneadas a curvas cuando el exportador lo requiere; dimensiones de reposo comprobadas; originales conservados.",
+  "file": "models/oga-animals-cat/model.glb",
+  "sourceMetadataFile": "models/oga-animals-cat/source.json",
+  "originalDownload": "models/oga-animals-cat/originals.zip",
+  "bytes": 174248,
+  "sha256": "cb22e740bc074461a44dc9dee81afae01e90a504e427393c4a7a07757ef10561",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 26,
+    "materials": 3,
+    "skins": 1,
+    "joints": 24,
+    "rigged": true,
+    "animated": true,
+    "animations": 2,
+    "animationNames": [
+      "Idle",
+      "Walking"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:55:07.015562+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "provenance": {
+    "pack": "Animated Animales Low Poly",
+    "sourceMember": "Animal Pack Vol.2 by @Quaternius/Blends/Cat.blend",
+    "originalFiles": [
+      {
+        "file": "models/oga-animals-cat/original/Cat.blend",
+        "sha256": "e9836027dc8591fd2da03e6d8d6575972bc5c7aebaa17a0762b82f7bc37264de",
+        "bytes": 813748
+      }
+    ],
+    "originalDownloadSha256": "5ddadea7c17c9c3e34c3986f6d8144907b9e52393eb41ab5e3ea4429bb7c3510",
+    "archiveSha256": "6d8f6789d65dbdb352ebad98a4209f26b41b384e87d81bc05e9ca76139db1248",
+    "licenseEvidence": "kits/oga-animals/LICENSE.txt",
+    "conversionTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      5.675111293792725,
+      1.4242748022079468,
+      4.429990768432617
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "8d3b5c7496fcb8d651c4fffc833b9ca00b8a471368b25185bc3b752ff616724e",
+      "triangles": 807
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

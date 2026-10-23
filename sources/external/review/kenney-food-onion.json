@@ -1,0 +1,39 @@
+{
+  "dimensionsBlender": [
+    0.2130422443151474,
+    0.2460000067949295,
+    0.25
+  ],
+  "meshObjects": 1,
+  "polygons": 68,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "fffc1da48e9dceaa6a3527d913d75f8e5169e75f27c944e4977be4959c247f39",
+  "sourceFile": "Models/GLB format/onion.glb",
+  "id": "kenney-food-onion",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      0.2130422443151474,
+      0.2460000067949295,
+      0.25
+    ],
+    "meshObjects": 1,
+    "polygons": 68,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 2.5e-05,
+  "selfContained": true,
+  "glbSha256": "b1161c0a702aa60482e04724090ef788fdb7c36e003cab0d61a882a7d9d7c2fb",
+  "images": {
+    "source-back.png": "3371b38f3a4770c30c1503b689ccc9f647fc97769b0bb090e9db87f4faebf971",
+    "source-side.png": "e3993c4bb0f47d5779ed8fafac064e5fab3dd8b16222f0d93ff1b6ce8c3af89c",
+    "source-front.png": "33b40b78f8b4683d5c5aac224200d41d9af28fd79e6d94e25d79fea224025501",
+    "reimport-three-quarter.png": "d5d0aa1594f1c8c90f1eb82f626868538c38def60674f5450b07e5f402f508b5",
+    "source-three-quarter.png": "dd5292deb8eac8e9956f3be40405909a2651cfecb56f1347aef57a3ad41217fd",
+    "source-wireframe.png": "1265db4aedb75ac823fc5e473781bd9e08aba4e992fe1da7b7987890f5ef8736"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

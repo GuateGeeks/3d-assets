@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-22T23:37:16.1312504Z",
+  "url": "http://127.0.0.1:4393",
+  "browser": "Codex in-app browser",
+  "viewport": {
+    "width": 519,
+    "height": 859
+  },
+  "status": "PASS",
+  "checks": [
+    "D selected by default with highest score among technical, visual and biological PASS",
+    "D GLB visible in WebGL; loading indicator hidden after load",
+    "Selecting Mitocondrias reveals the Spanish ATP and cristae explanation and selected hotspot",
+    "Show labels checkbox toggles off and on",
+    "Dragging rotates the 3D model; reset restores the home view",
+    "Refreshing results on an already loaded model does not leave a permanent loading indicator",
+    "Final home camera shows the complete model in the narrow panel",
+    "No new console errors after the CSP wasm-unsafe-eval correction; older errors retained in browser log"
+  ],
+  "fixes": [
+    "Track active model URL independently of the reflected src attribute",
+    "Permit WebAssembly compilation for the local model-viewer bundle without JS unsafe-eval",
+    "Increase initial camera radius to 0.75m for complete framing"
+  ],
+  "screenshot": {
+    "path": "C:/Users/adawolfs/.codex/visualizations/2026/10/22/01a1658b-e931-7fc1-8238-a5fd080581f2/celula-animal-visor.png",
+    "sha256": "760ea510e24ffd43bb5ce00a24e9ea6b85f4ceca05d8d9ec7bd9749964274244"
+  },
+  "limitations": [
+    "Interactive browser checks performed on D in the 519px panel; all six downloads and labels checked separately over HTTP",
+    "No separate desktop-width or physical mobile-device browser session",
+    "Review scores describe rendered geometry; UI checks are recorded separately"
+  ]
+}

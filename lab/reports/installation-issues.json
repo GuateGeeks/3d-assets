@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "issues": [
+    {
+      "id": "bpy-wheel-cp311-tag",
+      "initialResult": "uv pip check rejected bpy==4.2.0: internal WHEEL declares cp39 in the official cp311 distribution",
+      "resolution": "Correct installed WHEEL and RECORD metadata atomically; keep upstream binary and cached archive unchanged",
+      "evidence": "bpy-wheel-metadata.json",
+      "status": "resolved"
+    },
+    {
+      "id": "upstream-giraffe-lfs",
+      "initialResult": "Blender glTF import failed because the checkout contains a Git LFS pointer instead of the example mesh",
+      "resolution": "Fetch the object for the pinned commit; compare SHA-256 and size with its LFS pointer; keep the checkout unchanged",
+      "evidence": "unirig-examples.json",
+      "status": "resolved"
+    },
+    {
+      "id": "relative-upstream-inputs",
+      "initialResult": "Absolute single-file input caused upstream to disregard the requested NPZ directory",
+      "resolution": "Use workspace-relative inputs and verify outputs inside the unique run workspace",
+      "status": "resolved"
+    },
+    {
+      "id": "wsl-egl-voxelization",
+      "initialResult": "pyrender eglInitialize failed on this WSL host",
+      "resolution": "Use the upstream-supported Open3D voxelizer; record the backend in each smoke profile",
+      "status": "resolved"
+    },
+    {
+      "id": "bpy-glb-finalization",
+      "initialResult": "GLB inspection completed but bpy interpreter finalization terminated with SIGSEGV",
+      "resolution": "Isolated read-only inspection worker closes data, writes and flushes its report, then exits with the actual validation status; negative rejection tested",
+      "status": "resolved"
+    }
+  ]
+}

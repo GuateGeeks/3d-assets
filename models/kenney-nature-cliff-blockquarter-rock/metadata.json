@@ -1,0 +1,111 @@
+{
+  "id": "kenney-nature-cliff-blockquarter-rock",
+  "assetId": "kenney:kenney-nature/cliff_blockQuarter_rock",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "cliff · block Quarter · rock",
+  "titleOriginal": "cliff_blockQuarter_rock",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "cliff_blockQuarter_rock",
+    "kenney-nature",
+    "nature-cliff"
+  ],
+  "areas": [
+    "tierra-geografia",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"cliff_blockQuarter_rock\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-cliff-blockquarter-rock/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-cliff-blockquarter-rock/source.json",
+  "originalDownload": "models/kenney-nature-cliff-blockquarter-rock/originals.zip",
+  "bytes": 2796,
+  "sha256": "748f3f4c8695e46567819f3ae73ba53bbc7db827254bc68f9fca27f01f481666",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/cliff_blockQuarter_rock.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-cliff-blockquarter-rock/original/cliff_blockQuarter_rock.glb",
+        "sha256": "748f3f4c8695e46567819f3ae73ba53bbc7db827254bc68f9fca27f01f481666",
+        "bytes": 2796
+      }
+    ],
+    "originalDownloadSha256": "5f5062c4e9c250d26e777c8fd0662678da8f8563de1b60a39ef74d509a5f7e1c",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      1.0,
+      0.25
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "7b9de8549b79f874f015ce7c2fe5abec3dc5d32284aada353893fcf4124b93d6",
+      "triangles": 12
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

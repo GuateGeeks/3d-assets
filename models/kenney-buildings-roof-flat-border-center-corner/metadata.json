@@ -1,0 +1,117 @@
+{
+  "id": "kenney-buildings-roof-flat-border-center-corner",
+  "assetId": "kenney:kenney-buildings/roof-flat-border-center-corner",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "roof flat border center corner",
+  "titleOriginal": "roof-flat-border-center-corner",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Modular Buildings. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Architecture",
+  "tags": [
+    "roof-flat-border-center-corner",
+    "kenney-buildings",
+    "architecture-roof"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"roof-flat-border-center-corner\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-buildings-roof-flat-border-center-corner/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-roof-flat-border-center-corner/source.json",
+  "originalDownload": "models/kenney-buildings-roof-flat-border-center-corner/originals.zip",
+  "bytes": 12304,
+  "sha256": "68b9ea0656839e3d3b220c4406cbfa34b9b3f21b62443b127a8a27c0691e24a8",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Modular Buildings",
+    "sourceMember": "Models/GLB format/roof-flat-border-center-corner.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-roof-flat-border-center-corner/original/roof-flat-border-center-corner.glb",
+        "sha256": "054d5c810a8bc196ccbbe8d71e3458eae0a8c97a0d0fcaf78ff80a72f5fdb397",
+        "bytes": 4716
+      },
+      {
+        "file": "models/kenney-buildings-roof-flat-border-center-corner/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "1254ad43fa69479082385ed43d2f14d8b5e7313f6cb1b3bde5f68fd749a4c751",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "kits/kenney-buildings/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      1.0,
+      0.21249999105930328
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "b23652b5c473918e8429c195a4d682dd05f0d6e50729ba3499f2f946b3326b07",
+      "triangles": 36
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

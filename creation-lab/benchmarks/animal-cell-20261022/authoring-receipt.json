@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "mechanism": "collaboration.spawn_agent, fresh fork_turns=none for each condition",
+  "telemetryScope": "Requested execution settings recorded by coordinator; token counts, model billing and pure inference latency unavailable",
+  "brief": "brief.json",
+  "authoringContract": "AUTHORING.md",
+  "sharedSeed": 20261022,
+  "audienceConfirmedByUser": "Secundaria, etiquetas en español",
+  "conditions": [
+    {"id":"A","agent":"/root/cell_a","model":"gpt-6.1-sol","reasoningEffort":"high"},
+    {"id":"B","agent":"/root/cell_b","model":"gpt-6-luna","reasoningEffort":"medium"},
+    {"id":"C","agent":"/root/cell_c","model":"gpt-6-astra","reasoningEffort":"high"},
+    {"id":"D","agent":"/root/cell_d","model":"gpt-6.1-sol","reasoningEffort":"medium"},
+    {"id":"E","agent":"/root/cell_e","model":"gpt-6-luna","reasoningEffort":"high"},
+    {"id":"F","agent":"/root/cell_f","model":"gpt-6-astra","reasoningEffort":"medium"}
+  ],
+  "interventionPolicy": "Common brief only; at most one technical repair per author; preserve first versions and all executed runs; no condition-specific aesthetic edits by coordinator",
+  "geometryMethod": "LLM-authored procedural Blender Python, executed by common runner",
+  "externalTextTo3DProviders": "NOT_RUN",
+  "authoringSeconds": null,
+  "cost": null,
+  "tokens": null
+}

@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-chocolate-wrapper",
+  "assetId": "kenney:kenney-food/chocolate-wrapper",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "chocolate wrapper",
+  "titleOriginal": "chocolate-wrapper",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "chocolate-wrapper",
+    "kenney-food",
+    "food-chocolate"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"chocolate-wrapper\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-chocolate-wrapper/model.glb",
+  "sourceMetadataFile": "models/kenney-food-chocolate-wrapper/source.json",
+  "originalDownload": "models/kenney-food-chocolate-wrapper/originals.zip",
+  "bytes": 22488,
+  "sha256": "c80d017a89b71f469c3dd0abd2240f18402bdece4abbc98b7b2f1e82df2721f3",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/chocolate-wrapper.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-chocolate-wrapper/original/chocolate-wrapper.glb",
+        "sha256": "9b64d2baccce76f9567dba15780d59d4378631acc200437e074b0498592cc3c7",
+        "bytes": 11720
+      },
+      {
+        "file": "models/kenney-food-chocolate-wrapper/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "e1cc1f102c83971a6ab1e7ef0a5057200769b8565bfdfaecd7c55f2d6420df60",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.2924479842185974,
+      0.20198291540145874,
+      0.0649479404091835
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "5c36b5893c02120f264fe3211a2022f37f4947556a2570df79ea74e620830bc0",
+      "triangles": 118
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "kenney-buildings-building-steps-narrow-windows-round",
+  "assetId": "kenney:kenney-buildings/building-steps-narrow-windows-round",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "building steps narrow windows round",
+  "titleOriginal": "building-steps-narrow-windows-round",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Modular Buildings. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Architecture",
+  "tags": [
+    "building-steps-narrow-windows-round",
+    "kenney-buildings",
+    "architecture-building-steps"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"building-steps-narrow-windows-round\" de Modular Buildings, por Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-buildings-building-steps-narrow-windows-round/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-building-steps-narrow-windows-round/source.json",
+  "originalDownload": "models/kenney-buildings-building-steps-narrow-windows-round/originals.zip",
+  "bytes": 19764,
+  "sha256": "baaf1087bba05db7cafed3503f18e5a525d9b7fc1ae79f8440a81d795d43ad67",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Modular Buildings",
+    "sourceMember": "Models/GLB format/building-steps-narrow-windows-round.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-building-steps-narrow-windows-round/original/building-steps-narrow-windows-round.glb",
+        "sha256": "2c97ff6e100410af81a9aa5ec165c8a3422e9c8055d158cdd663d1656d55ab1b",
+        "bytes": 12180
+      },
+      {
+        "file": "models/kenney-buildings-building-steps-narrow-windows-round/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "2c7c616c12ba1070ed97488fa03f4fbb825ea82f778880d74a046fe4d28ab450",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "kits/kenney-buildings/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      1.2000000476837158,
+      0.8374999761581421
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "9925169c98f634946a14217b90257ea5daae805f194fdfa23b836bf2f5b64503",
+      "triangles": 130
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

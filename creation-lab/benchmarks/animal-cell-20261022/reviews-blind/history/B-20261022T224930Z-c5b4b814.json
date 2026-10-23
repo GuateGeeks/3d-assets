@@ -1,0 +1,45 @@
+{
+  "id": "B",
+  "runId": "20261022T224930Z-c5b4b814",
+  "score": 19,
+  "rubric": {
+    "biologicalFidelity": {"score": 2, "max": 30, "reason": "Solo se observa una envoltura oval y una zona pálida. No es posible verificar núcleo, nucléolo, retículos, Golgi, mitocondrias, centríolos ni relaciones anatómicas. Los nombres de parts.json no cuentan como evidencia de geometría correcta."},
+    "partReadability": {"score": 2, "max": 25, "reason": "Se distinguen la superficie rosa y el volumen pálido, pero ninguna estructura interior es identificable en las seis vistas."},
+    "spatialComposition": {"score": 2, "max": 15, "reason": "El objeto está bien encuadrado, pero la abertura superior y lateral no despeja el volumen interior. La vista común de tres cuartos no ofrece el corte didáctico solicitado."},
+    "shapeAndShading": {"score": 9, "max": 15, "reason": "La silueta exterior es suave, la iluminación es uniforme y los materiales exteriores son legibles. El borde del corte es grueso y el volumen opaco central domina; la calidad de las formas interiores no puede evaluarse."},
+    "educationalUsability": {"score": 4, "max": 15, "reason": "parts.json aporta las 13 etiquetas y funciones en español, coherentes con el brief. La geometría visible no permite asociarlas a los orgánulos. Esta puntuación se limita a geometría y etiquetas disponibles; no se evaluó UI, interacción ni selección."}
+  },
+  "visual": {"status": "FAIL", "reason": "La envoltura y el volumen interior ocultan las estructuras que la maqueta de corte abierto debía mostrar. El problema persiste en la vista reimportada."},
+  "biological": {"status": "BLOCKED", "reason": "La biología interna está oculta. No se aprueban los controles de nucléolo, envoltura nuclear, ribosomas, RER/REL, Golgi, crestas mitocondriales, centríolos ni citoesqueleto a partir de los nombres de objetos."},
+  "summary": "Revisión provisional, ciega a la autoría, aplicable exclusivamente al run indicado y a los seis hashes registrados. El exterior tiene un acabado coherente, pero el volumen opaco impide utilizar estos renders para enseñar las estructuras celulares. La vista reimportada es visualmente concordante con la fuente a esta resolución; esa concordancia no prueba corrección biológica ni integridad técnica del GLB.",
+  "defects": [
+    {"view": "front", "detail": "La cara visible está prácticamente cerrada por la superficie rosa; no muestra ninguno de los orgánulos previstos en el corte frontal."},
+    {"view": "side", "detail": "La ranura vertical descubre un volumen pálido continuo y opaco, sin acceso visual al interior celular."},
+    {"view": "back", "detail": "La abertura más ancha también muestra solo el volumen pálido; cambiar de vista no resuelve la oclusión de estructuras."},
+    {"view": "three-quarter", "detail": "La abertura superior y lateral de la vista común queda obturada por el volumen pálido. No se identifican núcleo, nucléolo ni orgánulos."},
+    {"view": "wireframe", "detail": "La trama tenue permite apreciar solo la superficie exterior; no aporta evidencia legible de la organización interna ni de las crestas o cisternas."},
+    {"view": "reimport-three-quarter", "detail": "La reimportación mantiene la oclusión total de los orgánulos. No satisface el requisito de un interior distinguible desde la cámara común."}
+  ],
+  "strengths": [
+    "Silueta oval centrada y completa en el encuadre.",
+    "Iluminación suave sin ruido visual dominante y separación cromática entre envoltura rosa y volumen pálido.",
+    "Las 13 etiquetas y funciones en español están presentes en parts.json.",
+    "La vista reimportada conserva de forma aparente la silueta y los materiales exteriores de la fuente."
+  ],
+  "evidenceLimits": [
+    "La revisión abrió realmente front, side, back, three-quarter, wireframe y reimport-three-quarter mediante view_image.",
+    "La anatomía oculta no se considera aprobada ni se afirma ausente: no es verificable en estos renders.",
+    "No se evaluó UI ni comportamiento interactivo. educationalUsability considera solamente geometría visible y etiquetas de parts.json.",
+    "No se midieron dimensiones, presupuestos de polígonos, materiales, objetos ni tamaño GLB; una imagen no demuestra esas propiedades.",
+    "La evidencia puede requerir actualización si cambia cualquiera de los renders del run."
+  ],
+  "imageEvidence": [
+    {"view": "front", "sha256": "05d8984795d8661e0f08513e942765771841ea96b5850b580c5ee81319394f1a"},
+    {"view": "side", "sha256": "d49b60e307824b71d2633d56fa35db210b699383536f035df050def657b209ac"},
+    {"view": "back", "sha256": "5a059adf2dc3dbd454ef0abfef20cb8ada5f4384e84806e423f5377732c4faef"},
+    {"view": "three-quarter", "sha256": "1c755468eae34cd56e035868c0ca812f8e0328043cacfc93c0fa97b32c0da1b1"},
+    {"view": "wireframe", "sha256": "4ba1c9e95f5f95ec4f913fc59e676508c456c2e37a371b3fd06f629325f5630e"},
+    {"view": "reimport-three-quarter", "sha256": "332a9e1aa9148521e669890e201c0112d67c11cc4ff3150635381326a4651036"}
+  ],
+  "reviewer": "independent fresh-context assistant, blinded to author mapping"
+}

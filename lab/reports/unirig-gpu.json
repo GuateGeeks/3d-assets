@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "engine": "unirig",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "pinned_versions",
+      "status": "passed",
+      "seconds": 0.061,
+      "detail": {
+        "torch": "2.5.1+cu124",
+        "torchvision": "0.20.1+cu124",
+        "numpy": "1.26.4",
+        "transformers": "4.51.3",
+        "bpy": "4.2.0",
+        "lightning": "2.5.1",
+        "pytorch-lightning": "2.5.1",
+        "torchmetrics": "1.6.3",
+        "open3d": "0.19.0",
+        "spconv-cu124": "2.3.8",
+        "torch-scatter": "2.1.2+pt25cu124",
+        "torch-cluster": "1.6.3+pt25cu124",
+        "flash-attn": "2.7.4.post1"
+      }
+    },
+    {
+      "name": "cuda_bf16",
+      "status": "passed",
+      "seconds": 0.992,
+      "detail": {
+        "torch": "2.5.1+cu124",
+        "cudaRuntime": "12.4",
+        "device": "NVIDIA GeForce RTX 3060 Ti",
+        "capability": [
+          8,
+          6
+        ],
+        "bf16": true,
+        "totalBytes": 8589410304
+      }
+    },
+    {
+      "name": "torch_scatter_cuda",
+      "status": "passed",
+      "seconds": 0.068,
+      "detail": [
+        4.0,
+        2.0
+      ]
+    },
+    {
+      "name": "torch_cluster_cuda",
+      "status": "passed",
+      "seconds": 0.59,
+      "detail": {
+        "samples": 8
+      }
+    },
+    {
+      "name": "flash_attention_cuda",
+      "status": "passed",
+      "seconds": 1.446,
+      "detail": {
+        "shape": [
+          1,
+          16,
+          2,
+          32
+        ]
+      }
+    },
+    {
+      "name": "spconv_cuda",
+      "status": "passed",
+      "seconds": 4.64,
+      "detail": {
+        "shape": [
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "name": "blender_example_import",
+      "status": "passed",
+      "seconds": 1.671,
+      "detail": {
+        "version": "4.2.0",
+        "meshes": 1
+      }
+    },
+    {
+      "name": "upstream_imports",
+      "status": "passed",
+      "seconds": 6.899,
+      "detail": "UniRig skeleton, skinning and extraction modules imported"
+    }
+  ],
+  "profileSha256": "f1a86b92c26e03f3c151dc285d12e25861aeb3df5cc0c898c830c10c6fa52488",
+  "packages": {
+    "torch": "2.5.1+cu124",
+    "torchvision": "0.20.1+cu124",
+    "numpy": "1.26.4",
+    "bpy": "4.2.0",
+    "transformers": "4.51.3",
+    "lightning": "2.5.1",
+    "flash-attn": "2.7.4.post1",
+    "spconv-cu124": "2.3.8",
+    "torch-scatter": "2.1.2+pt25cu124",
+    "torch-cluster": "1.6.3+pt25cu124"
+  },
+  "peakAllocatedBytes": 8556544,
+  "peakReservedBytes": 23068672
+}

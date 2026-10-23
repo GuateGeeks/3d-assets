@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "recordedAt": "2026-10-22T22:09:08.8716830Z",
+  "scope": "Read-only full RGBA pixel equality; visual inspection of direct image already PASS",
+  "width": 192,
+  "height": 192,
+  "pixelsExactlyEqual": true,
+  "directImage": "creation-lab/registry/mcp-probe-20261022T220057Z-0bba3e71/mcp-render.png",
+  "directSha256": "eb3adf3df47ca0c707bec91d057823a7a3484edc70b1b0926f0063fec075e1fa",
+  "launcherImage": "creation-lab/registry/launcher-probe-20261022T220620Z-9ee77265/mcp-render.png",
+  "launcherSha256": "4e777b5ba1ece2352d78665df86bcb453a600e36e637dcc898766258fa4a1bf7",
+  "viewerDiscrepancy": "Some view_image previews appeared uniform; independent readers and full pixel equality confirm cube content. No render or closed report changed.",
+  "viewportScreenshotStatus": "NOT_RUN"
+}

@@ -1,0 +1,1195 @@
+{
+  "schemaVersion": 1,
+  "asset": "human",
+  "runId": "20261022T213527Z-159dbb54",
+  "reviewRunId": "20261022T220402Z-eab41af6",
+  "source": {
+    "schemaVersion": 1,
+    "asset": "human",
+    "label": "Humano · Man",
+    "sourceId": "HMnuH5geEG",
+    "sourceSha256": "dad8fa3ca2bc7760892f9ff47f544941179e50acb2aa772cf9f035154a37fc58",
+    "sourceFile": "models/HMnuH5geEG/model.glb",
+    "sourceUrl": "https://poly.pizza/m/HMnuH5geEG",
+    "attribution": "\"Man\" by Quaternius, https://poly.pizza/m/HMnuH5geEG. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+    "license": {
+      "id": "CC0-1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "commercialUse": true,
+      "derivatives": true,
+      "shareAlike": false
+    },
+    "reason": "Malla en T en reposo; rig original conservado como control CC0.",
+    "modifications": [
+      "rest/bind pose, source actions removed",
+      "source rig removed from inference input; retained in control",
+      "uniform normalization: longest dimension 2 m, centered XY, ground Z=0",
+      "materials preserved; no decimation or remeshing"
+    ],
+    "normalization": {
+      "scale": 0.38482529335526267,
+      "sourceTranslation": [
+        -0.0,
+        0.0719909518957138,
+        -0.003359057940542698
+      ],
+      "matrix": [
+        [
+          0.38482528924942017,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.38482528924942017,
+          0.0,
+          0.027703939005732536
+        ],
+        [
+          0.0,
+          0.0,
+          0.38482528924942017,
+          -0.0012926504714414477
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "vertices": 3967,
+    "triangles": 1851,
+    "materials": 6,
+    "prepared": {
+      "file": "lab/.local/corpus/human/prepared.glb",
+      "sha256": "c8682e00114bf66ea46a21d570b5233096c8978d65dce7ce483d8de718a57220"
+    },
+    "control": {
+      "file": "lab/.local/corpus/human/control.glb",
+      "sha256": "20db8e8403d73c7bc85250c6b4575edd04eff24c0baf6213bf2ba001a7bea6f6"
+    },
+    "reviewStatus": "pending"
+  },
+  "candidateSha256": "274dccc29f65bca7583b4d337a3992929e3964c821cb1725f949dbb146e640bd",
+  "mappingSha256": "03edf7090e95fabdac0ea93902c6c0f7edb986d8df1225d8e7b91317afc988ab",
+  "inferenceSeconds": 228.897,
+  "sampledWholeDevicePeakMiB": 7530,
+  "bones": {
+    "control": [
+      {
+        "name": "Bone",
+        "parent": null,
+        "head": [
+          -0.0012296950444579124,
+          0.02781147137284279,
+          -0.0035574142821133137
+        ],
+        "tail": [
+          -0.0012296950444579124,
+          0.027811476960778236,
+          0.017785286530852318
+        ]
+      },
+      {
+        "name": "Foot.L",
+        "parent": "Bone",
+        "head": [
+          0.11734290421009064,
+          0.04254930466413498,
+          0.019567642360925674
+        ],
+        "tail": [
+          0.11734288930892944,
+          0.021217824891209602,
+          0.01887568272650242
+        ]
+      },
+      {
+        "name": "Body",
+        "parent": "Bone",
+        "head": [
+          0.0007891146233305335,
+          -0.0539281964302063,
+          0.8150128722190857
+        ],
+        "tail": [
+          0.0007891146233305335,
+          -0.0539281889796257,
+          0.8363555669784546
+        ]
+      },
+      {
+        "name": "Hips",
+        "parent": "Body",
+        "head": [
+          -6.243072031564267e-11,
+          -0.010569297708570957,
+          0.7524016499519348
+        ],
+        "tail": [
+          -1.6157919446868618e-10,
+          -0.006355220451951027,
+          0.773324191570282
+        ]
+      },
+      {
+        "name": "Abdomen",
+        "parent": "Hips",
+        "head": [
+          -5.4816786526634687e-11,
+          0.019319115206599236,
+          0.9007951021194458
+        ],
+        "tail": [
+          -5.481750123270679e-11,
+          0.019356101751327515,
+          0.9085018038749695
+        ]
+      },
+      {
+        "name": "Torso",
+        "parent": "Abdomen",
+        "head": [
+          -5.4852674485905695e-11,
+          0.020742442458868027,
+          1.1973671913146973
+        ],
+        "tail": [
+          -5.747959400115299e-11,
+          0.021606585010886192,
+          1.2026673555374146
+        ]
+      },
+      {
+        "name": "Neck",
+        "parent": "Torso",
+        "head": [
+          -2.340744265083572e-10,
+          0.07970099151134491,
+          1.5589863061904907
+        ],
+        "tail": [
+          -2.5646537671342173e-10,
+          0.0797009989619255,
+          1.5643564462661743
+        ]
+      },
+      {
+        "name": "Head",
+        "parent": "Neck",
+        "head": [
+          -3.739921261569634e-09,
+          0.07970103621482849,
+          1.6341595649719238
+        ],
+        "tail": [
+          -3.239002762711607e-05,
+          0.07970103621482849,
+          1.6395295858383179
+        ]
+      },
+      {
+        "name": "Shoulder.L",
+        "parent": "Torso",
+        "head": [
+          0.09473215788602829,
+          0.03901906684041023,
+          1.3829666376113892
+        ],
+        "tail": [
+          0.09848733246326447,
+          0.03901907801628113,
+          1.386805534362793
+        ]
+      },
+      {
+        "name": "UpperArm.L",
+        "parent": "Shoulder.L",
+        "head": [
+          0.17973004281520844,
+          0.0390191376209259,
+          1.4698561429977417
+        ],
+        "tail": [
+          0.18711023032665253,
+          0.03957135230302811,
+          1.469260811805725
+        ]
+      },
+      {
+        "name": "LowerArm.L",
+        "parent": "UpperArm.L",
+        "head": [
+          0.4637392461299896,
+          0.0602697990834713,
+          1.4469542503356934
+        ],
+        "tail": [
+          0.47194695472717285,
+          0.0602697990834713,
+          1.4473788738250732
+        ]
+      },
+      {
+        "name": "Palm.L",
+        "parent": "LowerArm.L",
+        "head": [
+          0.7795935273170471,
+          0.06026984751224518,
+          1.463277816772461
+        ],
+        "tail": [
+          0.7877408862113953,
+          0.06026985123753548,
+          1.4621975421905518
+        ]
+      },
+      {
+        "name": "MiddleHand.L",
+        "parent": "Palm.L",
+        "head": [
+          0.8566998839378357,
+          0.060269877314567566,
+          1.4530553817749023
+        ],
+        "tail": [
+          0.8649020195007324,
+          0.060269881039857864,
+          1.452533483505249
+        ]
+      },
+      {
+        "name": "Fingers.L",
+        "parent": "MiddleHand.L",
+        "head": [
+          0.9370193481445312,
+          0.06026991084218025,
+          1.447943925857544
+        ],
+        "tail": [
+          0.9450412392616272,
+          0.06026991456747055,
+          1.4461561441421509
+        ]
+      },
+      {
+        "name": "Thumb1.L",
+        "parent": "Palm.L",
+        "head": [
+          0.8092901110649109,
+          0.010933665558695793,
+          1.4564017057418823
+        ],
+        "tail": [
+          0.8148245811462402,
+          0.00485939159989357,
+          1.4565423727035522
+        ]
+      },
+      {
+        "name": "Thumb2.L",
+        "parent": "Thumb1.L",
+        "head": [
+          0.849898099899292,
+          -0.03363540768623352,
+          1.4574350118637085
+        ],
+        "tail": [
+          0.857821524143219,
+          -0.03549677133560181,
+          1.456294298171997
+        ]
+      },
+      {
+        "name": "Shoulder.R",
+        "parent": "Torso",
+        "head": [
+          -0.0892661064863205,
+          0.03625370189547539,
+          1.3831030130386353
+        ],
+        "tail": [
+          -0.09302128851413727,
+          0.036253705620765686,
+          1.386941909790039
+        ]
+      },
+      {
+        "name": "UpperArm.R",
+        "parent": "Shoulder.R",
+        "head": [
+          -0.17426393926143646,
+          0.03625376522541046,
+          1.469992756843567
+        ],
+        "tail": [
+          -0.18103478848934174,
+          0.0368778370320797,
+          1.4693975448608398
+        ]
+      },
+      {
+        "name": "LowerArm.R",
+        "parent": "UpperArm.R",
+        "head": [
+          -0.4348236918449402,
+          0.06026967987418175,
+          1.4470912218093872
+        ],
+        "tail": [
+          -0.44312483072280884,
+          0.06026966869831085,
+          1.4475170373916626
+        ]
+      },
+      {
+        "name": "Palm.R",
+        "parent": "LowerArm.R",
+        "head": [
+          -0.7542765736579895,
+          0.060269635170698166,
+          1.4634144306182861
+        ],
+        "tail": [
+          -0.762523889541626,
+          0.060269635170698166,
+          1.4623793363571167
+        ]
+      },
+      {
+        "name": "MiddleHand.R",
+        "parent": "Palm.R",
+        "head": [
+          -0.8357294797897339,
+          0.060269612818956375,
+          1.4531913995742798
+        ],
+        "tail": [
+          -0.844027578830719,
+          0.060269612818956375,
+          1.4527097940444946
+        ]
+      },
+      {
+        "name": "Thumb1.R",
+        "parent": "MiddleHand.R",
+        "head": [
+          -0.8087936639785767,
+          0.010933499783277512,
+          1.4564013481140137
+        ],
+        "tail": [
+          -0.8143909573554993,
+          0.004790140315890312,
+          1.4565436840057373
+        ]
+      },
+      {
+        "name": "Thumb2.R",
+        "parent": "Thumb1.R",
+        "head": [
+          -0.8494015336036682,
+          -0.03363548219203949,
+          1.4574352502822876
+        ],
+        "tail": [
+          -0.857414960861206,
+          -0.03551799803972244,
+          1.4562815427780151
+        ]
+      },
+      {
+        "name": "Fingers.R",
+        "parent": "MiddleHand.R",
+        "head": [
+          -0.9238001108169556,
+          0.06026962026953697,
+          1.4480804204940796
+        ],
+        "tail": [
+          -0.9319817423820496,
+          0.06026962026953697,
+          1.4466134309768677
+        ]
+      },
+      {
+        "name": "UpperLeg.L",
+        "parent": "Body",
+        "head": [
+          0.11609993875026703,
+          0.016325997188687325,
+          0.8280117511749268
+        ],
+        "tail": [
+          0.11609993875026703,
+          0.015089752152562141,
+          0.8198199272155762
+        ]
+      },
+      {
+        "name": "LowerLeg.L",
+        "parent": "UpperLeg.L",
+        "head": [
+          0.11609993129968643,
+          -0.031248541548848152,
+          0.5127688050270081
+        ],
+        "tail": [
+          0.11609993129968643,
+          -0.03002309985458851,
+          0.5045753717422485
+        ]
+      },
+      {
+        "name": "UpperLeg.R",
+        "parent": "Body",
+        "head": [
+          -0.12225368618965149,
+          0.01632601208984852,
+          0.8280115723609924
+        ],
+        "tail": [
+          -0.12225368618965149,
+          0.01508974377065897,
+          0.8197775483131409
+        ]
+      },
+      {
+        "name": "LowerLeg.R",
+        "parent": "UpperLeg.R",
+        "head": [
+          -0.12225370854139328,
+          -0.031248297542333603,
+          0.5111446976661682
+        ],
+        "tail": [
+          -0.12225370854139328,
+          -0.030012713745236397,
+          0.5029105544090271
+        ]
+      },
+      {
+        "name": "PoleTarget.L",
+        "parent": "Bone",
+        "head": [
+          0.11412665247917175,
+          -0.666333794593811,
+          0.42002618312835693
+        ],
+        "tail": [
+          0.11412665247917175,
+          -0.666333794593811,
+          0.44136887788772583
+        ]
+      },
+      {
+        "name": "Foot.R",
+        "parent": "Bone",
+        "head": [
+          -0.12101072818040848,
+          0.04254932701587677,
+          0.019567646086215973
+        ],
+        "tail": [
+          -0.12101074308156967,
+          0.021217849105596542,
+          0.018875690177083015
+        ]
+      },
+      {
+        "name": "PoleTarget.R",
+        "parent": "Bone",
+        "head": [
+          -0.12422703206539154,
+          -0.6663337349891663,
+          0.4184020459651947
+        ],
+        "tail": [
+          -0.12422703206539154,
+          -0.6663337349891663,
+          0.4397447407245636
+        ]
+      }
+    ],
+    "candidate": [
+      {
+        "name": "bone_0",
+        "parent": null,
+        "head": [
+          0.0039061917923390865,
+          0.03515598550438881,
+          0.005736335646361113
+        ],
+        "tail": [
+          0.0039061917923390865,
+          -0.0585939921438694,
+          0.8182365894317627
+        ]
+      },
+      {
+        "name": "bone_1",
+        "parent": "bone_0",
+        "head": [
+          0.00390619202516973,
+          -0.058593977242708206,
+          0.8182365298271179
+        ],
+        "tail": [
+          0.00390619202516973,
+          -0.0195314958691597,
+          0.7557364702224731
+        ]
+      },
+      {
+        "name": "bone_2",
+        "parent": "bone_1",
+        "head": [
+          0.0039061910938471556,
+          -0.019531510770320892,
+          0.7557364702224731
+        ],
+        "tail": [
+          0.0039061910938471556,
+          0.0579322874546051,
+          0.631794273853302
+        ]
+      },
+      {
+        "name": "bone_3",
+        "parent": "bone_2",
+        "head": [
+          0.0039061910938471556,
+          0.019530918449163437,
+          0.9041738510131836
+        ],
+        "tail": [
+          0.0039061910938471556,
+          0.027343330904841423,
+          1.201048731803894
+        ]
+      },
+      {
+        "name": "bone_4",
+        "parent": "bone_3",
+        "head": [
+          0.0039061910938471556,
+          0.02734331414103508,
+          1.2010486125946045
+        ],
+        "tail": [
+          0.0039061910938471556,
+          0.032599132508039474,
+          1.4007718563079834
+        ]
+      },
+      {
+        "name": "bone_5",
+        "parent": "bone_4",
+        "head": [
+          0.0039061913266777992,
+          0.08203063905239105,
+          1.5682363510131836
+        ],
+        "tail": [
+          0.0039061913266777992,
+          0.08203061670064926,
+          1.646361231803894
+        ]
+      },
+      {
+        "name": "bone_6",
+        "parent": "bone_5",
+        "head": [
+          0.0039061913266777992,
+          0.08203061670064926,
+          1.6463611125946045
+        ],
+        "tail": [
+          0.0039061917923390865,
+          0.08203054964542389,
+          1.724485993385315
+        ]
+      },
+      {
+        "name": "bone_7",
+        "parent": "bone_4",
+        "head": [
+          0.09765627980232239,
+          0.042968299239873886,
+          1.3807363510131836
+        ],
+        "tail": [
+          0.1835937798023224,
+          0.0429682731628418,
+          1.466673731803894
+        ]
+      },
+      {
+        "name": "bone_8",
+        "parent": "bone_7",
+        "head": [
+          0.18359370529651642,
+          0.04296831041574478,
+          1.4666738510131836
+        ],
+        "tail": [
+          0.46484363079071045,
+          0.06640583276748657,
+          1.4510489702224731
+        ]
+      },
+      {
+        "name": "bone_9",
+        "parent": "bone_8",
+        "head": [
+          0.4648435711860657,
+          0.06640573590993881,
+          1.451048731803894
+        ],
+        "tail": [
+          0.7851563692092896,
+          0.0664057731628418,
+          1.4666738510131836
+        ]
+      },
+      {
+        "name": "bone_10",
+        "parent": "bone_9",
+        "head": [
+          0.7851563692092896,
+          0.0664057731628418,
+          1.4666739702224731
+        ],
+        "tail": [
+          0.8485499620437622,
+          0.0664057657122612,
+          1.4697664976119995
+        ]
+      },
+      {
+        "name": "bone_11",
+        "parent": "bone_10",
+        "head": [
+          0.8632813692092896,
+          0.06640580296516418,
+          1.4510494470596313
+        ],
+        "tail": [
+          0.9414066076278687,
+          0.06640581786632538,
+          1.4432368278503418
+        ]
+      },
+      {
+        "name": "bone_12",
+        "parent": "bone_11",
+        "head": [
+          0.9414066076278687,
+          0.06640584021806717,
+          1.4432369470596313
+        ],
+        "tail": [
+          1.0195318460464478,
+          0.06640582531690598,
+          1.435424566268921
+        ]
+      },
+      {
+        "name": "bone_13",
+        "parent": "bone_10",
+        "head": [
+          0.8164064884185791,
+          0.011718370020389557,
+          1.4588618278503418
+        ],
+        "tail": [
+          0.8554690480232239,
+          -0.027344003319740295,
+          1.4588618278503418
+        ]
+      },
+      {
+        "name": "bone_14",
+        "parent": "bone_13",
+        "head": [
+          0.8554689884185791,
+          -0.027344057336449623,
+          1.4588619470596313
+        ],
+        "tail": [
+          0.8945314884185791,
+          -0.06640652567148209,
+          1.4588619470596313
+        ]
+      },
+      {
+        "name": "bone_15",
+        "parent": "bone_4",
+        "head": [
+          -0.08203136175870895,
+          0.04296812415122986,
+          1.3807361125946045
+        ],
+        "tail": [
+          -0.1679687798023224,
+          0.04296810179948807,
+          1.4666736125946045
+        ]
+      },
+      {
+        "name": "bone_16",
+        "parent": "bone_15",
+        "head": [
+          -0.16796880960464478,
+          0.0429682657122612,
+          1.466673493385315
+        ],
+        "tail": [
+          -0.4335940182209015,
+          0.06640570610761642,
+          1.4510483741760254
+        ]
+      },
+      {
+        "name": "bone_17",
+        "parent": "bone_16",
+        "head": [
+          -0.4335940182209015,
+          0.06640569865703583,
+          1.4510483741760254
+        ],
+        "tail": [
+          -0.7539063692092896,
+          0.06640572100877762,
+          1.4666731357574463
+        ]
+      },
+      {
+        "name": "bone_18",
+        "parent": "bone_17",
+        "head": [
+          -0.7539063096046448,
+          0.06640571355819702,
+          1.4666733741760254
+        ],
+        "tail": [
+          -0.8320313692092896,
+          0.06640570610761642,
+          1.4510482549667358
+        ]
+      },
+      {
+        "name": "bone_19",
+        "parent": "bone_18",
+        "head": [
+          -0.8320313692092896,
+          0.06640565395355225,
+          1.451048493385315
+        ],
+        "tail": [
+          -0.8908751010894775,
+          0.06640563905239105,
+          1.4392797946929932
+        ]
+      },
+      {
+        "name": "bone_20",
+        "parent": "bone_19",
+        "head": [
+          -0.80859375,
+          0.011718177236616611,
+          1.4588611125946045
+        ],
+        "tail": [
+          -0.8476563692092896,
+          -0.02734442427754402,
+          1.458860993385315
+        ]
+      },
+      {
+        "name": "bone_21",
+        "parent": "bone_20",
+        "head": [
+          -0.8476564288139343,
+          -0.027344360947608948,
+          1.4588608741760254
+        ],
+        "tail": [
+          -0.8867191672325134,
+          -0.06640687584877014,
+          1.4588607549667358
+        ]
+      },
+      {
+        "name": "bone_22",
+        "parent": "bone_19",
+        "head": [
+          -0.9179688692092896,
+          0.06640562415122986,
+          1.4432361125946045
+        ],
+        "tail": [
+          -0.977731466293335,
+          0.06640559434890747,
+          1.4378031492233276
+        ]
+      },
+      {
+        "name": "bone_23",
+        "parent": "bone_2",
+        "head": [
+          0.12109372764825821,
+          0.01953093893826008,
+          0.8338614106178284
+        ],
+        "tail": [
+          0.12109372764825821,
+          -0.027343863621354103,
+          0.5135490894317627
+        ]
+      },
+      {
+        "name": "bone_24",
+        "parent": "bone_23",
+        "head": [
+          0.12109371274709702,
+          -0.02734392322599888,
+          0.5135491490364075
+        ],
+        "tail": [
+          0.12109371274709702,
+          0.042968638241291046,
+          0.02136114239692688
+        ]
+      },
+      {
+        "name": "bone_25",
+        "parent": "bone_24",
+        "head": [
+          0.12109371274709702,
+          0.042968615889549255,
+          0.021361321210861206
+        ],
+        "tail": [
+          0.12109372764825821,
+          0.11328111588954926,
+          -0.4708267152309418
+        ]
+      },
+      {
+        "name": "bone_26",
+        "parent": "bone_2",
+        "head": [
+          -0.12109385430812836,
+          0.01953093893826008,
+          0.8338614106178284
+        ],
+        "tail": [
+          -0.12109385430812836,
+          -0.0273438710719347,
+          0.5135489702224731
+        ]
+      },
+      {
+        "name": "bone_27",
+        "parent": "bone_26",
+        "head": [
+          -0.12109385430812836,
+          -0.027343934401869774,
+          0.5135490894317627
+        ],
+        "tail": [
+          -0.11328133940696716,
+          0.04296866059303284,
+          0.021361112594604492
+        ]
+      },
+      {
+        "name": "bone_28",
+        "parent": "bone_27",
+        "head": [
+          -0.11328132450580597,
+          0.04296863079071045,
+          0.021361321210861206
+        ],
+        "tail": [
+          -0.10546880960464478,
+          0.11328122764825821,
+          -0.4708266854286194
+        ]
+      }
+    ]
+  },
+  "poseMetrics": {
+    "rest": {
+      "control": {
+        "movedVertices": 0,
+        "maximumDisplacementMeters": 0.0,
+        "edgeStretchP95": 1.0,
+        "maximumEdgeStretch": 1.0,
+        "minimumEdgeRatio": 1.0
+      },
+      "candidate": {
+        "movedVertices": 0,
+        "maximumDisplacementMeters": 0.0,
+        "edgeStretchP95": 1.0,
+        "maximumEdgeStretch": 1.0,
+        "minimumEdgeRatio": 1.0
+      }
+    },
+    "elbows": {
+      "control": {
+        "movedVertices": 798,
+        "maximumDisplacementMeters": 0.5668087680023851,
+        "edgeStretchP95": 1.0000026864934117,
+        "maximumEdgeStretch": 1.4564727855455482,
+        "minimumEdgeRatio": 0.6184026819193972
+      },
+      "candidate": {
+        "movedVertices": 682,
+        "maximumDisplacementMeters": 0.5676038446132156,
+        "edgeStretchP95": 1.0000009628166384,
+        "maximumEdgeStretch": 2.851846386783852,
+        "minimumEdgeRatio": 0.4501589488098602
+      }
+    },
+    "shoulders": {
+      "control": {
+        "movedVertices": 1138,
+        "maximumDisplacementMeters": 0.49700458331856284,
+        "edgeStretchP95": 1.0080677145036687,
+        "maximumEdgeStretch": 1.2297730120156043,
+        "minimumEdgeRatio": 0.6942560693154901
+      },
+      "candidate": {
+        "movedVertices": 1038,
+        "maximumDisplacementMeters": 0.500712830947524,
+        "edgeStretchP95": 1.0000029298372808,
+        "maximumEdgeStretch": 1.4850595710968264,
+        "minimumEdgeRatio": 0.7697123602298235
+      }
+    },
+    "knee": {
+      "control": {
+        "movedVertices": 279,
+        "maximumDisplacementMeters": 0.40893677455091554,
+        "edgeStretchP95": 1.0,
+        "maximumEdgeStretch": 1.1391165225005688,
+        "minimumEdgeRatio": 0.5629142617146473
+      },
+      "candidate": {
+        "movedVertices": 312,
+        "maximumDisplacementMeters": 0.3817814888145875,
+        "edgeStretchP95": 1.0,
+        "maximumEdgeStretch": 3.9046766017052326,
+        "minimumEdgeRatio": 0.13151539778746923
+      }
+    },
+    "neck": {
+      "control": {
+        "movedVertices": 1946,
+        "maximumDisplacementMeters": 0.10633447491406701,
+        "edgeStretchP95": 1.001765635378183,
+        "maximumEdgeStretch": 1.1529430608305213,
+        "minimumEdgeRatio": 0.7127012844134825
+      },
+      "candidate": {
+        "movedVertices": 2092,
+        "maximumDisplacementMeters": 0.10326976244868431,
+        "edgeStretchP95": 1.0000049795195292,
+        "maximumEdgeStretch": 1.4538281107272841,
+        "minimumEdgeRatio": 0.6619597100711258
+      }
+    }
+  },
+  "clipsCreated": 0,
+  "visualReview": "pending",
+  "gallery": {
+    "id": "human",
+    "label": "Humano · Man",
+    "runId": "20261022T213527Z-159dbb54",
+    "reviewRunId": "20261022T220402Z-eab41af6",
+    "mappingSha256": "03edf7090e95fabdac0ea93902c6c0f7edb986d8df1225d8e7b91317afc988ab",
+    "seconds": 228.897,
+    "seed": 42,
+    "cameraOrbit": "25deg 80deg 4.4m",
+    "cameraTarget": "0m 0.94m 0m",
+    "bones": 29,
+    "controlBones": 31,
+    "weightedVertices": 4019,
+    "unweightedVertices": 0,
+    "badWeights": 0,
+    "sourceSha256": "dad8fa3ca2bc7760892f9ff47f544941179e50acb2aa772cf9f035154a37fc58",
+    "candidateSha256": "274dccc29f65bca7583b4d337a3992929e3964c821cb1725f949dbb146e640bd",
+    "candidateUrl": "_lab/assets/64bb953373e59d5a836cc3a1",
+    "preparedUrl": "_lab/assets/3c0a07a6b2ecda973f63245f",
+    "attribution": "\"Man\" by Quaternius, https://poly.pizza/m/HMnuH5geEG. Licence at https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://poly.pizza/m/HMnuH5geEG",
+    "modifications": [
+      "rest/bind pose, source actions removed",
+      "source rig removed from inference input; retained in control",
+      "uniform normalization: longest dimension 2 m, centered XY, ground Z=0",
+      "materials preserved; no decimation or remeshing",
+      "UniRig: generated skeleton and skinning, seed 42",
+      "diagnostic poses baked to static GLB; no animation clips"
+    ],
+    "reviewStatus": "Revisar pesos antes de clips",
+    "observations": [
+      "Revisar los pesos de la rodilla izquierda antes de crear clips: a 45°, el estiramiento máximo local es 3,90× frente a 1,14× del control (aristas >2 mm).",
+      "Revisar codos: a 60°, UniRig alcanza 2,85× frente a 1,46× del control. Hombros y cuello conservan una silueta reconocible en la inspección inicial.",
+      "Pesos finitos y normalizados; la calidad de las deformaciones requiere revisión.",
+      "Las poses usan FK directa; los controles independientes de pie del original acompañan el giro de rodilla/codo. No se resuelve IK. El esqueleto visible omite controles sin influencia."
+    ],
+    "poses": [
+      {
+        "id": "rest",
+        "label": "Reposo",
+        "description": "Comprueba silueta, simetría y posición de los pivotes antes de flexionar.",
+        "control": {
+          "mesh": "_lab/assets/8f4f1b9884a870fc4d113abd",
+          "skeleton": "_lab/assets/4d43199bd839bcfafd49d446"
+        },
+        "candidate": {
+          "mesh": "_lab/assets/8ef7a35e5740a00c0fb51c9f",
+          "skeleton": "_lab/assets/a5e2c41cf2aaba3269c3779d"
+        },
+        "metrics": {
+          "control": {
+            "movedVertices": 0,
+            "maximumDisplacementMeters": 0.0,
+            "edgeStretchP95": 1.0,
+            "maximumEdgeStretch": 1.0,
+            "minimumEdgeRatio": 1.0
+          },
+          "candidate": {
+            "movedVertices": 0,
+            "maximumDisplacementMeters": 0.0,
+            "edgeStretchP95": 1.0,
+            "maximumEdgeStretch": 1.0,
+            "minimumEdgeRatio": 1.0
+          }
+        }
+      },
+      {
+        "id": "elbows",
+        "label": "Codos · 60°",
+        "description": "Flexión bilateral de codos: busca pinzamiento y arrastre del torso.",
+        "control": {
+          "mesh": "_lab/assets/8ca50f38ab508b72379d326d",
+          "skeleton": "_lab/assets/700bf7775b2e0c34492d389e"
+        },
+        "candidate": {
+          "mesh": "_lab/assets/3c576dde664ff144aa7ccdf8",
+          "skeleton": "_lab/assets/5b6f08dfcc251b9a41f397f6"
+        },
+        "metrics": {
+          "control": {
+            "movedVertices": 798,
+            "maximumDisplacementMeters": 0.5668087680023851,
+            "edgeStretchP95": 1.0000026864934117,
+            "maximumEdgeStretch": 1.4564727855455482,
+            "minimumEdgeRatio": 0.6184026819193972
+          },
+          "candidate": {
+            "movedVertices": 682,
+            "maximumDisplacementMeters": 0.5676038446132156,
+            "edgeStretchP95": 1.0000009628166384,
+            "maximumEdgeStretch": 2.851846386783852,
+            "minimumEdgeRatio": 0.4501589488098602
+          }
+        }
+      },
+      {
+        "id": "shoulders",
+        "label": "Hombros · 35°",
+        "description": "Descenso de brazos desde la T: revisa axilas, hombros y simetría.",
+        "control": {
+          "mesh": "_lab/assets/67fe03cbbb682e95428054b9",
+          "skeleton": "_lab/assets/8706bd47f5650d180e05195d"
+        },
+        "candidate": {
+          "mesh": "_lab/assets/6bfea8460fcfeaf838082bfc",
+          "skeleton": "_lab/assets/7ffc99c5abb8f92468173283"
+        },
+        "metrics": {
+          "control": {
+            "movedVertices": 1138,
+            "maximumDisplacementMeters": 0.49700458331856284,
+            "edgeStretchP95": 1.0080677145036687,
+            "maximumEdgeStretch": 1.2297730120156043,
+            "minimumEdgeRatio": 0.6942560693154901
+          },
+          "candidate": {
+            "movedVertices": 1038,
+            "maximumDisplacementMeters": 0.500712830947524,
+            "edgeStretchP95": 1.0000029298372808,
+            "maximumEdgeStretch": 1.4850595710968264,
+            "minimumEdgeRatio": 0.7697123602298235
+          }
+        }
+      },
+      {
+        "id": "knee",
+        "label": "Rodilla izquierda · 45°",
+        "description": "Flexiona solo la rodilla izquierda: revisa pérdida de volumen y movimiento de la pierna vecina.",
+        "control": {
+          "mesh": "_lab/assets/6d9c6c8dc4f965502bb69268",
+          "skeleton": "_lab/assets/8be4b0b7909c48da765b518c"
+        },
+        "candidate": {
+          "mesh": "_lab/assets/e10cbcbc44a16329af339545",
+          "skeleton": "_lab/assets/1f49731c52b7bcb8803437ff"
+        },
+        "metrics": {
+          "control": {
+            "movedVertices": 279,
+            "maximumDisplacementMeters": 0.40893677455091554,
+            "edgeStretchP95": 1.0,
+            "maximumEdgeStretch": 1.1391165225005688,
+            "minimumEdgeRatio": 0.5629142617146473
+          },
+          "candidate": {
+            "movedVertices": 312,
+            "maximumDisplacementMeters": 0.3817814888145875,
+            "edgeStretchP95": 1.0,
+            "maximumEdgeStretch": 3.9046766017052326,
+            "minimumEdgeRatio": 0.13151539778746923
+          }
+        }
+      },
+      {
+        "id": "neck",
+        "label": "Cuello · 20°",
+        "description": "Inclinación de cabeza: examina cuello, mandíbula y arrastre del pecho.",
+        "control": {
+          "mesh": "_lab/assets/4e2d472dc353abc458de324e",
+          "skeleton": "_lab/assets/3e099a2dd1366c9715525b8b"
+        },
+        "candidate": {
+          "mesh": "_lab/assets/b6a63bfedae0864f4e9ae997",
+          "skeleton": "_lab/assets/652261b9a076998227330498"
+        },
+        "metrics": {
+          "control": {
+            "movedVertices": 1946,
+            "maximumDisplacementMeters": 0.10633447491406701,
+            "edgeStretchP95": 1.001765635378183,
+            "maximumEdgeStretch": 1.1529430608305213,
+            "minimumEdgeRatio": 0.7127012844134825
+          },
+          "candidate": {
+            "movedVertices": 2092,
+            "maximumDisplacementMeters": 0.10326976244868431,
+            "edgeStretchP95": 1.0000049795195292,
+            "maximumEdgeStretch": 1.4538281107272841,
+            "minimumEdgeRatio": 0.6619597100711258
+          }
+        }
+      }
+    ]
+  }
+}

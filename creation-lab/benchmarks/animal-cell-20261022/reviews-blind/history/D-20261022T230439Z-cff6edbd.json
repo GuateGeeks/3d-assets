@@ -1,0 +1,49 @@
+{
+  "id": "D",
+  "runId": "20261022T230439Z-cff6edbd",
+  "score": 87,
+  "rubric": {
+    "biologicalFidelity": {"score": 27, "max": 30, "reason": "Se reconocen nucléolo interior sin envoltura propia aparente, núcleo abierto con poros sugeridos y filamentos de cromatina sin figuras en X, RER próximo con gránulos adheridos, REL tubular sin esos gránulos, Golgi separado con vesículas, dos mitocondrias abiertas con crestas y centríolos aproximadamente perpendiculares. El citoesqueleto combina filamentos periféricos y algunos segmentos próximos al centrosoma. La forma fina y la continuidad de membranas siguen sin verificarse."},
+    "partReadability": {"score": 22, "max": 25, "reason": "Las estructuras principales se distinguen por forma y posición, incluidas las crestas de ambas mitocondrias. REL, Golgi, vesículas y filamentos son pálidos; algunos detalles pequeños requieren atención para separarse del fondo."},
+    "spatialComposition": {"score": 13, "max": 15, "reason": "El corte superior despeja el interior y distribuye núcleo, retículos, Golgi y mitocondrias sin solapamientos mayores en la cámara común. Hay cierta lectura de objetos aislados sobre una superficie, y las vistas bajas ocultan parte de sus interiores."},
+    "shapeAndShading": {"score": 12, "max": 15, "reason": "Silueta continua, superficies suaves y crestas interiores legibles. La iluminación y los colores lavados reducen contraste de las piezas claras; el wireframe es poco visible. La cromatina se percibe algo angular y esquemática."},
+    "educationalUsability": {"score": 13, "max": 15, "reason": "La geometría permite asociar las 13 etiquetas y funciones en español de parts.json a estructuras reconocibles, con interiores útiles del núcleo y las mitocondrias. Esta puntuación se limita a geometría y etiquetas disponibles; no se evaluó UI, interacción ni selección."}
+  },
+  "visual": {"status": "PASS", "reason": "La cámara común ofrece un corte abierto legible y la reimportación conserva de forma aparente su silueta, composición y materiales. Quedan mejoras de contraste y de legibilidad de detalles pequeños."},
+  "biological": {"status": "PASS", "reason": "Los rasgos didácticos del brief son reconocibles en el conjunto de vistas, incluidos nucléolo interior, poros sugeridos, RER con gránulos, REL tubular, Golgi con vesículas, dos mitocondrias con pliegues interiores y centríolos aproximadamente perpendiculares. El dictamen solo cubre estos rasgos visibles; no aprueba anatomía oculta, número exacto de tripletes ni continuidad ultrastructural."},
+  "summary": "Revisión provisional y ciega, aplicable al run indicado y a los seis hashes registrados. Maqueta abierta con buena separación de estructuras y dos mitocondrias cuyos interiores son legibles desde la cámara común. La paleta pálida limita los detalles pequeños. La semejanza visual de fuente y reimportación no sustituye validación técnica del GLB; se requiere nueva revisión si cambian los renders tras la reparación anunciada.",
+  "defects": [
+    {"view": "three-quarter", "detail": "El REL celeste, el Golgi amarillo y sus vesículas tienen poco contraste frente al citosol pálido; los contornos pequeños se pierden parcialmente."},
+    {"view": "front", "detail": "Los bordes anteriores de ambas mitocondrias ocultan buena parte de las crestas en esta vista baja. El interior se comprende mejor en three-quarter."},
+    {"view": "side", "detail": "El núcleo y el borde lateral tapan algunos componentes y dificultan apreciar el conjunto del citoesqueleto. No todas las estructuras son legibles desde este ángulo."},
+    {"view": "three-quarter", "detail": "Los filamentos de cromatina se presentan como líneas algo angulares sobre el interior nuclear; su carácter esquemático es reconocible, pero la forma resulta menos orgánica que otras piezas."},
+    {"view": "wireframe", "detail": "La trama tiene contraste muy bajo y no permite evaluar con confianza la topología fina de centríolos, retículos o crestas."}
+  ],
+  "strengths": [
+    "Corte amplio que muestra el interior desde la cámara común sin una esfera opaca obstructiva.",
+    "Núcleo abierto con nucléolo visible, poros sugeridos y cromatina filamentosa sin cromosomas en X.",
+    "RER con gránulos próximo al núcleo y REL tubular diferenciados del Golgi con cisternas curvas.",
+    "Dos mitocondrias abiertas con pliegues visibles dentro de sus envolturas.",
+    "Centríolos de ejes aproximadamente perpendiculares, con citoesqueleto escaso que no se reduce a una única estrella radial.",
+    "Las 13 etiquetas y funciones en español están presentes en parts.json.",
+    "La vista reimportada conserva de forma aparente la presentación de la fuente."
+  ],
+  "evidenceLimits": [
+    "Se abrieron realmente front, side, back, three-quarter, wireframe y reimport-three-quarter mediante view_image.",
+    "No se aprueba biología oculta. Los nombres de objetos y designNotes no sustituyen la observación de imágenes.",
+    "Los poros son reconocibles como sugerencias gráficas; no se verificó su perforación real ni la continuidad microscópica de las membranas.",
+    "No se verificó el número exacto de tripletes de los centríolos ni el inventario completo de estructuras de la escena.",
+    "No se evaluó UI ni comportamiento interactivo. educationalUsability considera solamente geometría visible y etiquetas de parts.json.",
+    "No se midieron dimensiones, polígonos, materiales, objetos ni tamaño del GLB.",
+    "La reparación técnica anunciada no se considera aprobada por anticipado; cualquier cambio de imagen requiere actualizar esta evidencia."
+  ],
+  "imageEvidence": [
+    {"view": "front", "sha256": "8efb05f0d69fbc155b1315fe59ec057242e534e0c7043dfedde0e1f2cbffab41"},
+    {"view": "side", "sha256": "158f023c624dc8d043f3c1c5ac69232618fa3affa91073f88574d55f67abe177"},
+    {"view": "back", "sha256": "dd288616262c39274647f260743e63763a14715be58f77addf2bb4fd11abf1bd"},
+    {"view": "three-quarter", "sha256": "b85b8c0c480ebc96e2e44d6c5b7293fb6533d01f6502e7b18892bf4a2bd730e4"},
+    {"view": "wireframe", "sha256": "dbefa82ae085bb7ae60ac552e33f6f41b65a9932692919cb9532a84ffff6fae2"},
+    {"view": "reimport-three-quarter", "sha256": "cea9344a26618bb1791d5e02bdad48e24d52c76ce9a1851c1d31ec32185aa2da"}
+  ],
+  "reviewer": "independent fresh-context assistant, blinded to author mapping"
+}

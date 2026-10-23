@@ -1,0 +1,584 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261022T222206Z-91fd94f9",
+  "command": "rig",
+  "startedAt": "2026-10-22T22:22:06.560766+00:00",
+  "status": "success",
+  "engine": "unirig",
+  "profileSha256": "f1a86b92c26e03f3c151dc285d12e25861aeb3df5cc0c898c830c10c6fa52488",
+  "stages": [
+    {
+      "name": "prepare-workspace",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/prepare_smoke.py",
+        "--run-dir",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9",
+        "--voxel-backend",
+        "open3d",
+        "--input",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/candidate-input/prepared/prepared.glb"
+      ],
+      "startedAt": "2026-10-22T22:22:06.632605+00:00",
+      "log": "lab/.local/runs/20261022T222206Z-91fd94f9/prepare-workspace.log",
+      "sampledPeakMainChildRssBytes": 37449728,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 2091,
+        "peakUsed": 2259,
+        "minimumFree": 5766,
+        "samples": 102,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 111.087
+    },
+    {
+      "name": "extract-skeleton",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "-m",
+        "src.data.extract",
+        "--config=configs/data/quick_inference.yaml",
+        "--require_suffix=glb,fbx",
+        "--faces_target_count=50000",
+        "--num_runs=1",
+        "--force_override=true",
+        "--id=0",
+        "--time=20261022T222206Z-91fd94f9",
+        "--input=input/model.glb",
+        "--output_dir=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/tmp"
+      ],
+      "startedAt": "2026-10-22T22:23:57.720699+00:00",
+      "log": "lab/.local/runs/20261022T222206Z-91fd94f9/extract-skeleton.log",
+      "sampledPeakMainChildRssBytes": 574844928,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 2055,
+        "peakUsed": 2060,
+        "minimumFree": 5965,
+        "samples": 9,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 9.062
+    },
+    {
+      "name": "generate-skeleton",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/repos/UniRig/run.py",
+        "--task=configs/task/quick_inference_skeleton_articulationxl_ar_256.yaml",
+        "--seed=42",
+        "--input=input/model.glb",
+        "--output=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_skeleton.fbx",
+        "--npz_dir=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/tmp"
+      ],
+      "startedAt": "2026-10-22T22:24:06.783764+00:00",
+      "log": "lab/.local/runs/20261022T222206Z-91fd94f9/generate-skeleton.log",
+      "sampledPeakMainChildRssBytes": 4182523904,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 2058,
+        "peakUsed": 6615,
+        "minimumFree": 1410,
+        "samples": 53,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 63.461
+    },
+    {
+      "name": "validate-skeleton",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/inspect_fbx.py",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_skeleton.fbx",
+        "--output",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/skeleton-inspection.json"
+      ],
+      "startedAt": "2026-10-22T22:25:10.250468+00:00",
+      "log": "lab/.local/runs/20261022T222206Z-91fd94f9/validate-skeleton.log",
+      "sampledPeakMainChildRssBytes": 254361600,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1970,
+        "peakUsed": 1970,
+        "minimumFree": 6055,
+        "samples": 1,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 0.877
+    },
+    {
+      "name": "extract-skin",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "-m",
+        "src.data.extract",
+        "--config=configs/data/quick_inference.yaml",
+        "--require_suffix=glb,fbx",
+        "--faces_target_count=50000",
+        "--num_runs=1",
+        "--force_override=true",
+        "--id=0",
+        "--time=20261022T222206Z-91fd94f9",
+        "--input=input/reviewed.fbx",
+        "--output_dir=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/tmp-skin"
+      ],
+      "startedAt": "2026-10-22T22:25:11.128956+00:00",
+      "log": "lab/.local/runs/20261022T222206Z-91fd94f9/extract-skin.log",
+      "sampledPeakMainChildRssBytes": 574586880,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 2044,
+        "peakUsed": 2182,
+        "minimumFree": 5843,
+        "samples": 5,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 4.659
+    },
+    {
+      "name": "generate-skin",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/repos/UniRig/run.py",
+        "--task=configs/task/quick_inference_unirig_skin.yaml",
+        "--seed=42",
+        "--input=input/reviewed.fbx",
+        "--output=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_skin.fbx",
+        "--npz_dir=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/tmp-skin",
+        "--data_name=raw_data.npz"
+      ],
+      "startedAt": "2026-10-22T22:25:15.788878+00:00",
+      "log": "lab/.local/runs/20261022T222206Z-91fd94f9/generate-skin.log",
+      "sampledPeakMainChildRssBytes": 7061467136,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 2096,
+        "peakUsed": 7584,
+        "minimumFree": 441,
+        "samples": 117,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 145.257
+    },
+    {
+      "name": "validate-skin",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/inspect_fbx.py",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_skin.fbx",
+        "--require-weights",
+        "--output",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/skin-inspection.json"
+      ],
+      "startedAt": "2026-10-22T22:27:41.123263+00:00",
+      "log": "lab/.local/runs/20261022T222206Z-91fd94f9/validate-skin.log",
+      "sampledPeakMainChildRssBytes": 246063104,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1849,
+        "peakUsed": 1849,
+        "minimumFree": 6176,
+        "samples": 1,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 0.657
+    },
+    {
+      "name": "merge",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "-m",
+        "src.inference.merge",
+        "--require_suffix=glb,fbx",
+        "--num_runs=1",
+        "--id=0",
+        "--source=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_skin.fbx",
+        "--target=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/input/model.glb",
+        "--output=/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_rigged.glb"
+      ],
+      "startedAt": "2026-10-22T22:27:41.796339+00:00",
+      "log": "lab/.local/runs/20261022T222206Z-91fd94f9/merge.log",
+      "sampledPeakMainChildRssBytes": 577933312,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1862,
+        "peakUsed": 2038,
+        "minimumFree": 5987,
+        "samples": 6,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 5.655
+    },
+    {
+      "name": "validate-glb",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/inspect_fbx.py",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_rigged.glb",
+        "--require-weights",
+        "--output",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/glb-inspection.json"
+      ],
+      "startedAt": "2026-10-22T22:27:47.453235+00:00",
+      "log": "lab/.local/runs/20261022T222206Z-91fd94f9/validate-glb.log",
+      "sampledPeakMainChildRssBytes": 272392192,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1969,
+        "peakUsed": 1969,
+        "minimumFree": 6056,
+        "samples": 1,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 0.839
+    },
+    {
+      "name": "restore-creation-scale",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/adapter-code/scripts/creation_geometry.py",
+        "restore",
+        "--input",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_rigged.glb",
+        "--geometry",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/candidate-input/prepared/geometry.json",
+        "--output-dir",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/restored",
+        "--report",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222206Z-91fd94f9/restoration-report.json"
+      ],
+      "startedAt": "2026-10-22T22:27:48.296116+00:00",
+      "log": "lab/.local/runs/20261022T222206Z-91fd94f9/restore-creation-scale.log",
+      "sampledPeakMainChildRssBytes": 264523776,
+      "sampledDeviceMemoryMiB": {
+        "initialUsed": 1967,
+        "peakUsed": 1967,
+        "minimumFree": 6058,
+        "samples": 1,
+        "scope": "whole GPU 0, includes other applications; approximately one sample per second"
+      },
+      "exitCode": 0,
+      "seconds": 0.849
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_skeleton.fbx",
+      "bytes": 17564,
+      "sha256": "611c7411f4b580c7a0daa0468601e3a50bdccd3e85044e533359bbac9f007d54"
+    },
+    {
+      "file": "lab/.local/runs/20261022T222206Z-91fd94f9/skeleton-inspection.json",
+      "bytes": 267,
+      "sha256": "495276975a3aff19883268ab3edf3f0529f69e3e245b8521792088c40245fd72"
+    },
+    {
+      "file": "lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_skin.fbx",
+      "bytes": 24172,
+      "sha256": "afaef453012e1860ca2560d755fa9fa1b3d922d35db63328565cd144a98a79b4"
+    },
+    {
+      "file": "lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_rigged.glb",
+      "bytes": 19660,
+      "sha256": "549699a596cace2e023b2e92c05148042a9ebd9b816106d2d09a23034ebea5e6"
+    },
+    {
+      "file": "lab/.local/runs/20261022T222206Z-91fd94f9/glb-inspection.json",
+      "bytes": 270,
+      "sha256": "fe97ff37ccf3b640f5e3eee046e7b2ff978f14ecc1933088375a0ee266e343a2"
+    },
+    {
+      "file": "lab/.local/runs/20261022T222206Z-91fd94f9/restoration-report.json",
+      "bytes": 14021,
+      "sha256": "cfc00dc1f875eb1ef92e638cc3a046570058ad80acb7e53660424a4e1dc97e0b"
+    },
+    {
+      "file": "lab/.local/runs/20261022T222206Z-91fd94f9/restored/restored.glb",
+      "bytes": 19928,
+      "sha256": "c37ab87e5b7713b69fda9cd66d08a9cf8da8d9bf177733ad9f29d72347c51444"
+    }
+  ],
+  "inputKind": "creation-candidate",
+  "asset": "guategeeks-canary-beacon",
+  "candidatePrepared": {
+    "file": "lab/.local/runs/20261022T222206Z-91fd94f9/candidate-input/creation-prepared.json",
+    "sha256": "ca3c03ac9811caa83c7d2c8325a028b367c59fdc04668b45dbde9d79f3bb296c"
+  },
+  "provenance": {
+    "schemaVersion": 1,
+    "kind": "creation-prepared",
+    "assetId": "guategeeks-canary-beacon",
+    "candidateOriginal": "creation-lab/.local/runs/20261022T215851655676Z-dc714b4214/candidate.json",
+    "evidence": [
+      {
+        "original": "creation-lab/.local/runs/20261022T215722341157Z-a9e0139899",
+        "copied": "creation-input/evidence-0",
+        "manifestSha256": "43c89bb05fae320e90ef56e214d7fcf23ddc43d861f079bc4c4fe205ca6af842"
+      },
+      {
+        "original": "creation-lab/.local/runs/20261022T215833688856Z-e6dcb4714e",
+        "copied": "creation-input/evidence-1",
+        "manifestSha256": "2d5afda7de1dfd3374f3bf996ed189475196b59513f0833396403e83618d76f2"
+      },
+      {
+        "original": "creation-lab/.local/runs/20261022T215851655676Z-dc714b4214",
+        "copied": "creation-input/evidence-2",
+        "manifestSha256": "d215a6cb01b22b1f5c66cb44e6c7a27146761acb75e6f77b69ffe57670f9083c"
+      }
+    ],
+    "candidate": {
+      "file": "creation-input/evidence-2/candidate.json",
+      "sha256": "c99d2426214aec102cbf67f42e8afe0a8e2910fa9dfe8242700f1605fa9260e4"
+    },
+    "sourceOriginal": {
+      "file": "creation-input/evidence-0/asset.glb",
+      "sha256": "46d923d856963f03034e7ef3ec9e7af41631dfd22657e661132fc4eb847a3e5e"
+    },
+    "editableOriginal": {
+      "file": "creation-input/evidence-0/source.blend",
+      "sha256": "430ab19fdbaa8c2673cce7fdc0ac3e86eb8812f12c62168dadaaed12d8f25bd5"
+    },
+    "provenance": {
+      "author": "GuateGeeks",
+      "origin": "original",
+      "license": "CC0-1.0",
+      "method": "Procedural original three-block canary; no external model, image, or texture"
+    },
+    "axes": {
+      "blender": {
+        "up": "+Z",
+        "front": "-Y"
+      },
+      "gltf": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "conversion": "Blender glTF exporter export_yup=True; importer restores Blender axes"
+    },
+    "units": "m",
+    "dimensionsM": [
+      0.18000000715255737,
+      0.1899999976158142,
+      0.30000001192092896
+    ],
+    "bboxM": {
+      "min": [
+        -0.09000000357627869,
+        -0.0949999988079071,
+        0.0
+      ],
+      "max": [
+        0.09000000357627869,
+        0.0949999988079071,
+        0.30000001192092896
+      ]
+    },
+    "inputQa": {
+      "technical": "PASS",
+      "visual": "PASS",
+      "rights": "PASS"
+    },
+    "transformPolicy": "uniform longest dimension to 2m, XY center and ground Z; inverse required on all rig hierarchy roots",
+    "visual": "NOT_RUN",
+    "prepared": {
+      "file": "prepared/prepared.glb",
+      "sha256": "4d48a864c8763f09f2a5bf59f369b667aa18f591952f6e44753b3d3fd8edb674"
+    },
+    "control": {
+      "file": "prepared/control.glb",
+      "sha256": "46d923d856963f03034e7ef3ec9e7af41631dfd22657e661132fc4eb847a3e5e"
+    },
+    "geometry": {
+      "file": "prepared/geometry.json",
+      "sha256": "6965aecf6f2aae9590b81dd00a5b5dc8b3b5e657d7d8beadb10bf1c35d2b9109"
+    },
+    "normalization": {
+      "matrix": [
+        [
+          6.666666507720947,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.666666507720947,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          6.666666507720947,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "inverse": [
+        [
+          0.15000000596046448,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.15000000596046448,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.15000000596046448,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "scale": 6.666666401757145,
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": "identity",
+      "targetLongestDimensionM": 2.0
+    },
+    "status": "passed",
+    "artifacts": {
+      "creation-input/evidence-0/COMPLETE": "5c95f1933d3c984ee45a6ebafc162adfea07462d443a60a4db644fed635a0aa6",
+      "creation-input/evidence-0/asset.glb": "46d923d856963f03034e7ef3ec9e7af41631dfd22657e661132fc4eb847a3e5e",
+      "creation-input/evidence-0/backend.json": "d0b204b8092c8c4d4d65224b64b35572e062182f0b54f3d9e5b8fa1193465c61",
+      "creation-input/evidence-0/brief.json": "daa034aafd3b1350be9667903ce5c59953d48fa6de9b1ec0726b999c0b93e905",
+      "creation-input/evidence-0/code/create.py": "d417233d081a0695330f944044b9293b82fba0067250a85238af09b26970a760",
+      "creation-input/evidence-0/code/scripts/blender_worker.py": "38d52665852632567ceb07e1a40863513b2d8854aa21b769d1201f23a0f985af",
+      "creation-input/evidence-0/execution.json": "d6fd0deb5cbe1fe628fdbc08edac616dc27dd743e76aa4b03c3aed5ab041dcda",
+      "creation-input/evidence-0/imported-metrics.json": "6363d8a6f8ed8b486d3ffac69802c3a28add08124415e48a4f492663ae080083",
+      "creation-input/evidence-0/manifest.json": "43c89bb05fae320e90ef56e214d7fcf23ddc43d861f079bc4c4fe205ca6af842",
+      "creation-input/evidence-0/metrics.json": "66ddc454c55ffcdaa22140b0ed7a10c68e32beebfccd3db2732cf08ea8f6a92d",
+      "creation-input/evidence-0/render-provenance.json": "d4230465104542699171e13a5009804326d80062d6c85bbaaa4baa856f6e0d6c",
+      "creation-input/evidence-0/renders/back.png": "fa5f059b8fd03342b023277157983d3c198d91e946fca2dc10823ff93507e4a8",
+      "creation-input/evidence-0/renders/front.png": "c5bb39ee4525e58c0148d49db5ab899b4bfe913099ad4349609e52148db7823c",
+      "creation-input/evidence-0/renders/reimport-three-quarter.png": "b54629fccd72d17833feb7ed6e00757d9cc4ecb92ae67b48830a4a2120c9bfaa",
+      "creation-input/evidence-0/renders/side.png": "cca2dd0d2941d84843cff3181abc248cae959b4c0a6125a5dfd31b0dc03bc72c",
+      "creation-input/evidence-0/renders/three-quarter.png": "2be18136fa6a5b794830f8253f7d2facc26cacde566ff408f2f68fd1fbf86e3a",
+      "creation-input/evidence-0/renders/wireframe.png": "10bafe44326905957bc2cc506d81733fd6f4dcd3f1ee4d1590690f17824eb260",
+      "creation-input/evidence-0/reopened-metrics.json": "4a7a1bcbae14715227b070e6b1691c397d7779196b2dc5297eb92518cc845825",
+      "creation-input/evidence-0/source-metrics.json": "4a7a1bcbae14715227b070e6b1691c397d7779196b2dc5297eb92518cc845825",
+      "creation-input/evidence-0/source.blend": "430ab19fdbaa8c2673cce7fdc0ac3e86eb8812f12c62168dadaaed12d8f25bd5",
+      "creation-input/evidence-1/COMPLETE": "a6f0bc50607451cd7fd5c018e3c12a9385081ad94d6e0369f58295968ec41c2b",
+      "creation-input/evidence-1/manifest.json": "2d5afda7de1dfd3374f3bf996ed189475196b59513f0833396403e83618d76f2",
+      "creation-input/evidence-1/report.md": "f3128889c7f119024d73f191ec1285ad15be73a512c8e1d6f8236489ef9ddb2d",
+      "creation-input/evidence-1/review.json": "ef2c7377d76e63ced3b717ae9c44f7a7c4766149ea37d15d724fa2107fe22943",
+      "creation-input/evidence-2/COMPLETE": "3b645a5547e1ad3990eab3540e3b52b5520e2075a843bc3d5d97234a40eee361",
+      "creation-input/evidence-2/candidate.json": "c99d2426214aec102cbf67f42e8afe0a8e2910fa9dfe8242700f1605fa9260e4",
+      "creation-input/evidence-2/manifest.json": "d215a6cb01b22b1f5c66cb44e6c7a27146761acb75e6f77b69ffe57670f9083c",
+      "creation-input/evidence-2/report.md": "f3128889c7f119024d73f191ec1285ad15be73a512c8e1d6f8236489ef9ddb2d",
+      "prepared/control.glb": "46d923d856963f03034e7ef3ec9e7af41631dfd22657e661132fc4eb847a3e5e",
+      "prepared/geometry.json": "6965aecf6f2aae9590b81dd00a5b5dc8b3b5e657d7d8beadb10bf1c35d2b9109",
+      "prepared/prepared.glb": "4d48a864c8763f09f2a5bf59f369b667aa18f591952f6e44753b3d3fd8edb674",
+      "adapter-code/creation_adapter.py": "8d5c84952167431d5b28f23d55a295f0d850870f32a5b3dc045fdc5dabd0d3c1",
+      "adapter-code/lab.py": "129e44e06454b4d9a2fe6d5bf89141724a50a8f1f6c11cbd98792f5c35a60652",
+      "adapter-code/scripts/creation_geometry.py": "c17aea328061dc540124539168ba9e559d6f5b6df2b289fc7a2eb2fe802c8acc"
+    }
+  },
+  "input": {
+    "file": "lab/.local/runs/20261022T222206Z-91fd94f9/candidate-input/prepared/prepared.glb",
+    "sha256": "4d48a864c8763f09f2a5bf59f369b667aa18f591952f6e44753b3d3fd8edb674"
+  },
+  "seed": 42,
+  "voxelBackend": "open3d",
+  "skinningInput": {
+    "file": "lab/.local/runs/20261022T222206Z-91fd94f9/workspace/output/model_skeleton.fbx",
+    "sha256": "611c7411f4b580c7a0daa0468601e3a50bdccd3e85044e533359bbac9f007d54"
+  },
+  "scope": "reviewed creation source; automatic skeleton/weights; restored original meters and appearance; rig visual review pending, no clips",
+  "restoredCandidate": {
+    "file": "lab/.local/runs/20261022T222206Z-91fd94f9/restored/restored.glb",
+    "bytes": 19928,
+    "sha256": "c37ab87e5b7713b69fda9cd66d08a9cf8da8d9bf177733ad9f29d72347c51444",
+    "units": "m",
+    "normalization": {
+      "matrix": [
+        [
+          6.666666507720947,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.666666507720947,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          6.666666507720947,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "inverse": [
+        [
+          0.15000000596046448,
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.15000000596046448,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          0.15000000596046448,
+          -0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "scale": 6.666666401757145,
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": "identity",
+      "targetLongestDimensionM": 2.0
+    },
+    "provenance": {
+      "author": "GuateGeeks",
+      "origin": "original",
+      "license": "CC0-1.0",
+      "method": "Procedural original three-block canary; no external model, image, or texture"
+    },
+    "visual": "NOT_RUN"
+  },
+  "finishedAt": "2026-10-22T22:27:49.165217+00:00",
+  "seconds": 342.604
+}

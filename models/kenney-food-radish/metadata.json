@@ -1,0 +1,134 @@
+{
+  "id": "kenney-food-radish",
+  "assetId": "kenney:food/radish",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "Rábano",
+  "titleOriginal": "radish",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Recurso estilizado de Food Kit 2.0. Escala y precisión educativa por revisar para cada actividad.",
+  "category": "Agriculture",
+  "tags": [
+    "radish",
+    "Rábano",
+    "vegetal",
+    "nutrición"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Rábano\" (radish), por Kenney, https://kenney.nl/assets/food-kit. CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "GLB exportado con Blender 5.2.3 LTS; textura original incrustada, sin cambio de escala; geometría y dimensiones comprobadas al reimportar.",
+  "file": "models/kenney-food-radish/model.glb",
+  "sourceMetadataFile": "models/kenney-food-radish/source.json",
+  "originalDownload": "models/kenney-food-radish/originals.zip",
+  "bytes": 22144,
+  "sha256": "0878b3ce32d404b0aa1ade7e75959e3468ec31f66206b49d1397bd45ac7a4d2d",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Recurso visual revisado; asignación curricular y exactitud científica o mecánica requieren revisión docente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Food Kit 2.0",
+    "sourceMember": "Models/GLB format/radish.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-radish/original/radish.glb",
+        "sha256": "9cad692ec80a03d726a9ff7e284e99407ebc91e54102ebbadebcbcdcbca922e3",
+        "bytes": 16456
+      },
+      {
+        "file": "models/kenney-food-radish/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "3272b12a6313526be52526930ccb4e00fe4288f7e108790f30ca25bb9548edea",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "sources/external/kenney-food/License.txt",
+    "conversionTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.34314197301864624,
+      0.34314197301864624,
+      0.5763037204742432
+    ],
+    "reimportDimensionsBlender": [
+      0.34314197301864624,
+      0.34314197301864624,
+      0.5763037204742432
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "fdb96fbeccdd94ddccec72004e347d134e278c3a9f8064ea548b8868f07cfba0",
+      "triangles": 166
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewImages": [
+      {
+        "file": "sources/external/review/kenney-comparison.png",
+        "sha256": "1ec71e69d1709aa09ba57a5c56f53ae2b5d1f437544fd27f456bfdda44900391"
+      },
+      {
+        "file": "sources/external/review/oga-comparison.png",
+        "sha256": "4bf0f1c52154ff3215f193a63593f34c2a7f6e1bf5d2aa01002a90469f37dfd6"
+      },
+      {
+        "file": "sources/external/review/kenney-all-views.png",
+        "sha256": "9b82bb513563b848f22a7afc8177ed5bd712c1ee5a2080710cdd95a99d5b2e48"
+      },
+      {
+        "file": "sources/external/review/oga-all-views.png",
+        "sha256": "d9fc5c5037a0f629afb710dfa9c728f2befe14fa72e0d41dcf160354c19acbdc"
+      }
+    ]
+  }
+}

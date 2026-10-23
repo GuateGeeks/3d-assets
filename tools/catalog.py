@@ -94,6 +94,9 @@ def download():
         except Exception as e: issues.append(dict(id=mid,reason=str(e)))
     save(ROOT/'download-issues.json',issues); build()
 def build():
+    if any(read(p).get('providerId') in {'kenney','opengameart'} for p in (ROOT/'models').glob('*/metadata.json')):
+        from reindex import rebuild
+        return rebuild()
     plan=read(ROOT/'selection.json'); records=[]; errors=[]
     for p in sorted((ROOT/'models').glob('*/metadata.json')):
         r=read(p)

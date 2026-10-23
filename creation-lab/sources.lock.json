@@ -1,0 +1,584 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-22T22:07:04.658380+00:00",
+  "sources": [
+    {
+      "id": "rivello",
+      "repository": "https://github.com/SamuelAsherRivello/ai-skills-blender",
+      "commit": "54b4f26b7c0e530b7158244f397b34e6c16d7b76",
+      "license": "MIT",
+      "selection": "selected-codex-recipes",
+      "sourceManifest": {
+        "file": "creation-lab/registry/rivello.source.json",
+        "sha256": "5b2a7ed1bbc46c085ef0b50f51dd5ab98872a6d5cae168ee791acf795209f6b4",
+        "bytes": 15787
+      },
+      "installedFiles": [
+        {
+          "file": "creation-lab/vendor/rivello/blender-create-greybox/SKILL.md",
+          "sha256": "1881cee62b9f1734b9cff55536064a021265141eb5350f51d54b40c0e6a1dd48",
+          "bytes": 7316
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-create-greybox/agents/openai.yaml",
+          "sha256": "e0d75c6feed6a6f8cdf8ebaae7091b8f117c04aadbfddd99676fc4c28927d193",
+          "bytes": 237
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-create-model/SKILL.md",
+          "sha256": "78dccbd2c39f325618a7a6bc80f4e0175a1e3412f4e87ead0ebccf8ee4137c08",
+          "bytes": 3248
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-create-model/agents/openai.yaml",
+          "sha256": "8ef5cef1ef37fe477a0cd6c10dcdcaa67f9ac501bc5c2de538e2a7fe683e84ed",
+          "bytes": 204
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-game-export/SKILL.md",
+          "sha256": "dd3a3a35ac596779b6a448265721190c8385c223c4aa2ffbef3849e8415f625d",
+          "bytes": 3112
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-game-export/agents/openai.yaml",
+          "sha256": "f9b98e2cc5bca17b845a289d409262db77624944badecbd71f80d6eac1a094bf",
+          "bytes": 214
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-light-camera/SKILL.md",
+          "sha256": "1ba7c57d63f9ffd6a621c5a7204aa9798a48c8cca692615e31c0de4446ab8391",
+          "bytes": 3017
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-light-camera/agents/openai.yaml",
+          "sha256": "4a436bdaf82251d38dea7a08ee6dbd7177be8cae6c1c941a9c39aa4176ad40c1",
+          "bytes": 208
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-materials/SKILL.md",
+          "sha256": "add570bbd5568b6abc7e42f50b0250598f2c795a46c13098152d35618cdb7abd",
+          "bytes": 3242
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-materials/agents/openai.yaml",
+          "sha256": "99fc1eb541b2c94c8cea9c63580674747cf43632e699ea068c8654c1f539d777",
+          "bytes": 206
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-render/SKILL.md",
+          "sha256": "048364e255b1d6968f2150f3e40d2cb75d954b2982d4846133441c2845bd1998",
+          "bytes": 3112
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-render/agents/openai.yaml",
+          "sha256": "8627f4bf1c22c2ac1a61fe535d5c8f460417251daf04e6c80e28a843213cae1c",
+          "bytes": 194
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-render/scripts/verify_outputs.py",
+          "sha256": "310c5710fb40aab814ba7b4b9b29f3343cd4b8051a5a78b96d62e3bff2eaf615",
+          "bytes": 4075
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-review-optimize/SKILL.md",
+          "sha256": "948cf645127e4c8ec4fecbd3c275531b08c26fbf5c052098717382c7aaf348b3",
+          "bytes": 3104
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-review-optimize/agents/openai.yaml",
+          "sha256": "86638a58ee656ff39e87c3526b11c7c2451b673782ca04343cf9c8d617e7efb3",
+          "bytes": 212
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-review-optimize/scripts/audit_scene.py",
+          "sha256": "d7782a8732e699da09252416faee98296d2db119a0b81277d5fe4fa93098895a",
+          "bytes": 977
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-setup/SKILL.md",
+          "sha256": "3b88b1d9d16b0dd4e0a91bed33b42feabad231374c372e5acf91c237db599687",
+          "bytes": 15473
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-setup/agents/openai.yaml",
+          "sha256": "b12beb5df2de7e1c10fc058b9a23875b4a5b5949532d7655dd7584a168244be1",
+          "bytes": 260
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-setup/references/operating-boundaries.md",
+          "sha256": "efe3fe0780e88ce67d9ae3540d5cec192dd73977d3ab4e65dbd189196997ff2a",
+          "bytes": 1858
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-setup/scripts/check_setup.py",
+          "sha256": "ffe51778c8197b3d3e050075e32f19384a5f4bbdac4cf09ed95cd4d13d5451fb",
+          "bytes": 25193
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-setup/scripts/platform_checks.py",
+          "sha256": "adf5b0eee9d7d0b7214118f00181f0ccd801e277a9c9319fc5ac091597fe1d58",
+          "bytes": 7923
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-setup/scripts/test_check_setup.py",
+          "sha256": "92c2aa742feb23a4de644cbc7337edcbd2537080710e305f19ef6d7a29e93ab7",
+          "bytes": 22666
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-setup/scripts/test_windowless.py",
+          "sha256": "070bdd5f0c253d0cb2ec139f11f59944b3ce637974438a641890b086082929bd",
+          "bytes": 6981
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-setup/scripts/windowless.py",
+          "sha256": "1adefece3a6ba15659aaad6f656b32f3f9eafdc5c6923976952cbc7eaac80374",
+          "bytes": 6349
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-uv-bake/SKILL.md",
+          "sha256": "7e8d3f38a9af1149f63a40321bee6019edcb1f3042902ca99cf4271d7c5a9f82",
+          "bytes": 2354
+        },
+        {
+          "file": "creation-lab/vendor/rivello/blender-uv-bake/agents/openai.yaml",
+          "sha256": "4f174079bc054c644fd672f3e169a8a00a60abfb33863f670a471caeb7efba7a",
+          "bytes": 200
+        }
+      ],
+      "runtimeStatus": "NOT_RUN",
+      "auditScope": "targeted static review; file hashes and syntax for prepared Python; no execution endorsement"
+    },
+    {
+      "id": "lpm",
+      "repository": "https://github.com/ozanzeng/blender-LPM-skill",
+      "commit": "687d0a46f1280bc7d11dbf83539840100ec909dc",
+      "license": "MIT",
+      "selection": "adapted-lowpoly-recipes",
+      "sourceManifest": {
+        "file": "creation-lab/registry/lpm.source.json",
+        "sha256": "450d21e41e40d9142c630c5244c1759bc462791c4ba59561f17dce4136fd0d47",
+        "bytes": 28826
+      },
+      "installedFiles": [
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/SKILL.md",
+          "sha256": "57d42da4404c796d7a23cc5aa2d9562eab0821ee32a15be025ef084b66eb72e1",
+          "bytes": 8159
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/_common.py",
+          "sha256": "e1164a6975daa3abdc42b6deeaa6253b8771c91c8da0a32557303e8e8366f3a9",
+          "bytes": 501
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/arena_column.py",
+          "sha256": "460ca8ca0330f7ff7a6b6bcad8c6843da648330a586f93a511d3bba814f70923",
+          "bytes": 1104
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/chest.py",
+          "sha256": "7c79bdbfce87e421c6a5d2a082559637320a9aabcf6cbe246ecedf9377fe1939",
+          "bytes": 3814
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/env_amphora.py",
+          "sha256": "c0d98dbc3578e15961721d2357ccf3b17d9762df11330c83df5bc66db0acccd6",
+          "bytes": 1602
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/env_barricade.py",
+          "sha256": "e0ae60a1bf1933ae3a999d1a8dd5f3ae86f301f6074f7328c5357ab09c842217",
+          "bytes": 1567
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/env_lion_altar.py",
+          "sha256": "0e39e866622dbb0dd8e4bdd3eda2c7dd3d1a9586f9959162bef500baca4e483f",
+          "bytes": 6703
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/env_lion_altar_hull.py",
+          "sha256": "437e49db60a3354f99ec398f433fac214990172b1c26e6c71b868448759bf309",
+          "bytes": 4752
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/env_stone_well.py",
+          "sha256": "540fea6d3b82cb9efd9db26b37714d96dff79a27d1ce55f66e315b03e93ba516",
+          "bytes": 2247
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/env_torch_sconce.py",
+          "sha256": "e938b5ad028d91adec1859f018d6f752b09154dce9d3f8210c42104a8b557641",
+          "bytes": 3605
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/galea_helmet.py",
+          "sha256": "9a2a1454f6b224033bd1d45ee514daabe46c1ac66236435fc39c63ef69cb03ff",
+          "bytes": 1779
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/gladius.py",
+          "sha256": "c7d4536cf6f6de5e3e36d9a0c05cf94beae445af9bce5fdf59e2e6eb34e3492e",
+          "bytes": 1751
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/roman_chest.py",
+          "sha256": "eb140e9151f0b6cc13629b8ab39895d5f891c6406624bca874844b59644a81c4",
+          "bytes": 5000
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/roman_villa.py",
+          "sha256": "bb74bcd39092b65e59dcb032d9c3ce20d04f5ed1fa54560bc64da10cab708f55",
+          "bytes": 6593
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/examples/scutum.py",
+          "sha256": "3d41982b0178d7cafb89263145b2d294431face2d82cca16a61bcf5177e448fc",
+          "bytes": 1771
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/references/budgets-and-style.md",
+          "sha256": "bc1cde60e3de37917ff11ee8e86fa6337ef7b153795b23ff635ccddecd8392a6",
+          "bytes": 2252
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/references/export-unity.md",
+          "sha256": "8238c5b8ff80a3d404f3592d01cb31e395031183ed6f2d5f97e715985eaede67",
+          "bytes": 1218
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/references/qa-checklist.md",
+          "sha256": "e2cab6f22fdb8a122f02f411913f914c469ce8b1bcd4ceebfabdd980eb179f79",
+          "bytes": 763
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/references/recipes.md",
+          "sha256": "a3fd38a4045943311fd793cc13ca4990632ffbc04107d259d4be395c4ab62abe",
+          "bytes": 1885
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/references/reference-to-lowpoly.md",
+          "sha256": "654a86a36d772c7f6bbbb3aa94d2e58aa79ac169561e21b7f5bdbf8677ad85b8",
+          "bytes": 16089
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/asset_card.py",
+          "sha256": "f567f07f25dbec4bc0d588a4b009c3af96921d8d3d74f303b6b5e9de86ac3c9f",
+          "bytes": 5467
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/atlas_from_views.py",
+          "sha256": "b8e5200157530c611b038e392c86db6100da6fa834997443de2a5e435e2878d6",
+          "bytes": 5121
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/bake_registered.py",
+          "sha256": "b4736acf107754a729997383cf4fc6ebe84344e4acd4f90d089d69ec0b38b6f1",
+          "bytes": 12007
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/beauty_render.py",
+          "sha256": "59eb35086a99244d726211c755aef0b231a9a7079cf823e85dd45e678a5fde82",
+          "bytes": 5582
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/bl.py",
+          "sha256": "e06e8507a6878aa26fce133d2023072d8455762c168e8860e504ef75a6b5102e",
+          "bytes": 3633
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/calibrate_elevation.py",
+          "sha256": "57c1ae7f83967427ea01273f17c153362c753d851b4732e2a19f53b945875c8e",
+          "bytes": 5225
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/compare_silhouette.py",
+          "sha256": "70fe464bbca81d28701c6a15db1943de68e89ff795d80b190be38219e25da8fe",
+          "bytes": 5041
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/exact_hull.py",
+          "sha256": "05b74143d87c42d96a576711330eb5f4e65e05f2b15e88b6e96d4ccf0760eef9",
+          "bytes": 7705
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/find_view.py",
+          "sha256": "16c156478eb74c4d30a334fa880e1f44e8ad51d7a2173b40f2ab3e607599a340",
+          "bytes": 6360
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/gate_report.py",
+          "sha256": "1dafaabc507e5afffde935f99c82ed7e69077113ffbe63b657682cc99fdadf04",
+          "bytes": 6373
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/gen_to_lowpoly.py",
+          "sha256": "18c175fd8e61c6e521169c3989b55ce9070f670d0ea463624b769a5b0daba512",
+          "bytes": 4067
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/gltf_pbr_to_unity.py",
+          "sha256": "2a48e2c427921a4468b9b532a61049a1c7ae423429ee4aa86a7afc1d946c304c",
+          "bytes": 2514
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/hull_n_views.py",
+          "sha256": "0d028f17f77e5b45b9e9405e15df381d1d2289b52200472a24abcf99f7433d5c",
+          "bytes": 3282
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/hull_prep.py",
+          "sha256": "5f519a33a8f18e67b37b21d2f2e41a083db852648cc98db94a6804a04315fc73",
+          "bytes": 4330
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/hull_to_lowpoly.py",
+          "sha256": "58a25ac0d3dbb706694be094455a5edd5bbcf373551fd77ae38c82c854069420",
+          "bytes": 3612
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/hy3d_local_mv.py",
+          "sha256": "626e772566a56ff5a03e278a1e822ab707e2e6dae40dc5175ebe702bf25f06be",
+          "bytes": 4566
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/inspect_scene.py",
+          "sha256": "09c684c5ed783b7b5f0734d271623e2256a76f3dfd4435af12113b55bfb6d954",
+          "bytes": 8441
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/lpm.py",
+          "sha256": "fa2785b64377ee885af8e993241e6e2fe3a7a272abd9fb810d13026953c72a10",
+          "bytes": 23311
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/lpm_kit.py",
+          "sha256": "b2d6279109bc5fde0a543bb47965916f6a783b12f3c87492cfd58ab740ea998c",
+          "bytes": 10875
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/make_turnaround.py",
+          "sha256": "5917ea908f275626b200ccb2bf30fd6c46823b780715ad550f7f04549eb375bf",
+          "bytes": 6775
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/multiview_to_mesh.py",
+          "sha256": "daa338ce168526f5f6572f94d5d044c17b94cfe1437c9264695735a905378010",
+          "bytes": 5515
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/pbr_from_basecolor.py",
+          "sha256": "dbf99f78314af009bc8c6920dddd312123c2cab2b741c025465b86f06883096c",
+          "bytes": 3315
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/project_views_bake.py",
+          "sha256": "3b99500e8be4fe7e3150f7097703abdd8e30c2f209e69d281577ce37405f4d66",
+          "bytes": 8978
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/register_views.py",
+          "sha256": "d2cfb0d15d7cc2be6742c736710a87727146eda9df79557e0da91d5fdbeb02b4",
+          "bytes": 6612
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/render_n_views.py",
+          "sha256": "0b949a535c61fbacd6e50ac58cda382191d34a2e091f76e6a7089a4401c4b49d",
+          "bytes": 3063
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/render_ref_views.py",
+          "sha256": "ec4970c471b8ff2b0e84ccc58710940b3a651c3eec7a36e0c3bcc8de3b5b9123",
+          "bytes": 4947
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/render_unlit_views.py",
+          "sha256": "e42adfcaf386b1c530758298ed47b9865c0e112ad585bddda2b22b109f043a11",
+          "bytes": 4336
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/render_views.py",
+          "sha256": "86542ea278d5b9b4b28f9436f383ab8e0478ccab815fd165eceb120db40a5abd",
+          "bytes": 8622
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/score_views.py",
+          "sha256": "78401b18f820e664f5b385a6f1ba4597cc1aa04c115d6acddd4ee1dd12ae83e5",
+          "bytes": 6117
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/shape_from_views.py",
+          "sha256": "77fbd8f68dacc43ed24e4652e8c584bef79edea07b9d07c6ca2389930ad9048b",
+          "bytes": 6653
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/turntable.py",
+          "sha256": "582de35739f87cbb930eed07953eaa575b1cc1df588e11b013936f2696141447",
+          "bytes": 8217
+        },
+        {
+          "file": "creation-lab/vendor/lpm/blender-lpm-skill/scripts/wire_pbr_export.py",
+          "sha256": "de4e07c55c0e497040a4fcef69f4a634243f668eaee0043b4a0c080a957b2990",
+          "bytes": 3870
+        }
+      ],
+      "runtimeStatus": "NOT_RUN",
+      "auditScope": "targeted static review; file hashes and syntax for prepared Python; no execution endorsement"
+    },
+    {
+      "id": "mcp-fallback",
+      "repository": "https://github.com/ahujasid/mcp-for-blender",
+      "commit": "5a3618fccb2d982d0dd61e7a1879912c3100073b",
+      "license": "MIT",
+      "selection": "fallback-only-not-activated",
+      "sourceManifest": {
+        "file": "creation-lab/registry/mcp-fallback.source.json",
+        "sha256": "20d3ff1bac0f915d9e5f9364aca26e8a675d1e4da57bc251e56cd00adafb1af7",
+        "bytes": 2908
+      },
+      "installedFiles": [],
+      "runtimeStatus": "NOT_RUN",
+      "auditScope": "targeted static review; file hashes and syntax for prepared Python; no execution endorsement"
+    },
+    {
+      "id": "hermes-reference",
+      "repository": "https://github.com/theheavenlyd3mon/hermes-profiles",
+      "commit": "848635cc85293d0f30027d2f4c261aa095b2d51f",
+      "license": null,
+      "selection": "reference-only-not-redistributed",
+      "sourceManifest": {
+        "file": "creation-lab/registry/hermes-reference.source.json",
+        "sha256": "36b256913e09cc95da77de2d747a446a4f8f565fbdfda604087669e92936c795",
+        "bytes": 779
+      },
+      "installedFiles": [],
+      "runtimeStatus": "NOT_RUN",
+      "auditScope": "targeted static review; file hashes and syntax for prepared Python; no execution endorsement"
+    },
+    {
+      "id": "blender-lab-mcp",
+      "repository": "https://projects.blender.org/lab/blender_mcp",
+      "tag": "v1.0.3",
+      "commit": "2cea8d566dde07fbac28a61d698909d69724e853",
+      "license": "GPL-3.0-or-later",
+      "selection": "preferred-single-bridge",
+      "sourceManifest": {
+        "file": "creation-lab/registry/blender-lab-mcp.source.json",
+        "sha256": "94b42e548eaf0d5fabd6da68c4cd9196571edc0c460647fcf61c0d8046b2eea5",
+        "bytes": 991698
+      },
+      "runtimeStatus": "PASS",
+      "runtimeEvidence": "creation-lab/registry/mcp-probe-20261022T220057Z-0bba3e71/report.json",
+      "registrationStatus": "PASS",
+      "codexToolAvailabilityStatus": "NOT_RUN",
+      "viewportScreenshotStatus": "NOT_RUN",
+      "launcherProbeStatus": "PASS",
+      "launcherProbeEvidence": {
+        "file": "creation-lab/registry/launcher-probe-20261022T220620Z-9ee77265/report.json",
+        "sha256": "c811162efdc653b5c2a22fe75882255ff13e7579618ea0f7de460592cdab2e2c",
+        "bytes": 9239
+      },
+      "auditScope": "targeted source review, archive integrity, isolated stdio MCP smoke; unrelated tools and user editor NOT_RUN",
+      "localRegistrationObservation": {
+        "file": ".codex/config.toml",
+        "sha256": "15b713353386053a7548fc39214f285adaf644420d2b712b1ce9459214981968",
+        "bytes": 950,
+        "scope": "Historical host-only observation; local configuration is not distributed or required by source verification."
+      }
+    }
+  ],
+  "licenses": [
+    {
+      "file": "creation-lab/vendor/rivello/LICENSE",
+      "sha256": "f79f113d911804fcc88d99f9d85db46c3ce835bfc0f22232380d9f0f198e5127",
+      "bytes": 1091
+    },
+    {
+      "file": "creation-lab/vendor/lpm/LICENSE",
+      "sha256": "a7dc3f2de87b8aba423e8235159d3b8d96b749e5e192de5573cfd0dfd2719b56",
+      "bytes": 1068
+    },
+    {
+      "file": "creation-lab/vendor/blender-lab-mcp/COPYING.GPL-3.0.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149
+    }
+  ],
+  "adapters": [
+    {
+      "file": "creation-lab/registry/skill-pack/blender-codex-recipes/SKILL.md",
+      "sha256": "549c03194c4a241a0b1bc49b8dadaac739adb354780d3663c5d7cdc0a7b08dc6",
+      "bytes": 2566
+    },
+    {
+      "file": "creation-lab/registry/skill-pack/blender-lpm-recipes/SKILL.md",
+      "sha256": "6ded460a11082c11458c0c99b3f723e1d68416e88ecd0e82555ba8574e6f7609",
+      "bytes": 2169
+    }
+  ],
+  "installedAdapters": [
+    {
+      "file": ".agents/skills/blender-codex-recipes/SKILL.md",
+      "sha256": "549c03194c4a241a0b1bc49b8dadaac739adb354780d3663c5d7cdc0a7b08dc6",
+      "bytes": 2566
+    },
+    {
+      "file": ".agents/skills/blender-lpm-recipes/SKILL.md",
+      "sha256": "6ded460a11082c11458c0c99b3f723e1d68416e88ecd0e82555ba8574e6f7609",
+      "bytes": 2169
+    }
+  ],
+  "projectRuntimeFiles": [
+    {
+      "file": "creation-lab/registry/launch_official_mcp.py",
+      "sha256": "1413a33244658a8e203569e96eb9370ffa4a12d85b42b5e475f69b462c97a65c",
+      "bytes": 386
+    },
+    {
+      "file": "creation-lab/registry/launch_isolated_mcp.py",
+      "sha256": "251033cfae527db397b0eeac1857c235c6bfa5997321c4a4ac8e32ada4d8aa2f",
+      "bytes": 3636
+    },
+    {
+      "file": "creation-lab/registry/probe_official_mcp.py",
+      "sha256": "76d9399f3e2cdf8b39280724b0174a214edea6540fb526cf915891e0408f8852",
+      "bytes": 12462
+    },
+    {
+      "file": "creation-lab/registry/probe_project_launcher.py",
+      "sha256": "0fcf21eb7105994192edf67a08506ab6e91811901b7b820b61dd35dbd38b1eac",
+      "bytes": 7308
+    },
+    {
+      "file": "creation-lab/registry/codex-mcp.example.toml",
+      "sha256": "87d1974e337177278933e71292bca57bcf782e8c9117fe9ac4f90714d75e47d1",
+      "bytes": 673
+    },
+    {
+      "file": "creation-lab/registry/restore_mcp_runtime.py",
+      "sha256": "be75621650cd5a0a41c1b52b6edceed4ef0d0556a6bb9b20e325eff0ca14ec84",
+      "bytes": 3446
+    }
+  ],
+  "runtimeLock": {
+    "file": "creation-lab/registry/mcp-runtime.lock.json",
+    "sha256": "edf5a9ef023e8e665c35db4231597aeb486e49f07d5926d1d9e2a50b1711986b",
+    "bytes": 15592
+  },
+  "runtimeRequirements": {
+    "file": "creation-lab/registry/mcp-runtime.requirements.txt",
+    "sha256": "d2c405d834a1408461cd94d1495eb52298c8027c7ab39974512a03f17c1d51e5",
+    "bytes": 4042
+  },
+  "installation": {
+    "helper": "skill-installer/scripts/install-skill-from-github.py",
+    "method": "git sparse checkout",
+    "destination": "creation-lab/vendor",
+    "upstreamInstallScriptsExecuted": false
+  },
+  "validation": {
+    "sourceIntegrity": "PASS",
+    "syntax": "PASS",
+    "pythonFilesParsed": 109,
+    "note": "AST parsing is not runtime testing"
+  }
+}

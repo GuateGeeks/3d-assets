@@ -1,0 +1,139 @@
+{
+  "id": "oga-gears-gear-10",
+  "assetId": "opengameart:gear/gear_10",
+  "providerId": "opengameart",
+  "provider": "OpenGameArt",
+  "title": "Engranaje · 10 dientes",
+  "titleOriginal": "gear_10",
+  "author": "Elegant Crow",
+  "authorUrl": "https://opengameart.org/users/elegant-crow",
+  "sourceUrl": "https://opengameart.org/content/gear-pack",
+  "metadataUrl": null,
+  "downloadUrl": "https://opengameart.org/sites/default/files/gear_pack.zip",
+  "thumbnailUrl": null,
+  "description": "Recurso estilizado de Gear Pack (2020-09-01). Sirve para ilustración; el perfil y el paso requieren validación antes de simular un mecanismo.",
+  "category": "Mechanics",
+  "tags": [
+    "gear",
+    "engranaje",
+    "dientes",
+    "10",
+    "relación de transmisión"
+  ],
+  "areas": [
+    "fisica-energia",
+    "robotica-electronica",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC-BY-SA 4.0",
+  "license": {
+    "id": "CC-BY-SA-4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": true
+  },
+  "attribution": "\"Engranaje · 10 dientes\" (gear_10), por Elegant Crow, https://opengameart.org/content/gear-pack. CC-BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/. Textura: CC0Textures.com, según el crédito del autor. Adaptación GLB y miniatura: GuateGeeks; conserva CC BY-SA 4.0.",
+  "modifications": "GLB exportado con Blender 5.2.3 LTS; OBJ convertido, textura original de 512 px asignada e incrustada; sin cambio de escala; material PBR configurado para el visor.",
+  "file": "models/oga-gears-gear-10/model.glb",
+  "sourceMetadataFile": "models/oga-gears-gear-10/source.json",
+  "originalDownload": "models/oga-gears-gear-10/originals.zip",
+  "bytes": 226412,
+  "sha256": "6c205a793b7566778b80e3b33837d603fd30d1675c87c56f6fbc8c9ba1fa204a",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:32:19.925006+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Recurso visual revisado; asignación curricular y exactitud científica o mecánica requieren revisión docente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "gear-mechanics-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Gear Pack (2020-09-01)",
+    "sourceMember": "gear_pack/models/gear_10.obj",
+    "originalFiles": [
+      {
+        "file": "models/oga-gears-gear-10/original/gear_10.obj",
+        "sha256": "a0d46e06bfd6b95b25effdcbaa119a69cc5524e0591fec31ecc70f387aefe2e7",
+        "bytes": 55458
+      },
+      {
+        "file": "models/oga-gears-gear-10/original/textures/gear_10_tex_512.png",
+        "sha256": "c8650733596106d48d455669d2775d5cba6ba2bd551d7622e856d6cf7d70d8c2",
+        "bytes": 196892
+      }
+    ],
+    "originalDownloadSha256": "845db17a6e18e6b1bdcfcdc6bd22ebf8fb93292bafd026b0da2360f7db3b6467",
+    "archiveSha256": "2ec380ee5499a79e742f7728295699f117d8ae8dd9ccbbb4a67bb191babd0c0a",
+    "licenseEvidence": "sources/external/oga-gears/License.txt",
+    "conversionTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      2.0475080013275146,
+      0.28000015020370483,
+      2.121687889099121
+    ],
+    "reimportDimensionsBlender": [
+      2.0475080013275146,
+      0.28000032901763916,
+      2.1216881275177
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "024e0fb804cf39e47ba34a73532f023705f90d5339ef6a8497c62bb5fce8ccf2",
+      "triangles": 720
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewImages": [
+      {
+        "file": "sources/external/review/kenney-comparison.png",
+        "sha256": "1ec71e69d1709aa09ba57a5c56f53ae2b5d1f437544fd27f456bfdda44900391"
+      },
+      {
+        "file": "sources/external/review/oga-comparison.png",
+        "sha256": "4bf0f1c52154ff3215f193a63593f34c2a7f6e1bf5d2aa01002a90469f37dfd6"
+      },
+      {
+        "file": "sources/external/review/kenney-all-views.png",
+        "sha256": "9b82bb513563b848f22a7afc8177ed5bd712c1ee5a2080710cdd95a99d5b2e48"
+      },
+      {
+        "file": "sources/external/review/oga-all-views.png",
+        "sha256": "d9fc5c5037a0f629afb710dfa9c728f2befe14fa72e0d41dcf160354c19acbdc"
+      }
+    ]
+  }
+}

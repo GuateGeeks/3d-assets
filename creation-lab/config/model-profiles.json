@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "purpose": "workflow-routing-preferences-not-runtime-or-benchmark",
+  "profiles": {
+    "bootstrap": {"model": "gpt-6-astra", "reasoningEffort": "high"},
+    "architecture": {"model": "gpt-6-astra", "reasoningEffort": "xhigh"},
+    "implementation": {"model": "gpt-6.1-sol", "reasoningEffort": "high"},
+    "review": {"model": "gpt-6-astra", "reasoningEffort": "xhigh"},
+    "documentation": {"model": "gpt-6-luna", "reasoningEffort": "medium"}
+  },
+  "imagePreferences": {
+    "exploration": "gpt-image-2.5-flare",
+    "refinement": "gpt-image-2.5-sunburst",
+    "availability": "NOT_RUN",
+    "providerEnabled": false
+  }
+}

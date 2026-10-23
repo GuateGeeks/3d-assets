@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "runId": "mcp-probe-20261022T215242Z-7ebf76a9",
+  "status": "FAIL",
+  "sourceCommit": "2cea8d566dde07fbac28a61d698909d69724e853",
+  "blenderExecutable": "D:\\SteamLibrary\\steamapps\\common\\Blender\\blender.exe",
+  "blenderSha256": "e546b2a0d81ae19bd5b306b668733102d91d23db2e2be02d68b7ecbe548af0a1",
+  "hostPython": "C:\\Users\\adawolfs\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "hostPythonVersion": "3.12.14",
+  "endpoint": {
+    "host": "127.0.0.1",
+    "port": 52163
+  },
+  "scope": "owned headless process, temporary preferences, stdio MCP handshake and execute_blender_code only",
+  "globalConfigurationChanged": false,
+  "registeredInCodex": false,
+  "steps": [],
+  "blenderPid": 15832,
+  "mcpPid": 34104,
+  "error": "MCP stdio ended or returned invalid protocol data",
+  "errorType": "RuntimeError",
+  "ownedProcessesStopped": true,
+  "listenerClosed": true,
+  "finishedAt": "2026-10-22T21:52:54.362722+00:00",
+  "evidence": [
+    {
+      "file": "blender.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "mcp.stderr.log",
+      "sha256": "ecf1d8396b3c954adf0f5502ee12471b1270d22694295c3511873ebcddc0da6c",
+      "bytes": 1345
+    },
+    {
+      "file": "blender_worker.py",
+      "sha256": "28249e5a8af47ac1fb9fe52fef9b60aa7c20d9d76b391d752c3adfc54c538071",
+      "bytes": 284
+    }
+  ]
+}

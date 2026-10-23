@@ -22,16 +22,21 @@ def package(name,version,files):
             save(ROOT/'gallery/vendor'/dest,f.read())
     return dict(name=name,version=version,license=meta.get('license'),url=meta['dist']['tarball'],integrity=meta['dist']['integrity'])
 deps=[package('@google/model-viewer','4.4.0',[('dist/model-viewer.min.js','model-viewer.min.js'),('LICENSE','model-viewer.LICENSE')]),package('@fontsource/inter','5.3.0',[(f'files/inter-latin-{w}-normal.woff2',f'inter-{w}.woff2') for w in (400,500,600,700)]+[('LICENSE','inter.LICENSE')])]
+previous={x['id']:x for x in json.loads((ROOT/'gallery/dependencies.json').read_text(encoding='utf-8')).get('thumbnails',[])} if (ROOT/'gallery/dependencies.json').exists() else {}
 models=json.loads((ROOT/'index.json').read_text(encoding='utf-8'))['models']
 def thumbnail(m):
     try:
         path=ROOT/'gallery/thumbnails'/(m['id']+'.webp')
+        if m.get('providerId','poly-pizza')!='poly-pizza':
+            record=previous.get(m['id'])
+            if not record or not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=record['sha256']: raise ValueError('Regenerate external thumbnail from its reviewed source')
+            return record
         if not path.exists(): save(path,get(m['thumbnailUrl']))
         data=path.read_bytes()
         if data[:4]!=b'RIFF' or data[8:12]!=b'WEBP': raise ValueError('Not WebP')
         return dict(id=m['id'],file='gallery/thumbnails/'+path.name,url=m['thumbnailUrl'],sha256=hashlib.sha256(data).hexdigest(),modelLicense=m['licenseRaw'])
     except Exception as e: return dict(id=m['id'],error=str(e))
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: thumbs=list(pool.map(thumbnail,models))
-manifest=dict(dependencies=deps,thumbnails=thumbs,note='Original catalog previews; per-model license and credits remain in index.json. No API key is used.')
+manifest=dict(dependencies=deps,thumbnails=thumbs,note='Catalog previews and reviewed local renders; per-model license and credits remain in index.json. No API key is used.')
 save(ROOT/'gallery/dependencies.json',(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n').encode())
 print(json.dumps(dict(dependencies=deps,thumbnails=len(thumbs),errors=[x for x in thumbs if 'error' in x]),indent=2))

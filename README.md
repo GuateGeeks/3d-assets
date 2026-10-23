@@ -1,6 +1,6 @@
 # GuateGeeks · Biblioteca 3D
 
-Galería de **342 modelos GLB** para Code Studio y Sócrates, organizados en **23 áreas**. Incluye miniaturas locales, vista 3D con cámara y animaciones, búsqueda en español y filtros por área, licencia y movimiento. Los créditos se consultan en cada ficha.
+Galería de **993 modelos GLB** para Code Studio y Sócrates, organizados en **23 áreas**. Incluye miniaturas locales, vista 3D con cámara y animaciones, búsqueda en español y filtros por área, fuente, kit, licencia y movimiento. Los créditos se consultan en cada ficha.
 
 ## Laboratorio local de rigging
 
@@ -10,11 +10,19 @@ evaluar SkinTokens en el equipo local, corregir, animar, revisar en la galería
 y producir paquetes versionados. Reutilizará el catálogo y el visor existentes,
 con áreas propias para trabajo experimental y derivados revisados.
 
-Estado: planificación. La instalación y las herramientas del laboratorio están
-pendientes. La implementación en Code Studio o Sócrates comenzará después de
-completar y validar el flujo en `3d-assets`.
+El [laboratorio](lab/README.md) aporta instalación aislada de UniRig, comprobación
+CUDA, corpus humano/cuadrúpedo con poses comparables y recepción de candidatos
+de creación con escala restaurada. El [estado vigente](lab/STATUS.md) y el
+[skill de rigging](.agents/skills/gg3d-rigging/SKILL.md) enlazan evidencia y pendientes.
+Los resultados de cada comprobación se conservan en `lab/reports/`. La implementación
+en Code Studio o Sócrates comenzará después de completar y validar todo el flujo
+en `3d-assets`.
 
 **Galería publicada:** [guategeeks.com/3d-assets](https://guategeeks.com/3d-assets/)
+
+Para preparar un clon con scripts, skills y dependencias opcionales, seguir
+[SETUP.md](SETUP.md). El [laboratorio de creación](creation-lab/START-HERE.md)
+y el de rigging se ejecutan dentro de este repositorio.
 
 ## Abrir localmente
 
@@ -47,17 +55,27 @@ La validación se ejecuta automáticamente en cada push y pull request. El despl
 
 ## Licencias e inventario
 
-- **68 modelos CC0 1.0** y **274 CC BY 3.0**.
-- **12 modelos con esqueleto** y **13 con animaciones** comprobadas dentro del GLB.
+- **711 modelos CC0 1.0**, **274 CC BY 3.0** y **8 CC BY-SA 4.0**.
+- **18 modelos con esqueleto** y **19 con animaciones** comprobadas dentro del GLB.
 - [Índice navegable de archivos](INDEX.md), [CSV](index.csv), [créditos](ATTRIBUTIONS.md) y [cobertura pendiente](COVERAGE.md).
 - `models/<ID>/`: GLB original, metadatos del catálogo, ficha normalizada y licencia.
 - [LICENSE.md](LICENSE.md): alcance de licencias de los modelos, la interfaz y los componentes.
 
 Los estados de revisión y las observaciones sobre precisión científica, identificación cultural o animaciones de terceros se conservan en las fichas. La asociación a un área es una propuesta para revisión docente, no una acreditación curricular.
 
+## Ampliación Kenney y OpenGameArt
+
+Se incorporaron **651 modelos de seis kits completos**: Kenney Nature Kit (329), Food Kit (200), Modular Buildings (108), OpenGameArt Gear Pack (8), Animated LowPoly Robot (1) y Animated Animales Low Poly (5). Sumados a los 342 originales, el catálogo contiene 993 fichas. Los ZIP completos conservan los formatos alternativos, las versiones y las licencias suministradas por sus autores.
+
+La galería ofrece **Agrupar variantes** y **Cada modelo**. Cada familia permite cambiar de variante desde su ficha; las coincidencias conocidas con el catálogo inicial se reúnen sin modificar sus originales. Agrupar una familia no afirma que sus piezas sean duplicados exactos. Los duplicados binarios compartirían ficha; no se encontraron entre las incorporaciones preparadas.
+
+Ver [kits e inventarios](kits/index.json), [familias y coincidencias](kits/groups.json), [informe completo](enrichment/reports/complete-kits.json) y [comparación con el catálogo inicial](enrichment/reports/DUPLICATES-REVIEW.md). En el sitio publicado, [kits.html](https://guategeeks.com/3d-assets/kits.html) permite descargar los seis ZIP completos. Los índices JSON/CSV incluyen licencia, atribución, kit, grupo y cambios de preparación.
+
+Los GLB nativos de Kenney conservan su geometría; cuando era necesario se incrustaron las imágenes originales. Los seis personajes animados se convirtieron desde BLEND, adaptando materiales antiguos a PBR y comprobando dimensiones y reimportación. Los originales se conservan para comparar fidelidad. Las miniaturas y hojas de contacto fueron inspeccionadas; la adecuación curricular sigue pendiente. La hormiga del piloto quedó excluida porque no superó las comprobaciones de conversión.
+
 ## Actualizar el catálogo
 
-`tools/catalog.py` permite verificar los modelos o ampliar la selección de `selection.json`. Para descargar se proporciona `POLY_PIZZA_KEY` solo en el entorno del proceso. `tools/setup_gallery.py` recupera las dependencias fijadas y las miniaturas nuevas. La publicación utiliza los archivos ya guardados; no consulta la API de Poly Pizza.
+`tools/reindex.py` regenera todos los índices sin reescribir modelos ni sus metadatos. `tools/audit.py` comprueba la consistencia. `tools/catalog.py` permite verificar los modelos o ampliar la selección de `selection.json`. Para descargar se proporciona `POLY_PIZZA_KEY` solo en el entorno del proceso. `tools/setup_gallery.py` recupera las dependencias fijadas y las miniaturas nuevas. La publicación utiliza los archivos ya guardados; no consulta la API de Poly Pizza.
 
 ```sh
 python tools/catalog.py verify
@@ -67,3 +85,13 @@ python tools/check_site.py
 ```
 
 El historial completo de fuentes públicas de búsqueda se conserva en `sources/search/`. El proceso de publicación copia un inventario explícito de archivos y excluye contexto de conversaciones, credenciales y directorios de trabajo.
+
+## Revisar el laboratorio de rigging
+
+El [laboratorio local](lab/README.md) ya prepara un humano y un cuadrúpedo del corpus y ejecuta UniRig sobre copias sin rig. La galería permite comparar controles y candidatos, poses estáticas y esqueletos antes de crear clips:
+
+```sh
+python tools/serve_gallery.py --lab --port 4390
+```
+
+Abrir `http://127.0.0.1:4390/gallery.html?lab=1` después de generar las vistas con los comandos del manual. El [informe del corpus](lab/reports/CORPUS-REVIEW.md) identifica los ajustes pendientes. Los resultados experimentales se guardan localmente y quedan excluidos del sitio publicado.

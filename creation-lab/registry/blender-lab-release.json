@@ -1,0 +1,62 @@
+{
+  "id": 497035,
+  "tag_name": "v1.0.3",
+  "target_commitish": "main",
+  "name": "Screenshot Fix",
+  "body": "* Fix the long standing screenshot capture tool.",
+  "url": "https://projects.blender.org/api/v1/repos/lab/blender_mcp/releases/497035",
+  "html_url": "https://projects.blender.org/lab/blender_mcp/releases/tag/v1.0.3",
+  "tarball_url": "https://projects.blender.org/lab/blender_mcp/archive/v1.0.3.tar.gz",
+  "zipball_url": "https://projects.blender.org/lab/blender_mcp/archive/v1.0.3.zip",
+  "upload_url": "https://projects.blender.org/api/v1/repos/lab/blender_mcp/releases/497035/assets",
+  "draft": false,
+  "prerelease": false,
+  "created_at": "2026-09-11T01:55:18-06:00",
+  "published_at": "2026-09-11T01:55:18-06:00",
+  "author": {
+    "id": 1179,
+    "login": "dfelinto",
+    "type": "User",
+    "login_name": "",
+    "source_id": 0,
+    "full_name": "Dalai Felinto",
+    "email": "1179+dfelinto@noreply.localhost",
+    "avatar_url": "https://projects.blender.org/avatars/82a45a3af74abd0d6d29f54852df1e39a8377d657085dea611619b369a041cab",
+    "html_url": "https://projects.blender.org/dfelinto",
+    "language": "",
+    "is_admin": false,
+    "last_login": "0001-01-01T00:00:00Z",
+    "created": "2006-06-01T21:16:33-06:00",
+    "restricted": false,
+    "active": false,
+    "prohibit_login": false,
+    "location": "",
+    "website": "",
+    "description": "",
+    "visibility": "public",
+    "followers_count": 32,
+    "following_count": 3,
+    "starred_repos_count": 2,
+    "username": "dfelinto"
+  },
+  "assets": [
+    {
+      "id": 115862,
+      "name": "blender-1.0.3.mcpb",
+      "size": 5500672,
+      "download_count": 37315,
+      "created_at": "2026-09-11T01:57:40-06:00",
+      "uuid": "add80a79-f957-4859-b5da-859c54209356",
+      "browser_download_url": "https://projects.blender.org/lab/blender_mcp/releases/download/v1.0.3/blender-1.0.3.mcpb"
+    },
+    {
+      "id": 115861,
+      "name": "mcp-1.0.3.zip",
+      "size": 17975,
+      "download_count": 323462,
+      "created_at": "2026-09-11T01:56:56-06:00",
+      "uuid": "0f72fa7c-7f1e-4d97-9ddf-a158d112c522",
+      "browser_download_url": "https://projects.blender.org/lab/blender_mcp/releases/download/v1.0.3/mcp-1.0.3.zip"
+    }
+  ]
+}

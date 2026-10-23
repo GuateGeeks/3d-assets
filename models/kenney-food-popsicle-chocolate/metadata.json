@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-popsicle-chocolate",
+  "assetId": "kenney:kenney-food/popsicle-chocolate",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "popsicle chocolate",
+  "titleOriginal": "popsicle-chocolate",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "popsicle-chocolate",
+    "kenney-food",
+    "food-popsicle"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"popsicle-chocolate\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-popsicle-chocolate/model.glb",
+  "sourceMetadataFile": "models/kenney-food-popsicle-chocolate/source.json",
+  "originalDownload": "models/kenney-food-popsicle-chocolate/originals.zip",
+  "bytes": 22564,
+  "sha256": "2896e780e46b1bd4e6fed1dba992cb48228986ccc1891337818f4f0fbfc7f227",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/popsicle-chocolate.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-popsicle-chocolate/original/popsicle-chocolate.glb",
+        "sha256": "9a45167a87be0d60f12719f1f95c1a19dd44ba9bb849f1e5c76c45d99c8bf1d6",
+        "bytes": 11796
+      },
+      {
+        "file": "models/kenney-food-popsicle-chocolate/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "8bfad0c1739090272f7f54b1dc10b00e2a242178998609c2ad4b83ffbad34470",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.0949999988079071,
+      0.20000000298023224,
+      0.49000000953674316
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "1261c76ee2a3191aad130f3f9af75d7bc20a60b2c598347b8e3c67c9bdeb0c3b",
+      "triangles": 132
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

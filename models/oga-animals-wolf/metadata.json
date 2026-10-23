@@ -1,0 +1,113 @@
+{
+  "id": "oga-animals-wolf",
+  "assetId": "opengameart:oga-animals/Wolf",
+  "providerId": "opengameart",
+  "provider": "OpenGameArt",
+  "title": "Wolf",
+  "titleOriginal": "Wolf",
+  "author": "Quaternius",
+  "authorUrl": "https://opengameart.org/users/quaternius",
+  "sourceUrl": "https://opengameart.org/content/animated-animales-low-poly",
+  "metadataUrl": null,
+  "downloadUrl": "https://opengameart.org/sites/default/files/Animal%20Pack%20Vol.2%20by%20%40Quaternius.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Animated Animales Low Poly. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Characters",
+  "tags": [
+    "Wolf",
+    "oga-animals",
+    "character-wolf"
+  ],
+  "areas": [
+    "animales-biodiversidad",
+    "personajes-animacion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Wolf\" de Animated Animales Low Poly, por Quaternius. https://opengameart.org/content/animated-animales-low-poly. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Blender 5.2.3 LTS: BLEND convertido a GLB; materiales antiguos convertidos a PBR conservando el color difuso; restricciones de rig horneadas a curvas cuando el exportador lo requiere; dimensiones de reposo comprobadas; originales conservados.",
+  "file": "models/oga-animals-wolf/model.glb",
+  "sourceMetadataFile": "models/oga-animals-wolf/source.json",
+  "originalDownload": "models/oga-animals-wolf/originals.zip",
+  "bytes": 150960,
+  "sha256": "12cc8f8b4ca4cd31e353c644620daf8236cca17f5150ac8431f38676da83a635",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 26,
+    "materials": 1,
+    "skins": 1,
+    "joints": 24,
+    "rigged": true,
+    "animated": true,
+    "animations": 2,
+    "animationNames": [
+      "Idle",
+      "Walking"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:55:07.015562+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "provenance": {
+    "pack": "Animated Animales Low Poly",
+    "sourceMember": "Animal Pack Vol.2 by @Quaternius/Blends/Wolf.blend",
+    "originalFiles": [
+      {
+        "file": "models/oga-animals-wolf/original/Wolf.blend",
+        "sha256": "df8216633505c4b9c88a72393f8ff8e0344861355a30b6a35cca4d03e7800044",
+        "bytes": 756476
+      }
+    ],
+    "originalDownloadSha256": "707149c20a4b3d106a023b82b3ad485c5b662bd735f56454e865e79add8ac62a",
+    "archiveSha256": "6d8f6789d65dbdb352ebad98a4209f26b41b384e87d81bc05e9ca76139db1248",
+    "licenseEvidence": "kits/oga-animals/LICENSE.txt",
+    "conversionTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      9.979426383972168,
+      2.2087349891662598,
+      5.3006181716918945
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "604dffbc014b2485d424937a90515bfbbe408a26a62b9e0fe802f01d8da0b901",
+      "triangles": 622
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

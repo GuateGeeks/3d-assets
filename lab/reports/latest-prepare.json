@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261022T220621Z-62b68df1",
+  "command": "prepare",
+  "startedAt": "2026-10-22T22:06:21.067592+00:00",
+  "status": "success",
+  "engine": "unirig",
+  "profileSha256": "f1a86b92c26e03f3c151dc285d12e25861aeb3df5cc0c898c830c10c6fa52488",
+  "stages": [
+    {
+      "name": "prepare-human",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/prepare_corpus.py",
+        "--asset",
+        "human",
+        "--run-dir",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T220621Z-62b68df1"
+      ],
+      "startedAt": "2026-10-22T22:06:21.068334+00:00",
+      "log": "lab/.local/runs/20261022T220621Z-62b68df1/prepare-human.log",
+      "exitCode": 0,
+      "seconds": 1.002
+    },
+    {
+      "name": "prepare-quadruped",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/prepare_corpus.py",
+        "--asset",
+        "quadruped",
+        "--run-dir",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T220621Z-62b68df1"
+      ],
+      "startedAt": "2026-10-22T22:06:22.071059+00:00",
+      "log": "lab/.local/runs/20261022T220621Z-62b68df1/prepare-quadruped.log",
+      "exitCode": 0,
+      "seconds": 1.001
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "lab/.local/runs/20261022T220621Z-62b68df1/prepared-human.json",
+      "bytes": 1971,
+      "sha256": "57adadef659937ee70429500e00f65c431d56db6f0e296434ca85ef14c461f49"
+    },
+    {
+      "file": "lab/.local/runs/20261022T220621Z-62b68df1/prepared-quadruped.json",
+      "bytes": 2047,
+      "sha256": "39ffaa10710ce455c03c2710441334f0ec6555dee71c853da7ab7f794357ada0"
+    }
+  ],
+  "finishedAt": "2026-10-22T22:06:23.073377+00:00",
+  "seconds": 2.006
+}

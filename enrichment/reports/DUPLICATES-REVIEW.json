@@ -1,0 +1,575 @@
+{
+  "schemaVersion": 1,
+  "baselineModels": 342,
+  "kenneyGlbsCompared": 637,
+  "binaryMatches": 0,
+  "geometryMatches": [
+    {
+      "external": "Food Kit / carrot.glb",
+      "existingId": "59muuwqSsq",
+      "status": "same-geometry-not-same-binary"
+    }
+  ],
+  "limitations": [
+    "Solo tres paquetes Kenney descargados y las fichas OpenGameArt citadas; no es una búsqueda exhaustiva de ambas plataformas.",
+    "Coincidencia de objeto, título o autor no equivale a copia del archivo.",
+    "Los dos candidatos Quaternius en OpenGameArt necesitan comparar archivos, rigs y clips."
+  ],
+  "rows": [
+    {
+      "platform": "Kenney",
+      "external": "Food Kit / carrot.glb",
+      "externalUrl": "https://kenney.nl/assets/food-kit",
+      "classification": "geometry-match",
+      "existingModels": [
+        {
+          "id": "3oFkNid6ofx",
+          "title": "Carrot",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/3oFkNid6ofx"
+        },
+        {
+          "id": "59muuwqSsq",
+          "title": "Carrot",
+          "author": "Kenney",
+          "url": "https://poly.pizza/m/59muuwqSsq"
+        },
+        {
+          "id": "c1zld-II5RD",
+          "title": "Carrot",
+          "author": "jeremy",
+          "url": "https://poly.pizza/m/c1zld-II5RD"
+        }
+      ],
+      "assessment": "No añadir como modelo nuevo: coincide geométricamente con Carrot de Kenney (59muuwqSsq); el archivo binario es distinto. Conservar como procedencia alternativa."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Food Kit / honey.glb",
+      "externalUrl": "https://kenney.nl/assets/food-kit",
+      "classification": "same-author-and-object",
+      "existingModels": [
+        {
+          "id": "p92t5dG8Zd",
+          "title": "Honey",
+          "author": "Kenney",
+          "url": "https://poly.pizza/m/p92t5dG8Zd"
+        }
+      ],
+      "assessment": "Versión candidata: mismo autor y objeto; la versión actual no coincide geométricamente. Incluir solo si la comparación visual aporta valor."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Food Kit / apple",
+      "externalUrl": "https://kenney.nl/assets/food-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "4F8_RIWgPC-",
+          "title": "Apple - red",
+          "author": "Zoe XR",
+          "url": "https://poly.pizza/m/4F8_RIWgPC-"
+        },
+        {
+          "id": "4tOmpD9-xsV",
+          "title": "Apple",
+          "author": "jeremy",
+          "url": "https://poly.pizza/m/4tOmpD9-xsV"
+        },
+        {
+          "id": "9cFoY7E-8mu",
+          "title": "Apple",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/9cFoY7E-8mu"
+        }
+      ],
+      "assessment": "Mismo objeto con otro diseño; no confirmado como copia. Puede servir para un conjunto visual coherente."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Food Kit / banana",
+      "externalUrl": "https://kenney.nl/assets/food-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "39KBQGgbPw_",
+          "title": "Banana Peeled",
+          "author": "Sean Tarrant",
+          "url": "https://poly.pizza/m/39KBQGgbPw_"
+        },
+        {
+          "id": "7JDar2uHBqg",
+          "title": "Banana",
+          "author": "Zoe XR",
+          "url": "https://poly.pizza/m/7JDar2uHBqg"
+        },
+        {
+          "id": "ahOO6wz8sV0",
+          "title": "Banana",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/ahOO6wz8sV0"
+        }
+      ],
+      "assessment": "Mismo objeto con otro diseño; no confirmado como copia. Puede servir para un conjunto visual coherente."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Food Kit / avocado",
+      "externalUrl": "https://kenney.nl/assets/food-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "1rEBMmsgfk_",
+          "title": "Avocado",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/1rEBMmsgfk_"
+        },
+        {
+          "id": "mjjd3bgEhT",
+          "title": "Avocado",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/mjjd3bgEhT"
+        },
+        {
+          "id": "ZUN3itcCyX",
+          "title": "Avocado",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/ZUN3itcCyX"
+        }
+      ],
+      "assessment": "Mismo objeto con otro diseño; no confirmado como copia. Puede servir para un conjunto visual coherente."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Food Kit / corn",
+      "externalUrl": "https://kenney.nl/assets/food-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "3zsUEPnTdFt",
+          "title": "Ear of corn",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/3zsUEPnTdFt"
+        },
+        {
+          "id": "dE73diXi82k",
+          "title": "Field of corn",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/dE73diXi82k"
+        },
+        {
+          "id": "IhhB7kGaAQ",
+          "title": "Corn",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/IhhB7kGaAQ"
+        }
+      ],
+      "assessment": "Mismo objeto con otro diseño; no confirmado como copia. Puede servir para un conjunto visual coherente."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Food Kit / mushroom",
+      "externalUrl": "https://kenney.nl/assets/food-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "2DAaKHD48ZP",
+          "title": "Mushroom",
+          "author": "jeremy",
+          "url": "https://poly.pizza/m/2DAaKHD48ZP"
+        },
+        {
+          "id": "alUv2htodmq",
+          "title": "Mushrooms",
+          "author": "Jarlan Perez",
+          "url": "https://poly.pizza/m/alUv2htodmq"
+        },
+        {
+          "id": "f35tumnmt3N",
+          "title": "Mushrooms",
+          "author": "Danni Bittman",
+          "url": "https://poly.pizza/m/f35tumnmt3N"
+        }
+      ],
+      "assessment": "Mismo objeto con otro diseño; no confirmado como copia. Puede servir para un conjunto visual coherente."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Food Kit / fish",
+      "externalUrl": "https://kenney.nl/assets/food-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "3GPUntjwqCa",
+          "title": "Goldfish",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/3GPUntjwqCa"
+        },
+        {
+          "id": "aEyLrUMMoUK",
+          "title": "Fish",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/aEyLrUMMoUK"
+        },
+        {
+          "id": "BEcU9rjiAq",
+          "title": "Fish",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/BEcU9rjiAq"
+        }
+      ],
+      "assessment": "Mismo objeto con otro diseño; no confirmado como copia. Puede servir para un conjunto visual coherente."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Food Kit / pizza",
+      "externalUrl": "https://kenney.nl/assets/food-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "9IWGn64Fnqo",
+          "title": "Pepperoni pizza",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/9IWGn64Fnqo"
+        },
+        {
+          "id": "CA4HtaaMJn",
+          "title": "Pizza Slice",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/CA4HtaaMJn"
+        },
+        {
+          "id": "efHt8L0V77z",
+          "title": "Supreme Pizza",
+          "author": "Jarlan Perez",
+          "url": "https://poly.pizza/m/efHt8L0V77z"
+        }
+      ],
+      "assessment": "Mismo objeto con otro diseño; no confirmado como copia. Puede servir para un conjunto visual coherente."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Nature Kit / árboles y pinos",
+      "externalUrl": "https://kenney.nl/assets/nature-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "6Yjt8nIwLsD",
+          "title": "Tree",
+          "author": "Marc Solà",
+          "url": "https://poly.pizza/m/6Yjt8nIwLsD"
+        },
+        {
+          "id": "cwyNyIba6WE",
+          "title": "Tree frog",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/cwyNyIba6WE"
+        },
+        {
+          "id": "etFGNvsiFv",
+          "title": "Trees",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/etFGNvsiFv"
+        },
+        {
+          "id": "oYtDty0fR6",
+          "title": "Pine Trees",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/oYtDty0fR6"
+        }
+      ],
+      "assessment": "Coincidencia temática; no coincidencia de geometría en la revisión de los tres paquetes."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Nature Kit / cactus",
+      "externalUrl": "https://kenney.nl/assets/nature-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "1_3Ur2-LAs8",
+          "title": "Cactus",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/1_3Ur2-LAs8"
+        },
+        {
+          "id": "2Kng1KnfMEc",
+          "title": "Green Cactus",
+          "author": "Daniel Melchior",
+          "url": "https://poly.pizza/m/2Kng1KnfMEc"
+        },
+        {
+          "id": "9UCcl_W0Xq3",
+          "title": "Cactus",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/9UCcl_W0Xq3"
+        }
+      ],
+      "assessment": "Coincidencia temática; no coincidencia de geometría en la revisión de los tres paquetes."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Nature Kit / flores",
+      "externalUrl": "https://kenney.nl/assets/nature-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "9dubDMkAcZ5",
+          "title": "Flower",
+          "author": "Zoe XR",
+          "url": "https://poly.pizza/m/9dubDMkAcZ5"
+        },
+        {
+          "id": "fg5U0dl1Sd3",
+          "title": "Flower",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/fg5U0dl1Sd3"
+        },
+        {
+          "id": "NBUxHir6FJ",
+          "title": "Flowers",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/NBUxHir6FJ"
+        }
+      ],
+      "assessment": "Coincidencia temática; no coincidencia de geometría en la revisión de los tres paquetes."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Nature Kit / hongos",
+      "externalUrl": "https://kenney.nl/assets/nature-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "2DAaKHD48ZP",
+          "title": "Mushroom",
+          "author": "jeremy",
+          "url": "https://poly.pizza/m/2DAaKHD48ZP"
+        },
+        {
+          "id": "alUv2htodmq",
+          "title": "Mushrooms",
+          "author": "Jarlan Perez",
+          "url": "https://poly.pizza/m/alUv2htodmq"
+        },
+        {
+          "id": "f35tumnmt3N",
+          "title": "Mushrooms",
+          "author": "Danni Bittman",
+          "url": "https://poly.pizza/m/f35tumnmt3N"
+        }
+      ],
+      "assessment": "Coincidencia temática; no coincidencia de geometría en la revisión de los tres paquetes."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Nature Kit / rocas",
+      "externalUrl": "https://kenney.nl/assets/nature-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "4mPkOKdzAk-",
+          "title": "Rocket ship",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/4mPkOKdzAk-"
+        },
+        {
+          "id": "4TpBWdzKDf2",
+          "title": "Rock",
+          "author": "Danni Bittman",
+          "url": "https://poly.pizza/m/4TpBWdzKDf2"
+        },
+        {
+          "id": "a5ChWS6uW0y",
+          "title": "Rocketship",
+          "author": "Gabriel Valdivia",
+          "url": "https://poly.pizza/m/a5ChWS6uW0y"
+        },
+        {
+          "id": "ah8WSBbizA6",
+          "title": "Rocketship",
+          "author": "jeremy",
+          "url": "https://poly.pizza/m/ah8WSBbizA6"
+        },
+        {
+          "id": "OQvi8PIZ40",
+          "title": "Rocks",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/OQvi8PIZ40"
+        },
+        {
+          "id": "RtLRqYjfMs",
+          "title": "Rock",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/RtLRqYjfMs"
+        }
+      ],
+      "assessment": "Coincidencia temática; no coincidencia de geometría en la revisión de los tres paquetes."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Nature Kit / puentes",
+      "externalUrl": "https://kenney.nl/assets/nature-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "10nw136Xjl",
+          "title": "Bridge",
+          "author": "Pixel",
+          "url": "https://poly.pizza/m/10nw136Xjl"
+        },
+        {
+          "id": "88e4zjTShuY",
+          "title": "rope bridge",
+          "author": "Jeremy Eyring",
+          "url": "https://poly.pizza/m/88e4zjTShuY"
+        },
+        {
+          "id": "j4KsIuJYnq",
+          "title": "Small Bridge",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/j4KsIuJYnq"
+        }
+      ],
+      "assessment": "Coincidencia temática; no coincidencia de geometría en la revisión de los tres paquetes."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Nature Kit / cercas",
+      "externalUrl": "https://kenney.nl/assets/nature-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "e02PFKKhbr",
+          "title": "Fence",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/e02PFKKhbr"
+        },
+        {
+          "id": "ecGdK1XryiQ",
+          "title": "Wooden fence",
+          "author": "Frank Lynam",
+          "url": "https://poly.pizza/m/ecGdK1XryiQ"
+        },
+        {
+          "id": "ZSQMyIqPTz",
+          "title": "Fence",
+          "author": "J-Toastie",
+          "url": "https://poly.pizza/m/ZSQMyIqPTz"
+        }
+      ],
+      "assessment": "Coincidencia temática; no coincidencia de geometría en la revisión de los tres paquetes."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Nature Kit / canoa/barcos",
+      "externalUrl": "https://kenney.nl/assets/nature-kit",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "1ZuSXvhkRg_",
+          "title": "Boat",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/1ZuSXvhkRg_"
+        },
+        {
+          "id": "BgSZXwmm7k",
+          "title": "Sail Boat",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/BgSZXwmm7k"
+        },
+        {
+          "id": "YwdXrwbN3o",
+          "title": "Boat",
+          "author": "Pixel",
+          "url": "https://poly.pizza/m/YwdXrwbN3o"
+        }
+      ],
+      "assessment": "Coincidencia temática; no coincidencia de geometría en la revisión de los tres paquetes."
+    },
+    {
+      "platform": "Kenney",
+      "external": "Modular Buildings / puertas y entradas",
+      "externalUrl": "https://kenney.nl/assets/modular-buildings",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "00xFHE4LR_6",
+          "title": "Nice Door",
+          "author": "Wesley Thompson",
+          "url": "https://poly.pizza/m/00xFHE4LR_6"
+        },
+        {
+          "id": "a948jjnuaL",
+          "title": "Door",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/a948jjnuaL"
+        },
+        {
+          "id": "NjrIKzZLYv",
+          "title": "Doorway",
+          "author": "Kenney",
+          "url": "https://poly.pizza/m/NjrIKzZLYv"
+        }
+      ],
+      "assessment": "Doorway de Kenney ya está en el catálogo; no coincidió geométricamente con este paquete. Las piezas pueden complementar escenas modulares."
+    },
+    {
+      "platform": "OpenGameArt",
+      "external": "Animated LowPoly Robot",
+      "externalUrl": "https://opengameart.org/node/89467",
+      "classification": "same-author-possible-source-version",
+      "existingModels": [
+        {
+          "id": "QCm7qe9uNJ",
+          "title": "Animated Robot",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/QCm7qe9uNJ"
+        }
+      ],
+      "assessment": "Posible versión del mismo asset de Quaternius. Archivo, geometría, rig y clips no comparados; no declarado duplicado confirmado."
+    },
+    {
+      "platform": "OpenGameArt",
+      "external": "Animated Animales Low Poly / Wolf",
+      "externalUrl": "https://opengameart.org/content/animated-animales-low-poly",
+      "classification": "same-author-possible-source-version",
+      "existingModels": [
+        {
+          "id": "P1gU3Qkr9r",
+          "title": "Wolf",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/P1gU3Qkr9r"
+        }
+      ],
+      "assessment": "Posible versión del mismo asset de Quaternius. Archivo, geometría, rig y clips no comparados; no declarado duplicado confirmado."
+    },
+    {
+      "platform": "OpenGameArt",
+      "external": "Gear Pack / gear_06–gear_20",
+      "externalUrl": "https://opengameart.org/content/gear-pack",
+      "classification": "semantic-overlap",
+      "existingModels": [
+        {
+          "id": "1tgrqxAQia",
+          "title": "Collectible Gear",
+          "author": "Quaternius",
+          "url": "https://poly.pizza/m/1tgrqxAQia"
+        },
+        {
+          "id": "4hAw8zQHeMJ",
+          "title": "Gears",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/4hAw8zQHeMJ"
+        },
+        {
+          "id": "cMM3raHMCug",
+          "title": "Gear",
+          "author": "Poly by Google",
+          "url": "https://poly.pizza/m/cMM3raHMCug"
+        }
+      ],
+      "assessment": "Ocho geometrías nuevas frente a tres engranajes existentes. Conservar: aportan variación estructural; comprobar paso y perfil si se usan para mecánica real."
+    }
+  ]
+}

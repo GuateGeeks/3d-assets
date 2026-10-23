@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-22",
+  "scope": "Staged clean checkout without ignored environments or local Codex configuration",
+  "cleanSnapshot": "git checkout-index --all --prefix=<new temporary directory>",
+  "catalog": {
+    "models": 993,
+    "thumbnails": 993,
+    "integrity": "PASS",
+    "publicationPaths": "PASS",
+    "credentialScan": "PASS"
+  },
+  "vendoredSources": {
+    "status": "PASS",
+    "filesVerified": 255
+  },
+  "creationTests": {
+    "total": 15,
+    "passed": 13,
+    "skipped": 2,
+    "skippedReason": "Native Blender opt-in"
+  },
+  "riggingTests": {
+    "total": 26,
+    "passed": 20,
+    "skipped": 6,
+    "skippedReason": "Five local bpy tests and one generated corpus evidence test"
+  },
+  "javascriptSyntax": {
+    "files": [
+      "gallery/app.js",
+      "gallery/lab.js"
+    ],
+    "status": "PASS"
+  },
+  "optionalMcpRestore": {
+    "status": "PASS",
+    "profile": "windows-cp312-x64",
+    "newIndependentTarget": true,
+    "hashRequired": true,
+    "importProbe": "PASS",
+    "blenderExecuted": false,
+    "activeRuntimeChanged": false
+  },
+  "exclusions": [
+    "local Codex configuration",
+    "environments",
+    "model checkpoints",
+    "caches",
+    "local experimental runs"
+  ],
+  "limitations": [
+    "No new GPU inference or native Blender canary was required for this publication check.",
+    "SkinTokens local runtime remains NOT_RUN; see rigging status.",
+    "Historical reports identify the original host; new users generate their own evidence."
+  ]
+}

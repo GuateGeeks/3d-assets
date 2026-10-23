@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "details": {
+    "id": "oga-animals",
+    "title": "Animated Animales Low Poly",
+    "providerId": "opengameart",
+    "provider": "OpenGameArt",
+    "author": "Quaternius",
+    "sourceUrl": "https://opengameart.org/content/animated-animales-low-poly",
+    "downloadUrl": "https://opengameart.org/sites/default/files/Animal%20Pack%20Vol.2%20by%20%40Quaternius.zip",
+    "file": "kits/oga-animals/original.zip",
+    "sha256": "6d8f6789d65dbdb352ebad98a4209f26b41b384e87d81bc05e9ca76139db1248",
+    "bytes": 2069972,
+    "licenseRaw": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseFile": "kits/oga-animals/LICENSE.txt",
+    "retrievedAt": "2026-10-22T22:55:07.015562+00:00",
+    "pageSnapshotSha256": "0408d7f97315702507cbfb35562b40791dd16e09b59d21ad255ff95238a5347e",
+    "attribution": "Animated Animales Low Poly — Quaternius. https://opengameart.org/content/animated-animales-low-poly. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/",
+    "logicalModels": 5,
+    "pageSnapshotFile": "sources/external/oga-animals/page.html"
+  },
+  "count": 5,
+  "modelIds": [
+    "oga-animals-cat",
+    "oga-animals-dog",
+    "oga-animals-eagle",
+    "oga-animals-piranha",
+    "oga-animals-wolf"
+  ]
+}

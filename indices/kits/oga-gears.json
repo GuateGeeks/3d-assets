@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "details": {
+    "id": "oga-gears",
+    "title": "Gear Pack",
+    "providerId": "opengameart",
+    "provider": "OpenGameArt",
+    "author": "Elegant Crow",
+    "sourceUrl": "https://opengameart.org/content/gear-pack",
+    "downloadUrl": "https://opengameart.org/sites/default/files/gear_pack.zip",
+    "file": "kits/oga-gears/original.zip",
+    "sha256": "2ec380ee5499a79e742f7728295699f117d8ae8dd9ccbbb4a67bb191babd0c0a",
+    "bytes": 8101503,
+    "licenseRaw": "CC-BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseFile": "kits/oga-gears/LICENSE.txt",
+    "retrievedAt": "2026-10-22T22:32:19.925006+00:00",
+    "pageSnapshotSha256": "aa194d743106bcac267f246441949c0455c0d499dba8911c110a9c0d8d357291",
+    "attribution": "Gear Pack — Elegant Crow. https://opengameart.org/content/gear-pack. CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/",
+    "logicalModels": 8,
+    "pageSnapshotFile": "sources/external/oga-gears/page.html"
+  },
+  "count": 8,
+  "modelIds": [
+    "oga-gears-gear-06",
+    "oga-gears-gear-08",
+    "oga-gears-gear-10",
+    "oga-gears-gear-12",
+    "oga-gears-gear-14",
+    "oga-gears-gear-16",
+    "oga-gears-gear-18",
+    "oga-gears-gear-20"
+  ]
+}

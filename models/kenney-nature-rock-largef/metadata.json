@@ -1,0 +1,110 @@
+{
+  "id": "kenney-nature-rock-largef",
+  "assetId": "kenney:kenney-nature/rock_largeF",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "rock · large F",
+  "titleOriginal": "rock_largeF",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "rock_largeF",
+    "kenney-nature",
+    "nature-rock"
+  ],
+  "areas": [
+    "tierra-geografia",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"rock_largeF\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-rock-largef/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-rock-largef/source.json",
+  "originalDownload": "models/kenney-nature-rock-largef/originals.zip",
+  "bytes": 7516,
+  "sha256": "4222107db4a47471494bdbf1eb2ad0ff297628afbcb7c392618e5742d831e0d4",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/rock_largeF.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-rock-largef/original/rock_largeF.glb",
+        "sha256": "4222107db4a47471494bdbf1eb2ad0ff297628afbcb7c392618e5742d831e0d4",
+        "bytes": 7516
+      }
+    ],
+    "originalDownloadSha256": "b92821eef75b3d4865d2ae0ad2e9a7afc87b1a4665d3dacfbf15baf22b797744",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.095458745956421,
+      0.8989823460578918,
+      0.4789620041847229
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "a76c22e3500e0de6274938213cb313f60e79b425e23dfff03f19f169d7b37bf8",
+      "triangles": 73
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

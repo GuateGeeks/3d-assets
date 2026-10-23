@@ -1,0 +1,39 @@
+{
+  "dimensionsBlender": [
+    0.09798220545053482,
+    0.09798220545053482,
+    0.2653450071811676
+  ],
+  "meshObjects": 1,
+  "polygons": 100,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "72a6fa01c97fd23503f5276b4b3ac9698d7f0617abade486c026c4c1a52eccb3",
+  "sourceFile": "Models/GLB format/beet.glb",
+  "id": "kenney-food-beet",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      0.09798220545053482,
+      0.09798220545053482,
+      0.2653450071811676
+    ],
+    "meshObjects": 1,
+    "polygons": 100,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 2.653450071811676e-05,
+  "selfContained": true,
+  "glbSha256": "e63a6e0fd0ca96ff8a783cb643f697b042530728f32eee723c7b9993878a9d80",
+  "images": {
+    "source-back.png": "73f35029ec785cc6367234147babd168ff05f33f4466e87b0e850f46456a2420",
+    "source-side.png": "bab2a3a80b696edd40105b6a943038ae7764c6ba9934ad0af41e3fc045125de4",
+    "source-front.png": "24451de6634a535cc24b33256a914fe3f4247b8b717b104e696ced31f5bf09f7",
+    "reimport-three-quarter.png": "24dc9e857758063b25b04b1cf0d0edaea99ff4d43c53172328a5438582e7cb89",
+    "source-three-quarter.png": "796c8a53a92226dc8f721b0d09f643cca9246786063da98bf6461086e439331b",
+    "source-wireframe.png": "29731a9728ba2a5f21ceaeed2b8bc6c452fc770d5d5b703b4a7b5f05dc7a0689"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

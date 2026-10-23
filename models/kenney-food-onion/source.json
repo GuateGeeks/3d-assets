@@ -1,0 +1,42 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Cebolla\" (onion), por Kenney, https://kenney.nl/assets/food-kit. CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/.",
+  "Creator": {
+    "Username": "Kenney"
+  },
+  "Title": "Cebolla",
+  "source": {
+    "schemaVersion": 1,
+    "providerId": "kenney",
+    "pack": "Food Kit 2.0",
+    "author": "Kenney",
+    "pageUrl": "https://kenney.nl/assets/food-kit",
+    "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "archiveBytes": 4606270,
+    "pageSnapshotSha256": "13dee04c66f97da6f4c367c6c3b051122e1da99f956bc7a788bc04878ced3c43",
+    "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+    "license": {
+      "id": "CC0-1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attributionRequired": false,
+      "commercialUse": true,
+      "derivatives": true,
+      "shareAlike": false
+    },
+    "licenseRaw": "CC0 1.0"
+  },
+  "member": "Models/GLB format/onion.glb",
+  "originalFiles": [
+    {
+      "file": "models/kenney-food-onion/original/onion.glb",
+      "sha256": "fffc1da48e9dceaa6a3527d913d75f8e5169e75f27c944e4977be4959c247f39",
+      "bytes": 8356
+    },
+    {
+      "file": "models/kenney-food-onion/original/Textures/colormap.png",
+      "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+      "bytes": 10715
+    }
+  ]
+}

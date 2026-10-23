@@ -17,8 +17,16 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate JavaScript
-        run: node --check gallery/app.js
+        run: |
+          node --check gallery/app.js
+          node --check gallery/lab.js
       - name: Build static site
         run: python tools/build_site.py
       - name: Verify models, credits, thumbnails and publication paths
         run: python tools/check_site.py
+      - name: Verify vendored sources
+        run: python creation-lab/registry/verify_sources.py
+      - name: Test creation contracts without Blender
+        run: python -m unittest discover -s creation-lab/tests -v
+      - name: Test rigging contracts without GPU
+        run: python -m unittest discover -s lab/tests -v

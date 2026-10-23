@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "assetId": "guategeeks-canary-beacon",
+  "description": "Original simple asymmetric three-block calibration beacon, front -Y. A technical canary, not a production character.",
+  "dimensionsM": [0.18, 0.19, 0.3],
+  "units": "m",
+  "budgets": {"triangles": 6000, "materials": 2, "textureSize": 2048},
+  "provider": {"mode": "manual"},
+  "seed": 17,
+  "provenance": {"author": "GuateGeeks", "origin": "original", "license": "CC0-1.0", "method": "Procedural original three-block canary; no external model, image, or texture"}
+}

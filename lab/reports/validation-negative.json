@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "case": "reject mesh with skeleton but no skinning weights",
+  "inputSha256": "02b68461bf72448058663414576cef5d7e10daa475218cfd7d3ecddb46546869",
+  "expectedExitCode": 1,
+  "actualExitCode": 1,
+  "validationStatus": "failed",
+  "failures": [
+    "Missing or non-normalized deformation weights"
+  ]
+}

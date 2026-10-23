@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "engine": "unirig",
+  "repository": "https://github.com/VAST-AI-Research/UniRig.git",
+  "commit": "6793c6640ff01c8fb389f3993434124bb43d2933",
+  "python": "3.11.14",
+  "uv": "0.9.5",
+  "torch": "2.5.1",
+  "torchvision": "0.20.1",
+  "torchIndex": "https://download.pytorch.org/whl/cu124",
+  "pygIndex": "https://data.pyg.org/whl/torch-2.5.1+cu124.html",
+  "flashAttentionVersion": "2.7.4.post1",
+  "flashAttentionWheel": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.5cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+  "modelRepository": "VAST-AI/UniRig",
+  "modelFiles": ["skeleton/articulation-xl_quantization_256/model.ckpt", "skin/articulation-xl/model.ckpt"]
+}

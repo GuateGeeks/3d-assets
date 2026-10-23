@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "engine": "unirig",
+  "status": "inference_verified",
+  "recordedAt": "2026-10-22T21:07:11.951233+00:00",
+  "commit": "6793c6640ff01c8fb389f3993434124bb43d2933",
+  "python": "3.11.14",
+  "profileSha256": "f1a86b92c26e03f3c151dc285d12e25861aeb3df5cc0c898c830c10c6fa52488",
+  "lockSha256": "b456cf5556d704e116b237ea0d1a18cfa1dceb12b13259b4a0703a04b6ae628f",
+  "upstreamRequirementsSha256": "315c371b021de30b57af300d9213fd542fe9eb4f981fd9dbf49cff96d3f45474",
+  "cudaVerified": true,
+  "inferenceVerified": true,
+  "verificationRunId": "20261022T210721Z-c6445dbd",
+  "modelsVerified": true,
+  "inferenceScope": "installation smoke: generated skeleton plus skinning of upstream-reviewed skeleton; no animation or visual approval",
+  "inferenceRunId": "20261022T211744Z-7452a5c2"
+}

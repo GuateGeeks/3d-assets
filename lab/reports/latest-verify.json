@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261022T210721Z-c6445dbd",
+  "command": "verify",
+  "startedAt": "2026-10-22T21:07:21.226112+00:00",
+  "status": "success",
+  "engine": "unirig",
+  "profileSha256": "f1a86b92c26e03f3c151dc285d12e25861aeb3df5cc0c898c830c10c6fa52488",
+  "stages": [
+    {
+      "name": "gpu-and-imports",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/probe_unirig.py"
+      ],
+      "startedAt": "2026-10-22T21:07:21.226689+00:00",
+      "log": "lab/.local/runs/20261022T210721Z-c6445dbd/gpu-and-imports.log",
+      "exitCode": 0,
+      "seconds": 20.016
+    }
+  ],
+  "artifacts": [],
+  "finishedAt": "2026-10-22T21:07:41.243388+00:00",
+  "seconds": 20.017
+}

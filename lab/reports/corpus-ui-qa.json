@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "url": "http://127.0.0.1:4390/gallery.html?lab=1",
+  "desktopViewport": {
+    "width": 1265,
+    "height": 712
+  },
+  "mobileViewport": {
+    "width": 390,
+    "height": 844,
+    "documentScrollWidth": 390,
+    "comparisonColumns": 1
+  },
+  "checks": [
+    "human and quadruped rest and deformation stills render",
+    "skeleton overlay renders; unused IK targets omitted",
+    "camera change via keyboard visibly synchronizes both views",
+    "prepared unrigged reference renders",
+    "notes persist after reload and are scoped to run; test note cleared",
+    "JSON export contains correct source/candidate hashes and pending verdict",
+    "catalog retains 342 models; original Man renders with 11 clips",
+    "no new console errors observed after Wasm CSP fix",
+    "mobile camera framing shows the whole quadruped; viewport override reset",
+    "latest review inventory renders; reset camera restores complete quadruped framing"
+  ],
+  "exportCheck": {
+    "asset": "human",
+    "runId": "20261022T213527Z-159dbb54",
+    "candidateSha256": "274dccc29f65bca7583b4d337a3992929e3964c821cb1725f949dbb146e640bd",
+    "verdict": "pending"
+  },
+  "screenshots": [
+    "lab/.local/qa/human-knee.jpg",
+    "lab/.local/qa/quadruped-tail.jpg",
+    "lab/.local/qa/mobile-review.jpg",
+    "lab/.local/qa/20261022T220402Z-eab41af6/quadruped-final.jpg"
+  ],
+  "designDetector": {
+    "result": "warnings only: incumbent Inter font",
+    "disposition": "preserve gallery/DESIGN.md identity; no redesign requested"
+  },
+  "reviewRunId": "20261022T220402Z-eab41af6",
+  "screenshotSha256": {
+    "lab/.local/qa/human-knee.jpg": "8584265f4a76304be79e35215ebba89d524fa6ce6b6b52fca0b8d8aa9bb1393f",
+    "lab/.local/qa/quadruped-tail.jpg": "893f8ccba670bb562a4efd9b181374f8a9049e8275f722e7cdce1b5c7d4b2278",
+    "lab/.local/qa/mobile-review.jpg": "72082200224f63712ad34b3e6eab88d63dcecab0451cbb6c8260408b35bebc09",
+    "lab/.local/qa/20261022T220402Z-eab41af6/quadruped-final.jpg": "13477b97992a88e9c3e18d1018b5208c08e742b365af18dcdc0d7476a68df831"
+  }
+}

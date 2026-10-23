@@ -1,0 +1,115 @@
+{
+  "id": "D",
+  "runId": "20261022T231712Z-01df29e7",
+  "score": 87,
+  "rubric": {
+    "biologicalFidelity": {
+      "score": 27,
+      "max": 30,
+      "reason": "Se reconocen nucléolo interior sin envoltura propia aparente, núcleo abierto con poros sugeridos y filamentos de cromatina sin figuras en X, RER próximo con gránulos adheridos, REL tubular sin esos gránulos, Golgi separado con vesículas, dos mitocondrias abiertas con crestas y centríolos aproximadamente perpendiculares. El citoesqueleto combina filamentos periféricos y algunos segmentos próximos al centrosoma. La forma fina y la continuidad de membranas siguen sin verificarse."
+    },
+    "partReadability": {
+      "score": 22,
+      "max": 25,
+      "reason": "Las estructuras principales se distinguen por forma y posición, incluidas las crestas de ambas mitocondrias. REL, Golgi, vesículas y filamentos son pálidos; algunos detalles pequeños requieren atención para separarse del fondo."
+    },
+    "spatialComposition": {
+      "score": 13,
+      "max": 15,
+      "reason": "El corte superior despeja el interior y distribuye núcleo, retículos, Golgi y mitocondrias sin solapamientos mayores en la cámara común. Hay cierta lectura de objetos aislados sobre una superficie, y las vistas bajas ocultan parte de sus interiores."
+    },
+    "shapeAndShading": {
+      "score": 12,
+      "max": 15,
+      "reason": "Silueta continua, superficies suaves y crestas interiores legibles. La iluminación y los colores lavados reducen contraste de las piezas claras; el wireframe es poco visible. La cromatina se percibe algo angular y esquemática."
+    },
+    "educationalUsability": {
+      "score": 13,
+      "max": 15,
+      "reason": "La geometría permite asociar las 13 etiquetas y funciones en español de parts.json a estructuras reconocibles, con interiores útiles del núcleo y las mitocondrias. Esta puntuación se limita a geometría y etiquetas disponibles; no se evaluó UI, interacción ni selección."
+    }
+  },
+  "visual": {
+    "status": "PASS",
+    "reason": "La cámara común ofrece un corte abierto legible y la reimportación conserva de forma aparente su silueta, composición y materiales. Quedan mejoras de contraste y de legibilidad de detalles pequeños."
+  },
+  "biological": {
+    "status": "PASS",
+    "reason": "Los rasgos didácticos del brief son reconocibles en el conjunto de vistas, incluidos nucléolo interior, poros sugeridos, RER con gránulos, REL tubular, Golgi con vesículas, dos mitocondrias con pliegues interiores y centríolos aproximadamente perpendiculares. El dictamen solo cubre estos rasgos visibles; no aprueba anatomía oculta, número exacto de tripletes ni continuidad ultrastructural."
+  },
+  "summary": "Revisión ciega del run final indicado, posterior a la reparación técnica anunciada, limitada a los seis hashes registrados. Se abrieron de nuevo las seis vistas. No se observa un cambio material en la composición, legibilidad, formas o relaciones biológicas respecto del run anterior, por lo que se conservan 87/100 y visual PASS y biología PASS con alcance limitado a rasgos visibles. Las reservas de contraste y detalle siguen vigentes. La revisión anterior está en history/D-20261022T230439Z-cff6edbd.json. La apariencia no verifica por sí sola la reparación técnica del GLB.",
+  "defects": [
+    {
+      "view": "three-quarter",
+      "detail": "El REL celeste, el Golgi amarillo y sus vesículas tienen poco contraste frente al citosol pálido; los contornos pequeños se pierden parcialmente."
+    },
+    {
+      "view": "front",
+      "detail": "Los bordes anteriores de ambas mitocondrias ocultan buena parte de las crestas en esta vista baja. El interior se comprende mejor en three-quarter."
+    },
+    {
+      "view": "side",
+      "detail": "El núcleo y el borde lateral tapan algunos componentes y dificultan apreciar el conjunto del citoesqueleto. No todas las estructuras son legibles desde este ángulo."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "Los filamentos de cromatina se presentan como líneas algo angulares sobre el interior nuclear; su carácter esquemático es reconocible, pero la forma resulta menos orgánica que otras piezas."
+    },
+    {
+      "view": "wireframe",
+      "detail": "La trama tiene contraste muy bajo y no permite evaluar con confianza la topología fina de centríolos, retículos o crestas."
+    }
+  ],
+  "strengths": [
+    "Corte amplio que muestra el interior desde la cámara común sin una esfera opaca obstructiva.",
+    "Núcleo abierto con nucléolo visible, poros sugeridos y cromatina filamentosa sin cromosomas en X.",
+    "RER con gránulos próximo al núcleo y REL tubular diferenciados del Golgi con cisternas curvas.",
+    "Dos mitocondrias abiertas con pliegues visibles dentro de sus envolturas.",
+    "Centríolos de ejes aproximadamente perpendiculares, con citoesqueleto escaso que no se reduce a una única estrella radial.",
+    "Las 13 etiquetas y funciones en español están presentes en parts.json.",
+    "La vista reimportada conserva de forma aparente la presentación de la fuente."
+  ],
+  "evidenceLimits": [
+    "Se abrieron realmente front, side, back, three-quarter, wireframe y reimport-three-quarter mediante view_image.",
+    "No se aprueba biología oculta. Los nombres de objetos y designNotes no sustituyen la observación de imágenes.",
+    "Los poros son reconocibles como sugerencias gráficas; no se verificó su perforación real ni la continuidad microscópica de las membranas.",
+    "No se verificó el número exacto de tripletes de los centríolos ni el inventario completo de estructuras de la escena.",
+    "No se evaluó UI ni comportamiento interactivo. educationalUsability considera solamente geometría visible y etiquetas de parts.json.",
+    "No se midieron dimensiones, polígonos, materiales, objetos ni tamaño del GLB.",
+    "Se revisaron los renders posteriores a la reparación; la corrección topológica no se deduce de su apariencia y queda fuera de esta evaluación visual."
+  ],
+  "imageEvidence": [
+    {
+      "view": "front",
+      "sha256": "e6a9a8b224083a5039b115ee8f88c9e80c2a3b702008ed48a0e7542eb270ac09"
+    },
+    {
+      "view": "side",
+      "sha256": "2644783db2061030c53079f085a090929e72721f54c86a946d191207e40a5ecf"
+    },
+    {
+      "view": "back",
+      "sha256": "2cfb5111fbec37251038e98c522e345aca893eb8a80f08ec7b7e3c18fd618ff1"
+    },
+    {
+      "view": "three-quarter",
+      "sha256": "334b79596e46104d787c6b6a00b65e347ddd0d02e4aa18d6dbd1756ed34142a7"
+    },
+    {
+      "view": "wireframe",
+      "sha256": "2b4141e5d17777a43cd551293824245688f3f846a669d0bd290806a7238689d9"
+    },
+    {
+      "view": "reimport-three-quarter",
+      "sha256": "a44062b8d2a50ad152cfb25d37d120b08fae3c71a9a26e55f3ae02d5dbe7e5e4"
+    }
+  ],
+  "reviewer": "independent fresh-context assistant, blinded to author mapping",
+  "comparison": {
+    "previousRunId": "20261022T230439Z-cff6edbd",
+    "previousScore": 87,
+    "scoreChanged": false,
+    "visibleChange": "Sin cambio material perceptible en las seis vistas a la resolución revisada. La variación ligera del wireframe no modifica la valoración educativa.",
+    "previousReview": "history/D-20261022T230439Z-cff6edbd.json"
+  }
+}

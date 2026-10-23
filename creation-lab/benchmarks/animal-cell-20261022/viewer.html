@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Célula animal · Laboratorio 3D</title>
+  <link rel="stylesheet" href="/viewer.css">
+  <script type="module" src="/vendor/model-viewer.min.js"></script>
+  <script src="/viewer.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><a class="brand" href="/">GuateGeeks <span>/ Laboratorio 3D</span></a><span class="pilot">Benchmark piloto · n = 1</span></header>
+  <main>
+    <div class="heading"><div><p class="eyebrow">Biología · Secundaria</p><h1>Célula animal</h1></div><p class="description">Explora sus estructuras y compara seis variantes de una misma maqueta.</p></div>
+    <nav id="variants" class="variants" aria-label="Variantes del modelo"></nav>
+    <section class="workspace" aria-label="Explorador de la célula">
+      <div class="stage">
+        <div class="stage-heading"><span id="variant-title">Preparando visor…</span><span id="technical" class="status"></span></div>
+        <model-viewer id="cell" camera-controls interaction-prompt="none" camera-orbit="36.87deg 53.74deg 0.75m" camera-target="0m 0m 0m" field-of-view="35deg" min-camera-orbit="auto 8deg 0.36m" max-camera-orbit="auto 172deg 1.3m" min-field-of-view="35deg" max-field-of-view="35deg" shadow-intensity="0.4" exposure="1" environment-image="neutral" interpolation-decay="130" alt="Maqueta tridimensional de una célula animal con corte abierto"></model-viewer>
+        <div id="load-state" class="load-state" role="status">Cargando resultados locales…</div>
+        <div class="stage-toolbar"><button id="reset" type="button">Restablecer vista</button><label><input id="labels" type="checkbox" checked> Mostrar etiquetas</label><span class="gesture">Arrastra para girar · Desplaza para acercar</span></div>
+        <p class="scale-note">Maqueta ampliada de 30 cm. Colores, cantidades y proporciones convencionales.</p>
+        <div class="review-note" aria-live="polite"><p id="review-status">Visual: Pendiente · Biología: Pendiente</p><p id="review-summary">Revisión educativa pendiente.</p></div>
+      </div>
+      <aside class="inspector" aria-labelledby="parts-heading"><div class="inspector-heading"><p class="eyebrow">Estructuras de la célula</p><h2 id="parts-heading">13 partes, una célula</h2><p>Selecciona un número para ubicar una estructura.</p></div><div id="part-detail" class="part-detail" aria-live="polite"><h3>Explora el modelo</h3><p>Cada estructura cumple una función dentro de la célula.</p></div><ol id="parts" class="parts"></ol><div class="downloads"><a id="download-glb" download>Descargar GLB <span>↓</span></a><a id="download-blend" download>Descargar .blend <span>↓</span></a></div></aside>
+    </section>
+    <section class="comparison" aria-labelledby="comparison-heading"><div class="section-heading"><div><p class="eyebrow">Seis condiciones · Un mismo brief</p><h2 id="comparison-heading">Comparación del piloto</h2></div><button id="refresh" type="button">Actualizar resultados</button></div><p class="comparison-note">Una ejecución por condición. El tiempo incluye construcción y validación; este piloto no establece superioridad general de un modelo.</p><div class="table-scroll"><table><caption class="sr-only">Resultados técnicos y revisión de seis condiciones</caption><thead><tr><th scope="col">Variante</th><th scope="col">Modelo</th><th scope="col">Razonamiento</th><th scope="col">Triángulos</th><th scope="col">Materiales</th><th scope="col">MiB</th><th scope="col">Tiempo</th><th scope="col">QA técnica</th><th scope="col">Revisión visual</th><th scope="col">Fidelidad biológica</th><th scope="col">Score / 100</th></tr></thead><tbody id="comparison-body"></tbody></table></div><p class="comparison-note">PASS técnico comprueba el archivo; la fidelidad biológica y la calidad visual requieren revisión. Un guion indica información pendiente.</p></section>
+    <p id="error" class="error" role="alert" hidden></p>
+  </main>
+  <footer>GuateGeeks · Célula animal eucariota generalizada en interfase <span>Exploración educativa · Evidencia local</span></footer>
+</body>
+</html>

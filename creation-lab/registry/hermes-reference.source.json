@@ -1,0 +1,18 @@
+{
+  "id": "hermes-reference",
+  "repository": "https://github.com/theheavenlyd3mon/hermes-profiles",
+  "commit": "848635cc85293d0f30027d2f4c261aa095b2d51f",
+  "rootLicensePaths": [],
+  "reviewType": "static-source-only",
+  "files": [
+    {
+      "upstreamPath": "profiles/creative/skills/creative/blender-automation/SKILL.md",
+      "url": "https://raw.githubusercontent.com/theheavenlyd3mon/hermes-profiles/848635cc85293d0f30027d2f4c261aa095b2d51f/profiles/creative/skills/creative/blender-automation/SKILL.md",
+      "gitBlob": "57c2dcf082d895481dd480f6a2bf40dbf7898a1e",
+      "sha256": "386d6e45a467447645bd24aeccccc3e442890efdc08ee999573c1fab6fc913ea",
+      "bytes": 10852,
+      "frontmatterLicenseClaim": "MIT",
+      "redistributed": false
+    }
+  ]
+}

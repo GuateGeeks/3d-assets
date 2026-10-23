@@ -1,0 +1,3442 @@
+{
+  "id": "kenney-buildings",
+  "title": "Modular Buildings",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "author": "Kenney",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "file": "kits/kenney-buildings/original.zip",
+  "sha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+  "bytes": 1825490,
+  "licenseRaw": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseFile": "kits/kenney-buildings/LICENSE.txt",
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "pageSnapshotSha256": "b4584857377e02df9f993c29f54549a88309d71bcc7dfaa7931863bff081ddc9",
+  "attribution": "Modular Buildings — Kenney. https://kenney.nl/assets/modular-buildings. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/",
+  "members": [
+    {
+      "file": "License.txt",
+      "bytes": 720,
+      "sha256": "84002607f647b608c2861d8413bd9136a36d4063d74bf1af79347e3a012abeb5"
+    },
+    {
+      "file": "Models/FBX format/building-block.fbx",
+      "bytes": 27504,
+      "sha256": "536d93eecea83e3b2cfa481691b7baeacd32fc884c6c89ab541dfd0e4f33833f"
+    },
+    {
+      "file": "Models/FBX format/building-corner-bottom.fbx",
+      "bytes": 27424,
+      "sha256": "6143819b930a0c526c1c95c25a41024eb57705133ebf696b46e9f4b41b87ed95"
+    },
+    {
+      "file": "Models/FBX format/building-corner-top.fbx",
+      "bytes": 28224,
+      "sha256": "044efab97d7f75796b7d73b093909106d659ed422dc17bdb5ff03ccb33af03c9"
+    },
+    {
+      "file": "Models/FBX format/building-corner-window-middle.fbx",
+      "bytes": 28096,
+      "sha256": "e9186015b9f6016e29581cec737f2b1a33ae3295794e4dfb6f8e47b1a8b744f7"
+    },
+    {
+      "file": "Models/FBX format/building-corner-window-narrow.fbx",
+      "bytes": 28000,
+      "sha256": "be5b5ebd3b27cce178bd1ccde4706949f3000f0e1885c27f020324b9cfc391e9"
+    },
+    {
+      "file": "Models/FBX format/building-corner-window-sill.fbx",
+      "bytes": 26880,
+      "sha256": "6d3698a7d7056594691df7234ef6689f888b25a7eecfa1ea5b13ea994d931b5a"
+    },
+    {
+      "file": "Models/FBX format/building-corner-window-top-round.fbx",
+      "bytes": 25696,
+      "sha256": "b3aa202a79ff3ca169b13d260599fbe390269765fb200d8358a5d922d4f7a47c"
+    },
+    {
+      "file": "Models/FBX format/building-corner-window-top-square.fbx",
+      "bytes": 27984,
+      "sha256": "903504dc0da4c7d139c158430775772455909bfeec26958691bdf3667c4d6eef"
+    },
+    {
+      "file": "Models/FBX format/building-corner-window.fbx",
+      "bytes": 27952,
+      "sha256": "7a34c460092dd106d3b946638114be3b4610bbd7d0052b627e3a1c236cb1da32"
+    },
+    {
+      "file": "Models/FBX format/building-corner.fbx",
+      "bytes": 25696,
+      "sha256": "609f997a64de98f8cbc8b01158de0939eeca723c975fc26ecc08fe2a510765f7"
+    },
+    {
+      "file": "Models/FBX format/building-door-window-narrow.fbx",
+      "bytes": 25440,
+      "sha256": "683b7790f7792902117ecb203ea550f02a92179009ee5cef728005a092588681"
+    },
+    {
+      "file": "Models/FBX format/building-door-window.fbx",
+      "bytes": 25392,
+      "sha256": "a546eec4ec471db396a937ed4a33904a112a7c9bc7358cedb3c02cb5f4e78910"
+    },
+    {
+      "file": "Models/FBX format/building-door.fbx",
+      "bytes": 27312,
+      "sha256": "645dcf911d4eae8caa2bb79505aa7de37b1fc2ad49d451281d27219bce58c2d7"
+    },
+    {
+      "file": "Models/FBX format/building-edges-door.fbx",
+      "bytes": 28512,
+      "sha256": "ce2a6ca286dbfec2a01ed90dd234fde0db26da1d1c1845144c8fb27d4e82dc6a"
+    },
+    {
+      "file": "Models/FBX format/building-sample-house-a.fbx",
+      "bytes": 30640,
+      "sha256": "aaae50d0e61942449c933be323481258f40c65ee9242de1849216af4e6667189"
+    },
+    {
+      "file": "Models/FBX format/building-sample-house-b.fbx",
+      "bytes": 32144,
+      "sha256": "5e75d10811c7fe05cb50606dde2ee9e150a13ed3c57b3fedc07e38aef52f8467"
+    },
+    {
+      "file": "Models/FBX format/building-sample-house-c.fbx",
+      "bytes": 31232,
+      "sha256": "96c4a0a8071396ea9b01780d94886b26c46a6ffbb141ab50efb4fd7e5237c357"
+    },
+    {
+      "file": "Models/FBX format/building-sample-tower-a.fbx",
+      "bytes": 32448,
+      "sha256": "78be8e0a5e5d76bf0808ddfb322439105dacc3927a8648fb646a899cfbc9a075"
+    },
+    {
+      "file": "Models/FBX format/building-sample-tower-b.fbx",
+      "bytes": 31040,
+      "sha256": "e9fdc325ab0cf7313bc183136734979f33bd05cea456cd5530d35355c7bfa3b8"
+    },
+    {
+      "file": "Models/FBX format/building-sample-tower-c.fbx",
+      "bytes": 32192,
+      "sha256": "0f0752551c6b17cf559f092f8be76606c5c166d54a59de181c6d1af3c76f9215"
+    },
+    {
+      "file": "Models/FBX format/building-sample-tower-d.fbx",
+      "bytes": 34640,
+      "sha256": "65cd1ef7fb8c5eb1d5e7c723b112e46afafc1360cb416a0cffe4ba980a0cd273"
+    },
+    {
+      "file": "Models/FBX format/building-steps-narrow-windows-round.fbx",
+      "bytes": 26528,
+      "sha256": "1852c760095c3bc11a837fd91fc1dec2c62156dd1774bf2d06acb0444356a48f"
+    },
+    {
+      "file": "Models/FBX format/building-steps-narrow-windows.fbx",
+      "bytes": 25792,
+      "sha256": "ab8ca9f64542a34c868752e9c2e791d1f7b19aff2b96faaf8d4843e252279016"
+    },
+    {
+      "file": "Models/FBX format/building-steps-narrow.fbx",
+      "bytes": 26960,
+      "sha256": "f023a7d89bd42961546c8771bfc893479ba718eb0bbb8592a0d3f1e506ac28cd"
+    },
+    {
+      "file": "Models/FBX format/building-steps-wide.fbx",
+      "bytes": 26720,
+      "sha256": "b0c864256bed623575908e3e7366a91fa24b4a40279641e65259c4bf95a6eb70"
+    },
+    {
+      "file": "Models/FBX format/building-window-awnings.fbx",
+      "bytes": 26176,
+      "sha256": "6e6d788f75d5fc64233c2927131c56fcf0fd222c69d6342cabcb8ef12c293c30"
+    },
+    {
+      "file": "Models/FBX format/building-window-balcony.fbx",
+      "bytes": 26896,
+      "sha256": "af51c77ee870ee413f462929365546eb120c046dc0c41a79dc54d4e2a6fefe02"
+    },
+    {
+      "file": "Models/FBX format/building-window-door-window-round.fbx",
+      "bytes": 26704,
+      "sha256": "7bafb86f8af61c246ea50e439722ed30d383f5db48303d7ba09963e5646aca1d"
+    },
+    {
+      "file": "Models/FBX format/building-window-door-window.fbx",
+      "bytes": 26128,
+      "sha256": "149289e89c4d18b9986765f5b1eaa42e17831bd21c80264fdac141197e547d4b"
+    },
+    {
+      "file": "Models/FBX format/building-window-large-left.fbx",
+      "bytes": 26752,
+      "sha256": "3b9fc741f662c22979a38b7bee1f14817eb2ea6939289c68b5ff16059fa86870"
+    },
+    {
+      "file": "Models/FBX format/building-window-large-middle.fbx",
+      "bytes": 26224,
+      "sha256": "f584ba0a814b8a9bbd31a10ef4ee74b8b7e5978886bc2f9ecdcd2c464655fcdd"
+    },
+    {
+      "file": "Models/FBX format/building-window-large-right.fbx",
+      "bytes": 26768,
+      "sha256": "5f9a7c7a3e80c4a4daed31c5b5dc929a341b669e50e74eb44f5208dc4fe3af95"
+    },
+    {
+      "file": "Models/FBX format/building-window-large.fbx",
+      "bytes": 27328,
+      "sha256": "8b5ec82866f649a0c6ae169e1becb1fbc8dc7d82665919ad293de5530a6ba280"
+    },
+    {
+      "file": "Models/FBX format/building-window-left-sill.fbx",
+      "bytes": 28256,
+      "sha256": "8f72747b4f0881f34f3563baf0d2f3d4c7f9a83a43ce355ba961f82ee5e614ac"
+    },
+    {
+      "file": "Models/FBX format/building-window-left.fbx",
+      "bytes": 27312,
+      "sha256": "706c790176a283c3b405e3c62f7339cda6271eac9cb697fc05182b4a4f2c466f"
+    },
+    {
+      "file": "Models/FBX format/building-window-right-sill.fbx",
+      "bytes": 26608,
+      "sha256": "561afe3c44767bea335c95dbf3b9f0acb80e68e8f788bc829cfab7ec4e281e7f"
+    },
+    {
+      "file": "Models/FBX format/building-window-right.fbx",
+      "bytes": 27328,
+      "sha256": "d041ea7f0f5059fa33ec88a8901c2739970a45462fcc345365c1068cbb25c0d9"
+    },
+    {
+      "file": "Models/FBX format/building-window-sill.fbx",
+      "bytes": 28224,
+      "sha256": "e8fa496bbc51e26827d655b37330aafb5d273c435e07c1addb406428e9db097c"
+    },
+    {
+      "file": "Models/FBX format/building-window-wide-sill.fbx",
+      "bytes": 28256,
+      "sha256": "b9ee2990a19b011e56cf59e0c5f4021ab1b08bb27dc3554a2ec0a1df80a443f9"
+    },
+    {
+      "file": "Models/FBX format/building-window-wide.fbx",
+      "bytes": 27328,
+      "sha256": "70a183184bb95864b0454d8cf7e090ebff30068a0b3a087897de3f1b0a0bb7ef"
+    },
+    {
+      "file": "Models/FBX format/building-window.fbx",
+      "bytes": 27296,
+      "sha256": "783c1f78c2fefc4ca406f4d48200a645c01918bbbca3073172b07af5feb849e9"
+    },
+    {
+      "file": "Models/FBX format/building-windows-high-middle.fbx",
+      "bytes": 25616,
+      "sha256": "8a0c54ca9ab351c1ab1a634c249d93446a167d3a72c8c910a1f2f2bf91792ac3"
+    },
+    {
+      "file": "Models/FBX format/building-windows-high-top-round.fbx",
+      "bytes": 26720,
+      "sha256": "fb3803e59f2274823f39f4cc623660fb8b8052a6e09acde8bd219d0a36511788"
+    },
+    {
+      "file": "Models/FBX format/building-windows-high-top-square.fbx",
+      "bytes": 25392,
+      "sha256": "54c60ddebdc0a06a39fcddbca0e01a9b522e141e03805f27ba31d6bc3cb7ab1c"
+    },
+    {
+      "file": "Models/FBX format/building-windows-round.fbx",
+      "bytes": 26704,
+      "sha256": "3deb28a618db1c6313199b458cab71f4c78b29ee51440ac884450fab2bf40a1a"
+    },
+    {
+      "file": "Models/FBX format/building-windows-sills-round.fbx",
+      "bytes": 25776,
+      "sha256": "5cc16bb50f8b758ef0266d3fdabff8454593e1bad330d4597b531d378a57bda7"
+    },
+    {
+      "file": "Models/FBX format/building-windows-sills.fbx",
+      "bytes": 26704,
+      "sha256": "ab5b0aead9d23cae2a79f59c1f6b9e658f3e9de3edc35400d5acb06e1cf176c2"
+    },
+    {
+      "file": "Models/FBX format/building-windows.fbx",
+      "bytes": 25408,
+      "sha256": "e21dd03c242a7044f78aa76f895240aad6283e8ad9afbf2b6e2aee4471c5357f"
+    },
+    {
+      "file": "Models/FBX format/detail-ac-a.fbx",
+      "bytes": 26528,
+      "sha256": "77c4c4ea4b55ef2ed19ed99877a8f6e91627626950e727d6756e53fed644a9d2"
+    },
+    {
+      "file": "Models/FBX format/detail-ac-b.fbx",
+      "bytes": 27120,
+      "sha256": "3df406558da0ff77a089724b6d5851b1bd2bd40a86d4ed550324f63906d4576d"
+    },
+    {
+      "file": "Models/FBX format/door-brown-glass.fbx",
+      "bytes": 27296,
+      "sha256": "b7338a6ccc121eee17dbd63c915dcf540a39c3ba0aedf6c0d52b8596f33d85f9"
+    },
+    {
+      "file": "Models/FBX format/door-brown-window.fbx",
+      "bytes": 27296,
+      "sha256": "8136b2fa4f0b4b4fa9ec8a4eb9396dc0e78ce05a6ff12c63448ddbc705092bc1"
+    },
+    {
+      "file": "Models/FBX format/door-brown.fbx",
+      "bytes": 27296,
+      "sha256": "643c268e0d72ca8d56291574e548ff1273f16a753e527e5abaa69ed742787ea7"
+    },
+    {
+      "file": "Models/FBX format/door-white-glass.fbx",
+      "bytes": 27280,
+      "sha256": "1920de04357d6d585f6b62234a2ef4a604661fb8e0282bf8370099a0cbd22eda"
+    },
+    {
+      "file": "Models/FBX format/door-white-window.fbx",
+      "bytes": 27280,
+      "sha256": "6c181e75c09b0fbb7736e24bcb1b84f5e84670bbfa7eddae539caafdb81f6ef7"
+    },
+    {
+      "file": "Models/FBX format/door-white.fbx",
+      "bytes": 27312,
+      "sha256": "f984968d13ca8cd11cb35cc7cf7c854f4d59c89f562a65f7d753c9e5d17db735"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-awning-a.fbx",
+      "bytes": 27664,
+      "sha256": "17f878150ea8451adaba333c902d567432d10ce5c5dda5a3e285e36f38116db7"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-awning-b.fbx",
+      "bytes": 26560,
+      "sha256": "31450caf10c137ac264554ff49e0a1c638f9033237231fc618396261552099c7"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-awning-c.fbx",
+      "bytes": 25904,
+      "sha256": "324a0313732becdb01945b2f6d7df1bd31b9692f2b74aec6721579b95ea0743d"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-border-center-corner.fbx",
+      "bytes": 28512,
+      "sha256": "222afb7121d80114886c0d875328af02fa125f24a061ef03c65d8bf39e217a35"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-border-center.fbx",
+      "bytes": 27328,
+      "sha256": "2ab512f92125d5e932bf0e86185c9da747eab3b38bf3baed93e840a07fade786"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-border-corner-slanted-passage.fbx",
+      "bytes": 25504,
+      "sha256": "650e040f03826aff140de947aa131d1873b408a430251c15201bbba0d2925619"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-border-corner-slanted.fbx",
+      "bytes": 27952,
+      "sha256": "5fb1657e3f37332803c9f2fbf86d62af054617a5c45e8cd45f0da27795c94295"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-border-corner.fbx",
+      "bytes": 26752,
+      "sha256": "fcff445a5d65994c4949e22a85817313df69f77cf687dd486b8b280e15def53f"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-border-end.fbx",
+      "bytes": 27328,
+      "sha256": "de7bc6fb8ff8603e14a9c20bf064ba78ab33b245c5abf4b0dd307541c3b56c78"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-border-side.fbx",
+      "bytes": 26176,
+      "sha256": "eca60f514f74bd5d15e54a4685a8cf7c9ae8575fa9e0f24da3db66bcaab7d04a"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-border-straight.fbx",
+      "bytes": 27328,
+      "sha256": "e5fa99122c0ce0d150b5f0ed9d6ef46025bf09ee811dacce328a6ee281d81e7a"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-center.fbx",
+      "bytes": 27504,
+      "sha256": "47307ba830983bc81561f3ade74f58047390913aa878610f4d9a23f0b74d3a57"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-corner-high.fbx",
+      "bytes": 25680,
+      "sha256": "ea9b16c23af66275b2a90e18e4c3658598e875eb0332a598cfbd723295a807b4"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-corner.fbx",
+      "bytes": 25664,
+      "sha256": "1bd39cfd0e48a6670f51dea6ac1dfc9b32669f5054b48be4985ee35d5a33ec60"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-detail-a.fbx",
+      "bytes": 25696,
+      "sha256": "052a4b47f56260ed09a7523bee68fcce850fb55ca4b27908e8ad7fa157041656"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-detail-b.fbx",
+      "bytes": 25568,
+      "sha256": "cd993c79140b7a9cabcad5e5bdcfaca17058d3f64539026ff8271209f6beee3b"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-detail-c.fbx",
+      "bytes": 27296,
+      "sha256": "49e0ae425222e7d0327c2043d6c635bea2d0d688ac8ef5e6b07fbdd713a6f0dd"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-detail-d.fbx",
+      "bytes": 25152,
+      "sha256": "64c5b5752e202dc8b73749b5ef19932ea1e94f24a737228291e2bcb71ac8a0c9"
+    },
+    {
+      "file": "Models/FBX format/roof-flat-top.fbx",
+      "bytes": 27552,
+      "sha256": "1f1b03db87b98424e83d097402dcc3e8e6adcf919b6d07af33db7f3be70dd374"
+    },
+    {
+      "file": "Models/FBX format/roof-gable-corner.fbx",
+      "bytes": 26080,
+      "sha256": "f3978f5aa4235abc5381a4d3d55703ecec4854a22955c45a262dcb4bd6e95fc7"
+    },
+    {
+      "file": "Models/FBX format/roof-gable-end.fbx",
+      "bytes": 25968,
+      "sha256": "771c62668b378be380250ecfe544b1ad850e2389b1091591dfb76fc2b980c7ea"
+    },
+    {
+      "file": "Models/FBX format/roof-gable.fbx",
+      "bytes": 26304,
+      "sha256": "dbb925c58a8730755eb48abd83efff7c37965a07ef3f70e2636aeb7ebb069d04"
+    },
+    {
+      "file": "Models/FBX format/roof-slanted-corner-a.fbx",
+      "bytes": 28592,
+      "sha256": "edc685d2f9b17f22f57f3fe5c59ff0384e466ca7fa41b98d71ae450a1a02a603"
+    },
+    {
+      "file": "Models/FBX format/roof-slanted-corner-b.fbx",
+      "bytes": 27888,
+      "sha256": "46cf97f4fe54fbce9ead1759f40fbefe00f50be5c63c30feed3b9e643816cc0f"
+    },
+    {
+      "file": "Models/FBX format/roof-slanted-corner-c.fbx",
+      "bytes": 27344,
+      "sha256": "aef793c198ea7b3e01e69e8e219eb65b0879e4c2c37e4e955aef458864d171c3"
+    },
+    {
+      "file": "Models/FBX format/roof-slanted-corner-inner.fbx",
+      "bytes": 26224,
+      "sha256": "b5bb05dce6a3bd4d3b278a8888e0bd7c40c9400464d0fa1963db3a3de678e514"
+    },
+    {
+      "file": "Models/FBX format/roof-slanted-detail.fbx",
+      "bytes": 28720,
+      "sha256": "2de959e0b842d8978c55b4c80239689169c1025730142258de0c5cea0f95a647"
+    },
+    {
+      "file": "Models/FBX format/roof-slanted-flat.fbx",
+      "bytes": 27504,
+      "sha256": "54cf978f446238279742ca67fdac7a41ae5314ad458bfd35fd568b7606f7c98e"
+    },
+    {
+      "file": "Models/FBX format/roof-slanted-window.fbx",
+      "bytes": 26768,
+      "sha256": "3b58650cd832bc003046c6b8d1065bfbbcc3cf3daed068329cc421382f9f4802"
+    },
+    {
+      "file": "Models/FBX format/roof-slanted.fbx",
+      "bytes": 27472,
+      "sha256": "b92e5ca672db8cee98e03818e889cf2e0db7c98e25320fc31f1e05cc91eb058d"
+    },
+    {
+      "file": "Models/FBX format/Textures/colormap.png",
+      "bytes": 7529,
+      "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0"
+    },
+    {
+      "file": "Models/FBX format/window-brown-detailed.fbx",
+      "bytes": 28080,
+      "sha256": "f493c7ed400200f7621695f53b937d3b16572756e4272cb9ef7a45bb131b99f5"
+    },
+    {
+      "file": "Models/FBX format/window-brown-large.fbx",
+      "bytes": 28720,
+      "sha256": "17cb9ccb3d7288f924956fe863809ad3952d1e2324f48638c6fea10fbeb4e1fe"
+    },
+    {
+      "file": "Models/FBX format/window-brown-narrow.fbx",
+      "bytes": 26400,
+      "sha256": "f12fd3df7fafb12f79bc137616b3c064eceaf90934e624c9a889e67e44b8392f"
+    },
+    {
+      "file": "Models/FBX format/window-brown-round-low.fbx",
+      "bytes": 26160,
+      "sha256": "13610397d77203afc84c44458bf927500af337806cdb817d9fe69625e7ca1a4b"
+    },
+    {
+      "file": "Models/FBX format/window-brown-round-middle.fbx",
+      "bytes": 26960,
+      "sha256": "4f7d599c72e916d0b03876b309e8511f560b0c6926b274654357746bb1aba811"
+    },
+    {
+      "file": "Models/FBX format/window-brown-round-narrow.fbx",
+      "bytes": 26160,
+      "sha256": "8db6f41b604882f73b9a16ca0661687495b19fef8d83f8c87b4ada4bee006c5d"
+    },
+    {
+      "file": "Models/FBX format/window-brown-round-top.fbx",
+      "bytes": 26048,
+      "sha256": "3d1ca7735edd8c7a7f0111e60d9de1eafead90de51eaba58eef464d6ae5c983c"
+    },
+    {
+      "file": "Models/FBX format/window-brown-round-wide.fbx",
+      "bytes": 26176,
+      "sha256": "5af7302ad9b5df0a9a852bad98a2e528b1844e2d735af95b91261b76c50d554e"
+    },
+    {
+      "file": "Models/FBX format/window-brown-tall.fbx",
+      "bytes": 26368,
+      "sha256": "1eb7a64871ba5a93464cb1fbccef32c469da86ed8ccbf40ff6ddfa672f97a90e"
+    },
+    {
+      "file": "Models/FBX format/window-brown-wide.fbx",
+      "bytes": 28720,
+      "sha256": "846ea542afb1426fd94eedae6b913cdcb05f112580391323803cb3a7e6442e17"
+    },
+    {
+      "file": "Models/FBX format/window-brown.fbx",
+      "bytes": 26384,
+      "sha256": "2a93f1fd01eb943656d422d2846f27242761bf929c1264e4a9d6ecf5aba2f39f"
+    },
+    {
+      "file": "Models/FBX format/window-white-detailed.fbx",
+      "bytes": 28096,
+      "sha256": "648e0dfd23c68c90d0aebc338c44ab08816699ad4cd65c8de651830e58b9312a"
+    },
+    {
+      "file": "Models/FBX format/window-white-large.fbx",
+      "bytes": 28736,
+      "sha256": "fef1e019af66f46de2ab201750317ad03323100266fad28dbb9aa53f06995548"
+    },
+    {
+      "file": "Models/FBX format/window-white-narrow.fbx",
+      "bytes": 28736,
+      "sha256": "25481fb7b7aee8e6a7cfaf959e1334dcf33d0817156787b991f14fb8c639112c"
+    },
+    {
+      "file": "Models/FBX format/window-white-round-low.fbx",
+      "bytes": 26128,
+      "sha256": "3a02ad816bc10812284ce279de3fd36a5eed135b8d99fb0fe0d0034b95fc9225"
+    },
+    {
+      "file": "Models/FBX format/window-white-round-middle.fbx",
+      "bytes": 26944,
+      "sha256": "3ca4b3fa4e75199203bcbcdce369893f3801fd4a7d6f67865c6c6a5ea0aaf59f"
+    },
+    {
+      "file": "Models/FBX format/window-white-round-narrow.fbx",
+      "bytes": 26176,
+      "sha256": "d163167e81e740fc4d8cf4b10917763d03b3b3aa0928dabbb32cf5de0110067c"
+    },
+    {
+      "file": "Models/FBX format/window-white-round-top.fbx",
+      "bytes": 26032,
+      "sha256": "10afe54e94cd38a8c2314db0c0eb271ff049ac015884c325c18c1018237c54ef"
+    },
+    {
+      "file": "Models/FBX format/window-white-round-wide.fbx",
+      "bytes": 26128,
+      "sha256": "f715014bcab61007889d62a7a367fbfee95f89233f285488c8bde4b8d764f1b9"
+    },
+    {
+      "file": "Models/FBX format/window-white-tall.fbx",
+      "bytes": 28720,
+      "sha256": "edb5b68a94ba58d86620a7d672c93346dc7452786e77917ed25c7e51b444eda7"
+    },
+    {
+      "file": "Models/FBX format/window-white-wide.fbx",
+      "bytes": 28736,
+      "sha256": "5f79e502a6edf283def4b50749d3f005b3663aaffab25dc7a129343749543563"
+    },
+    {
+      "file": "Models/FBX format/window-white.fbx",
+      "bytes": 28688,
+      "sha256": "c2149d63ee5fe47a78fd43eeed9c22fe78758882717b3f1fc17ad4516fc421d1"
+    },
+    {
+      "file": "Models/GLB format/building-block.glb",
+      "bytes": 2848,
+      "sha256": "c289bc818d2b32fa0cce6cb4d75e162f759c2571b686206293fdc5a63571f65f"
+    },
+    {
+      "file": "Models/GLB format/building-corner-bottom.glb",
+      "bytes": 4460,
+      "sha256": "62c472d29adab3ab87d0a3ff56846f772fdfd2654bfe8b32ad2692181c19ce8f"
+    },
+    {
+      "file": "Models/GLB format/building-corner-top.glb",
+      "bytes": 3064,
+      "sha256": "040fb2548f667e795a520dd7ab266c6dfb7a8dbb5b3db52d5d366b4f55cb3fb6"
+    },
+    {
+      "file": "Models/GLB format/building-corner-window-middle.glb",
+      "bytes": 4396,
+      "sha256": "f891f11d67ce906269c1155ad5c6ea662a24b9244927a6e7a54e92977a7cf42f"
+    },
+    {
+      "file": "Models/GLB format/building-corner-window-narrow.glb",
+      "bytes": 4396,
+      "sha256": "4acc251cddae18dc4cb969c2cf24b677eeba41a808d51b796327e0824bd71720"
+    },
+    {
+      "file": "Models/GLB format/building-corner-window-sill.glb",
+      "bytes": 9180,
+      "sha256": "5c6e26770ab2b8893a177b6af68dd0abe9585c93a3acf77c6c94f09242400e9c"
+    },
+    {
+      "file": "Models/GLB format/building-corner-window-top-round.glb",
+      "bytes": 5308,
+      "sha256": "4fdf6ee3a437653fb886ebfcdd32c96d098f689cb5f398b9a1e9ee7e1ca5ed6c"
+    },
+    {
+      "file": "Models/GLB format/building-corner-window-top-square.glb",
+      "bytes": 4408,
+      "sha256": "c483edcb4b49c2ee9aef7e420fae9520ea634b40aa4d1b2140b62b907e37055a"
+    },
+    {
+      "file": "Models/GLB format/building-corner-window.glb",
+      "bytes": 4376,
+      "sha256": "c7f4e4507c44a0a8c236ce64278b8973382bb54fcb019f5a78e77c55eb33e64c"
+    },
+    {
+      "file": "Models/GLB format/building-corner.glb",
+      "bytes": 3152,
+      "sha256": "2afe63d13e10f072ff4be782c5ef1a44a5cda2062959d1901fd9272308da2d79"
+    },
+    {
+      "file": "Models/GLB format/building-door-window-narrow.glb",
+      "bytes": 5292,
+      "sha256": "c152ae61d5afb73158d588f698bf2383463b29f9ebb947f97c8a756086db80cb"
+    },
+    {
+      "file": "Models/GLB format/building-door-window.glb",
+      "bytes": 5272,
+      "sha256": "90a8cf6f5bf30420ef2e4065589ca462c93d34ecb05ae006f40c614701334b8e"
+    },
+    {
+      "file": "Models/GLB format/building-door.glb",
+      "bytes": 4048,
+      "sha256": "a4f72c92f47e9a98896baedfdb95b5da97d5fd6e49ca56ccf9a79b39bd35b14d"
+    },
+    {
+      "file": "Models/GLB format/building-edges-door.glb",
+      "bytes": 4668,
+      "sha256": "557a9ffc5584b6973afa5a0ac388558ec16dfd6fc6b61fb39198ebdeda306fbd"
+    },
+    {
+      "file": "Models/GLB format/building-sample-house-a.glb",
+      "bytes": 28336,
+      "sha256": "28fae63b748ee8610174092c1d648a2b913a0c5f1ba07426656571766c69b415"
+    },
+    {
+      "file": "Models/GLB format/building-sample-house-b.glb",
+      "bytes": 33788,
+      "sha256": "6c00dc5fcd4552dbad0ef5850265a7741ed20b943929df0a9cd2bdef92e34228"
+    },
+    {
+      "file": "Models/GLB format/building-sample-house-c.glb",
+      "bytes": 31552,
+      "sha256": "66e3c287792b84559af4c1de4cd42ca7ca3230c0a4f0bade5a92c42a3ef31f95"
+    },
+    {
+      "file": "Models/GLB format/building-sample-tower-a.glb",
+      "bytes": 35256,
+      "sha256": "e44adf48cbde19f84d579fbd492664e4b39e39f96cad234bbd6d5758f83f89a6"
+    },
+    {
+      "file": "Models/GLB format/building-sample-tower-b.glb",
+      "bytes": 28904,
+      "sha256": "b7360904ab4a6e26098b4ae6f761a6a98022c851faf04ea7760a0ef11328c704"
+    },
+    {
+      "file": "Models/GLB format/building-sample-tower-c.glb",
+      "bytes": 33964,
+      "sha256": "46c3f2133649fb92b5fb70768f8e409fb560797375be9453de8154d69e63b8f8"
+    },
+    {
+      "file": "Models/GLB format/building-sample-tower-d.glb",
+      "bytes": 44856,
+      "sha256": "7d9604a6890872e785da67135faf498ea27ad538f4dc2cceae45d761f3e9e8b7"
+    },
+    {
+      "file": "Models/GLB format/building-steps-narrow-windows-round.glb",
+      "bytes": 12180,
+      "sha256": "2c97ff6e100410af81a9aa5ec165c8a3422e9c8055d158cdd663d1656d55ab1b"
+    },
+    {
+      "file": "Models/GLB format/building-steps-narrow-windows.glb",
+      "bytes": 10324,
+      "sha256": "bdacc1186ddc8a60e87a5973dcfe220ae2e9ab26b4e7f1a9909784f8c8706898"
+    },
+    {
+      "file": "Models/GLB format/building-steps-narrow.glb",
+      "bytes": 7900,
+      "sha256": "bd1616dbb155bb26a5f6b34ab9563d944212dff9f631ce95d7f58f3a081ea83d"
+    },
+    {
+      "file": "Models/GLB format/building-steps-wide.glb",
+      "bytes": 8512,
+      "sha256": "b3c10bce5ead461125744fbc45fec24a2d57b3351bee017208895f5713143fcf"
+    },
+    {
+      "file": "Models/GLB format/building-window-awnings.glb",
+      "bytes": 10912,
+      "sha256": "04e5e97a6382342a0a7a534dd3ead72cc5794c77fd6565f5e28de3311630d22e"
+    },
+    {
+      "file": "Models/GLB format/building-window-balcony.glb",
+      "bytes": 7512,
+      "sha256": "35287369925027795dabbe83600342518b708daedcf53f92a57bed1f863d3c19"
+    },
+    {
+      "file": "Models/GLB format/building-window-door-window-round.glb",
+      "bytes": 8320,
+      "sha256": "70a73fc234b7a8d24addd235719b1c145629589ff0d41731cf1ca526cd20dfca"
+    },
+    {
+      "file": "Models/GLB format/building-window-door-window.glb",
+      "bytes": 6496,
+      "sha256": "68b0f43e02fc8ebaabf91a781354197f66b011b118f12bb19319078f5707f017"
+    },
+    {
+      "file": "Models/GLB format/building-window-large-left.glb",
+      "bytes": 3788,
+      "sha256": "9eff8f35e47d2a492f9e2714fb083d8a03e6d275c804fea691f6f87f053d4b67"
+    },
+    {
+      "file": "Models/GLB format/building-window-large-middle.glb",
+      "bytes": 3492,
+      "sha256": "056375d18bcdfe65d505eb7cc78fea04959f6bf8123907a4487bf22de7af997e"
+    },
+    {
+      "file": "Models/GLB format/building-window-large-right.glb",
+      "bytes": 3788,
+      "sha256": "51c5d2d085b12d15701e0a76555383e1e1e68ef6bd809b393f9c819300fb213f"
+    },
+    {
+      "file": "Models/GLB format/building-window-large.glb",
+      "bytes": 4072,
+      "sha256": "906b92fe14e4c44b8c5c83d465b581994949ba59df4823e72feed9886526ad20"
+    },
+    {
+      "file": "Models/GLB format/building-window-left-sill.glb",
+      "bytes": 5096,
+      "sha256": "45cdf315157e8425c07b83bac8dc003d9dd0607866eaa5d3acb06a37310e31ca"
+    },
+    {
+      "file": "Models/GLB format/building-window-left.glb",
+      "bytes": 4068,
+      "sha256": "f5da4dfc53c0d3f155fd1d6e3dfd79db52bfc7f2857188eba52232ef7e3f45fb"
+    },
+    {
+      "file": "Models/GLB format/building-window-right-sill.glb",
+      "bytes": 9032,
+      "sha256": "177e63e4a213f6366a94536e541b6a38ab89c360361f0a4cffd13b5217694755"
+    },
+    {
+      "file": "Models/GLB format/building-window-right.glb",
+      "bytes": 4072,
+      "sha256": "792ea026da1750343151d472ed295fac292ba30ab19ee5576137147060689a55"
+    },
+    {
+      "file": "Models/GLB format/building-window-sill.glb",
+      "bytes": 5080,
+      "sha256": "da467306683bb1c57a46ebb8a29be5cfc269d1bdd616fa2fd986f2dc9fa5856a"
+    },
+    {
+      "file": "Models/GLB format/building-window-wide-sill.glb",
+      "bytes": 5116,
+      "sha256": "452a8392ae41f2d84fa05a5a82879731864168d753970e4e535be72acc4035de"
+    },
+    {
+      "file": "Models/GLB format/building-window-wide.glb",
+      "bytes": 4068,
+      "sha256": "4a4974404b5c7011445f8ab69d1f2772a7d6470e49acaee101c1dae7a6479f59"
+    },
+    {
+      "file": "Models/GLB format/building-window.glb",
+      "bytes": 4052,
+      "sha256": "c79c30258bfd049d91f456092c0df05f1c7c5d32bac95497c97732a07830c56a"
+    },
+    {
+      "file": "Models/GLB format/building-windows-high-middle.glb",
+      "bytes": 5480,
+      "sha256": "20c03741aea6f271fbe02d4efbaea6832da1a103cb55861976a2ff136b1fb588"
+    },
+    {
+      "file": "Models/GLB format/building-windows-high-top-round.glb",
+      "bytes": 7112,
+      "sha256": "1ca1d414dbedd544a429c197ea9ebe59fdfe407a504aa0bee0a79fd29a79420e"
+    },
+    {
+      "file": "Models/GLB format/building-windows-high-top-square.glb",
+      "bytes": 5308,
+      "sha256": "6f2c72675569b40881718a6efdc40b8ae45a1813c3455c736a0000882a00bf86"
+    },
+    {
+      "file": "Models/GLB format/building-windows-round.glb",
+      "bytes": 7084,
+      "sha256": "06e60785f8ad6b562bac71c92a12adbdaa6fc25a1b80b590152bb71ea1ff2e64"
+    },
+    {
+      "file": "Models/GLB format/building-windows-sills-round.glb",
+      "bytes": 9128,
+      "sha256": "f7f1e8b4269afbe5ee750295d791fc0871c722e5f8a6793c72cf56d4ea18670c"
+    },
+    {
+      "file": "Models/GLB format/building-windows-sills.glb",
+      "bytes": 7292,
+      "sha256": "dcededd1d7a07758ea0913bcfc16b5de1ec50e3db2563924862205289ad20413"
+    },
+    {
+      "file": "Models/GLB format/building-windows.glb",
+      "bytes": 5260,
+      "sha256": "08a65ac609c1b81035d9d72f2bee022b4586b7952d20d53f888013d6161cb608"
+    },
+    {
+      "file": "Models/GLB format/detail-ac-a.glb",
+      "bytes": 6560,
+      "sha256": "9301b6dd4a25a49225c375964b70280398d67ae33cf6a9733d4ded2fc965770d"
+    },
+    {
+      "file": "Models/GLB format/detail-ac-b.glb",
+      "bytes": 8956,
+      "sha256": "d18769b363be1c858aeaf0b7921788f6ff211c61162c9c7e43ed9708d13f09e4"
+    },
+    {
+      "file": "Models/GLB format/door-brown-glass.glb",
+      "bytes": 4072,
+      "sha256": "0aba787bb7c0d59a0d76b107226c0be2a534d501dd6483d91213c6e09ec57f95"
+    },
+    {
+      "file": "Models/GLB format/door-brown-window.glb",
+      "bytes": 4076,
+      "sha256": "47f270606049b8b3790c0009186497899a16d73ad578171664fcc1d7d7dbd669"
+    },
+    {
+      "file": "Models/GLB format/door-brown.glb",
+      "bytes": 4072,
+      "sha256": "05d107b6443dd210c451ae176db2fb2cc0f1c1729259aea7fbd26e89b6d769e0"
+    },
+    {
+      "file": "Models/GLB format/door-white-glass.glb",
+      "bytes": 4092,
+      "sha256": "e7f21a2a54519714f7149b0616fbc1534d09e5bb24bc740b4f5f3cdff6d36e2b"
+    },
+    {
+      "file": "Models/GLB format/door-white-window.glb",
+      "bytes": 4092,
+      "sha256": "dc465c78d70faac302bfba0b52a1289aa89b9a7ba78c96770b86c53e92a82b41"
+    },
+    {
+      "file": "Models/GLB format/door-white.glb",
+      "bytes": 4056,
+      "sha256": "da55684ad9213adde6f1c01d4e1667ca538eec11507846c465eb7013d34c45b5"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-awning-a.glb",
+      "bytes": 4452,
+      "sha256": "9fd940215f252ea982ad3df9301b46e4f1d1a8802779830df2e9780d658b9858"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-awning-b.glb",
+      "bytes": 3852,
+      "sha256": "c0b6f7776ea76bfa84fa5d1e2bca8895da929ee04d4adca5521ae2ebd101377d"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-awning-c.glb",
+      "bytes": 7044,
+      "sha256": "5586828be99383fb06305fcb0aceb01b1696dd2fc35f130603b27b6f9878d05a"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-border-center-corner.glb",
+      "bytes": 4716,
+      "sha256": "054d5c810a8bc196ccbbe8d71e3458eae0a8c97a0d0fcaf78ff80a72f5fdb397"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-border-center.glb",
+      "bytes": 4092,
+      "sha256": "13c21fea32027df0746d9d7429b47a342d4fca7fc3daeee921c7611759947dfa"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-border-corner-slanted-passage.glb",
+      "bytes": 5344,
+      "sha256": "0ac63e39c1b14f2fa70b7a2edd3904dc4170c80551f287cad170982482cdc607"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-border-corner-slanted.glb",
+      "bytes": 4416,
+      "sha256": "0c92d142424a23f3ac1ae7b715d2abf63e6c79f84864f2e4d0d13efd4d5d56e6"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-border-corner.glb",
+      "bytes": 3792,
+      "sha256": "da32f11eab7e5b3d996888402486e82f19b8c928a75f3bfb975a72c3078ccaa7"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-border-end.glb",
+      "bytes": 4084,
+      "sha256": "6acf17c4107955f9cc8c772d355cc87d59cf21e618be4dbeba91cd328d17f5c2"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-border-side.glb",
+      "bytes": 3484,
+      "sha256": "de11c932dce59ad7ba9f4df205216b40a65a13b6350cfb61e4a907447e359e7e"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-border-straight.glb",
+      "bytes": 4096,
+      "sha256": "4360bb7e57ca38b405e51c7016941ec145b83d471a3b60435b6e8ce293dc3fae"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-center.glb",
+      "bytes": 2868,
+      "sha256": "e785aa9eec03c3720e97dd9046b2c567600dca1ab588c118e4f5ef138dc2d889"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-corner-high.glb",
+      "bytes": 3184,
+      "sha256": "0e893e58cf0f32c3cc3b55852e4eefee25a5edaaf0a4118d31ac1b6ecb639f6a"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-corner.glb",
+      "bytes": 3168,
+      "sha256": "92e74059d5c729992a7246a9fb6cd140af31e63a3a8471a60575c3b1f4c0c8e4"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-detail-a.glb",
+      "bytes": 6892,
+      "sha256": "c7b91e7b2bbe6e63e03aedd15d038d78ed55cf16582d1f811366e5e4732c2fd1"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-detail-b.glb",
+      "bytes": 5676,
+      "sha256": "10e3db8ad130f4d236e6d19507331f7f283d4fce82bdaa8b503fa74c2a98a963"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-detail-c.glb",
+      "bytes": 5124,
+      "sha256": "3224118bd375b6cc54344a4a78b5b1e7166c1df1316da962cac5bd1b2481dc7c"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-detail-d.glb",
+      "bytes": 6148,
+      "sha256": "de2bd3691c5cdfceb8d991d87a57ca565822457ac6bd116b60c9adca285b3c95"
+    },
+    {
+      "file": "Models/GLB format/roof-flat-top.glb",
+      "bytes": 4212,
+      "sha256": "bba09a68499585628abe5c117ff0300ec79189c38036612aa1d3a22b69e9fd5c"
+    },
+    {
+      "file": "Models/GLB format/roof-gable-corner.glb",
+      "bytes": 3548,
+      "sha256": "1c8bdaed97c920ad07d0ca7b31e0d9f29048c84e35eb984d50f58e8e09bec7fe"
+    },
+    {
+      "file": "Models/GLB format/roof-gable-end.glb",
+      "bytes": 3452,
+      "sha256": "b68db641f6bf36e9ced4fe00e92dc711e6b3edbc9cb85881f918a6af66ef8a28"
+    },
+    {
+      "file": "Models/GLB format/roof-gable.glb",
+      "bytes": 3624,
+      "sha256": "46c82911f18f6f6c65a5f814538626477321fc97c9eaf2d4549628c890f87dde"
+    },
+    {
+      "file": "Models/GLB format/roof-slanted-corner-a.glb",
+      "bytes": 4688,
+      "sha256": "8aef6d4ee6dc6c8c9e5d9f631f99184d48185cc3dc02fb40841730b94f489b80"
+    },
+    {
+      "file": "Models/GLB format/roof-slanted-corner-b.glb",
+      "bytes": 4288,
+      "sha256": "6d898e694bc230b16de71f4a43f5d1269f8324e03ffe723775ec5944873f104d"
+    },
+    {
+      "file": "Models/GLB format/roof-slanted-corner-c.glb",
+      "bytes": 3992,
+      "sha256": "8a585f96e9766e07a0cfc0b2efd2219dd2ab6b7c48999f64f01d1245b73f7cf8"
+    },
+    {
+      "file": "Models/GLB format/roof-slanted-corner-inner.glb",
+      "bytes": 3428,
+      "sha256": "bc13aa72d027c149f9b526bb35ef79a8737db6a05e15ad7222fc679fb0676cf6"
+    },
+    {
+      "file": "Models/GLB format/roof-slanted-detail.glb",
+      "bytes": 5120,
+      "sha256": "ae18dec5a179505a03902c068e1f1d4e4882e2f4bce6df9cba2ee2bf22d72ed0"
+    },
+    {
+      "file": "Models/GLB format/roof-slanted-flat.glb",
+      "bytes": 2872,
+      "sha256": "b979c64f35a5f036a8764c2468cd14c765ece83d50e34f9d2bc1a166957eb994"
+    },
+    {
+      "file": "Models/GLB format/roof-slanted-window.glb",
+      "bytes": 9080,
+      "sha256": "53c02f27ad166d96ca93cac0e61e52f9305290f2d14a9a87ad4803ea01a4386c"
+    },
+    {
+      "file": "Models/GLB format/roof-slanted.glb",
+      "bytes": 4104,
+      "sha256": "18a4bc25e2e411ed7236ae8000eb211194b59e04f6823b3f41f0a2f891610ccc"
+    },
+    {
+      "file": "Models/GLB format/Textures/colormap.png",
+      "bytes": 7529,
+      "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0"
+    },
+    {
+      "file": "Models/GLB format/window-brown-detailed.glb",
+      "bytes": 4324,
+      "sha256": "84d1aec5f074a08609eb46b2f064b19c5c8949a19fbe2ec7915665376111b6f2"
+    },
+    {
+      "file": "Models/GLB format/window-brown-large.glb",
+      "bytes": 4504,
+      "sha256": "67aa7208b5f237bfe80ecabd52f7076347e2d8f2ad17bed6b0900d3934acf9cf"
+    },
+    {
+      "file": "Models/GLB format/window-brown-narrow.glb",
+      "bytes": 7344,
+      "sha256": "9836a755654b65e85cf50e05abfa387049a9b44d9f82d84f0eb6ec13f1ab4063"
+    },
+    {
+      "file": "Models/GLB format/window-brown-round-low.glb",
+      "bytes": 5948,
+      "sha256": "9c92630c3ce291af3ad1ef5213a302000895d4efb9ce9da45616886a92444163"
+    },
+    {
+      "file": "Models/GLB format/window-brown-round-middle.glb",
+      "bytes": 4116,
+      "sha256": "4ec68aff73cef6e5b7ed83a424bf35858641e4fc4362363a6a5db128d1c875e5"
+    },
+    {
+      "file": "Models/GLB format/window-brown-round-narrow.glb",
+      "bytes": 5940,
+      "sha256": "1072527a9367b015f0308720d94efab2d543740fe2632e4000c311ac52df0358"
+    },
+    {
+      "file": "Models/GLB format/window-brown-round-top.glb",
+      "bytes": 5916,
+      "sha256": "7c93b9632031dd5d11f7bdb8fcde8997f59317b84d4189ed18f2908bcd96053e"
+    },
+    {
+      "file": "Models/GLB format/window-brown-round-wide.glb",
+      "bytes": 5932,
+      "sha256": "eccb7b9e4fb1a4113eae9b2a67b2e8172d0f9eb60731b74ed32709d654f1d6d7"
+    },
+    {
+      "file": "Models/GLB format/window-brown-tall.glb",
+      "bytes": 7320,
+      "sha256": "57435424a52d092346b3428712727bbff23101f83cb47c7942adadf8ab722b11"
+    },
+    {
+      "file": "Models/GLB format/window-brown-wide.glb",
+      "bytes": 4516,
+      "sha256": "b7e764d76093277316740b15d903491907e224f437abc24a00511c8cf9ef0403"
+    },
+    {
+      "file": "Models/GLB format/window-brown.glb",
+      "bytes": 7320,
+      "sha256": "d0f6de0dae3e8e66c981fa89f970242562ded3e150599286b140ec5e8a5f75bd"
+    },
+    {
+      "file": "Models/GLB format/window-white-detailed.glb",
+      "bytes": 4324,
+      "sha256": "0669529ff365456d090dbb524947486c7c85f1a152134d4ff2f5e0eae849eac5"
+    },
+    {
+      "file": "Models/GLB format/window-white-large.glb",
+      "bytes": 4504,
+      "sha256": "9a2aeb9bd2e61bb6199bf8419c2a1b40f7c89032f5788bd800e30afdee0d9cfb"
+    },
+    {
+      "file": "Models/GLB format/window-white-narrow.glb",
+      "bytes": 4524,
+      "sha256": "72e1b49a229c034b05a5ae469bc98bc06050ab1bac8476e72bcffdd10c78e5a6"
+    },
+    {
+      "file": "Models/GLB format/window-white-round-low.glb",
+      "bytes": 5928,
+      "sha256": "20348c98f1a4f9198b8ab57ed14361dee7392b7a8114a0aafe3d81c5b363f8ff"
+    },
+    {
+      "file": "Models/GLB format/window-white-round-middle.glb",
+      "bytes": 4116,
+      "sha256": "69eb24ac5039b96cff160b0eccbeb263855652b84ffb705712404c24342e22c6"
+    },
+    {
+      "file": "Models/GLB format/window-white-round-narrow.glb",
+      "bytes": 5940,
+      "sha256": "2acfa0e0e8755405fe453e06474414e3592c2a423b4ec945aeba14445f38e696"
+    },
+    {
+      "file": "Models/GLB format/window-white-round-top.glb",
+      "bytes": 5916,
+      "sha256": "0c1764efacecdfbd6d01e03724b5c9b0e18fb23e017bfa7ca7c6b243e401a650"
+    },
+    {
+      "file": "Models/GLB format/window-white-round-wide.glb",
+      "bytes": 5932,
+      "sha256": "ff7071e1ecc11ce05c5c90cd43a7f1279843ef4e5bd22c8d09403fdea16defa3"
+    },
+    {
+      "file": "Models/GLB format/window-white-tall.glb",
+      "bytes": 4504,
+      "sha256": "63acf228cfd610f7bdfaac82a0499467ec2492ac6dfcde4ad8d069fe703c7fdc"
+    },
+    {
+      "file": "Models/GLB format/window-white-wide.glb",
+      "bytes": 4532,
+      "sha256": "f63dc64f1dfcabaedcc655aaf586ede2bf5e3e1b19d355b20428ef3aefb1c382"
+    },
+    {
+      "file": "Models/GLB format/window-white.glb",
+      "bytes": 4504,
+      "sha256": "2bb5161351c1660fc619af68d2ef5db9b2c4296a991ba1d2ef882cd3bda08a62"
+    },
+    {
+      "file": "Models/OBJ format/building-block.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-block.obj",
+      "bytes": 936,
+      "sha256": "a2806528b1267be2252a67cd2c7ff5339964497b5928eefecb5f61267900f59b"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-bottom.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-bottom.obj",
+      "bytes": 1796,
+      "sha256": "8e3142b0453ff9b989a4b9f7470ec5fa4bfce343d56b2676f597904495dba19a"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-top.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-top.obj",
+      "bytes": 1120,
+      "sha256": "1abcd0da2afdd35d8989b3a1ab5ba793a9c179a11d02c758f5f202b9ae0b41a7"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window-middle.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window-middle.obj",
+      "bytes": 2604,
+      "sha256": "75973647eab1b7b3d2ce8565bd1639bc102ae354ed49ffba366c1eec5592ff0f"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window-narrow.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window-narrow.obj",
+      "bytes": 2456,
+      "sha256": "f9dc9d4049f1e809581b023a81714710c27332a991355daeac0267e3d5f2537d"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window-sill.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window-sill.obj",
+      "bytes": 4895,
+      "sha256": "e8e40351de6208e1e22393c54e933bafc0d3b80ce2fbf6b8d79f1c814aee702a"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window-top-round.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window-top-round.obj",
+      "bytes": 3499,
+      "sha256": "b19f0461f0d5e37fd1bff748425df65af2f1ac747848d9a476a9fb43492a22db"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window-top-square.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window-top-square.obj",
+      "bytes": 2482,
+      "sha256": "754dcf04ff6876c8dab4fb3d7a6a34b4016128f3261f5ff79312e686bb199178"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-corner-window.obj",
+      "bytes": 2445,
+      "sha256": "e4174a238c4338899fd419ba04883dc9ed96f10eecb1e83f44c3bf4189d7e2b1"
+    },
+    {
+      "file": "Models/OBJ format/building-corner.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-corner.obj",
+      "bytes": 1242,
+      "sha256": "d651193ce567eeb021a3daab01dd74a45a524c51e6861e299a19b0150ae51cd8"
+    },
+    {
+      "file": "Models/OBJ format/building-door-window-narrow.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-door-window-narrow.obj",
+      "bytes": 2976,
+      "sha256": "dcb423683a945863155af5368a3394db0412c3625d9bc73a799dc7c2c6043d5d"
+    },
+    {
+      "file": "Models/OBJ format/building-door-window.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-door-window.obj",
+      "bytes": 2898,
+      "sha256": "e6b4319951ff63e20b08d82de96c39ad9899684a235e3b9934754f5ab36c794a"
+    },
+    {
+      "file": "Models/OBJ format/building-door.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-door.obj",
+      "bytes": 1913,
+      "sha256": "f3c43a499499709dcdfa4d38be587dbb99eef9e59b73c62eb508b8a786526904"
+    },
+    {
+      "file": "Models/OBJ format/building-edges-door.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-edges-door.obj",
+      "bytes": 2498,
+      "sha256": "15fa57fbec2f6b5962d9a4b8f03de2123b5e5aee99402606f13068f5b3aa5e74"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-house-a.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-house-a.obj",
+      "bytes": 23706,
+      "sha256": "03140ac5bdbb90fb61b642028fd30684ed85d770e7b3a950fee631cc1bb8152a"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-house-b.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-house-b.obj",
+      "bytes": 28319,
+      "sha256": "8f9690fdd2938cfaeaba6d74bf984b54bbbdbb8f6b4799a544e72c73e34298ca"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-house-c.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-house-c.obj",
+      "bytes": 25346,
+      "sha256": "e969ebf5e739be06c0f6acc9dedb7024e59cf239f0fd619075f96dfa284cff11"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-tower-a.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-tower-a.obj",
+      "bytes": 28348,
+      "sha256": "f90675d1867878711dae6af31c31dca34d17c6a6d09976358f5e6802f01c4111"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-tower-b.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-tower-b.obj",
+      "bytes": 25304,
+      "sha256": "b60b4c4176d28c7b6687ea0c9a2683d9d9146e9fab88bb0f0006889b462468e1"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-tower-c.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-tower-c.obj",
+      "bytes": 29889,
+      "sha256": "f529eb686e57fe80f0f719a86ca21f3a88d8c96b21eb62ecd86406901f439143"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-tower-d.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-sample-tower-d.obj",
+      "bytes": 39234,
+      "sha256": "eac51f82e8a8cf748688833c2fb553eddb05e6dd98d3e809acd0ec4801641cbb"
+    },
+    {
+      "file": "Models/OBJ format/building-steps-narrow-windows-round.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-steps-narrow-windows-round.obj",
+      "bytes": 8879,
+      "sha256": "d3411bbee7c9f0d4a59926a6332e2b5a7e9a443ae0a3b18466daa78c45aed27e"
+    },
+    {
+      "file": "Models/OBJ format/building-steps-narrow-windows.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-steps-narrow-windows.obj",
+      "bytes": 7159,
+      "sha256": "ce1a23a79b6180a6b49bf2f79aca129a92051d91b5acc54a7dea2ff8a9b56a6b"
+    },
+    {
+      "file": "Models/OBJ format/building-steps-narrow.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-steps-narrow.obj",
+      "bytes": 4990,
+      "sha256": "47a2c954c752ee769713220a43d297b6f0b3b65dd838b8757ee7af7d364193f7"
+    },
+    {
+      "file": "Models/OBJ format/building-steps-wide.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-steps-wide.obj",
+      "bytes": 5625,
+      "sha256": "620a12593d4a480a16c1f5f0341c1c1fde6da826449261f00e0294e3f03ce63a"
+    },
+    {
+      "file": "Models/OBJ format/building-window-awnings.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-awnings.obj",
+      "bytes": 7998,
+      "sha256": "453257e504de6b1bc6931c5ac955a7423747e66d5bec9cf368bcd6713f5123e4"
+    },
+    {
+      "file": "Models/OBJ format/building-window-balcony.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-balcony.obj",
+      "bytes": 4989,
+      "sha256": "9605a58f110d41016b803aad2225970c3320df596aab920a9f67b657dd8763bb"
+    },
+    {
+      "file": "Models/OBJ format/building-window-door-window-round.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-door-window-round.obj",
+      "bytes": 6023,
+      "sha256": "a7d288d756f05eb47bbb8bcccff6c1fc91a761737b2837ffb73351ffa81ea857"
+    },
+    {
+      "file": "Models/OBJ format/building-window-door-window.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-door-window.obj",
+      "bytes": 3960,
+      "sha256": "e642175fe2a6199fce2fd4db93c16ac1689234d066ae1b073d4bf28a314463a4"
+    },
+    {
+      "file": "Models/OBJ format/building-window-large-left.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-large-left.obj",
+      "bytes": 1710,
+      "sha256": "4e47887f36d2a88de825bab001aeadd3ce0655636dac63049405089854b50b91"
+    },
+    {
+      "file": "Models/OBJ format/building-window-large-middle.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-large-middle.obj",
+      "bytes": 1488,
+      "sha256": "0190b3e2fa152c6abe3c6057005451e62cf3c3f6da08a5781bc6ab62a990b77a"
+    },
+    {
+      "file": "Models/OBJ format/building-window-large-right.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-large-right.obj",
+      "bytes": 1719,
+      "sha256": "7051751e5f55301c9541740b90fe7a27ec67bdf416eeec135856fef414021370"
+    },
+    {
+      "file": "Models/OBJ format/building-window-large.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-large.obj",
+      "bytes": 1941,
+      "sha256": "14b10bdfa094e10fc12ffbee37ca5df96bd23274f18bcd784e36e0564437820e"
+    },
+    {
+      "file": "Models/OBJ format/building-window-left-sill.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-left-sill.obj",
+      "bytes": 2863,
+      "sha256": "010b206b6a353152882fc50fef23d2702589978d741b6d866af304d4e0649636"
+    },
+    {
+      "file": "Models/OBJ format/building-window-left.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-left.obj",
+      "bytes": 1974,
+      "sha256": "1ad66f2a004a5867d03b760cdf43399541ea2e274520c267a0e93dc6eff7cd06"
+    },
+    {
+      "file": "Models/OBJ format/building-window-right-sill.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-right-sill.obj",
+      "bytes": 4417,
+      "sha256": "24fb7d9365622a647bc5e67c57470c98ef62ec1cdacb44a9346f2ea0d2d426b1"
+    },
+    {
+      "file": "Models/OBJ format/building-window-right.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-right.obj",
+      "bytes": 1977,
+      "sha256": "dff4d9f9bb63759de39d904ab244bcfe9c5eb9b78769023d44463c9dcf6734c7"
+    },
+    {
+      "file": "Models/OBJ format/building-window-sill.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-sill.obj",
+      "bytes": 2910,
+      "sha256": "9555377131ec2265b5ffbf64491209f3adc25daf1d2e2e7367c39c90eade6450"
+    },
+    {
+      "file": "Models/OBJ format/building-window-wide-sill.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-wide-sill.obj",
+      "bytes": 2937,
+      "sha256": "1fde28726c4a17558c0f7de13e6a53e2261cc16bd12709758484caa2dcc3045f"
+    },
+    {
+      "file": "Models/OBJ format/building-window-wide.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window-wide.obj",
+      "bytes": 1974,
+      "sha256": "4e68363f3d8f578d27162a00faf4d19b7799d2d03e1fe1aebff5bb34a1bf227a"
+    },
+    {
+      "file": "Models/OBJ format/building-window.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-window.obj",
+      "bytes": 1965,
+      "sha256": "9d3b4020e62ccea33bd8abdfda113e8d0a7e9da424bbed7a7fb67c789816ba99"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-high-middle.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-high-middle.obj",
+      "bytes": 3350,
+      "sha256": "c1862fb7d5ac03e4e061086ee8e90175b071aa3b1e6a8d4b3ea33593108ee741"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-high-top-round.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-high-top-round.obj",
+      "bytes": 4899,
+      "sha256": "1572cb1e76a01bb50d0a533b075e59ff6b441f5bf3beb4fb5b7fb093c3c0db5c"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-high-top-square.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-high-top-square.obj",
+      "bytes": 2910,
+      "sha256": "194778067f733d278af48b83d47bb610e39803db5a1c454f8e44e57fe7f93d5d"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-round.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-round.obj",
+      "bytes": 4866,
+      "sha256": "463e8e1ccf2fa1d7cec51e2c784d943834ddbdfc709b8d93ab7ad7b4f0c65952"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-sills-round.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-sills-round.obj",
+      "bytes": 6639,
+      "sha256": "57718f4fbdd0d4f68e82b4e5cf0e8f56d992ae8d43376da1d55f7cd1eda5adf9"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-sills.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-windows-sills.obj",
+      "bytes": 4537,
+      "sha256": "78b9ab938a6747a9fa3366be8482926fc2046fced4924876d9aa3231a74af6d7"
+    },
+    {
+      "file": "Models/OBJ format/building-windows.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/building-windows.obj",
+      "bytes": 2912,
+      "sha256": "c2072473b3e4db28be7e4e26e1d199e2664f61e980c4c8470af4d8fd8f377823"
+    },
+    {
+      "file": "Models/OBJ format/detail-ac-a.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/detail-ac-a.obj",
+      "bytes": 4483,
+      "sha256": "9c8bc7fc9530efeab3088a93a8c9e1396fe9c6d261cec20bdaa9ea27331528db"
+    },
+    {
+      "file": "Models/OBJ format/detail-ac-b.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/detail-ac-b.obj",
+      "bytes": 6765,
+      "sha256": "e0bbab90f2529ace302b4443583e3a15a17b85847c28a6495de16af042cca1d6"
+    },
+    {
+      "file": "Models/OBJ format/door-brown-glass.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/door-brown-glass.obj",
+      "bytes": 2087,
+      "sha256": "9d7379c0e7e09a996a183b37b8bac4bbfe03305e68077dbcbea7e385a9cc0e1c"
+    },
+    {
+      "file": "Models/OBJ format/door-brown-window.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/door-brown-window.obj",
+      "bytes": 2063,
+      "sha256": "fb7f57c18e8c569fd10806f7d863cb51cb6e1d29f0a565a90a0ba01aaeea5a38"
+    },
+    {
+      "file": "Models/OBJ format/door-brown.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/door-brown.obj",
+      "bytes": 2065,
+      "sha256": "5429d50090e33c796e6cd63564bc01abfe672d3d629259c54344b995b31206c0"
+    },
+    {
+      "file": "Models/OBJ format/door-white-glass.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/door-white-glass.obj",
+      "bytes": 2121,
+      "sha256": "72ad3ca1ab9135907075af14010545f1f420118d97edff089e9e347cb41fd803"
+    },
+    {
+      "file": "Models/OBJ format/door-white-window.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/door-white-window.obj",
+      "bytes": 2091,
+      "sha256": "5113f2cc07b945030f36e5a5c1ee0823b13f1fc16144f72d37b62ceeaecddeaa"
+    },
+    {
+      "file": "Models/OBJ format/door-white.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/door-white.obj",
+      "bytes": 2031,
+      "sha256": "9624122cd231c15df4f36050f1b1e7d6bcef7a7546ea11007320fd50ec083e6a"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-awning-a.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-awning-a.obj",
+      "bytes": 2448,
+      "sha256": "735c0b3dd2958d97e7a1068b3a3de78936d036733fad3fef497eefab4f9ff1b7"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-awning-b.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-awning-b.obj",
+      "bytes": 1929,
+      "sha256": "beca2712c546925144b7213aa728ecb9fa9169d0391d4614fa898977c43f8f12"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-awning-c.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-awning-c.obj",
+      "bytes": 4846,
+      "sha256": "80cdaf05a5d3282d25e5df5fdd1db4c4b49e3c701a9378042036004064332ed0"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-center-corner.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-center-corner.obj",
+      "bytes": 2632,
+      "sha256": "782d01bc4de693a0d149f95654106908c7805500d918883b22d338b5642a0831"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-center.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-center.obj",
+      "bytes": 1985,
+      "sha256": "485da5145bf559f7d504f0d9c3b249bfcd02049f969ffb6578eb4bc9d3e8be7d"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-corner-slanted-passage.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-corner-slanted-passage.obj",
+      "bytes": 3141,
+      "sha256": "7160bd4b2d4db279380e25dbfb602efe159263b7528609b3b7c974f16f07d1cd"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-corner-slanted.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-corner-slanted.obj",
+      "bytes": 2365,
+      "sha256": "8e199566408a9a3951af04a4104807f0334b9b602c85edfc098499505fa86fa7"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-corner.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-corner.obj",
+      "bytes": 1721,
+      "sha256": "42e37928c7174ccaa830f21e0cb45b4cfe64fcdc5171cb5920139132ea044971"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-end.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-end.obj",
+      "bytes": 1972,
+      "sha256": "6e150059a156d9f5c5966220353661738bf7957f1d060d28f6f19666537ea643"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-side.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-side.obj",
+      "bytes": 1473,
+      "sha256": "3e5b9b42ff58198b2bbd1634af065ec7f75bd3ad922d81d4ffeb265d111f5bf3"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-straight.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-border-straight.obj",
+      "bytes": 1975,
+      "sha256": "2afca01a96c57f045f8439c8a6465177746327f27076b0ec3a60f19c8110fad6"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-center.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-center.obj",
+      "bytes": 968,
+      "sha256": "0a5466999882dc470e6936719519c3aaf4dbe5bc6ab28fe0e43b8922410dee44"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-corner-high.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-corner-high.obj",
+      "bytes": 1259,
+      "sha256": "2dc17bae80d41079c12a8364ebabe2f107c8c66fc5ba8b1bb5f4a273c35a9d0e"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-corner.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-corner.obj",
+      "bytes": 1263,
+      "sha256": "1eb1a087f4e670608d7b68cfeb1525749a1a64c368052ec984f55adbcabfd539"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-detail-a.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-detail-a.obj",
+      "bytes": 3358,
+      "sha256": "7b1cf475a8f18525f8e3bf8314b47f0f3ca9975d89ae2ff3c66eff0fdb42233f"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-detail-b.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-detail-b.obj",
+      "bytes": 3180,
+      "sha256": "9f162fb9802c3cf8dd2759335be361444ef24bbcef4a5d559be9c69dfcfd1637"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-detail-c.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-detail-c.obj",
+      "bytes": 2250,
+      "sha256": "0386cf8cf398f463804a45a3493a88be421493acc2f50902065a7a4364b427c0"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-detail-d.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-detail-d.obj",
+      "bytes": 2488,
+      "sha256": "ceebd039052ebf3eadee14894590d368e108157f659c30ef95917ab7c0d9997d"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-top.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-flat-top.obj",
+      "bytes": 2083,
+      "sha256": "8f8787971ea727e048df5822b30399ab1ca65ba9fa355890fbf4061310541d6b"
+    },
+    {
+      "file": "Models/OBJ format/roof-gable-corner.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-gable-corner.obj",
+      "bytes": 1647,
+      "sha256": "3741a6f05995ed27dfe39b13bdde2443ef50fa8821da574772686a37908f144e"
+    },
+    {
+      "file": "Models/OBJ format/roof-gable-end.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-gable-end.obj",
+      "bytes": 1637,
+      "sha256": "d38c3c4db8638c04eebfaa5c2b75fc49b601eed7799571208acff8cfc514f288"
+    },
+    {
+      "file": "Models/OBJ format/roof-gable.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-gable.obj",
+      "bytes": 1667,
+      "sha256": "aa6c23cd5d7292f30eca5d342658fa3f5a85d6720fe9a68a23ecc7e4bbf8836c"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-corner-a.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-corner-a.obj",
+      "bytes": 2913,
+      "sha256": "21d0aca05ae24a15b8868eafc013557cf9a10fc4bf939105c222a72601018aba"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-corner-b.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-corner-b.obj",
+      "bytes": 2510,
+      "sha256": "77baddf0760ae61a84a6e57f01d36542e3c0e1b778e74e30b367ef3df852e2c2"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-corner-c.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-corner-c.obj",
+      "bytes": 2211,
+      "sha256": "eef2c389b188cefcf991861514fa8e2f16a3adbe456323b45b7db1098f812030"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-corner-inner.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-corner-inner.obj",
+      "bytes": 1566,
+      "sha256": "4ecfb46d7bf88f088b23c9cdfa2dafc7650e2415f60e57a1c50787a2510dad4b"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-detail.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-detail.obj",
+      "bytes": 3557,
+      "sha256": "239b2fc0fe10aaf53299e9e4edabbec31fef134cfe9e9d9bc4e6a2b43396f712"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-flat.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-flat.obj",
+      "bytes": 953,
+      "sha256": "bfa8f2ddd8e93683629d5d0f5d5e3f06a7f9755bb86fb0aa694f08dddbb1f1ef"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-window.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted-window.obj",
+      "bytes": 6740,
+      "sha256": "dba32af2e86e5c43b3c79537bcdf416ed78599c29da33dd150cb126254e26c83"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/roof-slanted.obj",
+      "bytes": 2196,
+      "sha256": "f03fd8ce241b6695925f417f78c3fd4157cc0c5c69be78fe06d1855cf0584c03"
+    },
+    {
+      "file": "Models/OBJ format/Textures/colormap.png",
+      "bytes": 7529,
+      "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-detailed.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-detailed.obj",
+      "bytes": 2597,
+      "sha256": "836c3db19e98417fbce06cd4b6c59c41e895d4c80867cb447131476591d8061a"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-large.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-large.obj",
+      "bytes": 2852,
+      "sha256": "602dea322e2e704458ae95fbb70de5417c9fe187de2323fdc8582d4154d2d525"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-narrow.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-narrow.obj",
+      "bytes": 4697,
+      "sha256": "bb2fc07f0a38d3aca2ffdd6260263edbf7a02e0d71d3472c3c7c5518c9db4891"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-round-low.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-round-low.obj",
+      "bytes": 4266,
+      "sha256": "38ef75568bc1df40fbcc64cea5f8675dcba1108407900c25df9bf5e8c5b85670"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-round-middle.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-round-middle.obj",
+      "bytes": 1893,
+      "sha256": "b396928cb1b1fc8c15afe839f407ab1f3306b85009f0570ecd2a1c8af78c4823"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-round-narrow.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-round-narrow.obj",
+      "bytes": 4419,
+      "sha256": "f98b89a6f05e503e3af86458328d8d95f74858099b01cd35e6158a496f2ffdd0"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-round-top.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-round-top.obj",
+      "bytes": 4114,
+      "sha256": "91ffce14aa2e73ebd0ef857f8191d4dd84f2fb659636efcd8779234cc9048733"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-round-wide.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-round-wide.obj",
+      "bytes": 4320,
+      "sha256": "58bf0aba695de9e6205030eb5442a2d5357e849292bd9474d21f2e054943c782"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-tall.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-tall.obj",
+      "bytes": 4667,
+      "sha256": "26969c85ab4e430be9f9c0f37f7acfcc501bbe2132beabe5f452f764858d4f6b"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-wide.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-brown-wide.obj",
+      "bytes": 2837,
+      "sha256": "9e8771478e98eea622b1af830af0ec8dd1deb5bd0111d4cf2f03b3ca98e08b48"
+    },
+    {
+      "file": "Models/OBJ format/window-brown.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-brown.obj",
+      "bytes": 4642,
+      "sha256": "90ca36e2d7e15d0640d9904ef853f8293400200e79b697a26aa26dc043aa31c4"
+    },
+    {
+      "file": "Models/OBJ format/window-white-detailed.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-white-detailed.obj",
+      "bytes": 2571,
+      "sha256": "7580e780f783347e322e9902eabf555459ea39b99731a555b275bd58231f6707"
+    },
+    {
+      "file": "Models/OBJ format/window-white-large.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-white-large.obj",
+      "bytes": 2838,
+      "sha256": "728112ecccce0a35128a84f43ee0a3601b86fcddafc0e2831c623961f075448e"
+    },
+    {
+      "file": "Models/OBJ format/window-white-narrow.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-white-narrow.obj",
+      "bytes": 2887,
+      "sha256": "e4dde19e6b64be2de825e2cef4c03ef29a934fcff384f9e891b28906d85f5f8c"
+    },
+    {
+      "file": "Models/OBJ format/window-white-round-low.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-white-round-low.obj",
+      "bytes": 4340,
+      "sha256": "83a536d9622a36517a875b8544faee9da37d7609f6f74fe47e6e87186e2d3a72"
+    },
+    {
+      "file": "Models/OBJ format/window-white-round-middle.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-white-round-middle.obj",
+      "bytes": 1893,
+      "sha256": "6d15fb1d183a1b1212a2044dfc36c9e8513bde47388fa55274f349037c47a924"
+    },
+    {
+      "file": "Models/OBJ format/window-white-round-narrow.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-white-round-narrow.obj",
+      "bytes": 4381,
+      "sha256": "013dd7e3551ce8b49d25ef981ce8ca9c8220116bf2a961ee1d4b586ca5f1b987"
+    },
+    {
+      "file": "Models/OBJ format/window-white-round-top.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-white-round-top.obj",
+      "bytes": 4190,
+      "sha256": "dbd00502ac9da34eb898bd7d79a2424814d7c65e2ebe54dd1a9a459c5a1f72e8"
+    },
+    {
+      "file": "Models/OBJ format/window-white-round-wide.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-white-round-wide.obj",
+      "bytes": 4274,
+      "sha256": "3d1af8e8d416f60e3b527345f2b37883070c6d272649edc2a23b7ea8e6cb0371"
+    },
+    {
+      "file": "Models/OBJ format/window-white-tall.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-white-tall.obj",
+      "bytes": 2867,
+      "sha256": "ee68a07deaef0082cc5f7cd102b8303a3bb91df03e1d94d04715f7a2faead357"
+    },
+    {
+      "file": "Models/OBJ format/window-white-wide.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-white-wide.obj",
+      "bytes": 2791,
+      "sha256": "ee60976bebe481310df93f5514604afba3edb10a993414898e62fa96cfca8109"
+    },
+    {
+      "file": "Models/OBJ format/window-white.mtl",
+      "bytes": 98,
+      "sha256": "45a6736aa344a0c7e286b9c43c6a48f25b6a2f78d8c5949e430c3b4a93b4e060"
+    },
+    {
+      "file": "Models/OBJ format/window-white.obj",
+      "bytes": 2850,
+      "sha256": "99911eacaf87633395a74790f53e3520cd46c9ad4c5603a4027151a4facfc2b7"
+    },
+    {
+      "file": "Models/Textures/variation-a.png",
+      "bytes": 6524,
+      "sha256": "d647fe9f147d818381e5522e51a81517907a7680fe77cb2b788a982b84ef5925"
+    },
+    {
+      "file": "Models/Textures/variation-b.png",
+      "bytes": 5451,
+      "sha256": "43efdb48f10e9127f1fd9b83e6842f14dd01be0e825ae2c0e229b1da5d381eb5"
+    },
+    {
+      "file": "Overview.html",
+      "bytes": 20547,
+      "sha256": "5bb37684a136d992f984dae8173b37576f95337007ac446e2721985ee64d91aa"
+    },
+    {
+      "file": "Preview (Variation A).png",
+      "bytes": 109972,
+      "sha256": "631460bf90b3f1260e826594c9d4ac31f280e201ddb016bd56c568562fffb33f"
+    },
+    {
+      "file": "Preview (Variation B).png",
+      "bytes": 112200,
+      "sha256": "769d5ef0e9d41d2fdec69838b01da60836f7d144fa65b9733872fc023211658c"
+    },
+    {
+      "file": "Preview.png",
+      "bytes": 107424,
+      "sha256": "492a478989b429315a00ba115fc3453c985337e50dfbd9d63592ce654e821a74"
+    },
+    {
+      "file": "Previews/building-block.png",
+      "bytes": 1906,
+      "sha256": "9d8b5f4cf032127d2b30781c37485e2331d84405716137b73f643b12d064cade"
+    },
+    {
+      "file": "Previews/building-corner-bottom.png",
+      "bytes": 2207,
+      "sha256": "4439e1d54a9dbf64dae182ca591f1b0dbad78089815a3ba33593fac3923a8b04"
+    },
+    {
+      "file": "Previews/building-corner-top.png",
+      "bytes": 1960,
+      "sha256": "7f1e567f2ab977180fb1f9c9dfde5c2a91a3ce16b404723f0e183d30e097e461"
+    },
+    {
+      "file": "Previews/building-corner-window-middle.png",
+      "bytes": 2164,
+      "sha256": "58954125454f0b8d383d0bd9f87227fffd84b78336f38bae2a8410ecfb3ed30e"
+    },
+    {
+      "file": "Previews/building-corner-window-narrow.png",
+      "bytes": 2229,
+      "sha256": "a08dd5c43fe417618b96dfa379cc3bed7dbdb54132b03c411ab5b9ee776df8ca"
+    },
+    {
+      "file": "Previews/building-corner-window-sill.png",
+      "bytes": 2226,
+      "sha256": "268a296ab09eeaef81a46fec93668ef7693de8af17019dbf55d186b4e6040e73"
+    },
+    {
+      "file": "Previews/building-corner-window-top-round.png",
+      "bytes": 2190,
+      "sha256": "83767cd8d092a1c99ac9b460560e84c234ae76d472911c1d759c0e8ce5d01f3d"
+    },
+    {
+      "file": "Previews/building-corner-window-top-square.png",
+      "bytes": 2193,
+      "sha256": "384718cb2e18823328bbbbd993f21d4d59cd26dc994d9fe32c6f297440907268"
+    },
+    {
+      "file": "Previews/building-corner-window.png",
+      "bytes": 2213,
+      "sha256": "73d6416d545b976210a66eb7defd26fc489e384b1668560a228c1825f87a5e89"
+    },
+    {
+      "file": "Previews/building-corner.png",
+      "bytes": 2237,
+      "sha256": "a48d384ec5eb01db669a5d250bc766615d03084c395b8ef30a6e5f25c0359f17"
+    },
+    {
+      "file": "Previews/building-door-window-narrow.png",
+      "bytes": 1959,
+      "sha256": "56f1cbaf0a8b9fe1c2996fab3fd797cf842232869d5bf62d9e5fc1174a38c637"
+    },
+    {
+      "file": "Previews/building-door-window.png",
+      "bytes": 1936,
+      "sha256": "f5978a6b5726fca86bb49e5fb9d7b7bd8fbd0ca0a1a2a48d464d07aac633deff"
+    },
+    {
+      "file": "Previews/building-door.png",
+      "bytes": 1959,
+      "sha256": "b096c2cf24460d17dcfbdfded4401027fa917b4bfe4e6d71b7a7afcb062c2b98"
+    },
+    {
+      "file": "Previews/building-edges-door.png",
+      "bytes": 2060,
+      "sha256": "35f902c21641a5bf47904efa5df7f87b8999d2b76549fb13236d312ad04ff47d"
+    },
+    {
+      "file": "Previews/building-sample-house-a.png",
+      "bytes": 1691,
+      "sha256": "27e4a20c4001f9fbb43ccf2c5cecfdeb99c851652a7839de9ea7dda2c47e3aee"
+    },
+    {
+      "file": "Previews/building-sample-house-b.png",
+      "bytes": 1643,
+      "sha256": "42f11ffe70e1f3894b0a2717354bf808c93c1c376cafeb4635e3964942d558f5"
+    },
+    {
+      "file": "Previews/building-sample-house-c.png",
+      "bytes": 1696,
+      "sha256": "6f2d1c889945fd5d20b17bcf55be5edb01c79c6b34768297ef4434b0da679789"
+    },
+    {
+      "file": "Previews/building-sample-tower-a.png",
+      "bytes": 1645,
+      "sha256": "19bb25848ba817175fa9490b2eb391057949d4d26c959cae4e7777d79e5acadd"
+    },
+    {
+      "file": "Previews/building-sample-tower-b.png",
+      "bytes": 1786,
+      "sha256": "e6ef05df9d5f05515c5210de876ca16ffe26d3610442c8310f8761767d9b3fd2"
+    },
+    {
+      "file": "Previews/building-sample-tower-c.png",
+      "bytes": 1582,
+      "sha256": "cff4a163f6fb3d4ca5cbfe34e844551a7137bb607f8fb30abb472b8932d49a89"
+    },
+    {
+      "file": "Previews/building-sample-tower-d.png",
+      "bytes": 1479,
+      "sha256": "de9a2fe125573a5d7795b06fe9ccfc24973a2945b375f8bc2917a8bffd4aece8"
+    },
+    {
+      "file": "Previews/building-steps-narrow-windows-round.png",
+      "bytes": 2016,
+      "sha256": "47880a353ed9fff2c986effce5a6edc35ad8821b6ff1049a54cf82c6bc76ebaf"
+    },
+    {
+      "file": "Previews/building-steps-narrow-windows.png",
+      "bytes": 1993,
+      "sha256": "e7198203365f083496567cebd20dd52a5a67f04694581ede736e69cb5546a577"
+    },
+    {
+      "file": "Previews/building-steps-narrow.png",
+      "bytes": 2040,
+      "sha256": "c6afdf4244113dbe94dc8fd81132e456e57d9780fa0d99ff5e103e64a056d8a8"
+    },
+    {
+      "file": "Previews/building-steps-wide.png",
+      "bytes": 1963,
+      "sha256": "14b81beafe2198ec3f03484290b59afbd6ce5821818114b5e22d0371f03ecb7c"
+    },
+    {
+      "file": "Previews/building-window-awnings.png",
+      "bytes": 1995,
+      "sha256": "55ee6d9b68677daeb50a3cd1992c0a12bd898d83b5c8d128752110446e14f1e2"
+    },
+    {
+      "file": "Previews/building-window-balcony.png",
+      "bytes": 2021,
+      "sha256": "fc79031b9b75c3e78fefab82a7dc623df71d5e48fff574008df59ef754594d38"
+    },
+    {
+      "file": "Previews/building-window-door-window-round.png",
+      "bytes": 1942,
+      "sha256": "7583e28e6f32e9fae617d8e26a9c3cba38862b0d8f35e10e42899fe3e195466b"
+    },
+    {
+      "file": "Previews/building-window-door-window.png",
+      "bytes": 1941,
+      "sha256": "05b4c03cbbf2faa50a88cf497a361c39b0fb92cd9b1fd88424a47cd0b34dec7e"
+    },
+    {
+      "file": "Previews/building-window-large-left.png",
+      "bytes": 1976,
+      "sha256": "4a080d164230178899e809e284f8315b897cb299f16b5c03b186a9f6b029593c"
+    },
+    {
+      "file": "Previews/building-window-large-middle.png",
+      "bytes": 1953,
+      "sha256": "e1d8f10674fd390dfe1bb943f5e68519ece0eea71e5948e96c9ede2c9be77cf8"
+    },
+    {
+      "file": "Previews/building-window-large-right.png",
+      "bytes": 1862,
+      "sha256": "451edcc5b77a7fd7446a9cbd4e1cade55d059d903f788a057957f596f20a84da"
+    },
+    {
+      "file": "Previews/building-window-large.png",
+      "bytes": 1907,
+      "sha256": "2edfc573c4afdd002eba5a7a4910b8cbcc728726d2ecd0a848d806fefcee4e15"
+    },
+    {
+      "file": "Previews/building-window-left-sill.png",
+      "bytes": 1954,
+      "sha256": "7f5d9a9b2f21b0b1d312f312fca2eb0d3c624a7ddf9dc908a8d69ed02d28b1a5"
+    },
+    {
+      "file": "Previews/building-window-left.png",
+      "bytes": 1931,
+      "sha256": "f1fe19b08ac4a18eb381fbf7d53fdd515b4c26b9057fad7f2b0fe713fd4a39bf"
+    },
+    {
+      "file": "Previews/building-window-right-sill.png",
+      "bytes": 1969,
+      "sha256": "913fa83e23c5c72a6f181c130daf7febae38d7a9474e92c8d26890397110b59c"
+    },
+    {
+      "file": "Previews/building-window-right.png",
+      "bytes": 1931,
+      "sha256": "5c90313086d2e2e56b2bbb97c80ddd8221b97f2532c35a4cff2020e4bb2096d6"
+    },
+    {
+      "file": "Previews/building-window-sill.png",
+      "bytes": 1963,
+      "sha256": "17575a3263adfe94ff0f4c8973db606d432bab780dc9ee14a3106cd8b869a049"
+    },
+    {
+      "file": "Previews/building-window-wide-sill.png",
+      "bytes": 1940,
+      "sha256": "06785f11b486432305f3c1ae5db8d7cd484906fd508f771adc73c4f949e19263"
+    },
+    {
+      "file": "Previews/building-window-wide.png",
+      "bytes": 1925,
+      "sha256": "246689d63bd8255a04b02e856ceea7ef09ccc334632474f26cfffc974fedb949"
+    },
+    {
+      "file": "Previews/building-window.png",
+      "bytes": 1930,
+      "sha256": "2623dfc5b541a6d7c8ae9e2de3802b08bd575d419a8471cb198e9ffe1119acc7"
+    },
+    {
+      "file": "Previews/building-windows-high-middle.png",
+      "bytes": 1968,
+      "sha256": "40cbe2e1944c5289862a1b3be31cc4fa553e35b5fdf1cd597946843234ef02c9"
+    },
+    {
+      "file": "Previews/building-windows-high-top-round.png",
+      "bytes": 1928,
+      "sha256": "8abb6141c30fa480f30243b3c7adcf8ede52b5da5a2daf8f69b7a39b64f667bb"
+    },
+    {
+      "file": "Previews/building-windows-high-top-square.png",
+      "bytes": 1931,
+      "sha256": "012064283767bb073a75f22f63f94748d1f9ed3dfaaeaa51a9734760988dd93b"
+    },
+    {
+      "file": "Previews/building-windows-round.png",
+      "bytes": 1926,
+      "sha256": "fa6bfaa90cb3191c86e8ea61f8f97a5cd591f466391203257b5722574fb368bd"
+    },
+    {
+      "file": "Previews/building-windows-sills-round.png",
+      "bytes": 1973,
+      "sha256": "608044e365055a8791a5ef9b18b57252687d2713ebf483c47456e6123f9ef305"
+    },
+    {
+      "file": "Previews/building-windows-sills.png",
+      "bytes": 1959,
+      "sha256": "1d3fd06cc96eec378995aa16297b934902967a06338ffefc1f6ad9665ecafee9"
+    },
+    {
+      "file": "Previews/building-windows.png",
+      "bytes": 1932,
+      "sha256": "84c4941d50f63375db21945015bf87ad7a77ff1271a04b626eb0cd33f3784a43"
+    },
+    {
+      "file": "Previews/detail-ac-a.png",
+      "bytes": 1774,
+      "sha256": "25b4de296bacd863793072715003ef3d66e3d7e6c075955a53191b777da0eb1a"
+    },
+    {
+      "file": "Previews/detail-ac-b.png",
+      "bytes": 1790,
+      "sha256": "4101ce77b2048b37f0570fb1f1917014cc672ede41a80ac809b382e19249f5db"
+    },
+    {
+      "file": "Previews/door-brown-glass.png",
+      "bytes": 1579,
+      "sha256": "2796976b95d8fad4dcb750eb30fbed5a0d7c286cae7787f5b8150104db5cb4c9"
+    },
+    {
+      "file": "Previews/door-brown-window.png",
+      "bytes": 1579,
+      "sha256": "87fe60398941cb005c7dcef3d15438d5b9244c99d5490a73926c08a6faf54591"
+    },
+    {
+      "file": "Previews/door-brown.png",
+      "bytes": 1602,
+      "sha256": "ba9629412aad6aa3558ab0c07185db4ad07f14f23bce71fc673c24f23841bde6"
+    },
+    {
+      "file": "Previews/door-white-glass.png",
+      "bytes": 1586,
+      "sha256": "14a30ce56cb2a29c484d3eac6b1f3e0d4f93afef28ba876098c519f79b05d076"
+    },
+    {
+      "file": "Previews/door-white-window.png",
+      "bytes": 1577,
+      "sha256": "8d29702374061b5ac57d9e260491f00dfebcce35b446e0bbd8c8597868850269"
+    },
+    {
+      "file": "Previews/door-white.png",
+      "bytes": 1596,
+      "sha256": "3457d08b8844cbc12550809df34f1f097b2c756ff55679e091b0c689425b2b2e"
+    },
+    {
+      "file": "Previews/roof-flat-awning-a.png",
+      "bytes": 1667,
+      "sha256": "7393d3910e5a3e0dc401719f7495f7072e07fb745524a2fb3ed571743f2aa56a"
+    },
+    {
+      "file": "Previews/roof-flat-awning-b.png",
+      "bytes": 1829,
+      "sha256": "9976e63e75a8a74838177a0db471f7b6d08a71523db403cbc9abf92965a30a75"
+    },
+    {
+      "file": "Previews/roof-flat-awning-c.png",
+      "bytes": 1875,
+      "sha256": "a60662b49cde4da3fb2a7ed97204101188a936a701726e2d5aa0191559e1876d"
+    },
+    {
+      "file": "Previews/roof-flat-border-center-corner.png",
+      "bytes": 1906,
+      "sha256": "3c78403384a9a649ffb87508beabd27bfc953c3d363537ea0766e8ca7fdad989"
+    },
+    {
+      "file": "Previews/roof-flat-border-center.png",
+      "bytes": 1997,
+      "sha256": "df507f4bb8135cf7d7c4a74d4af7b6f3beebc2625a608d90fa7886cfb523debe"
+    },
+    {
+      "file": "Previews/roof-flat-border-corner-slanted-passage.png",
+      "bytes": 1780,
+      "sha256": "2ff75a2c30322f0ce9bb6a6dde322dbc4c6741540616cfc4f5d0f75b861850ea"
+    },
+    {
+      "file": "Previews/roof-flat-border-corner-slanted.png",
+      "bytes": 1749,
+      "sha256": "80402faade372631e1671a321935d8d74bfe97877936ef7fcbf93649e4fb9e7e"
+    },
+    {
+      "file": "Previews/roof-flat-border-corner.png",
+      "bytes": 1833,
+      "sha256": "9a98ddc0186c946fe9bdabdb444a7f78818b97e2c4b89919cb2f8313730a9d24"
+    },
+    {
+      "file": "Previews/roof-flat-border-end.png",
+      "bytes": 1933,
+      "sha256": "38b97e05f7ff94d50b8cbc5bab84c99e6c8528f3a494d351fed2edf9f42a1d9e"
+    },
+    {
+      "file": "Previews/roof-flat-border-side.png",
+      "bytes": 1580,
+      "sha256": "6a310abae113f8d276b9e3788ff1984c937d2fb792c2f8fd6c180210c2a46feb"
+    },
+    {
+      "file": "Previews/roof-flat-border-straight.png",
+      "bytes": 1946,
+      "sha256": "e7c1412bcc7283552238554542385603d69aa65dfd19962dcc115cac6e984731"
+    },
+    {
+      "file": "Previews/roof-flat-center.png",
+      "bytes": 1516,
+      "sha256": "41ed171312f5e1c19ee43cd0f4762f2c0ea2089b7ffc4bc502e6cddebb333b61"
+    },
+    {
+      "file": "Previews/roof-flat-corner-high.png",
+      "bytes": 1766,
+      "sha256": "d3ac4393645d89402e617f6dbcc5a864cf3bc324040ce271381e1c3e30478ac9"
+    },
+    {
+      "file": "Previews/roof-flat-corner.png",
+      "bytes": 1535,
+      "sha256": "f225f2438dbe12cfc7ed62853c5bbdfefef06562136eae6eae746e853d9e5191"
+    },
+    {
+      "file": "Previews/roof-flat-detail-a.png",
+      "bytes": 1869,
+      "sha256": "bb6d828e40d3f7d9944d37c7b5e5ded1b2217559135bb01de0e9cf3a52867138"
+    },
+    {
+      "file": "Previews/roof-flat-detail-b.png",
+      "bytes": 1817,
+      "sha256": "587fdf8972c828e9a5e3ac5b136da78b3b4363ea85b00e3922753e31a7ea40d6"
+    },
+    {
+      "file": "Previews/roof-flat-detail-c.png",
+      "bytes": 1759,
+      "sha256": "a3259060c840f8a3807b4c2a1fe6751356a0e38c5e5a8e7927dbb3890c80c382"
+    },
+    {
+      "file": "Previews/roof-flat-detail-d.png",
+      "bytes": 1732,
+      "sha256": "f0e15f1a6206d59c0f5c9f911a33afe401da7e86a63f7052a4fa33cec266c4be"
+    },
+    {
+      "file": "Previews/roof-flat-top.png",
+      "bytes": 1682,
+      "sha256": "935cf297d106d98aa5a5842a1f47e250ecfada4e529091d177221caf242af331"
+    },
+    {
+      "file": "Previews/roof-gable-corner.png",
+      "bytes": 1769,
+      "sha256": "6a22a7ad0fd2edc2f1a842be35bf4c3cb97875ca4c1990a24a59e7ae1405e28f"
+    },
+    {
+      "file": "Previews/roof-gable-end.png",
+      "bytes": 1593,
+      "sha256": "4483271401ef9380e4a483a276f5e79422831b15201a6020f8efa265b3ea2436"
+    },
+    {
+      "file": "Previews/roof-gable.png",
+      "bytes": 1701,
+      "sha256": "51f415d38ae5d47a5573af8655a37685893cead343d3ae6a6a189657df73b0bc"
+    },
+    {
+      "file": "Previews/roof-slanted-corner-a.png",
+      "bytes": 1793,
+      "sha256": "bffc85ada411d09f343bede1b17266a2ebadd4131688f1c59bfca7a91e439e66"
+    },
+    {
+      "file": "Previews/roof-slanted-corner-b.png",
+      "bytes": 1558,
+      "sha256": "6e4edb800935d9664efed13d144f4792d711fa9f565a6b1756b0ecf9a38d61ab"
+    },
+    {
+      "file": "Previews/roof-slanted-corner-c.png",
+      "bytes": 1831,
+      "sha256": "b131f56eab7d54fc5ec854c13f6c2729871c24d627379363b2c192d2262c0aa8"
+    },
+    {
+      "file": "Previews/roof-slanted-corner-inner.png",
+      "bytes": 1924,
+      "sha256": "9899b3d0d4717adf04d26a444a8f28cf485f7e5edff098033fad1337d006c075"
+    },
+    {
+      "file": "Previews/roof-slanted-detail.png",
+      "bytes": 1910,
+      "sha256": "13bba059568adfc833b64260ca130eb81020ceccdc446d9cecfdc3bb8b1230fe"
+    },
+    {
+      "file": "Previews/roof-slanted-flat.png",
+      "bytes": 1050,
+      "sha256": "4243b2596228a6899c952f578aabcf6ac9d2e5ce4d594a7c07475cbc82ad4151"
+    },
+    {
+      "file": "Previews/roof-slanted-window.png",
+      "bytes": 1854,
+      "sha256": "7db341b84615abc409f1904b8f196aea14e1423b591ba7dcb990ec1e9eab519c"
+    },
+    {
+      "file": "Previews/roof-slanted.png",
+      "bytes": 1782,
+      "sha256": "5eb56418ec16940640ea07ae7ebcaf5a673dbcae45caf875e06c1255897a73f8"
+    },
+    {
+      "file": "Previews/window-brown-detailed.png",
+      "bytes": 1675,
+      "sha256": "32465e5acb2fbf73591552707ca12ac79cbb25883490428e9404f17d9fc0febe"
+    },
+    {
+      "file": "Previews/window-brown-large.png",
+      "bytes": 1549,
+      "sha256": "5ede3f3d96fd5eb71eb13dbf4918693cab427c412f9c57436ef3d632ee0fe224"
+    },
+    {
+      "file": "Previews/window-brown-narrow.png",
+      "bytes": 1404,
+      "sha256": "48cc64af3b69a13ef6bc4bfcea04b4c28ee9cf08e4d1f028a33063f418c289b2"
+    },
+    {
+      "file": "Previews/window-brown-round-low.png",
+      "bytes": 1519,
+      "sha256": "e636a004b5eb9b8080a5d6840addd56eaba95e397296ccd324a5489934b99819"
+    },
+    {
+      "file": "Previews/window-brown-round-middle.png",
+      "bytes": 1408,
+      "sha256": "b0fc69a34443e0db30056148fd4409428be748cf86cb762ce71e71db0d83949a"
+    },
+    {
+      "file": "Previews/window-brown-round-narrow.png",
+      "bytes": 1445,
+      "sha256": "b4edb9e7768c663116a546de57bbc7612862d1b5d28fd33082c2dc037e5fa17e"
+    },
+    {
+      "file": "Previews/window-brown-round-top.png",
+      "bytes": 1425,
+      "sha256": "71a7b8c4222f21a49a65d631e7c46a2037819f77bb319c76d3fdf71b8c216790"
+    },
+    {
+      "file": "Previews/window-brown-round-wide.png",
+      "bytes": 1477,
+      "sha256": "cd418ac1fc1ad71dc047a6dab213fdf86aeb54e2a053a0ece65a629989222692"
+    },
+    {
+      "file": "Previews/window-brown-tall.png",
+      "bytes": 1463,
+      "sha256": "36a198f20242fe459264d868af957f770ddb0d36934d3ac660cba9d3d6529cc4"
+    },
+    {
+      "file": "Previews/window-brown-wide.png",
+      "bytes": 1391,
+      "sha256": "d662ffba9bd8d58817cfc17f018d4a24e53ab3e8042392e90dc49e7f50bca5a8"
+    },
+    {
+      "file": "Previews/window-brown.png",
+      "bytes": 1620,
+      "sha256": "0b19a30f7214bb00e6638e0a282081b2ceb8959238558aaf9ed972399aa1ec75"
+    },
+    {
+      "file": "Previews/window-white-detailed.png",
+      "bytes": 1663,
+      "sha256": "33b5806c79e51d9cfb0a4f502e88d4c0610bdca0fccd1f65ac34a8791cf1b4a0"
+    },
+    {
+      "file": "Previews/window-white-large.png",
+      "bytes": 1550,
+      "sha256": "a1b53913b66ba32d183fdb8be4e665a975ffb361d360ccbeaffc5929a0cbb112"
+    },
+    {
+      "file": "Previews/window-white-narrow.png",
+      "bytes": 1521,
+      "sha256": "76aa468ff7de73d0ebf27109b350d17c3c0ef7e9a8d07e5acea4c9f6f9f0a3ea"
+    },
+    {
+      "file": "Previews/window-white-round-low.png",
+      "bytes": 1568,
+      "sha256": "d0584050d7dbbe91e6a5e9e5a9daaf209c50248b8f57bebe3ebb54c1814dd672"
+    },
+    {
+      "file": "Previews/window-white-round-middle.png",
+      "bytes": 1443,
+      "sha256": "131cb6e33bd8436c0d0b0a206c0713bad99353ac336e052902a19ddd69b53edd"
+    },
+    {
+      "file": "Previews/window-white-round-narrow.png",
+      "bytes": 1553,
+      "sha256": "6864e4f5f38f131b4d63a46db2cf8889a33b44b348165db132f3c0f5f1827503"
+    },
+    {
+      "file": "Previews/window-white-round-top.png",
+      "bytes": 1478,
+      "sha256": "cd23f1d155c8a5e278bad0c55b609e0dee060b11f47d9a75d19ac4266e4acc08"
+    },
+    {
+      "file": "Previews/window-white-round-wide.png",
+      "bytes": 1517,
+      "sha256": "bbdd3024acd11d5020ac73fa9b7a310fcf92a3a5785f50745cf6186d152aabfc"
+    },
+    {
+      "file": "Previews/window-white-tall.png",
+      "bytes": 1517,
+      "sha256": "d5892fffcc0309796053c4b4263d152c95b63e13fdf4bc3af3f1dc26617c4e8b"
+    },
+    {
+      "file": "Previews/window-white-wide.png",
+      "bytes": 1498,
+      "sha256": "5b0355a3c06c4bc7306a2318896c2d8bff39999b0e7f98b531edc6e52a86006b"
+    },
+    {
+      "file": "Previews/window-white.png",
+      "bytes": 1609,
+      "sha256": "4316dc17de417308ad92b4b5f6abf4b7cf18d98a736b4a051c228ab06d181cca"
+    },
+    {
+      "file": "Sample.png",
+      "bytes": 104403,
+      "sha256": "fe0ed72be625c686d5c3a7c030d62ca862161945416452b7411705b830f9abf5"
+    },
+    {
+      "file": "View Documentation.url",
+      "bytes": 185,
+      "sha256": "04e97bd6cafb469c1d38fd8c0b7db896d4f40ae14a4892de49690e2339977ef5"
+    },
+    {
+      "file": "Visit Kenney.url",
+      "bytes": 118,
+      "sha256": "773515aff299de98f621b769e3ad1ac5552eed54ea686791f75000014911e203"
+    },
+    {
+      "file": "Visit Patreon.url",
+      "bytes": 55,
+      "sha256": "84be5ef26b07905fa7e196e943c9807bf84138c3a71d87f51c6fd57b85c48c34"
+    }
+  ],
+  "assets": [
+    {
+      "sourceMember": "Models/GLB format/building-block.glb",
+      "sourceName": "building-block",
+      "modelId": "kenney-buildings-building-block",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-corner-bottom.glb",
+      "sourceName": "building-corner-bottom",
+      "modelId": "kenney-buildings-building-corner-bottom",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-corner-top.glb",
+      "sourceName": "building-corner-top",
+      "modelId": "kenney-buildings-building-corner-top",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-corner-window-middle.glb",
+      "sourceName": "building-corner-window-middle",
+      "modelId": "kenney-buildings-building-corner-window-middle",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-corner-window-narrow.glb",
+      "sourceName": "building-corner-window-narrow",
+      "modelId": "kenney-buildings-building-corner-window-narrow",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-corner-window-sill.glb",
+      "sourceName": "building-corner-window-sill",
+      "modelId": "kenney-buildings-building-corner-window-sill",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-corner-window-top-round.glb",
+      "sourceName": "building-corner-window-top-round",
+      "modelId": "kenney-buildings-building-corner-window-top-round",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-corner-window-top-square.glb",
+      "sourceName": "building-corner-window-top-square",
+      "modelId": "kenney-buildings-building-corner-window-top-square",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-corner-window.glb",
+      "sourceName": "building-corner-window",
+      "modelId": "kenney-buildings-building-corner-window",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-corner.glb",
+      "sourceName": "building-corner",
+      "modelId": "kenney-buildings-building-corner",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-door-window-narrow.glb",
+      "sourceName": "building-door-window-narrow",
+      "modelId": "kenney-buildings-building-door-window-narrow",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-door-window.glb",
+      "sourceName": "building-door-window",
+      "modelId": "kenney-buildings-building-door-window",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-door.glb",
+      "sourceName": "building-door",
+      "modelId": "kenney-buildings-building-door",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-edges-door.glb",
+      "sourceName": "building-edges-door",
+      "modelId": "kenney-buildings-building-edges-door",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-sample-house-a.glb",
+      "sourceName": "building-sample-house-a",
+      "modelId": "kenney-buildings-building-sample-house-a",
+      "relation": "same-fiche"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-sample-house-b.glb",
+      "sourceName": "building-sample-house-b",
+      "modelId": "kenney-buildings-building-sample-house-b",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-sample-house-c.glb",
+      "sourceName": "building-sample-house-c",
+      "modelId": "kenney-buildings-building-sample-house-c",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-sample-tower-a.glb",
+      "sourceName": "building-sample-tower-a",
+      "modelId": "kenney-buildings-building-sample-tower-a",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-sample-tower-b.glb",
+      "sourceName": "building-sample-tower-b",
+      "modelId": "kenney-buildings-building-sample-tower-b",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-sample-tower-c.glb",
+      "sourceName": "building-sample-tower-c",
+      "modelId": "kenney-buildings-building-sample-tower-c",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-sample-tower-d.glb",
+      "sourceName": "building-sample-tower-d",
+      "modelId": "kenney-buildings-building-sample-tower-d",
+      "relation": "same-fiche"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-steps-narrow-windows-round.glb",
+      "sourceName": "building-steps-narrow-windows-round",
+      "modelId": "kenney-buildings-building-steps-narrow-windows-round",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-steps-narrow-windows.glb",
+      "sourceName": "building-steps-narrow-windows",
+      "modelId": "kenney-buildings-building-steps-narrow-windows",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-steps-narrow.glb",
+      "sourceName": "building-steps-narrow",
+      "modelId": "kenney-buildings-building-steps-narrow",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-steps-wide.glb",
+      "sourceName": "building-steps-wide",
+      "modelId": "kenney-buildings-building-steps-wide",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-awnings.glb",
+      "sourceName": "building-window-awnings",
+      "modelId": "kenney-buildings-building-window-awnings",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-balcony.glb",
+      "sourceName": "building-window-balcony",
+      "modelId": "kenney-buildings-building-window-balcony",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-door-window-round.glb",
+      "sourceName": "building-window-door-window-round",
+      "modelId": "kenney-buildings-building-window-door-window-round",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-door-window.glb",
+      "sourceName": "building-window-door-window",
+      "modelId": "kenney-buildings-building-window-door-window",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-large-left.glb",
+      "sourceName": "building-window-large-left",
+      "modelId": "kenney-buildings-building-window-large-left",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-large-middle.glb",
+      "sourceName": "building-window-large-middle",
+      "modelId": "kenney-buildings-building-window-large-middle",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-large-right.glb",
+      "sourceName": "building-window-large-right",
+      "modelId": "kenney-buildings-building-window-large-right",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-large.glb",
+      "sourceName": "building-window-large",
+      "modelId": "kenney-buildings-building-window-large",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-left-sill.glb",
+      "sourceName": "building-window-left-sill",
+      "modelId": "kenney-buildings-building-window-left-sill",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-left.glb",
+      "sourceName": "building-window-left",
+      "modelId": "kenney-buildings-building-window-left",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-right-sill.glb",
+      "sourceName": "building-window-right-sill",
+      "modelId": "kenney-buildings-building-window-right-sill",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-right.glb",
+      "sourceName": "building-window-right",
+      "modelId": "kenney-buildings-building-window-right",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-sill.glb",
+      "sourceName": "building-window-sill",
+      "modelId": "kenney-buildings-building-window-sill",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-wide-sill.glb",
+      "sourceName": "building-window-wide-sill",
+      "modelId": "kenney-buildings-building-window-wide-sill",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window-wide.glb",
+      "sourceName": "building-window-wide",
+      "modelId": "kenney-buildings-building-window-wide",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-window.glb",
+      "sourceName": "building-window",
+      "modelId": "kenney-buildings-building-window",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-windows-high-middle.glb",
+      "sourceName": "building-windows-high-middle",
+      "modelId": "kenney-buildings-building-windows-high-middle",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-windows-high-top-round.glb",
+      "sourceName": "building-windows-high-top-round",
+      "modelId": "kenney-buildings-building-windows-high-top-round",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-windows-high-top-square.glb",
+      "sourceName": "building-windows-high-top-square",
+      "modelId": "kenney-buildings-building-windows-high-top-square",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-windows-round.glb",
+      "sourceName": "building-windows-round",
+      "modelId": "kenney-buildings-building-windows-round",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-windows-sills-round.glb",
+      "sourceName": "building-windows-sills-round",
+      "modelId": "kenney-buildings-building-windows-sills-round",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-windows-sills.glb",
+      "sourceName": "building-windows-sills",
+      "modelId": "kenney-buildings-building-windows-sills",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/building-windows.glb",
+      "sourceName": "building-windows",
+      "modelId": "kenney-buildings-building-windows",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/detail-ac-a.glb",
+      "sourceName": "detail-ac-a",
+      "modelId": "kenney-buildings-detail-ac-a",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/detail-ac-b.glb",
+      "sourceName": "detail-ac-b",
+      "modelId": "kenney-buildings-detail-ac-b",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/door-brown-glass.glb",
+      "sourceName": "door-brown-glass",
+      "modelId": "kenney-buildings-door-brown-glass",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/door-brown-window.glb",
+      "sourceName": "door-brown-window",
+      "modelId": "kenney-buildings-door-brown-window",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/door-brown.glb",
+      "sourceName": "door-brown",
+      "modelId": "kenney-buildings-door-brown",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/door-white-glass.glb",
+      "sourceName": "door-white-glass",
+      "modelId": "kenney-buildings-door-white-glass",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/door-white-window.glb",
+      "sourceName": "door-white-window",
+      "modelId": "kenney-buildings-door-white-window",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/door-white.glb",
+      "sourceName": "door-white",
+      "modelId": "kenney-buildings-door-white",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-awning-a.glb",
+      "sourceName": "roof-flat-awning-a",
+      "modelId": "kenney-buildings-roof-flat-awning-a",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-awning-b.glb",
+      "sourceName": "roof-flat-awning-b",
+      "modelId": "kenney-buildings-roof-flat-awning-b",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-awning-c.glb",
+      "sourceName": "roof-flat-awning-c",
+      "modelId": "kenney-buildings-roof-flat-awning-c",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-border-center-corner.glb",
+      "sourceName": "roof-flat-border-center-corner",
+      "modelId": "kenney-buildings-roof-flat-border-center-corner",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-border-center.glb",
+      "sourceName": "roof-flat-border-center",
+      "modelId": "kenney-buildings-roof-flat-border-center",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-border-corner-slanted-passage.glb",
+      "sourceName": "roof-flat-border-corner-slanted-passage",
+      "modelId": "kenney-buildings-roof-flat-border-corner-slanted-passage",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-border-corner-slanted.glb",
+      "sourceName": "roof-flat-border-corner-slanted",
+      "modelId": "kenney-buildings-roof-flat-border-corner-slanted",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-border-corner.glb",
+      "sourceName": "roof-flat-border-corner",
+      "modelId": "kenney-buildings-roof-flat-border-corner",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-border-end.glb",
+      "sourceName": "roof-flat-border-end",
+      "modelId": "kenney-buildings-roof-flat-border-end",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-border-side.glb",
+      "sourceName": "roof-flat-border-side",
+      "modelId": "kenney-buildings-roof-flat-border-side",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-border-straight.glb",
+      "sourceName": "roof-flat-border-straight",
+      "modelId": "kenney-buildings-roof-flat-border-straight",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-center.glb",
+      "sourceName": "roof-flat-center",
+      "modelId": "kenney-buildings-roof-flat-center",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-corner-high.glb",
+      "sourceName": "roof-flat-corner-high",
+      "modelId": "kenney-buildings-roof-flat-corner-high",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-corner.glb",
+      "sourceName": "roof-flat-corner",
+      "modelId": "kenney-buildings-roof-flat-corner",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-detail-a.glb",
+      "sourceName": "roof-flat-detail-a",
+      "modelId": "kenney-buildings-roof-flat-detail-a",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-detail-b.glb",
+      "sourceName": "roof-flat-detail-b",
+      "modelId": "kenney-buildings-roof-flat-detail-b",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-detail-c.glb",
+      "sourceName": "roof-flat-detail-c",
+      "modelId": "kenney-buildings-roof-flat-detail-c",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-detail-d.glb",
+      "sourceName": "roof-flat-detail-d",
+      "modelId": "kenney-buildings-roof-flat-detail-d",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-flat-top.glb",
+      "sourceName": "roof-flat-top",
+      "modelId": "kenney-buildings-roof-flat-top",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-gable-corner.glb",
+      "sourceName": "roof-gable-corner",
+      "modelId": "kenney-buildings-roof-gable-corner",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-gable-end.glb",
+      "sourceName": "roof-gable-end",
+      "modelId": "kenney-buildings-roof-gable-end",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-gable.glb",
+      "sourceName": "roof-gable",
+      "modelId": "kenney-buildings-roof-gable",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-slanted-corner-a.glb",
+      "sourceName": "roof-slanted-corner-a",
+      "modelId": "kenney-buildings-roof-slanted-corner-a",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-slanted-corner-b.glb",
+      "sourceName": "roof-slanted-corner-b",
+      "modelId": "kenney-buildings-roof-slanted-corner-b",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-slanted-corner-c.glb",
+      "sourceName": "roof-slanted-corner-c",
+      "modelId": "kenney-buildings-roof-slanted-corner-c",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-slanted-corner-inner.glb",
+      "sourceName": "roof-slanted-corner-inner",
+      "modelId": "kenney-buildings-roof-slanted-corner-inner",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-slanted-detail.glb",
+      "sourceName": "roof-slanted-detail",
+      "modelId": "kenney-buildings-roof-slanted-detail",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-slanted-flat.glb",
+      "sourceName": "roof-slanted-flat",
+      "modelId": "kenney-buildings-roof-slanted-flat",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-slanted-window.glb",
+      "sourceName": "roof-slanted-window",
+      "modelId": "kenney-buildings-roof-slanted-window",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/roof-slanted.glb",
+      "sourceName": "roof-slanted",
+      "modelId": "kenney-buildings-roof-slanted",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-brown-detailed.glb",
+      "sourceName": "window-brown-detailed",
+      "modelId": "kenney-buildings-window-brown-detailed",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-brown-large.glb",
+      "sourceName": "window-brown-large",
+      "modelId": "kenney-buildings-window-brown-large",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-brown-narrow.glb",
+      "sourceName": "window-brown-narrow",
+      "modelId": "kenney-buildings-window-brown-narrow",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-brown-round-low.glb",
+      "sourceName": "window-brown-round-low",
+      "modelId": "kenney-buildings-window-brown-round-low",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-brown-round-middle.glb",
+      "sourceName": "window-brown-round-middle",
+      "modelId": "kenney-buildings-window-brown-round-middle",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-brown-round-narrow.glb",
+      "sourceName": "window-brown-round-narrow",
+      "modelId": "kenney-buildings-window-brown-round-narrow",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-brown-round-top.glb",
+      "sourceName": "window-brown-round-top",
+      "modelId": "kenney-buildings-window-brown-round-top",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-brown-round-wide.glb",
+      "sourceName": "window-brown-round-wide",
+      "modelId": "kenney-buildings-window-brown-round-wide",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-brown-tall.glb",
+      "sourceName": "window-brown-tall",
+      "modelId": "kenney-buildings-window-brown-tall",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-brown-wide.glb",
+      "sourceName": "window-brown-wide",
+      "modelId": "kenney-buildings-window-brown-wide",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-brown.glb",
+      "sourceName": "window-brown",
+      "modelId": "kenney-buildings-window-brown",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-white-detailed.glb",
+      "sourceName": "window-white-detailed",
+      "modelId": "kenney-buildings-window-white-detailed",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-white-large.glb",
+      "sourceName": "window-white-large",
+      "modelId": "kenney-buildings-window-white-large",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-white-narrow.glb",
+      "sourceName": "window-white-narrow",
+      "modelId": "kenney-buildings-window-white-narrow",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-white-round-low.glb",
+      "sourceName": "window-white-round-low",
+      "modelId": "kenney-buildings-window-white-round-low",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-white-round-middle.glb",
+      "sourceName": "window-white-round-middle",
+      "modelId": "kenney-buildings-window-white-round-middle",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-white-round-narrow.glb",
+      "sourceName": "window-white-round-narrow",
+      "modelId": "kenney-buildings-window-white-round-narrow",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-white-round-top.glb",
+      "sourceName": "window-white-round-top",
+      "modelId": "kenney-buildings-window-white-round-top",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-white-round-wide.glb",
+      "sourceName": "window-white-round-wide",
+      "modelId": "kenney-buildings-window-white-round-wide",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-white-tall.glb",
+      "sourceName": "window-white-tall",
+      "modelId": "kenney-buildings-window-white-tall",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-white-wide.glb",
+      "sourceName": "window-white-wide",
+      "modelId": "kenney-buildings-window-white-wide",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Models/GLB format/window-white.glb",
+      "sourceName": "window-white",
+      "modelId": "kenney-buildings-window-white",
+      "relation": "unique-or-variant"
+    }
+  ],
+  "logicalModels": 108,
+  "pageSnapshotFile": "sources/external/kenney-buildings/page.html"
+}

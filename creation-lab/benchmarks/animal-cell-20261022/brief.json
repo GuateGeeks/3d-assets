@@ -1,0 +1,39 @@
+{
+ "schemaVersion":1,
+ "id":"animal-cell-secondary-es-pilot",
+ "audience":"Secundaria", "language":"es",
+ "subject":"Célula animal eucariota generalizada en interfase",
+ "purpose":"Modelo 3D educativo de corte abierto, con estructuras distinguibles y etiquetas interactivas en español.",
+ "displayScale":{"units":"m","longestDimension":0.30,"tolerance":0.02,"meaning":"Maqueta didáctica ampliada; no es una escala microscópica exacta."},
+ "budgets":{"triangles":45000,"materials":24,"meshObjects":350,"glbBytes":8388608},
+ "seed":20261022,
+ "geometryContract":"Z arriba, frente -Y. Abrir la envoltura por arriba y hacia el frente para mostrar el interior desde la cámara común (0.45,-0.60,0.55) mirando al origen. No usar una esfera opaca que oculte las partes. Dimensión mayor0.30m; aproximadamente centrada en el origen.",
+ "parts":[
+  {"id":"membrana","label":"Membrana plasmática","function":"Delimita la célula y regula el intercambio con su entorno."},
+  {"id":"citoplasma","label":"Citoplasma","function":"Comprende el citosol y los orgánulos fuera del núcleo. La zona pálida representa el citosol."},
+  {"id":"nucleo","label":"Núcleo","function":"Contiene la mayor parte del ADN y participa en la regulación de la actividad celular."},
+  {"id":"nucleolo","label":"Nucléolo","function":"Forma ARN ribosomal y ensambla subunidades de ribosomas dentro del núcleo."},
+  {"id":"ribosomas","label":"Ribosomas","function":"Sintetizan proteínas. Se representan libres y adheridos al retículo rugoso."},
+  {"id":"rer","label":"Retículo endoplasmático rugoso","function":"Sus ribosomas producen proteínas que entran en la vía de secreción o en membranas."},
+  {"id":"rel","label":"Retículo endoplasmático liso","function":"Participa en la síntesis de lípidos y en la regulación del calcio."},
+  {"id":"golgi","label":"Aparato de Golgi","function":"Modifica, clasifica y empaqueta moléculas para transportarlas en vesículas."},
+  {"id":"mitocondrias","label":"Mitocondrias","function":"Transforman energía de nutrientes para producir ATP. Sus pliegues internos son las crestas."},
+  {"id":"lisosomas","label":"Lisosomas","function":"Degradan y reciclan materiales mediante enzimas digestivas."},
+  {"id":"centrosoma","label":"Centrosoma y centríolos","function":"Organiza microtúbulos. En este esquema contiene dos centríolos aproximadamente perpendiculares."},
+  {"id":"vesiculas","label":"Vesículas","function":"Transportan y almacenan sustancias en pequeños compartimentos de membrana."},
+  {"id":"citoesqueleto","label":"Citoesqueleto","function":"Red de filamentos que contribuye a la forma, la organización y el transporte celular."}
+ ],
+ "biologicalChecks":[
+  "Sin pared celular, cloroplastos ni vacuola central vegetal gigante.",
+  "Nucléolo visible dentro del núcleo, sin membrana propia. Envoltura nuclear parcial y poros sugeridos; sin cromosomas en X.",
+  "RER con cisternas próximas al núcleo y ribosomas en su cara citoplasmática; REL tubular sin ribosomas adheridos.",
+  "Golgi: pila de cisternas curvas y aplanadas con vesículas cercanas, distinguible del RER.",
+  "Al menos dos mitocondrias; una abierta muestra crestas internas, no sólo rayas exteriores.",
+  "Un centrosoma con dos centríolos perpendiculares cerca del núcleo.",
+  "Citoesqueleto escaso y legible; no representar todas las familias como rayos del centrosoma.",
+  "Colores, cantidades y proporciones convencionales. Selección educativa, no inventario exhaustivo ni micrografía."
+ ],
+ "delivery":["source.blend","asset.glb","parts.json","front.png","side.png","back.png","three-quarter.png","wireframe.png","reimport-three-quarter.png"],
+ "provenance":{"author":"GuateGeeks / benchmark de generación asistida","origin":"original procedural geometry","license":"CC0-1.0","externalModels":false,"externalImages":false},
+ "sources":["https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells","https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins","https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton","https://www.medlineplus.gov/genetics/understanding/basics/cell/","https://www.genome.gov/genetics-glossary/Mitochondria"]
+}

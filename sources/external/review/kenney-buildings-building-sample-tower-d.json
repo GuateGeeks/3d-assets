@@ -1,0 +1,39 @@
+{
+  "dimensionsBlender": [
+    1.100000023841858,
+    1.100000023841858,
+    3.762500047683716
+  ],
+  "meshObjects": 1,
+  "polygons": 524,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "7d9604a6890872e785da67135faf498ea27ad538f4dc2cceae45d761f3e9e8b7",
+  "sourceFile": "Models/GLB format/building-sample-tower-d.glb",
+  "id": "kenney-buildings-building-sample-tower-d",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      1.100000023841858,
+      1.100000023841858,
+      3.762500047683716
+    ],
+    "meshObjects": 1,
+    "polygons": 524,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0003762500047683716,
+  "selfContained": true,
+  "glbSha256": "91b1a806b31bc4c03411a0421e0bc65808299b22bb37fa68df0cef7e0b56f482",
+  "images": {
+    "source-back.png": "666aaf07190a3221f3abdee2f8cc65de8e93728cfb97ab7bae22351c6439cb66",
+    "source-side.png": "1b48c61792eae1dbb38e6d17aff327cd06fe452bdf97bba8420a9bf40eebc1bc",
+    "source-front.png": "ba447d61fc56ee7d7c93a66c16e18d414c41a102e28878c0286f35f37ffecbb3",
+    "reimport-three-quarter.png": "620cd1f8a07d83f428b13c95a827579d2d9497f4d9d8d85477e2173b62ad68d3",
+    "source-three-quarter.png": "56c64f6f30b0ab0b6060532f0cd02dbddce3583989488edefb51378b7603cdb5",
+    "source-wireframe.png": "7ca476e389361a478f2e41a843f6e84fd5b3868a87f4f21a9df5fa046f11f002"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

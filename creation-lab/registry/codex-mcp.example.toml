@@ -1,0 +1,15 @@
+# Copy to .codex/config.toml, replace all three absolute paths, then enable.
+# Restore the locked Windows CPython 3.12 x64 runtime first; see SETUP.md.
+# https://learn.chatgpt.com/docs/extend/mcp
+[mcp_servers.blender_lab]
+enabled = false
+command = 'C:\Path\To\Python312\python.exe'
+args = ['C:\Path\To\3d-assets\creation-lab\registry\launch_isolated_mcp.py', '--blender', 'C:\Path\To\Blender\blender.exe']
+startup_timeout_sec = 60
+tool_timeout_sec = 60
+enabled_tools = ['execute_blender_code', 'get_python_api_docs']
+
+[mcp_servers.blender_lab.env]
+# The launcher owns its headless Blender and private ephemeral loopback port.
+PYTHONDONTWRITEBYTECODE = '1'
+PYTHONUTF8 = '1'

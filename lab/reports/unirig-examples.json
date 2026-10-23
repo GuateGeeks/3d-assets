@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/VAST-AI-Research/UniRig.git",
+  "commit": "6793c6640ff01c8fb389f3993434124bb43d2933",
+  "files": [
+    {
+      "source": "examples/giraffe.glb",
+      "file": "examples/UniRig/giraffe.glb",
+      "sha256": "9a947cae00b169345802c08885c1e54313c6ce93c885bacf8e37e8a1f18f9e3b",
+      "bytes": 6310044,
+      "gitLfs": true
+    },
+    {
+      "source": "examples/skeleton/giraffe.fbx",
+      "file": "examples/UniRig/giraffe-reviewed.fbx",
+      "sha256": "73673a15c8103fbf9a6b39762768ae48e7c9404eab4850a60e4863ee400336fd",
+      "bytes": 759180,
+      "gitLfs": false
+    }
+  ],
+  "status": "passed"
+}

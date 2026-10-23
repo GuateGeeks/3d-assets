@@ -1,0 +1,108 @@
+{
+  "id": "kenney-nature-ground-pathcornersmall",
+  "assetId": "kenney:kenney-nature/ground_pathCornerSmall",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "ground · path Corner Small",
+  "titleOriginal": "ground_pathCornerSmall",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "ground_pathCornerSmall",
+    "kenney-nature",
+    "nature-ground-path"
+  ],
+  "areas": [
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"ground_pathCornerSmall\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-ground-pathcornersmall/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-ground-pathcornersmall/source.json",
+  "originalDownload": "models/kenney-nature-ground-pathcornersmall/originals.zip",
+  "bytes": 3632,
+  "sha256": "d48127637fb555a2af23ef60928952de10c2adc67796dd8263c3a7e86a04706b",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model",
+    "modular-assembly-piece"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/ground_pathCornerSmall.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-ground-pathcornersmall/original/ground_pathCornerSmall.glb",
+        "sha256": "d48127637fb555a2af23ef60928952de10c2adc67796dd8263c3a7e86a04706b",
+        "bytes": 3632
+      }
+    ],
+    "originalDownloadSha256": "0174368c069f2e1365d8f78d9ad4ae661a26f08c22cbfd2fa35f36bb91640c30",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      1.0,
+      1.0,
+      0.05000000074505806
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "b76cb39f40e00f700266536cf5d49ca67a30981b3f876c5d36ba610ca9c3f447",
+      "triangles": 24
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "dimensionsBlender": [
+    0.3751797676086426,
+    0.3751797676086426,
+    0.42166799306869507
+  ],
+  "meshObjects": 1,
+  "polygons": 220,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "ea4f789cf8ca924eba1f031d88e7984ff4705acdfb23977a1211cea9c77f2a41",
+  "sourceFile": "Models/GLB format/broccoli.glb",
+  "id": "kenney-food-broccoli",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      0.3751797676086426,
+      0.3751797676086426,
+      0.42166799306869507
+    ],
+    "meshObjects": 1,
+    "polygons": 220,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 4.216679930686951e-05,
+  "selfContained": true,
+  "glbSha256": "a1bf9f880db027dc6e72feb39c92be83f000981b8c2a4e551e140ede218c815a",
+  "images": {
+    "source-back.png": "f2d247b6416f31e758d1e962064288f1fe507f30a29b7a5572467e47c844e629",
+    "source-side.png": "1e487308a909f84d02e507b0c4de07ef8bfd10e9124963910d4d83d4fa86e140",
+    "source-front.png": "294e46158adbe57acc3808ed8ece6990777e7459c107eded0d1984b5f55cea94",
+    "reimport-three-quarter.png": "dfe55f0ec699ca5494387145416c58e481df80209943bf114a3b9d08f2bd8703",
+    "source-three-quarter.png": "6f864ba82a7e6d62d8aa10bc08d24df5f30f34cf37c99221564e38be8acc0277",
+    "source-wireframe.png": "621abf4dbedfcbeaf34796f86a392bbf8ca523375b59e58d6259045de81f413f"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

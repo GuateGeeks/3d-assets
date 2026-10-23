@@ -1,0 +1,109 @@
+{
+  "id": "kenney-nature-mushroom-redtall",
+  "assetId": "kenney:kenney-nature/mushroom_redTall",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "mushroom · red Tall",
+  "titleOriginal": "mushroom_redTall",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/nature-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Nature Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Environment",
+  "tags": [
+    "mushroom_redTall",
+    "kenney-nature",
+    "nature-mushroom"
+  ],
+  "areas": [
+    "bosques-plantas",
+    "escenarios-videojuegos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"mushroom_redTall\" de Nature Kit, por Kenney. https://kenney.nl/assets/nature-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB original sin conversión",
+  "file": "models/kenney-nature-mushroom-redtall/model.glb",
+  "sourceMetadataFile": "models/kenney-nature-mushroom-redtall/source.json",
+  "originalDownload": "models/kenney-nature-mushroom-redtall/originals.zip",
+  "bytes": 6504,
+  "sha256": "d982f6c5dce9ca870132448034eced9e84573aeed87e9158e18a3a033124f810",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:56.726733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Nature Kit",
+    "sourceMember": "Models/GLTF format/mushroom_redTall.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-nature-mushroom-redtall/original/mushroom_redTall.glb",
+        "sha256": "d982f6c5dce9ca870132448034eced9e84573aeed87e9158e18a3a033124f810",
+        "bytes": 6504
+      }
+    ],
+    "originalDownloadSha256": "4a5e6e77781b93764ae7a041fccd81726212a35346078e5efb8da3873a35c2fd",
+    "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+    "licenseEvidence": "kits/kenney-nature/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.12351672351360321,
+      0.14262479543685913,
+      0.2504880130290985
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "8f3fa53d557adadd5bab10a999c64d26d75965b63a7b975f45e2d17075094032",
+      "triangles": 48
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

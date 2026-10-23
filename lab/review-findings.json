@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "scope": "Initial technical and visual diagnostic pass, not final animation approval",
+  "assets": {
+    "human": {
+      "candidateSha256": "274dccc29f65bca7583b4d337a3992929e3964c821cb1725f949dbb146e640bd",
+      "status": "Revisar pesos antes de clips",
+      "observations": [
+        "Revisar los pesos de la rodilla izquierda antes de crear clips: a 45°, el estiramiento máximo local es 3,90× frente a 1,14× del control (aristas >2 mm).",
+        "Revisar codos: a 60°, UniRig alcanza 2,85× frente a 1,46× del control. Hombros y cuello conservan una silueta reconocible en la inspección inicial."
+      ],
+      "finalApproval": false,
+      "mappingSha256": "03edf7090e95fabdac0ea93902c6c0f7edb986d8df1225d8e7b91317afc988ab"
+    },
+    "quadruped": {
+      "candidateSha256": "2de490c63cb86ea14d33b0c0eed7c235ecfa670d4e6c3cd6483f3ba53a07b20a",
+      "status": "Pendiente de dictamen visual",
+      "observations": [
+        "Las pruebas iniciales de patas, cuello y cola conservan la silueta general; confirmar volumen y contactos desde varios ángulos antes de aprobar clips.",
+        "El estiramiento máximo local de UniRig queda entre 1,28× y 1,59× en estas poses; el indicador no detecta por sí solo penetraciones o defectos de volumen."
+      ],
+      "finalApproval": false,
+      "mappingSha256": "03edf7090e95fabdac0ea93902c6c0f7edb986d8df1225d8e7b91317afc988ab"
+    }
+  }
+}

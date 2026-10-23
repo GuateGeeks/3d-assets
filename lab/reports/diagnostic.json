@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-22T20:50:33.275921+00:00",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "machine": "x86_64",
+  "systemPython": "3.14.4",
+  "cpu": {
+    "model": "AMD Ryzen 7 3700X 8-Core Processor",
+    "logicalCores": 16
+  },
+  "memory": {
+    "MemTotalBytes": 16720486400,
+    "MemAvailableBytes": 12689784832,
+    "SwapTotalBytes": 4294967296,
+    "SwapFreeBytes": 4294758400
+  },
+  "disks": {
+    "linuxWorkspace": {
+      "totalBytes": 1081101176832,
+      "freeBytes": 958304006144
+    },
+    "windowsC": {
+      "totalBytes": 499122171904,
+      "freeBytes": 211540549632
+    },
+    "windowsD": {
+      "totalBytes": 1000186310656,
+      "freeBytes": 106748809216
+    }
+  },
+  "gpus": [
+    {
+      "name": "NVIDIA GeForce RTX 3060 Ti",
+      "totalMiB": 8192,
+      "freeMiB": 5407,
+      "driver": "610.88"
+    }
+  ],
+  "nvidiaSmi": {
+    "exitCode": 0,
+    "output": "NVIDIA GeForce RTX 3060 Ti, 8192, 5407, 610.88",
+    "error": ""
+  },
+  "tools": {
+    "python3": "/usr/bin/python3",
+    "uv": null,
+    "nvcc": null,
+    "gcc": "/usr/bin/gcc",
+    "g++": "/usr/bin/g++",
+    "cmake": null,
+    "ninja": null,
+    "git": "/usr/bin/git",
+    "curl": "/usr/bin/curl"
+  },
+  "labPythonPresent": true,
+  "catalogModels": 342,
+  "profile": {
+    "schemaVersion": 1,
+    "engine": "unirig",
+    "repository": "https://github.com/VAST-AI-Research/UniRig.git",
+    "commit": "6793c6640ff01c8fb389f3993434124bb43d2933",
+    "python": "3.11.14",
+    "uv": "0.9.5",
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "torchIndex": "https://download.pytorch.org/whl/cu124",
+    "pygIndex": "https://data.pyg.org/whl/torch-2.5.1+cu124.html",
+    "flashAttentionVersion": "2.7.4.post1",
+    "flashAttentionWheel": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.5cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+    "modelRepository": "VAST-AI/UniRig",
+    "modelFiles": [
+      "skeleton/articulation-xl_quantization_256/model.ckpt",
+      "skin/articulation-xl/model.ckpt"
+    ]
+  },
+  "checks": {
+    "linuxX86_64": true,
+    "cudaVisible": true,
+    "nominal8GiB": true,
+    "workspace50GiB": true
+  },
+  "status": "passed"
+}

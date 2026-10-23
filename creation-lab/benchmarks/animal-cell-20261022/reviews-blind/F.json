@@ -1,0 +1,50 @@
+{
+  "id": "F",
+  "runId": "20261022T231012Z-86a34f67",
+  "score": 82,
+  "rubric": {
+    "biologicalFidelity": {"score": 24, "max": 30, "reason": "Se reconocen nucléolo dentro del núcleo abierto, RER próximo con gránulos, REL tubular, Golgi con vesículas, dos mitocondrias con pliegues interiores y centríolos aproximadamente perpendiculares. La zona marfil se prolonga por fuera de la envoltura y vuelve ambiguo el límite del citosol. Los poros nucleares declarados en parts.json no son suficientemente distinguibles en las vistas para aprobar ese rasgo."},
+    "partReadability": {"score": 22, "max": 25, "reason": "Las estructuras principales se separan por forma, posición y grupos de color. REL, vesículas y filamentos finos tienen bajo contraste sobre el citosol. Los poros nucleares no se leen con claridad y las piezas pequeñas pierden detalle a esta resolución."},
+    "spatialComposition": {"score": 12, "max": 15, "reason": "La abertura superior y el frente bajo muestran los orgánulos desde la cámara común, con dos mitocondrias separadas y Golgi propio. La pared alta oculta casi todo desde back y reduce la lectura lateral. Una segunda silueta marfil exterior se interpreta como base."},
+    "shapeAndShading": {"score": 12, "max": 15, "reason": "Silueta exterior suave, iluminación uniforme y crestas interiores volumétricas. Algunas curvas del citoesqueleto se leen como segmentos angulares, y los materiales pálidos reducen detalle. El wireframe sigue siendo tenue en piezas pequeñas."},
+    "educationalUsability": {"score": 12, "max": 15, "reason": "Las 13 etiquetas y funciones en español de parts.json se corresponden con familias de estructuras reconocibles. La franja marfil exterior sin etiqueta de soporte y la falta de poros claramente visibles limitan la explicación anatómica. Esta puntuación se limita a geometría y etiquetas disponibles; no se evaluó UI, interacción ni selección."}
+  },
+  "visual": {"status": "PASS", "reason": "El corte abierto permite reconocer las estructuras desde la cámara común y la reimportación mantiene de forma aparente esa composición. Permanecen defectos de base exterior, contraste y detalles poco legibles."},
+  "biological": {"status": "FAIL", "reason": "La zona pálida descrita como citosol en parts.json se prolonga visualmente por debajo y fuera de la envoltura turquesa, sin etiqueta que distinga un soporte no biológico. Esa lectura del límite celular debe corregirse o aclararse antes de aprobarla. Además, los poros nucleares no quedan verificados por las vistas disponibles; no se aprueban mediante los nombres de objetos."},
+  "summary": "Revisión ciega aplicable al run indicado y a los seis hashes registrados. Hay buena separación de orgánulos, pliegues mitocondriales internos visibles y un par de centríolos reconocible. La zona marfil exterior y los poros nucleares poco legibles limitan la fidelidad educativa. La semejanza visual entre fuente y reimportación no acredita por sí sola integridad técnica del GLB.",
+  "defects": [
+    {"view": "front", "detail": "Una franja marfil ancha sobresale por debajo y fuera de la membrana turquesa; se interpreta como un soporte exterior, pero parts.json no diferencia ese soporte de la zona pálida que representa citosol."},
+    {"view": "back", "detail": "La franja marfil recorre también el exterior posterior, reforzando la ambigüedad sobre el límite entre membrana y citosol."},
+    {"view": "three-quarter", "detail": "La envoltura nuclear visible es lisa y no muestra poros distinguibles con suficiente claridad. Los nombres nucleo__poro de parts.json no verifican que la estructura pueda reconocerse en esta presentación."},
+    {"view": "three-quarter", "detail": "El REL celeste, las vesículas amarillo pálido y algunos filamentos pierden contraste frente al fondo marfil."},
+    {"view": "side", "detail": "La pared lateral alta y la superposición del Golgi reducen la lectura del núcleo y de estructuras posteriores; la visión conjunta depende de la cámara común elevada."},
+    {"view": "wireframe", "detail": "El trazo de la malla es muy tenue en los orgánulos pequeños; no ofrece evidencia suficiente para valorar su continuidad topológica fina."}
+  ],
+  "strengths": [
+    "Apertura superior amplia y frente bajo que exponen el interior desde la cámara común.",
+    "Nucléolo distinguible dentro del núcleo abierto sin envoltura propia aparente.",
+    "RER con gránulos, REL tubular y Golgi en pila de cisternas curvas con vesículas cercanas.",
+    "Dos mitocondrias abiertas muestran pliegues dentro de sus envolturas, no solo rayas exteriores.",
+    "Centríolos reconocibles con ejes aproximadamente perpendiculares y filamentos escasos distribuidos por la periferia.",
+    "Las 13 etiquetas y funciones en español están presentes en parts.json.",
+    "La vista reimportada conserva de forma aparente la silueta, composición y materiales de la fuente."
+  ],
+  "evidenceLimits": [
+    "Se abrieron realmente front, side, back, three-quarter, wireframe y reimport-three-quarter mediante view_image.",
+    "No se aprueba biología oculta. Los nombres de objetos y designNotes no sustituyen la observación de los renders.",
+    "La reserva sobre la base exterior se refiere a su lectura visible y a que las etiquetas no distinguen un soporte; no se inspeccionó la malla ni se atribuyó causa técnica.",
+    "La no verificación de poros no afirma que no existan en la escena; significa que no son reconocibles con esta evidencia.",
+    "No se verificaron número de tripletes centriolares, continuidad microscópica de membranas ni inventario completo de estructuras.",
+    "No se evaluó UI ni comportamiento interactivo. educationalUsability considera solamente geometría visible y etiquetas de parts.json.",
+    "No se midieron dimensiones, polígonos, materiales, objetos ni tamaño del GLB."
+  ],
+  "imageEvidence": [
+    {"view": "front", "sha256": "ced0da96302953d3a5cec18b5158c3350cdaf1273908ece6b53bf06a696b9ab4"},
+    {"view": "side", "sha256": "df51da1430352856ede96fc602a4747b3cf5f634e5f491a05bbc35c7cf119d2b"},
+    {"view": "back", "sha256": "7a66f95112cbe4f92be215c984336bd80ab22712f772aacb284275031b250649"},
+    {"view": "three-quarter", "sha256": "042d6f775d07dd9f216cc2b396a0b99230e6980e726c74ca4fc70ed9363fd355"},
+    {"view": "wireframe", "sha256": "1594b726414427b07bf8570aba1b9a5480f1c241743a7e33b128ba359ea0aea8"},
+    {"view": "reimport-three-quarter", "sha256": "024f120d747bb8eba226abe116bc16032463c87283b68b0dbc68aa741d67090b"}
+  ],
+  "reviewer": "independent fresh-context assistant, blinded to author mapping"
+}

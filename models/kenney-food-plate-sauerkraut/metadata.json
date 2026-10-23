@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-plate-sauerkraut",
+  "assetId": "kenney:kenney-food/plate-sauerkraut",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "plate sauerkraut",
+  "titleOriginal": "plate-sauerkraut",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "plate-sauerkraut",
+    "kenney-food",
+    "food-plate"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"plate-sauerkraut\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-plate-sauerkraut/model.glb",
+  "sourceMetadataFile": "models/kenney-food-plate-sauerkraut/source.json",
+  "originalDownload": "models/kenney-food-plate-sauerkraut/originals.zip",
+  "bytes": 75492,
+  "sha256": "3087c48742566b03828a39090e3bb27e16beba6333d2277d348aadd202200fcf",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/plate-sauerkraut.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-plate-sauerkraut/original/plate-sauerkraut.glb",
+        "sha256": "b5506f2bddb0fc401929ebad1ddd21a205d018b4af3918bd2175ec2e09c2a1bc",
+        "bytes": 64728
+      },
+      {
+        "file": "models/kenney-food-plate-sauerkraut/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "fc4badbe889721dd7352d9e09ffe5837fe325b47acb1ee2991866bcbbe8d865c",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.8917739391326904,
+      0.8917739391326904,
+      0.17522770166397095
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "0c588f29585d4283ddd16da309f3787e2bb1137adf2dc4066da76ba54db8eebb",
+      "triangles": 580
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

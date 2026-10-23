@@ -1,0 +1,34 @@
+{
+  "dimensionsBlender": [
+    0.5396078824996948,
+    0.4466991424560547,
+    0.3349356949329376
+  ],
+  "meshObjects": 1,
+  "polygons": 720,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "sourceSha256": "d8c690d473a230741cf4d03fa6a69a405f0ae6a246847a2a72e7f50dd5bebc08",
+  "sourceFile": "Models/GLTF format/crops_wheatStageA.glb",
+  "id": "kenney-nature-crops-wheatstagea",
+  "actions": [],
+  "reimport": {
+    "dimensionsBlender": [
+      0.5396078824996948,
+      0.4466991424560547,
+      0.3349356949329376
+    ],
+    "meshObjects": 1,
+    "polygons": 720,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 5.3960788249969486e-05,
+  "glbSha256": "d8c690d473a230741cf4d03fa6a69a405f0ae6a246847a2a72e7f50dd5bebc08",
+  "images": {
+    "reimport-three-quarter.png": "531e83fc14b19212a8b16f4cd619d8e00a0eacd04e00945adaa5c7155060cd8b",
+    "source-three-quarter.png": "ded9c579b4c42fdef0757812cb697dc73fa4a78434018301ebf7fa10a187c56b"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "human",
+      "label": "Humano · Man",
+      "sourceId": "HMnuH5geEG",
+      "mesh": "BaseHuman",
+      "reason": "Malla en T en reposo; rig original conservado como control CC0."
+    },
+    {
+      "id": "quadruped",
+      "label": "Cuadrúpedo · Wolf",
+      "sourceId": "P1gU3Qkr9r",
+      "mesh": "Wolf",
+      "reason": "Cuatro patas separadas en reposo; el perro sentado queda como caso difícil posterior."
+    }
+  ]
+}

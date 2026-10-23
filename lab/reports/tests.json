@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "command": [
+    "/usr/bin/python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "lab/tests",
+    "-v"
+  ],
+  "status": "passed",
+  "exitCode": 0,
+  "tests": 6,
+  "seconds": 2.452,
+  "stdout": "Starting fail; log: lab/.local/runs/20261022T212426Z-70f4523f/fail.log\n{\"runId\": \"20261022T212426Z-70f4523f\", \"status\": \"dependency_error\", \"report\": \"lab/.local/runs/20261022T212426Z-70f4523f/run.json\"}\nStarting timeout; log: lab/.local/runs/20261022T212428Z-a43e4a3f/timeout.log\n{\"runId\": \"20261022T212428Z-a43e4a3f\", \"status\": \"timeout\", \"report\": \"lab/.local/runs/20261022T212428Z-a43e4a3f/run.json\"}\n",
+  "stderr": "test_failure_is_recorded_and_missing_artifact_is_rejected (test_lab.LaboratoryTests.test_failure_is_recorded_and_missing_artifact_is_rejected) ... Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    raise RuntimeError('intentional failure')\nRuntimeError: intentional failure\n\nok\ntest_local_downloads_are_excluded_but_own_code_is_scanned (test_lab.LaboratoryTests.test_local_downloads_are_excluded_but_own_code_is_scanned) ... ok\ntest_lock_rejects_second_process_and_releases (test_lab.LaboratoryTests.test_lock_rejects_second_process_and_releases) ... ok\ntest_public_build_excludes_laboratory (test_lab.LaboratoryTests.test_public_build_excludes_laboratory) ... ok\ntest_symlink_cannot_bypass_source_scan (test_lab.LaboratoryTests.test_symlink_cannot_bypass_source_scan) ... ok\ntest_timeout_stops_child (test_lab.LaboratoryTests.test_timeout_stops_child) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 2.290s\n\nOK\n"
+}

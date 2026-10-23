@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-10-22",
+  "timezone": "America/Guatemala",
+  "scope": "M0 preparation, M1 canary and creation-to-rigging adapter; not production modeling",
+  "canaryRun": "20261022T215722341157Z-a9e0139899",
+  "canaryManifestSha256": "43c89bb05fae320e90ef56e214d7fcf23ddc43d861f079bc4c4fe205ca6af842",
+  "visualReviewRun": "20261022T215833688856Z-e6dcb4714e",
+  "candidateRun": "20261022T215851655676Z-dc714b4214",
+  "technicalChecks": {
+    "failed": 0,
+    "count": 43,
+    "status": "PASS"
+  },
+  "metrics": {
+    "materials": 2,
+    "dimensionsM": [
+      0.18000000715255737,
+      0.1899999976158142,
+      0.30000001192092896
+    ],
+    "triangles": 132
+  },
+  "tests": {
+    "total": 12,
+    "blenderIntegration": 2,
+    "status": "PASS",
+    "command": "CREATION_TEST_BLENDER set to native Blender; python -m unittest discover -s creation-lab/tests -v",
+    "runner": "core implementation agent"
+  },
+  "independentReview": {
+    "openP1P2": 0,
+    "model": "gpt-6-astra",
+    "effort": "xhigh",
+    "status": "PASS",
+    "recomputedChecks": 43
+  },
+  "catalogRegression": {
+    "status": "PASS",
+    "command": "wsl.exe -d Ubuntu --cd /home/adawolfs/projects/makecode/3d-assets -- python3 tools/check_site.py",
+    "models": 342
+  },
+  "productionMilestones": "NOT_RUN",
+  "genericRiggingIngestion": "PASS",
+  "mcp": {
+    "projectConfigured": true,
+    "visualEvidence": "Exact RGBA equality to separately inspected cube render; 192x192",
+    "launcherReport": "registry/launcher-probe-20261022T220620Z-9ee77265/report.json",
+    "globalConfigurationChanged": false,
+    "status": "PASS",
+    "currentChatToolAvailability": "NOT_RUN"
+  },
+  "adapter": {
+    "visualRest": "PASS",
+    "tests": 26,
+    "ingestRun": "20261022T222159Z-31c05d61",
+    "rigRun": "20261022T222206Z-91fd94f9",
+    "report": "../../lab/reports/CREATION-ADAPTER.md",
+    "validation": "../../lab/reports/creation-adapter-validation.json",
+    "status": "PASS",
+    "deformationReview": "NOT_RUN"
+  }
+}

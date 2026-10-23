@@ -1,0 +1,13 @@
+torch==2.5.1+cu124
+torchvision==0.20.1+cu124
+numpy==1.26.4
+transformers==4.51.3
+bpy==4.2.0
+lightning==2.5.1
+pytorch-lightning==2.5.1
+torchmetrics==1.6.3
+open3d==0.19.0
+spconv-cu124==2.3.8
+torch-scatter==2.1.2+pt25cu124
+torch-cluster==1.6.3+pt25cu124
+flash-attn==2.7.4.post1

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "details": {
     "id": "personajes-animacion",
     "title": "Personajes, narrativa y animación",
@@ -21,16 +21,22 @@
       "Eventos y animación"
     ]
   },
-  "count": 9,
+  "count": 15,
   "modelIds": [
     "1kbGZOnhOwf",
     "5v5j_lqOHTO",
     "AZzoJo1FBm",
     "DgOCW9ZCRJ",
     "HMnuH5geEG",
+    "P1gU3Qkr9r",
+    "QCm7qe9uNJ",
     "kKtL4zvS3n",
     "lFZfDh2hzP",
-    "P1gU3Qkr9r",
-    "QCm7qe9uNJ"
+    "oga-animals-cat",
+    "oga-animals-dog",
+    "oga-animals-eagle",
+    "oga-animals-piranha",
+    "oga-animals-wolf",
+    "oga-robot-robot"
   ]
 }

@@ -1,0 +1,9 @@
+{
+ "schemaVersion":1,"kind":"single-brief pilot, not full M7 benchmark",
+ "design":"3 models x 2 reasoning efforts; independent authoring contexts; n=1 per condition","seed":20261022,
+ "conditions":[{"id":"A","model":"gpt-6.1-sol","reasoningEffort":"high"},{"id":"B","model":"gpt-6-luna","reasoningEffort":"medium"},{"id":"C","model":"gpt-6-astra","reasoningEffort":"high"},{"id":"D","model":"gpt-6.1-sol","reasoningEffort":"medium"},{"id":"E","model":"gpt-6-luna","reasoningEffort":"high"},{"id":"F","model":"gpt-6-astra","reasoningEffort":"medium"}],
+ "controls":{"brief":"brief.json","authoring":"AUTHORING.md","blender":"5.2.3 LTS","render":"Cycles CPU","renderSamples":24,"renderResolution":768,"renderThreads":2,"geometryBudget":45000,"materialsBudget":24,"externalAssets":false,"imageGeneration":false,"authoringContext":"fresh; no other condition outputs","technicalRepairRounds":1},
+ "rubric":{"biologicalFidelity":30,"partReadability":25,"spatialComposition":15,"shapeAndShading":15,"educationalUsability":15},
+ "technicalGate":["13 parts with geometry","finite geometry and bounded size","identical budgets","blend reopened in fresh process","GLB self-contained and reimported in fresh process","geometry bounds materials preserved","six actual rendered views and hashes"],
+ "limits":["n=1; no statistical ranking or universal superiority","compare complete authored artifacts","retain first-pass failures and repairs","generation wall time is not pure inference latency","cost/token usage unavailable unless runtime exposes it","blinded judge must not see mapping or generator sources","no autorigging: educational cell needs separate parts, not skeleton"]
+}

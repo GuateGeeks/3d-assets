@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261022T222159Z-31c05d61",
+  "command": "ingest",
+  "startedAt": "2026-10-22T22:21:59.148624+00:00",
+  "status": "success",
+  "engine": "unirig",
+  "profileSha256": "f1a86b92c26e03f3c151dc285d12e25861aeb3df5cc0c898c830c10c6fa52488",
+  "stages": [
+    {
+      "name": "prepare-creation-candidate",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222159Z-31c05d61/adapter-code/scripts/creation_geometry.py",
+        "prepare",
+        "--input",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222159Z-31c05d61/creation-input/evidence-0/asset.glb",
+        "--output-dir",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222159Z-31c05d61/prepared",
+        "--report",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T222159Z-31c05d61/geometry-preparation.json"
+      ],
+      "startedAt": "2026-10-22T22:21:59.190579+00:00",
+      "log": "lab/.local/runs/20261022T222159Z-31c05d61/prepare-creation-candidate.log",
+      "exitCode": 0,
+      "seconds": 0.752
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "lab/.local/runs/20261022T222159Z-31c05d61/creation-prepared.json",
+      "bytes": 7580,
+      "sha256": "ca3c03ac9811caa83c7d2c8325a028b367c59fdc04668b45dbde9d79f3bb296c"
+    },
+    {
+      "file": "lab/.local/runs/20261022T222159Z-31c05d61/creation-prepared.COMPLETE",
+      "bytes": 65,
+      "sha256": "01fca8c1dbc0f9322576d0e52b6da6ac6882f0b5d6e43e6045129d111c2f8748"
+    }
+  ],
+  "asset": "guategeeks-canary-beacon",
+  "preparedManifest": "lab/.local/runs/20261022T222159Z-31c05d61/creation-prepared.json",
+  "normalization": {
+    "matrix": [
+      [
+        6.666666507720947,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        6.666666507720947,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        6.666666507720947,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "inverse": [
+      [
+        0.15000000596046448,
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      [
+        -0.0,
+        0.15000000596046448,
+        -0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -0.0,
+        0.15000000596046448,
+        -0.0
+      ],
+      [
+        -0.0,
+        0.0,
+        -0.0,
+        1.0
+      ]
+    ],
+    "scale": 6.666666401757145,
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": "identity",
+    "targetLongestDimensionM": 2.0
+  },
+  "provenance": {
+    "author": "GuateGeeks",
+    "origin": "original",
+    "license": "CC0-1.0",
+    "method": "Procedural original three-block canary; no external model, image, or texture"
+  },
+  "finishedAt": "2026-10-22T22:21:59.949985+00:00",
+  "seconds": 0.801
+}

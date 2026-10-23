@@ -1,0 +1,243 @@
+{
+  "id": "rivello",
+  "repository": "https://github.com/SamuelAsherRivello/ai-skills-blender",
+  "commit": "54b4f26b7c0e530b7158244f397b34e6c16d7b76",
+  "rootLicensePaths": [
+    "LICENSE"
+  ],
+  "reviewType": "static-source-only",
+  "files": [
+    {
+      "upstreamPath": ".codex/INSTALL.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/INSTALL.md",
+      "gitBlob": "7623e96b2c5eb6a88068598e84572c31a86e218f",
+      "sha256": "a8ed13fa559c8f339b7ce4820ffe72034f6a90c2aa59e0eb2a529ca350a20136",
+      "bytes": 2297,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/INSTALL.md"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-create-greybox/SKILL.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-create-greybox/SKILL.md",
+      "gitBlob": "f9d2f3d2a1c53088997b810347301ca4390e88fe",
+      "sha256": "1881cee62b9f1734b9cff55536064a021265141eb5350f51d54b40c0e6a1dd48",
+      "bytes": 7316,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-create-greybox/SKILL.md"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-create-greybox/agents/openai.yaml",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-create-greybox/agents/openai.yaml",
+      "gitBlob": "01e4c46bede5c12492e64953205d567f52f3df1f",
+      "sha256": "e0d75c6feed6a6f8cdf8ebaae7091b8f117c04aadbfddd99676fc4c28927d193",
+      "bytes": 237,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-create-greybox/agents/openai.yaml"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-create-model/SKILL.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-create-model/SKILL.md",
+      "gitBlob": "eecb1939762242e600221b78bd7d919edae4b27a",
+      "sha256": "78dccbd2c39f325618a7a6bc80f4e0175a1e3412f4e87ead0ebccf8ee4137c08",
+      "bytes": 3248,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-create-model/SKILL.md"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-create-model/agents/openai.yaml",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-create-model/agents/openai.yaml",
+      "gitBlob": "afe44c23e641bd871eae50bfaeea441336cd68ec",
+      "sha256": "8ef5cef1ef37fe477a0cd6c10dcdcaa67f9ac501bc5c2de538e2a7fe683e84ed",
+      "bytes": 204,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-create-model/agents/openai.yaml"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-game-export/SKILL.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-game-export/SKILL.md",
+      "gitBlob": "8b8bc276e1333adc8c71610624c72cd8de4d475e",
+      "sha256": "dd3a3a35ac596779b6a448265721190c8385c223c4aa2ffbef3849e8415f625d",
+      "bytes": 3112,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-game-export/SKILL.md"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-game-export/agents/openai.yaml",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-game-export/agents/openai.yaml",
+      "gitBlob": "71081936b883627c8bd29f6c022e6cc8d6e34a8e",
+      "sha256": "f9b98e2cc5bca17b845a289d409262db77624944badecbd71f80d6eac1a094bf",
+      "bytes": 214,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-game-export/agents/openai.yaml"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-light-camera/SKILL.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-light-camera/SKILL.md",
+      "gitBlob": "32dfeb6f6f3ddac189e4530a86e4d3a80980d637",
+      "sha256": "1ba7c57d63f9ffd6a621c5a7204aa9798a48c8cca692615e31c0de4446ab8391",
+      "bytes": 3017,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-light-camera/SKILL.md"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-light-camera/agents/openai.yaml",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-light-camera/agents/openai.yaml",
+      "gitBlob": "ce126e504143a2198c488a9c8bc410beeff8e867",
+      "sha256": "4a436bdaf82251d38dea7a08ee6dbd7177be8cae6c1c941a9c39aa4176ad40c1",
+      "bytes": 208,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-light-camera/agents/openai.yaml"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-materials/SKILL.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-materials/SKILL.md",
+      "gitBlob": "4ba7f3e87234910acf75e049d4f90db4112a2129",
+      "sha256": "add570bbd5568b6abc7e42f50b0250598f2c795a46c13098152d35618cdb7abd",
+      "bytes": 3242,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-materials/SKILL.md"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-materials/agents/openai.yaml",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-materials/agents/openai.yaml",
+      "gitBlob": "6a1456edfc02f8f9c43e019b66bd56ccbe703139",
+      "sha256": "99fc1eb541b2c94c8cea9c63580674747cf43632e699ea068c8654c1f539d777",
+      "bytes": 206,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-materials/agents/openai.yaml"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-render/SKILL.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-render/SKILL.md",
+      "gitBlob": "c4bdd56c178c86435d760d2b0a122e0fda145c9f",
+      "sha256": "048364e255b1d6968f2150f3e40d2cb75d954b2982d4846133441c2845bd1998",
+      "bytes": 3112,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-render/SKILL.md"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-render/agents/openai.yaml",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-render/agents/openai.yaml",
+      "gitBlob": "e334d6ac16350fd712ddd3dbd21b1b21e0388e8e",
+      "sha256": "8627f4bf1c22c2ac1a61fe535d5c8f460417251daf04e6c80e28a843213cae1c",
+      "bytes": 194,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-render/agents/openai.yaml"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-render/scripts/verify_outputs.py",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-render/scripts/verify_outputs.py",
+      "gitBlob": "820ec10081f026897801776647d05e8de4bc7b98",
+      "sha256": "310c5710fb40aab814ba7b4b9b29f3343cd4b8051a5a78b96d62e3bff2eaf615",
+      "bytes": 4075,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-render/scripts/verify_outputs.py"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-review-optimize/SKILL.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-review-optimize/SKILL.md",
+      "gitBlob": "77c02931b6decca302db59cd5c738c0a1b1f9bc7",
+      "sha256": "948cf645127e4c8ec4fecbd3c275531b08c26fbf5c052098717382c7aaf348b3",
+      "bytes": 3104,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-review-optimize/SKILL.md"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-review-optimize/agents/openai.yaml",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-review-optimize/agents/openai.yaml",
+      "gitBlob": "960cf1d261225ae6e52d3aa18d049880b284199c",
+      "sha256": "86638a58ee656ff39e87c3526b11c7c2451b673782ca04343cf9c8d617e7efb3",
+      "bytes": 212,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-review-optimize/agents/openai.yaml"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-review-optimize/scripts/audit_scene.py",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-review-optimize/scripts/audit_scene.py",
+      "gitBlob": "94ec3d50680b5e65b669214998f7df0b21f8a6df",
+      "sha256": "d7782a8732e699da09252416faee98296d2db119a0b81277d5fe4fa93098895a",
+      "bytes": 977,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-review-optimize/scripts/audit_scene.py"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-setup/SKILL.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-setup/SKILL.md",
+      "gitBlob": "749d33ed6abfc958ad9066654517825039688e5b",
+      "sha256": "3b88b1d9d16b0dd4e0a91bed33b42feabad231374c372e5acf91c237db599687",
+      "bytes": 15473,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-setup/SKILL.md"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-setup/agents/openai.yaml",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-setup/agents/openai.yaml",
+      "gitBlob": "07d264fe24cd6ad7f527a14c8e8c72dc8e2e0b05",
+      "sha256": "b12beb5df2de7e1c10fc058b9a23875b4a5b5949532d7655dd7584a168244be1",
+      "bytes": 260,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-setup/agents/openai.yaml"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-setup/references/operating-boundaries.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-setup/references/operating-boundaries.md",
+      "gitBlob": "530b590276b93d982206dd35914fcd638a6ff272",
+      "sha256": "efe3fe0780e88ce67d9ae3540d5cec192dd73977d3ab4e65dbd189196997ff2a",
+      "bytes": 1858,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-setup/references/operating-boundaries.md"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-setup/scripts/check_setup.py",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-setup/scripts/check_setup.py",
+      "gitBlob": "4ad47ed64e1a0942a809657c27e08d02e5bad6a4",
+      "sha256": "ffe51778c8197b3d3e050075e32f19384a5f4bbdac4cf09ed95cd4d13d5451fb",
+      "bytes": 25193,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-setup/scripts/check_setup.py"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-setup/scripts/platform_checks.py",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-setup/scripts/platform_checks.py",
+      "gitBlob": "2f10e12e3e18835a8e6e4c528726fcefb8a31fb9",
+      "sha256": "adf5b0eee9d7d0b7214118f00181f0ccd801e277a9c9319fc5ac091597fe1d58",
+      "bytes": 7923,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-setup/scripts/platform_checks.py"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-setup/scripts/test_check_setup.py",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-setup/scripts/test_check_setup.py",
+      "gitBlob": "4e9efbefd8ca6c3722676ad23324504aac86a41a",
+      "sha256": "92c2aa742feb23a4de644cbc7337edcbd2537080710e305f19ef6d7a29e93ab7",
+      "bytes": 22666,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-setup/scripts/test_check_setup.py"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-setup/scripts/test_windowless.py",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-setup/scripts/test_windowless.py",
+      "gitBlob": "abc38f60adbb656126f1d1dcd1e9ff7f1ada5858",
+      "sha256": "070bdd5f0c253d0cb2ec139f11f59944b3ce637974438a641890b086082929bd",
+      "bytes": 6981,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-setup/scripts/test_windowless.py"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-setup/scripts/windowless.py",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-setup/scripts/windowless.py",
+      "gitBlob": "ac87ba79f178b37c54874bfae031868163a96695",
+      "sha256": "1adefece3a6ba15659aaad6f656b32f3f9eafdc5c6923976952cbc7eaac80374",
+      "bytes": 6349,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-setup/scripts/windowless.py"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-uv-bake/SKILL.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-uv-bake/SKILL.md",
+      "gitBlob": "dac9e958aeda01a30c30696aaacb3e8885e3e01d",
+      "sha256": "7e8d3f38a9af1149f63a40321bee6019edcb1f3042902ca99cf4271d7c5a9f82",
+      "bytes": 2354,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-uv-bake/SKILL.md"
+    },
+    {
+      "upstreamPath": ".codex/skills/blender-uv-bake/agents/openai.yaml",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/.codex/skills/blender-uv-bake/agents/openai.yaml",
+      "gitBlob": "eb58c1bb3af164428174bea26549972f98160acc",
+      "sha256": "4f174079bc054c644fd672f3e169a8a00a60abfb33863f670a471caeb7efba7a",
+      "bytes": 200,
+      "file": "creation-lab/registry/audit-input/rivello/.codex/skills/blender-uv-bake/agents/openai.yaml"
+    },
+    {
+      "upstreamPath": "LICENSE",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/LICENSE",
+      "gitBlob": "e887ad05d5b1ce4b594c894a798d8b1610d9d4e5",
+      "sha256": "f79f113d911804fcc88d99f9d85db46c3ce835bfc0f22232380d9f0f198e5127",
+      "bytes": 1091,
+      "file": "creation-lab/registry/audit-input/rivello/LICENSE"
+    },
+    {
+      "upstreamPath": "README.md",
+      "url": "https://raw.githubusercontent.com/SamuelAsherRivello/ai-skills-blender/54b4f26b7c0e530b7158244f397b34e6c16d7b76/README.md",
+      "gitBlob": "bcc9962ba5f6b6fec1b2fc3dc9d177a12456c270",
+      "sha256": "bc84b8c28150e72a7e974118507aa5a57137c6a5c5bd7baf3de9905eb5740f6b",
+      "bytes": 8751,
+      "file": "creation-lab/registry/audit-input/rivello/README.md"
+    }
+  ]
+}

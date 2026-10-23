@@ -1,0 +1,14 @@
+{
+  "schemaVersion":1,
+  "policy":"At most one technical repair per condition, performed by its original author agent; no aesthetic correction of benchmark variants",
+  "coordinatorGeometryEdits":0,
+  "entries":[
+    {"id":"A","initialRun":"20261022T225937Z-f8eb57e5","round":1,"trigger":"Reimported shading normals exceed locked tolerance; no degenerate triangles","request":"Explicit final triangulation and corner normals, preserve composition and materials","authorChange":"Applied Triangulate and fixed corner normals; label anchors captured before triangulation"},
+    {"id":"B","initialRun":"20261022T224930Z-c5b4b814","round":1,"trigger":"Reimported shading normals differ; 1216 degenerate triangles","request":"Repair coincident sphere pole topology without changing design","authorChange":"Single pole vertices and triangle fans in sphere helper"},
+    {"id":"D","initialRun":"20261022T230439Z-cff6edbd","round":1,"trigger":"Reimported shading normals differ; 528 degenerate triangles","request":"Repair collapsed pole/cap topology; finalize triangles and corner normals","authorChange":"Unique poles, cap centers and triangle fans; final triangulation and fixed corner normals"},
+    {"id":"E","initialRun":"20261022T230733Z-1cb68459","round":1,"trigger":"Reimport measurement raises Degenerate shading normal; 800 degenerate triangles","request":"Repair zero-radius poles/caps and finalize valid triangles; preserve design","authorChange":"Unique shell poles and cytoplasm base center; triangulation omits zero-area faces"}
+  ],
+  "unchangedConditions":["C","F"],
+  "harnessChanges":"After first B: explicit Blender python exit code and diagnostic-only surface-quality reporting; no relaxed gates or changed geometry/render settings",
+  "timingLimit":"CPU wall times observed on a shared host, including validation. Some baseline runs overlapped brief diagnostic probes and browser use. Not model inference latency or a controlled speed ranking."
+}

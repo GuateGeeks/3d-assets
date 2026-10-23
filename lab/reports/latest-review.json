@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261022T220402Z-eab41af6",
+  "command": "review",
+  "startedAt": "2026-10-22T22:04:02.578450+00:00",
+  "status": "success",
+  "engine": "unirig",
+  "profileSha256": "f1a86b92c26e03f3c151dc285d12e25861aeb3df5cc0c898c830c10c6fa52488",
+  "stages": [
+    {
+      "name": "build-review",
+      "command": [
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/envs/unirig/bin/python",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/scripts/build_review.py",
+        "--asset",
+        "all",
+        "--run-dir",
+        "/home/adawolfs/projects/makecode/3d-assets/lab/.local/runs/20261022T220402Z-eab41af6"
+      ],
+      "startedAt": "2026-10-22T22:04:02.579013+00:00",
+      "log": "lab/.local/runs/20261022T220402Z-eab41af6/build-review.log",
+      "exitCode": 0,
+      "seconds": 5.754
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "lab/.local/runs/20261022T220402Z-eab41af6/review-manifest.json",
+      "bytes": 24260,
+      "sha256": "da1c246eea230008a0f24d35a70827f1fbce8c0a212700f4bb25f50141caa93d"
+    },
+    {
+      "file": "lab/.local/runs/20261022T220402Z-eab41af6/review-poses.json",
+      "bytes": 5759,
+      "sha256": "03edf7090e95fabdac0ea93902c6c0f7edb986d8df1225d8e7b91317afc988ab"
+    },
+    {
+      "file": "lab/.local/runs/20261022T220402Z-eab41af6/review-human.json",
+      "bytes": 31339,
+      "sha256": "7e1162d510191831d7c3d6a346db0b9962526ca92902e7c6006c789242af38a9"
+    },
+    {
+      "file": "lab/.local/runs/20261022T220402Z-eab41af6/review-quadruped.json",
+      "bytes": 40587,
+      "sha256": "e5d36ab7ed5dfc24f3a3bf8dd326239a75c400e3bf43179d3dd8bf845b3ca539"
+    }
+  ],
+  "finishedAt": "2026-10-22T22:04:08.335078+00:00",
+  "seconds": 5.756
+}

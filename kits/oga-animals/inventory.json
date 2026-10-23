@@ -1,0 +1,159 @@
+{
+  "id": "oga-animals",
+  "title": "Animated Animales Low Poly",
+  "providerId": "opengameart",
+  "provider": "OpenGameArt",
+  "author": "Quaternius",
+  "sourceUrl": "https://opengameart.org/content/animated-animales-low-poly",
+  "downloadUrl": "https://opengameart.org/sites/default/files/Animal%20Pack%20Vol.2%20by%20%40Quaternius.zip",
+  "file": "kits/oga-animals/original.zip",
+  "sha256": "6d8f6789d65dbdb352ebad98a4209f26b41b384e87d81bc05e9ca76139db1248",
+  "bytes": 2069972,
+  "licenseRaw": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "licenseFile": "kits/oga-animals/LICENSE.txt",
+  "retrievedAt": "2026-10-22T22:55:07.015562+00:00",
+  "pageSnapshotSha256": "0408d7f97315702507cbfb35562b40791dd16e09b59d21ad255ff95238a5347e",
+  "attribution": "Animated Animales Low Poly — Quaternius. https://opengameart.org/content/animated-animales-low-poly. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/",
+  "members": [
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/Blends/Cat.blend",
+      "bytes": 813748,
+      "sha256": "e9836027dc8591fd2da03e6d8d6575972bc5c7aebaa17a0762b82f7bc37264de"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/Blends/Dog.blend",
+      "bytes": 772232,
+      "sha256": "46442b696ea11ad8d4442a1c2d7f529c23bd0e10c2157262600a6fa1535cf2cf"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/Blends/Eagle.blend",
+      "bytes": 804128,
+      "sha256": "ca9d09c805d51d0df063bd25ebe3f85bc67b4e2ecc2fef174aa72f29b85e9e93"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/Blends/Piranha.blend",
+      "bytes": 740596,
+      "sha256": "5337092766cdc0fd125397f1be3c881dd3bfd120fc6d9b951eb94a74f74b97af"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/Blends/Wolf.blend",
+      "bytes": 756476,
+      "sha256": "df8216633505c4b9c88a72393f8ff8e0344861355a30b6a35cca4d03e7800044"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/FBX/Cat.fbx",
+      "bytes": 365628,
+      "sha256": "24d03762bcbcdf5414516354b0d80c6580a0ffd7b5abe4d8edd26ad7bf7a0db5"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/FBX/Dog.fbx",
+      "bytes": 360876,
+      "sha256": "a7250b3c68857120e6da0fd9ea2cdb4a4493823b6afed371b7aa9208407af039"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/FBX/Eagle.fbx",
+      "bytes": 989676,
+      "sha256": "c3504c8e0904eab7b14e695609a861417f089cf724b94bda821ea4a3bbc6f505"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/FBX/Piranha.fbx",
+      "bytes": 180620,
+      "sha256": "8dfc2e6494fc04dacd7f2ad7acd14e5881b4c2d19bc2ba375d63c6d832a94a0f"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/FBX/Wolf.fbx",
+      "bytes": 361228,
+      "sha256": "84a55b60ff741c1e7c0e725f9c7b659ef27ad4b658784642c09d191ba9636f0f"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/OBJ/Cat.mtl",
+      "bytes": 584,
+      "sha256": "179bcb8f2198fa0411979a63d177f73615a33c6c7039ddd868ecf25c2597b2ac"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/OBJ/Cat.obj",
+      "bytes": 39314,
+      "sha256": "ee145eef4c9cbb4f5592546833d48888eb9c9fd917960638d21dc162239d3682"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/OBJ/Dog.mtl",
+      "bytes": 228,
+      "sha256": "c4676e7a8ea9c691e75053764a06afc84b002363403600fb17c6124f39df2990"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/OBJ/Dog.obj",
+      "bytes": 29288,
+      "sha256": "55a0d170c1114db01d19ccfd6dcb7cc501d91dbe10f1dcb1d651147d7d893bac"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/OBJ/Eagle.mtl",
+      "bytes": 764,
+      "sha256": "8c5ad956a97e4ae9b1b0d447c069498c390fbe7771d3f33013a412b9598f16a3"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/OBJ/Eagle.obj",
+      "bytes": 76869,
+      "sha256": "4bcc34c207399fce40fe294e4cee29e790233a3674881fda8736277b6a4fe645"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/OBJ/Piranha.mtl",
+      "bytes": 774,
+      "sha256": "d143ca36821c1057c6bd2881c8c395377f8f2874fbe6ece8ed835548561c95af"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/OBJ/Piranha.obj",
+      "bytes": 66601,
+      "sha256": "e9aeb38a76be4823b1f53278a85e64da030b6440475e8acbfc6c67904b23357c"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/OBJ/Wolf.mtl",
+      "bytes": 230,
+      "sha256": "99776b2953f4e235ee4911e2194dc8a2269b77420d7755f2cad1adb546a8608c"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/OBJ/Wolf.obj",
+      "bytes": 31378,
+      "sha256": "a4d65f5658965f88d26c541df3ab1b2644069798545fe0b6f98e74c647546711"
+    },
+    {
+      "file": "Animal Pack Vol.2 by @Quaternius/Preview.png",
+      "bytes": 359631,
+      "sha256": "42a7d84ba3fd78df26143d003e2401e47e122d2286c9de43b8c38809462d5f9b"
+    }
+  ],
+  "assets": [
+    {
+      "sourceMember": "Animal Pack Vol.2 by @Quaternius/Blends/Cat.blend",
+      "sourceName": "Cat",
+      "modelId": "oga-animals-cat",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Animal Pack Vol.2 by @Quaternius/Blends/Dog.blend",
+      "sourceName": "Dog",
+      "modelId": "oga-animals-dog",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Animal Pack Vol.2 by @Quaternius/Blends/Eagle.blend",
+      "sourceName": "Eagle",
+      "modelId": "oga-animals-eagle",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Animal Pack Vol.2 by @Quaternius/Blends/Piranha.blend",
+      "sourceName": "Piranha",
+      "modelId": "oga-animals-piranha",
+      "relation": "unique-or-variant"
+    },
+    {
+      "sourceMember": "Animal Pack Vol.2 by @Quaternius/Blends/Wolf.blend",
+      "sourceName": "Wolf",
+      "modelId": "oga-animals-wolf",
+      "relation": "unique-or-variant"
+    }
+  ],
+  "logicalModels": 5,
+  "pageSnapshotFile": "sources/external/oga-animals/page.html"
+}

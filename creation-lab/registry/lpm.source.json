@@ -1,0 +1,443 @@
+{
+  "id": "lpm",
+  "repository": "https://github.com/ozanzeng/blender-LPM-skill",
+  "commit": "687d0a46f1280bc7d11dbf83539840100ec909dc",
+  "rootLicensePaths": [
+    "LICENSE"
+  ],
+  "reviewType": "static-source-only",
+  "files": [
+    {
+      "upstreamPath": "LICENSE",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/LICENSE",
+      "gitBlob": "b89b2d715413395393f0c5f4da01af95b2f97ac1",
+      "sha256": "a7dc3f2de87b8aba423e8235159d3b8d96b749e5e192de5573cfd0dfd2719b56",
+      "bytes": 1068,
+      "file": "creation-lab/registry/audit-input/lpm/LICENSE"
+    },
+    {
+      "upstreamPath": "README.md",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/README.md",
+      "gitBlob": "643ec3e950286b5937fe33485f434e942b04199a",
+      "sha256": "d5c4c13eb36cb480c052b52664d831b4b2850a35b63e145ff49569e8555d4b36",
+      "bytes": 10530,
+      "file": "creation-lab/registry/audit-input/lpm/README.md"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/SKILL.md",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/SKILL.md",
+      "gitBlob": "f0407c4ec3e092205bab1278f716332842f92ad5",
+      "sha256": "57d42da4404c796d7a23cc5aa2d9562eab0821ee32a15be025ef084b66eb72e1",
+      "bytes": 8159,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/SKILL.md"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/_common.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/_common.py",
+      "gitBlob": "e9e237393065087d1895c78bbd55e5fbdf23cef9",
+      "sha256": "e1164a6975daa3abdc42b6deeaa6253b8771c91c8da0a32557303e8e8366f3a9",
+      "bytes": 501,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/_common.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/arena_column.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/arena_column.py",
+      "gitBlob": "e9434a99ccc77697f875b4a700f030f3af6b8945",
+      "sha256": "460ca8ca0330f7ff7a6b6bcad8c6843da648330a586f93a511d3bba814f70923",
+      "bytes": 1104,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/arena_column.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/chest.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/chest.py",
+      "gitBlob": "cc47d36d94e7dcf5f6988f61ffe42e1ef0e48eaf",
+      "sha256": "7c79bdbfce87e421c6a5d2a082559637320a9aabcf6cbe246ecedf9377fe1939",
+      "bytes": 3814,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/chest.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/env_amphora.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/env_amphora.py",
+      "gitBlob": "046696e40b4fc574bc2056777bcda21459935374",
+      "sha256": "c0d98dbc3578e15961721d2357ccf3b17d9762df11330c83df5bc66db0acccd6",
+      "bytes": 1602,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/env_amphora.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/env_barricade.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/env_barricade.py",
+      "gitBlob": "b030943dbe89f551d268f6d06bd85d5edb7d8464",
+      "sha256": "e0ae60a1bf1933ae3a999d1a8dd5f3ae86f301f6074f7328c5357ab09c842217",
+      "bytes": 1567,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/env_barricade.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/env_lion_altar.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/env_lion_altar.py",
+      "gitBlob": "a89dd889e02b5412707a1d86f03f2d5992a8e542",
+      "sha256": "0e39e866622dbb0dd8e4bdd3eda2c7dd3d1a9586f9959162bef500baca4e483f",
+      "bytes": 6703,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/env_lion_altar.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/env_lion_altar_hull.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/env_lion_altar_hull.py",
+      "gitBlob": "e3dfd4cd5cc80e1a5e49e0a39ddaf34142269585",
+      "sha256": "437e49db60a3354f99ec398f433fac214990172b1c26e6c71b868448759bf309",
+      "bytes": 4752,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/env_lion_altar_hull.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/env_stone_well.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/env_stone_well.py",
+      "gitBlob": "effd3e058d00e92919e8b89139bc5adf24419822",
+      "sha256": "540fea6d3b82cb9efd9db26b37714d96dff79a27d1ce55f66e315b03e93ba516",
+      "bytes": 2247,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/env_stone_well.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/env_torch_sconce.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/env_torch_sconce.py",
+      "gitBlob": "cd44fbb0f34a1e9e00be85f656a51cfd6d887016",
+      "sha256": "e938b5ad028d91adec1859f018d6f752b09154dce9d3f8210c42104a8b557641",
+      "bytes": 3605,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/env_torch_sconce.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/galea_helmet.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/galea_helmet.py",
+      "gitBlob": "a556efe427dd3afce6235c508ece2e44a74acfee",
+      "sha256": "9a2a1454f6b224033bd1d45ee514daabe46c1ac66236435fc39c63ef69cb03ff",
+      "bytes": 1779,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/galea_helmet.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/gladius.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/gladius.py",
+      "gitBlob": "d54333f5ec8e1311b42d803fd5e26b90628661c6",
+      "sha256": "c7d4536cf6f6de5e3e36d9a0c05cf94beae445af9bce5fdf59e2e6eb34e3492e",
+      "bytes": 1751,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/gladius.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/roman_chest.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/roman_chest.py",
+      "gitBlob": "6dc62ae2406277b7e6491f5e2101b6f93747b3ca",
+      "sha256": "eb140e9151f0b6cc13629b8ab39895d5f891c6406624bca874844b59644a81c4",
+      "bytes": 5000,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/roman_chest.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/roman_villa.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/roman_villa.py",
+      "gitBlob": "bb3dfe5daa6c5fcf313d86c097faf9fafe5fb820",
+      "sha256": "bb74bcd39092b65e59dcb032d9c3ce20d04f5ed1fa54560bc64da10cab708f55",
+      "bytes": 6593,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/roman_villa.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/examples/scutum.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/examples/scutum.py",
+      "gitBlob": "29ea1ee474a39762f05d6bccd0ec040625b542c8",
+      "sha256": "3d41982b0178d7cafb89263145b2d294431face2d82cca16a61bcf5177e448fc",
+      "bytes": 1771,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/examples/scutum.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/references/budgets-and-style.md",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/references/budgets-and-style.md",
+      "gitBlob": "1a6085d23ba3e5cbad99e1844d40d68ed72857e4",
+      "sha256": "bc1cde60e3de37917ff11ee8e86fa6337ef7b153795b23ff635ccddecd8392a6",
+      "bytes": 2252,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/references/budgets-and-style.md"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/references/export-unity.md",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/references/export-unity.md",
+      "gitBlob": "86513f295817a77ac41525119b5f26fed03de83e",
+      "sha256": "8238c5b8ff80a3d404f3592d01cb31e395031183ed6f2d5f97e715985eaede67",
+      "bytes": 1218,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/references/export-unity.md"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/references/qa-checklist.md",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/references/qa-checklist.md",
+      "gitBlob": "87a577c29261ebde1417e828662278f2bfaf2857",
+      "sha256": "e2cab6f22fdb8a122f02f411913f914c469ce8b1bcd4ceebfabdd980eb179f79",
+      "bytes": 763,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/references/qa-checklist.md"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/references/recipes.md",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/references/recipes.md",
+      "gitBlob": "e21fca188ba89a44d3039ce68659a221b38c80da",
+      "sha256": "a3fd38a4045943311fd793cc13ca4990632ffbc04107d259d4be395c4ab62abe",
+      "bytes": 1885,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/references/recipes.md"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/references/reference-to-lowpoly.md",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/references/reference-to-lowpoly.md",
+      "gitBlob": "a94e0759d91e7d25633c293dd271488fb478e51e",
+      "sha256": "654a86a36d772c7f6bbbb3aa94d2e58aa79ac169561e21b7f5bdbf8677ad85b8",
+      "bytes": 16089,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/references/reference-to-lowpoly.md"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/asset_card.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/asset_card.py",
+      "gitBlob": "be39e9f2f46974381ee784f7ab342460ad39a83d",
+      "sha256": "f567f07f25dbec4bc0d588a4b009c3af96921d8d3d74f303b6b5e9de86ac3c9f",
+      "bytes": 5467,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/asset_card.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/atlas_from_views.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/atlas_from_views.py",
+      "gitBlob": "89944824dd95134168a8fca711a03101988c816a",
+      "sha256": "b8e5200157530c611b038e392c86db6100da6fa834997443de2a5e435e2878d6",
+      "bytes": 5121,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/atlas_from_views.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/bake_registered.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/bake_registered.py",
+      "gitBlob": "dad2acfcbc71911d4ef05347ce802131e23be82e",
+      "sha256": "b4736acf107754a729997383cf4fc6ebe84344e4acd4f90d089d69ec0b38b6f1",
+      "bytes": 12007,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/bake_registered.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/beauty_render.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/beauty_render.py",
+      "gitBlob": "78525beb67679eb184b51004a0dd03837e157a97",
+      "sha256": "59eb35086a99244d726211c755aef0b231a9a7079cf823e85dd45e678a5fde82",
+      "bytes": 5582,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/beauty_render.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/bl.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/bl.py",
+      "gitBlob": "e07252a2ac83985b01bbc91dda6dab7427ffbb9e",
+      "sha256": "e06e8507a6878aa26fce133d2023072d8455762c168e8860e504ef75a6b5102e",
+      "bytes": 3633,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/bl.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/calibrate_elevation.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/calibrate_elevation.py",
+      "gitBlob": "053fd78a6dd4082c1dd3c0bc97bd0ba5419cb89c",
+      "sha256": "57c1ae7f83967427ea01273f17c153362c753d851b4732e2a19f53b945875c8e",
+      "bytes": 5225,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/calibrate_elevation.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/compare_silhouette.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/compare_silhouette.py",
+      "gitBlob": "cd484a2f7179ab8caeeecac16b1fe4682417a157",
+      "sha256": "70fe464bbca81d28701c6a15db1943de68e89ff795d80b190be38219e25da8fe",
+      "bytes": 5041,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/compare_silhouette.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/exact_hull.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/exact_hull.py",
+      "gitBlob": "869e8066dba4df605d474d93ebc7208acadb41f5",
+      "sha256": "05b74143d87c42d96a576711330eb5f4e65e05f2b15e88b6e96d4ccf0760eef9",
+      "bytes": 7705,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/exact_hull.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/find_view.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/find_view.py",
+      "gitBlob": "9bb63c958414f40c42e2029f97b03fd8b6d71a29",
+      "sha256": "16c156478eb74c4d30a334fa880e1f44e8ad51d7a2173b40f2ab3e607599a340",
+      "bytes": 6360,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/find_view.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/gate_report.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/gate_report.py",
+      "gitBlob": "d8527ac1411106ea1c8b1c6303459664d657a925",
+      "sha256": "1dafaabc507e5afffde935f99c82ed7e69077113ffbe63b657682cc99fdadf04",
+      "bytes": 6373,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/gate_report.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/gen_to_lowpoly.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/gen_to_lowpoly.py",
+      "gitBlob": "da857a782b593506ba62fed4549c5933b3e012be",
+      "sha256": "18c175fd8e61c6e521169c3989b55ce9070f670d0ea463624b769a5b0daba512",
+      "bytes": 4067,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/gen_to_lowpoly.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/gltf_pbr_to_unity.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/gltf_pbr_to_unity.py",
+      "gitBlob": "71b4cd8d6765228bbb3e0c67be4522143cbfae5b",
+      "sha256": "2a48e2c427921a4468b9b532a61049a1c7ae423429ee4aa86a7afc1d946c304c",
+      "bytes": 2514,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/gltf_pbr_to_unity.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/hull_n_views.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/hull_n_views.py",
+      "gitBlob": "c6b17c3b5b00f2ad45b132bf46a41ce235cee0f6",
+      "sha256": "0d028f17f77e5b45b9e9405e15df381d1d2289b52200472a24abcf99f7433d5c",
+      "bytes": 3282,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/hull_n_views.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/hull_prep.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/hull_prep.py",
+      "gitBlob": "1683312650d05d8fbe0bc065cd03dd11c780737f",
+      "sha256": "5f519a33a8f18e67b37b21d2f2e41a083db852648cc98db94a6804a04315fc73",
+      "bytes": 4330,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/hull_prep.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/hull_to_lowpoly.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/hull_to_lowpoly.py",
+      "gitBlob": "07d795745c0086e58938da67003751ce4c4c48b6",
+      "sha256": "58a25ac0d3dbb706694be094455a5edd5bbcf373551fd77ae38c82c854069420",
+      "bytes": 3612,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/hull_to_lowpoly.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/hy3d_local_mv.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/hy3d_local_mv.py",
+      "gitBlob": "fef62436cef8f7a1f3aa3402fd849c7a01de0a64",
+      "sha256": "626e772566a56ff5a03e278a1e822ab707e2e6dae40dc5175ebe702bf25f06be",
+      "bytes": 4566,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/hy3d_local_mv.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/inspect_scene.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/inspect_scene.py",
+      "gitBlob": "75edb16724898903d39dc9b530490416b46d07e2",
+      "sha256": "09c684c5ed783b7b5f0734d271623e2256a76f3dfd4435af12113b55bfb6d954",
+      "bytes": 8441,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/inspect_scene.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/lpm.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/lpm.py",
+      "gitBlob": "8ab2093a8c48a0a5b176ce5792aaffc7cf415422",
+      "sha256": "fa2785b64377ee885af8e993241e6e2fe3a7a272abd9fb810d13026953c72a10",
+      "bytes": 23311,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/lpm.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/lpm_kit.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/lpm_kit.py",
+      "gitBlob": "ccce50ba3639d9ae088132e094b3e547094e74d1",
+      "sha256": "b2d6279109bc5fde0a543bb47965916f6a783b12f3c87492cfd58ab740ea998c",
+      "bytes": 10875,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/lpm_kit.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/make_turnaround.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/make_turnaround.py",
+      "gitBlob": "1770e727289d24e93adb5fe9c01f7b0cee904470",
+      "sha256": "5917ea908f275626b200ccb2bf30fd6c46823b780715ad550f7f04549eb375bf",
+      "bytes": 6775,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/make_turnaround.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/multiview_to_mesh.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/multiview_to_mesh.py",
+      "gitBlob": "3b83b5d059d0af6f292a5dadec27e76e568fe493",
+      "sha256": "daa338ce168526f5f6572f94d5d044c17b94cfe1437c9264695735a905378010",
+      "bytes": 5515,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/multiview_to_mesh.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/pbr_from_basecolor.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/pbr_from_basecolor.py",
+      "gitBlob": "02eb8aea8a1ed32a06af25b1ca09b2fafacf5d23",
+      "sha256": "dbf99f78314af009bc8c6920dddd312123c2cab2b741c025465b86f06883096c",
+      "bytes": 3315,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/pbr_from_basecolor.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/project_views_bake.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/project_views_bake.py",
+      "gitBlob": "3f3496d7842944c4adeb2e748258f836a25b861b",
+      "sha256": "3b99500e8be4fe7e3150f7097703abdd8e30c2f209e69d281577ce37405f4d66",
+      "bytes": 8978,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/project_views_bake.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/register_views.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/register_views.py",
+      "gitBlob": "5614c81177d8c8e86c4d0cc7c08ad65410e7c787",
+      "sha256": "d2cfb0d15d7cc2be6742c736710a87727146eda9df79557e0da91d5fdbeb02b4",
+      "bytes": 6612,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/register_views.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/render_n_views.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/render_n_views.py",
+      "gitBlob": "9ec23ff5335229cac226ff0f94aa5e6d60d218ea",
+      "sha256": "0b949a535c61fbacd6e50ac58cda382191d34a2e091f76e6a7089a4401c4b49d",
+      "bytes": 3063,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/render_n_views.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/render_ref_views.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/render_ref_views.py",
+      "gitBlob": "0fd56a2b92ff29febf0e9f08cf6960e2b2ccb32e",
+      "sha256": "ec4970c471b8ff2b0e84ccc58710940b3a651c3eec7a36e0c3bcc8de3b5b9123",
+      "bytes": 4947,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/render_ref_views.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/render_unlit_views.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/render_unlit_views.py",
+      "gitBlob": "6a933eb4df9d77c0b9ba67f76fc9ddace5578c3c",
+      "sha256": "e42adfcaf386b1c530758298ed47b9865c0e112ad585bddda2b22b109f043a11",
+      "bytes": 4336,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/render_unlit_views.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/render_views.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/render_views.py",
+      "gitBlob": "01e3837fbbed0673212aa318c1d045a24fc60c70",
+      "sha256": "86542ea278d5b9b4b28f9436f383ab8e0478ccab815fd165eceb120db40a5abd",
+      "bytes": 8622,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/render_views.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/score_views.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/score_views.py",
+      "gitBlob": "7e7632aea5d201e5ceb444de57857b0b218f3aeb",
+      "sha256": "78401b18f820e664f5b385a6f1ba4597cc1aa04c115d6acddd4ee1dd12ae83e5",
+      "bytes": 6117,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/score_views.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/shape_from_views.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/shape_from_views.py",
+      "gitBlob": "f494ed816ab10aba51d09d6d028495d5f7bfc13a",
+      "sha256": "77fbd8f68dacc43ed24e4652e8c584bef79edea07b9d07c6ca2389930ad9048b",
+      "bytes": 6653,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/shape_from_views.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/turntable.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/turntable.py",
+      "gitBlob": "51837532675083a485c0d1837c54c31a35023839",
+      "sha256": "582de35739f87cbb930eed07953eaa575b1cc1df588e11b013936f2696141447",
+      "bytes": 8217,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/turntable.py"
+    },
+    {
+      "upstreamPath": "skills/blender-lpm-skill/scripts/wire_pbr_export.py",
+      "url": "https://raw.githubusercontent.com/ozanzeng/blender-LPM-skill/687d0a46f1280bc7d11dbf83539840100ec909dc/skills/blender-lpm-skill/scripts/wire_pbr_export.py",
+      "gitBlob": "e3a32a823230e831b6b85facee4cdb60b04ec374",
+      "sha256": "de4e07c55c0e497040a4fcef69f4a634243f668eaee0043b4a0c080a957b2990",
+      "bytes": 3870,
+      "file": "creation-lab/registry/audit-input/lpm/skills/blender-lpm-skill/scripts/wire_pbr_export.py"
+    }
+  ]
+}

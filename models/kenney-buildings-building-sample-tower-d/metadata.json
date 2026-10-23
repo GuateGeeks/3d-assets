@@ -1,0 +1,139 @@
+{
+  "id": "kenney-buildings-building-sample-tower-d",
+  "assetId": "kenney:modular/building-sample-tower-d",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "Torre modular · muestra D",
+  "titleOriginal": "building-sample-tower-d",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/modular-buildings",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/modular-buildings/3253b4219a-1707397411/kenney_modular-buildings.zip",
+  "thumbnailUrl": null,
+  "description": "Recurso estilizado de Modular Buildings 2.1. Escala y precisión educativa por revisar para cada actividad.",
+  "category": "Architecture",
+  "tags": [
+    "edificio",
+    "arquitectura",
+    "modular",
+    "building"
+  ],
+  "areas": [
+    "comunidad-ciudadania",
+    "escenarios-videojuegos",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Torre modular · muestra D\" (building-sample-tower-d), por Kenney, https://kenney.nl/assets/modular-buildings. CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "GLB exportado con Blender 5.2.3 LTS; textura original incrustada, sin cambio de escala; geometría y dimensiones comprobadas al reimportar.",
+  "file": "models/kenney-buildings-building-sample-tower-d/model.glb",
+  "sourceMetadataFile": "models/kenney-buildings-building-sample-tower-d/source.json",
+  "originalDownload": "models/kenney-buildings-building-sample-tower-d/originals.zip",
+  "bytes": 38672,
+  "sha256": "91b1a806b31bc4c03411a0421e0bc65808299b22bb37fa68df0cef7e0b56f482",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:55.084721+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Recurso visual revisado; asignación curricular y exactitud científica o mecánica requieren revisión docente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Modular Buildings 2.1",
+    "sourceMember": "Models/GLB format/building-sample-tower-d.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-buildings-building-sample-tower-d/original/building-sample-tower-d.glb",
+        "sha256": "7d9604a6890872e785da67135faf498ea27ad538f4dc2cceae45d761f3e9e8b7",
+        "bytes": 44856
+      },
+      {
+        "file": "models/kenney-buildings-building-sample-tower-d/original/Textures/colormap.png",
+        "sha256": "66fd49be148f32e88f6c8cace67120250d1943a7856601158ad0ff24651db0b0",
+        "bytes": 7529
+      }
+    ],
+    "originalDownloadSha256": "627720c312384515f60740d0f9ab556d44f85d6b00fdbbe87c35e5c0b4704339",
+    "archiveSha256": "47e1614686b4c0fe55190e88b22ff2b8b10935edf61f37f478a9b6a99477edc6",
+    "licenseEvidence": "sources/external/kenney-buildings/License.txt",
+    "conversionTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      1.100000023841858,
+      1.100000023841858,
+      3.762500047683716
+    ],
+    "reimportDimensionsBlender": [
+      1.100000023841858,
+      1.100000023841858,
+      3.762500047683716
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "1a343a9e5fb2a8dbe6056359e3ab3d2a876f96dcdd8558ba0d1a6750f92c99f8",
+      "triangles": 524
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewImages": [
+      {
+        "file": "sources/external/review/kenney-comparison.png",
+        "sha256": "1ec71e69d1709aa09ba57a5c56f53ae2b5d1f437544fd27f456bfdda44900391"
+      },
+      {
+        "file": "sources/external/review/oga-comparison.png",
+        "sha256": "4bf0f1c52154ff3215f193a63593f34c2a7f6e1bf5d2aa01002a90469f37dfd6"
+      },
+      {
+        "file": "sources/external/review/kenney-all-views.png",
+        "sha256": "9b82bb513563b848f22a7afc8177ed5bd712c1ee5a2080710cdd95a99d5b2e48"
+      },
+      {
+        "file": "sources/external/review/oga-all-views.png",
+        "sha256": "d9fc5c5037a0f629afb710dfa9c728f2befe14fa72e0d41dcf160354c19acbdc"
+      }
+    ]
+  }
+}

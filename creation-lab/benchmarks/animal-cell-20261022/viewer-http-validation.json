@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "checks": [
+    {
+      "path": "/",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "pass": true
+    },
+    {
+      "path": "/api/benchmark",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200,
+      "pass": true
+    },
+    {
+      "path": "/vendor/model-viewer.min.js",
+      "method": "HEAD",
+      "expected": 200,
+      "actual": 200,
+      "pass": true
+    },
+    {
+      "path": "/../brief.json",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "pass": true
+    },
+    {
+      "path": "/%2e%2e/brief.json",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "pass": true
+    },
+    {
+      "path": "/viewer.js?path=../",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "pass": true
+    },
+    {
+      "path": "/api/benchmark",
+      "method": "GET",
+      "expected": 403,
+      "actual": 403,
+      "pass": true
+    },
+    {
+      "path": "/api/benchmark",
+      "method": "POST",
+      "expected": 405,
+      "actual": 405,
+      "pass": true
+    },
+    {
+      "path": "/protocol.json",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "pass": true
+    },
+    {
+      "path": "/assets/",
+      "method": "GET",
+      "expected": 404,
+      "actual": 404,
+      "pass": true
+    },
+    {
+      "name": "six-conditions",
+      "pass": true
+    },
+    {
+      "name": "A-glb-download",
+      "pass": true
+    },
+    {
+      "name": "A-labels",
+      "pass": true
+    },
+    {
+      "name": "B-glb-download",
+      "pass": true
+    },
+    {
+      "name": "B-labels",
+      "pass": true
+    },
+    {
+      "name": "C-glb-download",
+      "pass": true
+    },
+    {
+      "name": "C-labels",
+      "pass": true
+    },
+    {
+      "name": "D-glb-download",
+      "pass": true
+    },
+    {
+      "name": "D-labels",
+      "pass": true
+    },
+    {
+      "name": "E-glb-download",
+      "pass": true
+    },
+    {
+      "name": "E-labels",
+      "pass": true
+    },
+    {
+      "name": "F-glb-download",
+      "pass": true
+    },
+    {
+      "name": "F-labels",
+      "pass": true
+    }
+  ]
+}

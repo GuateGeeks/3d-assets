@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "observedOn": "2026-10-22",
+  "timezone": "America/Guatemala",
+  "nativeBlender": {
+    "status": "PASS",
+    "path": "D:\\SteamLibrary\\steamapps\\common\\Blender\\blender.exe",
+    "version": "5.2.3 LTS",
+    "buildHash": "e13b728c6880",
+    "evidenceRun": "20261022T214745170298Z-5aea46366b",
+    "evidenceSha256": "10b60db5cb52b449b2310267c01dfc72d3a1d96a55ee9178c3c45e3df4b8d76a",
+    "embeddedPython": "3.13.13 (main, May  8 2026, 12:37:03) [MSC v.1944 64 bit (AMD64)]",
+    "rendering": {
+      "status": "PASS",
+      "engine": "CYCLES",
+      "device": "CPU",
+      "gpuRender": "NOT_RUN"
+    }
+  },
+  "riggingEnvironment": {
+    "evidence": "lab/reports/diagnostic.json",
+    "scope": "Existing evidence read; no repeat GPU inference in creation task",
+    "gpu": "NVIDIA GeForce RTX 3060 Ti",
+    "vramMiB": 8192,
+    "blenderPythonVersion": "4.2.0",
+    "host": "WSL Ubuntu",
+    "modified": false
+  },
+  "mcpConnection": {
+    "listenerClosed": true,
+    "configured": true,
+    "viewportScreenshot": "NOT_RUN",
+    "scope": "isolated owned headless process; initialize, tools/list, query, create, verify, CPU render, delete",
+    "ownedProcessesStopped": true,
+    "status": "PASS",
+    "reportSha256": "916815bd751216adf648c8a3ebbc5857931579117ff5861a20b8f0894b4fe25e",
+    "loadedInCurrentChat": false,
+    "sourceVersion": "1.0.3",
+    "report": "registry/mcp-probe-20261022T220057Z-0bba3e71/report.json",
+    "renderViewed": true,
+    "projectConfiguration": ".codex/config.toml",
+    "projectConfigurationSha256": "15b713353386053a7548fc39214f285adaf644420d2b712b1ce9459214981968",
+    "configuredLauncherProbe": {
+      "status": "PASS",
+      "sha256": "c811162efdc653b5c2a22fe75882255ff13e7579618ea0f7de460592cdab2e2c",
+      "imagePixelsEqualToViewedHarnessRender": true,
+      "report": "registry/launcher-probe-20261022T220620Z-9ee77265/report.json"
+    }
+  },
+  "imageProvider": {
+    "enabled": false,
+    "status": "NOT_RUN"
+  },
+  "pythonExecutable": "C:\\Users\\adawolfs\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "notes": [
+    "Blender found in Steam library, outside PATH",
+    "Native process required sandbox escalation on this host",
+    "Windows Python on PATH is a Store alias; runtime interpreter was used"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-mincemeat-pie",
+  "assetId": "kenney:kenney-food/mincemeat-pie",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "mincemeat pie",
+  "titleOriginal": "mincemeat-pie",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "mincemeat-pie",
+    "kenney-food",
+    "food-mincemeat"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"mincemeat-pie\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-mincemeat-pie/model.glb",
+  "sourceMetadataFile": "models/kenney-food-mincemeat-pie/source.json",
+  "originalDownload": "models/kenney-food-mincemeat-pie/originals.zip",
+  "bytes": 23472,
+  "sha256": "9417c9635e5e70d4f9646968609efd248e33908ba79d641c1d899ff78bd45777",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/mincemeat-pie.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-mincemeat-pie/original/mincemeat-pie.glb",
+        "sha256": "b3685d53cdaca2d6110fe5569fdcf45a6d9e18c17e025f28c8477eada0af2a94",
+        "bytes": 12700
+      },
+      {
+        "file": "models/kenney-food-mincemeat-pie/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "c368e85960a24f7c7b314b7f00dbad5bfedfd65643d1f25fc964ae5904ab29ed",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.5309264063835144,
+      0.6130610108375549,
+      0.16731728613376617
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "2e50f5736c40c49bfd865852eff9650cbb5224b93237e50b2053fab7731861b5",
+      "triangles": 164
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

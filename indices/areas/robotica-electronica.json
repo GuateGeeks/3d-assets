@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "details": {
     "id": "robotica-electronica",
     "title": "Robótica y electrónica STEAM",
@@ -20,7 +20,7 @@
       "CiudadBots, Curiosity y máquinas de estados"
     ]
   },
-  "count": 14,
+  "count": 23,
   "modelIds": [
     "1kbGZOnhOwf",
     "1xBl-8de6b0",
@@ -30,11 +30,20 @@
     "6CUQX98vha4",
     "8sR1PkyAg-F",
     "DNbUoMtG3H",
+    "QCm7qe9uNJ",
+    "ZPlQHwiqTp",
     "drzI0Tg_uKT",
     "fL02Z7OItO9",
     "fWRtJe-ZHR6",
     "fxKdRjNq20j",
-    "QCm7qe9uNJ",
-    "ZPlQHwiqTp"
+    "oga-gears-gear-06",
+    "oga-gears-gear-08",
+    "oga-gears-gear-10",
+    "oga-gears-gear-12",
+    "oga-gears-gear-14",
+    "oga-gears-gear-16",
+    "oga-gears-gear-18",
+    "oga-gears-gear-20",
+    "oga-robot-robot"
   ]
 }

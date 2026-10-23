@@ -1,0 +1,32 @@
+{
+  "result": "PASS",
+  "images": {
+    "sources/external/bulk-review/native-01.png": "8e17c89de57fb09776c361e7981f8f22bff427ad26b105549d778a1e1f97d31d",
+    "sources/external/bulk-review/native-02.png": "8c491946aa0abc59528abd393d78977187305488c1b64796eb808c5fbcefe728",
+    "sources/external/bulk-review/native-03.png": "e52d62e0c86d85c911438f0cdec1d063069759151eb4baff7790489f479bcc5d",
+    "sources/external/bulk-review/native-04.png": "832dc74f24c62df8bbff5cc305d4c58d8c31c845bb6e30d0c14b5016bc25df3e",
+    "sources/external/bulk-review/native-05.png": "c5139d6f11271d0ab119fd0e2658b0000878a166a0ffb585add6d2812c16d20a",
+    "sources/external/bulk-review/native-06.png": "59c0b997b3870e95d7e22c98c6add970a9a948e32a35161b7e7b7a04503b5375",
+    "sources/external/bulk-review/native-07.png": "65152574efa154136fe06b2e8e27168a3e6a4f24af74579da9bac1aa2862e9cd",
+    "sources/external/bulk-review/native-08.png": "a2a900bb987995d439cd43f9d959e0e38c2e22c43c416ddb0e37d9d211a57f39",
+    "sources/external/bulk-review/native-09.png": "6b791fd7fa143779d73bc869c506bcbe850ca0ecced229895a49ff48037dd126",
+    "sources/external/bulk-review/native-10.png": "80305117db4cb77b6947c96fab6a79a9788eca86319acff00bbd68f453e2190c",
+    "sources/external/bulk-review/native-11.png": "f07150faa1d83f81db6ab9e97aac7c679b37104eed9fad0ea718dcb79495f4ec",
+    "sources/external/bulk-review/native-12.png": "53529f87622e911e9442f56c5477fbc699c94217297e18d5b4d66590357d98a2",
+    "sources/external/bulk-review/native-13.png": "a9361375423a85f29042530ceae6878c2d4c7a9380fa58cf0d4237989fada35f",
+    "sources/external/bulk-review/native-14.png": "bd31cc45c47d481a2a795e391ce03b230ae359d1003b651decb3e9f927ffea0d",
+    "sources/external/bulk-review/native-15.png": "a05b7df0f2836b7b23c887cc64fc6c1312052767c0466b07cded0e1aa28c4c62",
+    "sources/external/bulk-review/native-16.png": "b139b93e44bfffdd52e4833536a291bd47e1d2758a5ccb3f327500b0e4319f5e",
+    "sources/external/bulk-review/animated-final-comparison.png": "817170c5cdddbef3b558fe39be8deafb0437237fdd330dadcf012930fbd7adfd"
+  },
+  "nativeModelsReviewed": 637,
+  "animatedModelsReviewed": 6,
+  "scope": "All native models opened in labelled three-quarter contact sheets; binary source geometry preserved. Animated source five-view renders compared with clean GLB reimports. Interactive animation checks follow in browser.",
+  "notes": [
+    "Opened all 16 native sheets, covering all 637 source entries. No blank or missing model observed.",
+    "Modular pieces retain intentional open backs and one-sided surfaces; assembly and scale need activity-specific review.",
+    "Some native files have opaque dark interiors as supplied; source geometry and materials were preserved.",
+    "Six animated models retain their color palettes after conversion from legacy renderer-specific shaders to PBR; roughness is an approximation.",
+    "Educational/cultural/scientific certification remains NOT_RUN."
+  ]
+}

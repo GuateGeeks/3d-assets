@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-cooking-knife-chopping",
+  "assetId": "kenney:kenney-food/cooking-knife-chopping",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "cooking knife chopping",
+  "titleOriginal": "cooking-knife-chopping",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "cooking-knife-chopping",
+    "kenney-food",
+    "food-cooking"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"cooking-knife-chopping\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-cooking-knife-chopping/model.glb",
+  "sourceMetadataFile": "models/kenney-food-cooking-knife-chopping/source.json",
+  "originalDownload": "models/kenney-food-cooking-knife-chopping/originals.zip",
+  "bytes": 18568,
+  "sha256": "826af09ae8cdcf3be6f046b5ca87b6a2cf61a24b2da3972974234a966aaeba84",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/cooking-knife-chopping.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-cooking-knife-chopping/original/cooking-knife-chopping.glb",
+        "sha256": "f569999df71d6b4f6c604aae58ec9b74f3c5fc15bb51385e684fc20230d6f630",
+        "bytes": 7796
+      },
+      {
+        "file": "models/kenney-food-cooking-knife-chopping/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "eca0bff6976055dac190aaf8bc116699b379e8e3b70207741591ffee7ee6b093",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.6000000238418579,
+      0.22267034649848938,
+      0.03999999910593033
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "7c0430893f46c25deac166f0bb45b88558659308c2877ae345658cb3e23549e0",
+      "triangles": 80
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

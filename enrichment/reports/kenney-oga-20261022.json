@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "batch": "kenney-oga-20261022",
+  "added": 23,
+  "modelIds": [
+    "kenney-nature-crops-cornstagea",
+    "kenney-nature-crops-cornstageb",
+    "kenney-nature-crops-cornstagec",
+    "kenney-nature-crops-cornstaged",
+    "kenney-nature-crops-wheatstagea",
+    "kenney-nature-crops-wheatstageb",
+    "kenney-food-broccoli",
+    "kenney-food-cauliflower",
+    "kenney-food-cabbage",
+    "kenney-food-radish",
+    "kenney-food-beet",
+    "kenney-food-onion",
+    "kenney-food-eggplant",
+    "kenney-buildings-building-sample-house-a",
+    "kenney-buildings-building-sample-tower-d",
+    "oga-gears-gear-06",
+    "oga-gears-gear-08",
+    "oga-gears-gear-10",
+    "oga-gears-gear-12",
+    "oga-gears-gear-14",
+    "oga-gears-gear-16",
+    "oga-gears-gear-18",
+    "oga-gears-gear-20"
+  ],
+  "duplicateCheck": {
+    "baselineModels": 342,
+    "baselineFingerprintCount": 342,
+    "unsupported": [],
+    "comparisons": [
+      {
+        "id": "kenney-nature-crops-cornstagea",
+        "sha256": "085e2f0501f0f39acc10762cf46449fd962d9ac0630e7fd128cf9aa4a1edcfb5",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "61565a996c0262f4e359cd7bd1aae0a89914c8ee0ea52cb8d38241889f799adb",
+          "triangles": 100
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-nature-crops-cornstageb",
+        "sha256": "509cec80fa70356fd65cac01eaf227bc775261ed6f3af426c64eea9b20e7d05c",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "3a4fdcc85d8b90107e0af9cc60fcfdb37c9d41b98b2441cc0f6cd45edf6bfc24",
+          "triangles": 116
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-nature-crops-cornstagec",
+        "sha256": "deb8b4b74247fd8dc8834cf0a954c818c76c5da9564b244a6354ec4ab65da059",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "21042204a1b474e2a85779367a27a37195e66d9214c495cda4ed44b3fd6a70e7",
+          "triangles": 148
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-nature-crops-cornstaged",
+        "sha256": "d90d9cbba85e99526b254adee638495f914480831ab41d00807378c004c112c3",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "d78bafddf64397e441d72dfd4fd06ed7656829a404c188f56ab5e5af2c3b215f",
+          "triangles": 300
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-nature-crops-wheatstagea",
+        "sha256": "d8c690d473a230741cf4d03fa6a69a405f0ae6a246847a2a72e7f50dd5bebc08",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "5445ba09f0805d13eb92812dd8ef2d68796dcde818e1f8217ec6179637c37dfe",
+          "triangles": 720
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-nature-crops-wheatstageb",
+        "sha256": "589db4d6fe0bd7616c1f1c2f10a335704b2dad5d24638dc08a5b2e5334c68852",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "7e213dd7b6f2e57dfbb1c8c4030261b6e80e35c2cbfec1363b3312d784d22c84",
+          "triangles": 360
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-food-broccoli",
+        "sha256": "a1bf9f880db027dc6e72feb39c92be83f000981b8c2a4e551e140ede218c815a",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "14124437e9ecc1f13067f19ed4b5b202aa83900f2d701f7df154d1594977159c",
+          "triangles": 220
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-food-cauliflower",
+        "sha256": "838cae73388e1400771a0e3be60d8bd23d4d9fed087b851b53edfb31ee97482a",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "138debec8c0b69ffb2b72b41514c5e397d67e53a2b30ffdc7790b33cfde3c8fa",
+          "triangles": 152
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-food-cabbage",
+        "sha256": "8c68244e6e0d1d19c7c36ed9d48b8827f012b758d38c3cfdba5b0c9e2c3d36b6",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "12e72388877c2c41226ab0d356431e576dfad2b03c407d62a6214ac668a2b9e3",
+          "triangles": 140
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-food-radish",
+        "sha256": "0878b3ce32d404b0aa1ade7e75959e3468ec31f66206b49d1397bd45ac7a4d2d",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "fdb96fbeccdd94ddccec72004e347d134e278c3a9f8064ea548b8868f07cfba0",
+          "triangles": 166
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-food-beet",
+        "sha256": "e63a6e0fd0ca96ff8a783cb643f697b042530728f32eee723c7b9993878a9d80",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "a2ee104b2831d2840978af416844429e4c69c82edc9e5e8d68dc93020f6b5e47",
+          "triangles": 100
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-food-onion",
+        "sha256": "b1161c0a702aa60482e04724090ef788fdb7c36e003cab0d61a882a7d9d7c2fb",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "c66ad1df8bc0c9b2d95e6556dbab1bad74a5b9f9c42eb96e0ba0824b650af692",
+          "triangles": 68
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-food-eggplant",
+        "sha256": "52de84962608e2d43d2b0eb72f38e1be176810948af21de0d5bb8f9fc15ec5a2",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "6c5c0f6c0783a11bcbcfb17fe8dcf34084608de077de78b01586075ec86111e9",
+          "triangles": 124
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-buildings-building-sample-house-a",
+        "sha256": "923e59caaa42e6ea942ef2bd0d59243d70681f41b7de4e164655b520573998f9",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "885b056ef6c498258a28e0a706461d0e143d340ba85fb8cfc2b9b2228a7a6e0f",
+          "triangles": 312
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "kenney-buildings-building-sample-tower-d",
+        "sha256": "91b1a806b31bc4c03411a0421e0bc65808299b22bb37fa68df0cef7e0b56f482",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "1a343a9e5fb2a8dbe6056359e3ab3d2a876f96dcdd8558ba0d1a6750f92c99f8",
+          "triangles": 524
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "oga-gears-gear-06",
+        "sha256": "886738c4332aafbac6ac78da39a119d38f9bf84e5c316c5ce5f434373e07b2ee",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "4a5f309fe4026af52490e6917690c1c84b8cbb1d728596ec377a5f96d230dcd0",
+          "triangles": 456
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "oga-gears-gear-08",
+        "sha256": "a3069ba0e47b8c9a1309ceeb0dec6f9c5003b4946ede29e1b863de8bd610ab4f",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "c9c8a74c8ea5075e2fe37a4582f99db0445545c4e1115145fb076dd9b4557bf5",
+          "triangles": 320
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "oga-gears-gear-10",
+        "sha256": "6c205a793b7566778b80e3b33837d603fd30d1675c87c56f6fbc8c9ba1fa204a",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "024e0fb804cf39e47ba34a73532f023705f90d5339ef6a8497c62bb5fce8ccf2",
+          "triangles": 720
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "oga-gears-gear-12",
+        "sha256": "548232a7bcd872db8a270d50fab81bdf0c1b1d6926c3379fcdb5a7604c49da3b",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "d081322e243c819301f10b000130c13950a7f95c702a8c0671e01220da5b7b33",
+          "triangles": 864
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "oga-gears-gear-14",
+        "sha256": "80adee8777e564c736cef406876e789c2d85a1a6d17d9a186c4f7896e594e722",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "fde6241b25ad69b560df865bb1072b54478d22c56e9d522ffadb18bfae58f1fe",
+          "triangles": 532
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "oga-gears-gear-16",
+        "sha256": "127f591b43d24a7d95523dcd549811ce437f58e36d7c88620dd99a3fbd4c1d57",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "ecf6a81253c4b2bebdf11b709789db9db2ddd08b6818627b0331bfab9eb32a87",
+          "triangles": 544
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "oga-gears-gear-18",
+        "sha256": "1e772ea950fdc8d4992af208d8c396ab9f3e6f3ef94b73738bb37f1c2a8bc11f",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "c34550d540301a8ba4d2e6d927fb005e75bbc78fd0542dc797fbdcf957d5b31a",
+          "triangles": 648
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      },
+      {
+        "id": "oga-gears-gear-20",
+        "sha256": "44e384d3172c68771b921cfdaf808189856c693f67781b85003fe77aa9ec9360",
+        "fingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "653b82cfd0187b187b71539e136e9c3eda05a8aa0bc7b06ca80ba3023cfbcb3d",
+          "triangles": 720
+        },
+        "exactMatches": [],
+        "geometryMatches": []
+      }
+    ],
+    "scope": "Hashes and invariant triangle distributions plus manual review of author/title/material variants. Nonmatches do not prove unrelated authorship."
+  },
+  "visualReview": {
+    "result": "PASS",
+    "images": {
+      "kenney-comparison.png": "1ec71e69d1709aa09ba57a5c56f53ae2b5d1f437544fd27f456bfdda44900391",
+      "oga-comparison.png": "4bf0f1c52154ff3215f193a63593f34c2a7f6e1bf5d2aa01002a90469f37dfd6",
+      "kenney-all-views.png": "9b82bb513563b848f22a7afc8177ed5bd712c1ee5a2080710cdd95a99d5b2e48",
+      "oga-all-views.png": "d9fc5c5037a0f629afb710dfa9c728f2befe14fa72e0d41dcf160354c19acbdc"
+    },
+    "notes": [
+      "Opened all labelled source/reimport pairs for 23 static candidates.",
+      "Opened front, side, back, three-quarter and wireframe source views plus reimport view for 17 converted resources.",
+      "Colors, texture placement and silhouettes match their source views; no crop or missing geometry observed.",
+      "Corn/wheat stages are stylized representations, not scientifically calibrated growth stages.",
+      "Gear profiles are illustration assets; mechanical compatibility is not certified."
+    ],
+    "excluded": [
+      "oga-ant-ant"
+    ]
+  },
+  "held": [
+    {
+      "id": "oga-ant-ant",
+      "result": "FAIL",
+      "reason": "Three conversion attempts did not pass dimension checks; no catalog promotion."
+    }
+  ],
+  "unchangedOriginalFiles": 1368
+}

@@ -1,0 +1,192 @@
+{
+  "id": "oga-gears",
+  "title": "Gear Pack",
+  "providerId": "opengameart",
+  "provider": "OpenGameArt",
+  "author": "Elegant Crow",
+  "sourceUrl": "https://opengameart.org/content/gear-pack",
+  "downloadUrl": "https://opengameart.org/sites/default/files/gear_pack.zip",
+  "file": "kits/oga-gears/original.zip",
+  "sha256": "2ec380ee5499a79e742f7728295699f117d8ae8dd9ccbbb4a67bb191babd0c0a",
+  "bytes": 8101503,
+  "licenseRaw": "CC-BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenseFile": "kits/oga-gears/LICENSE.txt",
+  "retrievedAt": "2026-10-22T22:32:19.925006+00:00",
+  "pageSnapshotSha256": "aa194d743106bcac267f246441949c0455c0d499dba8911c110a9c0d8d357291",
+  "attribution": "Gear Pack — Elegant Crow. https://opengameart.org/content/gear-pack. CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/",
+  "members": [
+    {
+      "file": "gear_pack/models/gear_06.obj",
+      "bytes": 35816,
+      "sha256": "a6e41cb3738efefb3d170ef7d746fc0fbd94e895245824026e5c29d2023dc314"
+    },
+    {
+      "file": "gear_pack/models/gear_08.obj",
+      "bytes": 24962,
+      "sha256": "8a872494a5b64c1ab9bda1cc1a109d51214eacb402ca9fe4d3c227c80c1f4e21"
+    },
+    {
+      "file": "gear_pack/models/gear_10.obj",
+      "bytes": 55458,
+      "sha256": "a0d46e06bfd6b95b25effdcbaa119a69cc5524e0591fec31ecc70f387aefe2e7"
+    },
+    {
+      "file": "gear_pack/models/gear_12.obj",
+      "bytes": 66951,
+      "sha256": "a7f652b4b067ee6df11ee7a474ce5b05d8f87b861a6318ab42241a1d9814b6bb"
+    },
+    {
+      "file": "gear_pack/models/gear_14.obj",
+      "bytes": 43673,
+      "sha256": "261aa95277409bb76e9cf0161ae5aad5416392e4a2f5a6119e8b954575350283"
+    },
+    {
+      "file": "gear_pack/models/gear_16.obj",
+      "bytes": 44571,
+      "sha256": "b46031802955ebc3256309c203b3cd09fc98e0228cb64204eaa397f45362ca25"
+    },
+    {
+      "file": "gear_pack/models/gear_18.obj",
+      "bytes": 53450,
+      "sha256": "7c298eb01749775bef7cab050b4e26b1840eb798675060102f6e479895533340"
+    },
+    {
+      "file": "gear_pack/models/gear_20.obj",
+      "bytes": 67027,
+      "sha256": "203f7dedb5d32d502e784cefaa8623ed8500d9d0a71be79a529e364c237f9e69"
+    },
+    {
+      "file": "gear_pack/textures_1024x1024/gear_06_tex_1024.png",
+      "bytes": 841342,
+      "sha256": "931d4bcf382ff9196d9b4f88c0029479a1be70e7b8733e26f1ea3c45d2fb373d"
+    },
+    {
+      "file": "gear_pack/textures_1024x1024/gear_08_tex_1024.png",
+      "bytes": 1063140,
+      "sha256": "7c169633a602c79c58099df871e02c78811f44092b3a2af44022fcdbfd45db65"
+    },
+    {
+      "file": "gear_pack/textures_1024x1024/gear_10_tex_1024.png",
+      "bytes": 930497,
+      "sha256": "9a4e4de029d6696352f4249b89695b9ef2895e7d73ad2eb4ab544e87c3d621ff"
+    },
+    {
+      "file": "gear_pack/textures_1024x1024/gear_12_tex_1024.png",
+      "bytes": 966559,
+      "sha256": "14574b4eb84b841770f38a2460cf48982515ff3585594c75481a37d85bc1ff3d"
+    },
+    {
+      "file": "gear_pack/textures_1024x1024/gear_14_tex_1024.png",
+      "bytes": 642541,
+      "sha256": "59401aad08100b223039f8c10a5a418336c759359dd187321317fc1a6828625a"
+    },
+    {
+      "file": "gear_pack/textures_1024x1024/gear_16_tex_1024.png",
+      "bytes": 667617,
+      "sha256": "b882babe0c69d60a79bdde2ffb3a91a3b624344f0b0e7b6cd5ac5d79e487caef"
+    },
+    {
+      "file": "gear_pack/textures_1024x1024/gear_18_tex_1024.png",
+      "bytes": 808128,
+      "sha256": "ee509c1b10286840e8255074375034f7ffdd6f4dcfed48fcad9a2e57c3529a23"
+    },
+    {
+      "file": "gear_pack/textures_1024x1024/gear_20_tex_1024.png",
+      "bytes": 824893,
+      "sha256": "b3e48da90368ab15a5e34f213889c3688f6486414edf3b089db7ee80a4c33e13"
+    },
+    {
+      "file": "gear_pack/textures_512x512/gear_06_tex_512.png",
+      "bytes": 178732,
+      "sha256": "59dd73dfd925d205596abd9fa1e58c11d1c0d740b92f985804a2273bbae8a4e6"
+    },
+    {
+      "file": "gear_pack/textures_512x512/gear_08_tex_512.png",
+      "bytes": 206945,
+      "sha256": "2e022584d7f191549c3d974f0a7c57d48a9f75c62e243771f7cfc72c73b0c125"
+    },
+    {
+      "file": "gear_pack/textures_512x512/gear_10_tex_512.png",
+      "bytes": 196892,
+      "sha256": "c8650733596106d48d455669d2775d5cba6ba2bd551d7622e856d6cf7d70d8c2"
+    },
+    {
+      "file": "gear_pack/textures_512x512/gear_12_tex_512.png",
+      "bytes": 204213,
+      "sha256": "559c68e74fb923f7ff0a279c770a626d6c13fa0fc4d789bd8870da64a6825d70"
+    },
+    {
+      "file": "gear_pack/textures_512x512/gear_14_tex_512.png",
+      "bytes": 172512,
+      "sha256": "f3558eeebea6fb54a5a15516c896b24a1309cb1778c2dd5f500d2d2ef959d099"
+    },
+    {
+      "file": "gear_pack/textures_512x512/gear_16_tex_512.png",
+      "bytes": 179093,
+      "sha256": "e52a6030e1c11b21d72a6042fac7c3f0b95b1e7509161e902e967c234b3dac36"
+    },
+    {
+      "file": "gear_pack/textures_512x512/gear_18_tex_512.png",
+      "bytes": 176853,
+      "sha256": "e18cd2acc4186341fb6fc71738dc002fb783bf26003788516ac540abf22f1eb8"
+    },
+    {
+      "file": "gear_pack/textures_512x512/gear_20_tex_512.png",
+      "bytes": 182163,
+      "sha256": "8d872befb41b051b766b28efb7aee77ba4ab832594b875be4930d4c229278310"
+    }
+  ],
+  "assets": [
+    {
+      "sourceMember": "gear_pack/models/gear_10.obj",
+      "sourceName": "gear_10",
+      "modelId": "oga-gears-gear-10",
+      "relation": "same-fiche"
+    },
+    {
+      "sourceMember": "gear_pack/models/gear_20.obj",
+      "sourceName": "gear_20",
+      "modelId": "oga-gears-gear-20",
+      "relation": "same-fiche"
+    },
+    {
+      "sourceMember": "gear_pack/models/gear_16.obj",
+      "sourceName": "gear_16",
+      "modelId": "oga-gears-gear-16",
+      "relation": "same-fiche"
+    },
+    {
+      "sourceMember": "gear_pack/models/gear_14.obj",
+      "sourceName": "gear_14",
+      "modelId": "oga-gears-gear-14",
+      "relation": "same-fiche"
+    },
+    {
+      "sourceMember": "gear_pack/models/gear_06.obj",
+      "sourceName": "gear_06",
+      "modelId": "oga-gears-gear-06",
+      "relation": "same-fiche"
+    },
+    {
+      "sourceMember": "gear_pack/models/gear_08.obj",
+      "sourceName": "gear_08",
+      "modelId": "oga-gears-gear-08",
+      "relation": "same-fiche"
+    },
+    {
+      "sourceMember": "gear_pack/models/gear_18.obj",
+      "sourceName": "gear_18",
+      "modelId": "oga-gears-gear-18",
+      "relation": "same-fiche"
+    },
+    {
+      "sourceMember": "gear_pack/models/gear_12.obj",
+      "sourceName": "gear_12",
+      "modelId": "oga-gears-gear-12",
+      "relation": "same-fiche"
+    }
+  ],
+  "logicalModels": 8,
+  "pageSnapshotFile": "sources/external/oga-gears/page.html"
+}

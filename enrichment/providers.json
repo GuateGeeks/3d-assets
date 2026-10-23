@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "scope": "Preparación; ninguna nueva descarga de modelos ni promoción al catálogo.",
+  "originalListStatus": "unavailable-response-load-error-in-source-chat",
+  "providers": [
+    {
+      "id": "kenney",
+      "name": "Kenney",
+      "url": "https://kenney.nl/assets",
+      "priority": 1,
+      "access": "official-pack-download",
+      "authentication": "not-required-for-public-pack-pages",
+      "licenseSummary": "Los assets de sus páginas se ofrecen bajo CC0; conservar la licencia incluida en cada paquete.",
+      "licenseSources": [
+        "https://kenney.nl/support"
+      ],
+      "nextStep": "Inspeccionar tres paquetes piloto y sus archivos de licencia; calcular solapamiento antes de importar.",
+      "seedPages": [
+        {
+          "title": "Nature Kit",
+          "url": "https://kenney.nl/assets/nature-kit"
+        },
+        {
+          "title": "Food Kit",
+          "url": "https://kenney.nl/assets/food-kit"
+        },
+        {
+          "title": "Modular Buildings",
+          "url": "https://kenney.nl/assets/modular-buildings"
+        }
+      ],
+      "listMembership": "provisional-original-list-unavailable",
+      "researchCheckedOn": "2026-10-22",
+      "adapterStatus": "not-implemented"
+    },
+    {
+      "id": "opengameart",
+      "name": "OpenGameArt",
+      "url": "https://opengameart.org",
+      "priority": 1,
+      "access": "individual-submission-download",
+      "authentication": "to-check-per-download",
+      "licenseSummary": "Licencias y créditos por ficha; conservar las alternativas de licencia y registrar cuál se aplica. Las imágenes de muestra pueden tener derechos distintos.",
+      "licenseSources": [
+        "https://opengameart.org/content/faq"
+      ],
+      "nextStep": "Buscar modelos 3D por necesidad; verificar cada componente y generar miniaturas propias.",
+      "listMembership": "provisional-original-list-unavailable",
+      "researchCheckedOn": "2026-10-22",
+      "adapterStatus": "not-implemented"
+    },
+    {
+      "id": "sketchfab",
+      "name": "Sketchfab",
+      "url": "https://sketchfab.com",
+      "priority": 1,
+      "access": "official-download-api",
+      "authentication": "Sketchfab OAuth user authentication required for Download API; credentials not checked",
+      "licenseSummary": "Licencia por modelo descargable; no se deduce de que sea gratuito.",
+      "licenseSources": [
+        "https://sketchfab.com/developers/download-api",
+        "https://sketchfab.com/developers/download-api/downloading-models"
+      ],
+      "nextStep": "Preparar búsqueda por UID; comprobar acceso autorizado a descarga. No reutilizar la clave de Poly Pizza.",
+      "listMembership": "provisional-original-list-unavailable",
+      "researchCheckedOn": "2026-10-22",
+      "adapterStatus": "not-implemented"
+    },
+    {
+      "id": "polyhaven",
+      "name": "Poly Haven",
+      "url": "https://polyhaven.com/models",
+      "priority": 2,
+      "access": "official-api",
+      "authentication": "API terms currently state no mandatory key; no account checked",
+      "licenseSummary": "Assets CC0. Los renders de muestra y otros contenidos del sitio no están cubiertos automáticamente por esa licencia.",
+      "licenseSources": [
+        "https://polyhaven.com/license",
+        "https://github.com/Poly-Haven/Public-API/blob/master/ToS.md"
+      ],
+      "nextStep": "Usar API oficial con identificador GuateGeeks-3D-Assets, caché y respeto a límites del servicio. Seleccionar modelos pequeños; generar miniaturas propias.",
+      "listMembership": "provisional-original-list-unavailable",
+      "researchCheckedOn": "2026-10-22",
+      "adapterStatus": "not-implemented"
+    },
+    {
+      "id": "smithsonian",
+      "name": "Smithsonian Open Access",
+      "url": "https://3d.si.edu",
+      "priority": 2,
+      "access": "official-object-record-and-download",
+      "authentication": "to-check-for-chosen-route",
+      "licenseSummary": "Solo los archivos marcados CC0 se evalúan como tales; los metadatos abiertos no prueban que todos los medios de la ficha lo sean.",
+      "licenseSources": [
+        "https://www.si.edu/openaccess/faq",
+        "https://www.si.edu/termsofuse"
+      ],
+      "nextStep": "Seleccionar objetos CC0 con identificación documental; registrar institución, número de objeto, escala y derechos de cada archivo.",
+      "listMembership": "provisional-original-list-unavailable",
+      "researchCheckedOn": "2026-10-22",
+      "adapterStatus": "not-implemented"
+    },
+    {
+      "id": "nasa",
+      "name": "NASA 3D Resources",
+      "url": "https://science.nasa.gov/3d-resources/",
+      "priority": 2,
+      "access": "official-model-page-or-linked-repository",
+      "authentication": "to-check-for-chosen-file",
+      "licenseSummary": "Aplicar las condiciones NASA al recurso concreto; no etiquetar todo como CC0. Revisar autores externos, marcas y créditos.",
+      "licenseSources": [
+        "https://science.nasa.gov/3d-resources/",
+        "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+      ],
+      "nextStep": "Seleccionar astronomía e instrumentos; comprobar autor y condiciones del archivo antes de redistribuir.",
+      "listMembership": "provisional-original-list-unavailable",
+      "researchCheckedOn": "2026-10-22",
+      "adapterStatus": "not-implemented"
+    },
+    {
+      "id": "quaternius",
+      "name": "Quaternius",
+      "url": "https://quaternius.com",
+      "priority": 3,
+      "access": "official-pack-download",
+      "authentication": "to-check-per-pack",
+      "licenseSummary": "La página vigente muestra QAL v1.0 (2026-08-28), que restringe redistribución como assets. No asumir CC0 para nuevas descargas.",
+      "licenseSources": [
+        "https://quaternius.com/license.html"
+      ],
+      "nextStep": "Catalogar referencias; incorporar solo una versión con evidencia específica de derechos de redistribución. No cambiar las licencias CC0 documentadas del corpus existente por una regla global.",
+      "publicAssetLibraryDefault": "hold-until-specific-redistribution-rights-confirmed",
+      "listMembership": "provisional-original-list-unavailable",
+      "researchCheckedOn": "2026-10-22",
+      "adapterStatus": "not-implemented"
+    }
+  ]
+}

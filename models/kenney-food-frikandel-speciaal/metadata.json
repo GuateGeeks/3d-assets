@@ -1,0 +1,111 @@
+{
+  "id": "kenney-food-frikandel-speciaal",
+  "assetId": "kenney:kenney-food/frikandel-speciaal",
+  "providerId": "kenney",
+  "provider": "Kenney",
+  "title": "frikandel speciaal",
+  "titleOriginal": "frikandel-speciaal",
+  "author": "Kenney",
+  "authorUrl": "https://kenney.nl",
+  "sourceUrl": "https://kenney.nl/assets/food-kit",
+  "metadataUrl": null,
+  "downloadUrl": "https://kenney.nl/media/pages/assets/food-kit/83086fa91c-1719418518/kenney_food-kit.zip",
+  "thumbnailUrl": null,
+  "description": "Modelo de Food Kit. Representación estilizada; escala y adecuación educativa requieren revisión docente.",
+  "category": "Food",
+  "tags": [
+    "frikandel-speciaal",
+    "kenney-food",
+    "food-frikandel"
+  ],
+  "areas": [
+    "alimentos-agricultura"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"frikandel-speciaal\" de Food Kit, por Kenney. https://kenney.nl/assets/food-kit. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Texturas originales incrustadas en GLB; geometría, materiales, transformaciones y ejes conservados byte a byte en el búfer original.",
+  "file": "models/kenney-food-frikandel-speciaal/model.glb",
+  "sourceMetadataFile": "models/kenney-food-frikandel-speciaal/source.json",
+  "originalDownload": "models/kenney-food-frikandel-speciaal/originals.zip",
+  "bytes": 36280,
+  "sha256": "30b6884a2e82f952b48eb0ceda239be22750a883c6bb9103208730cb448ab083",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 3,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T22:31:54.852261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Revisión visual completada; uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "stylized-educational-model"
+  ],
+  "unfulfilledQueries": [],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "provenance": {
+    "pack": "Food Kit",
+    "sourceMember": "Models/GLB format/frikandel-speciaal.glb",
+    "originalFiles": [
+      {
+        "file": "models/kenney-food-frikandel-speciaal/original/frikandel-speciaal.glb",
+        "sha256": "fd1bcb89ddf4fafc8a105dee54130714cdf3748e8c0275b34735aa66ca88d4d3",
+        "bytes": 25532
+      },
+      {
+        "file": "models/kenney-food-frikandel-speciaal/original/Textures/colormap.png",
+        "sha256": "75baf74d9483a0fc56ac21ceba346fbe16fc24a2a1bf0524c53e6bbe802e1153",
+        "bytes": 10715
+      }
+    ],
+    "originalDownloadSha256": "7eb34f4a99e5ee18057040762b0f3d39f01670c60ef58b448a602c531ee2638e",
+    "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+    "licenseEvidence": "kits/kenney-food/LICENSE.txt",
+    "conversionTool": "GLB image embedding without geometry conversion",
+    "dimensionsBlender": [
+      0.6359784007072449,
+      0.16609634459018707,
+      0.10870155692100525
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "ed4921f2fd08191c8bbb651a6817fb0775479800b1209fec2a2fd664ab181990",
+      "triangles": 308
+    }
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/bulk-review.json"
+  }
+}

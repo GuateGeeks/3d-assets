@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "status": "NOT_RUN",
+  "repetitions": 3,
+  "seeds": [17, 42, 73],
+  "evaluation": "blind-artistic-and-separate-technical",
+  "comparisons": ["models-with-equal-tools", "whole-systems-separately"],
+  "briefs": [
+    {"id": "robot-low", "class": "lowpoly", "heightM": 0.30, "triangles": 6000, "materials": 2, "textureSize": 2048},
+    {"id": "desk-prop-low", "class": "lowpoly", "requiresApprovedBrief": true},
+    {"id": "robot-detailed", "class": "hard-surface", "heightM": 0.30, "triangles": 40000, "materials": 4, "textureSize": 2048},
+    {"id": "workshop-device", "class": "hard-surface", "requiresApprovedBrief": true},
+    {"id": "original-creature", "class": "organic", "requiresApprovedBrief": true},
+    {"id": "learning-corner", "class": "scene", "requiresApprovedBrief": true}
+  ],
+  "metrics": ["visual-quality", "technical-compliance", "editability", "export-integrity", "wall-time", "observable-cost", "human-interventions"],
+  "competitorExecution": "NOT_RUN",
+  "paidProvidersEnabled": false,
+  "keepFailedRuns": true
+}

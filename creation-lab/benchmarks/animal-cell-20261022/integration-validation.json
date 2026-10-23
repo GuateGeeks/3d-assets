@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "kind": "read-only coexistence validation",
+  "recordedAt": "2026-10-22T23:38:18.842465+00:00",
+  "status": "INCOMPLETE",
+  "scope": "Catalog source records versus generated _site. No rebuild or repair.",
+  "safetyInspection": {
+    "files": [
+      "tools/check_site.py",
+      "tools/reindex.py",
+      "tools/catalog.py"
+    ],
+    "result": "Inspected: check_site.py calls records() without rebuild(); records() reads and validates metadata, GLB and original-download evidence in memory; catalog mutations are guarded. Python invoked with -B to suppress bytecode writes."
+  },
+  "commands": [
+    {
+      "executable": "C:/Users/adawolfs/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "arguments": [
+        "-B",
+        "-c"
+      ],
+      "workingDirectory": "3d-assets",
+      "entryPoint": "import sys; sys.path.insert(0, \"tools\"); from reindex import records; rs = records()",
+      "status": "INCOMPLETE",
+      "stdout": "",
+      "durationSeconds": null,
+      "observedWaitLowerBoundSeconds": 127.8,
+      "result": "records() did not return or emit a result before interruption. Full source hashes and QA gates cannot be reported PASS or FAIL. Exact total duration was not captured."
+    },
+    {
+      "command": "python -B tools/check_site.py",
+      "workingDirectory": "3d-assets",
+      "status": "NOT_RUN",
+      "result": "Not reached in wrapper, which was awaiting records(). It was not repeated because check_site.py begins with the same expensive records() pass."
+    },
+    {
+      "command": "Get-Item -LiteralPath sources/external/kenney-nature/page.html; Get-Item -LiteralPath _site/sources/external/kenney-nature/page.html",
+      "workingDirectory": "3d-assets",
+      "status": "OBSERVED",
+      "result": "Source file returned Length=17205, LastWriteTime=2026-10-22 17:18:27 local. Generated counterpart returned no file entry. Root also confirmed the generated counterpart is missing."
+    },
+    {
+      "command": "Python -B direct inventory and sources/external versus _site comparison",
+      "status": "INCOMPLETE",
+      "exitCode": 1,
+      "result": "Aborted before emitting inventory counts or writing its report. No inventory count or complete byte-comparison result is claimed.",
+      "error": "PermissionError: [WinError 65] Network access is denied: _site/sources/external/oga-animals/page.html"
+    },
+    {
+      "command": "write_stdin(session_id=52369, chars=Ctrl+C)",
+      "status": "COMPLETED",
+      "exitCode": 1,
+      "result": "Interrupted only this agent’s exec wrapper session and its validation command. No global process termination was issued."
+    },
+    {
+      "command": "Get-Process -Name python -ErrorAction SilentlyContinue | Select-Object Id,StartTime,CPU,Path",
+      "observedAt": "2026-10-22T23:36:33.1811671Z",
+      "status": "OBSERVED",
+      "stdout": "",
+      "result": "No process with the exact queried name python was returned; this does not establish the state of differently named Python executables or the separately managed viewer server."
+    }
+  ],
+  "sourceVersusGenerated": {
+    "sourceRecordsIntegrity": "INCOMPLETE; records() interrupted without returning.",
+    "sourceKenneyNaturePage": {
+      "path": "sources/external/kenney-nature/page.html",
+      "exists": true,
+      "bytes": 17205
+    },
+    "generatedKenneyNaturePage": {
+      "path": "_site/sources/external/kenney-nature/page.html",
+      "status": "MISSING",
+      "basis": "Direct lookup returned no entry; root independently confirmed missing."
+    },
+    "interpretation": "The missing generated page is separate from the existing source evidence. No conclusion that source evidence is missing, and no claim that all generated-site checks passed."
+  },
+  "writes": [
+    "creation-lab/benchmarks/animal-cell-20261022/integration-validation.json"
+  ],
+  "limitations": [
+    "Concurrent catalog work prevents an atomic source/site snapshot.",
+    "Full catalog integrity, source-record QA and later check_site.py checks (including credential scan) remain unverified in this cut.",
+    "No catalog, gallery, source evidence or _site files were changed; no build, download, promotion or publication was performed.",
+    "The viewer server was not targeted by any termination command."
+  ]
+}

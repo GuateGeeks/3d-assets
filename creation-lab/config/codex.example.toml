@@ -1,0 +1,8 @@
+# Ejemplo revisable; no se carga ni cambia configuracion global.
+model = "gpt-6.1-sol"
+model_reasoning_effort = "high"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+[sandbox_workspace_write]
+network_access = false
+# Registrar un unico MCP despues de auditar y probar la instalacion local.
