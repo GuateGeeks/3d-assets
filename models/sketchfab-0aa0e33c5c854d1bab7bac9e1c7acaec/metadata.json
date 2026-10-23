@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec",
+  "assetId": "sketchfab:0aa0e33c5c854d1bab7bac9e1c7acaec",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Cerebro y tronco encefálico",
+  "titleOriginal": "Human brain, Cerebrum & Brainstem",
+  "author": "FrankJohansson",
+  "authorUrl": "https://sketchfab.com/pranktoy",
+  "sourceUrl": "https://sketchfab.com/3d-models/0aa0e33c5c854d1bab7bac9e1c7acaec",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/0aa0e33c5c854d1bab7bac9e1c7acaec",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/0aa0e33c5c854d1bab7bac9e1c7acaec/download",
+  "thumbnailUrl": null,
+  "description": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Human brain, Cerebrum & Brainstem",
+    "human-brains"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Human brain, Cerebrum & Brainstem\", por FrankJohansson / Sketchfab. https://sketchfab.com/3d-models/0aa0e33c5c854d1bab7bac9e1c7acaec. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/metadata.json",
+  "originalDownload": "models/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/originals.zip",
+  "bytes": 5062656,
+  "sha256": "d1f7dad2a6e7a884b893e6e8c6ceaa9a6fe763f39926bce9ecc9b38a1d9a3836",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 4,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-23T03:59:08.460916+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/0aa0e33c5c854d1bab7bac9e1c7acaec/download",
+        "bytes": 5062656,
+        "sha256": "d1f7dad2a6e7a884b893e6e8c6ceaa9a6fe763f39926bce9ecc9b38a1d9a3836"
+      }
+    ],
+    "originalDownloadSha256": "4a6e9fb2b0b9d74e7f7ebd1f7c6f736b2255b9cc4f65ed3c1779000def3de181",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.16659368574619293,
+      0.17486734688282013,
+      0.166375070810318
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/license-evidence.json",
+    "licenseEvidenceSha256": "3ff8ef2e3cf03c39f00a76e303728cbf46a0a99eecedd083ccf012f9dd8258ef",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/metadata.json",
+    "metadataEvidenceSha256": "354a3ec2217c616f68b4370a43bc43b27cc27dc8c0f57552599f08d418078a25",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/technical-review.json",
+    "technicalReviewEvidenceSha256": "a7f071e9c54eb3982bb5fd713a1e86c57aede5b4c8dc53df82531d7e0db0c132",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "8d039e50707c6ffb1c7337bb4aa1e11d0c28e7e7f4e37a2125d2da6a96973b2b",
+      "triangles": 45296
+    }
+  }
+}

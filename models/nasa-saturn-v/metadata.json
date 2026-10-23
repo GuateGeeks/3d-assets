@@ -1,0 +1,138 @@
+{
+  "id": "nasa-saturn-v",
+  "assetId": "nasa:saturn-v",
+  "providerId": "nasa",
+  "provider": "NASA 3D Resources",
+  "title": "Cohete Saturno V",
+  "titleOriginal": "Saturn V",
+  "author": "NASA/Michael D. Carbajal",
+  "authorUrl": "https://science.nasa.gov/3d-resources/saturn-v/",
+  "sourceUrl": "https://science.nasa.gov/3d-resources/saturn-v/",
+  "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/saturn-v/Saturn%20V.glb",
+  "thumbnailUrl": null,
+  "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Saturn V",
+    "saturn-rockets"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "NASA Media Usage Guidelines",
+  "license": {
+    "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attributionRequired": true,
+    "commercialUse": null,
+    "derivatives": null,
+    "shareAlike": false,
+    "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+  },
+  "attribution": "\"Saturn V\", por NASA/Michael D. Carbajal / NASA 3D Resources. https://science.nasa.gov/3d-resources/saturn-v/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/nasa-saturn-v/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-saturn-v/metadata.json",
+  "originalDownload": "models/nasa-saturn-v/originals.zip",
+  "bytes": 927212,
+  "sha256": "6c44497bce54ee0b09d0edb8e33a6f484762a320dab1c54b383e434f5bba06b5",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 22,
+    "nodes": 23,
+    "materials": 13,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": true,
+    "animations": 23,
+    "animationNames": [
+      "saturnv_caAction",
+      "group1 groAction",
+      "group1 pCoAction",
+      "group10 pCAction",
+      "group11 pCAction",
+      "group3 groAction",
+      "group6 pCuAction",
+      "group7 pCuAction",
+      "group8 pCyAction",
+      "group9 pCyAction",
+      "pCone2 groAction",
+      "pCube1 gr1Action",
+      "pCube1 groAction",
+      "pCylinder1Action",
+      "pCylinder2Action",
+      "pCylinder3Action",
+      "pCylinder4Action",
+      "pCylinder5Action",
+      "polySurfa1Action",
+      "polySurfa2Action",
+      "polySurfa3Action",
+      "polySurfa4Action",
+      "polySurfacAction"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-23T03:58:16.818549+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "NASA 3D Resources native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/nasa-saturn-v/model.glb",
+        "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/saturn-v/Saturn%20V.glb",
+        "bytes": 927212,
+        "sha256": "6c44497bce54ee0b09d0edb8e33a6f484762a320dab1c54b383e434f5bba06b5"
+      }
+    ],
+    "originalDownloadSha256": "2e0735bde1fcd3e014c0ef10fdf2f2846e04ed2b15999eaaf2e662491e9071eb",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      2.0143020153045654,
+      2.0143020153045654,
+      12.98681354522705
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-saturn-v/license-evidence.json",
+    "licenseEvidenceSha256": "86ec2f3da693595898b289bd821e442e3cb3734293e3cfc408b9c7158a8730ca",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-saturn-v/metadata.json",
+    "metadataEvidenceSha256": "3a71f8cdfb55479e99b4a1634160a08b1364729aaef3a09f054b1ffe46808365",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-saturn-v/technical-review.json",
+    "technicalReviewEvidenceSha256": "9826c32971e07069562b078e4ce9570bb74631c0f421942f92534211fb896c65",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "ede483a6ebb15a38a7e49ad60b4d21675796279ba31d369ea75215db48ce83c9",
+      "triangles": 34814
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "status": 200,
+  "responseCode": 1,
+  "response": {
+    "rows": [
+      {
+        "id": "ld1-1643398853934-1643398871180-0",
+        "title": "patent model, Page induction coil, US #76654",
+        "unitCode": "NMAH",
+        "type": "edanmdm",
+        "url": "edanmdm:nmah_703318",
+        "content": {
+          "freetext": {
+            "date": [
+              {
+                "label": "date made",
+                "content": "ca 1868"
+              }
+            ],
+            "name": [
+              {
+                "label": "maker",
+                "content": "Charles G. Page"
+              }
+            ],
+            "setName": [
+              {
+                "label": "See more items in",
+                "content": "Work and Industry: Electricity"
+              },
+              {
+                "label": "Exhibition",
+                "content": "Lighting a Revolution"
+              },
+              {
+                "label": "Exhibition Location",
+                "content": "National Museum of American History"
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data Source",
+                "content": "National Museum of American History"
+              }
+            ],
+            "identifier": [
+              {
+                "label": "ID Number",
+                "content": "EM.309254"
+              },
+              {
+                "label": "catalog number",
+                "content": "309254"
+              },
+              {
+                "label": "patent number",
+                "content": "76654"
+              },
+              {
+                "label": "accession number",
+                "content": "49064"
+              }
+            ],
+            "objectType": [
+              {
+                "label": "Object Name",
+                "content": "Induction Coil"
+              },
+              {
+                "label": "Object Type",
+                "content": "Patent Model"
+              },
+              {
+                "label": "Other Terms",
+                "content": "Induction Coil; Electromagnetic Devices"
+              }
+            ],
+            "physicalDescription": [
+              {
+                "label": "Measurements",
+                "content": "overall: 7 in x 8 3/4 in x 4 3/4 in; 17.78 cm x 22.225 cm x 12.065 cm"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "date": [
+              "1860s"
+            ],
+            "name": [
+              "Charles G. Page"
+            ],
+            "exhibition": [
+              {
+                "building": "NMAH",
+                "exhibitionTitle": "Lighting a Revolution"
+              }
+            ],
+            "object_type": [
+              "Patents",
+              "Models",
+              "Induction Coil",
+              "Induction Coil; Electromagnetic Devices"
+            ],
+            "onPhysicalExhibit": [
+              "Yes"
+            ],
+            "online_media_type": [
+              "Images"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "guid": "https://n2t.net/ark:/65665/ng49ca746b1-fe41-704b-e053-15f76fa0b4fa",
+            "title": {
+              "label": "Title",
+              "content": "patent model, Page induction coil, US #76654"
+            },
+            "record_ID": "nmah_703318",
+            "unit_code": "NMAH",
+            "title_sort": "PATENT MODEL, PAGE INDUCTION COIL, US #76654",
+            "data_source": "National Museum of American History",
+            "online_media": {
+              "media": [
+                {
+                  "id": "media:NMAH-NMAH2004-07209",
+                  "guid": "https://n2t.net/ark:/65665/bq99ca783b7-7354-7e84-e053-15f76fa05eb7",
+                  "type": "Images",
+                  "idsId": "NMAH-NMAH2004-07209",
+                  "usage": {
+                    "access": "CC0"
+                  },
+                  "content": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07209",
+                  "thumbnail": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07209&max=150",
+                  "altTextAccessibility": "",
+                  "extDescrAccessibility": "Patent model. Improvement in induction-coil apparatus in circuit breakers, Page, 1868, patent no. 76654. EM*309254.",
+                  "resources": [
+                    {
+                      "label": "High-resolution JPEG",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07209.jpg",
+                      "width": 640,
+                      "height": 471,
+                      "dimensions": "640x471"
+                    },
+                    {
+                      "label": "Screen Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07209_screen"
+                    },
+                    {
+                      "label": "Thumbnail Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07209_thumb"
+                    }
+                  ]
+                },
+                {
+                  "id": "media:NMAH-NMAH2004-07210",
+                  "guid": "https://n2t.net/ark:/65665/bq99ca746b5-be1e-704b-e053-15f76fa0b4fa",
+                  "type": "Images",
+                  "idsId": "NMAH-NMAH2004-07210",
+                  "usage": {
+                    "access": "CC0"
+                  },
+                  "content": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07210",
+                  "thumbnail": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07210&max=150",
+                  "altTextAccessibility": "",
+                  "extDescrAccessibility": "Patent model. Improvement in induction-coil apparatus in circuit breakers, Page, 1868, patent no. 76654. EM*309254.",
+                  "resources": [
+                    {
+                      "label": "High-resolution JPEG",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07210.jpg",
+                      "width": 351,
+                      "height": 480,
+                      "dimensions": "351x480"
+                    },
+                    {
+                      "label": "Screen Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07210_screen"
+                    },
+                    {
+                      "label": "Thumbnail Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07210_thumb"
+                    }
+                  ]
+                },
+                {
+                  "id": "media:NMAH-NMAH2004-07211",
+                  "guid": "https://n2t.net/ark:/65665/bq99ca783bf-7d04-7e84-e053-15f76fa05eb7",
+                  "type": "Images",
+                  "idsId": "NMAH-NMAH2004-07211",
+                  "usage": {
+                    "access": "CC0"
+                  },
+                  "content": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07211",
+                  "thumbnail": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07211&max=150",
+                  "altTextAccessibility": "",
+                  "extDescrAccessibility": "Patent model. Improvement in induction-coil apparatus in circuit breakers, Page, 1868, patent no. 76654. EM*309254.",
+                  "resources": [
+                    {
+                      "label": "High-resolution JPEG",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07211.jpg",
+                      "width": 640,
+                      "height": 462,
+                      "dimensions": "640x462"
+                    },
+                    {
+                      "label": "Screen Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07211_screen"
+                    },
+                    {
+                      "label": "Thumbnail Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07211_thumb"
+                    }
+                  ]
+                },
+                {
+                  "id": "media:NMAH-NMAH2004-07212",
+                  "guid": "https://n2t.net/ark:/65665/bq99ca746b5-be1f-704b-e053-15f76fa0b4fa",
+                  "type": "Images",
+                  "idsId": "NMAH-NMAH2004-07212",
+                  "usage": {
+                    "access": "CC0"
+                  },
+                  "content": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07212",
+                  "thumbnail": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07212&max=150",
+                  "altTextAccessibility": "",
+                  "extDescrAccessibility": "Patent model. Improvement in induction-coil apparatus in circuit breakers, Page, 1868, patent no. 76654. EM*309254.",
+                  "resources": [
+                    {
+                      "label": "High-resolution JPEG",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07212.jpg",
+                      "width": 358,
+                      "height": 480,
+                      "dimensions": "358x480"
+                    },
+                    {
+                      "label": "Screen Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07212_screen"
+                    },
+                    {
+                      "label": "Thumbnail Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07212_thumb"
+                    }
+                  ]
+                },
+                {
+                  "id": "media:NMAH-NMAH2004-07213",
+                  "guid": "https://n2t.net/ark:/65665/bq99ca783c0-b0e7-7e84-e053-15f76fa05eb7",
+                  "type": "Images",
+                  "idsId": "NMAH-NMAH2004-07213",
+                  "usage": {
+                    "access": "CC0"
+                  },
+                  "content": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07213",
+                  "thumbnail": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07213&max=150",
+                  "altTextAccessibility": "",
+                  "extDescrAccessibility": "Patent model. Improvement in induction-coil apparatus in circuit breakers, Page, 1868, patent no. 76654. EM*309254.",
+                  "resources": [
+                    {
+                      "label": "High-resolution JPEG",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07213.jpg",
+                      "width": 640,
+                      "height": 321,
+                      "dimensions": "640x321"
+                    },
+                    {
+                      "label": "Screen Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07213_screen"
+                    },
+                    {
+                      "label": "Thumbnail Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07213_thumb"
+                    }
+                  ]
+                },
+                {
+                  "id": "media:NMAH-NMAH2004-07214",
+                  "guid": "https://n2t.net/ark:/65665/bq99ca783b7-735d-7e84-e053-15f76fa05eb7",
+                  "type": "Images",
+                  "idsId": "NMAH-NMAH2004-07214",
+                  "usage": {
+                    "access": "CC0"
+                  },
+                  "content": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07214",
+                  "thumbnail": "https://ids.si.edu/ids/deliveryService?id=NMAH-NMAH2004-07214&max=150",
+                  "altTextAccessibility": "",
+                  "extDescrAccessibility": "Patent model. Improvement in induction-coil apparatus in circuit breakers, Page, 1868, patent no. 76654. EM*309254.",
+                  "resources": [
+                    {
+                      "label": "High-resolution JPEG",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07214.jpg",
+                      "width": 640,
+                      "height": 346,
+                      "dimensions": "640x346"
+                    },
+                    {
+                      "label": "Screen Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07214_screen"
+                    },
+                    {
+                      "label": "Thumbnail Image",
+                      "url": "https://ids.si.edu/ids/download?id=NMAH-NMAH2004-07214_thumb"
+                    }
+                  ]
+                },
+                {
+                  "id": "3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+                  "type": "3d_voyager",
+                  "usage": {
+                    "text": "",
+                    "codes": "",
+                    "access": "CC0"
+                  },
+                  "content": "https://3d-api.si.edu/voyager/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+                  "resources": [
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-full_resolution-obj.zip",
+                      "name": "Page induction coil from US Patent #76654",
+                      "type": "3D mesh",
+                      "title": "Page induction coil from US Patent #76654 (Full resolution 3D mesh, obj, scale in in)",
+                      "category": "Full resolution",
+                      "filename": "page-induction-coil-full_resolution-obj.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "in",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "obj",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": false
+                        },
+                        {
+                          "FILE_SIZE": 641599370
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-4096-obj.zip",
+                      "name": "Page induction coil from US Patent #76654",
+                      "type": "3D mesh",
+                      "title": "Page induction coil from US Patent #76654 (Low resolution 3D mesh, obj, scale in in)",
+                      "category": "Low resolution",
+                      "filename": "page-induction-coil-150k-4096-obj.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "in",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "obj",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": false
+                        },
+                        {
+                          "FILE_SIZE": 8708093
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-4096-gltf.zip",
+                      "name": "Page induction coil from US Patent #76654",
+                      "type": "3D mesh",
+                      "title": "Page induction coil from US Patent #76654 (Low resolution 3D mesh, gltf, scale in in)",
+                      "category": "Low resolution",
+                      "filename": "page-induction-coil-150k-4096-gltf.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "in",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "gltf",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": false
+                        },
+                        {
+                          "FILE_SIZE": 8318344
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-4096.glb",
+                      "name": "Page induction coil from US Patent #76654",
+                      "type": "3D mesh",
+                      "title": "Page induction coil from US Patent #76654 (Low resolution 3D mesh, glb, scale in in)",
+                      "category": "Low resolution",
+                      "filename": "page-induction-coil-150k-4096.glb",
+                      "attributes": [
+                        {
+                          "UNITS": "in",
+                          "FILE_TYPE": "glb",
+                          "MODEL_FILE_TYPE": "glb",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": false
+                        },
+                        {
+                          "FILE_SIZE": 10083284
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-2048-medium-100k-2048_std_draco.glb",
+                      "name": "Page induction coil from US Patent #76654",
+                      "type": "3D mesh",
+                      "title": "Page induction coil from US Patent #76654 (Low resolution 3D mesh, glb, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "page-induction-coil-150k-2048-medium-100k-2048_std_draco.glb",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "glb",
+                          "MODEL_FILE_TYPE": "glb",
+                          "DRACO_COMPRESSED": true,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 2054548
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-2048-medium-100k-2048_std.usdz",
+                      "name": "Page induction coil from US Patent #76654",
+                      "type": "3D mesh",
+                      "title": "Page induction coil from US Patent #76654 (iOS AR model 3D mesh, usdz, scale in m)",
+                      "category": "iOS AR model",
+                      "filename": "page-induction-coil-150k-2048-medium-100k-2048_std.usdz",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "usdz",
+                          "MODEL_FILE_TYPE": "usdz",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": false
+                        },
+                        {
+                          "FILE_SIZE": 4786858
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnail": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/scene-image-thumb.jpg",
+                  "voyagerId": "3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd"
+                }
+              ],
+              "mediaCount": 7
+            },
+            "metadata_usage": {
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "d16fb9e90cdecdb7f62878062741a40761bb3b8f",
+        "docSignature": "963ca2a0202dc76e4007b6cac96137f7",
+        "timestamp": "1663782564",
+        "lastTimeUpdated": "1771018291",
+        "version": "1770977773"
+      }
+    ],
+    "facets": {},
+    "rowCount": 1,
+    "message": "content found"
+  }
+}

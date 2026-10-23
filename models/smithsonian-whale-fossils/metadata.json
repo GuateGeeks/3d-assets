@@ -1,0 +1,114 @@
+{
+  "id": "smithsonian-whale-fossils",
+  "assetId": "smithsonian:3d_package:1f1ec6af-193f-4969-9185-dc5dd587239d",
+  "providerId": "smithsonian",
+  "provider": "Smithsonian Open Access",
+  "title": "Excavación de ballena fósil MPC 675",
+  "titleOriginal": "Fossil whale excavation site MPC 675",
+  "author": "Smithsonian Institution / NMNH - Paleobiology Dept.",
+  "authorUrl": "https://www.si.edu",
+  "sourceUrl": "https://3d.si.edu/object/3d/1f1ec6af-193f-4969-9185-dc5dd587239d",
+  "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+  "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:1f1ec6af-193f-4969-9185-dc5dd587239d/resources/whale-mpc-675-150k-4096.glb",
+  "thumbnailUrl": null,
+  "description": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Fossil whale excavation site MPC 675",
+    "whale-fossils"
+  ],
+  "areas": [
+    "animales-biodiversidad",
+    "tierra-geografia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Fossil whale excavation site MPC 675\", por Smithsonian Institution / NMNH - Paleobiology Dept. / Smithsonian Open Access. https://3d.si.edu/object/3d/1f1ec6af-193f-4969-9185-dc5dd587239d. CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/smithsonian-whale-fossils/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/metadata.json",
+  "originalDownload": "models/smithsonian-whale-fossils/originals.zip",
+  "bytes": 12557000,
+  "sha256": "1ea37a71fc282699d3c0d2a69961bb8c05b4a08535cb7f060cd490cdb3b64b12",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-23T03:59:00.669752+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Smithsonian Open Access native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/smithsonian-whale-fossils/model.glb",
+        "url": "https://3d-api.si.edu/content/document/3d_package:1f1ec6af-193f-4969-9185-dc5dd587239d/resources/whale-mpc-675-150k-4096.glb",
+        "bytes": 12557000,
+        "sha256": "1ea37a71fc282699d3c0d2a69961bb8c05b4a08535cb7f060cd490cdb3b64b12"
+      }
+    ],
+    "originalDownloadSha256": "c364f0eb38558977276e67883d1ed436c6007157647b835ee786f3295feaaea5",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      8977.7158203125,
+      5576.2373046875,
+      1871.70849609375
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/license-evidence.json",
+    "licenseEvidenceSha256": "3829179d2b3c55d32d7a790e24de00d0c880522ab9016646df029c9aca3d69b9",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/metadata.json",
+    "metadataEvidenceSha256": "8ce7b1aef0fc2b239fbfb57fe3cc9d4de63899d615d911e6faad9def0ece1713",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/technical-review.json",
+    "technicalReviewEvidenceSha256": "80b93427c274faf55119254b6c04bb216b8a759a7378bc474257f133538198cd",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "16a9660a894133bae65d8a432b9feb9c39f1a81dc52d210a785d2a9db5dc3f4e",
+      "triangles": 149999
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "sourceUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+  "objectRecordId": "edanmdm:dpo_3d_200020",
+  "packageId": "3d_package:1f1ec6af-193f-4969-9185-dc5dd587239d",
+  "mediumUsageAccess": "CC0",
+  "selectedResource": {
+    "url": "https://3d-api.si.edu/content/document/3d_package:1f1ec6af-193f-4969-9185-dc5dd587239d/resources/whale-mpc-675-150k-4096.glb",
+    "name": "Fossil whale excavation site MPC 675",
+    "type": "3D mesh",
+    "title": "Fossil whale excavation site MPC 675 (Low resolution 3D mesh, glb, scale in mm)",
+    "category": "Low resolution",
+    "filename": "whale-mpc-675-150k-4096.glb",
+    "attributes": [
+      {
+        "UNITS": "mm",
+        "FILE_TYPE": "glb",
+        "MODEL_FILE_TYPE": "glb",
+        "DRACO_COMPRESSED": false,
+        "GLTF_STANDARDIZED": false
+      },
+      {
+        "FILE_SIZE": 12557000
+      }
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:59:00.669752+00:00",
+  "scope": "The matched 3d_voyager medium is CC0; other media in a record can have different rights."
+}

@@ -9199,7 +9199,225 @@
       "modelLicense": "CC0 1.0",
       "method": "Own Blender CPU render",
       "attribution": "\"Ukulele 01\", por Joseph Burgan / Poly Haven. https://polyhaven.com/a/Ukulele_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "nasa-mars-2020-perseverance-rover",
+      "file": "gallery/thumbnails/nasa-mars-2020-perseverance-rover.webp",
+      "url": null,
+      "sha256": "65badd8710690c0cacdd676071c40f78a266dadc330bbad0b88398e16d36a0ce",
+      "modelLicense": "NASA Media Usage Guidelines",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "nasa-ingenuity-mars-helicopter",
+      "file": "gallery/thumbnails/nasa-ingenuity-mars-helicopter.webp",
+      "url": null,
+      "sha256": "42a22ea0bc440831032aac0f0931ebd5cfe8cc933a2d821b6ee1223037aaea15",
+      "modelLicense": "NASA Media Usage Guidelines",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "nasa-james-webb-space-telescope-b",
+      "file": "gallery/thumbnails/nasa-james-webb-space-telescope-b.webp",
+      "url": null,
+      "sha256": "0e71d7411d21d0713219079918cffa99d81d8b1301069abe6bca1e0404baab65",
+      "modelLicense": "NASA Media Usage Guidelines",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "nasa-international-space-station-iss-a",
+      "file": "gallery/thumbnails/nasa-international-space-station-iss-a.webp",
+      "url": null,
+      "sha256": "abfb0eb93d908a5c932beec21098ca72d8e3ad4ad1a9e38c07b9d77d409c6553",
+      "modelLicense": "NASA Media Usage Guidelines",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "nasa-voyager-probe-a",
+      "file": "gallery/thumbnails/nasa-voyager-probe-a.webp",
+      "url": null,
+      "sha256": "22cce87d31973f5404c6ec70865f8763cf9edeae64ead55535704ab811def419",
+      "modelLicense": "NASA Media Usage Guidelines",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "nasa-apollo-lunar-module",
+      "file": "gallery/thumbnails/nasa-apollo-lunar-module.webp",
+      "url": null,
+      "sha256": "b4be4ed36313767dc9bb22a65eead4aea764ee5075ec28a99b50209a3b1343ed",
+      "modelLicense": "NASA Media Usage Guidelines",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "nasa-saturn-v",
+      "file": "gallery/thumbnails/nasa-saturn-v.webp",
+      "url": null,
+      "sha256": "bc7312af988a1996d883c8a95cf54112f02033d593ea3489531f8c996a174aa3",
+      "modelLicense": "NASA Media Usage Guidelines",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "nasa-deep-space-network-70-meter",
+      "file": "gallery/thumbnails/nasa-deep-space-network-70-meter.webp",
+      "url": null,
+      "sha256": "eed746a057715e482e281e1ecbd99c382eb5867e1d9be58200d1f5bd9324427c",
+      "modelLicense": "NASA Media Usage Guidelines",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "nasa-deep-space-network-34-meter",
+      "file": "gallery/thumbnails/nasa-deep-space-network-34-meter.webp",
+      "url": null,
+      "sha256": "a35a32dd98836269fae76902440719e63becb7e0ed40fcb76258bae202b364ed",
+      "modelLicense": "NASA Media Usage Guidelines",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "nasa-earth-observing-1-eo-1",
+      "file": "gallery/thumbnails/nasa-earth-observing-1-eo-1.webp",
+      "url": null,
+      "sha256": "9bc91d64b81038fb8ad34c6398f1321f34e450ccc38973e999d0689405019b26",
+      "modelLicense": "NASA Media Usage Guidelines",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "smithsonian-triceratops-skeletons",
+      "file": "gallery/thumbnails/smithsonian-triceratops-skeletons.webp",
+      "url": null,
+      "sha256": "9d48b196045f0792fc080776624e68158f9e5725b5cb236c546a2bf7c87f9950",
+      "modelLicense": "CC0 1.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "smithsonian-lycaste-virginalis-1",
+      "file": "gallery/thumbnails/smithsonian-lycaste-virginalis-1.webp",
+      "url": null,
+      "sha256": "48b4149047479d0f90c85887674c2cba01957c1514ea87c88030694f53dd9b26",
+      "modelLicense": "CC0 1.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "smithsonian-lycaste-virginalis-2",
+      "file": "gallery/thumbnails/smithsonian-lycaste-virginalis-2.webp",
+      "url": null,
+      "sha256": "8d747235740154a8d24b843bbcb265974ff2cd8a0d60cda1d66483c0e9ae483b",
+      "modelLicense": "CC0 1.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "smithsonian-induction-coils",
+      "file": "gallery/thumbnails/smithsonian-induction-coils.webp",
+      "url": null,
+      "sha256": "33a929768a0b9d6940604301ad324b6ef425abf20da0ca459bd88a4fa424e71f",
+      "modelLicense": "CC0 1.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "smithsonian-trilobite-fossils",
+      "file": "gallery/thumbnails/smithsonian-trilobite-fossils.webp",
+      "url": null,
+      "sha256": "8dbd90b28d4befd03a00a3940310b8c88b3f2dfe4dc4e27fd0a2f0ea96bb5b5d",
+      "modelLicense": "CC0 1.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "smithsonian-whale-fossils",
+      "file": "gallery/thumbnails/smithsonian-whale-fossils.webp",
+      "url": null,
+      "sha256": "439a31f43a933e5b6b455b27bd563c681fc81f8fdaec2842764c65a317c83efd",
+      "modelLicense": "CC0 1.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "sketchfab-3f8072336ce94d18b3d0d055a1ece089",
+      "file": "gallery/thumbnails/sketchfab-3f8072336ce94d18b3d0d055a1ece089.webp",
+      "url": null,
+      "sha256": "5ca2426ce98bc043ae304edf0033a7942d23b1669acb8fbc7f90003a64e38d1c",
+      "modelLicense": "CC-BY 4.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec",
+      "file": "gallery/thumbnails/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec.webp",
+      "url": null,
+      "sha256": "6e6b223557c0e749a15cb34997491ae5a05b3c2bb9f4aaa38d8c2749e652e414",
+      "modelLicense": "CC-BY 4.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "sketchfab-ce09f4099a68467880f46e61eb9a3531",
+      "file": "gallery/thumbnails/sketchfab-ce09f4099a68467880f46e61eb9a3531.webp",
+      "url": null,
+      "sha256": "3a8eb6dd22eb97de166e619014b211a5ab25b288decd5ede4eeb2b563f2e60cc",
+      "modelLicense": "CC-BY 4.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "sketchfab-ad7d7e16b98f421db0cda79f265fcc8d",
+      "file": "gallery/thumbnails/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d.webp",
+      "url": null,
+      "sha256": "fa16d5173897c3c95c6266edf1855ed9c58624844243028dd2b567d5f6167fe4",
+      "modelLicense": "CC-BY-NC-SA 4.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "sketchfab-83483a66f8974d7e8f2e7bbde518d606",
+      "file": "gallery/thumbnails/sketchfab-83483a66f8974d7e8f2e7bbde518d606.webp",
+      "url": null,
+      "sha256": "8d639531fb967e06d80d87e1cfc855a486ada355b66fa439d083820c44d4c6b2",
+      "modelLicense": "CC-BY 4.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "sketchfab-e0678e6615a74ed29c1376a591262159",
+      "file": "gallery/thumbnails/sketchfab-e0678e6615a74ed29c1376a591262159.webp",
+      "url": null,
+      "sha256": "aa76a451b4ce2cc97b325b764d6f7e50edec22bd20539c6c564a6a8444317bdd",
+      "modelLicense": "CC-BY 4.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "sketchfab-950d0a46531f492ab8715777e312a5bf",
+      "file": "gallery/thumbnails/sketchfab-950d0a46531f492ab8715777e312a5bf.webp",
+      "url": null,
+      "sha256": "d8d3b1fa0cfde2f9613969042e5497a7ea8d01a5144a1c96caa90910af0de546",
+      "modelLicense": "CC-BY 4.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "sketchfab-285032402a8543ae8bf3e3c4d8c9f98a",
+      "file": "gallery/thumbnails/sketchfab-285032402a8543ae8bf3e3c4d8c9f98a.webp",
+      "url": null,
+      "sha256": "a161701b20dfa444b77c45a35397502660c848e4dc783d5352395a7ec9ed91bd",
+      "modelLicense": "CC-BY 4.0",
+      "origin": "Own CPU render of native GLB; same model license and credit"
     }
   ],
-  "note": "Original catalog previews; per-model license and credits remain in index.json. No API key is used."
+  "note": "Original catalog previews; per-model license and credits remain in index.json. No API key is used.",
+  "decoders": {
+    "name": "Google Draco",
+    "version": "1.5.6",
+    "license": "Apache-2.0",
+    "licenseFile": "gallery/vendor/draco/LICENSE.txt",
+    "files": [
+      {
+        "file": "gallery/vendor/draco/draco_wasm_wrapper.js",
+        "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.6/draco_wasm_wrapper.js",
+        "bytes": 58763,
+        "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8"
+      },
+      {
+        "file": "gallery/vendor/draco/draco_decoder.wasm",
+        "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.6/draco_decoder.wasm",
+        "bytes": 285747,
+        "sha256": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2"
+      },
+      {
+        "file": "gallery/vendor/draco/draco_decoder.js",
+        "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.6/draco_decoder.js",
+        "bytes": 719410,
+        "sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04"
+      }
+    ]
+  }
 }

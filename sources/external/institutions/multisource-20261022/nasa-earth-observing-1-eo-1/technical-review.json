@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    108.93498229980469,
+    128.9495391845703,
+    42.78388214111328
+  ],
+  "boundsMinBlender": [
+    -22.467084884643555,
+    -25.47477912902832,
+    -19.341941833496094
+  ],
+  "boundsMaxBlender": [
+    86.4678955078125,
+    103.4747543334961,
+    23.44194221496582
+  ],
+  "meshObjects": 10,
+  "polygons": 37775,
+  "vertices": 28449,
+  "materials": 75,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "nasa-earth-observing-1-eo-1",
+  "sourceFile": "model.glb",
+  "glbSha256": "2d26422a45147e86c93c535979b1d9ae16d34fc0171f661dec051bca61c14a74",
+  "reimport": {
+    "dimensionsBlender": [
+      108.93498229980469,
+      128.9495391845703,
+      42.78388214111328
+    ],
+    "boundsMinBlender": [
+      -22.467084884643555,
+      -25.47477912902832,
+      -19.341941833496094
+    ],
+    "boundsMaxBlender": [
+      86.4678955078125,
+      103.4747543334961,
+      23.44194221496582
+    ],
+    "meshObjects": 10,
+    "polygons": 37775,
+    "vertices": 28449,
+    "materials": 75,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.012894953918457032,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/renders/source-back.png": "9786e30ac2246951c036b0924ae395febf89adf32815a0305e6f4537d113b8b1",
+    "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/renders/source-side.png": "1623de622da32b4c9946af80d4280343b8f1dfdd17760599a7e42747022dc32f",
+    "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/renders/source-front.png": "dc1d2b4865df7f327500283cc33004f60813f0ebeacab742b4c706e8c8e8aa9e",
+    "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/renders/reimport-three-quarter.png": "bb7948bfb0adbcb2fd9ce4b5d01e2ac16f4a059e8bc7b17b3fadba02a1b86602",
+    "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/renders/source-three-quarter.png": "c179ffeb482fb421efa281cfd3d813fc8a5acf389d69b8671f3ddbefffa1e37e",
+    "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/renders/source-wireframe.png": "fc29a77c9a96130b31f7fc635ab31ccae4126bf45740b97da6e4f7d8ae92c8b2"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

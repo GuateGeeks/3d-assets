@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "source": "Kenney, OpenGameArt, Poly Haven, Poly Pizza",
+  "source": "Kenney, NASA 3D Resources, OpenGameArt, Poly Haven, Poly Pizza, Sketchfab, Smithsonian Open Access",
   "licensePolicy": "Licencias individuales conservadas; uso educativo concreto pendiente de revisión docente",
   "models": [
     {
@@ -571,7 +571,9 @@
       "unfulfilledQueries": [],
       "providerId": "poly-pizza",
       "provider": "Poly Pizza",
-      "kitIds": []
+      "kitIds": [],
+      "variantGroupId": "wind-turbines",
+      "variantGroupTitle": "Aerogeneradores"
     },
     {
       "id": "0Sylqo1dCfu",
@@ -4129,7 +4131,9 @@
       "unfulfilledQueries": [],
       "providerId": "poly-pizza",
       "provider": "Poly Pizza",
-      "kitIds": []
+      "kitIds": [],
+      "variantGroupId": "wind-turbines",
+      "variantGroupTitle": "Aerogeneradores"
     },
     {
       "id": "3Sd2klX0_s4",
@@ -6360,7 +6364,9 @@
       "unfulfilledQueries": [],
       "providerId": "poly-pizza",
       "provider": "Poly Pizza",
-      "kitIds": []
+      "kitIds": [],
+      "variantGroupId": "human-hearts",
+      "variantGroupTitle": "Corazón humano: representaciones"
     },
     {
       "id": "5R0mBgid5-k",
@@ -10775,7 +10781,9 @@
       "unfulfilledQueries": [],
       "providerId": "poly-pizza",
       "provider": "Poly Pizza",
-      "kitIds": []
+      "kitIds": [],
+      "variantGroupId": "wind-turbines",
+      "variantGroupTitle": "Aerogeneradores"
     },
     {
       "id": "8VysVKMXN2J",
@@ -14029,7 +14037,9 @@
       "unfulfilledQueries": [],
       "providerId": "poly-pizza",
       "provider": "Poly Pizza",
-      "kitIds": []
+      "kitIds": [],
+      "variantGroupId": "solar-panels",
+      "variantGroupTitle": "Paneles solares"
     },
     {
       "id": "NBUxHir6FJ",
@@ -15364,7 +15374,9 @@
       "unfulfilledQueries": [],
       "providerId": "poly-pizza",
       "provider": "Poly Pizza",
-      "kitIds": []
+      "kitIds": [],
+      "variantGroupId": "human-brains",
+      "variantGroupTitle": "Cerebro humano: representaciones"
     },
     {
       "id": "YwdXrwbN3o",
@@ -16442,7 +16454,9 @@
       "unfulfilledQueries": [],
       "providerId": "poly-pizza",
       "provider": "Poly Pizza",
-      "kitIds": []
+      "kitIds": [],
+      "variantGroupId": "solar-panels",
+      "variantGroupTitle": "Paneles solares"
     },
     {
       "id": "ah8WSBbizA6",
@@ -17871,7 +17885,9 @@
       "unfulfilledQueries": [],
       "providerId": "poly-pizza",
       "provider": "Poly Pizza",
-      "kitIds": []
+      "kitIds": [],
+      "variantGroupId": "solar-panels",
+      "variantGroupTitle": "Paneles solares"
     },
     {
       "id": "bzLVwG4AzvA",
@@ -22431,7 +22447,9 @@
       "unfulfilledQueries": [],
       "providerId": "poly-pizza",
       "provider": "Poly Pizza",
-      "kitIds": []
+      "kitIds": [],
+      "variantGroupId": "human-skeletons",
+      "variantGroupTitle": "Esqueleto humano: representaciones"
     },
     {
       "id": "ftnL_OvlkCx",
@@ -97701,6 +97719,1382 @@
       "kitIds": []
     },
     {
+      "id": "nasa-apollo-lunar-module",
+      "assetId": "nasa:apollo-lunar-module",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "title": "Módulo lunar Apolo",
+      "titleOriginal": "Apollo Lunar Module",
+      "author": "NASA/Michael D. Carbajal",
+      "authorUrl": "https://science.nasa.gov/3d-resources/apollo-lunar-module/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/apollo-lunar-module/",
+      "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/apollo-lunar-module/Apollo%20Lunar%20Module.glb",
+      "thumbnailUrl": null,
+      "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Apollo Lunar Module",
+        "apollo-modules"
+      ],
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "license": {
+        "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "attributionRequired": true,
+        "commercialUse": null,
+        "derivatives": null,
+        "shareAlike": false,
+        "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+      },
+      "attribution": "\"Apollo Lunar Module\", por NASA/Michael D. Carbajal / NASA 3D Resources. https://science.nasa.gov/3d-resources/apollo-lunar-module/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/nasa-apollo-lunar-module/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-apollo-lunar-module/metadata.json",
+      "originalDownload": "models/nasa-apollo-lunar-module/originals.zip",
+      "bytes": 716840,
+      "sha256": "379101dfcee399267addf771709107c35e826b0b9e5233272f123e4c8a585c4e",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 134,
+        "nodes": 135,
+        "materials": 12,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": true,
+        "animations": 135,
+        "animationNames": [
+          "lunarlandeAction",
+          "group13 10Action",
+          "group13 11Action",
+          "group13 12Action",
+          "group13 13Action",
+          "group13 14Action",
+          "group13 g1Action",
+          "group13 g2Action",
+          "group13 g3Action",
+          "group13 g4Action",
+          "group13 g5Action",
+          "group13 g6Action",
+          "group13 g7Action",
+          "group13 g8Action",
+          "group13 g9Action",
+          "group13 grAction",
+          "group13 p1Action",
+          "group13 p2Action",
+          "group13 pCAction",
+          "group31 10Action",
+          "group31 11Action",
+          "group31 12Action",
+          "group31 13Action",
+          "group31 14Action",
+          "group31 15Action",
+          "group31 16Action",
+          "group31 17Action",
+          "group31 18Action",
+          "group31 19Action",
+          "group31 20Action",
+          "group31 21Action",
+          "group31 22Action",
+          "group31 g1Action",
+          "group31 g2Action",
+          "group31 g3Action",
+          "group31 g4Action",
+          "group31 g5Action",
+          "group31 g6Action",
+          "group31 g7Action",
+          "group31 g8Action",
+          "group31 g9Action",
+          "group31 grAction",
+          "group32 grAction",
+          "group51 10Action",
+          "group51 11Action",
+          "group51 12Action",
+          "group51 13Action",
+          "group51 14Action",
+          "group51 15Action",
+          "group51 16Action",
+          "group51 17Action",
+          "group51 18Action",
+          "group51 19Action",
+          "group51 20Action",
+          "group51 21Action",
+          "group51 g1Action",
+          "group51 g2Action",
+          "group51 g3Action",
+          "group51 g4Action",
+          "group51 g5Action",
+          "group51 g6Action",
+          "group51 g7Action",
+          "group51 g8Action",
+          "group51 g9Action",
+          "group51 grAction",
+          "group51 p1Action",
+          "group51 poAction",
+          "group51 pSAction",
+          "group61 p1Action",
+          "group61 p2Action",
+          "group61 pSAction",
+          "group73 g1Action",
+          "group73 g2Action",
+          "group73 grAction",
+          "group73 p1Action",
+          "group73 p2Action",
+          "group73 p3Action",
+          "group73 pCAction",
+          "group74 g1Action",
+          "group74 g2Action",
+          "group74 grAction",
+          "group74 p1Action",
+          "group74 p2Action",
+          "group74 p3Action",
+          "group74 pCAction",
+          "group75 10Action",
+          "group75 11Action",
+          "group75 g1Action",
+          "group75 g2Action",
+          "group75 g3Action",
+          "group75 grAction",
+          "group75 p1Action",
+          "group75 p2Action",
+          "group75 p3Action",
+          "group75 p4Action",
+          "group75 p5Action",
+          "group75 p6Action",
+          "group75 p7Action",
+          "group75 p8Action",
+          "group75 p9Action",
+          "group75 pCAction",
+          "group75 pPAction",
+          "pCone6Action",
+          "pCone7Action",
+          "pCube2Action",
+          "pCube27Action",
+          "pCube28Action",
+          "pCube29Action",
+          "pCube3Action",
+          "pCylinde10Action",
+          "pCylinde11Action",
+          "pCylinder1Action",
+          "pCylinder2Action",
+          "pCylinder3Action",
+          "pCylinder4Action",
+          "pCylinder5Action",
+          "pCylinder6Action",
+          "pCylinder7Action",
+          "pCylinder8Action",
+          "pCylinder9Action",
+          "polySurfa1Action",
+          "polySurfa2Action",
+          "polySurfa3Action",
+          "polySurfa4Action",
+          "polySurfacAction",
+          "pPipe1Action",
+          "pPipe2Action",
+          "pPlane1Action",
+          "pPlane2Action",
+          "pSphere20Action",
+          "pSphere26Action",
+          "pSphere27Action",
+          "pSphere28Action",
+          "pSphere29Action",
+          "pSphere30Action"
+        ],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": [
+          "KHR_draco_mesh_compression"
+        ]
+      },
+      "retrievedAt": "2026-10-23T03:58:16.195768+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "NASA 3D Resources native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/nasa-apollo-lunar-module/model.glb",
+            "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/apollo-lunar-module/Apollo%20Lunar%20Module.glb",
+            "bytes": 716840,
+            "sha256": "379101dfcee399267addf771709107c35e826b0b9e5233272f123e4c8a585c4e"
+          }
+        ],
+        "originalDownloadSha256": "4c46dad97318ba3f34dd06370018b96da8cbd3725cf7953ce1941cf4f7ea64ea",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          6.427394866943359,
+          6.426610469818115,
+          5.012792110443115
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-apollo-lunar-module/license-evidence.json",
+        "licenseEvidenceSha256": "a6ef2d7e1d9aac82da53408afad83bc384e525fd1dbc962054e68b38fb8349a7",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-apollo-lunar-module/metadata.json",
+        "metadataEvidenceSha256": "56eeffb858769492888feddcfb4f0c91306b7c91a864afdd1531c7742ac21acf",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-apollo-lunar-module/technical-review.json",
+        "technicalReviewEvidenceSha256": "9c94abf0887e605b80c251f3aeb34c527453d06ced1111af9850c5c48acae96f",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "a90d866e38853dc877b9c97b2add36593bfac8703cc494e7f5c7f0b4f49d3fcf",
+          "triangles": 97588
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "apollo-modules",
+      "variantGroupTitle": "Módulos lunares Apolo"
+    },
+    {
+      "id": "nasa-deep-space-network-34-meter",
+      "assetId": "nasa:deep-space-network-34-meter",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "title": "Antena Deep Space Network de 34 m",
+      "titleOriginal": "Deep Space Network 34-meter",
+      "author": "NASA/Brian E. Kumanchik; NASA/Christian A. Lopez",
+      "authorUrl": "https://science.nasa.gov/3d-resources/deep-space-network-34-meter/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/deep-space-network-34-meter/",
+      "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/deep-space-network-34-meter/Deep%20Space%20Network%2034-meter.glb",
+      "thumbnailUrl": null,
+      "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Deep Space Network 34-meter",
+        "dsn-antennas"
+      ],
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "license": {
+        "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "attributionRequired": true,
+        "commercialUse": null,
+        "derivatives": null,
+        "shareAlike": false,
+        "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+      },
+      "attribution": "\"Deep Space Network 34-meter\", por NASA/Brian E. Kumanchik; NASA/Christian A. Lopez / NASA 3D Resources. https://science.nasa.gov/3d-resources/deep-space-network-34-meter/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/nasa-deep-space-network-34-meter/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/metadata.json",
+      "originalDownload": "models/nasa-deep-space-network-34-meter/originals.zip",
+      "bytes": 2903116,
+      "sha256": "7a4b71f14da463fb70b5da7757c99fb8868a1f0d82f4c28cf3d57019f051a806",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 8,
+        "nodes": 8,
+        "materials": 9,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": [
+          "KHR_draco_mesh_compression"
+        ]
+      },
+      "retrievedAt": "2026-10-23T03:58:18.577254+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "NASA 3D Resources native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/nasa-deep-space-network-34-meter/model.glb",
+            "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/deep-space-network-34-meter/Deep%20Space%20Network%2034-meter.glb",
+            "bytes": 2903116,
+            "sha256": "7a4b71f14da463fb70b5da7757c99fb8868a1f0d82f4c28cf3d57019f051a806"
+          }
+        ],
+        "originalDownloadSha256": "5b83e87f4ddcb2138ef313f9881c97cf1797cc556207ef57ddf9fbb25e73393d",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          34.024810791015625,
+          33.969547271728516,
+          36.79209518432617
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/license-evidence.json",
+        "licenseEvidenceSha256": "7a0a7500897efffcf664670b6a4079580199e432879121097e259bf3b7cd4c21",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/metadata.json",
+        "metadataEvidenceSha256": "0a30f6fbe996dcb0f7378ff52286b20c7e81265242edc2379903d7d26a6ce2bb",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/technical-review.json",
+        "technicalReviewEvidenceSha256": "9ed1c5904b4e07ebd0564721463c0643ff0924973402f50852808115ea8b9231",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "c8fca5cc61b2ecad0b6ff0a948530bdba3acbcd08b09f3fed1ff21da068dfaed",
+          "triangles": 31842
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "dsn-antennas",
+      "variantGroupTitle": "Antenas Deep Space Network"
+    },
+    {
+      "id": "nasa-deep-space-network-70-meter",
+      "assetId": "nasa:deep-space-network-70-meter",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "title": "Antena Deep Space Network de 70 m",
+      "titleOriginal": "Deep Space Network 70-meter",
+      "author": "NASA/Brian E. Kumanchik; NASA/Christian A. Lopez",
+      "authorUrl": "https://science.nasa.gov/3d-resources/deep-space-network-70-meter/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/deep-space-network-70-meter/",
+      "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/deep-space-network-70-meter/Deep%20Space%20Network%2070-meter.glb",
+      "thumbnailUrl": null,
+      "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Deep Space Network 70-meter",
+        "dsn-antennas"
+      ],
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "license": {
+        "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "attributionRequired": true,
+        "commercialUse": null,
+        "derivatives": null,
+        "shareAlike": false,
+        "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+      },
+      "attribution": "\"Deep Space Network 70-meter\", por NASA/Brian E. Kumanchik; NASA/Christian A. Lopez / NASA 3D Resources. https://science.nasa.gov/3d-resources/deep-space-network-70-meter/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/nasa-deep-space-network-70-meter/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-70-meter/metadata.json",
+      "originalDownload": "models/nasa-deep-space-network-70-meter/originals.zip",
+      "bytes": 1867668,
+      "sha256": "72dddfd955f5c212a40f368556ab4c13ab59a109bc1b46855b09c8549b18aa5c",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 15,
+        "nodes": 15,
+        "materials": 5,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": [
+          "KHR_draco_mesh_compression"
+        ]
+      },
+      "retrievedAt": "2026-10-23T03:58:17.635523+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "NASA 3D Resources native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/nasa-deep-space-network-70-meter/model.glb",
+            "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/deep-space-network-70-meter/Deep%20Space%20Network%2070-meter.glb",
+            "bytes": 1867668,
+            "sha256": "72dddfd955f5c212a40f368556ab4c13ab59a109bc1b46855b09c8549b18aa5c"
+          }
+        ],
+        "originalDownloadSha256": "474b43c7abd3008ad941a7767ea1d2996cd8585bdce6a220775474d81a955740",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          70.07337188720703,
+          70.07337188720703,
+          72.9266586303711
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-70-meter/license-evidence.json",
+        "licenseEvidenceSha256": "aa0efad6ec4813a3fbda98121f29fdbf8b8667cf8edf509b33f9a986f171c017",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-70-meter/metadata.json",
+        "metadataEvidenceSha256": "95240803816c8341a424a60cedd593a87d09e6d4ee9a0e0054904db047d1fc70",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-70-meter/technical-review.json",
+        "technicalReviewEvidenceSha256": "2a61de24ceca79b0b6146c9c9ffb4a58fb74c0c6a7bb82a745c6107877364266",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "87c68ac63d86c31aea14b01804a6e633368d9e5af6f8cd4324bc9d0acf993c7e",
+          "triangles": 33136
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "dsn-antennas",
+      "variantGroupTitle": "Antenas Deep Space Network"
+    },
+    {
+      "id": "nasa-earth-observing-1-eo-1",
+      "assetId": "nasa:earth-observing-1-eo-1",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "title": "Satélite de observación EO-1",
+      "titleOriginal": "Earth Observing-1 (EO-1)",
+      "author": "NASA/Christian A. Lopez; NASA/Christopher M. Garcia",
+      "authorUrl": "https://science.nasa.gov/3d-resources/earth-observing-1-eo-1/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/earth-observing-1-eo-1/",
+      "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/earth-observing-1-(eo-1)/Earth%20Observing-1%20(EO-1).glb",
+      "thumbnailUrl": null,
+      "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Earth Observing-1 (EO-1)",
+        "earth-observation-satellites"
+      ],
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "license": {
+        "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "attributionRequired": true,
+        "commercialUse": null,
+        "derivatives": null,
+        "shareAlike": false,
+        "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+      },
+      "attribution": "\"Earth Observing-1 (EO-1)\", por NASA/Christian A. Lopez; NASA/Christopher M. Garcia / NASA 3D Resources. https://science.nasa.gov/3d-resources/earth-observing-1-eo-1/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/nasa-earth-observing-1-eo-1/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/metadata.json",
+      "originalDownload": "models/nasa-earth-observing-1-eo-1/originals.zip",
+      "bytes": 224580,
+      "sha256": "2d26422a45147e86c93c535979b1d9ae16d34fc0171f661dec051bca61c14a74",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 10,
+        "nodes": 11,
+        "materials": 75,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": [
+          "KHR_draco_mesh_compression"
+        ]
+      },
+      "retrievedAt": "2026-10-23T03:58:19.293162+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "NASA 3D Resources native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/nasa-earth-observing-1-eo-1/model.glb",
+            "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/earth-observing-1-(eo-1)/Earth%20Observing-1%20(EO-1).glb",
+            "bytes": 224580,
+            "sha256": "2d26422a45147e86c93c535979b1d9ae16d34fc0171f661dec051bca61c14a74"
+          }
+        ],
+        "originalDownloadSha256": "076a8b36de56b10e87c0c3b50d48d62697f0ecc351cc3dc710c265c97e842c3f",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          108.93498229980469,
+          128.9495391845703,
+          42.78388214111328
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/license-evidence.json",
+        "licenseEvidenceSha256": "7937f9a873187d804ca5d3557326a395bd2d5f27e45a353b58ba24b60c99a402",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/metadata.json",
+        "metadataEvidenceSha256": "551a8e8c9ed18d088cd52440fe1eec01db6e63a70dc612756f2acc796259e6d0",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/technical-review.json",
+        "technicalReviewEvidenceSha256": "6408a9d0ca953b6d8adbfb27868933a1ab2f24cdf233bb6470892d58b818bf8a",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "35621424876dc05fad8fd54a902917756e2965b8f7d9235287c6b456eba868d3",
+          "triangles": 37775
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "earth-observation-satellites",
+      "variantGroupTitle": "Satélites de observación terrestre"
+    },
+    {
+      "id": "nasa-ingenuity-mars-helicopter",
+      "assetId": "nasa:ingenuity-mars-helicopter",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "title": "Helicóptero Ingenuity",
+      "titleOriginal": "Ingenuity Mars Helicopter",
+      "author": "NASA/Brian E. Kumanchik",
+      "authorUrl": "https://science.nasa.gov/3d-resources/ingenuity-mars-helicopter/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/ingenuity-mars-helicopter/",
+      "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/ingenuity-mars-helicopter/Ingenuity%20Mars%20Helicopter.glb",
+      "thumbnailUrl": null,
+      "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Ingenuity Mars Helicopter",
+        "mars-helicopters"
+      ],
+      "areas": [
+        "espacio-astronomia",
+        "robotica-electronica"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "license": {
+        "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "attributionRequired": true,
+        "commercialUse": null,
+        "derivatives": null,
+        "shareAlike": false,
+        "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+      },
+      "attribution": "\"Ingenuity Mars Helicopter\", por NASA/Brian E. Kumanchik / NASA 3D Resources. https://science.nasa.gov/3d-resources/ingenuity-mars-helicopter/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/nasa-ingenuity-mars-helicopter/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/metadata.json",
+      "originalDownload": "models/nasa-ingenuity-mars-helicopter/originals.zip",
+      "bytes": 2019408,
+      "sha256": "9e5a5398ab335eae7d46335085301ce46fb7de052300b645debe8bac6d39f2b5",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 11,
+        "nodes": 11,
+        "materials": 10,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": [
+          "KHR_draco_mesh_compression"
+        ]
+      },
+      "retrievedAt": "2026-10-23T03:58:11.727406+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "NASA 3D Resources native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/nasa-ingenuity-mars-helicopter/model.glb",
+            "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/ingenuity-mars-helicopter/Ingenuity%20Mars%20Helicopter.glb",
+            "bytes": 2019408,
+            "sha256": "9e5a5398ab335eae7d46335085301ce46fb7de052300b645debe8bac6d39f2b5"
+          }
+        ],
+        "originalDownloadSha256": "bbb68609998ee49ca1ca42766d242913d6cef88be4ccd81f0a8d8e4fa3f70920",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.9863759875297546,
+          1.1063556671142578,
+          0.562043309211731
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/license-evidence.json",
+        "licenseEvidenceSha256": "6d96c33184fb856922710861b532a3f8072b6c68671fbe57c524b09086b5e300",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/metadata.json",
+        "metadataEvidenceSha256": "37cc6e9d9c72a0943c97ad9a0276c033c26afa94ace0366ca278fe9ccd63e923",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/technical-review.json",
+        "technicalReviewEvidenceSha256": "88a7ac8f5a66a36404705359d1b4cbc0bc209354a9fe64ed8d163a3f7ca48238",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "698d1664f6394858470890077a97127eec283f830cb8f150c975228e0cd0b783",
+          "triangles": 9124
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "mars-helicopters",
+      "variantGroupTitle": "Helicópteros de Marte"
+    },
+    {
+      "id": "nasa-international-space-station-iss-a",
+      "assetId": "nasa:international-space-station-iss-a",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "title": "Estación Espacial Internacional · A",
+      "titleOriginal": "International Space Station (ISS) (A)",
+      "author": "NASA/Ames Research Center",
+      "authorUrl": "https://science.nasa.gov/3d-resources/international-space-station-iss-a/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/international-space-station-iss-a/",
+      "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/international-space-station-(iss)-(a)/International%20Space%20Station%20(ISS)%20(A).glb",
+      "thumbnailUrl": null,
+      "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "International Space Station (ISS) (A)",
+        "iss-stations"
+      ],
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "license": {
+        "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "attributionRequired": true,
+        "commercialUse": null,
+        "derivatives": null,
+        "shareAlike": false,
+        "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+      },
+      "attribution": "\"International Space Station (ISS) (A)\", por NASA/Ames Research Center / NASA 3D Resources. https://science.nasa.gov/3d-resources/international-space-station-iss-a/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/nasa-international-space-station-iss-a/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/metadata.json",
+      "originalDownload": "models/nasa-international-space-station-iss-a/originals.zip",
+      "bytes": 39708,
+      "sha256": "70d0619a69312a45cbf740ba9a491fad854e10226dc5936c213fb1f93f063678",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 6,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": [
+          "KHR_draco_mesh_compression"
+        ]
+      },
+      "retrievedAt": "2026-10-23T03:58:14.073461+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "NASA 3D Resources native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/nasa-international-space-station-iss-a/model.glb",
+            "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/international-space-station-(iss)-(a)/International%20Space%20Station%20(ISS)%20(A).glb",
+            "bytes": 39708,
+            "sha256": "70d0619a69312a45cbf740ba9a491fad854e10226dc5936c213fb1f93f063678"
+          }
+        ],
+        "originalDownloadSha256": "31a1289f5517cbcf45eaf0b912a65a1086f6d6a64a5f0e31df66d24d098582ab",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          25.614238739013672,
+          15.37343692779541,
+          15.962973594665527
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/license-evidence.json",
+        "licenseEvidenceSha256": "5172dd2ebe2d384fab3728b72be00060d4ef92106b8342a3a1335d221c472b94",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/metadata.json",
+        "metadataEvidenceSha256": "5ab56d6ca0a03028bc48d9854b51ef6e82295f78bbdde33410439170f33df43a",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/technical-review.json",
+        "technicalReviewEvidenceSha256": "ca46ef5e208e98e0730c971ecb24ff3cd29d6d789ebfa3326a14f81cf206413b",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "e863959a01189c6fff8d243047f3bebb0a212b115a542648101f9cc405964718",
+          "triangles": 6642
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "iss-stations",
+      "variantGroupTitle": "Estación Espacial Internacional"
+    },
+    {
+      "id": "nasa-james-webb-space-telescope-b",
+      "assetId": "nasa:james-webb-space-telescope-b",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "title": "Telescopio James Webb · B",
+      "titleOriginal": "James Webb Space Telescope (B)",
+      "author": "NASA/Christopher R. Meaney",
+      "authorUrl": "https://science.nasa.gov/3d-resources/james-webb-space-telescope-b/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/james-webb-space-telescope-b/",
+      "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/james-webb-space-telescope-(b)/James%20Webb%20Space%20Telescope%20(B).glb",
+      "thumbnailUrl": null,
+      "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "James Webb Space Telescope (B)",
+        "jwst-telescopes"
+      ],
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "license": {
+        "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "attributionRequired": true,
+        "commercialUse": null,
+        "derivatives": null,
+        "shareAlike": false,
+        "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+      },
+      "attribution": "\"James Webb Space Telescope (B)\", por NASA/Christopher R. Meaney / NASA 3D Resources. https://science.nasa.gov/3d-resources/james-webb-space-telescope-b/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/nasa-james-webb-space-telescope-b/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/metadata.json",
+      "originalDownload": "models/nasa-james-webb-space-telescope-b/originals.zip",
+      "bytes": 1004248,
+      "sha256": "4958e61e5a564f2efcc32cd516b9d36ea0b9bc644f64dbcfe182ce8a422ae526",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 2,
+        "materials": 36,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": [
+          "KHR_draco_mesh_compression"
+        ]
+      },
+      "retrievedAt": "2026-10-23T03:58:13.546971+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "NASA 3D Resources native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/nasa-james-webb-space-telescope-b/model.glb",
+            "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/james-webb-space-telescope-(b)/James%20Webb%20Space%20Telescope%20(B).glb",
+            "bytes": 1004248,
+            "sha256": "4958e61e5a564f2efcc32cd516b9d36ea0b9bc644f64dbcfe182ce8a422ae526"
+          }
+        ],
+        "originalDownloadSha256": "d087c27917810669d21d766b5266befbe88f55825f22873155bb5a3f0b03fc35",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          12.87092399597168,
+          20.996150970458984,
+          11.256908416748047
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/license-evidence.json",
+        "licenseEvidenceSha256": "6259a43a3375c3b323f185de3d94077293c167ff82e4b2d63f140ce8dc96c05f",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/metadata.json",
+        "metadataEvidenceSha256": "8b490176e72b8d319b3a919a57514edb07706e8b007f60584da78f0232efe2df",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/technical-review.json",
+        "technicalReviewEvidenceSha256": "ae7c7f6a72d651abb0bc4a2baa4bb83a92efd55a6e75db7861c1a9eb8d974f30",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "a0ae6c9d584fb37953313b40fa3e7013995797bdc513f60d3ec6dc88109e8af7",
+          "triangles": 99239
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "jwst-telescopes",
+      "variantGroupTitle": "Telescopio James Webb"
+    },
+    {
+      "id": "nasa-mars-2020-perseverance-rover",
+      "assetId": "nasa:mars-2020-perseverance-rover",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "title": "Rover Perseverance",
+      "titleOriginal": "Mars 2020 Perseverance Rover",
+      "author": "NASA/Jet Propulsion Laboratory",
+      "authorUrl": "https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/",
+      "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/mars-2020-perseverance-rover/Mars%202020%20Perseverance%20Rover.glb",
+      "thumbnailUrl": null,
+      "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Mars 2020 Perseverance Rover",
+        "mars-rovers"
+      ],
+      "areas": [
+        "espacio-astronomia",
+        "robotica-electronica"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "license": {
+        "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "attributionRequired": true,
+        "commercialUse": null,
+        "derivatives": null,
+        "shareAlike": false,
+        "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+      },
+      "attribution": "\"Mars 2020 Perseverance Rover\", por NASA/Jet Propulsion Laboratory / NASA 3D Resources. https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/nasa-mars-2020-perseverance-rover/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/metadata.json",
+      "originalDownload": "models/nasa-mars-2020-perseverance-rover/originals.zip",
+      "bytes": 4987176,
+      "sha256": "10db7c03a5e63a5a3b3e7baa6243aa4918ba045fa8ff0a731d0217491adc727f",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 68,
+        "nodes": 88,
+        "materials": 47,
+        "skins": 1,
+        "joints": 15,
+        "rigged": true,
+        "animated": true,
+        "animations": 23,
+        "animationNames": [
+          "CylinderAction",
+          "bottomAction",
+          "Empty.001Action.003",
+          "Action",
+          "topAction",
+          "Cylinder.002Action",
+          "ArmatureAction",
+          "haz_cov_front",
+          "e_covers_rear",
+          "haz_cov_rear_l",
+          "haz_cov_rear_r",
+          "arm.003Action",
+          "arm.002Action",
+          "armAction",
+          "arm.004Action",
+          "turret_objAction",
+          "turret_cam_cover_01",
+          "turret.001Action.001",
+          "hingeAction",
+          "Empty.002Action",
+          "Action",
+          "arm_01_pivotAction",
+          "arm_02_pivotAction"
+        ],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": [
+          "KHR_draco_mesh_compression"
+        ]
+      },
+      "retrievedAt": "2026-10-23T03:58:10.937359+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "NASA 3D Resources native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/nasa-mars-2020-perseverance-rover/model.glb",
+            "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/mars-2020-perseverance-rover/Mars%202020%20Perseverance%20Rover.glb",
+            "bytes": 4987176,
+            "sha256": "10db7c03a5e63a5a3b3e7baa6243aa4918ba045fa8ff0a731d0217491adc727f"
+          }
+        ],
+        "originalDownloadSha256": "01dc0a64e2d02e44e3b34355737060e6d3ed1390213b2fe8bacb6c43b6fbf328",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          2.7045702934265137,
+          3.108273506164551,
+          1.8455445766448975
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/license-evidence.json",
+        "licenseEvidenceSha256": "3eed9e0e05c75f970bd7e562d66a694c3026f3a49e34873b13f5c565129dca44",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/metadata.json",
+        "metadataEvidenceSha256": "032c5d1e5ace5b91beb75f0d4ff945b651d67955e5de33cd19b0a79349c97f03",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/technical-review.json",
+        "technicalReviewEvidenceSha256": "96af138e535fe8596f07caee121c04e836ca4fe5d771e1c56c155a936367a7d6",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "0b1f070f77e0337504a134d23e4f189d8e60304c34b26ae368c9dc95fe18afc2",
+          "triangles": 199521
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "mars-rovers",
+      "variantGroupTitle": "Rovers de Marte"
+    },
+    {
+      "id": "nasa-saturn-v",
+      "assetId": "nasa:saturn-v",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "title": "Cohete Saturno V",
+      "titleOriginal": "Saturn V",
+      "author": "NASA/Michael D. Carbajal",
+      "authorUrl": "https://science.nasa.gov/3d-resources/saturn-v/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/saturn-v/",
+      "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/saturn-v/Saturn%20V.glb",
+      "thumbnailUrl": null,
+      "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Saturn V",
+        "saturn-rockets"
+      ],
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "license": {
+        "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "attributionRequired": true,
+        "commercialUse": null,
+        "derivatives": null,
+        "shareAlike": false,
+        "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+      },
+      "attribution": "\"Saturn V\", por NASA/Michael D. Carbajal / NASA 3D Resources. https://science.nasa.gov/3d-resources/saturn-v/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/nasa-saturn-v/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-saturn-v/metadata.json",
+      "originalDownload": "models/nasa-saturn-v/originals.zip",
+      "bytes": 927212,
+      "sha256": "6c44497bce54ee0b09d0edb8e33a6f484762a320dab1c54b383e434f5bba06b5",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 22,
+        "nodes": 23,
+        "materials": 13,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": true,
+        "animations": 23,
+        "animationNames": [
+          "saturnv_caAction",
+          "group1 groAction",
+          "group1 pCoAction",
+          "group10 pCAction",
+          "group11 pCAction",
+          "group3 groAction",
+          "group6 pCuAction",
+          "group7 pCuAction",
+          "group8 pCyAction",
+          "group9 pCyAction",
+          "pCone2 groAction",
+          "pCube1 gr1Action",
+          "pCube1 groAction",
+          "pCylinder1Action",
+          "pCylinder2Action",
+          "pCylinder3Action",
+          "pCylinder4Action",
+          "pCylinder5Action",
+          "polySurfa1Action",
+          "polySurfa2Action",
+          "polySurfa3Action",
+          "polySurfa4Action",
+          "polySurfacAction"
+        ],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:58:16.818549+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "NASA 3D Resources native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/nasa-saturn-v/model.glb",
+            "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/saturn-v/Saturn%20V.glb",
+            "bytes": 927212,
+            "sha256": "6c44497bce54ee0b09d0edb8e33a6f484762a320dab1c54b383e434f5bba06b5"
+          }
+        ],
+        "originalDownloadSha256": "2e0735bde1fcd3e014c0ef10fdf2f2846e04ed2b15999eaaf2e662491e9071eb",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          2.0143020153045654,
+          2.0143020153045654,
+          12.98681354522705
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-saturn-v/license-evidence.json",
+        "licenseEvidenceSha256": "86ec2f3da693595898b289bd821e442e3cb3734293e3cfc408b9c7158a8730ca",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-saturn-v/metadata.json",
+        "metadataEvidenceSha256": "3a71f8cdfb55479e99b4a1634160a08b1364729aaef3a09f054b1ffe46808365",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-saturn-v/technical-review.json",
+        "technicalReviewEvidenceSha256": "9826c32971e07069562b078e4ce9570bb74631c0f421942f92534211fb896c65",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "ede483a6ebb15a38a7e49ad60b4d21675796279ba31d369ea75215db48ce83c9",
+          "triangles": 34814
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "saturn-rockets",
+      "variantGroupTitle": "Cohetes Saturno V"
+    },
+    {
+      "id": "nasa-voyager-probe-a",
+      "assetId": "nasa:voyager-probe-a",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "title": "Sonda Voyager · A",
+      "titleOriginal": "Voyager Probe (A)",
+      "author": "NASA/Christopher R. Meaney",
+      "authorUrl": "https://science.nasa.gov/3d-resources/voyager-probe-a/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/voyager-probe-a/",
+      "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/voyager-probe-(a)/Voyager%20Probe%20(A).glb",
+      "thumbnailUrl": null,
+      "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Voyager Probe (A)",
+        "voyager-probes"
+      ],
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "license": {
+        "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "attributionRequired": true,
+        "commercialUse": null,
+        "derivatives": null,
+        "shareAlike": false,
+        "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+      },
+      "attribution": "\"Voyager Probe (A)\", por NASA/Christopher R. Meaney / NASA 3D Resources. https://science.nasa.gov/3d-resources/voyager-probe-a/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/nasa-voyager-probe-a/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/metadata.json",
+      "originalDownload": "models/nasa-voyager-probe-a/originals.zip",
+      "bytes": 285936,
+      "sha256": "7cf8eefb5a0fca9e4e1b0d1e51c37433124169183e5dbfd2d8034af902311821",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 2,
+        "materials": 16,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": [
+          "KHR_draco_mesh_compression"
+        ]
+      },
+      "retrievedAt": "2026-10-23T03:58:15.532292+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "NASA 3D Resources native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/nasa-voyager-probe-a/model.glb",
+            "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/voyager-probe-(a)/Voyager%20Probe%20(A).glb",
+            "bytes": 285936,
+            "sha256": "7cf8eefb5a0fca9e4e1b0d1e51c37433124169183e5dbfd2d8034af902311821"
+          }
+        ],
+        "originalDownloadSha256": "39f01d61a309da47c7e9475aa67c431ab7af886b97ba7e6c572fe83a277fab79",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.09999999403953552,
+          0.33664965629577637,
+          0.2092304825782776
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/license-evidence.json",
+        "licenseEvidenceSha256": "883f9842ecf9b9b792152632031c080c22c7944e3061797537e1350e8c05eda4",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/metadata.json",
+        "metadataEvidenceSha256": "67bde67fde617142b4d92d34dd8d40f9a219112b03d9032c7682ac9041d57428",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/technical-review.json",
+        "technicalReviewEvidenceSha256": "de35ec50e78d95d30f3e5230b2441bf3da8eef696f0f04cd25c12cbb4b26e5d6",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "5adbe6861e537bc8a273065b6455bcd49c6252918fbff040bf432b49bcbec78e",
+          "triangles": 29911
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "voyager-probes",
+      "variantGroupTitle": "Sonda Voyager"
+    },
+    {
       "id": "oYtDty0fR6",
       "title": "Pine Trees",
       "author": "Quaternius",
@@ -104548,6 +105942,1645 @@
       "providerId": "poly-pizza",
       "provider": "Poly Pizza",
       "kitIds": []
+    },
+    {
+      "id": "sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec",
+      "assetId": "sketchfab:0aa0e33c5c854d1bab7bac9e1c7acaec",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "title": "Cerebro y tronco encefálico",
+      "titleOriginal": "Human brain, Cerebrum & Brainstem",
+      "author": "FrankJohansson",
+      "authorUrl": "https://sketchfab.com/pranktoy",
+      "sourceUrl": "https://sketchfab.com/3d-models/0aa0e33c5c854d1bab7bac9e1c7acaec",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/0aa0e33c5c854d1bab7bac9e1c7acaec",
+      "downloadUrl": "https://api.sketchfab.com/v3/models/0aa0e33c5c854d1bab7bac9e1c7acaec/download",
+      "thumbnailUrl": null,
+      "description": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Human brain, Cerebrum & Brainstem",
+        "human-brains"
+      ],
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Educación Física"
+      ],
+      "licenseRaw": "CC-BY 4.0",
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "attributionRequired": true,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Human brain, Cerebrum & Brainstem\", por FrankJohansson / Sketchfab. https://sketchfab.com/3d-models/0aa0e33c5c854d1bab7bac9e1c7acaec. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/metadata.json",
+      "originalDownload": "models/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/originals.zip",
+      "bytes": 5062656,
+      "sha256": "d1f7dad2a6e7a884b893e6e8c6ceaa9a6fe763f39926bce9ecc9b38a1d9a3836",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 4,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:59:08.460916+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Sketchfab native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/model.glb",
+            "url": "https://api.sketchfab.com/v3/models/0aa0e33c5c854d1bab7bac9e1c7acaec/download",
+            "bytes": 5062656,
+            "sha256": "d1f7dad2a6e7a884b893e6e8c6ceaa9a6fe763f39926bce9ecc9b38a1d9a3836"
+          }
+        ],
+        "originalDownloadSha256": "4a6e9fb2b0b9d74e7f7ebd1f7c6f736b2255b9cc4f65ed3c1779000def3de181",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.16659368574619293,
+          0.17486734688282013,
+          0.166375070810318
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/license-evidence.json",
+        "licenseEvidenceSha256": "3ff8ef2e3cf03c39f00a76e303728cbf46a0a99eecedd083ccf012f9dd8258ef",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/metadata.json",
+        "metadataEvidenceSha256": "354a3ec2217c616f68b4370a43bc43b27cc27dc8c0f57552599f08d418078a25",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/technical-review.json",
+        "technicalReviewEvidenceSha256": "a7f071e9c54eb3982bb5fd713a1e86c57aede5b4c8dc53df82531d7e0db0c132",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "8d039e50707c6ffb1c7337bb4aa1e11d0c28e7e7f4e37a2125d2da6a96973b2b",
+          "triangles": 45296
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "human-brains",
+      "variantGroupTitle": "Cerebro humano: representaciones"
+    },
+    {
+      "id": "sketchfab-285032402a8543ae8bf3e3c4d8c9f98a",
+      "assetId": "sketchfab:285032402a8543ae8bf3e3c4d8c9f98a",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "title": "Aerogenerador",
+      "titleOriginal": "Wind Turbine",
+      "author": "Shivansh Singh",
+      "authorUrl": "https://sketchfab.com/ShivanshSingh",
+      "sourceUrl": "https://sketchfab.com/3d-models/285032402a8543ae8bf3e3c4d8c9f98a",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/285032402a8543ae8bf3e3c4d8c9f98a",
+      "downloadUrl": "https://api.sketchfab.com/v3/models/285032402a8543ae8bf3e3c4d8c9f98a/download",
+      "thumbnailUrl": null,
+      "description": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Wind Turbine",
+        "wind-turbines"
+      ],
+      "areas": [
+        "fisica-energia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "CC-BY 4.0",
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "attributionRequired": true,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Wind Turbine\", por Shivansh Singh / Sketchfab. https://sketchfab.com/3d-models/285032402a8543ae8bf3e3c4d8c9f98a. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/sketchfab-285032402a8543ae8bf3e3c4d8c9f98a/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/sketchfab-285032402a8543ae8bf3e3c4d8c9f98a/metadata.json",
+      "originalDownload": "models/sketchfab-285032402a8543ae8bf3e3c4d8c9f98a/originals.zip",
+      "bytes": 108340,
+      "sha256": "afbffe20ebe7e0ec688925b9d06eb68edadfce49799f2190e47f6f4227c706df",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 2,
+        "nodes": 7,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T04:04:26.312495+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Sketchfab native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/sketchfab-285032402a8543ae8bf3e3c4d8c9f98a/model.glb",
+            "url": "https://api.sketchfab.com/v3/models/285032402a8543ae8bf3e3c4d8c9f98a/download",
+            "bytes": 108340,
+            "sha256": "afbffe20ebe7e0ec688925b9d06eb68edadfce49799f2190e47f6f4227c706df"
+          }
+        ],
+        "originalDownloadSha256": "d66c63e5341c674d801bfcf80eaafbad02a0335ceebc086a055104fb4ef45020",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          11.6947021484375,
+          2.1332573890686035,
+          19.908008575439453
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/sketchfab-285032402a8543ae8bf3e3c4d8c9f98a/license-evidence.json",
+        "licenseEvidenceSha256": "1d0a977bf83240da9ac29db32ac51f47c25885337d3aa0202791ae4c6944254d",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/sketchfab-285032402a8543ae8bf3e3c4d8c9f98a/metadata.json",
+        "metadataEvidenceSha256": "8cccaf38ba6ea299a656c77351f04268a6eb199b97589d9d2cf685dbd8ef5bf6",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/sketchfab-285032402a8543ae8bf3e3c4d8c9f98a/technical-review.json",
+        "technicalReviewEvidenceSha256": "4a40d12171da3873e8cdaf71bb7e28478de5c490b71048e8595eaa57b77d2355",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "f332453a0eef007c964dba64483437530b0d98bf8f229b71bbb4a17bbcf64676",
+          "triangles": 1480
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "wind-turbines",
+      "variantGroupTitle": "Aerogeneradores"
+    },
+    {
+      "id": "sketchfab-3f8072336ce94d18b3d0d055a1ece089",
+      "assetId": "sketchfab:3f8072336ce94d18b3d0d055a1ece089",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "title": "Corazón humano",
+      "titleOriginal": "Realistic Human Heart",
+      "author": "neshallads",
+      "authorUrl": "https://sketchfab.com/neshallads",
+      "sourceUrl": "https://sketchfab.com/3d-models/3f8072336ce94d18b3d0d055a1ece089",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/3f8072336ce94d18b3d0d055a1ece089",
+      "downloadUrl": "https://api.sketchfab.com/v3/models/3f8072336ce94d18b3d0d055a1ece089/download",
+      "thumbnailUrl": null,
+      "description": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Realistic Human Heart",
+        "human-hearts"
+      ],
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Educación Física"
+      ],
+      "licenseRaw": "CC-BY 4.0",
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "attributionRequired": true,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Realistic Human Heart\", por neshallads / Sketchfab. https://sketchfab.com/3d-models/3f8072336ce94d18b3d0d055a1ece089. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/sketchfab-3f8072336ce94d18b3d0d055a1ece089/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/sketchfab-3f8072336ce94d18b3d0d055a1ece089/metadata.json",
+      "originalDownload": "models/sketchfab-3f8072336ce94d18b3d0d055a1ece089/originals.zip",
+      "bytes": 3255284,
+      "sha256": "fcb3c1036fe59dfdcc1c30917dbdaa8fbd52c858e6ba3cadaf126b44ccca4b5b",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 5,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:59:04.569734+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Sketchfab native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/sketchfab-3f8072336ce94d18b3d0d055a1ece089/model.glb",
+            "url": "https://api.sketchfab.com/v3/models/3f8072336ce94d18b3d0d055a1ece089/download",
+            "bytes": 3255284,
+            "sha256": "fcb3c1036fe59dfdcc1c30917dbdaa8fbd52c858e6ba3cadaf126b44ccca4b5b"
+          }
+        ],
+        "originalDownloadSha256": "ad54e1426e39e2f6e11ac47c157d5ad91ebfb980ada910ea1b1f85e421d5eab6",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          1.083075761795044,
+          0.8801051378250122,
+          1.6016340255737305
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/sketchfab-3f8072336ce94d18b3d0d055a1ece089/license-evidence.json",
+        "licenseEvidenceSha256": "5e7ae2c804dc77d25560498949200037fa616e99319b7d32036b1d16329927ab",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/sketchfab-3f8072336ce94d18b3d0d055a1ece089/metadata.json",
+        "metadataEvidenceSha256": "abf95b5413bc42ae57c80ae3257f8112beb7afcef6d612915752bb292ca63dac",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/sketchfab-3f8072336ce94d18b3d0d055a1ece089/technical-review.json",
+        "technicalReviewEvidenceSha256": "f7635301e69077118657e389095cc32cfb541cb4f3ed355baf724596fab35775",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "5889a892b3ba86c37e9e04ac4171c14b4a65a7d5a8c34e5d3cacfdf2210869ab",
+          "triangles": 22562
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "human-hearts",
+      "variantGroupTitle": "Corazón humano: representaciones"
+    },
+    {
+      "id": "sketchfab-83483a66f8974d7e8f2e7bbde518d606",
+      "assetId": "sketchfab:83483a66f8974d7e8f2e7bbde518d606",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "title": "Panel solar",
+      "titleOriginal": "Solar Panel",
+      "author": "rivetech",
+      "authorUrl": "https://sketchfab.com/rivetech",
+      "sourceUrl": "https://sketchfab.com/3d-models/83483a66f8974d7e8f2e7bbde518d606",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/83483a66f8974d7e8f2e7bbde518d606",
+      "downloadUrl": "https://api.sketchfab.com/v3/models/83483a66f8974d7e8f2e7bbde518d606/download",
+      "thumbnailUrl": null,
+      "description": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Solar Panel",
+        "solar-panels"
+      ],
+      "areas": [
+        "fisica-energia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "CC-BY 4.0",
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "attributionRequired": true,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Solar Panel\", por rivetech / Sketchfab. https://sketchfab.com/3d-models/83483a66f8974d7e8f2e7bbde518d606. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/sketchfab-83483a66f8974d7e8f2e7bbde518d606/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/sketchfab-83483a66f8974d7e8f2e7bbde518d606/metadata.json",
+      "originalDownload": "models/sketchfab-83483a66f8974d7e8f2e7bbde518d606/originals.zip",
+      "bytes": 2137064,
+      "sha256": "30daf01b5eaa92660a4a11b49259a336ef9bc863ccac856a50e7bbbf980caf4e",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 5,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:59:20.363347+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Sketchfab native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/sketchfab-83483a66f8974d7e8f2e7bbde518d606/model.glb",
+            "url": "https://api.sketchfab.com/v3/models/83483a66f8974d7e8f2e7bbde518d606/download",
+            "bytes": 2137064,
+            "sha256": "30daf01b5eaa92660a4a11b49259a336ef9bc863ccac856a50e7bbbf980caf4e"
+          }
+        ],
+        "originalDownloadSha256": "d5f8f9fccb2a446a7016386f36ba1aae0eb349bdc2c4918f6ed55fef5f209cbb",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          165.25994873046875,
+          66.42753601074219,
+          65.12928771972656
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/sketchfab-83483a66f8974d7e8f2e7bbde518d606/license-evidence.json",
+        "licenseEvidenceSha256": "ee6985543121c1ba2b24923706e5e36df0ad05753c27e5d3a9819eb179ca530e",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/sketchfab-83483a66f8974d7e8f2e7bbde518d606/metadata.json",
+        "metadataEvidenceSha256": "696a51ed8683cb6bc29d2ab4a494f14ad123c876824c69eae1173f20840a4bc3",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/sketchfab-83483a66f8974d7e8f2e7bbde518d606/technical-review.json",
+        "technicalReviewEvidenceSha256": "94d4747824cc8393ce05960dd2ad2476aefcab4f64a396edb154e939016db221",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "31d0066a86e340abaffda1bcd4ca739fecabfce69b79fa244570bd4b2038aab0",
+          "triangles": 1854
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "solar-panels",
+      "variantGroupTitle": "Paneles solares"
+    },
+    {
+      "id": "sketchfab-950d0a46531f492ab8715777e312a5bf",
+      "assetId": "sketchfab:950d0a46531f492ab8715777e312a5bf",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "title": "Esqueleto humano",
+      "titleOriginal": "Free Pack - Human Skeleton",
+      "author": "PolyOne Studio",
+      "authorUrl": "https://sketchfab.com/polyone",
+      "sourceUrl": "https://sketchfab.com/3d-models/950d0a46531f492ab8715777e312a5bf",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/950d0a46531f492ab8715777e312a5bf",
+      "downloadUrl": "https://api.sketchfab.com/v3/models/950d0a46531f492ab8715777e312a5bf/download",
+      "thumbnailUrl": null,
+      "description": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Free Pack - Human Skeleton",
+        "human-skeletons"
+      ],
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Educación Física"
+      ],
+      "licenseRaw": "CC-BY 4.0",
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "attributionRequired": true,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Free Pack - Human Skeleton\", por PolyOne Studio / Sketchfab. https://sketchfab.com/3d-models/950d0a46531f492ab8715777e312a5bf. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/sketchfab-950d0a46531f492ab8715777e312a5bf/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/sketchfab-950d0a46531f492ab8715777e312a5bf/metadata.json",
+      "originalDownload": "models/sketchfab-950d0a46531f492ab8715777e312a5bf/originals.zip",
+      "bytes": 3871400,
+      "sha256": "fad3fa54ba1a12d0f5a1634acf041b0cb5a47bda29724143dd6701ce36ccbd91",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 21,
+        "nodes": 46,
+        "materials": 2,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:59:28.550423+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Sketchfab native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/sketchfab-950d0a46531f492ab8715777e312a5bf/model.glb",
+            "url": "https://api.sketchfab.com/v3/models/950d0a46531f492ab8715777e312a5bf/download",
+            "bytes": 3871400,
+            "sha256": "fad3fa54ba1a12d0f5a1634acf041b0cb5a47bda29724143dd6701ce36ccbd91"
+          }
+        ],
+        "originalDownloadSha256": "27966d5f95dd7cfe96b1645cac20b596eaab782ec6ada3be005f901af8b2a1d8",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.6762398481369019,
+          0.26911866664886475,
+          1.831479549407959
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/sketchfab-950d0a46531f492ab8715777e312a5bf/license-evidence.json",
+        "licenseEvidenceSha256": "0bf3d98b8616296999cff1ac998611eec19e8e3aed32730c164a346183e21806",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/sketchfab-950d0a46531f492ab8715777e312a5bf/metadata.json",
+        "metadataEvidenceSha256": "b6c72f19c79b0e1ea2a3f96b0cf1464425a4bde7c85442bea0deca57eaac996f",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/sketchfab-950d0a46531f492ab8715777e312a5bf/technical-review.json",
+        "technicalReviewEvidenceSha256": "b7acb811c8c20d28d645c48971adc3af411e089abd8c1774d02d92c1c3812a49",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "0c08a3dfea11acecbb0de76aa033db070d1916b2577e822e3134d7237195d4ef",
+          "triangles": 51650
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "human-skeletons",
+      "variantGroupTitle": "Esqueleto humano: representaciones"
+    },
+    {
+      "id": "sketchfab-ad7d7e16b98f421db0cda79f265fcc8d",
+      "assetId": "sketchfab:ad7d7e16b98f421db0cda79f265fcc8d",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "title": "Anatomía de las vías respiratorias",
+      "titleOriginal": "Anatomy of the airways",
+      "author": "E-learning UMCG",
+      "authorUrl": "https://sketchfab.com/eLearningUMCG",
+      "sourceUrl": "https://sketchfab.com/3d-models/ad7d7e16b98f421db0cda79f265fcc8d",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/ad7d7e16b98f421db0cda79f265fcc8d",
+      "downloadUrl": "https://api.sketchfab.com/v3/models/ad7d7e16b98f421db0cda79f265fcc8d/download",
+      "thumbnailUrl": null,
+      "description": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Anatomy of the airways",
+        "human-lungs"
+      ],
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Educación Física"
+      ],
+      "licenseRaw": "CC-BY-NC-SA 4.0",
+      "license": {
+        "id": "CC-BY-NC-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "attributionRequired": true,
+        "commercialUse": false,
+        "derivatives": true,
+        "shareAlike": true
+      },
+      "attribution": "\"Anatomy of the airways\", por E-learning UMCG / Sketchfab. https://sketchfab.com/3d-models/ad7d7e16b98f421db0cda79f265fcc8d. CC-BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/metadata.json",
+      "originalDownload": "models/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/originals.zip",
+      "bytes": 8799152,
+      "sha256": "9741c32977663f75f4d3f91f56ee6a44a237322a2abb74ab210ea7b580b77324",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 8,
+        "nodes": 19,
+        "materials": 8,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": [
+          "KHR_materials_pbrSpecularGlossiness"
+        ]
+      },
+      "retrievedAt": "2026-10-23T03:59:16.865761+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review",
+        "noncommercial-license"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Sketchfab native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/model.glb",
+            "url": "https://api.sketchfab.com/v3/models/ad7d7e16b98f421db0cda79f265fcc8d/download",
+            "bytes": 8799152,
+            "sha256": "9741c32977663f75f4d3f91f56ee6a44a237322a2abb74ab210ea7b580b77324"
+          }
+        ],
+        "originalDownloadSha256": "41500c926770ea555ea58baab47c8f6333e8bfa63690d8f8cf5678c3924c3367",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.18448826670646667,
+          0.15729904174804688,
+          0.210357666015625
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/license-evidence.json",
+        "licenseEvidenceSha256": "26322a444ba648aceef0213bd3b2f1c679cc64154ce412361fe36157d035e151",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/metadata.json",
+        "metadataEvidenceSha256": "6a88e4e1d55e33b8871c78bc2fbaca7a70b87666026e620c8a704dd004e7a1ad",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/technical-review.json",
+        "technicalReviewEvidenceSha256": "e13aed874fd1f16409faf185fdc897e3738479be8e1e023ef68225da4d372cb4",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "c728ae240eeb28b81776c0bd6e713936df9d6a0ce273932f015353c9979b7af5",
+          "triangles": 237105
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "human-lungs",
+      "variantGroupTitle": "Pulmones y vías respiratorias"
+    },
+    {
+      "id": "sketchfab-ce09f4099a68467880f46e61eb9a3531",
+      "assetId": "sketchfab:ce09f4099a68467880f46e61eb9a3531",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "title": "Pulmones humanos",
+      "titleOriginal": "Realistic Human Lungs",
+      "author": "neshallads",
+      "authorUrl": "https://sketchfab.com/neshallads",
+      "sourceUrl": "https://sketchfab.com/3d-models/ce09f4099a68467880f46e61eb9a3531",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/ce09f4099a68467880f46e61eb9a3531",
+      "downloadUrl": "https://api.sketchfab.com/v3/models/ce09f4099a68467880f46e61eb9a3531/download",
+      "thumbnailUrl": null,
+      "description": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Realistic Human Lungs",
+        "human-lungs"
+      ],
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Educación Física"
+      ],
+      "licenseRaw": "CC-BY 4.0",
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "attributionRequired": true,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Realistic Human Lungs\", por neshallads / Sketchfab. https://sketchfab.com/3d-models/ce09f4099a68467880f46e61eb9a3531. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/sketchfab-ce09f4099a68467880f46e61eb9a3531/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/sketchfab-ce09f4099a68467880f46e61eb9a3531/metadata.json",
+      "originalDownload": "models/sketchfab-ce09f4099a68467880f46e61eb9a3531/originals.zip",
+      "bytes": 7630236,
+      "sha256": "c7baf3929adcef32b10a3092699b0c43a2486adc85290d363714e1df3ca52fea",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 2,
+        "nodes": 7,
+        "materials": 2,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:59:12.420330+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Sketchfab native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/sketchfab-ce09f4099a68467880f46e61eb9a3531/model.glb",
+            "url": "https://api.sketchfab.com/v3/models/ce09f4099a68467880f46e61eb9a3531/download",
+            "bytes": 7630236,
+            "sha256": "c7baf3929adcef32b10a3092699b0c43a2486adc85290d363714e1df3ca52fea"
+          }
+        ],
+        "originalDownloadSha256": "2550858088db954e6e51a6503381e4fe51fe31f59c7cde99a918278423043076",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.22330105304718018,
+          0.14234571158885956,
+          0.3687051236629486
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/sketchfab-ce09f4099a68467880f46e61eb9a3531/license-evidence.json",
+        "licenseEvidenceSha256": "8d4e3b3fa1df0f3685d71123297ab67ce05baf4a65f43440178a618ad353a86c",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/sketchfab-ce09f4099a68467880f46e61eb9a3531/metadata.json",
+        "metadataEvidenceSha256": "96d8c79459705dc52b0e5182f3b8f4618ed8b56888ac1ef3c695f1047c0a2ac8",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/sketchfab-ce09f4099a68467880f46e61eb9a3531/technical-review.json",
+        "technicalReviewEvidenceSha256": "3f93e8a4a775f1ed1b166722d1f50d652abc8c7d45fc028967aafeba35cbefa1",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "27bfa3cbccc6fbbddd0152223775a4571d327ec09fbed571aeae314b1f364af9",
+          "triangles": 63974
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "human-lungs",
+      "variantGroupTitle": "Pulmones y vías respiratorias"
+    },
+    {
+      "id": "sketchfab-e0678e6615a74ed29c1376a591262159",
+      "assetId": "sketchfab:e0678e6615a74ed29c1376a591262159",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "title": "Aerogenerador animado",
+      "titleOriginal": "Animated Wind Turbine",
+      "author": "Glowbox 3D",
+      "authorUrl": "https://sketchfab.com/glowbox3d",
+      "sourceUrl": "https://sketchfab.com/3d-models/e0678e6615a74ed29c1376a591262159",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/e0678e6615a74ed29c1376a591262159",
+      "downloadUrl": "https://api.sketchfab.com/v3/models/e0678e6615a74ed29c1376a591262159/download",
+      "thumbnailUrl": null,
+      "description": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Animated Wind Turbine",
+        "wind-turbines"
+      ],
+      "areas": [
+        "fisica-energia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "CC-BY 4.0",
+      "license": {
+        "id": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "attributionRequired": true,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Animated Wind Turbine\", por Glowbox 3D / Sketchfab. https://sketchfab.com/3d-models/e0678e6615a74ed29c1376a591262159. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/sketchfab-e0678e6615a74ed29c1376a591262159/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/sketchfab-e0678e6615a74ed29c1376a591262159/metadata.json",
+      "originalDownload": "models/sketchfab-e0678e6615a74ed29c1376a591262159/originals.zip",
+      "bytes": 1272620,
+      "sha256": "a7053cd6a0b70b6f16b915499bf04d2f186be6a3c0b7dc72be25b43648b38d0d",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 2,
+        "nodes": 8,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": true,
+        "animations": 1,
+        "animationNames": [
+          "Blades|BladesAction.001"
+        ],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:59:23.410616+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Sketchfab native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/sketchfab-e0678e6615a74ed29c1376a591262159/model.glb",
+            "url": "https://api.sketchfab.com/v3/models/e0678e6615a74ed29c1376a591262159/download",
+            "bytes": 1272620,
+            "sha256": "a7053cd6a0b70b6f16b915499bf04d2f186be6a3c0b7dc72be25b43648b38d0d"
+          }
+        ],
+        "originalDownloadSha256": "a583e9a126983f35c4c6bff1770d92eb287eddb70368c2922a634786f08576bd",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          4546.89453125,
+          1049.314697265625,
+          7979.10888671875
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/sketchfab-e0678e6615a74ed29c1376a591262159/license-evidence.json",
+        "licenseEvidenceSha256": "a440fc463a64527906a84076a474792b9d50062dd338bd1b57bf775fb2110ddc",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/sketchfab-e0678e6615a74ed29c1376a591262159/metadata.json",
+        "metadataEvidenceSha256": "0c309214c9295197881892163f3fbc8836cdd2fb5eaea41e89f904d87ff3696d",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/sketchfab-e0678e6615a74ed29c1376a591262159/technical-review.json",
+        "technicalReviewEvidenceSha256": "6cde5e2cc1cb0f521d94edcebff6b7983cc52db2fd4ac1bfc534e31af6bf6c42",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "1c5808189849a0aad4d7e24224a8b635de02635854a3f04a30694e5079e06b6e",
+          "triangles": 3104
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "wind-turbines",
+      "variantGroupTitle": "Aerogeneradores"
+    },
+    {
+      "id": "smithsonian-induction-coils",
+      "assetId": "smithsonian:3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "title": "Bobina de inducción Page",
+      "titleOriginal": "patent model, Page induction coil, US #76654",
+      "author": "Smithsonian Institution / National Museum of American History",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-4096.glb",
+      "thumbnailUrl": null,
+      "description": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "patent model, Page induction coil, US #76654",
+        "induction-coils"
+      ],
+      "areas": [
+        "fisica-energia",
+        "laboratorio-ciencia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"patent model, Page induction coil, US #76654\", por Smithsonian Institution / National Museum of American History / Smithsonian Open Access. https://3d.si.edu/object/3d/40cf5b52-0b21-4063-95fc-aa07998eb4dd. CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/smithsonian-induction-coils/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/metadata.json",
+      "originalDownload": "models/smithsonian-induction-coils/originals.zip",
+      "bytes": 10083284,
+      "sha256": "0c832bedd9ead9a06db6ccb0587b56f9d0d94cf1fac71df332f5535a54023005",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:58:46.613213+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Smithsonian Open Access native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/smithsonian-induction-coils/model.glb",
+            "url": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-4096.glb",
+            "bytes": 10083284,
+            "sha256": "0c832bedd9ead9a06db6ccb0587b56f9d0d94cf1fac71df332f5535a54023005"
+          }
+        ],
+        "originalDownloadSha256": "01806b5894575c528a7508fb489109fe6d2a7dec31d1c4af46bd57944e903deb",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          4.650334358215332,
+          9.089427947998047,
+          6.549417972564697
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/license-evidence.json",
+        "licenseEvidenceSha256": "8f612f1f79e390b5e5c2e51df0b58e1ab13b254fe6c7e205f0a70e7c6492955b",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/metadata.json",
+        "metadataEvidenceSha256": "641a372bd37aebdbcc451f9e0e6bbc45ad1bf1e2c500bb3ef99418eab1c072a1",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/technical-review.json",
+        "technicalReviewEvidenceSha256": "720ae67f243f44bd552729f350b945839d53e54527b08a8a6ac35f4cb61e911e",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "0e39d7919a271668a7eedf79ad6f7714d82885444ebdb6efd01b77534ae621fa",
+          "triangles": 150000
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "induction-coils",
+      "variantGroupTitle": "Bobinas de inducción"
+    },
+    {
+      "id": "smithsonian-lycaste-virginalis-1",
+      "assetId": "smithsonian:3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "title": "Lycaste virginalis · planta en maceta",
+      "titleOriginal": "Lycaste virginalis",
+      "author": "Smithsonian Institution / Smithsonian Gardens",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/5ff6e90a-4ddb-4eea-a69c-40970f85fbcb",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/resources/Lycaste_virginalis-150k-4096_std.glb",
+      "thumbnailUrl": null,
+      "description": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Lycaste virginalis",
+        "lycaste-virginalis"
+      ],
+      "areas": [
+        "bosques-plantas",
+        "guatemala-contexto"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Ciencias Sociales",
+        "Expresión Artística",
+        "Lenguaje L1",
+        "Lenguaje L2"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Lycaste virginalis\", por Smithsonian Institution / Smithsonian Gardens / Smithsonian Open Access. https://3d.si.edu/object/3d/5ff6e90a-4ddb-4eea-a69c-40970f85fbcb. CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/smithsonian-lycaste-virginalis-1/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-1/metadata.json",
+      "originalDownload": "models/smithsonian-lycaste-virginalis-1/originals.zip",
+      "bytes": 9502580,
+      "sha256": "8f39967500016679862269c7743f91d4ffae8556f0768a38ee7d9ef10ea4db33",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:58:37.258124+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Smithsonian Open Access native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/smithsonian-lycaste-virginalis-1/model.glb",
+            "url": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/resources/Lycaste_virginalis-150k-4096_std.glb",
+            "bytes": 9502580,
+            "sha256": "8f39967500016679862269c7743f91d4ffae8556f0768a38ee7d9ef10ea4db33"
+          }
+        ],
+        "originalDownloadSha256": "78b6256663424d38ff074933ef2997ad7812f668f482d128b362a9c087bd5241",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.5790079832077026,
+          0.5529090166091919,
+          0.5791879892349243
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-1/license-evidence.json",
+        "licenseEvidenceSha256": "21b0b97b099604136aa13f6a5d05fc5193ccf9d6d9c17f87e3c1aec4bb99cdf1",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-1/metadata.json",
+        "metadataEvidenceSha256": "96ce768277391dc3be9b364d7b2e97c64aec89901e8281fa05333951aa5c2c29",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-1/technical-review.json",
+        "technicalReviewEvidenceSha256": "a9102892912fe8499622a1b4762770a39287db362f0383d308d01c3e8a1a969e",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "58a99d0b60464a2e68fe1e75496592cc2501758d35802049062a72a6291e8513",
+          "triangles": 150000
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "lycaste-virginalis",
+      "variantGroupTitle": "Lycaste virginalis: planta y flor"
+    },
+    {
+      "id": "smithsonian-lycaste-virginalis-2",
+      "assetId": "smithsonian:3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "title": "Lycaste virginalis · flor",
+      "titleOriginal": "Lycaste virginalis",
+      "author": "Smithsonian Institution / Smithsonian Gardens",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/42e8e95f-1b67-4135-8728-cdc7aa277997",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/resources/Lycaste_virginalis-150k-4096_std.glb",
+      "thumbnailUrl": null,
+      "description": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Lycaste virginalis",
+        "lycaste-virginalis"
+      ],
+      "areas": [
+        "bosques-plantas",
+        "guatemala-contexto"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Ciencias Sociales",
+        "Expresión Artística",
+        "Lenguaje L1",
+        "Lenguaje L2"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Lycaste virginalis\", por Smithsonian Institution / Smithsonian Gardens / Smithsonian Open Access. https://3d.si.edu/object/3d/42e8e95f-1b67-4135-8728-cdc7aa277997. CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/smithsonian-lycaste-virginalis-2/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-2/metadata.json",
+      "originalDownload": "models/smithsonian-lycaste-virginalis-2/originals.zip",
+      "bytes": 7687432,
+      "sha256": "ac855b00d5d07f257f34e2b0072c9be9d9fe68802eb24fa76e8824f8bb89f8ac",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:58:41.364801+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Smithsonian Open Access native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/smithsonian-lycaste-virginalis-2/model.glb",
+            "url": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/resources/Lycaste_virginalis-150k-4096_std.glb",
+            "bytes": 7687432,
+            "sha256": "ac855b00d5d07f257f34e2b0072c9be9d9fe68802eb24fa76e8824f8bb89f8ac"
+          }
+        ],
+        "originalDownloadSha256": "b8a0860ddb2451ae14322a14cf0d12e4eeeb2e22151589b5d3d28f822ec5d1c0",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.11147300153970718,
+          0.06076899915933609,
+          0.1242000013589859
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-2/license-evidence.json",
+        "licenseEvidenceSha256": "7cd007559ac3ecd2aa62be7db422edb30aa8e7377f60ad58db27c30920c5c571",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-2/metadata.json",
+        "metadataEvidenceSha256": "96ce768277391dc3be9b364d7b2e97c64aec89901e8281fa05333951aa5c2c29",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-2/technical-review.json",
+        "technicalReviewEvidenceSha256": "acd582a5783d32275b662d55bf5e411ffd87214c7c3da6d5adb0a3d267fb9ac5",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "5393157630f5dd5f2688a1f549678fda7f0960808b2153080ebeb0f7fdcba855",
+          "triangles": 149996
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "lycaste-virginalis",
+      "variantGroupTitle": "Lycaste virginalis: planta y flor"
+    },
+    {
+      "id": "smithsonian-triceratops-skeletons",
+      "assetId": "smithsonian:3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "title": "Triceratops · fósil digitalizado",
+      "titleOriginal": "Triceratops horridus Marsh, 1889",
+      "author": "Smithsonian Institution / NMNH - Paleobiology Dept.",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/d8c623be-4ebc-11ea-b77f-2e728ce88125",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125/resources/Triceratops_horridus_Marsh_1889-150k-4096.glb",
+      "thumbnailUrl": null,
+      "description": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Triceratops horridus Marsh, 1889",
+        "triceratops-skeletons"
+      ],
+      "areas": [
+        "animales-biodiversidad"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Triceratops horridus Marsh, 1889\", por Smithsonian Institution / NMNH - Paleobiology Dept. / Smithsonian Open Access. https://3d.si.edu/object/3d/d8c623be-4ebc-11ea-b77f-2e728ce88125. CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/smithsonian-triceratops-skeletons/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/metadata.json",
+      "originalDownload": "models/smithsonian-triceratops-skeletons/originals.zip",
+      "bytes": 14395048,
+      "sha256": "cd8525c7371d14876bcdefe3f579d216bf597db892c2de6ed597da86bf1a98b3",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:58:32.233931+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Smithsonian Open Access native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/smithsonian-triceratops-skeletons/model.glb",
+            "url": "https://3d-api.si.edu/content/document/3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125/resources/Triceratops_horridus_Marsh_1889-150k-4096.glb",
+            "bytes": 14395048,
+            "sha256": "cd8525c7371d14876bcdefe3f579d216bf597db892c2de6ed597da86bf1a98b3"
+          }
+        ],
+        "originalDownloadSha256": "479ef5c7f5e1dbf3f10c440873c22706d2c92587d0ace17c0b8a9c7bbab98c92",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          2.803518056869507,
+          5.8914642333984375,
+          1.661695957183838
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/license-evidence.json",
+        "licenseEvidenceSha256": "be9546fa8d7634736ba4638ce715ca5c5bfb5aa1ca3fd8993810d799c6aa9210",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/metadata.json",
+        "metadataEvidenceSha256": "1e6a6fba632e62605b469b505218d44ec9fac1723ffaddf8d364d071a1da8915",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/technical-review.json",
+        "technicalReviewEvidenceSha256": "6fdc27fb1f5f115cccd65f030b35761784a6e6cc2fa09518a8e27dfdad5773f1",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "e15be900bc24e52faf10acc0652b9dad181015a94aecc173dbe5ce9d4b3a80e9",
+          "triangles": 149998
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "triceratops-skeletons",
+      "variantGroupTitle": "Triceratops: fósiles digitalizados"
+    },
+    {
+      "id": "smithsonian-trilobite-fossils",
+      "assetId": "smithsonian:3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "title": "Trilobite Poliella prima",
+      "titleOriginal": "Poliella prima (Walcott)",
+      "author": "Smithsonian Institution / NMNH - Paleobiology Dept.",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/fcec58e8-ac1f-425d-9d83-8b16ca72b60c",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/resources/nmnh-116112_w9k-150k-4096_std.glb",
+      "thumbnailUrl": null,
+      "description": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Poliella prima (Walcott)",
+        "trilobite-fossils"
+      ],
+      "areas": [
+        "animales-biodiversidad",
+        "tierra-geografia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Ciencias Sociales"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Poliella prima (Walcott)\", por Smithsonian Institution / NMNH - Paleobiology Dept. / Smithsonian Open Access. https://3d.si.edu/object/3d/fcec58e8-ac1f-425d-9d83-8b16ca72b60c. CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/smithsonian-trilobite-fossils/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/smithsonian-trilobite-fossils/metadata.json",
+      "originalDownload": "models/smithsonian-trilobite-fossils/originals.zip",
+      "bytes": 6813864,
+      "sha256": "8445d9580955f4bfdf4959ad271d7983574192b656c95eadbc2f4ddfa804d9d2",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:58:54.193021+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Smithsonian Open Access native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/smithsonian-trilobite-fossils/model.glb",
+            "url": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/resources/nmnh-116112_w9k-150k-4096_std.glb",
+            "bytes": 6813864,
+            "sha256": "8445d9580955f4bfdf4959ad271d7983574192b656c95eadbc2f4ddfa804d9d2"
+          }
+        ],
+        "originalDownloadSha256": "631ee780fe091669093bcc59f6294e53c26bb6c52981e9f283e5e27b3a194387",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          24.471050262451172,
+          21.499309539794922,
+          6.368103981018066
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/smithsonian-trilobite-fossils/license-evidence.json",
+        "licenseEvidenceSha256": "87ffcb8934bd7e2a2a7add8841eb258feca32a631fa6bef1011d3d9d05ae3050",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/smithsonian-trilobite-fossils/metadata.json",
+        "metadataEvidenceSha256": "2a3f6e22840ac3759bb4b7d7f431afff31cf73c570f95ccece2731190063af1c",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/smithsonian-trilobite-fossils/technical-review.json",
+        "technicalReviewEvidenceSha256": "3cac47ad90dad6999fb43409cea8e8750b1d63c2d8038cafe3822671b3f81d3d",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "cb92c80bd11f9d847ce70817d61a0c4761b6197473a2a9fc4e575c344f6db765",
+          "triangles": 150000
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "trilobite-fossils",
+      "variantGroupTitle": "Trilobites fósiles"
+    },
+    {
+      "id": "smithsonian-whale-fossils",
+      "assetId": "smithsonian:3d_package:1f1ec6af-193f-4969-9185-dc5dd587239d",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "title": "Excavación de ballena fósil MPC 675",
+      "titleOriginal": "Fossil whale excavation site MPC 675",
+      "author": "Smithsonian Institution / NMNH - Paleobiology Dept.",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/1f1ec6af-193f-4969-9185-dc5dd587239d",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:1f1ec6af-193f-4969-9185-dc5dd587239d/resources/whale-mpc-675-150k-4096.glb",
+      "thumbnailUrl": null,
+      "description": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes. Uso curricular y exactitud científica pendientes de revisión docente.",
+      "category": "Referencias científicas y educativas",
+      "tags": [
+        "Fossil whale excavation site MPC 675",
+        "whale-fossils"
+      ],
+      "areas": [
+        "animales-biodiversidad",
+        "tierra-geografia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Ciencias Sociales"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Fossil whale excavation site MPC 675\", por Smithsonian Institution / NMNH - Paleobiology Dept. / Smithsonian Open Access. https://3d.si.edu/object/3d/1f1ec6af-193f-4969-9185-dc5dd587239d. CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/.",
+      "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+      "file": "models/smithsonian-whale-fossils/model.glb",
+      "sourceMetadataFile": "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/metadata.json",
+      "originalDownload": "models/smithsonian-whale-fossils/originals.zip",
+      "bytes": 12557000,
+      "sha256": "1ea37a71fc282699d3c0d2a69961bb8c05b4a08535cb7f060cd490cdb3b64b12",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-23T03:59:00.669752+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+      "reviewFlags": [
+        "scientific-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Smithsonian Open Access native GLB",
+        "sourceMember": "model.glb",
+        "originalFiles": [
+          {
+            "file": "models/smithsonian-whale-fossils/model.glb",
+            "url": "https://3d-api.si.edu/content/document/3d_package:1f1ec6af-193f-4969-9185-dc5dd587239d/resources/whale-mpc-675-150k-4096.glb",
+            "bytes": 12557000,
+            "sha256": "1ea37a71fc282699d3c0d2a69961bb8c05b4a08535cb7f060cd490cdb3b64b12"
+          }
+        ],
+        "originalDownloadSha256": "c364f0eb38558977276e67883d1ed436c6007157647b835ee786f3295feaaea5",
+        "nativeBytesUnchanged": true,
+        "conversionTool": null,
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          8977.7158203125,
+          5576.2373046875,
+          1871.70849609375
+        ],
+        "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+        "licenseEvidence": "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/license-evidence.json",
+        "licenseEvidenceSha256": "3829179d2b3c55d32d7a790e24de00d0c880522ab9016646df029c9aca3d69b9",
+        "metadataEvidence": "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/metadata.json",
+        "metadataEvidenceSha256": "8ce7b1aef0fc2b239fbfb57fe3cc9d4de63899d615d911e6faad9def0ece1713",
+        "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/technical-review.json",
+        "technicalReviewEvidenceSha256": "80b93427c274faf55119254b6c04bb216b8a759a7378bc474257f133538198cd",
+        "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+        "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+      },
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS",
+        "educational": "NOT_RUN",
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "16a9660a894133bae65d8a432b9feb9c39f1a81dc52d210a785d2a9db5dc3f4e",
+          "triangles": 149999
+        }
+      },
+      "kitIds": [],
+      "variantGroupId": "whale-fossils",
+      "variantGroupTitle": "Fósiles de ballena"
     },
     {
       "id": "u78ByZHYB2",

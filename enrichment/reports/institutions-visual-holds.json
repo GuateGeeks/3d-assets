@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "downloaded": 29,
+  "eligible": 24,
+  "held": [
+    {
+      "id": "nasa-james-webb-space-telescope-a",
+      "providerId": "nasa",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/james-webb-space-telescope-a/",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "reason": "Componente aislado visible fuera del cuerpo del telescopio; conservar original y evaluar composición antes de publicar. Se conserva la variante B como alternativa.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "nasa-international-space-station-iss-b",
+      "providerId": "nasa",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/international-space-station-iss-b/",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "reason": "Elemento aislado separado de la estación y lectura visual menos clara que la variante A; requiere evaluación antes de publicación.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "nasa-1999-rq36-asteroid",
+      "providerId": "nasa",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/1999-rq36-asteroid/",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "reason": "Material nativo muy oscuro; forma y relieve no se leen con suficiente claridad en las vistas estándar.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "smithsonian-mammoth-skeletons",
+      "providerId": "smithsonian",
+      "sourceUrl": "https://3d.si.edu/object/3d/341c96cd-f967-4540-8ed1-d3fc56d31f12",
+      "licenseRaw": "CC0 1.0",
+      "reason": "Apariencia nativa blanca plana; los huesos no se distinguen con suficiente sombreado en el render estándar.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "sketchfab-e24e96b6bc39423b871b10f098876b8f",
+      "providerId": "sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/e24e96b6bc39423b871b10f098876b8f",
+      "licenseRaw": "CC-BY 4.0",
+      "reason": "Materiales nativos blancos con lectura de piel y huesos insuficiente en las vistas estándar.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    }
+  ]
+}

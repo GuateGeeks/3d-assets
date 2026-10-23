@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    4.650334358215332,
+    9.089427947998047,
+    6.549417972564697
+  ],
+  "boundsMinBlender": [
+    -2.324808120727539,
+    -4.544684886932373,
+    -3.2745370864868164
+  ],
+  "boundsMaxBlender": [
+    2.325525999069214,
+    4.544743061065674,
+    3.274880886077881
+  ],
+  "meshObjects": 1,
+  "polygons": 150000,
+  "vertices": 88377,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "smithsonian-induction-coils",
+  "sourceFile": "model.glb",
+  "glbSha256": "0c832bedd9ead9a06db6ccb0587b56f9d0d94cf1fac71df332f5535a54023005",
+  "reimport": {
+    "dimensionsBlender": [
+      4.650334358215332,
+      9.089427947998047,
+      6.549417972564697
+    ],
+    "boundsMinBlender": [
+      -2.324808120727539,
+      -4.544684886932373,
+      -3.2745370864868164
+    ],
+    "boundsMaxBlender": [
+      2.325525999069214,
+      4.544743061065674,
+      3.274880886077881
+    ],
+    "meshObjects": 1,
+    "polygons": 150000,
+    "vertices": 88377,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0009089427947998047,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/renders/source-back.png": "455722fb76064bf81af36369f59b591977226f87cbb36ae9a1071ccad2ddc683",
+    "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/renders/source-side.png": "2c3fed698a6e71c6478972aa6e267626de19a47adacd68a899bbcdfdc1f8d931",
+    "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/renders/source-front.png": "ecf646508bd41fba2c21845527bd5ea1bd9bdc4337a65c9829ebfb9d93c7e697",
+    "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/renders/reimport-three-quarter.png": "68cc5980bc90ebdad3da29a989b170aa5599a96a6b2c82c5ba474542392bee75",
+    "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/renders/source-three-quarter.png": "cbc8bcd96bc70b2aaf95d84783171656c88253b5e8fe3e8f211f31068cf3732a",
+    "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/renders/source-wireframe.png": "b9be5e767096334dac0d2d0bebe01af73079f7ac6636fdb468d69fc276eac973"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

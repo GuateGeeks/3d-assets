@@ -59,3 +59,9 @@ El primer lote amplía la galería y sus índices; los modelos originales existe
 Confirmar o recuperar el listado original, elegir el primer lote de `priorities.json`, resolver acceso de la fuente elegida y verificar derechos por archivo. Después implementar su adaptador con adquisición oficial, evidencia y deduplicación. No se ha programado un rastreo recurrente ni una descarga masiva.
 
 La adquisición y conversión utiliza Blender para export/render y Pillow para codificar WebP. El sitio estático y su validación continúan usando únicamente la biblioteca estándar de Python. `tools/promote_external.py` es una promoción offline que exige evidencia de deduplicación y revisión; nunca sobrescribe una carpeta de modelo existente.
+
+## Corte de referencias institucionales
+
+`tools/acquire_institutions.py` usa una selección explícita y token de Sketchfab solo en memoria. `tools/review_institutions.py` guarda/reabre Blender, produce seis vistas CPU y reimporta el GLB. `tools/deduplicate_institutions.py` compara todo el catálogo con Draco local; `tools/promote_institutions.py` exige evidencias técnicas, visuales, de derechos y hashes antes de copiar. La promoción preserva los originales nativos.
+
+Se adquirieron 29 modelos; 24 se promovieron (NASA 10, Smithsonian 6, Sketchfab 8) y cinco permanecen en staging por problemas visuales. Veinte familias incluyen nueve representaciones anteriores, sin alterar sus metadatos. Quaternius sigue bloqueado por evidencia de licencia específica incompleta y cuota de descarga. `reports/pending-institutions.json` registra los casos. Los registros de búsqueda históricos y los 1021 originales se conservan. Los renders y revisiones originales se mantienen inmutables.

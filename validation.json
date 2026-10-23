@@ -1,34 +1,40 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23T00:03:21.191311+00:00",
-  "models": 1021,
-  "bytes": 250693396,
-  "rigged": 19,
-  "animated": 19,
+  "generatedAt": "2026-10-23T04:13:29.979507+00:00",
+  "models": 1045,
+  "bytes": 358845248,
+  "rigged": 20,
+  "animated": 23,
   "licenses": {
     "CC-BY 3.0": 274,
-    "CC0 1.0": 739,
-    "CC-BY-SA 4.0": 8
+    "CC0 1.0": 745,
+    "NASA Media Usage Guidelines": 10,
+    "CC-BY-SA 4.0": 8,
+    "CC-BY 4.0": 7,
+    "CC-BY-NC-SA 4.0": 1
   },
   "providers": {
     "Poly Pizza": 342,
     "Kenney": 637,
+    "NASA 3D Resources": 10,
     "OpenGameArt": 14,
-    "Poly Haven": 28
+    "Poly Haven": 28,
+    "Sketchfab": 8,
+    "Smithsonian Open Access": 6
   },
   "areas": {
     "personajes-animacion": 15,
-    "animales-biodiversidad": 27,
-    "bosques-plantas": 128,
+    "animales-biodiversidad": 30,
+    "bosques-plantas": 130,
     "agua-oceanos": 33,
-    "tierra-geografia": 132,
-    "espacio-astronomia": 18,
-    "laboratorio-ciencia": 20,
-    "cuerpo-salud": 20,
+    "tierra-geografia": 134,
+    "espacio-astronomia": 28,
+    "laboratorio-ciencia": 21,
+    "cuerpo-salud": 25,
     "alimentos-agricultura": 243,
     "matematicas-medicion": 138,
-    "fisica-energia": 30,
-    "robotica-electronica": 27,
+    "fisica-energia": 34,
+    "robotica-electronica": 29,
     "computacion-redes": 15,
     "escuela-lenguaje": 16,
     "comunidad-ciudadania": 128,
@@ -39,7 +45,7 @@
     "oficios-productividad": 23,
     "ambiente-sostenibilidad": 13,
     "escenarios-videojuegos": 436,
-    "guatemala-contexto": 9
+    "guatemala-contexto": 11
   },
   "errors": [],
   "validationScope": "SHA-256, source evidence, GLB structure and offline dependencies; external rendering QA is recorded per model"

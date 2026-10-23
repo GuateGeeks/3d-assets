@@ -1,0 +1,112 @@
+{
+  "id": "smithsonian-triceratops-skeletons",
+  "assetId": "smithsonian:3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125",
+  "providerId": "smithsonian",
+  "provider": "Smithsonian Open Access",
+  "title": "Triceratops · fósil digitalizado",
+  "titleOriginal": "Triceratops horridus Marsh, 1889",
+  "author": "Smithsonian Institution / NMNH - Paleobiology Dept.",
+  "authorUrl": "https://www.si.edu",
+  "sourceUrl": "https://3d.si.edu/object/3d/d8c623be-4ebc-11ea-b77f-2e728ce88125",
+  "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+  "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125/resources/Triceratops_horridus_Marsh_1889-150k-4096.glb",
+  "thumbnailUrl": null,
+  "description": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Triceratops horridus Marsh, 1889",
+    "triceratops-skeletons"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Triceratops horridus Marsh, 1889\", por Smithsonian Institution / NMNH - Paleobiology Dept. / Smithsonian Open Access. https://3d.si.edu/object/3d/d8c623be-4ebc-11ea-b77f-2e728ce88125. CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/smithsonian-triceratops-skeletons/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/metadata.json",
+  "originalDownload": "models/smithsonian-triceratops-skeletons/originals.zip",
+  "bytes": 14395048,
+  "sha256": "cd8525c7371d14876bcdefe3f579d216bf597db892c2de6ed597da86bf1a98b3",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-23T03:58:32.233931+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Smithsonian Open Access native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/smithsonian-triceratops-skeletons/model.glb",
+        "url": "https://3d-api.si.edu/content/document/3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125/resources/Triceratops_horridus_Marsh_1889-150k-4096.glb",
+        "bytes": 14395048,
+        "sha256": "cd8525c7371d14876bcdefe3f579d216bf597db892c2de6ed597da86bf1a98b3"
+      }
+    ],
+    "originalDownloadSha256": "479ef5c7f5e1dbf3f10c440873c22706d2c92587d0ace17c0b8a9c7bbab98c92",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      2.803518056869507,
+      5.8914642333984375,
+      1.661695957183838
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/license-evidence.json",
+    "licenseEvidenceSha256": "be9546fa8d7634736ba4638ce715ca5c5bfb5aa1ca3fd8993810d799c6aa9210",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/metadata.json",
+    "metadataEvidenceSha256": "1e6a6fba632e62605b469b505218d44ec9fac1723ffaddf8d364d071a1da8915",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/technical-review.json",
+    "technicalReviewEvidenceSha256": "6fdc27fb1f5f115cccd65f030b35761784a6e6cc2fa09518a8e27dfdad5773f1",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "e15be900bc24e52faf10acc0652b9dad181015a94aecc173dbe5ce9d4b3a80e9",
+      "triangles": 149998
+    }
+  }
+}

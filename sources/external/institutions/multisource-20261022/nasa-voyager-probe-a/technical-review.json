@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    0.09999999403953552,
+    0.33664965629577637,
+    0.2092304825782776
+  ],
+  "boundsMinBlender": [
+    -0.04999999701976776,
+    -0.23314964771270752,
+    -0.04977565258741379
+  ],
+  "boundsMaxBlender": [
+    0.04999999701976776,
+    0.10350000113248825,
+    0.1594548225402832
+  ],
+  "meshObjects": 1,
+  "polygons": 29911,
+  "vertices": 89733,
+  "materials": 16,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "nasa-voyager-probe-a",
+  "sourceFile": "model.glb",
+  "glbSha256": "7cf8eefb5a0fca9e4e1b0d1e51c37433124169183e5dbfd2d8034af902311821",
+  "reimport": {
+    "dimensionsBlender": [
+      0.09999999403953552,
+      0.33664965629577637,
+      0.2092304825782776
+    ],
+    "boundsMinBlender": [
+      -0.04999999701976776,
+      -0.23314964771270752,
+      -0.04977565258741379
+    ],
+    "boundsMaxBlender": [
+      0.04999999701976776,
+      0.10350000113248825,
+      0.1594548225402832
+    ],
+    "meshObjects": 1,
+    "polygons": 29911,
+    "vertices": 89733,
+    "materials": 16,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 3.3664965629577636e-05,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/renders/source-back.png": "81d58cd6504eec4e68e3e70750617bad449f7d841e8635b7f9b9fbb3f873ead3",
+    "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/renders/source-side.png": "dbb2a785b8ac5b04d5b269bda2fb72d6d85b1b6046b0f174898f9f8ebfc6f731",
+    "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/renders/source-front.png": "87a10d8838f0cdc4ff34f5a5e2bdad7289677697684cb9c3d6ac75215003167a",
+    "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/renders/reimport-three-quarter.png": "796c98a037f7ba06b0aa1b014ba9ca9fc78e2d371a37128b3663bdb26f1d2000",
+    "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/renders/source-three-quarter.png": "16628dbc39a7b2e686b3558cda34ede35b6edef8bd4b0b00d6d52feabcc91223",
+    "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/renders/source-wireframe.png": "6fcb702049247c17e26e766943b6c1b516e3d48ed0964f39a4ff5b1d1de71166"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

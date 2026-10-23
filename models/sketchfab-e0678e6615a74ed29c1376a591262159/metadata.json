@@ -1,0 +1,115 @@
+{
+  "id": "sketchfab-e0678e6615a74ed29c1376a591262159",
+  "assetId": "sketchfab:e0678e6615a74ed29c1376a591262159",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Aerogenerador animado",
+  "titleOriginal": "Animated Wind Turbine",
+  "author": "Glowbox 3D",
+  "authorUrl": "https://sketchfab.com/glowbox3d",
+  "sourceUrl": "https://sketchfab.com/3d-models/e0678e6615a74ed29c1376a591262159",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/e0678e6615a74ed29c1376a591262159",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/e0678e6615a74ed29c1376a591262159/download",
+  "thumbnailUrl": null,
+  "description": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Animated Wind Turbine",
+    "wind-turbines"
+  ],
+  "areas": [
+    "fisica-energia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Animated Wind Turbine\", por Glowbox 3D / Sketchfab. https://sketchfab.com/3d-models/e0678e6615a74ed29c1376a591262159. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-e0678e6615a74ed29c1376a591262159/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/sketchfab-e0678e6615a74ed29c1376a591262159/metadata.json",
+  "originalDownload": "models/sketchfab-e0678e6615a74ed29c1376a591262159/originals.zip",
+  "bytes": 1272620,
+  "sha256": "a7053cd6a0b70b6f16b915499bf04d2f186be6a3c0b7dc72be25b43648b38d0d",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 8,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": true,
+    "animations": 1,
+    "animationNames": [
+      "Blades|BladesAction.001"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-23T03:59:23.410616+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-e0678e6615a74ed29c1376a591262159/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/e0678e6615a74ed29c1376a591262159/download",
+        "bytes": 1272620,
+        "sha256": "a7053cd6a0b70b6f16b915499bf04d2f186be6a3c0b7dc72be25b43648b38d0d"
+      }
+    ],
+    "originalDownloadSha256": "a583e9a126983f35c4c6bff1770d92eb287eddb70368c2922a634786f08576bd",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      4546.89453125,
+      1049.314697265625,
+      7979.10888671875
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/sketchfab-e0678e6615a74ed29c1376a591262159/license-evidence.json",
+    "licenseEvidenceSha256": "a440fc463a64527906a84076a474792b9d50062dd338bd1b57bf775fb2110ddc",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/sketchfab-e0678e6615a74ed29c1376a591262159/metadata.json",
+    "metadataEvidenceSha256": "0c309214c9295197881892163f3fbc8836cdd2fb5eaea41e89f904d87ff3696d",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/sketchfab-e0678e6615a74ed29c1376a591262159/technical-review.json",
+    "technicalReviewEvidenceSha256": "6cde5e2cc1cb0f521d94edcebff6b7983cc52db2fd4ac1bfc534e31af6bf6c42",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "1c5808189849a0aad4d7e24224a8b635de02635854a3f04a30694e5079e06b6e",
+      "triangles": 3104
+    }
+  }
+}

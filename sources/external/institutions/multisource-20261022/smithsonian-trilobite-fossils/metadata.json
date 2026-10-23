@@ -1,0 +1,254 @@
+{
+  "status": 200,
+  "responseCode": 1,
+  "response": {
+    "rows": [
+      {
+        "id": "ld1-1643414734068-1643414743831-0",
+        "title": "Poliella prima (Walcott)",
+        "unitCode": "NMNHPALEO",
+        "type": "edanmdm",
+        "url": "edanmdm:nmnhpaleobiology_3022367",
+        "content": {
+          "freetext": {
+            "notes": [
+              {
+                "label": "Record Last Modified",
+                "content": "5 Sep 2026"
+              },
+              {
+                "label": "Stratigraphy",
+                "content": "/ Mount Whyte Fm"
+              }
+            ],
+            "setName": [
+              {
+                "label": "See more items in",
+                "content": "Invertebrate Paleontology"
+              },
+              {
+                "label": "See more items in",
+                "content": "Arthropoda Types"
+              },
+              {
+                "label": "See more items in",
+                "content": "Arthropoda Trilobita Type"
+              },
+              {
+                "label": "See more items in",
+                "content": "Paleobiology"
+              }
+            ],
+            "publisher": [
+              {
+                "label": "Published Name",
+                "content": "Poliella prima (Walcott)"
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data Source",
+                "content": "NMNH - Paleobiology Dept."
+              }
+            ],
+            "identifier": [
+              {
+                "label": "USNM Number",
+                "content": "PAL116112"
+              }
+            ],
+            "taxonomicName": [
+              {
+                "label": "Taxonomy",
+                "content": "Animalia Arthropoda Trilobita"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "topic": [
+              "Invertebrate Paleontology",
+              "Trilobita"
+            ],
+            "tax_class": [
+              "Trilobita"
+            ],
+            "tax_phylum": [
+              "Arthropoda"
+            ],
+            "tax_kingdom": [
+              "Animalia"
+            ],
+            "scientific_name": [
+              "Poliella prima (Walcott)"
+            ],
+            "strat_formation": [
+              "Mount Whyte Fm"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "guid": "http://n2t.net/ark:/65665/3b8ac40e8-2b17-4817-8488-f10907ed93c4",
+            "title": {
+              "label": "title",
+              "content": "Poliella prima (Walcott)"
+            },
+            "record_ID": "nmnhpaleobiology_3022367",
+            "unit_code": "NMNHPALEO",
+            "title_sort": "POLIELLA PRIMA WALCOTT",
+            "data_source": "NMNH - Paleobiology Dept.",
+            "record_link": "http://n2t.net/ark:/65665/3b8ac40e8-2b17-4817-8488-f10907ed93c4",
+            "online_media": {
+              "media": [
+                {
+                  "id": "3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c",
+                  "type": "3d_voyager",
+                  "usage": {
+                    "text": "",
+                    "codes": "",
+                    "access": "CC0"
+                  },
+                  "content": "https://3d-api.si.edu/voyager/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c",
+                  "resources": [
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/resources/nmnh-116112_w9k-150k-4096_std.glb",
+                      "name": "nmnh-116112_w9k-150k-4096_std.glb",
+                      "type": "3D mesh",
+                      "title": "nmnh-116112_w9k-150k-4096_std.glb (Low resolution 3D mesh, glb, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "nmnh-116112_w9k-150k-4096_std.glb",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "glb",
+                          "MODEL_FILE_TYPE": "glb",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 6813864
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/resources/nmnh-116112_w9k-full_resolution-ply_std.zip",
+                      "name": "nmnh-116112_w9k-full_resolution-ply_std.zip",
+                      "type": "3D mesh",
+                      "title": "nmnh-116112_w9k-full_resolution-ply_std.zip (Full resolution 3D mesh, ply, scale in m)",
+                      "category": "Full resolution",
+                      "filename": "nmnh-116112_w9k-full_resolution-ply_std.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "ply",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 15448097
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/resources/nmnh-116112_w9k-100k-2048_std.usdz",
+                      "name": "nmnh-116112_w9k-100k-2048_std.usdz",
+                      "type": "3D mesh",
+                      "title": "nmnh-116112_w9k-100k-2048_std.usdz (iOS AR model 3D mesh, usdz, scale in m)",
+                      "category": "iOS AR model",
+                      "filename": "nmnh-116112_w9k-100k-2048_std.usdz",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "usdz",
+                          "MODEL_FILE_TYPE": "usdz",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 10792849
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/resources/nmnh-116112_w9k-150k-4096-gltf_std.zip",
+                      "name": "nmnh-116112_w9k-150k-4096-gltf_std.zip",
+                      "type": "3D mesh",
+                      "title": "nmnh-116112_w9k-150k-4096-gltf_std.zip (Low resolution 3D mesh, gltf, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "nmnh-116112_w9k-150k-4096-gltf_std.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "gltf",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 5131671
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/resources/nmnh-116112_w9k-150k-4096-obj_std.zip",
+                      "name": "nmnh-116112_w9k-150k-4096-obj_std.zip",
+                      "type": "3D mesh",
+                      "title": "nmnh-116112_w9k-150k-4096-obj_std.zip (Low resolution 3D mesh, obj, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "nmnh-116112_w9k-150k-4096-obj_std.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "obj",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 5508019
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/resources/nmnh-116112_w9k-100k-2048_std_draco.glb",
+                      "name": "nmnh-116112_w9k-100k-2048_std_draco.glb",
+                      "type": "3D mesh",
+                      "title": "nmnh-116112_w9k-100k-2048_std_draco.glb (Low resolution 3D mesh, glb, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "nmnh-116112_w9k-100k-2048_std_draco.glb",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "glb",
+                          "MODEL_FILE_TYPE": "glb",
+                          "DRACO_COMPRESSED": true,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 1320272
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnail": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/scene-image-thumb.jpg",
+                  "voyagerId": "3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c"
+                }
+              ],
+              "mediaCount": 1
+            },
+            "metadata_usage": {
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "b6cee4b6b798987e05ddc550b2438d511c0f073c",
+        "docSignature": "692d435c4d689a094386d90bc93e8762",
+        "timestamp": "1663784862",
+        "lastTimeUpdated": "1789583745",
+        "version": "1789557897"
+      }
+    ],
+    "facets": {},
+    "rowCount": 1,
+    "message": "content found"
+  }
+}

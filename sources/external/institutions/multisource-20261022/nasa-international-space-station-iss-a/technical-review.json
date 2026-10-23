@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    25.614238739013672,
+    15.37343692779541,
+    15.962973594665527
+  ],
+  "boundsMinBlender": [
+    -12.80600357055664,
+    -3.8074722290039062,
+    -6.492720603942871
+  ],
+  "boundsMaxBlender": [
+    12.808236122131348,
+    11.565964698791504,
+    9.470252990722656
+  ],
+  "meshObjects": 1,
+  "polygons": 6642,
+  "vertices": 7565,
+  "materials": 6,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "nasa-international-space-station-iss-a",
+  "sourceFile": "model.glb",
+  "glbSha256": "70d0619a69312a45cbf740ba9a491fad854e10226dc5936c213fb1f93f063678",
+  "reimport": {
+    "dimensionsBlender": [
+      25.614238739013672,
+      15.37343692779541,
+      15.962973594665527
+    ],
+    "boundsMinBlender": [
+      -12.80600357055664,
+      -3.8074722290039062,
+      -6.492720603942871
+    ],
+    "boundsMaxBlender": [
+      12.808236122131348,
+      11.565964698791504,
+      9.470252990722656
+    ],
+    "meshObjects": 1,
+    "polygons": 6642,
+    "vertices": 7565,
+    "materials": 6,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0025614238739013672,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/renders/source-back.png": "c039877ce397466f01f6e2397adadc9253b3d3ff37e8fcc169ae0947211b11ee",
+    "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/renders/source-side.png": "71d745947ce882f3ffc524777ef513daa00c8c18e8c500a4f3d5a55397ebc05d",
+    "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/renders/source-front.png": "b18b3e14a81effa860a91da7e31ea154bc77a220c9ee098698be8f98d7bb7848",
+    "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/renders/reimport-three-quarter.png": "3e1fa1d0f8e314a8d3538d2c4d6ac1e886f451d71b88fb06286226f862367822",
+    "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/renders/source-three-quarter.png": "38b0ada095aa55cf82206b1e66312bd713f9d1dd544f5af04e4a2b5df3cbd078",
+    "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/renders/source-wireframe.png": "3e9e22a74fc58205ddd2cca8f450ded30dddb66215d028b3f7b0cc5a02d07c0d"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "nasa-deep-space-network-34-meter",
+  "assetId": "nasa:deep-space-network-34-meter",
+  "providerId": "nasa",
+  "provider": "NASA 3D Resources",
+  "title": "Antena Deep Space Network de 34 m",
+  "titleOriginal": "Deep Space Network 34-meter",
+  "author": "NASA/Brian E. Kumanchik; NASA/Christian A. Lopez",
+  "authorUrl": "https://science.nasa.gov/3d-resources/deep-space-network-34-meter/",
+  "sourceUrl": "https://science.nasa.gov/3d-resources/deep-space-network-34-meter/",
+  "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/deep-space-network-34-meter/Deep%20Space%20Network%2034-meter.glb",
+  "thumbnailUrl": null,
+  "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Deep Space Network 34-meter",
+    "dsn-antennas"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "NASA Media Usage Guidelines",
+  "license": {
+    "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attributionRequired": true,
+    "commercialUse": null,
+    "derivatives": null,
+    "shareAlike": false,
+    "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+  },
+  "attribution": "\"Deep Space Network 34-meter\", por NASA/Brian E. Kumanchik; NASA/Christian A. Lopez / NASA 3D Resources. https://science.nasa.gov/3d-resources/deep-space-network-34-meter/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/nasa-deep-space-network-34-meter/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/metadata.json",
+  "originalDownload": "models/nasa-deep-space-network-34-meter/originals.zip",
+  "bytes": 2903116,
+  "sha256": "7a4b71f14da463fb70b5da7757c99fb8868a1f0d82f4c28cf3d57019f051a806",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 8,
+    "nodes": 8,
+    "materials": 9,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": [
+      "KHR_draco_mesh_compression"
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:18.577254+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "NASA 3D Resources native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/nasa-deep-space-network-34-meter/model.glb",
+        "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/deep-space-network-34-meter/Deep%20Space%20Network%2034-meter.glb",
+        "bytes": 2903116,
+        "sha256": "7a4b71f14da463fb70b5da7757c99fb8868a1f0d82f4c28cf3d57019f051a806"
+      }
+    ],
+    "originalDownloadSha256": "5b83e87f4ddcb2138ef313f9881c97cf1797cc556207ef57ddf9fbb25e73393d",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      34.024810791015625,
+      33.969547271728516,
+      36.79209518432617
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/license-evidence.json",
+    "licenseEvidenceSha256": "7a0a7500897efffcf664670b6a4079580199e432879121097e259bf3b7cd4c21",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/metadata.json",
+    "metadataEvidenceSha256": "0a30f6fbe996dcb0f7378ff52286b20c7e81265242edc2379903d7d26a6ce2bb",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/technical-review.json",
+    "technicalReviewEvidenceSha256": "9ed1c5904b4e07ebd0564721463c0643ff0924973402f50852808115ea8b9231",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "c8fca5cc61b2ecad0b6ff0a948530bdba3acbcd08b09f3fed1ff21da068dfaed",
+      "triangles": 31842
+    }
+  }
+}

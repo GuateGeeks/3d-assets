@@ -1,0 +1,116 @@
+{
+  "id": "nasa-james-webb-space-telescope-b",
+  "assetId": "nasa:james-webb-space-telescope-b",
+  "providerId": "nasa",
+  "provider": "NASA 3D Resources",
+  "title": "Telescopio James Webb · B",
+  "titleOriginal": "James Webb Space Telescope (B)",
+  "author": "NASA/Christopher R. Meaney",
+  "authorUrl": "https://science.nasa.gov/3d-resources/james-webb-space-telescope-b/",
+  "sourceUrl": "https://science.nasa.gov/3d-resources/james-webb-space-telescope-b/",
+  "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/james-webb-space-telescope-(b)/James%20Webb%20Space%20Telescope%20(B).glb",
+  "thumbnailUrl": null,
+  "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "James Webb Space Telescope (B)",
+    "jwst-telescopes"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "NASA Media Usage Guidelines",
+  "license": {
+    "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attributionRequired": true,
+    "commercialUse": null,
+    "derivatives": null,
+    "shareAlike": false,
+    "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+  },
+  "attribution": "\"James Webb Space Telescope (B)\", por NASA/Christopher R. Meaney / NASA 3D Resources. https://science.nasa.gov/3d-resources/james-webb-space-telescope-b/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/nasa-james-webb-space-telescope-b/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/metadata.json",
+  "originalDownload": "models/nasa-james-webb-space-telescope-b/originals.zip",
+  "bytes": 1004248,
+  "sha256": "4958e61e5a564f2efcc32cd516b9d36ea0b9bc644f64dbcfe182ce8a422ae526",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 36,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": [
+      "KHR_draco_mesh_compression"
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:13.546971+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "NASA 3D Resources native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/nasa-james-webb-space-telescope-b/model.glb",
+        "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/james-webb-space-telescope-(b)/James%20Webb%20Space%20Telescope%20(B).glb",
+        "bytes": 1004248,
+        "sha256": "4958e61e5a564f2efcc32cd516b9d36ea0b9bc644f64dbcfe182ce8a422ae526"
+      }
+    ],
+    "originalDownloadSha256": "d087c27917810669d21d766b5266befbe88f55825f22873155bb5a3f0b03fc35",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      12.87092399597168,
+      20.996150970458984,
+      11.256908416748047
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/license-evidence.json",
+    "licenseEvidenceSha256": "6259a43a3375c3b323f185de3d94077293c167ff82e4b2d63f140ce8dc96c05f",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/metadata.json",
+    "metadataEvidenceSha256": "8b490176e72b8d319b3a919a57514edb07706e8b007f60584da78f0232efe2df",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/technical-review.json",
+    "technicalReviewEvidenceSha256": "ae7c7f6a72d651abb0bc4a2baa4bb83a92efd55a6e75db7861c1a9eb8d974f30",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "a0ae6c9d584fb37953313b40fa3e7013995797bdc513f60d3ec6dc88109e8af7",
+      "triangles": 99239
+    }
+  }
+}

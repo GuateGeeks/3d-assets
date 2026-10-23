@@ -1,0 +1,116 @@
+{
+  "id": "nasa-earth-observing-1-eo-1",
+  "assetId": "nasa:earth-observing-1-eo-1",
+  "providerId": "nasa",
+  "provider": "NASA 3D Resources",
+  "title": "Satélite de observación EO-1",
+  "titleOriginal": "Earth Observing-1 (EO-1)",
+  "author": "NASA/Christian A. Lopez; NASA/Christopher M. Garcia",
+  "authorUrl": "https://science.nasa.gov/3d-resources/earth-observing-1-eo-1/",
+  "sourceUrl": "https://science.nasa.gov/3d-resources/earth-observing-1-eo-1/",
+  "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/earth-observing-1-(eo-1)/Earth%20Observing-1%20(EO-1).glb",
+  "thumbnailUrl": null,
+  "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Earth Observing-1 (EO-1)",
+    "earth-observation-satellites"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "NASA Media Usage Guidelines",
+  "license": {
+    "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attributionRequired": true,
+    "commercialUse": null,
+    "derivatives": null,
+    "shareAlike": false,
+    "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+  },
+  "attribution": "\"Earth Observing-1 (EO-1)\", por NASA/Christian A. Lopez; NASA/Christopher M. Garcia / NASA 3D Resources. https://science.nasa.gov/3d-resources/earth-observing-1-eo-1/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/nasa-earth-observing-1-eo-1/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/metadata.json",
+  "originalDownload": "models/nasa-earth-observing-1-eo-1/originals.zip",
+  "bytes": 224580,
+  "sha256": "2d26422a45147e86c93c535979b1d9ae16d34fc0171f661dec051bca61c14a74",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 10,
+    "nodes": 11,
+    "materials": 75,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": [
+      "KHR_draco_mesh_compression"
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:19.293162+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "NASA 3D Resources native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/nasa-earth-observing-1-eo-1/model.glb",
+        "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/earth-observing-1-(eo-1)/Earth%20Observing-1%20(EO-1).glb",
+        "bytes": 224580,
+        "sha256": "2d26422a45147e86c93c535979b1d9ae16d34fc0171f661dec051bca61c14a74"
+      }
+    ],
+    "originalDownloadSha256": "076a8b36de56b10e87c0c3b50d48d62697f0ecc351cc3dc710c265c97e842c3f",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      108.93498229980469,
+      128.9495391845703,
+      42.78388214111328
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/license-evidence.json",
+    "licenseEvidenceSha256": "7937f9a873187d804ca5d3557326a395bd2d5f27e45a353b58ba24b60c99a402",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/metadata.json",
+    "metadataEvidenceSha256": "551a8e8c9ed18d088cd52440fe1eec01db6e63a70dc612756f2acc796259e6d0",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-earth-observing-1-eo-1/technical-review.json",
+    "technicalReviewEvidenceSha256": "6408a9d0ca953b6d8adbfb27868933a1ab2f24cdf233bb6470892d58b818bf8a",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "35621424876dc05fad8fd54a902917756e2965b8f7d9235287c6b456eba868d3",
+      "triangles": 37775
+    }
+  }
+}

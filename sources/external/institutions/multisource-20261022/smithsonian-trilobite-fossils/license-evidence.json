@@ -1,0 +1,28 @@
+{
+  "sourceUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+  "objectRecordId": "edanmdm:nmnhpaleobiology_3022367",
+  "packageId": "3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c",
+  "mediumUsageAccess": "CC0",
+  "selectedResource": {
+    "url": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/resources/nmnh-116112_w9k-150k-4096_std.glb",
+    "name": "nmnh-116112_w9k-150k-4096_std.glb",
+    "type": "3D mesh",
+    "title": "nmnh-116112_w9k-150k-4096_std.glb (Low resolution 3D mesh, glb, scale in m)",
+    "category": "Low resolution",
+    "filename": "nmnh-116112_w9k-150k-4096_std.glb",
+    "attributes": [
+      {
+        "UNITS": "m",
+        "FILE_TYPE": "glb",
+        "MODEL_FILE_TYPE": "glb",
+        "DRACO_COMPRESSED": false,
+        "GLTF_STANDARDIZED": true
+      },
+      {
+        "FILE_SIZE": 6813864
+      }
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:54.193021+00:00",
+  "scope": "The matched 3d_voyager medium is CC0; other media in a record can have different rights."
+}

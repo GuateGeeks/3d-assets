@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-ce09f4099a68467880f46e61eb9a3531",
+  "assetId": "sketchfab:ce09f4099a68467880f46e61eb9a3531",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Pulmones humanos",
+  "titleOriginal": "Realistic Human Lungs",
+  "author": "neshallads",
+  "authorUrl": "https://sketchfab.com/neshallads",
+  "sourceUrl": "https://sketchfab.com/3d-models/ce09f4099a68467880f46e61eb9a3531",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/ce09f4099a68467880f46e61eb9a3531",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/ce09f4099a68467880f46e61eb9a3531/download",
+  "thumbnailUrl": null,
+  "description": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Realistic Human Lungs",
+    "human-lungs"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Realistic Human Lungs\", por neshallads / Sketchfab. https://sketchfab.com/3d-models/ce09f4099a68467880f46e61eb9a3531. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-ce09f4099a68467880f46e61eb9a3531/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/sketchfab-ce09f4099a68467880f46e61eb9a3531/metadata.json",
+  "originalDownload": "models/sketchfab-ce09f4099a68467880f46e61eb9a3531/originals.zip",
+  "bytes": 7630236,
+  "sha256": "c7baf3929adcef32b10a3092699b0c43a2486adc85290d363714e1df3ca52fea",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 7,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-23T03:59:12.420330+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-ce09f4099a68467880f46e61eb9a3531/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/ce09f4099a68467880f46e61eb9a3531/download",
+        "bytes": 7630236,
+        "sha256": "c7baf3929adcef32b10a3092699b0c43a2486adc85290d363714e1df3ca52fea"
+      }
+    ],
+    "originalDownloadSha256": "2550858088db954e6e51a6503381e4fe51fe31f59c7cde99a918278423043076",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.22330105304718018,
+      0.14234571158885956,
+      0.3687051236629486
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/sketchfab-ce09f4099a68467880f46e61eb9a3531/license-evidence.json",
+    "licenseEvidenceSha256": "8d4e3b3fa1df0f3685d71123297ab67ce05baf4a65f43440178a618ad353a86c",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/sketchfab-ce09f4099a68467880f46e61eb9a3531/metadata.json",
+    "metadataEvidenceSha256": "96d8c79459705dc52b0e5182f3b8f4618ed8b56888ac1ef3c695f1047c0a2ac8",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/sketchfab-ce09f4099a68467880f46e61eb9a3531/technical-review.json",
+    "technicalReviewEvidenceSha256": "3f93e8a4a775f1ed1b166722d1f50d652abc8c7d45fc028967aafeba35cbefa1",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "27bfa3cbccc6fbbddd0152223775a4571d327ec09fbed571aeae314b1f364af9",
+      "triangles": 63974
+    }
+  }
+}

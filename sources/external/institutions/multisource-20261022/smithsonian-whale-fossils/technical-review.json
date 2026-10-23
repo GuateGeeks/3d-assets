@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    8977.7158203125,
+    5576.2373046875,
+    1871.70849609375
+  ],
+  "boundsMinBlender": [
+    -4515.81884765625,
+    -2735.68603515625,
+    -919.0451049804688
+  ],
+  "boundsMaxBlender": [
+    4461.89697265625,
+    2840.551025390625,
+    952.6633911132812
+  ],
+  "meshObjects": 1,
+  "polygons": 149999,
+  "vertices": 89913,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "smithsonian-whale-fossils",
+  "sourceFile": "model.glb",
+  "glbSha256": "1ea37a71fc282699d3c0d2a69961bb8c05b4a08535cb7f060cd490cdb3b64b12",
+  "reimport": {
+    "dimensionsBlender": [
+      8977.7158203125,
+      5576.2373046875,
+      1871.70849609375
+    ],
+    "boundsMinBlender": [
+      -4515.81884765625,
+      -2735.68603515625,
+      -919.0451049804688
+    ],
+    "boundsMaxBlender": [
+      4461.89697265625,
+      2840.551025390625,
+      952.6633911132812
+    ],
+    "meshObjects": 1,
+    "polygons": 149999,
+    "vertices": 89913,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.8977715820312501,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/renders/source-back.png": "62c53b9c88f43c97bd977545d036fa31520c0938b8318037f29e9d2f1f41bc22",
+    "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/renders/source-side.png": "8d56ea3808f930bca378530ded7d0b59c7a93ef93af75c18139e1eb7f4fbad25",
+    "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/renders/source-front.png": "a7b3c9d205f715dd4ad834c6eb0546cf10161208b128f05963e3b1e01d98c4cd",
+    "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/renders/reimport-three-quarter.png": "ec3c1010a5adde2cdce6f1e6e20752138b802c5ee705e1ee043dc8417e9d5286",
+    "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/renders/source-three-quarter.png": "b32ac4ca48d80aec39f90a58a750eadebfcdd5197ace1458f6065a03bb28e1ad",
+    "sources/external/institutions/multisource-20261022/smithsonian-whale-fossils/renders/source-wireframe.png": "4b41d29be7df9e69b5939831ef17365064068f63672dd87b7c7af91c77f28971"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

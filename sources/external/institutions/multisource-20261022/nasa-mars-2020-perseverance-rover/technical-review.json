@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    2.7045702934265137,
+    3.108273506164551,
+    1.8455445766448975
+  ],
+  "boundsMinBlender": [
+    -1.352290391921997,
+    -1.3719513416290283,
+    0.0007781386375427246
+  ],
+  "boundsMaxBlender": [
+    1.3522799015045166,
+    1.7363221645355225,
+    1.846322774887085
+  ],
+  "meshObjects": 68,
+  "polygons": 199521,
+  "vertices": 138783,
+  "materials": 47,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "nasa-mars-2020-perseverance-rover",
+  "sourceFile": "model.glb",
+  "glbSha256": "10db7c03a5e63a5a3b3e7baa6243aa4918ba045fa8ff0a731d0217491adc727f",
+  "reimport": {
+    "dimensionsBlender": [
+      2.7045702934265137,
+      3.108273506164551,
+      1.8455445766448975
+    ],
+    "boundsMinBlender": [
+      -1.352290391921997,
+      -1.3719513416290283,
+      0.0007781386375427246
+    ],
+    "boundsMaxBlender": [
+      1.3522799015045166,
+      1.7363221645355225,
+      1.846322774887085
+    ],
+    "meshObjects": 68,
+    "polygons": 199521,
+    "vertices": 138783,
+    "materials": 47,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0003108273506164551,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/renders/source-back.png": "5072332c38cfec61108de6ee5c52e2866cc5408d6c28ae8ae3327c9868b77406",
+    "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/renders/source-side.png": "049594ba34447bd3bb989b99164fb709f7c48d2555acd3d686e798e7ff430a65",
+    "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/renders/source-front.png": "39977a55a8f56455842d6a0c7c983c871ae0b8212bf8c7e3616055b730f8de9b",
+    "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/renders/reimport-three-quarter.png": "badf588e2b2062385978b8d7653d907fc1517f276409096e4d24c71c41e83051",
+    "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/renders/source-three-quarter.png": "5c17af3413308a071fb317ffcf798f3e6c59768d31e754a22d6a93d7741d370d",
+    "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/renders/source-wireframe.png": "d9cbe3b9ca21a5c388ace03afa8bf9a14b8fcf06fddd797f5b84425ecf5f99fa"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

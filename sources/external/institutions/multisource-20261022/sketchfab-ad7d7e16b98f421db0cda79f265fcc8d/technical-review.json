@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    0.18448826670646667,
+    0.15729904174804688,
+    0.210357666015625
+  ],
+  "boundsMinBlender": [
+    0.04816647991538048,
+    -43.954193115234375,
+    -497.4690856933594
+  ],
+  "boundsMaxBlender": [
+    0.23265475034713745,
+    -43.79689407348633,
+    -497.25872802734375
+  ],
+  "meshObjects": 8,
+  "polygons": 237105,
+  "vertices": 148575,
+  "materials": 8,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "sketchfab-ad7d7e16b98f421db0cda79f265fcc8d",
+  "sourceFile": "model.glb",
+  "glbSha256": "9741c32977663f75f4d3f91f56ee6a44a237322a2abb74ab210ea7b580b77324",
+  "reimport": {
+    "dimensionsBlender": [
+      0.18448826670646667,
+      0.15729904174804688,
+      0.210357666015625
+    ],
+    "boundsMinBlender": [
+      0.04816647991538048,
+      -43.954193115234375,
+      -497.4690856933594
+    ],
+    "boundsMaxBlender": [
+      0.23265475034713745,
+      -43.79689407348633,
+      -497.25872802734375
+    ],
+    "meshObjects": 8,
+    "polygons": 237105,
+    "vertices": 148575,
+    "materials": 8,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 2.10357666015625e-05,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/renders/source-back.png": "045c9567bc78580799faaa6a944ee60241f51809c94b404a7694cc959d35cc7d",
+    "sources/external/institutions/multisource-20261022/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/renders/source-side.png": "995fe095d1e4a2253b92059a85fbf98057499337d7b1a436e70cbb0cb90be487",
+    "sources/external/institutions/multisource-20261022/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/renders/source-front.png": "af21b4b72b6af3b75c42f2d865c941c0dd5010816c1d01245a11ccc82bdfde70",
+    "sources/external/institutions/multisource-20261022/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/renders/reimport-three-quarter.png": "89ec79c477ac396e64b3e5898ffcca20a5a90f1daa1027384839b533876a3f84",
+    "sources/external/institutions/multisource-20261022/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/renders/source-three-quarter.png": "bc9f27c9971967352d06e15711db160f5336a9e56e76dcc0839381c68e88dcaa",
+    "sources/external/institutions/multisource-20261022/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/renders/source-wireframe.png": "530a4be3097946645e691c5ee9d53737fc0d9720050e84fb3757896584b48cea"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

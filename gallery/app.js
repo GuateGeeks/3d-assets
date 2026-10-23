@@ -1,3 +1,5 @@
+import {ModelViewerElement} from './vendor/model-viewer.min.js';
+ModelViewerElement.dracoDecoderLocation = new URL('./vendor/draco/', import.meta.url).href;
 const $ = (id) => document.getElementById(id);
 const viewer = $('viewer');
 const pageSize = 24;
@@ -74,6 +76,8 @@ async function selectModel(m,fromTile=false){
  $('license-link').textContent=m.licenseRaw;$('license-link').href=m.license.url||'models/'+m.id+'/LICENSE.txt';
  $('license-note').textContent=m.license.attributionRequired===true?'Requiere atribución al autor y enlace a la licencia. Conserva el crédito al usar o compartir el recurso.':m.license.attributionRequired===false?'CC0 no exige atribución de copyright. Conservamos el autor y la procedencia del recurso.':'Revisa el texto original de la licencia antes de usar el recurso.';
  if(m.license.shareAlike)$('license-note').textContent+=' Las adaptaciones deben compartirse bajo la misma licencia. Los archivos originales y las condiciones están conservados en la ficha.';
+ if(m.license.commercialUse===false)$('license-note').textContent+=' No permite uso comercial.';
+ if(m.license.conditions)$('license-note').textContent+=' '+m.license.conditions;
  $('credit').textContent=m.attribution;$('metadata-link').href=m.sourceMetadataFile;$('source-link').href=m.sourceUrl;$('source-link').textContent='Ver en '+m.provider+' ↗';$('original-link').hidden=!m.originalDownload;$('original-link').href=m.originalDownload||m.file;$('license-evidence').href='models/'+m.id+'/LICENSE.txt';$('description').textContent=m.description||'Sin descripción adicional del autor.';
  $('review-details').hidden=!m.reviewFlags?.length&&!m.unfulfilledQueries?.length;$('review-flags').replaceChildren(...(m.reviewFlags||[]).map(f=>el('li',flagLabels[f]||f)));
  $('unfulfilled').textContent=m.unfulfilledQueries?.length?'Este recurso no confirma: '+m.unfulfilledQueries.join(', ')+'.':'';

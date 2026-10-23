@@ -50,6 +50,10 @@ if external.exists() and SITE.exists():
     for p in external.rglob('*'):
         if p.is_file() and (SITE/p.relative_to(ROOT)).read_bytes()!=p.read_bytes(): raise SystemExit('External evidence build mismatch')
 manifest=json.loads((ROOT/'gallery/dependencies.json').read_text(encoding='utf-8'))
+for entry in manifest.get('decoders',{}).get('files',[]):
+    decoder=ROOT/entry['file']
+    if hashlib.sha256(decoder.read_bytes()).hexdigest()!=entry['sha256']: raise SystemExit('Decoder integrity mismatch')
+    if SITE.exists() and (SITE/entry['file']).read_bytes()!=decoder.read_bytes(): raise SystemExit('Stale decoder in site')
 for m in manifest['thumbnails']:
     if m.get('error') or hashlib.sha256((ROOT/m['file']).read_bytes()).hexdigest()!=m['sha256']: raise SystemExit('Thumbnail integrity mismatch')
 for p in [ROOT/'gallery.html',*(ROOT/'gallery').glob('*.css')]:

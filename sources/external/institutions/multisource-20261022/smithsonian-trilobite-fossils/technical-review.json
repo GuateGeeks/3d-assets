@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    24.471050262451172,
+    21.499309539794922,
+    6.368103981018066
+  ],
+  "boundsMinBlender": [
+    -11.815279960632324,
+    -10.768899917602539,
+    -3.183495044708252
+  ],
+  "boundsMaxBlender": [
+    12.655770301818848,
+    10.730409622192383,
+    3.1846089363098145
+  ],
+  "meshObjects": 1,
+  "polygons": 150000,
+  "vertices": 78633,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "smithsonian-trilobite-fossils",
+  "sourceFile": "model.glb",
+  "glbSha256": "8445d9580955f4bfdf4959ad271d7983574192b656c95eadbc2f4ddfa804d9d2",
+  "reimport": {
+    "dimensionsBlender": [
+      24.471050262451172,
+      21.499309539794922,
+      6.368103981018066
+    ],
+    "boundsMinBlender": [
+      -11.815279960632324,
+      -10.768899917602539,
+      -3.183495044708252
+    ],
+    "boundsMaxBlender": [
+      12.655770301818848,
+      10.730409622192383,
+      3.1846089363098145
+    ],
+    "meshObjects": 1,
+    "polygons": 150000,
+    "vertices": 78633,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0024471050262451174,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/smithsonian-trilobite-fossils/renders/source-back.png": "99aad897d72d25a365ec9284d6550afbf85a9169721a196c8ec5e5a22bb07df7",
+    "sources/external/institutions/multisource-20261022/smithsonian-trilobite-fossils/renders/source-side.png": "4d9c9ca48859b58bf6f77156c1352f84889f9d04fbfb5f0430ae8d8278b37d65",
+    "sources/external/institutions/multisource-20261022/smithsonian-trilobite-fossils/renders/source-front.png": "a918aa70a20beb212d65521a15ca267a37346621f889456063e455bba338b254",
+    "sources/external/institutions/multisource-20261022/smithsonian-trilobite-fossils/renders/reimport-three-quarter.png": "102df5c6356ebf6a508689e129f14cb464b3ffb9f893971af84c737ba6bbe7b9",
+    "sources/external/institutions/multisource-20261022/smithsonian-trilobite-fossils/renders/source-three-quarter.png": "8df7e4c36f920fd0b1aae448a237bb068cead64ed2bf5e85b8e0a5d20d7903fc",
+    "sources/external/institutions/multisource-20261022/smithsonian-trilobite-fossils/renders/source-wireframe.png": "7dac7e70ec4363e6ddff506317f2a88d2d63f971fb04bd16bf08bf1e49aa3f87"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

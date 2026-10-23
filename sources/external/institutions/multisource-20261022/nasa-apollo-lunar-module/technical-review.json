@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    6.427394866943359,
+    6.426610469818115,
+    5.012792110443115
+  ],
+  "boundsMinBlender": [
+    -3.2145049571990967,
+    -3.2109334468841553,
+    0.10263100266456604
+  ],
+  "boundsMaxBlender": [
+    3.2128899097442627,
+    3.21567702293396,
+    5.115423202514648
+  ],
+  "meshObjects": 134,
+  "polygons": 97588,
+  "vertices": 64787,
+  "materials": 12,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "nasa-apollo-lunar-module",
+  "sourceFile": "model.glb",
+  "glbSha256": "379101dfcee399267addf771709107c35e826b0b9e5233272f123e4c8a585c4e",
+  "reimport": {
+    "dimensionsBlender": [
+      6.427394866943359,
+      6.426610469818115,
+      5.012792110443115
+    ],
+    "boundsMinBlender": [
+      -3.2145049571990967,
+      -3.2109334468841553,
+      0.10263100266456604
+    ],
+    "boundsMaxBlender": [
+      3.2128899097442627,
+      3.21567702293396,
+      5.115423202514648
+    ],
+    "meshObjects": 134,
+    "polygons": 97588,
+    "vertices": 64787,
+    "materials": 12,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.000642739486694336,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/nasa-apollo-lunar-module/renders/source-back.png": "bdffc22edca46052b4d9c9478de079f276aec23a0deddcc12427ad688cbe211e",
+    "sources/external/institutions/multisource-20261022/nasa-apollo-lunar-module/renders/source-side.png": "da1810110b74edaffbbca22d32901022e13c401a54095f86ffe599dae76a1135",
+    "sources/external/institutions/multisource-20261022/nasa-apollo-lunar-module/renders/source-front.png": "09f1f440cb28c71e39fd5e769f9e86014deb56b83cd539c1efc24179d803e2e9",
+    "sources/external/institutions/multisource-20261022/nasa-apollo-lunar-module/renders/reimport-three-quarter.png": "8ed0c3e74fe200508d0aa0dfad4c4fe8e413551043b55c27016ecba5d00c8fc1",
+    "sources/external/institutions/multisource-20261022/nasa-apollo-lunar-module/renders/source-three-quarter.png": "5975001ef1282a26186f5fa4e232d002c74bc0d38c508f3a504eebe7cba98195",
+    "sources/external/institutions/multisource-20261022/nasa-apollo-lunar-module/renders/source-wireframe.png": "1a4780635d46217b2fa8114d9a7d05efff53b66ee866955b9c4d7274879f80a3"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

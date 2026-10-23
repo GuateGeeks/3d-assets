@@ -1,0 +1,142 @@
+{
+  "id": "nasa-mars-2020-perseverance-rover",
+  "assetId": "nasa:mars-2020-perseverance-rover",
+  "providerId": "nasa",
+  "provider": "NASA 3D Resources",
+  "title": "Rover Perseverance",
+  "titleOriginal": "Mars 2020 Perseverance Rover",
+  "author": "NASA/Jet Propulsion Laboratory",
+  "authorUrl": "https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/",
+  "sourceUrl": "https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/",
+  "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/mars-2020-perseverance-rover/Mars%202020%20Perseverance%20Rover.glb",
+  "thumbnailUrl": null,
+  "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Mars 2020 Perseverance Rover",
+    "mars-rovers"
+  ],
+  "areas": [
+    "espacio-astronomia",
+    "robotica-electronica"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "NASA Media Usage Guidelines",
+  "license": {
+    "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attributionRequired": true,
+    "commercialUse": null,
+    "derivatives": null,
+    "shareAlike": false,
+    "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+  },
+  "attribution": "\"Mars 2020 Perseverance Rover\", por NASA/Jet Propulsion Laboratory / NASA 3D Resources. https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/nasa-mars-2020-perseverance-rover/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/metadata.json",
+  "originalDownload": "models/nasa-mars-2020-perseverance-rover/originals.zip",
+  "bytes": 4987176,
+  "sha256": "10db7c03a5e63a5a3b3e7baa6243aa4918ba045fa8ff0a731d0217491adc727f",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 68,
+    "nodes": 88,
+    "materials": 47,
+    "skins": 1,
+    "joints": 15,
+    "rigged": true,
+    "animated": true,
+    "animations": 23,
+    "animationNames": [
+      "CylinderAction",
+      "bottomAction",
+      "Empty.001Action.003",
+      "Action",
+      "topAction",
+      "Cylinder.002Action",
+      "ArmatureAction",
+      "haz_cov_front",
+      "e_covers_rear",
+      "haz_cov_rear_l",
+      "haz_cov_rear_r",
+      "arm.003Action",
+      "arm.002Action",
+      "armAction",
+      "arm.004Action",
+      "turret_objAction",
+      "turret_cam_cover_01",
+      "turret.001Action.001",
+      "hingeAction",
+      "Empty.002Action",
+      "Action",
+      "arm_01_pivotAction",
+      "arm_02_pivotAction"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": [
+      "KHR_draco_mesh_compression"
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:10.937359+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "NASA 3D Resources native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/nasa-mars-2020-perseverance-rover/model.glb",
+        "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/mars-2020-perseverance-rover/Mars%202020%20Perseverance%20Rover.glb",
+        "bytes": 4987176,
+        "sha256": "10db7c03a5e63a5a3b3e7baa6243aa4918ba045fa8ff0a731d0217491adc727f"
+      }
+    ],
+    "originalDownloadSha256": "01dc0a64e2d02e44e3b34355737060e6d3ed1390213b2fe8bacb6c43b6fbf328",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      2.7045702934265137,
+      3.108273506164551,
+      1.8455445766448975
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/license-evidence.json",
+    "licenseEvidenceSha256": "3eed9e0e05c75f970bd7e562d66a694c3026f3a49e34873b13f5c565129dca44",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/metadata.json",
+    "metadataEvidenceSha256": "032c5d1e5ace5b91beb75f0d4ff945b651d67955e5de33cd19b0a79349c97f03",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-mars-2020-perseverance-rover/technical-review.json",
+    "technicalReviewEvidenceSha256": "96af138e535fe8596f07caee121c04e836ca4fe5d771e1c56c155a936367a7d6",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "0b1f070f77e0337504a134d23e4f189d8e60304c34b26ae368c9dc95fe18afc2",
+      "triangles": 199521
+    }
+  }
+}

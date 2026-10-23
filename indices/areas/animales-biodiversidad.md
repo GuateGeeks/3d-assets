@@ -1,6 +1,6 @@
 # Animales y biodiversidad
 
-27 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+30 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -31,3 +31,6 @@
 | [Wolf](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-animals-wolf/model.glb) | 1 / 2 |
 | [Binoculares](https://polyhaven.com/a/binoculars) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Derek Wight | [GLB](../../models/polyhaven-binoculars/model.glb) | 0 / 0 |
 | [Binoculares antiguos](https://polyhaven.com/a/vintage_binocular) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Luke | [GLB](../../models/polyhaven-vintage-binocular/model.glb) | 0 / 0 |
+| [Triceratops · fósil digitalizado](https://3d.si.edu/object/3d/d8c623be-4ebc-11ea-b77f-2e728ce88125) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / NMNH - Paleobiology Dept. | [GLB](../../models/smithsonian-triceratops-skeletons/model.glb) | 0 / 0 |
+| [Trilobite Poliella prima](https://3d.si.edu/object/3d/fcec58e8-ac1f-425d-9d83-8b16ca72b60c) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / NMNH - Paleobiology Dept. | [GLB](../../models/smithsonian-trilobite-fossils/model.glb) | 0 / 0 |
+| [Excavación de ballena fósil MPC 675](https://3d.si.edu/object/3d/1f1ec6af-193f-4969-9185-dc5dd587239d) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / NMNH - Paleobiology Dept. | [GLB](../../models/smithsonian-whale-fossils/model.glb) | 0 / 0 |

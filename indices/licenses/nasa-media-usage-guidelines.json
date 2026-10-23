@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "details": {
+    "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attributionRequired": true,
+    "commercialUse": null,
+    "derivatives": null,
+    "shareAlike": false,
+    "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+  },
+  "count": 10,
+  "modelIds": [
+    "nasa-apollo-lunar-module",
+    "nasa-deep-space-network-34-meter",
+    "nasa-deep-space-network-70-meter",
+    "nasa-earth-observing-1-eo-1",
+    "nasa-ingenuity-mars-helicopter",
+    "nasa-international-space-station-iss-a",
+    "nasa-james-webb-space-telescope-b",
+    "nasa-mars-2020-perseverance-rover",
+    "nasa-saturn-v",
+    "nasa-voyager-probe-a"
+  ]
+}

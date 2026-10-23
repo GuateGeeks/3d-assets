@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "details": "Matemáticas",
-  "count": 542,
+  "count": 556,
   "modelIds": [
     "00xFHE4LR_6",
     "0S_ePFXZbCz",
@@ -522,6 +522,16 @@
     "kenney-nature-tree-thin-fall",
     "lAx8JytxGD",
     "m8O6mE0anP",
+    "nasa-apollo-lunar-module",
+    "nasa-deep-space-network-34-meter",
+    "nasa-deep-space-network-70-meter",
+    "nasa-earth-observing-1-eo-1",
+    "nasa-ingenuity-mars-helicopter",
+    "nasa-international-space-station-iss-a",
+    "nasa-james-webb-space-telescope-b",
+    "nasa-mars-2020-perseverance-rover",
+    "nasa-saturn-v",
+    "nasa-voyager-probe-a",
     "oga-gears-gear-06",
     "oga-gears-gear-08",
     "oga-gears-gear-10",
@@ -544,6 +554,10 @@
     "polyhaven-seadogs-compass",
     "polyhaven-trowel-01",
     "rbZHkFchEk",
+    "sketchfab-285032402a8543ae8bf3e3c4d8c9f98a",
+    "sketchfab-83483a66f8974d7e8f2e7bbde518d606",
+    "sketchfab-e0678e6615a74ed29c1376a591262159",
+    "smithsonian-induction-coils",
     "u78ByZHYB2"
   ]
 }

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "held": [
+    {
+      "id": "quaternius-ultimate-crops",
+      "sourceUrl": "https://quaternius.com/packs/ultimatecrops.html",
+      "status": "BLOCKED",
+      "reason": "La ficha específica declara CC0, pero la licencia general QAL v1.0 restringe redistribución como assets. La descarga de License.txt del paquete en Drive devolvió Quota exceeded; no se obtuvo evidencia del archivo específico ni se eludió la cuota.",
+      "licenseCandidates": [
+        "CC0 1.0 (ficha del kit)",
+        "QAL v1.0 (licencia general)"
+      ],
+      "redistributionDecision": "HOLD",
+      "packPageSha256": "e39447073e6df9b3140257104c2c45e0425c5b430b02fb0a3d1805c0856f3762",
+      "generalLicenseUrl": "https://quaternius.com/license.html",
+      "generalLicensePageSha256": "d1b56be5228d372b049b45cc7447a823da7989a6cf7036f60cfac2284c8fcb0d",
+      "downloadResponseSha256": "b92fb9298ac475e3ed930e1f3ac480c97bd20e15e4627f4a8e48c71fe721fb91"
+    },
+    {
+      "id": "quaternius-animated-dinosaurs",
+      "sourceUrl": "https://quaternius.com/packs/animateddinosaurs.html",
+      "status": "BLOCKED",
+      "reason": "La ficha declara CC0, mientras la licencia general declara QAL. Pendiente verificar los derechos de la versión concreta y obtener sus archivos; no promovido.",
+      "licenseCandidates": [
+        "CC0 1.0 (ficha del kit)",
+        "QAL v1.0 (licencia general)"
+      ],
+      "redistributionDecision": "HOLD",
+      "packPageSha256": "28ac63c0680ebce7328ad46adbde70d3567a0e37859e93e02087182bce5ea14b"
+    },
+    {
+      "id": "quaternius-farm-animals",
+      "sourceUrl": "https://quaternius.com/packs/farmanimal.html",
+      "status": "BLOCKED",
+      "reason": "La ficha declara CC0, mientras la licencia general declara QAL. Pendiente verificar los derechos de la versión concreta y obtener sus archivos; no promovido.",
+      "licenseCandidates": [
+        "CC0 1.0 (ficha del kit)",
+        "QAL v1.0 (licencia general)"
+      ],
+      "redistributionDecision": "HOLD",
+      "packPageSha256": "edeb0bbd14d1a5f9b3fb75f4498754d37bb4bbaed8809671f0ac60092a0f8488"
+    },
+    {
+      "id": "nasa-hubble-space-telescope-a",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/hubble-space-telescope-a/",
+      "reason": "Autor externo o no identificado: derechos del archivo requieren evidencia específica adicional."
+    },
+    {
+      "id": "nasa-hubble-space-telescope-b",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/hubble-space-telescope-b/",
+      "reason": "Autor externo o no identificado: derechos del archivo requieren evidencia específica adicional."
+    }
+  ],
+  "visualHolds": [
+    {
+      "id": "nasa-james-webb-space-telescope-a",
+      "providerId": "nasa",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/james-webb-space-telescope-a/",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "reason": "Componente aislado visible fuera del cuerpo del telescopio; conservar original y evaluar composición antes de publicar. Se conserva la variante B como alternativa.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "nasa-international-space-station-iss-b",
+      "providerId": "nasa",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/international-space-station-iss-b/",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "reason": "Elemento aislado separado de la estación y lectura visual menos clara que la variante A; requiere evaluación antes de publicación.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "nasa-1999-rq36-asteroid",
+      "providerId": "nasa",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/1999-rq36-asteroid/",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "reason": "Material nativo muy oscuro; forma y relieve no se leen con suficiente claridad en las vistas estándar.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "smithsonian-mammoth-skeletons",
+      "providerId": "smithsonian",
+      "sourceUrl": "https://3d.si.edu/object/3d/341c96cd-f967-4540-8ed1-d3fc56d31f12",
+      "licenseRaw": "CC0 1.0",
+      "reason": "Apariencia nativa blanca plana; los huesos no se distinguen con suficiente sombreado en el render estándar.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "sketchfab-e24e96b6bc39423b871b10f098876b8f",
+      "providerId": "sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/e24e96b6bc39423b871b10f098876b8f",
+      "licenseRaw": "CC-BY 4.0",
+      "reason": "Materiales nativos blancos con lectura de piel y huesos insuficiente en las vistas estándar.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    }
+  ]
+}

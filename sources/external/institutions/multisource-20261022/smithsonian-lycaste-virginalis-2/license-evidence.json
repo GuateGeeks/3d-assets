@@ -1,0 +1,28 @@
+{
+  "sourceUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+  "objectRecordId": "edanmdm:ofeo-sg_2018-1177A",
+  "packageId": "3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997",
+  "mediumUsageAccess": "CC0",
+  "selectedResource": {
+    "url": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/resources/Lycaste_virginalis-150k-4096_std.glb",
+    "name": "Lycaste virginalis: Lycaste virginalis: Bloom",
+    "type": "3D mesh",
+    "title": "Lycaste virginalis: Lycaste virginalis: Bloom (Low resolution 3D mesh, glb, scale in m)",
+    "category": "Low resolution",
+    "filename": "Lycaste_virginalis-150k-4096_std.glb",
+    "attributes": [
+      {
+        "UNITS": "m",
+        "FILE_TYPE": "glb",
+        "MODEL_FILE_TYPE": "glb",
+        "DRACO_COMPRESSED": false,
+        "GLTF_STANDARDIZED": true
+      },
+      {
+        "FILE_SIZE": 7687432
+      }
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:41.364801+00:00",
+  "scope": "The matched 3d_voyager medium is CC0; other media in a record can have different rights."
+}

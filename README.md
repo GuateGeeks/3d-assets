@@ -1,6 +1,6 @@
 # GuateGeeks · Biblioteca 3D
 
-Galería de **1021 modelos GLB** para Code Studio y Sócrates, organizados en **23 áreas**. Incluye miniaturas locales, vista 3D con cámara y animaciones, búsqueda en español y filtros por área, fuente, kit, licencia y movimiento. Los créditos se consultan en cada ficha.
+Galería de **1045 modelos GLB** para Code Studio y Sócrates, organizados en **23 áreas**. Incluye miniaturas locales, vista 3D con cámara y animaciones, búsqueda en español y filtros por área, fuente, kit, licencia y movimiento. Los créditos se consultan en cada ficha.
 
 ## Laboratorio local de rigging
 
@@ -75,7 +75,7 @@ Los GLB nativos de Kenney conservan su geometría; cuando era necesario se incru
 
 ## Ampliación Poly Haven
 
-Se incorporaron **28 modelos CC0** de laboratorio, óptica, electrónica, medición, accesibilidad, seguridad, jardinería, oficios y música. Los originales glTF de 1K y sus texturas se conservan por modelo; el GLB incrusta esos componentes sin decimar, reescalar ni modificar materiales, UV o rigs. El tornillo de banco conserva su rig mecánico. El catálogo suma **1021 modelos**, con 739 CC0, 274 CC BY 3.0 y 8 CC BY-SA 4.0.
+Se incorporaron **28 modelos CC0** de laboratorio, óptica, electrónica, medición, accesibilidad, seguridad, jardinería, oficios y música. Los originales glTF de 1K y sus texturas se conservan por modelo; el GLB incrusta esos componentes sin decimar, reescalar ni modificar materiales, UV o rigs. El tornillo de banco conserva su rig mecánico. El catálogo suma **1045 modelos**, con 739 CC0, 274 CC BY 3.0 y 8 CC BY-SA 4.0.
 
 La adquisición usa la API oficial con identificador de aplicación, caché, comprobación MD5/SHA-256 y reintentos limitados. La galería funciona con archivos locales; no consulta la API ni utiliza sus imágenes de muestra. Los créditos preservan los autores individuales aunque CC0 no exija atribución.
 
@@ -103,3 +103,7 @@ python tools/serve_gallery.py --lab --port 4390
 ```
 
 Abrir `http://127.0.0.1:4390/gallery.html?lab=1` después de generar las vistas con los comandos del manual. El [informe del corpus](lab/reports/CORPUS-REVIEW.md) identifica los ajustes pendientes. Los resultados experimentales se guardan localmente y quedan excluidos del sitio publicado.
+
+## Referencias científicas y nuevas fuentes
+
+La ampliación de NASA, Smithsonian y Sketchfab incorpora 24 GLB nativos, licencias por archivo y 20 familias con variantes entre fuentes. La galería incluye Draco 1.5.6 local. El [informe de pendientes](sources/external/institutions/multisource-20261022/pending.json) identifica recursos excluidos y el acceso/derechos pendientes de Quaternius. No se modifican los 1021 originales anteriores.

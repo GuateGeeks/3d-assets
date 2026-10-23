@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "groups": [
+    {
+      "id": "mars-rovers",
+      "title": "Rovers de Marte",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "nasa-mars-2020-perseverance-rover"
+      ]
+    },
+    {
+      "id": "mars-helicopters",
+      "title": "Helicópteros de Marte",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "nasa-ingenuity-mars-helicopter"
+      ]
+    },
+    {
+      "id": "jwst-telescopes",
+      "title": "Telescopio James Webb",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "nasa-james-webb-space-telescope-b"
+      ]
+    },
+    {
+      "id": "iss-stations",
+      "title": "Estación Espacial Internacional",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "nasa-international-space-station-iss-a"
+      ]
+    },
+    {
+      "id": "voyager-probes",
+      "title": "Sonda Voyager",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "nasa-voyager-probe-a"
+      ]
+    },
+    {
+      "id": "apollo-modules",
+      "title": "Módulos lunares Apolo",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "nasa-apollo-lunar-module"
+      ]
+    },
+    {
+      "id": "saturn-rockets",
+      "title": "Cohetes Saturno V",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "nasa-saturn-v"
+      ]
+    },
+    {
+      "id": "dsn-antennas",
+      "title": "Antenas Deep Space Network",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "nasa-deep-space-network-70-meter",
+        "nasa-deep-space-network-34-meter"
+      ]
+    },
+    {
+      "id": "earth-observation-satellites",
+      "title": "Satélites de observación terrestre",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "nasa-earth-observing-1-eo-1"
+      ]
+    },
+    {
+      "id": "triceratops-skeletons",
+      "title": "Triceratops: fósiles digitalizados",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "smithsonian-triceratops-skeletons"
+      ]
+    },
+    {
+      "id": "lycaste-virginalis",
+      "title": "Lycaste virginalis: planta y flor",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "smithsonian-lycaste-virginalis-1",
+        "smithsonian-lycaste-virginalis-2"
+      ]
+    },
+    {
+      "id": "induction-coils",
+      "title": "Bobinas de inducción",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "smithsonian-induction-coils"
+      ]
+    },
+    {
+      "id": "trilobite-fossils",
+      "title": "Trilobites fósiles",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "smithsonian-trilobite-fossils"
+      ]
+    },
+    {
+      "id": "whale-fossils",
+      "title": "Fósiles de ballena",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "smithsonian-whale-fossils"
+      ]
+    },
+    {
+      "id": "human-hearts",
+      "title": "Corazón humano: representaciones",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "5POtMKIT_Ze",
+        "sketchfab-3f8072336ce94d18b3d0d055a1ece089"
+      ]
+    },
+    {
+      "id": "human-brains",
+      "title": "Cerebro humano: representaciones",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "YihDCHsOPO",
+        "sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec"
+      ]
+    },
+    {
+      "id": "human-lungs",
+      "title": "Pulmones y vías respiratorias",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "sketchfab-ce09f4099a68467880f46e61eb9a3531",
+        "sketchfab-ad7d7e16b98f421db0cda79f265fcc8d"
+      ]
+    },
+    {
+      "id": "solar-panels",
+      "title": "Paneles solares",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "LbGiYP5iJu",
+        "ah89Y79JdT",
+        "bvw2d4XUKR",
+        "sketchfab-83483a66f8974d7e8f2e7bbde518d606"
+      ]
+    },
+    {
+      "id": "wind-turbines",
+      "title": "Aerogeneradores",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "0S_ePFXZbCz",
+        "3JKnKecvdMI",
+        "8Tke6WIyZtg",
+        "sketchfab-e0678e6615a74ed29c1376a591262159",
+        "sketchfab-285032402a8543ae8bf3e3c4d8c9f98a"
+      ]
+    },
+    {
+      "id": "human-skeletons",
+      "title": "Esqueleto humano: representaciones",
+      "relation": "functional-family-or-variant",
+      "modelIds": [
+        "frU5VxsCGZJ",
+        "sketchfab-950d0a46531f492ab8715777e312a5bf"
+      ]
+    }
+  ],
+  "aliases": [],
+  "groupingNote": "Familias funcionales y variantes; agrupar no implica identidad geométrica, intercambiabilidad científica ni licencia común. Los iconos de corazón y esqueletos de fantasía se mantienen separados de las referencias anatómicas."
+}

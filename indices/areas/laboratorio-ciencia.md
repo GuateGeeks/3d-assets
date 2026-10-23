@@ -1,6 +1,6 @@
 # Laboratorio e investigación
 
-20 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+21 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -24,3 +24,4 @@
 | [Binoculares antiguos](https://polyhaven.com/a/vintage_binocular) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Luke | [GLB](../../models/polyhaven-vintage-binocular/model.glb) | 0 / 0 |
 | [Microscopio antiguo](https://polyhaven.com/a/vintage_microscope) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Luis José Fernández Rodríguez | [GLB](../../models/polyhaven-vintage-microscope/model.glb) | 0 / 0 |
 | [Microscope](https://poly.pizza/m/q9zNs4U5NG) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Username12 | [GLB](../../models/q9zNs4U5NG/model.glb) | 0 / 0 |
+| [Bobina de inducción Page](https://3d.si.edu/object/3d/40cf5b52-0b21-4063-95fc-aa07998eb4dd) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / National Museum of American History | [GLB](../../models/smithsonian-induction-coils/model.glb) | 0 / 0 |

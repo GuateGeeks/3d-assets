@@ -1,0 +1,116 @@
+{
+  "id": "nasa-voyager-probe-a",
+  "assetId": "nasa:voyager-probe-a",
+  "providerId": "nasa",
+  "provider": "NASA 3D Resources",
+  "title": "Sonda Voyager · A",
+  "titleOriginal": "Voyager Probe (A)",
+  "author": "NASA/Christopher R. Meaney",
+  "authorUrl": "https://science.nasa.gov/3d-resources/voyager-probe-a/",
+  "sourceUrl": "https://science.nasa.gov/3d-resources/voyager-probe-a/",
+  "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/voyager-probe-(a)/Voyager%20Probe%20(A).glb",
+  "thumbnailUrl": null,
+  "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Voyager Probe (A)",
+    "voyager-probes"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "NASA Media Usage Guidelines",
+  "license": {
+    "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attributionRequired": true,
+    "commercialUse": null,
+    "derivatives": null,
+    "shareAlike": false,
+    "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+  },
+  "attribution": "\"Voyager Probe (A)\", por NASA/Christopher R. Meaney / NASA 3D Resources. https://science.nasa.gov/3d-resources/voyager-probe-a/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/nasa-voyager-probe-a/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/metadata.json",
+  "originalDownload": "models/nasa-voyager-probe-a/originals.zip",
+  "bytes": 285936,
+  "sha256": "7cf8eefb5a0fca9e4e1b0d1e51c37433124169183e5dbfd2d8034af902311821",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 2,
+    "materials": 16,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": [
+      "KHR_draco_mesh_compression"
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:15.532292+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "NASA 3D Resources native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/nasa-voyager-probe-a/model.glb",
+        "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/voyager-probe-(a)/Voyager%20Probe%20(A).glb",
+        "bytes": 285936,
+        "sha256": "7cf8eefb5a0fca9e4e1b0d1e51c37433124169183e5dbfd2d8034af902311821"
+      }
+    ],
+    "originalDownloadSha256": "39f01d61a309da47c7e9475aa67c431ab7af886b97ba7e6c572fe83a277fab79",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.09999999403953552,
+      0.33664965629577637,
+      0.2092304825782776
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/license-evidence.json",
+    "licenseEvidenceSha256": "883f9842ecf9b9b792152632031c080c22c7944e3061797537e1350e8c05eda4",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/metadata.json",
+    "metadataEvidenceSha256": "67bde67fde617142b4d92d34dd8d40f9a219112b03d9032c7682ac9041d57428",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-voyager-probe-a/technical-review.json",
+    "technicalReviewEvidenceSha256": "de35ec50e78d95d30f3e5230b2441bf3da8eef696f0f04cd25c12cbb4b26e5d6",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "5adbe6861e537bc8a273065b6455bcd49c6252918fbff040bf432b49bcbec78e",
+      "triangles": 29911
+    }
+  }
+}

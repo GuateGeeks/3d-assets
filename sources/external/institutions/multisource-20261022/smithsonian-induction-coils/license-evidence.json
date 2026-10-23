@@ -1,0 +1,28 @@
+{
+  "sourceUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+  "objectRecordId": "edanmdm:nmah_703318",
+  "packageId": "3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+  "mediumUsageAccess": "CC0",
+  "selectedResource": {
+    "url": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-4096.glb",
+    "name": "Page induction coil from US Patent #76654",
+    "type": "3D mesh",
+    "title": "Page induction coil from US Patent #76654 (Low resolution 3D mesh, glb, scale in in)",
+    "category": "Low resolution",
+    "filename": "page-induction-coil-150k-4096.glb",
+    "attributes": [
+      {
+        "UNITS": "in",
+        "FILE_TYPE": "glb",
+        "MODEL_FILE_TYPE": "glb",
+        "DRACO_COMPRESSED": false,
+        "GLTF_STANDARDIZED": false
+      },
+      {
+        "FILE_SIZE": 10083284
+      }
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:46.613213+00:00",
+  "scope": "The matched 3d_voyager medium is CC0; other media in a record can have different rights."
+}

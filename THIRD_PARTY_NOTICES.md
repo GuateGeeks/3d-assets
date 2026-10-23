@@ -12,3 +12,9 @@ Las miniaturas originales y sus hashes se registran en `gallery/dependencies.jso
 - Inter, `@fontsource/inter` 5.3.0: Rasmus Andersson, SIL Open Font License 1.1. [Texto](gallery/vendor/inter.LICENSE).
 
 Los avisos del bundle del visor se conservan. Las integridades de los paquetes npm están fijadas en `gallery/dependencies.json`.
+
+## Nuevas referencias y decodificador
+
+NASA (10), Smithsonian (6) y Sketchfab (8): autor, versión nativa, fuente y condiciones por recurso en ATTRIBUTIONS.md y los índices de licencia. Las miniaturas propias conservan los créditos y condiciones del modelo, incluida CC BY-NC-SA 4.0 cuando corresponde.
+
+Google Draco 1.5.6: Apache-2.0, [licencia conservada](gallery/vendor/draco/LICENSE.txt). Los tres archivos del decodificador se fijan por SHA-256 en gallery/dependencies.json y permiten cargar originales NASA comprimidos sin conexiones externas.

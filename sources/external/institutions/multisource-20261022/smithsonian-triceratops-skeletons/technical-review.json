@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    2.803518056869507,
+    5.8914642333984375,
+    1.661695957183838
+  ],
+  "boundsMinBlender": [
+    -1.4025540351867676,
+    -2.9455599784851074,
+    -0.8303830027580261
+  ],
+  "boundsMaxBlender": [
+    1.4009640216827393,
+    2.945904016494751,
+    0.8313130140304565
+  ],
+  "meshObjects": 1,
+  "polygons": 149997,
+  "vertices": 102235,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "smithsonian-triceratops-skeletons",
+  "sourceFile": "model.glb",
+  "glbSha256": "cd8525c7371d14876bcdefe3f579d216bf597db892c2de6ed597da86bf1a98b3",
+  "reimport": {
+    "dimensionsBlender": [
+      2.803518056869507,
+      5.8914642333984375,
+      1.661695957183838
+    ],
+    "boundsMinBlender": [
+      -1.4025540351867676,
+      -2.9455599784851074,
+      -0.8303830027580261
+    ],
+    "boundsMaxBlender": [
+      1.4009640216827393,
+      2.945904016494751,
+      0.8313130140304565
+    ],
+    "meshObjects": 1,
+    "polygons": 149997,
+    "vertices": 102235,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0005891464233398438,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/renders/source-back.png": "c5a347d092daeeab14e767dc983040a1cfe61695ba3cc8856196511c60e766d9",
+    "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/renders/source-side.png": "e12c3fb54cae9808524428c38c85fdfc7a7a01e3465c80c79fd336eacc98090f",
+    "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/renders/source-front.png": "69b33fee493e8b4313f79ec063c1d885922871a55badc4dcd02f74a42bbc6001",
+    "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/renders/reimport-three-quarter.png": "3f467b993260d03511a8386143f3fce685ce544e985967c7043067434bb73c6f",
+    "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/renders/source-three-quarter.png": "0bb87f268bc79b655a0a7028909bb430a915e5b45afd00f7b16634facb50ea97",
+    "sources/external/institutions/multisource-20261022/smithsonian-triceratops-skeletons/renders/source-wireframe.png": "ad5249ad9b0d11ee46d58c754ba057ee6316e9b632fe80c6d97049fbbe3c85a9"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

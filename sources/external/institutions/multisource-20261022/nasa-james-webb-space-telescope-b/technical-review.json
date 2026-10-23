@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    12.87092399597168,
+    20.996150970458984,
+    11.256908416748047
+  ],
+  "boundsMinBlender": [
+    -6.435308933258057,
+    -10.399120330810547,
+    -3.1614186763763428
+  ],
+  "boundsMaxBlender": [
+    6.435615062713623,
+    10.597030639648438,
+    8.095489501953125
+  ],
+  "meshObjects": 1,
+  "polygons": 99239,
+  "vertices": 297717,
+  "materials": 36,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "nasa-james-webb-space-telescope-b",
+  "sourceFile": "model.glb",
+  "glbSha256": "4958e61e5a564f2efcc32cd516b9d36ea0b9bc644f64dbcfe182ce8a422ae526",
+  "reimport": {
+    "dimensionsBlender": [
+      12.87092399597168,
+      20.996150970458984,
+      11.256908416748047
+    ],
+    "boundsMinBlender": [
+      -6.435308933258057,
+      -10.399120330810547,
+      -3.1614186763763428
+    ],
+    "boundsMaxBlender": [
+      6.435615062713623,
+      10.597030639648438,
+      8.095489501953125
+    ],
+    "meshObjects": 1,
+    "polygons": 99239,
+    "vertices": 297717,
+    "materials": 36,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0020996150970458986,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/renders/source-back.png": "581843be0a32cc286a486e61c97cec28e5e3afa6b46c817853705a88f5f0ff3d",
+    "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/renders/source-side.png": "f4171ac04f068a7ff9559bcd2ead2616a369813a3aaca3c4f5799a7031dd6716",
+    "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/renders/source-front.png": "57fe1470174ec66ce91254413fa1401ab65547ef41a888d237d41149cb0e5780",
+    "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/renders/reimport-three-quarter.png": "707b1239a3e501cba3f47beac7763e650518293e3e7448688175049de1ae909e",
+    "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/renders/source-three-quarter.png": "11ad5d9ed549d2f39cbfc1ef756f40826d1121eb1fca6ec8f5d4e7c74d4720ae",
+    "sources/external/institutions/multisource-20261022/nasa-james-webb-space-telescope-b/renders/source-wireframe.png": "a1b1e858709a873da0f67402a46ef2ec22873a86c4d4337d7ce8a68a3afa0257"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

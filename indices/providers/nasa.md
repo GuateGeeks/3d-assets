@@ -1,0 +1,16 @@
+# NASA 3D Resources
+
+10 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+
+| Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
+| --- | --- | --- | --- | --- | --- |
+| [Módulo lunar Apolo](https://science.nasa.gov/3d-resources/apollo-lunar-module/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Michael D. Carbajal | [GLB](../../models/nasa-apollo-lunar-module/model.glb) | 0 / 135 |
+| [Antena Deep Space Network de 34 m](https://science.nasa.gov/3d-resources/deep-space-network-34-meter/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Brian E. Kumanchik; NASA/Christian A. Lopez | [GLB](../../models/nasa-deep-space-network-34-meter/model.glb) | 0 / 0 |
+| [Antena Deep Space Network de 70 m](https://science.nasa.gov/3d-resources/deep-space-network-70-meter/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Brian E. Kumanchik; NASA/Christian A. Lopez | [GLB](../../models/nasa-deep-space-network-70-meter/model.glb) | 0 / 0 |
+| [Satélite de observación EO-1](https://science.nasa.gov/3d-resources/earth-observing-1-eo-1/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Christian A. Lopez; NASA/Christopher M. Garcia | [GLB](../../models/nasa-earth-observing-1-eo-1/model.glb) | 0 / 0 |
+| [Helicóptero Ingenuity](https://science.nasa.gov/3d-resources/ingenuity-mars-helicopter/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Brian E. Kumanchik | [GLB](../../models/nasa-ingenuity-mars-helicopter/model.glb) | 0 / 0 |
+| [Estación Espacial Internacional · A](https://science.nasa.gov/3d-resources/international-space-station-iss-a/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Ames Research Center | [GLB](../../models/nasa-international-space-station-iss-a/model.glb) | 0 / 0 |
+| [Telescopio James Webb · B](https://science.nasa.gov/3d-resources/james-webb-space-telescope-b/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Christopher R. Meaney | [GLB](../../models/nasa-james-webb-space-telescope-b/model.glb) | 0 / 0 |
+| [Rover Perseverance](https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Jet Propulsion Laboratory | [GLB](../../models/nasa-mars-2020-perseverance-rover/model.glb) | 1 / 23 |
+| [Cohete Saturno V](https://science.nasa.gov/3d-resources/saturn-v/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Michael D. Carbajal | [GLB](../../models/nasa-saturn-v/model.glb) | 0 / 23 |
+| [Sonda Voyager · A](https://science.nasa.gov/3d-resources/voyager-probe-a/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Christopher R. Meaney | [GLB](../../models/nasa-voyager-probe-a/model.glb) | 0 / 0 |

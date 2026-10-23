@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    34.024810791015625,
+    33.969547271728516,
+    36.79209518432617
+  ],
+  "boundsMinBlender": [
+    -16.90088653564453,
+    -16.86501693725586,
+    -0.9821951389312744
+  ],
+  "boundsMaxBlender": [
+    17.123926162719727,
+    17.104530334472656,
+    35.809898376464844
+  ],
+  "meshObjects": 8,
+  "polygons": 31842,
+  "vertices": 55637,
+  "materials": 9,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "nasa-deep-space-network-34-meter",
+  "sourceFile": "model.glb",
+  "glbSha256": "7a4b71f14da463fb70b5da7757c99fb8868a1f0d82f4c28cf3d57019f051a806",
+  "reimport": {
+    "dimensionsBlender": [
+      34.024810791015625,
+      33.969547271728516,
+      36.79209518432617
+    ],
+    "boundsMinBlender": [
+      -16.90088653564453,
+      -16.86501693725586,
+      -0.9821951389312744
+    ],
+    "boundsMaxBlender": [
+      17.123926162719727,
+      17.104530334472656,
+      35.809898376464844
+    ],
+    "meshObjects": 8,
+    "polygons": 31842,
+    "vertices": 55637,
+    "materials": 9,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0036792095184326173,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/renders/source-back.png": "9cdce254e38ec7ceddeff6532a4c4cce1b5c9c1f3259734c70aae0448acf5a8e",
+    "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/renders/source-side.png": "69d1a19ad37874ba8b2e0a2be391245a61b66ba5c0a432be3595caa0272828f1",
+    "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/renders/source-front.png": "bcc2177ee1440c338a8bdc397c810c69e2cae5da951c12c631bff70fc9aa03fd",
+    "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/renders/reimport-three-quarter.png": "d8824225786d3f93c841bd59603b53ca6f23cd15153f60afb985c18b8b7db2c6",
+    "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/renders/source-three-quarter.png": "5f696995fcf97fad46354a1fba5e98423bb1a9ec370d9c11bd51a7a010713967",
+    "sources/external/institutions/multisource-20261022/nasa-deep-space-network-34-meter/renders/source-wireframe.png": "5169ae13a5d970f69d264df9d1826ba30507614029fca4e4c5f24f3831c959c5"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

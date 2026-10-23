@@ -1,0 +1,97 @@
+{
+  "result": "PASS",
+  "scope": "Eligibility for native reference publication, not artistic or scientific certification. Six rendered views per source opened in five contact sheets; source and reimport appearance compared. Existing-family contact sheet opened for semantic grouping.",
+  "eligibleIds": [
+    "nasa-mars-2020-perseverance-rover",
+    "nasa-ingenuity-mars-helicopter",
+    "nasa-james-webb-space-telescope-b",
+    "nasa-international-space-station-iss-a",
+    "nasa-voyager-probe-a",
+    "nasa-apollo-lunar-module",
+    "nasa-saturn-v",
+    "nasa-deep-space-network-70-meter",
+    "nasa-deep-space-network-34-meter",
+    "nasa-earth-observing-1-eo-1",
+    "smithsonian-triceratops-skeletons",
+    "smithsonian-lycaste-virginalis-1",
+    "smithsonian-lycaste-virginalis-2",
+    "smithsonian-induction-coils",
+    "smithsonian-trilobite-fossils",
+    "smithsonian-whale-fossils",
+    "sketchfab-3f8072336ce94d18b3d0d055a1ece089",
+    "sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec",
+    "sketchfab-ce09f4099a68467880f46e61eb9a3531",
+    "sketchfab-ad7d7e16b98f421db0cda79f265fcc8d",
+    "sketchfab-83483a66f8974d7e8f2e7bbde518d606",
+    "sketchfab-e0678e6615a74ed29c1376a591262159",
+    "sketchfab-950d0a46531f492ab8715777e312a5bf",
+    "sketchfab-285032402a8543ae8bf3e3c4d8c9f98a"
+  ],
+  "held": [
+    {
+      "id": "nasa-james-webb-space-telescope-a",
+      "providerId": "nasa",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/james-webb-space-telescope-a/",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "reason": "Componente aislado visible fuera del cuerpo del telescopio; conservar original y evaluar composición antes de publicar. Se conserva la variante B como alternativa.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "nasa-international-space-station-iss-b",
+      "providerId": "nasa",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/international-space-station-iss-b/",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "reason": "Elemento aislado separado de la estación y lectura visual menos clara que la variante A; requiere evaluación antes de publicación.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "nasa-1999-rq36-asteroid",
+      "providerId": "nasa",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/1999-rq36-asteroid/",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "reason": "Material nativo muy oscuro; forma y relieve no se leen con suficiente claridad en las vistas estándar.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "smithsonian-mammoth-skeletons",
+      "providerId": "smithsonian",
+      "sourceUrl": "https://3d.si.edu/object/3d/341c96cd-f967-4540-8ed1-d3fc56d31f12",
+      "licenseRaw": "CC0 1.0",
+      "reason": "Apariencia nativa blanca plana; los huesos no se distinguen con suficiente sombreado en el render estándar.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    },
+    {
+      "id": "sketchfab-e24e96b6bc39423b871b10f098876b8f",
+      "providerId": "sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/e24e96b6bc39423b871b10f098876b8f",
+      "licenseRaw": "CC-BY 4.0",
+      "reason": "Materiales nativos blancos con lectura de piel y huesos insuficiente en las vistas estándar.",
+      "technical": "PASS",
+      "visual": "FAIL",
+      "downloaded": true,
+      "publiclyPromoted": false
+    }
+  ],
+  "images": {
+    "sources/external/institutions/multisource-20261022/review/contact-4.jpg": "a97dbfc2d17cea0baa8fc8711d822818fd63912b7ed67827b1739cc0449ffd62",
+    "sources/external/institutions/multisource-20261022/review/contact-3.jpg": "1226968de9f1d84d2e1fadbd7bd1bf6e2fbc90fdf3904e437eabc0c3f1cdfc3a",
+    "sources/external/institutions/multisource-20261022/review/contact-5.jpg": "85442edebc1d2017cd1f3b39c90250f95918bb42e7f85e0fd9d907ffcbc566d2",
+    "sources/external/institutions/multisource-20261022/review/contact-2.jpg": "132996210dc2d198fecbb712a2ecf80ad72135d1bf872511d22f01f395e6ea11",
+    "sources/external/institutions/multisource-20261022/review/contact-1.jpg": "e977457adc53f36519de064421f117ebd373ec2234abdb24629a3ca85949db92",
+    "sources/external/institutions/multisource-20261022/review/existing-families.jpg": "af4e49a0c996410d8d40d27579c55e8499f913324e6d4096a7469882551956ca"
+  },
+  "educationalReview": "NOT_RUN",
+  "observations": "Twenty-four native resources are framed, readable and retain the appearance of the original after reimport. Five other downloads remain private pending visual remediation or a clearer authorized source. No native model edited."
+}

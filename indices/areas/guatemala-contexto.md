@@ -1,6 +1,6 @@
 # Contexto guatemalteco y mesoamericano
 
-9 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+11 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -13,3 +13,5 @@
 | [Mayan Temple](https://poly.pizza/m/cf3QwX0JqGN) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Steve Atkins | [GLB](../../models/cf3QwX0JqGN/model.glb) | 0 / 0 |
 | [Toco Toucan](https://poly.pizza/m/fFVqukPnc62) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Anonymous | [GLB](../../models/fFVqukPnc62/model.glb) | 0 / 0 |
 | [Coffee cup](https://poly.pizza/m/fIuM_PW5prV) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/fIuM_PW5prV/model.glb) | 0 / 0 |
+| [Lycaste virginalis · planta en maceta](https://3d.si.edu/object/3d/5ff6e90a-4ddb-4eea-a69c-40970f85fbcb) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / Smithsonian Gardens | [GLB](../../models/smithsonian-lycaste-virginalis-1/model.glb) | 0 / 0 |
+| [Lycaste virginalis · flor](https://3d.si.edu/object/3d/42e8e95f-1b67-4135-8728-cdc7aa277997) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / Smithsonian Gardens | [GLB](../../models/smithsonian-lycaste-virginalis-2/model.glb) | 0 / 0 |

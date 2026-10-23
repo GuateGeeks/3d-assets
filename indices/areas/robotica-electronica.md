@@ -1,6 +1,6 @@
 # Robótica y electrónica STEAM
 
-27 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+29 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -18,6 +18,8 @@
 | [Circuit parts](https://poly.pizza/m/fL02Z7OItO9) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Bill Baran (Sirkut) | [GLB](../../models/fL02Z7OItO9/model.glb) | 0 / 0 |
 | [arduino](https://poly.pizza/m/fWRtJe-ZHR6) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Mauricio Martínez González | [GLB](../../models/fWRtJe-ZHR6/model.glb) | 0 / 0 |
 | [Circuit board 1](https://poly.pizza/m/fxKdRjNq20j) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Bill Baran (Sirkut) | [GLB](../../models/fxKdRjNq20j/model.glb) | 0 / 0 |
+| [Helicóptero Ingenuity](https://science.nasa.gov/3d-resources/ingenuity-mars-helicopter/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Brian E. Kumanchik | [GLB](../../models/nasa-ingenuity-mars-helicopter/model.glb) | 0 / 0 |
+| [Rover Perseverance](https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Jet Propulsion Laboratory | [GLB](../../models/nasa-mars-2020-perseverance-rover/model.glb) | 1 / 23 |
 | [Engranaje · 6 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Elegant Crow | [GLB](../../models/oga-gears-gear-06/model.glb) | 0 / 0 |
 | [Engranaje · 8 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Elegant Crow | [GLB](../../models/oga-gears-gear-08/model.glb) | 0 / 0 |
 | [Engranaje · 10 dientes](https://opengameart.org/content/gear-pack) | OpenGameArt | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Elegant Crow | [GLB](../../models/oga-gears-gear-10/model.glb) | 0 / 0 |

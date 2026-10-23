@@ -1,0 +1,385 @@
+{
+  "baselineModels": 1021,
+  "baselineFingerprintCount": 1021,
+  "comparisons": [
+    {
+      "id": "nasa-mars-2020-perseverance-rover",
+      "sha256": "10db7c03a5e63a5a3b3e7baa6243aa4918ba045fa8ff0a731d0217491adc727f",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "0b1f070f77e0337504a134d23e4f189d8e60304c34b26ae368c9dc95fe18afc2",
+        "triangles": 199521
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-ingenuity-mars-helicopter",
+      "sha256": "9e5a5398ab335eae7d46335085301ce46fb7de052300b645debe8bac6d39f2b5",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "698d1664f6394858470890077a97127eec283f830cb8f150c975228e0cd0b783",
+        "triangles": 9124
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-james-webb-space-telescope-a",
+      "sha256": "ea4a53f71f1e7477d8b90e30d1299b2cb33faea18acdcaf831dc9d3ebf1b7750",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "a616a5fe3ae1608810cfec5f18c4a4c63c93e6c65192fbe09dfdd61ea2e84b85",
+        "triangles": 493785
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-james-webb-space-telescope-b",
+      "sha256": "4958e61e5a564f2efcc32cd516b9d36ea0b9bc644f64dbcfe182ce8a422ae526",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "a0ae6c9d584fb37953313b40fa3e7013995797bdc513f60d3ec6dc88109e8af7",
+        "triangles": 99239
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-international-space-station-iss-a",
+      "sha256": "70d0619a69312a45cbf740ba9a491fad854e10226dc5936c213fb1f93f063678",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "e863959a01189c6fff8d243047f3bebb0a212b115a542648101f9cc405964718",
+        "triangles": 6642
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-international-space-station-iss-b",
+      "sha256": "2ba4427413b0dd89a33d2acaf962dea8a96a3b1d8dceda05cc7aad547ffd3d16",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "942d538392408ccc00a2ac3a2427acb5d05ddd602b18ac49730447759a195b9b",
+        "triangles": 174440
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-voyager-probe-a",
+      "sha256": "7cf8eefb5a0fca9e4e1b0d1e51c37433124169183e5dbfd2d8034af902311821",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "5adbe6861e537bc8a273065b6455bcd49c6252918fbff040bf432b49bcbec78e",
+        "triangles": 29911
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-apollo-lunar-module",
+      "sha256": "379101dfcee399267addf771709107c35e826b0b9e5233272f123e4c8a585c4e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "a90d866e38853dc877b9c97b2add36593bfac8703cc494e7f5c7f0b4f49d3fcf",
+        "triangles": 97588
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-saturn-v",
+      "sha256": "6c44497bce54ee0b09d0edb8e33a6f484762a320dab1c54b383e434f5bba06b5",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "ede483a6ebb15a38a7e49ad60b4d21675796279ba31d369ea75215db48ce83c9",
+        "triangles": 34814
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-deep-space-network-70-meter",
+      "sha256": "72dddfd955f5c212a40f368556ab4c13ab59a109bc1b46855b09c8549b18aa5c",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "87c68ac63d86c31aea14b01804a6e633368d9e5af6f8cd4324bc9d0acf993c7e",
+        "triangles": 33136
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-deep-space-network-34-meter",
+      "sha256": "7a4b71f14da463fb70b5da7757c99fb8868a1f0d82f4c28cf3d57019f051a806",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "c8fca5cc61b2ecad0b6ff0a948530bdba3acbcd08b09f3fed1ff21da068dfaed",
+        "triangles": 31842
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-earth-observing-1-eo-1",
+      "sha256": "2d26422a45147e86c93c535979b1d9ae16d34fc0171f661dec051bca61c14a74",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "35621424876dc05fad8fd54a902917756e2965b8f7d9235287c6b456eba868d3",
+        "triangles": 37775
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "nasa-1999-rq36-asteroid",
+      "sha256": "644af15678447df90c2d9e85674809c7fc70f439e0865418aa6618a8483b7958",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "ea3050f7efe95dab345c5a6044e4554a8dc6f74ae1aa1da8894ee39132c8f78b",
+        "triangles": 18240
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "smithsonian-mammoth-skeletons",
+      "sha256": "9633d983babfddbe7379c8e03394e3670ab36c337242709ebbdccea2beb8e530",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "5a38484cdf6eec0d66126937b02438a075f6d302d98f2cf58a16939510012816",
+        "triangles": 100000
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "smithsonian-triceratops-skeletons",
+      "sha256": "cd8525c7371d14876bcdefe3f579d216bf597db892c2de6ed597da86bf1a98b3",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "e15be900bc24e52faf10acc0652b9dad181015a94aecc173dbe5ce9d4b3a80e9",
+        "triangles": 149998
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "smithsonian-lycaste-virginalis-1",
+      "sha256": "8f39967500016679862269c7743f91d4ffae8556f0768a38ee7d9ef10ea4db33",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "58a99d0b60464a2e68fe1e75496592cc2501758d35802049062a72a6291e8513",
+        "triangles": 150000
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "smithsonian-lycaste-virginalis-2",
+      "sha256": "ac855b00d5d07f257f34e2b0072c9be9d9fe68802eb24fa76e8824f8bb89f8ac",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "5393157630f5dd5f2688a1f549678fda7f0960808b2153080ebeb0f7fdcba855",
+        "triangles": 149996
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "smithsonian-induction-coils",
+      "sha256": "0c832bedd9ead9a06db6ccb0587b56f9d0d94cf1fac71df332f5535a54023005",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "0e39d7919a271668a7eedf79ad6f7714d82885444ebdb6efd01b77534ae621fa",
+        "triangles": 150000
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "smithsonian-trilobite-fossils",
+      "sha256": "8445d9580955f4bfdf4959ad271d7983574192b656c95eadbc2f4ddfa804d9d2",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "cb92c80bd11f9d847ce70817d61a0c4761b6197473a2a9fc4e575c344f6db765",
+        "triangles": 150000
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "smithsonian-whale-fossils",
+      "sha256": "1ea37a71fc282699d3c0d2a69961bb8c05b4a08535cb7f060cd490cdb3b64b12",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "16a9660a894133bae65d8a432b9feb9c39f1a81dc52d210a785d2a9db5dc3f4e",
+        "triangles": 149999
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-3f8072336ce94d18b3d0d055a1ece089",
+      "sha256": "fcb3c1036fe59dfdcc1c30917dbdaa8fbd52c858e6ba3cadaf126b44ccca4b5b",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "5889a892b3ba86c37e9e04ac4171c14b4a65a7d5a8c34e5d3cacfdf2210869ab",
+        "triangles": 22562
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec",
+      "sha256": "d1f7dad2a6e7a884b893e6e8c6ceaa9a6fe763f39926bce9ecc9b38a1d9a3836",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "8d039e50707c6ffb1c7337bb4aa1e11d0c28e7e7f4e37a2125d2da6a96973b2b",
+        "triangles": 45296
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-ce09f4099a68467880f46e61eb9a3531",
+      "sha256": "c7baf3929adcef32b10a3092699b0c43a2486adc85290d363714e1df3ca52fea",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "27bfa3cbccc6fbbddd0152223775a4571d327ec09fbed571aeae314b1f364af9",
+        "triangles": 63974
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-ad7d7e16b98f421db0cda79f265fcc8d",
+      "sha256": "9741c32977663f75f4d3f91f56ee6a44a237322a2abb74ab210ea7b580b77324",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "c728ae240eeb28b81776c0bd6e713936df9d6a0ce273932f015353c9979b7af5",
+        "triangles": 237105
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-83483a66f8974d7e8f2e7bbde518d606",
+      "sha256": "30daf01b5eaa92660a4a11b49259a336ef9bc863ccac856a50e7bbbf980caf4e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "31d0066a86e340abaffda1bcd4ca739fecabfce69b79fa244570bd4b2038aab0",
+        "triangles": 1854
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-e0678e6615a74ed29c1376a591262159",
+      "sha256": "a7053cd6a0b70b6f16b915499bf04d2f186be6a3c0b7dc72be25b43648b38d0d",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "1c5808189849a0aad4d7e24224a8b635de02635854a3f04a30694e5079e06b6e",
+        "triangles": 3104
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-950d0a46531f492ab8715777e312a5bf",
+      "sha256": "fad3fa54ba1a12d0f5a1634acf041b0cb5a47bda29724143dd6701ce36ccbd91",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "0c08a3dfea11acecbb0de76aa033db070d1916b2577e822e3134d7237195d4ef",
+        "triangles": 51650
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-e24e96b6bc39423b871b10f098876b8f",
+      "sha256": "3316e44917764547de441cbceb6f977af64b71aa2433f1ee5b354fdb23e31947",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "5c979e1a8173ad5f8f6788459a2ec87555bd15a36e567531db35779058c52a79",
+        "triangles": 30304
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-285032402a8543ae8bf3e3c4d8c9f98a",
+      "sha256": "afbffe20ebe7e0ec688925b9d06eb68edadfce49799f2190e47f6f4227c706df",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "f332453a0eef007c964dba64483437530b0d98bf8f229b71bbb4a17bbcf64676",
+        "triangles": 1480
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    }
+  ],
+  "unsupported": [],
+  "methodNote": "Native GLB SHA-256 plus triangle-edge-distribution-v1; Draco decoded locally with Google Draco 1.5.6 without modifying source bytes. Geometry matches need individual review; nonmatches do not exclude semantic variants."
+}

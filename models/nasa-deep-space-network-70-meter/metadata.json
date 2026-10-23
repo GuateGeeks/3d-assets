@@ -1,0 +1,116 @@
+{
+  "id": "nasa-deep-space-network-70-meter",
+  "assetId": "nasa:deep-space-network-70-meter",
+  "providerId": "nasa",
+  "provider": "NASA 3D Resources",
+  "title": "Antena Deep Space Network de 70 m",
+  "titleOriginal": "Deep Space Network 70-meter",
+  "author": "NASA/Brian E. Kumanchik; NASA/Christian A. Lopez",
+  "authorUrl": "https://science.nasa.gov/3d-resources/deep-space-network-70-meter/",
+  "sourceUrl": "https://science.nasa.gov/3d-resources/deep-space-network-70-meter/",
+  "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/deep-space-network-70-meter/Deep%20Space%20Network%2070-meter.glb",
+  "thumbnailUrl": null,
+  "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Deep Space Network 70-meter",
+    "dsn-antennas"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "NASA Media Usage Guidelines",
+  "license": {
+    "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attributionRequired": true,
+    "commercialUse": null,
+    "derivatives": null,
+    "shareAlike": false,
+    "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+  },
+  "attribution": "\"Deep Space Network 70-meter\", por NASA/Brian E. Kumanchik; NASA/Christian A. Lopez / NASA 3D Resources. https://science.nasa.gov/3d-resources/deep-space-network-70-meter/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/nasa-deep-space-network-70-meter/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-70-meter/metadata.json",
+  "originalDownload": "models/nasa-deep-space-network-70-meter/originals.zip",
+  "bytes": 1867668,
+  "sha256": "72dddfd955f5c212a40f368556ab4c13ab59a109bc1b46855b09c8549b18aa5c",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 15,
+    "nodes": 15,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": [
+      "KHR_draco_mesh_compression"
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:17.635523+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "NASA 3D Resources native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/nasa-deep-space-network-70-meter/model.glb",
+        "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/deep-space-network-70-meter/Deep%20Space%20Network%2070-meter.glb",
+        "bytes": 1867668,
+        "sha256": "72dddfd955f5c212a40f368556ab4c13ab59a109bc1b46855b09c8549b18aa5c"
+      }
+    ],
+    "originalDownloadSha256": "474b43c7abd3008ad941a7767ea1d2996cd8585bdce6a220775474d81a955740",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      70.07337188720703,
+      70.07337188720703,
+      72.9266586303711
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-70-meter/license-evidence.json",
+    "licenseEvidenceSha256": "aa0efad6ec4813a3fbda98121f29fdbf8b8667cf8edf509b33f9a986f171c017",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-70-meter/metadata.json",
+    "metadataEvidenceSha256": "95240803816c8341a424a60cedd593a87d09e6d4ee9a0e0054904db047d1fc70",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-deep-space-network-70-meter/technical-review.json",
+    "technicalReviewEvidenceSha256": "2a61de24ceca79b0b6146c9c9ffb4a58fb74c0c6a7bb82a745c6107877364266",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "87c68ac63d86c31aea14b01804a6e633368d9e5af6f8cd4324bc9d0acf993c7e",
+      "triangles": 33136
+    }
+  }
+}

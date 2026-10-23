@@ -1,0 +1,638 @@
+{
+  "status": 200,
+  "responseCode": 1,
+  "response": {
+    "rows": [
+      {
+        "id": "ld1-1643398757019-1643398761296-0",
+        "title": "Lycaste virginalis",
+        "unitCode": "OFEO-SG",
+        "type": "edanmdm",
+        "url": "edanmdm:ofeo-sg_2018-1177A",
+        "content": {
+          "freetext": {
+            "notes": [
+              {
+                "label": "Description",
+                "content": "When this large orchid first hit the European orchid scene in the late 1800s, it was so coveted that thousands were taken from its native Guatemalan cloud forests and exported. Almost all of these plants died for various reasons. By the 1930s, when L. skinneri var. alba (now L. virginalis) was first designated as the national flower of Guatemala, it was considered rare. Despite prohibition on the collection of L. virginalis starting in the 1940s, poaching continued, leading to the Guatemalan government banning the export of all orchids until the ‘90s. This beautiful orchid remains in danger, but protection efforts persist."
+              },
+              {
+                "label": "Bloom Time (Northern Hemisphere)",
+                "content": "Year round; peaks in February and March"
+              },
+              {
+                "label": "Ethnobotanical Uses",
+                "content": "National flower of Guatemala."
+              },
+              {
+                "label": "Pollination Syndrome",
+                "content": "Bee (Euglossa), collects fragrance"
+              },
+              {
+                "label": "Provenance",
+                "content": "From a cultivated plant not of known wild origin"
+              }
+            ],
+            "place": [
+              {
+                "label": "Range",
+                "content": "Mexico (Chiapas) to Honduras"
+              },
+              {
+                "label": "Habitat",
+                "content": "Cool cloud forests in the forks of trees; 3950-6600ft (1200-2000m)"
+              }
+            ],
+            "topic": [
+              {
+                "label": "Topic",
+                "content": "Orchids"
+              },
+              {
+                "label": "Topic",
+                "content": "Living Collections"
+              }
+            ],
+            "setName": [
+              {
+                "label": "See more items in",
+                "content": "Smithsonian Gardens Orchid Collection"
+              }
+            ],
+            "dataSource": [
+              {
+                "label": "Data Source",
+                "content": "Smithsonian Gardens"
+              }
+            ],
+            "identifier": [
+              {
+                "label": "Accession Number",
+                "content": "2018-1177A"
+              }
+            ],
+            "objectRights": [
+              {
+                "label": "Restrictions & Rights",
+                "content": "CC0"
+              }
+            ],
+            "taxonomicName": [
+              {
+                "label": "Common Name",
+                "content": "Monja Blanca"
+              },
+              {
+                "label": "Common Name",
+                "content": "White Nun Orchid"
+              },
+              {
+                "label": "Common Name",
+                "content": "Saq Hix"
+              },
+              {
+                "label": "Group",
+                "content": "[vascular plants]"
+              },
+              {
+                "label": "Class",
+                "content": "Equisetopsida"
+              },
+              {
+                "label": "Subclass",
+                "content": "Magnoliidae"
+              },
+              {
+                "label": "Superorder",
+                "content": "Lilianae"
+              },
+              {
+                "label": "Order",
+                "content": "Asparagales"
+              },
+              {
+                "label": "Family",
+                "content": "Orchidaceae"
+              },
+              {
+                "label": "Subfamily",
+                "content": "Epidendroideae"
+              },
+              {
+                "label": "Genus",
+                "content": "Lycaste"
+              },
+              {
+                "label": "Species",
+                "content": "virginalis"
+              }
+            ],
+            "physicalDescription": [
+              {
+                "label": "Life Form",
+                "content": "Epiphytic"
+              },
+              {
+                "label": "Bloom Characteristics",
+                "content": "Inflorescence is 6-12\" (15-30 cm) long with a single, waxy, long lasting flower. Flower is 4-6\" (10-15 cm) across, but can be small as 2\" (5 cm) across or as large as 7\" (17.8 cm)."
+              },
+              {
+                "label": "Foliage Characteristics",
+                "content": "Deciduous"
+              },
+              {
+                "label": "Fragrance",
+                "content": "Fragrant"
+              },
+              {
+                "label": "Plant Size",
+                "content": "12-20\" x 12-20\" (30-51 x 30-46 cm)"
+              }
+            ]
+          },
+          "indexedStructured": {
+            "topic": [
+              "Living Collections",
+              "Botany",
+              "Orchids",
+              "Plants"
+            ],
+            "tax_class": [
+              "Equisetopsida"
+            ],
+            "tax_order": [
+              "Asparagales"
+            ],
+            "tax_family": [
+              "Orchidaceae"
+            ],
+            "common_name": [
+              "Monja Blanca",
+              "Saq Hix",
+              "White Nun Orchid"
+            ],
+            "object_type": [
+              "Living botanical specimens"
+            ],
+            "tax_sub-family": [
+              "Epidendroideae"
+            ],
+            "scientific_name": [
+              "Lycaste virginalis"
+            ],
+            "online_media_type": [
+              "Images"
+            ]
+          },
+          "descriptiveNonRepeating": {
+            "guid": "http://n2t.net/ark:/65665/ax72ac79eba-f8d2-4dc7-a8a9-62e5cf3f9712",
+            "title": {
+              "label": "Title",
+              "content": "Lycaste virginalis"
+            },
+            "record_ID": "ofeo-sg_2018-1177A",
+            "unit_code": "OFEO-SG",
+            "title_sort": "LYCASTE VIRGINALIS",
+            "data_source": "Smithsonian Gardens",
+            "online_media": {
+              "media": [
+                {
+                  "id": "media:SG-2018-1177A-FLO1-HL",
+                  "guid": "http://n2t.net/ark:/65665/hk66ff92baa-90ab-4f8b-8067-22a22b996e37",
+                  "type": "Images",
+                  "idsId": "SG-2018-1177A-FLO1-HL",
+                  "usage": {
+                    "access": "CC0"
+                  },
+                  "caption": "Photographed by: Hannele Lahti",
+                  "content": "https://ids.si.edu/ids/deliveryService?id=SG-2018-1177A-FLO1-HL",
+                  "thumbnail": "https://ids.si.edu/ids/deliveryService?id=SG-2018-1177A-FLO1-HL",
+                  "altTextAccessibility": "",
+                  "extDescrAccessibility": "Lycaste virginalis",
+                  "resources": [
+                    {
+                      "label": "High-resolution TIFF",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-FLO1-HL.tif",
+                      "width": 6720,
+                      "height": 4480,
+                      "dimensions": "6720x4480"
+                    },
+                    {
+                      "label": "High-resolution JPEG",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-FLO1-HL.jpg",
+                      "width": 6720,
+                      "height": 4480,
+                      "dimensions": "6720x4480"
+                    },
+                    {
+                      "label": "Screen Image",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-FLO1-HL_screen"
+                    },
+                    {
+                      "label": "Thumbnail Image",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-FLO1-HL_thumb"
+                    }
+                  ]
+                },
+                {
+                  "id": "media:SG-2018-1177A-FLO2-HL",
+                  "guid": "http://n2t.net/ark:/65665/hk6fca64f8a-3cf7-4e15-ae00-a156fbfb54e9",
+                  "type": "Images",
+                  "idsId": "SG-2018-1177A-FLO2-HL",
+                  "usage": {
+                    "access": "CC0"
+                  },
+                  "caption": "Photographed by: Hannele Lahti",
+                  "content": "https://ids.si.edu/ids/deliveryService?id=SG-2018-1177A-FLO2-HL",
+                  "thumbnail": "https://ids.si.edu/ids/deliveryService?id=SG-2018-1177A-FLO2-HL",
+                  "altTextAccessibility": "",
+                  "extDescrAccessibility": "Lycaste virginalis",
+                  "resources": [
+                    {
+                      "label": "High-resolution TIFF",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-FLO2-HL.tif",
+                      "width": 0,
+                      "height": 0,
+                      "dimensions": "0x0"
+                    },
+                    {
+                      "label": "High-resolution JPEG",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-FLO2-HL.jpg",
+                      "width": 8185,
+                      "height": 5457,
+                      "dimensions": "8185x5457"
+                    },
+                    {
+                      "label": "Screen Image",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-FLO2-HL_screen"
+                    },
+                    {
+                      "label": "Thumbnail Image",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-FLO2-HL_thumb"
+                    }
+                  ]
+                },
+                {
+                  "id": "media:SG-2018-1177A-PLT1-HL",
+                  "guid": "http://n2t.net/ark:/65665/hk6697b933c-8e60-4635-9657-451731cfc0f8",
+                  "type": "Images",
+                  "idsId": "SG-2018-1177A-PLT1-HL",
+                  "usage": {
+                    "access": "CC0"
+                  },
+                  "caption": "Photographed by: Hannele Lahti",
+                  "content": "https://ids.si.edu/ids/deliveryService?id=SG-2018-1177A-PLT1-HL",
+                  "thumbnail": "https://ids.si.edu/ids/deliveryService?id=SG-2018-1177A-PLT1-HL",
+                  "altTextAccessibility": "",
+                  "extDescrAccessibility": "Lycaste virginalis",
+                  "resources": [
+                    {
+                      "label": "High-resolution TIFF",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-PLT1-HL.tif",
+                      "width": 6285,
+                      "height": 4190,
+                      "dimensions": "6285x4190"
+                    },
+                    {
+                      "label": "High-resolution JPEG",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-PLT1-HL.jpg",
+                      "width": 6285,
+                      "height": 4190,
+                      "dimensions": "6285x4190"
+                    },
+                    {
+                      "label": "Screen Image",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-PLT1-HL_screen"
+                    },
+                    {
+                      "label": "Thumbnail Image",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-PLT1-HL_thumb"
+                    }
+                  ]
+                },
+                {
+                  "id": "media:SG-2018-1177A-PLT2-HL",
+                  "guid": "http://n2t.net/ark:/65665/hk6fb67c645-f12f-43b3-bbd1-37b23b7d2818",
+                  "type": "Images",
+                  "idsId": "SG-2018-1177A-PLT2-HL",
+                  "usage": {
+                    "access": "CC0"
+                  },
+                  "caption": "Photographed by: Hannele Lahti",
+                  "content": "https://ids.si.edu/ids/deliveryService?id=SG-2018-1177A-PLT2-HL",
+                  "thumbnail": "https://ids.si.edu/ids/deliveryService?id=SG-2018-1177A-PLT2-HL",
+                  "altTextAccessibility": "",
+                  "extDescrAccessibility": "Lycaste virginalis",
+                  "resources": [
+                    {
+                      "label": "High-resolution TIFF",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-PLT2-HL.tif",
+                      "width": 0,
+                      "height": 0,
+                      "dimensions": "0x0"
+                    },
+                    {
+                      "label": "High-resolution JPEG",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-PLT2-HL.jpg",
+                      "width": 8471,
+                      "height": 5647,
+                      "dimensions": "8471x5647"
+                    },
+                    {
+                      "label": "Screen Image",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-PLT2-HL_screen"
+                    },
+                    {
+                      "label": "Thumbnail Image",
+                      "url": "https://ids.si.edu/ids/download?id=SG-2018-1177A-PLT2-HL_thumb"
+                    }
+                  ]
+                },
+                {
+                  "id": "3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb",
+                  "type": "3d_voyager",
+                  "usage": {
+                    "text": "",
+                    "codes": "",
+                    "access": "CC0"
+                  },
+                  "content": "https://3d-api.si.edu/voyager/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb",
+                  "resources": [
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/resources/Lycaste_virginalis-150k-4096_std.glb",
+                      "name": "Lycaste virginalis: Lycaste virginalis",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis (Low resolution 3D mesh, glb, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "Lycaste_virginalis-150k-4096_std.glb",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "glb",
+                          "MODEL_FILE_TYPE": "glb",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 9502580
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/resources/Lycaste_virginalis-100k-2048_std_draco.glb",
+                      "name": "Lycaste virginalis: Lycaste virginalis",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis (Low resolution 3D mesh, glb, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "Lycaste_virginalis-100k-2048_std_draco.glb",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "glb",
+                          "MODEL_FILE_TYPE": "glb",
+                          "DRACO_COMPRESSED": true,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 2140472
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/resources/Lycaste_virginalis-100k-2048_std.usdz",
+                      "name": "Lycaste virginalis: Lycaste virginalis",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis (iOS AR model 3D mesh, usdz, scale in m)",
+                      "category": "iOS AR model",
+                      "filename": "Lycaste_virginalis-100k-2048_std.usdz",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "usdz",
+                          "MODEL_FILE_TYPE": "usdz",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 11325783
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/resources/Lycaste_virginalis-full_resolution-obj_std.zip",
+                      "name": "Lycaste virginalis: Lycaste virginalis",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis (Full resolution 3D mesh, obj, scale in m)",
+                      "category": "Full resolution",
+                      "filename": "Lycaste_virginalis-full_resolution-obj_std.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "obj",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 195092627
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/resources/Lycaste_virginalis-150k-4096-gltf_std.zip",
+                      "name": "Lycaste virginalis: Lycaste virginalis",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis (Low resolution 3D mesh, gltf, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "Lycaste_virginalis-150k-4096-gltf_std.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "gltf",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 7739637
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/resources/Lycaste_virginalis-150k-4096-obj_std.zip",
+                      "name": "Lycaste virginalis: Lycaste virginalis",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis (Low resolution 3D mesh, obj, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "Lycaste_virginalis-150k-4096-obj_std.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "obj",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 8037384
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnail": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/Lycaste_virginalis-image-thumb.jpg",
+                  "voyagerId": "3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb"
+                },
+                {
+                  "id": "3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997",
+                  "type": "3d_voyager",
+                  "usage": {
+                    "text": "",
+                    "codes": "",
+                    "access": "CC0"
+                  },
+                  "content": "https://3d-api.si.edu/voyager/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997",
+                  "resources": [
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/resources/Lycaste_virginalis-150k-4096_std.glb",
+                      "name": "Lycaste virginalis: Lycaste virginalis: Bloom",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis: Bloom (Low resolution 3D mesh, glb, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "Lycaste_virginalis-150k-4096_std.glb",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "glb",
+                          "MODEL_FILE_TYPE": "glb",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 7687432
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/resources/Lycaste_virginalis-100k-2048_std_draco.glb",
+                      "name": "Lycaste virginalis: Lycaste virginalis: Bloom",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis: Bloom (Low resolution 3D mesh, glb, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "Lycaste_virginalis-100k-2048_std_draco.glb",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "glb",
+                          "MODEL_FILE_TYPE": "glb",
+                          "DRACO_COMPRESSED": true,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 1512084
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/resources/Lycaste_virginalis-100k-2048_std.usdz",
+                      "name": "Lycaste virginalis: Lycaste virginalis: Bloom",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis: Bloom (iOS AR model 3D mesh, usdz, scale in m)",
+                      "category": "iOS AR model",
+                      "filename": "Lycaste_virginalis-100k-2048_std.usdz",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "usdz",
+                          "MODEL_FILE_TYPE": "usdz",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 10967857
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/resources/Lycaste_virginalis-full_resolution-obj_std.zip",
+                      "name": "Lycaste virginalis: Lycaste virginalis: Bloom",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis: Bloom (Full resolution 3D mesh, obj, scale in m)",
+                      "category": "Full resolution",
+                      "filename": "Lycaste_virginalis-full_resolution-obj_std.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "obj",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 51643034
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/resources/Lycaste_virginalis-150k-4096-gltf_std.zip",
+                      "name": "Lycaste virginalis: Lycaste virginalis: Bloom",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis: Bloom (Low resolution 3D mesh, gltf, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "Lycaste_virginalis-150k-4096-gltf_std.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "gltf",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 6051331
+                        }
+                      ]
+                    },
+                    {
+                      "url": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/resources/Lycaste_virginalis-150k-4096-obj_std.zip",
+                      "name": "Lycaste virginalis: Lycaste virginalis: Bloom",
+                      "type": "3D mesh",
+                      "title": "Lycaste virginalis: Lycaste virginalis: Bloom (Low resolution 3D mesh, obj, scale in m)",
+                      "category": "Low resolution",
+                      "filename": "Lycaste_virginalis-150k-4096-obj_std.zip",
+                      "attributes": [
+                        {
+                          "UNITS": "m",
+                          "FILE_TYPE": "zip",
+                          "MODEL_FILE_TYPE": "obj",
+                          "DRACO_COMPRESSED": false,
+                          "GLTF_STANDARDIZED": true
+                        },
+                        {
+                          "FILE_SIZE": 6367791
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnail": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/Lycaste_virginalis-image-thumb.jpg",
+                  "voyagerId": "3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997"
+                }
+              ],
+              "mediaCount": 6
+            },
+            "metadata_usage": {
+              "access": "CC0"
+            }
+          }
+        },
+        "hash": "82e4c95cf0c70913be25e13ec3df08baac4be355",
+        "docSignature": "214bedca38877fe4cc586fd8860782dc",
+        "timestamp": "1663781375",
+        "lastTimeUpdated": "1785836442",
+        "version": "1785833872"
+      }
+    ],
+    "facets": {},
+    "rowCount": 1,
+    "message": "content found"
+  }
+}

@@ -1,21 +1,21 @@
 # Índice de modelos
 
-1021 modelos · 239.1 MiB.
+1045 modelos · 342.2 MiB.
 
 | Área | Modelos |
 | --- | ---: |
 | [Personajes, narrativa y animación](indices/areas/personajes-animacion.md) | 15 |
-| [Animales y biodiversidad](indices/areas/animales-biodiversidad.md) | 27 |
-| [Bosques y plantas](indices/areas/bosques-plantas.md) | 128 |
+| [Animales y biodiversidad](indices/areas/animales-biodiversidad.md) | 30 |
+| [Bosques y plantas](indices/areas/bosques-plantas.md) | 130 |
 | [Agua y ecosistemas acuáticos](indices/areas/agua-oceanos.md) | 33 |
-| [Tierra, relieve y geografía](indices/areas/tierra-geografia.md) | 132 |
-| [Espacio y astronomía](indices/areas/espacio-astronomia.md) | 18 |
-| [Laboratorio e investigación](indices/areas/laboratorio-ciencia.md) | 20 |
-| [Cuerpo humano y salud](indices/areas/cuerpo-salud.md) | 20 |
+| [Tierra, relieve y geografía](indices/areas/tierra-geografia.md) | 134 |
+| [Espacio y astronomía](indices/areas/espacio-astronomia.md) | 28 |
+| [Laboratorio e investigación](indices/areas/laboratorio-ciencia.md) | 21 |
+| [Cuerpo humano y salud](indices/areas/cuerpo-salud.md) | 25 |
 | [Alimentos, agricultura y nutrición](indices/areas/alimentos-agricultura.md) | 243 |
 | [Geometría, tiempo y medición](indices/areas/matematicas-medicion.md) | 138 |
-| [Física, máquinas y energía](indices/areas/fisica-energia.md) | 30 |
-| [Robótica y electrónica STEAM](indices/areas/robotica-electronica.md) | 27 |
+| [Física, máquinas y energía](indices/areas/fisica-energia.md) | 34 |
+| [Robótica y electrónica STEAM](indices/areas/robotica-electronica.md) | 29 |
 | [Computación y redes](indices/areas/computacion-redes.md) | 15 |
 | [Escuela, lectura y vocabulario](indices/areas/escuela-lenguaje.md) | 16 |
 | [Comunidad, servicios y ciudadanía](indices/areas/comunidad-ciudadania.md) | 128 |
@@ -26,7 +26,7 @@
 | [Oficios, herramientas y productividad](indices/areas/oficios-productividad.md) | 23 |
 | [Ambiente y sostenibilidad](indices/areas/ambiente-sostenibilidad.md) | 13 |
 | [Escenarios y juegos para Code Studio](indices/areas/escenarios-videojuegos.md) | 436 |
-| [Contexto guatemalteco y mesoamericano](indices/areas/guatemala-contexto.md) | 9 |
+| [Contexto guatemalteco y mesoamericano](indices/areas/guatemala-contexto.md) | 11 |
 
 | Modelo | Fuente | Autor | Licencia | Archivo |
 | --- | --- | --- | --- | --- |
@@ -994,6 +994,16 @@
 | [Robot Enemy Legs Gun](https://poly.pizza/m/lFZfDh2hzP) | Poly Pizza | Quaternius | CC0 1.0 | [GLB](models/lFZfDh2hzP/model.glb) |
 | [StoneBrook Race Circuit](https://poly.pizza/m/m8O6mE0anP) | Poly Pizza | Lostinside | CC-BY 3.0 | [GLB](models/m8O6mE0anP/model.glb) |
 | [Avocado](https://poly.pizza/m/mjjd3bgEhT) | Poly Pizza | Quaternius | CC0 1.0 | [GLB](models/mjjd3bgEhT/model.glb) |
+| [Módulo lunar Apolo](https://science.nasa.gov/3d-resources/apollo-lunar-module/) | NASA 3D Resources | NASA/Michael D. Carbajal | NASA Media Usage Guidelines | [GLB](models/nasa-apollo-lunar-module/model.glb) |
+| [Antena Deep Space Network de 34 m](https://science.nasa.gov/3d-resources/deep-space-network-34-meter/) | NASA 3D Resources | NASA/Brian E. Kumanchik; NASA/Christian A. Lopez | NASA Media Usage Guidelines | [GLB](models/nasa-deep-space-network-34-meter/model.glb) |
+| [Antena Deep Space Network de 70 m](https://science.nasa.gov/3d-resources/deep-space-network-70-meter/) | NASA 3D Resources | NASA/Brian E. Kumanchik; NASA/Christian A. Lopez | NASA Media Usage Guidelines | [GLB](models/nasa-deep-space-network-70-meter/model.glb) |
+| [Satélite de observación EO-1](https://science.nasa.gov/3d-resources/earth-observing-1-eo-1/) | NASA 3D Resources | NASA/Christian A. Lopez; NASA/Christopher M. Garcia | NASA Media Usage Guidelines | [GLB](models/nasa-earth-observing-1-eo-1/model.glb) |
+| [Helicóptero Ingenuity](https://science.nasa.gov/3d-resources/ingenuity-mars-helicopter/) | NASA 3D Resources | NASA/Brian E. Kumanchik | NASA Media Usage Guidelines | [GLB](models/nasa-ingenuity-mars-helicopter/model.glb) |
+| [Estación Espacial Internacional · A](https://science.nasa.gov/3d-resources/international-space-station-iss-a/) | NASA 3D Resources | NASA/Ames Research Center | NASA Media Usage Guidelines | [GLB](models/nasa-international-space-station-iss-a/model.glb) |
+| [Telescopio James Webb · B](https://science.nasa.gov/3d-resources/james-webb-space-telescope-b/) | NASA 3D Resources | NASA/Christopher R. Meaney | NASA Media Usage Guidelines | [GLB](models/nasa-james-webb-space-telescope-b/model.glb) |
+| [Rover Perseverance](https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/) | NASA 3D Resources | NASA/Jet Propulsion Laboratory | NASA Media Usage Guidelines | [GLB](models/nasa-mars-2020-perseverance-rover/model.glb) |
+| [Cohete Saturno V](https://science.nasa.gov/3d-resources/saturn-v/) | NASA 3D Resources | NASA/Michael D. Carbajal | NASA Media Usage Guidelines | [GLB](models/nasa-saturn-v/model.glb) |
+| [Sonda Voyager · A](https://science.nasa.gov/3d-resources/voyager-probe-a/) | NASA 3D Resources | NASA/Christopher R. Meaney | NASA Media Usage Guidelines | [GLB](models/nasa-voyager-probe-a/model.glb) |
 | [Pine Trees](https://poly.pizza/m/oYtDty0fR6) | Poly Pizza | Quaternius | CC0 1.0 | [GLB](models/oYtDty0fR6/model.glb) |
 | [Cat](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | Quaternius | CC0 1.0 | [GLB](models/oga-animals-cat/model.glb) |
 | [Dog](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | Quaternius | CC0 1.0 | [GLB](models/oga-animals-dog/model.glb) |
@@ -1041,6 +1051,20 @@
 | [Microscope](https://poly.pizza/m/q9zNs4U5NG) | Poly Pizza | Username12 | CC-BY 3.0 | [GLB](models/q9zNs4U5NG/model.glb) |
 | [Drum Set](https://poly.pizza/m/qWU9Q4flfQ) | Poly Pizza | Zsky | CC-BY 3.0 | [GLB](models/qWU9Q4flfQ/model.glb) |
 | [Hand Saw](https://poly.pizza/m/rbZHkFchEk) | Poly Pizza | CreativeTrio | CC0 1.0 | [GLB](models/rbZHkFchEk/model.glb) |
+| [Cerebro y tronco encefálico](https://sketchfab.com/3d-models/0aa0e33c5c854d1bab7bac9e1c7acaec) | Sketchfab | FrankJohansson | CC-BY 4.0 | [GLB](models/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/model.glb) |
+| [Aerogenerador](https://sketchfab.com/3d-models/285032402a8543ae8bf3e3c4d8c9f98a) | Sketchfab | Shivansh Singh | CC-BY 4.0 | [GLB](models/sketchfab-285032402a8543ae8bf3e3c4d8c9f98a/model.glb) |
+| [Corazón humano](https://sketchfab.com/3d-models/3f8072336ce94d18b3d0d055a1ece089) | Sketchfab | neshallads | CC-BY 4.0 | [GLB](models/sketchfab-3f8072336ce94d18b3d0d055a1ece089/model.glb) |
+| [Panel solar](https://sketchfab.com/3d-models/83483a66f8974d7e8f2e7bbde518d606) | Sketchfab | rivetech | CC-BY 4.0 | [GLB](models/sketchfab-83483a66f8974d7e8f2e7bbde518d606/model.glb) |
+| [Esqueleto humano](https://sketchfab.com/3d-models/950d0a46531f492ab8715777e312a5bf) | Sketchfab | PolyOne Studio | CC-BY 4.0 | [GLB](models/sketchfab-950d0a46531f492ab8715777e312a5bf/model.glb) |
+| [Anatomía de las vías respiratorias](https://sketchfab.com/3d-models/ad7d7e16b98f421db0cda79f265fcc8d) | Sketchfab | E-learning UMCG | CC-BY-NC-SA 4.0 | [GLB](models/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/model.glb) |
+| [Pulmones humanos](https://sketchfab.com/3d-models/ce09f4099a68467880f46e61eb9a3531) | Sketchfab | neshallads | CC-BY 4.0 | [GLB](models/sketchfab-ce09f4099a68467880f46e61eb9a3531/model.glb) |
+| [Aerogenerador animado](https://sketchfab.com/3d-models/e0678e6615a74ed29c1376a591262159) | Sketchfab | Glowbox 3D | CC-BY 4.0 | [GLB](models/sketchfab-e0678e6615a74ed29c1376a591262159/model.glb) |
+| [Bobina de inducción Page](https://3d.si.edu/object/3d/40cf5b52-0b21-4063-95fc-aa07998eb4dd) | Smithsonian Open Access | Smithsonian Institution / National Museum of American History | CC0 1.0 | [GLB](models/smithsonian-induction-coils/model.glb) |
+| [Lycaste virginalis · planta en maceta](https://3d.si.edu/object/3d/5ff6e90a-4ddb-4eea-a69c-40970f85fbcb) | Smithsonian Open Access | Smithsonian Institution / Smithsonian Gardens | CC0 1.0 | [GLB](models/smithsonian-lycaste-virginalis-1/model.glb) |
+| [Lycaste virginalis · flor](https://3d.si.edu/object/3d/42e8e95f-1b67-4135-8728-cdc7aa277997) | Smithsonian Open Access | Smithsonian Institution / Smithsonian Gardens | CC0 1.0 | [GLB](models/smithsonian-lycaste-virginalis-2/model.glb) |
+| [Triceratops · fósil digitalizado](https://3d.si.edu/object/3d/d8c623be-4ebc-11ea-b77f-2e728ce88125) | Smithsonian Open Access | Smithsonian Institution / NMNH - Paleobiology Dept. | CC0 1.0 | [GLB](models/smithsonian-triceratops-skeletons/model.glb) |
+| [Trilobite Poliella prima](https://3d.si.edu/object/3d/fcec58e8-ac1f-425d-9d83-8b16ca72b60c) | Smithsonian Open Access | Smithsonian Institution / NMNH - Paleobiology Dept. | CC0 1.0 | [GLB](models/smithsonian-trilobite-fossils/model.glb) |
+| [Excavación de ballena fósil MPC 675](https://3d.si.edu/object/3d/1f1ec6af-193f-4969-9185-dc5dd587239d) | Smithsonian Open Access | Smithsonian Institution / NMNH - Paleobiology Dept. | CC0 1.0 | [GLB](models/smithsonian-whale-fossils/model.glb) |
 | [Valley Terrain](https://poly.pizza/m/u78ByZHYB2) | Poly Pizza | Zsky | CC-BY 3.0 | [GLB](models/u78ByZHYB2/model.glb) |
 | [Backpack](https://poly.pizza/m/uRRsiIZKHG) | Poly Pizza | J-Toastie | CC-BY 3.0 | [GLB](models/uRRsiIZKHG/model.glb) |
 | [Standing Desk](https://poly.pizza/m/uxIo5ge0pw) | Poly Pizza | dook | CC-BY 3.0 | [GLB](models/uxIo5ge0pw/model.glb) |

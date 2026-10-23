@@ -1,6 +1,6 @@
 # Cobertura y coincidencias pendientes
 
-1021 modelos en 23 áreas: 342 de Poly Pizza, 637 de Kenney, 14 de OpenGameArt y 28 de Poly Haven. Las 134 consultas siguientes documentan la búsqueda inicial de Poly Pizza.
+1045 modelos en 23 áreas: 342 de Poly Pizza, 637 de Kenney, 14 de OpenGameArt, 28 de Poly Haven, 10 de NASA, 8 de Sketchfab y 6 de Smithsonian. Las 134 consultas siguientes documentan la búsqueda inicial de Poly Pizza.
 
 La biblioteca es una selección inicial para revisión y autoría. La API puede devolver aproximaciones semánticas. Las consultas siguientes no tienen una coincidencia literal completa en el título dentro de la primera página inspeccionada. Esto no prueba que el modelo no exista en todo el catálogo. No renombrar un recurso para presentarlo como una especie, instrumento o sitio que no ha sido verificado.
 
@@ -53,3 +53,11 @@ Se añadieron 28 referencias detalladas: mechero Bunsen, equipo de química, lup
 Los GLB conservan los componentes glTF de 1K, incluyendo materiales, texturas, dimensiones y el rig mecánico del tornillo de banco. Los 993 modelos anteriores permanecen sin modificaciones. Las 28 preparaciones se compararon por SHA-256 y huella geométrica con el catálogo y entre sí: no hubo coincidencias. Las familias documentan afinidad funcional y variantes, sin sustituir fichas ni licencias.
 
 La inspección visual compara vistas fuente, diagnóstico de malla y reimportación limpia. La adecuación docente, las graduaciones de instrumentos y la rotulación regional siguen pendientes. No se atribuyen nuevas especies, patrimonio guatemalteco ni exactitud metrológica a este lote.
+
+## NASA, Smithsonian y Sketchfab
+
+Se incorporan 24 GLB nativos sin conversión: NASA (10), Smithsonian Open Access (6) y Sketchfab (8). Las 20 familias reúnen también nueve representaciones existentes. Los 29 archivos adquiridos se compararon contra los 1021 anteriores, sin coincidencias binarias ni geométricas; cinco quedan fuera de publicación por problemas visuales. Las familias funcionales no implican identidad ni licencia compartida.
+
+Las búsquedas históricas de Poly Pizza se conservan; nuevas referencias anatómicas no certifican retrospectivamente sus aproximaciones. La evaluación curricular y científica sigue pendiente. NASA conserva sus condiciones propias; un recurso de Sketchfab usa CC BY-NC-SA 4.0 y no admite uso comercial. Las condiciones y créditos se muestran en las fichas, los índices por licencia y ATTRIBUTIONS.md.
+
+Quaternius directo queda pendiente: las fichas de kits históricos declaran CC0, la página general declara QAL y la descarga de la licencia del paquete consultado devolvió cuota excedida. El [informe de pendientes](sources/external/institutions/multisource-20261022/pending.json) registra derechos y exclusiones; no se publican archivos de esos kits.

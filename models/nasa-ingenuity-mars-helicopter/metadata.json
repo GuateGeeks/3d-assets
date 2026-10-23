@@ -1,0 +1,118 @@
+{
+  "id": "nasa-ingenuity-mars-helicopter",
+  "assetId": "nasa:ingenuity-mars-helicopter",
+  "providerId": "nasa",
+  "provider": "NASA 3D Resources",
+  "title": "Helicóptero Ingenuity",
+  "titleOriginal": "Ingenuity Mars Helicopter",
+  "author": "NASA/Brian E. Kumanchik",
+  "authorUrl": "https://science.nasa.gov/3d-resources/ingenuity-mars-helicopter/",
+  "sourceUrl": "https://science.nasa.gov/3d-resources/ingenuity-mars-helicopter/",
+  "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/ingenuity-mars-helicopter/Ingenuity%20Mars%20Helicopter.glb",
+  "thumbnailUrl": null,
+  "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Ingenuity Mars Helicopter",
+    "mars-helicopters"
+  ],
+  "areas": [
+    "espacio-astronomia",
+    "robotica-electronica"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "NASA Media Usage Guidelines",
+  "license": {
+    "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attributionRequired": true,
+    "commercialUse": null,
+    "derivatives": null,
+    "shareAlike": false,
+    "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+  },
+  "attribution": "\"Ingenuity Mars Helicopter\", por NASA/Brian E. Kumanchik / NASA 3D Resources. https://science.nasa.gov/3d-resources/ingenuity-mars-helicopter/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/nasa-ingenuity-mars-helicopter/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/metadata.json",
+  "originalDownload": "models/nasa-ingenuity-mars-helicopter/originals.zip",
+  "bytes": 2019408,
+  "sha256": "9e5a5398ab335eae7d46335085301ce46fb7de052300b645debe8bac6d39f2b5",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 11,
+    "nodes": 11,
+    "materials": 10,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": [
+      "KHR_draco_mesh_compression"
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:11.727406+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "NASA 3D Resources native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/nasa-ingenuity-mars-helicopter/model.glb",
+        "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/ingenuity-mars-helicopter/Ingenuity%20Mars%20Helicopter.glb",
+        "bytes": 2019408,
+        "sha256": "9e5a5398ab335eae7d46335085301ce46fb7de052300b645debe8bac6d39f2b5"
+      }
+    ],
+    "originalDownloadSha256": "bbb68609998ee49ca1ca42766d242913d6cef88be4ccd81f0a8d8e4fa3f70920",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.9863759875297546,
+      1.1063556671142578,
+      0.562043309211731
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/license-evidence.json",
+    "licenseEvidenceSha256": "6d96c33184fb856922710861b532a3f8072b6c68671fbe57c524b09086b5e300",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/metadata.json",
+    "metadataEvidenceSha256": "37cc6e9d9c72a0943c97ad9a0276c033c26afa94ace0366ca278fe9ccd63e923",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/technical-review.json",
+    "technicalReviewEvidenceSha256": "88a7ac8f5a66a36404705359d1b4cbc0bc209354a9fe64ed8d163a3f7ca48238",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "698d1664f6394858470890077a97127eec283f830cb8f150c975228e0cd0b783",
+      "triangles": 9124
+    }
+  }
+}

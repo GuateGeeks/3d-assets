@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    2.0143020153045654,
+    2.0143020153045654,
+    12.98681354522705
+  ],
+  "boundsMinBlender": [
+    -1.0194059610366821,
+    -1.7502039670944214,
+    -0.1408900022506714
+  ],
+  "boundsMaxBlender": [
+    0.9948959946632385,
+    0.26409798860549927,
+    12.84592342376709
+  ],
+  "meshObjects": 22,
+  "polygons": 34814,
+  "vertices": 22416,
+  "materials": 13,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "nasa-saturn-v",
+  "sourceFile": "model.glb",
+  "glbSha256": "6c44497bce54ee0b09d0edb8e33a6f484762a320dab1c54b383e434f5bba06b5",
+  "reimport": {
+    "dimensionsBlender": [
+      2.0143020153045654,
+      2.0143020153045654,
+      12.98681354522705
+    ],
+    "boundsMinBlender": [
+      -1.0194059610366821,
+      -1.7502039670944214,
+      -0.1408900022506714
+    ],
+    "boundsMaxBlender": [
+      0.9948959946632385,
+      0.26409798860549927,
+      12.84592342376709
+    ],
+    "meshObjects": 22,
+    "polygons": 34814,
+    "vertices": 22416,
+    "materials": 13,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0012986813545227051,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/nasa-saturn-v/renders/source-back.png": "cdf97306641e209b4ec39b9ba7ba12f1ffc0139526d7c11761f0fa73d44e609c",
+    "sources/external/institutions/multisource-20261022/nasa-saturn-v/renders/source-side.png": "8eb746d27b6c0af3a12bd2d3e375891cbf41c9936f3a0c6d52de510a1c7efa76",
+    "sources/external/institutions/multisource-20261022/nasa-saturn-v/renders/source-front.png": "230871e96cdc1d49d0e49590573d95e228456d0f567d146aa80e9ac2518ffc4f",
+    "sources/external/institutions/multisource-20261022/nasa-saturn-v/renders/reimport-three-quarter.png": "304f3b7c3032a92e852c43cbce11b4d6ce0bf15c0d31b614ac2b73938accd776",
+    "sources/external/institutions/multisource-20261022/nasa-saturn-v/renders/source-three-quarter.png": "ede248e1ca80b30aed1e773f156edaefb98e014201c2dc4f722fe43d942b24b0",
+    "sources/external/institutions/multisource-20261022/nasa-saturn-v/renders/source-wireframe.png": "313071e6c3afac6ace11d7b440a32b5874b7a63424a2a66ba024a16f2d68fc94"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

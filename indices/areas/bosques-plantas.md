@@ -1,6 +1,6 @@
 # Bosques y plantas
 
-128 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+130 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -132,3 +132,5 @@
 | [Pine Trees](https://poly.pizza/m/oYtDty0fR6) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oYtDty0fR6/model.glb) | 0 / 0 |
 | [Bandeja de semillero](https://polyhaven.com/a/seeding_tray_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-seeding-tray-01/model.glb) | 0 / 0 |
 | [Regadera metálica](https://polyhaven.com/a/watering_can_metal_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Charles Nderitu | [GLB](../../models/polyhaven-watering-can-metal-01/model.glb) | 0 / 0 |
+| [Lycaste virginalis · planta en maceta](https://3d.si.edu/object/3d/5ff6e90a-4ddb-4eea-a69c-40970f85fbcb) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / Smithsonian Gardens | [GLB](../../models/smithsonian-lycaste-virginalis-1/model.glb) | 0 / 0 |
+| [Lycaste virginalis · flor](https://3d.si.edu/object/3d/42e8e95f-1b67-4135-8728-cdc7aa277997) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / Smithsonian Gardens | [GLB](../../models/smithsonian-lycaste-virginalis-2/model.glb) | 0 / 0 |

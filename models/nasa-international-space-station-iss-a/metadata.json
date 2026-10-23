@@ -1,0 +1,116 @@
+{
+  "id": "nasa-international-space-station-iss-a",
+  "assetId": "nasa:international-space-station-iss-a",
+  "providerId": "nasa",
+  "provider": "NASA 3D Resources",
+  "title": "Estación Espacial Internacional · A",
+  "titleOriginal": "International Space Station (ISS) (A)",
+  "author": "NASA/Ames Research Center",
+  "authorUrl": "https://science.nasa.gov/3d-resources/international-space-station-iss-a/",
+  "sourceUrl": "https://science.nasa.gov/3d-resources/international-space-station-iss-a/",
+  "metadataUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/international-space-station-(iss)-(a)/International%20Space%20Station%20(ISS)%20(A).glb",
+  "thumbnailUrl": null,
+  "description": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "International Space Station (ISS) (A)",
+    "iss-stations"
+  ],
+  "areas": [
+    "espacio-astronomia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "NASA Media Usage Guidelines",
+  "license": {
+    "id": "LicenseRef-NASA-Media-Usage-Guidelines",
+    "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attributionRequired": true,
+    "commercialUse": null,
+    "derivatives": null,
+    "shareAlike": false,
+    "conditions": "Uso educativo e informativo sujeto a las condiciones NASA. No implica aval de NASA. Sus insignias y logotipos tienen protección específica; comprobar usos comerciales y material de terceros. No se declara CC0."
+  },
+  "attribution": "\"International Space Station (ISS) (A)\", por NASA/Ames Research Center / NASA 3D Resources. https://science.nasa.gov/3d-resources/international-space-station-iss-a/. NASA Media Usage Guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/nasa-international-space-station-iss-a/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/metadata.json",
+  "originalDownload": "models/nasa-international-space-station-iss-a/originals.zip",
+  "bytes": 39708,
+  "sha256": "70d0619a69312a45cbf740ba9a491fad854e10226dc5936c213fb1f93f063678",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 6,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": [
+      "KHR_draco_mesh_compression"
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:14.073461+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "NASA 3D Resources native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/nasa-international-space-station-iss-a/model.glb",
+        "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/international-space-station-(iss)-(a)/International%20Space%20Station%20(ISS)%20(A).glb",
+        "bytes": 39708,
+        "sha256": "70d0619a69312a45cbf740ba9a491fad854e10226dc5936c213fb1f93f063678"
+      }
+    ],
+    "originalDownloadSha256": "31a1289f5517cbcf45eaf0b912a65a1086f6d6a64a5f0e31df66d24d098582ab",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      25.614238739013672,
+      15.37343692779541,
+      15.962973594665527
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/license-evidence.json",
+    "licenseEvidenceSha256": "5172dd2ebe2d384fab3728b72be00060d4ef92106b8342a3a1335d221c472b94",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/metadata.json",
+    "metadataEvidenceSha256": "5ab56d6ca0a03028bc48d9854b51ef6e82295f78bbdde33410439170f33df43a",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/nasa-international-space-station-iss-a/technical-review.json",
+    "technicalReviewEvidenceSha256": "ca46ef5e208e98e0730c971ecb24ff3cd29d6d789ebfa3326a14f81cf206413b",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "e863959a01189c6fff8d243047f3bebb0a212b115a542648101f9cc405964718",
+      "triangles": 6642
+    }
+  }
+}

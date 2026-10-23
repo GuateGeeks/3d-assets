@@ -1,18 +1,24 @@
 {
   "schemaVersion": 2,
-  "models": 1021,
-  "csvRows": 1021,
-  "subsetIndices": 91,
+  "models": 1045,
+  "csvRows": 1045,
+  "subsetIndices": 98,
   "providers": {
     "Poly Pizza": 342,
     "Kenney": 637,
+    "NASA 3D Resources": 10,
     "OpenGameArt": 14,
-    "Poly Haven": 28
+    "Poly Haven": 28,
+    "Sketchfab": 8,
+    "Smithsonian Open Access": 6
   },
   "licenseCounts": {
     "CC-BY 3.0": 274,
-    "CC0 1.0": 739,
-    "CC-BY-SA 4.0": 8
+    "CC0 1.0": 745,
+    "NASA Media Usage Guidelines": 10,
+    "CC-BY-SA 4.0": 8,
+    "CC-BY 4.0": 7,
+    "CC-BY-NC-SA 4.0": 1
   },
   "result": "passed",
   "coverageScope": "Historical Poly Pizza searches retained; enrichment is separately documented."

@@ -1,0 +1,114 @@
+{
+  "id": "smithsonian-induction-coils",
+  "assetId": "smithsonian:3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+  "providerId": "smithsonian",
+  "provider": "Smithsonian Open Access",
+  "title": "Bobina de inducción Page",
+  "titleOriginal": "patent model, Page induction coil, US #76654",
+  "author": "Smithsonian Institution / National Museum of American History",
+  "authorUrl": "https://www.si.edu",
+  "sourceUrl": "https://3d.si.edu/object/3d/40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+  "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+  "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-4096.glb",
+  "thumbnailUrl": null,
+  "description": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "patent model, Page induction coil, US #76654",
+    "induction-coils"
+  ],
+  "areas": [
+    "fisica-energia",
+    "laboratorio-ciencia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"patent model, Page induction coil, US #76654\", por Smithsonian Institution / National Museum of American History / Smithsonian Open Access. https://3d.si.edu/object/3d/40cf5b52-0b21-4063-95fc-aa07998eb4dd. CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/smithsonian-induction-coils/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/metadata.json",
+  "originalDownload": "models/smithsonian-induction-coils/originals.zip",
+  "bytes": 10083284,
+  "sha256": "0c832bedd9ead9a06db6ccb0587b56f9d0d94cf1fac71df332f5535a54023005",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-23T03:58:46.613213+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Smithsonian Open Access native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/smithsonian-induction-coils/model.glb",
+        "url": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-4096.glb",
+        "bytes": 10083284,
+        "sha256": "0c832bedd9ead9a06db6ccb0587b56f9d0d94cf1fac71df332f5535a54023005"
+      }
+    ],
+    "originalDownloadSha256": "01806b5894575c528a7508fb489109fe6d2a7dec31d1c4af46bd57944e903deb",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      4.650334358215332,
+      9.089427947998047,
+      6.549417972564697
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/license-evidence.json",
+    "licenseEvidenceSha256": "8f612f1f79e390b5e5c2e51df0b58e1ab13b254fe6c7e205f0a70e7c6492955b",
+    "metadataEvidence": "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/metadata.json",
+    "metadataEvidenceSha256": "641a372bd37aebdbcc451f9e0e6bbc45ad1bf1e2c500bb3ef99418eab1c072a1",
+    "technicalReviewEvidence": "sources/external/institutions/multisource-20261022/smithsonian-induction-coils/technical-review.json",
+    "technicalReviewEvidenceSha256": "720ae67f243f44bd552729f350b945839d53e54527b08a8a6ac35f4cb61e911e",
+    "visualReviewEvidence": "sources/external/institutions/multisource-20261022/visual-review.json",
+    "visualReviewEvidenceSha256": "64c1d343e89494a7649a7e322379b2e7d85205fa7554d801177ab3a1849c1373"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "0e39d7919a271668a7eedf79ad6f7714d82885444ebdb6efd01b77534ae621fa",
+      "triangles": 150000
+    }
+  }
+}

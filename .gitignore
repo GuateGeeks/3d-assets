@@ -11,3 +11,6 @@ lab/.local/
 
 # Per-machine Codex paths; distribute the disabled registry example instead.
 .codex/config.toml
+
+# Private acquisition caches and transient API responses.
+enrichment/staging/

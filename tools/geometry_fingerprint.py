@@ -17,7 +17,7 @@ def transform(n):
     if 'matrix' in n:return n['matrix']
     x,y,z,w=n.get('rotation',[0,0,0,1]);sx,sy,sz=n.get('scale',[1,1,1]);tx,ty,tz=n.get('translation',[0,0,0])
     return [(1-2*y*y-2*z*z)*sx,(2*x*y+2*z*w)*sx,(2*x*z-2*y*w)*sx,0,(2*x*y-2*z*w)*sy,(1-2*x*x-2*z*z)*sy,(2*y*z+2*x*w)*sy,0,(2*x*z+2*y*w)*sz,(2*y*z-2*x*w)*sz,(1-2*x*x-2*y*y)*sz,0,tx,ty,tz,1]
-def fingerprint(data):
+def fingerprint(data,decoded=None):
     doc,binary=document(data);triangles=[]
     def accessor(idx):
         a=doc['accessors'][idx]
@@ -31,11 +31,14 @@ def fingerprint(data):
     def walk(idx,parent):
         node=doc['nodes'][idx];m=mul(parent,transform(node))
         if 'mesh' in node:
-            for p in doc['meshes'][node['mesh']]['primitives']:
+            for primitive_index,p in enumerate(doc['meshes'][node['mesh']]['primitives']):
                 if p.get('mode',4)!=4:raise ValueError('Non-triangle primitive')
-                verts=accessor(p['attributes']['POSITION'])
+                compression=p.get('extensions',{}).get('KHR_draco_mesh_compression')
+                geometry=decoded[f"{node['mesh']}:{primitive_index}"] if compression and decoded is not None else None
+                if compression and geometry is None:raise ValueError('Draco geometry requires decoded comparison input')
+                verts=geometry['positions'] if geometry else accessor(p['attributes']['POSITION'])
                 world=[tuple(sum(m[k*4+j]*v[k] for k in range(3))+m[12+j] for j in range(3)) for v in verts]
-                ix=[v[0] for v in accessor(p['indices'])] if 'indices' in p else list(range(len(verts)))
+                ix=geometry['indices'] if geometry else [v[0] for v in accessor(p['indices'])] if 'indices' in p else list(range(len(verts)))
                 for k in range(0,len(ix),3):
                     a,b,c=[world[t] for t in ix[k:k+3]]
                     edges=sorted(sum((v[j]-w[j])**2 for j in range(3)) for v,w in [(a,b),(b,c),(c,a)])

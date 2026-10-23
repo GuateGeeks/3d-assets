@@ -1,0 +1,698 @@
+{
+  "schemaVersion": 1,
+  "selectionPolicy": "Native GLB; complemento temático, derechos explícitos, máximo 25 MiB por archivo; originales sin conversión. No exhaustivo.",
+  "items": [
+    {
+      "id": "nasa-mars-2020-perseverance-rover",
+      "asset": "mars-2020-perseverance-rover",
+      "title": "Rover Perseverance",
+      "titleOriginal": "Mars 2020 Perseverance Rover",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Jet Propulsion Laboratory",
+      "authorUrl": "https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/mars-2020-perseverance-rover/Mars%202020%20Perseverance%20Rover.glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia",
+        "robotica-electronica"
+      ],
+      "family": "mars-rovers",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/495326"
+    },
+    {
+      "id": "nasa-ingenuity-mars-helicopter",
+      "asset": "ingenuity-mars-helicopter",
+      "title": "Helicóptero Ingenuity",
+      "titleOriginal": "Ingenuity Mars Helicopter",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Brian E. Kumanchik",
+      "authorUrl": "https://science.nasa.gov/3d-resources/ingenuity-mars-helicopter/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/ingenuity-mars-helicopter/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/ingenuity-mars-helicopter/Ingenuity%20Mars%20Helicopter.glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia",
+        "robotica-electronica"
+      ],
+      "family": "mars-helicopters",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/493621"
+    },
+    {
+      "id": "nasa-james-webb-space-telescope-a",
+      "asset": "james-webb-space-telescope-a",
+      "title": "Telescopio James Webb · A",
+      "titleOriginal": "James Webb Space Telescope (A)",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Goddard Space Flight Center",
+      "authorUrl": "https://science.nasa.gov/3d-resources/james-webb-space-telescope-a/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/james-webb-space-telescope-a/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/james-webb-space-telescope-(a)/James%20Webb%20Space%20Telescope%20(A).glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "family": "jwst-telescopes",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/495036"
+    },
+    {
+      "id": "nasa-james-webb-space-telescope-b",
+      "asset": "james-webb-space-telescope-b",
+      "title": "Telescopio James Webb · B",
+      "titleOriginal": "James Webb Space Telescope (B)",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Christopher R. Meaney",
+      "authorUrl": "https://science.nasa.gov/3d-resources/james-webb-space-telescope-b/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/james-webb-space-telescope-b/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/james-webb-space-telescope-(b)/James%20Webb%20Space%20Telescope%20(B).glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "family": "jwst-telescopes",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/495046"
+    },
+    {
+      "id": "nasa-international-space-station-iss-a",
+      "asset": "international-space-station-iss-a",
+      "title": "Estación Espacial Internacional · A",
+      "titleOriginal": "International Space Station (ISS) (A)",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Ames Research Center",
+      "authorUrl": "https://science.nasa.gov/3d-resources/international-space-station-iss-a/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/international-space-station-iss-a/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/international-space-station-(iss)-(a)/International%20Space%20Station%20(ISS)%20(A).glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "family": "iss-stations",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/494510"
+    },
+    {
+      "id": "nasa-international-space-station-iss-b",
+      "asset": "international-space-station-iss-b",
+      "title": "Estación Espacial Internacional · B",
+      "titleOriginal": "International Space Station (ISS) (B)",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Michael D. Carbajal",
+      "authorUrl": "https://science.nasa.gov/3d-resources/international-space-station-iss-b/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/international-space-station-iss-b/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/international-space-station-(iss)-(b)/International%20Space%20Station%20(ISS)%20(B).glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "family": "iss-stations",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/494515"
+    },
+    {
+      "id": "nasa-voyager-probe-a",
+      "asset": "voyager-probe-a",
+      "title": "Sonda Voyager · A",
+      "titleOriginal": "Voyager Probe (A)",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Christopher R. Meaney",
+      "authorUrl": "https://science.nasa.gov/3d-resources/voyager-probe-a/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/voyager-probe-a/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/voyager-probe-(a)/Voyager%20Probe%20(A).glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "family": "voyager-probes",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/498196"
+    },
+    {
+      "id": "nasa-apollo-lunar-module",
+      "asset": "apollo-lunar-module",
+      "title": "Módulo lunar Apolo",
+      "titleOriginal": "Apollo Lunar Module",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Michael D. Carbajal",
+      "authorUrl": "https://science.nasa.gov/3d-resources/apollo-lunar-module/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/apollo-lunar-module/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/apollo-lunar-module/Apollo%20Lunar%20Module.glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "family": "apollo-modules",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/487977"
+    },
+    {
+      "id": "nasa-saturn-v",
+      "asset": "saturn-v",
+      "title": "Cohete Saturno V",
+      "titleOriginal": "Saturn V",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Michael D. Carbajal",
+      "authorUrl": "https://science.nasa.gov/3d-resources/saturn-v/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/saturn-v/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/saturn-v/Saturn%20V.glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "family": "saturn-rockets",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/496093"
+    },
+    {
+      "id": "nasa-deep-space-network-70-meter",
+      "asset": "deep-space-network-70-meter",
+      "title": "Antena Deep Space Network de 70 m",
+      "titleOriginal": "Deep Space Network 70-meter",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Brian E. Kumanchik; NASA/Christian A. Lopez",
+      "authorUrl": "https://science.nasa.gov/3d-resources/deep-space-network-70-meter/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/deep-space-network-70-meter/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/deep-space-network-70-meter/Deep%20Space%20Network%2070-meter.glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "family": "dsn-antennas",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/490109"
+    },
+    {
+      "id": "nasa-deep-space-network-34-meter",
+      "asset": "deep-space-network-34-meter",
+      "title": "Antena Deep Space Network de 34 m",
+      "titleOriginal": "Deep Space Network 34-meter",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Brian E. Kumanchik; NASA/Christian A. Lopez",
+      "authorUrl": "https://science.nasa.gov/3d-resources/deep-space-network-34-meter/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/deep-space-network-34-meter/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/deep-space-network-34-meter/Deep%20Space%20Network%2034-meter.glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "family": "dsn-antennas",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/490103"
+    },
+    {
+      "id": "nasa-earth-observing-1-eo-1",
+      "asset": "earth-observing-1-eo-1",
+      "title": "Satélite de observación EO-1",
+      "titleOriginal": "Earth Observing-1 (EO-1)",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Christian A. Lopez; NASA/Christopher M. Garcia",
+      "authorUrl": "https://science.nasa.gov/3d-resources/earth-observing-1-eo-1/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/earth-observing-1-eo-1/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/earth-observing-1-(eo-1)/Earth%20Observing-1%20(EO-1).glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "family": "earth-observation-satellites",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/490123"
+    },
+    {
+      "id": "nasa-1999-rq36-asteroid",
+      "asset": "1999-rq36-asteroid",
+      "title": "Asteroide 1999 RQ36 · Bennu",
+      "titleOriginal": "1999 RQ36 asteroid",
+      "providerId": "nasa",
+      "provider": "NASA 3D Resources",
+      "author": "NASA/Christopher R. Meaney",
+      "authorUrl": "https://science.nasa.gov/3d-resources/1999-rq36-asteroid/",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/1999-rq36-asteroid/",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/model/1999-rq36-asteroid/1999%20RQ36%20asteroid.glb",
+      "licenseRaw": "NASA Media Usage Guidelines",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "areas": [
+        "espacio-astronomia"
+      ],
+      "family": "asteroids",
+      "reason": "Referencia específica de misión, instrumento o cuerpo celeste; conserva geometría nativa.",
+      "metadataUrl": "https://science.nasa.gov/wp-json/wp/v2/topic/475023"
+    },
+    {
+      "id": "smithsonian-mammoth-skeletons",
+      "asset": "3d_package:341c96cd-f967-4540-8ed1-d3fc56d31f12",
+      "title": "Mamut lanudo · esqueleto",
+      "titleOriginal": "Mammuthus primigenius (Blumbach)",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "author": "Smithsonian Institution / NMNH - Paleobiology Dept.",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/341c96cd-f967-4540-8ed1-d3fc56d31f12",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:341c96cd-f967-4540-8ed1-d3fc56d31f12/resources/woolly-mammoth-100k-4096_std.glb",
+      "selectedResource": {
+        "url": "https://3d-api.si.edu/content/document/3d_package:341c96cd-f967-4540-8ed1-d3fc56d31f12/resources/woolly-mammoth-100k-4096_std.glb",
+        "name": "Mammuthus primigenius (Blumbach)",
+        "type": "3D mesh",
+        "title": "Mammuthus primigenius (Blumbach) (Low resolution 3D mesh, glb, scale in m)",
+        "category": "Low resolution",
+        "filename": "woolly-mammoth-100k-4096_std.glb",
+        "attributes": [
+          {
+            "UNITS": "m",
+            "FILE_TYPE": "glb",
+            "MODEL_FILE_TYPE": "glb",
+            "DRACO_COMPRESSED": false,
+            "GLTF_STANDARDIZED": false
+          },
+          {
+            "FILE_SIZE": 8136248
+          }
+        ]
+      },
+      "objectRecordId": "edanmdm:nmnhpaleobiology_3447777",
+      "licenseRaw": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "areas": [
+        "animales-biodiversidad"
+      ],
+      "family": "mammoth-skeletons",
+      "reason": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes.",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search?api_key=DEMO_KEY&q=3d_package%3A341c96cd-f967-4540-8ed1-d3fc56d31f12&rows=10"
+    },
+    {
+      "id": "smithsonian-triceratops-skeletons",
+      "asset": "3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125",
+      "title": "Triceratops · esqueleto",
+      "titleOriginal": "Triceratops horridus Marsh, 1889",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "author": "Smithsonian Institution / NMNH - Paleobiology Dept.",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/d8c623be-4ebc-11ea-b77f-2e728ce88125",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125/resources/Triceratops_horridus_Marsh_1889-150k-4096.glb",
+      "selectedResource": {
+        "url": "https://3d-api.si.edu/content/document/3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125/resources/Triceratops_horridus_Marsh_1889-150k-4096.glb",
+        "name": "Triceratops horridus Marsh, 1889",
+        "type": "3D mesh",
+        "title": "Triceratops horridus Marsh, 1889 (Low resolution 3D mesh, glb, scale in m)",
+        "category": "Low resolution",
+        "filename": "Triceratops_horridus_Marsh_1889-150k-4096.glb",
+        "attributes": [
+          {
+            "UNITS": "m",
+            "FILE_TYPE": "glb",
+            "MODEL_FILE_TYPE": "glb",
+            "DRACO_COMPRESSED": false,
+            "GLTF_STANDARDIZED": false
+          },
+          {
+            "FILE_SIZE": 14395048
+          }
+        ]
+      },
+      "objectRecordId": "edanmdm:nmnhpaleobiology_3572783",
+      "licenseRaw": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "areas": [
+        "animales-biodiversidad"
+      ],
+      "family": "triceratops-skeletons",
+      "reason": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes.",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search?api_key=DEMO_KEY&q=3d_package%3Ad8c623be-4ebc-11ea-b77f-2e728ce88125&rows=10"
+    },
+    {
+      "id": "smithsonian-lycaste-virginalis-1",
+      "asset": "3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb",
+      "title": "Lycaste virginalis · flor, espécimen 1",
+      "titleOriginal": "Lycaste virginalis",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "author": "Smithsonian Institution / Smithsonian Gardens",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/5ff6e90a-4ddb-4eea-a69c-40970f85fbcb",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/resources/Lycaste_virginalis-150k-4096_std.glb",
+      "selectedResource": {
+        "url": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/resources/Lycaste_virginalis-150k-4096_std.glb",
+        "name": "Lycaste virginalis: Lycaste virginalis",
+        "type": "3D mesh",
+        "title": "Lycaste virginalis: Lycaste virginalis (Low resolution 3D mesh, glb, scale in m)",
+        "category": "Low resolution",
+        "filename": "Lycaste_virginalis-150k-4096_std.glb",
+        "attributes": [
+          {
+            "UNITS": "m",
+            "FILE_TYPE": "glb",
+            "MODEL_FILE_TYPE": "glb",
+            "DRACO_COMPRESSED": false,
+            "GLTF_STANDARDIZED": true
+          },
+          {
+            "FILE_SIZE": 9502580
+          }
+        ]
+      },
+      "objectRecordId": "edanmdm:ofeo-sg_2018-1177A",
+      "licenseRaw": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "areas": [
+        "bosques-plantas",
+        "guatemala-contexto"
+      ],
+      "family": "lycaste-virginalis",
+      "reason": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes.",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search?api_key=DEMO_KEY&q=3d_package%3A5ff6e90a-4ddb-4eea-a69c-40970f85fbcb&rows=10"
+    },
+    {
+      "id": "smithsonian-lycaste-virginalis-2",
+      "asset": "3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997",
+      "title": "Lycaste virginalis · flor, espécimen 2",
+      "titleOriginal": "Lycaste virginalis",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "author": "Smithsonian Institution / Smithsonian Gardens",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/42e8e95f-1b67-4135-8728-cdc7aa277997",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/resources/Lycaste_virginalis-150k-4096_std.glb",
+      "selectedResource": {
+        "url": "https://3d-api.si.edu/content/document/3d_package:42e8e95f-1b67-4135-8728-cdc7aa277997/resources/Lycaste_virginalis-150k-4096_std.glb",
+        "name": "Lycaste virginalis: Lycaste virginalis: Bloom",
+        "type": "3D mesh",
+        "title": "Lycaste virginalis: Lycaste virginalis: Bloom (Low resolution 3D mesh, glb, scale in m)",
+        "category": "Low resolution",
+        "filename": "Lycaste_virginalis-150k-4096_std.glb",
+        "attributes": [
+          {
+            "UNITS": "m",
+            "FILE_TYPE": "glb",
+            "MODEL_FILE_TYPE": "glb",
+            "DRACO_COMPRESSED": false,
+            "GLTF_STANDARDIZED": true
+          },
+          {
+            "FILE_SIZE": 7687432
+          }
+        ]
+      },
+      "objectRecordId": "edanmdm:ofeo-sg_2018-1177A",
+      "licenseRaw": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "areas": [
+        "bosques-plantas",
+        "guatemala-contexto"
+      ],
+      "family": "lycaste-virginalis",
+      "reason": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes.",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search?api_key=DEMO_KEY&q=3d_package%3A42e8e95f-1b67-4135-8728-cdc7aa277997&rows=10"
+    },
+    {
+      "id": "smithsonian-induction-coils",
+      "asset": "3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+      "title": "Bobina de inducción Page",
+      "titleOriginal": "patent model, Page induction coil, US #76654",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "author": "Smithsonian Institution / National Museum of American History",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/40cf5b52-0b21-4063-95fc-aa07998eb4dd",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-4096.glb",
+      "selectedResource": {
+        "url": "https://3d-api.si.edu/content/document/3d_package:40cf5b52-0b21-4063-95fc-aa07998eb4dd/resources/page-induction-coil-150k-4096.glb",
+        "name": "Page induction coil from US Patent #76654",
+        "type": "3D mesh",
+        "title": "Page induction coil from US Patent #76654 (Low resolution 3D mesh, glb, scale in in)",
+        "category": "Low resolution",
+        "filename": "page-induction-coil-150k-4096.glb",
+        "attributes": [
+          {
+            "UNITS": "in",
+            "FILE_TYPE": "glb",
+            "MODEL_FILE_TYPE": "glb",
+            "DRACO_COMPRESSED": false,
+            "GLTF_STANDARDIZED": false
+          },
+          {
+            "FILE_SIZE": 10083284
+          }
+        ]
+      },
+      "objectRecordId": "edanmdm:nmah_703318",
+      "licenseRaw": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "areas": [
+        "fisica-energia",
+        "laboratorio-ciencia"
+      ],
+      "family": "induction-coils",
+      "reason": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes.",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search?api_key=DEMO_KEY&q=3d_package%3A40cf5b52-0b21-4063-95fc-aa07998eb4dd&rows=10"
+    },
+    {
+      "id": "smithsonian-trilobite-fossils",
+      "asset": "3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c",
+      "title": "Trilobite Poliella prima",
+      "titleOriginal": "Poliella prima (Walcott)",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "author": "Smithsonian Institution / NMNH - Paleobiology Dept.",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/fcec58e8-ac1f-425d-9d83-8b16ca72b60c",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/resources/nmnh-116112_w9k-150k-4096_std.glb",
+      "selectedResource": {
+        "url": "https://3d-api.si.edu/content/document/3d_package:fcec58e8-ac1f-425d-9d83-8b16ca72b60c/resources/nmnh-116112_w9k-150k-4096_std.glb",
+        "name": "nmnh-116112_w9k-150k-4096_std.glb",
+        "type": "3D mesh",
+        "title": "nmnh-116112_w9k-150k-4096_std.glb (Low resolution 3D mesh, glb, scale in m)",
+        "category": "Low resolution",
+        "filename": "nmnh-116112_w9k-150k-4096_std.glb",
+        "attributes": [
+          {
+            "UNITS": "m",
+            "FILE_TYPE": "glb",
+            "MODEL_FILE_TYPE": "glb",
+            "DRACO_COMPRESSED": false,
+            "GLTF_STANDARDIZED": true
+          },
+          {
+            "FILE_SIZE": 6813864
+          }
+        ]
+      },
+      "objectRecordId": "edanmdm:nmnhpaleobiology_3022367",
+      "licenseRaw": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "areas": [
+        "animales-biodiversidad",
+        "tierra-geografia"
+      ],
+      "family": "trilobite-fossils",
+      "reason": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes.",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search?api_key=DEMO_KEY&q=3d_package%3Afcec58e8-ac1f-425d-9d83-8b16ca72b60c&rows=10"
+    },
+    {
+      "id": "smithsonian-whale-fossils",
+      "asset": "3d_package:1f1ec6af-193f-4969-9185-dc5dd587239d",
+      "title": "Excavación de ballena fósil MPC 675",
+      "titleOriginal": "Fossil whale excavation site MPC 675",
+      "providerId": "smithsonian",
+      "provider": "Smithsonian Open Access",
+      "author": "Smithsonian Institution / NMNH - Paleobiology Dept.",
+      "authorUrl": "https://www.si.edu",
+      "sourceUrl": "https://3d.si.edu/object/3d/1f1ec6af-193f-4969-9185-dc5dd587239d",
+      "downloadUrl": "https://3d-api.si.edu/content/document/3d_package:1f1ec6af-193f-4969-9185-dc5dd587239d/resources/whale-mpc-675-150k-4096.glb",
+      "selectedResource": {
+        "url": "https://3d-api.si.edu/content/document/3d_package:1f1ec6af-193f-4969-9185-dc5dd587239d/resources/whale-mpc-675-150k-4096.glb",
+        "name": "Fossil whale excavation site MPC 675",
+        "type": "3D mesh",
+        "title": "Fossil whale excavation site MPC 675 (Low resolution 3D mesh, glb, scale in mm)",
+        "category": "Low resolution",
+        "filename": "whale-mpc-675-150k-4096.glb",
+        "attributes": [
+          {
+            "UNITS": "mm",
+            "FILE_TYPE": "glb",
+            "MODEL_FILE_TYPE": "glb",
+            "DRACO_COMPRESSED": false,
+            "GLTF_STANDARDIZED": false
+          },
+          {
+            "FILE_SIZE": 12557000
+          }
+        ]
+      },
+      "objectRecordId": "edanmdm:dpo_3d_200020",
+      "licenseRaw": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "areas": [
+        "animales-biodiversidad",
+        "tierra-geografia"
+      ],
+      "family": "whale-fossils",
+      "reason": "Digitalización identificada con medio 3D CC0; referencias científicas y diversidad de especímenes.",
+      "metadataUrl": "https://api.si.edu/openaccess/api/v1.0/search?api_key=DEMO_KEY&q=3d_package%3A1f1ec6af-193f-4969-9185-dc5dd587239d&rows=10"
+    },
+    {
+      "id": "sketchfab-3f8072336ce94d18b3d0d055a1ece089",
+      "asset": "3f8072336ce94d18b3d0d055a1ece089",
+      "title": "Corazón humano",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/3f8072336ce94d18b3d0d055a1ece089",
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "family": "human-hearts",
+      "reason": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente.",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/3f8072336ce94d18b3d0d055a1ece089"
+    },
+    {
+      "id": "sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec",
+      "asset": "0aa0e33c5c854d1bab7bac9e1c7acaec",
+      "title": "Cerebro y tronco encefálico",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/0aa0e33c5c854d1bab7bac9e1c7acaec",
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "family": "human-brains",
+      "reason": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente.",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/0aa0e33c5c854d1bab7bac9e1c7acaec"
+    },
+    {
+      "id": "sketchfab-ce09f4099a68467880f46e61eb9a3531",
+      "asset": "ce09f4099a68467880f46e61eb9a3531",
+      "title": "Pulmones humanos",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/ce09f4099a68467880f46e61eb9a3531",
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "family": "human-lungs",
+      "reason": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente.",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/ce09f4099a68467880f46e61eb9a3531"
+    },
+    {
+      "id": "sketchfab-ad7d7e16b98f421db0cda79f265fcc8d",
+      "asset": "ad7d7e16b98f421db0cda79f265fcc8d",
+      "title": "Anatomía de las vías respiratorias",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/ad7d7e16b98f421db0cda79f265fcc8d",
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "family": "human-lungs",
+      "reason": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente.",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/ad7d7e16b98f421db0cda79f265fcc8d"
+    },
+    {
+      "id": "sketchfab-83483a66f8974d7e8f2e7bbde518d606",
+      "asset": "83483a66f8974d7e8f2e7bbde518d606",
+      "title": "Panel solar",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/83483a66f8974d7e8f2e7bbde518d606",
+      "areas": [
+        "fisica-energia"
+      ],
+      "family": "solar-panels",
+      "reason": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente.",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/83483a66f8974d7e8f2e7bbde518d606"
+    },
+    {
+      "id": "sketchfab-e0678e6615a74ed29c1376a591262159",
+      "asset": "e0678e6615a74ed29c1376a591262159",
+      "title": "Aerogenerador animado",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/e0678e6615a74ed29c1376a591262159",
+      "areas": [
+        "fisica-energia"
+      ],
+      "family": "wind-turbines",
+      "reason": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente.",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/e0678e6615a74ed29c1376a591262159"
+    },
+    {
+      "id": "sketchfab-285032402a8543ae8bf3e3c4d8c9f98a",
+      "asset": "285032402a8543ae8bf3e3c4d8c9f98a",
+      "title": "Aerogenerador",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/285032402a8543ae8bf3e3c4d8c9f98a",
+      "areas": [
+        "fisica-energia"
+      ],
+      "family": "wind-turbines",
+      "reason": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente.",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/285032402a8543ae8bf3e3c4d8c9f98a"
+    },
+    {
+      "id": "sketchfab-950d0a46531f492ab8715777e312a5bf",
+      "asset": "950d0a46531f492ab8715777e312a5bf",
+      "title": "Esqueleto humano",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/950d0a46531f492ab8715777e312a5bf",
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "family": "human-skeletons",
+      "reason": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente.",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/950d0a46531f492ab8715777e312a5bf"
+    },
+    {
+      "id": "sketchfab-e24e96b6bc39423b871b10f098876b8f",
+      "asset": "e24e96b6bc39423b871b10f098876b8f",
+      "title": "Esqueleto y piel de la mano",
+      "providerId": "sketchfab",
+      "provider": "Sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/e24e96b6bc39423b871b10f098876b8f",
+      "areas": [
+        "cuerpo-salud"
+      ],
+      "family": "hand-anatomy",
+      "reason": "Amplía anatomía, energía renovable o animación de mecanismos; revisión docente pendiente.",
+      "metadataUrl": "https://api.sketchfab.com/v3/models/e24e96b6bc39423b871b10f098876b8f"
+    }
+  ],
+  "held": [
+    {
+      "id": "nasa-hubble-space-telescope-a",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/hubble-space-telescope-a/",
+      "reason": "Autor externo o no identificado: derechos del archivo requieren evidencia específica adicional."
+    },
+    {
+      "id": "nasa-hubble-space-telescope-b",
+      "sourceUrl": "https://science.nasa.gov/3d-resources/hubble-space-telescope-b/",
+      "reason": "Autor externo o no identificado: derechos del archivo requieren evidencia específica adicional."
+    }
+  ]
+}

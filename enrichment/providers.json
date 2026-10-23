@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "scope": "Fuentes seleccionadas por el usuario: Kenney, OpenGameArt y Poly Haven incorporadas; las demás conservan su estado provisional.",
+  "scope": "Fuentes seleccionadas por el usuario. Incorporaciones verificadas; Quaternius directo pendiente de evidencia específica de redistribución y acceso al paquete.",
   "originalListStatus": "unavailable-response-load-error-in-source-chat",
   "providers": [
     {
@@ -57,16 +57,17 @@
       "url": "https://sketchfab.com",
       "priority": 1,
       "access": "official-download-api",
-      "authentication": "Sketchfab OAuth user authentication required for Download API; credentials not checked",
+      "authentication": "User token verified during acquisition; never stored",
       "licenseSummary": "Licencia por modelo descargable; no se deduce de que sea gratuito.",
       "licenseSources": [
         "https://sketchfab.com/developers/download-api",
         "https://sketchfab.com/developers/download-api/downloading-models"
       ],
-      "nextStep": "Preparar búsqueda por UID; comprobar acceso autorizado a descarga. No reutilizar la clave de Poly Pizza.",
-      "listMembership": "provisional-original-list-unavailable",
+      "nextStep": "Selección nativa incorporada con QA; ampliar con nuevos runs y revisión equivalente. Escala y uso curricular pendientes de evaluación docente.",
+      "listMembership": "user-selected",
       "researchCheckedOn": "2026-10-22",
-      "adapterStatus": "not-implemented"
+      "adapterStatus": "implemented-and-verified",
+      "incorporatedModels": 8
     },
     {
       "id": "polyhaven",
@@ -92,16 +93,17 @@
       "url": "https://3d.si.edu",
       "priority": 2,
       "access": "official-object-record-and-download",
-      "authentication": "to-check-for-chosen-route",
+      "authentication": "Public official download; no private key required",
       "licenseSummary": "Solo los archivos marcados CC0 se evalúan como tales; los metadatos abiertos no prueban que todos los medios de la ficha lo sean.",
       "licenseSources": [
         "https://www.si.edu/openaccess/faq",
         "https://www.si.edu/termsofuse"
       ],
-      "nextStep": "Seleccionar objetos CC0 con identificación documental; registrar institución, número de objeto, escala y derechos de cada archivo.",
-      "listMembership": "provisional-original-list-unavailable",
+      "nextStep": "Selección nativa incorporada con QA; ampliar con nuevos runs y revisión equivalente. Escala y uso curricular pendientes de evaluación docente.",
+      "listMembership": "user-selected",
       "researchCheckedOn": "2026-10-22",
-      "adapterStatus": "not-implemented"
+      "adapterStatus": "implemented-and-verified",
+      "incorporatedModels": 6
     },
     {
       "id": "nasa",
@@ -109,16 +111,17 @@
       "url": "https://science.nasa.gov/3d-resources/",
       "priority": 2,
       "access": "official-model-page-or-linked-repository",
-      "authentication": "to-check-for-chosen-file",
+      "authentication": "Public official download; no private key required",
       "licenseSummary": "Aplicar las condiciones NASA al recurso concreto; no etiquetar todo como CC0. Revisar autores externos, marcas y créditos.",
       "licenseSources": [
         "https://science.nasa.gov/3d-resources/",
         "https://www.nasa.gov/nasa-brand-center/images-and-media/"
       ],
-      "nextStep": "Seleccionar astronomía e instrumentos; comprobar autor y condiciones del archivo antes de redistribuir.",
-      "listMembership": "provisional-original-list-unavailable",
+      "nextStep": "Selección nativa incorporada con QA; ampliar con nuevos runs y revisión equivalente. Escala y uso curricular pendientes de evaluación docente.",
+      "listMembership": "user-selected",
       "researchCheckedOn": "2026-10-22",
-      "adapterStatus": "not-implemented"
+      "adapterStatus": "implemented-and-verified",
+      "incorporatedModels": 10
     },
     {
       "id": "quaternius",
@@ -131,11 +134,13 @@
       "licenseSources": [
         "https://quaternius.com/license.html"
       ],
-      "nextStep": "Catalogar referencias; incorporar solo una versión con evidencia específica de derechos de redistribución. No cambiar las licencias CC0 documentadas del corpus existente por una regla global.",
+      "nextStep": "Resolver discrepancia entre las fichas CC0 de kits históricos y QAL general, obtener License.txt de la versión concreta cuando su descarga esté disponible. No promover archivos sin evidencia específica.",
       "publicAssetLibraryDefault": "hold-until-specific-redistribution-rights-confirmed",
-      "listMembership": "provisional-original-list-unavailable",
+      "listMembership": "user-selected",
       "researchCheckedOn": "2026-10-22",
-      "adapterStatus": "not-implemented"
+      "adapterStatus": "blocked-license-evidence-and-download-quota",
+      "incorporatedModels": 0,
+      "statusReport": "enrichment/reports/pending-institutions.json"
     }
   ]
 }

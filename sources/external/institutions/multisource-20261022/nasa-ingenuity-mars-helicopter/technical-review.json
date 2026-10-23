@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    0.9863759875297546,
+    1.1063556671142578,
+    0.562043309211731
+  ],
+  "boundsMinBlender": [
+    -0.49501246213912964,
+    -0.5534901022911072,
+    -0.0060404203832149506
+  ],
+  "boundsMaxBlender": [
+    0.491363525390625,
+    0.5528655648231506,
+    0.5560029149055481
+  ],
+  "meshObjects": 11,
+  "polygons": 9124,
+  "vertices": 8512,
+  "materials": 10,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "nasa-ingenuity-mars-helicopter",
+  "sourceFile": "model.glb",
+  "glbSha256": "9e5a5398ab335eae7d46335085301ce46fb7de052300b645debe8bac6d39f2b5",
+  "reimport": {
+    "dimensionsBlender": [
+      0.9863759875297546,
+      1.1063556671142578,
+      0.562043309211731
+    ],
+    "boundsMinBlender": [
+      -0.49501246213912964,
+      -0.5534901022911072,
+      -0.0060404203832149506
+    ],
+    "boundsMaxBlender": [
+      0.491363525390625,
+      0.5528655648231506,
+      0.5560029149055481
+    ],
+    "meshObjects": 11,
+    "polygons": 9124,
+    "vertices": 8512,
+    "materials": 10,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.00011063556671142578,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/renders/source-back.png": "fa4396f4eb1d0417d2977f368d6249c6a5db8050cdaf383df826f2eb7e83d837",
+    "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/renders/source-side.png": "32aedeeedae4f827f887bade037a60ae0bfcd4251b115b2bfc9e363a745f9e98",
+    "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/renders/source-front.png": "8dea439a6fa2e97d799e96341724563fbba0275bc15cfac901e05d358f4bd927",
+    "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/renders/reimport-three-quarter.png": "d85c755a7aef550467146ec2c82ebf814a31a0f83e3a62f17da7e089c4dc51ab",
+    "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/renders/source-three-quarter.png": "db59a0bdb6403d4e8acaec2b78265a2a2a1fda9823038422678c18d323ffcfbb",
+    "sources/external/institutions/multisource-20261022/nasa-ingenuity-mars-helicopter/renders/source-wireframe.png": "aa6c20db4912f6389938d17939f82fac8e083986506521ca3fda918102faa002"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

@@ -4724,5 +4724,17 @@
       "oga-ant-ant"
     ],
     "kits": 6
+  },
+  "institutionsEnrichment": {
+    "added": 24,
+    "providers": {
+      "nasa": 10,
+      "sketchfab": 8,
+      "smithsonian": 6
+    },
+    "groups": "groups/institutions.json",
+    "pendingReport": "sources/external/institutions/multisource-20261022/pending.json",
+    "historicalQueriesUnchanged": true,
+    "educationalReview": "NOT_RUN"
   }
 }

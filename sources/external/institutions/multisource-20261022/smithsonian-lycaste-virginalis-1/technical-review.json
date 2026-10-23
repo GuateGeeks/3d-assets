@@ -1,0 +1,62 @@
+{
+  "dimensionsBlender": [
+    0.5790079832077026,
+    0.5529090166091919,
+    0.5791879892349243
+  ],
+  "boundsMinBlender": [
+    -0.28950798511505127,
+    -0.27617499232292175,
+    -0.28956300020217896
+  ],
+  "boundsMaxBlender": [
+    0.28949999809265137,
+    0.27673399448394775,
+    0.28962498903274536
+  ],
+  "meshObjects": 1,
+  "polygons": 150000,
+  "vertices": 90446,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "smithsonian-lycaste-virginalis-1",
+  "sourceFile": "model.glb",
+  "glbSha256": "8f39967500016679862269c7743f91d4ffae8556f0768a38ee7d9ef10ea4db33",
+  "reimport": {
+    "dimensionsBlender": [
+      0.5790079832077026,
+      0.5529090166091919,
+      0.5791879892349243
+    ],
+    "boundsMinBlender": [
+      -0.28950798511505127,
+      -0.27617499232292175,
+      -0.28956300020217896
+    ],
+    "boundsMaxBlender": [
+      0.28949999809265137,
+      0.27673399448394775,
+      0.28962498903274536
+    ],
+    "meshObjects": 1,
+    "polygons": 150000,
+    "vertices": 90446,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 5.7918798923492436e-05,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-1/renders/source-back.png": "08792f86b53740a1bccd21a349d5411f13d505babcb22285d41c556a3dbc87e6",
+    "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-1/renders/source-side.png": "1fda775a4f46ddaa6d846588a669cb907ddb3790f8c82ac484c8ecf53e8e7065",
+    "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-1/renders/source-front.png": "916b8dc9f77110b63d5564045d78daf7484a9c3dd1d8351bcc8c5f7e345bf256",
+    "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-1/renders/reimport-three-quarter.png": "07a6e89fbafb1e3a4082b481bce72b36400298c6de72b397d166fc8cdf20ca38",
+    "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-1/renders/source-three-quarter.png": "5a8b95d35ec0e1fd930a594f0187f4a6b024248bed25c95e2e14c0a6983d6251",
+    "sources/external/institutions/multisource-20261022/smithsonian-lycaste-virginalis-1/renders/source-wireframe.png": "461514bf525f8361c5bc0f6d09cc1c7db69368832a27e4f4b63d86f502d643e5"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN"
+}

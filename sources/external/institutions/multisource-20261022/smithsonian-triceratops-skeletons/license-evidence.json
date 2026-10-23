@@ -1,0 +1,28 @@
+{
+  "sourceUrl": "https://api.si.edu/openaccess/api/v1.0/search",
+  "objectRecordId": "edanmdm:nmnhpaleobiology_3572783",
+  "packageId": "3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125",
+  "mediumUsageAccess": "CC0",
+  "selectedResource": {
+    "url": "https://3d-api.si.edu/content/document/3d_package:d8c623be-4ebc-11ea-b77f-2e728ce88125/resources/Triceratops_horridus_Marsh_1889-150k-4096.glb",
+    "name": "Triceratops horridus Marsh, 1889",
+    "type": "3D mesh",
+    "title": "Triceratops horridus Marsh, 1889 (Low resolution 3D mesh, glb, scale in m)",
+    "category": "Low resolution",
+    "filename": "Triceratops_horridus_Marsh_1889-150k-4096.glb",
+    "attributes": [
+      {
+        "UNITS": "m",
+        "FILE_TYPE": "glb",
+        "MODEL_FILE_TYPE": "glb",
+        "DRACO_COMPRESSED": false,
+        "GLTF_STANDARDIZED": false
+      },
+      {
+        "FILE_SIZE": 14395048
+      }
+    ]
+  },
+  "retrievedAt": "2026-10-23T03:58:32.233931+00:00",
+  "scope": "The matched 3d_voyager medium is CC0; other media in a record can have different rights."
+}

@@ -31,6 +31,13 @@ def records():
             if m['providerId']=='polyhaven':
                 for field in ['licenseEvidence','metadataEvidence','fileManifestEvidence','technicalReviewEvidence']:
                     if hashlib.sha256((ROOT/m['provenance'][field]).read_bytes()).hexdigest()!=m['provenance'][field+'Sha256']:raise ValueError('Poly Haven evidence changed: '+field)
+            if m['providerId'] in {'sketchfab','smithsonian','nasa'}:
+                for field in ['licenseEvidence','metadataEvidence','technicalReviewEvidence','visualReviewEvidence']:
+                    if hashlib.sha256((ROOT/m['provenance'][field]).read_bytes()).hexdigest()!=m['provenance'][field+'Sha256']:raise ValueError('Reference evidence changed: '+field)
+                review=read(ROOT/m['provenance']['technicalReviewEvidence'])
+                if review['technical']!='PASS' or review['glbSha256']!=m['sha256']:raise ValueError('Reference review mismatch')
+                for name,digest in review['images'].items():
+                    if hashlib.sha256((ROOT/name).read_bytes()).hexdigest()!=digest:raise ValueError('Reference render changed')
         output.append(m)
     kits_file=ROOT/'kits/index.json';membership={}
     if kits_file.exists():
@@ -71,13 +78,13 @@ def rebuild():
     for product in ['code-studio','socrates']:subset('products/'+product,[m for m in rs if product in m['products']], 'Biblioteca candidata; asignación docente pendiente')
     subset('animation/rigged',[m for m in rs if m['gltf']['rigged']]);subset('animation/animated',[m for m in rs if m['gltf']['animated']]);subset('animation/static',[m for m in rs if not m['gltf']['animated']])
     subset('review/flagged',[m for m in rs if m.get('reviewFlags')]);subset('review/unfulfilled-queries',[m for m in rs if m.get('unfulfilledQueries')]);subset('review/api-animation-mismatch',[m for m in rs if m.get('apiAnimated') is not None and bool(m['apiAnimated'])!=m['gltf']['animated']])
-    fields=['id','title','providerId','provider','kitIds','variantGroupId','variantGroupTitle','author','licenseRaw','licenseUrl','attributionRequired','commercialUse','derivatives','shareAlike','areas','subjects','file','bytes','sha256','sourceUrl','rigged','animated','animationNames','reviewStatus','reviewFlags','modifications','attribution']
+    fields=['id','title','providerId','provider','kitIds','variantGroupId','variantGroupTitle','author','licenseRaw','licenseUrl','attributionRequired','commercialUse','derivatives','shareAlike','licenseConditions','areas','subjects','file','bytes','sha256','sourceUrl','rigged','animated','animationNames','reviewStatus','reviewFlags','modifications','attribution']
     with (ROOT/'index.csv').open('w',newline='',encoding='utf-8-sig') as f:
         writer=csv.DictWriter(f,fieldnames=fields);writer.writeheader()
         for m in rs:
             row={k:m.get(k) for k in fields}
             for k in ['areas','subjects','reviewFlags','kitIds']:row[k]='; '.join(m.get(k,[]))
-            row.update(licenseUrl=m['license']['url'],**{k:m['license'][k] for k in ['attributionRequired','commercialUse','derivatives','shareAlike']},rigged=m['gltf']['rigged'],animated=m['gltf']['animated'],animationNames='; '.join(m['gltf']['animationNames']))
+            row.update(licenseUrl=m['license']['url'],licenseConditions=m['license'].get('conditions',''),**{k:m['license'][k] for k in ['attributionRequired','commercialUse','derivatives','shareAlike']},rigged=m['gltf']['rigged'],animated=m['gltf']['animated'],animationNames='; '.join(m['gltf']['animationNames']))
             writer.writerow(row)
     lines=['# Créditos y licencias de los modelos','','Originales y derivados web conservan sus licencias individuales. Los cambios y la procedencia se indican en cada entrada.','']
     for m in rs:lines.append('- **'+m['title']+'** (`'+m['id']+'`): '+m['attribution']+' · '+m['licenseRaw']+' · '+m['license']['url']+' · '+m['modifications'])
