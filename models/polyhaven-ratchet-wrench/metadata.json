@@ -1,0 +1,161 @@
+{
+  "id": "polyhaven-ratchet-wrench",
+  "assetId": "polyhaven:ratchet_wrench",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Llave de carraca",
+  "titleOriginal": "Ratchet Wrench",
+  "author": "John Hutcheson",
+  "authorUrl": "https://polyhaven.com/a/ratchet_wrench",
+  "sourceUrl": "https://polyhaven.com/a/ratchet_wrench",
+  "metadataUrl": "https://api.polyhaven.com/info/ratchet_wrench",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/ratchet_wrench/ratchet_wrench_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Hand Tools/Wrenches & Spanners",
+  "tags": [
+    "metal",
+    "shed",
+    "workshop",
+    "construction",
+    "garage",
+    "mechanic",
+    "wrench",
+    "nuts",
+    "bolts",
+    "Ratchet Wrench",
+    "workshop-wrenches"
+  ],
+  "areas": [
+    "oficios-productividad",
+    "fisica-energia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Ratchet Wrench\", por John Hutcheson / Poly Haven. https://polyhaven.com/a/ratchet_wrench. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-ratchet-wrench/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/ratchet_wrench/metadata.json",
+  "originalDownload": "models/polyhaven-ratchet-wrench/originals.zip",
+  "bytes": 1518776,
+  "sha256": "b5a50aebba112d297274c1309908b9ce5b92d6b43999ce73e26b3dceeeb4dfed",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:46.302760+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "ratchet_wrench_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-ratchet-wrench/original/ratchet_wrench_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/ratchet_wrench/ratchet_wrench_1k.gltf",
+        "bytes": 2788,
+        "md5": "a402821ab94f6dcfdbf240a06da47ac8",
+        "sha256": "6212af117eaba863be506d0dbca06d3aefbef84e1a4172b7f8fc3c8170576eff"
+      },
+      {
+        "file": "models/polyhaven-ratchet-wrench/original/textures/ratchet_wrench_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ratchet_wrench/ratchet_wrench_nor_gl_1k.jpg",
+        "bytes": 388724,
+        "md5": "9e5b7767e4f286b76b9ba0d6c8f8e692",
+        "sha256": "abdfce5991b4ecf0eaef6f3553040cec76f0c2a2028212c81d1b199df0a50605"
+      },
+      {
+        "file": "models/polyhaven-ratchet-wrench/original/ratchet_wrench.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/ratchet_wrench/ratchet_wrench.bin",
+        "bytes": 219816,
+        "md5": "021dc261c222c50e5e07963d0cb7fa7a",
+        "sha256": "97b2ddbb13baeefd1abe76a18f89352410614af470eb60f4cada170a6c00ab5e"
+      },
+      {
+        "file": "models/polyhaven-ratchet-wrench/original/textures/ratchet_wrench_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ratchet_wrench/ratchet_wrench_arm_1k.jpg",
+        "bytes": 622307,
+        "md5": "647ec2fe71b5f0d2749cf22b83e9e09b",
+        "sha256": "54a5ea2885a73be0b7a01a997c8dd3a2e6e03513e90f1b019fd6b6b45f240fe0"
+      },
+      {
+        "file": "models/polyhaven-ratchet-wrench/original/textures/ratchet_wrench_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ratchet_wrench/ratchet_wrench_diff_1k.jpg",
+        "bytes": 286148,
+        "md5": "92bda4c684ff4ceb5a15f8a5200d17dd",
+        "sha256": "257bef443968e50d8806bac546cdc4f1655b39ee77a4ffce2b873853279cee6e"
+      }
+    ],
+    "originalDownloadSha256": "b894bb65e3dadc3fabfaeb0dc3b501b25739ed76866bf1f6fcef3897f8e3a731",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/ratchet_wrench/metadata.json",
+    "metadataEvidenceSha256": "e9d637f7084d1a739f6b6688bb32ac13875535527527840d37cae0139ff1a5c9",
+    "fileManifestEvidence": "sources/external/polyhaven/ratchet_wrench/files.json",
+    "fileManifestEvidenceSha256": "bd9946aa3343148f4b949c7db1f8dfab038bd8194a112f614ec7413d0c1b5e32",
+    "technicalReviewEvidence": "sources/external/polyhaven/ratchet_wrench/technical-review.json",
+    "technicalReviewEvidenceSha256": "fdf24e8f5d5e16fcfb5c668ee4832eeadc5063f4dbb958e406a4f81a4303f446",
+    "providerReportedPolycount": 8796,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.04408946633338928,
+      0.043394144624471664,
+      0.24620075523853302
+    ],
+    "reimportDimensionsBlender": [
+      0.04408946633338928,
+      0.043394144624471664,
+      0.24620075523853302
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "f3b6f25c8219b6dc67136d093fd6c566b11cea0efc260ee092f4cd45a3f751a0",
+      "triangles": 8796
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

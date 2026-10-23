@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "groups": [
+    {
+      "id": "science-bunsen-burners",
+      "title": "Mechero Bunsen",
+      "modelIds": [
+        "polyhaven-bunsen-burner"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "science-chemistry-sets",
+      "title": "Equipo de química",
+      "modelIds": [
+        "polyhaven-chemistry-set"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "optics-magnifying-glasses",
+      "title": "Lupas",
+      "modelIds": [
+        "bcdkW7a4AG5",
+        "c8HQVCBMIMR",
+        "fvtGqQ6olh-",
+        "polyhaven-magnifying-glass-01"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "optics-binoculars",
+      "title": "Binoculares",
+      "modelIds": [
+        "polyhaven-binoculars",
+        "polyhaven-vintage-binocular"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "science-microscopes",
+      "title": "Microscopios",
+      "modelIds": [
+        "05VXLT8kN4k",
+        "dcuaH6bEkwn",
+        "q9zNs4U5NG",
+        "polyhaven-industrial-microscope",
+        "polyhaven-vintage-microscope"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "electronics-circuit-boards",
+      "title": "Placas de circuito",
+      "modelIds": [
+        "fL02Z7OItO9",
+        "fxKdRjNq20j",
+        "polyhaven-circuit-board"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "electronics-multimeters",
+      "title": "Multímetro analógico",
+      "modelIds": [
+        "polyhaven-retro-multimeter"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "computing-laptops",
+      "title": "Computadoras portátiles",
+      "modelIds": [
+        "27hcX_w47Jb",
+        "UGOWjMUC5U",
+        "fEYeMIiRNHM",
+        "polyhaven-classic-laptop"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "lighting-lightbulbs",
+      "title": "Bombillas",
+      "modelIds": [
+        "polyhaven-lightbulb-led",
+        "polyhaven-lightbulb-01"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "measurement-tape-measures",
+      "title": "Cinta métrica",
+      "modelIds": [
+        "polyhaven-measuring-tape-01"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "navigation-compasses",
+      "title": "Brújula de navegación",
+      "modelIds": [
+        "polyhaven-seadogs-compass"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "accessibility-wheelchairs",
+      "title": "Silla de ruedas",
+      "modelIds": [
+        "polyhaven-wheelchair-01"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "health-medical-boxes",
+      "title": "Botiquines de primeros auxilios",
+      "modelIds": [
+        "Hp80p6148W",
+        "wP00rePSRD",
+        "polyhaven-medical-box"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "safety-life-jackets",
+      "title": "Chaleco salvavidas",
+      "modelIds": [
+        "polyhaven-life-jacket"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "safety-lifebuoys",
+      "title": "Aro salvavidas",
+      "modelIds": [
+        "polyhaven-lifebuoy"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "safety-fire-extinguishers",
+      "title": "Extintor con rotulación coreana",
+      "modelIds": [
+        "polyhaven-korean-fire-extinguisher-01"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "gardening-seeding-trays",
+      "title": "Bandeja de semillero",
+      "modelIds": [
+        "polyhaven-seeding-tray-01"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "gardening-watering-cans",
+      "title": "Regaderas",
+      "modelIds": [
+        "7EfDXOcziyF",
+        "polyhaven-watering-can-metal-01"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "gardening-shovels",
+      "title": "Palas y palitas de jardinería",
+      "modelIds": [
+        "polyhaven-trowel-01",
+        "polyhaven-rusted-spade-01"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "workshop-bench-vices",
+      "title": "Tornillo de banco",
+      "modelIds": [
+        "polyhaven-bench-vice-01"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "workshop-hand-planes",
+      "title": "Cepillo de carpintería",
+      "modelIds": [
+        "polyhaven-hand-plane-no4"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "workshop-wrenches",
+      "title": "Llaves de taller",
+      "modelIds": [
+        "POJHQLnLvB",
+        "TvT0yqLRln",
+        "enyBvm6bJQL",
+        "polyhaven-ratchet-wrench",
+        "polyhaven-adjustable-wrench"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "music-ukuleles",
+      "title": "Ukelele",
+      "modelIds": [
+        "polyhaven-ukulele-01"
+      ],
+      "relation": "functional-family-or-variant"
+    }
+  ],
+  "aliases": [],
+  "grouping": "Familias funcionales para comparar estilos y variantes. Solo la igualdad de SHA-256 permite compartir ficha automáticamente; las coincidencias geométricas requieren revisión."
+}

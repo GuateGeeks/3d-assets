@@ -1,0 +1,59 @@
+{
+  "dimensionsBlender": [
+    0.21597421169281006,
+    0.2026422619819641,
+    0.27863749861717224
+  ],
+  "boundsMinBlender": [
+    -0.13543172180652618,
+    -0.1719818413257599,
+    -8.023995906114578e-05
+  ],
+  "boundsMaxBlender": [
+    0.08054248988628387,
+    0.030660424381494522,
+    0.27855727076530457
+  ],
+  "meshObjects": 7,
+  "polygons": 8948,
+  "vertices": 6865,
+  "materials": 2,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "polyhaven-retro-multimeter",
+  "sourceFile": "retro_multimeter_1k.gltf",
+  "glbSha256": "b7123edb59d0dc54feaf557481c017a542deb22c3528333b66565035e8f06a63",
+  "reimport": {
+    "dimensionsBlender": [
+      0.21597421169281006,
+      0.2026422619819641,
+      0.27863749861717224
+    ],
+    "boundsMinBlender": [
+      -0.13543172180652618,
+      -0.1719818413257599,
+      -8.023995906114578e-05
+    ],
+    "boundsMaxBlender": [
+      0.08054248988628387,
+      0.030660424381494522,
+      0.27855727076530457
+    ],
+    "meshObjects": 7,
+    "polygons": 8948,
+    "vertices": 6865,
+    "materials": 2,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 2.7863749861717225e-05,
+  "images": {
+    "sources/external/polyhaven/retro_multimeter/renders/source-back.png": "498c878e3bbf156c891f58ee5c9ceb7bc2d81b91f7a595ee929dd7d74f7537d5",
+    "sources/external/polyhaven/retro_multimeter/renders/source-side.png": "ef5ab1ef0498a58395127aa703d471b2c5ebbd8702d2ca0c98d24beb9d2a9ee7",
+    "sources/external/polyhaven/retro_multimeter/renders/source-front.png": "86ddf6f5aedc7756a72d9dafd9f64d7fe6f5663bd6cc1b2c56435a1e11b7c50a",
+    "sources/external/polyhaven/retro_multimeter/renders/reimport-three-quarter.png": "f40c08e7f91f49ae4a430e9360f1f1af49cb8c23eee8735520147281ee5242a6",
+    "sources/external/polyhaven/retro_multimeter/renders/source-three-quarter.png": "293cc33ee1b541dfbd889c27bfc4b7b88e6e855f303b89fa502e854f1d40012b",
+    "sources/external/polyhaven/retro_multimeter/renders/source-wireframe-v2.png": "88096a641bf9b171dcd2f1824992ead4cad5ec089cc5e05acccba3f79dda35cb"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "wireframeDiagnostic": "Clay wire shader; no geometry modifier. Earlier modifier diagnostic retained only in staging."
+}

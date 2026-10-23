@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Vintage Microscope\", por Luis José Fernández Rodríguez / Poly Haven. https://polyhaven.com/a/vintage_microscope. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Luis José Fernández Rodríguez"
+  },
+  "Title": "Vintage Microscope",
+  "sourceUrl": "https://polyhaven.com/a/vintage_microscope",
+  "assetId": "vintage_microscope",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-vintage-microscope/original/vintage_microscope_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/vintage_microscope/vintage_microscope_1k.gltf",
+      "bytes": 15000,
+      "md5": "8caf57500671c4d5fb1df878df5c3498",
+      "sha256": "f7b748cb95f0b1c8eaf88b827a568347cfbd25f750e27efd52c59029d92e3345"
+    },
+    {
+      "file": "models/polyhaven-vintage-microscope/original/textures/vintage_microscope_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_microscope/vintage_microscope_nor_gl_1k.jpg",
+      "bytes": 320605,
+      "md5": "d584938da3350e1c46a11efe1fb4c844",
+      "sha256": "8b383c862185a45031d4b68bf3ba62ee2658063cf8495c7b6421afadea1f57d4"
+    },
+    {
+      "file": "models/polyhaven-vintage-microscope/original/textures/vintage_microscope_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_microscope/vintage_microscope_diff_1k.jpg",
+      "bytes": 561049,
+      "md5": "a3a431383641b3e3b295f4cfc521f9a6",
+      "sha256": "54b6f1b0b5e9df4656d7963a8c764552ae02d697c4b36de4000e5d849b1eb167"
+    },
+    {
+      "file": "models/polyhaven-vintage-microscope/original/textures/vintage_microscope_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_microscope/vintage_microscope_arm_1k.jpg",
+      "bytes": 714056,
+      "md5": "cf75e4595fcdac9a263777956afd57fd",
+      "sha256": "dd636dbb76345d2c44ed699c997859ed1ca908c2b3fe3516449566710ec86068"
+    },
+    {
+      "file": "models/polyhaven-vintage-microscope/original/vintage_microscope.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/vintage_microscope/vintage_microscope.bin",
+      "bytes": 702092,
+      "md5": "f391522a073472a4ff4f3ba5f8d9b8dc",
+      "sha256": "b4f906ab5fe5ba71f12dc174064ab54a7417ea89740a1c1d2247d220e7c265db"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

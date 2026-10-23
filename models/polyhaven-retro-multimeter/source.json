@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Retro Multimeter\", por elli moeller / Poly Haven. https://polyhaven.com/a/retro_multimeter. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "elli moeller"
+  },
+  "Title": "Retro Multimeter",
+  "sourceUrl": "https://polyhaven.com/a/retro_multimeter",
+  "assetId": "retro_multimeter",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-retro-multimeter/original/retro_multimeter_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/retro_multimeter/retro_multimeter_1k.gltf",
+      "bytes": 13821,
+      "md5": "7709ce6ba14271e2b2991193c897502b",
+      "sha256": "47b51486a9fc1b5dab3449b3541e6bcbc3ae866e72372fcd8b67f3f45e803a97"
+    },
+    {
+      "file": "models/polyhaven-retro-multimeter/original/textures/retro_multimeter_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/retro_multimeter/retro_multimeter_nor_gl_1k.jpg",
+      "bytes": 252642,
+      "md5": "6ad1b7963ba777dbaa7bfce231ed38f6",
+      "sha256": "d30fd3007cb35e62a0a5171d148df0dba3bee688e96c76d4ffbc314761fac183"
+    },
+    {
+      "file": "models/polyhaven-retro-multimeter/original/textures/retro_multimeter_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/retro_multimeter/retro_multimeter_diff_1k.jpg",
+      "bytes": 399388,
+      "md5": "47901b8cbb376b1a3a94425c83647cf4",
+      "sha256": "46baf6d9026f3cc79cfe6105c20101ec4436f728ced143f1647931b6d68a2e3b"
+    },
+    {
+      "file": "models/polyhaven-retro-multimeter/original/textures/retro_multimeter_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/retro_multimeter/retro_multimeter_arm_1k.jpg",
+      "bytes": 454111,
+      "md5": "79e1c577441d03097ab2230e55df5a89",
+      "sha256": "3fbf956cfc9830fb866535ad8c50a6923ffb848b06707c5d957bbb8d73385c46"
+    },
+    {
+      "file": "models/polyhaven-retro-multimeter/original/retro_multimeter.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/retro_multimeter/retro_multimeter.bin",
+      "bytes": 273368,
+      "md5": "b36d88e298ffd927fb2276e55d7a3640",
+      "sha256": "c2d626778b59eaa5293f7c666433a5b0224cdb2dc38d005a056f95b2ab24b2e8"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

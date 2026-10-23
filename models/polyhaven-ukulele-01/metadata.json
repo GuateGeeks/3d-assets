@@ -1,0 +1,155 @@
+{
+  "id": "polyhaven-ukulele-01",
+  "assetId": "polyhaven:Ukulele_01",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Ukelele",
+  "titleOriginal": "Ukulele 01",
+  "author": "Joseph Burgan",
+  "authorUrl": "https://polyhaven.com/a/Ukulele_01",
+  "sourceUrl": "https://polyhaven.com/a/Ukulele_01",
+  "metadataUrl": "https://api.polyhaven.com/info/Ukulele_01",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/Ukulele_01/Ukulele_01_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Leisure/Musical Instruments/String Instruments",
+  "tags": [
+    "instrument",
+    "wood",
+    "prop",
+    "guitar",
+    "ukulele",
+    "music",
+    "Ukulele 01",
+    "music-ukuleles"
+  ],
+  "areas": [
+    "arte-musica"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Expresión Artística"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Ukulele 01\", por Joseph Burgan / Poly Haven. https://polyhaven.com/a/Ukulele_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-ukulele-01/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/Ukulele_01/metadata.json",
+  "originalDownload": "models/polyhaven-ukulele-01/originals.zip",
+  "bytes": 806312,
+  "sha256": "c1167b17f7eaaf127e74c5bf11606574492104623f15a657d4bca383d12c5015",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:51.535985+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "Ukulele_01_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-ukulele-01/original/Ukulele_01_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/Ukulele_01/Ukulele_01_1k.gltf",
+        "bytes": 2665,
+        "md5": "e7f26cad6d0aafbe6132e72dcb01a0af",
+        "sha256": "e0cd6068b9c6b59e716a9ec084a9104664375431d5dcd26c5a82d0567774e7f4"
+      },
+      {
+        "file": "models/polyhaven-ukulele-01/original/textures/Ukulele_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Ukulele_01/Ukulele_01_nor_gl_1k.jpg",
+        "bytes": 146620,
+        "md5": "892e1790aa8b39fed53fa5a808f65ef9",
+        "sha256": "314205982fc41422ed6ec9d35667716a6a1e1a395dd93f0c9c6b6932947c42c2"
+      },
+      {
+        "file": "models/polyhaven-ukulele-01/original/textures/Ukulele_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Ukulele_01/Ukulele_01_arm_1k.jpg",
+        "bytes": 153745,
+        "md5": "3acd839c8eae4b5124ff3ec052338d1d",
+        "sha256": "b6959977b2df720c09592db3e138366067421c93ff29c8d3acd352bd6e91fb47"
+      },
+      {
+        "file": "models/polyhaven-ukulele-01/original/Ukulele_01.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/Ukulele_01/Ukulele_01.bin",
+        "bytes": 316992,
+        "md5": "93539b3ad50951be233526a9c1ba9e67",
+        "sha256": "438fc03ff1a454e0063dd8c377629572e429920d0e03aba99799c17bdc1c0a0b"
+      },
+      {
+        "file": "models/polyhaven-ukulele-01/original/textures/Ukulele_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Ukulele_01/Ukulele_01_diff_1k.jpg",
+        "bytes": 187248,
+        "md5": "7b14e3adeec554691b9315d85f784c16",
+        "sha256": "d13bfdbbbbaa4821a17098d52ac915e3a2eb1fc384374c919df174ce92ad5477"
+      }
+    ],
+    "originalDownloadSha256": "a29ec82c1ee0b873a52796e76e8efd7fa41a348d93a4e165a898f44dcb2a6b0b",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/Ukulele_01/metadata.json",
+    "metadataEvidenceSha256": "3ccc8824cc8e98064ccd85a028ca58b77f8b9bbfdccfd04997aa2b945ca716e7",
+    "fileManifestEvidence": "sources/external/polyhaven/Ukulele_01/files.json",
+    "fileManifestEvidenceSha256": "451a0c33fbe162208362d90ffb9974a67713e9a7503d321623503c0534163bdc",
+    "technicalReviewEvidence": "sources/external/polyhaven/Ukulele_01/technical-review.json",
+    "technicalReviewEvidenceSha256": "909c93966cca2772520a94b2112c06b4fdc2f8604d019e647b42dc70aaa07510",
+    "providerReportedPolycount": 8912,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.1778610646724701,
+      0.05076222866773605,
+      0.5269626975059509
+    ],
+    "reimportDimensionsBlender": [
+      0.1778610646724701,
+      0.05076222866773605,
+      0.5269626975059509
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "4e09111662c2548cf1cadda700ac6f2062adead357a6b3a932d7f521cfebc214",
+      "triangles": 8912
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

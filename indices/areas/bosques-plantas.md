@@ -1,6 +1,6 @@
 # Bosques y plantas
 
-126 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+128 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -130,3 +130,5 @@
 | [tree · thin · dark](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-tree-thin-dark/model.glb) | 0 / 0 |
 | [tree · thin · fall](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-tree-thin-fall/model.glb) | 0 / 0 |
 | [Pine Trees](https://poly.pizza/m/oYtDty0fR6) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oYtDty0fR6/model.glb) | 0 / 0 |
+| [Bandeja de semillero](https://polyhaven.com/a/seeding_tray_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-seeding-tray-01/model.glb) | 0 / 0 |
+| [Regadera metálica](https://polyhaven.com/a/watering_can_metal_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Charles Nderitu | [GLB](../../models/polyhaven-watering-can-metal-01/model.glb) | 0 / 0 |

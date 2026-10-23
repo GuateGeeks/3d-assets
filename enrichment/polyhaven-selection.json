@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "resolution": "1k",
+  "scope": "Objetos complementarios y variantes comparables; no es una descarga completa de Poly Haven.",
+  "items": [
+    {
+      "asset": "bunsen_burner",
+      "title": "Mechero Bunsen",
+      "areas": [
+        "laboratorio-ciencia",
+        "fisica-energia"
+      ],
+      "family": "science-bunsen-burners"
+    },
+    {
+      "asset": "chemistry_set",
+      "title": "Equipo de química",
+      "areas": [
+        "laboratorio-ciencia"
+      ],
+      "family": "science-chemistry-sets"
+    },
+    {
+      "asset": "magnifying_glass_01",
+      "title": "Lupa",
+      "areas": [
+        "laboratorio-ciencia",
+        "escuela-lenguaje"
+      ],
+      "family": "optics-magnifying-glasses"
+    },
+    {
+      "asset": "binoculars",
+      "title": "Binoculares",
+      "areas": [
+        "laboratorio-ciencia",
+        "animales-biodiversidad"
+      ],
+      "family": "optics-binoculars"
+    },
+    {
+      "asset": "vintage_binocular",
+      "title": "Binoculares antiguos",
+      "areas": [
+        "laboratorio-ciencia",
+        "animales-biodiversidad"
+      ],
+      "family": "optics-binoculars"
+    },
+    {
+      "asset": "industrial_microscope",
+      "title": "Microscopio industrial",
+      "areas": [
+        "laboratorio-ciencia"
+      ],
+      "family": "science-microscopes"
+    },
+    {
+      "asset": "vintage_microscope",
+      "title": "Microscopio antiguo",
+      "areas": [
+        "laboratorio-ciencia"
+      ],
+      "family": "science-microscopes"
+    },
+    {
+      "asset": "circuit_board",
+      "title": "Placa de circuito",
+      "areas": [
+        "robotica-electronica",
+        "computacion-redes"
+      ],
+      "family": "electronics-circuit-boards"
+    },
+    {
+      "asset": "retro_multimeter",
+      "title": "Multímetro analógico",
+      "areas": [
+        "robotica-electronica",
+        "fisica-energia",
+        "matematicas-medicion"
+      ],
+      "family": "electronics-multimeters"
+    },
+    {
+      "asset": "classic_laptop",
+      "title": "Computadora portátil clásica",
+      "areas": [
+        "computacion-redes"
+      ],
+      "family": "computing-laptops"
+    },
+    {
+      "asset": "lightbulb_led",
+      "title": "Bombilla LED",
+      "areas": [
+        "fisica-energia",
+        "robotica-electronica"
+      ],
+      "family": "lighting-lightbulbs"
+    },
+    {
+      "asset": "lightbulb_01",
+      "title": "Bombilla incandescente",
+      "areas": [
+        "fisica-energia",
+        "robotica-electronica"
+      ],
+      "family": "lighting-lightbulbs"
+    },
+    {
+      "asset": "measuring_tape_01",
+      "title": "Cinta métrica",
+      "areas": [
+        "matematicas-medicion",
+        "oficios-productividad"
+      ],
+      "family": "measurement-tape-measures"
+    },
+    {
+      "asset": "seadogs_compass",
+      "title": "Brújula de navegación",
+      "areas": [
+        "tierra-geografia",
+        "matematicas-medicion"
+      ],
+      "family": "navigation-compasses"
+    },
+    {
+      "asset": "wheelchair_01",
+      "title": "Silla de ruedas",
+      "areas": [
+        "cuerpo-salud",
+        "comunidad-ciudadania"
+      ],
+      "family": "accessibility-wheelchairs"
+    },
+    {
+      "asset": "medical_box",
+      "title": "Caja de primeros auxilios",
+      "areas": [
+        "cuerpo-salud",
+        "comunidad-ciudadania"
+      ],
+      "family": "health-medical-boxes"
+    },
+    {
+      "asset": "life_jacket",
+      "title": "Chaleco salvavidas",
+      "areas": [
+        "agua-oceanos",
+        "comunidad-ciudadania"
+      ],
+      "family": "safety-life-jackets"
+    },
+    {
+      "asset": "lifebuoy",
+      "title": "Aro salvavidas",
+      "areas": [
+        "agua-oceanos",
+        "comunidad-ciudadania"
+      ],
+      "family": "safety-lifebuoys"
+    },
+    {
+      "asset": "korean_fire_extinguisher_01",
+      "title": "Extintor con rotulación coreana",
+      "areas": [
+        "comunidad-ciudadania",
+        "oficios-productividad"
+      ],
+      "family": "safety-fire-extinguishers"
+    },
+    {
+      "asset": "seeding_tray_01",
+      "title": "Bandeja de semillero",
+      "areas": [
+        "alimentos-agricultura",
+        "bosques-plantas"
+      ],
+      "family": "gardening-seeding-trays"
+    },
+    {
+      "asset": "watering_can_metal_01",
+      "title": "Regadera metálica",
+      "areas": [
+        "alimentos-agricultura",
+        "bosques-plantas"
+      ],
+      "family": "gardening-watering-cans"
+    },
+    {
+      "asset": "trowel_01",
+      "title": "Palita de jardinería",
+      "areas": [
+        "alimentos-agricultura",
+        "oficios-productividad"
+      ],
+      "family": "gardening-shovels"
+    },
+    {
+      "asset": "rusted_spade_01",
+      "title": "Pala de jardinería",
+      "areas": [
+        "alimentos-agricultura",
+        "oficios-productividad"
+      ],
+      "family": "gardening-shovels"
+    },
+    {
+      "asset": "bench_vice_01",
+      "title": "Tornillo de banco",
+      "areas": [
+        "oficios-productividad",
+        "fisica-energia"
+      ],
+      "family": "workshop-bench-vices"
+    },
+    {
+      "asset": "hand_plane_no4",
+      "title": "Cepillo de carpintería",
+      "areas": [
+        "oficios-productividad"
+      ],
+      "family": "workshop-hand-planes"
+    },
+    {
+      "asset": "ratchet_wrench",
+      "title": "Llave de carraca",
+      "areas": [
+        "oficios-productividad",
+        "fisica-energia"
+      ],
+      "family": "workshop-wrenches"
+    },
+    {
+      "asset": "adjustable_wrench",
+      "title": "Llave ajustable",
+      "areas": [
+        "oficios-productividad",
+        "fisica-energia"
+      ],
+      "family": "workshop-wrenches"
+    },
+    {
+      "asset": "Ukulele_01",
+      "title": "Ukelele",
+      "areas": [
+        "arte-musica"
+      ],
+      "family": "music-ukuleles"
+    }
+  ],
+  "familyTitles": {
+    "science-microscopes": "Microscopios",
+    "optics-binoculars": "Binoculares",
+    "lighting-lightbulbs": "Bombillas",
+    "computing-laptops": "Computadoras portátiles",
+    "workshop-wrenches": "Llaves de taller",
+    "gardening-shovels": "Palas y palitas de jardinería",
+    "optics-magnifying-glasses": "Lupas",
+    "health-medical-boxes": "Botiquines de primeros auxilios",
+    "gardening-watering-cans": "Regaderas",
+    "electronics-circuit-boards": "Placas de circuito"
+  },
+  "existingFamilyMembers": {
+    "science-microscopes": [
+      "05VXLT8kN4k",
+      "dcuaH6bEkwn",
+      "q9zNs4U5NG"
+    ],
+    "computing-laptops": [
+      "27hcX_w47Jb",
+      "UGOWjMUC5U",
+      "fEYeMIiRNHM"
+    ],
+    "workshop-wrenches": [
+      "POJHQLnLvB",
+      "TvT0yqLRln",
+      "enyBvm6bJQL"
+    ],
+    "optics-magnifying-glasses": [
+      "bcdkW7a4AG5",
+      "c8HQVCBMIMR",
+      "fvtGqQ6olh-"
+    ],
+    "health-medical-boxes": [
+      "Hp80p6148W",
+      "wP00rePSRD"
+    ],
+    "gardening-watering-cans": [
+      "7EfDXOcziyF"
+    ],
+    "electronics-circuit-boards": [
+      "fL02Z7OItO9",
+      "fxKdRjNq20j"
+    ]
+  },
+  "groupingNote": "Familias funcionales para comparar estilos y variantes. Solo la igualdad de SHA-256 permite compartir ficha automáticamente; las coincidencias geométricas requieren revisión."
+}

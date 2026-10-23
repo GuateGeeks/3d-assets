@@ -1,0 +1,372 @@
+{
+  "baselineModels": 993,
+  "baselineFingerprintCount": 993,
+  "unsupported": [],
+  "comparisons": [
+    {
+      "id": "polyhaven-bunsen-burner",
+      "sha256": "ec35329b186b871fba8a9cfddb92f98bf4a34bc00668337ac56da7927175b89d",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "bd621e9a0755bda84960d2af39d5d712f0feeca347be788c88900fb812d6feed",
+        "triangles": 8434
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-chemistry-set",
+      "sha256": "098acf512b2fdcf88a68f0c3982f1fb481dcec507e539860fbae4426b5d90410",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "b59c7d4f65dfb1085c0aaef1cb115d87dbb4a75a0d0c3e32958eee8286b52aa4",
+        "triangles": 41958
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-magnifying-glass-01",
+      "sha256": "79c25cf3a4615ff4e98ff55e7406fe10acb52933f209653d616448b38f2e04b7",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "729d7cb31b4ff31519d3096e15c58c110742785f6e0adec7ae985bfea75c75df",
+        "triangles": 7240
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-binoculars",
+      "sha256": "53ce3aad8f06b91ab422cda56c2f7b36807e4ae2d542de7c114182d7c7973a56",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "ca1edcfc432325a1a1d98d8aff6804aa02e0ecb4d4eeee07e0485a1bdcbba2a9",
+        "triangles": 19248
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-vintage-binocular",
+      "sha256": "4b610c644f68f6f501455496d26bf8c727d84bb31cf69463663c1552f6d2324a",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "fc496a62355dea7e339e086d5acd4e7ac2d1a76aa346d2d38842f7ee2b83a36a",
+        "triangles": 19362
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-industrial-microscope",
+      "sha256": "43c37280161bdecbc44b68c272ed30f7bdcc3e70829d0abf1b21d53de06bf867",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "30fea2063dbe80692604f2e8ef6c86dc3dc6653b421c75ee1d0bfbef68d54c0f",
+        "triangles": 16598
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-vintage-microscope",
+      "sha256": "a64190a8097761ee07672280ede01f81d0c37795196e11053740e733c864b3ed",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "61404a1dea16ab7785168559cca2533e8f87da7ff648c30e4c031ae5e09be144",
+        "triangles": 20631
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-circuit-board",
+      "sha256": "012f9fa7d520661d7c12f5e337eee1fa9ed4f110a737a9c8297075816c711ca0",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "fdeca47bf9ec55ce55206d96839cf6849e2ddc62e55dfe02230c112e7957e276",
+        "triangles": 14430
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-retro-multimeter",
+      "sha256": "b7123edb59d0dc54feaf557481c017a542deb22c3528333b66565035e8f06a63",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "f3a120d7fe1541e16a3c528901e13a2ca56684391d738e87582698cae613925d",
+        "triangles": 8948
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-classic-laptop",
+      "sha256": "40cf012604e388ae6512d1d97673ae9868e94343a05a46d2457dd66bea51d030",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "4fe6f25eda3cc1e964e3b9732c4acbd7dfe115025d9080b42275efb73a6893bb",
+        "triangles": 14450
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-lightbulb-led",
+      "sha256": "3f5ad5c7c20ffe214e90b4132375fc5cb935a6884b12ae058b915366c49488e3",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "524e532bf62f4c00d2d2beffd02231f2a22d252e5000d87f0bc5aac2d6d2a8a8",
+        "triangles": 6420
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-lightbulb-01",
+      "sha256": "84124703f3624d61b3530960e0b361d430defc3038ceec3222926419798f825a",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "0938d398222238a54f6ce7924934966652c33fd1b035e3f1d8c6e93103d17325",
+        "triangles": 4372
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-measuring-tape-01",
+      "sha256": "5f749bc436aaa8f81649bf62d941036dbe45bee98988be159aa64408b30cad49",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "7e0f581b4ab7e6cf213144a80b95ee7a5d77cca189359097d5050087e140ddeb",
+        "triangles": 2868
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-seadogs-compass",
+      "sha256": "fa95a72ded774fb03bb52ddd7562c537b20c4d7b68620e86fadbb1df9d401574",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "477dce9b4ac88177d46925052acb432d0e08a820dd6ec59b43ad02497d1f450b",
+        "triangles": 11645
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-wheelchair-01",
+      "sha256": "038b27ebfdf78170b71e90f5250f093f10288ee39810e025a2b94ecd08a71229",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "09b4c27a9c5dc3a0e2673242ee581de6c2b3507fe179c7bdbdfb47251999963b",
+        "triangles": 40252
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-medical-box",
+      "sha256": "0c6de678bd663de3e377cdea8093bc05886b777764ce9ce5c63d1254c57bf089",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "79c8ce5f9e5dd37b451582cb3d898fada027fbb06a6a5f0e6666be26ba9a88d1",
+        "triangles": 3718
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-life-jacket",
+      "sha256": "9ad2e266232f41a099ee53921c967756c918577ac96432574b765ab732652d4c",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "f755c3fae37f17b73b58fca3b10c3a30e7f699970cf13ecc09c1bc720605e2b1",
+        "triangles": 8968
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-lifebuoy",
+      "sha256": "f5ad7afd6984e322041a61d8734decd932b8405b4b27150f7edd67d43e0f475d",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "1ce83204c3292ee6a091d9965a443c6257be8c529b096e772ea58ce3fb3df394",
+        "triangles": 10728
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-korean-fire-extinguisher-01",
+      "sha256": "b164b08d8d7f537b8de2d432ae6820cef3a139f3bf90c223b27fa32daeb4e321",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "1320cfa29423506a1ea3d4f423f79760443066618da88dfde74f529ed6151216",
+        "triangles": 9913
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-seeding-tray-01",
+      "sha256": "35995b467836f578699f4eb1f89ea1a39ba576042153ef6acef254e1068ae707",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "2bdceb23abe4e9e8e6bd97d1f2c561f9798e5429e4ab8abff2d267749a755f8c",
+        "triangles": 8334
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-watering-can-metal-01",
+      "sha256": "52e71baf2a8c035778841f941cbac1ed3db92d534c12b76fea7330b0c7c2a670",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "262faa8f41c2f5883a0ae7121d68ea05e2ebf6b5660d1ca5db3c181073adc3f9",
+        "triangles": 11837
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-trowel-01",
+      "sha256": "a143e191e03e20dde0aa3f8a22579641250466cd51a0865bc2f9c8c097e707a8",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "e74abe8a80f81b0e0d52341681d8dade06938259bf6acbe25e48c7e1616d6bd5",
+        "triangles": 5242
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-rusted-spade-01",
+      "sha256": "e71edb3be2e51981b17cea042856279718a964c0940c7263a0e205f8a7571415",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "4a39c8376efecb81635cadcfe8d3cd1d83066545de3328f8441f33be8dd5405f",
+        "triangles": 11436
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-bench-vice-01",
+      "sha256": "4dc3378d2d63e16e18dafaa82bb16eb59d4bcd7b57c1543f450da22c18141c1e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "d5b7a171700e12b797f72e8fc385eba324a3b3baa80b703c295551e43ff1897d",
+        "triangles": 2864
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-hand-plane-no4",
+      "sha256": "2557b1c565f347266fcf745b316b7063b6924c3859fbd91f98d8eb1526d0e0d9",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "2bb1ea3ff6d56ac22b7e828e40a46b8040903003e6239109ac08626d43c94434",
+        "triangles": 8220
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-ratchet-wrench",
+      "sha256": "b5a50aebba112d297274c1309908b9ce5b92d6b43999ce73e26b3dceeeb4dfed",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "f3b6f25c8219b6dc67136d093fd6c566b11cea0efc260ee092f4cd45a3f751a0",
+        "triangles": 8796
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-adjustable-wrench",
+      "sha256": "913385483b88c58c292ee13b146f470967c73fef08a139932372c7c1e3a904fc",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "dfec94958c5ac3dd445cad6c9338b1eed3b0585ae0fef4d8085d68bf274149fc",
+        "triangles": 5390
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-ukulele-01",
+      "sha256": "c1167b17f7eaaf127e74c5bf11606574492104623f15a657d4bca383d12c5015",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "4e09111662c2548cf1cadda700ac6f2062adead357a6b3a932d7f521cfebc214",
+        "triangles": 8912
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    }
+  ],
+  "methodNote": "An invariant geometry match is a candidate; different fingerprints do not rule out semantic variants."
+}

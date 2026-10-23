@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Industrial Microscope\", por Lukas Walzer / Poly Haven. https://polyhaven.com/a/industrial_microscope. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Lukas Walzer"
+  },
+  "Title": "Industrial Microscope",
+  "sourceUrl": "https://polyhaven.com/a/industrial_microscope",
+  "assetId": "industrial_microscope",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-industrial-microscope/original/industrial_microscope_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/industrial_microscope/industrial_microscope_1k.gltf",
+      "bytes": 4270,
+      "md5": "472c893cc84e3f7e9f76454aba612e42",
+      "sha256": "91151cd484cf8f991c822f53a48487b8fa0a228cd7ccf63fbba625e1d70abb2a"
+    },
+    {
+      "file": "models/polyhaven-industrial-microscope/original/textures/industrial_microscope_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_microscope/industrial_microscope_nor_gl_1k.jpg",
+      "bytes": 566472,
+      "md5": "2e3d69f1bf720fa98bd3c76708a0b471",
+      "sha256": "ae31cce984a953bef60919c56bbc0b159cafeab96145f264937b6188e5b987ec"
+    },
+    {
+      "file": "models/polyhaven-industrial-microscope/original/textures/industrial_microscope_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_microscope/industrial_microscope_diff_1k.jpg",
+      "bytes": 508322,
+      "md5": "d98e729ea074d94a3a3e34050bc68a94",
+      "sha256": "a870e4533ae2f24c217c0744097436e7914946ffbda88ee054d0ee5c03054973"
+    },
+    {
+      "file": "models/polyhaven-industrial-microscope/original/textures/industrial_microscope_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_microscope/industrial_microscope_arm_1k.jpg",
+      "bytes": 775071,
+      "md5": "16d17224f4750da5f0c99c6ac8e1771b",
+      "sha256": "01f0df732a82c90f552be5ba08ab7a58fdb62d63b2989fa7333f23e75322949e"
+    },
+    {
+      "file": "models/polyhaven-industrial-microscope/original/industrial_microscope.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/industrial_microscope/industrial_microscope.bin",
+      "bytes": 602404,
+      "md5": "be2a9782f02eabcc9a02f67dd7c6fd33",
+      "sha256": "a99e95a04673b96f7d6eb8cd68e204a76abde77c7dad3bcaea79e55219aeea40"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

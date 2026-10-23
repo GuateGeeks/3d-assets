@@ -1,0 +1,155 @@
+{
+  "id": "polyhaven-vintage-microscope",
+  "assetId": "polyhaven:vintage_microscope",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Microscopio antiguo",
+  "titleOriginal": "Vintage Microscope",
+  "author": "Luis José Fernández Rodríguez",
+  "authorUrl": "https://polyhaven.com/a/vintage_microscope",
+  "sourceUrl": "https://polyhaven.com/a/vintage_microscope",
+  "metadataUrl": "https://api.polyhaven.com/info/vintage_microscope",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/vintage_microscope/vintage_microscope_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Electronics & Appliances/Devices & Instruments/Lab Equipment",
+  "tags": [
+    "antique",
+    "brass",
+    "scientific",
+    "optical",
+    "lab equipment",
+    "gold",
+    "Vintage Microscope",
+    "science-microscopes"
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Vintage Microscope\", por Luis José Fernández Rodríguez / Poly Haven. https://polyhaven.com/a/vintage_microscope. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-vintage-microscope/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/vintage_microscope/metadata.json",
+  "originalDownload": "models/polyhaven-vintage-microscope/originals.zip",
+  "bytes": 2867924,
+  "sha256": "a64190a8097761ee07672280ede01f81d0c37795196e11053740e733c864b3ed",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 8,
+    "nodes": 8,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:40:53.527842+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "vintage_microscope_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-vintage-microscope/original/vintage_microscope_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/vintage_microscope/vintage_microscope_1k.gltf",
+        "bytes": 15000,
+        "md5": "8caf57500671c4d5fb1df878df5c3498",
+        "sha256": "f7b748cb95f0b1c8eaf88b827a568347cfbd25f750e27efd52c59029d92e3345"
+      },
+      {
+        "file": "models/polyhaven-vintage-microscope/original/textures/vintage_microscope_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_microscope/vintage_microscope_nor_gl_1k.jpg",
+        "bytes": 320605,
+        "md5": "d584938da3350e1c46a11efe1fb4c844",
+        "sha256": "8b383c862185a45031d4b68bf3ba62ee2658063cf8495c7b6421afadea1f57d4"
+      },
+      {
+        "file": "models/polyhaven-vintage-microscope/original/textures/vintage_microscope_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_microscope/vintage_microscope_diff_1k.jpg",
+        "bytes": 561049,
+        "md5": "a3a431383641b3e3b295f4cfc521f9a6",
+        "sha256": "54b6f1b0b5e9df4656d7963a8c764552ae02d697c4b36de4000e5d849b1eb167"
+      },
+      {
+        "file": "models/polyhaven-vintage-microscope/original/textures/vintage_microscope_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_microscope/vintage_microscope_arm_1k.jpg",
+        "bytes": 714056,
+        "md5": "cf75e4595fcdac9a263777956afd57fd",
+        "sha256": "dd636dbb76345d2c44ed699c997859ed1ca908c2b3fe3516449566710ec86068"
+      },
+      {
+        "file": "models/polyhaven-vintage-microscope/original/vintage_microscope.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/vintage_microscope/vintage_microscope.bin",
+        "bytes": 702092,
+        "md5": "f391522a073472a4ff4f3ba5f8d9b8dc",
+        "sha256": "b4f906ab5fe5ba71f12dc174064ab54a7417ea89740a1c1d2247d220e7c265db"
+      }
+    ],
+    "originalDownloadSha256": "5bfc2a8f3302b92dbbfe4f93cdfc8319889c69467eff52e2521e6b16501cb3cb",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/vintage_microscope/metadata.json",
+    "metadataEvidenceSha256": "549bb7058bc634f4a1ef8ddc60ddfb78a299cb76b59f1fbb7319d35fe3828216",
+    "fileManifestEvidence": "sources/external/polyhaven/vintage_microscope/files.json",
+    "fileManifestEvidenceSha256": "a8819e803fce1cd477b42e1c04f7f0c721431af4a3b156d6aa184db8088d4287",
+    "technicalReviewEvidence": "sources/external/polyhaven/vintage_microscope/technical-review.json",
+    "technicalReviewEvidenceSha256": "07d65759ccdc9c420da923dd0d99a97da8c4cb73e938dd2b9dad72eee969aaae",
+    "providerReportedPolycount": 20631,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.10679882764816284,
+      0.1818750947713852,
+      0.3995528221130371
+    ],
+    "reimportDimensionsBlender": [
+      0.10679882764816284,
+      0.1818750947713852,
+      0.3995528221130371
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "61404a1dea16ab7785168559cca2533e8f87da7ff648c30e4c031ae5e09be144",
+      "triangles": 20631
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

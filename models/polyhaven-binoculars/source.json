@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Binoculars\", por Derek Wight / Poly Haven. https://polyhaven.com/a/binoculars. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Derek Wight"
+  },
+  "Title": "Binoculars",
+  "sourceUrl": "https://polyhaven.com/a/binoculars",
+  "assetId": "binoculars",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-binoculars/original/binoculars_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/binoculars/binoculars_1k.gltf",
+      "bytes": 11141,
+      "md5": "40ff2a9e0e1c46939427ccb128837de2",
+      "sha256": "57ef2cf82052bd919f932cfa36fc51b10e81ae0f02b3f65ee5bc9706ef2fb3bd"
+    },
+    {
+      "file": "models/polyhaven-binoculars/original/textures/binoculars_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/binoculars/binoculars_nor_gl_1k.jpg",
+      "bytes": 237437,
+      "md5": "f626f88764f0afe0bd38a60f4d8d9d63",
+      "sha256": "285e7e4e424a0ace4e394687044b1a7fa7cfe53ae9cab4cf7a0ef276c66dfbc5"
+    },
+    {
+      "file": "models/polyhaven-binoculars/original/textures/binoculars_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/binoculars/binoculars_diff_1k.jpg",
+      "bytes": 313026,
+      "md5": "4d61b8ef8ab8fe2af6dfe2bb9caa5a30",
+      "sha256": "a17d09d2a70d05efb9a7b5367e8d6e0672bf35fe0698617a59dfbf54f782da92"
+    },
+    {
+      "file": "models/polyhaven-binoculars/original/textures/binoculars_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/binoculars/binoculars_arm_1k.jpg",
+      "bytes": 753663,
+      "md5": "a6ef1a09591bed07b04289f1fca8cb05",
+      "sha256": "ec3c49b2ed8dbdf5a37f8a887100a6cd4ea7230042c4dc68535e3678215b572c"
+    },
+    {
+      "file": "models/polyhaven-binoculars/original/binoculars.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/binoculars/binoculars.bin",
+      "bytes": 635656,
+      "md5": "d8da6dfea42fe137622f8b8b03e05058",
+      "sha256": "79e17906e47ef698c39448769113ecce3a6fc825c44364e0e5eb9f3a6dd0c19c"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Life Jacket\", por PierreB3D / Poly Haven. https://polyhaven.com/a/life_jacket. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "PierreB3D"
+  },
+  "Title": "Life Jacket",
+  "sourceUrl": "https://polyhaven.com/a/life_jacket",
+  "assetId": "life_jacket",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-life-jacket/original/life_jacket_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/life_jacket/life_jacket_1k.gltf",
+      "bytes": 2754,
+      "md5": "4ba5140257f72fed2a4acc1a8dd4f059",
+      "sha256": "675e35acc1cc5de1800a232c11e43692503e3a9e11c4b54435743e74d3f40d6c"
+    },
+    {
+      "file": "models/polyhaven-life-jacket/original/textures/life_jacket_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/life_jacket/life_jacket_nor_gl_1k.jpg",
+      "bytes": 770170,
+      "md5": "4615baf1dd3b7856500dd53a6fc7e3a1",
+      "sha256": "66bd07867087a9e8be2af72faa75c5398a4d99c69aef1361fa80429be5dd0ddf"
+    },
+    {
+      "file": "models/polyhaven-life-jacket/original/textures/life_jacket_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/life_jacket/life_jacket_diff_1k.jpg",
+      "bytes": 602199,
+      "md5": "d400d0e11b8bd1e7b361517dbe7231b8",
+      "sha256": "79d3c06a0eeda11f7efecacd4181dfe2bcad51fb55e7d19d608c8c384d406289"
+    },
+    {
+      "file": "models/polyhaven-life-jacket/original/textures/life_jacket_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/life_jacket/life_jacket_arm_1k.jpg",
+      "bytes": 695651,
+      "md5": "599f23c71c77496d5daabe4629e56866",
+      "sha256": "318b7769c9a3580ad6477959a505e1e1514bd4b17387e465140683da546d94ad"
+    },
+    {
+      "file": "models/polyhaven-life-jacket/original/life_jacket.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/life_jacket/life_jacket.bin",
+      "bytes": 254896,
+      "md5": "f66dcdea0b005218d1b7e9595a95ff26",
+      "sha256": "9783682ac219fb4af29e70a1c67d00e80173e9064aee46a97f73e26b7426f94f"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

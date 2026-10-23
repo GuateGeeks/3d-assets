@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Seedling Tray 01\", por Satyaki Mandal / Poly Haven. https://polyhaven.com/a/seeding_tray_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Satyaki Mandal"
+  },
+  "Title": "Seedling Tray 01",
+  "sourceUrl": "https://polyhaven.com/a/seeding_tray_01",
+  "assetId": "seeding_tray_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-seeding-tray-01/original/seeding_tray_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/seeding_tray_01/seeding_tray_01_1k.gltf",
+      "bytes": 2796,
+      "md5": "a0cd6c55bd0f3bb07a7cbffc5402ab82",
+      "sha256": "fee95dd272e869ef7f005f296124f42413682307683e16087b2ddd4162fce52d"
+    },
+    {
+      "file": "models/polyhaven-seeding-tray-01/original/textures/seeding_tray_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seeding_tray_01/seeding_tray_01_nor_gl_1k.jpg",
+      "bytes": 529459,
+      "md5": "914e3e884d23448fe960322eb371a15e",
+      "sha256": "e5f4e74a2ee0f2a8f16f66121777f2e4d52229503d8bf44dc3b457d295c73401"
+    },
+    {
+      "file": "models/polyhaven-seeding-tray-01/original/textures/seeding_tray_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seeding_tray_01/seeding_tray_01_diff_1k.jpg",
+      "bytes": 461454,
+      "md5": "e680fda46bd29f12922ce75834533afc",
+      "sha256": "2241196859ec2c70efbf993fd2d5a6456b5df1635d7479288abd80c96a82ce3b"
+    },
+    {
+      "file": "models/polyhaven-seeding-tray-01/original/seeding_tray_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/seeding_tray_01/seeding_tray_01.bin",
+      "bytes": 236180,
+      "md5": "178027e1360ddc7f186c615a7a65ac55",
+      "sha256": "7de298c9c9f2e0c4f59088223a98a4f370b2e1ea3ffd62ab4e09769eba3dc644"
+    },
+    {
+      "file": "models/polyhaven-seeding-tray-01/original/textures/seeding_tray_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seeding_tray_01/seeding_tray_01_arm_1k.jpg",
+      "bytes": 801168,
+      "md5": "b6d996f3efb5f497dc623b5cead63c14",
+      "sha256": "fdd026768fa96151f0fd38e689d1ac73785a96170fa073b0941e4273d28ffcf6"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

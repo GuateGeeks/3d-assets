@@ -1,0 +1,160 @@
+{
+  "id": "polyhaven-seeding-tray-01",
+  "assetId": "polyhaven:seeding_tray_01",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Bandeja de semillero",
+  "titleOriginal": "Seedling Tray 01",
+  "author": "Satyaki Mandal",
+  "authorUrl": "https://polyhaven.com/a/seeding_tray_01",
+  "sourceUrl": "https://polyhaven.com/a/seeding_tray_01",
+  "metadataUrl": "https://api.polyhaven.com/info/seeding_tray_01",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/seeding_tray_01/seeding_tray_01_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Garden Tools/Planters & Pots",
+  "tags": [
+    "outdoor",
+    "nature",
+    "plant",
+    "shed",
+    "greenhouse",
+    "gardening",
+    "landscaping",
+    "garden",
+    "farm",
+    "Seedling Tray 01",
+    "gardening-seeding-trays"
+  ],
+  "areas": [
+    "alimentos-agricultura",
+    "bosques-plantas"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Seedling Tray 01\", por Satyaki Mandal / Poly Haven. https://polyhaven.com/a/seeding_tray_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-seeding-tray-01/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/seeding_tray_01/metadata.json",
+  "originalDownload": "models/polyhaven-seeding-tray-01/originals.zip",
+  "bytes": 2030048,
+  "sha256": "35995b467836f578699f4eb1f89ea1a39ba576042153ef6acef254e1068ae707",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:30.363415+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "seeding_tray_01_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-seeding-tray-01/original/seeding_tray_01_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/seeding_tray_01/seeding_tray_01_1k.gltf",
+        "bytes": 2796,
+        "md5": "a0cd6c55bd0f3bb07a7cbffc5402ab82",
+        "sha256": "fee95dd272e869ef7f005f296124f42413682307683e16087b2ddd4162fce52d"
+      },
+      {
+        "file": "models/polyhaven-seeding-tray-01/original/textures/seeding_tray_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seeding_tray_01/seeding_tray_01_nor_gl_1k.jpg",
+        "bytes": 529459,
+        "md5": "914e3e884d23448fe960322eb371a15e",
+        "sha256": "e5f4e74a2ee0f2a8f16f66121777f2e4d52229503d8bf44dc3b457d295c73401"
+      },
+      {
+        "file": "models/polyhaven-seeding-tray-01/original/textures/seeding_tray_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seeding_tray_01/seeding_tray_01_diff_1k.jpg",
+        "bytes": 461454,
+        "md5": "e680fda46bd29f12922ce75834533afc",
+        "sha256": "2241196859ec2c70efbf993fd2d5a6456b5df1635d7479288abd80c96a82ce3b"
+      },
+      {
+        "file": "models/polyhaven-seeding-tray-01/original/seeding_tray_01.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/seeding_tray_01/seeding_tray_01.bin",
+        "bytes": 236180,
+        "md5": "178027e1360ddc7f186c615a7a65ac55",
+        "sha256": "7de298c9c9f2e0c4f59088223a98a4f370b2e1ea3ffd62ab4e09769eba3dc644"
+      },
+      {
+        "file": "models/polyhaven-seeding-tray-01/original/textures/seeding_tray_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seeding_tray_01/seeding_tray_01_arm_1k.jpg",
+        "bytes": 801168,
+        "md5": "b6d996f3efb5f497dc623b5cead63c14",
+        "sha256": "fdd026768fa96151f0fd38e689d1ac73785a96170fa073b0941e4273d28ffcf6"
+      }
+    ],
+    "originalDownloadSha256": "776440d67778acf5eb685ec1773a83788e5519ba8e542e007ac33a14555eb964",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/seeding_tray_01/metadata.json",
+    "metadataEvidenceSha256": "acaf3ed43f90fa3f989d3f0c9920e1b690fa6c639a58f8bdc9e92f01e8f248c1",
+    "fileManifestEvidence": "sources/external/polyhaven/seeding_tray_01/files.json",
+    "fileManifestEvidenceSha256": "d237b6d021a5da44ca5135048818259827624cb64b4ea51b29729e542931d6a6",
+    "technicalReviewEvidence": "sources/external/polyhaven/seeding_tray_01/technical-review.json",
+    "technicalReviewEvidenceSha256": "197ef328b809f2de917d9029af9054b73d511228230a39a1e1681354f6040b36",
+    "providerReportedPolycount": 8334,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.22020763158798218,
+      0.22020763158798218,
+      0.06076497957110405
+    ],
+    "reimportDimensionsBlender": [
+      0.22020763158798218,
+      0.22020763158798218,
+      0.06076497957110405
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "2bdceb23abe4e9e8e6bd97d1f2c561f9798e5429e4ab8abff2d267749a755f8c",
+      "triangles": 8334
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

@@ -1,6 +1,6 @@
 # Alimentos, agricultura y nutrición
 
-239 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+243 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -243,3 +243,7 @@
 | [Trigo · etapa B](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-crops-wheatstageb/model.glb) | 0 / 0 |
 | [Avocado](https://poly.pizza/m/mjjd3bgEhT) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/mjjd3bgEhT/model.glb) | 0 / 0 |
 | [Honey](https://poly.pizza/m/p92t5dG8Zd) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/p92t5dG8Zd/model.glb) | 0 / 0 |
+| [Pala de jardinería](https://polyhaven.com/a/rusted_spade_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Blemonade | [GLB](../../models/polyhaven-rusted-spade-01/model.glb) | 0 / 0 |
+| [Bandeja de semillero](https://polyhaven.com/a/seeding_tray_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-seeding-tray-01/model.glb) | 0 / 0 |
+| [Palita de jardinería](https://polyhaven.com/a/trowel_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-trowel-01/model.glb) | 0 / 0 |
+| [Regadera metálica](https://polyhaven.com/a/watering_can_metal_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Charles Nderitu | [GLB](../../models/polyhaven-watering-can-metal-01/model.glb) | 0 / 0 |

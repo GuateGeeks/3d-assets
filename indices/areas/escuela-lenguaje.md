@@ -1,6 +1,6 @@
 # Escuela, lectura y vocabulario
 
-15 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+16 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -16,6 +16,7 @@
 | [Books](https://poly.pizza/m/dxt7dETAy9) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | CreativeTrio | [GLB](../../models/dxt7dETAy9/model.glb) | 0 / 0 |
 | [school desk](https://poly.pizza/m/eP6XIy9ox83) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Jonathan Granskog | [GLB](../../models/eP6XIy9ox83/model.glb) | 0 / 0 |
 | [Schoolhouse](https://poly.pizza/m/ftnL_OvlkCx) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/ftnL_OvlkCx/model.glb) | 0 / 0 |
+| [Lupa](https://polyhaven.com/a/magnifying_glass_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Nazar Borodavka | [GLB](../../models/polyhaven-magnifying-glass-01/model.glb) | 0 / 0 |
 | [Backpack](https://poly.pizza/m/uRRsiIZKHG) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | J-Toastie | [GLB](../../models/uRRsiIZKHG/model.glb) | 0 / 0 |
 | [Standing Desk](https://poly.pizza/m/uxIo5ge0pw) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | dook | [GLB](../../models/uxIo5ge0pw/model.glb) | 0 / 0 |
 | [Backpack](https://poly.pizza/m/vF7TuXCPDH) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/vF7TuXCPDH/model.glb) | 0 / 0 |

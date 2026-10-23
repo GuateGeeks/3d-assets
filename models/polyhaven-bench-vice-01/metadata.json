@@ -1,0 +1,159 @@
+{
+  "id": "polyhaven-bench-vice-01",
+  "assetId": "polyhaven:bench_vice_01",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Tornillo de banco",
+  "titleOriginal": "Bench Vice 01",
+  "author": "Yann Kervran, Antanas Kep",
+  "authorUrl": "https://polyhaven.com/a/bench_vice_01",
+  "sourceUrl": "https://polyhaven.com/a/bench_vice_01",
+  "metadataUrl": "https://api.polyhaven.com/info/bench_vice_01",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bench_vice_01/bench_vice_01_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Workshop Equipment/Vices & Clamps",
+  "tags": [
+    "workshop",
+    "garage",
+    "used",
+    "metal",
+    "old",
+    "shed",
+    "woodwork",
+    "Bench Vice 01",
+    "workshop-bench-vices"
+  ],
+  "areas": [
+    "oficios-productividad",
+    "fisica-energia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Bench Vice 01\", por Yann Kervran, Antanas Kep / Poly Haven. https://polyhaven.com/a/bench_vice_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-bench-vice-01/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/bench_vice_01/metadata.json",
+  "originalDownload": "models/polyhaven-bench-vice-01/originals.zip",
+  "bytes": 2434304,
+  "sha256": "4dc3378d2d63e16e18dafaa82bb16eb59d4bcd7b57c1543f450da22c18141c1e",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 4,
+    "nodes": 16,
+    "materials": 1,
+    "skins": 1,
+    "joints": 11,
+    "rigged": true,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:41.101162+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "bench_vice_01_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-bench-vice-01/original/bench_vice_01_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bench_vice_01/bench_vice_01_1k.gltf",
+        "bytes": 13222,
+        "md5": "732cc8a08f98136922ddc5ef0fad7bba",
+        "sha256": "52e61b473f1a7840ddbdabf024cca8dd32e07f694bd247e3a74e8ef5d9a101e2"
+      },
+      {
+        "file": "models/polyhaven-bench-vice-01/original/textures/bench_vice_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bench_vice_01/bench_vice_01_diff_1k.jpg",
+        "bytes": 724482,
+        "md5": "3165de5dc903b01d870f0ab0a9933d0a",
+        "sha256": "e453c1bc7c283fb6a9c8da0638173809dfafb8310f5e81112705f5ecf88b5ab7"
+      },
+      {
+        "file": "models/polyhaven-bench-vice-01/original/bench_vice_01.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/bench_vice_01/bench_vice_01.bin",
+        "bytes": 131404,
+        "md5": "0f8ba7b2c41f23b4e7461c68c5aca898",
+        "sha256": "47b80c649a7791a7f3ea95d3dca929506a8c2e89506d3982a1a3380dcd3333ee"
+      },
+      {
+        "file": "models/polyhaven-bench-vice-01/original/textures/bench_vice_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bench_vice_01/bench_vice_01_arm_1k.jpg",
+        "bytes": 704241,
+        "md5": "3609f55fe2315d08136b3610ba319cc9",
+        "sha256": "49d396c052622c12864e3cbfa7dc982e0bb4117bc37fccc15703a97af1b9f24c"
+      },
+      {
+        "file": "models/polyhaven-bench-vice-01/original/textures/bench_vice_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bench_vice_01/bench_vice_01_nor_gl_1k.jpg",
+        "bytes": 866287,
+        "md5": "45262442f2b1e26559407ff89212b625",
+        "sha256": "691b3a3888e689785bdd792522769839cd662d841071e2ea11184b70c012a65e"
+      }
+    ],
+    "originalDownloadSha256": "492f1a97d145d03e25b1e720c4ff64d8b909e78b5182070ca2ad3a03af1422f0",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/bench_vice_01/metadata.json",
+    "metadataEvidenceSha256": "447ab026e798068fac6705d8b7e331da7577c0d5661a09e98af2d7a681102045",
+    "fileManifestEvidence": "sources/external/polyhaven/bench_vice_01/files.json",
+    "fileManifestEvidenceSha256": "db934ee744217f3c3f4f2f2b6cbf04d9438e1f49470f591d45f553bf5665d0ad",
+    "technicalReviewEvidence": "sources/external/polyhaven/bench_vice_01/technical-review.json",
+    "technicalReviewEvidenceSha256": "d4777d49e9d38ea36ac52d9620980fce20e981c794211b537dd7d473efb99854",
+    "providerReportedPolycount": 2864,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.20048236846923828,
+      0.3957216739654541,
+      0.2851486802101135
+    ],
+    "reimportDimensionsBlender": [
+      0.20048236846923828,
+      0.3957216739654541,
+      0.2851486802101135
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "d5b7a171700e12b797f72e8fc385eba324a3b3baa80b703c295551e43ff1897d",
+      "triangles": 2864
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

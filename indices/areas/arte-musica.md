@@ -1,6 +1,6 @@
 # Arte y música
 
-19 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+20 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -21,5 +21,6 @@
 | [Trumpet](https://poly.pizza/m/dKjB2Gm4-rj) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/dKjB2Gm4-rj/model.glb) | 0 / 0 |
 | [Trumpet](https://poly.pizza/m/dXISS4OsDQv) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Anonymous | [GLB](../../models/dXISS4OsDQv/model.glb) | 0 / 0 |
 | [Electric guitar](https://poly.pizza/m/eoSib2-NN9Y) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/eoSib2-NN9Y/model.glb) | 0 / 0 |
+| [Ukelele](https://polyhaven.com/a/Ukulele_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Joseph Burgan | [GLB](../../models/polyhaven-ukulele-01/model.glb) | 0 / 0 |
 | [Drum Set](https://poly.pizza/m/qWU9Q4flfQ) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Zsky | [GLB](../../models/qWU9Q4flfQ/model.glb) | 0 / 0 |
 | [Paint Bucket](https://poly.pizza/m/wOomnJNisB) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Don Carson | [GLB](../../models/wOomnJNisB/model.glb) | 0 / 0 |

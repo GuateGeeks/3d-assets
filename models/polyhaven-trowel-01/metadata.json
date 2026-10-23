@@ -1,0 +1,163 @@
+{
+  "id": "polyhaven-trowel-01",
+  "assetId": "polyhaven:trowel_01",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Palita de jardinería",
+  "titleOriginal": "Trowel 01",
+  "author": "Satyaki Mandal",
+  "authorUrl": "https://polyhaven.com/a/trowel_01",
+  "sourceUrl": "https://polyhaven.com/a/trowel_01",
+  "metadataUrl": "https://api.polyhaven.com/info/trowel_01",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/trowel_01/trowel_01_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Garden Tools/Digging Tools",
+  "tags": [
+    "outdoor",
+    "plant",
+    "garden",
+    "gardening",
+    "landscaping",
+    "shed",
+    "digging",
+    "hand",
+    "spade",
+    "greenhouse",
+    "farm",
+    "Trowel 01",
+    "gardening-shovels"
+  ],
+  "areas": [
+    "alimentos-agricultura",
+    "oficios-productividad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Trowel 01\", por Satyaki Mandal / Poly Haven. https://polyhaven.com/a/trowel_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-trowel-01/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/trowel_01/metadata.json",
+  "originalDownload": "models/polyhaven-trowel-01/originals.zip",
+  "bytes": 1972404,
+  "sha256": "a143e191e03e20dde0aa3f8a22579641250466cd51a0865bc2f9c8c097e707a8",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:35.630284+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "trowel_01_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-trowel-01/original/trowel_01_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/trowel_01/trowel_01_1k.gltf",
+        "bytes": 2738,
+        "md5": "24fe517d40ff9769ca7623f121accbe9",
+        "sha256": "8d392c5572a388067be6d4f87c17be4385a9ee9a740aa26fce057ace66cfac94"
+      },
+      {
+        "file": "models/polyhaven-trowel-01/original/textures/trowel_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/trowel_01/trowel_01_nor_gl_1k.jpg",
+        "bytes": 712535,
+        "md5": "75fdf1f597e6ef08123dcf2a415d031a",
+        "sha256": "19350e51cc592519b89ee00321014d8aec8568c86579d5d6b2b9d1daa6bb18de"
+      },
+      {
+        "file": "models/polyhaven-trowel-01/original/textures/trowel_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/trowel_01/trowel_01_diff_1k.jpg",
+        "bytes": 495321,
+        "md5": "a4a53c47399f5e3496fe7731eb59de7c",
+        "sha256": "13c3a0a96a7949001d77043fe6b3e211307e0dc64fa4a54beced3e4475b4b9be"
+      },
+      {
+        "file": "models/polyhaven-trowel-01/original/trowel_01.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/trowel_01/trowel_01.bin",
+        "bytes": 127964,
+        "md5": "51a7d1d10f08d8b184b49069e3aac207",
+        "sha256": "458119c747365f7e06637810de0391949567055a2df0a07cea8161764b7e1f65"
+      },
+      {
+        "file": "models/polyhaven-trowel-01/original/textures/trowel_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/trowel_01/trowel_01_arm_1k.jpg",
+        "bytes": 634828,
+        "md5": "993042cb8333b3dde6e5ce5a3cbc9ca2",
+        "sha256": "3a772dd71306f633506a6aa3185c9c3be9575faa2f3f8642d8b80101f5e5b79c"
+      }
+    ],
+    "originalDownloadSha256": "19efa73bbecd468d90ee0b1bf234ae494856736eb915f3e050bd101d141ebb17",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/trowel_01/metadata.json",
+    "metadataEvidenceSha256": "d211d5d6b34967ff7132923b09a16f7f2331c911d297fa0b51281f35f87f0566",
+    "fileManifestEvidence": "sources/external/polyhaven/trowel_01/files.json",
+    "fileManifestEvidenceSha256": "4f9ebb5373079834b60a9393ed05a40db0b2a0bef2870221adf3cd24aa384b8f",
+    "technicalReviewEvidence": "sources/external/polyhaven/trowel_01/technical-review.json",
+    "technicalReviewEvidenceSha256": "cbe22154b469874adab75fd34a1b63a2468a479316dc40606adedf4119e31e65",
+    "providerReportedPolycount": 5242,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.09912503510713577,
+      0.3468870520591736,
+      0.10262799263000488
+    ],
+    "reimportDimensionsBlender": [
+      0.09912503510713577,
+      0.3468870520591736,
+      0.10262799263000488
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "e74abe8a80f81b0e0d52341681d8dade06938259bf6acbe25e48c7e1616d6bd5",
+      "triangles": 5242
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

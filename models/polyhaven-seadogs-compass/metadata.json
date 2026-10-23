@@ -1,0 +1,163 @@
+{
+  "id": "polyhaven-seadogs-compass",
+  "assetId": "polyhaven:seadogs_compass",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Brújula de navegación",
+  "titleOriginal": "Seadogs Compass",
+  "author": "Benny Weimer",
+  "authorUrl": "https://polyhaven.com/a/seadogs_compass",
+  "sourceUrl": "https://polyhaven.com/a/seadogs_compass",
+  "metadataUrl": "https://api.polyhaven.com/info/seadogs_compass",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/seadogs_compass/seadogs_compass_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Apparel & Personal Items/Accessories/Nautical Instruments",
+  "tags": [
+    "old",
+    "vintage",
+    "antique",
+    "brass",
+    "nautical",
+    "compass",
+    "maritime",
+    "ship",
+    "navigation",
+    "pirates",
+    "sail",
+    "Seadogs Compass",
+    "navigation-compasses"
+  ],
+  "areas": [
+    "tierra-geografia",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Matemáticas"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Seadogs Compass\", por Benny Weimer / Poly Haven. https://polyhaven.com/a/seadogs_compass. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-seadogs-compass/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/seadogs_compass/metadata.json",
+  "originalDownload": "models/polyhaven-seadogs-compass/originals.zip",
+  "bytes": 2693320,
+  "sha256": "fa95a72ded774fb03bb52ddd7562c537b20c4d7b68620e86fadbb1df9d401574",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 3,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:11.867799+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "seadogs_compass_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-seadogs-compass/original/seadogs_compass_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/seadogs_compass/seadogs_compass_1k.gltf",
+        "bytes": 6060,
+        "md5": "0318994a5051b7db8510ba096f9b5f89",
+        "sha256": "eb43affaa88dcf40d47318d096f14b709d8ddc34bad46b67ed038b807e56df07"
+      },
+      {
+        "file": "models/polyhaven-seadogs-compass/original/textures/seadogs_compass_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seadogs_compass/seadogs_compass_nor_gl_1k.jpg",
+        "bytes": 674750,
+        "md5": "2cd1f97104e1d1b0f31585d356ccf0b7",
+        "sha256": "f5bdeb37f58d2967b9b31e9665e234be1b9f9e694ca35a4ca3ced17187de0ed5"
+      },
+      {
+        "file": "models/polyhaven-seadogs-compass/original/textures/seadogs_compass_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seadogs_compass/seadogs_compass_diff_1k.jpg",
+        "bytes": 727504,
+        "md5": "187da0dfe1009489de22f0386296e617",
+        "sha256": "f5bd77e551b00fcc5886cc5d13978a79447ce0be770277a116943e2ed635db27"
+      },
+      {
+        "file": "models/polyhaven-seadogs-compass/original/textures/seadogs_compass_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/seadogs_compass/seadogs_compass_arm_1k.jpg",
+        "bytes": 901867,
+        "md5": "3a5bf5169a5360e13840818d5ae09f95",
+        "sha256": "3a4dd86ffb9e3d3d3423fc399011a91f69a2bfb1ab9d181672e735b8aa0a48bb"
+      },
+      {
+        "file": "models/polyhaven-seadogs-compass/original/seadogs_compass.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/seadogs_compass/seadogs_compass.bin",
+        "bytes": 385520,
+        "md5": "b982d0f8af97355aa77d920439b48823",
+        "sha256": "59089793269ffa10d7d180de5611b2bb276288f929fde93b2b705f7e83b246b5"
+      }
+    ],
+    "originalDownloadSha256": "de193ce540c24c01ef4ab092896d5aa20371860fe9134f96049f3196e8537c8b",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/seadogs_compass/metadata.json",
+    "metadataEvidenceSha256": "cbd3cbbd51acc978c87cec2116130c21bbd1d2a5173c0d4084d25cfbffd02498",
+    "fileManifestEvidence": "sources/external/polyhaven/seadogs_compass/files.json",
+    "fileManifestEvidenceSha256": "75b07f23a5b753301e0a33825ef47ab20531c62ccff3b52f813093966fa9daeb",
+    "technicalReviewEvidence": "sources/external/polyhaven/seadogs_compass/technical-review.json",
+    "technicalReviewEvidenceSha256": "5bf13989b4421550e0aa6edbdc9415315fe6b265b2fe5597c014f3a2247485c6",
+    "providerReportedPolycount": 11645,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.08129258453845978,
+      0.14413371682167053,
+      0.08662976324558258
+    ],
+    "reimportDimensionsBlender": [
+      0.08129258453845978,
+      0.14413371682167053,
+      0.08662976324558258
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "477dce9b4ac88177d46925052acb432d0e08a820dd6ec59b43ad02497d1f450b",
+      "triangles": 11645
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

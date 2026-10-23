@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Ukulele 01\", por Joseph Burgan / Poly Haven. https://polyhaven.com/a/Ukulele_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Joseph Burgan"
+  },
+  "Title": "Ukulele 01",
+  "sourceUrl": "https://polyhaven.com/a/Ukulele_01",
+  "assetId": "Ukulele_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-ukulele-01/original/Ukulele_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/Ukulele_01/Ukulele_01_1k.gltf",
+      "bytes": 2665,
+      "md5": "e7f26cad6d0aafbe6132e72dcb01a0af",
+      "sha256": "e0cd6068b9c6b59e716a9ec084a9104664375431d5dcd26c5a82d0567774e7f4"
+    },
+    {
+      "file": "models/polyhaven-ukulele-01/original/textures/Ukulele_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Ukulele_01/Ukulele_01_nor_gl_1k.jpg",
+      "bytes": 146620,
+      "md5": "892e1790aa8b39fed53fa5a808f65ef9",
+      "sha256": "314205982fc41422ed6ec9d35667716a6a1e1a395dd93f0c9c6b6932947c42c2"
+    },
+    {
+      "file": "models/polyhaven-ukulele-01/original/textures/Ukulele_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Ukulele_01/Ukulele_01_arm_1k.jpg",
+      "bytes": 153745,
+      "md5": "3acd839c8eae4b5124ff3ec052338d1d",
+      "sha256": "b6959977b2df720c09592db3e138366067421c93ff29c8d3acd352bd6e91fb47"
+    },
+    {
+      "file": "models/polyhaven-ukulele-01/original/Ukulele_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/Ukulele_01/Ukulele_01.bin",
+      "bytes": 316992,
+      "md5": "93539b3ad50951be233526a9c1ba9e67",
+      "sha256": "438fc03ff1a454e0063dd8c377629572e429920d0e03aba99799c17bdc1c0a0b"
+    },
+    {
+      "file": "models/polyhaven-ukulele-01/original/textures/Ukulele_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/Ukulele_01/Ukulele_01_diff_1k.jpg",
+      "bytes": 187248,
+      "md5": "7b14e3adeec554691b9315d85f784c16",
+      "sha256": "d13bfdbbbbaa4821a17098d52ac915e3a2eb1fc384374c919df174ce92ad5477"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Bench Vice 01\", por Yann Kervran, Antanas Kep / Poly Haven. https://polyhaven.com/a/bench_vice_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Yann Kervran, Antanas Kep"
+  },
+  "Title": "Bench Vice 01",
+  "sourceUrl": "https://polyhaven.com/a/bench_vice_01",
+  "assetId": "bench_vice_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-bench-vice-01/original/bench_vice_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bench_vice_01/bench_vice_01_1k.gltf",
+      "bytes": 13222,
+      "md5": "732cc8a08f98136922ddc5ef0fad7bba",
+      "sha256": "52e61b473f1a7840ddbdabf024cca8dd32e07f694bd247e3a74e8ef5d9a101e2"
+    },
+    {
+      "file": "models/polyhaven-bench-vice-01/original/textures/bench_vice_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bench_vice_01/bench_vice_01_diff_1k.jpg",
+      "bytes": 724482,
+      "md5": "3165de5dc903b01d870f0ab0a9933d0a",
+      "sha256": "e453c1bc7c283fb6a9c8da0638173809dfafb8310f5e81112705f5ecf88b5ab7"
+    },
+    {
+      "file": "models/polyhaven-bench-vice-01/original/bench_vice_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/bench_vice_01/bench_vice_01.bin",
+      "bytes": 131404,
+      "md5": "0f8ba7b2c41f23b4e7461c68c5aca898",
+      "sha256": "47b80c649a7791a7f3ea95d3dca929506a8c2e89506d3982a1a3380dcd3333ee"
+    },
+    {
+      "file": "models/polyhaven-bench-vice-01/original/textures/bench_vice_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bench_vice_01/bench_vice_01_arm_1k.jpg",
+      "bytes": 704241,
+      "md5": "3609f55fe2315d08136b3610ba319cc9",
+      "sha256": "49d396c052622c12864e3cbfa7dc982e0bb4117bc37fccc15703a97af1b9f24c"
+    },
+    {
+      "file": "models/polyhaven-bench-vice-01/original/textures/bench_vice_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bench_vice_01/bench_vice_01_nor_gl_1k.jpg",
+      "bytes": 866287,
+      "md5": "45262442f2b1e26559407ff89212b625",
+      "sha256": "691b3a3888e689785bdd792522769839cd662d841071e2ea11184b70c012a65e"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

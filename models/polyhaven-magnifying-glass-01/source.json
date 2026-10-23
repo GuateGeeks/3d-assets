@@ -1,0 +1,55 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Magnifying Glass 01\", por Nazar Borodavka / Poly Haven. https://polyhaven.com/a/magnifying_glass_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Nazar Borodavka"
+  },
+  "Title": "Magnifying Glass 01",
+  "sourceUrl": "https://polyhaven.com/a/magnifying_glass_01",
+  "assetId": "magnifying_glass_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-magnifying-glass-01/original/magnifying_glass_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/magnifying_glass_01/magnifying_glass_01_1k.gltf",
+      "bytes": 4929,
+      "md5": "2ff0fc8378d69d10f6221c12fbb78237",
+      "sha256": "6f370a5ec6f2412f3390e18305e89def8e35f0e00a8e4532a683140a091e82fd"
+    },
+    {
+      "file": "models/polyhaven-magnifying-glass-01/original/textures/magnifying_glass_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/magnifying_glass_01/magnifying_glass_01_arm_1k.jpg",
+      "bytes": 114589,
+      "md5": "9470e410a7c6f15fe8af987a945fa66f",
+      "sha256": "0f8a96d523fff27168717410b2b1a31ee5822dc4fae037ae74b79efca1bf840f"
+    },
+    {
+      "file": "models/polyhaven-magnifying-glass-01/original/textures/magnifying_glass_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/magnifying_glass_01/magnifying_glass_01_nor_gl_1k.jpg",
+      "bytes": 21380,
+      "md5": "1f24457927a169fc6c196e2d0dcca73c",
+      "sha256": "802214b2a5442611aef857981eb5c2fd70c64645d3e92534579d8b1d4f8f4cd9"
+    },
+    {
+      "file": "models/polyhaven-magnifying-glass-01/original/textures/magnifying_glass_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/magnifying_glass_01/magnifying_glass_01_diff_1k.jpg",
+      "bytes": 55904,
+      "md5": "7d1288b4ddb69d748011798c77115dd8",
+      "sha256": "6f0142ef415cb12492354689dc1bab6fed5200846fe5df4227a1c9b6bff20b7a"
+    },
+    {
+      "file": "models/polyhaven-magnifying-glass-01/original/textures/magnifying_glass_01_rough_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/magnifying_glass_01/magnifying_glass_01_rough_1k.jpg",
+      "bytes": 88074,
+      "md5": "5d830df4581a1773072dc9add32a524b",
+      "sha256": "d3460756046001dd158c794aacb8bfe5b6277e5a07a1061975a6b6f9b4e4ef80"
+    },
+    {
+      "file": "models/polyhaven-magnifying-glass-01/original/magnifying_glass_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/magnifying_glass_01/magnifying_glass_01.bin",
+      "bytes": 182032,
+      "md5": "26b09b8afbfef0965f85b08483afabef",
+      "sha256": "04b21b47548e3ab8555a26451808f0077493b9b24dafb5ac765b9d1da28a7859"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

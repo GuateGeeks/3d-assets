@@ -1,0 +1,162 @@
+{
+  "id": "polyhaven-circuit-board",
+  "assetId": "polyhaven:circuit_board",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Placa de circuito",
+  "titleOriginal": "Circuit Board",
+  "author": "Benny Weimer",
+  "authorUrl": "https://polyhaven.com/a/circuit_board",
+  "sourceUrl": "https://polyhaven.com/a/circuit_board",
+  "metadataUrl": "https://api.polyhaven.com/info/circuit_board",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/circuit_board/circuit_board_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Electronics & Appliances/Computing/Components",
+  "tags": [
+    "computer",
+    "components",
+    "chip",
+    "motherboard",
+    "pc hardware",
+    "connectors",
+    "wiring",
+    "power supply",
+    "circuit",
+    "power",
+    "electrical",
+    "Circuit Board",
+    "electronics-circuit-boards"
+  ],
+  "areas": [
+    "robotica-electronica",
+    "computacion-redes"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Circuit Board\", por Benny Weimer / Poly Haven. https://polyhaven.com/a/circuit_board. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-circuit-board/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/circuit_board/metadata.json",
+  "originalDownload": "models/polyhaven-circuit-board/originals.zip",
+  "bytes": 4142884,
+  "sha256": "012f9fa7d520661d7c12f5e337eee1fa9ed4f110a737a9c8297075816c711ca0",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:40:56.333274+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "circuit_board_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-circuit-board/original/circuit_board_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/circuit_board/circuit_board_1k.gltf",
+        "bytes": 4682,
+        "md5": "843c41f2c60018c22c8226dbb2f576f7",
+        "sha256": "ecba88dcee1fbb42564b5f5fd6a1924af3c9fa7e6bf4f4d1c22dd2fa593b71eb"
+      },
+      {
+        "file": "models/polyhaven-circuit-board/original/textures/circuit_board_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/circuit_board/circuit_board_nor_gl_1k.jpg",
+        "bytes": 853499,
+        "md5": "4bd51f1630a546dc54e212325c08c6f6",
+        "sha256": "eeb181c69783c68e255f13294a98f63f720b43a10ca5065fc476491363057831"
+      },
+      {
+        "file": "models/polyhaven-circuit-board/original/textures/circuit_board_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/circuit_board/circuit_board_diff_1k.jpg",
+        "bytes": 855935,
+        "md5": "0fe13f1bc5ff853f4b7dd98a23db02d4",
+        "sha256": "c0481417d7cb35b5d6f2376a93ec8c7b609499b5f57a34d28e090e3ab9094544"
+      },
+      {
+        "file": "models/polyhaven-circuit-board/original/textures/circuit_board_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/circuit_board/circuit_board_arm_1k.jpg",
+        "bytes": 903261,
+        "md5": "62c30cacf27cffa18e54dd85d4d8ccfc",
+        "sha256": "f6f1b9136f52dd83e37632b5458649766f7ad4b3ff4e968f70ed26361af01dc5"
+      },
+      {
+        "file": "models/polyhaven-circuit-board/original/circuit_board.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/circuit_board/circuit_board.bin",
+        "bytes": 671316,
+        "md5": "3c80df445a368bf4a93207473a49c181",
+        "sha256": "66b45f7311906705cef1625085fa8413818e145773be3560bf8cee26cb5d4108"
+      }
+    ],
+    "originalDownloadSha256": "11e00dd2bcc1e422a11f066cc6edfd4e835081f27794d2160e43160d1b72b82c",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/circuit_board/metadata.json",
+    "metadataEvidenceSha256": "e1713fd0a28e0e39d550bfafb6e2078caa175618011a67908900f5e306f1c5ea",
+    "fileManifestEvidence": "sources/external/polyhaven/circuit_board/files.json",
+    "fileManifestEvidenceSha256": "a09da214b4bb74f47985b582c68757e5264f88ee243d64190f23a509a20d9357",
+    "technicalReviewEvidence": "sources/external/polyhaven/circuit_board/technical-review.json",
+    "technicalReviewEvidenceSha256": "1f13c754ee3181dd75053e69b6544b9ea06abd804dc11ff303c39d7c7b57e968",
+    "providerReportedPolycount": 14430,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.4035058617591858,
+      0.3973844349384308,
+      0.07829589396715164
+    ],
+    "reimportDimensionsBlender": [
+      0.4035058617591858,
+      0.3973844349384308,
+      0.07829589396715164
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "fdeca47bf9ec55ce55206d96839cf6849e2ddc62e55dfe02230c112e7957e276",
+      "triangles": 14430
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

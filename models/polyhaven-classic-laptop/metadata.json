@@ -1,0 +1,155 @@
+{
+  "id": "polyhaven-classic-laptop",
+  "assetId": "polyhaven:classic_laptop",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Computadora portátil clásica",
+  "titleOriginal": "Classic Laptop",
+  "author": "Arrangemonk",
+  "authorUrl": "https://polyhaven.com/a/classic_laptop",
+  "sourceUrl": "https://polyhaven.com/a/classic_laptop",
+  "metadataUrl": "https://api.polyhaven.com/info/classic_laptop",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/classic_laptop/classic_laptop_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Electronics & Appliances/Computing/Computers",
+  "tags": [
+    "old",
+    "vintage",
+    "beige",
+    "notebook",
+    "lcd",
+    "trackball",
+    "Classic Laptop",
+    "computing-laptops"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Classic Laptop\", por Arrangemonk / Poly Haven. https://polyhaven.com/a/classic_laptop. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-classic-laptop/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/classic_laptop/metadata.json",
+  "originalDownload": "models/polyhaven-classic-laptop/originals.zip",
+  "bytes": 2181136,
+  "sha256": "40cf012604e388ae6512d1d97673ae9868e94343a05a46d2457dd66bea51d030",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 3,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:01.440228+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "classic_laptop_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-classic-laptop/original/classic_laptop_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/classic_laptop/classic_laptop_1k.gltf",
+        "bytes": 7496,
+        "md5": "7eeb1538a6b917c5e08a55a6c77695cf",
+        "sha256": "c78867ed92356fe03fd90b56438f3b141b5f8654672da52c6df7868eb820cf78"
+      },
+      {
+        "file": "models/polyhaven-classic-laptop/original/textures/classic_laptop_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/classic_laptop/classic_laptop_nor_gl_1k.jpg",
+        "bytes": 445971,
+        "md5": "5039de6a8edd18f89dafbf77ab55b1cb",
+        "sha256": "9e47604dc75d7ffe4f1e2265b76f9b5c4cb1c7e98d72e16e4656fecc44e5d1dd"
+      },
+      {
+        "file": "models/polyhaven-classic-laptop/original/textures/classic_laptop_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/classic_laptop/classic_laptop_diff_1k.jpg",
+        "bytes": 524918,
+        "md5": "b16478b0bfdaf836180867d26054435a",
+        "sha256": "0b0d4a2a991f8ee45effdb0c038af7348c6c731bc9a251e09095abde6cd34974"
+      },
+      {
+        "file": "models/polyhaven-classic-laptop/original/textures/classic_laptop_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/classic_laptop/classic_laptop_arm_1k.jpg",
+        "bytes": 697150,
+        "md5": "bfdc7350cc006b818bb4163093fb1e28",
+        "sha256": "e7d74932e0d40bf91fa9ef11f441cc94d9597b5c72721572b49b03109d0fe171"
+      },
+      {
+        "file": "models/polyhaven-classic-laptop/original/classic_laptop.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/classic_laptop/classic_laptop.bin",
+        "bytes": 508524,
+        "md5": "61282875872d1d523a02ecbf09627a8c",
+        "sha256": "0f1602f2fe856fd330e95df44af0fd9986aeac873343307c70e036041e789fb9"
+      }
+    ],
+    "originalDownloadSha256": "6d848e01b169d9dacafb02c96718f02b8bc1eacddcb8334147ccc76aa660a22d",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/classic_laptop/metadata.json",
+    "metadataEvidenceSha256": "b145906741803adf779379bab032e6e951d4c38dfc78fe3647c237aebb87ceed",
+    "fileManifestEvidence": "sources/external/polyhaven/classic_laptop/files.json",
+    "fileManifestEvidenceSha256": "04c9602c1224f1d8ec9bcab7ff8354925272a34d10b283fc28837ff07bbc1664",
+    "technicalReviewEvidence": "sources/external/polyhaven/classic_laptop/technical-review.json",
+    "technicalReviewEvidenceSha256": "f54e79bfa5fdcfcbecf23f560864dcfe73da8bd67fb4df3816ec1b54fcda359d",
+    "providerReportedPolycount": 14450,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.6519346237182617,
+      0.4859423041343689,
+      0.5428107976913452
+    ],
+    "reimportDimensionsBlender": [
+      0.6519346237182617,
+      0.4859423041343689,
+      0.5428107976913452
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "4fe6f25eda3cc1e964e3b9732c4acbd7dfe115025d9080b42275efb73a6893bb",
+      "triangles": 14450
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

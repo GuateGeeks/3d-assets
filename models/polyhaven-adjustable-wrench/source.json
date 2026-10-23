@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Adjustable Wrench\", por Mateusz Sadek / Poly Haven. https://polyhaven.com/a/adjustable_wrench. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Mateusz Sadek"
+  },
+  "Title": "Adjustable Wrench",
+  "sourceUrl": "https://polyhaven.com/a/adjustable_wrench",
+  "assetId": "adjustable_wrench",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-adjustable-wrench/original/adjustable_wrench_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/adjustable_wrench/adjustable_wrench_1k.gltf",
+      "bytes": 5659,
+      "md5": "3d0d76e90c269a2715ecc262a6bd623d",
+      "sha256": "1fc7df249bd4aa5f8cad48eb0b23381bad305b17a3095d06758d76ac1605fea1"
+    },
+    {
+      "file": "models/polyhaven-adjustable-wrench/original/textures/adjustable_wrench_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/adjustable_wrench/adjustable_wrench_nor_gl_1k.jpg",
+      "bytes": 791361,
+      "md5": "d4f2a70aed711a41200a0f14af8e40da",
+      "sha256": "68eb00858eefe4d80a75640c81dc4b202a3b946fd5800d7d2ea3cad29d8e0120"
+    },
+    {
+      "file": "models/polyhaven-adjustable-wrench/original/textures/adjustable_wrench_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/adjustable_wrench/adjustable_wrench_diff_1k.jpg",
+      "bytes": 783317,
+      "md5": "1118cb148986000a9cf87609cd75fcd0",
+      "sha256": "d4725eb3c741e337c28c0ed57712ecdfb5f3ee34f130907e34cea0b8e7809595"
+    },
+    {
+      "file": "models/polyhaven-adjustable-wrench/original/textures/adjustable_wrench_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/adjustable_wrench/adjustable_wrench_arm_1k.jpg",
+      "bytes": 872289,
+      "md5": "b5fb4066c620db229f596195243e00a3",
+      "sha256": "0fe9de7c2fce586621364cc02549d524e31b99831d93b330a51175b42e4a276a"
+    },
+    {
+      "file": "models/polyhaven-adjustable-wrench/original/adjustable_wrench.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/adjustable_wrench/adjustable_wrench.bin",
+      "bytes": 189556,
+      "md5": "b1d05a421b7e7194fd80187075923a67",
+      "sha256": "6a61050c0eb32f4139c49168fe403f04d255e9ca9255bc293e4cd4f503bd5883"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

@@ -1,0 +1,161 @@
+{
+  "id": "polyhaven-watering-can-metal-01",
+  "assetId": "polyhaven:watering_can_metal_01",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Regadera metálica",
+  "titleOriginal": "Watering Can Metal 01",
+  "author": "Charles Nderitu",
+  "authorUrl": "https://polyhaven.com/a/watering_can_metal_01",
+  "sourceUrl": "https://polyhaven.com/a/watering_can_metal_01",
+  "metadataUrl": "https://api.polyhaven.com/info/watering_can_metal_01",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/watering_can_metal_01/watering_can_metal_01_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Garden Tools/Watering & Irrigation",
+  "tags": [
+    "metal",
+    "garage",
+    "garden",
+    "gardening",
+    "landscaping",
+    "outdoor",
+    "shed",
+    "irrigation",
+    "farm",
+    "farmhouse",
+    "Watering Can Metal 01",
+    "gardening-watering-cans"
+  ],
+  "areas": [
+    "alimentos-agricultura",
+    "bosques-plantas"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Watering Can Metal 01\", por Charles Nderitu / Poly Haven. https://polyhaven.com/a/watering_can_metal_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-watering-can-metal-01/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/watering_can_metal_01/metadata.json",
+  "originalDownload": "models/polyhaven-watering-can-metal-01/originals.zip",
+  "bytes": 2610016,
+  "sha256": "52e71baf2a8c035778841f941cbac1ed3db92d534c12b76fea7330b0c7c2a670",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:33.069888+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "watering_can_metal_01_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-watering-can-metal-01/original/watering_can_metal_01_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/watering_can_metal_01/watering_can_metal_01_1k.gltf",
+        "bytes": 3183,
+        "md5": "38a69c7bdf66a2a9e3348b4c766c8d64",
+        "sha256": "aaf3cdf52d64d1081fc7a9113a1ee91a0f8c9bcf569b5ac9927c713b65bbbd2e"
+      },
+      {
+        "file": "models/polyhaven-watering-can-metal-01/original/textures/watering_can_metal_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/watering_can_metal_01/watering_can_metal_01_nor_gl_1k.jpg",
+        "bytes": 725001,
+        "md5": "a94eebe05e42b53dd3b8f75a9a341598",
+        "sha256": "13aaedd908aba518ab28d3401881529c9d2ee656459a110f5619b9aad2e86be7"
+      },
+      {
+        "file": "models/polyhaven-watering-can-metal-01/original/watering_can_metal_01.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/watering_can_metal_01/watering_can_metal_01.bin",
+        "bytes": 318736,
+        "md5": "26a41806730e420dc894a685d9a80fe3",
+        "sha256": "8d8db62f70b3a0a8887dbc31f6507bd2dfb93b2878527cc06362dca766493a32"
+      },
+      {
+        "file": "models/polyhaven-watering-can-metal-01/original/textures/watering_can_metal_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/watering_can_metal_01/watering_can_metal_01_arm_1k.jpg",
+        "bytes": 944654,
+        "md5": "ccc868c2394c1d085f1f76997626ccac",
+        "sha256": "966f78fca72dd7ae358c3199f6f7734830a7b09c782673e3e4bdfd0ce2d16689"
+      },
+      {
+        "file": "models/polyhaven-watering-can-metal-01/original/textures/watering_can_metal_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/watering_can_metal_01/watering_can_metal_01_diff_1k.jpg",
+        "bytes": 619613,
+        "md5": "ea49aa546a86f15b6401b1a1bdc8cac2",
+        "sha256": "e684096ed02bf20dbe46875185aeef02bbc50d31730badfe5853a36ccc5ee2fe"
+      }
+    ],
+    "originalDownloadSha256": "5eb9ab12671ab868a85a8c69d956075d272e1a5c0b1a689d53d4e19f43895c60",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/watering_can_metal_01/metadata.json",
+    "metadataEvidenceSha256": "7749ecbfe821c465c3795c6f5e5bdf1aa7120989e2673f78ec6c2520e41c3c0b",
+    "fileManifestEvidence": "sources/external/polyhaven/watering_can_metal_01/files.json",
+    "fileManifestEvidenceSha256": "c0225349c4000883cba133a235bbeceaf32122b9029a3b92abf2c74bd2fbdb6d",
+    "technicalReviewEvidence": "sources/external/polyhaven/watering_can_metal_01/technical-review.json",
+    "technicalReviewEvidenceSha256": "ffd42e4a5fae9fe4c62678ac6d4360d850aec823299871a5466f51578ff44552",
+    "providerReportedPolycount": 11837,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.19101858139038086,
+      0.45233607292175293,
+      0.1968185305595398
+    ],
+    "reimportDimensionsBlender": [
+      0.19101858139038086,
+      0.45233607292175293,
+      0.1968185305595398
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "262faa8f41c2f5883a0ae7121d68ea05e2ebf6b5660d1ca5db3c181073adc3f9",
+      "triangles": 11837
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

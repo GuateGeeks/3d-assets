@@ -1,0 +1,54 @@
+{
+  "type": 2,
+  "name": "Classic Laptop",
+  "categories": [
+    "collection: project_lighthouse",
+    "office",
+    "electronics"
+  ],
+  "tags": [
+    "old",
+    "vintage",
+    "beige",
+    "notebook",
+    "lcd",
+    "trackball"
+  ],
+  "description": "Free 4K model of a retro beige laptop with DOS screen, chunky keycaps, built-in trackball, floppy slot, thick hinges, and period-correct details.",
+  "authors": {
+    "Arrangemonk": "All"
+  },
+  "donated": true,
+  "max_resolution": [
+    8192,
+    8192
+  ],
+  "polycount": 14450,
+  "files_hash": "44e244f74d7fc5329b69795c5c95f105803aadc2",
+  "texel_density": 8032.76352303565,
+  "dimensions": [
+    651.9346237182617,
+    485.9423041343689,
+    542.8108091000468
+  ],
+  "date_published": 1781913600,
+  "category_id": "ea1ddbbd-976e-5ce9-a289-0e9906136d64",
+  "category": "Electronics & Appliances/Computing/Computers",
+  "sponsors": [
+    "5882536"
+  ],
+  "collections": [
+    "project_lighthouse"
+  ],
+  "attributes": {
+    "condition": [
+      "worn"
+    ],
+    "material": [
+      "plastic"
+    ]
+  },
+  "img_version": "065c2892",
+  "download_count": 4271,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/classic_laptop.png?width=256&height=256&format=webp&v=065c2892"
+}

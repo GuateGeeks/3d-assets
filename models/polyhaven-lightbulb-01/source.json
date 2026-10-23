@@ -1,0 +1,55 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Lightbulb 01\", por Josh Dean / Poly Haven. https://polyhaven.com/a/lightbulb_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Josh Dean"
+  },
+  "Title": "Lightbulb 01",
+  "sourceUrl": "https://polyhaven.com/a/lightbulb_01",
+  "assetId": "lightbulb_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-lightbulb-01/original/lightbulb_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/lightbulb_01/lightbulb_01_1k.gltf",
+      "bytes": 5721,
+      "md5": "986746bdf4c993214512761ae5efb301",
+      "sha256": "6b17f2a316b0562fc5eeaa9a7dd64855c0f76499b64e9ad45081ed7243116826"
+    },
+    {
+      "file": "models/polyhaven-lightbulb-01/original/textures/lightbulb_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lightbulb_01/lightbulb_01_diff_1k.jpg",
+      "bytes": 310075,
+      "md5": "754718705441e6924a6a8c72d0de88a6",
+      "sha256": "8b11885644f5c1d08eb142974ceb8e43edfe7585042fa1e45ff86e79e3569863"
+    },
+    {
+      "file": "models/polyhaven-lightbulb-01/original/lightbulb_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/lightbulb_01/lightbulb_01.bin",
+      "bytes": 114776,
+      "md5": "e4db6889652c52d164e649b1101ebffd",
+      "sha256": "6df75cf32b286d6ead20a98c26ddab7fd46a5742c4e4c52eeec1bbb20126b737"
+    },
+    {
+      "file": "models/polyhaven-lightbulb-01/original/textures/lightbulb_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lightbulb_01/lightbulb_01_nor_gl_1k.jpg",
+      "bytes": 262367,
+      "md5": "42fa73f5c93d4d89fe6094a4127475c6",
+      "sha256": "7003bb598feee5cf0d592d53e228992afe56580a0f012a38ce888f5fe9ea98f2"
+    },
+    {
+      "file": "models/polyhaven-lightbulb-01/original/textures/lightbulb_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lightbulb_01/lightbulb_01_arm_1k.jpg",
+      "bytes": 326758,
+      "md5": "21b7d5796114fe012c9866da9e2cb041",
+      "sha256": "0602d1b32e535f5af1bebc36dda76498dec87c4b2c144fd68d82b54bcb460260"
+    },
+    {
+      "file": "models/polyhaven-lightbulb-01/original/textures/lightbulb_01_emissive_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lightbulb_01/lightbulb_01_emissive_1k.jpg",
+      "bytes": 22999,
+      "md5": "2ede5ca5a42ed8d1e510d35bcc535565",
+      "sha256": "4267e103b28112291061a722430ca9d75909bb7c3cbe4d7466a67f608e26aeee"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/license-evidence.json"
+}

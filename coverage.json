@@ -4713,12 +4713,13 @@
     }
   ],
   "enrichment": {
-    "added": 651,
+    "added": 679,
     "sources": {
       "kenney": 637,
-      "opengameart": 14
+      "opengameart": 14,
+      "polyhaven": 28
     },
-    "scope": "Kits completos; fichas por modelo, familias de variantes y posibles equivalentes. No acreditan por sí solos exactitud científica o cultural.",
+    "scope": "Seis kits completos y 28 referencias Poly Haven; fichas individuales y familias para comparación. Evaluación curricular pendiente.",
     "held": [
       "oga-ant-ant"
     ],

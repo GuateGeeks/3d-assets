@@ -1,0 +1,59 @@
+{
+  "dimensionsBlender": [
+    0.5254814624786377,
+    0.35016927123069763,
+    0.0975121483206749
+  ],
+  "boundsMinBlender": [
+    -0.26274073123931885,
+    -0.17791739106178284,
+    0.0
+  ],
+  "boundsMaxBlender": [
+    0.26274073123931885,
+    0.1722518801689148,
+    0.0975121483206749
+  ],
+  "meshObjects": 5,
+  "polygons": 3718,
+  "vertices": 3302,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "polyhaven-medical-box",
+  "sourceFile": "medical_box_1k.gltf",
+  "glbSha256": "0c6de678bd663de3e377cdea8093bc05886b777764ce9ce5c63d1254c57bf089",
+  "reimport": {
+    "dimensionsBlender": [
+      0.5254814624786377,
+      0.35016927123069763,
+      0.0975121483206749
+    ],
+    "boundsMinBlender": [
+      -0.26274073123931885,
+      -0.17791739106178284,
+      0.0
+    ],
+    "boundsMaxBlender": [
+      0.26274073123931885,
+      0.1722518801689148,
+      0.0975121483206749
+    ],
+    "meshObjects": 5,
+    "polygons": 3718,
+    "vertices": 3302,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 5.2548146247863774e-05,
+  "images": {
+    "sources/external/polyhaven/medical_box/renders/source-back.png": "f29b5156428ac294b5db4ceaf822a845b4b408ba40aa0460fbcf94fd9858f510",
+    "sources/external/polyhaven/medical_box/renders/source-side.png": "861d78641037a7c8661ded664d684ec1614cba523974d499cc0d4972b7665b82",
+    "sources/external/polyhaven/medical_box/renders/source-front.png": "a0f633f888cc56ddaa9f9118afa0996c42a5875d6c0b33b5794f72b05a79a900",
+    "sources/external/polyhaven/medical_box/renders/reimport-three-quarter.png": "c4bf365a832146ddcf90f79c1507df1b8036357f9778870cba0938fd3b41c214",
+    "sources/external/polyhaven/medical_box/renders/source-three-quarter.png": "25507031e0c0b04adff23b23658ec7221eea075e3483709f0f90243d54e5ef66",
+    "sources/external/polyhaven/medical_box/renders/source-wireframe-v2.png": "d6be3f77403c94524645dabd4c3fd739a61063c9188c6a9a47c398f75673e027"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "wireframeDiagnostic": "Clay wire shader; no geometry modifier. Earlier modifier diagnostic retained only in staging."
+}

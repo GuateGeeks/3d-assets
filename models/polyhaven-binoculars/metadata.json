@@ -1,0 +1,155 @@
+{
+  "id": "polyhaven-binoculars",
+  "assetId": "polyhaven:binoculars",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Binoculares",
+  "titleOriginal": "Binoculars",
+  "author": "Derek Wight",
+  "authorUrl": "https://polyhaven.com/a/binoculars",
+  "sourceUrl": "https://polyhaven.com/a/binoculars",
+  "metadataUrl": "https://api.polyhaven.com/info/binoculars",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/binoculars/binoculars_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Electronics & Appliances/Devices & Instruments/Optical Instruments",
+  "tags": [
+    "leather",
+    "strap",
+    "vintage",
+    "antique",
+    "optical",
+    "Binoculars",
+    "optics-binoculars"
+  ],
+  "areas": [
+    "laboratorio-ciencia",
+    "animales-biodiversidad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Binoculars\", por Derek Wight / Poly Haven. https://polyhaven.com/a/binoculars. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-binoculars/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/binoculars/metadata.json",
+  "originalDownload": "models/polyhaven-binoculars/originals.zip",
+  "bytes": 2259496,
+  "sha256": "53ce3aad8f06b91ab422cda56c2f7b36807e4ae2d542de7c114182d7c7973a56",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 4,
+    "nodes": 4,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:40:44.993609+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "binoculars_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-binoculars/original/binoculars_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/binoculars/binoculars_1k.gltf",
+        "bytes": 11141,
+        "md5": "40ff2a9e0e1c46939427ccb128837de2",
+        "sha256": "57ef2cf82052bd919f932cfa36fc51b10e81ae0f02b3f65ee5bc9706ef2fb3bd"
+      },
+      {
+        "file": "models/polyhaven-binoculars/original/textures/binoculars_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/binoculars/binoculars_nor_gl_1k.jpg",
+        "bytes": 237437,
+        "md5": "f626f88764f0afe0bd38a60f4d8d9d63",
+        "sha256": "285e7e4e424a0ace4e394687044b1a7fa7cfe53ae9cab4cf7a0ef276c66dfbc5"
+      },
+      {
+        "file": "models/polyhaven-binoculars/original/textures/binoculars_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/binoculars/binoculars_diff_1k.jpg",
+        "bytes": 313026,
+        "md5": "4d61b8ef8ab8fe2af6dfe2bb9caa5a30",
+        "sha256": "a17d09d2a70d05efb9a7b5367e8d6e0672bf35fe0698617a59dfbf54f782da92"
+      },
+      {
+        "file": "models/polyhaven-binoculars/original/textures/binoculars_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/binoculars/binoculars_arm_1k.jpg",
+        "bytes": 753663,
+        "md5": "a6ef1a09591bed07b04289f1fca8cb05",
+        "sha256": "ec3c49b2ed8dbdf5a37f8a887100a6cd4ea7230042c4dc68535e3678215b572c"
+      },
+      {
+        "file": "models/polyhaven-binoculars/original/binoculars.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/binoculars/binoculars.bin",
+        "bytes": 635656,
+        "md5": "d8da6dfea42fe137622f8b8b03e05058",
+        "sha256": "79e17906e47ef698c39448769113ecce3a6fc825c44364e0e5eb9f3a6dd0c19c"
+      }
+    ],
+    "originalDownloadSha256": "82c21752e86d2aec992a661cf589b32649de728df81abdda3c796dad93391112",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/binoculars/metadata.json",
+    "metadataEvidenceSha256": "cc7ce989a4b26a78a09074efc74f28fc12a2549640bb0200acf3468ce63a2ba9",
+    "fileManifestEvidence": "sources/external/polyhaven/binoculars/files.json",
+    "fileManifestEvidenceSha256": "9fdc1ff90695991d7d600fc138ad8a83b31e207f361f1d5c42355b097aa68a97",
+    "technicalReviewEvidence": "sources/external/polyhaven/binoculars/technical-review.json",
+    "technicalReviewEvidenceSha256": "c2d2e6a25012f3f1741a14fd3c6fa009dd34aedbbc88170d24915c4687e224f2",
+    "providerReportedPolycount": 19248,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.16693279147148132,
+      0.2879329323768616,
+      0.06624972820281982
+    ],
+    "reimportDimensionsBlender": [
+      0.16693279147148132,
+      0.2879329323768616,
+      0.06624972820281982
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "ca1edcfc432325a1a1d98d8aff6804aa02e0ecb4d4eeee07e0485a1bdcbba2a9",
+      "triangles": 19248
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

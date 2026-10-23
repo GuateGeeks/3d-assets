@@ -1,0 +1,58 @@
+{
+  "donated": true,
+  "name": "Ratchet Wrench",
+  "type": 2,
+  "info": null,
+  "authors": {
+    "John Hutcheson": "All"
+  },
+  "date_published": 1670544000,
+  "categories": [
+    "props",
+    "tools",
+    "industrial",
+    "collection: the_shed",
+    "rigged"
+  ],
+  "tags": [
+    "metal",
+    "shed",
+    "workshop",
+    "construction",
+    "garage",
+    "mechanic",
+    "wrench",
+    "nuts",
+    "bolts"
+  ],
+  "max_resolution": [
+    8192,
+    8192
+  ],
+  "polycount": 8796,
+  "texel_density": 37918.11877329677,
+  "dimensions": [
+    44.089458882808685,
+    43.394144624471664,
+    246.20076268911362
+  ],
+  "files_hash": "db0eaed0940d34477b2f9962ec8339365f3fa992",
+  "description": "Free 8K model: rigged, realistic chrome ratchet wrench with scuffed, oily metal, worn edges, and detailed head and handle geometry.",
+  "category_id": "8df19fe5-50db-5ca2-a9bf-8eb52962c94a",
+  "category": "Tools & Equipment/Hand Tools/Wrenches & Spanners",
+  "collections": [
+    "the_shed"
+  ],
+  "attributes": {
+    "condition": [
+      "worn"
+    ],
+    "material": [
+      "metal"
+    ],
+    "rigged": true
+  },
+  "img_version": "9f201b3e",
+  "download_count": 5102,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/ratchet_wrench.png?width=256&height=256&format=webp&v=9f201b3e"
+}

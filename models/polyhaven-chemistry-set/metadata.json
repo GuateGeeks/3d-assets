@@ -1,0 +1,161 @@
+{
+  "id": "polyhaven-chemistry-set",
+  "assetId": "polyhaven:chemistry_set",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Equipo de química",
+  "titleOriginal": "Chemistry Set",
+  "author": "Jiří Ptáček",
+  "authorUrl": "https://polyhaven.com/a/chemistry_set",
+  "sourceUrl": "https://polyhaven.com/a/chemistry_set",
+  "metadataUrl": "https://api.polyhaven.com/info/chemistry_set",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/chemistry_set/chemistry_set_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Electronics & Appliances/Devices & Instruments/Lab Equipment",
+  "tags": [
+    "laboratory",
+    "science",
+    "chemistry",
+    "glassware",
+    "equipment",
+    "testing",
+    "lab",
+    "retort stand",
+    "test tubes",
+    "burette clamp",
+    "graduated cylinder",
+    "beaker",
+    "Chemistry Set",
+    "science-chemistry-sets"
+  ],
+  "areas": [
+    "laboratorio-ciencia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Chemistry Set\", por Jiří Ptáček / Poly Haven. https://polyhaven.com/a/chemistry_set. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-chemistry-set/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/chemistry_set/metadata.json",
+  "originalDownload": "models/polyhaven-chemistry-set/originals.zip",
+  "bytes": 3726540,
+  "sha256": "098acf512b2fdcf88a68f0c3982f1fb481dcec507e539860fbae4426b5d90410",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 50,
+    "nodes": 50,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:40:39.084082+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "chemistry_set_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-chemistry-set/original/chemistry_set_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/chemistry_set/chemistry_set_1k.gltf",
+        "bytes": 79977,
+        "md5": "05a89ca960a430766ec4c3e1fdf10e79",
+        "sha256": "e02dd6433880fd3dfab82b254a6fe909c38d5a8be184b5b21004d231c11991b6"
+      },
+      {
+        "file": "models/polyhaven-chemistry-set/original/textures/chemistry_set_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/chemistry_set/chemistry_set_nor_gl_1k.jpg",
+        "bytes": 440776,
+        "md5": "bd280566cdfd32c4c106f9f734987df7",
+        "sha256": "8bccb3f526b30a60e46981ed8ea8cf40b6af40b0fde1f3c9b3f5a7e36579e0e8"
+      },
+      {
+        "file": "models/polyhaven-chemistry-set/original/textures/chemistry_set_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/chemistry_set/chemistry_set_diff_1k.jpg",
+        "bytes": 553332,
+        "md5": "a93571004c8974d96093010561128bbe",
+        "sha256": "cf013f7898f70e1479b1b0fe774668b24cc7718983a9c7bb5eaa1670b0088b4b"
+      },
+      {
+        "file": "models/polyhaven-chemistry-set/original/textures/chemistry_set_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/chemistry_set/chemistry_set_arm_1k.jpg",
+        "bytes": 950518,
+        "md5": "95cbb6982e288a69375ef99083908e40",
+        "sha256": "cca7d3b4c30e8d0563934b59e0600e9659ce6c546b77705ca87c7ae5ffd3fd7a"
+      },
+      {
+        "file": "models/polyhaven-chemistry-set/original/chemistry_set.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/chemistry_set/chemistry_set.bin",
+        "bytes": 1181556,
+        "md5": "dd34add16eb9457ffc127104f14883d9",
+        "sha256": "59c3a8adb8b77f7ecb1ce001f7d7663e5fd0f567d9fcec9006a68a56fce4cf2a"
+      }
+    ],
+    "originalDownloadSha256": "6b5e33b87133ea7d21e116545c7e12cdba06c3e06d49e65ca9cd5714d1ca7770",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/chemistry_set/metadata.json",
+    "metadataEvidenceSha256": "74c75236d05a7c50dc3e5dd6b96352c7b3b5b88c2a1df900fea1635e0dc2e322",
+    "fileManifestEvidence": "sources/external/polyhaven/chemistry_set/files.json",
+    "fileManifestEvidenceSha256": "f6c3c5640bd044f9fee518b8ccdd554b355b29be204a256338f2536caca65389",
+    "technicalReviewEvidence": "sources/external/polyhaven/chemistry_set/technical-review.json",
+    "technicalReviewEvidenceSha256": "6d061f9214d3649beacfd7155579e06973234730e3d853dd16dcfd5f611e816b",
+    "providerReportedPolycount": 41958,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      1.07835054397583,
+      0.35392558574676514,
+      0.4290134906768799
+    ],
+    "reimportDimensionsBlender": [
+      1.07835054397583,
+      0.35392558574676514,
+      0.4290134906768799
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "b59c7d4f65dfb1085c0aaef1cb115d87dbb4a75a0d0c3e32958eee8286b52aa4",
+      "triangles": 41958
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

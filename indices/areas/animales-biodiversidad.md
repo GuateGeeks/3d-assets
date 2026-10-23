@@ -1,6 +1,6 @@
 # Animales y biodiversidad
 
-25 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+27 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -29,3 +29,5 @@
 | [Eagle](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-animals-eagle/model.glb) | 1 / 2 |
 | [Piranha](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-animals-piranha/model.glb) | 1 / 2 |
 | [Wolf](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-animals-wolf/model.glb) | 1 / 2 |
+| [Binoculares](https://polyhaven.com/a/binoculars) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Derek Wight | [GLB](../../models/polyhaven-binoculars/model.glb) | 0 / 0 |
+| [Binoculares antiguos](https://polyhaven.com/a/vintage_binocular) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Luke | [GLB](../../models/polyhaven-vintage-binocular/model.glb) | 0 / 0 |

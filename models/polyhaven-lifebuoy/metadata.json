@@ -1,0 +1,159 @@
+{
+  "id": "polyhaven-lifebuoy",
+  "assetId": "polyhaven:lifebuoy",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Aro salvavidas",
+  "titleOriginal": "Lifebuoy",
+  "author": "Hank Kaamura",
+  "authorUrl": "https://polyhaven.com/a/lifebuoy",
+  "sourceUrl": "https://polyhaven.com/a/lifebuoy",
+  "metadataUrl": "https://api.polyhaven.com/info/lifebuoy",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/lifebuoy/lifebuoy_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Vehicles & Transport/Watercraft/Buoys & Markers",
+  "tags": [
+    "weathered",
+    "safety",
+    "lifering",
+    "marine",
+    "nautical",
+    "flotation device",
+    "life preserver",
+    "Lifebuoy",
+    "safety-lifebuoys"
+  ],
+  "areas": [
+    "agua-oceanos",
+    "comunidad-ciudadania"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Lifebuoy\", por Hank Kaamura / Poly Haven. https://polyhaven.com/a/lifebuoy. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-lifebuoy/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/lifebuoy/metadata.json",
+  "originalDownload": "models/polyhaven-lifebuoy/originals.zip",
+  "bytes": 2620520,
+  "sha256": "f5ad7afd6984e322041a61d8734decd932b8405b4b27150f7edd67d43e0f475d",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:23.034797+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "lifebuoy_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-lifebuoy/original/lifebuoy_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/lifebuoy/lifebuoy_1k.gltf",
+        "bytes": 2724,
+        "md5": "295742069c8a9e56260b769322996e5b",
+        "sha256": "d9c76a8f2471249f314b3efcffe0d3956ba2d3f0b8ba528cc0f2b861561580f3"
+      },
+      {
+        "file": "models/polyhaven-lifebuoy/original/textures/lifebuoy_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lifebuoy/lifebuoy_nor_gl_1k.jpg",
+        "bytes": 907524,
+        "md5": "f8a80ee65e4776d228114f37104fbd37",
+        "sha256": "df02aca2cca3aa87daa0f1d4cd5fa2584d60ecea85672517fa334aea725dbf23"
+      },
+      {
+        "file": "models/polyhaven-lifebuoy/original/textures/lifebuoy_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lifebuoy/lifebuoy_diff_1k.jpg",
+        "bytes": 841106,
+        "md5": "c956bce9e530911e95771507547e8a6f",
+        "sha256": "f0095beca9e97996692ffdab3d3ace3fae64a3c3adf5c8eff71172add4e4cb2e"
+      },
+      {
+        "file": "models/polyhaven-lifebuoy/original/textures/lifebuoy_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/lifebuoy/lifebuoy_arm_1k.jpg",
+        "bytes": 614864,
+        "md5": "a00a461982827a2faaa0c6d940740d51",
+        "sha256": "fe33182e45c2b1049195641a8081ab22e90e520b2c0dafa9cce568a53af7a207"
+      },
+      {
+        "file": "models/polyhaven-lifebuoy/original/lifebuoy.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/lifebuoy/lifebuoy.bin",
+        "bytes": 255280,
+        "md5": "4e38cfbae96b6bdfd4ca4ddad06888dd",
+        "sha256": "aa45c8d43ee11e12a4ab9f46bfb06d1baa6c687d61776ad9b06ea6b5664c0bc2"
+      }
+    ],
+    "originalDownloadSha256": "f82366089ed917d03278fd93b14a809fbb7599968e468bb398715f0dbe10ae9b",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/lifebuoy/metadata.json",
+    "metadataEvidenceSha256": "313c90f8ea3867e05a8e7d3c1177fae4bee984718ced4f1c351b1c2fea6bf92f",
+    "fileManifestEvidence": "sources/external/polyhaven/lifebuoy/files.json",
+    "fileManifestEvidenceSha256": "91c0f591184ced4793b620c52defae009b4a8d8ee6fdf825752cc58e43502424",
+    "technicalReviewEvidence": "sources/external/polyhaven/lifebuoy/technical-review.json",
+    "technicalReviewEvidenceSha256": "3f8b59fd342a35350d17104d1d0f3adc8893d2e923c6a68470162258158320a9",
+    "providerReportedPolycount": 10728,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.7831282019615173,
+      0.15511851012706757,
+      0.841193437576294
+    ],
+    "reimportDimensionsBlender": [
+      0.7831282019615173,
+      0.15511851012706757,
+      0.841193437576294
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "1ce83204c3292ee6a091d9965a443c6257be8c529b096e772ea58ce3fb3df394",
+      "triangles": 10728
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

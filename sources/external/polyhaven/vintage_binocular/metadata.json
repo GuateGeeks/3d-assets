@@ -1,0 +1,53 @@
+{
+  "type": 2,
+  "name": "Vintage Binoculars",
+  "categories": [
+    "collection: project_lighthouse",
+    "instrument",
+    "props"
+  ],
+  "category": "Electronics & Appliances/Devices & Instruments/Optical Instruments",
+  "tags": [
+    "antique",
+    "leather",
+    "optical",
+    "vintage",
+    "brass"
+  ],
+  "description": "Free 4K model of vintage binoculars with worn brass rims, pebbled leather grips, aged black metal, crisp glass optics, and a detailed center focus wheel.",
+  "authors": {
+    "Luke": "All"
+  },
+  "donated": true,
+  "category_id": "dc601232-ec2d-56d2-80de-c9acac17b25a",
+  "max_resolution": [
+    4096,
+    4096
+  ],
+  "polycount": 19362,
+  "files_hash": "a0e6413e0a5f69c98aa8681f673dc2b0b6809e22",
+  "texel_density": 9089.070742864846,
+  "dimensions": [
+    193.99694353342056,
+    199.23493266105652,
+    68.44266317784786
+  ],
+  "date_published": 1783036800,
+  "collections": [
+    "project_lighthouse"
+  ],
+  "attributes": {
+    "material": [
+      "metal",
+      "leather",
+      "brass",
+      "glass"
+    ],
+    "condition": [
+      "worn"
+    ]
+  },
+  "img_version": "7f127c14",
+  "download_count": 1034,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/vintage_binocular.png?width=256&height=256&format=webp&v=7f127c14"
+}

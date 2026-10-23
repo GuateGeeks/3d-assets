@@ -1,0 +1,157 @@
+{
+  "id": "polyhaven-measuring-tape-01",
+  "assetId": "polyhaven:measuring_tape_01",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Cinta métrica",
+  "titleOriginal": "Measuring Tape 01",
+  "author": "Kuutti Siitonen",
+  "authorUrl": "https://polyhaven.com/a/measuring_tape_01",
+  "sourceUrl": "https://polyhaven.com/a/measuring_tape_01",
+  "metadataUrl": "https://api.polyhaven.com/info/measuring_tape_01",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/measuring_tape_01/measuring_tape_01_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Hand Tools/Measuring Tools",
+  "tags": [
+    "tape",
+    "ruler",
+    "measure",
+    "tool",
+    "toolbox",
+    "woodwork",
+    "Measuring Tape 01",
+    "measurement-tape-measures"
+  ],
+  "areas": [
+    "matematicas-medicion",
+    "oficios-productividad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Measuring Tape 01\", por Kuutti Siitonen / Poly Haven. https://polyhaven.com/a/measuring_tape_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-measuring-tape-01/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/measuring_tape_01/metadata.json",
+  "originalDownload": "models/polyhaven-measuring-tape-01/originals.zip",
+  "bytes": 445000,
+  "sha256": "5f749bc436aaa8f81649bf62d941036dbe45bee98988be159aa64408b30cad49",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:09.125131+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "measuring_tape_01_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-measuring-tape-01/original/measuring_tape_01_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/measuring_tape_01/measuring_tape_01_1k.gltf",
+        "bytes": 2720,
+        "md5": "5b7914e5a48cdd9bbf7f16a4d0e8477a",
+        "sha256": "f4d36918fcbe3de138fbf7a0c5cc1ab2c7c049db6a5e7ee24673d78d3d9ed74d"
+      },
+      {
+        "file": "models/polyhaven-measuring-tape-01/original/textures/measuring_tape_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/measuring_tape_01/measuring_tape_01_arm_1k.jpg",
+        "bytes": 143061,
+        "md5": "6bf2fc9cd5ebe5dad19c654e79c5988d",
+        "sha256": "721fa78a93d9727250123b16a8389ed815801f923bc07e6eb2e5568c5aa5f9d0"
+      },
+      {
+        "file": "models/polyhaven-measuring-tape-01/original/textures/measuring_tape_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/measuring_tape_01/measuring_tape_01_diff_1k.jpg",
+        "bytes": 83801,
+        "md5": "51485fa43d7c92abd6c7e2d1ee8361f5",
+        "sha256": "7b66c2a9a5e794336d1456dd9de684ea94bf80a0f8b821c36a0fc2cdf0804052"
+      },
+      {
+        "file": "models/polyhaven-measuring-tape-01/original/measuring_tape_01.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/measuring_tape_01/measuring_tape_01.bin",
+        "bytes": 94680,
+        "md5": "b1e09002fb178a078489b2964c853c4e",
+        "sha256": "9255ba5bde1df6dcbfd7103577809c4af44525fed7d2b41d17ff83ead712dfc6"
+      },
+      {
+        "file": "models/polyhaven-measuring-tape-01/original/textures/measuring_tape_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/measuring_tape_01/measuring_tape_01_nor_gl_1k.jpg",
+        "bytes": 121717,
+        "md5": "38492745403a54c41475ed128e791da3",
+        "sha256": "956bf080bb51987c2d3929e9b68fdea4e36f47c9fbf0b7dfe08260d5410f6c27"
+      }
+    ],
+    "originalDownloadSha256": "549c3573a8ba9460e220598abb8759e5da7669abca2a48a09bc2d96d768424aa",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/measuring_tape_01/metadata.json",
+    "metadataEvidenceSha256": "d56d17398a870b830f7950a46bb0f799bd1313564b3a588c7a1a8e90b8524ce0",
+    "fileManifestEvidence": "sources/external/polyhaven/measuring_tape_01/files.json",
+    "fileManifestEvidenceSha256": "d458fefa808f27cf04a14d477b641c583fb7ab6ba1516f72a9940a65e3c89d08",
+    "technicalReviewEvidence": "sources/external/polyhaven/measuring_tape_01/technical-review.json",
+    "technicalReviewEvidenceSha256": "4c2e615298b28c55f41419b390dd1e35c0a9f53f3af84da0beb256fb7c72e23d",
+    "providerReportedPolycount": 2868,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.04056626558303833,
+      0.16941863298416138,
+      0.07341387122869492
+    ],
+    "reimportDimensionsBlender": [
+      0.04056626558303833,
+      0.16941863298416138,
+      0.07341387122869492
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "7e0f581b4ab7e6cf213144a80b95ee7a5d77cca189359097d5050087e140ddeb",
+      "triangles": 2868
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}

@@ -1,6 +1,6 @@
 # animation/rigged
 
-18 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+19 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -20,5 +20,6 @@
 | [Piranha](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-animals-piranha/model.glb) | 1 / 2 |
 | [Wolf](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-animals-wolf/model.glb) | 1 / 2 |
 | [Robot](https://opengameart.org/node/89467) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-robot-robot/model.glb) | 1 / 14 |
+| [Tornillo de banco](https://polyhaven.com/a/bench_vice_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Yann Kervran, Antanas Kep | [GLB](../../models/polyhaven-bench-vice-01/model.glb) | 1 / 0 |
 | [Skeleton](https://poly.pizza/m/wODZYCgX5Z) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/wODZYCgX5Z/model.glb) | 1 / 5 |
 | [Skeleton](https://poly.pizza/m/yq5ATpujSt) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/yq5ATpujSt/model.glb) | 1 / 15 |

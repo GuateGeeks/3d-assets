@@ -1,6 +1,6 @@
 # Comunidad, servicios y ciudadanía
 
-123 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+128 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -127,3 +127,8 @@
 | [window white round wide](https://kenney.nl/assets/modular-buildings) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-buildings-window-white-round-wide/model.glb) | 0 / 0 |
 | [window white tall](https://kenney.nl/assets/modular-buildings) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-buildings-window-white-tall/model.glb) | 0 / 0 |
 | [window white wide](https://kenney.nl/assets/modular-buildings) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-buildings-window-white-wide/model.glb) | 0 / 0 |
+| [Extintor con rotulación coreana](https://polyhaven.com/a/korean_fire_extinguisher_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | UM JOORIN | [GLB](../../models/polyhaven-korean-fire-extinguisher-01/model.glb) | 0 / 0 |
+| [Chaleco salvavidas](https://polyhaven.com/a/life_jacket) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | PierreB3D | [GLB](../../models/polyhaven-life-jacket/model.glb) | 0 / 0 |
+| [Aro salvavidas](https://polyhaven.com/a/lifebuoy) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Hank Kaamura | [GLB](../../models/polyhaven-lifebuoy/model.glb) | 0 / 0 |
+| [Caja de primeros auxilios](https://polyhaven.com/a/medical_box) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Ulan Cabanilla | [GLB](../../models/polyhaven-medical-box/model.glb) | 0 / 0 |
+| [Silla de ruedas](https://polyhaven.com/a/wheelchair_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Garreth Dean | [GLB](../../models/polyhaven-wheelchair-01/model.glb) | 0 / 0 |

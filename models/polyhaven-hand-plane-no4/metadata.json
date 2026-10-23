@@ -1,0 +1,160 @@
+{
+  "id": "polyhaven-hand-plane-no4",
+  "assetId": "polyhaven:hand_plane_no4",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Cepillo de carpintería",
+  "titleOriginal": "Hand Plane No4",
+  "author": "Satyaki Mandal",
+  "authorUrl": "https://polyhaven.com/a/hand_plane_no4",
+  "sourceUrl": "https://polyhaven.com/a/hand_plane_no4",
+  "metadataUrl": "https://api.polyhaven.com/info/hand_plane_no4",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/hand_plane_no4/hand_plane_no4_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Hand Tools",
+  "tags": [
+    "vintage",
+    "hand tool",
+    "carpentry",
+    "old",
+    "wood",
+    "worn",
+    "woodwork",
+    "workshop",
+    "shed",
+    "garage",
+    "Hand Plane No4",
+    "workshop-hand-planes"
+  ],
+  "areas": [
+    "oficios-productividad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Hand Plane No4\", por Satyaki Mandal / Poly Haven. https://polyhaven.com/a/hand_plane_no4. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-hand-plane-no4/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/hand_plane_no4/metadata.json",
+  "originalDownload": "models/polyhaven-hand-plane-no4/originals.zip",
+  "bytes": 2551168,
+  "sha256": "2557b1c565f347266fcf745b316b7063b6924c3859fbd91f98d8eb1526d0e0d9",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-22T23:41:43.839007+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "hand_plane_no4_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-hand-plane-no4/original/hand_plane_no4_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/hand_plane_no4/hand_plane_no4_1k.gltf",
+        "bytes": 2917,
+        "md5": "b55927f3de30b83c6dd1761f92a1206d",
+        "sha256": "2c16b27d3ad132d46bee11fca83ceb63ec957fc042af4343fb4830fe3da7e22e"
+      },
+      {
+        "file": "models/polyhaven-hand-plane-no4/original/textures/hand_plane_no4_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_plane_no4/hand_plane_no4_diff_1k.jpg",
+        "bytes": 733120,
+        "md5": "fb9fa732a71e8fd39daedb78e0d551a1",
+        "sha256": "b109c8f6df977c5a8d78588302c06d44adb2ba34009983f31b0d528550e11ba6"
+      },
+      {
+        "file": "models/polyhaven-hand-plane-no4/original/textures/hand_plane_no4_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_plane_no4/hand_plane_no4_arm_1k.jpg",
+        "bytes": 711004,
+        "md5": "cc5885ccbbc6bd3b1a3799946426d2e7",
+        "sha256": "e73a35d2ba880a63a4a7091a0b1ccf959425c6bfb5efb0e2c65b341c6baafd98"
+      },
+      {
+        "file": "models/polyhaven-hand-plane-no4/original/textures/hand_plane_no4_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/hand_plane_no4/hand_plane_no4_nor_gl_1k.jpg",
+        "bytes": 875917,
+        "md5": "1125b3d2e2541b1bb80296dfa0563a38",
+        "sha256": "b06dea7a3499772eaa4d059a849ea0e5d448eeff583c00420e145302b6e186a1"
+      },
+      {
+        "file": "models/polyhaven-hand-plane-no4/original/hand_plane_no4.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/hand_plane_no4/hand_plane_no4.bin",
+        "bytes": 229256,
+        "md5": "100169419da665726938e1a5bcc24121",
+        "sha256": "5c4b28d2a931f0e66de91dd976c04f109419a8d0bda527096d2b4d4d0e00b9f7"
+      }
+    ],
+    "originalDownloadSha256": "42d7ac4a26c70846788a199863161589eeab42735c3ffa7ccfaefdd3dbf179c5",
+    "licenseEvidence": "sources/external/polyhaven/license-evidence.json",
+    "licenseEvidenceSha256": "744faabeb46633862c098571d95dd39bdfbe83bc6637358f0f668bcc7f6a2041",
+    "metadataEvidence": "sources/external/polyhaven/hand_plane_no4/metadata.json",
+    "metadataEvidenceSha256": "cc87f4d4db8e7ade75c317e79feca3292f226034a23ab4d06fc0a948b13ebbfc",
+    "fileManifestEvidence": "sources/external/polyhaven/hand_plane_no4/files.json",
+    "fileManifestEvidenceSha256": "98ebfd1c9b71f1ade5f11a0f7f36ca66181cc2e96f439a91aadb938ae19f1aa5",
+    "technicalReviewEvidence": "sources/external/polyhaven/hand_plane_no4/technical-review.json",
+    "technicalReviewEvidenceSha256": "0d8e7555da1ba11871586a9d136fcb7be0b34b85bcc4e4ec100f8448d07ff38b",
+    "providerReportedPolycount": 8220,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.3307979106903076,
+      0.08431769162416458,
+      0.19780342280864716
+    ],
+    "reimportDimensionsBlender": [
+      0.3307979106903076,
+      0.08431769162416458,
+      0.19780342280864716
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "2bb1ea3ff6d56ac22b7e828e40a46b8040903003e6239109ac08626d43c94434",
+      "triangles": 8220
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/visual-review.json"
+  }
+}
