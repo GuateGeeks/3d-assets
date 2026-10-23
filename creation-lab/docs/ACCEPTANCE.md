@@ -2,7 +2,9 @@
 
 `PASS`: comprobado con evidencia. `FAIL`: incumplimiento observado.
 `BLOCKED`: falta un requisito o dependencia. `NOT_RUN`: no ejecutado.
-El estado técnico y la revisión visual se registran por separado.
+Los estados técnico, visual y de contenido se registran por separado. Para
+creaciones nuevas sigue [el flujo iterativo](ITERATIVE-WORKFLOW.md), con blockout
+revisado antes del detalle y dos correcciones totales por sesión por defecto.
 
 ## Núcleo M1
 
@@ -36,7 +38,8 @@ y brazos simples; sin logo inventado; ≤6000 triángulos exportados LOD0,
 Robot detallado: master independiente del derivado optimizado; conserva diseño
 y proporciones aprobados. El derivado tiene ≤40000 triángulos y ≤4 materiales,
 texturas ≤2048 px; UV y bake cuando hagan falta. Verificar clay, wireframe,
-vistas generales y closeups. Hasta tres rondas de corrección registradas.
+vistas generales y closeups. Usa las dos correcciones totales de la sesión;
+otro presupuesto debe fijarse explícitamente antes de comenzar.
 
 La prueba orgánica evalúa anatomía estilizada, articulaciones y continuidad
 por separado. Una prueba hard-surface satisfactoria no demuestra esa capacidad.

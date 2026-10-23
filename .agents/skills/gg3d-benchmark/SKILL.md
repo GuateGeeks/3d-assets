@@ -5,13 +5,19 @@ description: Diseña y reporta una comparación controlada y repetible de flujos
 
 # Benchmark de flujos
 
+Para composición, componentes y correcciones lee el
+[workflow iterativo Sol/Luna](../../../creation-lab/docs/ITERATIVE-WORKFLOW.md).
+Es la referencia única de roles, dos rondas por defecto y gates separados;
+los perfiles propuestos aún no demuestran superioridad medida.
+
+
 Si el usuario solicita un único caso, entrega un piloto de ese brief y no lo
 presentes como el M7 completo. Una muestra por condición compara esos artefactos;
 no demuestra superioridad general de un modelo. Lee el
 [protocolo de piloto y relevo](references/pilot-and-handoff.md) al ejecutar una
 comparación, reparar una condición o distribuir sus resultados.
 
-Consulta [criterios](../../../creation-lab/docs/ACCEPTANCE.md), [hitos](../../../creation-lab/docs/IMPLEMENTATION-PLAN.md) y [recomendaciones de modelos](../../../creation-lab/docs/MODELS.md). Para el M7 completo, usa seis briefs: dos low-poly, dos hard-surface detallados, uno orgánico y una escena. Fija semillas, referencias, límites, versiones, tiempo y repeticiones; conserva runs, fallos, gasto e intervención humana observada. Prefiere condiciones ligeras y CPU cuando sea práctico.
+Consulta [criterios](../../../creation-lab/docs/ACCEPTANCE.md), [hitos](../../../creation-lab/docs/IMPLEMENTATION-PLAN.md) y [recomendaciones de modelos](../../../creation-lab/docs/MODELS.md). Por defecto la comparación futura usa solo Sol, Sol+Luna y solo Luna con la misma biblioteca, herramientas, presupuestos y rondas; respeta otros modelos solicitados explícitamente en un protocolo aislado. Recomienda al menos tres autorías independientes por condición para un piloto. Reejecutar el mismo generador no crea una autoría nueva. Para el M7 completo, usa seis briefs: dos low-poly, dos hard-surface detallados, uno orgánico y una escena. Fija semillas, referencias, límites, versiones, tiempo y repeticiones; conserva runs, fallos, gasto con telemetría disponible e intervención humana observada; no infieras costo a partir de tiempos de Blender. Prefiere condiciones ligeras y CPU cuando sea práctico.
 
 Oculta la identidad del modelo durante la calificación visual cuando sea viable. Mantén condiciones comparables y separa cumplimiento técnico, calidad visual, editabilidad, exportación, tiempo, intervención y costo. Registra ausencias y exclusiones. Compara los sistemas completos aparte de las comparaciones de modelos.
 

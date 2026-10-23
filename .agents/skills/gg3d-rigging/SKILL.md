@@ -7,6 +7,11 @@ description: Prepara y riggea assets en el laboratorio local de 3d-assets con Un
 
 Trabaja desde la raíz de `3d-assets`; no dependas del workspace padre. Lee primero [AGENTS.md](../../../AGENTS.md), el [estado vigente](../../../lab/STATUS.md) y la sección pertinente del [manual](../../../lab/README.md). El estado enlaza evidencia fechada; comprueba `lab/lab.py --help`, recibos y hashes antes de afirmar que una capacidad sigue operativa.
 
+Para recibir geometría del workflow Sol/Luna, consulta el
+[workflow iterativo](../../../creation-lab/docs/ITERATIVE-WORKFLOW.md): conserva
+escala física, materiales y procedencia de cada componente. No implica que el
+workflow propuesto esté validado por el benchmark histórico.
+
 ## Elegir la entrada
 
 - **Corpus existente:** `human` = Man, `quadruped` = Wolf. Conserva originales y catálogo. Las copias pierden rig/clips para inferencia; el control conserva su rig sin clips. Se normalizan explícitamente a 2 m de dimensión mayor, centro XY y suelo Z=0.

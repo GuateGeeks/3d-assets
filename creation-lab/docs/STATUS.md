@@ -4,7 +4,7 @@
 
 El núcleo de creación ya funciona con Blender nativo 5.2.3 LTS. La entrega
 incluye instrucciones permanentes, siete skills propios de creación, un skill
-de rigging, dos adaptadores de recetas y ocho prompts por hitos,
+de rigging, dos adaptadores de recetas, ocho prompts por hitos y un prompt Claude,
 perfiles de modelos y un contrato candidato para el laboratorio de rigging.
 El detalle de comandos está en [README](../README.md).
 
@@ -20,6 +20,8 @@ El detalle de comandos está en [README](../README.md).
 | Restauración de escala y apariencia | PASS en fixture con textura y en inferencia UniRig real; [informe y evidencia](../../lab/reports/CREATION-ADAPTER.md) |
 | Producción M2-M7 | NOT_RUN: skills, prompts y criterios preparados |
 | Piloto de célula animal | Ejecutado: seis condiciones y diez runs; D 87/100 y A 85/100 pasan técnica, visual y biología visible; [resultados](../benchmarks/animal-cell-20261022/RESULTS.md) |
+| Creación iterativa Sol/Luna | PASS del demo mecánico y 36 tests con Blender; [recibo](iterative-validation.json) y [guía](ITERATIVE-WORKFLOW.md). La mejora de calidad/coste frente al piloto requiere un benchmark nuevo |
+| Benchmark Claude | [Prompt preparado](../prompts/08-claude-benchmark.md) para Haiku/Sonnet/Opus; ejecución NOT_RUN |
 | Relevo desde un clon nuevo | Skills, scripts, locks y diez runs restaurables incluidos; [instalación](../../SETUP.md) y [verificación del repositorio](repository-handoff.json) |
 | API de imágenes y comparación con Claude | NOT_RUN; sin gasto iniciado |
 | Puente MCP oficial | PASS en proceso propio: consulta, creación, render y limpieza; entrada local configurada, carga en este chat NOT_RUN |
@@ -54,6 +56,11 @@ El adaptador `ingest` / `rig --candidate` usa runs independientes y conserva los
 punteros del corpus y de la galería. Lee [INTEGRATION](INTEGRATION.md) para usarlo.
 
 ## Siguiente corte
+
+Las creaciones nuevas siguen [ITERATIVE-WORKFLOW](ITERATIVE-WORKFLOW.md): blockout
+revisado antes del detalle, biblioteca común, roles Sol/Luna y dos correcciones
+totales por sesión. El benchmark histórico descrito abajo mantiene su contrato
+original; no se reescriben sus notas con los resultados de herramientas nuevas.
 
 El [benchmark de célula animal](../benchmarks/animal-cell-20261022/README.md)
 entrega seis GLB y fuentes Blender, trece partes en español, visor local y

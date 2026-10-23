@@ -4,6 +4,8 @@ Este laboratorio añade creación de assets a `3d-assets`. El catálogo y el
 laboratorio de rigging siguen siendo componentes separados del mismo proyecto.
 
 1. Lee [estado y evidencia](docs/STATUS.md).
+   Para nuevas creaciones usa el [flujo iterativo Sol/Luna](docs/ITERATIVE-WORKFLOW.md):
+   componentes, blockout con imágenes, revisión independiente y detalle.
 2. Ejecuta el diagnóstico y el canario descritos en [README](README.md).
 3. Usa los [criterios de aceptación](docs/ACCEPTANCE.md) antes de entregar.
 4. Usa `lab/lab.py ingest --candidate` y después `rig --candidate` según la
@@ -44,8 +46,8 @@ Invoca `$gg3d-pipeline` para coordinar; los otros seis skills cubren dirección
 artística, low-poly, detalle, QA visual, exportación y benchmark.
 Los skills preparados estarán disponibles al siguiente turno con ese ámbito.
 
-La [selección de modelos](docs/MODELS.md) preserva las recomendaciones de la
-investigación. No requiere iniciar llamadas de API ni cambiar tu modelo global.
+La [selección de modelos](docs/MODELS.md) usa Sol/Luna por defecto y conserva la
+asignación inicial como historia. No inicia llamadas de API ni cambia tu modelo global.
 La [auditoría de dependencias](docs/DEPENDENCIES.md) distingue paquetes preparados,
 código revisado y herramientas realmente probadas.
 

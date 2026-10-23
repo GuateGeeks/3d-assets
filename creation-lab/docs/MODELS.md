@@ -1,33 +1,56 @@
 # Modelos y esfuerzo
 
-Se conserva la distribución propuesta en la investigación del usuario. Los
-identificadores de texto están disponibles en las herramientas de agentes de
-esta sesión. Las preferencias no equivalen a resultados de benchmark.
+El workflow activo usa exclusivamente Sol/Luna. La asignación es una propuesta
+operativa para iterar; aún no es un resultado de benchmark completo. Los pilotos
+históricos conservan sus autores, modelos, esfuerzos y calificaciones originales.
+El protocolo detallado vive en [ITERATIVE-WORKFLOW.md](ITERATIVE-WORKFLOW.md).
 
-| Trabajo | Modelo | Esfuerzo |
+| Trabajo | Modelo solicitado | Esfuerzo |
 | --- | --- | --- |
-| Diagnóstico M0 | `gpt-6-astra` | `high` |
-| Arquitectura M1 | `gpt-6-astra` | `xhigh` |
-| Implementación y pruebas | `gpt-6.1-sol` | `high` |
-| Geometría o integración difícil | `gpt-6-astra` | `xhigh` |
-| Revisión independiente | `gpt-6-astra` | `xhigh` |
-| Documentación acotada | `gpt-6-luna` | `medium` |
+| Brief, composición, arquitectura y coordinación | `gpt-6.1-sol` | `medium` |
+| Implementación general e integración | `gpt-6.1-sol` | `medium` |
+| Tarea delimitada, componente, variante y documentación acotada | `gpt-6-luna` | `medium` |
+| Revisión independiente con imágenes abiertas | `gpt-6.1-sol` | `medium` |
+| Diagnóstico difícil justificado por un fallo observado | `gpt-6.1-sol` | `high` |
 
-La [guía oficial de selección](https://developers.openai.com/api/docs/guides/model-selection)
-recomienda probar modelo y esfuerzo contra la calidad, latencia y coste reales.
-No activar `max` para todo el laboratorio.
+La revisión usa un autor/contexto distinto del que produjo la geometría y recibe
+brief, criterios e imágenes reales con hashes. Registra modelo y esfuerzo
+solicitados y efectivos declarados de coordinador, autores, correctores y revisor, además de
+herramientas y cambios de contexto. El registro de sesión es una declaración del
+coordinador, no una atestación del backend. Una identidad de rol no demuestra que se
+seleccionó ese modelo: si la herramienta no expone o confirma el dato, decláralo.
+Si Sol o Luna no están disponibles, registra `BLOCKED` y la causa; no sustituyas
+modelo/esfuerzo en silencio. La escalada `high` debe justificar el diagnóstico y
+mantener trazabilidad; no se usa por defecto para toda tarea.
 
-La investigación propone `gpt-image-2.5-flare` para exploración y
-`gpt-image-2.5-sunburst` para refinamiento. Son preferencias conservadas en el
-perfil; no se ha comprobado acceso de API ni ejecutado una generación de imagen.
-El backend de imágenes se selecciona entre herramientas realmente disponibles;
-no se afirma que una herramienta permita elegir esos modelos si no lo expone.
+[model-profiles.json](../config/model-profiles.json) expresa preferencias de
+planificación. No cambia el modelo global de Codex, no inicia agentes ni impone
+un modelo en herramientas remotas. [codex.example.toml](../config/codex.example.toml)
+es un ejemplo local revisable. No instala configuración global ni prueba acceso.
 
-Para M2, el modo manual acepta referencias con su procedencia. El modo proveedor
-requiere implementación, credenciales y autorización de gasto aplicables. El login
-de Codex no se trata como una clave de API. No se almacenan secretos en perfiles.
+La generación de imágenes es opcional y queda desactivada por defecto, sin modelo
+de imagen preferido activo. Para conceptos pueden usarse referencias manuales
+con procedencia. Un proveedor de imagen requiere capacidad real, acceso y la
+autorización de gasto aplicable; no se atribuye selección de modelo a una
+herramienta que no la expone. El login de Codex no es una clave de API y los
+perfiles no contienen secretos.
 
-El archivo [model-profiles.json](../config/model-profiles.json) es configuración
-de planificación del workflow; no cambia el modelo global de Codex ni inicia
-agentes por sí solo. En esta preparación se usaron agentes Astra `xhigh`,
-Sol `high` y Luna `medium` para las tareas indicadas.
+El historial de preparación incluyó Astra `high`/`xhigh`, Sol `high`, Luna
+`medium` y preferencias de imagen `gpt-image-2.5-flare`/`gpt-image-2.5-sunburst`.
+Son antecedentes, no defaults activos ni evidencia de acceso o calidad.
+
+La comparación futura contempla solo Sol, Sol+Luna y solo Luna con el mismo
+brief, biblioteca de componentes, herramientas, presupuestos y dos rondas máximas
+de corrección totales por sesión, compartidas entre etapas y aparte de la primera
+ejecución blockout y la primera detail. Se recomiendan al menos tres autorías independientes por condición
+para un piloto; no equivalen al benchmark completo de seis briefs. Volver a ejecutar
+un script existente no crea una autoría nueva. Separa los gates técnico, visual y
+de contenido, conserva fallos y no infieras costo/tokens sin telemetría disponible.
+
+El modo operativo mixto usa Sol para coordinación/revisión y permite autores
+Sol o Luna; los modos puros usan solo Sol o solo Luna también para su revisión
+interna, siempre en otro contexto. Una evaluación externa común del benchmark
+se registra aparte para no confundir su revisor con un autor de la condición.
+La etapa blockout evalúa layout/visibilidad y los `blockoutChecks` explícitos del
+brief; el detalle evalúa `contentChecks`/`biologicalChecks` completos. Un PASS de
+blockout habilita detallar, sin aprobar contenido fino ni relajar el gate final.

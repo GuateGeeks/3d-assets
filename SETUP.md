@@ -128,3 +128,12 @@ Los informes históricos de pruebas no prueban disponibilidad MCP en otro chat.
 La construcción pública usa una lista explícita de recursos. No publica los
 laboratorios, la configuración local, los checkpoints ni sus resultados.
 Code Studio y Sócrates siguen fuera de este corte.
+# Flujo iterativo de creación
+
+Para nuevas creaciones, consulta [la guía Sol/Luna](creation-lab/docs/ITERATIVE-WORKFLOW.md).
+`python creation-lab/iterate.py --help` describe la CLI local, sin APIs de modelos.
+La biblioteca [components](creation-lab/components/README.md) incluye un demo
+paramétrico; su ejecución requiere Blender y las opciones explícitas de la guía.
+Los tests de contratos/geometría se ejecutan con el mismo comando de creación:
+`python -m unittest discover -s creation-lab/tests -v`. Los probes Blender son
+opt-in mediante `CREATION_TEST_BLENDER` apuntando a su ejecutable.

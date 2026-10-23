@@ -1,6 +1,8 @@
 # Pilotos comparables y resultados reutilizables
 
 Aplicar al comparar varios autores o configuraciones sobre un mismo brief.
+El [workflow iterativo](../../../../creation-lab/docs/ITERATIVE-WORKFLOW.md)
+es la referencia vigente para roles y correcciones; no modifica resultados previos.
 El [piloto de célula animal](../../../../creation-lab/benchmarks/animal-cell-20261022/README.md)
 y sus [resultados](../../../../creation-lab/benchmarks/animal-cell-20261022/RESULTS.md)
 son evidencia de un caso, no una clasificación permanente de modelos.
@@ -19,7 +21,19 @@ Congela el harness antes del lote; si cambia, registra qué runs usaron cada
 versión y si el cambio afecta comparabilidad. Nunca actualices una primera
 versión para hacerla coincidir con una reparación posterior.
 
-Fija de antemano el alcance y número de reparaciones. El piloto de célula admitió
+El próximo piloto contempla solo Sol, Sol+Luna y solo Luna. Usa la misma
+biblioteca versionada, brief, herramientas, límites y rondas. Recomienda al menos
+tres autorías independientes por condición; volver a ejecutar un script no crea
+una autoría nueva. Registra modelo/esfuerzo solicitado y efectivo de coordinador,
+autores, correctores y revisor; valores desconocidos se declaran, no se infieren.
+La revisión usa un contexto distinto de los autores y observa imágenes. Define
+una evaluación externa común y declárala separada de la revisión interna del modo.
+
+Fija de antemano el alcance y número de reparaciones: por defecto dos rondas
+totales por sesión compartidas entre etapas, aparte del primer blockout y primer
+detail en el workflow nuevo, conservando fallos y gates. Una escalada
+Sol `high` por diagnóstico difícil cuenta como intervención declarada.
+El piloto de célula admitió
 una reparación técnica por autor; no es un límite universal. Conserva resultados
 iniciales y finales, motivo, código y tiempo de cada intervención. Un coordinador
 que corrige estética cambia la condición y debe declarar esa intervención.

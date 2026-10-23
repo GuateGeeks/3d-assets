@@ -5,6 +5,12 @@ description: Verifica exports de creation-lab, estructura GLB, reimportación li
 
 # QA de exportación
 
+Para composición, componentes y correcciones lee el
+[workflow iterativo Sol/Luna](../../../creation-lab/docs/ITERATIVE-WORKFLOW.md).
+Es la referencia única de roles, dos rondas por defecto y gates separados;
+los perfiles propuestos aún no demuestran superioridad medida.
+
+
 El protocolo de seis imágenes y estados de esta skill corresponde a creación. Para candidatos UniRig y deformaciones consulta [gg3d-rigging](../gg3d-rigging/SKILL.md); no sustituyas la revisión anatómica por estos controles de export.
 
 Sigue [criterios](../../../creation-lab/docs/ACCEPTANCE.md) y [contrato de integración](../../../creation-lab/docs/INTEGRATION.md). Valida el GLB desde disco y reimpórtalo en un proceso limpio de Blender o `bpy` 4.2 disponible. Confirma apertura, dimensiones, orientación, mallas, materiales, texturas, transformaciones y límites del brief. Reporta cualquier pérdida sin reparar la evidencia en silencio.

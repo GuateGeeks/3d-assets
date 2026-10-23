@@ -1,20 +1,128 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "status": "NOT_RUN",
   "repetitions": 3,
-  "seeds": [17, 42, 73],
-  "evaluation": "blind-artistic-and-separate-technical",
-  "comparisons": ["models-with-equal-tools", "whole-systems-separately"],
-  "briefs": [
-    {"id": "robot-low", "class": "lowpoly", "heightM": 0.30, "triangles": 6000, "materials": 2, "textureSize": 2048},
-    {"id": "desk-prop-low", "class": "lowpoly", "requiresApprovedBrief": true},
-    {"id": "robot-detailed", "class": "hard-surface", "heightM": 0.30, "triangles": 40000, "materials": 4, "textureSize": 2048},
-    {"id": "workshop-device", "class": "hard-surface", "requiresApprovedBrief": true},
-    {"id": "original-creature", "class": "organic", "requiresApprovedBrief": true},
-    {"id": "learning-corner", "class": "scene", "requiresApprovedBrief": true}
+  "seeds": [
+    17,
+    42,
+    73
   ],
-  "metrics": ["visual-quality", "technical-compliance", "editability", "export-integrity", "wall-time", "observable-cost", "human-interventions"],
+  "evaluation": "blind-visual-and-separate-technical-visual-content-gates",
+  "comparisons": [
+    "models-with-equal-tools",
+    "whole-systems-separately"
+  ],
+  "briefs": [
+    {
+      "id": "robot-low",
+      "class": "lowpoly",
+      "heightM": 0.3,
+      "triangles": 6000,
+      "materials": 2,
+      "textureSize": 2048
+    },
+    {
+      "id": "desk-prop-low",
+      "class": "lowpoly",
+      "requiresApprovedBrief": true
+    },
+    {
+      "id": "robot-detailed",
+      "class": "hard-surface",
+      "heightM": 0.3,
+      "triangles": 40000,
+      "materials": 4,
+      "textureSize": 2048
+    },
+    {
+      "id": "workshop-device",
+      "class": "hard-surface",
+      "requiresApprovedBrief": true
+    },
+    {
+      "id": "original-creature",
+      "class": "organic",
+      "requiresApprovedBrief": true
+    },
+    {
+      "id": "learning-corner",
+      "class": "scene",
+      "requiresApprovedBrief": true
+    }
+  ],
+  "metrics": [
+    "visual-quality",
+    "technical-compliance",
+    "content-compliance",
+    "editability",
+    "export-integrity",
+    "wall-time",
+    "observable-cost",
+    "human-interventions"
+  ],
   "competitorExecution": "NOT_RUN",
   "paidProvidersEnabled": false,
-  "keepFailedRuns": true
+  "keepFailedRuns": true,
+  "conditions": [
+    {
+      "id": "sol-only",
+      "authorModels": [
+        "gpt-6.1-sol"
+      ],
+      "reasoningEffort": "medium"
+    },
+    {
+      "id": "sol-luna",
+      "authorModels": [
+        "gpt-6.1-sol",
+        "gpt-6-luna"
+      ],
+      "reasoningEffort": "medium"
+    },
+    {
+      "id": "luna-only",
+      "authorModels": [
+        "gpt-6-luna"
+      ],
+      "reasoningEffort": "medium"
+    }
+  ],
+  "independentReviewer": {
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium",
+    "differentAuthorContext": true,
+    "requiresOpenedImages": true,
+    "scope": "common-external-evaluation-separate-from-internal-mode-review"
+  },
+  "pilotRecommendedIndependentAuthorshipsPerCondition": 3,
+  "rerunExistingGeneratorCountsAsNewAuthorship": false,
+  "controlledInputs": [
+    "brief",
+    "references",
+    "component-library-and-version",
+    "tools-and-versions",
+    "budgets",
+    "seeds",
+    "correction-rounds",
+    "review-protocol"
+  ],
+  "defaultCorrectionRounds": 2,
+  "modelTelemetry": {
+    "recordAllRoles": true,
+    "fields": [
+      "requestedModel",
+      "requestedReasoningEffort",
+      "actualModel",
+      "actualReasoningEffort"
+    ],
+    "unavailableModelPolicy": "BLOCKED-no-silent-substitution",
+    "unknownActualValues": "record-unknown-not-requested-as-observed"
+  },
+  "costPolicy": "observable-telemetry-only-no-estimate-from-Blender-wall-time",
+  "historicalResultsPolicy": "preserve-original-runs-authorship-scores-and-gates",
+  "correctionScope": "total-per-session-shared-across-stages",
+  "initialStageRunsExcludedFromCorrections": [
+    "blockout",
+    "detail"
+  ]
 }
