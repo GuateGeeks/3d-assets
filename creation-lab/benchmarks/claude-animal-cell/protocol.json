@@ -1,0 +1,155 @@
+{
+ "schemaVersion": 1,
+ "id": "claude-animal-cell-v1",
+ "frozenAt": "2026-10-23",
+ "kind": "isolated exploratory benchmark requested by the user; not production workflow; not M7",
+ "question": "Compare Claude Haiku, Sonnet and Opus as authors of procedural Blender code for one educational brief, under a common component library, worker, QA and blind Opus review.",
+ "design": {
+  "families": [
+   "haiku",
+   "sonnet",
+   "opus"
+  ],
+  "independentAuthoringsPerFamily": 3,
+  "replicas": 9,
+  "replicaIds": "R1-R9, family assignment shuffled with secrets.SystemRandom; mapping kept in coordinator/mapping.json and never given to reviewers",
+  "authorContext": "fresh Claude Code subagent (general-purpose) per replica; the same context authors blockout, detail and its own corrections via SendMessage continuation",
+  "rerunIsNotAuthorship": true
+ },
+ "models": {
+  "profile": "creation-lab/benchmarks/claude-animal-cell/profile.json",
+  "resolution": "Claude Code Agent tool aliases haiku/sonnet/opus resolved by runtime to claude-haiku-5-5 / claude-sonnet-5-5 / claude-opus-5-5; confirmed in probe transcripts (prefix.json model + message.model) on 2026-10-23; re-confirmed per agent in receipts",
+  "commonAuthorEffort": "medium",
+  "effortRationale": "medium is supported by all three (low-max) and is the API default for Haiku 5.5 and Opus 5.5; Sonnet 5.5 defaults to high so it is set explicitly. Same nominal label; effort scales are not claimed equivalent across families.",
+  "coordinator": {
+   "model": "claude-opus-5-5",
+   "effort": "high",
+   "role": "organizes, runs Blender sequentially, builds blind packets and relays reviewer text; writes no condition geometry"
+  },
+  "reviewer": {
+   "model": "claude-opus-5-5",
+   "effort": "medium",
+   "context": "fresh subagent per reviewed run, blind packet only"
+  },
+  "contamination": "any response model different from the expected ID, a nested Agent, or forbidden reads per audit marks the attempt contaminated and outside the main comparison",
+  "noFallbacks": "no opusplan, no model fallback, no coordinator-written geometry"
+ },
+ "controls": {
+  "brief": "creation-lab/benchmarks/claude-animal-cell/brief.json",
+  "authoring": "creation-lab/benchmarks/claude-animal-cell/AUTHORING.md",
+  "reviewing": "creation-lab/benchmarks/claude-animal-cell/REVIEWING.md",
+  "seed": 20261022,
+  "budgets": {
+   "triangles": 45000,
+   "materials": 24,
+   "meshObjects": 350,
+   "glbBytes": 8388608
+  },
+  "longestDimensionM": 0.3,
+  "tolerance": 0.02,
+  "blender": "5.2.3 LTS (Windows native, invoked from WSL through creation-lab/benchmarks/claude-animal-cell/wsl-blender.sh)",
+  "render": "Cycles CPU, 2 threads, 24 samples, 768 px, six views",
+  "correctionsPerSession": 2,
+  "blenderConcurrency": 1,
+  "authorsMayRunBlender": false,
+  "web": false,
+  "externalAssets": false
+ },
+ "frozenFiles": {
+  "creation-lab/benchmarks/claude-animal-cell/brief.json": "b0f3812e3e4910c155be47400d4c3b3e16c801c2b89e8423d2626684c0571b04",
+  "creation-lab/benchmarks/claude-animal-cell/profile.json": "906ded5deed16405841121f3f62d8879c4f60720d4d8a6f3deaef068e9dd3c52",
+  "creation-lab/benchmarks/claude-animal-cell/AUTHORING.md": "cbf53ab44a0d28802d4b4060ad56961d0d8c5f147b69bc420b33655be4d44a1d",
+  "creation-lab/benchmarks/claude-animal-cell/REVIEWING.md": "b0c1cde40ca2b49458f97a9e934dbdad22154c515c2ed3790f83b1cb094b398c",
+  "creation-lab/benchmarks/claude-animal-cell/bench.py": "869a2fdcc5b67d4e1a7dd2364b2423853c68ee3a92e864bdfff84b8aafc28659",
+  "creation-lab/benchmarks/claude-animal-cell/wsl-blender.sh": "d3317fa3014dc50b760820396552cf1b6b6b92def50539289f015dc67ff8d98d",
+  "creation-lab/iterate.py": "ffd2500778595e53bd8e2bab88c38b27527640edf94ee7d40f460ffce5d4b368",
+  "creation-lab/scripts/iteration_worker.py": "42f6b7198a7b44ab6fdc2cf10122548bff2836beb1f4899e912b0b5097c638b6",
+  "lab/scripts/creation_geometry.py": "c17aea328061dc540124539168ba9e559d6f5b6df2b289fc7a2eb2fe802c8acc"
+ },
+ "componentLibrary": {
+  "path": "creation-lab/components",
+  "treeSha256": "461218eae38433960c3d3d822456f944422c28f427819e51db8907d5173e71db",
+  "files": {
+   "creation-lab/components/README.md": "b6004109628c773972d0935509a84ef89966b8c20fbfd8d3f04ca9ccb3770654",
+   "creation-lab/components/__init__.py": "92e84064bdac3684da122ed4672911fdafff489ab7e15016ba73eca82bff458e",
+   "creation-lab/components/blender.py": "b6fa944adf0c1444fadb8e7262714e90459b8db62ff0f7ff65d1d2b5c29c5496",
+   "creation-lab/components/demo-brief.json": "c83cd6f14c6704a0789cfe9d6ae211b8cb48f2405673059e1cdc8cfde90d534b",
+   "creation-lab/components/geometry.py": "9611dd23a53d281f1dbdef5b6503f51561ebbdbb314b3880cc11a8233c9e76c6"
+  }
+ },
+ "historicalBriefSha256": "aa35371ddaaa15349754a36c36029f545eb359c0342ad2cca09af389a021b88c",
+ "rubric": {
+  "biology": 30,
+  "readability": 25,
+  "composition": 15,
+  "shapeShading": 15,
+  "educationalUse": 15,
+  "scoredStage": "detail"
+ },
+ "gates": [
+  "technical (build/reopen/reimport, budgets, size on all axes, nondegenerate, GLB self-contained)",
+  "visual",
+  "content/biology"
+ ],
+ "states": [
+  "PASS",
+  "FAIL",
+  "BLOCKED",
+  "NOT_RUN"
+ ],
+ "limits": [
+  "n=3 per family: exploratory, no statistical ranking",
+  "measures component-assisted authoring, not generation from scratch",
+  "same-family reviewer bias possible for opus condition; reviewer is model-assisted, not an external teacher; human review NOT_RUN unless recorded",
+  "compares authors under one assisted review system; not end-to-end Haiku/Sonnet/Opus-only workflows",
+  "historical Sol/Luna/Astra pilot used no visual loop nor component library: context only, no cross-provider claims",
+  "token counts come from runtime transcripts; cost NOT_AVAILABLE; Blender time is not model latency"
+ ],
+ "amendments": [
+  {
+   "version": "1.1",
+   "at": "2026-10-23",
+   "trigger": "First blind review (blockout of R7, blind 9ac09fb3) listed the wireframe render as an author defect; coordinator opened the image and confirmed the frozen worker's 0.18 mm wire modifier is nearly invisible at 768 px (same for every run, incl. harness smoke).",
+   "change": "REVIEWING.md step 6 clarifies the wireframe view is a common harness property, not an author defect; bench.py packet records reviewingSha256 and feedback appends the same harness note for every replica. Worker, renders, budgets and gates unchanged.",
+   "affected": "Review of R7 blockout (9ac09fb3) ran under v1.0 and is ingested unchanged; its other defects are independent of this note. All later reviews use v1.1.",
+   "previousHashes": {
+    "REVIEWING.md": "b0c1cde40ca2b49458f97a9e934dbdad22154c515c2ed3790f83b1cb094b398c",
+    "bench.py": "869a2fdcc5b67d4e1a7dd2364b2423853c68ee3a92e864bdfff84b8aafc28659"
+   },
+   "newHashes": {
+    "REVIEWING.md": "f2f4ad5a541826671d6b414140f29b0dfcf0baca9551a4c50357d70f2e9ab182",
+    "bench.py": "843b806249833afa4a228c36b34b6d917a3174ac5b4d70161d4be35ed81f7d5a"
+   }
+  },
+  {
+   "version": "1.2",
+   "at": "2026-10-23",
+   "trigger": "Review c781184a (R3 blockout) gave visual PASS with three parts unclear; iterate.py rejected it ('Hidden/unclear required parts cannot receive PASS'). REVIEWING.md stated the visibility rule only for content.",
+   "change": "REVIEWING.md step 4 states the existing iterate.py rule for both gates. No tool, gate or threshold changed.",
+   "affected": "Rejected review kept as blind/c781184a/review-rejected-1.json; the same reviewer context is asked to resolve the inconsistency without new images. Earlier ingested reviews already satisfied the rule.",
+   "newHashes": {
+    "REVIEWING.md": "e755d32e4c17b5da553bc41345d6768d90ab8e1b0af0028894ff9835c59d45a6"
+   }
+  },
+  {
+   "version": "1.3",
+   "at": "2026-10-23",
+   "trigger": "Review 1b6697af (R6 blockout) left views empty for hidden parts; iterate.py requires evidence views for every part.",
+   "change": "REVIEWING.md step 2 states that views lists where a hidden/unclear part was searched. No tool or gate changed.",
+   "affected": "Rejected file kept as blind/1b6697af/review-rejected-1.json; same reviewer context completes the views.",
+   "newHashes": {
+    "REVIEWING.md": "5eb881afd8a69eaec026bb6a5facf84d04ddd14ebb393b77c25be73967827486"
+   }
+  },
+  {
+   "version": "1.4",
+   "at": "2026-10-23",
+   "trigger": "Two reviews were rejected by iterate.py schema rules after writing.",
+   "change": "bench.py lint-review lets the reviewer validate review.json against the same rules using only its packet; REVIEWING.md asks to run it. Gates and judgement unchanged.",
+   "newHashes": {
+    "REVIEWING.md": "42c9ae87cc8416f01a38e4dc7a53855c208045ae6c0fdbc0a6ae967c0e15f790",
+    "bench.py": "be31a66d62bf89f84eca1115639c036b569eddb9144dfe7d952290de87d62a8c"
+   }
+  }
+ ]
+}
