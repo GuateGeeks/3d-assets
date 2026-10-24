@@ -28,4 +28,6 @@ Cuando la entrega incluya un visor interactivo, comprueba también su carga,
 selección y cámara según [QA del visor](references/viewer-checks.md). Esa prueba
 de interfaz se registra por separado de la revisión de renders.
 
+El `wireframe` del runner común usa un grosor de arista fijo que en maquetas de 0.3–0.4 m casi no se ve; juzga el facetado en las demás vistas y no lo cuentes como defecto del autor mientras el runner no cambie. En assets animados revisa además fotogramas de los tramos críticos de cada trayectoria (giros, extremos), no solo los primeros segundos.
+
 Cuando esté disponible, usa `review` con `--opened-images` y un argumento `--evidence VIEW=SHA256` por cada una de las seis imágenes.

@@ -1,0 +1,495 @@
+{
+  "stage": "verify",
+  "blender": "5.2.3 LTS",
+  "glb": "\\\\wsl.localhost\\Ubuntu\\home\\adawolfs\\projects\\makecode\\3d-assets\\creation-lab\\.local\\claude-school-20261023\\anim\\detail-v1\\animated.glb",
+  "glb_sha256": "9ca025344515ebb7859d6ea3def5307f815cb5f77c87150c464045952d110535",
+  "checks": [
+    {
+      "name": "imported-name:puerta",
+      "pass": true,
+      "detail": [
+        "puerta"
+      ]
+    },
+    {
+      "name": "animates-objects:puerta",
+      "pass": true,
+      "detail": {
+        "imported_objects": [
+          "puerta__puerta_hoja",
+          "puerta__puerta_manija"
+        ],
+        "imported_count": 2,
+        "glb_nodes": 2
+      }
+    },
+    {
+      "name": "duration:puerta",
+      "pass": true,
+      "detail": {
+        "glb_s": 3,
+        "expected_s": 3.0
+      }
+    },
+    {
+      "name": "imported-name:reloj",
+      "pass": true,
+      "detail": [
+        "reloj"
+      ]
+    },
+    {
+      "name": "animates-objects:reloj",
+      "pass": true,
+      "detail": {
+        "imported_objects": [
+          "torre_reloj__reloj_horario",
+          "torre_reloj__reloj_minutero"
+        ],
+        "imported_count": 2,
+        "glb_nodes": 2
+      }
+    },
+    {
+      "name": "duration:reloj",
+      "pass": true,
+      "detail": {
+        "glb_s": 72,
+        "expected_s": 72.0
+      }
+    },
+    {
+      "name": "imported-name:bandera",
+      "pass": true,
+      "detail": [
+        "bandera"
+      ]
+    },
+    {
+      "name": "animates-objects:bandera",
+      "pass": true,
+      "detail": {
+        "imported_objects": [
+          "asta_bandera__Bandera blanca",
+          "asta_bandera__Bandera celeste"
+        ],
+        "imported_count": 2,
+        "glb_nodes": 2
+      }
+    },
+    {
+      "name": "duration:bandera",
+      "pass": true,
+      "detail": {
+        "glb_s": 2.4166666666666665,
+        "expected_s": 2.4166666666666665
+      }
+    },
+    {
+      "name": "imported-name:balon",
+      "pass": true,
+      "detail": [
+        "balon"
+      ]
+    },
+    {
+      "name": "animates-objects:balon",
+      "pass": true,
+      "detail": {
+        "imported_objects": [
+          "cancha__Balon"
+        ],
+        "imported_count": 1,
+        "glb_nodes": 1
+      }
+    },
+    {
+      "name": "duration:balon",
+      "pass": true,
+      "detail": {
+        "glb_s": 0.7916666666666666,
+        "expected_s": 0.7916666666666666
+      }
+    },
+    {
+      "name": "imported-name:columpios",
+      "pass": true,
+      "detail": [
+        "columpios"
+      ]
+    },
+    {
+      "name": "animates-objects:columpios",
+      "pass": true,
+      "detail": {
+        "imported_objects": [
+          "juegos__Asiento columpio 1",
+          "juegos__Asiento columpio 2",
+          "juegos__Cadenas columpio 1",
+          "juegos__Cadenas columpio 2"
+        ],
+        "imported_count": 4,
+        "glb_nodes": 4
+      }
+    },
+    {
+      "name": "duration:columpios",
+      "pass": true,
+      "detail": {
+        "glb_s": 2.2083333333333335,
+        "expected_s": 2.2083333333333335
+      }
+    },
+    {
+      "name": "imported-name:arboles",
+      "pass": true,
+      "detail": [
+        "arboles"
+      ]
+    },
+    {
+      "name": "animates-objects:arboles",
+      "pass": true,
+      "detail": {
+        "imported_objects": [
+          "arboles__arbol_0_copa",
+          "arboles__arbol_0_tronco",
+          "arboles__arbol_1_copa",
+          "arboles__arbol_1_tronco",
+          "arboles__arbol_2_copa",
+          "arboles__arbol_2_tronco",
+          "arboles__arbol_3_copa",
+          "arboles__arbol_3_tronco",
+          "arboles__arbol_4_copa",
+          "arboles__arbol_4_tronco",
+          "arboles__arbol_5_copa",
+          "arboles__arbol_5_tronco"
+        ],
+        "imported_count": 16,
+        "glb_nodes": 16
+      }
+    },
+    {
+      "name": "duration:arboles",
+      "pass": true,
+      "detail": {
+        "glb_s": 3.8333333333333335,
+        "expected_s": 3.8333333333333335
+      }
+    },
+    {
+      "name": "imported-name:autobus",
+      "pass": true,
+      "detail": [
+        "autobus"
+      ]
+    },
+    {
+      "name": "animates-objects:autobus",
+      "pass": true,
+      "detail": {
+        "imported_objects": [
+          "autobus__bus_carroceria",
+          "autobus__bus_detalles",
+          "autobus__bus_luces",
+          "autobus__bus_luces_traseras",
+          "autobus__bus_vidrio"
+        ],
+        "imported_count": 5,
+        "glb_nodes": 5
+      }
+    },
+    {
+      "name": "duration:autobus",
+      "pass": true,
+      "detail": {
+        "glb_s": 14,
+        "expected_s": 14.0
+      }
+    },
+    {
+      "name": "imported-name:estudiantes",
+      "pass": true,
+      "detail": [
+        "estudiantes"
+      ]
+    },
+    {
+      "name": "animates-objects:estudiantes",
+      "pass": true,
+      "detail": {
+        "imported_objects": [
+          "estudiantes__estudiante_0_cabello",
+          "estudiantes__estudiante_0_cabeza",
+          "estudiantes__estudiante_0_mochila",
+          "estudiantes__estudiante_0_piernas",
+          "estudiantes__estudiante_0_torso",
+          "estudiantes__estudiante_1_cabeza",
+          "estudiantes__estudiante_1_piernas_cabello",
+          "estudiantes__estudiante_1_torso",
+          "estudiantes__estudiante_2_cabello",
+          "estudiantes__estudiante_2_cabeza",
+          "estudiantes__estudiante_2_mochila",
+          "estudiantes__estudiante_2_piernas"
+        ],
+        "imported_count": 20,
+        "glb_nodes": 20
+      }
+    },
+    {
+      "name": "duration:estudiantes",
+      "pass": true,
+      "detail": {
+        "glb_s": 12,
+        "expected_s": 12.0
+      }
+    },
+    {
+      "name": "imported-name:nubes",
+      "pass": true,
+      "detail": [
+        "nubes"
+      ]
+    },
+    {
+      "name": "animates-objects:nubes",
+      "pass": true,
+      "detail": {
+        "imported_objects": [
+          "nubes__nube_0",
+          "nubes__nube_1",
+          "nubes__nube_2"
+        ],
+        "imported_count": 3,
+        "glb_nodes": 3
+      }
+    },
+    {
+      "name": "duration:nubes",
+      "pass": true,
+      "detail": {
+        "glb_s": 11,
+        "expected_s": 11.0
+      }
+    },
+    {
+      "name": "part-id-preserved",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "part-id-counts-match",
+      "pass": true,
+      "detail": {
+        "imported": {
+          "arboles": 16,
+          "asta_bandera": 5,
+          "autobus": 5,
+          "camino": 3,
+          "cancha": 6,
+          "edificio": 7,
+          "estudiantes": 20,
+          "juegos": 6,
+          "nubes": 3,
+          "puerta": 2,
+          "techo": 3,
+          "terreno": 3,
+          "torre_reloj": 9,
+          "ventanas": 2
+        },
+        "expected": {
+          "terreno": 3,
+          "camino": 3,
+          "autobus": 5,
+          "edificio": 7,
+          "techo": 3,
+          "ventanas": 2,
+          "puerta": 2,
+          "torre_reloj": 9,
+          "asta_bandera": 5,
+          "juegos": 6,
+          "cancha": 6,
+          "arboles": 16,
+          "nubes": 3,
+          "estudiantes": 20
+        }
+      }
+    },
+    {
+      "name": "mesh-count",
+      "pass": true,
+      "detail": {
+        "imported": 90,
+        "expected": 90
+      }
+    },
+    {
+      "name": "triangle-count",
+      "pass": true,
+      "detail": {
+        "imported": 7078,
+        "expected": 7078
+      }
+    }
+  ],
+  "warnings": [],
+  "status": "PASS",
+  "glb_animations": {
+    "arboles": {
+      "nodes": [
+        "arboles__arbol_0_copa",
+        "arboles__arbol_0_tronco",
+        "arboles__arbol_1_copa",
+        "arboles__arbol_1_tronco",
+        "arboles__arbol_2_copa",
+        "arboles__arbol_2_tronco",
+        "arboles__arbol_3_copa",
+        "arboles__arbol_3_tronco",
+        "arboles__arbol_4_copa",
+        "arboles__arbol_4_tronco",
+        "arboles__arbol_5_copa",
+        "arboles__arbol_5_tronco",
+        "arboles__arbol_6_copa",
+        "arboles__arbol_6_tronco",
+        "arboles__arbol_7_copa",
+        "arboles__arbol_7_tronco"
+      ],
+      "channels": 16,
+      "duration_s": 3.8333333333333335,
+      "start_s": 0,
+      "frames": 92.0
+    },
+    "bandera": {
+      "nodes": [
+        "asta_bandera__Bandera blanca",
+        "asta_bandera__Bandera celeste"
+      ],
+      "channels": 2,
+      "duration_s": 2.4166666666666665,
+      "start_s": 0,
+      "frames": 58.0
+    },
+    "autobus": {
+      "nodes": [
+        "autobus__bus_carroceria",
+        "autobus__bus_detalles",
+        "autobus__bus_luces",
+        "autobus__bus_luces_traseras",
+        "autobus__bus_vidrio"
+      ],
+      "channels": 10,
+      "duration_s": 14,
+      "start_s": 0,
+      "frames": 336
+    },
+    "balon": {
+      "nodes": [
+        "cancha__Balon"
+      ],
+      "channels": 1,
+      "duration_s": 0.7916666666666666,
+      "start_s": 0,
+      "frames": 19.0
+    },
+    "estudiantes": {
+      "nodes": [
+        "estudiantes__estudiante_0_cabello",
+        "estudiantes__estudiante_0_cabeza",
+        "estudiantes__estudiante_0_mochila",
+        "estudiantes__estudiante_0_piernas",
+        "estudiantes__estudiante_0_torso",
+        "estudiantes__estudiante_1_cabeza",
+        "estudiantes__estudiante_1_piernas_cabello",
+        "estudiantes__estudiante_1_torso",
+        "estudiantes__estudiante_2_cabello",
+        "estudiantes__estudiante_2_cabeza",
+        "estudiantes__estudiante_2_mochila",
+        "estudiantes__estudiante_2_piernas",
+        "estudiantes__estudiante_2_torso",
+        "estudiantes__estudiante_3_cabello",
+        "estudiantes__estudiante_3_cabeza",
+        "estudiantes__estudiante_3_piernas",
+        "estudiantes__estudiante_3_torso",
+        "estudiantes__estudiante_4_cabeza",
+        "estudiantes__estudiante_4_piernas_cabello",
+        "estudiantes__estudiante_4_torso"
+      ],
+      "channels": 33,
+      "duration_s": 12,
+      "start_s": 0,
+      "frames": 288
+    },
+    "columpios": {
+      "nodes": [
+        "juegos__Asiento columpio 1",
+        "juegos__Asiento columpio 2",
+        "juegos__Cadenas columpio 1",
+        "juegos__Cadenas columpio 2"
+      ],
+      "channels": 4,
+      "duration_s": 2.2083333333333335,
+      "start_s": 0,
+      "frames": 53.0
+    },
+    "nubes": {
+      "nodes": [
+        "nubes__nube_0",
+        "nubes__nube_1",
+        "nubes__nube_2"
+      ],
+      "channels": 3,
+      "duration_s": 11,
+      "start_s": 0,
+      "frames": 264
+    },
+    "puerta": {
+      "nodes": [
+        "puerta__puerta_hoja",
+        "puerta__puerta_manija"
+      ],
+      "channels": 2,
+      "duration_s": 3,
+      "start_s": 0,
+      "frames": 72
+    },
+    "reloj": {
+      "nodes": [
+        "torre_reloj__reloj_horario",
+        "torre_reloj__reloj_minutero"
+      ],
+      "channels": 2,
+      "duration_s": 72,
+      "start_s": 0,
+      "frames": 1728
+    }
+  },
+  "imported_animation_names": [
+    "arboles",
+    "autobus",
+    "balon",
+    "bandera",
+    "columpios",
+    "estudiantes",
+    "nubes",
+    "puerta",
+    "reloj"
+  ],
+  "meshes": 90,
+  "triangles": 7078,
+  "part_id_counts": {
+    "arboles": 16,
+    "asta_bandera": 5,
+    "autobus": 5,
+    "camino": 3,
+    "cancha": 6,
+    "edificio": 7,
+    "estudiantes": 20,
+    "juegos": 6,
+    "nubes": 3,
+    "puerta": 2,
+    "techo": 3,
+    "terreno": 3,
+    "torre_reloj": 9,
+    "ventanas": 2
+  }
+}

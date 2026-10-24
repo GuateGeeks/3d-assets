@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "claude-school-orchestrated-v1",
+  "kind": "isolated user-requested test; Claude models chosen per task by the coordinator; production default remains Sol/Luna",
+  "provider": "Anthropic first-party through Claude Code 2.1.299 (desktop entrypoint); subagent aliases haiku/sonnet/opus resolve to the IDs below (confirmed 2026-10-23 in the animal-cell benchmark probes; re-checked per agent from transcripts)",
+  "roles": {
+    "coordinator": {"models": ["claude-opus-5-5"], "efforts": ["high"], "note": "Brief, kit, composition, assembly, Blender runs, integration"},
+    "reviewer": {"models": ["claude-opus-5-5"], "efforts": ["medium"], "note": "Fresh context per review, images opened"}
+  },
+  "conditions": {
+    "orchestrated": {
+      "author": {"models": ["claude-opus-5-5", "claude-sonnet-5-5", "claude-haiku-5-5"], "efforts": ["high", "medium"]}
+    }
+  }
+}

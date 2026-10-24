@@ -1,0 +1,68 @@
+{
+  "coordinator": {
+    "actorId": "claude-code-session-78a07db9-5244-4ee7-871e-a2103b3c7094",
+    "requestedModel": "claude-opus-5-5",
+    "requestedEffort": "high"
+  },
+  "authors": {
+    "vida": {
+      "agentId": "a569dab4bf857933b",
+      "requestedAlias": "opus",
+      "requestedEffort": "medium",
+      "parts": [
+        "arboles",
+        "nubes",
+        "estudiantes"
+      ]
+    },
+    "patio": {
+      "agentId": "a7e74b0e15fa47cbe",
+      "requestedAlias": "opus",
+      "requestedEffort": "medium",
+      "parts": [
+        "asta_bandera",
+        "juegos",
+        "cancha"
+      ]
+    },
+    "entorno": {
+      "agentId": "a5f1ded2fecf5034d",
+      "requestedAlias": "opus",
+      "requestedEffort": "medium",
+      "parts": [
+        "terreno",
+        "camino",
+        "autobus"
+      ]
+    },
+    "edificio": {
+      "agentId": "a202e7fc822f32a82",
+      "requestedAlias": "opus",
+      "requestedEffort": "medium",
+      "parts": [
+        "edificio",
+        "techo",
+        "ventanas",
+        "puerta",
+        "torre_reloj"
+      ]
+    },
+    "anim": {
+      "agentId": "a86a704df69c0984d",
+      "requestedAlias": "opus",
+      "requestedEffort": "medium",
+      "deliverable": "anim_worker.py"
+    },
+    "web": {
+      "agentId": "af44ad2458e1cefc2",
+      "requestedAlias": "opus",
+      "requestedEffort": "medium",
+      "deliverable": "index.html"
+    }
+  },
+  "reviewers": {
+    "a1465e3cfeb5e2db4": "blockout v1 (run 001)",
+    "a365dd00b96302d64": "detail v1 (run 002)",
+    "a4bac5b37c19e970e": "final animación + web"
+  }
+}

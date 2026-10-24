@@ -1,0 +1,60 @@
+{
+ "schemaVersion": 1,
+ "note": "Entregables finales por condición: run de detalle aprobado (fuente .blend, GLB estático, partes, 6 renders) y paso de animación (animated.blend/.glb, 4 fotogramas). Restaurar con restore.py.",
+ "fixtures": {
+  "orquestada": {
+   "zip": "orquestada.zip",
+   "sha256": "77f9b2b137ce5e4f8bd7bfc739be7f6d94f077f1019fc515b906d653f4507013",
+   "bytes": 7317220,
+   "detailRun": "003-4f40280a1fc5",
+   "members": {
+    "detail/source.blend": "a299570e4d83a0ad28d1b5ca101fb7d0976415001ba9bcc1368d8d93f534c6cf",
+    "detail/asset.glb": "15b3bf60c96bf570d7302b3ce640a05539e03b9dc370e075289c83f6e8cdbaa4",
+    "detail/parts.json": "808ca9b4fb78c279d59e47ec0bb778ce8be9b6183bb22313bbd0b977f0a0b037",
+    "detail/manifest.json": "7575dde843e8990abf8650561043ec31e661bd83c879dd8c870cd4dede68b4e2",
+    "detail/COMPLETE": "b73e5641cced47cab198481ecfb02d7ff749dea56a3f7f35ce68e678baee425d",
+    "detail/renders/front.png": "4d4f46059c4313b57273183c1abd1f1e3db478fdda3f684b6bb78d1524d9dc4a",
+    "detail/renders/side.png": "3f395065779e6a456d6169e327f80208029ab58abb33f5537af0b3abd47fa90c",
+    "detail/renders/back.png": "db6a7fcb85c708d3c3ac6999004dbb75ce87c99072b9a97906bad0746fdd2eab",
+    "detail/renders/three-quarter.png": "5b12902f543ab4de0319f230864814e26c8a0b5df17716964689e58eb46a379c",
+    "detail/renders/wireframe.png": "a1045fec8afd25e16a7470a292ccc166bbdb1e0f9b6f19c7e189a95faa216d01",
+    "detail/renders/reimport-three-quarter.png": "a3bf1387438fbfc7dfe72ffa50df7a11bc8f851c7deba00ca9747e32f1e24472",
+    "anim/animated.blend": "cfc6c88e7dd06db62ec984b42eb83fba1327df7801a1fbec0d1e975ce72698d8",
+    "anim/animated.glb": "9ca025344515ebb7859d6ea3def5307f815cb5f77c87150c464045952d110535",
+    "anim/anim-result.json": "d22068a2aced038141da1b85a360209a2175464143739423c787d00dffda1449",
+    "anim/verify-result.json": "738d09e95f58fec8cddfe6565662fdfe104ed420aa90db413d7472e4931bee24",
+    "anim/renders/anim-0.png": "0d4304d8dd11d7a7ae04fdd59a0d0ee7f3d776b854bce1495b3b62c2a977d639",
+    "anim/renders/anim-19.png": "786f864a399be8941b4c91ba8596495f92b6fe42e6297008357e64fbae773cf2",
+    "anim/renders/anim-38.png": "7ad1bb07bc10f9b5bdae212db374e5529802080cd3f27465a193fee66248afcb",
+    "anim/renders/anim-58.png": "fc6ade77b479459d310c595449c596472df0ecb8a4d4f86bced8df31afbc9e9e"
+   }
+  },
+  "opus": {
+   "zip": "opus.zip",
+   "sha256": "4e76acc3b83104f904da98190dbe1501528856216af2277b1f23f6cdc86ce937",
+   "bytes": 7461880,
+   "detailRun": "002-da798cb30fbb",
+   "members": {
+    "detail/source.blend": "83749995051d487b9cfd52b715653a17d9fe26f32a487e0629d0eb5a6c02632f",
+    "detail/asset.glb": "5fb4300fffcb3314298f04e2ff4a211076bd7a03e402eda0e7fa8bafda9c7344",
+    "detail/parts.json": "e38ecbe799c439424ce29db2e3d1b14bf66b857e0f3538daad1dddafcc7870ef",
+    "detail/manifest.json": "d84c42d53ed9268d801b2f2e331939e705c74391c7bcd0046d4dc140a0756b18",
+    "detail/COMPLETE": "e7405ea340745fa42c9c830da848c3b7128d4ff3b7d26ffa599a9e6835b9a69c",
+    "detail/renders/front.png": "f0a1b2917e858447a570064c8d65327ba9dae82f97eb56b9efa821c308aac60a",
+    "detail/renders/side.png": "6dee7db93479bcaaf2e0434ace7586f7407dbb5adf4b5ddcdbbbcd92eb243c5b",
+    "detail/renders/back.png": "ef847f61e248a1d0ede3032197df7586d1da4497711f44fa0efa69ae5d099978",
+    "detail/renders/three-quarter.png": "260c286d969210a9f6bfe09ac9ab5719bcb7f49b15af7087b570ed7d209f609c",
+    "detail/renders/wireframe.png": "80256949283cafba489d1e45ed73c60b4ba05c4fc71859164b18c48f50f564dc",
+    "detail/renders/reimport-three-quarter.png": "7efe04a65bf46ecb25993abaa3828e721fa6bdc8a5fe366854d225ca74d636c8",
+    "anim/animated.blend": "0f4d723828872da9482618b092238cbe95bd42e5c8e0088a53bb80d30606e0a8",
+    "anim/animated.glb": "f1db07aeb94dcdbcc3065efb088d78a37bec062963e22dc609498482914189a4",
+    "anim/anim-result.json": "30671322e8830bb5adba08d2fd6f4e1cdd8d42cbed6786bbd8a5b2b65bf21882",
+    "anim/verify-result.json": "2edc7b573691875f7b40ae6d55e8962ae40ea31885992c1e1f789aeaee83b30e",
+    "anim/renders/anim-000.00.png": "fe00627642cccff6d53290a48f451b823594bc156cc39afbb4ea1d3a181c3742",
+    "anim/renders/anim-019.20.png": "635ebab1963a10fc461d275f05b95714a7d500b7bd6c8b2b09cd3cdf08b42b8c",
+    "anim/renders/anim-038.40.png": "bebba64d931bc397e85e06045f2c0aad52fd54a614a52a25734a9f7503e97a3a",
+    "anim/renders/anim-057.60.png": "91d3b95f30975cafa6692719311f5e21b2eda2da02f79184cc97fc2730bdc2ed"
+   }
+  }
+ }
+}

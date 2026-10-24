@@ -1,0 +1,165 @@
+{
+ "method": "Entrada fiable; salida = máx(registrada, texto/código visible/3.5): cota inferior sin razonamiento oculto. Coste no disponible.",
+ "agents": {
+  "a569dab4bf857933b": {
+   "role": "autor vida",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 10,
+   "inputTokensTotal": 547915,
+   "cacheReadTokens": 439585,
+   "outputTokensRecorded": 4308,
+   "outputTokensVisibleEstimate": 6441,
+   "outputTokensLowerBound": 6441
+  },
+  "a7e74b0e15fa47cbe": {
+   "role": "autor patio",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 9,
+   "inputTokensTotal": 469238,
+   "cacheReadTokens": 370458,
+   "outputTokensRecorded": 8904,
+   "outputTokensVisibleEstimate": 5403,
+   "outputTokensLowerBound": 8904
+  },
+  "a5f1ded2fecf5034d": {
+   "role": "autor entorno",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 7,
+   "inputTokensTotal": 346461,
+   "cacheReadTokens": 252980,
+   "outputTokensRecorded": 96,
+   "outputTokensVisibleEstimate": 4395,
+   "outputTokensLowerBound": 4395
+  },
+  "a202e7fc822f32a82": {
+   "role": "autor edificio",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 10,
+   "inputTokensTotal": 628032,
+   "cacheReadTokens": 570996,
+   "outputTokensRecorded": 21332,
+   "outputTokensVisibleEstimate": 7443,
+   "outputTokensLowerBound": 21332
+  },
+  "a86a704df69c0984d": {
+   "role": "autor anim",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 15,
+   "inputTokensTotal": 1048923,
+   "cacheReadTokens": 951763,
+   "outputTokensRecorded": 17419,
+   "outputTokensVisibleEstimate": 17933,
+   "outputTokensLowerBound": 17933
+  },
+  "af44ad2458e1cefc2": {
+   "role": "autor web",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 49,
+   "inputTokensTotal": 4917133,
+   "cacheReadTokens": 4690947,
+   "outputTokensRecorded": 29486,
+   "outputTokensVisibleEstimate": 27481,
+   "outputTokensLowerBound": 29486
+  },
+  "a1465e3cfeb5e2db4": {
+   "role": "revisor blockout v1 (run 001)",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 6,
+   "inputTokensTotal": 254242,
+   "cacheReadTokens": 223357,
+   "outputTokensRecorded": 738,
+   "outputTokensVisibleEstimate": 3543,
+   "outputTokensLowerBound": 3543
+  },
+  "a365dd00b96302d64": {
+   "role": "revisor detail v1 (run 002)",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 11,
+   "inputTokensTotal": 512829,
+   "cacheReadTokens": 473279,
+   "outputTokensRecorded": 3210,
+   "outputTokensVisibleEstimate": 4949,
+   "outputTokensLowerBound": 4949
+  },
+  "a4bac5b37c19e970e": {
+   "role": "revisor final animación + web",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 10,
+   "inputTokensTotal": 511765,
+   "cacheReadTokens": 464861,
+   "outputTokensRecorded": 2260,
+   "outputTokensVisibleEstimate": 4113,
+   "outputTokensLowerBound": 4113
+  }
+ },
+ "coordinator": {
+  "role": "coordinador (tramo de esta condición en la sesión principal)",
+  "requested": [
+   "claude-opus-5-5",
+   "high"
+  ],
+  "responseModels": [
+   "claude-opus-5-5"
+  ],
+  "apiResponses": 50,
+  "inputTokensTotal": 24918467,
+  "cacheReadTokens": 24790980,
+  "outputTokensRecorded": 48643,
+  "outputTokensVisibleEstimate": 22759,
+  "outputTokensLowerBound": 48643
+ }
+}

@@ -1,0 +1,4406 @@
+{
+  "stage": "animate",
+  "blender": "5.2.3 LTS",
+  "source": "\\\\wsl.localhost\\Ubuntu\\home\\adawolfs\\projects\\makecode\\3d-assets\\creation-lab\\.local\\claude-school-20261023\\session\\runs\\003-4f40280a1fc5\\source.blend",
+  "fps": 24,
+  "checks": [
+    {
+      "name": "brief-clips-present",
+      "pass": true,
+      "detail": {
+        "puerta": 2,
+        "reloj": 2,
+        "bandera": 2,
+        "balon": 1,
+        "columpios": 4,
+        "arboles": 16,
+        "autobus": 5,
+        "estudiantes": 20,
+        "nubes": 3
+      }
+    },
+    {
+      "name": "no-unknown-clips",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "repivot-bbox-unchanged",
+      "pass": true,
+      "detail": {
+        "objects": 55,
+        "max_error_m": 1.862645149230957e-09,
+        "tolerance_m": 1e-06,
+        "not_repivoted": []
+      }
+    },
+    {
+      "name": "clip-consistent:autobus",
+      "pass": true,
+      "detail": {
+        "kinds": [
+          "path"
+        ],
+        "periods_frames": [
+          336
+        ],
+        "pivots": 1,
+        "param_sets": 1
+      }
+    },
+    {
+      "name": "loop-closed:autobus",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "rotation-step-ok:autobus",
+      "pass": true,
+      "detail": 36.699555951958466
+    },
+    {
+      "name": "clip-consistent:puerta",
+      "pass": true,
+      "detail": {
+        "kinds": [
+          "hinge"
+        ],
+        "periods_frames": [
+          72
+        ],
+        "pivots": 1,
+        "param_sets": 1
+      }
+    },
+    {
+      "name": "hinge-open-only:puerta",
+      "pass": true,
+      "detail": "primer frame cerrado, ultimo abierto; sin bucle: 0.0"
+    },
+    {
+      "name": "rotation-step-ok:puerta",
+      "pass": true,
+      "detail": 2.0827974965706466
+    },
+    {
+      "name": "clip-consistent:reloj",
+      "pass": true,
+      "detail": {
+        "kinds": [
+          "spin"
+        ],
+        "periods_frames": [
+          1728
+        ],
+        "pivots": 2,
+        "param_sets": 2
+      }
+    },
+    {
+      "name": "loop-closed:reloj",
+      "pass": true,
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "name": "rotation-step-ok:reloj",
+      "pass": true,
+      "detail": 2.5000000000003535
+    },
+    {
+      "name": "clip-consistent:bandera",
+      "pass": true,
+      "detail": {
+        "kinds": [
+          "sway"
+        ],
+        "periods_frames": [
+          58
+        ],
+        "pivots": 1,
+        "param_sets": 1
+      }
+    },
+    {
+      "name": "loop-closed:bandera",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "rotation-step-ok:bandera",
+      "pass": true,
+      "detail": 1.9461423316309603
+    },
+    {
+      "name": "clip-consistent:columpios",
+      "pass": true,
+      "detail": {
+        "kinds": [
+          "swing"
+        ],
+        "periods_frames": [
+          53
+        ],
+        "pivots": 2,
+        "param_sets": 2
+      }
+    },
+    {
+      "name": "loop-closed:columpios",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "rotation-step-ok:columpios",
+      "pass": true,
+      "detail": 2.960730578637394
+    },
+    {
+      "name": "clip-consistent:balon",
+      "pass": true,
+      "detail": {
+        "kinds": [
+          "bounce"
+        ],
+        "periods_frames": [
+          19
+        ],
+        "pivots": 1,
+        "param_sets": 1
+      }
+    },
+    {
+      "name": "loop-closed:balon",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "rotation-step-ok:balon",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "clip-consistent:arboles",
+      "pass": true,
+      "detail": {
+        "kinds": [
+          "sway"
+        ],
+        "periods_frames": [
+          92
+        ],
+        "pivots": 8,
+        "param_sets": 8
+      }
+    },
+    {
+      "name": "loop-closed:arboles",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "rotation-step-ok:arboles",
+      "pass": true,
+      "detail": 0.34141110185969326
+    },
+    {
+      "name": "clip-consistent:nubes",
+      "pass": true,
+      "detail": {
+        "kinds": [
+          "drift"
+        ],
+        "periods_frames": [
+          264
+        ],
+        "pivots": 3,
+        "param_sets": 3
+      }
+    },
+    {
+      "name": "loop-closed:nubes",
+      "pass": true,
+      "detail": 1.3877787807814457e-17
+    },
+    {
+      "name": "rotation-step-ok:nubes",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "name": "clip-consistent:estudiantes",
+      "pass": true,
+      "detail": {
+        "kinds": [
+          "bounce",
+          "walk"
+        ],
+        "periods_frames": [
+          288
+        ],
+        "pivots": 5,
+        "param_sets": 5
+      }
+    },
+    {
+      "name": "loop-closed:estudiantes",
+      "pass": true,
+      "detail": 6.938893903907228e-18
+    },
+    {
+      "name": "rotation-step-ok:estudiantes",
+      "pass": true,
+      "detail": 13.488992589840644
+    },
+    {
+      "name": "no-active-actions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "nla-track-names",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "exporter-nla-mode",
+      "pass": true,
+      "detail": "NLA_TRACKS"
+    },
+    {
+      "name": "glb-written",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glb-no-cameras-lights",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "glb-animation:autobus",
+      "pass": true,
+      "detail": {
+        "nodes": [
+          "autobus__bus_carroceria",
+          "autobus__bus_detalles",
+          "autobus__bus_luces",
+          "autobus__bus_luces_traseras",
+          "autobus__bus_vidrio"
+        ],
+        "channels": 10,
+        "duration_s": 14,
+        "start_s": 0,
+        "frames": 336
+      }
+    },
+    {
+      "name": "glb-duration:autobus",
+      "pass": true,
+      "detail": {
+        "glb_s": 14,
+        "expected_s": 14.0
+      }
+    },
+    {
+      "name": "glb-objects:autobus",
+      "pass": true,
+      "detail": {
+        "glb_nodes": 5,
+        "objects": 5
+      }
+    },
+    {
+      "name": "glb-animation:puerta",
+      "pass": true,
+      "detail": {
+        "nodes": [
+          "puerta__puerta_hoja",
+          "puerta__puerta_manija"
+        ],
+        "channels": 2,
+        "duration_s": 3,
+        "start_s": 0,
+        "frames": 72
+      }
+    },
+    {
+      "name": "glb-duration:puerta",
+      "pass": true,
+      "detail": {
+        "glb_s": 3,
+        "expected_s": 3.0
+      }
+    },
+    {
+      "name": "glb-objects:puerta",
+      "pass": true,
+      "detail": {
+        "glb_nodes": 2,
+        "objects": 2
+      }
+    },
+    {
+      "name": "glb-animation:reloj",
+      "pass": true,
+      "detail": {
+        "nodes": [
+          "torre_reloj__reloj_horario",
+          "torre_reloj__reloj_minutero"
+        ],
+        "channels": 2,
+        "duration_s": 72,
+        "start_s": 0,
+        "frames": 1728
+      }
+    },
+    {
+      "name": "glb-duration:reloj",
+      "pass": true,
+      "detail": {
+        "glb_s": 72,
+        "expected_s": 72.0
+      }
+    },
+    {
+      "name": "glb-objects:reloj",
+      "pass": true,
+      "detail": {
+        "glb_nodes": 2,
+        "objects": 2
+      }
+    },
+    {
+      "name": "glb-animation:bandera",
+      "pass": true,
+      "detail": {
+        "nodes": [
+          "asta_bandera__Bandera blanca",
+          "asta_bandera__Bandera celeste"
+        ],
+        "channels": 2,
+        "duration_s": 2.4166666666666665,
+        "start_s": 0,
+        "frames": 58.0
+      }
+    },
+    {
+      "name": "glb-duration:bandera",
+      "pass": true,
+      "detail": {
+        "glb_s": 2.4166666666666665,
+        "expected_s": 2.4166666666666665
+      }
+    },
+    {
+      "name": "glb-objects:bandera",
+      "pass": true,
+      "detail": {
+        "glb_nodes": 2,
+        "objects": 2
+      }
+    },
+    {
+      "name": "glb-animation:columpios",
+      "pass": true,
+      "detail": {
+        "nodes": [
+          "juegos__Asiento columpio 1",
+          "juegos__Asiento columpio 2",
+          "juegos__Cadenas columpio 1",
+          "juegos__Cadenas columpio 2"
+        ],
+        "channels": 4,
+        "duration_s": 2.2083333333333335,
+        "start_s": 0,
+        "frames": 53.0
+      }
+    },
+    {
+      "name": "glb-duration:columpios",
+      "pass": true,
+      "detail": {
+        "glb_s": 2.2083333333333335,
+        "expected_s": 2.2083333333333335
+      }
+    },
+    {
+      "name": "glb-objects:columpios",
+      "pass": true,
+      "detail": {
+        "glb_nodes": 4,
+        "objects": 4
+      }
+    },
+    {
+      "name": "glb-animation:balon",
+      "pass": true,
+      "detail": {
+        "nodes": [
+          "cancha__Balon"
+        ],
+        "channels": 1,
+        "duration_s": 0.7916666666666666,
+        "start_s": 0,
+        "frames": 19.0
+      }
+    },
+    {
+      "name": "glb-duration:balon",
+      "pass": true,
+      "detail": {
+        "glb_s": 0.7916666666666666,
+        "expected_s": 0.7916666666666666
+      }
+    },
+    {
+      "name": "glb-objects:balon",
+      "pass": true,
+      "detail": {
+        "glb_nodes": 1,
+        "objects": 1
+      }
+    },
+    {
+      "name": "glb-animation:arboles",
+      "pass": true,
+      "detail": {
+        "nodes": [
+          "arboles__arbol_0_copa",
+          "arboles__arbol_0_tronco",
+          "arboles__arbol_1_copa",
+          "arboles__arbol_1_tronco",
+          "arboles__arbol_2_copa",
+          "arboles__arbol_2_tronco",
+          "arboles__arbol_3_copa",
+          "arboles__arbol_3_tronco",
+          "arboles__arbol_4_copa",
+          "arboles__arbol_4_tronco",
+          "arboles__arbol_5_copa",
+          "arboles__arbol_5_tronco",
+          "arboles__arbol_6_copa",
+          "arboles__arbol_6_tronco",
+          "arboles__arbol_7_copa",
+          "arboles__arbol_7_tronco"
+        ],
+        "channels": 16,
+        "duration_s": 3.8333333333333335,
+        "start_s": 0,
+        "frames": 92.0
+      }
+    },
+    {
+      "name": "glb-duration:arboles",
+      "pass": true,
+      "detail": {
+        "glb_s": 3.8333333333333335,
+        "expected_s": 3.8333333333333335
+      }
+    },
+    {
+      "name": "glb-objects:arboles",
+      "pass": true,
+      "detail": {
+        "glb_nodes": 16,
+        "objects": 16
+      }
+    },
+    {
+      "name": "glb-animation:nubes",
+      "pass": true,
+      "detail": {
+        "nodes": [
+          "nubes__nube_0",
+          "nubes__nube_1",
+          "nubes__nube_2"
+        ],
+        "channels": 3,
+        "duration_s": 11,
+        "start_s": 0,
+        "frames": 264
+      }
+    },
+    {
+      "name": "glb-duration:nubes",
+      "pass": true,
+      "detail": {
+        "glb_s": 11,
+        "expected_s": 11.0
+      }
+    },
+    {
+      "name": "glb-objects:nubes",
+      "pass": true,
+      "detail": {
+        "glb_nodes": 3,
+        "objects": 3
+      }
+    },
+    {
+      "name": "glb-animation:estudiantes",
+      "pass": true,
+      "detail": {
+        "nodes": [
+          "estudiantes__estudiante_0_cabello",
+          "estudiantes__estudiante_0_cabeza",
+          "estudiantes__estudiante_0_mochila",
+          "estudiantes__estudiante_0_piernas",
+          "estudiantes__estudiante_0_torso",
+          "estudiantes__estudiante_1_cabeza",
+          "estudiantes__estudiante_1_piernas_cabello",
+          "estudiantes__estudiante_1_torso",
+          "estudiantes__estudiante_2_cabello",
+          "estudiantes__estudiante_2_cabeza",
+          "estudiantes__estudiante_2_mochila",
+          "estudiantes__estudiante_2_piernas",
+          "estudiantes__estudiante_2_torso",
+          "estudiantes__estudiante_3_cabello",
+          "estudiantes__estudiante_3_cabeza",
+          "estudiantes__estudiante_3_piernas",
+          "estudiantes__estudiante_3_torso",
+          "estudiantes__estudiante_4_cabeza",
+          "estudiantes__estudiante_4_piernas_cabello",
+          "estudiantes__estudiante_4_torso"
+        ],
+        "channels": 33,
+        "duration_s": 12,
+        "start_s": 0,
+        "frames": 288
+      }
+    },
+    {
+      "name": "glb-duration:estudiantes",
+      "pass": true,
+      "detail": {
+        "glb_s": 12,
+        "expected_s": 12.0
+      }
+    },
+    {
+      "name": "glb-objects:estudiantes",
+      "pass": true,
+      "detail": {
+        "glb_nodes": 20,
+        "objects": 20
+      }
+    },
+    {
+      "name": "part-ids-present",
+      "pass": true,
+      "detail": {
+        "terreno": 3,
+        "camino": 3,
+        "autobus": 5,
+        "edificio": 7,
+        "techo": 3,
+        "ventanas": 2,
+        "puerta": 2,
+        "torre_reloj": 9,
+        "asta_bandera": 5,
+        "juegos": 6,
+        "cancha": 6,
+        "arboles": 16,
+        "nubes": 3,
+        "estudiantes": 20
+      }
+    },
+    {
+      "name": "renders-written",
+      "pass": true,
+      "detail": [
+        "anim-0.png",
+        "anim-19.png",
+        "anim-38.png",
+        "anim-58.png"
+      ]
+    }
+  ],
+  "warnings": [
+    "autobus: param path.phase ausente, uso 0.0",
+    "autobus: param path.turn_ratio ausente, uso 0.3",
+    "autobus: param path.phase ausente, uso 0.0",
+    "autobus: param path.turn_ratio ausente, uso 0.3",
+    "autobus: param path.phase ausente, uso 0.0",
+    "autobus: param path.turn_ratio ausente, uso 0.3",
+    "autobus: param path.phase ausente, uso 0.0",
+    "autobus: param path.turn_ratio ausente, uso 0.3",
+    "autobus: param path.phase ausente, uso 0.0",
+    "autobus: param path.turn_ratio ausente, uso 0.3",
+    "bandera: D*fps=57.6000 no entero; redondeo a 58 frames",
+    "columpios: D*fps=52.8000 no entero; redondeo a 53 frames",
+    "balon: D*fps=19.2000 no entero; redondeo a 19 frames",
+    "arboles: D*fps=92.1600 no entero; redondeo a 92 frames",
+    "arboles/arboles__arbol_0_tronco: period 3.0000 -> efectivo 3.8400 (k=1, D=3.8400), cambio > 15 %",
+    "arboles/arboles__arbol_0_copa: period 3.0000 -> efectivo 3.8400 (k=1, D=3.8400), cambio > 15 %",
+    "arboles/arboles__arbol_1_tronco: period 3.1200 -> efectivo 3.8400 (k=1, D=3.8400), cambio > 15 %",
+    "arboles/arboles__arbol_1_copa: period 3.1200 -> efectivo 3.8400 (k=1, D=3.8400), cambio > 15 %",
+    "arboles/arboles__arbol_2_tronco: period 3.2400 -> efectivo 3.8400 (k=1, D=3.8400), cambio > 15 %",
+    "arboles/arboles__arbol_2_copa: period 3.2400 -> efectivo 3.8400 (k=1, D=3.8400), cambio > 15 %",
+    "nubes/nubes__nube_0: period 9.0000 -> efectivo 11.0000 (k=1, D=11.0000), cambio > 15 %",
+    "estudiantes/estudiantes__estudiante_0_piernas: period 10.0000 -> efectivo 12.0000 (k=1, D=12.0000), cambio > 15 %",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes/estudiantes__estudiante_0_cabello: period 10.0000 -> efectivo 12.0000 (k=1, D=12.0000), cambio > 15 %",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes/estudiantes__estudiante_0_torso: period 10.0000 -> efectivo 12.0000 (k=1, D=12.0000), cambio > 15 %",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes/estudiantes__estudiante_0_cabeza: period 10.0000 -> efectivo 12.0000 (k=1, D=12.0000), cambio > 15 %",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes/estudiantes__estudiante_0_mochila: period 10.0000 -> efectivo 12.0000 (k=1, D=12.0000), cambio > 15 %",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes/estudiantes__estudiante_2_piernas: period 8.0000 -> efectivo 6.0000 (k=2, D=12.0000), cambio > 15 %",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes/estudiantes__estudiante_2_cabello: period 8.0000 -> efectivo 6.0000 (k=2, D=12.0000), cambio > 15 %",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes/estudiantes__estudiante_2_torso: period 8.0000 -> efectivo 6.0000 (k=2, D=12.0000), cambio > 15 %",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes/estudiantes__estudiante_2_cabeza: period 8.0000 -> efectivo 6.0000 (k=2, D=12.0000), cambio > 15 %",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012",
+    "estudiantes/estudiantes__estudiante_2_mochila: period 8.0000 -> efectivo 6.0000 (k=2, D=12.0000), cambio > 15 %",
+    "estudiantes: param walk.phase ausente, uso 0.0",
+    "estudiantes: param walk.turn_ratio ausente, uso 0.3",
+    "estudiantes: param walk.step_length ausente, uso 0.012"
+  ],
+  "status": "PASS",
+  "source_sha256": "a299570e4d83a0ad28d1b5ca101fb7d0976415001ba9bcc1368d8d93f534c6cf",
+  "mesh_objects_before": 90,
+  "animated_objects": 55,
+  "repivot": [
+    {
+      "object": "autobus__bus_carroceria",
+      "pivot": [
+        0.05999999865889549,
+        -0.13300000131130219,
+        -0.03849999979138374
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.02500000037252903,
+          -0.14499999582767487,
+          -0.03400000184774399
+        ],
+        [
+          0.0949999988079071,
+          -0.12099999934434891,
+          -0.010499999858438969
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.02500000223517418,
+          -0.14499999582767487,
+          -0.03400000184774399
+        ],
+        [
+          0.0949999988079071,
+          -0.12099999934434891,
+          -0.010499998927116394
+        ]
+      ],
+      "max_error_m": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "object": "autobus__bus_detalles",
+      "pivot": [
+        0.05999999865889549,
+        -0.13300000131130219,
+        -0.03849999979138374
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.023399999365210533,
+          -0.1467999964952469,
+          -0.03849999979138374
+        ],
+        [
+          0.0966000035405159,
+          -0.11919999867677689,
+          -0.008700000122189522
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.023399997502565384,
+          -0.1467999964952469,
+          -0.03849999979138374
+        ],
+        [
+          0.0966000035405159,
+          -0.11919999867677689,
+          -0.008700000122189522
+        ]
+      ],
+      "max_error_m": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "object": "autobus__bus_vidrio",
+      "pivot": [
+        0.05999999865889549,
+        -0.13300000131130219,
+        -0.03849999979138374
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.029999999329447746,
+          -0.14560000598430634,
+          -0.02449999935925007
+        ],
+        [
+          0.08560000360012054,
+          -0.12039999663829803,
+          -0.012000000104308128
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.029999999329447746,
+          -0.14560000598430634,
+          -0.02449999935925007
+        ],
+        [
+          0.08560000360012054,
+          -0.12039999663829803,
+          -0.012000000104308128
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "autobus__bus_luces",
+      "pivot": [
+        0.05999999865889549,
+        -0.13300000131130219,
+        -0.03849999979138374
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.09440000355243683,
+          -0.14174999296665192,
+          -0.02745000086724758
+        ],
+        [
+          0.09560000151395798,
+          -0.12425000220537186,
+          -0.024949999526143074
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.09440000355243683,
+          -0.14174999296665192,
+          -0.02745000086724758
+        ],
+        [
+          0.09560000151395798,
+          -0.12425000220537186,
+          -0.024949999526143074
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "autobus__bus_luces_traseras",
+      "pivot": [
+        0.05999999865889549,
+        -0.13300000131130219,
+        -0.03849999979138374
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.024399999529123306,
+          -0.14174999296665192,
+          -0.02745000086724758
+        ],
+        [
+          0.025599999353289604,
+          -0.12425000220537186,
+          -0.024949999526143074
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.024399999529123306,
+          -0.14174999296665192,
+          -0.02745000086724758
+        ],
+        [
+          0.025599997490644455,
+          -0.12425000220537186,
+          -0.024949999526143074
+        ]
+      ],
+      "max_error_m": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "object": "puerta__puerta_hoja",
+      "pivot": [
+        -0.009999999776482582,
+        -0.011500000022351742,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.009999999776482582,
+          -0.012749999761581421,
+          -0.03750000149011612
+        ],
+        [
+          0.009999999776482582,
+          -0.01080000028014183,
+          -0.009999999776482582
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.009999999776482582,
+          -0.012749999761581421,
+          -0.03750000149011612
+        ],
+        [
+          0.009999999776482582,
+          -0.01080000028014183,
+          -0.009999999776482582
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "puerta__puerta_manija",
+      "pivot": [
+        -0.009999999776482582,
+        -0.011500000022351742,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.0066999997943639755,
+          -0.013299999758601189,
+          -0.024550000205636024
+        ],
+        [
+          0.008299999870359898,
+          -0.012299999594688416,
+          -0.022949999198317528
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.0066999997943639755,
+          -0.013299999758601189,
+          -0.024550000205636024
+        ],
+        [
+          0.008300000801682472,
+          -0.012299999594688416,
+          -0.022949999198317528
+        ]
+      ],
+      "max_error_m": 9.313225746154785e-10,
+      "pass": true
+    },
+    {
+      "object": "torre_reloj__reloj_minutero",
+      "pivot": [
+        0.0,
+        -0.01269999984651804,
+        0.06499999761581421
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.0006000000284984708,
+          -0.013199999928474426,
+          0.06424999982118607
+        ],
+        [
+          0.0006000000284984708,
+          -0.012199999764561653,
+          0.07474999874830246
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.0006000000284984708,
+          -0.013199999928474426,
+          0.06424999982118607
+        ],
+        [
+          0.0006000000284984708,
+          -0.012199999764561653,
+          0.07474999874830246
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "torre_reloj__reloj_horario",
+      "pivot": [
+        0.0,
+        -0.011900000274181366,
+        0.06499999761581421
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.0003000000142492354,
+          -0.012299999594688416,
+          0.06419999897480011
+        ],
+        [
+          0.006300000008195639,
+          -0.011500000022351742,
+          0.0658000037074089
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.0003000000142492354,
+          -0.012299999594688416,
+          0.06419999897480011
+        ],
+        [
+          0.006300000008195639,
+          -0.011500000022351742,
+          0.0658000037074089
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "asta_bandera__Bandera celeste",
+      "pivot": [
+        -0.06800000369548798,
+        -0.05000000074505806,
+        0.04699999839067459
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.06824072450399399,
+          -0.050319455564022064,
+          0.035999998450279236
+        ],
+        [
+          -0.04060566797852516,
+          -0.02921883575618267,
+          0.057999998331069946
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.06824072450399399,
+          -0.050319455564022064,
+          0.035999998450279236
+        ],
+        [
+          -0.04060566797852516,
+          -0.02921883575618267,
+          0.057999998331069946
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "asta_bandera__Bandera blanca",
+      "pivot": [
+        -0.06800000369548798,
+        -0.05000000074505806,
+        0.04699999839067459
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.05918952450156212,
+          -0.04349888488650322,
+          0.035999998450279236
+        ],
+        [
+          -0.04965686798095703,
+          -0.036039404571056366,
+          0.057999998331069946
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.05918952450156212,
+          -0.04349888488650322,
+          0.035999998450279236
+        ],
+        [
+          -0.04965686798095703,
+          -0.036039404571056366,
+          0.057999998331069946
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "juegos__Cadenas columpio 1",
+      "pivot": [
+        -0.15000000596046448,
+        -0.054999999701976776,
+        0.004999999888241291
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.15860000252723694,
+          -0.05559999868273735,
+          -0.027000000700354576
+        ],
+        [
+          -0.14139999449253082,
+          -0.0544000007212162,
+          0.004999999888241291
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.15860000252723694,
+          -0.05559999868273735,
+          -0.027000002562999725
+        ],
+        [
+          -0.14139999449253082,
+          -0.0544000007212162,
+          0.004999999888241291
+        ]
+      ],
+      "max_error_m": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "object": "juegos__Asiento columpio 1",
+      "pivot": [
+        -0.15000000596046448,
+        -0.054999999701976776,
+        0.004999999888241291
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.16099999845027924,
+          -0.05999999865889549,
+          -0.029999999329447746
+        ],
+        [
+          -0.13899999856948853,
+          -0.05000000074505806,
+          -0.027000000700354576
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.16099999845027924,
+          -0.05999999865889549,
+          -0.030000001192092896
+        ],
+        [
+          -0.13899999856948853,
+          -0.05000000074505806,
+          -0.027000002562999725
+        ]
+      ],
+      "max_error_m": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "object": "juegos__Cadenas columpio 2",
+      "pivot": [
+        -0.11999999731779099,
+        -0.054999999701976776,
+        0.004999999888241291
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.12860000133514404,
+          -0.05559999868273735,
+          -0.027000000700354576
+        ],
+        [
+          -0.11140000075101852,
+          -0.0544000007212162,
+          0.004999999888241291
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.12860000133514404,
+          -0.05559999868273735,
+          -0.027000002562999725
+        ],
+        [
+          -0.11140000075101852,
+          -0.0544000007212162,
+          0.004999999888241291
+        ]
+      ],
+      "max_error_m": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "object": "juegos__Asiento columpio 2",
+      "pivot": [
+        -0.11999999731779099,
+        -0.054999999701976776,
+        0.004999999888241291
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.13099999725818634,
+          -0.05999999865889549,
+          -0.029999999329447746
+        ],
+        [
+          -0.10899999737739563,
+          -0.05000000074505806,
+          -0.027000000700354576
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.13099999725818634,
+          -0.05999999865889549,
+          -0.030000001192092896
+        ],
+        [
+          -0.10899999737739563,
+          -0.05000000074505806,
+          -0.027000002562999725
+        ]
+      ],
+      "max_error_m": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "object": "cancha__Balon",
+      "pivot": [
+        0.11050000041723251,
+        -0.04600000008940697,
+        -0.03449999913573265
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.10707250982522964,
+          -0.04970884695649147,
+          -0.03849999979138374
+        ],
+        [
+          0.11430422961711884,
+          -0.042291153222322464,
+          -0.030500000342726707
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.10707250982522964,
+          -0.04970884695649147,
+          -0.03849999979138374
+        ],
+        [
+          0.11430422961711884,
+          -0.042291153222322464,
+          -0.030500000342726707
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_0_tronco",
+      "pivot": [
+        -0.17499999701976776,
+        0.11999999731779099,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.17800000309944153,
+          0.11740192025899887,
+          -0.03999999910593033
+        ],
+        [
+          -0.1720000058412552,
+          0.1225980743765831,
+          -0.024000000208616257
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.17800000309944153,
+          0.11740192025899887,
+          -0.03999999910593033
+        ],
+        [
+          -0.1720000058412552,
+          0.1225980743765831,
+          -0.024000000208616257
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_0_copa",
+      "pivot": [
+        -0.17499999701976776,
+        0.11999999731779099,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.18528246879577637,
+          0.10887346416711807,
+          -0.026000000536441803
+        ],
+        [
+          -0.1615000069141388,
+          0.1311265379190445,
+          0.0005000000237487257
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.18528246879577637,
+          0.10887346416711807,
+          -0.026000000536441803
+        ],
+        [
+          -0.1615000069141388,
+          0.1311265379190445,
+          0.0005000010132789612
+        ]
+      ],
+      "max_error_m": 9.89530235528946e-10,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_1_tronco",
+      "pivot": [
+        -0.11999999731779099,
+        0.125,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.12300000339746475,
+          0.12240192294120789,
+          -0.03999999910593033
+        ],
+        [
+          -0.11699999868869781,
+          0.12759807705879211,
+          -0.02800000086426735
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.12300000339746475,
+          0.12240192294120789,
+          -0.03999999910593033
+        ],
+        [
+          -0.11699999868869781,
+          0.12759807705879211,
+          -0.02800000086426735
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_1_copa",
+      "pivot": [
+        -0.11999999731779099,
+        0.125,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.1299106627702713,
+          0.11427579075098038,
+          -0.029999999329447746
+        ],
+        [
+          -0.10899999737739563,
+          0.13572420179843903,
+          -1.734723475976807e-18
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.1299106627702713,
+          0.11427579075098038,
+          -0.029999999329447746
+        ],
+        [
+          -0.10899999737739563,
+          0.13572420179843903,
+          0.0
+        ]
+      ],
+      "max_error_m": 1.734723475976807e-18,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_2_tronco",
+      "pivot": [
+        0.11999999731779099,
+        0.125,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.11699999868869781,
+          0.12240192294120789,
+          -0.03999999910593033
+        ],
+        [
+          0.12300000339746475,
+          0.12759807705879211,
+          -0.024000000208616257
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.11699999868869781,
+          0.12240192294120789,
+          -0.03999999910593033
+        ],
+        [
+          0.12300000339746475,
+          0.12759807705879211,
+          -0.024000000208616257
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_2_copa",
+      "pivot": [
+        0.11999999731779099,
+        0.125,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.10971753299236298,
+          0.11387345939874649,
+          -0.026000000536441803
+        ],
+        [
+          0.13349999487400055,
+          0.1361265331506729,
+          0.0005000000237487257
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.10971753299236298,
+          0.11387345939874649,
+          -0.026000000536441803
+        ],
+        [
+          0.13349999487400055,
+          0.1361265331506729,
+          0.0005000010132789612
+        ]
+      ],
+      "max_error_m": 9.89530235528946e-10,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_3_tronco",
+      "pivot": [
+        0.17499999701976776,
+        0.11500000208616257,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.1720000058412552,
+          0.11240192502737045,
+          -0.03999999910593033
+        ],
+        [
+          0.17800000309944153,
+          0.11759807914495468,
+          -0.02800000086426735
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.1720000058412552,
+          0.11240192502737045,
+          -0.03999999910593033
+        ],
+        [
+          0.17800000309944153,
+          0.11759807914495468,
+          -0.02800000086426735
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_3_copa",
+      "pivot": [
+        0.17499999701976776,
+        0.11500000208616257,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.16508933901786804,
+          0.10427579283714294,
+          -0.029999999329447746
+        ],
+        [
+          0.1860000044107437,
+          0.1257242113351822,
+          -1.734723475976807e-18
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.16508933901786804,
+          0.10427579283714294,
+          -0.029999999329447746
+        ],
+        [
+          0.1860000044107437,
+          0.1257242113351822,
+          0.0
+        ]
+      ],
+      "max_error_m": 1.734723475976807e-18,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_4_tronco",
+      "pivot": [
+        -0.17000000178813934,
+        0.03999999910593033,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.17299999296665192,
+          0.037401922047138214,
+          -0.03999999910593033
+        ],
+        [
+          -0.16699999570846558,
+          0.04259807616472244,
+          -0.024000000208616257
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.17299999296665192,
+          0.037401922047138214,
+          -0.03999999910593033
+        ],
+        [
+          -0.16699999570846558,
+          0.04259807616472244,
+          -0.024000000208616257
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_4_copa",
+      "pivot": [
+        -0.17000000178813934,
+        0.03999999910593033,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.18028247356414795,
+          0.028873462229967117,
+          -0.026000000536441803
+        ],
+        [
+          -0.15649999678134918,
+          0.05112653970718384,
+          0.0005000000237487257
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.18028247356414795,
+          0.028873462229967117,
+          -0.026000000536441803
+        ],
+        [
+          -0.15649999678134918,
+          0.05112653970718384,
+          0.0005000010132789612
+        ]
+      ],
+      "max_error_m": 9.89530235528946e-10,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_5_tronco",
+      "pivot": [
+        0.17000000178813934,
+        0.03999999910593033,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.16699999570846558,
+          0.037401922047138214,
+          -0.03999999910593033
+        ],
+        [
+          0.17299999296665192,
+          0.04259807616472244,
+          -0.02800000086426735
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.16699999570846558,
+          0.037401922047138214,
+          -0.03999999910593033
+        ],
+        [
+          0.17299999296665192,
+          0.04259807616472244,
+          -0.02800000086426735
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_5_copa",
+      "pivot": [
+        0.17000000178813934,
+        0.03999999910593033,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.16008934378623962,
+          0.029275793582201004,
+          -0.029999999329447746
+        ],
+        [
+          0.1809999942779541,
+          0.05072420835494995,
+          -1.734723475976807e-18
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.16008934378623962,
+          0.029275793582201004,
+          -0.029999999329447746
+        ],
+        [
+          0.1809999942779541,
+          0.05072420835494995,
+          0.0
+        ]
+      ],
+      "max_error_m": 1.734723475976807e-18,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_6_tronco",
+      "pivot": [
+        -0.05999999865889549,
+        0.125,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.06300000101327896,
+          0.12240192294120789,
+          -0.03999999910593033
+        ],
+        [
+          -0.05700000002980232,
+          0.12759807705879211,
+          -0.024000000208616257
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.06300000101327896,
+          0.12240192294120789,
+          -0.03999999910593033
+        ],
+        [
+          -0.05700000002980232,
+          0.12759807705879211,
+          -0.024000000208616257
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_6_copa",
+      "pivot": [
+        -0.05999999865889549,
+        0.125,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.0702824667096138,
+          0.11387345939874649,
+          -0.026000000536441803
+        ],
+        [
+          -0.04650000110268593,
+          0.1361265331506729,
+          0.0005000000237487257
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.0702824667096138,
+          0.11387345939874649,
+          -0.026000000536441803
+        ],
+        [
+          -0.04650000110268593,
+          0.1361265331506729,
+          0.0005000010132789612
+        ]
+      ],
+      "max_error_m": 9.89530235528946e-10,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_7_tronco",
+      "pivot": [
+        0.05999999865889549,
+        0.125,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.05700000002980232,
+          0.12240192294120789,
+          -0.03999999910593033
+        ],
+        [
+          0.06300000101327896,
+          0.12759807705879211,
+          -0.02800000086426735
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.05700000002980232,
+          0.12240192294120789,
+          -0.03999999910593033
+        ],
+        [
+          0.06300000101327896,
+          0.12759807705879211,
+          -0.02800000086426735
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__arbol_7_copa",
+      "pivot": [
+        0.05999999865889549,
+        0.125,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.05008934065699577,
+          0.11427579075098038,
+          -0.029999999329447746
+        ],
+        [
+          0.07100000232458115,
+          0.13572420179843903,
+          -1.734723475976807e-18
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.05008934065699577,
+          0.11427579075098038,
+          -0.029999999329447746
+        ],
+        [
+          0.07100000232458115,
+          0.13572420179843903,
+          0.0
+        ]
+      ],
+      "max_error_m": 1.734723475976807e-18,
+      "pass": true
+    },
+    {
+      "object": "nubes__nube_0",
+      "pivot": [
+        -0.11500000208616257,
+        -0.029999999329447746,
+        0.15000000596046448
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.14499999582767487,
+          -0.04292820394039154,
+          0.14100000262260437
+        ],
+        [
+          -0.08500000089406967,
+          -0.01574167050421238,
+          0.164000004529953
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.14499999582767487,
+          -0.04292820394039154,
+          0.14100000262260437
+        ],
+        [
+          -0.08500000089406967,
+          -0.01574167050421238,
+          0.164000004529953
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "nubes__nube_1",
+      "pivot": [
+        -0.11500000208616257,
+        0.07999999821186066,
+        0.14800000190734863
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.14499999582767487,
+          0.06707179546356201,
+          0.13899999856948853
+        ],
+        [
+          -0.08500000089406967,
+          0.09425833076238632,
+          0.16200000047683716
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.14499999582767487,
+          0.06707179546356201,
+          0.13899999856948853
+        ],
+        [
+          -0.08500000089406967,
+          0.09425833076238632,
+          0.16200000047683716
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "nubes__nube_2",
+      "pivot": [
+        0.11500000208616257,
+        0.019999999552965164,
+        0.15199999511241913
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.08500000089406967,
+          0.007071796804666519,
+          0.14300000667572021
+        ],
+        [
+          0.14499999582767487,
+          0.03425833210349083,
+          0.16599999368190765
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.08500000089406967,
+          0.007071796804666519,
+          0.14300000667572021
+        ],
+        [
+          0.14499999582767487,
+          0.03425833210349083,
+          0.16599999368190765
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_0_piernas",
+      "pivot": [
+        0.006000000052154064,
+        -0.09000000357627869,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.004100000020116568,
+          -0.09120000153779984,
+          -0.03999999910593033
+        ],
+        [
+          0.007899999618530273,
+          -0.08879999816417694,
+          -0.03200000151991844
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.004100000020116568,
+          -0.09120000153779984,
+          -0.03999999910593033
+        ],
+        [
+          0.007899999618530273,
+          -0.08879999816417694,
+          -0.03200000151991844
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_0_cabello",
+      "pivot": [
+        0.006000000052154064,
+        -0.09000000357627869,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.0026000000070780516,
+          -0.09168467670679092,
+          -0.02250000089406967
+        ],
+        [
+          0.009399999864399433,
+          -0.08631531894207001,
+          -0.019500000402331352
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.0026000000070780516,
+          -0.09168467670679092,
+          -0.02250000089406967
+        ],
+        [
+          0.009399999864399433,
+          -0.08631531894207001,
+          -0.019500000402331352
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_0_torso",
+      "pivot": [
+        0.006000000052154064,
+        -0.09000000357627869,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.0012000000569969416,
+          -0.09415692090988159,
+          -0.03200000151991844
+        ],
+        [
+          0.01080000028014183,
+          -0.08584307879209518,
+          -0.025800000876188278
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.001199999824166298,
+          -0.09415692090988159,
+          -0.03200000151991844
+        ],
+        [
+          0.01080000028014183,
+          -0.08584307879209518,
+          -0.025800000876188278
+        ]
+      ],
+      "max_error_m": 2.3283064365386963e-10,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_0_cabeza",
+      "pivot": [
+        0.006000000052154064,
+        -0.09000000357627869,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.00279999990016222,
+          -0.09268467873334885,
+          -0.025800000876188278
+        ],
+        [
+          0.009200000204145908,
+          -0.08731532096862793,
+          -0.01940000057220459
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.00279999990016222,
+          -0.09268467873334885,
+          -0.025800000876188278
+        ],
+        [
+          0.009200000204145908,
+          -0.08731532096862793,
+          -0.01940000057220459
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_0_mochila",
+      "pivot": [
+        0.006000000052154064,
+        -0.09000000357627869,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.0038999998942017555,
+          -0.0860000029206276,
+          -0.030950000509619713
+        ],
+        [
+          0.008100000210106373,
+          -0.08420000225305557,
+          -0.025450000539422035
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.0038999998942017555,
+          -0.0860000029206276,
+          -0.030950000509619713
+        ],
+        [
+          0.008100000210106373,
+          -0.08420000225305557,
+          -0.025450000539422035
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_1_piernas_cabello",
+      "pivot": [
+        -0.1599999964237213,
+        -0.0989999994635582,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.16339999437332153,
+          -0.10068468004465103,
+          -0.03999999910593033
+        ],
+        [
+          -0.1565999984741211,
+          -0.09531532227993011,
+          -0.019500000402331352
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.16339999437332153,
+          -0.10068468004465103,
+          -0.03999999910593033
+        ],
+        [
+          -0.1565999984741211,
+          -0.09531532227993011,
+          -0.019500000402331352
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_1_torso",
+      "pivot": [
+        -0.1599999964237213,
+        -0.0989999994635582,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.1648000031709671,
+          -0.1031569242477417,
+          -0.03200000151991844
+        ],
+        [
+          -0.15520000457763672,
+          -0.0948430746793747,
+          -0.025800000876188278
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.1648000031709671,
+          -0.1031569242477417,
+          -0.03200000151991844
+        ],
+        [
+          -0.15520000457763672,
+          -0.0948430746793747,
+          -0.025800000876188278
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_1_cabeza",
+      "pivot": [
+        -0.1599999964237213,
+        -0.0989999994635582,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.1632000058889389,
+          -0.10168468207120895,
+          -0.025800000876188278
+        ],
+        [
+          -0.15680000185966492,
+          -0.09631532430648804,
+          -0.01940000057220459
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.1632000058889389,
+          -0.10168468207120895,
+          -0.025800000876188278
+        ],
+        [
+          -0.15680000185966492,
+          -0.09631532430648804,
+          -0.01940000057220459
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_2_piernas",
+      "pivot": [
+        -0.07000000029802322,
+        -0.08399999886751175,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.07190000265836716,
+          -0.0851999968290329,
+          -0.03999999910593033
+        ],
+        [
+          -0.06809999793767929,
+          -0.0828000009059906,
+          -0.03200000151991844
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.07190000265836716,
+          -0.0851999968290329,
+          -0.03999999910593033
+        ],
+        [
+          -0.06809999793767929,
+          -0.0828000009059906,
+          -0.03200000151991844
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_2_cabello",
+      "pivot": [
+        -0.07000000029802322,
+        -0.08399999886751175,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.07339999824762344,
+          -0.08568467944860458,
+          -0.02250000089406967
+        ],
+        [
+          -0.066600002348423,
+          -0.08031532168388367,
+          -0.019500000402331352
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.07339999824762344,
+          -0.08568467944860458,
+          -0.02250000089406967
+        ],
+        [
+          -0.066600002348423,
+          -0.08031532168388367,
+          -0.019500000402331352
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_2_torso",
+      "pivot": [
+        -0.07000000029802322,
+        -0.08399999886751175,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.07479999959468842,
+          -0.08815692365169525,
+          -0.03200000151991844
+        ],
+        [
+          -0.06520000100135803,
+          -0.07984308153390884,
+          -0.025800000876188278
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.07479999959468842,
+          -0.08815692365169525,
+          -0.03200000151991844
+        ],
+        [
+          -0.06520000100135803,
+          -0.07984308153390884,
+          -0.025800000876188278
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_2_cabeza",
+      "pivot": [
+        -0.07000000029802322,
+        -0.08399999886751175,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.07320000231266022,
+          -0.0866846814751625,
+          -0.025800000876188278
+        ],
+        [
+          -0.06679999828338623,
+          -0.08131532371044159,
+          -0.01940000057220459
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.07320000231266022,
+          -0.0866846814751625,
+          -0.025800000876188278
+        ],
+        [
+          -0.06679999828338623,
+          -0.08131532371044159,
+          -0.01940000057220459
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_2_mochila",
+      "pivot": [
+        -0.07000000029802322,
+        -0.08399999886751175,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.07209999859333038,
+          -0.07999999821186066,
+          -0.030950000509619713
+        ],
+        [
+          -0.06790000200271606,
+          -0.07819999754428864,
+          -0.025450000539422035
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.07209999859333038,
+          -0.07999999821186066,
+          -0.030950000509619713
+        ],
+        [
+          -0.06790000200271606,
+          -0.07819999754428864,
+          -0.025450000539422035
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_3_piernas",
+      "pivot": [
+        -0.03500000014901161,
+        -0.029999999329447746,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.03689999878406525,
+          -0.031199999153614044,
+          -0.03999999910593033
+        ],
+        [
+          -0.03310000151395798,
+          -0.02879999950528145,
+          -0.03200000151991844
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.03689999878406525,
+          -0.031199999153614044,
+          -0.03999999910593033
+        ],
+        [
+          -0.03310000151395798,
+          -0.02879999950528145,
+          -0.03200000151991844
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_3_cabello",
+      "pivot": [
+        -0.03500000014901161,
+        -0.029999999329447746,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.03840000182390213,
+          -0.03168467804789543,
+          -0.02250000089406967
+        ],
+        [
+          -0.031599998474121094,
+          -0.026315322145819664,
+          -0.019500000402331352
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.03840000182390213,
+          -0.03168467804789543,
+          -0.02250000089406967
+        ],
+        [
+          -0.031599998474121094,
+          -0.026315322145819664,
+          -0.019500000402331352
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_3_torso",
+      "pivot": [
+        -0.03500000014901161,
+        -0.029999999329447746,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.039799999445676804,
+          -0.0341569222509861,
+          -0.03200000151991844
+        ],
+        [
+          -0.03020000085234642,
+          -0.025843078270554543,
+          -0.025800000876188278
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.039799999445676804,
+          -0.0341569222509861,
+          -0.03200000151991844
+        ],
+        [
+          -0.03020000085234642,
+          -0.025843078270554543,
+          -0.025800000876188278
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_3_cabeza",
+      "pivot": [
+        -0.03500000014901161,
+        -0.029999999329447746,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          -0.03819999843835831,
+          -0.032684680074453354,
+          -0.025800000876188278
+        ],
+        [
+          -0.03180000185966492,
+          -0.027315320447087288,
+          -0.01940000057220459
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.03819999843835831,
+          -0.032684680074453354,
+          -0.025800000876188278
+        ],
+        [
+          -0.03180000185966492,
+          -0.027315320447087288,
+          -0.01940000057220459
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_4_piernas_cabello",
+      "pivot": [
+        0.029999999329447746,
+        -0.07999999821186066,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.026599999517202377,
+          -0.08168467879295349,
+          -0.03999999910593033
+        ],
+        [
+          0.033399999141693115,
+          -0.07631532102823257,
+          -0.019500000402331352
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.026599999517202377,
+          -0.08168467879295349,
+          -0.03999999910593033
+        ],
+        [
+          0.033399999141693115,
+          -0.07631532102823257,
+          -0.019500000402331352
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_4_torso",
+      "pivot": [
+        0.029999999329447746,
+        -0.07999999821186066,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.025200000032782555,
+          -0.08415692299604416,
+          -0.03200000151991844
+        ],
+        [
+          0.03480000048875809,
+          -0.07584308087825775,
+          -0.025800000876188278
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.025200000032782555,
+          -0.08415692299604416,
+          -0.03200000151991844
+        ],
+        [
+          0.03480000048875809,
+          -0.07584308087825775,
+          -0.025800000876188278
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__estudiante_4_cabeza",
+      "pivot": [
+        0.029999999329447746,
+        -0.07999999821186066,
+        -0.03999999910593033
+      ],
+      "status": "repivoted",
+      "bbox_before": [
+        [
+          0.026799999177455902,
+          -0.08268468081951141,
+          -0.025800000876188278
+        ],
+        [
+          0.03319999948143959,
+          -0.0773153230547905,
+          -0.01940000057220459
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.026799999177455902,
+          -0.08268468081951141,
+          -0.025800000876188278
+        ],
+        [
+          0.03319999948143959,
+          -0.0773153230547905,
+          -0.01940000057220459
+        ]
+      ],
+      "max_error_m": 0.0,
+      "pass": true
+    }
+  ],
+  "clips": {
+    "autobus": {
+      "objects": [
+        {
+          "object": "autobus__bus_carroceria",
+          "action": "autobus__autobus__bus_carroceria",
+          "slot": "autobus__bus_carroceria",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[1]"
+          ],
+          "keys": 337,
+          "linear_keyframes_set": 1011,
+          "strip_frames": [
+            0.0,
+            336.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "autobus",
+          "kind": "path",
+          "period_requested": 14.0,
+          "period_effective": 14.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "autobus__bus_detalles",
+          "action": "autobus__autobus__bus_detalles",
+          "slot": "autobus__bus_detalles",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[1]"
+          ],
+          "keys": 337,
+          "linear_keyframes_set": 1011,
+          "strip_frames": [
+            0.0,
+            336.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "autobus",
+          "kind": "path",
+          "period_requested": 14.0,
+          "period_effective": 14.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "autobus__bus_vidrio",
+          "action": "autobus__autobus__bus_vidrio",
+          "slot": "autobus__bus_vidrio",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[1]"
+          ],
+          "keys": 337,
+          "linear_keyframes_set": 1011,
+          "strip_frames": [
+            0.0,
+            336.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "autobus",
+          "kind": "path",
+          "period_requested": 14.0,
+          "period_effective": 14.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "autobus__bus_luces",
+          "action": "autobus__autobus__bus_luces",
+          "slot": "autobus__bus_luces",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[1]"
+          ],
+          "keys": 337,
+          "linear_keyframes_set": 1011,
+          "strip_frames": [
+            0.0,
+            336.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "autobus",
+          "kind": "path",
+          "period_requested": 14.0,
+          "period_effective": 14.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "autobus__bus_luces_traseras",
+          "action": "autobus__autobus__bus_luces_traseras",
+          "slot": "autobus__bus_luces_traseras",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[1]"
+          ],
+          "keys": 337,
+          "linear_keyframes_set": 1011,
+          "strip_frames": [
+            0.0,
+            336.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "autobus",
+          "kind": "path",
+          "period_requested": 14.0,
+          "period_effective": 14.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        }
+      ],
+      "kind": "path",
+      "frames": 336,
+      "duration_s": 14.0,
+      "common_duration_s": 14.0,
+      "path_length_m": 0.6680916020835655,
+      "loop_error_max": 0.0,
+      "max_rot_step_deg_per_frame": 36.699555951958466,
+      "consistent": {
+        "kinds": [
+          "path"
+        ],
+        "periods_frames": [
+          336
+        ],
+        "pivots": 1,
+        "param_sets": 1
+      }
+    },
+    "puerta": {
+      "objects": [
+        {
+          "object": "puerta__puerta_hoja",
+          "action": "puerta__puerta__puerta_hoja",
+          "slot": "puerta__puerta_hoja",
+          "channels": [
+            "rotation_euler[2]"
+          ],
+          "keys": 73,
+          "linear_keyframes_set": 73,
+          "strip_frames": [
+            0.0,
+            72.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "puerta",
+          "kind": "hinge",
+          "period_requested": 3.0,
+          "period_effective": 3.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "puerta__puerta_manija",
+          "action": "puerta__puerta__puerta_manija",
+          "slot": "puerta__puerta_manija",
+          "channels": [
+            "rotation_euler[2]"
+          ],
+          "keys": 73,
+          "linear_keyframes_set": 73,
+          "strip_frames": [
+            0.0,
+            72.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "puerta",
+          "kind": "hinge",
+          "period_requested": 3.0,
+          "period_effective": 3.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        }
+      ],
+      "kind": "hinge",
+      "frames": 72,
+      "duration_s": 3.0,
+      "common_duration_s": 3.0,
+      "path_length_m": null,
+      "loop_error_max": 0.0,
+      "max_rot_step_deg_per_frame": 2.0827974965706466,
+      "consistent": {
+        "kinds": [
+          "hinge"
+        ],
+        "periods_frames": [
+          72
+        ],
+        "pivots": 1,
+        "param_sets": 1
+      },
+      "hingeMode": "open-only",
+      "hinge_error_max": 0.0
+    },
+    "reloj": {
+      "objects": [
+        {
+          "object": "torre_reloj__reloj_minutero",
+          "action": "reloj__torre_reloj__reloj_minutero",
+          "slot": "torre_reloj__reloj_minutero",
+          "channels": [
+            "rotation_euler[1]"
+          ],
+          "keys": 577,
+          "linear_keyframes_set": 577,
+          "strip_frames": [
+            0.0,
+            1728.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "torre_reloj",
+          "kind": "spin",
+          "period_requested": 6.0,
+          "period_effective": 6.0,
+          "cycles": 12,
+          "period_change_pct": 0.0,
+          "key_step": 3
+        },
+        {
+          "object": "torre_reloj__reloj_horario",
+          "action": "reloj__torre_reloj__reloj_horario",
+          "slot": "torre_reloj__reloj_horario",
+          "channels": [
+            "rotation_euler[1]"
+          ],
+          "keys": 577,
+          "linear_keyframes_set": 577,
+          "strip_frames": [
+            0.0,
+            1728.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "torre_reloj",
+          "kind": "spin",
+          "period_requested": 72.0,
+          "period_effective": 72.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 3
+        }
+      ],
+      "kind": "spin",
+      "frames": 1728,
+      "duration_s": 72.0,
+      "common_duration_s": 72.0,
+      "path_length_m": null,
+      "loop_error_max": 3.552713678800501e-15,
+      "max_rot_step_deg_per_frame": 2.5000000000003535,
+      "consistent": {
+        "kinds": [
+          "spin"
+        ],
+        "periods_frames": [
+          1728
+        ],
+        "pivots": 2,
+        "param_sets": 2
+      }
+    },
+    "bandera": {
+      "objects": [
+        {
+          "object": "asta_bandera__Bandera celeste",
+          "action": "bandera__asta_bandera__Bandera celeste",
+          "slot": "asta_bandera__Bandera celeste",
+          "channels": [
+            "rotation_euler[2]"
+          ],
+          "keys": 59,
+          "linear_keyframes_set": 59,
+          "strip_frames": [
+            0.0,
+            58.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "asta_bandera",
+          "kind": "sway",
+          "period_requested": 2.4,
+          "period_effective": 2.4,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "asta_bandera__Bandera blanca",
+          "action": "bandera__asta_bandera__Bandera blanca",
+          "slot": "asta_bandera__Bandera blanca",
+          "channels": [
+            "rotation_euler[2]"
+          ],
+          "keys": 59,
+          "linear_keyframes_set": 59,
+          "strip_frames": [
+            0.0,
+            58.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "asta_bandera",
+          "kind": "sway",
+          "period_requested": 2.4,
+          "period_effective": 2.4,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        }
+      ],
+      "kind": "sway",
+      "frames": 58,
+      "duration_s": 2.4166666666666665,
+      "common_duration_s": 2.4,
+      "path_length_m": null,
+      "loop_error_max": 0.0,
+      "max_rot_step_deg_per_frame": 1.9461423316309603,
+      "consistent": {
+        "kinds": [
+          "sway"
+        ],
+        "periods_frames": [
+          58
+        ],
+        "pivots": 1,
+        "param_sets": 1
+      }
+    },
+    "columpios": {
+      "objects": [
+        {
+          "object": "juegos__Cadenas columpio 1",
+          "action": "columpios__juegos__Cadenas columpio 1",
+          "slot": "juegos__Cadenas columpio 1",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 54,
+          "linear_keyframes_set": 54,
+          "strip_frames": [
+            0.0,
+            53.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "juegos",
+          "kind": "swing",
+          "period_requested": 2.2,
+          "period_effective": 2.2,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "juegos__Asiento columpio 1",
+          "action": "columpios__juegos__Asiento columpio 1",
+          "slot": "juegos__Asiento columpio 1",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 54,
+          "linear_keyframes_set": 54,
+          "strip_frames": [
+            0.0,
+            53.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "juegos",
+          "kind": "swing",
+          "period_requested": 2.2,
+          "period_effective": 2.2,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "juegos__Cadenas columpio 2",
+          "action": "columpios__juegos__Cadenas columpio 2",
+          "slot": "juegos__Cadenas columpio 2",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 54,
+          "linear_keyframes_set": 54,
+          "strip_frames": [
+            0.0,
+            53.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "juegos",
+          "kind": "swing",
+          "period_requested": 2.2,
+          "period_effective": 2.2,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "juegos__Asiento columpio 2",
+          "action": "columpios__juegos__Asiento columpio 2",
+          "slot": "juegos__Asiento columpio 2",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 54,
+          "linear_keyframes_set": 54,
+          "strip_frames": [
+            0.0,
+            53.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "juegos",
+          "kind": "swing",
+          "period_requested": 2.2,
+          "period_effective": 2.2,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        }
+      ],
+      "kind": "swing",
+      "frames": 53,
+      "duration_s": 2.2083333333333335,
+      "common_duration_s": 2.2,
+      "path_length_m": null,
+      "loop_error_max": 0.0,
+      "max_rot_step_deg_per_frame": 2.960730578637394,
+      "consistent": {
+        "kinds": [
+          "swing"
+        ],
+        "periods_frames": [
+          53
+        ],
+        "pivots": 2,
+        "param_sets": 2
+      }
+    },
+    "balon": {
+      "objects": [
+        {
+          "object": "cancha__Balon",
+          "action": "balon__cancha__Balon",
+          "slot": "cancha__Balon",
+          "channels": [
+            "location[2]"
+          ],
+          "keys": 20,
+          "linear_keyframes_set": 20,
+          "strip_frames": [
+            0.0,
+            19.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "cancha",
+          "kind": "bounce",
+          "period_requested": 0.8,
+          "period_effective": 0.8,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        }
+      ],
+      "kind": "bounce",
+      "frames": 19,
+      "duration_s": 0.7916666666666666,
+      "common_duration_s": 0.8,
+      "path_length_m": null,
+      "loop_error_max": 0.0,
+      "max_rot_step_deg_per_frame": 0.0,
+      "consistent": {
+        "kinds": [
+          "bounce"
+        ],
+        "periods_frames": [
+          19
+        ],
+        "pivots": 1,
+        "param_sets": 1
+      }
+    },
+    "arboles": {
+      "objects": [
+        {
+          "object": "arboles__arbol_0_tronco",
+          "action": "arboles__arboles__arbol_0_tronco",
+          "slot": "arboles__arbol_0_tronco",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.0,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 28.0,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_0_copa",
+          "action": "arboles__arboles__arbol_0_copa",
+          "slot": "arboles__arbol_0_copa",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.0,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 28.0,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_1_tronco",
+          "action": "arboles__arboles__arbol_1_tronco",
+          "slot": "arboles__arbol_1_tronco",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.12,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 23.077,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_1_copa",
+          "action": "arboles__arboles__arbol_1_copa",
+          "slot": "arboles__arbol_1_copa",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.12,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 23.077,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_2_tronco",
+          "action": "arboles__arboles__arbol_2_tronco",
+          "slot": "arboles__arbol_2_tronco",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.24,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 18.519,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_2_copa",
+          "action": "arboles__arboles__arbol_2_copa",
+          "slot": "arboles__arbol_2_copa",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.24,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 18.519,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_3_tronco",
+          "action": "arboles__arboles__arbol_3_tronco",
+          "slot": "arboles__arbol_3_tronco",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.36,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 14.286,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_3_copa",
+          "action": "arboles__arboles__arbol_3_copa",
+          "slot": "arboles__arbol_3_copa",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.36,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 14.286,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_4_tronco",
+          "action": "arboles__arboles__arbol_4_tronco",
+          "slot": "arboles__arbol_4_tronco",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.48,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 10.345,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_4_copa",
+          "action": "arboles__arboles__arbol_4_copa",
+          "slot": "arboles__arbol_4_copa",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.48,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 10.345,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_5_tronco",
+          "action": "arboles__arboles__arbol_5_tronco",
+          "slot": "arboles__arbol_5_tronco",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.6,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 6.667,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_5_copa",
+          "action": "arboles__arboles__arbol_5_copa",
+          "slot": "arboles__arbol_5_copa",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.6,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 6.667,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_6_tronco",
+          "action": "arboles__arboles__arbol_6_tronco",
+          "slot": "arboles__arbol_6_tronco",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.72,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 3.226,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_6_copa",
+          "action": "arboles__arboles__arbol_6_copa",
+          "slot": "arboles__arbol_6_copa",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.72,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 3.226,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_7_tronco",
+          "action": "arboles__arboles__arbol_7_tronco",
+          "slot": "arboles__arbol_7_tronco",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.84,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "arboles__arbol_7_copa",
+          "action": "arboles__arboles__arbol_7_copa",
+          "slot": "arboles__arbol_7_copa",
+          "channels": [
+            "rotation_euler[0]"
+          ],
+          "keys": 93,
+          "linear_keyframes_set": 93,
+          "strip_frames": [
+            0.0,
+            92.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "arboles",
+          "kind": "sway",
+          "period_requested": 3.84,
+          "period_effective": 3.84,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        }
+      ],
+      "kind": "sway",
+      "frames": 92,
+      "duration_s": 3.8333333333333335,
+      "common_duration_s": 3.84,
+      "path_length_m": null,
+      "loop_error_max": 0.0,
+      "max_rot_step_deg_per_frame": 0.34141110185969326,
+      "consistent": {
+        "kinds": [
+          "sway"
+        ],
+        "periods_frames": [
+          92
+        ],
+        "pivots": 8,
+        "param_sets": 8
+      }
+    },
+    "nubes": {
+      "objects": [
+        {
+          "object": "nubes__nube_0",
+          "action": "nubes__nubes__nube_0",
+          "slot": "nubes__nube_0",
+          "channels": [
+            "location[0]"
+          ],
+          "keys": 265,
+          "linear_keyframes_set": 265,
+          "strip_frames": [
+            0.0,
+            264.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "nubes",
+          "kind": "drift",
+          "period_requested": 9.0,
+          "period_effective": 11.0,
+          "cycles": 1,
+          "period_change_pct": 22.222,
+          "key_step": 1
+        },
+        {
+          "object": "nubes__nube_1",
+          "action": "nubes__nubes__nube_1",
+          "slot": "nubes__nube_1",
+          "channels": [
+            "location[0]"
+          ],
+          "keys": 265,
+          "linear_keyframes_set": 265,
+          "strip_frames": [
+            0.0,
+            264.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "nubes",
+          "kind": "drift",
+          "period_requested": 11.0,
+          "period_effective": 11.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "nubes__nube_2",
+          "action": "nubes__nubes__nube_2",
+          "slot": "nubes__nube_2",
+          "channels": [
+            "location[0]"
+          ],
+          "keys": 265,
+          "linear_keyframes_set": 265,
+          "strip_frames": [
+            0.0,
+            264.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "nubes",
+          "kind": "drift",
+          "period_requested": 10.0,
+          "period_effective": 11.0,
+          "cycles": 1,
+          "period_change_pct": 10.0,
+          "key_step": 1
+        }
+      ],
+      "kind": "drift",
+      "frames": 264,
+      "duration_s": 11.0,
+      "common_duration_s": 11.0,
+      "path_length_m": null,
+      "loop_error_max": 1.3877787807814457e-17,
+      "max_rot_step_deg_per_frame": 0.0,
+      "consistent": {
+        "kinds": [
+          "drift"
+        ],
+        "periods_frames": [
+          264
+        ],
+        "pivots": 3,
+        "param_sets": 3
+      }
+    },
+    "estudiantes": {
+      "objects": [
+        {
+          "object": "estudiantes__estudiante_0_piernas",
+          "action": "estudiantes__estudiantes__estudiante_0_piernas",
+          "slot": "estudiantes__estudiante_0_piernas",
+          "channels": [
+            "rotation_euler[2]",
+            "location[1]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 867,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 10.0,
+          "period_effective": 12.0,
+          "cycles": 1,
+          "period_change_pct": 20.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_0_cabello",
+          "action": "estudiantes__estudiantes__estudiante_0_cabello",
+          "slot": "estudiantes__estudiante_0_cabello",
+          "channels": [
+            "rotation_euler[2]",
+            "location[1]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 867,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 10.0,
+          "period_effective": 12.0,
+          "cycles": 1,
+          "period_change_pct": 20.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_0_torso",
+          "action": "estudiantes__estudiantes__estudiante_0_torso",
+          "slot": "estudiantes__estudiante_0_torso",
+          "channels": [
+            "rotation_euler[2]",
+            "location[1]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 867,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 10.0,
+          "period_effective": 12.0,
+          "cycles": 1,
+          "period_change_pct": 20.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_0_cabeza",
+          "action": "estudiantes__estudiantes__estudiante_0_cabeza",
+          "slot": "estudiantes__estudiante_0_cabeza",
+          "channels": [
+            "rotation_euler[2]",
+            "location[1]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 867,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 10.0,
+          "period_effective": 12.0,
+          "cycles": 1,
+          "period_change_pct": 20.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_0_mochila",
+          "action": "estudiantes__estudiantes__estudiante_0_mochila",
+          "slot": "estudiantes__estudiante_0_mochila",
+          "channels": [
+            "rotation_euler[2]",
+            "location[1]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 867,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 10.0,
+          "period_effective": 12.0,
+          "cycles": 1,
+          "period_change_pct": 20.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_1_piernas_cabello",
+          "action": "estudiantes__estudiantes__estudiante_1_piernas_cabello",
+          "slot": "estudiantes__estudiante_1_piernas_cabello",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 867,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 12.0,
+          "period_effective": 12.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_1_torso",
+          "action": "estudiantes__estudiantes__estudiante_1_torso",
+          "slot": "estudiantes__estudiante_1_torso",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 867,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 12.0,
+          "period_effective": 12.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_1_cabeza",
+          "action": "estudiantes__estudiantes__estudiante_1_cabeza",
+          "slot": "estudiantes__estudiante_1_cabeza",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 867,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 12.0,
+          "period_effective": 12.0,
+          "cycles": 1,
+          "period_change_pct": 0.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_2_piernas",
+          "action": "estudiantes__estudiantes__estudiante_2_piernas",
+          "slot": "estudiantes__estudiante_2_piernas",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[1]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 1156,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 8.0,
+          "period_effective": 6.0,
+          "cycles": 2,
+          "period_change_pct": -25.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_2_cabello",
+          "action": "estudiantes__estudiantes__estudiante_2_cabello",
+          "slot": "estudiantes__estudiante_2_cabello",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[1]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 1156,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 8.0,
+          "period_effective": 6.0,
+          "cycles": 2,
+          "period_change_pct": -25.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_2_torso",
+          "action": "estudiantes__estudiantes__estudiante_2_torso",
+          "slot": "estudiantes__estudiante_2_torso",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[1]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 1156,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 8.0,
+          "period_effective": 6.0,
+          "cycles": 2,
+          "period_change_pct": -25.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_2_cabeza",
+          "action": "estudiantes__estudiantes__estudiante_2_cabeza",
+          "slot": "estudiantes__estudiante_2_cabeza",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[1]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 1156,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 8.0,
+          "period_effective": 6.0,
+          "cycles": 2,
+          "period_change_pct": -25.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_2_mochila",
+          "action": "estudiantes__estudiantes__estudiante_2_mochila",
+          "slot": "estudiantes__estudiante_2_mochila",
+          "channels": [
+            "rotation_euler[2]",
+            "location[0]",
+            "location[1]",
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 1156,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "walk",
+          "period_requested": 8.0,
+          "period_effective": 6.0,
+          "cycles": 2,
+          "period_change_pct": -25.0,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_3_piernas",
+          "action": "estudiantes__estudiantes__estudiante_3_piernas",
+          "slot": "estudiantes__estudiante_3_piernas",
+          "channels": [
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 289,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "bounce",
+          "period_requested": 0.9,
+          "period_effective": 0.9230769230769231,
+          "cycles": 13,
+          "period_change_pct": 2.564,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_3_cabello",
+          "action": "estudiantes__estudiantes__estudiante_3_cabello",
+          "slot": "estudiantes__estudiante_3_cabello",
+          "channels": [
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 289,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "bounce",
+          "period_requested": 0.9,
+          "period_effective": 0.9230769230769231,
+          "cycles": 13,
+          "period_change_pct": 2.564,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_3_torso",
+          "action": "estudiantes__estudiantes__estudiante_3_torso",
+          "slot": "estudiantes__estudiante_3_torso",
+          "channels": [
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 289,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "bounce",
+          "period_requested": 0.9,
+          "period_effective": 0.9230769230769231,
+          "cycles": 13,
+          "period_change_pct": 2.564,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_3_cabeza",
+          "action": "estudiantes__estudiantes__estudiante_3_cabeza",
+          "slot": "estudiantes__estudiante_3_cabeza",
+          "channels": [
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 289,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "bounce",
+          "period_requested": 0.9,
+          "period_effective": 0.9230769230769231,
+          "cycles": 13,
+          "period_change_pct": 2.564,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_4_piernas_cabello",
+          "action": "estudiantes__estudiantes__estudiante_4_piernas_cabello",
+          "slot": "estudiantes__estudiante_4_piernas_cabello",
+          "channels": [
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 289,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "bounce",
+          "period_requested": 0.9,
+          "period_effective": 0.9230769230769231,
+          "cycles": 13,
+          "period_change_pct": 2.564,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_4_torso",
+          "action": "estudiantes__estudiantes__estudiante_4_torso",
+          "slot": "estudiantes__estudiante_4_torso",
+          "channels": [
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 289,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "bounce",
+          "period_requested": 0.9,
+          "period_effective": 0.9230769230769231,
+          "cycles": 13,
+          "period_change_pct": 2.564,
+          "key_step": 1
+        },
+        {
+          "object": "estudiantes__estudiante_4_cabeza",
+          "action": "estudiantes__estudiantes__estudiante_4_cabeza",
+          "slot": "estudiantes__estudiante_4_cabeza",
+          "channels": [
+            "location[2]"
+          ],
+          "keys": 289,
+          "linear_keyframes_set": 289,
+          "strip_frames": [
+            0.0,
+            288.0
+          ],
+          "strip_slot_set": true,
+          "active_action_after": "None",
+          "part_id": "estudiantes",
+          "kind": "bounce",
+          "period_requested": 0.9,
+          "period_effective": 0.9230769230769231,
+          "cycles": 13,
+          "period_change_pct": 2.564,
+          "key_step": 1
+        }
+      ],
+      "kind": "mixed",
+      "frames": 288,
+      "duration_s": 12.0,
+      "common_duration_s": 12.0,
+      "path_length_m": null,
+      "loop_error_max": 6.938893903907228e-18,
+      "max_rot_step_deg_per_frame": 13.488992589840644,
+      "consistent": {
+        "kinds": [
+          "bounce",
+          "walk"
+        ],
+        "periods_frames": [
+          288
+        ],
+        "pivots": 5,
+        "param_sets": 5
+      }
+    }
+  },
+  "hingeMode": "open-only",
+  "hingeClips": [
+    "puerta"
+  ],
+  "clip_objects": {
+    "autobus": [
+      "autobus__bus_carroceria",
+      "autobus__bus_detalles",
+      "autobus__bus_vidrio",
+      "autobus__bus_luces",
+      "autobus__bus_luces_traseras"
+    ],
+    "puerta": [
+      "puerta__puerta_hoja",
+      "puerta__puerta_manija"
+    ],
+    "reloj": [
+      "torre_reloj__reloj_minutero",
+      "torre_reloj__reloj_horario"
+    ],
+    "bandera": [
+      "asta_bandera__Bandera celeste",
+      "asta_bandera__Bandera blanca"
+    ],
+    "columpios": [
+      "juegos__Cadenas columpio 1",
+      "juegos__Asiento columpio 1",
+      "juegos__Cadenas columpio 2",
+      "juegos__Asiento columpio 2"
+    ],
+    "balon": [
+      "cancha__Balon"
+    ],
+    "arboles": [
+      "arboles__arbol_0_tronco",
+      "arboles__arbol_0_copa",
+      "arboles__arbol_1_tronco",
+      "arboles__arbol_1_copa",
+      "arboles__arbol_2_tronco",
+      "arboles__arbol_2_copa",
+      "arboles__arbol_3_tronco",
+      "arboles__arbol_3_copa",
+      "arboles__arbol_4_tronco",
+      "arboles__arbol_4_copa",
+      "arboles__arbol_5_tronco",
+      "arboles__arbol_5_copa",
+      "arboles__arbol_6_tronco",
+      "arboles__arbol_6_copa",
+      "arboles__arbol_7_tronco",
+      "arboles__arbol_7_copa"
+    ],
+    "nubes": [
+      "nubes__nube_0",
+      "nubes__nube_1",
+      "nubes__nube_2"
+    ],
+    "estudiantes": [
+      "estudiantes__estudiante_0_piernas",
+      "estudiantes__estudiante_0_cabello",
+      "estudiantes__estudiante_0_torso",
+      "estudiantes__estudiante_0_cabeza",
+      "estudiantes__estudiante_0_mochila",
+      "estudiantes__estudiante_1_piernas_cabello",
+      "estudiantes__estudiante_1_torso",
+      "estudiantes__estudiante_1_cabeza",
+      "estudiantes__estudiante_2_piernas",
+      "estudiantes__estudiante_2_cabello",
+      "estudiantes__estudiante_2_torso",
+      "estudiantes__estudiante_2_cabeza",
+      "estudiantes__estudiante_2_mochila",
+      "estudiantes__estudiante_3_piernas",
+      "estudiantes__estudiante_3_cabello",
+      "estudiantes__estudiante_3_torso",
+      "estudiantes__estudiante_3_cabeza",
+      "estudiantes__estudiante_4_piernas_cabello",
+      "estudiantes__estudiante_4_torso",
+      "estudiantes__estudiante_4_cabeza"
+    ]
+  },
+  "animated_blend_sha256": "cfc6c88e7dd06db62ec984b42eb83fba1327df7801a1fbec0d1e975ce72698d8",
+  "exporter": {
+    "applied": {
+      "filepath": "\\\\wsl.localhost\\Ubuntu\\home\\adawolfs\\projects\\makecode\\3d-assets\\creation-lab\\.local\\claude-school-20261023\\anim\\detail-v1\\animated.glb",
+      "export_format": "GLB",
+      "use_selection": true,
+      "export_yup": true,
+      "export_extras": true,
+      "export_cameras": false,
+      "export_lights": false,
+      "export_apply": false,
+      "export_animations": true,
+      "export_animation_mode": "NLA_TRACKS",
+      "export_force_sampling": true,
+      "export_frame_step": 1,
+      "export_optimize_animation_size": false,
+      "export_current_frame": false,
+      "export_anim_single_armature": false,
+      "export_morph": false,
+      "export_skins": false
+    },
+    "dropped": [],
+    "notes": [
+      "opciones del exportador disponibles: 111"
+    ],
+    "available_option_count": 111
+  },
+  "animated_glb_sha256": "9ca025344515ebb7859d6ea3def5307f815cb5f77c87150c464045952d110535",
+  "glb_bytes": 605808,
+  "glb_animations": {
+    "arboles": {
+      "nodes": [
+        "arboles__arbol_0_copa",
+        "arboles__arbol_0_tronco",
+        "arboles__arbol_1_copa",
+        "arboles__arbol_1_tronco",
+        "arboles__arbol_2_copa",
+        "arboles__arbol_2_tronco",
+        "arboles__arbol_3_copa",
+        "arboles__arbol_3_tronco",
+        "arboles__arbol_4_copa",
+        "arboles__arbol_4_tronco",
+        "arboles__arbol_5_copa",
+        "arboles__arbol_5_tronco",
+        "arboles__arbol_6_copa",
+        "arboles__arbol_6_tronco",
+        "arboles__arbol_7_copa",
+        "arboles__arbol_7_tronco"
+      ],
+      "channels": 16,
+      "duration_s": 3.8333333333333335,
+      "start_s": 0,
+      "frames": 92.0
+    },
+    "bandera": {
+      "nodes": [
+        "asta_bandera__Bandera blanca",
+        "asta_bandera__Bandera celeste"
+      ],
+      "channels": 2,
+      "duration_s": 2.4166666666666665,
+      "start_s": 0,
+      "frames": 58.0
+    },
+    "autobus": {
+      "nodes": [
+        "autobus__bus_carroceria",
+        "autobus__bus_detalles",
+        "autobus__bus_luces",
+        "autobus__bus_luces_traseras",
+        "autobus__bus_vidrio"
+      ],
+      "channels": 10,
+      "duration_s": 14,
+      "start_s": 0,
+      "frames": 336
+    },
+    "balon": {
+      "nodes": [
+        "cancha__Balon"
+      ],
+      "channels": 1,
+      "duration_s": 0.7916666666666666,
+      "start_s": 0,
+      "frames": 19.0
+    },
+    "estudiantes": {
+      "nodes": [
+        "estudiantes__estudiante_0_cabello",
+        "estudiantes__estudiante_0_cabeza",
+        "estudiantes__estudiante_0_mochila",
+        "estudiantes__estudiante_0_piernas",
+        "estudiantes__estudiante_0_torso",
+        "estudiantes__estudiante_1_cabeza",
+        "estudiantes__estudiante_1_piernas_cabello",
+        "estudiantes__estudiante_1_torso",
+        "estudiantes__estudiante_2_cabello",
+        "estudiantes__estudiante_2_cabeza",
+        "estudiantes__estudiante_2_mochila",
+        "estudiantes__estudiante_2_piernas",
+        "estudiantes__estudiante_2_torso",
+        "estudiantes__estudiante_3_cabello",
+        "estudiantes__estudiante_3_cabeza",
+        "estudiantes__estudiante_3_piernas",
+        "estudiantes__estudiante_3_torso",
+        "estudiantes__estudiante_4_cabeza",
+        "estudiantes__estudiante_4_piernas_cabello",
+        "estudiantes__estudiante_4_torso"
+      ],
+      "channels": 33,
+      "duration_s": 12,
+      "start_s": 0,
+      "frames": 288
+    },
+    "columpios": {
+      "nodes": [
+        "juegos__Asiento columpio 1",
+        "juegos__Asiento columpio 2",
+        "juegos__Cadenas columpio 1",
+        "juegos__Cadenas columpio 2"
+      ],
+      "channels": 4,
+      "duration_s": 2.2083333333333335,
+      "start_s": 0,
+      "frames": 53.0
+    },
+    "nubes": {
+      "nodes": [
+        "nubes__nube_0",
+        "nubes__nube_1",
+        "nubes__nube_2"
+      ],
+      "channels": 3,
+      "duration_s": 11,
+      "start_s": 0,
+      "frames": 264
+    },
+    "puerta": {
+      "nodes": [
+        "puerta__puerta_hoja",
+        "puerta__puerta_manija"
+      ],
+      "channels": 2,
+      "duration_s": 3,
+      "start_s": 0,
+      "frames": 72
+    },
+    "reloj": {
+      "nodes": [
+        "torre_reloj__reloj_horario",
+        "torre_reloj__reloj_minutero"
+      ],
+      "channels": 2,
+      "duration_s": 72,
+      "start_s": 0,
+      "frames": 1728
+    }
+  },
+  "glb_has_cameras": false,
+  "glb_has_lights": false,
+  "meshes": 90,
+  "triangles": 7078,
+  "part_id_counts": {
+    "terreno": 3,
+    "camino": 3,
+    "autobus": 5,
+    "edificio": 7,
+    "techo": 3,
+    "ventanas": 2,
+    "puerta": 2,
+    "torre_reloj": 9,
+    "asta_bandera": 5,
+    "juegos": 6,
+    "cancha": 6,
+    "arboles": 16,
+    "nubes": 3,
+    "estudiantes": 20
+  },
+  "render": {
+    "engine": "CYCLES",
+    "resolution": [
+      768,
+      768
+    ]
+  },
+  "renders": {
+    "anim-0.png": {
+      "t_s": 0.0,
+      "frame": 0,
+      "sha256": "0d4304d8dd11d7a7ae04fdd59a0d0ee7f3d776b854bce1495b3b62c2a977d639"
+    },
+    "anim-19.png": {
+      "t_s": 0.8,
+      "frame": 19,
+      "sha256": "786f864a399be8941b4c91ba8596495f92b6fe42e6297008357e64fbae773cf2"
+    },
+    "anim-38.png": {
+      "t_s": 1.6,
+      "frame": 38,
+      "sha256": "7ad1bb07bc10f9b5bdae212db374e5529802080cd3f27465a193fee66248afcb"
+    },
+    "anim-58.png": {
+      "t_s": 2.4,
+      "frame": 58,
+      "sha256": "fc6ade77b479459d310c595449c596472df0ecb8a4d4f86bced8df31afbc9e9e"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "claude-school-opus-only-v1",
+  "kind": "isolated user-requested comparison; every author role uses Opus 5.5; baseline is claude-school-orchestrated-v1 (Haiku/Sonnet authors); production default remains Sol/Luna",
+  "provider": "Anthropic first-party through Claude Code 2.1.299 (desktop entrypoint); subagent alias opus resolves to claude-opus-5-5 (re-checked per agent from transcripts)",
+  "roles": {
+    "coordinator": {"models": ["claude-opus-5-5"], "efforts": ["high"], "note": "Same coordinator context as the baseline; brief, kit, assembly, Blender runs, integration"},
+    "reviewer": {"models": ["claude-opus-5-5"], "efforts": ["medium"], "note": "Fresh context per review, images opened"}
+  },
+  "conditions": {
+    "opus-only": {"author": {"models": ["claude-opus-5-5"], "efforts": ["high", "medium"]}}
+  }
+}

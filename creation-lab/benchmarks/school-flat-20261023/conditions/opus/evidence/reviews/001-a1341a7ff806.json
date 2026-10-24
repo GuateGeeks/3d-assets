@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "runId": "001-a1341a7ff806",
+  "manifestSha256": "3d855afd05c3788b0d274a6036ffc758d859686ef899c1ba1925c2c385c2e6ca",
+  "reviewer": {
+    "actorId": "a1465e3cfeb5e2db4",
+    "model": "claude-opus-5-5",
+    "reasoningEffort": "medium"
+  },
+  "openedImages": true,
+  "images": {
+    "front": "55e8a057a2c381a7a609e6f1023640afc9d1935d8a79d3467513f76f44e425da",
+    "side": "cf1c3adc6ab2d358698f81fcea90eefa5e7a3279236702004e33abfa935ed0c1",
+    "back": "4dac7516b30369839fa053c8a57848484d75f7d09ad88700d534744a26715e4b",
+    "three-quarter": "450ba00dd56e6c093a90b770b65484d144b522931cb6e50cac8c24201f73f364",
+    "wireframe": "7d09cfc03fadecbf8ed08b323e6399d5e556322f71a3b0b7bd1f1557c083cd39",
+    "reimport-three-quarter": "58623064df690f4c5a7916d6175f0e99756228e61cb599c356f367f5957b3c19"
+  },
+  "visual": {
+    "status": "PASS",
+    "reason": "Las seis imágenes abiertas y sus sha256 coinciden con la plantilla. Lectura clara del diorama: edificio de dos pisos con techo rojo, torre de reloj central, calle, cancha y patio. Estilo flat shaded minimalista coherente (facetas visibles en árboles y nubes, colores sólidos, sin texturas ni texto). Reimportación tres cuartos visualmente idéntica a la fuente. Reservas no bloqueantes para blockout: paleta pastel con contraste moderado (bus amarillo pálido, fachada crema sobre césped claro), la nube central ocluye el techo de la torre en tres cuartos y front, y el render 'wireframe' no muestra alambre (parece igual al sombreado)."
+  },
+  "content": {
+    "status": "PASS",
+    "reason": "Los cuatro blockoutChecks pasan: lectura del edificio/torre/puerta en tres cuartos, catorce partes distinguibles, composición calle-banqueta-camino-puerta con asta y columpios a la izquierda y cancha a la derecha, árboles en bordes y nubes arriba; proporciones plausibles (bus en carril, estudiantes más bajos que la puerta, cancha dentro del patio)."
+  },
+  "parts": [
+    {
+      "id": "terreno",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter",
+        "wireframe",
+        "reimport-three-quarter"
+      ],
+      "reason": "Base verde con zócalo de tierra visible en todas las vistas."
+    },
+    {
+      "id": "camino",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Calle gris con líneas discontinuas al frente, banqueta clara y camino hasta la puerta en tres cuartos."
+    },
+    {
+      "id": "edificio",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Volumen crema de dos pisos con franja entre pisos; legible en todas las vistas fuente."
+    },
+    {
+      "id": "techo",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Techo a dos aguas rojo coral sobre ambas alas y techo piramidal en la torre."
+    },
+    {
+      "id": "ventanas",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Dos filas de ventanas celestes con marco blanco en frente, lateral y fondo."
+    },
+    {
+      "id": "puerta",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Puerta café de dos hojas bajo la torre, centrada en la fachada."
+    },
+    {
+      "id": "torre_reloj",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Torre central con esfera blanca y dos manecillas oscuras; la nube central tapa parte de su techo en tres cuartos."
+    },
+    {
+      "id": "asta_bandera",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Asta clara con bandera celeste-blanco-celeste en front y back; en tres cuartos la bandera casi se pierde contra la fachada (solo se lee el asta)."
+    },
+    {
+      "id": "cancha",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Superficie salmón con líneas blancas, círculo central, dos tableros y balón naranja a la derecha del camino."
+    },
+    {
+      "id": "juegos",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Marco en A rojo con dos columpios de asientos azules a la izquierda del patio."
+    },
+    {
+      "id": "arboles",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Árboles redondeados y pinos facetados en los bordes laterales y trasero."
+    },
+    {
+      "id": "autobus",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Bus amarillo pálido con ventanas y ruedas sobre el carril de la calle."
+    },
+    {
+      "id": "estudiantes",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Varias figuras pequeñas (camisa blanca/azul) en el patio, la banqueta y el camino; legibles pero diminutas."
+    },
+    {
+      "id": "nubes",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Tres nubes blancas facetadas por encima del diorama."
+    }
+  ],
+  "checks": [
+    {
+      "check": "Desde la vista tres cuartos se leen el edificio de dos pisos con su techo, la torre del reloj al centro del frente y la puerta bajo la torre.",
+      "status": "PASS",
+      "reason": "En tres cuartos se leen dos pisos de ventanas, techo rojo, torre con reloj al centro del frente y la puerta café directamente debajo."
+    },
+    {
+      "check": "Las catorce partes son volúmenes separados y distinguibles por color o forma; ninguna queda oculta en todas las vistas fuente.",
+      "status": "PASS",
+      "reason": "Las 14 partes aparecen como volúmenes separados y distinguibles por color/forma en al menos una vista fuente; ninguna queda oculta en todas. La bandera se distingue en front y back, aunque en tres cuartos casi se confunde con la fachada."
+    },
+    {
+      "check": "La composición es coherente: calle al frente, camino de la banqueta a la puerta, asta y columpios a un lado del patio, cancha al otro lado, árboles en los bordes y nubes por encima.",
+      "status": "PASS",
+      "reason": "Calle al frente, banqueta y camino claro hasta la puerta; asta y columpios a la izquierda del patio, cancha a la derecha; árboles en bordes laterales y trasero; nubes arriba."
+    },
+    {
+      "check": "Las proporciones son plausibles entre sí: el bus cabe en la calle, los estudiantes son más bajos que la puerta y la cancha cabe en su patio.",
+      "status": "PASS",
+      "reason": "El bus ocupa un carril sin salirse de la calle; los estudiantes miden aprox. la mitad de la altura de la puerta; la cancha cabe en el patio derecho sin invadir la calle ni el edificio."
+    }
+  ],
+  "defects": [
+    {
+      "view": "three-quarter",
+      "detail": "La nube central está sobre/ante el techo de la torre del reloj y tapa su remate; en front parece apoyada en la punta.",
+      "requestedChange": "Desplazar esa nube hacia atrás o hacia un lado y subirla para que no se superponga a la torre en front ni en tres cuartos."
+    },
+    {
+      "view": "wireframe",
+      "detail": "El render 'wireframe' se ve igual al sombreado tres cuartos; no muestra aristas ni topología, así que no sirve para revisar facetas/densidad.",
+      "requestedChange": "Regenerar el render wireframe con overlay de aristas (o material wire) para que aporte evidencia distinta."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "La bandera celeste-blanco-celeste casi no se lee en tres cuartos: queda de canto o contra la fachada crema y ventanas celestes.",
+      "requestedChange": "Orientar la bandera para que se vea de frente/tres cuartos o separar el asta de la fachada para que la bandera tenga fondo de cielo/césped."
+    },
+    {
+      "view": "front",
+      "detail": "El bus es amarillo pálido/mostaza claro y se confunde con la paleta pastel; poco contraste con la banqueta y la fachada crema.",
+      "requestedChange": "Usar un amarillo escolar más saturado para el bus y una franja/ventanas más oscuras."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "Contraste general bajo: fachada crema, banqueta blanca y césped verde muy claro tienen valores similares; la lectura a distancia depende del techo rojo.",
+      "requestedChange": "Oscurecer un poco el césped o el gris de la calle y dar a la fachada un tono algo más cálido para separar edificio, patio y calle."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "Los estudiantes son muy pequeños y de colores claros (blanco/azul pálido); apenas se distinguen del suelo.",
+      "requestedChange": "Dar ropa/uniforme de colores más saturados y agruparlos en zonas visibles (frente a la puerta, junto a la cancha y columpios)."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "Un tablero de básquet queda pegado al camino de entrada, junto a la puerta, invadiendo el paso peatonal.",
+      "requestedChange": "Separar la cancha unos centímetros del camino para dejar libre el acceso a la puerta."
+    },
+    {
+      "view": "side",
+      "detail": "En la vista lateral el asta y el columpio se superponen visualmente y la torre se ve muy alta respecto al ala del edificio.",
+      "requestedChange": "Revisar la separación en X entre asta y columpios y comprobar la altura de la torre frente al edificio en la etapa de detalle."
+    }
+  ]
+}

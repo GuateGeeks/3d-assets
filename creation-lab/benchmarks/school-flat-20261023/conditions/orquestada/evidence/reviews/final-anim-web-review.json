@@ -1,0 +1,70 @@
+{
+  "reviewer": {"role": "independent reviewer (anim + web final)", "model": "claude-opus-5-5", "effortRequested": "not specified", "date": "2026-10-23"},
+  "openedImages": true,
+  "imageSha256": {
+    "anim/detail-v1/renders/anim-0.png": "0d4304d8dd11d7a7ae04fdd59a0d0ee7f3d776b854bce1495b3b62c2a977d639",
+    "anim/detail-v1/renders/anim-19.png": "786f864a399be8941b4c91ba8596495f92b6fe42e6297008357e64fbae773cf2",
+    "anim/detail-v1/renders/anim-38.png": "7ad1bb07bc10f9b5bdae212db374e5529802080cd3f27465a193fee66248afcb",
+    "anim/detail-v1/renders/anim-58.png": "fc6ade77b479459d310c595449c596472df0ecb8a4d4f86bced8df31afbc9e9e",
+    "web/final/qa/desk-1-day.png": "3073ed5d5d28cb6fad4c88bb2cf7965c46d51bdd6e3f99b2915f87b8dddfea68",
+    "web/final/qa/desk-2-door.png": "dff2de576313b95213d285e5a14c7ef3ea71146955e7e0686b0313f2e7dc9906",
+    "web/final/qa/desk-3-night.png": "7e8a424a4b636deb0b7edbcc0092ff913a3b56d09bcf73f30cdd29be315f69f4",
+    "web/final/qa/phone-2-door-v2viewer.png": "d3213380cfbe8ed7448ea918abee2c4dc1a4abd31037edb8c4e20a4a59a1be09"
+  },
+  "technicalChecks": {
+    "anim-result.json": "status PASS, 64/64 checks pass (clips presentes, sin clips desconocidos, repivot bbox err 1.9e-9 m, bucles cerrados, pasos de rotacion acotados; bus max 36.7 grados/frame en el giro). Warnings: parametros por defecto en autobus/estudiantes y periodos redondeados/alargados >15 % en arboles, nubes y estudiantes.",
+    "verify-result.json": "status PASS, 31/31 checks pass; GLB sha256 9ca02534...0535 reimportado en Blender 5.2.3 LTS con los 9 clips del brief (puerta 3 s, reloj 72 s, bandera, balon, columpios, arboles, autobus 14 s, estudiantes 12 s, nubes 11 s); 90 mallas, 7078 triangulos."
+  },
+  "animation": {
+    "status": "PASS",
+    "reason": "Los 4 fotogramas (0/0.8/1.6/2.4 s) muestran cambios coherentes: el bus avanza por el carril y en t=2.4 s inicia el giro en U en el extremo derecho; la puerta pasa de cerrada (t=0) a entreabierta (0.8 s) y abierta (1.6-2.4 s) girando sobre su bisagra; el minutero y horario cambian de angulo; los asientos de los columpios oscilan; la bandera cambia de pose; los estudiantes cambian de posicion sobre el camino/banqueta; las tres nubes se desplazan. No hay piezas despegadas ni rotaciones absurdas; los checks tecnicos del JSON pasan. Con reservas: el bus invade la banqueta durante el giro (ver defectos) y el balon no es verificable con este muestreo."
+  },
+  "interaction": {
+    "status": "PASS",
+    "reason": "desk-1: carga con 23 botones, canvas, etiquetas numeradas 1-14 y tarjeta vacia; overflowX=false. desk-2: el chip 'Puerta principal' queda resaltado, la camara enfoca la entrada, la hoja de la puerta aparece abierta y tintada (emisivo de seleccion), la tarjeta muestra '6. Puerta principal', 'Estado: la puerta esta abierta' y el boton cambia a 'Cerrar puerta' (confirmado en desk-report.after). desk-3: cielo a degradado nocturno con estrellas, luz general atenuada/azulada, ventanas del edificio y del bus emiten amarillo calido, nubes oscurecidas; el boton pasa a 'Dia' con aria-pressed=true. Unico log de error: 404 de favicon del servidor local (no cuenta). Movil v2: canvas arriba, hoja inferior con tarjeta y 'Cerrar puerta', toolbar en dos filas sin recortes y chips en carrusel horizontal (scroll intencional de #chips, no de la pagina)."
+  },
+  "style": {
+    "status": "PASS",
+    "reason": "Flat shaded / minimal coherente en renders y web: caras planas facetadas, siluetas simples (copas low-poly, nubes poligonales, figuras de bloques), paleta limitada de solidos (crema, coral/rojo teja, verde, azul cancha, amarillo bus), sin texturas ni logotipos. Diferencia esperable: el render Blender es mas pastel/suave por la iluminacion, el visor web es mas saturado (techos rojo intenso, cancha azul fuerte); se lee como el mismo asset. El reloj tiene marcas finas cercanas a 'detalle diminuto' pero es legible y aceptable."
+  },
+  "defects": [
+    {
+      "evidence": "anim/detail-v1/renders/anim-58.png",
+      "detail": "En t=2.4 s, en plena vuelta en U al extremo derecho de la calle, el bus (girado ~60 grados) ocupa todo el ancho de la calzada y su frente invade la banqueta junto a la cancha; la cola queda casi en el borde frontal de la base. Visualmente parece subirse a la acera.",
+      "requestedChange": "Mantener el bus dentro de la calzada durante el giro: radio de giro compatible con el ancho de la calle, girar fuera del diorama (o salir/entrar por los bordes con fade/escala) o hacer ida y vuelta por carriles sin giro visible. Verificar con renders densos del tramo de giro."
+    },
+    {
+      "evidence": "web/final/qa/desk-1-day.png",
+      "detail": "La etiqueta 13 'Estudiantes' se ancla sobre la fachada, junto a la puerta (centroide del grupo), no sobre un estudiante; puede leerse como que senala el edificio o la puerta (etiquetas 6 y 13 casi superpuestas).",
+      "requestedChange": "Anclar la etiqueta del grupo en un miembro concreto (o en el mas cercano a camara) o desplazarla para no solaparse con la 6."
+    },
+    {
+      "evidence": "web/final/qa/desk-2-door.png",
+      "detail": "Texto de la tarjeta contradictorio: dice 'Tocala para abrirla' mientras el estado es 'la puerta esta abierta' y el boton es 'Cerrar puerta'.",
+      "requestedChange": "Hacer la descripcion dependiente del estado ('Tocala para cerrarla') o neutra ('Tocala para abrirla o cerrarla')."
+    },
+    {
+      "evidence": "web/final/qa/phone-2-door-v2viewer.png",
+      "detail": "No hay report JSON (botones, overflow, consola) del visor v2 en movil; el unico phone-report.json es de web/detail-v1 (puerto 4421, visor anterior). El veredicto movil del visor final se apoya solo en la captura.",
+      "requestedChange": "Generar web/final/qa/phone-report.json con el visor final (v2) incluyendo overflowX, logs y estados puerta/noche, y capturas phone dia/noche del final."
+    },
+    {
+      "evidence": "web/final/qa/desk-2-door.png",
+      "detail": "Tras el enfoque a la puerta el bus queda cortado en el borde izquierdo y una nube queda bajo la barra de herramientas; el encuadre de foco no reserva margen para la UI superior.",
+      "requestedChange": "Menor: considerar el alto de la toolbar en el encuadre de enfoque (offset de vista)."
+    }
+  ],
+  "notVerified": [
+    "Clic/tap directo sobre el canvas (raycast pick y toggle de puerta al tocar la puerta): existe en el codigo (pointerup -> pick -> toggleDoor) pero las pruebas usan chips y botones.",
+    "Cierre efectivo de la puerta al pulsar 'Cerrar puerta' y reproduccion animada (no solo estado final) del clip puerta en el visor.",
+    "Trayectoria completa del bus (336 frames): solo hay 4 fotogramas en 2.4 s; no se ve el resto del giro en U ni el regreso, por lo que no se puede descartar que salga de la calle o atraviese otros objetos en otros momentos.",
+    "Balon: periodo de 19 frames coincide con el muestreo (0/19/38/58), aparece en la misma pose; el rebote no es visible en estas pruebas.",
+    "Arboles: el balanceo es demasiado sutil para confirmarlo a esta escala; tampoco se comprobo colision estudiantes/objetos fuera de los 4 fotogramas.",
+    "Bucle sin salto en tiempo real ni sincronizacion entre clips de distinta duracion en el navegador.",
+    "Visor v2 en movil: overflow, consola y modo noche no medidos (solo existe captura de puerta); orientacion horizontal, tablets y safe areas no probados.",
+    "Rendimiento/FPS, memoria y tiempo de carga del HTML de ~845 KB con GLB embebido en moviles reales y GPUs modestas; solo Chromium headless.",
+    "Otros navegadores (Safari/iOS, Firefox), WebGL no disponible (ruta de error) y prefers-reduced-motion.",
+    "Accesibilidad con teclado/lector de pantalla mas alla de la presencia de aria-labels y aria-pressed en el codigo.",
+    "Que local.html (variante con wrapper html/body) se comporte igual que index.html; solo difieren en el envoltorio segun diff de lineas cortas, no se probo."
+  ]
+}

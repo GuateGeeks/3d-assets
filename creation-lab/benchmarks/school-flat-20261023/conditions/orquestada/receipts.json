@@ -1,0 +1,181 @@
+{
+ "method": "Entrada fiable; salida = máx(registrada, texto/código visible/3.5): cota inferior sin razonamiento oculto. Coste no disponible.",
+ "agents": {
+  "acf641005960b927a": {
+   "role": "autor vida",
+   "requested": [
+    "haiku",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-haiku-5-5"
+   ],
+   "apiResponses": 11,
+   "inputTokensTotal": 754534,
+   "cacheReadTokens": 593536,
+   "outputTokensRecorded": 86,
+   "outputTokensVisibleEstimate": 7351,
+   "outputTokensLowerBound": 7351
+  },
+  "a3d3c74b4b3be6088": {
+   "role": "autor patio",
+   "requested": [
+    "haiku",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-haiku-5-5"
+   ],
+   "apiResponses": 14,
+   "inputTokensTotal": 988864,
+   "cacheReadTokens": 819268,
+   "outputTokensRecorded": 3229,
+   "outputTokensVisibleEstimate": 8884,
+   "outputTokensLowerBound": 8884
+  },
+  "a56052820a78767c1": {
+   "role": "autor entorno",
+   "requested": [
+    "haiku",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-haiku-5-5"
+   ],
+   "apiResponses": 10,
+   "inputTokensTotal": 652040,
+   "cacheReadTokens": 510892,
+   "outputTokensRecorded": 6294,
+   "outputTokensVisibleEstimate": 4701,
+   "outputTokensLowerBound": 6294
+  },
+  "ae8779ec3f41ddf61": {
+   "role": "autor edificio",
+   "requested": [
+    "sonnet",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-sonnet-5-5"
+   ],
+   "apiResponses": 7,
+   "inputTokensTotal": 358954,
+   "cacheReadTokens": 261528,
+   "outputTokensRecorded": 84,
+   "outputTokensVisibleEstimate": 4732,
+   "outputTokensLowerBound": 4732
+  },
+  "a28e2ff25a8904da6": {
+   "role": "autor anim",
+   "requested": [
+    "sonnet",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-sonnet-5-5"
+   ],
+   "apiResponses": 10,
+   "inputTokensTotal": 683307,
+   "cacheReadTokens": 594166,
+   "outputTokensRecorded": 151,
+   "outputTokensVisibleEstimate": 15655,
+   "outputTokensLowerBound": 15655
+  },
+  "ada7365c97ba79f78": {
+   "role": "autor web",
+   "requested": [
+    "sonnet",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-sonnet-5-5"
+   ],
+   "apiResponses": 16,
+   "inputTokensTotal": 1041639,
+   "cacheReadTokens": 836075,
+   "outputTokensRecorded": 3182,
+   "outputTokensVisibleEstimate": 15522,
+   "outputTokensLowerBound": 15522
+  },
+  "a2c709360f5a87354": {
+   "role": "revisor blockout v1 (run 001)",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 6,
+   "inputTokensTotal": 259877,
+   "cacheReadTokens": 208854,
+   "outputTokensRecorded": 750,
+   "outputTokensVisibleEstimate": 3609,
+   "outputTokensLowerBound": 3609
+  },
+  "a8174e3fe03d8ca00": {
+   "role": "revisor blockout v2 (run 002)",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 4,
+   "inputTokensTotal": 163382,
+   "cacheReadTokens": 132998,
+   "outputTokensRecorded": 732,
+   "outputTokensVisibleEstimate": 3187,
+   "outputTokensLowerBound": 3187
+  },
+  "a6176ae61b274fa15": {
+   "role": "revisor detail v1 (run 003)",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 10,
+   "inputTokensTotal": 461018,
+   "cacheReadTokens": 423208,
+   "outputTokensRecorded": 1337,
+   "outputTokensVisibleEstimate": 4892,
+   "outputTokensLowerBound": 4892
+  },
+  "a6edc5bf157451fc9": {
+   "role": "revisor final animación + web",
+   "requested": [
+    "opus",
+    "medium"
+   ],
+   "responseModels": [
+    "claude-opus-5-5"
+   ],
+   "apiResponses": 12,
+   "inputTokensTotal": 594583,
+   "cacheReadTokens": 547848,
+   "outputTokensRecorded": 1266,
+   "outputTokensVisibleEstimate": 4902,
+   "outputTokensLowerBound": 4902
+  }
+ },
+ "coordinator": {
+  "role": "coordinador (tramo de esta condición en la sesión principal)",
+  "requested": [
+   "claude-opus-5-5",
+   "high"
+  ],
+  "responseModels": [
+   "claude-opus-5-5"
+  ],
+  "apiResponses": 92,
+  "inputTokensTotal": 30110634,
+  "cacheReadTokens": 29880192,
+  "outputTokensRecorded": 101696,
+  "outputTokensVisibleEstimate": 37789,
+  "outputTokensLowerBound": 101696
+ }
+}

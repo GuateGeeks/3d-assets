@@ -1,0 +1,338 @@
+{
+  "status": "PASS",
+  "stage": "verify",
+  "checks": [
+    {
+      "name": "imported-clip-names",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "name": "each-clip-animates-objects",
+      "status": "PASS",
+      "actual": {
+        "puerta": 2,
+        "reloj": 2,
+        "bandera": 2,
+        "balon": 1,
+        "columpios": 4,
+        "arboles": 16,
+        "autobus": 5,
+        "estudiantes": 22,
+        "nubes": 3
+      }
+    },
+    {
+      "name": "meshes-keep-part_id",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "name": "mesh-count-matches",
+      "status": "PASS",
+      "actual": {
+        "imported": 91,
+        "animate": 91
+      }
+    },
+    {
+      "name": "triangle-count-matches",
+      "status": "PASS",
+      "actual": {
+        "imported": 7492,
+        "animate": 7492
+      }
+    },
+    {
+      "name": "glb-sha256-matches-animate",
+      "status": "PASS",
+      "actual": "f1db07aeb94dcdbcc3065efb088d78a37bec062963e22dc609498482914189a4"
+    },
+    {
+      "name": "glb-json-clips",
+      "status": "PASS",
+      "actual": [
+        "arboles",
+        "autobus",
+        "balon",
+        "bandera",
+        "columpios",
+        "estudiantes",
+        "nubes",
+        "puerta",
+        "reloj"
+      ]
+    },
+    {
+      "name": "glb-animated-nodes-have-part_id",
+      "status": "PASS",
+      "actual": {}
+    }
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "gltfAddonVersion": "5.2.41",
+  "glb": {
+    "path": "//wsl.localhost/Ubuntu/home/adawolfs/projects/makecode/3d-assets/creation-lab/.local/claude-school-opus-20261023/anim/detail-v1/animated.glb",
+    "sha256": "f1db07aeb94dcdbcc3065efb088d78a37bec062963e22dc609498482914189a4"
+  },
+  "worker": {
+    "path": "//wsl.localhost/Ubuntu/home/adawolfs/projects/makecode/3d-assets/creation-lab/.local/claude-school-opus-20261023/authors/anim/v2/anim_worker.py",
+    "sha256": "74190c844df13e6c3619c3f080b8cc2dfd1f5f5fcb949261f8b2094dc6e31a84"
+  },
+  "clips": {
+    "puerta": {
+      "objectsExactTrack": 2,
+      "objectsAnyName": 2,
+      "names": [
+        "puerta"
+      ]
+    },
+    "reloj": {
+      "objectsExactTrack": 2,
+      "objectsAnyName": 2,
+      "names": [
+        "reloj"
+      ]
+    },
+    "bandera": {
+      "objectsExactTrack": 2,
+      "objectsAnyName": 2,
+      "names": [
+        "bandera"
+      ]
+    },
+    "balon": {
+      "objectsExactTrack": 1,
+      "objectsAnyName": 1,
+      "names": [
+        "balon"
+      ]
+    },
+    "columpios": {
+      "objectsExactTrack": 4,
+      "objectsAnyName": 4,
+      "names": [
+        "columpios"
+      ]
+    },
+    "arboles": {
+      "objectsExactTrack": 16,
+      "objectsAnyName": 16,
+      "names": [
+        "arboles"
+      ]
+    },
+    "autobus": {
+      "objectsExactTrack": 5,
+      "objectsAnyName": 5,
+      "names": [
+        "autobus"
+      ]
+    },
+    "estudiantes": {
+      "objectsExactTrack": 22,
+      "objectsAnyName": 22,
+      "names": [
+        "estudiantes"
+      ]
+    },
+    "nubes": {
+      "objectsExactTrack": 3,
+      "objectsAnyName": 3,
+      "names": [
+        "nubes"
+      ]
+    }
+  },
+  "importedAnimationNames": [
+    "arboles",
+    "autobus",
+    "balon",
+    "bandera",
+    "columpios",
+    "estudiantes",
+    "nubes",
+    "puerta",
+    "reloj"
+  ],
+  "counts": {
+    "meshObjects": 91,
+    "triangles": 7492
+  },
+  "glbAnimations": {
+    "arboles": {
+      "durationS": 3.9166667461395264,
+      "nodes": [
+        "arboles__vida_arbol_0_copa",
+        "arboles__vida_arbol_0_tronco",
+        "arboles__vida_arbol_1_copa",
+        "arboles__vida_arbol_1_tronco",
+        "arboles__vida_arbol_2_copa",
+        "arboles__vida_arbol_2_tronco",
+        "arboles__vida_arbol_3_copa",
+        "arboles__vida_arbol_3_tronco",
+        "arboles__vida_arbol_4_copa",
+        "arboles__vida_arbol_4_tronco",
+        "arboles__vida_arbol_5_copa",
+        "arboles__vida_arbol_5_tronco",
+        "arboles__vida_arbol_6_copa",
+        "arboles__vida_arbol_6_tronco",
+        "arboles__vida_arbol_7_copa",
+        "arboles__vida_arbol_7_tronco"
+      ],
+      "partIds": [
+        "arboles"
+      ],
+      "channels": 48,
+      "maxFirstLastDiff": 4.061082508408186e-18,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "bandera": {
+      "durationS": 2.4166667461395264,
+      "nodes": [
+        "asta_bandera__bandera_blanco",
+        "asta_bandera__bandera_celeste"
+      ],
+      "partIds": [
+        "asta_bandera"
+      ],
+      "channels": 6,
+      "maxFirstLastDiff": 0.0,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "autobus": {
+      "durationS": 14.0,
+      "nodes": [
+        "autobus__autobus_carroceria",
+        "autobus__autobus_luces_cola",
+        "autobus__autobus_luces_frente",
+        "autobus__autobus_oscuro",
+        "autobus__autobus_vidrios"
+      ],
+      "partIds": [
+        "autobus"
+      ],
+      "channels": 15,
+      "maxFirstLastDiff": 8.742277657347586e-08,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "balon": {
+      "durationS": 0.7916666865348816,
+      "nodes": [
+        "cancha__cancha_balon"
+      ],
+      "partIds": [
+        "cancha"
+      ],
+      "channels": 3,
+      "maxFirstLastDiff": 0.0,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "estudiantes": {
+      "durationS": 12.0,
+      "nodes": [
+        "estudiantes__vida_estudiante_0_cabello",
+        "estudiantes__vida_estudiante_0_cabeza",
+        "estudiantes__vida_estudiante_0_mochila",
+        "estudiantes__vida_estudiante_0_piernas",
+        "estudiantes__vida_estudiante_0_torso",
+        "estudiantes__vida_estudiante_1_cabello",
+        "estudiantes__vida_estudiante_1_cabeza",
+        "estudiantes__vida_estudiante_1_mochila",
+        "estudiantes__vida_estudiante_1_piernas",
+        "estudiantes__vida_estudiante_1_torso",
+        "estudiantes__vida_estudiante_2_cabello",
+        "estudiantes__vida_estudiante_2_cabeza",
+        "estudiantes__vida_estudiante_2_piernas",
+        "estudiantes__vida_estudiante_2_torso",
+        "estudiantes__vida_estudiante_3_cabello",
+        "estudiantes__vida_estudiante_3_cabeza",
+        "estudiantes__vida_estudiante_3_piernas",
+        "estudiantes__vida_estudiante_3_torso",
+        "estudiantes__vida_estudiante_4_cabello",
+        "estudiantes__vida_estudiante_4_cabeza",
+        "estudiantes__vida_estudiante_4_piernas",
+        "estudiantes__vida_estudiante_4_torso"
+      ],
+      "partIds": [
+        "estudiantes"
+      ],
+      "channels": 66,
+      "maxFirstLastDiff": 1.7881393432617188e-07,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "columpios": {
+      "durationS": 2.2083332538604736,
+      "nodes": [
+        "juegos__columpio_1_asiento",
+        "juegos__columpio_1_cadenas",
+        "juegos__columpio_2_asiento",
+        "juegos__columpio_2_cadenas"
+      ],
+      "partIds": [
+        "juegos"
+      ],
+      "channels": 12,
+      "maxFirstLastDiff": 1.0379263802968379e-18,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "nubes": {
+      "durationS": 11.5,
+      "nodes": [
+        "nubes__vida_nube_0",
+        "nubes__vida_nube_1",
+        "nubes__vida_nube_2"
+      ],
+      "partIds": [
+        "nubes"
+      ],
+      "channels": 9,
+      "maxFirstLastDiff": 0.0,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "puerta": {
+      "durationS": 3.0,
+      "nodes": [
+        "puerta__puerta_hoja",
+        "puerta__puerta_manija"
+      ],
+      "partIds": [
+        "puerta"
+      ],
+      "channels": 6,
+      "maxFirstLastDiff": 0.7660444378852844,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "reloj": {
+      "durationS": 72.0,
+      "nodes": [
+        "torre_reloj__torre_horario",
+        "torre_reloj__torre_minutero"
+      ],
+      "partIds": [
+        "torre_reloj"
+      ],
+      "channels": 6,
+      "maxFirstLastDiff": 9.539904510802444e-08,
+      "interpolations": [
+        "LINEAR"
+      ]
+    }
+  }
+}

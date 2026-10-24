@@ -1,0 +1,79 @@
+{
+  "coordinator": {
+    "actorId": "claude-code-session-78a07db9-5244-4ee7-871e-a2103b3c7094",
+    "requestedModel": "claude-opus-5-5",
+    "requestedEffort": "high",
+    "tasks": [
+      "brief",
+      "kit",
+      "contracts",
+      "composition/assembly",
+      "blender runs",
+      "integration",
+      "publish"
+    ]
+  },
+  "authors": {
+    "vida": {
+      "agentId": "acf641005960b927a",
+      "requestedAlias": "haiku",
+      "requestedEffort": "medium",
+      "parts": [
+        "arboles",
+        "nubes",
+        "estudiantes"
+      ]
+    },
+    "patio": {
+      "agentId": "a3d3c74b4b3be6088",
+      "requestedAlias": "haiku",
+      "requestedEffort": "medium",
+      "parts": [
+        "asta_bandera",
+        "juegos",
+        "cancha"
+      ]
+    },
+    "entorno": {
+      "agentId": "a56052820a78767c1",
+      "requestedAlias": "haiku",
+      "requestedEffort": "medium",
+      "parts": [
+        "terreno",
+        "camino",
+        "autobus"
+      ]
+    },
+    "edificio": {
+      "agentId": "ae8779ec3f41ddf61",
+      "requestedAlias": "sonnet",
+      "requestedEffort": "medium",
+      "parts": [
+        "edificio",
+        "techo",
+        "ventanas",
+        "puerta",
+        "torre_reloj"
+      ]
+    },
+    "anim": {
+      "agentId": "a28e2ff25a8904da6",
+      "requestedAlias": "sonnet",
+      "requestedEffort": "medium",
+      "deliverable": "anim_worker.py"
+    },
+    "web": {
+      "agentId": "ada7365c97ba79f78",
+      "requestedAlias": "sonnet",
+      "requestedEffort": "medium",
+      "deliverable": "index.html"
+    }
+  },
+  "reviewers": {
+    "a2c709360f5a87354": "blockout v1 (run 001)",
+    "a8174e3fe03d8ca00": "blockout v2 (run 002)",
+    "a6176ae61b274fa15": "detail v1 (run 003)",
+    "a6edc5bf157451fc9": "final animación + web"
+  },
+  "note": "Requested values; actual response models are read from the transcripts at closing (receipts)."
+}
