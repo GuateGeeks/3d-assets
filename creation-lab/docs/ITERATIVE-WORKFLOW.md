@@ -29,9 +29,12 @@ crea por sí mismo autores o revisores independientes.
 Los IDs admitidos son `gpt-6.1-sol` y `gpt-6-luna`. Para cambiar versiones,
 actualiza política, pruebas y recibos de forma explícita. Una evaluación externa
 común puede comparar los modos puros después, sin presentarla como parte de su
-ejecución exclusiva. El [prompt de Claude](../prompts/08-claude-benchmark.md)
-describe una excepción de benchmark solicitada por el usuario; la CLI actual
-rechaza IDs Claude y no debe recibir nombres falsos Sol/Luna para eludirla.
+ejecución exclusiva. El [prompt de Claude](../prompts/08-claude-benchmark.txt)
+describe una excepción de benchmark solicitada por el usuario. Los modos `sol`,
+`mixed` y `luna` siguen rechazando otros IDs; una comparación así usa
+`init --mode benchmark --profile ... --condition ...`, con IDs exactos por rol
+congelados en la sesión. Nunca uses nombres falsos Sol/Luna. Ver el
+[benchmark Claude](../benchmarks/claude-animal-cell/README.md).
 
 ## Brief, componentes y criterios
 

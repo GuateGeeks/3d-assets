@@ -150,6 +150,17 @@
     "REVIEWING.md": "42c9ae87cc8416f01a38e4dc7a53855c208045ae6c0fdbc0a6ae967c0e15f790",
     "bench.py": "be31a66d62bf89f84eca1115639c036b569eddb9144dfe7d952290de87d62a8c"
    }
+  },
+  {
+   "version": "1.5",
+   "at": "2026-10-24",
+   "trigger": "Close-out: Claude Code transcripts mostly store stream-start usage per message, so bench.py receipts undercount output; bench.py also counts idle time because SendMessage resumes are isMeta entries. Session limit on 2026-10-23 09:08 paused the batch; resumed 2026-10-24 by the same coordinator session under another account of the same user.",
+   "change": "New files, frozen bench.py untouched: receipts_v2.py (max usage per message.id, visible-output estimate chars/3.5 as lower bound, activeSecondsV2 split at every resume, scratchpad references), results.py (collector from sealed sessions) and serve.py (read-only loopback viewer). Gates, budgets, worker and reviews unchanged.",
+   "newHashes": {
+    "receipts_v2.py": "b6ff14dcd854d51d11a204e9b0bf8e6a496b6ed0256a38ab1b391b7174836475",
+    "results.py": "2cc27e5d5df40daca5a849919b54daa9f42efb10f5de5779ad9f01543ae3ef02",
+    "serve.py": "fc7ee94bd0cb0f14b43bd4418efa52bc40d3cb5b2ccc3c4ae3d52c8591ed80fc"
+   }
   }
  ]
 }

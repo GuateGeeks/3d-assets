@@ -14,7 +14,11 @@ biblioteca `components`, worker, QA, CLI y adaptador de host.
 | Instrucciones del revisor ciego | [REVIEWING.md](REVIEWING.md) |
 | Herramienta del coordinador | [bench.py](bench.py) |
 | Adaptador opcional WSL → `blender.exe` | [wsl-blender.sh](wsl-blender.sh) |
+| Recibos (enmienda 1.5), colector y visor | [receipts_v2.py](receipts_v2.py), [results.py](results.py), [serve.py](serve.py) |
 | Resultados | [RESULTS.md](RESULTS.md), [results.json](results.json) |
+
+Estado: lote ejecutado el 23–24 de octubre de 2026. Opus 3/3 y Sonnet 3/3 PASS,
+Haiku 0/3 (BLOCKED); exploratorio, n=3 por familia. Ver [RESULTS.md](RESULTS.md).
 
 ## Diseño
 
@@ -73,6 +77,25 @@ python creation-lab/benchmarks/claude-animal-cell/bench.py --root creation-lab/.
 python creation-lab/benchmarks/claude-animal-cell/bench.py --root creation-lab/.local/MI-BATCH feedback --replica R1
 python creation-lab/benchmarks/claude-animal-cell/bench.py --root creation-lab/.local/MI-BATCH status
 python creation-lab/benchmarks/claude-animal-cell/bench.py --root creation-lab/.local/MI-BATCH receipts --transcripts ~/.claude/projects/PROYECTO/SESION
+```
+
+Al cerrar el lote, `receipts_v2.py --transcripts ...` corrige el conteo de salida
+(cota inferior) y el tiempo activo; `results.py --output RUTA` reúne la evidencia
+sellada y `serve.py --root BATCH --port 4397` sirve un visor de solo lectura en
+loopback. Antes de escribir `review.json`, el revisor ejecuta
+`bench.py lint-review --packet SU_CARPETA`.
+
+### Ver los resultados sin repetir el lote
+
+`fixtures/` conserva el último run de cada réplica (el que define su estado final):
+`.blend`, GLB, partes, manifiesto, checks y seis renders, con hashes en
+`fixtures/index.json`. Se omiten los datos de QA de superficies y los runs
+intermedios; la evidencia completa del lote original (~810 MiB) queda local.
+
+```sh
+python creation-lab/benchmarks/claude-animal-cell/restore.py --check
+python creation-lab/benchmarks/claude-animal-cell/restore.py
+python creation-lab/benchmarks/claude-animal-cell/serve.py --root creation-lab/.local/benchmarks/claude-animal-cell/batch --port 4397
 ```
 
 `ingest` compara los hashes que el revisor calculó con los renders del run y guarda
