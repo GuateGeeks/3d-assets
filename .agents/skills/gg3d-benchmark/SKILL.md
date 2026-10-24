@@ -19,6 +19,13 @@ comparación, reparar una condición o distribuir sus resultados.
 
 Consulta [criterios](../../../creation-lab/docs/ACCEPTANCE.md), [hitos](../../../creation-lab/docs/IMPLEMENTATION-PLAN.md) y [recomendaciones de modelos](../../../creation-lab/docs/MODELS.md). Por defecto la comparación futura usa solo Sol, Sol+Luna y solo Luna con la misma biblioteca, herramientas, presupuestos y rondas; respeta otros modelos solicitados explícitamente en un protocolo aislado. Recomienda al menos tres autorías independientes por condición para un piloto. Reejecutar el mismo generador no crea una autoría nueva. Para el M7 completo, usa seis briefs: dos low-poly, dos hard-surface detallados, uno orgánico y una escena. Fija semillas, referencias, límites, versiones, tiempo y repeticiones; conserva runs, fallos, gasto con telemetría disponible e intervención humana observada; no infieras costo a partir de tiempos de Blender. Prefiere condiciones ligeras y CPU cuando sea práctico.
 
+En el [benchmark Claude](../../../creation-lab/benchmarks/claude-animal-cell/RESULTS.md),
+confirma el modelo resuelto en los transcripts del runtime, no solo por alias. Antes del
+lote, comprueba que cada vista común realmente muestra lo que promete (el `wireframe`
+del worker casi no se ve a 768 px). Da al revisor un validador de su JSON y a los autores
+un directorio propio: un scratchpad de sesión es compartido entre subagentes. El `usage`
+de los transcripts subestima la salida; repórtalo como cota inferior.
+
 Oculta la identidad del modelo durante la calificación visual cuando sea viable. Mantén condiciones comparables y separa cumplimiento técnico, calidad visual, editabilidad, exportación, tiempo, intervención y costo. Registra ausencias y exclusiones. Compara los sistemas completos aparte de las comparaciones de modelos.
 
 Los identificadores de partes no demuestran visibilidad ni contenido correcto.

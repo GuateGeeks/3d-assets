@@ -21,7 +21,7 @@ El detalle de comandos está en [README](../README.md).
 | Producción M2-M7 | NOT_RUN: skills, prompts y criterios preparados |
 | Piloto de célula animal | Ejecutado: seis condiciones y diez runs; D 87/100 y A 85/100 pasan técnica, visual y biología visible; [resultados](../benchmarks/animal-cell-20261022/RESULTS.md) |
 | Creación iterativa Sol/Luna | PASS del demo mecánico y 36 tests con Blender; [recibo](iterative-validation.json) y [guía](ITERATIVE-WORKFLOW.md). La mejora de calidad/coste frente al piloto requiere un benchmark nuevo |
-| Benchmark Claude | [Prompt preparado](../prompts/08-claude-benchmark.md) para Haiku/Sonnet/Opus; ejecución NOT_RUN |
+| Benchmark Claude (célula animal) | Ejecutado 23–24 oct, nueve réplicas: Opus 3/3 y Sonnet 3/3 PASS técnico, visual y de contenido; Haiku 0/3 BLOCKED. Exploratorio: un brief, revisor Opus; [resultados](../benchmarks/claude-animal-cell/RESULTS.md) y [prompt](../prompts/08-claude-benchmark.md) |
 | Prueba escuela Flat/Minimal (Claude) | Ejecutada 23–24 oct: diorama animado e interactivo; orquestada (Haiku/Sonnet autores) y solo-Opus pasan técnica, visual y contenido; ≈$13 con una corrección frente a ≈$15 sin correcciones; [resultados y aprendizajes](../benchmarks/school-flat-20261023/RESULTS.md). Fuera del catálogo |
 | Relevo desde un clon nuevo | Skills, scripts, locks y diez runs restaurables incluidos; [instalación](../../SETUP.md) y [verificación del repositorio](repository-handoff.json) |
 | API de imágenes y comparación con Claude | NOT_RUN; sin gasto iniciado |
