@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "school-flat-minimal-claude-v1",
+  "audience": "Primaria y secundaria; público general",
+  "language": "es",
+  "subject": "Escuela guatemalteca genérica en un diorama",
+  "purpose": "Diorama 3D de una escuela en estilo Flat Shaded / Minimalist, animado e interactivo en la web: cada estructura se selecciona, se explica en español y tiene movimiento propio.",
+  "style": "Flat Shaded / Minimalist 3D: caras planas sin suavizado, pocas facetas, siluetas simples, paleta limitada de colores sólidos (kit PALETTE), sin texturas, sin texto 3D, sin logotipos ni detalles diminutos.",
+  "displayScale": {"units": "m", "longestDimension": 0.4, "tolerance": 0.02, "meaning": "Maqueta de mesa; no es una escala arquitectónica exacta."},
+  "budgets": {"triangles": 30000, "materials": 22, "meshObjects": 300, "glbBytes": 4194304},
+  "seed": 20261023,
+  "geometryContract": "Z arriba, frente -Y, centrado aproximado en el origen. Base X[-0.20,0.20] Y[-0.15,0.15]; superficie del terreno en Z=-0.04 (GROUND). Mallas cerradas y facetadas creadas solo con el kit.",
+  "parts": [
+    {"id": "terreno", "label": "Terreno y jardín", "function": "La base del diorama: el jardín verde donde está la escuela."},
+    {"id": "camino", "label": "Calle y banqueta", "function": "Por la calle llega el bus escolar; la banqueta y el camino llevan a la entrada."},
+    {"id": "edificio", "label": "Edificio de aulas", "function": "Dos pisos de aulas donde los estudiantes aprenden cada día."},
+    {"id": "techo", "label": "Techo", "function": "Protege las aulas del sol y de la lluvia."},
+    {"id": "ventanas", "label": "Ventanas", "function": "Dejan entrar luz natural y aire a las aulas."},
+    {"id": "puerta", "label": "Puerta principal", "function": "La entrada de la escuela. Tócala para abrirla."},
+    {"id": "torre_reloj", "label": "Torre del reloj", "function": "Marca la hora de entrada, recreo y salida."},
+    {"id": "asta_bandera", "label": "Asta y bandera", "function": "Aquí se iza la bandera en los actos cívicos."},
+    {"id": "cancha", "label": "Cancha deportiva", "function": "Espacio para educación física, básquetbol y juegos."},
+    {"id": "juegos", "label": "Columpios", "function": "Juegos del patio para el recreo."},
+    {"id": "arboles", "label": "Árboles", "function": "Dan sombra, limpian el aire y hogar a las aves."},
+    {"id": "autobus", "label": "Bus escolar", "function": "Lleva y trae a los estudiantes entre su casa y la escuela."},
+    {"id": "estudiantes", "label": "Estudiantes", "function": "La comunidad escolar: quienes aprenden y juegan aquí."},
+    {"id": "nubes", "label": "Nubes", "function": "El cielo de la escuela; se mueven con el viento."}
+  ],
+  "animations": {
+    "fps": 24,
+    "clips": {
+      "puerta": {"parts": ["puerta"], "autoplay": false, "trigger": "click"},
+      "reloj": {"parts": ["torre_reloj"], "autoplay": true},
+      "bandera": {"parts": ["asta_bandera"], "autoplay": true},
+      "balon": {"parts": ["cancha"], "autoplay": true},
+      "columpios": {"parts": ["juegos"], "autoplay": true},
+      "arboles": {"parts": ["arboles"], "autoplay": true},
+      "autobus": {"parts": ["autobus"], "autoplay": true},
+      "estudiantes": {"parts": ["estudiantes"], "autoplay": true},
+      "nubes": {"parts": ["nubes"], "autoplay": true}
+    }
+  },
+  "blockoutChecks": [
+    "Desde la vista tres cuartos se leen el edificio de dos pisos con su techo, la torre del reloj al centro del frente y la puerta bajo la torre.",
+    "Las catorce partes son volúmenes separados y distinguibles por color o forma; ninguna queda oculta en todas las vistas fuente.",
+    "La composición es coherente: calle al frente, camino de la banqueta a la puerta, asta y columpios a un lado del patio, cancha al otro lado, árboles en los bordes y nubes por encima.",
+    "Las proporciones son plausibles entre sí: el bus cabe en la calle, los estudiantes son más bajos que la puerta y la cancha cabe en su patio."
+  ],
+  "contentChecks": [
+    "Estilo flat shaded: caras planas visibles, sin suavizado, sin texturas, paleta limitada y siluetas simples.",
+    "El edificio tiene dos pisos de ventanas en la fachada frontal y la puerta principal está bajo la torre del reloj.",
+    "El reloj tiene esfera clara y dos manecillas oscuras distinguibles.",
+    "La bandera tiene franjas verticales celeste-blanco-celeste, sin escudo ni texto.",
+    "La cancha muestra superficie, líneas claras y dos tableros con aro.",
+    "Los columpios muestran estructura, cadenas y asientos.",
+    "El bus escolar es amarillo, tiene ventanas y ruedas, y está sobre la calle.",
+    "No hay intersecciones evidentes entre objetos que deberían estar separados ni piezas flotando sin apoyo (salvo nubes).",
+    "La lectura es clara a distancia: contraste suficiente entre edificio, techo, patio y calle."
+  ],
+  "delivery": ["source.blend", "asset.glb", "parts.json", "renders", "animated.glb", "web viewer"],
+  "provenance": {"author": "GuateGeeks / prueba de creación orquestada con Claude", "origin": "original procedural geometry", "license": "CC0-1.0", "externalModels": false, "externalImages": false}
+}

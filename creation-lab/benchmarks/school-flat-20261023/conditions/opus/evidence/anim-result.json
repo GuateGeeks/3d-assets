@@ -1,0 +1,5422 @@
+{
+  "status": "PASS",
+  "stage": "animate",
+  "checks": [
+    {
+      "name": "source-has-no-actions",
+      "status": "PASS",
+      "actual": 0
+    },
+    {
+      "name": "meshes-have-part_id",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "name": "anim-metadata-valid",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "name": "clips-known",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "name": "clips-complete",
+      "status": "PASS",
+      "actual": {
+        "puerta": 2,
+        "reloj": 2,
+        "bandera": 2,
+        "balon": 1,
+        "columpios": 4,
+        "arboles": 16,
+        "autobus": 5,
+        "estudiantes": 22,
+        "nubes": 3
+      }
+    },
+    {
+      "name": "clip-parts-match-brief",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "name": "repivot-bbox-unchanged",
+      "status": "PASS",
+      "actual": {
+        "objects": 57,
+        "maxDiffM": 1.862645149230957e-09,
+        "tolM": 1e-06,
+        "failed": []
+      }
+    },
+    {
+      "name": "nla-tracks-named-by-clip",
+      "status": "PASS",
+      "actual": 57
+    },
+    {
+      "name": "active-action-none",
+      "status": "PASS",
+      "actual": null
+    },
+    {
+      "name": "fcurves-found-linear",
+      "status": "PASS",
+      "actual": [
+        [
+          "channelbag",
+          [
+            "LINEAR"
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "strip-slot-assigned",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "name": "nla-evaluation-matches-samples",
+      "status": "PASS",
+      "actual": {
+        "maxDiff": 0.0,
+        "failures": []
+      }
+    },
+    {
+      "name": "loops-close-exactly",
+      "status": "PASS",
+      "actual": {
+        "maxDiff": 1.9079809021604888e-07,
+        "failures": []
+      }
+    },
+    {
+      "name": "hinge-closed-to-open",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "name": "exporter-essential-kwargs",
+      "status": "PASS",
+      "actual": []
+    },
+    {
+      "name": "exporter-nla-mode",
+      "status": "PASS",
+      "actual": {
+        "export_animation_mode": "NLA_TRACKS",
+        "export_nla_strips": true
+      }
+    },
+    {
+      "name": "glb-one-animation-per-clip",
+      "status": "PASS",
+      "actual": {
+        "glb": [
+          "arboles",
+          "autobus",
+          "balon",
+          "bandera",
+          "columpios",
+          "estudiantes",
+          "nubes",
+          "puerta",
+          "reloj"
+        ],
+        "expected": [
+          "arboles",
+          "autobus",
+          "balon",
+          "bandera",
+          "columpios",
+          "estudiantes",
+          "nubes",
+          "puerta",
+          "reloj"
+        ]
+      }
+    },
+    {
+      "name": "glb-durations-match",
+      "status": "PASS",
+      "actual": {}
+    },
+    {
+      "name": "glb-animated-nodes-match",
+      "status": "PASS",
+      "actual": {}
+    },
+    {
+      "name": "glb-loops-close",
+      "status": "PASS",
+      "actual": {}
+    },
+    {
+      "name": "glb-size-budget",
+      "status": "PASS",
+      "actual": {
+        "bytes": 763260,
+        "budget": 4194304
+      }
+    },
+    {
+      "name": "glb-no-cameras-lights",
+      "status": "PASS",
+      "actual": {
+        "cameras": 0
+      }
+    },
+    {
+      "name": "renders-written",
+      "status": "PASS",
+      "actual": [
+        "renders/anim-000.00.png",
+        "renders/anim-019.20.png",
+        "renders/anim-038.40.png",
+        "renders/anim-057.60.png"
+      ]
+    }
+  ],
+  "blenderVersion": "5.2.3 LTS",
+  "gltfAddonVersion": "5.2.41",
+  "source": {
+    "path": "//wsl.localhost/Ubuntu/home/adawolfs/projects/makecode/3d-assets/creation-lab/.local/claude-school-opus-20261023/session/runs/002-da798cb30fbb/source.blend",
+    "sha256": "83749995051d487b9cfd52b715653a17d9fe26f32a487e0629d0eb5a6c02632f"
+  },
+  "brief": {
+    "path": "//wsl.localhost/Ubuntu/home/adawolfs/projects/makecode/3d-assets/creation-lab/.local/claude-school-opus-20261023/spec/brief.json",
+    "sha256": "5b686ae5525d9a929c391e1c55c91cad4fd675d97984043bc96d35f547a1aa28"
+  },
+  "worker": {
+    "path": "//wsl.localhost/Ubuntu/home/adawolfs/projects/makecode/3d-assets/creation-lab/.local/claude-school-opus-20261023/authors/anim/v2/anim_worker.py",
+    "sha256": "74190c844df13e6c3619c3f080b8cc2dfd1f5f5fcb949261f8b2094dc6e31a84"
+  },
+  "fps": 24,
+  "sceneFrames": [
+    0,
+    1728
+  ],
+  "conventions": {
+    "time": "frame f -> t = f / fps; primer frame 0",
+    "sampling": "una clave por frame (paso 1), interpolación LINEAR; exportador con muestreo forzado paso 1",
+    "clipDuration": "por clip (salvo hinge): D = max(period); N = round(D*fps) frames; D_eff = N/fps; cada objeto k = max(1, round(D/period)) ciclos, period_eff = D_eff/k",
+    "hinge": "apertura única 0 -> angle_deg con smoothstep en round(period*fps) frames; no es bucle; frame 0 cerrada, último abierta, HOLD después",
+    "spin": "angle = direction * 2pi * (k*t/D + phase)",
+    "sway": "angle = amplitude * sin(2pi*(k*t/D + phase))",
+    "swing": "péndulo: angle = amplitude * sin(2pi*(k*t/D + phase)) (misma forma que sway, pivote arriba)",
+    "bounce": "z = pivot.z + height * |sin(pi*(k*t/D + phase))|",
+    "drift": "offset a lo largo de axis = (distance/2) * sin(2pi*(k*t/D + phase)); excursión total = distance",
+    "path": "polilínea cerrada de points (se cierra al primer punto), velocidad constante por longitud de arco, phase desplaza el arranque; yaw en Z = heading - ángulo(forward), giro smoothstep en una ventana de corner*min(tramos) a cada lado de la esquina (corner por defecto 0.15, máx. 0.5)",
+    "walk": "path + z += bob * |sin(pi * steps * vuelta)|; steps = params.steps o max(2, round(2.0 Hz * period_eff))",
+    "rotation": "rotation_euler XYZ; solo se clavan los canales usados; yaw desenrollado entre frames"
+  },
+  "clips": {
+    "arboles": {
+      "objects": [
+        "arboles__vida_arbol_0_copa",
+        "arboles__vida_arbol_0_tronco",
+        "arboles__vida_arbol_1_copa",
+        "arboles__vida_arbol_1_tronco",
+        "arboles__vida_arbol_2_copa",
+        "arboles__vida_arbol_2_tronco",
+        "arboles__vida_arbol_3_copa",
+        "arboles__vida_arbol_3_tronco",
+        "arboles__vida_arbol_4_copa",
+        "arboles__vida_arbol_4_tronco",
+        "arboles__vida_arbol_5_copa",
+        "arboles__vida_arbol_5_tronco",
+        "arboles__vida_arbol_6_copa",
+        "arboles__vida_arbol_6_tronco",
+        "arboles__vida_arbol_7_copa",
+        "arboles__vida_arbol_7_tronco"
+      ],
+      "frames": 94,
+      "durationS": 3.9166666666666665,
+      "loopDurationRequestedS": 3.9,
+      "loopDurationEffectiveS": 3.9166666666666665,
+      "kinds": [
+        "sway"
+      ],
+      "autoplay": true,
+      "trigger": null,
+      "loop": true
+    },
+    "autobus": {
+      "objects": [
+        "autobus__autobus_carroceria",
+        "autobus__autobus_luces_cola",
+        "autobus__autobus_luces_frente",
+        "autobus__autobus_oscuro",
+        "autobus__autobus_vidrios"
+      ],
+      "frames": 336,
+      "durationS": 14.0,
+      "loopDurationRequestedS": 14.0,
+      "loopDurationEffectiveS": 14.0,
+      "kinds": [
+        "path"
+      ],
+      "autoplay": true,
+      "trigger": null,
+      "loop": true
+    },
+    "balon": {
+      "objects": [
+        "cancha__cancha_balon"
+      ],
+      "frames": 19,
+      "durationS": 0.7916666666666666,
+      "loopDurationRequestedS": 0.8,
+      "loopDurationEffectiveS": 0.7916666666666666,
+      "kinds": [
+        "bounce"
+      ],
+      "autoplay": true,
+      "trigger": null,
+      "loop": true
+    },
+    "bandera": {
+      "objects": [
+        "asta_bandera__bandera_blanco",
+        "asta_bandera__bandera_celeste"
+      ],
+      "frames": 58,
+      "durationS": 2.4166666666666665,
+      "loopDurationRequestedS": 2.4,
+      "loopDurationEffectiveS": 2.4166666666666665,
+      "kinds": [
+        "sway"
+      ],
+      "autoplay": true,
+      "trigger": null,
+      "loop": true
+    },
+    "columpios": {
+      "objects": [
+        "juegos__columpio_1_asiento",
+        "juegos__columpio_1_cadenas",
+        "juegos__columpio_2_asiento",
+        "juegos__columpio_2_cadenas"
+      ],
+      "frames": 53,
+      "durationS": 2.2083333333333335,
+      "loopDurationRequestedS": 2.2,
+      "loopDurationEffectiveS": 2.2083333333333335,
+      "kinds": [
+        "swing"
+      ],
+      "autoplay": true,
+      "trigger": null,
+      "loop": true
+    },
+    "estudiantes": {
+      "objects": [
+        "estudiantes__vida_estudiante_0_cabello",
+        "estudiantes__vida_estudiante_0_cabeza",
+        "estudiantes__vida_estudiante_0_mochila",
+        "estudiantes__vida_estudiante_0_piernas",
+        "estudiantes__vida_estudiante_0_torso",
+        "estudiantes__vida_estudiante_1_cabello",
+        "estudiantes__vida_estudiante_1_cabeza",
+        "estudiantes__vida_estudiante_1_mochila",
+        "estudiantes__vida_estudiante_1_piernas",
+        "estudiantes__vida_estudiante_1_torso",
+        "estudiantes__vida_estudiante_2_cabello",
+        "estudiantes__vida_estudiante_2_cabeza",
+        "estudiantes__vida_estudiante_2_piernas",
+        "estudiantes__vida_estudiante_2_torso",
+        "estudiantes__vida_estudiante_3_cabello",
+        "estudiantes__vida_estudiante_3_cabeza",
+        "estudiantes__vida_estudiante_3_piernas",
+        "estudiantes__vida_estudiante_3_torso",
+        "estudiantes__vida_estudiante_4_cabello",
+        "estudiantes__vida_estudiante_4_cabeza",
+        "estudiantes__vida_estudiante_4_piernas",
+        "estudiantes__vida_estudiante_4_torso"
+      ],
+      "frames": 288,
+      "durationS": 12.0,
+      "loopDurationRequestedS": 12.0,
+      "loopDurationEffectiveS": 12.0,
+      "kinds": [
+        "bounce",
+        "walk"
+      ],
+      "autoplay": true,
+      "trigger": null,
+      "loop": true
+    },
+    "nubes": {
+      "objects": [
+        "nubes__vida_nube_0",
+        "nubes__vida_nube_1",
+        "nubes__vida_nube_2"
+      ],
+      "frames": 276,
+      "durationS": 11.5,
+      "loopDurationRequestedS": 11.5,
+      "loopDurationEffectiveS": 11.5,
+      "kinds": [
+        "drift"
+      ],
+      "autoplay": true,
+      "trigger": null,
+      "loop": true
+    },
+    "puerta": {
+      "objects": [
+        "puerta__puerta_hoja",
+        "puerta__puerta_manija"
+      ],
+      "frames": 72,
+      "durationS": 3.0,
+      "loopDurationRequestedS": 0.0,
+      "loopDurationEffectiveS": 0.0,
+      "kinds": [
+        "hinge"
+      ],
+      "autoplay": false,
+      "trigger": "click",
+      "loop": false
+    },
+    "reloj": {
+      "objects": [
+        "torre_reloj__torre_horario",
+        "torre_reloj__torre_minutero"
+      ],
+      "frames": 1728,
+      "durationS": 72.0,
+      "loopDurationRequestedS": 72.0,
+      "loopDurationEffectiveS": 72.0,
+      "kinds": [
+        "spin"
+      ],
+      "autoplay": true,
+      "trigger": null,
+      "loop": true
+    }
+  },
+  "objects": [
+    {
+      "object": "arboles__vida_arbol_0_copa",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        -0.175,
+        0.12,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.0,
+        "period": 3.0,
+        "phase": 0.0
+      },
+      "periodRequestedS": 3.0,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.003497246995769391,
+      "action": "arboles__arboles__vida_arbol_0_copa",
+      "slot": "OBarboles__vida_arbol_0_copa",
+      "stripSlot": "OBarboles__vida_arbol_0_copa",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_0_tronco",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        -0.175,
+        0.12,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.0,
+        "period": 3.0,
+        "phase": 0.0
+      },
+      "periodRequestedS": 3.0,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.003497246995769391,
+      "action": "arboles__arboles__vida_arbol_0_tronco",
+      "slot": "OBarboles__vida_arbol_0_tronco",
+      "stripSlot": "OBarboles__vida_arbol_0_tronco",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_1_copa",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        -0.12,
+        0.125,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.8,
+        "period": 3.3,
+        "phase": 0.125
+      },
+      "periodRequestedS": 3.3,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.0044317052169985,
+      "action": "arboles__arboles__vida_arbol_1_copa",
+      "slot": "OBarboles__vida_arbol_1_copa",
+      "stripSlot": "OBarboles__vida_arbol_1_copa",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_1_tronco",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        -0.12,
+        0.125,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.8,
+        "period": 3.3,
+        "phase": 0.125
+      },
+      "periodRequestedS": 3.3,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.0044317052169985,
+      "action": "arboles__arboles__vida_arbol_1_tronco",
+      "slot": "OBarboles__vida_arbol_1_tronco",
+      "stripSlot": "OBarboles__vida_arbol_1_tronco",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_2_copa",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        0.12,
+        0.125,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 4.6,
+        "period": 3.6,
+        "phase": 0.25
+      },
+      "periodRequestedS": 3.6,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.005365446152135521,
+      "action": "arboles__arboles__vida_arbol_2_copa",
+      "slot": "OBarboles__vida_arbol_2_copa",
+      "stripSlot": "OBarboles__vida_arbol_2_copa",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_2_tronco",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        0.12,
+        0.125,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 4.6,
+        "period": 3.6,
+        "phase": 0.25
+      },
+      "periodRequestedS": 3.6,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.005365446152135521,
+      "action": "arboles__arboles__vida_arbol_2_tronco",
+      "slot": "OBarboles__vida_arbol_2_tronco",
+      "stripSlot": "OBarboles__vida_arbol_2_tronco",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_3_copa",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        0.175,
+        0.115,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.0,
+        "period": 3.9,
+        "phase": 0.375
+      },
+      "periodRequestedS": 3.9,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.003498716532148305,
+      "action": "arboles__arboles__vida_arbol_3_copa",
+      "slot": "OBarboles__vida_arbol_3_copa",
+      "stripSlot": "OBarboles__vida_arbol_3_copa",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_3_tronco",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        0.175,
+        0.115,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.0,
+        "period": 3.9,
+        "phase": 0.375
+      },
+      "periodRequestedS": 3.9,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.003498716532148305,
+      "action": "arboles__arboles__vida_arbol_3_tronco",
+      "slot": "OBarboles__vida_arbol_3_tronco",
+      "stripSlot": "OBarboles__vida_arbol_3_tronco",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_4_copa",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        -0.17,
+        0.04,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.8,
+        "period": 3.0,
+        "phase": 0.5
+      },
+      "periodRequestedS": 3.0,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 8.12216515126978e-18,
+      "maxPerFrameChange": 0.004429840736455091,
+      "action": "arboles__arboles__vida_arbol_4_copa",
+      "slot": "OBarboles__vida_arbol_4_copa",
+      "stripSlot": "OBarboles__vida_arbol_4_copa",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 8.122165016816371e-18
+    },
+    {
+      "object": "arboles__vida_arbol_4_tronco",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        -0.17,
+        0.04,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.8,
+        "period": 3.0,
+        "phase": 0.5
+      },
+      "periodRequestedS": 3.0,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 8.12216515126978e-18,
+      "maxPerFrameChange": 0.004429840736455091,
+      "action": "arboles__arboles__vida_arbol_4_tronco",
+      "slot": "OBarboles__vida_arbol_4_tronco",
+      "stripSlot": "OBarboles__vida_arbol_4_tronco",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 8.122165016816371e-18
+    },
+    {
+      "object": "arboles__vida_arbol_5_copa",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        0.17,
+        0.04,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 4.6,
+        "period": 3.3,
+        "phase": 0.625
+      },
+      "periodRequestedS": 3.3,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.0053646922145167055,
+      "action": "arboles__arboles__vida_arbol_5_copa",
+      "slot": "OBarboles__vida_arbol_5_copa",
+      "stripSlot": "OBarboles__vida_arbol_5_copa",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_5_tronco",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        0.17,
+        0.04,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 4.6,
+        "period": 3.3,
+        "phase": 0.625
+      },
+      "periodRequestedS": 3.3,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.0053646922145167055,
+      "action": "arboles__arboles__vida_arbol_5_tronco",
+      "slot": "OBarboles__vida_arbol_5_tronco",
+      "stripSlot": "OBarboles__vida_arbol_5_tronco",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_6_copa",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        -0.06,
+        0.125,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.0,
+        "period": 3.6,
+        "phase": 0.75
+      },
+      "periodRequestedS": 3.6,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.00349920642432693,
+      "action": "arboles__arboles__vida_arbol_6_copa",
+      "slot": "OBarboles__vida_arbol_6_copa",
+      "stripSlot": "OBarboles__vida_arbol_6_copa",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_6_tronco",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        -0.06,
+        0.125,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.0,
+        "period": 3.6,
+        "phase": 0.75
+      },
+      "periodRequestedS": 3.6,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.00349920642432693,
+      "action": "arboles__arboles__vida_arbol_6_tronco",
+      "slot": "OBarboles__vida_arbol_6_tronco",
+      "stripSlot": "OBarboles__vida_arbol_6_tronco",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_7_copa",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        0.06,
+        0.125,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.8,
+        "period": 3.9,
+        "phase": 0.875
+      },
+      "periodRequestedS": 3.9,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.0044317052169985,
+      "action": "arboles__arboles__vida_arbol_7_copa",
+      "slot": "OBarboles__vida_arbol_7_copa",
+      "stripSlot": "OBarboles__vida_arbol_7_copa",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "arboles__vida_arbol_7_tronco",
+      "part_id": "arboles",
+      "clip": "arboles",
+      "kind": "sway",
+      "axis": "X",
+      "pivot": [
+        0.06,
+        0.125,
+        -0.04
+      ],
+      "params": {
+        "amplitude_deg": 3.8,
+        "period": 3.9,
+        "phase": 0.875
+      },
+      "periodRequestedS": 3.9,
+      "periodEffectiveS": 3.9166666666666665,
+      "cycles": 1,
+      "frames": 94,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.0044317052169985,
+      "action": "arboles__arboles__vida_arbol_7_tronco",
+      "slot": "OBarboles__vida_arbol_7_tronco",
+      "stripSlot": "OBarboles__vida_arbol_7_tronco",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        95
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "arboles",
+      "strip": [
+        0.0,
+        94.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "autobus__autobus_carroceria",
+      "part_id": "autobus",
+      "clip": "autobus",
+      "kind": "path",
+      "axis": "Z",
+      "pivot": [
+        -0.08,
+        -0.133,
+        -0.0385
+      ],
+      "params": {
+        "forward": "+X",
+        "period": 14,
+        "points": [
+          -0.08,
+          -0.133,
+          -0.0385,
+          0.15,
+          -0.133,
+          -0.0385,
+          0.165,
+          -0.126,
+          -0.0385,
+          0.15,
+          -0.117,
+          -0.0385,
+          -0.15,
+          -0.117,
+          -0.0385,
+          -0.165,
+          -0.126,
+          -0.0385,
+          -0.15,
+          -0.133,
+          -0.0385,
+          -0.08,
+          -0.133,
+          -0.0385
+        ]
+      },
+      "periodRequestedS": 14.0,
+      "periodEffectiveS": 14.0,
+      "cycles": 1,
+      "frames": 336,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 1.1496904941644073,
+      "action": "autobus__autobus__autobus_carroceria",
+      "slot": "OBautobus__autobus_carroceria",
+      "stripSlot": "OBautobus__autobus_carroceria",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        337
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "autobus",
+      "strip": [
+        0.0,
+        336.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.7484555314695172e-07
+    },
+    {
+      "object": "autobus__autobus_luces_cola",
+      "part_id": "autobus",
+      "clip": "autobus",
+      "kind": "path",
+      "axis": "Z",
+      "pivot": [
+        -0.08,
+        -0.133,
+        -0.0385
+      ],
+      "params": {
+        "forward": "+X",
+        "period": 14,
+        "points": [
+          -0.08,
+          -0.133,
+          -0.0385,
+          0.15,
+          -0.133,
+          -0.0385,
+          0.165,
+          -0.126,
+          -0.0385,
+          0.15,
+          -0.117,
+          -0.0385,
+          -0.15,
+          -0.117,
+          -0.0385,
+          -0.165,
+          -0.126,
+          -0.0385,
+          -0.15,
+          -0.133,
+          -0.0385,
+          -0.08,
+          -0.133,
+          -0.0385
+        ]
+      },
+      "periodRequestedS": 14.0,
+      "periodEffectiveS": 14.0,
+      "cycles": 1,
+      "frames": 336,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 1.1496904941644073,
+      "action": "autobus__autobus__autobus_luces_cola",
+      "slot": "OBautobus__autobus_luces_cola",
+      "stripSlot": "OBautobus__autobus_luces_cola",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        337
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "autobus",
+      "strip": [
+        0.0,
+        336.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.7484555314695172e-07
+    },
+    {
+      "object": "autobus__autobus_luces_frente",
+      "part_id": "autobus",
+      "clip": "autobus",
+      "kind": "path",
+      "axis": "Z",
+      "pivot": [
+        -0.08,
+        -0.133,
+        -0.0385
+      ],
+      "params": {
+        "forward": "+X",
+        "period": 14,
+        "points": [
+          -0.08,
+          -0.133,
+          -0.0385,
+          0.15,
+          -0.133,
+          -0.0385,
+          0.165,
+          -0.126,
+          -0.0385,
+          0.15,
+          -0.117,
+          -0.0385,
+          -0.15,
+          -0.117,
+          -0.0385,
+          -0.165,
+          -0.126,
+          -0.0385,
+          -0.15,
+          -0.133,
+          -0.0385,
+          -0.08,
+          -0.133,
+          -0.0385
+        ]
+      },
+      "periodRequestedS": 14.0,
+      "periodEffectiveS": 14.0,
+      "cycles": 1,
+      "frames": 336,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 1.1496904941644073,
+      "action": "autobus__autobus__autobus_luces_frente",
+      "slot": "OBautobus__autobus_luces_frente",
+      "stripSlot": "OBautobus__autobus_luces_frente",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        337
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "autobus",
+      "strip": [
+        0.0,
+        336.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.7484555314695172e-07
+    },
+    {
+      "object": "autobus__autobus_oscuro",
+      "part_id": "autobus",
+      "clip": "autobus",
+      "kind": "path",
+      "axis": "Z",
+      "pivot": [
+        -0.08,
+        -0.133,
+        -0.0385
+      ],
+      "params": {
+        "forward": "+X",
+        "period": 14,
+        "points": [
+          -0.08,
+          -0.133,
+          -0.0385,
+          0.15,
+          -0.133,
+          -0.0385,
+          0.165,
+          -0.126,
+          -0.0385,
+          0.15,
+          -0.117,
+          -0.0385,
+          -0.15,
+          -0.117,
+          -0.0385,
+          -0.165,
+          -0.126,
+          -0.0385,
+          -0.15,
+          -0.133,
+          -0.0385,
+          -0.08,
+          -0.133,
+          -0.0385
+        ]
+      },
+      "periodRequestedS": 14.0,
+      "periodEffectiveS": 14.0,
+      "cycles": 1,
+      "frames": 336,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 1.1496904941644073,
+      "action": "autobus__autobus__autobus_oscuro",
+      "slot": "OBautobus__autobus_oscuro",
+      "stripSlot": "OBautobus__autobus_oscuro",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        337
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "autobus",
+      "strip": [
+        0.0,
+        336.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.7484555314695172e-07
+    },
+    {
+      "object": "autobus__autobus_vidrios",
+      "part_id": "autobus",
+      "clip": "autobus",
+      "kind": "path",
+      "axis": "Z",
+      "pivot": [
+        -0.08,
+        -0.133,
+        -0.0385
+      ],
+      "params": {
+        "forward": "+X",
+        "period": 14,
+        "points": [
+          -0.08,
+          -0.133,
+          -0.0385,
+          0.15,
+          -0.133,
+          -0.0385,
+          0.165,
+          -0.126,
+          -0.0385,
+          0.15,
+          -0.117,
+          -0.0385,
+          -0.15,
+          -0.117,
+          -0.0385,
+          -0.165,
+          -0.126,
+          -0.0385,
+          -0.15,
+          -0.133,
+          -0.0385,
+          -0.08,
+          -0.133,
+          -0.0385
+        ]
+      },
+      "periodRequestedS": 14.0,
+      "periodEffectiveS": 14.0,
+      "cycles": 1,
+      "frames": 336,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 1.1496904941644073,
+      "action": "autobus__autobus__autobus_vidrios",
+      "slot": "OBautobus__autobus_vidrios",
+      "stripSlot": "OBautobus__autobus_vidrios",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        337
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "autobus",
+      "strip": [
+        0.0,
+        336.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.7484555314695172e-07
+    },
+    {
+      "object": "cancha__cancha_balon",
+      "part_id": "cancha",
+      "clip": "balon",
+      "kind": "bounce",
+      "axis": "Z",
+      "pivot": [
+        0.136,
+        -0.044000000000000004,
+        -0.0345
+      ],
+      "params": {
+        "height": 0.025,
+        "period": 0.8,
+        "phase": 0.0
+      },
+      "periodRequestedS": 0.8,
+      "periodEffectiveS": 0.7916666666666666,
+      "cycles": 1,
+      "frames": 19,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.00411486475701835,
+      "action": "balon__cancha__cancha_balon",
+      "slot": "OBcancha__cancha_balon",
+      "stripSlot": "OBcancha__cancha_balon",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        20
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "balon",
+      "strip": [
+        0.0,
+        19.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "asta_bandera__bandera_blanco",
+      "part_id": "asta_bandera",
+      "clip": "bandera",
+      "kind": "sway",
+      "axis": "Z",
+      "pivot": [
+        -0.05,
+        -0.078,
+        0.05500000000000001
+      ],
+      "params": {
+        "amplitude_deg": 18,
+        "period": 2.4,
+        "phase": 0.0
+      },
+      "periodRequestedS": 2.4,
+      "periodEffectiveS": 2.4166666666666665,
+      "cycles": 1,
+      "frames": 58,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.03396006040069764,
+      "action": "bandera__asta_bandera__bandera_blanco",
+      "slot": "OBasta_bandera__bandera_blanco",
+      "stripSlot": "OBasta_bandera__bandera_blanco",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        59
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "bandera",
+      "strip": [
+        0.0,
+        58.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "asta_bandera__bandera_celeste",
+      "part_id": "asta_bandera",
+      "clip": "bandera",
+      "kind": "sway",
+      "axis": "Z",
+      "pivot": [
+        -0.05,
+        -0.078,
+        0.05500000000000001
+      ],
+      "params": {
+        "amplitude_deg": 18,
+        "period": 2.4,
+        "phase": 0.0
+      },
+      "periodRequestedS": 2.4,
+      "periodEffectiveS": 2.4166666666666665,
+      "cycles": 1,
+      "frames": 58,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.03396006040069764,
+      "action": "bandera__asta_bandera__bandera_celeste",
+      "slot": "OBasta_bandera__bandera_celeste",
+      "stripSlot": "OBasta_bandera__bandera_celeste",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        59
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "bandera",
+      "strip": [
+        0.0,
+        58.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "juegos__columpio_1_asiento",
+      "part_id": "juegos",
+      "clip": "columpios",
+      "kind": "swing",
+      "axis": "X",
+      "pivot": [
+        -0.15,
+        -0.04,
+        0.0049999999999999975
+      ],
+      "params": {
+        "amplitude_deg": 25,
+        "period": 2.2,
+        "phase": 0.0
+      },
+      "periodRequestedS": 2.2,
+      "periodEffectiveS": 2.2083333333333335,
+      "cycles": 1,
+      "frames": 53,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.05169144366181737,
+      "action": "columpios__juegos__columpio_1_asiento",
+      "slot": "OBjuegos__columpio_1_asiento",
+      "stripSlot": "OBjuegos__columpio_1_asiento",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        54
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "columpios",
+      "strip": [
+        0.0,
+        53.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "juegos__columpio_1_cadenas",
+      "part_id": "juegos",
+      "clip": "columpios",
+      "kind": "swing",
+      "axis": "X",
+      "pivot": [
+        -0.15,
+        -0.04,
+        0.0049999999999999975
+      ],
+      "params": {
+        "amplitude_deg": 25,
+        "period": 2.2,
+        "phase": 0.0
+      },
+      "periodRequestedS": 2.2,
+      "periodEffectiveS": 2.2083333333333335,
+      "cycles": 1,
+      "frames": 53,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.05169144366181737,
+      "action": "columpios__juegos__columpio_1_cadenas",
+      "slot": "OBjuegos__columpio_1_cadenas",
+      "stripSlot": "OBjuegos__columpio_1_cadenas",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        54
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "columpios",
+      "strip": [
+        0.0,
+        53.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "juegos__columpio_2_asiento",
+      "part_id": "juegos",
+      "clip": "columpios",
+      "kind": "swing",
+      "axis": "X",
+      "pivot": [
+        -0.12,
+        -0.04,
+        0.0049999999999999975
+      ],
+      "params": {
+        "amplitude_deg": 25,
+        "period": 2.2,
+        "phase": 0.5
+      },
+      "periodRequestedS": 2.2,
+      "periodEffectiveS": 2.2083333333333335,
+      "cycles": 1,
+      "frames": 53,
+      "loopClosurePure": 2.0758541834303326e-18,
+      "maxPerFrameChange": 0.051691443661816924,
+      "action": "columpios__juegos__columpio_2_asiento",
+      "slot": "OBjuegos__columpio_2_asiento",
+      "stripSlot": "OBjuegos__columpio_2_asiento",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        54
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "columpios",
+      "strip": [
+        0.0,
+        53.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 2.0758527605936757e-18
+    },
+    {
+      "object": "juegos__columpio_2_cadenas",
+      "part_id": "juegos",
+      "clip": "columpios",
+      "kind": "swing",
+      "axis": "X",
+      "pivot": [
+        -0.12,
+        -0.04,
+        0.0049999999999999975
+      ],
+      "params": {
+        "amplitude_deg": 25,
+        "period": 2.2,
+        "phase": 0.5
+      },
+      "periodRequestedS": 2.2,
+      "periodEffectiveS": 2.2083333333333335,
+      "cycles": 1,
+      "frames": 53,
+      "loopClosurePure": 2.0758541834303326e-18,
+      "maxPerFrameChange": 0.051691443661816924,
+      "action": "columpios__juegos__columpio_2_cadenas",
+      "slot": "OBjuegos__columpio_2_cadenas",
+      "stripSlot": "OBjuegos__columpio_2_cadenas",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        54
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "columpios",
+      "strip": [
+        0.0,
+        53.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[0]"
+      ],
+      "loopClosureEvaluated": 2.0758527605936757e-18
+    },
+    {
+      "object": "estudiantes__vida_estudiante_0_cabello",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        0.006,
+        -0.09,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          0.006,
+          -0.09,
+          -0.04,
+          0.006,
+          -0.02,
+          -0.04,
+          0.006,
+          -0.09,
+          -0.04
+        ],
+        "period": 9.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 9.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 0.10878940343851766,
+      "action": "estudiantes__estudiantes__vida_estudiante_0_cabello",
+      "slot": "OBestudiantes__vida_estudiante_0_cabello",
+      "stripSlot": "OBestudiantes__vida_estudiante_0_cabello",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.8278230839996468e-07
+    },
+    {
+      "object": "estudiantes__vida_estudiante_0_cabeza",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        0.006,
+        -0.09,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          0.006,
+          -0.09,
+          -0.04,
+          0.006,
+          -0.02,
+          -0.04,
+          0.006,
+          -0.09,
+          -0.04
+        ],
+        "period": 9.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 9.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 0.10878940343851766,
+      "action": "estudiantes__estudiantes__vida_estudiante_0_cabeza",
+      "slot": "OBestudiantes__vida_estudiante_0_cabeza",
+      "stripSlot": "OBestudiantes__vida_estudiante_0_cabeza",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.8278230839996468e-07
+    },
+    {
+      "object": "estudiantes__vida_estudiante_0_mochila",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        0.006,
+        -0.09,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          0.006,
+          -0.09,
+          -0.04,
+          0.006,
+          -0.02,
+          -0.04,
+          0.006,
+          -0.09,
+          -0.04
+        ],
+        "period": 9.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 9.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 0.10878940343851766,
+      "action": "estudiantes__estudiantes__vida_estudiante_0_mochila",
+      "slot": "OBestudiantes__vida_estudiante_0_mochila",
+      "stripSlot": "OBestudiantes__vida_estudiante_0_mochila",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.8278230839996468e-07
+    },
+    {
+      "object": "estudiantes__vida_estudiante_0_piernas",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        0.006,
+        -0.09,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          0.006,
+          -0.09,
+          -0.04,
+          0.006,
+          -0.02,
+          -0.04,
+          0.006,
+          -0.09,
+          -0.04
+        ],
+        "period": 9.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 9.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 0.10878940343851766,
+      "action": "estudiantes__estudiantes__vida_estudiante_0_piernas",
+      "slot": "OBestudiantes__vida_estudiante_0_piernas",
+      "stripSlot": "OBestudiantes__vida_estudiante_0_piernas",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.8278230839996468e-07
+    },
+    {
+      "object": "estudiantes__vida_estudiante_0_torso",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        0.006,
+        -0.09,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          0.006,
+          -0.09,
+          -0.04,
+          0.006,
+          -0.02,
+          -0.04,
+          0.006,
+          -0.09,
+          -0.04
+        ],
+        "period": 9.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 9.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 0.10878940343851766,
+      "action": "estudiantes__estudiantes__vida_estudiante_0_torso",
+      "slot": "OBestudiantes__vida_estudiante_0_torso",
+      "stripSlot": "OBestudiantes__vida_estudiante_0_torso",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.8278230839996468e-07
+    },
+    {
+      "object": "estudiantes__vida_estudiante_1_cabello",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        -0.16,
+        -0.099,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          -0.16,
+          -0.099,
+          -0.04,
+          0.16,
+          -0.099,
+          -0.04,
+          -0.16,
+          -0.099,
+          -0.04
+        ],
+        "period": 12.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 12.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 0.10878940343851942,
+      "action": "estudiantes__estudiantes__vida_estudiante_1_cabello",
+      "slot": "OBestudiantes__vida_estudiante_1_cabello",
+      "stripSlot": "OBestudiantes__vida_estudiante_1_cabello",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.7484555314695172e-07
+    },
+    {
+      "object": "estudiantes__vida_estudiante_1_cabeza",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        -0.16,
+        -0.099,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          -0.16,
+          -0.099,
+          -0.04,
+          0.16,
+          -0.099,
+          -0.04,
+          -0.16,
+          -0.099,
+          -0.04
+        ],
+        "period": 12.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 12.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 0.10878940343851942,
+      "action": "estudiantes__estudiantes__vida_estudiante_1_cabeza",
+      "slot": "OBestudiantes__vida_estudiante_1_cabeza",
+      "stripSlot": "OBestudiantes__vida_estudiante_1_cabeza",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.7484555314695172e-07
+    },
+    {
+      "object": "estudiantes__vida_estudiante_1_mochila",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        -0.16,
+        -0.099,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          -0.16,
+          -0.099,
+          -0.04,
+          0.16,
+          -0.099,
+          -0.04,
+          -0.16,
+          -0.099,
+          -0.04
+        ],
+        "period": 12.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 12.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 0.10878940343851942,
+      "action": "estudiantes__estudiantes__vida_estudiante_1_mochila",
+      "slot": "OBestudiantes__vida_estudiante_1_mochila",
+      "stripSlot": "OBestudiantes__vida_estudiante_1_mochila",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.7484555314695172e-07
+    },
+    {
+      "object": "estudiantes__vida_estudiante_1_piernas",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        -0.16,
+        -0.099,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          -0.16,
+          -0.099,
+          -0.04,
+          0.16,
+          -0.099,
+          -0.04,
+          -0.16,
+          -0.099,
+          -0.04
+        ],
+        "period": 12.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 12.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 0.10878940343851942,
+      "action": "estudiantes__estudiantes__vida_estudiante_1_piernas",
+      "slot": "OBestudiantes__vida_estudiante_1_piernas",
+      "stripSlot": "OBestudiantes__vida_estudiante_1_piernas",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.7484555314695172e-07
+    },
+    {
+      "object": "estudiantes__vida_estudiante_1_torso",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        -0.16,
+        -0.099,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          -0.16,
+          -0.099,
+          -0.04,
+          0.16,
+          -0.099,
+          -0.04,
+          -0.16,
+          -0.099,
+          -0.04
+        ],
+        "period": 12.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 12.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 0.10878940343851942,
+      "action": "estudiantes__estudiantes__vida_estudiante_1_torso",
+      "slot": "OBestudiantes__vida_estudiante_1_torso",
+      "stripSlot": "OBestudiantes__vida_estudiante_1_torso",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 1.7484555314695172e-07
+    },
+    {
+      "object": "estudiantes__vida_estudiante_2_cabello",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        -0.07,
+        -0.085,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          -0.07,
+          -0.085,
+          -0.04,
+          -0.03,
+          -0.085,
+          -0.04,
+          -0.03,
+          -0.07,
+          -0.04,
+          -0.07,
+          -0.07,
+          -0.04,
+          -0.07,
+          -0.085,
+          -0.04
+        ],
+        "period": 10.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 10.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.220446049250313e-16,
+      "maxPerFrameChange": 0.16399342930407995,
+      "action": "estudiantes__estudiantes__vida_estudiante_2_cabello",
+      "slot": "OBestudiantes__vida_estudiante_2_cabello",
+      "stripSlot": "OBestudiantes__vida_estudiante_2_cabello",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "estudiantes__vida_estudiante_2_cabeza",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        -0.07,
+        -0.085,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          -0.07,
+          -0.085,
+          -0.04,
+          -0.03,
+          -0.085,
+          -0.04,
+          -0.03,
+          -0.07,
+          -0.04,
+          -0.07,
+          -0.07,
+          -0.04,
+          -0.07,
+          -0.085,
+          -0.04
+        ],
+        "period": 10.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 10.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.220446049250313e-16,
+      "maxPerFrameChange": 0.16399342930407995,
+      "action": "estudiantes__estudiantes__vida_estudiante_2_cabeza",
+      "slot": "OBestudiantes__vida_estudiante_2_cabeza",
+      "stripSlot": "OBestudiantes__vida_estudiante_2_cabeza",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "estudiantes__vida_estudiante_2_piernas",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        -0.07,
+        -0.085,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          -0.07,
+          -0.085,
+          -0.04,
+          -0.03,
+          -0.085,
+          -0.04,
+          -0.03,
+          -0.07,
+          -0.04,
+          -0.07,
+          -0.07,
+          -0.04,
+          -0.07,
+          -0.085,
+          -0.04
+        ],
+        "period": 10.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 10.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.220446049250313e-16,
+      "maxPerFrameChange": 0.16399342930407995,
+      "action": "estudiantes__estudiantes__vida_estudiante_2_piernas",
+      "slot": "OBestudiantes__vida_estudiante_2_piernas",
+      "stripSlot": "OBestudiantes__vida_estudiante_2_piernas",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "estudiantes__vida_estudiante_2_torso",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "walk",
+      "axis": "Z",
+      "pivot": [
+        -0.07,
+        -0.085,
+        -0.04
+      ],
+      "params": {
+        "points": [
+          -0.07,
+          -0.085,
+          -0.04,
+          -0.03,
+          -0.085,
+          -0.04,
+          -0.03,
+          -0.07,
+          -0.04,
+          -0.07,
+          -0.07,
+          -0.04,
+          -0.07,
+          -0.085,
+          -0.04
+        ],
+        "period": 10.0,
+        "bob": 0.0015,
+        "forward": "-Y"
+      },
+      "periodRequestedS": 10.0,
+      "periodEffectiveS": 12.0,
+      "cycles": 1,
+      "frames": 288,
+      "loopClosurePure": 2.220446049250313e-16,
+      "maxPerFrameChange": 0.16399342930407995,
+      "action": "estudiantes__estudiantes__vida_estudiante_2_torso",
+      "slot": "OBestudiantes__vida_estudiante_2_torso",
+      "stripSlot": "OBestudiantes__vida_estudiante_2_torso",
+      "fcurveApi": "channelbag",
+      "fcurves": 4,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]",
+        "rotation_euler[2]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "estudiantes__vida_estudiante_3_cabello",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "bounce",
+      "axis": "Z",
+      "pivot": [
+        -0.028,
+        -0.045,
+        -0.04
+      ],
+      "params": {
+        "height": 0.002,
+        "period": 0.9,
+        "phase": 0.0
+      },
+      "periodRequestedS": 0.9,
+      "periodEffectiveS": 0.9230769230769231,
+      "cycles": 13,
+      "frames": 288,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.00028266639564713397,
+      "action": "estudiantes__estudiantes__vida_estudiante_3_cabello",
+      "slot": "OBestudiantes__vida_estudiante_3_cabello",
+      "stripSlot": "OBestudiantes__vida_estudiante_3_cabello",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "estudiantes__vida_estudiante_3_cabeza",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "bounce",
+      "axis": "Z",
+      "pivot": [
+        -0.028,
+        -0.045,
+        -0.04
+      ],
+      "params": {
+        "height": 0.002,
+        "period": 0.9,
+        "phase": 0.0
+      },
+      "periodRequestedS": 0.9,
+      "periodEffectiveS": 0.9230769230769231,
+      "cycles": 13,
+      "frames": 288,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.00028266639564713397,
+      "action": "estudiantes__estudiantes__vida_estudiante_3_cabeza",
+      "slot": "OBestudiantes__vida_estudiante_3_cabeza",
+      "stripSlot": "OBestudiantes__vida_estudiante_3_cabeza",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "estudiantes__vida_estudiante_3_piernas",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "bounce",
+      "axis": "Z",
+      "pivot": [
+        -0.028,
+        -0.045,
+        -0.04
+      ],
+      "params": {
+        "height": 0.002,
+        "period": 0.9,
+        "phase": 0.0
+      },
+      "periodRequestedS": 0.9,
+      "periodEffectiveS": 0.9230769230769231,
+      "cycles": 13,
+      "frames": 288,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.00028266639564713397,
+      "action": "estudiantes__estudiantes__vida_estudiante_3_piernas",
+      "slot": "OBestudiantes__vida_estudiante_3_piernas",
+      "stripSlot": "OBestudiantes__vida_estudiante_3_piernas",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "estudiantes__vida_estudiante_3_torso",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "bounce",
+      "axis": "Z",
+      "pivot": [
+        -0.028,
+        -0.045,
+        -0.04
+      ],
+      "params": {
+        "height": 0.002,
+        "period": 0.9,
+        "phase": 0.0
+      },
+      "periodRequestedS": 0.9,
+      "periodEffectiveS": 0.9230769230769231,
+      "cycles": 13,
+      "frames": 288,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.00028266639564713397,
+      "action": "estudiantes__estudiantes__vida_estudiante_3_torso",
+      "slot": "OBestudiantes__vida_estudiante_3_torso",
+      "stripSlot": "OBestudiantes__vida_estudiante_3_torso",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "estudiantes__vida_estudiante_4_cabello",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "bounce",
+      "axis": "Z",
+      "pivot": [
+        0.026,
+        -0.075,
+        -0.04
+      ],
+      "params": {
+        "height": 0.002,
+        "period": 0.9,
+        "phase": 0.45
+      },
+      "periodRequestedS": 0.9,
+      "periodEffectiveS": 0.9230769230769231,
+      "cycles": 13,
+      "frames": 288,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.0002825761078001296,
+      "action": "estudiantes__estudiantes__vida_estudiante_4_cabello",
+      "slot": "OBestudiantes__vida_estudiante_4_cabello",
+      "stripSlot": "OBestudiantes__vida_estudiante_4_cabello",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "estudiantes__vida_estudiante_4_cabeza",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "bounce",
+      "axis": "Z",
+      "pivot": [
+        0.026,
+        -0.075,
+        -0.04
+      ],
+      "params": {
+        "height": 0.002,
+        "period": 0.9,
+        "phase": 0.45
+      },
+      "periodRequestedS": 0.9,
+      "periodEffectiveS": 0.9230769230769231,
+      "cycles": 13,
+      "frames": 288,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.0002825761078001296,
+      "action": "estudiantes__estudiantes__vida_estudiante_4_cabeza",
+      "slot": "OBestudiantes__vida_estudiante_4_cabeza",
+      "stripSlot": "OBestudiantes__vida_estudiante_4_cabeza",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "estudiantes__vida_estudiante_4_piernas",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "bounce",
+      "axis": "Z",
+      "pivot": [
+        0.026,
+        -0.075,
+        -0.04
+      ],
+      "params": {
+        "height": 0.002,
+        "period": 0.9,
+        "phase": 0.45
+      },
+      "periodRequestedS": 0.9,
+      "periodEffectiveS": 0.9230769230769231,
+      "cycles": 13,
+      "frames": 288,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.0002825761078001296,
+      "action": "estudiantes__estudiantes__vida_estudiante_4_piernas",
+      "slot": "OBestudiantes__vida_estudiante_4_piernas",
+      "stripSlot": "OBestudiantes__vida_estudiante_4_piernas",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "estudiantes__vida_estudiante_4_torso",
+      "part_id": "estudiantes",
+      "clip": "estudiantes",
+      "kind": "bounce",
+      "axis": "Z",
+      "pivot": [
+        0.026,
+        -0.075,
+        -0.04
+      ],
+      "params": {
+        "height": 0.002,
+        "period": 0.9,
+        "phase": 0.45
+      },
+      "periodRequestedS": 0.9,
+      "periodEffectiveS": 0.9230769230769231,
+      "cycles": 13,
+      "frames": 288,
+      "loopClosurePure": 6.938893903907228e-18,
+      "maxPerFrameChange": 0.0002825761078001296,
+      "action": "estudiantes__estudiantes__vida_estudiante_4_torso",
+      "slot": "OBestudiantes__vida_estudiante_4_torso",
+      "stripSlot": "OBestudiantes__vida_estudiante_4_torso",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        289
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "estudiantes",
+      "strip": [
+        0.0,
+        288.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "nubes__vida_nube_0",
+      "part_id": "nubes",
+      "clip": "nubes",
+      "kind": "drift",
+      "axis": "X",
+      "pivot": [
+        -0.125,
+        0.07,
+        0.15
+      ],
+      "params": {
+        "distance": 0.025,
+        "period": 10.0,
+        "phase": 0.0
+      },
+      "periodRequestedS": 10.0,
+      "periodEffectiveS": 11.5,
+      "cycles": 1,
+      "frames": 276,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.0002845399732013254,
+      "action": "nubes__nubes__vida_nube_0",
+      "slot": "OBnubes__vida_nube_0",
+      "stripSlot": "OBnubes__vida_nube_0",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        277
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "nubes",
+      "strip": [
+        0.0,
+        276.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "nubes__vida_nube_1",
+      "part_id": "nubes",
+      "clip": "nubes",
+      "kind": "drift",
+      "axis": "X",
+      "pivot": [
+        0.08,
+        0.09,
+        0.16
+      ],
+      "params": {
+        "distance": 0.02,
+        "period": 8.5,
+        "phase": 0.37
+      },
+      "periodRequestedS": 8.5,
+      "periodEffectiveS": 11.5,
+      "cycles": 1,
+      "frames": 276,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.00022763820772134236,
+      "action": "nubes__nubes__vida_nube_1",
+      "slot": "OBnubes__vida_nube_1",
+      "stripSlot": "OBnubes__vida_nube_1",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        277
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "nubes",
+      "strip": [
+        0.0,
+        276.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "nubes__vida_nube_2",
+      "part_id": "nubes",
+      "clip": "nubes",
+      "kind": "drift",
+      "axis": "X",
+      "pivot": [
+        0.135,
+        -0.02,
+        0.142
+      ],
+      "params": {
+        "distance": 0.02,
+        "period": 11.5,
+        "phase": 0.71
+      },
+      "periodRequestedS": 11.5,
+      "periodEffectiveS": 11.5,
+      "cycles": 1,
+      "frames": 276,
+      "loopClosurePure": 0.0,
+      "maxPerFrameChange": 0.00022763424370370045,
+      "action": "nubes__nubes__vida_nube_2",
+      "slot": "OBnubes__vida_nube_2",
+      "stripSlot": "OBnubes__vida_nube_2",
+      "fcurveApi": "channelbag",
+      "fcurves": 3,
+      "keysPerFcurve": [
+        277
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "nubes",
+      "strip": [
+        0.0,
+        276.0
+      ],
+      "keyedPaths": [
+        "location[-1]"
+      ],
+      "loopClosureEvaluated": 0.0
+    },
+    {
+      "object": "puerta__puerta_hoja",
+      "part_id": "puerta",
+      "clip": "puerta",
+      "kind": "hinge",
+      "axis": "Z",
+      "pivot": [
+        -0.01,
+        -0.0115,
+        -0.04
+      ],
+      "params": {
+        "angle_deg": -100,
+        "period": 3.0
+      },
+      "periodRequestedS": 3.0,
+      "periodEffectiveS": 3.0,
+      "cycles": null,
+      "frames": 72,
+      "loopClosurePure": 1.17364817766693,
+      "maxPerFrameChange": 0.03168817865753765,
+      "action": "puerta__puerta__puerta_hoja",
+      "slot": "OBpuerta__puerta_hoja",
+      "stripSlot": "OBpuerta__puerta_hoja",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        73
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "puerta",
+      "strip": [
+        0.0,
+        72.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[2]"
+      ]
+    },
+    {
+      "object": "puerta__puerta_manija",
+      "part_id": "puerta",
+      "clip": "puerta",
+      "kind": "hinge",
+      "axis": "Z",
+      "pivot": [
+        -0.01,
+        -0.0115,
+        -0.04
+      ],
+      "params": {
+        "angle_deg": -100,
+        "period": 3.0
+      },
+      "periodRequestedS": 3.0,
+      "periodEffectiveS": 3.0,
+      "cycles": null,
+      "frames": 72,
+      "loopClosurePure": 1.17364817766693,
+      "maxPerFrameChange": 0.03168817865753765,
+      "action": "puerta__puerta__puerta_manija",
+      "slot": "OBpuerta__puerta_manija",
+      "stripSlot": "OBpuerta__puerta_manija",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        73
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "puerta",
+      "strip": [
+        0.0,
+        72.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[2]"
+      ]
+    },
+    {
+      "object": "torre_reloj__torre_horario",
+      "part_id": "torre_reloj",
+      "clip": "reloj",
+      "kind": "spin",
+      "axis": "Y",
+      "pivot": [
+        0.0,
+        -0.0105,
+        0.065
+      ],
+      "params": {
+        "period": 72,
+        "direction": 1
+      },
+      "periodRequestedS": 72.0,
+      "periodEffectiveS": 72.0,
+      "cycles": 1,
+      "frames": 1728,
+      "loopClosurePure": 2.4492935982947064e-16,
+      "maxPerFrameChange": 0.003636094596028469,
+      "action": "reloj__torre_reloj__torre_horario",
+      "slot": "OBtorre_reloj__torre_horario",
+      "stripSlot": "OBtorre_reloj__torre_horario",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        1729
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "reloj",
+      "strip": [
+        0.0,
+        1728.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[1]"
+      ],
+      "loopClosureEvaluated": 1.7484555314695172e-07
+    },
+    {
+      "object": "torre_reloj__torre_minutero",
+      "part_id": "torre_reloj",
+      "clip": "reloj",
+      "kind": "spin",
+      "axis": "Y",
+      "pivot": [
+        0.0,
+        -0.0105,
+        0.065
+      ],
+      "params": {
+        "period": 6,
+        "direction": 1
+      },
+      "periodRequestedS": 6.0,
+      "periodEffectiveS": 6.0,
+      "cycles": 12,
+      "frames": 1728,
+      "loopClosurePure": 2.9391523179536475e-15,
+      "maxPerFrameChange": 0.04361938736534217,
+      "action": "reloj__torre_reloj__torre_minutero",
+      "slot": "OBtorre_reloj__torre_minutero",
+      "stripSlot": "OBtorre_reloj__torre_minutero",
+      "fcurveApi": "channelbag",
+      "fcurves": 1,
+      "keysPerFcurve": [
+        1729
+      ],
+      "interpolations": [
+        "LINEAR"
+      ],
+      "track": "reloj",
+      "strip": [
+        0.0,
+        1728.0
+      ],
+      "keyedPaths": [
+        "rotation_euler[1]"
+      ],
+      "loopClosureEvaluated": 1.9079809021604888e-07
+    }
+  ],
+  "repivot": [
+    {
+      "object": "arboles__vida_arbol_0_copa",
+      "pivot": [
+        -0.175,
+        0.12,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.1862621158361435,
+          0.10781340301036835,
+          -0.03200000151991844
+        ],
+        [
+          -0.16249999403953552,
+          0.13218659162521362,
+          -0.0020000000949949026
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.1862621158361435,
+          0.10781340301036835,
+          -0.03200000151991844
+        ],
+        [
+          -0.16249999403953552,
+          0.13218659162521362,
+          -0.0020000003278255463
+        ]
+      ],
+      "bboxMaxDiffM": 2.3283064365386963e-10,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_0_tronco",
+      "pivot": [
+        -0.175,
+        0.12,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.17720000445842743,
+          0.11809474229812622,
+          -0.04100000113248825
+        ],
+        [
+          -0.1728000044822693,
+          0.12190525233745575,
+          -0.03099999949336052
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.17720000445842743,
+          0.11809474229812622,
+          -0.04100000113248825
+        ],
+        [
+          -0.1728000044822693,
+          0.12190525233745575,
+          -0.03099999949336052
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_1_copa",
+      "pivot": [
+        -0.12,
+        0.125,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.133200004696846,
+          0.11480067670345306,
+          -0.025800000876188278
+        ],
+        [
+          -0.10480000078678131,
+          0.13519932329654694,
+          -0.0017999999690800905
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.133200004696846,
+          0.11480067670345306,
+          -0.025800000876188278
+        ],
+        [
+          -0.10480000078678131,
+          0.13519932329654694,
+          -0.0018000006675720215
+        ]
+      ],
+      "bboxMaxDiffM": 6.984919309616089e-10,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_1_tronco",
+      "pivot": [
+        -0.12,
+        0.125,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.12240000069141388,
+          0.12292154133319855,
+          -0.04100000113248825
+        ],
+        [
+          -0.11760000139474869,
+          0.12707845866680145,
+          -0.02199999988079071
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.12240000069141388,
+          0.12292154133319855,
+          -0.04100000113248825
+        ],
+        [
+          -0.11760000139474869,
+          0.12707845866680145,
+          -0.02199999988079071
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_2_copa",
+      "pivot": [
+        0.12,
+        0.125,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.10873788595199585,
+          0.11281339824199677,
+          -0.03240000084042549
+        ],
+        [
+          0.13249999284744263,
+          0.13718660175800323,
+          -0.0038999998942017555
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.10873788595199585,
+          0.11281339824199677,
+          -0.03240000084042549
+        ],
+        [
+          0.13249999284744263,
+          0.13718660175800323,
+          -0.003899998962879181
+        ]
+      ],
+      "bboxMaxDiffM": 9.313225746154785e-10,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_2_tronco",
+      "pivot": [
+        0.12,
+        0.125,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.11779999732971191,
+          0.12309474498033524,
+          -0.04100000113248825
+        ],
+        [
+          0.12219999730587006,
+          0.12690526247024536,
+          -0.03139999881386757
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.11779999732971191,
+          0.12309474498033524,
+          -0.04100000113248825
+        ],
+        [
+          0.12219999730587006,
+          0.12690526247024536,
+          -0.03139999881386757
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_3_copa",
+      "pivot": [
+        0.175,
+        0.115,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.16179999709129333,
+          0.10480067133903503,
+          -0.02508999966084957
+        ],
+        [
+          0.19020000100135803,
+          0.1251993328332901,
+          0.00011000000085914508
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.16179999709129333,
+          0.10480067133903503,
+          -0.02508999966084957
+        ],
+        [
+          0.19020000100135803,
+          0.1251993328332901,
+          0.0001100003719329834
+        ]
+      ],
+      "bboxMaxDiffM": 3.710738383233547e-10,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_3_tronco",
+      "pivot": [
+        0.175,
+        0.115,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.17260000109672546,
+          0.11292153596878052,
+          -0.04100000113248825
+        ],
+        [
+          0.17739999294281006,
+          0.11707846075296402,
+          -0.021199999377131462
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.17260000109672546,
+          0.11292153596878052,
+          -0.04100000113248825
+        ],
+        [
+          0.17739999294281006,
+          0.11707846075296402,
+          -0.021199999377131462
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_4_copa",
+      "pivot": [
+        -0.17,
+        0.04,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.18520000576972961,
+          0.029800673946738243,
+          -0.02409599907696247
+        ],
+        [
+          -0.15680000185966492,
+          0.05019932612776756,
+          0.0027840000111609697
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.18520000576972961,
+          0.029800673946738243,
+          -0.02409599907696247
+        ],
+        [
+          -0.15680000185966492,
+          0.05019932612776756,
+          0.0027839988470077515
+        ]
+      ],
+      "bboxMaxDiffM": 1.1641532182693481e-09,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_4_tronco",
+      "pivot": [
+        -0.17,
+        0.04,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.17239999771118164,
+          0.037921540439128876,
+          -0.04100000113248825
+        ],
+        [
+          -0.16760000586509705,
+          0.04207846149802208,
+          -0.020080000162124634
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.17239999771118164,
+          0.037921540439128876,
+          -0.04100000113248825
+        ],
+        [
+          -0.16760000586509705,
+          0.04207846149802208,
+          -0.020080000162124634
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_5_copa",
+      "pivot": [
+        0.17,
+        0.04,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.1587378829717636,
+          0.027813401073217392,
+          -0.03136000037193298
+        ],
+        [
+          0.18250000476837158,
+          0.052186597138643265,
+          0.0010400000028312206
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.1587378829717636,
+          0.027813401073217392,
+          -0.03136000037193298
+        ],
+        [
+          0.18250000476837158,
+          0.052186597138643265,
+          0.001040000468492508
+        ]
+      ],
+      "bboxMaxDiffM": 4.656612873077393e-10,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_5_tronco",
+      "pivot": [
+        0.17,
+        0.04,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.16779999434947968,
+          0.038094744086265564,
+          -0.04100000113248825
+        ],
+        [
+          0.17219999432563782,
+          0.04190525412559509,
+          -0.03036000020802021
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.16779999434947968,
+          0.038094744086265564,
+          -0.04100000113248825
+        ],
+        [
+          0.17219999432563782,
+          0.04190525412559509,
+          -0.03036000020802021
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_6_copa",
+      "pivot": [
+        -0.06,
+        0.125,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.07519999891519547,
+          0.11480067670345306,
+          -0.026367999613285065
+        ],
+        [
+          -0.046799998730421066,
+          0.13519932329654694,
+          -0.0033279999624937773
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.07519999891519547,
+          0.11480067670345306,
+          -0.026367999613285065
+        ],
+        [
+          -0.046799998730421066,
+          0.13519932329654694,
+          -0.0033279992640018463
+        ]
+      ],
+      "bboxMaxDiffM": 6.984919309616089e-10,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_6_tronco",
+      "pivot": [
+        -0.06,
+        0.125,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.06239999830722809,
+          0.12292154133319855,
+          -0.04100000113248825
+        ],
+        [
+          -0.0575999990105629,
+          0.12707845866680145,
+          -0.02263999916613102
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.06239999830722809,
+          0.12292154133319855,
+          -0.04100000113248825
+        ],
+        [
+          -0.0575999990105629,
+          0.12707845866680145,
+          -0.02263999916613102
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_7_copa",
+      "pivot": [
+        0.06,
+        0.125,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.046799998730421066,
+          0.11480067670345306,
+          -0.025800000876188278
+        ],
+        [
+          0.07519999891519547,
+          0.13519932329654694,
+          -0.0017999999690800905
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.046799998730421066,
+          0.11480067670345306,
+          -0.025800000876188278
+        ],
+        [
+          0.07519999891519547,
+          0.13519932329654694,
+          -0.0018000006675720215
+        ]
+      ],
+      "bboxMaxDiffM": 6.984919309616089e-10,
+      "pass": true
+    },
+    {
+      "object": "arboles__vida_arbol_7_tronco",
+      "pivot": [
+        0.06,
+        0.125,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.0575999990105629,
+          0.12292154133319855,
+          -0.04100000113248825
+        ],
+        [
+          0.06239999830722809,
+          0.12707845866680145,
+          -0.02199999988079071
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.0575999990105629,
+          0.12292154133319855,
+          -0.04100000113248825
+        ],
+        [
+          0.06239999830722809,
+          0.12707845866680145,
+          -0.02199999988079071
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "asta_bandera__bandera_blanco",
+      "pivot": [
+        -0.05,
+        -0.078,
+        0.05500000000000001
+      ],
+      "bboxBefore": [
+        [
+          -0.0690133348107338,
+          -0.09239999949932098,
+          0.04399999976158142
+        ],
+        [
+          -0.05946666747331619,
+          -0.08495999872684479,
+          0.06599999964237213
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.0690133348107338,
+          -0.09239999949932098,
+          0.04399999976158142
+        ],
+        [
+          -0.05946666747331619,
+          -0.08495999872684479,
+          0.06599999964237213
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "asta_bandera__bandera_celeste",
+      "pivot": [
+        -0.05,
+        -0.078,
+        0.05500000000000001
+      ],
+      "bboxBefore": [
+        [
+          -0.07807999849319458,
+          -0.09920000284910202,
+          0.04399999976158142
+        ],
+        [
+          -0.05040000006556511,
+          -0.07816000282764435,
+          0.06599999964237213
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.07807999849319458,
+          -0.09920000284910202,
+          0.04399999976158142
+        ],
+        [
+          -0.05040000006556511,
+          -0.07816000282764435,
+          0.06599999964237213
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "autobus__autobus_carroceria",
+      "pivot": [
+        -0.08,
+        -0.133,
+        -0.0385
+      ],
+      "bboxBefore": [
+        [
+          -0.11500000208616257,
+          -0.14499999582767487,
+          -0.035999998450279236
+        ],
+        [
+          -0.04500000178813934,
+          -0.12099999934434891,
+          -0.010499999858438969
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.11500000208616257,
+          -0.14499999582767487,
+          -0.035999998450279236
+        ],
+        [
+          -0.04500000178813934,
+          -0.12099999934434891,
+          -0.010499998927116394
+        ]
+      ],
+      "bboxMaxDiffM": 9.313225746154785e-10,
+      "pass": true
+    },
+    {
+      "object": "autobus__autobus_luces_cola",
+      "pivot": [
+        -0.08,
+        -0.133,
+        -0.0385
+      ],
+      "bboxBefore": [
+        [
+          -0.11559999734163284,
+          -0.14300000667572021,
+          -0.03044999949634075
+        ],
+        [
+          -0.1143999993801117,
+          -0.12300000339746475,
+          -0.027950000017881393
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.11559999734163284,
+          -0.14300000667572021,
+          -0.03044999949634075
+        ],
+        [
+          -0.1143999993801117,
+          -0.12300000339746475,
+          -0.027950000017881393
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "autobus__autobus_luces_frente",
+      "pivot": [
+        -0.08,
+        -0.133,
+        -0.0385
+      ],
+      "bboxBefore": [
+        [
+          -0.04560000076889992,
+          -0.14249999821186066,
+          -0.03044999949634075
+        ],
+        [
+          -0.04439999908208847,
+          -0.12349999696016312,
+          -0.027950000017881393
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.04560000076889992,
+          -0.14249999821186066,
+          -0.03044999949634075
+        ],
+        [
+          -0.04439999908208847,
+          -0.12349999696016312,
+          -0.027950000017881393
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "autobus__autobus_oscuro",
+      "pivot": [
+        -0.08,
+        -0.133,
+        -0.0385
+      ],
+      "bboxBefore": [
+        [
+          -0.11640000343322754,
+          -0.14560000598430634,
+          -0.03815745934844017
+        ],
+        [
+          -0.04360000044107437,
+          -0.12039999663829803,
+          -0.006500000134110451
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.11640000343322754,
+          -0.14560000598430634,
+          -0.03815745934844017
+        ],
+        [
+          -0.04360000044107437,
+          -0.12039999663829803,
+          -0.0065000019967556
+        ]
+      ],
+      "bboxMaxDiffM": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "object": "autobus__autobus_vidrios",
+      "pivot": [
+        -0.08,
+        -0.133,
+        -0.0385
+      ],
+      "bboxBefore": [
+        [
+          -0.11150000244379044,
+          -0.14560000598430634,
+          -0.023000000044703484
+        ],
+        [
+          -0.05640000104904175,
+          -0.12039999663829803,
+          -0.013500000350177288
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.11150000244379044,
+          -0.14560000598430634,
+          -0.023000000044703484
+        ],
+        [
+          -0.05640000104904175,
+          -0.12039999663829803,
+          -0.013500001281499863
+        ]
+      ],
+      "bboxMaxDiffM": 9.313225746154785e-10,
+      "pass": true
+    },
+    {
+      "object": "cancha__cancha_balon",
+      "pivot": [
+        0.136,
+        -0.044000000000000004,
+        -0.0345
+      ],
+      "bboxBefore": [
+        [
+          0.13257251679897308,
+          -0.047708846628665924,
+          -0.03849999979138374
+        ],
+        [
+          0.13980422914028168,
+          -0.04029115289449692,
+          -0.030500000342726707
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.13257251679897308,
+          -0.047708846628665924,
+          -0.03849999979138374
+        ],
+        [
+          0.13980422914028168,
+          -0.04029115289449692,
+          -0.030500000342726707
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_0_cabello",
+      "pivot": [
+        0.006,
+        -0.09,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.003387190168723464,
+          -0.09064734727144241,
+          -0.021400000900030136
+        ],
+        [
+          0.008899999782443047,
+          -0.08655264973640442,
+          -0.01899999938905239
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.003387190168723464,
+          -0.09064734727144241,
+          -0.021400000900030136
+        ],
+        [
+          0.008899999782443047,
+          -0.08655264973640442,
+          -0.01899999938905239
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_0_cabeza",
+      "pivot": [
+        0.006,
+        -0.09,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.003515070304274559,
+          -0.0926889106631279,
+          -0.025299999862909317
+        ],
+        [
+          0.008758064359426498,
+          -0.08731108903884888,
+          -0.019500000402331352
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.003515070304274559,
+          -0.0926889106631279,
+          -0.025299999862909317
+        ],
+        [
+          0.008758064359426498,
+          -0.08731108903884888,
+          -0.019500000402331352
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_0_mochila",
+      "pivot": [
+        0.006,
+        -0.09,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.003800000064074993,
+          -0.08709999918937683,
+          -0.03139999881386757
+        ],
+        [
+          0.008200000040233135,
+          -0.08489999920129776,
+          -0.026200000196695328
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.003800000064074993,
+          -0.08709999918937683,
+          -0.03139999881386757
+        ],
+        [
+          0.008200000040233135,
+          -0.08489999920129776,
+          -0.026200000196695328
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_0_piernas",
+      "pivot": [
+        0.006,
+        -0.09,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.0038499999791383743,
+          -0.09104999899864197,
+          -0.04050000011920929
+        ],
+        [
+          0.008150000125169754,
+          -0.08895000070333481,
+          -0.032499998807907104
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.0038499999791383743,
+          -0.09104999899864197,
+          -0.04050000011920929
+        ],
+        [
+          0.008150000125169754,
+          -0.08895000070333481,
+          -0.032499998807907104
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_0_torso",
+      "pivot": [
+        0.006,
+        -0.09,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.0010999999940395355,
+          -0.09399999678134918,
+          -0.03280000016093254
+        ],
+        [
+          0.010900000110268593,
+          -0.0860000029206276,
+          -0.02539999969303608
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.0010999999940395355,
+          -0.09399999678134918,
+          -0.03280000016093254
+        ],
+        [
+          0.010900000110268593,
+          -0.0860000029206276,
+          -0.02539999969303608
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_1_cabello",
+      "pivot": [
+        -0.16,
+        -0.099,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.16261281073093414,
+          -0.09964735060930252,
+          -0.021400000900030136
+        ],
+        [
+          -0.15710000693798065,
+          -0.09555265307426453,
+          -0.01899999938905239
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.16261281073093414,
+          -0.09964735060930252,
+          -0.021400000900030136
+        ],
+        [
+          -0.15710000693798065,
+          -0.09555265307426453,
+          -0.01899999938905239
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_1_cabeza",
+      "pivot": [
+        -0.16,
+        -0.099,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.16248492896556854,
+          -0.101688914000988,
+          -0.025299999862909317
+        ],
+        [
+          -0.15724194049835205,
+          -0.09631108492612839,
+          -0.019500000402331352
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.16248492896556854,
+          -0.101688914000988,
+          -0.025299999862909317
+        ],
+        [
+          -0.15724194049835205,
+          -0.09631108492612839,
+          -0.019500000402331352
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_1_mochila",
+      "pivot": [
+        -0.16,
+        -0.099,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.16220000386238098,
+          -0.09610000252723694,
+          -0.03139999881386757
+        ],
+        [
+          -0.15780000388622284,
+          -0.09390000253915787,
+          -0.026200000196695328
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.16220000386238098,
+          -0.09610000252723694,
+          -0.03139999881386757
+        ],
+        [
+          -0.15780000388622284,
+          -0.09390000253915787,
+          -0.026200000196695328
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_1_piernas",
+      "pivot": [
+        -0.16,
+        -0.099,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.16214999556541443,
+          -0.10005000233650208,
+          -0.04050000011920929
+        ],
+        [
+          -0.1578499972820282,
+          -0.09794999659061432,
+          -0.032499998807907104
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.16214999556541443,
+          -0.10005000233650208,
+          -0.04050000011920929
+        ],
+        [
+          -0.1578499972820282,
+          -0.09794999659061432,
+          -0.032499998807907104
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_1_torso",
+      "pivot": [
+        -0.16,
+        -0.099,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.164900004863739,
+          -0.10300000011920929,
+          -0.03280000016093254
+        ],
+        [
+          -0.1551000028848648,
+          -0.0949999988079071,
+          -0.02539999969303608
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.164900004863739,
+          -0.10300000011920929,
+          -0.03280000016093254
+        ],
+        [
+          -0.1551000028848648,
+          -0.0949999988079071,
+          -0.02539999969303608
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_2_cabello",
+      "pivot": [
+        -0.07,
+        -0.085,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.07261280715465546,
+          -0.085647352039814,
+          -0.021400000900030136
+        ],
+        [
+          -0.06710000336170197,
+          -0.081552654504776,
+          -0.01899999938905239
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.07261280715465546,
+          -0.085647352039814,
+          -0.021400000900030136
+        ],
+        [
+          -0.06710000336170197,
+          -0.081552654504776,
+          -0.01899999938905239
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_2_cabeza",
+      "pivot": [
+        -0.07,
+        -0.085,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.07248493283987045,
+          -0.08768891543149948,
+          -0.025299999862909317
+        ],
+        [
+          -0.06724193692207336,
+          -0.08231108635663986,
+          -0.019500000402331352
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.07248493283987045,
+          -0.08768891543149948,
+          -0.025299999862909317
+        ],
+        [
+          -0.06724193692207336,
+          -0.08231108635663986,
+          -0.019500000402331352
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_2_piernas",
+      "pivot": [
+        -0.07,
+        -0.085,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.07214999943971634,
+          -0.08604999631643295,
+          -0.04050000011920929
+        ],
+        [
+          -0.06785000115633011,
+          -0.0839499980211258,
+          -0.032499998807907104
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.07214999943971634,
+          -0.08604999631643295,
+          -0.04050000011920929
+        ],
+        [
+          -0.06785000115633011,
+          -0.0839499980211258,
+          -0.032499998807907104
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_2_torso",
+      "pivot": [
+        -0.07,
+        -0.085,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.07490000128746033,
+          -0.08900000154972076,
+          -0.03280000016093254
+        ],
+        [
+          -0.06509999930858612,
+          -0.08100000023841858,
+          -0.02539999969303608
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.07490000128746033,
+          -0.08900000154972076,
+          -0.03280000016093254
+        ],
+        [
+          -0.06509999930858612,
+          -0.08100000023841858,
+          -0.02539999969303608
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_3_cabello",
+      "pivot": [
+        -0.028,
+        -0.045,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.03061280958354473,
+          -0.04564734920859337,
+          -0.021400000900030136
+        ],
+        [
+          -0.025100000202655792,
+          -0.041552651673555374,
+          -0.01899999938905239
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.03061280958354473,
+          -0.04564734920859337,
+          -0.021400000900030136
+        ],
+        [
+          -0.025100000202655792,
+          -0.041552651673555374,
+          -0.01899999938905239
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_3_cabeza",
+      "pivot": [
+        -0.028,
+        -0.045,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.03048492968082428,
+          -0.047688912600278854,
+          -0.025299999862909317
+        ],
+        [
+          -0.02524193562567234,
+          -0.042311087250709534,
+          -0.019500000402331352
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.03048492968082428,
+          -0.047688912600278854,
+          -0.025299999862909317
+        ],
+        [
+          -0.02524193562567234,
+          -0.042311087250709534,
+          -0.019500000402331352
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_3_piernas",
+      "pivot": [
+        -0.028,
+        -0.045,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.030150000005960464,
+          -0.04605000093579292,
+          -0.04050000011920929
+        ],
+        [
+          -0.025849999859929085,
+          -0.043949998915195465,
+          -0.032499998807907104
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.030150000005960464,
+          -0.04605000093579292,
+          -0.04050000011920929
+        ],
+        [
+          -0.025849999859929085,
+          -0.043949998915195465,
+          -0.032499998807907104
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_3_torso",
+      "pivot": [
+        -0.028,
+        -0.045,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.03290000185370445,
+          -0.04899999871850014,
+          -0.03280000016093254
+        ],
+        [
+          -0.023099999874830246,
+          -0.04100000113248825,
+          -0.02539999969303608
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.03290000185370445,
+          -0.04899999871850014,
+          -0.03280000016093254
+        ],
+        [
+          -0.023099999874830246,
+          -0.04100000113248825,
+          -0.02539999969303608
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_4_cabello",
+      "pivot": [
+        0.026,
+        -0.075,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.023387189954519272,
+          -0.07564734667539597,
+          -0.021400000900030136
+        ],
+        [
+          0.02889999933540821,
+          -0.07155264914035797,
+          -0.01899999938905239
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.023387189954519272,
+          -0.07564734667539597,
+          -0.021400000900030136
+        ],
+        [
+          0.02889999933540821,
+          -0.07155264914035797,
+          -0.01899999938905239
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_4_cabeza",
+      "pivot": [
+        0.026,
+        -0.075,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.023515069857239723,
+          -0.07768891006708145,
+          -0.025299999862909317
+        ],
+        [
+          0.028758063912391663,
+          -0.07231108844280243,
+          -0.019500000402331352
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.023515069857239723,
+          -0.07768891006708145,
+          -0.025299999862909317
+        ],
+        [
+          0.028758063912391663,
+          -0.07231108844280243,
+          -0.019500000402331352
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_4_piernas",
+      "pivot": [
+        0.026,
+        -0.075,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.02384999953210354,
+          -0.07604999840259552,
+          -0.04050000011920929
+        ],
+        [
+          0.028149999678134918,
+          -0.07395000010728836,
+          -0.032499998807907104
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.02384999953210354,
+          -0.07604999840259552,
+          -0.04050000011920929
+        ],
+        [
+          0.028149999678134918,
+          -0.07395000010728836,
+          -0.032499998807907104
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "estudiantes__vida_estudiante_4_torso",
+      "pivot": [
+        0.026,
+        -0.075,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.0210999995470047,
+          -0.07900000363588333,
+          -0.03280000016093254
+        ],
+        [
+          0.030899999663233757,
+          -0.07100000232458115,
+          -0.02539999969303608
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.0210999995470047,
+          -0.07900000363588333,
+          -0.03280000016093254
+        ],
+        [
+          0.030899999663233757,
+          -0.07100000232458115,
+          -0.02539999969303608
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "juegos__columpio_1_asiento",
+      "pivot": [
+        -0.15,
+        -0.04,
+        0.0049999999999999975
+      ],
+      "bboxBefore": [
+        [
+          -0.15700000524520874,
+          -0.04399999976158142,
+          -0.029999999329447746
+        ],
+        [
+          -0.14300000667572021,
+          -0.035999998450279236,
+          -0.02850000001490116
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.15700000524520874,
+          -0.04399999976158142,
+          -0.030000001192092896
+        ],
+        [
+          -0.14300000667572021,
+          -0.035999998450279236,
+          -0.02850000187754631
+        ]
+      ],
+      "bboxMaxDiffM": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "object": "juegos__columpio_1_cadenas",
+      "pivot": [
+        -0.15,
+        -0.04,
+        0.0049999999999999975
+      ],
+      "bboxBefore": [
+        [
+          -0.15645000338554382,
+          -0.040449999272823334,
+          -0.02879999950528145
+        ],
+        [
+          -0.14354999363422394,
+          -0.03954999893903732,
+          0.004999999888241291
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.15645000338554382,
+          -0.040449999272823334,
+          -0.02879999950528145
+        ],
+        [
+          -0.14354999363422394,
+          -0.03954999893903732,
+          0.004999999888241291
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "juegos__columpio_2_asiento",
+      "pivot": [
+        -0.12,
+        -0.04,
+        0.0049999999999999975
+      ],
+      "bboxBefore": [
+        [
+          -0.12700000405311584,
+          -0.04399999976158142,
+          -0.029999999329447746
+        ],
+        [
+          -0.11299999803304672,
+          -0.035999998450279236,
+          -0.02850000001490116
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.12700000405311584,
+          -0.04399999976158142,
+          -0.030000001192092896
+        ],
+        [
+          -0.11299999803304672,
+          -0.035999998450279236,
+          -0.02850000187754631
+        ]
+      ],
+      "bboxMaxDiffM": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "object": "juegos__columpio_2_cadenas",
+      "pivot": [
+        -0.12,
+        -0.04,
+        0.0049999999999999975
+      ],
+      "bboxBefore": [
+        [
+          -0.12645000219345093,
+          -0.040449999272823334,
+          -0.02879999950528145
+        ],
+        [
+          -0.11354999989271164,
+          -0.03954999893903732,
+          0.004999999888241291
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.12645000219345093,
+          -0.040449999272823334,
+          -0.02879999950528145
+        ],
+        [
+          -0.11354999989271164,
+          -0.03954999893903732,
+          0.004999999888241291
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "nubes__vida_nube_0",
+      "pivot": [
+        -0.125,
+        0.07,
+        0.15
+      ],
+      "bboxBefore": [
+        [
+          -0.15471260249614716,
+          0.05825072154402733,
+          0.14149999618530273
+        ],
+        [
+          -0.09399999678134918,
+          0.08179942518472672,
+          0.16099999845027924
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.15471260249614716,
+          0.05825072154402733,
+          0.14149999618530273
+        ],
+        [
+          -0.09399999678134918,
+          0.08179942518472672,
+          0.16099999845027924
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "nubes__vida_nube_1",
+      "pivot": [
+        0.08,
+        0.09,
+        0.16
+      ],
+      "bboxBefore": [
+        [
+          0.0502874031662941,
+          0.07825072109699249,
+          0.15150000154972076
+        ],
+        [
+          0.11100000143051147,
+          0.10174927860498428,
+          0.16750000417232513
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.0502874031662941,
+          0.07825072109699249,
+          0.15150000154972076
+        ],
+        [
+          0.11100000143051147,
+          0.10174927860498428,
+          0.16750000417232513
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "nubes__vida_nube_2",
+      "pivot": [
+        0.135,
+        -0.02,
+        0.142
+      ],
+      "bboxBefore": [
+        [
+          0.10528740286827087,
+          -0.03174927830696106,
+          0.13349999487400055
+        ],
+        [
+          0.16599999368190765,
+          -0.008200576528906822,
+          0.15299999713897705
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.10528740286827087,
+          -0.03174927830696106,
+          0.13349999487400055
+        ],
+        [
+          0.16599999368190765,
+          -0.008200576528906822,
+          0.15299999713897705
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "puerta__puerta_hoja",
+      "pivot": [
+        -0.01,
+        -0.0115,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          -0.009999999776482582,
+          -0.012799999676644802,
+          -0.035999998450279236
+        ],
+        [
+          0.009999999776482582,
+          -0.01080000028014183,
+          -0.009999999776482582
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.009999999776482582,
+          -0.012799999676644802,
+          -0.035999998450279236
+        ],
+        [
+          0.009999999776482582,
+          -0.01080000028014183,
+          -0.009999999776482582
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "puerta__puerta_manija",
+      "pivot": [
+        -0.01,
+        -0.0115,
+        -0.04
+      ],
+      "bboxBefore": [
+        [
+          0.006800000090152025,
+          -0.013399999588727951,
+          -0.02419999986886978
+        ],
+        [
+          0.00839999970048666,
+          -0.01209999993443489,
+          -0.02280000038444996
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          0.006799999624490738,
+          -0.013399999588727951,
+          -0.02419999986886978
+        ],
+        [
+          0.008399998769164085,
+          -0.01209999993443489,
+          -0.02280000038444996
+        ]
+      ],
+      "bboxMaxDiffM": 9.313225746154785e-10,
+      "pass": true
+    },
+    {
+      "object": "torre_reloj__torre_horario",
+      "pivot": [
+        0.0,
+        -0.0105,
+        0.065
+      ],
+      "bboxBefore": [
+        [
+          -0.0010000000474974513,
+          -0.012299999594688416,
+          0.06419999897480011
+        ],
+        [
+          0.005799999926239252,
+          -0.011500000022351742,
+          0.0658000037074089
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.0010000000474974513,
+          -0.012299999594688416,
+          0.06419999897480011
+        ],
+        [
+          0.005799999926239252,
+          -0.011500000022351742,
+          0.0658000037074089
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    },
+    {
+      "object": "torre_reloj__torre_minutero",
+      "pivot": [
+        0.0,
+        -0.0105,
+        0.065
+      ],
+      "bboxBefore": [
+        [
+          -0.00139999995008111,
+          -0.013299999758601189,
+          0.06350000202655792
+        ],
+        [
+          0.00139999995008111,
+          -0.012299999594688416,
+          0.07419999688863754
+        ]
+      ],
+      "repivoted": true,
+      "bboxAfter": [
+        [
+          -0.00139999995008111,
+          -0.013299999758601189,
+          0.06350000202655792
+        ],
+        [
+          0.00139999995008111,
+          -0.012299999594688416,
+          0.07419999688863754
+        ]
+      ],
+      "bboxMaxDiffM": 0.0,
+      "pass": true
+    }
+  ],
+  "counts": {
+    "meshObjects": 91,
+    "triangles": 7492,
+    "animatedObjects": 57
+  },
+  "exporter": {
+    "applied": {
+      "check_existing": false,
+      "export_format": "GLB",
+      "use_selection": true,
+      "use_visible": false,
+      "use_renderable": false,
+      "export_yup": true,
+      "export_extras": true,
+      "export_apply": false,
+      "export_cameras": false,
+      "export_lights": false,
+      "export_materials": "EXPORT",
+      "export_normals": true,
+      "export_texcoords": true,
+      "export_animations": true,
+      "export_animation_mode": "NLA_TRACKS",
+      "export_nla_strips": true,
+      "export_merge_animation": "NLA_TRACK",
+      "export_force_sampling": true,
+      "export_frame_step": 1,
+      "export_frame_range": false,
+      "export_anim_slide_to_zero": false,
+      "export_negative_frame": "SLIDE",
+      "export_current_frame": false,
+      "export_bake_animation": false,
+      "export_optimize_animation_size": false,
+      "export_optimize_animation_keep_anim_object": true,
+      "export_def_bones": false,
+      "export_skins": false
+    },
+    "dropped": {},
+    "notes": {
+      "export_format": "applied (unvalidated enum)",
+      "export_materials": "applied (validated enum)",
+      "export_animation_mode": "applied (validated enum)",
+      "export_merge_animation": "applied (validated enum)",
+      "export_negative_frame": "applied (validated enum)"
+    }
+  },
+  "glbAnimations": {
+    "arboles": {
+      "durationS": 3.9166667461395264,
+      "nodes": [
+        "arboles__vida_arbol_0_copa",
+        "arboles__vida_arbol_0_tronco",
+        "arboles__vida_arbol_1_copa",
+        "arboles__vida_arbol_1_tronco",
+        "arboles__vida_arbol_2_copa",
+        "arboles__vida_arbol_2_tronco",
+        "arboles__vida_arbol_3_copa",
+        "arboles__vida_arbol_3_tronco",
+        "arboles__vida_arbol_4_copa",
+        "arboles__vida_arbol_4_tronco",
+        "arboles__vida_arbol_5_copa",
+        "arboles__vida_arbol_5_tronco",
+        "arboles__vida_arbol_6_copa",
+        "arboles__vida_arbol_6_tronco",
+        "arboles__vida_arbol_7_copa",
+        "arboles__vida_arbol_7_tronco"
+      ],
+      "partIds": [
+        "arboles"
+      ],
+      "channels": 48,
+      "maxFirstLastDiff": 4.061082508408186e-18,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "bandera": {
+      "durationS": 2.4166667461395264,
+      "nodes": [
+        "asta_bandera__bandera_blanco",
+        "asta_bandera__bandera_celeste"
+      ],
+      "partIds": [
+        "asta_bandera"
+      ],
+      "channels": 6,
+      "maxFirstLastDiff": 0.0,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "autobus": {
+      "durationS": 14.0,
+      "nodes": [
+        "autobus__autobus_carroceria",
+        "autobus__autobus_luces_cola",
+        "autobus__autobus_luces_frente",
+        "autobus__autobus_oscuro",
+        "autobus__autobus_vidrios"
+      ],
+      "partIds": [
+        "autobus"
+      ],
+      "channels": 15,
+      "maxFirstLastDiff": 8.742277657347586e-08,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "balon": {
+      "durationS": 0.7916666865348816,
+      "nodes": [
+        "cancha__cancha_balon"
+      ],
+      "partIds": [
+        "cancha"
+      ],
+      "channels": 3,
+      "maxFirstLastDiff": 0.0,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "estudiantes": {
+      "durationS": 12.0,
+      "nodes": [
+        "estudiantes__vida_estudiante_0_cabello",
+        "estudiantes__vida_estudiante_0_cabeza",
+        "estudiantes__vida_estudiante_0_mochila",
+        "estudiantes__vida_estudiante_0_piernas",
+        "estudiantes__vida_estudiante_0_torso",
+        "estudiantes__vida_estudiante_1_cabello",
+        "estudiantes__vida_estudiante_1_cabeza",
+        "estudiantes__vida_estudiante_1_mochila",
+        "estudiantes__vida_estudiante_1_piernas",
+        "estudiantes__vida_estudiante_1_torso",
+        "estudiantes__vida_estudiante_2_cabello",
+        "estudiantes__vida_estudiante_2_cabeza",
+        "estudiantes__vida_estudiante_2_piernas",
+        "estudiantes__vida_estudiante_2_torso",
+        "estudiantes__vida_estudiante_3_cabello",
+        "estudiantes__vida_estudiante_3_cabeza",
+        "estudiantes__vida_estudiante_3_piernas",
+        "estudiantes__vida_estudiante_3_torso",
+        "estudiantes__vida_estudiante_4_cabello",
+        "estudiantes__vida_estudiante_4_cabeza",
+        "estudiantes__vida_estudiante_4_piernas",
+        "estudiantes__vida_estudiante_4_torso"
+      ],
+      "partIds": [
+        "estudiantes"
+      ],
+      "channels": 66,
+      "maxFirstLastDiff": 1.7881393432617188e-07,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "columpios": {
+      "durationS": 2.2083332538604736,
+      "nodes": [
+        "juegos__columpio_1_asiento",
+        "juegos__columpio_1_cadenas",
+        "juegos__columpio_2_asiento",
+        "juegos__columpio_2_cadenas"
+      ],
+      "partIds": [
+        "juegos"
+      ],
+      "channels": 12,
+      "maxFirstLastDiff": 1.0379263802968379e-18,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "nubes": {
+      "durationS": 11.5,
+      "nodes": [
+        "nubes__vida_nube_0",
+        "nubes__vida_nube_1",
+        "nubes__vida_nube_2"
+      ],
+      "partIds": [
+        "nubes"
+      ],
+      "channels": 9,
+      "maxFirstLastDiff": 0.0,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "puerta": {
+      "durationS": 3.0,
+      "nodes": [
+        "puerta__puerta_hoja",
+        "puerta__puerta_manija"
+      ],
+      "partIds": [
+        "puerta"
+      ],
+      "channels": 6,
+      "maxFirstLastDiff": 0.7660444378852844,
+      "interpolations": [
+        "LINEAR"
+      ]
+    },
+    "reloj": {
+      "durationS": 72.0,
+      "nodes": [
+        "torre_reloj__torre_horario",
+        "torre_reloj__torre_minutero"
+      ],
+      "partIds": [
+        "torre_reloj"
+      ],
+      "channels": 6,
+      "maxFirstLastDiff": 9.539904510802444e-08,
+      "interpolations": [
+        "LINEAR"
+      ]
+    }
+  },
+  "glbBytes": 763260,
+  "files": {
+    "animated.blend": "0f4d723828872da9482618b092238cbe95bd42e5c8e0088a53bb80d30606e0a8",
+    "animated.glb": "f1db07aeb94dcdbcc3065efb088d78a37bec062963e22dc609498482914189a4"
+  },
+  "renders": [
+    {
+      "timeS": 0.0,
+      "frame": 0.0,
+      "file": "renders/anim-000.00.png",
+      "sha256": "fe00627642cccff6d53290a48f451b823594bc156cc39afbb4ea1d3a181c3742"
+    },
+    {
+      "timeS": 0.8,
+      "frame": 19.200000000000003,
+      "file": "renders/anim-019.20.png",
+      "sha256": "635ebab1963a10fc461d275f05b95714a7d500b7bd6c8b2b09cd3cdf08b42b8c"
+    },
+    {
+      "timeS": 1.6,
+      "frame": 38.400000000000006,
+      "file": "renders/anim-038.40.png",
+      "sha256": "bebba64d931bc397e85e06045f2c0aad52fd54a614a52a25734a9f7503e97a3a"
+    },
+    {
+      "timeS": 2.4,
+      "frame": 57.599999999999994,
+      "file": "renders/anim-057.60.png",
+      "sha256": "91d3b95f30975cafa6692719311f5e21b2eda2da02f79184cc97fc2730bdc2ed"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "runId": "002-da798cb30fbb",
+  "manifestSha256": "d84c42d53ed9268d801b2f2e331939e705c74391c7bcd0046d4dc140a0756b18",
+  "reviewer": {
+    "actorId": "a365dd00b96302d64",
+    "model": "claude-opus-5-5",
+    "reasoningEffort": "medium"
+  },
+  "openedImages": true,
+  "images": {
+    "front": "f0a1b2917e858447a570064c8d65327ba9dae82f97eb56b9efa821c308aac60a",
+    "side": "6dee7db93479bcaaf2e0434ace7586f7407dbb5adf4b5ddcdbbbcd92eb243c5b",
+    "back": "ef847f61e248a1d0ede3032197df7586d1da4497711f44fa0efa69ae5d099978",
+    "three-quarter": "260c286d969210a9f6bfe09ac9ab5719bcb7f49b15af7087b570ed7d209f609c",
+    "wireframe": "80256949283cafba489d1e45ed73c60b4ba05c4fc71859164b18c48f50f564dc",
+    "reimport-three-quarter": "7efe04a65bf46ecb25993abaa3828e721fa6bdc8a5fe366854d225ca74d636c8"
+  },
+  "visual": {
+    "status": "PASS",
+    "reason": "Las 14 partes son visibles e identificables en las vistas fuente (front, three-quarter, side, back); composición coherente (calle al frente, camino a la puerta bajo la torre, columpios y asta a la izquierda, cancha a la derecha, árboles en bordes, nubes arriba). Reimport-three-quarter es visualmente idéntica a three-quarter. Wireframe no se juzga (limitación conocida del runner)."
+  },
+  "content": {
+    "status": "PASS",
+    "reason": "Los nueve contentChecks pasan con evidencia en front/three-quarter y recortes ampliados; rasgos pequeños (manecillas, aros, cadenas, ventanas del bus) localizados por vista."
+  },
+  "parts": [
+    {
+      "id": "terreno",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Losa de césped verde con canto marrón de tierra; borde y espesor claros en front/back/three-quarter."
+    },
+    {
+      "id": "camino",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Calle gris con líneas discontinuas blancas y paso de cebra, banqueta blanca y camino claro que va de la banqueta a la puerta (three-quarter)."
+    },
+    {
+      "id": "edificio",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Bloque crema de dos pisos con banda salmón entre pisos y pilastras; volumen principal y ala lateral legibles."
+    },
+    {
+      "id": "techo",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Techo a dos aguas salmón con chimenea y remate piramidal de la torre; contrasta con la fachada crema."
+    },
+    {
+      "id": "ventanas",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Ventanas celestes con marco blanco y parteluces, dos filas en fachada frontal, lateral y trasera."
+    },
+    {
+      "id": "puerta",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter",
+        "side"
+      ],
+      "reason": "Puerta marrón de dos hojas con marquesina celeste/salmón, centrada bajo la torre; en side se ve de canto."
+    },
+    {
+      "id": "torre_reloj",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Torre central con reloj de esfera blanca, manecillas oscuras y techo piramidal; en side se ven rejillas/lamas."
+    },
+    {
+      "id": "asta_bandera",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Asta blanca con base y remate dorado; bandera celeste-blanco-celeste vertical."
+    },
+    {
+      "id": "cancha",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Superficie azul con líneas blancas, círculo central, dos tableros con aro naranja y balón."
+    },
+    {
+      "id": "juegos",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Estructura en A amarilla con travesaño, cadenas oscuras y dos asientos azules."
+    },
+    {
+      "id": "arboles",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Pinos cónicos y árboles de copa facetada distribuidos en los bordes del terreno, con arbustos."
+    },
+    {
+      "id": "autobus",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Bus amarillo con franja oscura, fila de ventanas celestes, parabrisas, ruedas oscuras, sobre la calle."
+    },
+    {
+      "id": "estudiantes",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Unas seis figuras pequeñas con camisa naranja/celeste en banqueta, camino y patio; más bajas que la puerta."
+    },
+    {
+      "id": "nubes",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Tres nubes blancas facetadas flotando sobre el diorama."
+    }
+  ],
+  "checks": [
+    {
+      "check": "Estilo flat shaded: caras planas visibles, sin suavizado, sin texturas, paleta limitada y siluetas simples.",
+      "status": "PASS",
+      "reason": "Facetado visible en copas de árboles, nubes, pinos y esfera del reloj (polígono de ~12 lados en el recorte de front); sombreado plano sin texturas; paleta reducida (crema, salmón, verde, celeste, amarillo, gris, marrón); siluetas simples."
+    },
+    {
+      "check": "El edificio tiene dos pisos de ventanas en la fachada frontal y la puerta principal está bajo la torre del reloj.",
+      "status": "PASS",
+      "reason": "Front y three-quarter: dos filas de ventanas a ambos lados de la torre en la fachada frontal; la puerta marrón está centrada directamente bajo la torre del reloj."
+    },
+    {
+      "check": "El reloj tiene esfera clara y dos manecillas oscuras distinguibles.",
+      "status": "PASS",
+      "reason": "Front (recorte ampliado) y three-quarter: esfera blanca con borde oscuro, marcas horarias y dos manecillas negras distinguibles (marcan ~3:00)."
+    },
+    {
+      "check": "La bandera tiene franjas verticales celeste-blanco-celeste, sin escudo ni texto.",
+      "status": "PASS",
+      "reason": "Front, three-quarter, side y back: franjas verticales celeste-blanco-celeste; sin escudo ni texto visibles."
+    },
+    {
+      "check": "La cancha muestra superficie, líneas claras y dos tableros con aro.",
+      "status": "PASS",
+      "reason": "Three-quarter (recorte): superficie azul, líneas blancas de borde, medio campo y círculo central; dos tableros blancos en postes oscuros; aro naranja visible en el tablero izquierdo (three-quarter) y en ambos en front. El aro derecho se lee débil en three-quarter."
+    },
+    {
+      "check": "Los columpios muestran estructura, cadenas y asientos.",
+      "status": "PASS",
+      "reason": "Three-quarter (recorte) y front: marco en A amarillo con travesaño, cuatro cadenas oscuras finas y dos asientos azules."
+    },
+    {
+      "check": "El bus escolar es amarillo, tiene ventanas y ruedas, y está sobre la calle.",
+      "status": "PASS",
+      "reason": "Three-quarter (recorte) y front: carrocería amarilla, siete ventanas laterales celestes, parabrisas, dos ruedas oscuras visibles por lado, apoyado en el carril de la calle."
+    },
+    {
+      "check": "No hay intersecciones evidentes entre objetos que deberían estar separados ni piezas flotando sin apoyo (salvo nubes).",
+      "status": "PASS",
+      "reason": "No se ven intersecciones evidentes: estudiantes, postes, columpios, asta y árboles se apoyan en el suelo; solo las nubes flotan. En side la puerta sobresale como placa delgada y hay una línea oscura en el umbral, sin penetración visible."
+    },
+    {
+      "check": "La lectura es clara a distancia: contraste suficiente entre edificio, techo, patio y calle.",
+      "status": "PASS",
+      "reason": "A distancia (front, three-quarter) se separan bien techo salmón, fachada crema, patio verde y calle gris; los estudiantes son pequeños pero legibles por color."
+    }
+  ],
+  "defects": [
+    {
+      "view": "three-quarter",
+      "detail": "El aro del tablero derecho de la cancha queda de espaldas y casi no se lee; solo el aro izquierdo es claro.",
+      "requestedChange": "Opcional: engrosar el aro o subir su contraste (naranja más saturado) para que ambos se lean en la vista principal."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "La bandera se superpone visualmente con el marco derecho de los columpios desde la cámara principal, mezclando siluetas.",
+      "requestedChange": "Opcional: desplazar el asta hacia el camino o los columpios hacia el borde izquierdo para separar siluetas."
+    },
+    {
+      "view": "front",
+      "detail": "Los estudiantes son muy pequeños y delgados; a distancia se leen como puntos de color.",
+      "requestedChange": "Opcional: escalarlos ~15-20% manteniéndolos más bajos que la puerta."
+    },
+    {
+      "view": "side",
+      "detail": "La puerta se ve como placa delgada sobresaliente y hay una línea oscura en el umbral al pie del camino.",
+      "requestedChange": "Opcional: verificar que el umbral/escalón no sea una pieza suelta y alinear la puerta al plano de fachada."
+    },
+    {
+      "view": "back",
+      "detail": "La fachada trasera es plana: sin puerta ni elementos, solo ventanas.",
+      "requestedChange": "Opcional: añadir una puerta trasera simple o un detalle para que la vista trasera sea menos vacía."
+    },
+    {
+      "view": "front",
+      "detail": "Banqueta blanca y fachada crema tienen contraste bajo entre sí en la base del edificio.",
+      "requestedChange": "Opcional: oscurecer levemente la banqueta o el zócalo para separar planos."
+    }
+  ]
+}

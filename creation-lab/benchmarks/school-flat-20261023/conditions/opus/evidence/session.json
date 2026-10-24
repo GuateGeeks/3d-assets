@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "7c93f3297d654f2597fe147d425d76b8",
+  "mode": "benchmark",
+  "coordinator": {
+    "actorId": "claude-code-session-78a07db9-5244-4ee7-871e-a2103b3c7094",
+    "model": "claude-opus-5-5",
+    "reasoningEffort": "high"
+  },
+  "maxCorrections": 2,
+  "briefSha256": "86a54e2f5b166e30a172a5e7381cdb64550bcc77797b5cc09c45987f758b423e",
+  "benchmark": {
+    "profile": {
+      "schemaVersion": 1,
+      "id": "claude-school-opus-only-v1",
+      "kind": "isolated user-requested comparison; every author role uses Opus 5.5; baseline is claude-school-orchestrated-v1 (Haiku/Sonnet authors); production default remains Sol/Luna",
+      "provider": "Anthropic first-party through Claude Code 2.1.299 (desktop entrypoint); subagent alias opus resolves to claude-opus-5-5 (re-checked per agent from transcripts)",
+      "roles": {
+        "coordinator": {
+          "models": [
+            "claude-opus-5-5"
+          ],
+          "efforts": [
+            "high"
+          ],
+          "note": "Same coordinator context as the baseline; brief, kit, assembly, Blender runs, integration"
+        },
+        "reviewer": {
+          "models": [
+            "claude-opus-5-5"
+          ],
+          "efforts": [
+            "medium"
+          ],
+          "note": "Fresh context per review, images opened"
+        }
+      },
+      "conditions": {
+        "opus-only": {
+          "author": {
+            "models": [
+              "claude-opus-5-5"
+            ],
+            "efforts": [
+              "high",
+              "medium"
+            ]
+          }
+        }
+      }
+    },
+    "profileSha256": "6d7a836a3d2c038ac6b21b1b877c6a703c9ca6645de15f745ec0ed6733394db6",
+    "condition": "opus-only"
+  },
+  "modelEvidence": "Coordinator-declared execution settings; not backend attestation",
+  "createdAt": "2026-10-24T05:26:34.103676+00:00"
+}

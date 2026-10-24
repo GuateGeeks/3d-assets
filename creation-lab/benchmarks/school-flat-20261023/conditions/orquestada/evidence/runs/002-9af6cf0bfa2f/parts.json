@@ -1,0 +1,324 @@
+{
+  "title": "Escuela · diorama Flat Minimal",
+  "designNotes": [
+    "Estilo Flat Shaded / Minimalist: caras planas, paleta limitada, sin texturas.",
+    "Módulos por modelo: entorno, patio y vida (Haiku); edificio (Sonnet); kit y composición (Opus).",
+    "Los objetos animados llevan anim_* para el paso de animación; esta escena es estática."
+  ],
+  "parts": [
+    {
+      "id": "terreno",
+      "label": "Terreno y jardín",
+      "function": "La base del diorama: el jardín verde donde está la escuela.",
+      "objects": [
+        "terreno__tierra",
+        "terreno__pasto",
+        "terreno__matas"
+      ],
+      "positionBlender": [
+        0.0,
+        0.1,
+        -0.04
+      ],
+      "positionGltf": [
+        0.0,
+        -0.04,
+        -0.1
+      ]
+    },
+    {
+      "id": "camino",
+      "label": "Calle y banqueta",
+      "function": "Por la calle llega el bus escolar; la banqueta y el camino llevan a la entrada.",
+      "objects": [
+        "camino__asfalto",
+        "camino__linea_central",
+        "camino__banqueta"
+      ],
+      "positionBlender": [
+        -0.17,
+        -0.099,
+        -0.0375
+      ],
+      "positionGltf": [
+        -0.17,
+        -0.0375,
+        0.099
+      ]
+    },
+    {
+      "id": "edificio",
+      "label": "Edificio de aulas",
+      "function": "Dos pisos de aulas donde los estudiantes aprenden cada día.",
+      "objects": [
+        "edificio__edificio_muros",
+        "edificio__edificio_acentos",
+        "edificio__edificio_cornisa_pilastras",
+        "edificio__edificio_escalones",
+        "edificio__edificio_rotulo",
+        "edificio__edificio_rebaje"
+      ],
+      "positionBlender": [
+        0.07,
+        0.0375,
+        0.06
+      ],
+      "positionGltf": [
+        0.07,
+        0.06,
+        -0.0375
+      ]
+    },
+    {
+      "id": "techo",
+      "label": "Techo",
+      "function": "Protege las aulas del sol y de la lluvia.",
+      "objects": [
+        "techo__techo_gable"
+      ],
+      "positionBlender": [
+        -0.06,
+        0.0375,
+        0.062
+      ],
+      "positionGltf": [
+        -0.06,
+        0.062,
+        -0.0375
+      ]
+    },
+    {
+      "id": "ventanas",
+      "label": "Ventanas",
+      "function": "Dejan entrar luz natural y aire a las aulas.",
+      "objects": [
+        "ventanas__ventanas_marcos",
+        "ventanas__ventanas_vidrios"
+      ],
+      "positionBlender": [
+        -0.06,
+        -0.004,
+        0.022
+      ],
+      "positionGltf": [
+        -0.06,
+        0.022,
+        0.004
+      ]
+    },
+    {
+      "id": "puerta",
+      "label": "Puerta principal",
+      "function": "La entrada de la escuela. Tócala para abrirla.",
+      "objects": [
+        "puerta__puerta_hoja",
+        "puerta__puerta_manija"
+      ],
+      "positionBlender": [
+        0.0,
+        -0.016,
+        -0.004
+      ],
+      "positionGltf": [
+        0.0,
+        -0.004,
+        0.016
+      ]
+    },
+    {
+      "id": "torre_reloj",
+      "label": "Torre del reloj",
+      "function": "Marca la hora de entrada, recreo y salida.",
+      "objects": [
+        "torre_reloj__torre_cuerpo",
+        "torre_reloj__torre_bandas",
+        "torre_reloj__torre_techo",
+        "torre_reloj__reloj_esfera",
+        "torre_reloj__reloj_aro",
+        "torre_reloj__reloj_minutero",
+        "torre_reloj__reloj_horario"
+      ],
+      "positionBlender": [
+        0.0,
+        0.01,
+        0.12
+      ],
+      "positionGltf": [
+        0.0,
+        0.12,
+        -0.01
+      ]
+    },
+    {
+      "id": "asta_bandera",
+      "label": "Asta y bandera",
+      "function": "Aquí se iza la bandera en los actos cívicos.",
+      "objects": [
+        "asta_bandera__Banqueta asta",
+        "asta_bandera__Asta",
+        "asta_bandera__Remate asta",
+        "asta_bandera__Bandera celeste",
+        "asta_bandera__Bandera blanca"
+      ],
+      "positionBlender": [
+        -0.0311,
+        -0.0698,
+        0.05700000000000001
+      ],
+      "positionGltf": [
+        -0.0311,
+        0.05700000000000001,
+        0.0698
+      ]
+    },
+    {
+      "id": "cancha",
+      "label": "Cancha deportiva",
+      "function": "Espacio para educación física, básquetbol y juegos.",
+      "objects": [
+        "cancha__Superficie cancha",
+        "cancha__Lineas cancha",
+        "cancha__Postes canasta",
+        "cancha__Aros canasta",
+        "cancha__Balon"
+      ],
+      "positionBlender": [
+        0.085,
+        -0.04,
+        -0.0385
+      ],
+      "positionGltf": [
+        0.085,
+        -0.0385,
+        0.04
+      ]
+    },
+    {
+      "id": "juegos",
+      "label": "Columpios",
+      "function": "Juegos del patio para el recreo.",
+      "objects": [
+        "juegos__Estructura A",
+        "juegos__Cadenas columpio 1",
+        "juegos__Asiento columpio 1",
+        "juegos__Cadenas columpio 2",
+        "juegos__Asiento columpio 2"
+      ],
+      "positionBlender": [
+        -0.135,
+        -0.055,
+        0.009000000000000001
+      ],
+      "positionGltf": [
+        -0.135,
+        0.009000000000000001,
+        0.055
+      ]
+    },
+    {
+      "id": "arboles",
+      "label": "Árboles",
+      "function": "Dan sombra, limpian el aire y hogar a las aves.",
+      "objects": [
+        "arboles__arbol_0_tronco",
+        "arboles__arbol_0_copa",
+        "arboles__arbol_1_tronco",
+        "arboles__arbol_1_copa",
+        "arboles__arbol_2_tronco",
+        "arboles__arbol_2_copa",
+        "arboles__arbol_3_tronco",
+        "arboles__arbol_3_copa",
+        "arboles__arbol_4_tronco",
+        "arboles__arbol_4_copa",
+        "arboles__arbol_5_tronco",
+        "arboles__arbol_5_copa",
+        "arboles__arbol_6_tronco",
+        "arboles__arbol_6_copa",
+        "arboles__arbol_7_tronco",
+        "arboles__arbol_7_copa"
+      ],
+      "positionBlender": [
+        -0.175,
+        0.12,
+        0.0020000000000000018
+      ],
+      "positionGltf": [
+        -0.175,
+        0.0020000000000000018,
+        -0.12
+      ]
+    },
+    {
+      "id": "autobus",
+      "label": "Bus escolar",
+      "function": "Lleva y trae a los estudiantes entre su casa y la escuela.",
+      "objects": [
+        "autobus__bus_carroceria",
+        "autobus__bus_detalles",
+        "autobus__bus_vidrio"
+      ],
+      "positionBlender": [
+        -0.08,
+        -0.133,
+        -0.0105
+      ],
+      "positionGltf": [
+        -0.08,
+        -0.0105,
+        0.133
+      ]
+    },
+    {
+      "id": "estudiantes",
+      "label": "Estudiantes",
+      "function": "La comunidad escolar: quienes aprenden y juegan aquí.",
+      "objects": [
+        "estudiantes__estudiante_0_oscuro",
+        "estudiantes__estudiante_0_torso",
+        "estudiantes__estudiante_0_cabeza",
+        "estudiantes__estudiante_1_oscuro",
+        "estudiantes__estudiante_1_torso",
+        "estudiantes__estudiante_1_cabeza",
+        "estudiantes__estudiante_2_oscuro",
+        "estudiantes__estudiante_2_torso",
+        "estudiantes__estudiante_2_cabeza",
+        "estudiantes__estudiante_3_oscuro",
+        "estudiantes__estudiante_3_torso",
+        "estudiantes__estudiante_3_cabeza",
+        "estudiantes__estudiante_4_oscuro",
+        "estudiantes__estudiante_4_torso",
+        "estudiantes__estudiante_4_cabeza"
+      ],
+      "positionBlender": [
+        -0.035,
+        -0.03,
+        -0.019
+      ],
+      "positionGltf": [
+        -0.035,
+        -0.019,
+        0.03
+      ]
+    },
+    {
+      "id": "nubes",
+      "label": "Nubes",
+      "function": "El cielo de la escuela; se mueven con el viento.",
+      "objects": [
+        "nubes__nube_0",
+        "nubes__nube_1",
+        "nubes__nube_2"
+      ],
+      "positionBlender": [
+        -0.115,
+        -0.03,
+        0.16
+      ],
+      "positionGltf": [
+        -0.115,
+        0.16,
+        0.03
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "runId": "002-9af6cf0bfa2f",
+  "manifestSha256": "472de7d10ef30ff53ab1d4702ee939ea66d1c3850c98fa710928a9eb75dc28a9",
+  "reviewer": {
+    "actorId": "a8174e3fe03d8ca00",
+    "model": "claude-opus-5-5",
+    "reasoningEffort": "medium"
+  },
+  "openedImages": true,
+  "images": {
+    "front": "6b91dd8ea037f4ab932df7b8532c4c00cbee3b75f95911e80b4ba714eeebf3cf",
+    "side": "e89d326b65a9713315bbb80fe3e1336826b48c59f9f7f62e57cd3ee377eaf8e1",
+    "back": "96aa66de80cf1ddba635e1292b5ceac2cd1ac251058cbe493b11e18e4057f8ff",
+    "three-quarter": "0ccf8a9bb1ba41cf316772ba6b931c0ca2e94ab7c13a047ed7beb2e475647a01",
+    "wireframe": "97a051607b07ab0463e04f9fcdd7196b80635db8960785cce9f8bd9a9f434062",
+    "reimport-three-quarter": "afd9a73c46200aa302da5018444bfe71fca963dbe876a54f3852aede1c06076f"
+  },
+  "visual": {
+    "status": "PASS",
+    "reason": "Lectura clara a distancia en las cuatro vistas fuente: edificio crema, techo salmón, jardín verde, calle gris y cancha melocotón se separan bien. Facetado plano evidente en nubes, copas y techos; paleta limitada sin texturas ni texto. No veo intersecciones evidentes; las superposiciones (bus/columpios en back y front) son solo de proyección. La reimportación tres cuartos coincide visualmente con la fuente. Wireframe no juzgado por la limitación conocida del runner."
+  },
+  "content": {
+    "status": "PASS",
+    "reason": "Los cuatro blockoutChecks pasan: torre con reloj centrada sobre la puerta, catorce partes visibles y distinguibles, composición calle-banqueta-camino-puerta con asta y columpios a la izquierda, cancha a la derecha, árboles en bordes y nubes arriba; proporciones plausibles."
+  },
+  "parts": [
+    {
+      "id": "terreno",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "back",
+        "reimport-three-quarter"
+      ],
+      "reason": "Base verde con canto marrón de tierra en todas las vistas."
+    },
+    {
+      "id": "camino",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "reimport-three-quarter"
+      ],
+      "reason": "Calle gris con línea discontinua blanca al frente, banqueta clara y camino hasta la puerta en three-quarter."
+    },
+    {
+      "id": "edificio",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "back",
+        "reimport-three-quarter"
+      ],
+      "reason": "Bloque crema de dos pisos con franja salmón entre pisos."
+    },
+    {
+      "id": "techo",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "back",
+        "reimport-three-quarter"
+      ],
+      "reason": "Techo salmón a cuatro aguas, contrasta con la fachada."
+    },
+    {
+      "id": "ventanas",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "back",
+        "reimport-three-quarter"
+      ],
+      "reason": "Dos filas de ventanas celestes en fachada frontal, trasera y lateral."
+    },
+    {
+      "id": "puerta",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "reimport-three-quarter"
+      ],
+      "reason": "Puerta marrón con alero azul bajo la torre; no visible en back/side, como corresponde."
+    },
+    {
+      "id": "torre_reloj",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "back",
+        "reimport-three-quarter"
+      ],
+      "reason": "Torre central con techo piramidal y esfera blanca con manecillas oscuras en front y three-quarter."
+    },
+    {
+      "id": "asta_bandera",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "back",
+        "reimport-three-quarter"
+      ],
+      "reason": "Asta blanca con base, remate dorado y bandera celeste-blanca; en three-quarter queda poco contrastada contra la fachada."
+    },
+    {
+      "id": "cancha",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "reimport-three-quarter"
+      ],
+      "reason": "Superficie melocotón con líneas blancas, círculo central, dos tableros con aro y balón."
+    },
+    {
+      "id": "juegos",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "back",
+        "reimport-three-quarter"
+      ],
+      "reason": "Pórtico en A salmón con dos asientos azules y cadenas oscuras, a la izquierda del patio."
+    },
+    {
+      "id": "arboles",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "back",
+        "reimport-three-quarter"
+      ],
+      "reason": "Árboles redondos y cónicos facetados más arbustos en los bordes."
+    },
+    {
+      "id": "autobus",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "back",
+        "reimport-three-quarter"
+      ],
+      "reason": "Bus amarillo con ventanas y ruedas sobre la calle."
+    },
+    {
+      "id": "estudiantes",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "reimport-three-quarter"
+      ],
+      "reason": "Seis figuras azules pequeñas en patio, banqueta y camino; más bajas que la puerta."
+    },
+    {
+      "id": "nubes",
+      "visibility": "visible",
+      "views": [
+        "three-quarter",
+        "front",
+        "side",
+        "back",
+        "reimport-three-quarter"
+      ],
+      "reason": "Tres o cuatro nubes blancas facetadas flotando sobre el diorama."
+    }
+  ],
+  "checks": [
+    {
+      "check": "Desde la vista tres cuartos se leen el edificio de dos pisos con su techo, la torre del reloj al centro del frente y la puerta bajo la torre.",
+      "status": "PASS",
+      "reason": "PASS: en three-quarter se lee el edificio de dos pisos con techo salmón, la torre del reloj centrada en el frente y la puerta marrón justo debajo."
+    },
+    {
+      "check": "Las catorce partes son volúmenes separados y distinguibles por color o forma; ninguna queda oculta en todas las vistas fuente.",
+      "status": "PASS",
+      "reason": "PASS: las catorce partes aparecen como volúmenes separados y distinguibles por color/forma; todas visibles en al menos una vista fuente (ver parts)."
+    },
+    {
+      "check": "La composición es coherente: calle al frente, camino de la banqueta a la puerta, asta y columpios a un lado del patio, cancha al otro lado, árboles en los bordes y nubes por encima.",
+      "status": "PASS",
+      "reason": "PASS: calle y banqueta al frente, camino de la banqueta a la puerta, asta y columpios a la izquierda del patio, cancha a la derecha, árboles en los bordes y nubes encima."
+    },
+    {
+      "check": "Las proporciones son plausibles entre sí: el bus cabe en la calle, los estudiantes son más bajos que la puerta y la cancha cabe en su patio.",
+      "status": "PASS",
+      "reason": "PASS: el bus cabe en el ancho de la calle (front/side), los estudiantes miden aprox. la mitad de la puerta (front) y la cancha cabe en el patio derecho sin invadir calle ni edificio."
+    }
+  ],
+  "defects": [
+    {
+      "view": "three-quarter",
+      "detail": "La bandera celeste-blanca queda casi pegada a la fachada crema y se pierde por bajo contraste.",
+      "requestedChange": "Separar el asta unos cm de la fachada o girar la bandera para que se recorte contra el jardín/cielo; reforzar el celeste."
+    },
+    {
+      "view": "front",
+      "detail": "La bandera se superpone a la unión techo-torre y compite con el reloj en la silueta frontal.",
+      "requestedChange": "Mover el asta más a la izquierda (hacia los columpios) o bajarla ligeramente para que no se cruce con la torre."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "El balón naranja sobre la cancha melocotón casi no se distingue.",
+      "requestedChange": "Usar un color de balón más saturado/oscuro o aclarar la superficie de la cancha."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "El pórtico de los columpios usa el mismo salmón del techo, por lo que se agrupa visualmente con el edificio.",
+      "requestedChange": "Dar al pórtico un color distinto de la paleta (p. ej. rojo/azul de juegos) en la etapa de detalle."
+    },
+    {
+      "view": "front",
+      "detail": "El bus tapa parcialmente los columpios y a un estudiante desde la vista frontal.",
+      "requestedChange": "Desplazar el bus hacia la derecha sobre la calle o aceptar la oclusión solo en front verificando que la animación no lo cruce."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "Los estudiantes son idénticos (cuerpo azul, cabeza oscura) y se leen como bolos.",
+      "requestedChange": "En detalle, añadir tono de piel/cabello y variar uniforme (camisa/pantalón) manteniendo siluetas simples."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "El tablero del aro más cercano al edificio queda junto al camino y a un estudiante, zona algo saturada.",
+      "requestedChange": "Desplazar un poco la cancha hacia la derecha/atrás o reubicar al estudiante para despejar la entrada."
+    }
+  ]
+}

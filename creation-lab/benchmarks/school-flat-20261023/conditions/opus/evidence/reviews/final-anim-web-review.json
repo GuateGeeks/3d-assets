@@ -1,0 +1,72 @@
+{
+  "reviewer": "revisor independiente (Claude Opus 5.5, subagente); no autor de la entrega",
+  "date": "2026-10-23",
+  "openedImages": true,
+  "imageSha256": {
+    "anim/detail-v1/renders/anim-000.00.png": "fe00627642cccff6d53290a48f451b823594bc156cc39afbb4ea1d3a181c3742",
+    "anim/detail-v1/renders/anim-019.20.png": "635ebab1963a10fc461d275f05b95714a7d500b7bd6c8b2b09cd3cdf08b42b8c",
+    "anim/detail-v1/renders/anim-038.40.png": "bebba64d931bc397e85e06045f2c0aad52fd54a614a52a25734a9f7503e97a3a",
+    "anim/detail-v1/renders/anim-057.60.png": "91d3b95f30975cafa6692719311f5e21b2eda2da02f79184cc97fc2730bdc2ed",
+    "web/final/qa/desk-1-day.png": "95aeea47fa6e58be54556bfca627115f0d88e90959f0ea6864f74abeed3d31ae",
+    "web/final/qa/desk-2-door.png": "405b84bb866975dd95700fca0ff80763fd0b911f31c6ae57021c5c64dcb3424a",
+    "web/final/qa/desk-3-night.png": "4e1da8fe64c12fb1948de7e1b12ecc3828e86897f71133dc49fbd0f572f99f9b",
+    "web/final/qa/phone-2-door.png": "ae2c2fabf64dadb616ee2bd7604e2d03b772692b1f7072fcea863de94014c1ae",
+    "web/final/qa/phone-1-day.png": "7ed611c3043aeb8a1ead29a925188cee2e95a86ef651098f8c9150d164a953e0",
+    "web/final/qa/phone-3-night.png": "39b88c678892da577bdb8808d1b3befea45779ff8071f0b458aa7aba4c89a22b"
+  },
+  "animation": {
+    "status": "PASS",
+    "reason": "Técnico: anim-result.json y verify-result.json con status PASS en todos los checks (9 clips del brief, NLA->GLB 1 animación por clip, loops cierran con maxDiff 1.9e-7, bbox de repivot sin cambio, reimportación con 91 mallas/7492 triángulos y sha256 del GLB coincidente, 763260 B < 4 MiB). Visual (4 fotogramas abiertos, t=0/0.8/1.6/2.4 s): el bus avanza por el carril de la calle hacia la derecha cruzando el paso de cebra sin salirse del asfalto; la puerta pasa de cerrada (t=0) a entreabierta (0.8) y abierta (1.6, 2.4) girando sobre su bisagra; las manecillas del reloj cambian de posición en cada fotograma; los columpios oscilan con asientos y cadenas unidos al travesaño; los estudiantes cambian de posición sobre banqueta/camino; las tres nubes se desplazan. No se ven piezas despegadas, hundidas ni rotaciones absurdas. Matices: la bandera, los árboles y el balón apenas cambian a esta escala (movimiento sutil, no demostrado visualmente)."
+  },
+  "interaction": {
+    "status": "PASS",
+    "reason": "desk-2-door: el chip 'Puerta principal' queda activo, la etiqueta 6 se resalta, la puerta recibe tinte emisivo (marrón oscuro en desk-1 -> tono anaranjado) y aparece la tarjeta con título, función y botones; tras 'Abrir puerta' la hoja está abierta y el botón dice 'Cerrar puerta' (confirmado también en desk-report.json). desk-3-night: cielo azul marino, iluminación general atenuada, ventanas de fachada y torre emiten luz cálida, botón cambia a 'Día' con aria-pressed=true. Móvil (phone-1/2/3): barra inferior con herramientas, chips en carrusel horizontal y tarjeta legible; overflowX=false en ambos reports. El único log de error es el 404 de favicon del servidor local de prueba (no cuenta)."
+  },
+  "style": {
+    "status": "PASS",
+    "reason": "Renders y visor muestran caras planas facetadas, paleta limitada de colores sólidos, sin texturas ni texto 3D, siluetas simples (árboles low-poly, personas en bloques, nubes de cajas). El visor fuerza flatShading en los materiales. Diferencia menor: el visor tiene colores más saturados (techo rojo intenso, cancha azul oscuro, césped más verde) que los renders pastel de Blender; ambos siguen siendo flat minimal coherentes."
+  },
+  "defects": [
+    {
+      "evidence": "web/final/qa/desk-1-day.png",
+      "detail": "Aparece un volumen gris oscuro tipo nube a la izquierda, detrás del árbol junto a la etiqueta 8 (≈x360,y345), que no existe en los renders de Blender; también se ve en phone-1-day.png (≈x110,y345). No se pudo identificar a qué parte pertenece (el shadowCatcher está oculto).",
+      "requestedChange": "Identificar ese objeto (¿nube con cara en sombra, humo, malla sin part_id?) y corregir su material/posición o retirarlo; añadir un check que compare objetos visibles en web y en Blender."
+    },
+    {
+      "evidence": "web/final/qa/desk-2-door.png",
+      "detail": "Con la puerta ya abierta la tarjeta sigue diciendo 'Tócala para abrirla.' mientras el botón dice 'Cerrar puerta'; el texto no refleja el estado.",
+      "requestedChange": "Actualizar el texto de la tarjeta según el estado (p. ej. 'Tócala para cerrarla') o usar una frase neutral."
+    },
+    {
+      "evidence": "web/final/qa/desk-2-door.png",
+      "detail": "El resaltado de selección en modo día es sutil (tinte emisivo 0.22 sobre la madera); sin la referencia de desk-1 cuesta ver qué malla está seleccionada, y el encuadre de enfoque recorta mucho contexto (bus y cancha cortados).",
+      "requestedChange": "Reforzar el resaltado (contorno o tinte más visible) y dejar algo más de margen en el encuadre de la parte seleccionada."
+    },
+    {
+      "evidence": "web/final/qa/phone-1-day.png",
+      "detail": "En móvil vertical el diorama ocupa una franja pequeña del centro con mucho cielo vacío arriba y abajo; legible pero poco aprovechado.",
+      "requestedChange": "Ajustar el encuadre inicial en relación de aspecto vertical (acercar la cámara o reducir el margen)."
+    },
+    {
+      "evidence": "anim/detail-v1/renders/anim-000.00.png .. anim-057.60.png",
+      "detail": "Bandera, árboles y balón no muestran cambio perceptible en los 4 fotogramas; su animación solo queda acreditada por los checks técnicos.",
+      "requestedChange": "Añadir un recorte ampliado o un contact sheet de esos clips para evidencia visual del movimiento."
+    },
+    {
+      "evidence": "web/final/qa/desk-1-day.png vs anim/detail-v1/renders/anim-000.00.png",
+      "detail": "Paleta notablemente distinta entre visor (saturado) y renders (pastel), por tone mapping/iluminación diferentes.",
+      "requestedChange": "Documentar la diferencia o igualar exposición/tone mapping para que la paleta del kit se vea igual en ambos."
+    }
+  ],
+  "notVerified": [
+    "Selección por clic/tap directo sobre el canvas (raycast): las capturas usan los chips y el botón de la tarjeta, no un clic en la malla.",
+    "Hover con ratón, rotación/zoom de órbita, botones Vista, Etiquetas, Pausa, Velocidad y Giro (solo se listan, no se ejercitan).",
+    "Recorrido completo del bus (clip de 14 s): los renders cubren 0-2.4 s; no se ve la vuelta en U ni si el bus se sale de la calle o atraviesa la banqueta en ella.",
+    "Ciclo completo de los demás clips y su continuidad en bucle en el navegador (solo el cierre numérico del loop en los JSON).",
+    "Volver de noche a día y cerrar la puerta (no hay captura tras 'Día' ni tras 'Cerrar puerta').",
+    "Rendimiento, memoria y temperatura en móviles reales; la captura móvil es Chromium headless emulado (posible renderizado por software).",
+    "Otros navegadores (Safari/iOS, Firefox), WebGL no disponible, accesibilidad con lector de pantalla y teclado.",
+    "Contenido detallado del brief (franjas de la bandera, aros, cadenas) a resolución completa: evaluado solo a la escala de estas capturas."
+  ],
+  "verdicts": {"animation": "PASS", "interaction": "PASS", "style": "PASS"}
+}
