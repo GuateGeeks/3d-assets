@@ -1,0 +1,61 @@
+{
+ "schemaVersion": 1,
+ "id": "claude-animal-cell-v1",
+ "kind": "isolated-benchmark-profile; explicit user request; production default remains Sol/Luna",
+ "provider": "Anthropic first-party API through Claude Code 2.1.299 (desktop entrypoint); aliases resolved and confirmed 2026-10-23 from runtime transcripts",
+ "roles": {
+  "coordinator": {
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "efforts": [
+    "high"
+   ],
+   "note": "Organizes, runs Blender and relays feedback; writes no condition geometry"
+  },
+  "reviewer": {
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "efforts": [
+    "medium"
+   ],
+   "note": "Fresh context per review; blind packet only"
+  }
+ },
+ "conditions": {
+  "haiku": {
+   "alias": "haiku",
+   "author": {
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "efforts": [
+     "medium"
+    ]
+   }
+  },
+  "sonnet": {
+   "alias": "sonnet",
+   "author": {
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "efforts": [
+     "medium"
+    ]
+   }
+  },
+  "opus": {
+   "alias": "opus",
+   "author": {
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "efforts": [
+     "medium"
+    ]
+   }
+  }
+ }
+}

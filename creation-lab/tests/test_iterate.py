@@ -204,5 +204,93 @@ class IterationTests(unittest.TestCase):
         self.assertEqual(len(flow.preflight(self.path, self.session, 'blockout', self.author)), 1)
 
 
+
+class BenchmarkProfileTests(unittest.TestCase):
+    """Explicit, isolated benchmark profile; Sol/Luna defaults stay unchanged."""
+    HAIKU, SONNET, OPUS = 'claude-haiku-5-5', 'claude-sonnet-5-5', 'claude-opus-5-5'
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        IterationTests.setUp(self)  # Reuse the synthetic brief fixture.
+        self.profile = {'schemaVersion': 1, 'id': 'test-claude-profile',
+                        'roles': {'coordinator': {'models': [self.OPUS], 'efforts': ['high']},
+                                  'reviewer': {'models': [self.OPUS], 'efforts': ['medium']}},
+                        'conditions': {'haiku': {'author': {'models': [self.HAIKU], 'efforts': ['medium']}},
+                                       'sonnet': {'author': {'models': [self.SONNET], 'efforts': ['medium']}}}}
+        flow.write(self.root / 'profile.json', self.profile)
+        self.coordinator = {'actorId': 'coordinator', 'model': self.OPUS, 'reasoningEffort': 'high'}
+        self.bench = flow.init_session(self.root / 'brief.json', self.root / 'bench', 'benchmark', self.coordinator,
+                                       profile_path=self.root / 'profile.json', condition='haiku')
+        self.bench_session = flow.read(self.bench / 'session.json')
+        self.haiku = {'actorId': 'author-haiku', 'model': self.HAIKU, 'reasoningEffort': 'medium'}
+
+    def test_profile_frozen_in_sealed_session(self):
+        info = self.bench_session['benchmark']
+        self.assertEqual(info['condition'], 'haiku')
+        self.assertEqual(info['profileSha256'], flow.digest(self.root / 'profile.json'))
+        self.assertEqual(flow.status(self.bench)['condition'], 'haiku')
+
+    def test_condition_author_only(self):
+        self.assertEqual(flow.preflight(self.bench, self.bench_session, 'blockout', self.haiku), [])
+        for model in (self.SONNET, self.OPUS, flow.SOL, flow.LUNA, 'haiku'):
+            with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+                flow.preflight(self.bench, self.bench_session, 'blockout', {**self.haiku, 'model': model})
+        with self.assertRaisesRegex(ValueError, 'reasoning effort'):
+            flow.preflight(self.bench, self.bench_session, 'blockout', {**self.haiku, 'reasoningEffort': 'high'})
+
+    def test_reviewer_and_coordinator_fixed(self):
+        flow.session_actor({'actorId': 'r', 'model': self.OPUS, 'reasoningEffort': 'medium'}, self.bench_session, 'reviewer')
+        for model, effort in ((self.HAIKU, 'medium'), (self.OPUS, 'high'), (flow.SOL, 'medium')):
+            with self.assertRaises(ValueError):
+                flow.session_actor({'actorId': 'r', 'model': model, 'reasoningEffort': effort}, self.bench_session, 'reviewer')
+        with self.assertRaises(ValueError):
+            flow.init_session(self.root / 'brief.json', self.root / 'b2', 'benchmark',
+                              {**self.coordinator, 'model': self.SONNET}, profile_path=self.root / 'profile.json', condition='haiku')
+
+    def test_profile_requires_exact_ids_and_known_condition(self):
+        for bad in ('haiku', 'opusplan', 'sonnet', ' claude-opus-5-5'):
+            profile = json.loads(json.dumps(self.profile))
+            profile['conditions']['haiku']['author']['models'] = [bad]
+            with self.assertRaisesRegex(ValueError, 'exact model IDs'):
+                flow.validate_profile(profile)
+        with self.assertRaisesRegex(ValueError, 'not defined'):
+            flow.init_session(self.root / 'brief.json', self.root / 'b3', 'benchmark', self.coordinator,
+                              profile_path=self.root / 'profile.json', condition='opus')
+        with self.assertRaisesRegex(ValueError, 'requires --profile'):
+            flow.init_session(self.root / 'brief.json', self.root / 'b4', 'benchmark', self.coordinator)
+
+    def test_default_modes_still_reject_claude_ids(self):
+        with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+            flow.init_session(self.root / 'brief.json', self.root / 'b5', 'sol', self.coordinator)
+        with self.assertRaisesRegex(ValueError, 'apply only to benchmark'):
+            flow.init_session(self.root / 'brief.json', self.root / 'b6', 'mixed', self.author,
+                              profile_path=self.root / 'profile.json', condition='haiku')
+        with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+            flow.preflight(self.path, self.session, 'blockout', self.haiku)
+        with self.assertRaises(SystemExit):
+            flow.main(['init', '--brief', str(self.root / 'brief.json'), '--output', str(self.root / 'b7'),
+                       '--mode', 'sol', '--actor-id', 'x', '--model', self.OPUS])
+        self.assertFalse((self.root / 'b7').exists())
+
+    def test_tampered_profile_breaks_session_seal(self):
+        session = flow.read(self.bench / 'session.json')
+        session['benchmark']['profile']['conditions']['haiku']['author']['models'] = [self.OPUS]
+        (self.bench / 'session.json').write_text(json.dumps(session))
+        with self.assertRaisesRegex(ValueError, 'seal'):
+            flow.status(self.bench)
+
+    def test_reviewer_template_and_blind_review_flow(self):
+        # Reuse the synthetic run/review helpers against the benchmark session.
+        self.path, self.session, self.author = self.bench, self.bench_session, self.haiku
+        rid, _ = IterationTests.add_run(self)
+        value = flow.review_template(self.bench, rid)
+        self.assertEqual(value['reviewer'], {'actorId': '', 'model': self.OPUS, 'reasoningEffort': 'medium'})
+        review = IterationTests.review(self, rid)
+        flow.save_review(self.bench, review)
+        self.assertEqual(flow.status(self.bench)['status'], 'READY_FOR_DETAIL')
+
+
 if __name__ == '__main__':
     unittest.main()

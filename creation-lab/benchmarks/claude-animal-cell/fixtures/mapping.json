@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-23T14:35:07.360884+00:00",
+  "shuffle": "secrets.SystemRandom",
+  "note": "Coordinator-only. Never give this file to reviewers.",
+  "replicas": {
+    "R1": {
+      "condition": "opus",
+      "authoring": 1,
+      "session": "sessions/R1"
+    },
+    "R2": {
+      "condition": "sonnet",
+      "authoring": 1,
+      "session": "sessions/R2"
+    },
+    "R3": {
+      "condition": "sonnet",
+      "authoring": 2,
+      "session": "sessions/R3"
+    },
+    "R4": {
+      "condition": "opus",
+      "authoring": 2,
+      "session": "sessions/R4"
+    },
+    "R5": {
+      "condition": "haiku",
+      "authoring": 1,
+      "session": "sessions/R5"
+    },
+    "R6": {
+      "condition": "haiku",
+      "authoring": 2,
+      "session": "sessions/R6"
+    },
+    "R7": {
+      "condition": "haiku",
+      "authoring": 3,
+      "session": "sessions/R7"
+    },
+    "R8": {
+      "condition": "opus",
+      "authoring": 3,
+      "session": "sessions/R8"
+    },
+    "R9": {
+      "condition": "sonnet",
+      "authoring": 3,
+      "session": "sessions/R9"
+    }
+  }
+}

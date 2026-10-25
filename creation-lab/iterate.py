@@ -1,4 +1,8 @@
-"""Local, evidence-bound Sol/Luna iterations. Does not invoke a model API."""
+"""Local, evidence-bound Sol/Luna iterations. Does not invoke a model API.
+
+Default modes accept only Sol/Luna. The explicit `benchmark` mode records an
+isolated, user-requested comparison profile frozen inside the session.
+"""
 import argparse
 import ast
 from contextlib import contextmanager
@@ -16,6 +20,10 @@ BASE = Path(__file__).resolve().parent
 ROOT = BASE.parent
 SOL, LUNA = 'gpt-6.1-sol', 'gpt-6-luna'
 STATES = {'PASS', 'FAIL', 'BLOCKED', 'NOT_RUN'}
+EFFORTS = {'low', 'medium', 'high', 'xhigh', 'max'}
+MODES = {'sol', 'mixed', 'luna', 'benchmark'}
+# Aliases can move to another version; a profile must name exact model IDs.
+MODEL_ALIASES = {'haiku', 'sonnet', 'opus', 'fable', 'opusplan', 'default', 'best', 'sol', 'luna'}
 VIEWS = ('front', 'side', 'back', 'three-quarter', 'wireframe', 'reimport-three-quarter')
 
 
@@ -93,22 +101,67 @@ def validate_brief(brief):
     return brief
 
 
-def actor(value, mode, role):
+def validate_profile(profile):
+    """Isolated benchmark profile: exact model IDs and efforts per role."""
+    require(isinstance(profile, dict) and profile.get('schemaVersion') == 1, 'profile.schemaVersion must be 1')
+    require(slug(profile.get('id')), 'profile.id must be a lowercase slug')
+    def role(item, name):
+        require(isinstance(item, dict), 'Profile role required: ' + name)
+        models, efforts = item.get('models'), item.get('efforts')
+        require(isinstance(models, list) and models and all(nonempty(m) for m in models), 'Profile models required: ' + name)
+        require(all(m.strip() == m and m.lower() not in MODEL_ALIASES and '-' in m for m in models), 'Profile must name exact model IDs, not aliases: ' + name)
+        require(isinstance(efforts, list) and efforts and set(efforts) <= EFFORTS, 'Profile efforts invalid: ' + name)
+    roles = profile.get('roles', {})
+    for name in ('coordinator', 'reviewer'):
+        role(roles.get(name), name)
+    conditions = profile.get('conditions')
+    require(isinstance(conditions, dict) and conditions, 'Profile conditions required')
+    for name, item in conditions.items():
+        require(slug(name) and isinstance(item, dict), 'Invalid profile condition')
+        role(item.get('author'), name + '/author')
+    return profile
+
+
+def allowed(mode, role, benchmark=None):
+    """(models, efforts) for a role. Defaults stay Sol/Luna-only."""
+    if mode == 'benchmark':
+        require(isinstance(benchmark, dict), 'Benchmark mode requires a frozen profile')
+        profile, condition = benchmark['profile'], benchmark['condition']
+        item = profile['conditions'][condition]['author'] if role == 'author' else profile['roles'][role]
+        return set(item['models']), set(item['efforts'])
+    require(mode in {'sol', 'mixed', 'luna'}, 'Invalid mode')
+    models = {SOL} if mode == 'sol' or (mode == 'mixed' and role in ('coordinator', 'reviewer')) else {LUNA} if mode == 'luna' else {SOL, LUNA}
+    return models, EFFORTS
+
+
+def actor(value, mode, role, benchmark=None):
     require(isinstance(value, dict) and nonempty(value.get('actorId')), 'An actual agent/context identifier is required')
-    allowed = {SOL} if mode == 'sol' or (mode == 'mixed' and role in ('coordinator', 'reviewer')) else {LUNA} if mode == 'luna' else {SOL, LUNA}
-    require(value.get('model') in allowed, 'Model not allowed for ' + mode + '/' + role)
-    require(value.get('reasoningEffort') in {'low', 'medium', 'high', 'xhigh', 'max'}, 'Unsupported reasoning effort')
+    models, efforts = allowed(mode, role, benchmark)
+    require(value.get('model') in models, 'Model not allowed for ' + mode + '/' + role)
+    require(value.get('reasoningEffort') in efforts, 'Unsupported reasoning effort for ' + mode + '/' + role)
     return value
+
+
+def session_actor(value, session, role):
+    return actor(value, session['mode'], role, session.get('benchmark'))
 
 
 def actor_args(args):
     return {'actorId': args.actor_id, 'model': args.model, 'reasoningEffort': args.effort}
 
 
-def init_session(brief_path, output, mode, coordinator, max_corrections=2):
+def init_session(brief_path, output, mode, coordinator, max_corrections=2, profile_path=None, condition=None):
     brief = validate_brief(read(brief_path))
-    require(mode in {'sol', 'mixed', 'luna'}, 'Invalid mode')
-    actor(coordinator, mode, 'coordinator')
+    require(mode in MODES, 'Invalid mode')
+    benchmark = None
+    if mode == 'benchmark':
+        require(profile_path is not None and nonempty(condition), 'Benchmark mode requires --profile and --condition')
+        profile = validate_profile(read(profile_path))
+        require(condition in profile['conditions'], 'Condition is not defined by the profile')
+        benchmark = {'profile': profile, 'profileSha256': digest(profile_path), 'condition': condition}
+    else:
+        require(profile_path is None and condition is None, '--profile/--condition apply only to benchmark mode')
+    actor(coordinator, mode, 'coordinator', benchmark)
     require(type(max_corrections) is int and 0 <= max_corrections <= 10, 'max-corrections must be 0..10')
     output = Path(output).resolve()
     output.mkdir(parents=True, exist_ok=False)
@@ -116,6 +169,7 @@ def init_session(brief_path, output, mode, coordinator, max_corrections=2):
     session = {'schemaVersion': 1, 'sessionId': uuid.uuid4().hex, 'mode': mode,
                'coordinator': coordinator, 'maxCorrections': max_corrections,
                'briefSha256': digest(output / 'brief.json'),
+               **({'benchmark': benchmark} if benchmark else {}),
                'modelEvidence': 'Coordinator-declared execution settings; not backend attestation',
                'createdAt': datetime.now(timezone.utc).isoformat()}
     write(output / 'session.json', session)
@@ -129,10 +183,14 @@ def load_session(path):
     path = Path(path).resolve(strict=True)
     session = read(contained(path, 'session.json'))
     require(contained(path, 'COMPLETE').read_text().strip() == digest(path / 'session.json'), 'Session seal differs')
-    require(session.get('schemaVersion') == 1 and session.get('mode') in {'sol', 'mixed', 'luna'}, 'Invalid session')
+    require(session.get('schemaVersion') == 1 and session.get('mode') in MODES, 'Invalid session')
+    require((session['mode'] == 'benchmark') == ('benchmark' in session), 'Benchmark profile and mode differ')
+    if session['mode'] == 'benchmark':
+        validate_profile(session['benchmark'].get('profile'))
+        require(session['benchmark'].get('condition') in session['benchmark']['profile']['conditions'], 'Invalid benchmark condition')
     require(digest(contained(path, 'brief.json')) == session['briefSha256'], 'Brief changed after initialization')
     validate_brief(read(path / 'brief.json'))
-    actor(session['coordinator'], session['mode'], 'coordinator')
+    session_actor(session['coordinator'], session, 'coordinator')
     return path, session
 
 
@@ -160,7 +218,7 @@ def load_run(session_path, run_id):
     session = read(session_path / 'session.json')
     require(manifest.get('sessionSha256') == digest(session_path / 'session.json'), 'Run belongs to another session')
     require(manifest.get('schemaVersion') == 1 and manifest.get('stage') in {'blockout', 'detail'} and manifest.get('technical') in STATES, 'Invalid run schema')
-    actor(manifest.get('author'), session['mode'], 'author')
+    session_actor(manifest.get('author'), session, 'author')
     require(digest(contained(path, 'brief.json')) == session['briefSha256'], 'Run brief differs from session')
     for name, checksum in manifest['artifacts'].items():
         require(digest(contained(path, name)) == checksum, 'Changed artifact: ' + name)
@@ -183,7 +241,7 @@ def load_runs(path):
 def validate_review(path, session, run_path, run, review):
     require(review.get('schemaVersion') == 1 and review.get('runId') == run['runId'], 'Review identity differs')
     require(review.get('manifestSha256') == digest(run_path / 'manifest.json'), 'Review belongs to another manifest')
-    reviewer = actor(review.get('reviewer'), session['mode'], 'reviewer')
+    reviewer = session_actor(review.get('reviewer'), session, 'reviewer')
     authors = {r['author']['actorId'] for _, r in load_runs(path)}
     require(reviewer['actorId'] not in authors, 'Reviewer must use a context independent of every author in this session')
     require(review.get('openedImages') is True, 'Open the actual images before reviewing')
@@ -237,6 +295,7 @@ def status(path):
     runs = load_runs(path)
     used = len(runs) - len({run['stage'] for _, run in runs})
     result = {'session': str(path), 'mode': session['mode'], 'correctionsUsed': used,
+              **({'condition': session['benchmark']['condition']} if session['mode'] == 'benchmark' else {}),
               'correctionsRemaining': session['maxCorrections'] - used, 'status': 'NOT_RUN', 'next': 'blockout'}
     if runs:
         run_path, run = runs[-1]
@@ -255,7 +314,7 @@ def status(path):
 
 
 def preflight(path, session, stage, author):
-    actor(author, session['mode'], 'author')
+    session_actor(author, session, 'author')
     runs = load_runs(path)
     for rp, run in runs:
         review = get_review(path, session, rp, run)
@@ -341,7 +400,7 @@ def recover(path, run_id, reason, stopped):
     target = pending[0]
     manifest = read(contained(target, 'request.json'))
     require(manifest.get('sessionSha256') == digest(path / 'session.json') and manifest.get('runId') == run_id, 'Pending request belongs to another session')
-    actor(manifest.get('author'), session['mode'], 'author')
+    session_actor(manifest.get('author'), session, 'author')
     # Explicit operator attestation; no process is killed by this command.
     if (path / '.writer.lock').exists():
         lock_evidence = target / 'interrupted-writer.lock'
@@ -368,8 +427,13 @@ def review_template(path, run_id):
     path, session = load_session(path)
     run_path, run = load_run(path, run_id)
     brief = read(path / 'brief.json')
+    if session['mode'] == 'benchmark':
+        reviewer = session['benchmark']['profile']['roles']['reviewer']
+        model, effort = reviewer['models'][0], reviewer['efforts'][0]
+    else:
+        model, effort = LUNA if session['mode'] == 'luna' else SOL, 'medium'
     return {'schemaVersion': 1, 'runId': run_id, 'manifestSha256': digest(run_path / 'manifest.json'),
-            'reviewer': {'actorId': '', 'model': LUNA if session['mode'] == 'luna' else SOL, 'reasoningEffort': 'medium'},
+            'reviewer': {'actorId': '', 'model': model, 'reasoningEffort': effort},
             'openedImages': False, 'images': {v: run['artifacts'].get('renders/' + v + '.png') for v in VIEWS},
             'visual': {'status': 'NOT_RUN', 'reason': ''}, 'content': {'status': 'NOT_RUN', 'reason': ''},
             'parts': [{'id': p['id'], 'visibility': 'unclear', 'views': [], 'reason': ''} for p in brief['parts']],
@@ -392,10 +456,13 @@ def parser():
     sub = p.add_subparsers(dest='command', required=True)
     def add_actor(item):
         item.add_argument('--actor-id', required=True, help='Actual agent/context ID; recorded, not inferred')
-        item.add_argument('--model', required=True, choices=[SOL, LUNA])
-        item.add_argument('--effort', default='medium', choices=['low', 'medium', 'high', 'xhigh', 'max'])
+        # Validated against the session mode/profile: Sol/Luna unless benchmark.
+        item.add_argument('--model', required=True, help=f'Exact model ID; {SOL} or {LUNA} outside benchmark mode')
+        item.add_argument('--effort', default='medium', choices=sorted(EFFORTS))
     init = sub.add_parser('init'); init.add_argument('--brief', required=True, type=Path)
-    init.add_argument('--output', type=Path); init.add_argument('--mode', choices=['sol', 'mixed', 'luna'], default='mixed')
+    init.add_argument('--output', type=Path); init.add_argument('--mode', choices=['sol', 'mixed', 'luna', 'benchmark'], default='mixed')
+    init.add_argument('--profile', type=Path, help='Benchmark mode only: frozen model profile JSON')
+    init.add_argument('--condition', help='Benchmark mode only: condition defined by the profile')
     init.add_argument('--max-corrections', type=int, default=2); add_actor(init)
     run = sub.add_parser('run'); run.add_argument('--session', required=True, type=Path)
     run.add_argument('--generator', required=True, type=Path); run.add_argument('--stage', choices=['blockout', 'detail'], required=True)
@@ -414,7 +481,7 @@ def main(argv=None):
     try:
         if args.command == 'init':
             output = args.output or BASE / '.local/iterations' / (datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ') + '-' + uuid.uuid4().hex[:8])
-            result = {'session': str(init_session(args.brief, output, args.mode, actor_args(args), args.max_corrections))}
+            result = {'session': str(init_session(args.brief, output, args.mode, actor_args(args), args.max_corrections, args.profile, args.condition))}
         elif args.command == 'run':
             result = run_generator(args)
         elif args.command == 'review-template':
