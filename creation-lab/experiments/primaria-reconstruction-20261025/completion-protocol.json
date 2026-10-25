@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "scope": "Faithful student reconstruction requested by user; local study, not a benchmark",
+  "defaultSession": "session",
+  "defaultRuns": [
+    "001-e4adb71fe836",
+    "002-a580406555e8",
+    "003-b86b551b74f2",
+    "004-05247a80c4f0"
+  ],
+  "defaultCorrectionsUsed": 2,
+  "defaultSessionHistoryModified": false,
+  "additionalCompletionPass": 1,
+  "additionalRecipe": "completion-recipe",
+  "additionalRun": "completion-run",
+  "reason": "True orthographic supplemental inspection exposed a 14.9\u00e2\u20ac\u201c21.9mm trouser/shoe gap in candidate004; its earlier narrow visual PASS does not certify overall acceptance.",
+  "authorizationInterpretation": "Root treats the user's request to complete all necessary reconstruction work as authorization for this bounded additional fix. This is a task-specific exception to the skill's default correction count, not a change to project policy or a hidden restart.",
+  "constraintsUnchanged": {
+    "heightConventionMeters": 1,
+    "triangles": 5000,
+    "materials": 8,
+    "meshObjects": 45,
+    "glbBytes": 2097152
+  },
+  "authorship": {
+    "generatorActor": "/root/student_pipeline",
+    "requestedModel": "gpt-6.1-sol",
+    "requestedEffort": "medium",
+    "actualModel": null,
+    "actualEffort": null,
+    "coordinator": "/root",
+    "reviewer": "/root/student_likeness_review"
+  },
+  "requiredChecks": [
+    "fresh build/reopen/reimport",
+    "six new images opened",
+    "actual mesh hem/shoe contact raycasts in source and GLB",
+    "independent review of final result"
+  ],
+  "status": "COMPLETE",
+  "finalManifest": "final-delivery-manifest.json",
+  "technical": "PASS",
+  "visual": "PASS",
+  "content": "PASS"
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "primaria-reconstruction-20261025",
+  "runId": "004-05247a80c4f0",
+  "scope": "Local editable study reconstruction; no campus/catalog publication or rig validation",
+  "technical": "PASS",
+  "visual": "PASS for narrow brief, sealed independent review; supplemental fidelity FAIL",
+  "content": "PASS for narrow brief, sealed independent review; overall fidelity not approved",
+  "rights": "Internal reconstruction authorized; redistribution not independently verified",
+  "budgets": {
+    "triangles": 5000,
+    "materials": 8,
+    "meshObjects": 45,
+    "glbBytes": 2097152
+  },
+  "observed": {
+    "triangles": 1738,
+    "materials": 8,
+    "meshObjects": 30,
+    "glbBytes": 95948,
+    "longestDimensionM": 1.0
+  },
+  "artifacts": {
+    "source.blend": {
+      "path": "session\\runs\\004-05247a80c4f0\\source.blend",
+      "sha256": "5ade1b2dda7c57a4b989a685179f9b5b360f61f93f5bed6a4bc845ce72e6c1b9"
+    },
+    "asset.glb": {
+      "path": "session\\runs\\004-05247a80c4f0\\asset.glb",
+      "sha256": "a1f6f5f0d2525fbab9c9f95b66303f3153b8ba8338813353a04c7455232c3b88"
+    },
+    "generator.py": {
+      "path": "session\\runs\\004-05247a80c4f0\\generator.py",
+      "sha256": "6e9066c8283955afc6cff792ef5e42a024ff17d6fc6fd5e7303c4f8ce40a10f7"
+    },
+    "brief.json": {
+      "path": "session\\runs\\004-05247a80c4f0\\brief.json",
+      "sha256": "a100dadf6c636eb31f6b5c10ad50857ccb2c0094aeb910749f2a6456db23ccfa"
+    },
+    "parts.json": {
+      "path": "session\\runs\\004-05247a80c4f0\\parts.json",
+      "sha256": "95c2d5ce15a14aca71974599a0c4b374828a42d52eea7906beb4cee2d61794e4"
+    },
+    "reimport-result.json": {
+      "path": "session\\runs\\004-05247a80c4f0\\reimport-result.json",
+      "sha256": "38e4f4807d318cb67e44789ec139b07a12660c7cf3f39f63aaf4cdd332378934"
+    }
+  },
+  "review": "review-detail-v1.json",
+  "runtimeEvidence": "runtime-evidence.json",
+  "limitations": [
+    "Real 14.9–21.9mm front trouser-to-shoe gap at conventional 1m height, detected by root after narrow review",
+    "Small skin triangle visible beside right ear in rear hair silhouette",
+    "Eyes and planar forms remain simplified lowpoly; not a pixel-identical replica",
+    "Turquoise appears pale under common studio light; no paper-fiber texture",
+    "No rig/deformation QA; no catalog promotion"
+  ],
+  "correctionsUsed": 2,
+  "maxCorrections": 2,
+  "overallAcceptance": "FAIL",
+  "supplementalContactFailure": "supplemental-contact-failure.json"
+}

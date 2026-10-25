@@ -26,3 +26,6 @@ creation-lab/registry/** -text -whitespace
 
 # Frozen benchmark generators and their evidence retain original bytes.
 creation-lab/benchmarks/** -text -whitespace
+
+# Experiments keep their generators, receipts and hashed evidence byte-for-byte.
+creation-lab/experiments/** -text -whitespace

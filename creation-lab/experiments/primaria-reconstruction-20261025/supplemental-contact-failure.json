@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "runId": "004-05247a80c4f0",
+  "status": "FAIL",
+  "scope": "Supplemental surface/contact fidelity review after the independent narrow-brief review",
+  "finding": "Real air gap under front trouser hems above wedge shoes, introduced in detail v1; not solely ambient occlusion.",
+  "source": "generator-detail-v1.py, shoe top vertex coordinates and trouser hem vertices",
+  "shoeTopAtTrouserFrontY": 0.06712426035502958,
+  "trouserFrontY": -0.052,
+  "trouserHemZRange": [
+    0.082,
+    0.089
+  ],
+  "frontGapMRange": [
+    0.014875739644970423,
+    0.021875739644970416
+  ],
+  "scale": "1m conventional figure",
+  "impact": "Front hem/shoe contact not faithful to R2; overall reconstruction must not be claimed fully approved",
+  "action": "No edits to immutable run; root decides next procedure; correction budget exhausted",
+  "discoveredBy": "/root in presentation-v1 orthographic front",
+  "confirmedBy": "/root/student_pipeline from explicit generator coordinates"
+}

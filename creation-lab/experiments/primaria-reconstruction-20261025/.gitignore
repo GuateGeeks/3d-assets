@@ -1,0 +1,10 @@
+# Versión ligera del experimento (decisión del 2026-10-25): se versionan docs, scripts,
+# receta, revisiones y la entrega. Quedan locales los paquetes de referencia del usuario
+# (redistribución no verificada), la sesión completa, los renders y el paquete R4.
+references/
+session/
+environment-runs/
+presentation-v1/
+presentation-v2/
+completion-run/
+GuateGeeks_Primaria_R4.zip

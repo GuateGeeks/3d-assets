@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "primaria-r2-faithful-reconstruction",
+  "purpose": "Reconstruir fielmente el estudiante papercraft GuateGeeks de 00-personaje-completo R2: silueta, proporciones, uniforme y mochila; R3 es comparación fallida, no autoridad.",
+  "seed": 20261025,
+  "parts": [
+    {
+      "id": "head",
+      "label": "Cabeza facetada"
+    },
+    {
+      "id": "ears",
+      "label": "Orejas"
+    },
+    {
+      "id": "neck",
+      "label": "Cuello"
+    },
+    {
+      "id": "hair",
+      "label": "Cabello morado y flequillo diagonal"
+    },
+    {
+      "id": "vest",
+      "label": "Chaleco morado"
+    },
+    {
+      "id": "shirt",
+      "label": "Camisa blanca y mangas"
+    },
+    {
+      "id": "collar",
+      "label": "Cuello blanco"
+    },
+    {
+      "id": "arms",
+      "label": "Antebrazos"
+    },
+    {
+      "id": "hands",
+      "label": "Manos"
+    },
+    {
+      "id": "trousers",
+      "label": "Pantalón azul"
+    },
+    {
+      "id": "shoes",
+      "label": "Zapatos morados"
+    },
+    {
+      "id": "backpack",
+      "label": "Mochila turquesa"
+    },
+    {
+      "id": "straps",
+      "label": "Tirantes turquesa"
+    }
+  ],
+  "displayScale": {
+    "units": "m",
+    "longestDimension": 1.0,
+    "tolerance": 0.0001
+  },
+  "budgets": {
+    "triangles": 5000,
+    "materials": 8,
+    "meshObjects": 45,
+    "glbBytes": 2097152
+  },
+  "provenance": {
+    "author": "GuateGeeks references supplied by user; reconstruction actor recorded by iterate.py",
+    "origin": "New procedural reconstruction from local GuateGeeks_Primaria_Piezas_R2.zip, authoritative image imagenes/00-personaje-completo.png; R3 excluded as design authority",
+    "license": "User-supplied GuateGeeks reference; internal reconstruction authorized; redistribution rights NOT independently verified"
+  },
+  "blockoutChecks": [
+    "Silueta y proporciones cercanas a R2: pelo ancho ~0.34H, mentón ~0.693H, hombros ~0.676H, chaleco bajo ~0.413H y zapatos ~0.09H.",
+    "Cabello de planos poligonales con gran flequillo diagonal reconocible, sin domo esférico ni múltiples dientes cortos como R3.",
+    "Mangas blancas trapeciales anchas, brazos inclinados y manos separadas del pantalón; pies separados y largos frontalmente.",
+    "Mochila turquesa sobresale en perfil y domina la espalda; dos tirantes recorren hombros y pecho."
+  ],
+  "contentChecks": [
+    "Estudiante R2 reconocible en frente, perfil, espalda y tres cuartos con proporciones conservadas.",
+    "Rostro amable con ojos ovalados oscuros y sonrisa curva pequeña, sin nariz inventada.",
+    "Camisa blanca con cuello en V, chaleco morado, pantalón azul, zapatos morados, piel cálida y mochila turquesa.",
+    "Cabello facetado grande con flequillo lateral diagonal y patillas; orejas visibles lateralmente.",
+    "GLB reimportado conserva partes, colores, silueta y escala convencional 1m; ninguna base forma parte del asset."
+  ],
+  "referenceAuthority": "references/GuateGeeks_Primaria_Piezas_R2/GuateGeeks_Primaria_Piezas_R2/imagenes/00-personaje-completo.png",
+  "scaleConvention": "1m es escala convencional de trabajo; no dimensión física verificada del papercraft.",
+  "approval": "Referencia aprobada por usuario; revisión independiente del blockout antes de detalle. Dos correcciones totales."
+}

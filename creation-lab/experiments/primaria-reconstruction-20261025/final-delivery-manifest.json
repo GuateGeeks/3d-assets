@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "GuateGeeks_Primaria_R4",
+  "technical": "PASS",
+  "visual": "PASS",
+  "content": "PASS",
+  "contactSamples": "PASS",
+  "triangles": 1738,
+  "materials": 8,
+  "meshes": 30,
+  "heightConventionMeters": 1,
+  "sourceRun": "completion-run",
+  "historicalAttemptsPreserved": 4,
+  "additionalCompletionPass": 1,
+  "limitations": [
+    "Simplified hair and face planes",
+    "No paper-fibre microtexture",
+    "Small skin intersection at rear hair",
+    "Static model; rig/deformation NOT_RUN"
+  ],
+  "files": {
+    "delivery/generator.py": {
+      "sha256": "2fbd8cb978ae74b3f700c1aa4e58ac686f048c1e44139a2c04643b377680ee92",
+      "bytes": 9657
+    },
+    "delivery/model.blend": {
+      "sha256": "e068c34f0c1397e3a6bc1d46abae06db35222229318b0180d52ea7f96968c55a",
+      "bytes": 127271
+    },
+    "delivery/model.glb": {
+      "sha256": "d069a7718cfc3d8af7b6c963c868fe6af9110794147b2c7237d7efb8bb5ff58b",
+      "bytes": 95948
+    },
+    "delivery/parts.json": {
+      "sha256": "95c2d5ce15a14aca71974599a0c4b374828a42d52eea7906beb4cee2d61794e4",
+      "bytes": 4832
+    }
+  },
+  "reviews": {
+    "completion-review.json": "5f75f2700de977083fcd0f5e19ac1b34a9f6ca1b11b0a34ab99c876e7e6811f3",
+    "completion-contacts-v2.json": "db4921cef52e2c234b179c6c4e0950b895c45030a0c3a4c678f83a5588ba00fc",
+    "completion-run/reproduction.json": "183ad799e1a26e9ca5f8bd565fe123fc782a221f2918bef2189b9a116c635ab1"
+  }
+}

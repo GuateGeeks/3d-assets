@@ -1,0 +1,18 @@
+{
+  "context": "/root/student_pipeline",
+  "requested": {
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  "actual": {
+    "model": null,
+    "effort": null
+  },
+  "attestation": "Runtime does not expose actual backend model or effort to this agent. CLI records requested declaration only.",
+  "python": "3.13.13",
+  "blender": "5.2.3 LTS",
+  "blenderBuild": "e13b728c6880",
+  "firstDoctor": "environment-runs/20261025T155924574613Z-c90ac33cb3",
+  "passingDoctor": "environment-runs/20261025T155953052947Z-1bd2724148",
+  "gpuRender": "NOT_RUN"
+}

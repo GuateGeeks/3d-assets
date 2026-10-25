@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "runId": "004-05247a80c4f0",
+  "manifestSha256": "10d3737a54439f31af54551254fe002a94bf423fd7a758d26659fb15501c5c4a",
+  "reviewer": {
+    "actorId": "/root/student_likeness_review",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium"
+  },
+  "openedImages": true,
+  "images": {
+    "front": "f6921bfa7a435e76dc4cc811d7d45935508a88813a2931680d302f9a124ff66d",
+    "side": "f527f8b5a263f75f25471a7801f68422f6a05806d5247aa27d72caa36a362a1f",
+    "back": "2457418ab03cfc6c9f3240b944c24cd2d6983ad423f1353f04cdb4dd25e558c5",
+    "three-quarter": "a461ef30382b453265c473c65fff95ea12ccf0ce3279f408144d6145701c7a34",
+    "wireframe": "06978d99107bac154bcf64d9180b7b66588b41e3cc5062d90fe7b47a7c59594f",
+    "reimport-three-quarter": "7e94a33a9a45f0c8a68aca9dbc7adb07050e78f90c96b9b81107908d7757bf6f"
+  },
+  "visual": {
+    "status": "PASS",
+    "reason": "Seis imágenes reales abiertas y comparadas con R2. PASS como reconstrucción lowpoly del brief: silueta juvenil ancha, flequillo diagonal, uniforme, puños/calzado grandes y mochila reconocibles. Banda negra de cadera eliminada en frente/three-quarter/reimport; cabeza volumétrica y nuca/mandíbula mejoradas. Quedan diferencias de acabado y defecto menor descritos abajo; no es fotocopia de la ilustración ni aprobación de rig."
+  },
+  "content": {
+    "status": "PASS",
+    "reason": "Todas partes y rasgos exigidos identificables en vistas correspondientes: ojos oscuros ovalados, sonrisa pequeña sin nariz, uniforme y mochila en colores correctos por categoría, pelo facetado diagonal. Fuente y GLB reimportado conservan lectura; escala convencional 1m corroborada por reimport-result.json, no inferida de píxeles. Derechos de redistribución no evaluados."
+  },
+  "parts": [
+    {
+      "id": "head",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Cabeza ancha facetada y rostro amable; ojos oscuros y sonrisa curva pequeños."
+    },
+    {
+      "id": "ears",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side"
+      ],
+      "reason": "Orejas visibles a lados de cabeza."
+    },
+    {
+      "id": "neck",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "reason": "Cuello corto color piel visible entre camisa y cabeza."
+    },
+    {
+      "id": "hair",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Masa grande berenjena envolvente de planos facetados, flequillo diagonal y patillas. Pequeño asomo de piel en lado derecho posterior registrado como defecto menor."
+    },
+    {
+      "id": "vest",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Chaleco violeta legible con centro vertical y cuello V."
+    },
+    {
+      "id": "shirt",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Mangas blancas holgadas hasta codo, antebrazos descubiertos conforme R2."
+    },
+    {
+      "id": "collar",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Dos puntas blancas y V identificables."
+    },
+    {
+      "id": "arms",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Antebrazos cálidos inclinados lateralmente."
+    },
+    {
+      "id": "hands",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Puños poligonales grandes separados del pantalón."
+    },
+    {
+      "id": "trousers",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Dos perneras anchas índigo separadas; cintura azul continua sin rectángulos negros previos."
+    },
+    {
+      "id": "shoes",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Zapatos morados grandes prismáticos con puntera profunda."
+    },
+    {
+      "id": "backpack",
+      "visibility": "visible",
+      "views": [
+        "side",
+        "back"
+      ],
+      "reason": "Mochila cian/turquesa y bolsillo sobresalen detrás torso y ocupan espalda."
+    },
+    {
+      "id": "straps",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Dos cintas turquesa anchas frontales conectan hombros y mochila en arco."
+    }
+  ],
+  "checks": [
+    {
+      "check": "Estudiante R2 reconocible en frente, perfil, espalda y tres cuartos con proporciones conservadas.",
+      "status": "PASS",
+      "reason": "Frente/perfil/espalda/three-quarter conservan cabeza ancha, uniforme, piernas y zapatos grandes y mochila; estudiante reconocible. Es simplificación lowpoly, no equivalencia exacta de textura o todos los planos R2."
+    },
+    {
+      "check": "Rostro amable con ojos ovalados oscuros y sonrisa curva pequeña, sin nariz inventada.",
+      "status": "PASS",
+      "reason": "Ojos pequeños oscuros de eje vertical y sonrisa curva pequeña visibles en front/three-quarter; perfil sin nariz añadida. Ojos sobresalen como botones, diferencia de acabado documentada."
+    },
+    {
+      "check": "Camisa blanca con cuello en V, chaleco morado, pantalón azul, zapatos morados, piel cálida y mochila turquesa.",
+      "status": "PASS",
+      "reason": "Camisa/cuello blancos, chaleco violeta, pantalón azul índigo, zapatos y pelo berenjena, piel cálida, mochila turquesa se distinguen. Turquesa más pálido que R2, sin confusión de partes."
+    },
+    {
+      "check": "Cabello facetado grande con flequillo lateral diagonal y patillas; orejas visibles lateralmente.",
+      "status": "PASS",
+      "reason": "Pelo grande poligonal y flequillo lateral diagonal con patillas visible en frente/three-quarter; orejas laterales en side. Envolvente continua, sin terrazas fallidas de run002."
+    },
+    {
+      "check": "GLB reimportado conserva partes, colores, silueta y escala convencional 1m; ninguna base forma parte del asset.",
+      "status": "PASS",
+      "reason": "Comparación visual de three-quarter y reimport-three-quarter conserva partes, colores y silueta; sin base añadida. reimport-result.json confirma dimensiones [0.4543967247,0.3364999890,1.0]m. Escala convencional, no física del papercraft."
+    }
+  ],
+  "defects": [
+    {
+      "view": "back",
+      "detail": "Minúsculo triángulo color piel asoma sobre pelo cerca del lateral derecho posterior, probable intersección local. No afecta silueta ni identificación; se conserva como defecto menor abierto.",
+      "requestedChange": "Para siguiente edición autorizada, retraer piel local o ampliar envolvente junto a oreja; comprobar back y GLB. No modificar este run revisado."
+    },
+    {
+      "view": "side",
+      "detail": "Ojos tienen volumen saliente tipo botón; R2 se lee más impreso/rasante. Pelo/cara tienen menos planos secundarios.",
+      "requestedChange": "Si se exige réplica de acabado, aplanar ojos sobre cara y añadir planos secundarios coherentes sin cambiar las masas aprobadas."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "Sin fibra/microtextura de papel; mochila y cintas cian más pálidas que R2. Parecido de acabado limitado pese a formas fundamentales reconocibles.",
+      "requestedChange": "En una edición de fidelidad de acabado, ajustar saturación del turquesa bajo render común y añadir textura de papel sutil con exportación verificable. No presentar resultado actual como fotocopia."
+    }
+  ]
+}

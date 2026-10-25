@@ -1,0 +1,248 @@
+{
+  "title": "Alumno primaria GuateGeeks R2 - reconstruccion detallada",
+  "designNotes": [
+    "Autoridad: imagen completa R2, no JSON/R3.",
+    "Escala convencional 1m. Rostro ovalado y sonrisa curva; sin nariz inventada.",
+    "Planos anchos, flequillo diagonal, brazos abiertos y mochila saliente."
+  ],
+  "parts": [
+    {
+      "id": "head",
+      "label": "Cabeza facetada",
+      "objects": [
+        "Cabeza mejillas y menton",
+        "head__Ojo ovalado -1",
+        "head__Ojo ovalado 1",
+        "Sonrisa amable"
+      ],
+      "positionBlender": [
+        0,
+        -0.09,
+        0.30000000000000004
+      ],
+      "positionGltf": [
+        0,
+        0.30000000000000004,
+        0.09
+      ]
+    },
+    {
+      "id": "ears",
+      "label": "Orejas",
+      "objects": [
+        "Oreja -1",
+        "Oreja 1"
+      ],
+      "positionBlender": [
+        0.16,
+        0,
+        0.27
+      ],
+      "positionGltf": [
+        0.16,
+        0.27,
+        0
+      ]
+    },
+    {
+      "id": "neck",
+      "label": "Cuello",
+      "objects": [
+        "Cuello"
+      ],
+      "positionBlender": [
+        0,
+        0,
+        0.18000000000000005
+      ],
+      "positionGltf": [
+        0,
+        0.18000000000000005,
+        0
+      ]
+    },
+    {
+      "id": "hair",
+      "label": "Cabello morado y flequillo diagonal",
+      "objects": [
+        "Casco continuo y flequillo diagonal"
+      ],
+      "positionBlender": [
+        0,
+        0,
+        0.44999999999999996
+      ],
+      "positionGltf": [
+        0,
+        0.44999999999999996,
+        0
+      ]
+    },
+    {
+      "id": "vest",
+      "label": "Chaleco morado",
+      "objects": [
+        "Chaleco",
+        "Pliegue central chaleco"
+      ],
+      "positionBlender": [
+        0,
+        -0.08,
+        0.020000000000000018
+      ],
+      "positionGltf": [
+        0,
+        0.020000000000000018,
+        0.08
+      ]
+    },
+    {
+      "id": "shirt",
+      "label": "Camisa blanca y mangas",
+      "objects": [
+        "Manga ancha -1",
+        "Manga ancha 1"
+      ],
+      "positionBlender": [
+        0.16,
+        0,
+        0.06999999999999995
+      ],
+      "positionGltf": [
+        0.16,
+        0.06999999999999995,
+        0
+      ]
+    },
+    {
+      "id": "collar",
+      "label": "Cuello blanco",
+      "objects": [
+        "Abertura blanca V",
+        "Cuello izquierdo",
+        "Cuello derecho"
+      ],
+      "positionBlender": [
+        0,
+        -0.09,
+        0.15000000000000002
+      ],
+      "positionGltf": [
+        0,
+        0.15000000000000002,
+        0.09
+      ]
+    },
+    {
+      "id": "arms",
+      "label": "Antebrazos",
+      "objects": [
+        "Antebrazo inclinado -1",
+        "Antebrazo inclinado 1"
+      ],
+      "positionBlender": [
+        0.18,
+        0,
+        -0.03999999999999998
+      ],
+      "positionGltf": [
+        0.18,
+        -0.03999999999999998,
+        0
+      ]
+    },
+    {
+      "id": "hands",
+      "label": "Manos",
+      "objects": [
+        "Mano poligonal -1",
+        "Mano poligonal 1"
+      ],
+      "positionBlender": [
+        0.2,
+        0,
+        -0.13
+      ],
+      "positionGltf": [
+        0.2,
+        -0.13,
+        0
+      ]
+    },
+    {
+      "id": "trousers",
+      "label": "Pantalón azul",
+      "objects": [
+        "Pierna pantalon -1",
+        "Pierna pantalon 1",
+        "Cadera interior sin coplanares"
+      ],
+      "positionBlender": [
+        0.07,
+        0,
+        -0.25
+      ],
+      "positionGltf": [
+        0.07,
+        -0.25,
+        0
+      ]
+    },
+    {
+      "id": "shoes",
+      "label": "Zapatos morados",
+      "objects": [
+        "Zapato cuna -1",
+        "Zapato cuna 1"
+      ],
+      "positionBlender": [
+        0.1,
+        -0.06,
+        -0.45
+      ],
+      "positionGltf": [
+        0.1,
+        -0.45,
+        0.06
+      ]
+    },
+    {
+      "id": "backpack",
+      "label": "Mochila turquesa",
+      "objects": [
+        "Mochila volumen",
+        "Bolsillo mochila"
+      ],
+      "positionBlender": [
+        0,
+        0.19,
+        0.030000000000000027
+      ],
+      "positionGltf": [
+        0,
+        0.030000000000000027,
+        -0.19
+      ]
+    },
+    {
+      "id": "straps",
+      "label": "Tirantes turquesa",
+      "objects": [
+        "Tirante pecho -1",
+        "Tirante curvo hombro -1",
+        "Tirante pecho 1",
+        "Tirante curvo hombro 1"
+      ],
+      "positionBlender": [
+        0.09,
+        -0.08,
+        0.08999999999999997
+      ],
+      "positionGltf": [
+        0.09,
+        0.08999999999999997,
+        0.08
+      ]
+    }
+  ]
+}

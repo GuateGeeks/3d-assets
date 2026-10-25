@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "runId": "001-e4adb71fe836",
+  "manifestSha256": "8d7610366ec325d2275257d0e971277508193cda07510053cb5e43482e14be79",
+  "reviewer": {
+    "actorId": "/root/student_likeness_review",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium"
+  },
+  "openedImages": true,
+  "images": {
+    "front": "6629d355b954d3848a153cc57dad9e14a03c21bfdbdd190f511a9ce5b3e09770",
+    "side": "2b1f256e35684a3d528da195e89f951eb5ee2e3a1bb53b3171b029df99c08d5e",
+    "back": "4c81d4c905655654bac6ec17f8b67cc5fea4fb8c17aeaed5129155154fe3afbd",
+    "three-quarter": "1aa3ab3753bc2a941d1342b82220efeed30bab1f8edbfd8b4fddbbb6ab22c287",
+    "wireframe": "0a43e1fb36cc7edd7b96c895838db58168558343c710080c67b1e9b40a415e55",
+    "reimport-three-quarter": "8b3a70aae625708f313717f0168294004f2ba04e37a44d9170d4b5e03b4b3d23"
+  },
+  "visual": {
+    "status": "FAIL",
+    "reason": "Seis renders abiertos: personaje cortado por borde superior; cabeza ausente en front/side/back y fragmentaria en three-quarter/wireframe/reimport. Imposible juzgar silueta completa R2."
+  },
+  "content": {
+    "status": "FAIL",
+    "reason": "Blockout no valida distribución completa: cabeza, orejas, cuello y pelo no evaluables por recorte. Extremidades inferiores observables tienen anchura y separación apropiadas. No se exigen detalles faciales en esta etapa."
+  },
+  "parts": [
+    {
+      "id": "head",
+      "visibility": "unclear",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Solo mentón parcial en three-quarter; resto fuera de encuadre."
+    },
+    {
+      "id": "ears",
+      "visibility": "unclear",
+      "views": [
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Cabeza recortada; no se identifica oreja completa."
+    },
+    {
+      "id": "neck",
+      "visibility": "unclear",
+      "views": [
+        "front",
+        "side"
+      ],
+      "reason": "Zona cuello/cabeza fuera de encuadre."
+    },
+    {
+      "id": "hair",
+      "visibility": "unclear",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Pequeño fragmento superior en three-quarter no permite leer masa o flequillo."
+    },
+    {
+      "id": "vest",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Volumen identificable en zona visible, revisión limitada al blockout."
+    },
+    {
+      "id": "shirt",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Mangas blancas anchas y trapeciales visibles en front y three-quarter."
+    },
+    {
+      "id": "collar",
+      "visibility": "visible",
+      "views": [
+        "three-quarter"
+      ],
+      "reason": "Puntas blancas del cuello visibles bajo mentón en three-quarter."
+    },
+    {
+      "id": "arms",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Antebrazos color piel inclinados visibles."
+    },
+    {
+      "id": "hands",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Manos angulares grandes separadas del pantalón."
+    },
+    {
+      "id": "trousers",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Dos perneras azules anchas separadas identificables."
+    },
+    {
+      "id": "shoes",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Calzado morado grande con punteras prismáticas y profundidad visible."
+    },
+    {
+      "id": "backpack",
+      "visibility": "visible",
+      "views": [
+        "side",
+        "back"
+      ],
+      "reason": "Cuerpo turquesa sobresale en perfil y ocupa espalda; zona alta cortada."
+    },
+    {
+      "id": "straps",
+      "visibility": "unclear",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Dos cintas frontales visibles; recorrido completo sobre hombro cortado."
+    }
+  ],
+  "checks": [
+    {
+      "check": "Silueta y proporciones cercanas a R2: pelo ancho ~0.34H, mentón ~0.693H, hombros ~0.676H, chaleco bajo ~0.413H y zapatos ~0.09H.",
+      "status": "FAIL",
+      "reason": "Recorte impide comparar cabeza/cabello, mentón y hombros con alto total. Se exige nueva evidencia completa."
+    },
+    {
+      "check": "Cabello de planos poligonales con gran flequillo diagonal reconocible, sin domo esférico ni múltiples dientes cortos como R3.",
+      "status": "BLOCKED",
+      "reason": "Flequillo y coronilla fuera del cuadro; no se infiere parecido desde geometría o código."
+    },
+    {
+      "check": "Mangas blancas trapeciales anchas, brazos inclinados y manos separadas del pantalón; pies separados y largos frontalmente.",
+      "status": "PASS",
+      "reason": "Front y three-quarter muestran mangas blancas trapeciales, brazos inclinados, manos separadas, pies anchos separados y profundos."
+    },
+    {
+      "check": "Mochila turquesa sobresale en perfil y domina la espalda; dos tirantes recorren hombros y pecho.",
+      "status": "BLOCKED",
+      "reason": "Side/back confirman volumen de mochila; dos cintas frontales visibles, pero hombros y unión superior cortados impiden validar recorrido completo."
+    }
+  ],
+  "defects": [
+    {
+      "view": "front",
+      "detail": "Cabeza completa recortada por borde superior; side/back igual y three-quarter/reimport solo fragmentarios.",
+      "requestedChange": "Centrar personaje completo en origen Z (trasladar geometría y anclajes -0.5m si su alto va de0a1), conservar escala y regenerar las seis vistas en nuevo run."
+    }
+  ]
+}

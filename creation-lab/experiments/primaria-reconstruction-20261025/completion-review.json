@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "runId": "completion-run",
+  "manifestSha256": null,
+  "reviewer": {
+    "actorId": "/root/student_likeness_review",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium"
+  },
+  "openedImages": true,
+  "images": {
+    "front": "72a54d1eaa1ba930104767e06f4018b9c56c2c4b1ee98627ff0a7408f64b3e23",
+    "side": "40926ce6417d24e4118bc276dc06e82375f6b0c738ecad443374a025d6fa19a5",
+    "back": "efa4f2ddceb210fef3fd9618492d67aa88af9119a76eb6b5814fc0202482d581",
+    "three-quarter": "d099d88c5d529646097e3eda195f773be1f1486ff1627809b7c838390fdcdf30",
+    "wireframe": "3d7c9e4700ccd8d3563ceba95974ab672289ebae8b9bb260f412ba55a7eac98f",
+    "reimport-three-quarter": "1c320301936223c8fef2d679267ea682754376c167881e9298abf372d6e81628"
+  },
+  "visual": {
+    "status": "PASS",
+    "reason": "PASS del resultado completion-run como reconstrucción lowpoly del brief, no fotocopia. Se abrieron las seis nuevas imágenes: primero contacto pantalón-zapatos en front/side/back, después resto y GLB reimportado. Ahora bajos entran en zapatos sin hueco visible en esas vistas ni three-quarter/reimport. La banda negra de cadera sigue resuelta y ojos son más rasantes. Persisten pequeñas limitaciones de acabado descritas. PASS previo004 omitió separación real: no se hereda y se conserva como revisión histórica insuficiente."
+  },
+  "content": {
+    "status": "PASS",
+    "reason": "PASS: estudiante reconocible por masas, pelo diagonal, uniforme, ojos/sonrisa, puños y grandes zapatos/mochila; partes en relaciones correctas. Contacto confirmado visualmente y corroborado por 12 muestras por artefacto en completion-contacts-v2.json (24totales). No equivale a rig QA o réplica exacta de textura. Escala convencional1m técnica; derechos fuera de dictamen."
+  },
+  "parts": [
+    {
+      "id": "head",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Cabeza ancha facetada y rostro amable; ojos oscuros y sonrisa curva pequeños."
+    },
+    {
+      "id": "ears",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side"
+      ],
+      "reason": "Orejas visibles a lados de cabeza."
+    },
+    {
+      "id": "neck",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "reason": "Cuello corto color piel visible entre camisa y cabeza."
+    },
+    {
+      "id": "hair",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Masa grande berenjena envolvente de planos facetados, flequillo diagonal y patillas. Pequeño asomo de piel en lado derecho posterior registrado como defecto menor."
+    },
+    {
+      "id": "vest",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Chaleco violeta legible con centro vertical y cuello V."
+    },
+    {
+      "id": "shirt",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Mangas blancas holgadas hasta codo, antebrazos descubiertos conforme R2."
+    },
+    {
+      "id": "collar",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Dos puntas blancas y V identificables."
+    },
+    {
+      "id": "arms",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Antebrazos cálidos inclinados lateralmente."
+    },
+    {
+      "id": "hands",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Puños poligonales grandes separados del pantalón."
+    },
+    {
+      "id": "trousers",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Perneras anchas azules sin banda negra; bajos solapan parte superior de zapatos, sin separación visible."
+    },
+    {
+      "id": "shoes",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter",
+        "reimport-three-quarter"
+      ],
+      "reason": "Calzado morado grande y profundo; contacto real con bajos corroborado por raycasts Blend y GLB."
+    },
+    {
+      "id": "backpack",
+      "visibility": "visible",
+      "views": [
+        "side",
+        "back"
+      ],
+      "reason": "Mochila cian/turquesa y bolsillo sobresalen detrás torso y ocupan espalda."
+    },
+    {
+      "id": "straps",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Dos cintas turquesa anchas frontales conectan hombros y mochila en arco."
+    }
+  ],
+  "checks": [
+    {
+      "check": "Estudiante R2 reconocible en frente, perfil, espalda y tres cuartos con proporciones conservadas.",
+      "status": "PASS",
+      "reason": "Frente/perfil/espalda/three-quarter conservan cabeza ancha, uniforme, piernas y zapatos grandes y mochila; estudiante reconocible. Es simplificación lowpoly, no equivalencia exacta de textura o todos los planos R2."
+    },
+    {
+      "check": "Rostro amable con ojos ovalados oscuros y sonrisa curva pequeña, sin nariz inventada.",
+      "status": "PASS",
+      "reason": "Ojos pequeños oscuros de eje vertical y sonrisa curva pequeña visibles en front/three-quarter; perfil sin nariz añadida. Ojos sobresalen como botones, diferencia de acabado documentada."
+    },
+    {
+      "check": "Camisa blanca con cuello en V, chaleco morado, pantalón azul, zapatos morados, piel cálida y mochila turquesa.",
+      "status": "PASS",
+      "reason": "Camisa/cuello blancos, chaleco violeta, pantalón azul índigo, zapatos y pelo berenjena, piel cálida, mochila turquesa se distinguen. Turquesa más pálido que R2, sin confusión de partes."
+    },
+    {
+      "check": "Cabello facetado grande con flequillo lateral diagonal y patillas; orejas visibles lateralmente.",
+      "status": "PASS",
+      "reason": "Pelo grande poligonal y flequillo lateral diagonal con patillas visible en frente/three-quarter; orejas laterales en side. Envolvente continua, sin terrazas fallidas de run002."
+    },
+    {
+      "check": "GLB reimportado conserva partes, colores, silueta y escala convencional 1m; ninguna base forma parte del asset.",
+      "status": "PASS",
+      "reason": "Fuente y GLB mantienen partes/colores/silueta y ahora contacto pantalón-zapatos. completion-contacts-v2.json PASS12muestras fuente+12GLB. Escala1m corroborada por QA técnico de reproducción, no inferida de imágenes; no base añadida."
+    }
+  ],
+  "defects": [
+    {
+      "view": "back",
+      "detail": "Persiste pequeño asomo de piel sobre lateral derecho posterior del pelo; defecto menor localizado, sin cambio de silueta.",
+      "requestedChange": "En siguiente edición autorizada corregir cobertura local junto a oreja; conservar este resultado revisado."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "Planos de pelo/cara simplificados, turquesa más pálido y sin microtextura fibrosa de papel frente a R2. Ojos más rasantes que004, pero sigue siendo geometría con relieve mínimo.",
+      "requestedChange": "Presentar como reconstrucción lowpoly; una réplica de acabado exigiría edición específica de planos/materiales/textura y nueva revisión."
+    }
+  ],
+  "protocol": "completion-protocol.json: additional task-specific local completion pass outside default two-correction session, all earlier evidence retained",
+  "priorReviewOmission": "Reviewer004 missed actual hem-shoe separation exposed by true orthographic inspection; that PASS and globalFAIL remain intact. This new review explicitly checks contact.",
+  "contacts": {
+    "status": "PASS",
+    "report": "completion-contacts-v2.json",
+    "scriptRead": "verify_contacts.py",
+    "method": "Actual mesh BVH rays; 3 front+3back hem samples per leg per artifact",
+    "sourceSamples": 12,
+    "glbSamples": 12,
+    "gapMetersMin": -0.019199997186660767,
+    "gapMetersMax": -0.0064650774002075195,
+    "interpretation": "All gaps negative: geometric overlap about6.46–19.20mm at conventional1m, no positive separation in sampled locations. Sampling does not certify every surface point.",
+    "retainedFailedTest": "completion-contacts.json: GLB duplicate-position sampling bug corrected by deduplicating positions, no mesh mutation",
+    "supplementalOrthographicImages": "PASS: presentation-v2/front.png and side.png opened with view_image after main six; continuous contact at both hems in front and visible hem in side, no air gap. Eyes read rasante in front."
+  },
+  "reproductionSha256": "183ad799e1a26e9ca5f8bd565fe123fc782a221f2918bef2189b9a116c635ab1",
+  "supplementalImages": {
+    "front": "6c36a98db0f914b6099faea782012953b11c3418293cc90ec4b33cf8899080e3",
+    "side": "bc6e8e2151bc76b8a173c01898594384ec2d9a03901aa715e54348a07fa7abdd"
+  }
+}

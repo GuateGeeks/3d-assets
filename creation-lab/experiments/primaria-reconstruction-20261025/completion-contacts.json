@@ -1,0 +1,399 @@
+{
+  "status": "FAIL",
+  "method": "Downward BVH ray from 3 hem samples per front/back face on each actual mesh; tolerance 0.2mm; penetration at most40mm at conventional1m.",
+  "source": {
+    "status": "PASS",
+    "checks": [
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "front",
+        "fraction": 0.2,
+        "hem": [
+          -0.11880000680685043,
+          -0.052000001072883606,
+          -0.42180001735687256
+        ],
+        "shoeTop": [
+          -0.11880000680685043,
+          -0.052000001072883606,
+          -0.41533493995666504
+        ],
+        "gapMeters": -0.0064650774002075195,
+        "pass": true
+      },
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "front",
+        "fraction": 0.5,
+        "hem": [
+          -0.08400000631809235,
+          -0.052000001072883606,
+          -0.4230000078678131
+        ],
+        "shoeTop": [
+          -0.08400000631809235,
+          -0.052000001072883606,
+          -0.4149506986141205
+        ],
+        "gapMeters": -0.008049309253692627,
+        "pass": true
+      },
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "front",
+        "fraction": 0.8,
+        "hem": [
+          -0.04919999837875366,
+          -0.052000001072883606,
+          -0.42419999837875366
+        ],
+        "shoeTop": [
+          -0.04919999837875366,
+          -0.052000001072883606,
+          -0.4145665168762207
+        ],
+        "gapMeters": -0.009633481502532959,
+        "pass": true
+      },
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "back",
+        "fraction": 0.2,
+        "hem": [
+          -0.11880000680685043,
+          0.06400000303983688,
+          -0.42180001735687256
+        ],
+        "shoeTop": [
+          -0.11880000680685043,
+          0.06400000303983688,
+          -0.40573635697364807
+        ],
+        "gapMeters": -0.016063660383224487,
+        "pass": true
+      },
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "back",
+        "fraction": 0.5,
+        "hem": [
+          -0.08400000631809235,
+          0.06400000303983688,
+          -0.4230000078678131
+        ],
+        "shoeTop": [
+          -0.08400000631809235,
+          0.06400000303983688,
+          -0.4052473306655884
+        ],
+        "gapMeters": -0.01775267720222473,
+        "pass": true
+      },
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "back",
+        "fraction": 0.8,
+        "hem": [
+          -0.04919999837875366,
+          0.06400000303983688,
+          -0.42419999837875366
+        ],
+        "shoeTop": [
+          -0.04919999837875366,
+          0.06400000303983688,
+          -0.4050000011920929
+        ],
+        "gapMeters": -0.019199997186660767,
+        "pass": true
+      },
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "front",
+        "fraction": 0.2,
+        "hem": [
+          0.04919999837875366,
+          -0.052000001072883606,
+          -0.42419999837875366
+        ],
+        "shoeTop": [
+          0.04919999837875366,
+          -0.052000001072883606,
+          -0.4158753454685211
+        ],
+        "gapMeters": -0.008324652910232544,
+        "pass": true
+      },
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "front",
+        "fraction": 0.5,
+        "hem": [
+          0.08400000631809235,
+          -0.052000001072883606,
+          -0.4230000078678131
+        ],
+        "shoeTop": [
+          0.08400000631809235,
+          -0.052000001072883606,
+          -0.41539230942726135
+        ],
+        "gapMeters": -0.007607698440551758,
+        "pass": true
+      },
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "front",
+        "fraction": 0.8,
+        "hem": [
+          0.11880000680685043,
+          -0.052000001072883606,
+          -0.42180001735687256
+        ],
+        "shoeTop": [
+          0.11880000680685043,
+          -0.052000001072883606,
+          -0.4150081276893616
+        ],
+        "gapMeters": -0.006791889667510986,
+        "pass": true
+      },
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "back",
+        "fraction": 0.2,
+        "hem": [
+          0.04919999837875366,
+          0.06400000303983688,
+          -0.42419999837875366
+        ],
+        "shoeTop": [
+          0.04919999837875366,
+          0.06400000303983688,
+          -0.4062984585762024
+        ],
+        "gapMeters": -0.01790153980255127,
+        "pass": true
+      },
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "back",
+        "fraction": 0.5,
+        "hem": [
+          0.08400000631809235,
+          0.06400000303983688,
+          -0.4230000078678131
+        ],
+        "shoeTop": [
+          0.08400000631809235,
+          0.06400000303983688,
+          -0.4058094322681427
+        ],
+        "gapMeters": -0.01719057559967041,
+        "pass": true
+      },
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "back",
+        "fraction": 0.8,
+        "hem": [
+          0.11880000680685043,
+          0.06400000303983688,
+          -0.42180001735687256
+        ],
+        "shoeTop": [
+          0.11880000680685043,
+          0.06400000303983688,
+          -0.405320405960083
+        ],
+        "gapMeters": -0.01647961139678955,
+        "pass": true
+      }
+    ]
+  },
+  "glb": {
+    "status": "FAIL",
+    "checks": [
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "front",
+        "fraction": 0.2,
+        "hem": [
+          0.026000000536441803,
+          -0.052000001072883606,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      },
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "front",
+        "fraction": 0.5,
+        "hem": [
+          0.026000000536441803,
+          -0.052000001072883606,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      },
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "front",
+        "fraction": 0.8,
+        "hem": [
+          0.026000000536441803,
+          -0.052000001072883606,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      },
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "back",
+        "fraction": 0.2,
+        "hem": [
+          0.026000000536441803,
+          0.06400000303983688,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      },
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "back",
+        "fraction": 0.5,
+        "hem": [
+          0.026000000536441803,
+          0.06400000303983688,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      },
+      {
+        "leg": "Pierna pantalon 1",
+        "shoe": "Zapato cuna 1",
+        "side": "back",
+        "fraction": 0.8,
+        "hem": [
+          0.026000000536441803,
+          0.06400000303983688,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      },
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "front",
+        "fraction": 0.2,
+        "hem": [
+          -0.026000000536441803,
+          -0.052000001072883606,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      },
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "front",
+        "fraction": 0.5,
+        "hem": [
+          -0.026000000536441803,
+          -0.052000001072883606,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      },
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "front",
+        "fraction": 0.8,
+        "hem": [
+          -0.026000000536441803,
+          -0.052000001072883606,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      },
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "back",
+        "fraction": 0.2,
+        "hem": [
+          -0.026000000536441803,
+          0.06400000303983688,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      },
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "back",
+        "fraction": 0.5,
+        "hem": [
+          -0.026000000536441803,
+          0.06400000303983688,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      },
+      {
+        "leg": "Pierna pantalon -1",
+        "shoe": "Zapato cuna -1",
+        "side": "back",
+        "fraction": 0.8,
+        "hem": [
+          -0.026000000536441803,
+          0.06400000303983688,
+          -0.42500001192092896
+        ],
+        "shoeTop": null,
+        "gapMeters": null,
+        "pass": false
+      }
+    ]
+  },
+  "blender": "5.2.3 LTS"
+}

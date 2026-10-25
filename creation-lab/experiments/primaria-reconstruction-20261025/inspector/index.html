@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light">
+  <title>GuateGeeks · Comparación de reconstrucción</title><link rel="stylesheet" href="./style.css">
+  
+  <script type="module" src="./viewer.bundle.js"></script>
+</head>
+<body><main class="page">
+  <header class="page-head"><div><p class="eyebrow">GuateGeeks · Primaria</p><h1>Reconstrucción del estudiante</h1></div><p class="lead">Compara la maqueta con la referencia artística R2. Arrastra para orbitar y usa la rueda para acercar.</p></header>
+  <section class="compare" aria-label="Comparación entre modelo y referencia">
+    <article class="panel"><div class="panel-head"><div><p class="eyebrow">Modelo 3D</p><h2>Reconstrucción local</h2></div><span id="load-state" class="state" role="status">Preparando visor…</span></div>
+      <div class="viewport-wrap"><div id="viewport" class="viewport" aria-label="Visor interactivo del modelo tridimensional"></div><div id="error" class="error" role="alert" hidden></div></div>
+      <div class="controls"><div class="view-buttons" role="group" aria-label="Vistas de cámara"><button data-view="front" aria-pressed="true">Frente</button><button data-view="three-quarter" aria-pressed="false">Tres cuartos</button><button data-view="side" aria-pressed="false">Lado</button><button data-view="back" aria-pressed="false">Espalda</button></div><button id="reset" class="quiet">Restablecer</button><label class="toggle"><input id="clay" type="checkbox"> Arcilla</label><label class="toggle"><input id="wireframe" type="checkbox"> Alámbrico</label></div>
+      <p class="hint">Cámara ortográfica · GLB: +Y arriba / +Z frente · Blender: +Z arriba / −Y frente</p>
+    </article>
+    <article class="panel"><div class="panel-head"><div><p class="eyebrow">Referencia de diseño · R2</p><h2>Personaje completo</h2></div><span class="badge">Arte conceptual</span></div>
+      <div id="reference" class="reference is-front" role="img" aria-label="Lámina artística R2 con cuatro vistas del estudiante"></div>
+      <div class="controls ref-controls" role="group" aria-label="Encuadre de referencia"><button data-crop="sheet" aria-pressed="false">Hoja completa</button><button data-crop="front" aria-pressed="true">Acercamiento frente</button></div>
+      <p class="hint">El frente y los tres cuartos guían la comparación; esta lámina artística no es una proyección ortográfica certificada.</p>
+    </article>
+  </section>
+  <footer>La referencia R2 orienta forma, proporciones y paleta. La evaluación ortográfica debe apoyarse en los planos y vistas técnicos correspondientes. Modelo de estudio. La textura de papel y algunos planos están simplificados.</footer>
+</main></body></html>
+
+
+
+

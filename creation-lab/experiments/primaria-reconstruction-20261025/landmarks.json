@@ -1,0 +1,22 @@
+{
+  "schemaVersion":1,
+  "authority":"R2 primary front and three-quarter; R3 negative only",
+  "reviewerContext":"/root/student_likeness_review",
+  "requestedModel":"gpt-6.1-sol",
+  "requestedEffort":"medium",
+  "actualModel":null,
+  "actualEffort":null,
+  "runtimeReceipt":"unavailable; no backend attestation",
+  "units":"H=1 total height; z up from sole; approximate observations of perspective illustration, not calibrated truth",
+  "sourceSha256":"d19cdd56cd9aca99d99e1501975ae75fa8e214854ccd75ae238113a83930df2a",
+  "frontPixelFrame":{"topY":212,"soleY":870,"height":658,"centerX":213},
+  "positionToleranceH":0.02,
+  "widthRelativeTolerance":0.10,
+  "z":{"sole":0,"shoeTop":0.09,"pantsHem":0.08,"vestHem":0.41,"sleeveBottom":0.49,"shoulder":0.67,"chin":0.69,"smile":0.73,"eyeCenters":0.78,"hairTop":1},
+  "widthH":{"hair":0.34,"headIncludingEars":0.34,"shouldersIncludingSleeves":0.40,"vest":0.23,"individualPantLeg":0.12,"pantHemGap":0.04,"individualShoe":0.16,"shoePair":0.36,"backpack":0.21,"backpackStrap":0.03,"eyeCenterSeparation":0.10},
+  "heightH":{"headHairToChin":0.31,"vest":0.26,"pants":0.33,"shoe":0.09,"hand":0.09,"backpack":0.24},
+  "backpackZ":{"bottom":0.39,"top":0.63},
+  "decisiveFeatures":["broad head","dominant diagonal fringe low at image-left","loose elbow-length white sleeves and bare forearms","purple vest","wide dark blue pant legs","large dark purple shoes","turquoise backpack with broad contact straps","angular papercraft planes"],
+  "referenceConflict":{"sleeves":"Coordination confirmed elbow-length loose sleeves per image.","views":"Profile and back partly inconsistent; front and three-quarter control likeness."},
+  "pendingRenderReview":{"visual":"NOT_RUN","content":"NOT_RUN","requiredViews":["front","side","back","three-quarter","wireframe","reimport-three-quarter"]}
+}

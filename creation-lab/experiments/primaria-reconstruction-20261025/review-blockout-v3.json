@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "runId": "003-b86b551b74f2",
+  "manifestSha256": "c2ec6c3b03d28efbe51b222e166a5bc6f82fd85df52df76621ac48bc8426736f",
+  "reviewer": {
+    "actorId": "/root/student_likeness_review",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium"
+  },
+  "openedImages": true,
+  "images": {
+    "front": "d05af2dda23c73f44228a27333d4264de468c4032874e03c6e9ca19ecae5e3f7",
+    "side": "06c6a4642169f6234b6cef619dc5a0199b5aad45e17aa3484e452e7e75a47cd4",
+    "back": "ff202da7d5511bb762e75c42f485c5922b999b6886c7a51f0534b0492224aa85",
+    "three-quarter": "d2f2d9c28c4e4421a8286b047c87cea8331811c5776880d960d05cc458fdc233",
+    "wireframe": "9563da61a7a18bf392a8161b74e68a71d96ac75db95a62859e05dabb22afdd1d",
+    "reimport-three-quarter": "7d9ba03554b1c3517d80e15f250bc75384e4dcd8fc12bc883ecf9c9c1e34ef9e"
+  },
+  "visual": {
+    "status": "PASS",
+    "reason": "PASS limitado a blockout: seis vistas completas, cabeza/pelo ahora envolvente 3D continua de planos amplios, diagonal frontal reconocible, sin escaleras de cajas; masas de uniforme/extremidades/mochila legibles. Franja negra frontal es defecto de superficie obligatorio para detalle; no altera contorno o distribución y no se aprueba para entrega final. Tampoco se aprueba todavía rostro ni materiales finales."
+  },
+  "content": {
+    "status": "PASS",
+    "reason": "Solo checks de blockout: proporciones generales próximas R2, pelo poligonal con flequillo diagonal, mangas/manos/calzado anchos, mochila y dos cintas recorriendo hombros y pecho. Todos observables. No se evalúan aquí contentChecks de detalle ni se hereda aprobación final."
+  },
+  "parts": [
+    {
+      "id": "head",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Cabeza ancha con volumen lateral facetado; banda mandibular horizontal requiere refinamiento pero masa general correcta."
+    },
+    {
+      "id": "ears",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side"
+      ],
+      "reason": "Orejas visibles a lados de cabeza."
+    },
+    {
+      "id": "neck",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back"
+      ],
+      "reason": "Cuello corto identificable bajo cabeza."
+    },
+    {
+      "id": "hair",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Envolvente poligonal continua, corona cerrada y flequillo diagonal; desaparecieron terrazas. Punta de nuca lateral requiere moderación en detalle."
+    },
+    {
+      "id": "vest",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Chaleco violeta de ancho y bajo próximos a referencia."
+    },
+    {
+      "id": "shirt",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Mangas blancas anchas con volumen lateral chanflado."
+    },
+    {
+      "id": "collar",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Cuello blanco de grandes puntas y V visible."
+    },
+    {
+      "id": "arms",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Antebrazos color piel inclinados."
+    },
+    {
+      "id": "hands",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Puños angulares grandes separados del pantalón."
+    },
+    {
+      "id": "trousers",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Cadera y dos perneras anchas separadas en lugar correcto; franja negra frontal no es aceptable en detalle final."
+    },
+    {
+      "id": "shoes",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Zapatos grandes y profundos, separados."
+    },
+    {
+      "id": "backpack",
+      "visibility": "visible",
+      "views": [
+        "side",
+        "back"
+      ],
+      "reason": "Cuerpo turquesa sobresale del torso y domina espalda."
+    },
+    {
+      "id": "straps",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Dos cintas anchas bajan por frente y hacen arco sobre hombros sin puente alto previo."
+    }
+  ],
+  "checks": [
+    {
+      "check": "Silueta y proporciones cercanas a R2: pelo ancho ~0.34H, mentón ~0.693H, hombros ~0.676H, chaleco bajo ~0.413H y zapatos ~0.09H.",
+      "status": "PASS",
+      "reason": "Front conserva cabeza/pelo anchos, mentón, hombros, bajo chaleco y zapatos en relaciones cercanas R2; base juvenil ancha."
+    },
+    {
+      "check": "Cabello de planos poligonales con gran flequillo diagonal reconocible, sin domo esférico ni múltiples dientes cortos como R3.",
+      "status": "PASS",
+      "reason": "Front/side/back/three-quarter muestran corona cerrada continua de planos poligonales y una caída frontal diagonal dominante, sin domo esférico ni dientes pequeños R3. Nuca afilada queda como ajuste local de detalle."
+    },
+    {
+      "check": "Mangas blancas trapeciales anchas, brazos inclinados y manos separadas del pantalón; pies separados y largos frontalmente.",
+      "status": "PASS",
+      "reason": "Mangas blancas trapeciales volumétricas, brazos inclinados, puños separados y pies anchos separados/profundos."
+    },
+    {
+      "check": "Mochila turquesa sobresale en perfil y domina la espalda; dos tirantes recorren hombros y pecho.",
+      "status": "PASS",
+      "reason": "Side/back: mochila sobresale y domina espalda. Front/side: dos cintas de pecho continúan en arco sobre hombros."
+    }
+  ],
+  "defects": [
+    {
+      "view": "front",
+      "detail": "Dos rectángulos negros en cadera superior frontal, también muy visibles en three-quarter y reimport. Defecto de superficie, no de distribución de masas.",
+      "requestedChange": "Obligatorio para detalle: eliminar superficies coplanares/solapadas y cerrar transición cadera-perneras; pantalón azul continuo sin banda negra en fuente y GLB reimportado. Si persiste, detalle FAIL."
+    },
+    {
+      "view": "side",
+      "detail": "Borde inferior de nuca termina en punta baja afilada, cara presenta franja mandibular horizontal muy dominante.",
+      "requestedChange": "Refinar contorno local de nuca a occipital chanflado, moderar saliente inferior y transiciones mandibulares conservando masa y ancho general R2."
+    },
+    {
+      "view": "three-quarter",
+      "detail": "Pelo y calzado se ven lavanda claro, chaleco/pantalón poco saturados frente a R2; rostro aún no construido, esperado en blockout.",
+      "requestedChange": "En detalle aplicar lectura de colores R2 (pelo/calzado berenjena oscuro, chaleco violeta vivo, pantalón índigo, mochila turquesa) y ojos pequeños ovalados oscuros con sonrisa curva pequeña. Verificar bajo render común real."
+    }
+  ]
+}

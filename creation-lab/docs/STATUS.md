@@ -21,7 +21,7 @@ El detalle de comandos está en [README](../README.md).
 | Producción M2-M7 | NOT_RUN: skills, prompts y criterios preparados |
 | Piloto de célula animal | Ejecutado: seis condiciones y diez runs; D 87/100 y A 85/100 pasan técnica, visual y biología visible; [resultados](../benchmarks/animal-cell-20261022/RESULTS.md) |
 | Creación iterativa Sol/Luna | PASS del demo mecánico y 36 tests con Blender; [recibo](iterative-validation.json) y [guía](ITERATIVE-WORKFLOW.md). La mejora de calidad/coste frente al piloto requiere un benchmark nuevo |
-| Benchmark Claude | [Prompt preparado](../prompts/08-claude-benchmark.md) para Haiku/Sonnet/Opus; ejecución NOT_RUN |
+| Benchmark Claude (célula animal) | Ejecutado 23–24 oct, nueve réplicas: Opus 3/3 y Sonnet 3/3 PASS técnico, visual y de contenido; Haiku 0/3 BLOCKED. Exploratorio: un brief, revisor Opus; [resultados](../benchmarks/claude-animal-cell/RESULTS.md) y [prompt](../prompts/08-claude-benchmark.md) |
 | Prueba escuela Flat/Minimal (Claude) | Ejecutada 23–24 oct: diorama animado e interactivo; orquestada (Haiku/Sonnet autores) y solo-Opus pasan técnica, visual y contenido; ≈$13 con una corrección frente a ≈$15 sin correcciones; [resultados y aprendizajes](../benchmarks/school-flat-20261023/RESULTS.md). Fuera del catálogo |
 | Relevo desde un clon nuevo | Skills, scripts, locks y diez runs restaurables incluidos; [instalación](../../SETUP.md) y [verificación del repositorio](repository-handoff.json) |
 | API de imágenes y comparación con Claude | NOT_RUN; sin gasto iniciado |
@@ -86,3 +86,11 @@ En ese corte se aprobaron doce pruebas, incluidas dos con Blender real. Astra re
 
 
 La prueba final del lanzador MCP configurado, `registry/launcher-probe-20261022T220620Z-9ee77265/report.json`, pasó conexión, modificación, render y cierre. La igualdad completa de píxeles con el render inspeccionado confirma el cubo encuadrado; véase `registry/mcp-render-comparison.json`. Ambos procesos y el puerto terminaron cerrados. La captura del viewport permanece NOT_RUN. Consulta [DEPENDENCIES](DEPENDENCIES.md) para fuentes, licencias, runtime y alcance de la conexión.
+
+## Reconstrucción de estudiante desde imágenes · 25 de octubre de 2026
+
+[Entrega R4 y reproducción](../experiments/primaria-reconstruction-20261025/DELIVERY.md): referencia R2 recuperada, dos láminas de apoyo nuevas, generador por piezas, fuente Blender, GLB y comparador local. Modelo estático de estudio de 1 m convencional, 1.738 triángulos, 8 materiales y 30 mallas. Build/reopen/reimport PASS; revisión independiente de seis vistas y ortografías adicionales PASS dentro del brief; contacto pantalón-zapato PASS en muestras de fuente y GLB. Persisten simplificaciones de planos y textura, sin aprobación de rig ni promoción al catálogo.
+
+Se conservaron cuatro runs del protocolo y una corrección adicional de cierre documentada por una separación del calzado omitida en la primera revisión. El informe histórico no se reescribió como si hubiera detectado el defecto. Véanse completion-protocol.json, completion-review.json y final-delivery-manifest.json en el experimento. La excepción local no modifica el presupuesto predeterminado ni es un benchmark.
+
+Aprendizaje incorporado a [dirección artística](../../.agents/skills/gg3d-art-direction/references/image-reconstruction.md): imagen elegida como autoridad, volumen antes del detalle, cámaras verdaderamente comparables y contactos medidos sin confundir vértices GLB duplicados con posiciones distintas.

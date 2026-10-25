@@ -16,3 +16,8 @@ Consulta [aceptación](../../../creation-lab/docs/ACCEPTANCE.md), [plan M2](../.
 Compón primero con componentes fiables de `creation-lab/components`; construye o corrige piezas delimitadas antes de ensamblarlas. Por opción documenta premisa, silueta, proporciones, paleta/materiales, legibilidad y riesgos. Las imágenes de referencia inspiran; las medidas del brief aprobado gobiernan la geometría.
 
 Para el primer asset de producción, muestra al usuario el concepto inicial y un blockout que pruebe escala, frente y proporciones. Espera su aprobación explícita antes del detalle y registra decisión y evidencia. No pidas aprobaciones adicionales para pasos técnicos ya autorizados. Mantén imágenes conceptuales separadas de los renders finales.
+
+Para reproducir un personaje ya elegido desde imágenes, sigue la
+[guía de reconstrucción fiel](references/image-reconstruction.md): autoridad de
+referencias, proporciones observadas, volumen antes del detalle y comparación
+con renders. El modelo rechazado no define las proporciones de su reemplazo.

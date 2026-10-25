@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "runId": "002-a580406555e8",
+  "manifestSha256": "11e7491afbb3a46db51c8c96c5119530635d915c6fcac2973a2c9958ccededd1",
+  "reviewer": {
+    "actorId": "/root/student_likeness_review",
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "medium"
+  },
+  "openedImages": true,
+  "images": {
+    "front": "fb4749dcdef914f7530f495f1414d8d88d068a1ccdc692a6685ecbb295bae01e",
+    "side": "ee82373601b268295ffc2b74a9e53dd2b0ab7ecd0a54495d3fd9dc14d2f348ce",
+    "back": "65b3713938d4c1514e78d36fd356c079f5667ec1edad94b65b7dd4920fd7e32d",
+    "three-quarter": "fdafbc39f3b2d87c792e6851bbf7d387d770249e93ad555161d6ecca5a07342b",
+    "wireframe": "6c235f7dc0416414d38d2b54cfe93d05016a12127d931ff1ef12176fbc6a3ef1",
+    "reimport-three-quarter": "71e2c0c7256ca4c5e20af172013ddb37127effe9b021d94981672983c82ef320"
+  },
+  "visual": {
+    "status": "FAIL",
+    "reason": "Seis imágenes completas abiertas. Centrado corregido y buenas masas frontales de uniforme/extremidades. Pero side y three-quarter revelan cabeza/pelo como escalera de prismas extruidos, corona en terrazas y casco posterior plano; no conserva masa craneal envolvente R2. Son formas mayores de blockout, no detalle."
+  },
+  "content": {
+    "status": "FAIL",
+    "reason": "Falla forma mayor del cabello y recorrido de tirantes. Frente conserva ancho/cuerpo juvenil y mangas/manos/zapatos grandes; ausencia de ojos no se penaliza en blockout. Back muestra banda negra impropia bajo mochila."
+  },
+  "parts": [
+    {
+      "id": "head",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Cabeza completa visible, cara lateral rectangular y transición craneal escalonada."
+    },
+    {
+      "id": "ears",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side"
+      ],
+      "reason": "Orejas visibles a lados de cabeza."
+    },
+    {
+      "id": "neck",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side"
+      ],
+      "reason": "Cuello corto visible parcialmente sobre camisa; contorno oscuro horizontal bajo cabeza."
+    },
+    {
+      "id": "hair",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Masa morada visible; diagonal frontal presente pero side prismático/escalonado y back plano, no envolvente R2."
+    },
+    {
+      "id": "vest",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Chaleco violeta ocupa torso, bajo y ancho comparables a R2."
+    },
+    {
+      "id": "shirt",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Mangas blancas trapeciales amplias."
+    },
+    {
+      "id": "collar",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Puntas blancas grandes y V visibles."
+    },
+    {
+      "id": "arms",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Brazos de piel inclinados lateralmente."
+    },
+    {
+      "id": "hands",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "three-quarter"
+      ],
+      "reason": "Puños poligonales grandes separados del pantalón."
+    },
+    {
+      "id": "trousers",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "back",
+        "three-quarter"
+      ],
+      "reason": "Perneras anchas separadas; banda casi negra anómala en cadera trasera."
+    },
+    {
+      "id": "shoes",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Zapatos grandes separados con profundidad/punteras."
+    },
+    {
+      "id": "backpack",
+      "visibility": "visible",
+      "views": [
+        "side",
+        "back"
+      ],
+      "reason": "Mochila turquesa de volumen claro y tamaño legible detrás torso."
+    },
+    {
+      "id": "straps",
+      "visibility": "visible",
+      "views": [
+        "front",
+        "side",
+        "three-quarter"
+      ],
+      "reason": "Dos cintas frontales y paso superior visibles; side forma puente rectangular alto tras cuello en vez de seguir hombro."
+    }
+  ],
+  "checks": [
+    {
+      "check": "Silueta y proporciones cercanas a R2: pelo ancho ~0.34H, mentón ~0.693H, hombros ~0.676H, chaleco bajo ~0.413H y zapatos ~0.09H.",
+      "status": "PASS",
+      "reason": "En front las masas principales cabeza ancha, mentón, hombros, bajo chaleco y zapatos guardan proporciones cercanas R2. Este check de magnitudes no aprueba perfil del cabello."
+    },
+    {
+      "check": "Cabello de planos poligonales con gran flequillo diagonal reconocible, sin domo esférico ni múltiples dientes cortos como R3.",
+      "status": "FAIL",
+      "reason": "Diagonal frontal reconocible, pero side/three-quarter muestran extrusiones escalonadas y terrazas paralelas. Back corte horizontal del casco, falta occipital facetado envolvente. Falla volumen mayor del pelo."
+    },
+    {
+      "check": "Mangas blancas trapeciales anchas, brazos inclinados y manos separadas del pantalón; pies separados y largos frontalmente.",
+      "status": "PASS",
+      "reason": "Front y three-quarter: mangas trapeciales anchas, brazos abiertos, puños separados y calzado ancho/profundo."
+    },
+    {
+      "check": "Mochila turquesa sobresale en perfil y domina la espalda; dos tirantes recorren hombros y pecho.",
+      "status": "FAIL",
+      "reason": "Mochila sí sobresale y domina espalda; recorrido de tirantes side se convierte en marco rectangular elevado y separado detrás cuello, sin seguir superficie de hombros."
+    }
+  ],
+  "defects": [
+    {
+      "view": "side",
+      "detail": "Cabeza/pelo leídos como escalera de cajas, techo horizontal y nuca rectangular. En three-quarter hay terrazas paralelas en corona; back gran tapa plana con corte horizontal.",
+      "requestedChange": "Reconstruir envolvente craneal 3D con anillos de ancho/profundidad variable y z no coplanar, corona cerrada y occipital facetado. Unir transiciones sin terrazas ni capas paralelas; flequillo diagonal como caída frontal sobre envolvente. Preservar ancho frontal/orejas/proporciones R2."
+    },
+    {
+      "view": "side",
+      "detail": "Tirantes turquesa hacen puente horizontal alto y rígido detrás cuello.",
+      "requestedChange": "Ajustar cintas anchas a arco de hombros y cara superior de mochila sin marco elevado o tramos flotantes."
+    },
+    {
+      "view": "back",
+      "detail": "Banda casi negra rectangular bajo mochila en cadera, ajena a pantalón azul de R2.",
+      "requestedChange": "Inspeccionar caras/normales/solapamientos y cerrar transición cintura-perneras para lectura azul continua; no dejar franja negra."
+    }
+  ]
+}
