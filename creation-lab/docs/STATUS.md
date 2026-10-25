@@ -94,3 +94,13 @@ La prueba final del lanzador MCP configurado, `registry/launcher-probe-20261022T
 Se conservaron cuatro runs del protocolo y una corrección adicional de cierre documentada por una separación del calzado omitida en la primera revisión. El informe histórico no se reescribió como si hubiera detectado el defecto. Véanse completion-protocol.json, completion-review.json y final-delivery-manifest.json en el experimento. La excepción local no modifica el presupuesto predeterminado ni es un benchmark.
 
 Aprendizaje incorporado a [dirección artística](../../.agents/skills/gg3d-art-direction/references/image-reconstruction.md): imagen elegida como autoridad, volumen antes del detalle, cámaras verdaderamente comparables y contactos medidos sin confundir vértices GLB duplicados con posiciones distintas.
+
+## Modelos procedurales para la web · 24–25 de octubre de 2026
+
+Aprendizaje del campus y los personajes papercraft del cotizador (`GuateGeeks/cotizador`,
+fuera de este repositorio): presupuestos del frame con sombras, piezas fieles a
+láminas desde sus pliegues, overrides por id, escala de diorama con visibilidad
+medida, prueba de interpenetración, interior translúcido sin materiales nuevos y
+medición real en GPU desde WSL. Incorporado al skill
+[gg3d-procedural-web](../../.agents/skills/gg3d-procedural-web/SKILL.md). No cambia
+el flujo Blender/GLB ni sus presupuestos.

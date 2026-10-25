@@ -25,3 +25,8 @@ la composición a partir de esos límites cuando la dimensión del brief sea est
 no cambies la tolerancia para aceptar la diferencia.
 
 Mantén este entregable separado del master detallado. Usa la ruta M1 de la CLI para exportar, reimportar en proceso limpio y conservar evidencia. Los conteos correctos no implican aprobación visual.
+
+Si el modelo se genera en el navegador (Three.js, color por vértice, rig rígido) en
+vez de exportarse desde Blender, sigue [modelos procedurales para la web](../gg3d-procedural-web/SKILL.md):
+el presupuesto se mide en el frame completo, incluida la pasada de sombras, y los
+auxiliares como la sombra de contacto cuentan en el límite de la pieza.
