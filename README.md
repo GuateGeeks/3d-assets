@@ -18,6 +18,13 @@ Los resultados de cada comprobación se conservan en `lab/reports/`. La implemen
 en Code Studio o Sócrates comenzará después de completar y validar todo el flujo
 en `3d-assets`.
 
+## Personajes del campus en Blender
+
+El [puente Blender](procedural-web/README.md) exporta a `.blend` los alumnos del campus del
+cotizador (rig rígido de 12 huesos) con sus poses como acciones, y devuelve el retoque a los
+módulos de datos del cotizador con procedencia: `python3 procedural-web/pw.py doctor`. Lo
+describe el [skill gg3d-blender-web](.agents/skills/gg3d-blender-web/SKILL.md).
+
 **Galería publicada:** [guategeeks.com/3d-assets](https://guategeeks.com/3d-assets/)
 
 Para preparar un clon con scripts, skills y dependencias opcionales, seguir
