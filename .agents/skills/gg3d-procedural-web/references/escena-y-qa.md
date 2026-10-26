@@ -39,6 +39,8 @@ Para ver dentro de un aula enfocada:
 - **Nombres de hueso repetidos.** Docente y estudiante compartían nombre. El estudiante nunca recibía su etapa de ensamblaje y aparecía en el primer paso. Añade una prueba de unicidad.
 - **Coplanares.** Agrupar por normal redondeada da falsos negativos. Agrupa por desplazamiento del plano y reporta el hueso dueño de cada cara.
 - **Línea base.** Los parámetros de render por pieza deben compararse en condiciones idénticas: semilla, pose, cámara, escala, luz y material. Muestra aparte cualquier cambio de luz o material.
+- **Parpadeo medido en el lugar.** La separación entre dos planos casi paralelos se mide en los centroides de los triángulos, no como diferencia de distancias al origen. Lejos del origen (x ≈ −4.7), una diferencia de normal de 0.0003 rad anula la separación real y produce falsos positivos.
+- **Costuras y juntas en el manifiesto.** Las superposiciones de volumen en una articulación (cuello, cintura, codo, rodilla, falda sobre el muslo) se informan aparte, como las juntas del paquete R2, en vez de fallar la regla de capas. Los triángulos de una costura estirada se cuentan bajo el hueso de su pieza.
 
 ## Rendimiento y entorno
 
@@ -51,6 +53,8 @@ Para ver dentro de un aula enfocada:
 - **Playwright.** Las variables declaradas con `let` en la página son globales léxicas: usa `typeof mascot !== 'undefined'`, no `window.mascot`.
 - **Servidores locales.** Solo en `127.0.0.1`, un puerto por trabajo, y se detienen al terminar.
 - **Shell.** Si `node`/`npm` son funciones de nvm en la shell del agente, fallan en silencio: usa la ruta absoluta del binario.
+- **Python.** Un script propio llamado como un módulo de la biblioteca estándar (`inspect.py`) rompe a PIL si se ejecuta desde su carpeta: usa `python3 -I` o nombres propios.
+- **Presupuesto que depende de la semilla.** Con variantes de distinto peso elegidas por semilla, el margen del campus depende de cuántas salen; mide el estado mayor tras cambiar un modelo.
 
 ## Orquestación
 

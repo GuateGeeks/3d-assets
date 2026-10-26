@@ -1,0 +1,31 @@
+{
+  "fps": 24,
+  "longFps": 12,
+  "about": "Clips sampled from POSES (cotizador asesor/lab/campus-people.js). args: the call arguments, '$t' marks the time argument. time.scale: argument value per second. offset.arg: an argument added to the clip time (the per-person desync k). duration: seconds of one loop; static clips have no time.",
+  "clips": [
+    { "name": "stand", "args": [] },
+    { "name": "walk", "args": ["$t", 1], "time": { "arg": 0, "scale": 6.283185307179586 }, "duration": 1 },
+    { "name": "kneel", "args": [] },
+    { "name": "sit", "args": [] },
+    { "name": "cheer", "args": ["$t"], "time": { "arg": 0, "scale": 1 }, "duration": 0.5235987755982988 },
+    { "name": "clap", "args": ["$t"], "time": { "arg": 0, "scale": 1 }, "duration": 0.4487989505128276 },
+    { "name": "type", "args": ["$t"], "time": { "arg": 0, "scale": 1 }, "duration": 6.283185307179586 },
+    { "name": "tablet", "args": [] },
+    { "name": "point", "args": [0] },
+    { "name": "wave", "args": ["$t"], "time": { "arg": 0, "scale": 1 }, "duration": 0.6981317007977318 },
+    { "name": "hand", "args": [] },
+    { "name": "vr", "args": ["$t", 0], "time": { "arg": 0, "scale": 1 }, "offset": { "arg": 1 }, "duration": 62.83185307179586, "long": true },
+    { "name": "raise", "args": ["$t"], "time": { "arg": 0, "scale": 1 }, "duration": 1.2566370614359172 },
+    { "name": "talk", "args": ["$t", 0], "time": { "arg": 0, "scale": 1 }, "offset": { "arg": 1 }, "duration": 62.83185307179586, "long": true },
+    { "name": "lean", "args": [1] },
+    { "name": "pointDown", "args": [0] },
+    { "name": "highFive", "args": ["R"] },
+    { "name": "highFive", "args": ["L"] },
+    { "name": "oops", "args": [] },
+    { "name": "think", "args": [] },
+    { "name": "press", "args": ["$t"], "time": { "arg": 0, "scale": 1 }, "duration": 1.4959965017094252 },
+    { "name": "hold", "args": [0, 0] },
+    { "name": "grab", "args": ["$t", 0], "time": { "arg": 0, "scale": 1 }, "offset": { "arg": 1 }, "duration": 62.83185307179586, "long": true },
+    { "name": "visor", "args": [0] }
+  ]
+}

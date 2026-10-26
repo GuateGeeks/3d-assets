@@ -49,6 +49,15 @@ python3 lab/lab.py rig --candidate lab/.local/runs/<ingest>/creation-prepared.js
 
 Antes de cambiar instalación, workers Blender, coordenadas o el runner, consulta [operación y fallos comprobados](references/operations.md). Para comparar poses o cambiar la galería, consulta [revisión de deformaciones](references/deformation-review.md).
 
+## Validar pivotes de un rig rígido
+
+Para un personaje web de rig rígido (cotizador), UniRig sirve como segunda opinión sobre los
+pivotes, no como rig final.
+
+- **Fuera del contrato de creación.** Ejecuta los mismos pasos de `rig`, de extracción a mezcla, en un run propio de `lab/.local/runs`. Prepara el workspace con `lab/scripts/prepare_smoke.py --input`, respeta el lock y deja una nota del experimento.
+- **Lectura.** Lleva las articulaciones a unidades de altura y compáralas con las medidas. En el alumno Meshy coincidieron rodilla y cuello; cadera y codo se ajustaron a su predicción.
+- **Hombro.** Su hombro es una clavícula para pesos suaves: no lo uses como pivote rígido.
+
 ## Interpretar y cerrar
 
 `smoke` genera un esqueleto pero calcula pesos sobre el esqueleto revisado de la jirafa oficial. `rig` del corpus/candidato usa su propio esqueleto generado: no atribuyas al smoke una prueba de calidad automática de extremo a extremo.

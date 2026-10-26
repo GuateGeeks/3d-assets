@@ -8,6 +8,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 lab/.local/
+procedural-web/.local/
 
 # Per-machine Codex paths; distribute the disabled registry example instead.
 .codex/config.toml
