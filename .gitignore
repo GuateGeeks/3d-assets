@@ -14,3 +14,6 @@ lab/.local/
 
 # Private acquisition caches and transient API responses.
 enrichment/staging/
+
+# Meshy MCP downloads (written to the server cwd); promote results with provenance.
+meshy_output/
