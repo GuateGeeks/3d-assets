@@ -92,10 +92,46 @@ educativo tiene su propio paquete de evidencia explícito, descrito arriba.
 SkinTokens todavía no tiene una instalación local validada ni un instalador;
 su evaluación sigue pendiente en el [plan](docs/RIGGING-LAB-PLAN.md).
 
+## Puente Blender para el cotizador
+
+El puente está integrado en `procedural-web/`. Requiere un checkout compatible del
+cotizador con `asesor/lab/campus-people.js`, los módulos
+`asesor/lab/paper/meshy/primaria-meshy*-data.js`, sus dependencias de Node y Blender
+(o un Python con `bpy`). Opera desde WSL/Linux; para Blender de Windows usa la
+ruta `/mnt/.../blender.exe`. No instala ni modifica esos entornos.
+
+```sh
+mkdir -p procedural-web/.local
+cp procedural-web/config.example.json procedural-web/.local/config.json
+# Ajustar cotizador, blender, bpy y node a las rutas de este equipo.
+python3 procedural-web/pw.py doctor
+python3 procedural-web/pw.py export --model nino
+python3 procedural-web/pw.py import --model nino --blend /ruta/al/nino.blend
+python3 -m unittest discover -s procedural-web/tests -v
+```
+
+Las opciones globales, como `--cotizador` o `--engine bpy`, van antes de
+`doctor`, `export`, `import` o `adopt`. `import` y `adopt` solo escriben en el
+cotizador con `--apply`; una revisión sin esa opción sigue creando su recibo local.
+Consulta el [contrato completo](procedural-web/README.md). Exporta, edita e importa
+con la misma versión de Blender; `bpy` 4.2 no abre fuentes guardadas en 5.x.
+
+Para verificar la ida y vuelta de ambos personajes y sus articulaciones:
+
+```sh
+GG_TEST_BPY=/ruta/al/python-con-bpy GG_COTIZADOR=/ruta/al/cotizador GG_NODE=/ruta/a/node python3 -m unittest discover -s procedural-web/tests -v
+```
+
+Sin esas variables se omite la prueba de integración. La configuración y los runs
+permanecen ignorados en `procedural-web/.local/`; no forman parte de un clon ni del
+sitio público. Los recibos históricos conservan sus rutas originales. El puente de
+personajes es independiente del puente MCP opcional descrito a continuación.
+
 ## Skills y puente MCP opcional
 
 Abrir el proyecto en la raíz `3d-assets` y leer [AGENTS.md](AGENTS.md).
-Los diez skills y sus referencias están en `.agents/skills/`; no requieren
+Los skills y sus referencias están en `.agents/skills/`; `tools/check_skills.py`
+comprueba el inventario actual y sus enlaces. No requieren
 copiar instrucciones desde otro equipo. Las recetas vendorizadas conservan
 commits, hashes, licencias y adaptadores. Su presencia no prueba ejecución.
 

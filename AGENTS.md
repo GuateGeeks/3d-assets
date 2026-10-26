@@ -1,7 +1,10 @@
 # Trabajo en 3d-assets
 
 Este repositorio contiene la biblioteca original, el laboratorio de rigging en `lab/`
-y el laboratorio de creación en `creation-lab/`. Code Studio y Sócrates son
+el laboratorio de creación en `creation-lab/` y el puente del cotizador en
+`procedural-web/`. Para este último lee `.agents/skills/gg3d-blender-web/SKILL.md`
+y `procedural-web/README.md`; conserva sus runs y configura el checkout receptor
+explícitamente. Code Studio y Sócrates son
 consumidores futuros; el trabajo actual se completa y valida aquí primero.
 
 - Antes de editar, identifica los cambios locales y el área que está trabajando

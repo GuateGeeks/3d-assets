@@ -27,6 +27,9 @@ describe el [skill gg3d-blender-web](.agents/skills/gg3d-blender-web/SKILL.md).
 
 **Galería publicada:** [guategeeks.com/3d-assets](https://guategeeks.com/3d-assets/)
 
+El [mapa de componentes y áreas de trabajo](docs/WORKSPACES.md) explica creación, rigging,
+puente web y la conservación de experimentos tras la integración del 26 de octubre de 2026.
+
 Para preparar un clon con scripts, skills y dependencias opcionales, seguir
 [SETUP.md](SETUP.md). El [laboratorio de creación](creation-lab/START-HERE.md)
 y el de rigging se ejecutan dentro de este repositorio.
@@ -62,7 +65,7 @@ La validación se ejecuta automáticamente en cada push y pull request. El despl
 
 ## Licencias e inventario
 
-- **739 modelos CC0 1.0**, **274 CC BY 3.0** y **8 CC BY-SA 4.0**.
+- **745 modelos CC0 1.0**, **274 CC BY 3.0**, **8 CC BY-SA 4.0**, **7 CC BY 4.0**, **1 CC BY-NC-SA 4.0** y **10 bajo NASA Media Usage Guidelines**, según [audit.json](audit.json).
 - **19 modelos con esqueleto** y **19 con animaciones** comprobadas dentro del GLB.
 - [Índice navegable de archivos](INDEX.md), [CSV](index.csv), [créditos](ATTRIBUTIONS.md) y [cobertura pendiente](COVERAGE.md).
 - `models/<ID>/`: GLB original, metadatos del catálogo, ficha normalizada y licencia.
@@ -82,7 +85,7 @@ Los GLB nativos de Kenney conservan su geometría; cuando era necesario se incru
 
 ## Ampliación Poly Haven
 
-Se incorporaron **28 modelos CC0** de laboratorio, óptica, electrónica, medición, accesibilidad, seguridad, jardinería, oficios y música. Los originales glTF de 1K y sus texturas se conservan por modelo; el GLB incrusta esos componentes sin decimar, reescalar ni modificar materiales, UV o rigs. El tornillo de banco conserva su rig mecánico. El catálogo suma **1045 modelos**, con 739 CC0, 274 CC BY 3.0 y 8 CC BY-SA 4.0.
+Se incorporaron **28 modelos CC0** de laboratorio, óptica, electrónica, medición, accesibilidad, seguridad, jardinería, oficios y música. Los originales glTF de 1K y sus texturas se conservan por modelo; el GLB incrusta esos componentes sin decimar, reescalar ni modificar materiales, UV o rigs. El tornillo de banco conserva su rig mecánico. El catálogo actual suma **1045 modelos**; el desglose vigente de todas las fuentes está en [Licencias e inventario](#licencias-e-inventario) y [audit.json](audit.json).
 
 La adquisición usa la API oficial con identificador de aplicación, caché, comprobación MD5/SHA-256 y reintentos limitados. La galería funciona con archivos locales; no consulta la API ni utiliza sus imágenes de muestra. Los créditos preservan los autores individuales aunque CC0 no exija atribución.
 

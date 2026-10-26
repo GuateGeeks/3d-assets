@@ -1,0 +1,354 @@
+{
+  "date": "2026-10-26",
+  "scope": "Local integration of Blender web bridge and origin/main without rewriting history",
+  "sourceHeads": {
+    "3d-assets": "43f7297452a06a0f5a45a9f5fa5e1840ce3fa720",
+    "3d-assets-blender": "43f7297452a06a0f5a45a9f5fa5e1840ce3fa720",
+    "3d-assets-animal-cell-wip": "17737600a13e739365bee6782a15d8701570b44e",
+    "3d-assets-release-20261022": "8f4a59a9c615fdf70798937c246dbea9b2cc0b6b"
+  },
+  "fetchedMain": "af1fa40",
+  "bridgeCommit": "5a1e242",
+  "mainMerge": "1df8ae7",
+  "bridgeMerge": "2509854",
+  "preservation": {
+    "trackedEvidence": {
+      "files": 6273,
+      "changed": []
+    },
+    "bridgeLocal": {
+      "files": 202,
+      "copiesVerified": 2,
+      "changed": []
+    },
+    "beforeInventorySha256": "b01c44a6383b3cc89c0c7becd3ceb9dbe1aa618c94b2fe17dfe2b17513143cb5"
+  },
+  "checks": {
+    "contracts": [
+      {
+        "command": [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "creation-lab/tests",
+          "-v"
+        ],
+        "exitCode": 0,
+        "seconds": 0.78,
+        "log": "contracts-0.log",
+        "tail": [
+          "test_existing_runtime_is_preserved_without_subprocesses (test_restore_mcp.RestoreRuntimeTests.test_existing_runtime_is_preserved_without_subprocesses) ... ok",
+          "test_pip_failure_leaves_no_partial_target (test_restore_mcp.RestoreRuntimeTests.test_pip_failure_leaves_no_partial_target) ... ok",
+          "test_wrong_platform_rejected (test_restore_mcp.RestoreRuntimeTests.test_wrong_platform_rejected) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 43 tests in 0.616s",
+          "",
+          "OK (skipped=3)"
+        ],
+        "logSha256": "ab392f7218112869a878a76c747b41b0f54d3bf2b9bf449dd0706d4a9bb8c653"
+      },
+      {
+        "command": [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "lab/tests",
+          "-v"
+        ],
+        "exitCode": 1,
+        "seconds": 19.77,
+        "log": "contracts-1.log",
+        "tail": [
+          "AssertionError: 1 != 0 : Unlisted symlink in source tree: creation-lab/.local/claude-school-20261023/web/detail-v1/qa/.prof-desk/SingletonCookie",
+          "",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 26 tests in 19.572s",
+          "",
+          "FAILED (failures=1)",
+          "{\"runId\": \"20261026T184454Z-9fd3a5cc\", \"status\": \"timeout\", \"report\": \"lab/.local/runs/20261026T184454Z-9fd3a5cc/run.json\"}"
+        ],
+        "logSha256": "a2141ee44f656b284a9391c6118c399a3acc25f3dd7bd597bbd5d24807fd3433"
+      }
+    ],
+    "bridge": [
+      {
+        "command": [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "procedural-web/tests",
+          "-v"
+        ],
+        "exitCode": 0,
+        "seconds": 11.44,
+        "log": "bridge-0.log",
+        "tail": [
+          "test_landmarks_follow_the_rig (test_pw.ModuleFormat.test_landmarks_follow_the_rig) ... ok",
+          "test_write_then_read_keeps_values_and_writes_like_json_stringify (test_pw.ModuleFormat.test_write_then_read_keeps_values_and_writes_like_json_stringify) ... ok",
+          "test_export_then_import_without_edits_changes_nothing (test_pw.RoundTrip.test_export_then_import_without_edits_changes_nothing) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 4 tests in 11.361s",
+          "",
+          "OK"
+        ],
+        "logSha256": "a8f93324bd5fceaa38e75be1da9b7162e5638369ed5bde0fee628afdfcaa921d"
+      },
+      {
+        "command": [
+          "/home/adawolfs/.nvm/versions/node/v22.23.4/bin/node",
+          "--check",
+          "procedural-web/node/sample_poses.mjs"
+        ],
+        "exitCode": 0,
+        "seconds": 0.03,
+        "log": "bridge-1.log",
+        "tail": [],
+        "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "command": [
+          "/home/adawolfs/.nvm/versions/node/v22.23.4/bin/node",
+          "--check",
+          "procedural-web/tests/joints_three.mjs"
+        ],
+        "exitCode": 0,
+        "seconds": 0.02,
+        "log": "bridge-2.log",
+        "tail": [],
+        "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "portable": [
+      {
+        "command": [
+          "python3",
+          "tools/check_skills.py"
+        ],
+        "exitCode": 0,
+        "seconds": 0.06,
+        "log": "portable-0.log",
+        "tail": [
+          "{",
+          "  \"status\": \"PASS\",",
+          "  \"skills\": 12,",
+          "  \"localLinks\": 73,",
+          "  \"errors\": []",
+          "}"
+        ],
+        "logSha256": "500c668aeaf5760718737cca5735b22b5d63085e77af80cec52f842f371511c4"
+      },
+      {
+        "command": [
+          "python3",
+          "creation-lab/registry/verify_sources.py"
+        ],
+        "exitCode": 0,
+        "seconds": 0.1,
+        "log": "portable-1.log",
+        "tail": [
+          "{\"status\": \"PASS\", \"filesVerified\": 255, \"runtimeExecuted\": false}"
+        ],
+        "logSha256": "774cf387384f079e0c4810607c3705932bb8c9641fa3339f680e1dffe2b28253"
+      },
+      {
+        "command": [
+          "python3",
+          "creation-lab/benchmarks/animal-cell-20261022/restore.py",
+          "--check"
+        ],
+        "exitCode": 0,
+        "seconds": 29.05,
+        "log": "portable-2.log",
+        "tail": [
+          "  \"status\": \"PASS\",",
+          "  \"mode\": \"check\",",
+          "  \"runs\": 10,",
+          "  \"files\": 287,",
+          "  \"restoredFiles\": 0,",
+          "  \"unchangedFiles\": 0,",
+          "  \"obviousCredentialScan\": \"PASS\"",
+          "}"
+        ],
+        "logSha256": "a752672f8e417ecfa3fb2b10f1d3886d68d61c5ba30caedd7d0657fa5e47e488"
+      },
+      {
+        "command": [
+          "python3",
+          "creation-lab/benchmarks/claude-animal-cell/restore.py",
+          "--check"
+        ],
+        "exitCode": 0,
+        "seconds": 0.2,
+        "log": "portable-3.log",
+        "tail": [
+          "R2 (PASS): 16 archivos verificados",
+          "R3 (PASS): 16 archivos verificados",
+          "R4 (PASS): 16 archivos verificados",
+          "R5 (BLOCKED): 16 archivos verificados",
+          "R6 (BLOCKED): 16 archivos verificados",
+          "R7 (BLOCKED): 16 archivos verificados",
+          "R8 (PASS): 16 archivos verificados",
+          "R9 (PASS): 16 archivos verificados"
+        ],
+        "logSha256": "ef915d020c3511fd5919a1c1de4ff54a7522843d38a358362bd70f20f210655b"
+      },
+      {
+        "command": [
+          "python3",
+          "creation-lab/benchmarks/school-flat-20261023/restore.py",
+          "--check"
+        ],
+        "exitCode": 0,
+        "seconds": 0.11,
+        "log": "portable-4.log",
+        "tail": [
+          "orquestada: 19 archivos verificados",
+          "opus: 19 archivos verificados"
+        ],
+        "logSha256": "fbe891a363349bf8f49d3664dcae87d54464af2eb6922cd99fd6640c76908420"
+      },
+      {
+        "command": [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "creation-lab/benchmarks/animal-cell-20261022",
+          "-p",
+          "test*.py",
+          "-v"
+        ],
+        "exitCode": 0,
+        "seconds": 0.18,
+        "log": "portable-5.log",
+        "tail": [
+          "test_tampered_zip_rejected_before_writes (test_restore.RestoreTests.test_tampered_zip_rejected_before_writes) ... ok",
+          "test_traversal_with_valid_index_hash_is_rejected (test_restore.RestoreTests.test_traversal_with_valid_index_hash_is_rejected) ... ok",
+          "test_windows_alias_paths_are_rejected (test_restore.RestoreTests.test_windows_alias_paths_are_rejected) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 18 tests in 0.068s",
+          "",
+          "OK"
+        ],
+        "logSha256": "142e454a31c82a2c3245adde70a05b7b3c301a6734adb5c376b9240175ea7a73"
+      }
+    ],
+    "site": [
+      {
+        "command": [
+          "python3",
+          "tools/build_site.py"
+        ],
+        "exitCode": 0,
+        "seconds": 3.71,
+        "log": "site-0.log",
+        "tail": [
+          "{\"output\": \"_site\", \"models\": 1045, \"bytes\": 699300797, \"MiB\": 666.9}"
+        ],
+        "logSha256": "9c157bb69c5e7795c54df00bdb293725b92f0aa7832dc2387843393cc8d4e2bf"
+      },
+      {
+        "command": [
+          "python3",
+          "tools/check_site.py"
+        ],
+        "exitCode": 1,
+        "seconds": 2.87,
+        "log": "site-1.log",
+        "tail": [
+          "Unlisted symlink in source tree: creation-lab/.local/claude-school-20261023/web/detail-v1/qa/.prof-desk/SingletonCookie"
+        ],
+        "logSha256": "6d86078e0d716a4c029f7a229820cc629e0bdc7a8a6dd316102626b706eebc9b"
+      }
+    ],
+    "clean": [
+      {
+        "command": [
+          "python3",
+          "tools/build_site.py"
+        ],
+        "exitCode": 0,
+        "seconds": 2.88,
+        "log": "clean-0.log",
+        "tail": [
+          "{\"output\": \"_site\", \"models\": 1045, \"bytes\": 699300797, \"MiB\": 666.9}"
+        ],
+        "logSha256": "9c157bb69c5e7795c54df00bdb293725b92f0aa7832dc2387843393cc8d4e2bf"
+      },
+      {
+        "command": [
+          "python3",
+          "tools/check_site.py"
+        ],
+        "exitCode": 0,
+        "seconds": 2.57,
+        "log": "clean-1.log",
+        "tail": [
+          "{\"models\": 1045, \"licenses\": [\"CC-BY 3.0\", \"CC-BY 4.0\", \"CC-BY-NC-SA 4.0\", \"CC-BY-SA 4.0\", \"CC0 1.0\", \"NASA Media Usage Guidelines\"], \"thumbnails\": 1045, \"integrity\": \"passed\", \"paths\": \"passed\", \"credentialScan\": \"passed\", \"siteChecked\": true}"
+        ],
+        "logSha256": "22598ef489863452586a4ad62dc2f1d580fe51135b89d3aaf76e60f368f1d88c"
+      },
+      {
+        "command": [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "lab/tests",
+          "-v"
+        ],
+        "exitCode": 0,
+        "seconds": 9.84,
+        "log": "clean-2.log",
+        "tail": [
+          "test_inventory_utf8_and_only_registered_files (test_review.ReviewServerTests.test_inventory_utf8_and_only_registered_files) ... ok",
+          "test_prefix_and_symlink_cannot_bypass (test_review.ReviewServerTests.test_prefix_and_symlink_cannot_bypass) ... ok",
+          "",
+          "----------------------------------------------------------------------",
+          "Ran 26 tests in 9.730s",
+          "",
+          "OK (skipped=6)",
+          "{\"runId\": \"20261026T184640Z-48e68215\", \"status\": \"timeout\", \"report\": \"lab/.local/runs/20261026T184640Z-48e68215/run.json\"}"
+        ],
+        "logSha256": "5f0df825cd02e5920a8d76f6839022dfaefc8affe47da8ec6562e9107e3da3ae"
+      }
+    ]
+  },
+  "limitations": [
+    "No new visual, biological or UniRig inference approval.",
+    "Creation suite omits 3 opt-in Blender tests.",
+    "Clean-source rigging suite omits 5 bpy environment tests and 1 local corpus test; these 6 passed in the original checkout.",
+    "Original-checkout site scan and one rigging test remain blocked by pre-existing Chromium profile symlinks under creation-lab/.local/claude-school-20261023/web/detail-v1/qa/.prof-desk; clean-source checks pass. Historical profile files were preserved.",
+    "Local branches are aligned; no push or deployment performed."
+  ],
+  "localEvidence": "lab/.local/integration-20261026/",
+  "publicEvidence": {
+    "initialAnimalCellRuns": 10,
+    "initialAnimalCellFiles": 287,
+    "claudeReplicas": 9,
+    "claudeFiles": 144,
+    "schoolConditions": 2,
+    "schoolFiles": 38
+  },
+  "validationSources": {
+    "procedural-web/pw.py": "b9e533a21b756f96efa170861bb1653181dc62b12a3084836579270a1714a55e",
+    "procedural-web/blender/build_blend.py": "371e7c7f3c13488d08555ae5529ea7bc314dff6849a68a52515eae980230d5f1",
+    "procedural-web/blender/read_blend.py": "7f713d573e34509e930cc891bc7943d95b52d75015728c76dadd4018330f1f2d",
+    "procedural-web/blender/read_rigged.py": "38630d42ea08577388ad84c5c64c49a490ade1ec11a1b89f4d42e5ed8ed42b28",
+    "procedural-web/tests/test_pw.py": "f72d05f3d7f6179903588df6e61740d411ca31d46cabfead6c36b10b490e69e0",
+    "tools/check_site.py": "b7553dce3bee9ec75ad423dfe63191c9e2ca65e5b116587c6eeae0b159ec7c75",
+    ".github/workflows/validate.yml": "93947ca6e7945de42706573baf0dd6b1b6335edeb6a4dec448a87b5df52d9c15"
+  }
+}

@@ -32,6 +32,16 @@ jobs:
         run: |
           python creation-lab/iterate.py --help
           python -m unittest discover -s creation-lab/tests -v
+      - name: Test Blender web bridge contracts without Blender
+        run: |
+          python procedural-web/pw.py --help
+          node --check procedural-web/node/sample_poses.mjs
+          node --check procedural-web/tests/joints_three.mjs
+          python -m unittest discover -s procedural-web/tests -v
+      - name: Verify preserved Claude and school benchmark evidence
+        run: |
+          python creation-lab/benchmarks/claude-animal-cell/restore.py --check
+          python creation-lab/benchmarks/school-flat-20261023/restore.py --check
       - name: Test rigging contracts without GPU
         run: python -m unittest discover -s lab/tests -v
       - name: Test portable educational benchmark

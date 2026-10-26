@@ -85,6 +85,6 @@ if SITE.exists():
         if (ROOT/path).read_bytes()!=(SITE/path).read_bytes(): raise SystemExit('Stale site asset: '+path)
     if not (SITE/'index.html').is_file() or not (SITE/'.nojekyll').exists(): raise SystemExit('Missing Pages entry point')
     if (SITE/'sources/context.json').exists() or (SITE/'.git').exists(): raise SystemExit('Private files in site')
-    for name in ['lab','derived','packs']:
+    for name in ['lab','creation-lab','procedural-web','.agents','derived','packs']:
         if (SITE/name).exists(): raise SystemExit('Unlisted laboratory files in site: '+name)
 print(json.dumps({'models':len(models),'licenses':sorted({m['licenseRaw'] for m in models}),'thumbnails':len(manifest['thumbnails']),'integrity':'passed','paths':'passed','credentialScan':'passed','siteChecked':SITE.exists()}))

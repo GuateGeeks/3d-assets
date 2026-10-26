@@ -100,3 +100,18 @@ GG_TEST_BPY=<python con bpy> GG_COTIZADOR=<cotizador> GG_NODE=<node> python3 -m 
 La segunda forma exporta e importa ambos modelos sin cambios y debe dar identidad. También
 compara las articulaciones de tres poses en three.js con las del armature en Blender, con una
 tolerancia de 0.0001.
+
+## Integración y evidencia conservada
+
+Desde el corte del 26 de octubre de 2026, este puente forma parte de `3d-assets`;
+no requiere trabajar en la carpeta hermana `3d-assets-blender`. El código, las
+pruebas y el ejemplo de configuración se versionan. La configuración y los runs
+están en `.local/`, ignorados por Git y excluidos de la publicación.
+
+En el equipo de integración se conservaron los originales del área Blender y se
+copiaron sus 202 archivos locales al repositorio principal, verificando SHA-256.
+Los recibos retienen rutas y hashes históricos: no se reescriben como si los runs
+se hubieran ejecutado aquí. Los runs de validación nuevos quedan separados.
+Un clon nuevo debe configurar sus rutas y producir evidencia propia; consultar
+[SETUP](../SETUP.md#puente-blender-para-el-cotizador) y el
+[informe de integración](../docs/integration-20261026.json).

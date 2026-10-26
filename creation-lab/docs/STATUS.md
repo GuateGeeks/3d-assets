@@ -1,6 +1,6 @@
 # Estado del workflow 3D
 
-22 de octubre de 2026 · preparación integrada en `3d-assets`.
+26 de octubre de 2026 · estado integrado; cada evidencia conserva su fecha original.
 
 El núcleo de creación ya funciona con Blender nativo 5.2.3 LTS. La entrega
 incluye instrucciones permanentes, siete skills propios de creación, un skill
@@ -104,3 +104,16 @@ medida, prueba de interpenetración, interior translúcido sin materiales nuevos
 medición real en GPU desde WSL. Incorporado al skill
 [gg3d-procedural-web](../../.agents/skills/gg3d-procedural-web/SKILL.md). No cambia
 el flujo Blender/GLB ni sus presupuestos.
+
+## Integración del puente web y reconciliación · 26 de octubre de 2026
+
+`procedural-web/` y `gg3d-blender-web` se integran desde el área Blender, junto con
+sus referencias de modelos generados y pivotes. Es una ruta para editar personajes
+del cotizador, distinta de `create.py`, `iterate.py` y el contrato de candidatos.
+La integración conserva los benchmarks de célula/escuela, la reconstrucción de
+primaria y sus evidencias. No modifica sus dictámenes ni promueve assets al catálogo.
+
+El [mapa de áreas de trabajo](../../docs/WORKSPACES.md) describe el historial y
+la evidencia local preservada. Las comprobaciones de este corte se registran en
+[el informe de integración](../../docs/integration-20261026.json); no representan
+una nueva revisión visual ni una inferencia UniRig.
