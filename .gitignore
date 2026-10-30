@@ -18,3 +18,10 @@ enrichment/staging/
 
 # Meshy MCP downloads (written to the server cwd); promote results with provenance.
 meshy_output/
+
+# Unified local authoring runtime and evidence (never public gallery inputs).
+studio/.local/
+studio/web/node_modules/
+studio/web/dist/
+studio/web/test-results/
+studio/web/playwright-report/

@@ -1,6 +1,6 @@
 # Unified 3D Lab — code-first design
 
-Date: 2026-10-29. Status: proposed design, pending document approval.
+Date: 2026-10-29. Status: approved by the user on 2026-10-30; implementation in progress.
 The user selected the recommended Codex-led workflow with a browser preview.
 The detailed architecture below is the builder's proposal, not a claim that it is implemented.
 Basis: [repository and provider audit](../../reviews/2026-10-29-3d-lab-audit.md).
