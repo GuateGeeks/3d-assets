@@ -1,6 +1,6 @@
 # Oficios, herramientas y productividad
 
-29 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+38 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -20,9 +20,18 @@
 | [Wrench](https://poly.pizza/m/enyBvm6bJQL) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/enyBvm6bJQL/model.glb) | 0 / 0 |
 | [Llave ajustable](https://polyhaven.com/a/adjustable_wrench) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Mateusz Sadek | [GLB](../../models/polyhaven-adjustable-wrench/model.glb) | 0 / 0 |
 | [Tornillo de banco](https://polyhaven.com/a/bench_vice_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Yann Kervran, Antanas Kep | [GLB](../../models/polyhaven-bench-vice-01/model.glb) | 1 / 0 |
+| [Envase de limpiador de desagües](https://polyhaven.com/a/drain_cleaner) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | James Ray Cock | [GLB](../../models/polyhaven-drain-cleaner/model.glb) | 0 / 0 |
 | [Cepillo de carpintería](https://polyhaven.com/a/hand_plane_no4) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-hand-plane-no4/model.glb) | 0 / 0 |
 | [Extintor con rotulación coreana](https://polyhaven.com/a/korean_fire_extinguisher_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | UM JOORIN | [GLB](../../models/polyhaven-korean-fire-extinguisher-01/model.glb) | 0 / 0 |
 | [Cinta métrica](https://polyhaven.com/a/measuring_tape_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kuutti Siitonen | [GLB](../../models/polyhaven-measuring-tape-01/model.glb) | 0 / 0 |
+| [Conductos circulares de ventilación](https://polyhaven.com/a/modular_airduct_circular_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Riley Queen | [GLB](../../models/polyhaven-modular-airduct-circular-01/model.glb) | 0 / 0 |
+| [Conductos rectangulares de ventilación](https://polyhaven.com/a/modular_airduct_rectangular_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | James Ray Cock | [GLB](../../models/polyhaven-modular-airduct-rectangular-01/model.glb) | 0 / 0 |
+| [Tuberías industriales modulares](https://polyhaven.com/a/modular_industrial_pipes_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Jorge Camacho | [GLB](../../models/polyhaven-modular-industrial-pipes-01/model.glb) | 0 / 0 |
+| [Tuberías metálicas modulares](https://polyhaven.com/a/modular_pipes) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kuutti Siitonen | [GLB](../../models/polyhaven-modular-pipes/model.glb) | 0 / 0 |
+| [Tuberías plásticas y válvulas modulares](https://polyhaven.com/a/modular_pipes_plastic_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Amal Kumar | [GLB](../../models/polyhaven-modular-pipes-plastic-01/model.glb) | 0 / 0 |
+| [Llave para tubos](https://polyhaven.com/a/pipe_wrench) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Will Evarts | [GLB](../../models/polyhaven-pipe-wrench/model.glb) | 0 / 0 |
+| [Alicates con cortador de alambre](https://polyhaven.com/a/pliers) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | PierreB3D | [GLB](../../models/polyhaven-pliers/model.glb) | 0 / 0 |
+| [Carro de soldadura con cilindros y mangueras](https://polyhaven.com/a/portable_welding_cart) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Georgii Gorbunov | [GLB](../../models/polyhaven-portable-welding-cart/model.glb) | 0 / 0 |
 | [Llave de carraca](https://polyhaven.com/a/ratchet_wrench) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | John Hutcheson | [GLB](../../models/polyhaven-ratchet-wrench/model.glb) | 0 / 0 |
 | [Pala de jardinería](https://polyhaven.com/a/rusted_spade_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Blemonade | [GLB](../../models/polyhaven-rusted-spade-01/model.glb) | 0 / 0 |
 | [Palita de jardinería](https://polyhaven.com/a/trowel_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-trowel-01/model.glb) | 0 / 0 |

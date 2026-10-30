@@ -1,0 +1,69 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Modular Industrial Pipes 01\", por Jorge Camacho / Poly Haven. https://polyhaven.com/a/modular_industrial_pipes_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Jorge Camacho"
+  },
+  "Title": "Modular Industrial Pipes 01",
+  "sourceUrl": "https://polyhaven.com/a/modular_industrial_pipes_01",
+  "assetId": "modular_industrial_pipes_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-modular-industrial-pipes-01/original/modular_industrial_pipes_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_1k.gltf",
+      "bytes": 15014,
+      "md5": "cb30fdf4d471374ba439bfd5a0c8105d",
+      "sha256": "455d3a0fe95b7900a08cbebb23cfb2c341672fcb67ae7355d776e53cfa3d0688"
+    },
+    {
+      "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group02_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_arm_1k.jpg",
+      "bytes": 898932,
+      "md5": "088f90ba0d60c13ff0d6fc43cf734372",
+      "sha256": "4c65dcb651a3d345517fa93ad7c6e48f2388f4e8bb347446f70317c16049867b"
+    },
+    {
+      "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_diff_1k.jpg",
+      "bytes": 553576,
+      "md5": "28678434837d64476cb8d75d0314166e",
+      "sha256": "c0233f66b18e3374dfbbb8c8078a41f6571a0809d3eb14dd9d3c332265cfde7b"
+    },
+    {
+      "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group02_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_nor_gl_1k.jpg",
+      "bytes": 725187,
+      "md5": "282735667b3cd6e2d0ef058f2c260740",
+      "sha256": "84a43ca11a4f1ac84f7fc8336a4e9b7b333d30c13e540f3ff42e662dc6f91b53"
+    },
+    {
+      "file": "models/polyhaven-modular-industrial-pipes-01/original/modular_industrial_pipes_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_industrial_pipes_01/modular_industrial_pipes_01.bin",
+      "bytes": 515160,
+      "md5": "a18d063dc719e19b9c20d2f8c0a8bec4",
+      "sha256": "2e11e1a7dabd56b1e158364f48b0b388bf316fcab61a01274740db75dbafa448"
+    },
+    {
+      "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_nor_gl_1k.jpg",
+      "bytes": 674568,
+      "md5": "a5d4deb3ea6772c0af1275edeab7dc94",
+      "sha256": "ed4728fde567efe420e3a6e1bdc4238b26c2782218737c7e2de88eeca1e91fb2"
+    },
+    {
+      "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_arm_1k.jpg",
+      "bytes": 860825,
+      "md5": "2ab8f10dc9ca832af70cd48183281f97",
+      "sha256": "7fff7d4604491eeb7531ad5f7520517015c72ec7316d1e865d62f23f976dfed6"
+    },
+    {
+      "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group02_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_diff_1k.jpg",
+      "bytes": 580676,
+      "md5": "d3d951f471cfcd15e89cedcd43d28606",
+      "sha256": "ef8a75c402a8871903dcaa147b023d57c640d0de4c7a8acdfdee822861656a92"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

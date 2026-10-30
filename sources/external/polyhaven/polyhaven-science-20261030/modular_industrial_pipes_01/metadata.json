@@ -1,0 +1,48 @@
+{
+  "donated": true,
+  "type": 2,
+  "name": "Modular Industrial Pipes 01",
+  "authors": {
+    "Jorge Camacho": "All"
+  },
+  "date_published": 1623767625,
+  "categories": [
+    "industrial",
+    "structures"
+  ],
+  "tags": [
+    "pipes",
+    "factory",
+    "steam",
+    "modular",
+    "industrial",
+    "utility",
+    "infrastructure"
+  ],
+  "max_resolution": [
+    8192,
+    8192
+  ],
+  "polycount": 12340,
+  "texel_density": 8023.010254819843,
+  "dimensions": [
+    1402.8016328811646,
+    307.5956106185913,
+    1954.6396136283875
+  ],
+  "files_hash": "43a80d0f0f527ea832f00a5d6512ec0ef70a5910",
+  "description": "Free 8K modular industrial pipe set, aged blue-gray metal with rusted flanges, elbows, tees, crosses, straight runs and a red-handled valve with gauge.",
+  "category_id": "b703c8b8-a174-5bb6-977f-cce9baa4b27d",
+  "category": "Industrial & Infrastructure/Pipes & Ducts/Modular Pipes",
+  "attributes": {
+    "condition": [
+      "rusted"
+    ],
+    "material": [
+      "metal"
+    ]
+  },
+  "img_version": "7f0c137b",
+  "download_count": 32256,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/modular_industrial_pipes_01.png?width=256&height=256&format=webp&v=7f0c137b"
+}

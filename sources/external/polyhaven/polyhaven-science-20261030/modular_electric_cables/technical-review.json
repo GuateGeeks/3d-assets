@@ -1,0 +1,63 @@
+{
+  "dimensionsBlender": [
+    2.0766327381134033,
+    0.2145041823387146,
+    0.757252037525177
+  ],
+  "boundsMinBlender": [
+    -0.7286150455474854,
+    -0.10725211352109909,
+    -8.305643284245434e-09
+  ],
+  "boundsMaxBlender": [
+    1.348017692565918,
+    0.1072520762681961,
+    0.757252037525177
+  ],
+  "meshObjects": 49,
+  "polygons": 42078,
+  "vertices": 40964,
+  "materials": 2,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "polyhaven-modular-electric-cables",
+  "sourceFile": "modular_electric_cables_1k.gltf",
+  "glbSha256": "dc373b91755db044ccbb06b27884adbbb6ce7c2284c3fe8faf705bf9ddf64f2c",
+  "reimport": {
+    "dimensionsBlender": [
+      2.0766327381134033,
+      0.2145041823387146,
+      0.757252037525177
+    ],
+    "boundsMinBlender": [
+      -0.7286150455474854,
+      -0.10725211352109909,
+      -8.305643284245434e-09
+    ],
+    "boundsMaxBlender": [
+      1.348017692565918,
+      0.1072520762681961,
+      0.757252037525177
+    ],
+    "meshObjects": 49,
+    "polygons": 42078,
+    "vertices": 40964,
+    "materials": 2,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.00020766327381134035,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-back.webp": "b7a8569ef375cb97733e3342922d63133d3ddf44791a836add78af48e5b0e1f9",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-side.webp": "e36140264952ab776326035fccd905ff924c26df77a86faf942c10bdb83c24c3",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-front.webp": "8b9b16334b04fa5cb956ad5401e040531f8bbbd162c9823aeabc06657598c8cf",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/reimport-three-quarter.webp": "09a363a5c725939def09f6891ffd406dfb5ab09741e7f7e4affaa79cba6cac79",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-three-quarter.webp": "09a363a5c725939def09f6891ffd406dfb5ab09741e7f7e4affaa79cba6cac79",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-wireframe.webp": "bf31c96289b9d61026c35366b8c4393c04f72ded97048f38bf39af9211088bbf"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "publicationImages": "Lossless WebP; decoded RGBA pixel equality verified. Original PNG hashes retained in image-encoding.json and staging."
+}

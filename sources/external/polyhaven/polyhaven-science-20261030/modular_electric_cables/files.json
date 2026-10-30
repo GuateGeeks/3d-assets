@@ -1,0 +1,1280 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/modular_electric_cables/modular_electric_cables_1k.blend",
+        "md5": "4c311c7872b5f68d58aa3e69e822af59",
+        "size": 903164,
+        "include": {
+          "textures/modular_electric_cables_boxes_diff_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_diff_1k.png",
+            "md5": "038586d3480a39e7739bcb47ff95058e",
+            "size": 5100368
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_1k.png",
+            "md5": "949975403283354c09ac535f1b3bd09c",
+            "size": 4997122
+          },
+          "textures/modular_electric_cables_boxes_rough_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_rough_1k.png",
+            "md5": "7301e310016951cdddbdfbb881979bee",
+            "size": 1771603
+          },
+          "textures/modular_electric_cables_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_diff_1k.jpg",
+            "md5": "bf807ef977dc49143dd8ed97c0ffec3c",
+            "size": 474284
+          },
+          "textures/modular_electric_cables_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_metal_1k.exr",
+            "md5": "19cc5b26ce97737cd16740360db6c75b",
+            "size": 82211
+          },
+          "textures/modular_electric_cables_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_nor_gl_1k.exr",
+            "md5": "adb17eb0687863d8d0af6607ddff922d",
+            "size": 1948355
+          },
+          "textures/modular_electric_cables_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_rough_1k.exr",
+            "md5": "4767980be848fd18bd2cd0efb4fe1580",
+            "size": 664111
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/modular_electric_cables/modular_electric_cables_2k.blend",
+        "md5": "c35c7d45507d2be3c301ef944c1b0573",
+        "size": 903622,
+        "include": {
+          "textures/modular_electric_cables_boxes_diff_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_diff_2k.png",
+            "md5": "f743bd09552b3b2cfa9a43fa8cc0a280",
+            "size": 17529946
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_2k.png",
+            "md5": "bfd704674b6202d8b21a36b99421a662",
+            "size": 17846948
+          },
+          "textures/modular_electric_cables_boxes_rough_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_rough_2k.png",
+            "md5": "3e78646d5e1b57ae55aee136bbda9bc9",
+            "size": 5883553
+          },
+          "textures/modular_electric_cables_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_diff_2k.jpg",
+            "md5": "dd06b628c4680404173c0a11289e5adf",
+            "size": 1628766
+          },
+          "textures/modular_electric_cables_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_metal_2k.exr",
+            "md5": "b6d125d719254270a596cd179250dfa5",
+            "size": 172272
+          },
+          "textures/modular_electric_cables_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_nor_gl_2k.exr",
+            "md5": "169c4edbec72658c2a2f1cb75ac5fad5",
+            "size": 7981910
+          },
+          "textures/modular_electric_cables_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_rough_2k.exr",
+            "md5": "b1612b9b788657466626a65a90e3cf7d",
+            "size": 2272480
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/modular_electric_cables/modular_electric_cables_4k.blend",
+        "md5": "e0a2c37b29c48f1c3f208d82c78c0aa8",
+        "size": 903119,
+        "include": {
+          "textures/modular_electric_cables_boxes_diff_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_diff_4k.png",
+            "md5": "d48d2444d7c08d8058aa838592850590",
+            "size": 45307445
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_4k.png",
+            "md5": "a5f8bd64e72de362b28a32c44d7b9c32",
+            "size": 57327451
+          },
+          "textures/modular_electric_cables_boxes_rough_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_rough_4k.png",
+            "md5": "cb199662db62650e7f4a5c88cafa82b6",
+            "size": 13455863
+          },
+          "textures/modular_electric_cables_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_diff_4k.jpg",
+            "md5": "0195ba7a9ea1393b99e8f208c4fc2c28",
+            "size": 5120350
+          },
+          "textures/modular_electric_cables_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_metal_4k.exr",
+            "md5": "a188be93e1d42c440276a4d9bbc6e08b",
+            "size": 361378
+          },
+          "textures/modular_electric_cables_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_nor_gl_4k.exr",
+            "md5": "dbc39d3ea5710daa9ca19901ffe67938",
+            "size": 31894819
+          },
+          "textures/modular_electric_cables_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_rough_4k.exr",
+            "md5": "8d053fa37985c8d84f674e314e3c8cf1",
+            "size": 7289325
+          }
+        }
+      }
+    }
+  },
+  "AO": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_ao_1k.exr",
+        "md5": "d9c7881aa42b398cf853bbe8209bfb29",
+        "size": 512453
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_ao_1k.jpg",
+        "md5": "d3b1522407a62afb9da548234ddd7767",
+        "size": 453201
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_ao_1k.png",
+        "md5": "8071dc75f2b632d6af633c057ca041ca",
+        "size": 1425508
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_ao_2k.exr",
+        "md5": "e7c7b940bd86d13787510716934a0957",
+        "size": 1471791
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_ao_2k.jpg",
+        "md5": "9d66f9dea178424499fd1bcacad2718f",
+        "size": 1419591
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_ao_2k.png",
+        "md5": "cff322ef8c6cbffdc29ba54c80a8910d",
+        "size": 4180497
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_ao_4k.exr",
+        "md5": "5909910542ab398a9ffb7955c3b1b12c",
+        "size": 5400531
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_ao_4k.jpg",
+        "md5": "1e013d46865cce87d2248771b0f4e813",
+        "size": 5330519
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_ao_4k.png",
+        "md5": "595b4fcfaefbecf1841116c667965319",
+        "size": 6743665
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_arm_1k.exr",
+        "md5": "d6ad37aaeb177fc0d569b3be97d56406",
+        "size": 1740882
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_arm_1k.jpg",
+        "md5": "196560790b8dcb085c569a7755648d7b",
+        "size": 797169
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_arm_1k.png",
+        "md5": "59ec89eaa2e07c925ee33e8b643647f9",
+        "size": 3653902
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_arm_2k.exr",
+        "md5": "faabfe1ce4a6d63346be9e77914c30ea",
+        "size": 5584148
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_arm_2k.jpg",
+        "md5": "7195e2938ab35a74fbce0c999b6e211f",
+        "size": 2679133
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_arm_2k.png",
+        "md5": "38d24f4208379e4d434c34a39191fe7a",
+        "size": 11315564
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_arm_4k.exr",
+        "md5": "49ac212b54e18f5d306c45b1a20a1ea4",
+        "size": 17102498
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_arm_4k.jpg",
+        "md5": "e3e4a19c799bcfcb2d967720b39d4d40",
+        "size": 8649314
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_arm_4k.png",
+        "md5": "a2d72589eb152234cd4f8a172da90689",
+        "size": 18259960
+      }
+    }
+  },
+  "boxes_ao": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_boxes_ao_1k.exr",
+        "md5": "dcc6dd9373c1b81fbeab0ac81424d301",
+        "size": 499230
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_ao_1k.jpg",
+        "md5": "8d9320bb2052cd81d4e186db5cfc023a",
+        "size": 431862
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_ao_1k.png",
+        "md5": "51d1eccc00a4d7e760126e5021d9cf9e",
+        "size": 1303173
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_boxes_ao_2k.exr",
+        "md5": "58dcacee3b815a1e4442b7a7977f9368",
+        "size": 1399201
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_ao_2k.jpg",
+        "md5": "4997d196afc48bb4c11cdd25a5d17d5f",
+        "size": 1290832
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_ao_2k.png",
+        "md5": "a74ca82a9239a1e1512d16d9de8428ae",
+        "size": 3691692
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_boxes_ao_4k.exr",
+        "md5": "aa0ae57017fd505e704ee7ef96a2782e",
+        "size": 4833308
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_boxes_ao_4k.jpg",
+        "md5": "38ccb8216fa72bdc5239e44e6a8e715d",
+        "size": 4548260
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_ao_4k.png",
+        "md5": "26c0a4b3d7b21a3cb67e810969f84bfc",
+        "size": 5967934
+      }
+    }
+  },
+  "boxes_arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_boxes_arm_1k.exr",
+        "md5": "ea843d17ee0bc70aaaddf9f85ff605cc",
+        "size": 1957936
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_arm_1k.jpg",
+        "md5": "a0c541de1da2bd138152e45be9383e72",
+        "size": 856332
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_arm_1k.png",
+        "md5": "e4fc7b0f4d00b60dcc84be4dc4ffd2a0",
+        "size": 3749284
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_boxes_arm_2k.exr",
+        "md5": "7d4c6df57ba9b0b659feec1d73346aba",
+        "size": 7113622
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_arm_2k.jpg",
+        "md5": "02a8a4eb52d7e35aaa659e205b74573e",
+        "size": 3140374
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_arm_2k.png",
+        "md5": "75373390f29dc007e08b9566d3348820",
+        "size": 11785322
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_boxes_arm_4k.exr",
+        "md5": "128fa0f6475f3fa1f9a0af2cdbd2edbb",
+        "size": 26730584
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_boxes_arm_4k.jpg",
+        "md5": "3dfb8847c492adb7773047f6f18d236c",
+        "size": 11861186
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_arm_4k.png",
+        "md5": "73441a7edbf59a9ecbf3dd24f19b2aca",
+        "size": 21809282
+      }
+    }
+  },
+  "boxes_diff": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_boxes_diff_1k.exr",
+        "md5": "39867763c0775f9b3785dd49cde881c4",
+        "size": 1062919
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_diff_1k.jpg",
+        "md5": "b561a3ec8790af4033504609e70baa12",
+        "size": 646895
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_diff_1k.png",
+        "md5": "038586d3480a39e7739bcb47ff95058e",
+        "size": 5100368
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_boxes_diff_2k.exr",
+        "md5": "021d6a515f92e84bcac70417b43e587e",
+        "size": 3813766
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_diff_2k.jpg",
+        "md5": "5d5a194eebee6ab8dcd45b71328734d4",
+        "size": 2327515
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_diff_2k.png",
+        "md5": "f743bd09552b3b2cfa9a43fa8cc0a280",
+        "size": 17529946
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_boxes_diff_4k.exr",
+        "md5": "c6c9e4f2a6ec07a9135a050f9f5f3a23",
+        "size": 15992731
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_boxes_diff_4k.jpg",
+        "md5": "c9c614e0f73278c56e9967e5fed81e02",
+        "size": 8660530
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_diff_4k.png",
+        "md5": "d48d2444d7c08d8058aa838592850590",
+        "size": 45307445
+      }
+    }
+  },
+  "boxes_metal": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_boxes_metal_1k.exr",
+        "md5": "dc3542ade418afe1557c6fb22cd2de77",
+        "size": 181944
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_metal_1k.jpg",
+        "md5": "31dfee1eb701dfe4425695a242a12efc",
+        "size": 113196
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_metal_1k.png",
+        "md5": "563ec9b491339e9373d5e32143375875",
+        "size": 98470
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_boxes_metal_2k.exr",
+        "md5": "f5bf67f12d988e86820103d34c5c5207",
+        "size": 415576
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_metal_2k.jpg",
+        "md5": "704995dec61f6cdd549015b1582fef77",
+        "size": 292211
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_metal_2k.png",
+        "md5": "291c45fb6a2338244ef2c9d2dda48258",
+        "size": 232490
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_boxes_metal_4k.exr",
+        "md5": "0e04f48673cf3b2f9823300a12cb8a33",
+        "size": 1018255
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_boxes_metal_4k.jpg",
+        "md5": "97d2a52860d8a13b8bd9a673f0fef612",
+        "size": 856411
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_metal_4k.png",
+        "md5": "7c6adc53ee6f634aeeb79f9dd09e6003",
+        "size": 434545
+      }
+    }
+  },
+  "boxes_nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_boxes_nor_dx_1k.exr",
+        "md5": "9fb36986fc2b66aac4dd72999070152a",
+        "size": 1620030
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_nor_dx_1k.jpg",
+        "md5": "8679c7f3e9f2d4550616f4d6781558bc",
+        "size": 759220
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_nor_dx_1k.png",
+        "md5": "a6da4bd0c69168ba6937886f5aa14fef",
+        "size": 4996366
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_boxes_nor_dx_2k.exr",
+        "md5": "7fad71372defb1f55eb0a6355b1eb4ac",
+        "size": 5928052
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_nor_dx_2k.jpg",
+        "md5": "18e41d4a9aa11557942290de0d67fe6e",
+        "size": 2770847
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_nor_dx_2k.png",
+        "md5": "ab198c1bbe8b33474d43135576007bf3",
+        "size": 17851864
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_boxes_nor_dx_4k.exr",
+        "md5": "4097a1c4d00c8d32d1e8e7090f4f78e0",
+        "size": 21887188
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_boxes_nor_dx_4k.jpg",
+        "md5": "f86c445b5623a62b3332ad44db041e39",
+        "size": 10463768
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_nor_dx_4k.png",
+        "md5": "9a3e8992506e3bc22bb51d328d3340b8",
+        "size": 57364350
+      }
+    }
+  },
+  "boxes_nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_1k.exr",
+        "md5": "1f083dd0ab5219048f8fc4a34037c68a",
+        "size": 1617221
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_1k.jpg",
+        "md5": "cf66abe69419fdaac4afc36c940502d4",
+        "size": 749676
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_1k.png",
+        "md5": "949975403283354c09ac535f1b3bd09c",
+        "size": 4997122
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_2k.exr",
+        "md5": "d579282193cad8904421cd0668b1486b",
+        "size": 5920499
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_2k.jpg",
+        "md5": "0dece50fce1d1764bb1cb4f8c2d59fd9",
+        "size": 2707023
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_2k.png",
+        "md5": "bfd704674b6202d8b21a36b99421a662",
+        "size": 17846948
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_4k.exr",
+        "md5": "83352135c9e3cb809fb6fe71c0483746",
+        "size": 21866188
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_4k.jpg",
+        "md5": "a53ba827d44c76bc893ed58858561105",
+        "size": 9907406
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_4k.png",
+        "md5": "a5f8bd64e72de362b28a32c44d7b9c32",
+        "size": 57327451
+      }
+    }
+  },
+  "boxes_rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_boxes_rough_1k.exr",
+        "md5": "6ebef346b6a1f43af4ea500e012f0f43",
+        "size": 777966
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_rough_1k.jpg",
+        "md5": "a4f73071f3c81c961bd278634dc214d3",
+        "size": 675898
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_rough_1k.png",
+        "md5": "7301e310016951cdddbdfbb881979bee",
+        "size": 1771603
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_boxes_rough_2k.exr",
+        "md5": "2eb8137190d3b5bdf8140990ed7b418b",
+        "size": 2868545
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_rough_2k.jpg",
+        "md5": "61dfbf6d0dc3768a4c48614846d8dc25",
+        "size": 2565526
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_rough_2k.png",
+        "md5": "3e78646d5e1b57ae55aee136bbda9bc9",
+        "size": 5883553
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_boxes_rough_4k.exr",
+        "md5": "052f1111721c1a186d5d83dcb72ff483",
+        "size": 10846836
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_boxes_rough_4k.jpg",
+        "md5": "bf81bb4b27f3c8995c116eaf65cfa583",
+        "size": 9898511
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_rough_4k.png",
+        "md5": "cb199662db62650e7f4a5c88cafa82b6",
+        "size": 13455863
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_diff_1k.exr",
+        "md5": "d2c8aeb815a8409d571a05d7369b3902",
+        "size": 691042
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_diff_1k.jpg",
+        "md5": "bf807ef977dc49143dd8ed97c0ffec3c",
+        "size": 474284
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_diff_1k.png",
+        "md5": "b27a20651e951789f9a73c366b66da74",
+        "size": 4756941
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_diff_2k.exr",
+        "md5": "1be3ae7974acc1803f4157700a4370b0",
+        "size": 2361099
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_diff_2k.jpg",
+        "md5": "dd06b628c4680404173c0a11289e5adf",
+        "size": 1628766
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_diff_2k.png",
+        "md5": "6ecfd6ff6bcee3135f62d2f27bab476c",
+        "size": 16112474
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_diff_4k.exr",
+        "md5": "2afe8e45aa28e0cb591c77077193f71a",
+        "size": 7909620
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_diff_4k.jpg",
+        "md5": "0195ba7a9ea1393b99e8f208c4fc2c28",
+        "size": 5120350
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_diff_4k.png",
+        "md5": "c999b6b87dc5eb9f150facb02828cd54",
+        "size": 31528188
+      }
+    }
+  },
+  "Metal": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_metal_1k.exr",
+        "md5": "19cc5b26ce97737cd16740360db6c75b",
+        "size": 82211
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_metal_1k.jpg",
+        "md5": "4d3e0bb2d31f7c911a2f081c9a4ee85a",
+        "size": 60263
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_metal_1k.png",
+        "md5": "ff5d2b88cf928ae20dcaa8a9fcf0c524",
+        "size": 27949
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_metal_2k.exr",
+        "md5": "b6d125d719254270a596cd179250dfa5",
+        "size": 172272
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_metal_2k.jpg",
+        "md5": "cc096949053512ce1ddc473807d53b51",
+        "size": 156650
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_metal_2k.png",
+        "md5": "2c43ae098f19ff71d8a8abbb0ee20096",
+        "size": 65705
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_metal_4k.exr",
+        "md5": "a188be93e1d42c440276a4d9bbc6e08b",
+        "size": 361378
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_metal_4k.jpg",
+        "md5": "0e206d2f59c2f8dc16f8de514eb95061",
+        "size": 449153
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_metal_4k.png",
+        "md5": "6f3f2284c7b9c8a3ed50d1a91724fc58",
+        "size": 145153
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_nor_dx_1k.exr",
+        "md5": "9a0cb01173f362e3c13e49a10c120390",
+        "size": 1952387
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_nor_dx_1k.jpg",
+        "md5": "a23a27c263ae416b4b19ae144e46a949",
+        "size": 856335
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_nor_dx_1k.png",
+        "md5": "8bad929252b786a018eab5c29e63d286",
+        "size": 5225157
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_nor_dx_2k.exr",
+        "md5": "12433f6a301a77550fe0956f968d51cb",
+        "size": 7990240
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_nor_dx_2k.jpg",
+        "md5": "bd83d1878d5dc1de7f11c9ea1048f00d",
+        "size": 3625694
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_nor_dx_2k.png",
+        "md5": "28c224048ef7f69852b310d1d294da94",
+        "size": 19360434
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_nor_dx_4k.exr",
+        "md5": "c9711995e415a0ca0da2845bdcb6cace",
+        "size": 32043741
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_nor_dx_4k.jpg",
+        "md5": "51cd956bca0be1a9d05911d7bb2b8c35",
+        "size": 15531049
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_nor_dx_4k.png",
+        "md5": "2133436bfb8b3dc744655e539346b86b",
+        "size": 70146645
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_nor_gl_1k.exr",
+        "md5": "adb17eb0687863d8d0af6607ddff922d",
+        "size": 1948355
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_nor_gl_1k.jpg",
+        "md5": "089c0dda6a7b06fc587eb23a9367fda2",
+        "size": 848440
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_nor_gl_1k.png",
+        "md5": "62d01c519921fe31c0aafd0a6621449f",
+        "size": 5225150
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_nor_gl_2k.exr",
+        "md5": "169c4edbec72658c2a2f1cb75ac5fad5",
+        "size": 7981910
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_nor_gl_2k.jpg",
+        "md5": "6eeac85eb146c27ee0737a28925dbdae",
+        "size": 3532531
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_nor_gl_2k.png",
+        "md5": "e68b8eb63b9058eba6416562b221f231",
+        "size": 19360844
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_nor_gl_4k.exr",
+        "md5": "dbc39d3ea5710daa9ca19901ffe67938",
+        "size": 31894819
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_nor_gl_4k.jpg",
+        "md5": "1e1cf0fbb4ba10f903c01015518d8f09",
+        "size": 14596457
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_nor_gl_4k.png",
+        "md5": "7a0a9992193a0d7f212f8232c665337d",
+        "size": 70155793
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_rough_1k.exr",
+        "md5": "4767980be848fd18bd2cd0efb4fe1580",
+        "size": 664111
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_rough_1k.jpg",
+        "md5": "553b0e317d761c355ce209e29ef0b2c5",
+        "size": 579798
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_rough_1k.png",
+        "md5": "c4240dc6f0fc532b6374818050506433",
+        "size": 1625084
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_rough_2k.exr",
+        "md5": "b1612b9b788657466626a65a90e3cf7d",
+        "size": 2272480
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_rough_2k.jpg",
+        "md5": "84c57be19c81d8c268a14ced88c52ad4",
+        "size": 2031730
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_rough_2k.png",
+        "md5": "2db73ffe4c6f73e07435ce1bb4b7b798",
+        "size": 5067981
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_rough_4k.exr",
+        "md5": "8d053fa37985c8d84f674e314e3c8cf1",
+        "size": 7289325
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_rough_4k.jpg",
+        "md5": "423b989e2e2fad845efe3f5c0a883ce5",
+        "size": 6593039
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_rough_4k.png",
+        "md5": "eda6ded069f7e240168af186650b274e",
+        "size": 8008947
+      }
+    }
+  },
+  "fbx": {
+    "1k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/modular_electric_cables/modular_electric_cables_1k.fbx",
+        "md5": "4a884024938486f86265cc3a909bb3e1",
+        "size": 1257932,
+        "include": {
+          "textures/modular_electric_cables_boxes_diff_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_diff_1k.png",
+            "md5": "038586d3480a39e7739bcb47ff95058e",
+            "size": 5100368
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_1k.png",
+            "md5": "949975403283354c09ac535f1b3bd09c",
+            "size": 4997122
+          },
+          "textures/modular_electric_cables_boxes_rough_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_rough_1k.png",
+            "md5": "7301e310016951cdddbdfbb881979bee",
+            "size": 1771603
+          },
+          "textures/modular_electric_cables_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_diff_1k.jpg",
+            "md5": "bf807ef977dc49143dd8ed97c0ffec3c",
+            "size": 474284
+          },
+          "textures/modular_electric_cables_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_metal_1k.exr",
+            "md5": "19cc5b26ce97737cd16740360db6c75b",
+            "size": 82211
+          },
+          "textures/modular_electric_cables_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_nor_gl_1k.exr",
+            "md5": "adb17eb0687863d8d0af6607ddff922d",
+            "size": 1948355
+          },
+          "textures/modular_electric_cables_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_rough_1k.exr",
+            "md5": "4767980be848fd18bd2cd0efb4fe1580",
+            "size": 664111
+          }
+        }
+      }
+    },
+    "2k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/modular_electric_cables/modular_electric_cables_2k.fbx",
+        "md5": "eeeedc2109148f5030a8a67adf7a8423",
+        "size": 1257932,
+        "include": {
+          "textures/modular_electric_cables_boxes_diff_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_diff_2k.png",
+            "md5": "f743bd09552b3b2cfa9a43fa8cc0a280",
+            "size": 17529946
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_2k.png",
+            "md5": "bfd704674b6202d8b21a36b99421a662",
+            "size": 17846948
+          },
+          "textures/modular_electric_cables_boxes_rough_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_rough_2k.png",
+            "md5": "3e78646d5e1b57ae55aee136bbda9bc9",
+            "size": 5883553
+          },
+          "textures/modular_electric_cables_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_diff_2k.jpg",
+            "md5": "dd06b628c4680404173c0a11289e5adf",
+            "size": 1628766
+          },
+          "textures/modular_electric_cables_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_metal_2k.exr",
+            "md5": "b6d125d719254270a596cd179250dfa5",
+            "size": 172272
+          },
+          "textures/modular_electric_cables_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_nor_gl_2k.exr",
+            "md5": "169c4edbec72658c2a2f1cb75ac5fad5",
+            "size": 7981910
+          },
+          "textures/modular_electric_cables_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_rough_2k.exr",
+            "md5": "b1612b9b788657466626a65a90e3cf7d",
+            "size": 2272480
+          }
+        }
+      }
+    },
+    "4k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/modular_electric_cables/modular_electric_cables_4k.fbx",
+        "md5": "3a341298e75bd3a3f3bbdd0f61e86967",
+        "size": 1257932,
+        "include": {
+          "textures/modular_electric_cables_boxes_diff_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_diff_4k.png",
+            "md5": "d48d2444d7c08d8058aa838592850590",
+            "size": 45307445
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_4k.png",
+            "md5": "a5f8bd64e72de362b28a32c44d7b9c32",
+            "size": 57327451
+          },
+          "textures/modular_electric_cables_boxes_rough_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_rough_4k.png",
+            "md5": "cb199662db62650e7f4a5c88cafa82b6",
+            "size": 13455863
+          },
+          "textures/modular_electric_cables_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_diff_4k.jpg",
+            "md5": "0195ba7a9ea1393b99e8f208c4fc2c28",
+            "size": 5120350
+          },
+          "textures/modular_electric_cables_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_metal_4k.exr",
+            "md5": "a188be93e1d42c440276a4d9bbc6e08b",
+            "size": 361378
+          },
+          "textures/modular_electric_cables_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_nor_gl_4k.exr",
+            "md5": "dbc39d3ea5710daa9ca19901ffe67938",
+            "size": 31894819
+          },
+          "textures/modular_electric_cables_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_rough_4k.exr",
+            "md5": "8d053fa37985c8d84f674e314e3c8cf1",
+            "size": 7289325
+          }
+        }
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_electric_cables/modular_electric_cables_1k.gltf",
+        "md5": "452d8189381a17d02467785ec1691f2b",
+        "size": 82607,
+        "include": {
+          "textures/modular_electric_cables_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_nor_gl_1k.jpg",
+            "md5": "089c0dda6a7b06fc587eb23a9367fda2",
+            "size": 848440
+          },
+          "textures/modular_electric_cables_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_diff_1k.jpg",
+            "md5": "bf807ef977dc49143dd8ed97c0ffec3c",
+            "size": 474284
+          },
+          "textures/modular_electric_cables_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_arm_1k.jpg",
+            "md5": "196560790b8dcb085c569a7755648d7b",
+            "size": 797169
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_1k.jpg",
+            "md5": "cf66abe69419fdaac4afc36c940502d4",
+            "size": 749676
+          },
+          "textures/modular_electric_cables_boxes_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_diff_1k.jpg",
+            "md5": "b561a3ec8790af4033504609e70baa12",
+            "size": 646895
+          },
+          "textures/modular_electric_cables_boxes_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_arm_1k.jpg",
+            "md5": "a0c541de1da2bd138152e45be9383e72",
+            "size": 856332
+          },
+          "modular_electric_cables.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_electric_cables/modular_electric_cables.bin",
+            "md5": "1444b0e21d201c344a99e86937bbe5fc",
+            "size": 1563316
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/modular_electric_cables/modular_electric_cables_2k.gltf",
+        "md5": "f2142760a00c34109c50b8407cd9e656",
+        "size": 82607,
+        "include": {
+          "textures/modular_electric_cables_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_nor_gl_2k.jpg",
+            "md5": "6eeac85eb146c27ee0737a28925dbdae",
+            "size": 3532531
+          },
+          "textures/modular_electric_cables_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_diff_2k.jpg",
+            "md5": "dd06b628c4680404173c0a11289e5adf",
+            "size": 1628766
+          },
+          "textures/modular_electric_cables_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_arm_2k.jpg",
+            "md5": "7195e2938ab35a74fbce0c999b6e211f",
+            "size": 2679133
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_2k.jpg",
+            "md5": "0dece50fce1d1764bb1cb4f8c2d59fd9",
+            "size": 2707023
+          },
+          "textures/modular_electric_cables_boxes_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_diff_2k.jpg",
+            "md5": "5d5a194eebee6ab8dcd45b71328734d4",
+            "size": 2327515
+          },
+          "textures/modular_electric_cables_boxes_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_arm_2k.jpg",
+            "md5": "02a8a4eb52d7e35aaa659e205b74573e",
+            "size": 3140374
+          },
+          "modular_electric_cables.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_electric_cables/modular_electric_cables.bin",
+            "md5": "1444b0e21d201c344a99e86937bbe5fc",
+            "size": 1563316
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_electric_cables/modular_electric_cables_4k.gltf",
+        "md5": "a5547be94512be55a34e69bd6a5d3ce4",
+        "size": 82607,
+        "include": {
+          "textures/modular_electric_cables_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_nor_gl_4k.jpg",
+            "md5": "1e1cf0fbb4ba10f903c01015518d8f09",
+            "size": 14596457
+          },
+          "textures/modular_electric_cables_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_diff_4k.jpg",
+            "md5": "0195ba7a9ea1393b99e8f208c4fc2c28",
+            "size": 5120350
+          },
+          "textures/modular_electric_cables_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_arm_4k.jpg",
+            "md5": "e3e4a19c799bcfcb2d967720b39d4d40",
+            "size": 8649314
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_4k.jpg",
+            "md5": "a53ba827d44c76bc893ed58858561105",
+            "size": 9907406
+          },
+          "textures/modular_electric_cables_boxes_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_boxes_diff_4k.jpg",
+            "md5": "c9c614e0f73278c56e9967e5fed81e02",
+            "size": 8660530
+          },
+          "textures/modular_electric_cables_boxes_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_boxes_arm_4k.jpg",
+            "md5": "3dfb8847c492adb7773047f6f18d236c",
+            "size": 11861186
+          },
+          "modular_electric_cables.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_electric_cables/modular_electric_cables.bin",
+            "md5": "1444b0e21d201c344a99e86937bbe5fc",
+            "size": 1563316
+          }
+        }
+      }
+    }
+  },
+  "usd": {
+    "1k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/modular_electric_cables/modular_electric_cables_1k.usdc",
+        "md5": "6e988a9d43f9c23813e99227be757baa",
+        "size": 2125520,
+        "include": {
+          "textures/modular_electric_cables_boxes_diff_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_diff_1k.png",
+            "md5": "038586d3480a39e7739bcb47ff95058e",
+            "size": 5100368
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_1k.png",
+            "md5": "949975403283354c09ac535f1b3bd09c",
+            "size": 4997122
+          },
+          "textures/modular_electric_cables_boxes_rough_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_electric_cables/modular_electric_cables_boxes_rough_1k.png",
+            "md5": "7301e310016951cdddbdfbb881979bee",
+            "size": 1771603
+          },
+          "textures/modular_electric_cables_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_diff_1k.jpg",
+            "md5": "bf807ef977dc49143dd8ed97c0ffec3c",
+            "size": 474284
+          },
+          "textures/modular_electric_cables_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_metal_1k.exr",
+            "md5": "19cc5b26ce97737cd16740360db6c75b",
+            "size": 82211
+          },
+          "textures/modular_electric_cables_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_nor_gl_1k.exr",
+            "md5": "adb17eb0687863d8d0af6607ddff922d",
+            "size": 1948355
+          },
+          "textures/modular_electric_cables_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_electric_cables/modular_electric_cables_rough_1k.exr",
+            "md5": "4767980be848fd18bd2cd0efb4fe1580",
+            "size": 664111
+          }
+        }
+      }
+    },
+    "2k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/modular_electric_cables/modular_electric_cables_2k.usdc",
+        "md5": "c05746e098193cea449fb3b620b11f79",
+        "size": 2125534,
+        "include": {
+          "textures/modular_electric_cables_boxes_diff_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_diff_2k.png",
+            "md5": "f743bd09552b3b2cfa9a43fa8cc0a280",
+            "size": 17529946
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_2k.png",
+            "md5": "bfd704674b6202d8b21a36b99421a662",
+            "size": 17846948
+          },
+          "textures/modular_electric_cables_boxes_rough_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electric_cables/modular_electric_cables_boxes_rough_2k.png",
+            "md5": "3e78646d5e1b57ae55aee136bbda9bc9",
+            "size": 5883553
+          },
+          "textures/modular_electric_cables_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_diff_2k.jpg",
+            "md5": "dd06b628c4680404173c0a11289e5adf",
+            "size": 1628766
+          },
+          "textures/modular_electric_cables_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_metal_2k.exr",
+            "md5": "b6d125d719254270a596cd179250dfa5",
+            "size": 172272
+          },
+          "textures/modular_electric_cables_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_nor_gl_2k.exr",
+            "md5": "169c4edbec72658c2a2f1cb75ac5fad5",
+            "size": 7981910
+          },
+          "textures/modular_electric_cables_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electric_cables/modular_electric_cables_rough_2k.exr",
+            "md5": "b1612b9b788657466626a65a90e3cf7d",
+            "size": 2272480
+          }
+        }
+      }
+    },
+    "4k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/modular_electric_cables/modular_electric_cables_4k.usdc",
+        "md5": "efaafc625e38cfc6419385caa43eeab7",
+        "size": 2125540,
+        "include": {
+          "textures/modular_electric_cables_boxes_diff_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_diff_4k.png",
+            "md5": "d48d2444d7c08d8058aa838592850590",
+            "size": 45307445
+          },
+          "textures/modular_electric_cables_boxes_nor_gl_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_4k.png",
+            "md5": "a5f8bd64e72de362b28a32c44d7b9c32",
+            "size": 57327451
+          },
+          "textures/modular_electric_cables_boxes_rough_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_electric_cables/modular_electric_cables_boxes_rough_4k.png",
+            "md5": "cb199662db62650e7f4a5c88cafa82b6",
+            "size": 13455863
+          },
+          "textures/modular_electric_cables_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_electric_cables/modular_electric_cables_diff_4k.jpg",
+            "md5": "0195ba7a9ea1393b99e8f208c4fc2c28",
+            "size": 5120350
+          },
+          "textures/modular_electric_cables_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_metal_4k.exr",
+            "md5": "a188be93e1d42c440276a4d9bbc6e08b",
+            "size": 361378
+          },
+          "textures/modular_electric_cables_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_nor_gl_4k.exr",
+            "md5": "dbc39d3ea5710daa9ca19901ffe67938",
+            "size": 31894819
+          },
+          "textures/modular_electric_cables_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_electric_cables/modular_electric_cables_rough_4k.exr",
+            "md5": "8d053fa37985c8d84f674e314e3c8cf1",
+            "size": 7289325
+          }
+        }
+      }
+    }
+  }
+}

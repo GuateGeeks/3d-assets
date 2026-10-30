@@ -1,0 +1,834 @@
+{
+  "Diffuse": {
+    "8k": {
+      "jpg": {
+        "size": 31948254,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_diff_8k.jpg",
+        "md5": "0b1c578c6223a80ba99d6001e926e85a"
+      },
+      "png": {
+        "size": 228506284,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/drain_cleaner/drain_cleaner_diff_8k.png",
+        "md5": "ada0c271eb975593a3218b097efef7dc"
+      },
+      "exr": {
+        "size": 75277084,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_diff_8k.exr",
+        "md5": "b0fa09f9d7ae204de6f2ec61f4101c9e"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 7747831,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_diff_4k.jpg",
+        "md5": "64dbcd8decc923a963fe4eb0e194a8d7"
+      },
+      "png": {
+        "size": 76043042,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/drain_cleaner/drain_cleaner_diff_4k.png",
+        "md5": "30822a30bbc4c29810a2674aba4f69ae"
+      },
+      "exr": {
+        "size": 16750040,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_diff_4k.exr",
+        "md5": "a3cfc359603b218f9f4263fc4009a29e"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2041684,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_diff_2k.jpg",
+        "md5": "ec61d416e1228943479a31decc7707a1"
+      },
+      "png": {
+        "size": 20417572,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/drain_cleaner/drain_cleaner_diff_2k.png",
+        "md5": "5887a13388478981c5c0c36f48a40c04"
+      },
+      "exr": {
+        "size": 4441020,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_diff_2k.exr",
+        "md5": "a16511410642f8df69454c4f6ce9fb33"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 559803,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_diff_1k.jpg",
+        "md5": "afe6ff714d1a3fe7eb1b0ea1008c680b"
+      },
+      "png": {
+        "size": 5444341,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/drain_cleaner/drain_cleaner_diff_1k.png",
+        "md5": "a5127b124615e5c84e997345961795c8"
+      },
+      "exr": {
+        "size": 1256382,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_diff_1k.exr",
+        "md5": "c0d49d321dc9f4bb9a6746b2fb061398"
+      }
+    }
+  },
+  "nor_dx": {
+    "8k": {
+      "jpg": {
+        "size": 28986501,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_nor_dx_8k.jpg",
+        "md5": "0c2b798dd8687d0ef22d1dc5c52a1a8a"
+      },
+      "png": {
+        "size": 241694312,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/drain_cleaner/drain_cleaner_nor_dx_8k.png",
+        "md5": "02c89815f1df48d0479e16821c1df3a8"
+      },
+      "exr": {
+        "size": 63003471,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_nor_dx_8k.exr",
+        "md5": "fed3061155ca43641f943cc2b695a267"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 6454643,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_nor_dx_4k.jpg",
+        "md5": "ef87d82411518ae6e576e1f5b2570c63"
+      },
+      "png": {
+        "size": 67481202,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/drain_cleaner/drain_cleaner_nor_dx_4k.png",
+        "md5": "25696ac559d46a898a856a042342ed5c"
+      },
+      "exr": {
+        "size": 13483369,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_nor_dx_4k.exr",
+        "md5": "4f01c003c2844e00aade7a33a37b88b3"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1530229,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_nor_dx_2k.jpg",
+        "md5": "4b11676ac9bb715646695ec5c03fcf64"
+      },
+      "png": {
+        "size": 17818880,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/drain_cleaner/drain_cleaner_nor_dx_2k.png",
+        "md5": "f2c3fc8492e5c35938bd901550c2d2a5"
+      },
+      "exr": {
+        "size": 3138240,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_nor_dx_2k.exr",
+        "md5": "1967d2ceaa360c095904e04774563cc8"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 375012,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_nor_dx_1k.jpg",
+        "md5": "be04aa255590cc1143454a64176cd271"
+      },
+      "png": {
+        "size": 4578073,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/drain_cleaner/drain_cleaner_nor_dx_1k.png",
+        "md5": "05ef6ec93cbb6912db9231cd8b28c6c1"
+      },
+      "exr": {
+        "size": 759647,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_nor_dx_1k.exr",
+        "md5": "f0ecd7cbf46f415f44ded05ea032ab8a"
+      }
+    }
+  },
+  "nor_gl": {
+    "8k": {
+      "jpg": {
+        "size": 26263990,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_nor_gl_8k.jpg",
+        "md5": "93b6e2f3f5a73e18e10230cd851ae0d0"
+      },
+      "png": {
+        "size": 241718933,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/drain_cleaner/drain_cleaner_nor_gl_8k.png",
+        "md5": "f9f1079ddd395442c06df744492c5c17"
+      },
+      "exr": {
+        "size": 63246440,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_nor_gl_8k.exr",
+        "md5": "8c220d58359f5bfd8ccd7d328b9d891a"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 6150630,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_nor_gl_4k.jpg",
+        "md5": "700f20611c0c11ad81e54285d40e4f7e"
+      },
+      "png": {
+        "size": 67486479,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/drain_cleaner/drain_cleaner_nor_gl_4k.png",
+        "md5": "7bc2f37b3bfc998f1a9fdcf6545772b3"
+      },
+      "exr": {
+        "size": 13513969,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_nor_gl_4k.exr",
+        "md5": "780fdb8dcffad7bd5fcde0a2f0d99f5a"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1488846,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_nor_gl_2k.jpg",
+        "md5": "7948481adb61b038156739d3ffe9b844"
+      },
+      "png": {
+        "size": 17820141,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/drain_cleaner/drain_cleaner_nor_gl_2k.png",
+        "md5": "4eca71401793080dc31b8ee9c998013d"
+      },
+      "exr": {
+        "size": 3148675,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_nor_gl_2k.exr",
+        "md5": "e27c00136a7fc420cde62c004674a585"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 367355,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_nor_gl_1k.jpg",
+        "md5": "fb9aad5e162cbe1fa3ce6cdae9510a72"
+      },
+      "png": {
+        "size": 4578097,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/drain_cleaner/drain_cleaner_nor_gl_1k.png",
+        "md5": "8ccad627606258be58adaac822b1d778"
+      },
+      "exr": {
+        "size": 760217,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_nor_gl_1k.exr",
+        "md5": "b861989b5e1a09a9fec24f7e266d06d8"
+      }
+    }
+  },
+  "blend": {
+    "8k": {
+      "blend": {
+        "include": {
+          "textures/drain_cleaner_diff_8k.jpg": {
+            "size": 31948254,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_diff_8k.jpg",
+            "md5": "0b1c578c6223a80ba99d6001e926e85a"
+          },
+          "textures/drain_cleaner_rough_8k.exr": {
+            "size": 46899457,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_rough_8k.exr",
+            "md5": "81dd8aae51dcb2ef4931b9bbef15dc30"
+          },
+          "textures/drain_cleaner_nor_gl_8k.exr": {
+            "size": 63246440,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_nor_gl_8k.exr",
+            "md5": "8c220d58359f5bfd8ccd7d328b9d891a"
+          }
+        },
+        "size": 209893,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/8k/drain_cleaner/drain_cleaner_8k.blend",
+        "md5": "eafb0d1169369b4eeefd9056241c2be2"
+      }
+    },
+    "4k": {
+      "blend": {
+        "include": {
+          "textures/drain_cleaner_nor_gl_4k.exr": {
+            "size": 13513969,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_nor_gl_4k.exr",
+            "md5": "780fdb8dcffad7bd5fcde0a2f0d99f5a"
+          },
+          "textures/drain_cleaner_diff_4k.jpg": {
+            "size": 7747831,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_diff_4k.jpg",
+            "md5": "64dbcd8decc923a963fe4eb0e194a8d7"
+          },
+          "textures/drain_cleaner_rough_4k.exr": {
+            "size": 14258702,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_rough_4k.exr",
+            "md5": "168b30c40f204d7f5271cd901141bc96"
+          }
+        },
+        "size": 215268,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/drain_cleaner/drain_cleaner_4k.blend",
+        "md5": "db1fae6ce91576a26841ec620dd6bc73"
+      }
+    },
+    "2k": {
+      "blend": {
+        "include": {
+          "textures/drain_cleaner_nor_gl_2k.exr": {
+            "size": 3148675,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_nor_gl_2k.exr",
+            "md5": "e27c00136a7fc420cde62c004674a585"
+          },
+          "textures/drain_cleaner_diff_2k.jpg": {
+            "size": 2041684,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_diff_2k.jpg",
+            "md5": "ec61d416e1228943479a31decc7707a1"
+          },
+          "textures/drain_cleaner_rough_2k.exr": {
+            "size": 4213315,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_rough_2k.exr",
+            "md5": "9b0988cd5a506b341c4a0c943b3bc114"
+          }
+        },
+        "size": 196912,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/drain_cleaner/drain_cleaner_2k.blend",
+        "md5": "dce0e369575df8d64b40954551715bb2"
+      }
+    },
+    "1k": {
+      "blend": {
+        "include": {
+          "textures/drain_cleaner_diff_1k.jpg": {
+            "size": 559803,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_diff_1k.jpg",
+            "md5": "afe6ff714d1a3fe7eb1b0ea1008c680b"
+          },
+          "textures/drain_cleaner_rough_1k.exr": {
+            "size": 1139702,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_rough_1k.exr",
+            "md5": "5def94f6bfbdb2f214b57afd6f77be5d"
+          },
+          "textures/drain_cleaner_nor_gl_1k.exr": {
+            "size": 760217,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_nor_gl_1k.exr",
+            "md5": "b861989b5e1a09a9fec24f7e266d06d8"
+          }
+        },
+        "size": 212614,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/drain_cleaner/drain_cleaner_1k.blend",
+        "md5": "a1ac833e80ef00e6e8224385662b398d"
+      }
+    }
+  },
+  "gltf": {
+    "8k": {
+      "gltf": {
+        "include": {
+          "textures/drain_cleaner_diff_8k.jpg": {
+            "size": 31948254,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_diff_8k.jpg",
+            "md5": "0b1c578c6223a80ba99d6001e926e85a"
+          },
+          "textures/drain_cleaner_nor_gl_8k.jpg": {
+            "size": 26263990,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_nor_gl_8k.jpg",
+            "md5": "93b6e2f3f5a73e18e10230cd851ae0d0"
+          },
+          "textures/drain_cleaner_arm_8k.jpg": {
+            "size": 36559984,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_arm_8k.jpg",
+            "md5": "41b33273e15f8b840662b8c8e13d05d7"
+          },
+          "drain_cleaner.bin": {
+            "size": 121708,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/drain_cleaner/drain_cleaner.bin",
+            "md5": "c9725920c8e16ff1c896ed6f5c3f2b8d"
+          }
+        },
+        "size": 2793,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/drain_cleaner/drain_cleaner_8k.gltf",
+        "md5": "b2a7d65aa5b3d1e225a55f72f2357aa4"
+      }
+    },
+    "4k": {
+      "gltf": {
+        "include": {
+          "textures/drain_cleaner_nor_gl_4k.jpg": {
+            "size": 6150630,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_nor_gl_4k.jpg",
+            "md5": "700f20611c0c11ad81e54285d40e4f7e"
+          },
+          "textures/drain_cleaner_arm_4k.jpg": {
+            "size": 8844956,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_arm_4k.jpg",
+            "md5": "e833b1a0ca6b9ca893f905679b5b13b4"
+          },
+          "textures/drain_cleaner_diff_4k.jpg": {
+            "size": 7747831,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_diff_4k.jpg",
+            "md5": "64dbcd8decc923a963fe4eb0e194a8d7"
+          },
+          "drain_cleaner.bin": {
+            "size": 121708,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/drain_cleaner/drain_cleaner.bin",
+            "md5": "c9725920c8e16ff1c896ed6f5c3f2b8d"
+          }
+        },
+        "size": 2793,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/drain_cleaner/drain_cleaner_4k.gltf",
+        "md5": "b7827c9f051537d57eabea004b48fed8"
+      }
+    },
+    "2k": {
+      "gltf": {
+        "include": {
+          "textures/drain_cleaner_nor_gl_2k.jpg": {
+            "size": 1488846,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_nor_gl_2k.jpg",
+            "md5": "7948481adb61b038156739d3ffe9b844"
+          },
+          "textures/drain_cleaner_arm_2k.jpg": {
+            "size": 2280392,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_arm_2k.jpg",
+            "md5": "2c240c3d54b6c802eea23888c0978f95"
+          },
+          "textures/drain_cleaner_diff_2k.jpg": {
+            "size": 2041684,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_diff_2k.jpg",
+            "md5": "ec61d416e1228943479a31decc7707a1"
+          },
+          "drain_cleaner.bin": {
+            "size": 121708,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/drain_cleaner/drain_cleaner.bin",
+            "md5": "c9725920c8e16ff1c896ed6f5c3f2b8d"
+          }
+        },
+        "size": 2793,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/drain_cleaner/drain_cleaner_2k.gltf",
+        "md5": "94b52e293224c79f8918852c4f6d9947"
+      }
+    },
+    "1k": {
+      "gltf": {
+        "include": {
+          "textures/drain_cleaner_nor_gl_1k.jpg": {
+            "size": 367355,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_nor_gl_1k.jpg",
+            "md5": "fb9aad5e162cbe1fa3ce6cdae9510a72"
+          },
+          "textures/drain_cleaner_diff_1k.jpg": {
+            "size": 559803,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_diff_1k.jpg",
+            "md5": "afe6ff714d1a3fe7eb1b0ea1008c680b"
+          },
+          "drain_cleaner.bin": {
+            "size": 121708,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/drain_cleaner/drain_cleaner.bin",
+            "md5": "c9725920c8e16ff1c896ed6f5c3f2b8d"
+          },
+          "textures/drain_cleaner_arm_1k.jpg": {
+            "size": 595640,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_arm_1k.jpg",
+            "md5": "b9982a4268ab8c640e40388e744f8d63"
+          }
+        },
+        "size": 2793,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/drain_cleaner/drain_cleaner_1k.gltf",
+        "md5": "b34bc8c8995bb6c4ac7cead16ae1fca6"
+      }
+    }
+  },
+  "usd": {
+    "8k": {
+      "usd": {
+        "include": {
+          "textures/drain_cleaner_diff_8k.jpg": {
+            "size": 31948254,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_diff_8k.jpg",
+            "md5": "0b1c578c6223a80ba99d6001e926e85a"
+          },
+          "textures/drain_cleaner_rough_8k.exr": {
+            "size": 46899457,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_rough_8k.exr",
+            "md5": "81dd8aae51dcb2ef4931b9bbef15dc30"
+          },
+          "textures/drain_cleaner_nor_gl_8k.exr": {
+            "size": 63246440,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_nor_gl_8k.exr",
+            "md5": "8c220d58359f5bfd8ccd7d328b9d891a"
+          }
+        },
+        "size": 217948,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/8k/drain_cleaner/drain_cleaner_8k.usdc",
+        "md5": "574cf9831651eb7daf66cce4156f87ac"
+      }
+    },
+    "4k": {
+      "usd": {
+        "include": {
+          "textures/drain_cleaner_nor_gl_4k.exr": {
+            "size": 13513969,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_nor_gl_4k.exr",
+            "md5": "780fdb8dcffad7bd5fcde0a2f0d99f5a"
+          },
+          "textures/drain_cleaner_diff_4k.jpg": {
+            "size": 7747831,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_diff_4k.jpg",
+            "md5": "64dbcd8decc923a963fe4eb0e194a8d7"
+          },
+          "textures/drain_cleaner_rough_4k.exr": {
+            "size": 14258702,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_rough_4k.exr",
+            "md5": "168b30c40f204d7f5271cd901141bc96"
+          }
+        },
+        "size": 217948,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/drain_cleaner/drain_cleaner_4k.usdc",
+        "md5": "fdbb9359e54d05eb6c018fca2375ba5e"
+      }
+    },
+    "2k": {
+      "usd": {
+        "include": {
+          "textures/drain_cleaner_nor_gl_2k.exr": {
+            "size": 3148675,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_nor_gl_2k.exr",
+            "md5": "e27c00136a7fc420cde62c004674a585"
+          },
+          "textures/drain_cleaner_diff_2k.jpg": {
+            "size": 2041684,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_diff_2k.jpg",
+            "md5": "ec61d416e1228943479a31decc7707a1"
+          },
+          "textures/drain_cleaner_rough_2k.exr": {
+            "size": 4213315,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_rough_2k.exr",
+            "md5": "9b0988cd5a506b341c4a0c943b3bc114"
+          }
+        },
+        "size": 217948,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/drain_cleaner/drain_cleaner_2k.usdc",
+        "md5": "aa299f767931027ebf76fcae09d017b6"
+      }
+    },
+    "1k": {
+      "usd": {
+        "include": {
+          "textures/drain_cleaner_diff_1k.jpg": {
+            "size": 559803,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_diff_1k.jpg",
+            "md5": "afe6ff714d1a3fe7eb1b0ea1008c680b"
+          },
+          "textures/drain_cleaner_rough_1k.exr": {
+            "size": 1139702,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_rough_1k.exr",
+            "md5": "5def94f6bfbdb2f214b57afd6f77be5d"
+          },
+          "textures/drain_cleaner_nor_gl_1k.exr": {
+            "size": 760217,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_nor_gl_1k.exr",
+            "md5": "b861989b5e1a09a9fec24f7e266d06d8"
+          }
+        },
+        "size": 217974,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/drain_cleaner/drain_cleaner_1k.usdc",
+        "md5": "35874a8441faa4fb9f170ac17ea4eda9"
+      }
+    }
+  },
+  "arm": {
+    "8k": {
+      "jpg": {
+        "size": 36559984,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_arm_8k.jpg",
+        "md5": "41b33273e15f8b840662b8c8e13d05d7"
+      },
+      "png": {
+        "size": 141427913,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/drain_cleaner/drain_cleaner_arm_8k.png",
+        "md5": "3d3eb0b8f9a4293572cac6ff3b50bcf8"
+      },
+      "exr": {
+        "size": 84943752,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_arm_8k.exr",
+        "md5": "b4dbafecdb489422f1c68eb26194e943"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 8844956,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_arm_4k.jpg",
+        "md5": "e833b1a0ca6b9ca893f905679b5b13b4"
+      },
+      "png": {
+        "size": 42237165,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/drain_cleaner/drain_cleaner_arm_4k.png",
+        "md5": "799a19c71aee8b915873bc314e42862e"
+      },
+      "exr": {
+        "size": 20058086,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_arm_4k.exr",
+        "md5": "0d1b24d536aa98d251692a03cf18a36d"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2280392,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_arm_2k.jpg",
+        "md5": "2c240c3d54b6c802eea23888c0978f95"
+      },
+      "png": {
+        "size": 12049903,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/drain_cleaner/drain_cleaner_arm_2k.png",
+        "md5": "254eb715156eb782490c51c74621db0b"
+      },
+      "exr": {
+        "size": 5196597,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_arm_2k.exr",
+        "md5": "d4c655e04050d5de53d7b34e859f52b7"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 595640,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_arm_1k.jpg",
+        "md5": "b9982a4268ab8c640e40388e744f8d63"
+      },
+      "png": {
+        "size": 3224714,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/drain_cleaner/drain_cleaner_arm_1k.png",
+        "md5": "a432bb9dad3782b854b8b0bdc8effbaf"
+      },
+      "exr": {
+        "size": 1381406,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_arm_1k.exr",
+        "md5": "80c70da86af4cbf9cbccfa2c566af265"
+      }
+    }
+  },
+  "fbx": {
+    "8k": {
+      "fbx": {
+        "include": {
+          "textures/drain_cleaner_diff_8k.jpg": {
+            "size": 31948254,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_diff_8k.jpg",
+            "md5": "0b1c578c6223a80ba99d6001e926e85a"
+          },
+          "textures/drain_cleaner_rough_8k.exr": {
+            "size": 46899457,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_rough_8k.exr",
+            "md5": "81dd8aae51dcb2ef4931b9bbef15dc30"
+          },
+          "textures/drain_cleaner_nor_gl_8k.exr": {
+            "size": 63246440,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_nor_gl_8k.exr",
+            "md5": "8c220d58359f5bfd8ccd7d328b9d891a"
+          }
+        },
+        "size": 150988,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/8k/drain_cleaner/drain_cleaner_8k.fbx",
+        "md5": "4874ed9574a1e453a47b046231dbda98"
+      }
+    },
+    "4k": {
+      "fbx": {
+        "include": {
+          "textures/drain_cleaner_nor_gl_4k.exr": {
+            "size": 13513969,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_nor_gl_4k.exr",
+            "md5": "780fdb8dcffad7bd5fcde0a2f0d99f5a"
+          },
+          "textures/drain_cleaner_diff_4k.jpg": {
+            "size": 7747831,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_diff_4k.jpg",
+            "md5": "64dbcd8decc923a963fe4eb0e194a8d7"
+          },
+          "textures/drain_cleaner_rough_4k.exr": {
+            "size": 14258702,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_rough_4k.exr",
+            "md5": "168b30c40f204d7f5271cd901141bc96"
+          }
+        },
+        "size": 150988,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/drain_cleaner/drain_cleaner_4k.fbx",
+        "md5": "4b24c30b444fa3937a9161acd3185e75"
+      }
+    },
+    "2k": {
+      "fbx": {
+        "include": {
+          "textures/drain_cleaner_nor_gl_2k.exr": {
+            "size": 3148675,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_nor_gl_2k.exr",
+            "md5": "e27c00136a7fc420cde62c004674a585"
+          },
+          "textures/drain_cleaner_diff_2k.jpg": {
+            "size": 2041684,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_diff_2k.jpg",
+            "md5": "ec61d416e1228943479a31decc7707a1"
+          },
+          "textures/drain_cleaner_rough_2k.exr": {
+            "size": 4213315,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_rough_2k.exr",
+            "md5": "9b0988cd5a506b341c4a0c943b3bc114"
+          }
+        },
+        "size": 150988,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/drain_cleaner/drain_cleaner_2k.fbx",
+        "md5": "6cd9a1facc572292e584ca8a3952365b"
+      }
+    },
+    "1k": {
+      "fbx": {
+        "include": {
+          "textures/drain_cleaner_diff_1k.jpg": {
+            "size": 559803,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_diff_1k.jpg",
+            "md5": "afe6ff714d1a3fe7eb1b0ea1008c680b"
+          },
+          "textures/drain_cleaner_rough_1k.exr": {
+            "size": 1139702,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_rough_1k.exr",
+            "md5": "5def94f6bfbdb2f214b57afd6f77be5d"
+          },
+          "textures/drain_cleaner_nor_gl_1k.exr": {
+            "size": 760217,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_nor_gl_1k.exr",
+            "md5": "b861989b5e1a09a9fec24f7e266d06d8"
+          }
+        },
+        "size": 150988,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/drain_cleaner/drain_cleaner_1k.fbx",
+        "md5": "cbba17feb154734ecb0219bef163409c"
+      }
+    }
+  },
+  "AO": {
+    "8k": {
+      "jpg": {
+        "size": 7065089,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_ao_8k.jpg",
+        "md5": "e68a4abd920efdcdbc7fe2cdea087d3a"
+      },
+      "png": {
+        "size": 56848465,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/drain_cleaner/drain_cleaner_ao_8k.png",
+        "md5": "8492510a28cc2520c4900d621ca94c14"
+      },
+      "exr": {
+        "size": 26059296,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_ao_8k.exr",
+        "md5": "db60a546419b884b3f8ef217ce9d2454"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 1403132,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_ao_4k.jpg",
+        "md5": "775bce0e6375cf66e05a0e1620004747"
+      },
+      "png": {
+        "size": 15175070,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/drain_cleaner/drain_cleaner_ao_4k.png",
+        "md5": "c189546fe449b115fe479a1c8824c2b3"
+      },
+      "exr": {
+        "size": 5852920,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_ao_4k.exr",
+        "md5": "37fdddda0c771b0ad59dd1be106f2b32"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 387882,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_ao_2k.jpg",
+        "md5": "6a08cd8fcf39737c05849429d35d40a6"
+      },
+      "png": {
+        "size": 3910348,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/drain_cleaner/drain_cleaner_ao_2k.png",
+        "md5": "63ae02dd1f4584c0a391d02349873df4"
+      },
+      "exr": {
+        "size": 1414574,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_ao_2k.exr",
+        "md5": "ea51ffcfb7fc43f34233701ff74611d5"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 126945,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_ao_1k.jpg",
+        "md5": "b25dbfcd9bf06ce3193d89aa0b90ec57"
+      },
+      "png": {
+        "size": 1024735,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/drain_cleaner/drain_cleaner_ao_1k.png",
+        "md5": "13f11044268c989b530d4c711d6c7ec0"
+      },
+      "exr": {
+        "size": 397648,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_ao_1k.exr",
+        "md5": "374e0c4ed10681001f3cfd2ee89d6bcd"
+      }
+    }
+  },
+  "Rough": {
+    "8k": {
+      "jpg": {
+        "size": 33059435,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/drain_cleaner/drain_cleaner_rough_8k.jpg",
+        "md5": "4a08f3d247602a344696b2e02fa93c47"
+      },
+      "png": {
+        "size": 47904997,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/drain_cleaner/drain_cleaner_rough_8k.png",
+        "md5": "a2620ecb471a3a85233d36d582770f5f"
+      },
+      "exr": {
+        "size": 46899457,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/drain_cleaner/drain_cleaner_rough_8k.exr",
+        "md5": "81dd8aae51dcb2ef4931b9bbef15dc30"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 7840679,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/drain_cleaner/drain_cleaner_rough_4k.jpg",
+        "md5": "a8e533cde3dc41e8c8a4be159517a9b0"
+      },
+      "png": {
+        "size": 18777685,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/drain_cleaner/drain_cleaner_rough_4k.png",
+        "md5": "63a1a5d03f4f43714f84ea96bdbf3660"
+      },
+      "exr": {
+        "size": 14258702,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/drain_cleaner/drain_cleaner_rough_4k.exr",
+        "md5": "168b30c40f204d7f5271cd901141bc96"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2008882,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/drain_cleaner/drain_cleaner_rough_2k.jpg",
+        "md5": "c2187f47b430b3ce1892cc2e3c480c8c"
+      },
+      "png": {
+        "size": 5927870,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/drain_cleaner/drain_cleaner_rough_2k.png",
+        "md5": "01908201cdf5053d1a3f496c0f784176"
+      },
+      "exr": {
+        "size": 4213315,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/drain_cleaner/drain_cleaner_rough_2k.exr",
+        "md5": "9b0988cd5a506b341c4a0c943b3bc114"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 523307,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_rough_1k.jpg",
+        "md5": "b93c2a65b263aed028ab275f1b2c92ae"
+      },
+      "png": {
+        "size": 1642265,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/drain_cleaner/drain_cleaner_rough_1k.png",
+        "md5": "6f72289479c308325a8990d4b7f54d01"
+      },
+      "exr": {
+        "size": 1139702,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/drain_cleaner/drain_cleaner_rough_1k.exr",
+        "md5": "5def94f6bfbdb2f214b57afd6f77be5d"
+      }
+    }
+  }
+}

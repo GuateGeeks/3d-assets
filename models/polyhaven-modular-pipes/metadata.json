@@ -1,0 +1,189 @@
+{
+  "id": "polyhaven-modular-pipes",
+  "assetId": "polyhaven:modular_pipes",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Tuberías metálicas modulares",
+  "titleOriginal": "Modular Pipes",
+  "author": "Kuutti Siitonen",
+  "authorUrl": "https://polyhaven.com/a/modular_pipes",
+  "sourceUrl": "https://polyhaven.com/a/modular_pipes",
+  "metadataUrl": "https://api.polyhaven.com/info/modular_pipes",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_pipes/modular_pipes_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Industrial & Infrastructure/Pipes & Ducts/Modular Pipes",
+  "tags": [
+    "construction",
+    "piping",
+    "plumbing",
+    "infrastructure",
+    "metal",
+    "plastic",
+    "rusted",
+    "water supply",
+    "drainage",
+    "maintenance",
+    "engineering",
+    "utility",
+    "underground",
+    "sewer",
+    "drain",
+    "Modular Pipes",
+    "plumbing-modular-pipes"
+  ],
+  "areas": [
+    "agua-oceanos",
+    "oficios-productividad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Modular Pipes\", por Kuutti Siitonen / Poly Haven. https://polyhaven.com/a/modular_pipes. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-modular-pipes/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/metadata.json",
+  "originalDownload": "models/polyhaven-modular-pipes/originals.zip",
+  "bytes": 5769784,
+  "sha256": "b58797beae4536b15e399464efd8d12a3e30379ede4b6eaec260cfa64b0751cf",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 106,
+    "nodes": 106,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:33:33.442432+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "modular_pipes_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-modular-pipes/original/modular_pipes_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_pipes/modular_pipes_1k.gltf",
+        "bytes": 107409,
+        "md5": "993502b4d8c371bc38a03cba6d6f4008",
+        "sha256": "29d55a79397c42309075143336c016f19d731b4ff4b724446ef177fce90878de"
+      },
+      {
+        "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_metal_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_metal_nor_gl_1k.jpg",
+        "bytes": 703461,
+        "md5": "1d46c84cbca6c4be7c8a051e99598aac",
+        "sha256": "ddcbd7c584f7e08ff4f292f6e25c10a4d2990cadf8b75a30e618791d78d66a00"
+      },
+      {
+        "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_metal_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_metal_diff_1k.jpg",
+        "bytes": 765956,
+        "md5": "034a812f97e22b51d3d37209ef33c2dc",
+        "sha256": "251194bac04df52465296b213e5926ac46a26ecf85ddbba8b6777bbbca625a38"
+      },
+      {
+        "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_metal_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_metal_arm_1k.jpg",
+        "bytes": 746872,
+        "md5": "d6ef54a2189f1deacc20b32207b9b4ba",
+        "sha256": "6074f1f6bc7ee8d6322d72cecef3527e5640ec39a586c430236bec56adbc3437"
+      },
+      {
+        "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_pvc_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_pvc_nor_gl_1k.jpg",
+        "bytes": 546139,
+        "md5": "51bbd10b74e72e32e8b115aaee09c423",
+        "sha256": "c34c5ba542b46d45e6bebaafd54d19e3bf74855ba769215ebac754943757cc2f"
+      },
+      {
+        "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_pvc_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_pvc_diff_1k.jpg",
+        "bytes": 704052,
+        "md5": "231fad0cdebb1cd8ac3538132d22aa20",
+        "sha256": "ac43e8c9ae46c406f10308a8bbc5925bf31c21f41895adea637b3963b573f174"
+      },
+      {
+        "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_pvc_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_pvc_arm_1k.jpg",
+        "bytes": 776291,
+        "md5": "a1215f352bf91515a1a26b5c9313a35d",
+        "sha256": "52b09a5020b1e3dee4d4d808dfd7c8a0d64b1da9b29054b7a143159fac04b39b"
+      },
+      {
+        "file": "models/polyhaven-modular-pipes/original/modular_pipes.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_pipes/modular_pipes.bin",
+        "bytes": 1465048,
+        "md5": "4e7c0df1fa2fa412cd145ae4907eea52",
+        "sha256": "7ebd9cd06e30f55ec78cc5cf2b89a45907ef919c36817e26f1d0544c6c7d54eb"
+      }
+    ],
+    "originalDownloadSha256": "d764295272e5fba733d340ccdda14db39a7160a7c2e8f658abd9970885b58ab2",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/metadata.json",
+    "metadataEvidenceSha256": "4cdaf5487328274d470ba3b3c8c59eefdd0b28c7bec6ae4cdc14af14abb7019b",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/files.json",
+    "fileManifestEvidenceSha256": "c04564271060ac749bc6d0a48d86421ee3c9532aa759722c37fd25d259a3f13c",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/technical-review.json",
+    "technicalReviewEvidenceSha256": "ae213d80bcbfa9ddb214f59f5c5672120a3b3ea545e98e2cbe7e33c2d73b207a",
+    "providerReportedPolycount": 47428,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      4.187440872192383,
+      0.4577658176422119,
+      2.434948682785034
+    ],
+    "reimportDimensionsBlender": [
+      4.187440872192383,
+      0.4577658176422119,
+      2.434948682785034
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "f9fe66644300a5ea77c93c978679acce43dbadec238aaf278a5c1e91175cbfc4",
+      "triangles": 94856
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Modular Airduct Circular 01\", por Riley Queen / Poly Haven. https://polyhaven.com/a/modular_airduct_circular_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Riley Queen"
+  },
+  "Title": "Modular Airduct Circular 01",
+  "sourceUrl": "https://polyhaven.com/a/modular_airduct_circular_01",
+  "assetId": "modular_airduct_circular_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-modular-airduct-circular-01/original/modular_airduct_circular_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_airduct_circular_01/modular_airduct_circular_01_1k.gltf",
+      "bytes": 26467,
+      "md5": "b4612872c97a576c1f2a3351c68d3514",
+      "sha256": "7087958648acaa201fb3f1900e1ff61c2bfed7372f648346b4dc70d92b618274"
+    },
+    {
+      "file": "models/polyhaven-modular-airduct-circular-01/original/textures/modular_airduct_circular_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_circular_01/modular_airduct_circular_01_arm_1k.jpg",
+      "bytes": 620251,
+      "md5": "fcf6c5d505bd8291412bf6f607980ce4",
+      "sha256": "98bf68e4768aafc6303ddd1fa69cacad153a074c1b8af189356b41152793f0d6"
+    },
+    {
+      "file": "models/polyhaven-modular-airduct-circular-01/original/textures/modular_airduct_circular_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_circular_01/modular_airduct_circular_01_diff_1k.jpg",
+      "bytes": 542554,
+      "md5": "832ee18e84ea80eab47b042e3440336a",
+      "sha256": "cff727bb5d96a91e955cc62f800d30d6f717092232358962dcf3ce803ba6cf01"
+    },
+    {
+      "file": "models/polyhaven-modular-airduct-circular-01/original/textures/modular_airduct_circular_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_circular_01/modular_airduct_circular_01_nor_gl_1k.jpg",
+      "bytes": 317118,
+      "md5": "b9c78219a302fece6630135ef581bcd6",
+      "sha256": "209c47b9e18cd62bc08780a6c684c228d87201e5c2e35809f600c38e40934332"
+    },
+    {
+      "file": "models/polyhaven-modular-airduct-circular-01/original/modular_airduct_circular_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_airduct_circular_01/modular_airduct_circular_01.bin",
+      "bytes": 485456,
+      "md5": "89ddfff523c9edf478aa7441b69d1491",
+      "sha256": "80418c8aed92c97b6149b51124d47ccfa0619a77234449687f29377833293f2d"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

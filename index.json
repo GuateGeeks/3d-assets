@@ -15591,7 +15591,9 @@
       ],
       "providerId": "poly-pizza",
       "provider": "Poly Pizza",
-      "kitIds": []
+      "kitIds": [],
+      "variantGroupId": "electrical-generators",
+      "variantGroupTitle": "Generadores eléctricos"
     },
     {
       "id": "ZSQMyIqPTz",
@@ -101388,6 +101390,175 @@
       "variantGroupTitle": "Llaves de taller"
     },
     {
+      "id": "polyhaven-all-purpose-cleaner",
+      "assetId": "polyhaven:all_purpose_cleaner",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Envase de limpiador multiuso",
+      "titleOriginal": "All Purpose Cleaner",
+      "author": "Kuutti Siitonen",
+      "authorUrl": "https://polyhaven.com/a/all_purpose_cleaner",
+      "sourceUrl": "https://polyhaven.com/a/all_purpose_cleaner",
+      "metadataUrl": "https://api.polyhaven.com/info/all_purpose_cleaner",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/all_purpose_cleaner/all_purpose_cleaner_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Containers & Storage/Cans, Tins & Bottles/Cleaning & Chemical Bottles",
+      "tags": [
+        "shed",
+        "cleaning",
+        "home",
+        "garage",
+        "chemicals",
+        "household",
+        "janitorial",
+        "cleaning supplies",
+        "sanitation",
+        "bottle",
+        "cleaner",
+        "multipurpose",
+        "allpurpose",
+        "plastic containers",
+        "clutter",
+        "All Purpose Cleaner",
+        "chemistry-household-containers"
+      ],
+      "areas": [
+        "laboratorio-ciencia",
+        "cuerpo-salud"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Educación Física"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"All Purpose Cleaner\", por Kuutti Siitonen / Poly Haven. https://polyhaven.com/a/all_purpose_cleaner. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-all-purpose-cleaner/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/metadata.json",
+      "originalDownload": "models/polyhaven-all-purpose-cleaner/originals.zip",
+      "bytes": 1053960,
+      "sha256": "cf972671bbb23330124ca6445e92d3f25e15bd3704fc4e55b21683d65790ca3c",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:34:16.636211+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "all_purpose_cleaner_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-all-purpose-cleaner/original/all_purpose_cleaner_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/all_purpose_cleaner/all_purpose_cleaner_1k.gltf",
+            "bytes": 3211,
+            "md5": "c5edb27b703201445cbae47e47bed07b",
+            "sha256": "935c5a4ea198cb5d2731a211e483c27fc21fe213f8f7f1421521e7d6cc012535"
+          },
+          {
+            "file": "models/polyhaven-all-purpose-cleaner/original/textures/all_purpose_cleaner_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/all_purpose_cleaner/all_purpose_cleaner_diff_1k.jpg",
+            "bytes": 355694,
+            "md5": "12f1d13a4dbbb0ddddd190cc7c3ed95d",
+            "sha256": "6b65e99cc43028a69de9f0825f44f0584f7e0bb7126e9cbfe74fc28dbf4c452c"
+          },
+          {
+            "file": "models/polyhaven-all-purpose-cleaner/original/textures/all_purpose_cleaner_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/all_purpose_cleaner/all_purpose_cleaner_arm_1k.jpg",
+            "bytes": 432313,
+            "md5": "1565e255630205029322614f8e661407",
+            "sha256": "dfa102c5c0a5124e3079275f9c87c039d27e7543383b61b1f686693b0fd4cc55"
+          },
+          {
+            "file": "models/polyhaven-all-purpose-cleaner/original/textures/all_purpose_cleaner_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/all_purpose_cleaner/all_purpose_cleaner_nor_gl_1k.jpg",
+            "bytes": 146701,
+            "md5": "6ab9c098fa44bc8c7228a3eec7ca21ba",
+            "sha256": "d7a1d07a94b2ddf987c614c690e649d1848549578b1be7d06083aab9e4380221"
+          },
+          {
+            "file": "models/polyhaven-all-purpose-cleaner/original/all_purpose_cleaner.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/all_purpose_cleaner/all_purpose_cleaner.bin",
+            "bytes": 117216,
+            "md5": "2a246d2def6557c4b97a1acddec7909d",
+            "sha256": "d6778f2b88314bce956824f419a31a3333b988ddf6a0360b5045a06c6c20c3a2"
+          }
+        ],
+        "originalDownloadSha256": "c087cf03392aca645d592d441009c078d823751c813c4fa8bd84d0b1111563fa",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/metadata.json",
+        "metadataEvidenceSha256": "e988efffca7b63ce0b8b7ee8dd9d382a7eb3729dd49408916d931a47275efba8",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/files.json",
+        "fileManifestEvidenceSha256": "05d4be556b8497779f619b1bbba3aa279b35fc6e47c29d08a47e9ccb3eb8103b",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/technical-review.json",
+        "technicalReviewEvidenceSha256": "2a75f08e41f5e1766b2d4d4f5db922dcc1ae8b1795d4d4d0698b8cf6ea89362b",
+        "providerReportedPolycount": 4624,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.1568228006362915,
+          0.11741002649068832,
+          0.3197317123413086
+        ],
+        "reimportDimensionsBlender": [
+          0.1568228006362915,
+          0.11741002649068832,
+          0.3197317123413086
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "8b588739605ddf5038f372cc2d12a8b055f56fc8e6b6017b9550e16a649201f9",
+          "triangles": 4624
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "chemistry-household-containers",
+      "variantGroupTitle": "Envases de productos químicos"
+    },
+    {
       "id": "polyhaven-bench-vice-01",
       "assetId": "polyhaven:bench_vice_01",
       "providerId": "polyhaven",
@@ -101706,6 +101877,172 @@
       "kitIds": [],
       "variantGroupId": "optics-binoculars",
       "variantGroupTitle": "Binoculares"
+    },
+    {
+      "id": "polyhaven-bleach-bottle",
+      "assetId": "polyhaven:bleach_bottle",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Botella de blanqueador",
+      "titleOriginal": "Bleach Bottle",
+      "author": "James Ray Cock",
+      "authorUrl": "https://polyhaven.com/a/bleach_bottle",
+      "sourceUrl": "https://polyhaven.com/a/bleach_bottle",
+      "metadataUrl": "https://api.polyhaven.com/info/bleach_bottle",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bleach_bottle/bleach_bottle_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Containers & Storage/Cans, Tins & Bottles/Cleaning & Chemical Bottles",
+      "tags": [
+        "shed",
+        "cleaning",
+        "garage",
+        "plastic",
+        "storage",
+        "clutter",
+        "workshop",
+        "household",
+        "janitorial",
+        "sanitation",
+        "plastic containers",
+        "supplies",
+        "Bleach Bottle",
+        "chemistry-household-containers"
+      ],
+      "areas": [
+        "laboratorio-ciencia",
+        "cuerpo-salud"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Educación Física"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Bleach Bottle\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/bleach_bottle. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-bleach-bottle/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/metadata.json",
+      "originalDownload": "models/polyhaven-bleach-bottle/originals.zip",
+      "bytes": 1267596,
+      "sha256": "a689c6eb8d2743b966d08af2b194234179fefdc49873af6225582475793b2284",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:34:11.980050+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "bleach_bottle_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-bleach-bottle/original/bleach_bottle_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bleach_bottle/bleach_bottle_1k.gltf",
+            "bytes": 2784,
+            "md5": "4e73c623f3344086c701ba2693ec852b",
+            "sha256": "0a0dc6e370afd86f5fc1b2c3fded4edf8e4b0fc8ab1947e0454752fb3e62c80f"
+          },
+          {
+            "file": "models/polyhaven-bleach-bottle/original/textures/bleach_bottle_01_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_nor_gl_1k.jpg",
+            "bytes": 286558,
+            "md5": "4682b3d1ba972b32992f23aea2db9b4b",
+            "sha256": "cc16f4c13f17c7f511e36a614a91b2e932cdf85263788bba9ea58d2a94e049bf"
+          },
+          {
+            "file": "models/polyhaven-bleach-bottle/original/bleach_bottle.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/bleach_bottle/bleach_bottle.bin",
+            "bytes": 106328,
+            "md5": "7bd04de253508368caf8b94398b4866b",
+            "sha256": "2b223425b640f6da3924698a5b94ed4ad31e7fef08fa9cfa0004a096b0b5727e"
+          },
+          {
+            "file": "models/polyhaven-bleach-bottle/original/textures/bleach_bottle_01_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_diff_1k.jpg",
+            "bytes": 380740,
+            "md5": "60e7803b48d42b7d15b1ff6542f9bdd0",
+            "sha256": "340329a562c3b5a1d5441577cb9ecbb4e1bbbd3e5221439681a392db566b08a1"
+          },
+          {
+            "file": "models/polyhaven-bleach-bottle/original/textures/bleach_bottle_01_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_arm_1k.jpg",
+            "bytes": 492206,
+            "md5": "7cff1041765fc4594bfbb511b248c111",
+            "sha256": "7aec58d92d982aaeb8a23b6ebc3486aa959641badf848eaf2893c271ec767112"
+          }
+        ],
+        "originalDownloadSha256": "8cf25c0ef3f548653bffec802d6a74c27b82f453709c8c8a43d1023a0f182095",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/metadata.json",
+        "metadataEvidenceSha256": "a5c1dff24d758bad70ee8065f2c0da119ef5aa6f53841e227d035740fcaad5b0",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/files.json",
+        "fileManifestEvidenceSha256": "e371dc041580317770fb0a3ec1d447e3d27ba7ba25385f17a4f667a9cc73fd5f",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/technical-review.json",
+        "technicalReviewEvidenceSha256": "bda333ca9d934bec59acd6a72ca8c5782a68f16ed08defa2eee3332efc3b292f",
+        "providerReportedPolycount": 4052,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.08839114010334015,
+          0.06121089309453964,
+          0.2937394976615906
+        ],
+        "reimportDimensionsBlender": [
+          0.08839114010334015,
+          0.06121089309453964,
+          0.2937394976615906
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "5c7a85a6fbd5ca029c98e33a57b20b128f65160d3de3660137e637bec9ed39a1",
+          "triangles": 4052
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "chemistry-household-containers",
+      "variantGroupTitle": "Envases de productos químicos"
     },
     {
       "id": "polyhaven-bunsen-burner",
@@ -102354,6 +102691,177 @@
       "kitIds": [],
       "variantGroupId": "computing-laptops",
       "variantGroupTitle": "Computadoras portátiles"
+    },
+    {
+      "id": "polyhaven-drain-cleaner",
+      "assetId": "polyhaven:drain_cleaner",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Envase de limpiador de desagües",
+      "titleOriginal": "Drain Cleaner",
+      "author": "James Ray Cock",
+      "authorUrl": "https://polyhaven.com/a/drain_cleaner",
+      "sourceUrl": "https://polyhaven.com/a/drain_cleaner",
+      "metadataUrl": "https://api.polyhaven.com/info/drain_cleaner",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/drain_cleaner/drain_cleaner_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Containers & Storage/Cans, Tins & Bottles/Cleaning & Chemical Bottles",
+      "tags": [
+        "workshop",
+        "garage",
+        "bathroom",
+        "cleaning",
+        "cleaning supplies",
+        "toilet",
+        "household",
+        "maintenance",
+        "plumbing",
+        "cleaner",
+        "drain",
+        "chemicals",
+        "sewer",
+        "blockage",
+        "storage",
+        "pipe cleaner",
+        "Drain Cleaner",
+        "chemistry-household-containers"
+      ],
+      "areas": [
+        "laboratorio-ciencia",
+        "oficios-productividad"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Drain Cleaner\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/drain_cleaner. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-drain-cleaner/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/metadata.json",
+      "originalDownload": "models/polyhaven-drain-cleaner/originals.zip",
+      "bytes": 1646288,
+      "sha256": "d92109525ad55bc1bb84eda8db489328cceb8c6974508cf08db7b1fdc567850c",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:34:14.380642+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "drain_cleaner_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-drain-cleaner/original/drain_cleaner_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/drain_cleaner/drain_cleaner_1k.gltf",
+            "bytes": 2793,
+            "md5": "b34bc8c8995bb6c4ac7cead16ae1fca6",
+            "sha256": "56e4619970f548bd63382bfe13152be86696e2c0243d7607248fc757b088ce87"
+          },
+          {
+            "file": "models/polyhaven-drain-cleaner/original/textures/drain_cleaner_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_nor_gl_1k.jpg",
+            "bytes": 367355,
+            "md5": "fb9aad5e162cbe1fa3ce6cdae9510a72",
+            "sha256": "6f6ac88c6f06ff20d2738eacc45d4de5ddcd804957767f2a76e348a963f8f9d6"
+          },
+          {
+            "file": "models/polyhaven-drain-cleaner/original/textures/drain_cleaner_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_diff_1k.jpg",
+            "bytes": 559803,
+            "md5": "afe6ff714d1a3fe7eb1b0ea1008c680b",
+            "sha256": "e58f5b85d8feb7ff8285ad2837668dd2cca5e0f632084c0b74a6063e289174d9"
+          },
+          {
+            "file": "models/polyhaven-drain-cleaner/original/drain_cleaner.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/drain_cleaner/drain_cleaner.bin",
+            "bytes": 121708,
+            "md5": "c9725920c8e16ff1c896ed6f5c3f2b8d",
+            "sha256": "c081c5391edcc472aaadc51cc27e94774dd03f2ef77963c4f61d8195c6a1e6ae"
+          },
+          {
+            "file": "models/polyhaven-drain-cleaner/original/textures/drain_cleaner_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_arm_1k.jpg",
+            "bytes": 595640,
+            "md5": "b9982a4268ab8c640e40388e744f8d63",
+            "sha256": "1952e8400e09765343ba0949bec870a649b49cc60da2b01d316909b02846d99a"
+          }
+        ],
+        "originalDownloadSha256": "f56a0e4b5c5d138bc437acbec179613ca97b5b65acbfe45e80e8ae3d0c71ca05",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/metadata.json",
+        "metadataEvidenceSha256": "9793f4e7d855b4667f36934fed47ae85e878de0567075ce9b717cb9f4bf9ac2a",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/files.json",
+        "fileManifestEvidenceSha256": "6152d9f12765f363b42ffb9908781d353c213ea53aadb03bfec045527b0f75de",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/technical-review.json",
+        "technicalReviewEvidenceSha256": "d5e8f79151f8d9edf1f599357c94e476e87cd94570cbb60a865fba8f9a779217",
+        "providerReportedPolycount": 4338,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.16539713740348816,
+          0.056335341185331345,
+          0.17855317890644073
+        ],
+        "reimportDimensionsBlender": [
+          0.16539713740348816,
+          0.056335341185331345,
+          0.17855317890644073
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "688a482e418263048138a78621540a6bfbd62cf6511ae24c2cc01ba88489490b",
+          "triangles": 4338
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "chemistry-household-containers",
+      "variantGroupTitle": "Envases de productos químicos"
     },
     {
       "id": "polyhaven-hand-plane-no4",
@@ -104046,6 +104554,2418 @@
       "variantGroupTitle": "Botiquines de primeros auxilios"
     },
     {
+      "id": "polyhaven-modular-airduct-circular-01",
+      "assetId": "polyhaven:modular_airduct_circular_01",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Conductos circulares de ventilación",
+      "titleOriginal": "Modular Airduct Circular 01",
+      "author": "Riley Queen",
+      "authorUrl": "https://polyhaven.com/a/modular_airduct_circular_01",
+      "sourceUrl": "https://polyhaven.com/a/modular_airduct_circular_01",
+      "metadataUrl": "https://api.polyhaven.com/info/modular_airduct_circular_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_airduct_circular_01/modular_airduct_circular_01_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Industrial & Infrastructure/Pipes & Ducts/HVAC Ducts",
+      "tags": [
+        "vent",
+        "aircon",
+        "airduct",
+        "hvac",
+        "modular",
+        "pieces",
+        "workshop",
+        "industrial",
+        "warehouse",
+        "utility",
+        "infrastructure",
+        "Modular Airduct Circular 01",
+        "ventilation-modular-ducts"
+      ],
+      "areas": [
+        "fisica-energia",
+        "oficios-productividad"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Modular Airduct Circular 01\", por Riley Queen / Poly Haven. https://polyhaven.com/a/modular_airduct_circular_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-modular-airduct-circular-01/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/metadata.json",
+      "originalDownload": "models/polyhaven-modular-airduct-circular-01/originals.zip",
+      "bytes": 1981040,
+      "sha256": "bc33193d72f734b4304b808e4d969ab8ca6833a0ced48f0f3a6104983287ed94",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 16,
+        "nodes": 16,
+        "materials": 2,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:33:38.565058+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "modular_airduct_circular_01_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-modular-airduct-circular-01/original/modular_airduct_circular_01_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_airduct_circular_01/modular_airduct_circular_01_1k.gltf",
+            "bytes": 26467,
+            "md5": "b4612872c97a576c1f2a3351c68d3514",
+            "sha256": "7087958648acaa201fb3f1900e1ff61c2bfed7372f648346b4dc70d92b618274"
+          },
+          {
+            "file": "models/polyhaven-modular-airduct-circular-01/original/textures/modular_airduct_circular_01_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_circular_01/modular_airduct_circular_01_arm_1k.jpg",
+            "bytes": 620251,
+            "md5": "fcf6c5d505bd8291412bf6f607980ce4",
+            "sha256": "98bf68e4768aafc6303ddd1fa69cacad153a074c1b8af189356b41152793f0d6"
+          },
+          {
+            "file": "models/polyhaven-modular-airduct-circular-01/original/textures/modular_airduct_circular_01_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_circular_01/modular_airduct_circular_01_diff_1k.jpg",
+            "bytes": 542554,
+            "md5": "832ee18e84ea80eab47b042e3440336a",
+            "sha256": "cff727bb5d96a91e955cc62f800d30d6f717092232358962dcf3ce803ba6cf01"
+          },
+          {
+            "file": "models/polyhaven-modular-airduct-circular-01/original/textures/modular_airduct_circular_01_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_circular_01/modular_airduct_circular_01_nor_gl_1k.jpg",
+            "bytes": 317118,
+            "md5": "b9c78219a302fece6630135ef581bcd6",
+            "sha256": "209c47b9e18cd62bc08780a6c684c228d87201e5c2e35809f600c38e40934332"
+          },
+          {
+            "file": "models/polyhaven-modular-airduct-circular-01/original/modular_airduct_circular_01.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_airduct_circular_01/modular_airduct_circular_01.bin",
+            "bytes": 485456,
+            "md5": "89ddfff523c9edf478aa7441b69d1491",
+            "sha256": "80418c8aed92c97b6149b51124d47ccfa0619a77234449687f29377833293f2d"
+          }
+        ],
+        "originalDownloadSha256": "41cf363bba789fa8e340a6ff8fa58c35f3c8971ab148272ed78abc974c3f7890",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/metadata.json",
+        "metadataEvidenceSha256": "6704be2148118295c51b5f74155d22f9e3548ca99b472e851eb71eccb33d9ca2",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/files.json",
+        "fileManifestEvidenceSha256": "d65852821fbc279eddd544bf1ce9d0f51a37227d9102b87addb58b583c23f728",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/technical-review.json",
+        "technicalReviewEvidenceSha256": "c49183736ddafd6202d3ee61886fc8203e16a5c01585d53c5ca6d66290ca464a",
+        "providerReportedPolycount": 14280,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          4.170705795288086,
+          1.4634811878204346,
+          1.3241441249847412
+        ],
+        "reimportDimensionsBlender": [
+          4.170705795288086,
+          1.4634811878204346,
+          1.3241441249847412
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "797438197b377e31834bafede78b4fe36e2ad66a4b9532e8e5a823dc34366b6f",
+          "triangles": 14280
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "ventilation-modular-ducts",
+      "variantGroupTitle": "Conductos de ventilación"
+    },
+    {
+      "id": "polyhaven-modular-airduct-rectangular-01",
+      "assetId": "polyhaven:modular_airduct_rectangular_01",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Conductos rectangulares de ventilación",
+      "titleOriginal": "Modular Airduct Rectangular 01",
+      "author": "James Ray Cock",
+      "authorUrl": "https://polyhaven.com/a/modular_airduct_rectangular_01",
+      "sourceUrl": "https://polyhaven.com/a/modular_airduct_rectangular_01",
+      "metadataUrl": "https://api.polyhaven.com/info/modular_airduct_rectangular_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Industrial & Infrastructure/Pipes & Ducts/HVAC Ducts",
+      "tags": [
+        "vent",
+        "airduct",
+        "modular",
+        "pieces",
+        "workshop",
+        "warehouse",
+        "rectangular",
+        "metal",
+        "airvent",
+        "utility",
+        "infrastructure",
+        "Modular Airduct Rectangular 01",
+        "ventilation-modular-ducts"
+      ],
+      "areas": [
+        "fisica-energia",
+        "oficios-productividad"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Modular Airduct Rectangular 01\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/modular_airduct_rectangular_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-modular-airduct-rectangular-01/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/metadata.json",
+      "originalDownload": "models/polyhaven-modular-airduct-rectangular-01/originals.zip",
+      "bytes": 2751576,
+      "sha256": "b9573d7fdd6f914a08f533460af88010ecf7b6adf176ff42b1a6a97288665517",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 18,
+        "nodes": 18,
+        "materials": 2,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:33:42.311588+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "modular_airduct_rectangular_01_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-modular-airduct-rectangular-01/original/modular_airduct_rectangular_01_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_1k.gltf",
+            "bytes": 37157,
+            "md5": "80509f1d78f7853669d6f7d101cececd",
+            "sha256": "61468e734df89c1a84f6aa5f2f60ea2d1486d927f640d1912bdc929be7673643"
+          },
+          {
+            "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts01_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_1k.jpg",
+            "bytes": 63936,
+            "md5": "2742e16a52c9b188d60984ae880d4e24",
+            "sha256": "e659e0dbe8ec88e33d2578fdb59af3b5aec308957914a6847ce076fe16e8c3c5"
+          },
+          {
+            "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts02_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_1k.jpg",
+            "bytes": 88121,
+            "md5": "1d7ae142cf19bec3526af4138cc2efc2",
+            "sha256": "b41b75e92307d9c37433dd27766eb3328aa09394bf4bf501e6a42da80bbf3010"
+          },
+          {
+            "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts02_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_1k.jpg",
+            "bytes": 158760,
+            "md5": "b7abe74284ac15a8245f3ad09ff4857b",
+            "sha256": "e17a732494acf18dc4f1d9518a1297758d1437acad7d98110a4550a537428b17"
+          },
+          {
+            "file": "models/polyhaven-modular-airduct-rectangular-01/original/modular_airduct_rectangular_01.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01.bin",
+            "bytes": 1795116,
+            "md5": "e9d9ce22429985630952fc26fe24e2f5",
+            "sha256": "9cd2aef6a787922571a9b4830dd3fd57ba5b535db88b9980ecf9a255a59aa2a6"
+          },
+          {
+            "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts01_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_1k.jpg",
+            "bytes": 247732,
+            "md5": "62dd69fb3c04f8665ff5a6d51686b4eb",
+            "sha256": "8225a69b7a5cb20e0e091899955b5765c82cdea781ffd28da51d7a5cc3d12ddd"
+          },
+          {
+            "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts02_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_1k.jpg",
+            "bytes": 188686,
+            "md5": "a9ff2f1df22d2f6de80b51b15e2c1a87",
+            "sha256": "718ee754ffb882cff87d3470b641b94d6c09ed62a51fe81575149321cf104278"
+          },
+          {
+            "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts01_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_1k.jpg",
+            "bytes": 187245,
+            "md5": "c73cefa3a76becf5963cc4e1c483368d",
+            "sha256": "b86936922be53c2a4591bbdd88a0d63fcc7583bb534ce9fc569d5be3fb9306c0"
+          }
+        ],
+        "originalDownloadSha256": "1507c44a7aba397997588971c1dcae0285bcab17dcf101f47b96e5f8bd28c918",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/metadata.json",
+        "metadataEvidenceSha256": "bf85a8b1ae0c0473f198fabb2ed8a6762bd6f762781ee05b91afa75d941c85ad",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/files.json",
+        "fileManifestEvidenceSha256": "2917802642e6aeda6cc6c21f39771511271626d140dcff2a5d8c2fbed92f17dd",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/technical-review.json",
+        "technicalReviewEvidenceSha256": "e854215afabafae54854ff0442bdc7a8e6f770d01b3c5ac1948a312f15462c6b",
+        "providerReportedPolycount": 45090,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          7.663504123687744,
+          2.5866451263427734,
+          1.2561511993408203
+        ],
+        "reimportDimensionsBlender": [
+          7.663504123687744,
+          2.5866451263427734,
+          1.2561511993408203
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "14c4eba2b861b490aaf176a662768624842c472cce6ed600d959af7d93f95050",
+          "triangles": 45090
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "ventilation-modular-ducts",
+      "variantGroupTitle": "Conductos de ventilación"
+    },
+    {
+      "id": "polyhaven-modular-electric-cables",
+      "assetId": "polyhaven:modular_electric_cables",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Cables eléctricos modulares",
+      "titleOriginal": "Modular Electric Cables",
+      "author": "Kuutti Siitonen",
+      "authorUrl": "https://polyhaven.com/a/modular_electric_cables",
+      "sourceUrl": "https://polyhaven.com/a/modular_electric_cables",
+      "metadataUrl": "https://api.polyhaven.com/info/modular_electric_cables",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_electric_cables/modular_electric_cables_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Industrial & Infrastructure/Electrical/Cables & Wiring",
+      "tags": [
+        "wiring",
+        "connectors",
+        "power supply",
+        "components",
+        "power",
+        "infrastructure",
+        "maintenance",
+        "junction box",
+        "breakers",
+        "transformer",
+        "circuit",
+        "electrical",
+        "underground",
+        "modular",
+        "Modular Electric Cables",
+        "electrical-modular-cables"
+      ],
+      "areas": [
+        "robotica-electronica",
+        "fisica-energia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Modular Electric Cables\", por Kuutti Siitonen / Poly Haven. https://polyhaven.com/a/modular_electric_cables. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-modular-electric-cables/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/metadata.json",
+      "originalDownload": "models/polyhaven-modular-electric-cables/originals.zip",
+      "bytes": 5984356,
+      "sha256": "dc373b91755db044ccbb06b27884adbbb6ce7c2284c3fe8faf705bf9ddf64f2c",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 49,
+        "nodes": 49,
+        "materials": 2,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:33:46.891712+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "modular_electric_cables_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-modular-electric-cables/original/modular_electric_cables_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_electric_cables/modular_electric_cables_1k.gltf",
+            "bytes": 82607,
+            "md5": "452d8189381a17d02467785ec1691f2b",
+            "sha256": "f9292a9eff5bea32dde06356633da84615c508c9c0ee0246fc96c301cfd71fe8"
+          },
+          {
+            "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_nor_gl_1k.jpg",
+            "bytes": 848440,
+            "md5": "089c0dda6a7b06fc587eb23a9367fda2",
+            "sha256": "c32eeb9c064afc0265f38b7f133f41bebee559e416d7064d441098c4821c7dcd"
+          },
+          {
+            "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_diff_1k.jpg",
+            "bytes": 474284,
+            "md5": "bf807ef977dc49143dd8ed97c0ffec3c",
+            "sha256": "181c8811d6f3d3f5a0ea02497cd6c375868c558aedf70a8221f301d323430c1a"
+          },
+          {
+            "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_arm_1k.jpg",
+            "bytes": 797169,
+            "md5": "196560790b8dcb085c569a7755648d7b",
+            "sha256": "d8d48ae3499f575be301fe0b9ae91d4e0316a51c1e1234e186e0e0e9409f1a32"
+          },
+          {
+            "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_boxes_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_1k.jpg",
+            "bytes": 749676,
+            "md5": "cf66abe69419fdaac4afc36c940502d4",
+            "sha256": "5e3d896e8bceaa8d843b30941c8d6f50779d4fbde534080dd3837f499471af5a"
+          },
+          {
+            "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_boxes_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_diff_1k.jpg",
+            "bytes": 646895,
+            "md5": "b561a3ec8790af4033504609e70baa12",
+            "sha256": "7dba8bfdd0a9c46294b5ec4930b4420b102a817469bf002d24136f8c3310c519"
+          },
+          {
+            "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_boxes_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_arm_1k.jpg",
+            "bytes": 856332,
+            "md5": "a0c541de1da2bd138152e45be9383e72",
+            "sha256": "3e1e8f5e854cdae94c5f5eee57241e4679c4198aa95d800873ca2cab87bd6bcc"
+          },
+          {
+            "file": "models/polyhaven-modular-electric-cables/original/modular_electric_cables.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_electric_cables/modular_electric_cables.bin",
+            "bytes": 1563316,
+            "md5": "1444b0e21d201c344a99e86937bbe5fc",
+            "sha256": "3990f8b60c244ecfc64f80b1242d2a0fef0a3e39288c9ba9fd31becad4734d8a"
+          }
+        ],
+        "originalDownloadSha256": "24d78ffe201ad0c5d4a41e53449ba64d6a07ca181679dd40ffb51a13cfb5a808",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/metadata.json",
+        "metadataEvidenceSha256": "65ee41c14d36cee6a863cf5db0a980d01f557d0006b719c30a6195a838a84732",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/files.json",
+        "fileManifestEvidenceSha256": "5b0188e00e1c5b1998af6539bc55f086c674c0a0555c4f904b3b2f0045a04e7f",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/technical-review.json",
+        "technicalReviewEvidenceSha256": "11c26b71c3db98bdaba4536a253d8f3b6522f192abf476e94750562b526f3291",
+        "providerReportedPolycount": 42078,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          2.0766327381134033,
+          0.2145041823387146,
+          0.757252037525177
+        ],
+        "reimportDimensionsBlender": [
+          2.0766327381134033,
+          0.2145041823387146,
+          0.757252037525177
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "13821090892cfca8ce24ddebf0bcf2578e17d002070be9da78b26488dd381981",
+          "triangles": 42078
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "electrical-modular-cables",
+      "variantGroupTitle": "Cables eléctricos modulares"
+    },
+    {
+      "id": "polyhaven-modular-industrial-pipes-01",
+      "assetId": "polyhaven:modular_industrial_pipes_01",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Tuberías industriales modulares",
+      "titleOriginal": "Modular Industrial Pipes 01",
+      "author": "Jorge Camacho",
+      "authorUrl": "https://polyhaven.com/a/modular_industrial_pipes_01",
+      "sourceUrl": "https://polyhaven.com/a/modular_industrial_pipes_01",
+      "metadataUrl": "https://api.polyhaven.com/info/modular_industrial_pipes_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Industrial & Infrastructure/Pipes & Ducts/Modular Pipes",
+      "tags": [
+        "pipes",
+        "factory",
+        "steam",
+        "modular",
+        "industrial",
+        "utility",
+        "infrastructure",
+        "Modular Industrial Pipes 01",
+        "plumbing-modular-pipes"
+      ],
+      "areas": [
+        "fisica-energia",
+        "oficios-productividad"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Modular Industrial Pipes 01\", por Jorge Camacho / Poly Haven. https://polyhaven.com/a/modular_industrial_pipes_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-modular-industrial-pipes-01/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/metadata.json",
+      "originalDownload": "models/polyhaven-modular-industrial-pipes-01/originals.zip",
+      "bytes": 4818068,
+      "sha256": "61a0ef932ed6c87036214c84a2e3711e0acb2cbcc5ba195138efbcb93dcd413e",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 8,
+        "nodes": 8,
+        "materials": 2,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:33:28.961393+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "modular_industrial_pipes_01_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-modular-industrial-pipes-01/original/modular_industrial_pipes_01_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_1k.gltf",
+            "bytes": 15014,
+            "md5": "cb30fdf4d471374ba439bfd5a0c8105d",
+            "sha256": "455d3a0fe95b7900a08cbebb23cfb2c341672fcb67ae7355d776e53cfa3d0688"
+          },
+          {
+            "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group02_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_arm_1k.jpg",
+            "bytes": 898932,
+            "md5": "088f90ba0d60c13ff0d6fc43cf734372",
+            "sha256": "4c65dcb651a3d345517fa93ad7c6e48f2388f4e8bb347446f70317c16049867b"
+          },
+          {
+            "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group01_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_diff_1k.jpg",
+            "bytes": 553576,
+            "md5": "28678434837d64476cb8d75d0314166e",
+            "sha256": "c0233f66b18e3374dfbbb8c8078a41f6571a0809d3eb14dd9d3c332265cfde7b"
+          },
+          {
+            "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group02_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_nor_gl_1k.jpg",
+            "bytes": 725187,
+            "md5": "282735667b3cd6e2d0ef058f2c260740",
+            "sha256": "84a43ca11a4f1ac84f7fc8336a4e9b7b333d30c13e540f3ff42e662dc6f91b53"
+          },
+          {
+            "file": "models/polyhaven-modular-industrial-pipes-01/original/modular_industrial_pipes_01.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_industrial_pipes_01/modular_industrial_pipes_01.bin",
+            "bytes": 515160,
+            "md5": "a18d063dc719e19b9c20d2f8c0a8bec4",
+            "sha256": "2e11e1a7dabd56b1e158364f48b0b388bf316fcab61a01274740db75dbafa448"
+          },
+          {
+            "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group01_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_nor_gl_1k.jpg",
+            "bytes": 674568,
+            "md5": "a5d4deb3ea6772c0af1275edeab7dc94",
+            "sha256": "ed4728fde567efe420e3a6e1bdc4238b26c2782218737c7e2de88eeca1e91fb2"
+          },
+          {
+            "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group01_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_arm_1k.jpg",
+            "bytes": 860825,
+            "md5": "2ab8f10dc9ca832af70cd48183281f97",
+            "sha256": "7fff7d4604491eeb7531ad5f7520517015c72ec7316d1e865d62f23f976dfed6"
+          },
+          {
+            "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group02_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_diff_1k.jpg",
+            "bytes": 580676,
+            "md5": "d3d951f471cfcd15e89cedcd43d28606",
+            "sha256": "ef8a75c402a8871903dcaa147b023d57c640d0de4c7a8acdfdee822861656a92"
+          }
+        ],
+        "originalDownloadSha256": "74d0e043881e6c73987b4d9b03108ba2ec9d67ca804e06430473b4773a119482",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/metadata.json",
+        "metadataEvidenceSha256": "cd86f13695e20a3c850024f8ffde3a892159a4a8337dfe982912a9ce3afb332e",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/files.json",
+        "fileManifestEvidenceSha256": "5b02105fee4d53c53904e5acfa63a3d583c4fb25d233616b8a606a09c3a67e37",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/technical-review.json",
+        "technicalReviewEvidenceSha256": "dd547d7a35ed5928913d6fbe418ae2cd6ff0b7c59bf2b0320052bdac9fd667a7",
+        "providerReportedPolycount": 12340,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          1.4028016328811646,
+          0.3075956106185913,
+          1.9546396732330322
+        ],
+        "reimportDimensionsBlender": [
+          1.4028016328811646,
+          0.3075956106185913,
+          1.9546396732330322
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "49766801f0f9f492c23dbb734b48bc324cfabda15fb8f8f6d06519ed1f9b9d5c",
+          "triangles": 12340
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "plumbing-modular-pipes",
+      "variantGroupTitle": "Tuberías y válvulas modulares"
+    },
+    {
+      "id": "polyhaven-modular-pipes",
+      "assetId": "polyhaven:modular_pipes",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Tuberías metálicas modulares",
+      "titleOriginal": "Modular Pipes",
+      "author": "Kuutti Siitonen",
+      "authorUrl": "https://polyhaven.com/a/modular_pipes",
+      "sourceUrl": "https://polyhaven.com/a/modular_pipes",
+      "metadataUrl": "https://api.polyhaven.com/info/modular_pipes",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_pipes/modular_pipes_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Industrial & Infrastructure/Pipes & Ducts/Modular Pipes",
+      "tags": [
+        "construction",
+        "piping",
+        "plumbing",
+        "infrastructure",
+        "metal",
+        "plastic",
+        "rusted",
+        "water supply",
+        "drainage",
+        "maintenance",
+        "engineering",
+        "utility",
+        "underground",
+        "sewer",
+        "drain",
+        "Modular Pipes",
+        "plumbing-modular-pipes"
+      ],
+      "areas": [
+        "agua-oceanos",
+        "oficios-productividad"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Formación Ciudadana",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Modular Pipes\", por Kuutti Siitonen / Poly Haven. https://polyhaven.com/a/modular_pipes. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-modular-pipes/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/metadata.json",
+      "originalDownload": "models/polyhaven-modular-pipes/originals.zip",
+      "bytes": 5769784,
+      "sha256": "b58797beae4536b15e399464efd8d12a3e30379ede4b6eaec260cfa64b0751cf",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 106,
+        "nodes": 106,
+        "materials": 2,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:33:33.442432+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "modular_pipes_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-modular-pipes/original/modular_pipes_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_pipes/modular_pipes_1k.gltf",
+            "bytes": 107409,
+            "md5": "993502b4d8c371bc38a03cba6d6f4008",
+            "sha256": "29d55a79397c42309075143336c016f19d731b4ff4b724446ef177fce90878de"
+          },
+          {
+            "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_metal_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_metal_nor_gl_1k.jpg",
+            "bytes": 703461,
+            "md5": "1d46c84cbca6c4be7c8a051e99598aac",
+            "sha256": "ddcbd7c584f7e08ff4f292f6e25c10a4d2990cadf8b75a30e618791d78d66a00"
+          },
+          {
+            "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_metal_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_metal_diff_1k.jpg",
+            "bytes": 765956,
+            "md5": "034a812f97e22b51d3d37209ef33c2dc",
+            "sha256": "251194bac04df52465296b213e5926ac46a26ecf85ddbba8b6777bbbca625a38"
+          },
+          {
+            "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_metal_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_metal_arm_1k.jpg",
+            "bytes": 746872,
+            "md5": "d6ef54a2189f1deacc20b32207b9b4ba",
+            "sha256": "6074f1f6bc7ee8d6322d72cecef3527e5640ec39a586c430236bec56adbc3437"
+          },
+          {
+            "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_pvc_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_pvc_nor_gl_1k.jpg",
+            "bytes": 546139,
+            "md5": "51bbd10b74e72e32e8b115aaee09c423",
+            "sha256": "c34c5ba542b46d45e6bebaafd54d19e3bf74855ba769215ebac754943757cc2f"
+          },
+          {
+            "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_pvc_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_pvc_diff_1k.jpg",
+            "bytes": 704052,
+            "md5": "231fad0cdebb1cd8ac3538132d22aa20",
+            "sha256": "ac43e8c9ae46c406f10308a8bbc5925bf31c21f41895adea637b3963b573f174"
+          },
+          {
+            "file": "models/polyhaven-modular-pipes/original/textures/modular_pipes_pvc_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes/modular_pipes_pvc_arm_1k.jpg",
+            "bytes": 776291,
+            "md5": "a1215f352bf91515a1a26b5c9313a35d",
+            "sha256": "52b09a5020b1e3dee4d4d808dfd7c8a0d64b1da9b29054b7a143159fac04b39b"
+          },
+          {
+            "file": "models/polyhaven-modular-pipes/original/modular_pipes.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_pipes/modular_pipes.bin",
+            "bytes": 1465048,
+            "md5": "4e7c0df1fa2fa412cd145ae4907eea52",
+            "sha256": "7ebd9cd06e30f55ec78cc5cf2b89a45907ef919c36817e26f1d0544c6c7d54eb"
+          }
+        ],
+        "originalDownloadSha256": "d764295272e5fba733d340ccdda14db39a7160a7c2e8f658abd9970885b58ab2",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/metadata.json",
+        "metadataEvidenceSha256": "4cdaf5487328274d470ba3b3c8c59eefdd0b28c7bec6ae4cdc14af14abb7019b",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/files.json",
+        "fileManifestEvidenceSha256": "c04564271060ac749bc6d0a48d86421ee3c9532aa759722c37fd25d259a3f13c",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/technical-review.json",
+        "technicalReviewEvidenceSha256": "ae213d80bcbfa9ddb214f59f5c5672120a3b3ea545e98e2cbe7e33c2d73b207a",
+        "providerReportedPolycount": 47428,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          4.187440872192383,
+          0.4577658176422119,
+          2.434948682785034
+        ],
+        "reimportDimensionsBlender": [
+          4.187440872192383,
+          0.4577658176422119,
+          2.434948682785034
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "f9fe66644300a5ea77c93c978679acce43dbadec238aaf278a5c1e91175cbfc4",
+          "triangles": 94856
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "plumbing-modular-pipes",
+      "variantGroupTitle": "Tuberías y válvulas modulares"
+    },
+    {
+      "id": "polyhaven-modular-pipes-plastic-01",
+      "assetId": "polyhaven:modular_pipes_plastic_01",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Tuberías plásticas y válvulas modulares",
+      "titleOriginal": "Modular Pipes Plastic 01",
+      "author": "Amal Kumar",
+      "authorUrl": "https://polyhaven.com/a/modular_pipes_plastic_01",
+      "sourceUrl": "https://polyhaven.com/a/modular_pipes_plastic_01",
+      "metadataUrl": "https://api.polyhaven.com/info/modular_pipes_plastic_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Industrial & Infrastructure/Pipes & Ducts/Modular Pipes",
+      "tags": [
+        "pipes",
+        "garden",
+        "shed",
+        "modular",
+        "cable",
+        "valve",
+        "tap",
+        "outdoor",
+        "water",
+        "irrigation",
+        "greenhouse",
+        "farm",
+        "farmhouse",
+        "utility",
+        "infrastructure",
+        "Modular Pipes Plastic 01",
+        "plumbing-modular-pipes"
+      ],
+      "areas": [
+        "agua-oceanos",
+        "oficios-productividad"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Formación Ciudadana",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Modular Pipes Plastic 01\", por Amal Kumar / Poly Haven. https://polyhaven.com/a/modular_pipes_plastic_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-modular-pipes-plastic-01/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/metadata.json",
+      "originalDownload": "models/polyhaven-modular-pipes-plastic-01/originals.zip",
+      "bytes": 3109888,
+      "sha256": "ac87d530fd321b69e947d1516b30b857b7c751b485b144c40d8851fb50337cc5",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 15,
+        "nodes": 16,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:33:36.073171+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "modular_pipes_plastic_01_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-modular-pipes-plastic-01/original/modular_pipes_plastic_01_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_1k.gltf",
+            "bytes": 24759,
+            "md5": "419e42f829f3a4e80ebfa724c2a3a0ca",
+            "sha256": "e024c4630d8a12b3d90a2911471fb1ecb45438690983855b7c4de1c08feb954d"
+          },
+          {
+            "file": "models/polyhaven-modular-pipes-plastic-01/original/textures/modular_pipes_plastic_01_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_1k.jpg",
+            "bytes": 579649,
+            "md5": "b8d0792ea77af6db8023f09377e81d5e",
+            "sha256": "ed3550753b08a45d2691f730f3450985f45a3e1d1c5ae4665ebf8b5277ab609c"
+          },
+          {
+            "file": "models/polyhaven-modular-pipes-plastic-01/original/textures/modular_pipes_plastic_01_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_1k.jpg",
+            "bytes": 389959,
+            "md5": "8c359f828d3192568af375254e7532bc",
+            "sha256": "e90883f4b0fbb01fd09f139a6ab151c79e65f401c50c359376bc8c1a81496f4e"
+          },
+          {
+            "file": "models/polyhaven-modular-pipes-plastic-01/original/modular_pipes_plastic_01.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_pipes_plastic_01/modular_pipes_plastic_01.bin",
+            "bytes": 1506248,
+            "md5": "e2b25c31fa282f466a451310588fdc5f",
+            "sha256": "5c765645f197c2ac7cd1d2fe63614460cbc64bd9607790f2834333aca8a601af"
+          },
+          {
+            "file": "models/polyhaven-modular-pipes-plastic-01/original/textures/modular_pipes_plastic_01_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_1k.jpg",
+            "bytes": 619390,
+            "md5": "9e10b42ec4373baa43ceb85ddbd29686",
+            "sha256": "e4df360f1c32b4b1c74081285dae13439b57e2b7d9d850a9309e2b3fc6440ca4"
+          }
+        ],
+        "originalDownloadSha256": "0b20848902eb90a4a2b8d3f1fc489caa7ff96d604fe4732c018340fb9c19c907",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/metadata.json",
+        "metadataEvidenceSha256": "8b3df50dfb828554a58b8c003e73f20e8c8551e7e3324ebc0016b367dbf4c3e6",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/files.json",
+        "fileManifestEvidenceSha256": "61a9e577c2cb6f10f729ec8f129dde9cc1987d00f4ec53de1e2148d1a89251a4",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/technical-review.json",
+        "technicalReviewEvidenceSha256": "6ebde12b49be308412d101fb062637dc31b6ed3c18a95d96d67dcef45a939f8f",
+        "providerReportedPolycount": 49708,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.815658450126648,
+          0.36176106333732605,
+          0.07573375105857849
+        ],
+        "reimportDimensionsBlender": [
+          0.815658450126648,
+          0.36176106333732605,
+          0.07573375105857849
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "c39371decf80c4ccd1921f2509653f6293e2500593257ef1d4b749c76f2bf83d",
+          "triangles": 47788
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "plumbing-modular-pipes",
+      "variantGroupTitle": "Tuberías y válvulas modulares"
+    },
+    {
+      "id": "polyhaven-multi-cleaner-5-litre",
+      "assetId": "polyhaven:multi_cleaner_5_litre",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Bidón de limpiador de cinco litros",
+      "titleOriginal": "Multi Cleaner 5 Litre",
+      "author": "James Ray Cock",
+      "authorUrl": "https://polyhaven.com/a/multi_cleaner_5_litre",
+      "sourceUrl": "https://polyhaven.com/a/multi_cleaner_5_litre",
+      "metadataUrl": "https://api.polyhaven.com/info/multi_cleaner_5_litre",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Containers & Storage/Cans, Tins & Bottles/Cleaning & Chemical Bottles",
+      "tags": [
+        "shed",
+        "storage",
+        "cleaning",
+        "plastic",
+        "bottle",
+        "dirty",
+        "cleaner",
+        "multipurpose",
+        "household",
+        "cleaning supplies",
+        "janitorial",
+        "sanitation",
+        "gallon",
+        "allpurpose",
+        "Multi Cleaner 5 Litre",
+        "chemistry-household-containers"
+      ],
+      "areas": [
+        "laboratorio-ciencia",
+        "matematicas-medicion"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Multi Cleaner 5 Litre\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/multi_cleaner_5_litre. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-multi-cleaner-5-litre/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/metadata.json",
+      "originalDownload": "models/polyhaven-multi-cleaner-5-litre/originals.zip",
+      "bytes": 1365416,
+      "sha256": "f9b63342f6450ad74ef591912bfaadc953954d13a7a7eafc36adc6e212a9b9d2",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 2,
+        "nodes": 2,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:34:19.076900+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "multi_cleaner_5_litre_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-multi-cleaner-5-litre/original/multi_cleaner_5_litre_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_1k.gltf",
+            "bytes": 4406,
+            "md5": "5bfa8ea24458a4bd2a5e07ed049363fa",
+            "sha256": "449a1f5ad8d511f635aafe4233b1d1e216eacf0c987cc2202b2052ce2ec879c3"
+          },
+          {
+            "file": "models/polyhaven-multi-cleaner-5-litre/original/textures/multi_cleaner_5_litre_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_1k.jpg",
+            "bytes": 366299,
+            "md5": "13b0a9d6926c0735a71ed84964648d23",
+            "sha256": "dc59d4cdb8f85c6ef09b3730f17d2bdb7ec2b819de29b8e03e56e69cc0d76a9e"
+          },
+          {
+            "file": "models/polyhaven-multi-cleaner-5-litre/original/textures/multi_cleaner_5_litre_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_1k.jpg",
+            "bytes": 568077,
+            "md5": "3c3d0772e48198abc9a7a19374a5e3d1",
+            "sha256": "570f40e4989ccd5ed4f59385c9dce05605d7c5f855ba7e422de3a4b38b235ed0"
+          },
+          {
+            "file": "models/polyhaven-multi-cleaner-5-litre/original/multi_cleaner_5_litre.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/multi_cleaner_5_litre/multi_cleaner_5_litre.bin",
+            "bytes": 116488,
+            "md5": "8feef729541069546d59c3de08f4b6fb",
+            "sha256": "11f978c7be90faa675e3020b3b09e20e35083ce5c591d3c89ad2d2f7250c1ec7"
+          },
+          {
+            "file": "models/polyhaven-multi-cleaner-5-litre/original/textures/multi_cleaner_5_litre_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_1k.jpg",
+            "bytes": 311822,
+            "md5": "cc3f9aabe2940ce110e0482bf0090620",
+            "sha256": "893673ea82d00f4afe84fbcf29ac0d92cde7057a13fb6b5f8b0d719530bfca2b"
+          }
+        ],
+        "originalDownloadSha256": "2495b0448f95ad9ea1b17e4cfc7ca7b41484a5a939a2e6a3a1ad2d9003660014",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/metadata.json",
+        "metadataEvidenceSha256": "cb0ff77374b6af2f885d397cc84e13deda802e5cddeeb9e47b429d3f5857e547",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/files.json",
+        "fileManifestEvidenceSha256": "9b9891841d39220705c0cd34a413cd04cf2bbda109e51154e34308df48ea778a",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/technical-review.json",
+        "technicalReviewEvidenceSha256": "b9f07b6f837be47bd57a5ac849f51fa714d64d6f15e2537e7948a02abdd8f2e6",
+        "providerReportedPolycount": 4332,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.21929194033145905,
+          0.10577977448701859,
+          0.3003377318382263
+        ],
+        "reimportDimensionsBlender": [
+          0.21929194033145905,
+          0.10577977448701859,
+          0.3003377318382263
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "c6629a0c212edd8a629d64cf68a6489df2a6140c72d0f274c85cc08bfe1fb4f8",
+          "triangles": 4332
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "chemistry-household-containers",
+      "variantGroupTitle": "Envases de productos químicos"
+    },
+    {
+      "id": "polyhaven-pipe-wrench",
+      "assetId": "polyhaven:pipe_wrench",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Llave para tubos",
+      "titleOriginal": "Pipe Wrench",
+      "author": "Will Evarts",
+      "authorUrl": "https://polyhaven.com/a/pipe_wrench",
+      "sourceUrl": "https://polyhaven.com/a/pipe_wrench",
+      "metadataUrl": "https://api.polyhaven.com/info/pipe_wrench",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pipe_wrench/pipe_wrench_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Tools & Equipment/Hand Tools/Wrenches & Spanners",
+      "tags": [
+        "wrench",
+        "garage",
+        "workshop",
+        "construction",
+        "plumbing",
+        "automotive",
+        "used",
+        "mechanics toolbox",
+        "hardware",
+        "adjustable wrench",
+        "monkey wrench",
+        "spanner",
+        "Pipe Wrench",
+        "workshop-wrenches"
+      ],
+      "areas": [
+        "oficios-productividad",
+        "fisica-energia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Pipe Wrench\", por Will Evarts / Poly Haven. https://polyhaven.com/a/pipe_wrench. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-pipe-wrench/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/metadata.json",
+      "originalDownload": "models/polyhaven-pipe-wrench/originals.zip",
+      "bytes": 3014168,
+      "sha256": "fd0c2316f85cfb5426584a03ee1f3433392047889b33f944e485aa4575f484d5",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:34:24.192261+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "pipe_wrench_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-pipe-wrench/original/pipe_wrench_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pipe_wrench/pipe_wrench_1k.gltf",
+            "bytes": 2756,
+            "md5": "b15215e590b08501397b3303c17c236e",
+            "sha256": "f6b9b8bcb40842411a9b8d4c74b7e5d5623f64e55c04f54b7e4747759dcba9ed"
+          },
+          {
+            "file": "models/polyhaven-pipe-wrench/original/textures/pipe_wrench_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_arm_1k.jpg",
+            "bytes": 820365,
+            "md5": "60d631b218bccdc289330840adcb1e07",
+            "sha256": "1d6a908b19d21a5d592a3faba3cb6d2536b2d24b9048873f34d4bfa9fcd7392a"
+          },
+          {
+            "file": "models/polyhaven-pipe-wrench/original/textures/pipe_wrench_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_diff_1k.jpg",
+            "bytes": 886835,
+            "md5": "8ba0690b6ead89564c63810c2fcfe957",
+            "sha256": "f9a43727c70db8344ee780ce73064681a7a4c97e918c16b071c08cdc3c7a1fdd"
+          },
+          {
+            "file": "models/polyhaven-pipe-wrench/original/textures/pipe_wrench_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_nor_gl_1k.jpg",
+            "bytes": 1020433,
+            "md5": "02e9be9fee27d6faa6fea4d63d5b2a7c",
+            "sha256": "504c2d5b09c87e2fbf5aca5e3cddfb9c77eb9966531fe5c6219f9813b176b44a"
+          },
+          {
+            "file": "models/polyhaven-pipe-wrench/original/pipe_wrench.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pipe_wrench/pipe_wrench.bin",
+            "bytes": 284764,
+            "md5": "1c6c1974d94fc2656055d3d7830dd9fb",
+            "sha256": "6d21de348f1fb4b2194b1f91a4529e48cac721debaaec9cb6fba37939d503bfc"
+          }
+        ],
+        "originalDownloadSha256": "be8a547bb4160fa446764e2f780bb9e9f84eddd26f469804e07d59cb8ff98cc5",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/metadata.json",
+        "metadataEvidenceSha256": "12122516f1f8b7b5ceec320a3f1ddfb703c45dad68411e78b30373946dd9b7de",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/files.json",
+        "fileManifestEvidenceSha256": "b9edb813170c97f3d8ced666e8e5f114b4c014c2db1173ea0dd9d3aeaa038678",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/technical-review.json",
+        "technicalReviewEvidenceSha256": "f248df2a3b04c5ec27e1b6a363271072b9bc18ae15d8c8f2df8454f1374ea90a",
+        "providerReportedPolycount": 10746,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.08397936820983887,
+          0.03434488922357559,
+          0.40466517210006714
+        ],
+        "reimportDimensionsBlender": [
+          0.08397936820983887,
+          0.03434488922357559,
+          0.40466517210006714
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "7571add260c3a6537d0fdaa04ef49e01fc7dc5ed1925b412ec7ee691fdabd9b4",
+          "triangles": 10746
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "workshop-wrenches",
+      "variantGroupTitle": "Llaves de taller"
+    },
+    {
+      "id": "polyhaven-pliers",
+      "assetId": "polyhaven:pliers",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Alicates con cortador de alambre",
+      "titleOriginal": "Pliers",
+      "author": "PierreB3D",
+      "authorUrl": "https://polyhaven.com/a/pliers",
+      "sourceUrl": "https://polyhaven.com/a/pliers",
+      "metadataUrl": "https://api.polyhaven.com/info/pliers",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pliers/pliers_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Tools & Equipment/Hand Tools/Pliers & Grippers",
+      "tags": [
+        "rusted",
+        "plastic",
+        "metal",
+        "combination pliers",
+        "wire cutters",
+        "hand tool",
+        "Pliers",
+        "workshop-pliers"
+      ],
+      "areas": [
+        "robotica-electronica",
+        "oficios-productividad"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Pliers\", por PierreB3D / Poly Haven. https://polyhaven.com/a/pliers. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-pliers/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/pliers/metadata.json",
+      "originalDownload": "models/polyhaven-pliers/originals.zip",
+      "bytes": 2014204,
+      "sha256": "6a78918f164d96d9c5c6185419cc284bcdf6ac8581137aa3f5f72c9deffb1287",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 3,
+        "nodes": 3,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:34:27.561875+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "pliers_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-pliers/original/pliers_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pliers/pliers_1k.gltf",
+            "bytes": 5560,
+            "md5": "1c83e0be2aeebf33e2a750a16c33b2ed",
+            "sha256": "7d347749569fc43cb256db9b077ba4eae16586c927b3ac8c3af119561a00bc34"
+          },
+          {
+            "file": "models/polyhaven-pliers/original/textures/pliers_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pliers/pliers_nor_gl_1k.jpg",
+            "bytes": 420328,
+            "md5": "71640ca861416cf5a94337b6b1bc8070",
+            "sha256": "603a2b5b3b8731ea650378b966d858752d2ecf4b07f0a3446e81fe40b77fa644"
+          },
+          {
+            "file": "models/polyhaven-pliers/original/textures/pliers_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pliers/pliers_diff_1k.jpg",
+            "bytes": 669794,
+            "md5": "554ebf0ee29a92b8e17e0ab1b1013424",
+            "sha256": "57d3be6ebd943ef734b9073180f8bce5f30cb34e49e3bdcdd5a2eec231acc3a4"
+          },
+          {
+            "file": "models/polyhaven-pliers/original/textures/pliers_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pliers/pliers_arm_1k.jpg",
+            "bytes": 774330,
+            "md5": "1241ca682bb58e3e1395f0818f4331f6",
+            "sha256": "9b2727ee86ad98c170b6637618d45a347edc34001dbff493403c39b74b6212b6"
+          },
+          {
+            "file": "models/polyhaven-pliers/original/pliers.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pliers/pliers.bin",
+            "bytes": 146348,
+            "md5": "4e7ed7bcaa7b0444ab15ce25742adeb3",
+            "sha256": "df719ce479fb60a35d2424ef678b2c3a47f15d7c5968928da737614df7395ce8"
+          }
+        ],
+        "originalDownloadSha256": "cf5894f9c4b5cbc27dfd746d3ea15c345792a722e9c95cfa5b78192c69698d7b",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pliers/metadata.json",
+        "metadataEvidenceSha256": "8b4964e88c7e0182581afdabc0075045531898294a4c6193593c2ca119ab50cf",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pliers/files.json",
+        "fileManifestEvidenceSha256": "b8541a653a7c3a6c9b909e926b6acd2105e0472919d8c75f98f2623b7db59932",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pliers/technical-review.json",
+        "technicalReviewEvidenceSha256": "06b35e46701c8bb6b5f09aa889eb625e0316d39628afa9a8d78cce64bdf8fedf",
+        "providerReportedPolycount": 4540,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.05528969317674637,
+          0.017985451966524124,
+          0.17978322505950928
+        ],
+        "reimportDimensionsBlender": [
+          0.05528969317674637,
+          0.017985451966524124,
+          0.17978322505950928
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "b083c6786b1358298ed4c446c94774269f1eb1487b52b9a212e1e9f05b5c7ae7",
+          "triangles": 4540
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "workshop-pliers",
+      "variantGroupTitle": "Alicates con cortador de alambre"
+    },
+    {
+      "id": "polyhaven-portable-generator",
+      "assetId": "polyhaven:portable_generator",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Generador eléctrico portátil",
+      "titleOriginal": "Portable Generator",
+      "author": "James Ray Cock",
+      "authorUrl": "https://polyhaven.com/a/portable_generator",
+      "sourceUrl": "https://polyhaven.com/a/portable_generator",
+      "metadataUrl": "https://api.polyhaven.com/info/portable_generator",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/portable_generator/portable_generator_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Industrial & Infrastructure/Utility Equipment",
+      "tags": [
+        "gasoline",
+        "backup power",
+        "construction equipment",
+        "power generator",
+        "petrol",
+        "garage",
+        "power",
+        "engine",
+        "Portable Generator",
+        "electrical-generators"
+      ],
+      "areas": [
+        "fisica-energia",
+        "robotica-electronica"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Portable Generator\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/portable_generator. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-portable-generator/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/metadata.json",
+      "originalDownload": "models/polyhaven-portable-generator/originals.zip",
+      "bytes": 4185568,
+      "sha256": "5bc360ee19d7f341a489b3139829506c2cc77fa691b86a2295f8b189c0af4c2a",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 4,
+        "nodes": 4,
+        "materials": 2,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:33:58.345099+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "portable_generator_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-portable-generator/original/portable_generator_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/portable_generator/portable_generator_1k.gltf",
+            "bytes": 10130,
+            "md5": "13c2380487daae6726443b9f38dd7e53",
+            "sha256": "d5afe27834f824dfe753391713c45be03479e8100831f320796030531f61b848"
+          },
+          {
+            "file": "models/polyhaven-portable-generator/original/textures/portable_generator_spec_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_spec_1k.jpg",
+            "bytes": 23119,
+            "md5": "b3044dbc984897ed902bd47a450f742f",
+            "sha256": "acf30e81c367898eb846f353d77e404f6831ac23bf071e0e718fddb8881b86cb"
+          },
+          {
+            "file": "models/polyhaven-portable-generator/original/textures/portable_generator_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_nor_gl_1k.jpg",
+            "bytes": 818829,
+            "md5": "89a51a982488c21eddec2c6e02249591",
+            "sha256": "8a868edab1a2f5ffa50b2b1680c2c342491b3eeeac443734178c445c7286c25d"
+          },
+          {
+            "file": "models/polyhaven-portable-generator/original/textures/portable_generator_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_diff_1k.jpg",
+            "bytes": 755079,
+            "md5": "3d572e1716148ca5d641d8a199fe9192",
+            "sha256": "32acc300105a2df2290d872889b24e1b29ff1ca2c56c0a0cf8fbba0c5966a063"
+          },
+          {
+            "file": "models/polyhaven-portable-generator/original/textures/portable_generator_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_arm_1k.jpg",
+            "bytes": 887711,
+            "md5": "7dbb8b9f0aa4e9d3ce6ad37e0326299f",
+            "sha256": "10236e967baddd90ec7d4ab68969b06fb419f98782a2796db94edc0249b0dad2"
+          },
+          {
+            "file": "models/polyhaven-portable-generator/original/portable_generator.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/portable_generator/portable_generator.bin",
+            "bytes": 939572,
+            "md5": "81b2f4c4c6d0b0d7388ae9aa1123563a",
+            "sha256": "fb7dcfedec1331ad541569e4ca8d4157284b2164084b7fe5a97928d4abc0ea2d"
+          }
+        ],
+        "originalDownloadSha256": "f3c003b5a2a36e81da661a9c720d3b713479e156b7bc0302457526dd3c1c67a3",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/metadata.json",
+        "metadataEvidenceSha256": "433f22df20412d15c03c3bb0af92a65638cf9ecc441a571579f3bc1a863dfb0e",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/files.json",
+        "fileManifestEvidenceSha256": "4fa185b04ff942c44c6c947520acf98711ca270e9b86e90d497868b96576831c",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/technical-review.json",
+        "technicalReviewEvidenceSha256": "7d2954f31d24f2bdd8aebd1e33fb08f004136b9ad1ec30f159f20b6ebf66b920",
+        "providerReportedPolycount": 26419,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.8183407783508301,
+          0.5640000104904175,
+          0.5769232511520386
+        ],
+        "reimportDimensionsBlender": [
+          0.8183407783508301,
+          0.5640000104904175,
+          0.5769232511520386
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "324c942912984b1f2306a370760d5b7615d79a94917fa5a67d4db72c2f8e5919",
+          "triangles": 26419
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "electrical-generators",
+      "variantGroupTitle": "Generadores eléctricos"
+    },
+    {
+      "id": "polyhaven-portable-welding-cart",
+      "assetId": "polyhaven:portable_welding_cart",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Carro de soldadura con cilindros y mangueras",
+      "titleOriginal": "Portable Welding Cart",
+      "author": "Georgii Gorbunov",
+      "authorUrl": "https://polyhaven.com/a/portable_welding_cart",
+      "sourceUrl": "https://polyhaven.com/a/portable_welding_cart",
+      "metadataUrl": "https://api.polyhaven.com/info/portable_welding_cart",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/portable_welding_cart/portable_welding_cart_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Tools & Equipment/Workshop Equipment/Welding Equipment",
+      "tags": [
+        "fuel",
+        "welding",
+        "cart",
+        "gas torch",
+        "oxygen tank",
+        "acetylene tank",
+        "hand truck",
+        "cylinder",
+        "hoses",
+        "Portable Welding Cart",
+        "workshop-welding-equipment"
+      ],
+      "areas": [
+        "laboratorio-ciencia",
+        "oficios-productividad"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Portable Welding Cart\", por Georgii Gorbunov / Poly Haven. https://polyhaven.com/a/portable_welding_cart. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-portable-welding-cart/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/metadata.json",
+      "originalDownload": "models/polyhaven-portable-welding-cart/originals.zip",
+      "bytes": 3504552,
+      "sha256": "13294de49c791dad21b86b6a368753470a9dc2958fb50e8cdb966da2df791b65",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 2,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:34:09.614261+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "portable_welding_cart_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-portable-welding-cart/original/portable_welding_cart_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/portable_welding_cart/portable_welding_cart_1k.gltf",
+            "bytes": 4797,
+            "md5": "33d94dec3e6fd1e1b59015a07e581ce1",
+            "sha256": "2ee1f60ab9985755bd4a18bd6296bbfa60939909ffce802b6fd0dcbac3e6e113"
+          },
+          {
+            "file": "models/polyhaven-portable-welding-cart/original/textures/portable_welding_cart_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_welding_cart/portable_welding_cart_nor_gl_1k.jpg",
+            "bytes": 469656,
+            "md5": "ec56de2a7156316fdc92f135ea0a44a2",
+            "sha256": "1ed87f8854486f3ba5fd426b1947584cdae3374e27f441ef46ef513fbfbc39a2"
+          },
+          {
+            "file": "models/polyhaven-portable-welding-cart/original/textures/portable_welding_cart_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_welding_cart/portable_welding_cart_diff_1k.jpg",
+            "bytes": 705644,
+            "md5": "b9db0a0e0170ae91c9a0e5bc117155f2",
+            "sha256": "3efec798f2f63c7dc68bd22deee74d12de0453195ee7f568f9e171d848624208"
+          },
+          {
+            "file": "models/polyhaven-portable-welding-cart/original/textures/portable_welding_cart_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_welding_cart/portable_welding_cart_arm_1k.jpg",
+            "bytes": 756251,
+            "md5": "d4a089568b13d8f8d52201c4c13e3f59",
+            "sha256": "6b5036f5ff4d8aa1b25da4aeb504a92d1a29373e22299080b3186b6385b6504d"
+          },
+          {
+            "file": "models/polyhaven-portable-welding-cart/original/portable_welding_cart.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/portable_welding_cart/portable_welding_cart.bin",
+            "bytes": 864348,
+            "md5": "a866823984530a1c01a03e0849f72887",
+            "sha256": "b5b073932eeb1d39f9b33893d5b96432e24a067000db8a15e53a0508516700a6"
+          }
+        ],
+        "originalDownloadSha256": "05139d270ae0916f99beabdaf43635eb88005c0b10f4fa9ff0d40019a24751b2",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/metadata.json",
+        "metadataEvidenceSha256": "4f6ebebc30d964ff9d19e6fbd5b65bdd129f336a02e7bb43b847317c6a967ac7",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/files.json",
+        "fileManifestEvidenceSha256": "d6b6456e25a21c82288fd356eff5d972c5da3f34275962c7859a0dda6bdde4d1",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/technical-review.json",
+        "technicalReviewEvidenceSha256": "fcc94a395fe9f526faf1c50fa9bdd87a31ca794f17e99e7e45b87e25bb79e9e1",
+        "providerReportedPolycount": 29418,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.8382881879806519,
+          0.6549038887023926,
+          1.5631701946258545
+        ],
+        "reimportDimensionsBlender": [
+          0.8382881879806519,
+          0.6549038887023926,
+          1.5631701946258545
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "ba04016ba150d02e2653accb2bfd4ce01fae061abeacc555634fd51bdb427bea",
+          "triangles": 29418
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "workshop-welding-equipment",
+      "variantGroupTitle": "Carro de soldadura con cilindros y mangueras"
+    },
+    {
+      "id": "polyhaven-power-box-01",
+      "assetId": "polyhaven:power_box_01",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Tablero eléctrico con interruptores",
+      "titleOriginal": "Power Box 01",
+      "author": "Rico Cilliers, Yann Kervran",
+      "authorUrl": "https://polyhaven.com/a/power_box_01",
+      "sourceUrl": "https://polyhaven.com/a/power_box_01",
+      "metadataUrl": "https://api.polyhaven.com/info/power_box_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/power_box_01/power_box_01_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Industrial & Infrastructure/Electrical/Utility & Power Boxes",
+      "tags": [
+        "box",
+        "electrical",
+        "power",
+        "wiring",
+        "db board",
+        "circuit",
+        "breakers",
+        "board",
+        "switch",
+        "prop",
+        "modern",
+        "damaged",
+        "utility",
+        "infrastructure",
+        "Power Box 01",
+        "electrical-distribution-boxes"
+      ],
+      "areas": [
+        "robotica-electronica",
+        "fisica-energia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Power Box 01\", por Rico Cilliers, Yann Kervran / Poly Haven. https://polyhaven.com/a/power_box_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-power-box-01/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/metadata.json",
+      "originalDownload": "models/polyhaven-power-box-01/originals.zip",
+      "bytes": 2723964,
+      "sha256": "cfc3a8d9e37a45e05c891b72a6f74f7beb0d183d4f6abf87baed9dea76e403e8",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 2,
+        "nodes": 2,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:33:49.535242+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "power_box_01_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-power-box-01/original/power_box_01_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/power_box_01/power_box_01_1k.gltf",
+            "bytes": 4417,
+            "md5": "9fbd7f7049a13eb25213f5038c1ef42c",
+            "sha256": "edb54e68fb1229e9f59906459d782c2ddc576f6bd1141cf09ad864f48d7cb93b"
+          },
+          {
+            "file": "models/polyhaven-power-box-01/original/textures/power_box_01_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/power_box_01/power_box_01_arm_1k.jpg",
+            "bytes": 801803,
+            "md5": "2173121335747b6b20b747363d530006",
+            "sha256": "4601e901e2f7c1584ab5ecf65e0e192a99a4be86da505527f1622658e1b1e527"
+          },
+          {
+            "file": "models/polyhaven-power-box-01/original/textures/power_box_01_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/power_box_01/power_box_01_nor_gl_1k.jpg",
+            "bytes": 646545,
+            "md5": "92c88449b0ce7dad3cd1d7e055870af5",
+            "sha256": "199b6fe93776aa0934f7bc36d8c82f1b4db9be9243e82e0cb3727bbcf25d85f1"
+          },
+          {
+            "file": "models/polyhaven-power-box-01/original/power_box_01.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/power_box_01/power_box_01.bin",
+            "bytes": 782096,
+            "md5": "e76df413e15ce8a76eb50971266d2450",
+            "sha256": "b46efdf668ec2d4e04ff51604b5f1486caf20df632f442aab62601718058db05"
+          },
+          {
+            "file": "models/polyhaven-power-box-01/original/textures/power_box_01_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/power_box_01/power_box_01_diff_1k.jpg",
+            "bytes": 490782,
+            "md5": "c5d43a1a9cf48a616852a05401ad8f20",
+            "sha256": "845c425ebc0ded263a7d49909e2c26710dd6160da11c0ca44aebd723f4f6f168"
+          }
+        ],
+        "originalDownloadSha256": "78a74cc020af07aa0ab2169ff214fbd70f2f60bf1d3d474d0c46e4e103ce5f6c",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/metadata.json",
+        "metadataEvidenceSha256": "6e78e2048ac5de7541250b4dcbe1836714a309984ba2de242938ff89cf5d55ba",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/files.json",
+        "fileManifestEvidenceSha256": "0f610f48db49b586c5fe83c7fedd8b53821a52d71489b7cb6dd8f5ccda387c6c",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/technical-review.json",
+        "technicalReviewEvidenceSha256": "bc4fbe636bdac09ce8c8b55932a44ac9e9d03faa41385b8b637f812a42e7f3b1",
+        "providerReportedPolycount": 21272,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.4613242745399475,
+          0.3989851176738739,
+          0.503142774105072
+        ],
+        "reimportDimensionsBlender": [
+          0.4613242745399475,
+          0.3989851176738739,
+          0.503142774105072
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "5e6f025dadeb9cb3a7218cebffc2a260e6488b66ec68db759057162b825e3b2f",
+          "triangles": 21272
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "electrical-distribution-boxes",
+      "variantGroupTitle": "Tableros y gabinetes eléctricos"
+    },
+    {
+      "id": "polyhaven-propane-tank",
+      "assetId": "polyhaven:propane_tank",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Cilindro de propano",
+      "titleOriginal": "Propane Tank",
+      "author": "Slinc",
+      "authorUrl": "https://polyhaven.com/a/propane_tank",
+      "sourceUrl": "https://polyhaven.com/a/propane_tank",
+      "metadataUrl": "https://api.polyhaven.com/info/propane_tank",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/propane_tank/propane_tank_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Containers & Storage/Tanks & Jerrycans/Gas Cylinders",
+      "tags": [
+        "worn",
+        "metal",
+        "red barrel",
+        "scratched",
+        "cylinder",
+        "lpg",
+        "fuel",
+        "Propane Tank",
+        "chemistry-gas-cylinders"
+      ],
+      "areas": [
+        "laboratorio-ciencia",
+        "fisica-energia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Propane Tank\", por Slinc / Poly Haven. https://polyhaven.com/a/propane_tank. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-propane-tank/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/metadata.json",
+      "originalDownload": "models/polyhaven-propane-tank/originals.zip",
+      "bytes": 2213112,
+      "sha256": "ba56f0cb2997582558ff66dc92bfcd9949ab0d50c9fb4c8d972568c4c1693e1a",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:34:04.444215+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "propane_tank_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-propane-tank/original/propane_tank_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/propane_tank/propane_tank_1k.gltf",
+            "bytes": 2733,
+            "md5": "4579fb704d4d97e1aca048c126f6d921",
+            "sha256": "b62862832ab6bfb3262563749b9196cf6dd2b011ca86a7ccb1b35f007e5685b5"
+          },
+          {
+            "file": "models/polyhaven-propane-tank/original/textures/propane_tank_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_nor_gl_1k.jpg",
+            "bytes": 659305,
+            "md5": "d6f11926f096f3373f091bb35f83ddd3",
+            "sha256": "e17827f800150fb069dbe36ff4464eaf9f8c4d2d4608f1cc87a48dea0fe3d8f0"
+          },
+          {
+            "file": "models/polyhaven-propane-tank/original/textures/propane_tank_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_diff_1k.jpg",
+            "bytes": 702492,
+            "md5": "935d42c466adae18710e1f0fc79b306b",
+            "sha256": "09ae9f12f41ed0c8c7fb8e22f16871727b9b6ed7e06cde98ec9b8052395f46a4"
+          },
+          {
+            "file": "models/polyhaven-propane-tank/original/textures/propane_tank_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_arm_1k.jpg",
+            "bytes": 675391,
+            "md5": "23773169952447a34c90944eb17563a0",
+            "sha256": "c56b34618f8d3a2681f559e66bbd4616010ba092b8266ee4249940e1dfecf820"
+          },
+          {
+            "file": "models/polyhaven-propane-tank/original/propane_tank.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/propane_tank/propane_tank.bin",
+            "bytes": 174180,
+            "md5": "bb8e4a72c3f655bfa3dec7456a343451",
+            "sha256": "1e139c9a5a04de7b44a665cb504670c2e899d1f8f62ad84a238165874d4eea6c"
+          }
+        ],
+        "originalDownloadSha256": "9eaba3b32e4593ca031116a8ae5da6f5f3e9357c164e48630bec3b9a790b9d3b",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/metadata.json",
+        "metadataEvidenceSha256": "2157abe724da423e3e54110a4ef7384deca44c8feb48aedcceb8981be65a4e3c",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/files.json",
+        "fileManifestEvidenceSha256": "766ef41e6f9ef21fb196ccd8e67b81ec06c244fc83033550ee4eddcae88b2a10",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/technical-review.json",
+        "technicalReviewEvidenceSha256": "e698d4e697d4259d10ee76d3c7f0776f95316a20ad957f4beeba26068518271a",
+        "providerReportedPolycount": 5238,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.3373616933822632,
+          0.3373616933822632,
+          0.5537950396537781
+        ],
+        "reimportDimensionsBlender": [
+          0.3373616933822632,
+          0.3373616933822632,
+          0.5537950396537781
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "0c966061fa7dc43a0bea34abbf2539462590c15899d9d5316856d4be5d0fc1ef",
+          "triangles": 5238
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "chemistry-gas-cylinders",
+      "variantGroupTitle": "Cilindros de gas"
+    },
+    {
+      "id": "polyhaven-pull-chain-light-socket",
+      "assetId": "polyhaven:pull_chain_light_socket",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Portalámparas con interruptor de cadena",
+      "titleOriginal": "Pull Chain Light Socket",
+      "author": "Josh Dean",
+      "authorUrl": "https://polyhaven.com/a/pull_chain_light_socket",
+      "sourceUrl": "https://polyhaven.com/a/pull_chain_light_socket",
+      "metadataUrl": "https://api.polyhaven.com/info/pull_chain_light_socket",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pull_chain_light_socket/pull_chain_light_socket_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Lighting/Bulbs & Fittings/Sockets & Fittings",
+      "tags": [
+        "light",
+        "fitting",
+        "socket",
+        "bulb",
+        "fixture",
+        "ceiling",
+        "lamp",
+        "chord",
+        "Pull Chain Light Socket",
+        "lighting-light-sockets"
+      ],
+      "areas": [
+        "fisica-energia",
+        "robotica-electronica"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Pull Chain Light Socket\", por Josh Dean / Poly Haven. https://polyhaven.com/a/pull_chain_light_socket. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-pull-chain-light-socket/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/metadata.json",
+      "originalDownload": "models/polyhaven-pull-chain-light-socket/originals.zip",
+      "bytes": 2046864,
+      "sha256": "56484acc38245c40e52e7fb7245d493003f8877c01e116f4edc00f3f17c8af0f",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 2,
+        "nodes": 2,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:34:00.919615+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "pull_chain_light_socket_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-pull-chain-light-socket/original/pull_chain_light_socket_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pull_chain_light_socket/pull_chain_light_socket_1k.gltf",
+            "bytes": 4348,
+            "md5": "bf3a19bf800db09f2741c08360123f72",
+            "sha256": "093c38e382efeaf605be0133bec7a93a8b2c935c40a5d0f311468053681d8258"
+          },
+          {
+            "file": "models/polyhaven-pull-chain-light-socket/original/textures/pull_chain_light_socket_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pull_chain_light_socket/pull_chain_light_socket_diff_1k.jpg",
+            "bytes": 458455,
+            "md5": "5f06d967f5c2b2544d9aafedb2365ead",
+            "sha256": "92675203e71250358db8e200a8a367ff39839f231db93050135718769b155552"
+          },
+          {
+            "file": "models/polyhaven-pull-chain-light-socket/original/textures/pull_chain_light_socket_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pull_chain_light_socket/pull_chain_light_socket_arm_1k.jpg",
+            "bytes": 729658,
+            "md5": "ff67fb67d6e7b402a5298b5194e76e1b",
+            "sha256": "35a97a7025587b8d11cbe32e385b8383fe8e7cb05e1e84c74f58cf31c5f1c295"
+          },
+          {
+            "file": "models/polyhaven-pull-chain-light-socket/original/pull_chain_light_socket.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/pull_chain_light_socket/pull_chain_light_socket.bin",
+            "bytes": 283524,
+            "md5": "2386405ddd9115f0e6b91c1966f93247",
+            "sha256": "a258aff9c893175c7ddcd09a904900ff10047a1a3ad51688b867c95208b45b4e"
+          },
+          {
+            "file": "models/polyhaven-pull-chain-light-socket/original/textures/pull_chain_light_socket_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pull_chain_light_socket/pull_chain_light_socket_nor_gl_1k.jpg",
+            "bytes": 572512,
+            "md5": "3a3808406e6153229cfe57701846fdbc",
+            "sha256": "8af515ce9ad355961bfc086830c54e065a579a737f233cea627735f850256860"
+          }
+        ],
+        "originalDownloadSha256": "0c22838a5572256dae6462a4957bacc87ceae8c835bef214d48997f5765ad9e2",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/metadata.json",
+        "metadataEvidenceSha256": "92963d8ebe7b95376c8e2596cb882f2bc75c3eaec91625756528a979407aa553",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/files.json",
+        "fileManifestEvidenceSha256": "41fdd34cea4af336b411ea3e260cede316ef282250b28cd16c9677b4751704d7",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/technical-review.json",
+        "technicalReviewEvidenceSha256": "4a2ce62d411e6a537318bd0b348f778d3a884f48f749a5f39d1cde9ce50ed1a5",
+        "providerReportedPolycount": 10902,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.110263392329216,
+          0.1102633848786354,
+          0.1654157191514969
+        ],
+        "reimportDimensionsBlender": [
+          0.110263392329216,
+          0.1102633848786354,
+          0.1654157191514969
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "75bff12483aefcd9b89462de4c102268eb0ae0b38d1d3f464260dbc5c1b4107f",
+          "triangles": 10902
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "lighting-light-sockets",
+      "variantGroupTitle": "Portalámparas con interruptor de cadena"
+    },
+    {
       "id": "polyhaven-ratchet-wrench",
       "assetId": "polyhaven:ratchet_wrench",
       "providerId": "polyhaven",
@@ -104872,6 +107792,329 @@
       "variantGroupTitle": "Bandeja de semillero"
     },
     {
+      "id": "polyhaven-small-lpg-tank",
+      "assetId": "polyhaven:small_lpg_tank",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Cilindro pequeño de gas LP",
+      "titleOriginal": "Small Lpg Tank",
+      "author": "Ulan Cabanilla",
+      "authorUrl": "https://polyhaven.com/a/small_lpg_tank",
+      "sourceUrl": "https://polyhaven.com/a/small_lpg_tank",
+      "metadataUrl": "https://api.polyhaven.com/info/small_lpg_tank",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/small_lpg_tank/small_lpg_tank_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Containers & Storage/Tanks & Jerrycans/Gas Cylinders",
+      "tags": [
+        "worn",
+        "metal",
+        "red barrel",
+        "scratched",
+        "cylinder",
+        "lpg",
+        "fuel",
+        "propane",
+        "Small Lpg Tank",
+        "chemistry-gas-cylinders"
+      ],
+      "areas": [
+        "laboratorio-ciencia",
+        "fisica-energia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Small Lpg Tank\", por Ulan Cabanilla / Poly Haven. https://polyhaven.com/a/small_lpg_tank. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-small-lpg-tank/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/metadata.json",
+      "originalDownload": "models/polyhaven-small-lpg-tank/originals.zip",
+      "bytes": 2779440,
+      "sha256": "b4b49890c41264903c0700f61084f62601aa1ae397dccbae511b2060de4b2ffb",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:34:07.032939+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "small_lpg_tank_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-small-lpg-tank/original/small_lpg_tank_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/small_lpg_tank/small_lpg_tank_1k.gltf",
+            "bytes": 2792,
+            "md5": "1660bf4ea12c6ed9fd7523a54720c54a",
+            "sha256": "fbe2e6c9c5f9f14d42c34b61f664decdb8a0e1c224776812d3a07a9175a98e05"
+          },
+          {
+            "file": "models/polyhaven-small-lpg-tank/original/textures/small_lpg_tank_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/small_lpg_tank/small_lpg_tank_nor_gl_1k.jpg",
+            "bytes": 750461,
+            "md5": "11d55dbb80f58c0eb3e344f32c6ea307",
+            "sha256": "1e6690a7e7c64da080b2047fb316c5a439cbd3c720729f686f0b07d02ae8122f"
+          },
+          {
+            "file": "models/polyhaven-small-lpg-tank/original/textures/small_lpg_tank_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/small_lpg_tank/small_lpg_tank_diff_1k.jpg",
+            "bytes": 712049,
+            "md5": "074120d4d0db683233da0ccd6db6680a",
+            "sha256": "7c998ddf9bf0824d5e7d7e0ba4dc171b2f39c6ac124f583d98dc0e8bb62d4f1b"
+          },
+          {
+            "file": "models/polyhaven-small-lpg-tank/original/textures/small_lpg_tank_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/small_lpg_tank/small_lpg_tank_arm_1k.jpg",
+            "bytes": 926422,
+            "md5": "7a8c9b8ff1eb2a921ae46e2d768f9c4e",
+            "sha256": "419ece07a7dd6800e25b38357c0ac55f94664aa4d3253234abf78b3225a094a1"
+          },
+          {
+            "file": "models/polyhaven-small-lpg-tank/original/small_lpg_tank.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/small_lpg_tank/small_lpg_tank.bin",
+            "bytes": 388716,
+            "md5": "786464f59e40ece95700db135626de59",
+            "sha256": "9f79b87d9aa4474f54bfd558075b03d04c9af99fb370170ab1bda0eefd5f9c40"
+          }
+        ],
+        "originalDownloadSha256": "54911a15fcfccff30e85ea2e6dcefcef4903a188a738cd26d42c4eadee7b2c7d",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/metadata.json",
+        "metadataEvidenceSha256": "0540f44436dec5ad6844a0add6e84a6886b89436640b6f8d398ad8f8f957a34d",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/files.json",
+        "fileManifestEvidenceSha256": "3845401d43b52914d9ceaf390e5f82285dc418a1dfe1eba956fcdc00149d8783",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/technical-review.json",
+        "technicalReviewEvidenceSha256": "52450bf478397ac8929c0d0b49438af6f92471d94f6931e8c58eeba5639fefba",
+        "providerReportedPolycount": 15042,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.4100192189216614,
+          0.4091912806034088,
+          0.6419749855995178
+        ],
+        "reimportDimensionsBlender": [
+          0.4100192189216614,
+          0.4091912806034088,
+          0.6419749855995178
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "b5494d73a47b95035d0915a21e02f0e8a0c3dc7f028129f03d08a3b0e807ae84",
+          "triangles": 15042
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "chemistry-gas-cylinders",
+      "variantGroupTitle": "Cilindros de gas"
+    },
+    {
+      "id": "polyhaven-tire-pump",
+      "assetId": "polyhaven:tire_pump",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Bomba manual de aire",
+      "titleOriginal": "Tire Pump",
+      "author": "Garrison Gager",
+      "authorUrl": "https://polyhaven.com/a/tire_pump",
+      "sourceUrl": "https://polyhaven.com/a/tire_pump",
+      "metadataUrl": "https://api.polyhaven.com/info/tire_pump",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/tire_pump/tire_pump_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Tools & Equipment/Workshop Equipment/Pumps",
+      "tags": [
+        "shed",
+        "garage",
+        "wheel",
+        "tire",
+        "pump",
+        "inflate",
+        "matress",
+        "Tire Pump",
+        "pneumatics-air-pumps"
+      ],
+      "areas": [
+        "fisica-energia",
+        "matematicas-medicion"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Tire Pump\", por Garrison Gager / Poly Haven. https://polyhaven.com/a/tire_pump. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-tire-pump/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/metadata.json",
+      "originalDownload": "models/polyhaven-tire-pump/originals.zip",
+      "bytes": 1665080,
+      "sha256": "94c3a7ba88a383434ac043f292f0099c316c4a4fb726587932132abff68f821d",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:34:21.540955+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "tire_pump_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-tire-pump/original/tire_pump_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/tire_pump/tire_pump_1k.gltf",
+            "bytes": 2735,
+            "md5": "2f9c8a311f28624f5d3cd432e1ef0bc9",
+            "sha256": "cd7a750472650da054a9f794bcf443dc9a10af77a9c527784c9d0a549a7b0c7f"
+          },
+          {
+            "file": "models/polyhaven-tire-pump/original/textures/tire_pump_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_nor_gl_1k.jpg",
+            "bytes": 569506,
+            "md5": "c32ed52dff5d84feaaf9d5b9f484afef",
+            "sha256": "c86d1e2f5606ee856a70be126630048774c2699e2f8a31cf6eb47ad5fae1c813"
+          },
+          {
+            "file": "models/polyhaven-tire-pump/original/tire_pump.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/tire_pump/tire_pump.bin",
+            "bytes": 193896,
+            "md5": "cba7becc59603a3eea1eceafe6db8718",
+            "sha256": "e3a50810e9df1772318e2d339eb541c59b98bb3038c6fadf8b1b72eab993148f"
+          },
+          {
+            "file": "models/polyhaven-tire-pump/original/textures/tire_pump_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_diff_1k.jpg",
+            "bytes": 337653,
+            "md5": "8ae7aa6d3a944df392c143489e687e80",
+            "sha256": "881eea889b7206dcd393adc8dd0c91e55f7f647722ebe6ff4a1ffe340dfd5002"
+          },
+          {
+            "file": "models/polyhaven-tire-pump/original/textures/tire_pump_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_arm_1k.jpg",
+            "bytes": 562270,
+            "md5": "2abfded0197ac1a387597a225bca2365",
+            "sha256": "987630f97ed7bb0f89736b3cddd2700a03c94f6e9e7da18ce0c63b7acb6208b0"
+          }
+        ],
+        "originalDownloadSha256": "5b97471e4d1ac5f2e480d0b9320043d18c6ac55113deb427bdf64ae86126778c",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/metadata.json",
+        "metadataEvidenceSha256": "637deebc57c6985980817f4a6bbddcffb8023d8a1d8df29e81e5e5f46e3c694c",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/files.json",
+        "fileManifestEvidenceSha256": "4dc9d9afed9dab8e5020f9099685aebe69a2279aae61f5aef0611de61d87d034",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/technical-review.json",
+        "technicalReviewEvidenceSha256": "6ca9633c9bf4fdcb956d4aa8ae53c4d6e07e5e4491009c61e88be86e695a9de3",
+        "providerReportedPolycount": 6572,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.25489503145217896,
+          0.10097792744636536,
+          0.579529345035553
+        ],
+        "reimportDimensionsBlender": [
+          0.25489503145217896,
+          0.10097792744636536,
+          0.579529345035553
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "7d64a3e62874444ff83b3713bd92d8d2eec4b314cfa749c2af8c7bdd36ecc5cf",
+          "triangles": 6572
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "pneumatics-air-pumps",
+      "variantGroupTitle": "Bomba manual de aire"
+    },
+    {
       "id": "polyhaven-trowel-01",
       "assetId": "polyhaven:trowel_01",
       "providerId": "polyhaven",
@@ -105194,6 +108437,346 @@
       "kitIds": [],
       "variantGroupId": "music-ukuleles",
       "variantGroupTitle": "Ukelele"
+    },
+    {
+      "id": "polyhaven-utility-box-01",
+      "assetId": "polyhaven:utility_box_01",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Gabinete de distribución eléctrica 01",
+      "titleOriginal": "Utility Box 01",
+      "author": "James Ray Cock",
+      "authorUrl": "https://polyhaven.com/a/utility_box_01",
+      "sourceUrl": "https://polyhaven.com/a/utility_box_01",
+      "metadataUrl": "https://api.polyhaven.com/info/utility_box_01",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/utility_box_01/utility_box_01_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Industrial & Infrastructure/Electrical/Utility & Power Boxes",
+      "tags": [
+        "utility",
+        "box",
+        "electrical",
+        "power",
+        "circuit",
+        "breakers",
+        "transformer",
+        "distributionpanel",
+        "junction box",
+        "control panel",
+        "utility box",
+        "infrastructure",
+        "urban",
+        "city",
+        "road",
+        "Utility Box 01",
+        "electrical-distribution-boxes"
+      ],
+      "areas": [
+        "robotica-electronica",
+        "fisica-energia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Utility Box 01\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/utility_box_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-utility-box-01/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/metadata.json",
+      "originalDownload": "models/polyhaven-utility-box-01/originals.zip",
+      "bytes": 1976064,
+      "sha256": "fe56486a579a4779f3b946f3e3b9d695943109a58c4527480746fdf38a8c093d",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:33:51.964752+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "utility_box_01_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-utility-box-01/original/utility_box_01_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/utility_box_01/utility_box_01_1k.gltf",
+            "bytes": 2766,
+            "md5": "a9154d210827ea508c59cb5917ca1d0f",
+            "sha256": "5b9f8c45f2640c9dd831dc3450529e45b24c987208ddcf73010fe717ce8c454e"
+          },
+          {
+            "file": "models/polyhaven-utility-box-01/original/textures/utility_box_01_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_01/utility_box_01_diff_1k.jpg",
+            "bytes": 558681,
+            "md5": "3e76f9da5032c98ed48e1b3e4cad2511",
+            "sha256": "6a703a4cdf20c3fc3d0400fa815e5a1834836c96c207bdb57ba9e4a5db3a5532"
+          },
+          {
+            "file": "models/polyhaven-utility-box-01/original/textures/utility_box_01_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_01/utility_box_01_nor_gl_1k.jpg",
+            "bytes": 557001,
+            "md5": "688a6e1925ad7bbcd562cb714165330e",
+            "sha256": "1c4e377906c13e864c9c7ffbd31a7d86075f28b948bf54872d6ad3ab38a08124"
+          },
+          {
+            "file": "models/polyhaven-utility-box-01/original/textures/utility_box_01_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_01/utility_box_01_arm_1k.jpg",
+            "bytes": 716061,
+            "md5": "f2b9e218e14b40108b5b84344c3d26ec",
+            "sha256": "e65428774e94b6a8aeb7a23802e0af8f1568952ea79e21a7a3475b957e34956b"
+          },
+          {
+            "file": "models/polyhaven-utility-box-01/original/utility_box_01.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/utility_box_01/utility_box_01.bin",
+            "bytes": 142552,
+            "md5": "5fa84789b367c3f04786e3ba92333c50",
+            "sha256": "e4249eb754d7802154eed36bb12070dc24c90fc331f355d60ef7570d61fc0f5c"
+          }
+        ],
+        "originalDownloadSha256": "686c1df7db91fa2ca2cda9dd2add426499ac3a9b00543e9c905044d86a540680",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/metadata.json",
+        "metadataEvidenceSha256": "df763c9ffaf1bc94f7366c11396339930ee1d1a53136764792263c0f49bdf465",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/files.json",
+        "fileManifestEvidenceSha256": "27c8e14af675beaefd5c321fc7bf9e1ff751d05550114a6c5c150ccf896f4325",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/technical-review.json",
+        "technicalReviewEvidenceSha256": "e41bc7ad6d91dd612323755ef9e34f0872300f53a7ea21dac3efd9b80873f9d0",
+        "providerReportedPolycount": 4404,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.5200002193450928,
+          0.43199998140335083,
+          1.1203334331512451
+        ],
+        "reimportDimensionsBlender": [
+          0.5200002193450928,
+          0.43199998140335083,
+          1.1203334331512451
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "734292dce6a283686d7ef15d9b8f9d8e8499896c9844fcb33d610723de9e2f22",
+          "triangles": 4404
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "electrical-distribution-boxes",
+      "variantGroupTitle": "Tableros y gabinetes eléctricos"
+    },
+    {
+      "id": "polyhaven-utility-box-02",
+      "assetId": "polyhaven:utility_box_02",
+      "providerId": "polyhaven",
+      "provider": "Poly Haven",
+      "title": "Gabinete de distribución eléctrica 02",
+      "titleOriginal": "Utility Box 02",
+      "author": "James Ray Cock",
+      "authorUrl": "https://polyhaven.com/a/utility_box_02",
+      "sourceUrl": "https://polyhaven.com/a/utility_box_02",
+      "metadataUrl": "https://api.polyhaven.com/info/utility_box_02",
+      "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/utility_box_02/utility_box_02_1k.gltf",
+      "thumbnailUrl": null,
+      "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+      "category": "Industrial & Infrastructure/Electrical/Utility & Power Boxes",
+      "tags": [
+        "utility",
+        "box",
+        "electrical",
+        "power",
+        "urban",
+        "city",
+        "road",
+        "circuit",
+        "breakers",
+        "transformer",
+        "distributionpanel",
+        "junction box",
+        "control panel",
+        "utility box",
+        "infrastructure",
+        "Utility Box 02",
+        "electrical-distribution-boxes"
+      ],
+      "areas": [
+        "robotica-electronica",
+        "fisica-energia"
+      ],
+      "queries": [],
+      "products": [
+        "code-studio",
+        "socrates"
+      ],
+      "subjects": [
+        "Ciencias Naturales y Tecnología",
+        "Matemáticas",
+        "Productividad y Desarrollo"
+      ],
+      "licenseRaw": "CC0 1.0",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "attributionRequired": false,
+        "commercialUse": true,
+        "derivatives": true,
+        "shareAlike": false
+      },
+      "attribution": "\"Utility Box 02\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/utility_box_02. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+      "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+      "file": "models/polyhaven-utility-box-02/model.glb",
+      "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/metadata.json",
+      "originalDownload": "models/polyhaven-utility-box-02/originals.zip",
+      "bytes": 2028236,
+      "sha256": "ab94ded063a8075c81e28794ef9c7ce9f812d3a2e5983ec04b29833f2c7a0275",
+      "apiTriangleCount": null,
+      "apiAnimated": null,
+      "gltf": {
+        "version": 2,
+        "meshes": 1,
+        "nodes": 1,
+        "materials": 1,
+        "skins": 0,
+        "joints": 0,
+        "rigged": false,
+        "animated": false,
+        "animations": 0,
+        "animationNames": [],
+        "externalDependencies": [],
+        "selfContained": true,
+        "extensionsRequired": []
+      },
+      "retrievedAt": "2026-10-30T19:33:54.430079+00:00",
+      "reviewStatus": "pending",
+      "educationalReview": "Uso curricular concreto pendiente.",
+      "reviewFlags": [
+        "detailed-reference-review"
+      ],
+      "unfulfilledQueries": [],
+      "provenance": {
+        "pack": "Poly Haven native glTF 1k",
+        "sourceMember": "utility_box_02_1k.gltf",
+        "originalFiles": [
+          {
+            "file": "models/polyhaven-utility-box-02/original/utility_box_02_1k.gltf",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/utility_box_02/utility_box_02_1k.gltf",
+            "bytes": 2764,
+            "md5": "e73af61886eedd147d66e7e295543142",
+            "sha256": "d3f87ce0852709498602f6a096be99a9e13f0ac2619f99edcebad9e89f9faf00"
+          },
+          {
+            "file": "models/polyhaven-utility-box-02/original/textures/utility_box_02_diff_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_02/utility_box_02_diff_1k.jpg",
+            "bytes": 553096,
+            "md5": "119987b82e0faac169e2109ff5961743",
+            "sha256": "78a0c93b1d8d394beee5989c0d3470a9c8c4e902f708acf3c11cd4edafbe08b1"
+          },
+          {
+            "file": "models/polyhaven-utility-box-02/original/textures/utility_box_02_arm_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_02/utility_box_02_arm_1k.jpg",
+            "bytes": 720694,
+            "md5": "062e9ea1df88d177e332b1595bb27a12",
+            "sha256": "f85575f891c97354d2fff11d5d0e2bc5f7d3aeab853ff3d75100c30c177a9cc5"
+          },
+          {
+            "file": "models/polyhaven-utility-box-02/original/textures/utility_box_02_nor_gl_1k.jpg",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_02/utility_box_02_nor_gl_1k.jpg",
+            "bytes": 552902,
+            "md5": "6704e7af3075eaf58ff7b7fb791f6610",
+            "sha256": "e7c85b37fa5420591b6fa5dcef7875c927c8dc51f38c39c5844d53284ef37c74"
+          },
+          {
+            "file": "models/polyhaven-utility-box-02/original/utility_box_02.bin",
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/utility_box_02/utility_box_02.bin",
+            "bytes": 199784,
+            "md5": "bff3e7d9375d8c5ea5723ad007e45258",
+            "sha256": "0f0a3f8ecc0358e36e97120aa752c2456a78bf922671e6f77e402b0aa58ecfce"
+          }
+        ],
+        "originalDownloadSha256": "aa5ec2f9a9086f7639c42e68b3aeba84b8f7bcaf38e5824ffec9d69fc915d8a5",
+        "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+        "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+        "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/metadata.json",
+        "metadataEvidenceSha256": "f4bdd2f333a9c1b5a8e9449cd859b59a5cc4f64b36de2b91e1d2cca3e4625ba1",
+        "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/files.json",
+        "fileManifestEvidenceSha256": "196acdbff65937d5b9628c4c2e84043bf2b6c5afb19301536e891400e5c10090",
+        "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/technical-review.json",
+        "technicalReviewEvidenceSha256": "4f4e94150428c24f1a01718e8d517c9affbaa2eb53b81925c01acd562f1037b1",
+        "providerReportedPolycount": 6268,
+        "conversionTool": "GuateGeeks glTF container packer v1",
+        "renderTool": "Blender 5.2.3 LTS",
+        "dimensionsBlender": [
+          0.9200001955032349,
+          0.43199998140335083,
+          1.1203334331512451
+        ],
+        "reimportDimensionsBlender": [
+          0.9200001955032349,
+          0.43199998140335083,
+          1.1203334331512451
+        ],
+        "scaleChange": false,
+        "geometryFingerprint": {
+          "method": "triangle-edge-distribution-v1",
+          "sha256": "49b528e7c791ba5c8413a03c5948ad92bdc4034d0978c0e23bdd8997a0f95e99",
+          "triangles": 6268
+        },
+        "sourceGeometryViewsByteIdentical": true,
+        "sourceSceneAndMaterialsUnchanged": true
+      },
+      "qa": {
+        "rights": "PASS",
+        "technical": "PASS",
+        "visual": "PASS",
+        "educational": "NOT_RUN",
+        "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+      },
+      "kitIds": [],
+      "variantGroupId": "electrical-distribution-boxes",
+      "variantGroupTitle": "Tableros y gabinetes eléctricos"
     },
     {
       "id": "polyhaven-vintage-binocular",

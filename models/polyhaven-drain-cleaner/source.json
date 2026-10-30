@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Drain Cleaner\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/drain_cleaner. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "James Ray Cock"
+  },
+  "Title": "Drain Cleaner",
+  "sourceUrl": "https://polyhaven.com/a/drain_cleaner",
+  "assetId": "drain_cleaner",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-drain-cleaner/original/drain_cleaner_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/drain_cleaner/drain_cleaner_1k.gltf",
+      "bytes": 2793,
+      "md5": "b34bc8c8995bb6c4ac7cead16ae1fca6",
+      "sha256": "56e4619970f548bd63382bfe13152be86696e2c0243d7607248fc757b088ce87"
+    },
+    {
+      "file": "models/polyhaven-drain-cleaner/original/textures/drain_cleaner_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_nor_gl_1k.jpg",
+      "bytes": 367355,
+      "md5": "fb9aad5e162cbe1fa3ce6cdae9510a72",
+      "sha256": "6f6ac88c6f06ff20d2738eacc45d4de5ddcd804957767f2a76e348a963f8f9d6"
+    },
+    {
+      "file": "models/polyhaven-drain-cleaner/original/textures/drain_cleaner_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_diff_1k.jpg",
+      "bytes": 559803,
+      "md5": "afe6ff714d1a3fe7eb1b0ea1008c680b",
+      "sha256": "e58f5b85d8feb7ff8285ad2837668dd2cca5e0f632084c0b74a6063e289174d9"
+    },
+    {
+      "file": "models/polyhaven-drain-cleaner/original/drain_cleaner.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/drain_cleaner/drain_cleaner.bin",
+      "bytes": 121708,
+      "md5": "c9725920c8e16ff1c896ed6f5c3f2b8d",
+      "sha256": "c081c5391edcc472aaadc51cc27e94774dd03f2ef77963c4f61d8195c6a1e6ae"
+    },
+    {
+      "file": "models/polyhaven-drain-cleaner/original/textures/drain_cleaner_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drain_cleaner/drain_cleaner_arm_1k.jpg",
+      "bytes": 595640,
+      "md5": "b9982a4268ab8c640e40388e744f8d63",
+      "sha256": "1952e8400e09765343ba0949bec870a649b49cc60da2b01d316909b02846d99a"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

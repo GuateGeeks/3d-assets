@@ -1,0 +1,63 @@
+{
+  "dimensionsBlender": [
+    0.5200002193450928,
+    0.43199998140335083,
+    1.1203334331512451
+  ],
+  "boundsMinBlender": [
+    -0.2600001096725464,
+    -0.22200000286102295,
+    0.0
+  ],
+  "boundsMaxBlender": [
+    0.2600001096725464,
+    0.20999999344348907,
+    1.1203334331512451
+  ],
+  "meshObjects": 1,
+  "polygons": 4404,
+  "vertices": 3629,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "polyhaven-utility-box-01",
+  "sourceFile": "utility_box_01_1k.gltf",
+  "glbSha256": "fe56486a579a4779f3b946f3e3b9d695943109a58c4527480746fdf38a8c093d",
+  "reimport": {
+    "dimensionsBlender": [
+      0.5200002193450928,
+      0.43199998140335083,
+      1.1203334331512451
+    ],
+    "boundsMinBlender": [
+      -0.2600001096725464,
+      -0.22200000286102295,
+      0.0
+    ],
+    "boundsMaxBlender": [
+      0.2600001096725464,
+      0.20999999344348907,
+      1.1203334331512451
+    ],
+    "meshObjects": 1,
+    "polygons": 4404,
+    "vertices": 3629,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.00011203334331512451,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-back.webp": "08b09126eedbee03a8820564a8c2aae54f8278a257c5488c9837ef9b9ebcaf26",
+    "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-side.webp": "d651002746350e22c03c910a9a660f85de2c219d8d18fe7c221a6d132ffe607c",
+    "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-front.webp": "a7cdb69c6dfdb474f4bdd784d94331d76847a1d5c42b02ab03805308843018ab",
+    "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/reimport-three-quarter.webp": "5b317dccd5dda357de97a3eb2a399aa4a9af6bbe7e26763d1fa887b321ad964f",
+    "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-three-quarter.webp": "5b317dccd5dda357de97a3eb2a399aa4a9af6bbe7e26763d1fa887b321ad964f",
+    "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-wireframe.webp": "a3d386274a7902e586252339cef2291537aeeb25efa0b9ff8003b570b694ae60"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "publicationImages": "Lossless WebP; decoded RGBA pixel equality verified. Original PNG hashes retained in image-encoding.json and staging."
+}

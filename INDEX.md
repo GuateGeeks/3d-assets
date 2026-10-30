@@ -1,21 +1,21 @@
 # Índice de modelos
 
-1152 modelos · 407.0 MiB.
+1173 modelos · 462.2 MiB.
 
 | Área | Modelos |
 | --- | ---: |
 | [Personajes, narrativa y animación](indices/areas/personajes-animacion.md) | 18 |
 | [Animales y biodiversidad](indices/areas/animales-biodiversidad.md) | 42 |
 | [Bosques y plantas](indices/areas/bosques-plantas.md) | 138 |
-| [Agua y ecosistemas acuáticos](indices/areas/agua-oceanos.md) | 39 |
+| [Agua y ecosistemas acuáticos](indices/areas/agua-oceanos.md) | 41 |
 | [Tierra, relieve y geografía](indices/areas/tierra-geografia.md) | 138 |
 | [Espacio y astronomía](indices/areas/espacio-astronomia.md) | 31 |
-| [Laboratorio e investigación](indices/areas/laboratorio-ciencia.md) | 26 |
-| [Cuerpo humano y salud](indices/areas/cuerpo-salud.md) | 29 |
+| [Laboratorio e investigación](indices/areas/laboratorio-ciencia.md) | 33 |
+| [Cuerpo humano y salud](indices/areas/cuerpo-salud.md) | 31 |
 | [Alimentos, agricultura y nutrición](indices/areas/alimentos-agricultura.md) | 252 |
-| [Geometría, tiempo y medición](indices/areas/matematicas-medicion.md) | 142 |
-| [Física, máquinas y energía](indices/areas/fisica-energia.md) | 39 |
-| [Robótica y electrónica STEAM](indices/areas/robotica-electronica.md) | 34 |
+| [Geometría, tiempo y medición](indices/areas/matematicas-medicion.md) | 144 |
+| [Física, máquinas y energía](indices/areas/fisica-energia.md) | 52 |
+| [Robótica y electrónica STEAM](indices/areas/robotica-electronica.md) | 41 |
 | [Computación y redes](indices/areas/computacion-redes.md) | 20 |
 | [Escuela, lectura y vocabulario](indices/areas/escuela-lenguaje.md) | 21 |
 | [Comunidad, servicios y ciudadanía](indices/areas/comunidad-ciudadania.md) | 134 |
@@ -23,7 +23,7 @@
 | [Historia y patrimonio](indices/areas/historia-patrimonio.md) | 14 |
 | [Arte y música](indices/areas/arte-musica.md) | 25 |
 | [Deporte y recreación](indices/areas/deporte-recreacion.md) | 18 |
-| [Oficios, herramientas y productividad](indices/areas/oficios-productividad.md) | 29 |
+| [Oficios, herramientas y productividad](indices/areas/oficios-productividad.md) | 38 |
 | [Ambiente y sostenibilidad](indices/areas/ambiente-sostenibilidad.md) | 19 |
 | [Escenarios y juegos para Code Studio](indices/areas/escenarios-videojuegos.md) | 440 |
 | [Contexto guatemalteco y mesoamericano](indices/areas/guatemala-contexto.md) | 23 |
@@ -1021,12 +1021,15 @@
 | [Robot](https://opengameart.org/node/89467) | OpenGameArt | Quaternius | CC0 1.0 | [GLB](models/oga-robot-robot/model.glb) |
 | [Honey](https://poly.pizza/m/p92t5dG8Zd) | Poly Pizza | Kenney | CC0 1.0 | [GLB](models/p92t5dG8Zd/model.glb) |
 | [Llave ajustable](https://polyhaven.com/a/adjustable_wrench) | Poly Haven | Mateusz Sadek | CC0 1.0 | [GLB](models/polyhaven-adjustable-wrench/model.glb) |
+| [Envase de limpiador multiuso](https://polyhaven.com/a/all_purpose_cleaner) | Poly Haven | Kuutti Siitonen | CC0 1.0 | [GLB](models/polyhaven-all-purpose-cleaner/model.glb) |
 | [Tornillo de banco](https://polyhaven.com/a/bench_vice_01) | Poly Haven | Yann Kervran, Antanas Kep | CC0 1.0 | [GLB](models/polyhaven-bench-vice-01/model.glb) |
 | [Binoculares](https://polyhaven.com/a/binoculars) | Poly Haven | Derek Wight | CC0 1.0 | [GLB](models/polyhaven-binoculars/model.glb) |
+| [Botella de blanqueador](https://polyhaven.com/a/bleach_bottle) | Poly Haven | James Ray Cock | CC0 1.0 | [GLB](models/polyhaven-bleach-bottle/model.glb) |
 | [Mechero Bunsen](https://polyhaven.com/a/bunsen_burner) | Poly Haven | BKS | CC0 1.0 | [GLB](models/polyhaven-bunsen-burner/model.glb) |
 | [Equipo de química](https://polyhaven.com/a/chemistry_set) | Poly Haven | Jiří Ptáček | CC0 1.0 | [GLB](models/polyhaven-chemistry-set/model.glb) |
 | [Placa de circuito](https://polyhaven.com/a/circuit_board) | Poly Haven | Benny Weimer | CC0 1.0 | [GLB](models/polyhaven-circuit-board/model.glb) |
 | [Computadora portátil clásica](https://polyhaven.com/a/classic_laptop) | Poly Haven | Arrangemonk | CC0 1.0 | [GLB](models/polyhaven-classic-laptop/model.glb) |
+| [Envase de limpiador de desagües](https://polyhaven.com/a/drain_cleaner) | Poly Haven | James Ray Cock | CC0 1.0 | [GLB](models/polyhaven-drain-cleaner/model.glb) |
 | [Cepillo de carpintería](https://polyhaven.com/a/hand_plane_no4) | Poly Haven | Satyaki Mandal | CC0 1.0 | [GLB](models/polyhaven-hand-plane-no4/model.glb) |
 | [Microscopio industrial](https://polyhaven.com/a/industrial_microscope) | Poly Haven | Lukas Walzer | CC0 1.0 | [GLB](models/polyhaven-industrial-microscope/model.glb) |
 | [Extintor con rotulación coreana](https://polyhaven.com/a/korean_fire_extinguisher_01) | Poly Haven | UM JOORIN | CC0 1.0 | [GLB](models/polyhaven-korean-fire-extinguisher-01/model.glb) |
@@ -1037,13 +1040,31 @@
 | [Lupa](https://polyhaven.com/a/magnifying_glass_01) | Poly Haven | Nazar Borodavka | CC0 1.0 | [GLB](models/polyhaven-magnifying-glass-01/model.glb) |
 | [Cinta métrica](https://polyhaven.com/a/measuring_tape_01) | Poly Haven | Kuutti Siitonen | CC0 1.0 | [GLB](models/polyhaven-measuring-tape-01/model.glb) |
 | [Caja de primeros auxilios](https://polyhaven.com/a/medical_box) | Poly Haven | Ulan Cabanilla | CC0 1.0 | [GLB](models/polyhaven-medical-box/model.glb) |
+| [Conductos circulares de ventilación](https://polyhaven.com/a/modular_airduct_circular_01) | Poly Haven | Riley Queen | CC0 1.0 | [GLB](models/polyhaven-modular-airduct-circular-01/model.glb) |
+| [Conductos rectangulares de ventilación](https://polyhaven.com/a/modular_airduct_rectangular_01) | Poly Haven | James Ray Cock | CC0 1.0 | [GLB](models/polyhaven-modular-airduct-rectangular-01/model.glb) |
+| [Cables eléctricos modulares](https://polyhaven.com/a/modular_electric_cables) | Poly Haven | Kuutti Siitonen | CC0 1.0 | [GLB](models/polyhaven-modular-electric-cables/model.glb) |
+| [Tuberías industriales modulares](https://polyhaven.com/a/modular_industrial_pipes_01) | Poly Haven | Jorge Camacho | CC0 1.0 | [GLB](models/polyhaven-modular-industrial-pipes-01/model.glb) |
+| [Tuberías metálicas modulares](https://polyhaven.com/a/modular_pipes) | Poly Haven | Kuutti Siitonen | CC0 1.0 | [GLB](models/polyhaven-modular-pipes/model.glb) |
+| [Tuberías plásticas y válvulas modulares](https://polyhaven.com/a/modular_pipes_plastic_01) | Poly Haven | Amal Kumar | CC0 1.0 | [GLB](models/polyhaven-modular-pipes-plastic-01/model.glb) |
+| [Bidón de limpiador de cinco litros](https://polyhaven.com/a/multi_cleaner_5_litre) | Poly Haven | James Ray Cock | CC0 1.0 | [GLB](models/polyhaven-multi-cleaner-5-litre/model.glb) |
+| [Llave para tubos](https://polyhaven.com/a/pipe_wrench) | Poly Haven | Will Evarts | CC0 1.0 | [GLB](models/polyhaven-pipe-wrench/model.glb) |
+| [Alicates con cortador de alambre](https://polyhaven.com/a/pliers) | Poly Haven | PierreB3D | CC0 1.0 | [GLB](models/polyhaven-pliers/model.glb) |
+| [Generador eléctrico portátil](https://polyhaven.com/a/portable_generator) | Poly Haven | James Ray Cock | CC0 1.0 | [GLB](models/polyhaven-portable-generator/model.glb) |
+| [Carro de soldadura con cilindros y mangueras](https://polyhaven.com/a/portable_welding_cart) | Poly Haven | Georgii Gorbunov | CC0 1.0 | [GLB](models/polyhaven-portable-welding-cart/model.glb) |
+| [Tablero eléctrico con interruptores](https://polyhaven.com/a/power_box_01) | Poly Haven | Rico Cilliers, Yann Kervran | CC0 1.0 | [GLB](models/polyhaven-power-box-01/model.glb) |
+| [Cilindro de propano](https://polyhaven.com/a/propane_tank) | Poly Haven | Slinc | CC0 1.0 | [GLB](models/polyhaven-propane-tank/model.glb) |
+| [Portalámparas con interruptor de cadena](https://polyhaven.com/a/pull_chain_light_socket) | Poly Haven | Josh Dean | CC0 1.0 | [GLB](models/polyhaven-pull-chain-light-socket/model.glb) |
 | [Llave de carraca](https://polyhaven.com/a/ratchet_wrench) | Poly Haven | John Hutcheson | CC0 1.0 | [GLB](models/polyhaven-ratchet-wrench/model.glb) |
 | [Multímetro analógico](https://polyhaven.com/a/retro_multimeter) | Poly Haven | elli moeller | CC0 1.0 | [GLB](models/polyhaven-retro-multimeter/model.glb) |
 | [Pala de jardinería](https://polyhaven.com/a/rusted_spade_01) | Poly Haven | Blemonade | CC0 1.0 | [GLB](models/polyhaven-rusted-spade-01/model.glb) |
 | [Brújula de navegación](https://polyhaven.com/a/seadogs_compass) | Poly Haven | Benny Weimer | CC0 1.0 | [GLB](models/polyhaven-seadogs-compass/model.glb) |
 | [Bandeja de semillero](https://polyhaven.com/a/seeding_tray_01) | Poly Haven | Satyaki Mandal | CC0 1.0 | [GLB](models/polyhaven-seeding-tray-01/model.glb) |
+| [Cilindro pequeño de gas LP](https://polyhaven.com/a/small_lpg_tank) | Poly Haven | Ulan Cabanilla | CC0 1.0 | [GLB](models/polyhaven-small-lpg-tank/model.glb) |
+| [Bomba manual de aire](https://polyhaven.com/a/tire_pump) | Poly Haven | Garrison Gager | CC0 1.0 | [GLB](models/polyhaven-tire-pump/model.glb) |
 | [Palita de jardinería](https://polyhaven.com/a/trowel_01) | Poly Haven | Satyaki Mandal | CC0 1.0 | [GLB](models/polyhaven-trowel-01/model.glb) |
 | [Ukelele](https://polyhaven.com/a/Ukulele_01) | Poly Haven | Joseph Burgan | CC0 1.0 | [GLB](models/polyhaven-ukulele-01/model.glb) |
+| [Gabinete de distribución eléctrica 01](https://polyhaven.com/a/utility_box_01) | Poly Haven | James Ray Cock | CC0 1.0 | [GLB](models/polyhaven-utility-box-01/model.glb) |
+| [Gabinete de distribución eléctrica 02](https://polyhaven.com/a/utility_box_02) | Poly Haven | James Ray Cock | CC0 1.0 | [GLB](models/polyhaven-utility-box-02/model.glb) |
 | [Binoculares antiguos](https://polyhaven.com/a/vintage_binocular) | Poly Haven | Luke | CC0 1.0 | [GLB](models/polyhaven-vintage-binocular/model.glb) |
 | [Microscopio antiguo](https://polyhaven.com/a/vintage_microscope) | Poly Haven | Luis José Fernández Rodríguez | CC0 1.0 | [GLB](models/polyhaven-vintage-microscope/model.glb) |
 | [Regadera metálica](https://polyhaven.com/a/watering_can_metal_01) | Poly Haven | Charles Nderitu | CC0 1.0 | [GLB](models/polyhaven-watering-can-metal-01/model.glb) |

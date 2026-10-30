@@ -1,0 +1,61 @@
+{
+  "donated": true,
+  "name": "Pipe Wrench",
+  "type": 2,
+  "authors": {
+    "Will Evarts": "All"
+  },
+  "info": null,
+  "date_published": 1692921600,
+  "sponsors": [
+    "26820710"
+  ],
+  "categories": [
+    "industrial",
+    "tools",
+    "collection: hidden_alley"
+  ],
+  "tags": [
+    "wrench",
+    "garage",
+    "workshop",
+    "construction",
+    "plumbing",
+    "automotive",
+    "used",
+    "mechanics toolbox",
+    "hardware",
+    "adjustable wrench",
+    "monkey wrench",
+    "spanner"
+  ],
+  "max_resolution": [
+    4096,
+    4096
+  ],
+  "polycount": 10746,
+  "texel_density": 13097.559290042422,
+  "dimensions": [
+    83.97936820983887,
+    34.34488922357559,
+    404.66518700122833
+  ],
+  "files_hash": "0fed71461221f8452bd88d244d7fee1e6b85cc47",
+  "description": "Free 4K model: a used pipe wrench with chipped red paint, heavy rust, adjustable jaw and realistic worn-metal textures.",
+  "category_id": "8df19fe5-50db-5ca2-a9bf-8eb52962c94a",
+  "category": "Tools & Equipment/Hand Tools/Wrenches & Spanners",
+  "collections": [
+    "hidden_alley"
+  ],
+  "attributes": {
+    "condition": [
+      "worn"
+    ],
+    "material": [
+      "metal"
+    ]
+  },
+  "img_version": "2e89c62d",
+  "download_count": 7090,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pipe_wrench.png?width=256&height=256&format=webp&v=2e89c62d"
+}

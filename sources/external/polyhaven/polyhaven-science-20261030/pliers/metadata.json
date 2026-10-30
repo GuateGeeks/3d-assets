@@ -1,0 +1,53 @@
+{
+  "type": 2,
+  "name": "Pliers",
+  "categories": [
+    "collection: project_lighthouse",
+    "tools",
+    "props",
+    "industrial"
+  ],
+  "tags": [
+    "rusted",
+    "plastic",
+    "metal",
+    "combination pliers",
+    "wire cutters",
+    "hand tool"
+  ],
+  "description": "Free 4K model of well-used pliers with red/yellow rubber grips, serrated steel jaws and cutter, detailed scratches, scuffs, grime, and grip holes.",
+  "authors": {
+    "PierreB3D": "All"
+  },
+  "donated": true,
+  "max_resolution": [
+    4096,
+    4096
+  ],
+  "polycount": 4540,
+  "files_hash": "ec99d46cafef752d6cdac71d442e200354c2a006",
+  "texel_density": 26400.461218124634,
+  "dimensions": [
+    55.28969317674637,
+    17.9854528978467,
+    179.78323251008987
+  ],
+  "date_published": 1781913600,
+  "category_id": "3f4e8d7c-9ab9-5635-bfac-d897b45e6fdc",
+  "category": "Tools & Equipment/Hand Tools/Pliers & Grippers",
+  "collections": [
+    "project_lighthouse"
+  ],
+  "attributes": {
+    "condition": [
+      "rusted"
+    ],
+    "material": [
+      "steel",
+      "rubber"
+    ]
+  },
+  "img_version": "4824757a",
+  "download_count": 1000,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/pliers.png?width=256&height=256&format=webp&v=4824757a"
+}

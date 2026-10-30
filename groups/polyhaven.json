@@ -2,6 +2,117 @@
   "schemaVersion": 1,
   "groups": [
     {
+      "id": "plumbing-modular-pipes",
+      "title": "Tuberías y válvulas modulares",
+      "modelIds": [
+        "polyhaven-modular-industrial-pipes-01",
+        "polyhaven-modular-pipes",
+        "polyhaven-modular-pipes-plastic-01"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "ventilation-modular-ducts",
+      "title": "Conductos de ventilación",
+      "modelIds": [
+        "polyhaven-modular-airduct-circular-01",
+        "polyhaven-modular-airduct-rectangular-01"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "electrical-modular-cables",
+      "title": "Cables eléctricos modulares",
+      "modelIds": [
+        "polyhaven-modular-electric-cables"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "electrical-distribution-boxes",
+      "title": "Tableros y gabinetes eléctricos",
+      "modelIds": [
+        "polyhaven-power-box-01",
+        "polyhaven-utility-box-01",
+        "polyhaven-utility-box-02"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "electrical-generators",
+      "title": "Generadores eléctricos",
+      "modelIds": [
+        "ZPlQHwiqTp",
+        "polyhaven-portable-generator"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "lighting-light-sockets",
+      "title": "Portalámparas con interruptor de cadena",
+      "modelIds": [
+        "polyhaven-pull-chain-light-socket"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "chemistry-gas-cylinders",
+      "title": "Cilindros de gas",
+      "modelIds": [
+        "polyhaven-propane-tank",
+        "polyhaven-small-lpg-tank"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "workshop-welding-equipment",
+      "title": "Carro de soldadura con cilindros y mangueras",
+      "modelIds": [
+        "polyhaven-portable-welding-cart"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "chemistry-household-containers",
+      "title": "Envases de productos químicos",
+      "modelIds": [
+        "polyhaven-bleach-bottle",
+        "polyhaven-drain-cleaner",
+        "polyhaven-all-purpose-cleaner",
+        "polyhaven-multi-cleaner-5-litre"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "pneumatics-air-pumps",
+      "title": "Bomba manual de aire",
+      "modelIds": [
+        "polyhaven-tire-pump"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "workshop-wrenches",
+      "title": "Llaves de taller",
+      "modelIds": [
+        "POJHQLnLvB",
+        "TvT0yqLRln",
+        "enyBvm6bJQL",
+        "polyhaven-ratchet-wrench",
+        "polyhaven-adjustable-wrench",
+        "polyhaven-pipe-wrench"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
+      "id": "workshop-pliers",
+      "title": "Alicates con cortador de alambre",
+      "modelIds": [
+        "polyhaven-pliers"
+      ],
+      "relation": "functional-family-or-variant"
+    },
+    {
       "id": "science-bunsen-burners",
       "title": "Mechero Bunsen",
       "modelIds": [
@@ -189,18 +300,6 @@
       "relation": "functional-family-or-variant"
     },
     {
-      "id": "workshop-wrenches",
-      "title": "Llaves de taller",
-      "modelIds": [
-        "POJHQLnLvB",
-        "TvT0yqLRln",
-        "enyBvm6bJQL",
-        "polyhaven-ratchet-wrench",
-        "polyhaven-adjustable-wrench"
-      ],
-      "relation": "functional-family-or-variant"
-    },
-    {
       "id": "music-ukuleles",
       "title": "Ukelele",
       "modelIds": [
@@ -210,5 +309,5 @@
     }
   ],
   "aliases": [],
-  "grouping": "Familias funcionales para comparar estilos y variantes. Solo la igualdad de SHA-256 permite compartir ficha automáticamente; las coincidencias geométricas requieren revisión."
+  "grouping": "Familias funcionales y variantes; los kits modulares incluyen piezas complementarias y no son duplicados exactos. Los originales se conservan completos."
 }

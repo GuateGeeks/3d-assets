@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Power Box 01\", por Rico Cilliers, Yann Kervran / Poly Haven. https://polyhaven.com/a/power_box_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Rico Cilliers, Yann Kervran"
+  },
+  "Title": "Power Box 01",
+  "sourceUrl": "https://polyhaven.com/a/power_box_01",
+  "assetId": "power_box_01",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-power-box-01/original/power_box_01_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/power_box_01/power_box_01_1k.gltf",
+      "bytes": 4417,
+      "md5": "9fbd7f7049a13eb25213f5038c1ef42c",
+      "sha256": "edb54e68fb1229e9f59906459d782c2ddc576f6bd1141cf09ad864f48d7cb93b"
+    },
+    {
+      "file": "models/polyhaven-power-box-01/original/textures/power_box_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/power_box_01/power_box_01_arm_1k.jpg",
+      "bytes": 801803,
+      "md5": "2173121335747b6b20b747363d530006",
+      "sha256": "4601e901e2f7c1584ab5ecf65e0e192a99a4be86da505527f1622658e1b1e527"
+    },
+    {
+      "file": "models/polyhaven-power-box-01/original/textures/power_box_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/power_box_01/power_box_01_nor_gl_1k.jpg",
+      "bytes": 646545,
+      "md5": "92c88449b0ce7dad3cd1d7e055870af5",
+      "sha256": "199b6fe93776aa0934f7bc36d8c82f1b4db9be9243e82e0cb3727bbcf25d85f1"
+    },
+    {
+      "file": "models/polyhaven-power-box-01/original/power_box_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/power_box_01/power_box_01.bin",
+      "bytes": 782096,
+      "md5": "e76df413e15ce8a76eb50971266d2450",
+      "sha256": "b46efdf668ec2d4e04ff51604b5f1486caf20df632f442aab62601718058db05"
+    },
+    {
+      "file": "models/polyhaven-power-box-01/original/textures/power_box_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/power_box_01/power_box_01_diff_1k.jpg",
+      "bytes": 490782,
+      "md5": "c5d43a1a9cf48a616852a05401ad8f20",
+      "sha256": "845c425ebc0ded263a7d49909e2c26710dd6160da11c0ca44aebd723f4f6f168"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

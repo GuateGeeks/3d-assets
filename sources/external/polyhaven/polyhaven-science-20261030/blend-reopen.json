@@ -1,0 +1,279 @@
+{
+  "blenderVersion": "5.2.3 LTS",
+  "models": [
+    {
+      "id": "polyhaven-modular-industrial-pipes-01",
+      "savedBlendSha256": "d77b32d16ebf1f043b02da92172feec4b69eba3786416924b9862b3336f65418",
+      "glbSha256": "61a0ef932ed6c87036214c84a2e3711e0acb2cbcc5ba195138efbcb93dcd413e",
+      "dimensionsBlender": [
+        1.4028016328811646,
+        0.3075956106185913,
+        1.9546396136283875
+      ],
+      "meshObjects": 8,
+      "polygons": 12340,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-modular-pipes",
+      "savedBlendSha256": "0fc0e3ed0d35bb22b6c3fc7cd9c35db2df1a913f0e71086b41e7eb553d36f1ed",
+      "glbSha256": "b58797beae4536b15e399464efd8d12a3e30379ede4b6eaec260cfa64b0751cf",
+      "dimensionsBlender": [
+        4.187440872192383,
+        0.4577658101916313,
+        2.4349486671282676
+      ],
+      "meshObjects": 106,
+      "polygons": 94856,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-modular-pipes-plastic-01",
+      "savedBlendSha256": "8a0fe97908036cc4064e2a35800ffb2c8b216f338cf68654001a812847ccc6db",
+      "glbSha256": "ac87d530fd321b69e947d1516b30b857b7c751b485b144c40d8851fb50337cc5",
+      "dimensionsBlender": [
+        0.8156584799289703,
+        0.36176106333732605,
+        0.07573375478386879
+      ],
+      "meshObjects": 15,
+      "polygons": 47788,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-modular-airduct-circular-01",
+      "savedBlendSha256": "70bad1798b72194fc6333b3c596fc3ad45b2173832d72ac0adbafa7259670814",
+      "glbSha256": "bc33193d72f734b4304b808e4d969ab8ca6833a0ced48f0f3a6104983287ed94",
+      "dimensionsBlender": [
+        4.170705795288086,
+        1.463481143116951,
+        1.324144184589386
+      ],
+      "meshObjects": 16,
+      "polygons": 14280,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-modular-airduct-rectangular-01",
+      "savedBlendSha256": "b0d43c3d321003f204a3573c70d96e79672b70a3f680137091405111d2b896d2",
+      "glbSha256": "b9573d7fdd6f914a08f533460af88010ecf7b6adf176ff42b1a6a97288665517",
+      "dimensionsBlender": [
+        7.663504123687744,
+        2.586645245552063,
+        1.2561511993408203
+      ],
+      "meshObjects": 18,
+      "polygons": 45090,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-modular-electric-cables",
+      "savedBlendSha256": "a052a5ea8501b7350cc499f40d223336b0482ca96c9df28b895446dadd321756",
+      "glbSha256": "dc373b91755db044ccbb06b27884adbbb6ce7c2284c3fe8faf705bf9ddf64f2c",
+      "dimensionsBlender": [
+        2.0766327381134033,
+        0.2145041897892952,
+        0.7572520458308203
+      ],
+      "meshObjects": 49,
+      "polygons": 42078,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-power-box-01",
+      "savedBlendSha256": "99a93c07daffd56c4eb318cf6ab085e73d184311017fc65bb653b46199be2fcd",
+      "glbSha256": "cfc3a8d9e37a45e05c891b72a6f74f7beb0d183d4f6abf87baed9dea76e403e8",
+      "dimensionsBlender": [
+        0.4613242596387863,
+        0.3989851176738739,
+        0.503142774105072
+      ],
+      "meshObjects": 2,
+      "polygons": 21272,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-utility-box-01",
+      "savedBlendSha256": "bc79c2bdbb68ed45e249b60dab8fa68fd0d5c254d6abf489389f4cb1d72c3f43",
+      "glbSha256": "fe56486a579a4779f3b946f3e3b9d695943109a58c4527480746fdf38a8c093d",
+      "dimensionsBlender": [
+        0.5200002193450928,
+        0.431999996304512,
+        1.1203334331512451
+      ],
+      "meshObjects": 1,
+      "polygons": 4404,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-utility-box-02",
+      "savedBlendSha256": "1bc8826feeda16ebf943b841f653aac044e3f085f1b4b169b71c4886fe940ae0",
+      "glbSha256": "ab94ded063a8075c81e28794ef9c7ce9f812d3a2e5983ec04b29833f2c7a0275",
+      "dimensionsBlender": [
+        0.9200001955032349,
+        0.431999996304512,
+        1.1203334331512451
+      ],
+      "meshObjects": 1,
+      "polygons": 6268,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-portable-generator",
+      "savedBlendSha256": "47b8c59b0370de64e1568b47bd0d1da31ce0e31d0f5cb675fa1084934204211d",
+      "glbSha256": "5bc360ee19d7f341a489b3139829506c2cc77fa691b86a2295f8b189c0af4c2a",
+      "dimensionsBlender": [
+        0.8183408081531525,
+        0.5640000104904175,
+        0.5769232391612604
+      ],
+      "meshObjects": 4,
+      "polygons": 26419,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-pull-chain-light-socket",
+      "savedBlendSha256": "18c5480433f177386fc341f8ca9c6f42f58c628d51df167961c4929a1fe3b45a",
+      "glbSha256": "56484acc38245c40e52e7fb7245d493003f8877c01e116f4edc00f3f17c8af0f",
+      "dimensionsBlender": [
+        0.1102633886039257,
+        0.1102633848786354,
+        0.16541572205081323
+      ],
+      "meshObjects": 2,
+      "polygons": 10902,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-propane-tank",
+      "savedBlendSha256": "a2f6d60dedd17d239d4b15bb8ff1a46ba6ef3bf09cc715d68a0a8c8b79443b69",
+      "glbSha256": "ba56f0cb2997582558ff66dc92bfcd9949ab0d50c9fb4c8d972568c4c1693e1a",
+      "dimensionsBlender": [
+        0.3373616933822632,
+        0.3373616933822632,
+        0.5537950303405523
+      ],
+      "meshObjects": 1,
+      "polygons": 5238,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-small-lpg-tank",
+      "savedBlendSha256": "8f88ea082fa80935943c90c423a0f067a794d2e9ee880c0174d325daa04b18fd",
+      "glbSha256": "b4b49890c41264903c0700f61084f62601aa1ae397dccbae511b2060de4b2ffb",
+      "dimensionsBlender": [
+        0.4100192189216614,
+        0.4091912806034088,
+        0.6419749736785434
+      ],
+      "meshObjects": 1,
+      "polygons": 15042,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-portable-welding-cart",
+      "savedBlendSha256": "2a0bbd97b8f02514d3464d04a5d3a9da52e8841d9a3223cd5e2e8f929477b231",
+      "glbSha256": "13294de49c791dad21b86b6a368753470a9dc2958fb50e8cdb966da2df791b65",
+      "dimensionsBlender": [
+        0.8382881879806519,
+        0.654903918504715,
+        1.5631702542304993
+      ],
+      "meshObjects": 1,
+      "polygons": 29418,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-bleach-bottle",
+      "savedBlendSha256": "9fa80f7055181c9eac2e5220397796cd76218c6b73c316c40a90245afb07272f",
+      "glbSha256": "a689c6eb8d2743b966d08af2b194234179fefdc49873af6225582475793b2284",
+      "dimensionsBlender": [
+        0.08839113637804985,
+        0.06121089309453964,
+        0.2937394976615906
+      ],
+      "meshObjects": 1,
+      "polygons": 4052,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-drain-cleaner",
+      "savedBlendSha256": "cb4cf82f8eb5698639d81b0241d39d2ae8c433645be4b941d6a030b4725e8ace",
+      "glbSha256": "d92109525ad55bc1bb84eda8db489328cceb8c6974508cf08db7b1fdc567850c",
+      "dimensionsBlender": [
+        0.16539714485406876,
+        0.056335341185331345,
+        0.17855318179135793
+      ],
+      "meshObjects": 1,
+      "polygons": 4338,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-all-purpose-cleaner",
+      "savedBlendSha256": "56b6348e59def8c9d2e9c18849874a82002501e0848e7d9b36f6916a97eba1a2",
+      "glbSha256": "cf972671bbb23330124ca6445e92d3f25e15bd3704fc4e55b21683d65790ca3c",
+      "dimensionsBlender": [
+        0.1568227931857109,
+        0.11741002649068832,
+        0.3197317017838941
+      ],
+      "meshObjects": 1,
+      "polygons": 4624,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-multi-cleaner-5-litre",
+      "savedBlendSha256": "6440dc8572a300b89185fff8338c8ddb40008c98831bb2c5aef0953c1917bdb7",
+      "glbSha256": "f9b63342f6450ad74ef591912bfaadc953954d13a7a7eafc36adc6e212a9b9d2",
+      "dimensionsBlender": [
+        0.21929194033145905,
+        0.10577977448701859,
+        0.30033773817538734
+      ],
+      "meshObjects": 2,
+      "polygons": 4332,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-tire-pump",
+      "savedBlendSha256": "69ce566f2ba54d4354526b59f54fd82a218e22fd2b9185d76932d6f30e365867",
+      "glbSha256": "94c3a7ba88a383434ac043f292f0099c316c4a4fb726587932132abff68f821d",
+      "dimensionsBlender": [
+        0.25489504635334015,
+        0.10097793117165565,
+        0.5795293497430976
+      ],
+      "meshObjects": 1,
+      "polygons": 6572,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-pipe-wrench",
+      "savedBlendSha256": "2511b567824a35a3c068e58e3d0a62c1a6d212d8e06bbc15ee54d6a28cc5390f",
+      "glbSha256": "fd0c2316f85cfb5426584a03ee1f3433392047889b33f944e485aa4575f484d5",
+      "dimensionsBlender": [
+        0.08397936820983887,
+        0.03434488922357559,
+        0.40466518700122833
+      ],
+      "meshObjects": 1,
+      "polygons": 10746,
+      "reopen": "PASS"
+    },
+    {
+      "id": "polyhaven-pliers",
+      "savedBlendSha256": "35d6253ed2437a2c2c567e7800ecef307b35b60febe3353a14b1ecb8475037ed",
+      "glbSha256": "6a78918f164d96d9c5c6185419cc284bcdf6ac8581137aa3f5f72c9deffb1287",
+      "dimensionsBlender": [
+        0.05528969317674637,
+        0.0179854528978467,
+        0.17978323251008987
+      ],
+      "meshObjects": 3,
+      "polygons": 4540,
+      "reopen": "PASS"
+    }
+  ],
+  "result": "PASS"
+}

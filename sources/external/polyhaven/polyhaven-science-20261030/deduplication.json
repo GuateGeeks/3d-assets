@@ -1,0 +1,281 @@
+{
+  "baselineModels": 1152,
+  "baselineFingerprintCount": 1152,
+  "unsupported": [],
+  "comparisons": [
+    {
+      "id": "polyhaven-modular-industrial-pipes-01",
+      "sha256": "61a0ef932ed6c87036214c84a2e3711e0acb2cbcc5ba195138efbcb93dcd413e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "49766801f0f9f492c23dbb734b48bc324cfabda15fb8f8f6d06519ed1f9b9d5c",
+        "triangles": 12340
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-modular-pipes",
+      "sha256": "b58797beae4536b15e399464efd8d12a3e30379ede4b6eaec260cfa64b0751cf",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "f9fe66644300a5ea77c93c978679acce43dbadec238aaf278a5c1e91175cbfc4",
+        "triangles": 94856
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-modular-pipes-plastic-01",
+      "sha256": "ac87d530fd321b69e947d1516b30b857b7c751b485b144c40d8851fb50337cc5",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "c39371decf80c4ccd1921f2509653f6293e2500593257ef1d4b749c76f2bf83d",
+        "triangles": 47788
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-modular-airduct-circular-01",
+      "sha256": "bc33193d72f734b4304b808e4d969ab8ca6833a0ced48f0f3a6104983287ed94",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "797438197b377e31834bafede78b4fe36e2ad66a4b9532e8e5a823dc34366b6f",
+        "triangles": 14280
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-modular-airduct-rectangular-01",
+      "sha256": "b9573d7fdd6f914a08f533460af88010ecf7b6adf176ff42b1a6a97288665517",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "14c4eba2b861b490aaf176a662768624842c472cce6ed600d959af7d93f95050",
+        "triangles": 45090
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-modular-electric-cables",
+      "sha256": "dc373b91755db044ccbb06b27884adbbb6ce7c2284c3fe8faf705bf9ddf64f2c",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "13821090892cfca8ce24ddebf0bcf2578e17d002070be9da78b26488dd381981",
+        "triangles": 42078
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-power-box-01",
+      "sha256": "cfc3a8d9e37a45e05c891b72a6f74f7beb0d183d4f6abf87baed9dea76e403e8",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "5e6f025dadeb9cb3a7218cebffc2a260e6488b66ec68db759057162b825e3b2f",
+        "triangles": 21272
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-utility-box-01",
+      "sha256": "fe56486a579a4779f3b946f3e3b9d695943109a58c4527480746fdf38a8c093d",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "734292dce6a283686d7ef15d9b8f9d8e8499896c9844fcb33d610723de9e2f22",
+        "triangles": 4404
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-utility-box-02",
+      "sha256": "ab94ded063a8075c81e28794ef9c7ce9f812d3a2e5983ec04b29833f2c7a0275",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "49b528e7c791ba5c8413a03c5948ad92bdc4034d0978c0e23bdd8997a0f95e99",
+        "triangles": 6268
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-portable-generator",
+      "sha256": "5bc360ee19d7f341a489b3139829506c2cc77fa691b86a2295f8b189c0af4c2a",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "324c942912984b1f2306a370760d5b7615d79a94917fa5a67d4db72c2f8e5919",
+        "triangles": 26419
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-pull-chain-light-socket",
+      "sha256": "56484acc38245c40e52e7fb7245d493003f8877c01e116f4edc00f3f17c8af0f",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "75bff12483aefcd9b89462de4c102268eb0ae0b38d1d3f464260dbc5c1b4107f",
+        "triangles": 10902
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-propane-tank",
+      "sha256": "ba56f0cb2997582558ff66dc92bfcd9949ab0d50c9fb4c8d972568c4c1693e1a",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "0c966061fa7dc43a0bea34abbf2539462590c15899d9d5316856d4be5d0fc1ef",
+        "triangles": 5238
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-small-lpg-tank",
+      "sha256": "b4b49890c41264903c0700f61084f62601aa1ae397dccbae511b2060de4b2ffb",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "b5494d73a47b95035d0915a21e02f0e8a0c3dc7f028129f03d08a3b0e807ae84",
+        "triangles": 15042
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-portable-welding-cart",
+      "sha256": "13294de49c791dad21b86b6a368753470a9dc2958fb50e8cdb966da2df791b65",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "ba04016ba150d02e2653accb2bfd4ce01fae061abeacc555634fd51bdb427bea",
+        "triangles": 29418
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-bleach-bottle",
+      "sha256": "a689c6eb8d2743b966d08af2b194234179fefdc49873af6225582475793b2284",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "5c7a85a6fbd5ca029c98e33a57b20b128f65160d3de3660137e637bec9ed39a1",
+        "triangles": 4052
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-drain-cleaner",
+      "sha256": "d92109525ad55bc1bb84eda8db489328cceb8c6974508cf08db7b1fdc567850c",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "688a482e418263048138a78621540a6bfbd62cf6511ae24c2cc01ba88489490b",
+        "triangles": 4338
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-all-purpose-cleaner",
+      "sha256": "cf972671bbb23330124ca6445e92d3f25e15bd3704fc4e55b21683d65790ca3c",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "8b588739605ddf5038f372cc2d12a8b055f56fc8e6b6017b9550e16a649201f9",
+        "triangles": 4624
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-multi-cleaner-5-litre",
+      "sha256": "f9b63342f6450ad74ef591912bfaadc953954d13a7a7eafc36adc6e212a9b9d2",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "c6629a0c212edd8a629d64cf68a6489df2a6140c72d0f274c85cc08bfe1fb4f8",
+        "triangles": 4332
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-tire-pump",
+      "sha256": "94c3a7ba88a383434ac043f292f0099c316c4a4fb726587932132abff68f821d",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "7d64a3e62874444ff83b3713bd92d8d2eec4b314cfa749c2af8c7bdd36ecc5cf",
+        "triangles": 6572
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-pipe-wrench",
+      "sha256": "fd0c2316f85cfb5426584a03ee1f3433392047889b33f944e485aa4575f484d5",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "7571add260c3a6537d0fdaa04ef49e01fc7dc5ed1925b412ec7ee691fdabd9b4",
+        "triangles": 10746
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "polyhaven-pliers",
+      "sha256": "6a78918f164d96d9c5c6185419cc284bcdf6ac8581137aa3f5f72c9deffb1287",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "b083c6786b1358298ed4c446c94774269f1eb1487b52b9a212e1e9f05b5c7ae7",
+        "triangles": 4540
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    }
+  ],
+  "methodNote": "An invariant geometry match is a candidate; different fingerprints do not rule out semantic variants."
+}

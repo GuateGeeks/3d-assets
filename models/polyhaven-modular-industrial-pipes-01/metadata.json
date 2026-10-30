@@ -1,0 +1,180 @@
+{
+  "id": "polyhaven-modular-industrial-pipes-01",
+  "assetId": "polyhaven:modular_industrial_pipes_01",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Tuberías industriales modulares",
+  "titleOriginal": "Modular Industrial Pipes 01",
+  "author": "Jorge Camacho",
+  "authorUrl": "https://polyhaven.com/a/modular_industrial_pipes_01",
+  "sourceUrl": "https://polyhaven.com/a/modular_industrial_pipes_01",
+  "metadataUrl": "https://api.polyhaven.com/info/modular_industrial_pipes_01",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Industrial & Infrastructure/Pipes & Ducts/Modular Pipes",
+  "tags": [
+    "pipes",
+    "factory",
+    "steam",
+    "modular",
+    "industrial",
+    "utility",
+    "infrastructure",
+    "Modular Industrial Pipes 01",
+    "plumbing-modular-pipes"
+  ],
+  "areas": [
+    "fisica-energia",
+    "oficios-productividad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Modular Industrial Pipes 01\", por Jorge Camacho / Poly Haven. https://polyhaven.com/a/modular_industrial_pipes_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-modular-industrial-pipes-01/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/metadata.json",
+  "originalDownload": "models/polyhaven-modular-industrial-pipes-01/originals.zip",
+  "bytes": 4818068,
+  "sha256": "61a0ef932ed6c87036214c84a2e3711e0acb2cbcc5ba195138efbcb93dcd413e",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 8,
+    "nodes": 8,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:33:28.961393+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "modular_industrial_pipes_01_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-modular-industrial-pipes-01/original/modular_industrial_pipes_01_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_1k.gltf",
+        "bytes": 15014,
+        "md5": "cb30fdf4d471374ba439bfd5a0c8105d",
+        "sha256": "455d3a0fe95b7900a08cbebb23cfb2c341672fcb67ae7355d776e53cfa3d0688"
+      },
+      {
+        "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group02_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_arm_1k.jpg",
+        "bytes": 898932,
+        "md5": "088f90ba0d60c13ff0d6fc43cf734372",
+        "sha256": "4c65dcb651a3d345517fa93ad7c6e48f2388f4e8bb347446f70317c16049867b"
+      },
+      {
+        "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_diff_1k.jpg",
+        "bytes": 553576,
+        "md5": "28678434837d64476cb8d75d0314166e",
+        "sha256": "c0233f66b18e3374dfbbb8c8078a41f6571a0809d3eb14dd9d3c332265cfde7b"
+      },
+      {
+        "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group02_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_nor_gl_1k.jpg",
+        "bytes": 725187,
+        "md5": "282735667b3cd6e2d0ef058f2c260740",
+        "sha256": "84a43ca11a4f1ac84f7fc8336a4e9b7b333d30c13e540f3ff42e662dc6f91b53"
+      },
+      {
+        "file": "models/polyhaven-modular-industrial-pipes-01/original/modular_industrial_pipes_01.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_industrial_pipes_01/modular_industrial_pipes_01.bin",
+        "bytes": 515160,
+        "md5": "a18d063dc719e19b9c20d2f8c0a8bec4",
+        "sha256": "2e11e1a7dabd56b1e158364f48b0b388bf316fcab61a01274740db75dbafa448"
+      },
+      {
+        "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_nor_gl_1k.jpg",
+        "bytes": 674568,
+        "md5": "a5d4deb3ea6772c0af1275edeab7dc94",
+        "sha256": "ed4728fde567efe420e3a6e1bdc4238b26c2782218737c7e2de88eeca1e91fb2"
+      },
+      {
+        "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group01_arm_1k.jpg",
+        "bytes": 860825,
+        "md5": "2ab8f10dc9ca832af70cd48183281f97",
+        "sha256": "7fff7d4604491eeb7531ad5f7520517015c72ec7316d1e865d62f23f976dfed6"
+      },
+      {
+        "file": "models/polyhaven-modular-industrial-pipes-01/original/textures/modular_industrial_pipes_01_group02_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_group02_diff_1k.jpg",
+        "bytes": 580676,
+        "md5": "d3d951f471cfcd15e89cedcd43d28606",
+        "sha256": "ef8a75c402a8871903dcaa147b023d57c640d0de4c7a8acdfdee822861656a92"
+      }
+    ],
+    "originalDownloadSha256": "74d0e043881e6c73987b4d9b03108ba2ec9d67ca804e06430473b4773a119482",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/metadata.json",
+    "metadataEvidenceSha256": "cd86f13695e20a3c850024f8ffde3a892159a4a8337dfe982912a9ce3afb332e",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/files.json",
+    "fileManifestEvidenceSha256": "5b02105fee4d53c53904e5acfa63a3d583c4fb25d233616b8a606a09c3a67e37",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/technical-review.json",
+    "technicalReviewEvidenceSha256": "dd547d7a35ed5928913d6fbe418ae2cd6ff0b7c59bf2b0320052bdac9fd667a7",
+    "providerReportedPolycount": 12340,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      1.4028016328811646,
+      0.3075956106185913,
+      1.9546396732330322
+    ],
+    "reimportDimensionsBlender": [
+      1.4028016328811646,
+      0.3075956106185913,
+      1.9546396732330322
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "49766801f0f9f492c23dbb734b48bc324cfabda15fb8f8f6d06519ed1f9b9d5c",
+      "triangles": 12340
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

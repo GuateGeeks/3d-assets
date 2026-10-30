@@ -1,0 +1,158 @@
+{
+  "id": "polyhaven-tire-pump",
+  "assetId": "polyhaven:tire_pump",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Bomba manual de aire",
+  "titleOriginal": "Tire Pump",
+  "author": "Garrison Gager",
+  "authorUrl": "https://polyhaven.com/a/tire_pump",
+  "sourceUrl": "https://polyhaven.com/a/tire_pump",
+  "metadataUrl": "https://api.polyhaven.com/info/tire_pump",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/tire_pump/tire_pump_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Workshop Equipment/Pumps",
+  "tags": [
+    "shed",
+    "garage",
+    "wheel",
+    "tire",
+    "pump",
+    "inflate",
+    "matress",
+    "Tire Pump",
+    "pneumatics-air-pumps"
+  ],
+  "areas": [
+    "fisica-energia",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Tire Pump\", por Garrison Gager / Poly Haven. https://polyhaven.com/a/tire_pump. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-tire-pump/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/metadata.json",
+  "originalDownload": "models/polyhaven-tire-pump/originals.zip",
+  "bytes": 1665080,
+  "sha256": "94c3a7ba88a383434ac043f292f0099c316c4a4fb726587932132abff68f821d",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:34:21.540955+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "tire_pump_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-tire-pump/original/tire_pump_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/tire_pump/tire_pump_1k.gltf",
+        "bytes": 2735,
+        "md5": "2f9c8a311f28624f5d3cd432e1ef0bc9",
+        "sha256": "cd7a750472650da054a9f794bcf443dc9a10af77a9c527784c9d0a549a7b0c7f"
+      },
+      {
+        "file": "models/polyhaven-tire-pump/original/textures/tire_pump_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_nor_gl_1k.jpg",
+        "bytes": 569506,
+        "md5": "c32ed52dff5d84feaaf9d5b9f484afef",
+        "sha256": "c86d1e2f5606ee856a70be126630048774c2699e2f8a31cf6eb47ad5fae1c813"
+      },
+      {
+        "file": "models/polyhaven-tire-pump/original/tire_pump.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/tire_pump/tire_pump.bin",
+        "bytes": 193896,
+        "md5": "cba7becc59603a3eea1eceafe6db8718",
+        "sha256": "e3a50810e9df1772318e2d339eb541c59b98bb3038c6fadf8b1b72eab993148f"
+      },
+      {
+        "file": "models/polyhaven-tire-pump/original/textures/tire_pump_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_diff_1k.jpg",
+        "bytes": 337653,
+        "md5": "8ae7aa6d3a944df392c143489e687e80",
+        "sha256": "881eea889b7206dcd393adc8dd0c91e55f7f647722ebe6ff4a1ffe340dfd5002"
+      },
+      {
+        "file": "models/polyhaven-tire-pump/original/textures/tire_pump_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_arm_1k.jpg",
+        "bytes": 562270,
+        "md5": "2abfded0197ac1a387597a225bca2365",
+        "sha256": "987630f97ed7bb0f89736b3cddd2700a03c94f6e9e7da18ce0c63b7acb6208b0"
+      }
+    ],
+    "originalDownloadSha256": "5b97471e4d1ac5f2e480d0b9320043d18c6ac55113deb427bdf64ae86126778c",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/metadata.json",
+    "metadataEvidenceSha256": "637deebc57c6985980817f4a6bbddcffb8023d8a1d8df29e81e5e5f46e3c694c",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/files.json",
+    "fileManifestEvidenceSha256": "4dc9d9afed9dab8e5020f9099685aebe69a2279aae61f5aef0611de61d87d034",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/technical-review.json",
+    "technicalReviewEvidenceSha256": "6ca9633c9bf4fdcb956d4aa8ae53c4d6e07e5e4491009c61e88be86e695a9de3",
+    "providerReportedPolycount": 6572,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.25489503145217896,
+      0.10097792744636536,
+      0.579529345035553
+    ],
+    "reimportDimensionsBlender": [
+      0.25489503145217896,
+      0.10097792744636536,
+      0.579529345035553
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "7d64a3e62874444ff83b3713bd92d8d2eec4b314cfa749c2af8c7bdd36ecc5cf",
+      "triangles": 6572
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

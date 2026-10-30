@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Pliers\", por PierreB3D / Poly Haven. https://polyhaven.com/a/pliers. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "PierreB3D"
+  },
+  "Title": "Pliers",
+  "sourceUrl": "https://polyhaven.com/a/pliers",
+  "assetId": "pliers",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-pliers/original/pliers_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pliers/pliers_1k.gltf",
+      "bytes": 5560,
+      "md5": "1c83e0be2aeebf33e2a750a16c33b2ed",
+      "sha256": "7d347749569fc43cb256db9b077ba4eae16586c927b3ac8c3af119561a00bc34"
+    },
+    {
+      "file": "models/polyhaven-pliers/original/textures/pliers_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pliers/pliers_nor_gl_1k.jpg",
+      "bytes": 420328,
+      "md5": "71640ca861416cf5a94337b6b1bc8070",
+      "sha256": "603a2b5b3b8731ea650378b966d858752d2ecf4b07f0a3446e81fe40b77fa644"
+    },
+    {
+      "file": "models/polyhaven-pliers/original/textures/pliers_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pliers/pliers_diff_1k.jpg",
+      "bytes": 669794,
+      "md5": "554ebf0ee29a92b8e17e0ab1b1013424",
+      "sha256": "57d3be6ebd943ef734b9073180f8bce5f30cb34e49e3bdcdd5a2eec231acc3a4"
+    },
+    {
+      "file": "models/polyhaven-pliers/original/textures/pliers_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pliers/pliers_arm_1k.jpg",
+      "bytes": 774330,
+      "md5": "1241ca682bb58e3e1395f0818f4331f6",
+      "sha256": "9b2727ee86ad98c170b6637618d45a347edc34001dbff493403c39b74b6212b6"
+    },
+    {
+      "file": "models/polyhaven-pliers/original/pliers.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pliers/pliers.bin",
+      "bytes": 146348,
+      "md5": "4e7ed7bcaa7b0444ab15ce25742adeb3",
+      "sha256": "df719ce479fb60a35d2424ef678b2c3a47f15d7c5968928da737614df7395ce8"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

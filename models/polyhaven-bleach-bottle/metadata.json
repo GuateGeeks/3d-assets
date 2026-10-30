@@ -1,0 +1,163 @@
+{
+  "id": "polyhaven-bleach-bottle",
+  "assetId": "polyhaven:bleach_bottle",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Botella de blanqueador",
+  "titleOriginal": "Bleach Bottle",
+  "author": "James Ray Cock",
+  "authorUrl": "https://polyhaven.com/a/bleach_bottle",
+  "sourceUrl": "https://polyhaven.com/a/bleach_bottle",
+  "metadataUrl": "https://api.polyhaven.com/info/bleach_bottle",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bleach_bottle/bleach_bottle_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Containers & Storage/Cans, Tins & Bottles/Cleaning & Chemical Bottles",
+  "tags": [
+    "shed",
+    "cleaning",
+    "garage",
+    "plastic",
+    "storage",
+    "clutter",
+    "workshop",
+    "household",
+    "janitorial",
+    "sanitation",
+    "plastic containers",
+    "supplies",
+    "Bleach Bottle",
+    "chemistry-household-containers"
+  ],
+  "areas": [
+    "laboratorio-ciencia",
+    "cuerpo-salud"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Bleach Bottle\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/bleach_bottle. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-bleach-bottle/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/metadata.json",
+  "originalDownload": "models/polyhaven-bleach-bottle/originals.zip",
+  "bytes": 1267596,
+  "sha256": "a689c6eb8d2743b966d08af2b194234179fefdc49873af6225582475793b2284",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:34:11.980050+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "bleach_bottle_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-bleach-bottle/original/bleach_bottle_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bleach_bottle/bleach_bottle_1k.gltf",
+        "bytes": 2784,
+        "md5": "4e73c623f3344086c701ba2693ec852b",
+        "sha256": "0a0dc6e370afd86f5fc1b2c3fded4edf8e4b0fc8ab1947e0454752fb3e62c80f"
+      },
+      {
+        "file": "models/polyhaven-bleach-bottle/original/textures/bleach_bottle_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_nor_gl_1k.jpg",
+        "bytes": 286558,
+        "md5": "4682b3d1ba972b32992f23aea2db9b4b",
+        "sha256": "cc16f4c13f17c7f511e36a614a91b2e932cdf85263788bba9ea58d2a94e049bf"
+      },
+      {
+        "file": "models/polyhaven-bleach-bottle/original/bleach_bottle.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/bleach_bottle/bleach_bottle.bin",
+        "bytes": 106328,
+        "md5": "7bd04de253508368caf8b94398b4866b",
+        "sha256": "2b223425b640f6da3924698a5b94ed4ad31e7fef08fa9cfa0004a096b0b5727e"
+      },
+      {
+        "file": "models/polyhaven-bleach-bottle/original/textures/bleach_bottle_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_diff_1k.jpg",
+        "bytes": 380740,
+        "md5": "60e7803b48d42b7d15b1ff6542f9bdd0",
+        "sha256": "340329a562c3b5a1d5441577cb9ecbb4e1bbbd3e5221439681a392db566b08a1"
+      },
+      {
+        "file": "models/polyhaven-bleach-bottle/original/textures/bleach_bottle_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_arm_1k.jpg",
+        "bytes": 492206,
+        "md5": "7cff1041765fc4594bfbb511b248c111",
+        "sha256": "7aec58d92d982aaeb8a23b6ebc3486aa959641badf848eaf2893c271ec767112"
+      }
+    ],
+    "originalDownloadSha256": "8cf25c0ef3f548653bffec802d6a74c27b82f453709c8c8a43d1023a0f182095",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/metadata.json",
+    "metadataEvidenceSha256": "a5c1dff24d758bad70ee8065f2c0da119ef5aa6f53841e227d035740fcaad5b0",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/files.json",
+    "fileManifestEvidenceSha256": "e371dc041580317770fb0a3ec1d447e3d27ba7ba25385f17a4f667a9cc73fd5f",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/technical-review.json",
+    "technicalReviewEvidenceSha256": "bda333ca9d934bec59acd6a72ca8c5782a68f16ed08defa2eee3332efc3b292f",
+    "providerReportedPolycount": 4052,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.08839114010334015,
+      0.06121089309453964,
+      0.2937394976615906
+    ],
+    "reimportDimensionsBlender": [
+      0.08839114010334015,
+      0.06121089309453964,
+      0.2937394976615906
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "5c7a85a6fbd5ca029c98e33a57b20b128f65160d3de3660137e637bec9ed39a1",
+      "triangles": 4052
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

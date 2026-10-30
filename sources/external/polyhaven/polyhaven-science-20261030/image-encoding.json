@@ -1,0 +1,1842 @@
+{
+  "encoder": "Pillow lossless WebP method 4",
+  "scope": "Only new GuateGeeks review renders; no model, source texture or existing evidence changed.",
+  "result": "PASS",
+  "images": [
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/reimport-three-quarter.png",
+      "sourceSha256": "5735ceccb3381ffd7ddf05989d940aca5b9f514031e1207862825577696b4c61",
+      "sourceBytes": 106957,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/reimport-three-quarter.webp",
+      "sha256": "b173bf1ceef82c5958c6f484c1e050cf654d49fc706dce614d92e93192e96bb0",
+      "bytes": 50596,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "63e383c4062d05ca608fdae04511b2ad61e365970ae12ac2abff90f622eac485",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/source-back.png",
+      "sourceSha256": "08bb406fe95634ff344ff20c94793a143435afe88d372f9352c43b1b73cae517",
+      "sourceBytes": 102940,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/source-back.webp",
+      "sha256": "3c73526cd97774f64d1ed1c4a6255ad87974a9d3cb6cb46714570237a0559cbb",
+      "bytes": 43092,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "01f2598acf25c1373e1cb2d4af5ba7ea15616f6d56cc44b69d87c8431f9e81b6",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/source-front.png",
+      "sourceSha256": "09bec7ea7a8eda8553453e9951941a5f8ba128b245244a457a5ca447edcdf17c",
+      "sourceBytes": 108980,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/source-front.webp",
+      "sha256": "3d31628738ee9c2bf7acd7bc8087f052d3bf8acd28fe8b6a82ba7a7bcb57ed7f",
+      "bytes": 52228,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "325be7f2b1d64925078450579147909bd1b63c72053fa243b5925cb477677c87",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/source-side.png",
+      "sourceSha256": "f10aea127f84a75aa539c9f44c9cc8d83a7d1e6786c3faec2a9c6f4139028d08",
+      "sourceBytes": 97151,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/source-side.webp",
+      "sha256": "62dee51ac2272dd8a304e8444eaa5e10a056a2a69a1c55ae90aba6c4310e8ccd",
+      "bytes": 44618,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "871b457f7f98c854d1ad6eb5650b11d08801784fcbbaa9da5c8ce20ba55b9c57",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/source-three-quarter.png",
+      "sourceSha256": "6214dab85f476d8a5b9618b639364e691dda062d4fece166caef81699017e636",
+      "sourceBytes": 107135,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/source-three-quarter.webp",
+      "sha256": "b173bf1ceef82c5958c6f484c1e050cf654d49fc706dce614d92e93192e96bb0",
+      "bytes": 50596,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "63e383c4062d05ca608fdae04511b2ad61e365970ae12ac2abff90f622eac485",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/source-wireframe.png",
+      "sourceSha256": "d64b1d6b3ded4f325db98516d503531679f62f9c0508ef5712cecdf5e33690b9",
+      "sourceBytes": 116590,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/all_purpose_cleaner/renders/source-wireframe.webp",
+      "sha256": "3ee876f604fa43ad9930f29414b71cae6ee0efe7f5f5be7b95e451a98d09de40",
+      "bytes": 44226,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c5a0a0c200b5f2e59c9fdbc55a33626c3881a540ad3d8ac1875aa7d9c2151b32",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/reimport-three-quarter.png",
+      "sourceSha256": "598ee001b5a0fdbb8971836895385662e4a97f00faa5991a5a014590a15778fc",
+      "sourceBytes": 97431,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/reimport-three-quarter.webp",
+      "sha256": "7bd3e186f6ed96b48aebf382e64b990bcf241f611816d16960307b03ae3e4bfe",
+      "bytes": 42458,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "62b4f1f4cb6ba59cc97bd1c33516d5e30db838769eb882beaab302c9c55cba90",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/source-back.png",
+      "sourceSha256": "0e20c226c94debfdfa70ee6d8f5da59ac2ffa31470309cb13b5c656c033fef4b",
+      "sourceBytes": 94456,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/source-back.webp",
+      "sha256": "f88e589ec2e73276cc512f225222f93938c3429dfe1fc90395e114436522bf11",
+      "bytes": 41090,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "6078188188064dc1891ba8fe46f2aae155f8d9595b64fd21029d3583be08316b",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/source-front.png",
+      "sourceSha256": "2bf1e2b34a51b15270f7985376373b3c016d347fd1268d829b666ff66d984705",
+      "sourceBytes": 97980,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/source-front.webp",
+      "sha256": "f2e09b41af86561f6ec69f78ee0a9e9d9bc4c95664e61384ba40a0c45eb4e88d",
+      "bytes": 42860,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "e58ae468421e724cc2d66fddb09c1e7374974e9f0d3de9fe3cbb44952d97798c",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/source-side.png",
+      "sourceSha256": "5786b07aa4b76c74fa977e458309060dce89bb3022efbb663f7b9edcd3cbf794",
+      "sourceBytes": 89977,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/source-side.webp",
+      "sha256": "9bdaa5d7d4cf6fd4e4ad9d1608a5ceaba6eac5b2ff2e5b394e6347020dd030ec",
+      "bytes": 30268,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "1e4349a6d5601541588c1e753c60ea2c71ebee74b729ece373df0d54cf059435",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/source-three-quarter.png",
+      "sourceSha256": "c0d769e25571bce1257c44deef66416ebec8c0cacda6bc25d8eda98fc06bd093",
+      "sourceBytes": 97603,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/source-three-quarter.webp",
+      "sha256": "7bd3e186f6ed96b48aebf382e64b990bcf241f611816d16960307b03ae3e4bfe",
+      "bytes": 42458,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "62b4f1f4cb6ba59cc97bd1c33516d5e30db838769eb882beaab302c9c55cba90",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/source-wireframe.png",
+      "sourceSha256": "db60cd0f07111ff5d0780dd5b3e79ce655cf3a0b6bb6ff680bd4e3882f57f1bf",
+      "sourceBytes": 101952,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/bleach_bottle/renders/source-wireframe.webp",
+      "sha256": "55ceff40f8db916cb9133a5da260c9b572375b1a7eac4c2a7f435e521f5258f1",
+      "bytes": 37612,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "ee68273bcbb72e3e3dff86edc337bf384bf04be105827b2abe3d4e6c72281247",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/reimport-three-quarter.png",
+      "sourceSha256": "c62f48aa292cc9954b09e16b52e8d126805b6ab0e3c474bbc8f0c89fe72f3199",
+      "sourceBytes": 123508,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/reimport-three-quarter.webp",
+      "sha256": "6bedcf079eab0e3cd5caf0154b74a6adec57a263f1cf6927d1a818e4f9573c5b",
+      "bytes": 60504,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "001cb1ccb2b436c8ce005aec1a20ba0d1c86b8f22f26deeca1f2e1d6bd4f5475",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/source-back.png",
+      "sourceSha256": "43a1736c2aa811794279ec89757111a77fa70d62465b0bd7216277d04f480435",
+      "sourceBytes": 114405,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/source-back.webp",
+      "sha256": "cd96648d5554892322fc823067743248611a55042af4fad6e2bc704e48726510",
+      "bytes": 53124,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "52a4d436207daf9a2ae7ae3188af19e976acccd6a0cded089fb87969dc8433ca",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/source-front.png",
+      "sourceSha256": "7d4a2e3cd67fbc35422244a0b315be32dde87da0ed57f9e5b08ba8acc6fc6078",
+      "sourceBytes": 122020,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/source-front.webp",
+      "sha256": "4d932b28d8c02f47adc6221c5c872d2552aa0aec71d7ef8212a0bec1e4f810ae",
+      "bytes": 64830,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "191667a3ffc874951f6e593f7255c45fb1a36dbb021fe1f860235c8441e47db7",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/source-side.png",
+      "sourceSha256": "27ae0ce1de3e8c3c0c780d422f3b08e6aa885ee9352964838692b78df7ae1f5c",
+      "sourceBytes": 93736,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/source-side.webp",
+      "sha256": "3b82c8674b7a1f73f45011ce00a1df70aef7704fd46f515ea16453c30a042138",
+      "bytes": 42066,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "ef87c768cad98a75e23ea9169258392dc64c24c036156738a261d533ee9093a2",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/source-three-quarter.png",
+      "sourceSha256": "444ceb9d8bdaaec6b5f150b81d8a1ef10127d52394f7c26f6ae6c5d66001a52d",
+      "sourceBytes": 123680,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/source-three-quarter.webp",
+      "sha256": "6bedcf079eab0e3cd5caf0154b74a6adec57a263f1cf6927d1a818e4f9573c5b",
+      "bytes": 60504,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "001cb1ccb2b436c8ce005aec1a20ba0d1c86b8f22f26deeca1f2e1d6bd4f5475",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/source-wireframe.png",
+      "sourceSha256": "38c6dc7cb9acee0d6f1a32bd1e166868b28a1455915dec636b1030e957cd99c3",
+      "sourceBytes": 135050,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/drain_cleaner/renders/source-wireframe.webp",
+      "sha256": "dfef6ad83d31cdec7b3e940d830355175ddea05318a09247f72dd9c974720d31",
+      "bytes": 58790,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "2194e19ddb68dce287a978e6ca7a812cdce305ca989e123df36f27a85edd3b2e",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/reimport-three-quarter.png",
+      "sourceSha256": "f92342c990ac81864c8a4cf0522845eed3a57a4604bdfdc5762b0a985694f591",
+      "sourceBytes": 93417,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/reimport-three-quarter.webp",
+      "sha256": "9ca05f0c2db0cd65fa2eb5bc68cb90416e01a5516f29486c6509446edd990292",
+      "bytes": 41098,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "6eb754d46e1c35f690d5d49ea9def0c41a530884ef48f98292fa8d235cc93094",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/source-back.png",
+      "sourceSha256": "e337038ab322b9689f25bddd8d5baaf124f2bca0a2febf38fc1fce2df5ba4cf9",
+      "sourceBytes": 84859,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/source-back.webp",
+      "sha256": "1f0d911f549d0a31855c69b89cb8687216309d49728319b621184a2e66eeb924",
+      "bytes": 26312,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c8d2ada63efeffbba0e7d85e6936d6c29570ed73619a6e686d57141dd40a253e",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/source-front.png",
+      "sourceSha256": "f803be16de2a2fc1f201eeb3d8c48cd3fca965d2cec5d1fb94709b45e42ebd78",
+      "sourceBytes": 85529,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/source-front.webp",
+      "sha256": "a800a5aeb8fc3e9844d98ccccc86cb55ff4cd4ebb1be72a0b870d6ba21e0c496",
+      "bytes": 26802,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c5ac913465285c3a7d1647a89015dcc424b043aca7029cf31387d5b91081c923",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/source-side.png",
+      "sourceSha256": "282b82ccc3b2258c74d67070bbf93b6acd3846cb306700ac2328cdc091c74b32",
+      "sourceBytes": 81567,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/source-side.webp",
+      "sha256": "9d4d5dfde14189445689807ac9f4121fd649f8446feb6046949fc641faade5af",
+      "bytes": 24406,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c7175382bce218e76eac05be355bbdb2502fc30d7565472b5544986d16a0d74d",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/source-three-quarter.png",
+      "sourceSha256": "676ee207e07e9b6efcd519db6291e2905c2f372ee064f0be18f23726776d3933",
+      "sourceBytes": 93603,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/source-three-quarter.webp",
+      "sha256": "9ca05f0c2db0cd65fa2eb5bc68cb90416e01a5516f29486c6509446edd990292",
+      "bytes": 41098,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "6eb754d46e1c35f690d5d49ea9def0c41a530884ef48f98292fa8d235cc93094",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/source-wireframe.png",
+      "sourceSha256": "654a0bcefaebbcbbcd8c86ee9cf08434c2c6bffbb24c62ee2d1c5437fde9bc42",
+      "sourceBytes": 96523,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_circular_01/renders/source-wireframe.webp",
+      "sha256": "e80628a863ab64be52c8840194a51e238b5abf5814a3a15178bc68ba9898faa8",
+      "bytes": 42920,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "05716dd39646aa36fa9348a2700c3b5c81018b30bc6bc2acb36651a868c265a2",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/reimport-three-quarter.png",
+      "sourceSha256": "5c7cf83861e971b0ed52de70ae1ce8f6111f483d7bf7cb2ecde0affc7310347c",
+      "sourceBytes": 93302,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/reimport-three-quarter.webp",
+      "sha256": "21994080091b43d31cf5c7d8566aa74770c68c154865c04cf0c29799d824b859",
+      "bytes": 41446,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "b77638567b75239125350b48c5a8e06f76680b5ef82ff61c8be6529ac4a7bf3f",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-back.png",
+      "sourceSha256": "3e4d9ed8ce238742da479e85d3c3412cc0d46d90f1faff1877cb9e1b35e1e5e2",
+      "sourceBytes": 84002,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-back.webp",
+      "sha256": "29df5f03f3500cb2d2fdadd7d6db6c79aabeb2f9d31daa6106bc7e324d222db7",
+      "bytes": 27874,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "74fb34ed78167b9a1583b5eb2711a99b346ec703057dcef56932c7592d94ae50",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-front.png",
+      "sourceSha256": "fc6426aea3e8a789d6e34ec269d1790f30a3b270cab20f23280d951e564fde9c",
+      "sourceBytes": 84218,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-front.webp",
+      "sha256": "01c1d3036b6018f76ebe82bb212ab01e62348199bce93009e24ea4d637d188b6",
+      "bytes": 27958,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "a96b26c2f3656313f72bde499ae925f188055caae18089250498de8a24f6b050",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-side.png",
+      "sourceSha256": "c58687a4e98ceebd2a9e22feb6c58bfdc54a55f5cae1100035d91c15bc8af7a7",
+      "sourceBytes": 81205,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-side.webp",
+      "sha256": "b97ec57b87d4d60d247b1f0950ac6d0e52f8f933a144cc13533b179bab9cc436",
+      "bytes": 24108,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "558b608d6ccb307eed5734f65ac17488255a1d177c2e6c7e8953df73a8cf0940",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-three-quarter.png",
+      "sourceSha256": "473f0f37ee45c652961d976e7d4f242b03a174fc6a77b0e8cc3d5e70c6253e1c",
+      "sourceBytes": 93491,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-three-quarter.webp",
+      "sha256": "21994080091b43d31cf5c7d8566aa74770c68c154865c04cf0c29799d824b859",
+      "bytes": 41446,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "b77638567b75239125350b48c5a8e06f76680b5ef82ff61c8be6529ac4a7bf3f",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-wireframe.png",
+      "sourceSha256": "1a95f1a93a44d856e9f62d46ad0a3572a282b8d4cfb2e61f7a11f73fdfefa631",
+      "sourceBytes": 95760,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-wireframe.webp",
+      "sha256": "07ca0271f3b861eedfd5d5be634eed607330c5eb48ea3a47f0064ad0191db4fc",
+      "bytes": 32708,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "6551722e1256e95713832daac71e3abf688117968af3634f92a5e45466bde3da",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/reimport-three-quarter.png",
+      "sourceSha256": "defd99ddaf7b26930e9e1b90b0e4b96cba339db02e81a8730563cbaf3824f673",
+      "sourceBytes": 91773,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/reimport-three-quarter.webp",
+      "sha256": "09a363a5c725939def09f6891ffd406dfb5ab09741e7f7e4affaa79cba6cac79",
+      "bytes": 29564,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "590d0a36bd0eebd7c78646f1b526396505be0c116860299aa4e76d585e0a8c06",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-back.png",
+      "sourceSha256": "5265a39ba37177741a908297636ffcb64dcae2d03bec1adcbacef961c021bf67",
+      "sourceBytes": 90903,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-back.webp",
+      "sha256": "b7a8569ef375cb97733e3342922d63133d3ddf44791a836add78af48e5b0e1f9",
+      "bytes": 28818,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "4f5f021ee609cd39f2e824f04d129cc20e6605ab30daefaf012649ff0aac32a0",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-front.png",
+      "sourceSha256": "eb3479dffeda794775501480ef82b51745772f22d8dcb1a044072f5be096da48",
+      "sourceBytes": 92050,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-front.webp",
+      "sha256": "8b9b16334b04fa5cb956ad5401e040531f8bbbd162c9823aeabc06657598c8cf",
+      "bytes": 29842,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "bfd5fb855aa3011d527ce601be479525863ead1b929246c29d2516587702130a",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-side.png",
+      "sourceSha256": "c45c7b9e342a380c1a018e414e4ab709fe0cbcc34a871ba64b5f4c412684c770",
+      "sourceBytes": 80550,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-side.webp",
+      "sha256": "e36140264952ab776326035fccd905ff924c26df77a86faf942c10bdb83c24c3",
+      "bytes": 22990,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "5a6e8580fd0d0c7e34af2bbe0dfadbe729ebf6d05c7128bc5f216a2685b40d79",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-three-quarter.png",
+      "sourceSha256": "11211fc6fd1814bb794f283233da538417d773a9b91ba4da7d82ba710d10d8d6",
+      "sourceBytes": 91955,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-three-quarter.webp",
+      "sha256": "09a363a5c725939def09f6891ffd406dfb5ab09741e7f7e4affaa79cba6cac79",
+      "bytes": 29564,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "590d0a36bd0eebd7c78646f1b526396505be0c116860299aa4e76d585e0a8c06",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-wireframe.png",
+      "sourceSha256": "236d05cd15ee754f59309db1f7f725b855c7c595e032228acc732c3f3f39e2fd",
+      "sourceBytes": 91507,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_electric_cables/renders/source-wireframe.webp",
+      "sha256": "bf31c96289b9d61026c35366b8c4393c04f72ded97048f38bf39af9211088bbf",
+      "bytes": 28612,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "f2850678b26a31f962237247e8fc76c12f53b061e410575260ba481706cc6aa2",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/reimport-three-quarter.png",
+      "sourceSha256": "8b2157d2b3029a49dfb439e17504bfde43f89cd2a66ebdd8c2e9c675dca1ce50",
+      "sourceBytes": 111007,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/reimport-three-quarter.webp",
+      "sha256": "10fe652c9f6b323656e8acf404fef573cbe762690a418d8548d1cb8784855b0a",
+      "bytes": 49792,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "e7af025ec27e98833dd48b93945dcf55275d8865e8ae0b03ee1389dc4e942f94",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/source-back.png",
+      "sourceSha256": "a29ad2bbafb1078fad78251c531114eb7bdf40976b4db681068f6a1e6050c7f4",
+      "sourceBytes": 105128,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/source-back.webp",
+      "sha256": "d740d61ee58c2638f0d092de7ebee3b87f850e0c7f38b7c6f70dc67d34a6e1d7",
+      "bytes": 47500,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c19c2088f119393e3df765dae4c5f24cd0e253d25dc1887952325647f5284f93",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/source-front.png",
+      "sourceSha256": "05e1550f84d309e8631697508c511f178d6c57e8f3e8e6319c91f8e008351741",
+      "sourceBytes": 107346,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/source-front.webp",
+      "sha256": "d432372ef6c4727e0bb8e056a23f7e225b80a8186c61b920257819ab90437724",
+      "bytes": 48436,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "a7e9cc88318d8cfa3b6817941b58ef6b4426f0ad149675d20c713bc51a713e6b",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/source-side.png",
+      "sourceSha256": "893b4b8aa3bb64b2bf7b72b575772144708e29188e2b0466ca9f526cea602471",
+      "sourceBytes": 90189,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/source-side.webp",
+      "sha256": "4ddb30c155a991030fc11f9dd6da385de2ca0c0c6ec044f844edd898cd19b823",
+      "bytes": 30266,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "e61453c783c784f998dc4f40aaf49691e97e0f3dfb14fc731e1f6147afb0345f",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/source-three-quarter.png",
+      "sourceSha256": "aa8e8f263bc60c2d86f620c5e2ec618e1e77c002ad3368c2c88bc749560c2ebe",
+      "sourceBytes": 111193,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/source-three-quarter.webp",
+      "sha256": "10fe652c9f6b323656e8acf404fef573cbe762690a418d8548d1cb8784855b0a",
+      "bytes": 49792,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "e7af025ec27e98833dd48b93945dcf55275d8865e8ae0b03ee1389dc4e942f94",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/source-wireframe.png",
+      "sourceSha256": "b2fa6ac9949a955c15c9ef50ff0b1c6dace84ec2c273a76541fb2e02739eb2f9",
+      "sourceBytes": 120465,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_industrial_pipes_01/renders/source-wireframe.webp",
+      "sha256": "cdba662c4fd7f2d1c866bb3a94f330fe83601c8682915649d65a2c3829b891c4",
+      "bytes": 48178,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "fabb428ad1615d9b552f01d4a027d09d8f89ab418753582a2d5b4b01dcab7d80",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/reimport-three-quarter.png",
+      "sourceSha256": "f57ce78fda2b25c79fcd7420c9395026e8ee837ed162e5ff3a5dac874fc60be3",
+      "sourceBytes": 108914,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/reimport-three-quarter.webp",
+      "sha256": "fde8278e70d9708c873505bd5a1b98a5f986ab194dd328a17702b1a8733acb82",
+      "bytes": 45958,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "add5f0fc67c8bbe8b0db4189cc7cc08d918c4d4927ac2e0656881cd9ed49fc37",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/source-back.png",
+      "sourceSha256": "ed56037209b3cdc5e9a9759b6b16b5e126124a27171a3dfb11697ef28ea5bf15",
+      "sourceBytes": 106060,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/source-back.webp",
+      "sha256": "ec9f6749e2ad27852d41d1cd00ecf92f8b7033c52fdb02acd2dff92f81947332",
+      "bytes": 50050,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "92359807c97b9e9df8b07dad929b2348da8894930afcc28291bae17eb261f9f7",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/source-front.png",
+      "sourceSha256": "b0f5c5a4fcb4bb178061cd4459846fb6b9cf46f46f02fbbd9f8f88e4c47613c1",
+      "sourceBytes": 107070,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/source-front.webp",
+      "sha256": "3b0cdfc5bc893062da201f5803062f86446cc8a8c09d00965ca9a265336b62c5",
+      "bytes": 50786,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "5ef197090d939305b9591c736b5feb1b5c568dabf39a3966edbdbcca56dab8d1",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/source-side.png",
+      "sourceSha256": "9ab0fce9c5724b4e8c217b378670225d1f85d075297e4875155595161d738dc9",
+      "sourceBytes": 82711,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/source-side.webp",
+      "sha256": "0138096c67c6dddb37b3deb9967c5ebc214332c6645f95070fd1422d1ac1d9cc",
+      "bytes": 24290,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "8608d926cccc510899920f6b239bbcd39b14e24a59e27fa594395df09ead8371",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/source-three-quarter.png",
+      "sourceSha256": "e3d5b2b77720cbcf25134bf791d6621566b1ddbe85cb6f1c877ab02b8640b16f",
+      "sourceBytes": 109086,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/source-three-quarter.webp",
+      "sha256": "fde8278e70d9708c873505bd5a1b98a5f986ab194dd328a17702b1a8733acb82",
+      "bytes": 45958,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "add5f0fc67c8bbe8b0db4189cc7cc08d918c4d4927ac2e0656881cd9ed49fc37",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/source-wireframe.png",
+      "sourceSha256": "7acff1410bb46ae69e0029539d5a07dbe24173fd2eb6b35eb27f990cc4e81d4f",
+      "sourceBytes": 111536,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes/renders/source-wireframe.webp",
+      "sha256": "d5e5bda95b9487d03c7a0fc84604b983dfbd61604d20cade4ab19756ebbe7a48",
+      "bytes": 44274,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "84ce7bb413e7a992bb025d75c4f305c9b56e7e89771a5a89507486b3bf566099",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/reimport-three-quarter.png",
+      "sourceSha256": "132b3f738e5e7c7bf0268a387d0a372abd7c7f5b0cab93eb8d52b032e29701c7",
+      "sourceBytes": 92594,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/reimport-three-quarter.webp",
+      "sha256": "5a4e10706f7047aafac51497e03b59cf5b92ddebfb4bd3447b78cc6fa6cf454b",
+      "bytes": 32592,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "e6b36d267bde6d623d5199b07480480c1580c482d97c194e1626bb489402aa1f",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-back.png",
+      "sourceSha256": "8420b4fc6b7f9681470bb61ea298b22bdb7c9823d841969d7ff75128c59d71a7",
+      "sourceBytes": 82573,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-back.webp",
+      "sha256": "b133b5ad4cb7d4a098d3c81f63254b7f626b3a0680008a3920757a046b09c294",
+      "bytes": 26612,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "f60859cd82b2d678413d8091aa091343d6333511dc7ab139bbcba895f7432838",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-front.png",
+      "sourceSha256": "c313dc9a6bcf8c80c276bca2812c2ae030bbf1f53c2a7cc009416700f3793d1f",
+      "sourceBytes": 83258,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-front.webp",
+      "sha256": "726738a534e4f1a20d11efad874b8373a46df105f613731b0231de12419740a0",
+      "bytes": 26008,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c7a9d6bac1b423511c4abe486f8b489a83eddb037e96dad439c0fdc520011e11",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-side.png",
+      "sourceSha256": "7dd7837528554d63c6c5d23fd025bc34663654e92623b5207ff8bd24aeab7d6e",
+      "sourceBytes": 81461,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-side.webp",
+      "sha256": "7dd9b143a1db65c5ba58b4fe105acb41ec3714daf0a2d1efbb6bf14b6221b13a",
+      "bytes": 23748,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c95889ea3355a8e76ab0d058bc8e04151a2ad630e00a6d15802092374b6f094c",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-three-quarter.png",
+      "sourceSha256": "2e8f315604ea1ddae4690dbb5dc9976d52e029205036fbb34258d8b45b9812a2",
+      "sourceBytes": 92777,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-three-quarter.webp",
+      "sha256": "5a4e10706f7047aafac51497e03b59cf5b92ddebfb4bd3447b78cc6fa6cf454b",
+      "bytes": 32592,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "e6b36d267bde6d623d5199b07480480c1580c482d97c194e1626bb489402aa1f",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-wireframe.png",
+      "sourceSha256": "a4368c81701f95b550236a30eec4185b39b772ab7058d740b03bc1cac215ad48",
+      "sourceBytes": 91541,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-wireframe.webp",
+      "sha256": "0d9065c1edd7dff639f5742034c6d5b99629e5d37a04c489f15f0498d1de86b4",
+      "bytes": 30970,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "99510a09117c7e7a1cf7fad8dcc718c61fe962ad4cae873bc17ac779fae1c2c7",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/reimport-three-quarter.png",
+      "sourceSha256": "0eec1a0b30c4baf8e308ec75a4a6c8f8b53fcb093a282af3893ca351df5fd61e",
+      "sourceBytes": 113951,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/reimport-three-quarter.webp",
+      "sha256": "0cd98792a05f2bdc337277f5a8d2e103e5abc3891ae0dad43f56c0721ad6de41",
+      "bytes": 51974,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c546fb326360bff62e8ef301894ef02e41690fa57a92ddc6ec764f9c2fa2e471",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/source-back.png",
+      "sourceSha256": "6c6335d1b61c4b102b6f3814a9362d5eb2ed1b7a756fd0c7bed00c7d15e81eba",
+      "sourceBytes": 104214,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/source-back.webp",
+      "sha256": "c9bc30c8136b1a17a3f7a5a1e9b654806cde22d92511eac8fc47f965e48f6482",
+      "bytes": 46850,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "9f56c3440f5490457cd65ec38fa25bd28d831e66fc7faf1c0524dcb5879562b8",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/source-front.png",
+      "sourceSha256": "1b3ad3084a23714678ef537b7bf573a24436a7b5b71a9149abf6c30af54c2c80",
+      "sourceBytes": 112073,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/source-front.webp",
+      "sha256": "bcead3ac942de673bba7f47c523f54d71eb419d363e5c0ce85228bc0d22a4a3e",
+      "bytes": 51764,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "97d7a5a5022a33226abe04cbabb062ea3243c8018fc67557ca655d18be37610a",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/source-side.png",
+      "sourceSha256": "f0bca012765df0314abcbd3f227caaed335258026f5e4f09ba83a8b5d5876478",
+      "sourceBytes": 90102,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/source-side.webp",
+      "sha256": "1726e6c4c417f991d826c78ce47510f560cca941e3579c23c9cd329dc80f5b3d",
+      "bytes": 39644,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "68420e401d29649ae6a1661c0e6e9d0c12d0faf24f289535daf436fce8073954",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/source-three-quarter.png",
+      "sourceSha256": "e12de09a7a6eda0213e326405eae1e88cd60b722709593ba09b01cf6680df795",
+      "sourceBytes": 114131,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/source-three-quarter.webp",
+      "sha256": "0cd98792a05f2bdc337277f5a8d2e103e5abc3891ae0dad43f56c0721ad6de41",
+      "bytes": 51974,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c546fb326360bff62e8ef301894ef02e41690fa57a92ddc6ec764f9c2fa2e471",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/source-wireframe.png",
+      "sourceSha256": "ec36f330e0e302edb923aeee1e873245cca12b1cb31e2055a76a79d562387c88",
+      "sourceBytes": 121127,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/renders/source-wireframe.webp",
+      "sha256": "a3561c614818cd66487d095fccbe745dec2408fe76ea902f9818144140bc6d8d",
+      "bytes": 52370,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "8cce06c109e3bcd23aeb5b67aa0aebfcffcb8c82cfebf758b308be412119f572",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/reimport-three-quarter.png",
+      "sourceSha256": "8dd2237b9ed90c86ba7b772adf9318b5f0eddb012e8daff68b0370c7a30ba565",
+      "sourceBytes": 91221,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/reimport-three-quarter.webp",
+      "sha256": "231a9e38c7bf1c14c22acfca91c67c5d6587839d291395a5313e8021e4c033a5",
+      "bytes": 31916,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "6be3f853237e80a1f9dfdac255c1b32198d0a2b45736e21ad65722c21b9c16c8",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/source-back.png",
+      "sourceSha256": "b28b154cd8dced2fbe01a4a54cb3c5b9fac8ee8248406ff9173e1f37587a0a6f",
+      "sourceBytes": 92309,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/source-back.webp",
+      "sha256": "886ced4e1fcf1598b42af4874b2f0b651e33ea0e474aa7832f40dafbad6f0687",
+      "bytes": 32326,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "7057a73eb5caf6108ddd97226cd06d0a15e246888ca87ceef21627d192a722d0",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/source-front.png",
+      "sourceSha256": "5f04efb2bd22b0b8ccc18a67e75c2e8ba705a0ff0e728309d079962063475dbd",
+      "sourceBytes": 92918,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/source-front.webp",
+      "sha256": "3aa33a61d654d7d55e72da106e2a8a3bfc10d659c8fae295bfef1eadf61ed365",
+      "bytes": 33108,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "75677707ab13bb86647f4159cca6bc19e51778a9d31b36e1ff867621c8d5e6fd",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/source-side.png",
+      "sourceSha256": "84f4b4f9f2af74eba2c9d7feb61bf5a6dbcfec30cddf56fa28797554248eb83a",
+      "sourceBytes": 85393,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/source-side.webp",
+      "sha256": "c2b6e14d7f18fa11c1b1ce5fa1867cd23c95f06072382620df494b667b5ded51",
+      "bytes": 27234,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "33a5a46dea8eb0ccb988cb18c0bf9c130e3495178b3fc7db099b2452f59b91be",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/source-three-quarter.png",
+      "sourceSha256": "1adff91f57de91472f7d6bd530a560b4102e3cf573ff57f116c98ad46751f01c",
+      "sourceBytes": 91391,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/source-three-quarter.webp",
+      "sha256": "231a9e38c7bf1c14c22acfca91c67c5d6587839d291395a5313e8021e4c033a5",
+      "bytes": 31916,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "6be3f853237e80a1f9dfdac255c1b32198d0a2b45736e21ad65722c21b9c16c8",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/source-wireframe.png",
+      "sourceSha256": "b11161edf3c2053a3586a5bfadaa16423d56e4d70dd46094d6262ce9f16d725a",
+      "sourceBytes": 92969,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/renders/source-wireframe.webp",
+      "sha256": "bb41bc3144ef7dbb428709dccabbaa9bbea1d5def7cc307ab64f1ce6c909f229",
+      "bytes": 30800,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c6f5611930588004e5efe954a027e25fd488516f568b997d4668c2c92ca100ae",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/reimport-three-quarter.png",
+      "sourceSha256": "ea0ad121a654bce7731e19b723cabccce48229bdee81f89d7a9feb72b7bce0fe",
+      "sourceBytes": 92795,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/reimport-three-quarter.webp",
+      "sha256": "267a99da692b9c81b85ee0c551de49dfbb767e3b64446696c499b5bab137665e",
+      "bytes": 41706,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "dda17af5efc90885c66ce72a720dced9c6af2bb5ee1384713d0bafd6fbce97c1",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/source-back.png",
+      "sourceSha256": "931821f48ff4e6a2e7ccc67a6573bdc6684e3969001cc4fb695b86052e573a61",
+      "sourceBytes": 94006,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/source-back.webp",
+      "sha256": "197406850f4c21c736c3153970503eb2e74c6397894a6cc9cb50b4d9f7cf7458",
+      "bytes": 42122,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "fd33806d5a192532f5f3fb2cdd5199c05d10e4bd2f001859b5ab119254df5195",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/source-front.png",
+      "sourceSha256": "22f072033692f4b64e3c9a4e61c5edd89c5d59faefe13583fc50f6a10018c150",
+      "sourceBytes": 91650,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/source-front.webp",
+      "sha256": "f16fb1bff17201400379d8194c7de8af243aa5be8b3698b18f7457feda7d7045",
+      "bytes": 37116,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "62bd999d477d13328a7af72ada4021eab40ae1ca9a591b78fcc192ee9f4efbb9",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/source-side.png",
+      "sourceSha256": "cc85b19b943ac365e73b5c0983196e76893d4198a04d6407d7d7df5fe4af20cf",
+      "sourceBytes": 89192,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/source-side.webp",
+      "sha256": "c1daf39c8786b8c5676c63e8dd782c917ef6edc8c66a6691876bd8b1ed460fd6",
+      "bytes": 31178,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c1dcf650b9e43131ca33138ece78fae74cc48f8f4899b0f444734e2786b885ec",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/source-three-quarter.png",
+      "sourceSha256": "1910abe2b94c7da50ba3d5af232f1cc2c2f0a1faa080853124cb2decda8fb5bc",
+      "sourceBytes": 92960,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/source-three-quarter.webp",
+      "sha256": "267a99da692b9c81b85ee0c551de49dfbb767e3b64446696c499b5bab137665e",
+      "bytes": 41706,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "dda17af5efc90885c66ce72a720dced9c6af2bb5ee1384713d0bafd6fbce97c1",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/source-wireframe.png",
+      "sourceSha256": "9c0936276778cebb86156c4a04dca3a81512cb6606ae7a732127d433a07137d6",
+      "sourceBytes": 101938,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pliers/renders/source-wireframe.webp",
+      "sha256": "799a7ed9a5a0aaf27b0a9658fd1a285fc759dedc6972ad6d44c9d745e57c4acd",
+      "bytes": 34938,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "ea1c2a37548968faa3569ea94b589e7c5d15b443efd38e021592cbc83faa75a7",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/reimport-three-quarter.png",
+      "sourceSha256": "8315eb9823b54ca18776d742276f8279bf154ca7e307761c375539867cb92d5c",
+      "sourceBytes": 138116,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/reimport-three-quarter.webp",
+      "sha256": "c8363691f03a074f1d5e007c6adc574e10c3ecdfc12e141560eaa11582a64dd0",
+      "bytes": 67780,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "99df0cd52b5a8d12881c93489dae8cd6ea3f4100dbe0097297903b188776ad0f",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/source-back.png",
+      "sourceSha256": "349cfc3e48b9f92dae587a012289ec9878eb537b322501f7ab5afa79511cf97e",
+      "sourceBytes": 112020,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/source-back.webp",
+      "sha256": "4dccb23820455529aa681331218a188f8911d66b1610b59f300bb2e915b5b5ed",
+      "bytes": 54220,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "63a6cd42a4840afde6223650f90f87894fdc1a3d0ef4e4b89a045833aea00bdf",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/source-front.png",
+      "sourceSha256": "3bb72f9358d7de1311f6e316393f02f7661df1ba6aa68152e1c7357ab5cafeac",
+      "sourceBytes": 117629,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/source-front.webp",
+      "sha256": "027af023c2a0a5fc3c1cb640e12dfbc21265cc93177201cd25dbf429334529dd",
+      "bytes": 58948,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "4e5598910b38461768fe119c6ddccccaaccfff3f966e5ecb97ea1d5b3a594ae1",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/source-side.png",
+      "sourceSha256": "ff5e7ff96cad91968b45e24778803d5cdf762b8775b5d09d94f0c230bead5378",
+      "sourceBytes": 109421,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/source-side.webp",
+      "sha256": "a5dffa013429a7bc86d884511c0c0b99524b97eee09d3eb6f4609272946f68f7",
+      "bytes": 50676,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "afe319a6790674bc9e66998fc03b80dd0909feafa6bb2d518f7a0286b935188d",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/source-three-quarter.png",
+      "sourceSha256": "edda4fd6c8ff244a53c5de0f345f203d66e4dd95bac4d79f03e7b3dac60c9f28",
+      "sourceBytes": 138251,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/source-three-quarter.webp",
+      "sha256": "dbb7f30ed9ae9db04511837cb5cf1e6cedc3de4f603dc062f1d1e32df40355d7",
+      "bytes": 67770,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "e6c23176ecbecdc22467fb733cd30d9add6aa4c70937029759b9bf5bd146c432",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/source-wireframe.png",
+      "sourceSha256": "a372e59c2133e11ba9e3ee5aec51c24e5f6687a75650ef5a4e5fdde4c1699174",
+      "sourceBytes": 139914,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_generator/renders/source-wireframe.webp",
+      "sha256": "1681b965d0718033f97aa3bfbd06da3d2d35ba977eb94fb2f0a442dfaf3a0059",
+      "bytes": 72378,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "58cca4e539c2ed814db8cc49b1c935f595313f7afd2756a62cd003b288133cd0",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/reimport-three-quarter.png",
+      "sourceSha256": "a5b323fcfef4b7368eab280bc119fd424c23a23afd67e5023cdd6c56f1bcfafb",
+      "sourceBytes": 114430,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/reimport-three-quarter.webp",
+      "sha256": "cb4e5e37a725d2e85c1c4f5fe9002bb0cbf7c05e5185dc97506952e63df8f990",
+      "bytes": 54244,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "946b55192b8ef42b8bc01a4b370118569709f63eb7e0b88f81ac0b926aada863",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-back.png",
+      "sourceSha256": "36813c5a9b7ce0f5d30ee7d73aa8d3a5c763a72e86a85f111751550ecc32e62b",
+      "sourceBytes": 109191,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-back.webp",
+      "sha256": "b3177669a68547d581b4774430ed3a1d1f5986bae4af15eb6ff95f31517832f0",
+      "bytes": 50484,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "db9274268ffc90f8ec412e286d34687298e3c73f9e8b845abc7cf01fb01ce518",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-front.png",
+      "sourceSha256": "c82d42f6c62a799d22d2dce9980e00b9a7e988c3b2bb93989f58a55a77d8c19c",
+      "sourceBytes": 110989,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-front.webp",
+      "sha256": "9be956ba15a81845badd7253d113e9412ba827cf61541845744a180c0b0318ed",
+      "bytes": 51592,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "2f2b83e50b70259761507936736fe17d5ee054f79e26c5de707b80fd371d194f",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-side.png",
+      "sourceSha256": "8463c4ca2135f5f640414734eccf71a469d369d33a8480aa9d79a144992bae74",
+      "sourceBytes": 104234,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-side.webp",
+      "sha256": "5a0ae082fdc6497661971d5633de1fa534c6418f320286afa96332ed941c1239",
+      "bytes": 39498,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "af26adb8b14ae7eb5413ca05cf92a539f3c8bdac85417ad3ed322ce7ba173519",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-three-quarter.png",
+      "sourceSha256": "ba175f542c4e41a7d4e72c0320b950e49ab30097f9ff2fb43b1d0619e4b9dd92",
+      "sourceBytes": 114610,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-three-quarter.webp",
+      "sha256": "cb4e5e37a725d2e85c1c4f5fe9002bb0cbf7c05e5185dc97506952e63df8f990",
+      "bytes": 54244,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "946b55192b8ef42b8bc01a4b370118569709f63eb7e0b88f81ac0b926aada863",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-wireframe.png",
+      "sourceSha256": "68999fa2bd56aa901e6f714f0faa479ebdcc293064b2105108aa5d846f3eae6f",
+      "sourceBytes": 115281,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-wireframe.webp",
+      "sha256": "89ed3852dc039fde18736fb3e2b22d45e7e17eee12b97241393c122f16de945f",
+      "bytes": 52828,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "3d5cb472f27743416f00811a21a2074b052907ff54eb016849482c8a0d8eb353",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/reimport-three-quarter.png",
+      "sourceSha256": "ab04d5e6d3f88751d5f0b274ff70f41e935241de8102572b132dcbff7fb20927",
+      "sourceBytes": 122949,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/reimport-three-quarter.webp",
+      "sha256": "2b0f23797d522b59637169e9970fa74acd74c58c465968b5f90cccc512d7e558",
+      "bytes": 58612,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "1ac936765a954c0dbc8ac815aeeb16ae64f45e61252dafd97e96208bef1c62e6",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/source-back.png",
+      "sourceSha256": "4d77c6cf86ef82d9e121c0323485a5bfab330706224409eac3838561d73c0f4a",
+      "sourceBytes": 99886,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/source-back.webp",
+      "sha256": "864b4bb85ea287bd153a917cae22ccee127d873b74c65e2b041b6cee50576845",
+      "bytes": 46106,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "9566a1c8d904259802f911d14c8578bad5977189ca7627f18e3ef47d2622448b",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/source-front.png",
+      "sourceSha256": "bdaa60621aed6186a721380805d538cfecda17288864050d9d5e8d20f12f5405",
+      "sourceBytes": 115459,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/source-front.webp",
+      "sha256": "0434fbe7cd8fb6118e5e083fb2ef86f6ff9930b03800a1ef6fab479b690b345f",
+      "bytes": 54340,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "b63a298d780a5689fb3b741db99fe8f657c1faed001a21e74cbb49f438230bd9",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/source-side.png",
+      "sourceSha256": "fc92ffc6d96a89faa89970dd50dc7ee9cc40667e21d0946d1aa4473a6e22a2a4",
+      "sourceBytes": 97179,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/source-side.webp",
+      "sha256": "e06e511a711310dae8565591e1a1283ea462fa715273637cc781af34d82f02fb",
+      "bytes": 43044,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "f841333a3da138f8234d6ff9f58f1b006ac2472ae58134be28e9282a152c851c",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/source-three-quarter.png",
+      "sourceSha256": "aebb6b169c71ec02bd32456b588728b7ed3efd39a8b1a65f95bb5484f82935e2",
+      "sourceBytes": 123046,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/source-three-quarter.webp",
+      "sha256": "0538c836cbaf30410cbc6de0128bc0834aeb744b356eb0fdae1a3d30d4514669",
+      "bytes": 58610,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "ab5f49c259135382e9219138cd19b94929ab3eb344cb9529d097fc2637f25fa8",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/source-wireframe.png",
+      "sourceSha256": "1d8af7f59ba86bcf9948846f0e034856cbe2a6ed015f9fa4ce9a9b8ce27062bf",
+      "sourceBytes": 144531,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/power_box_01/renders/source-wireframe.webp",
+      "sha256": "55f60fa86a7e252e6bf00d51e68332dc88e8344bcb1cdb827a3b9cc764b948ca",
+      "bytes": 74618,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "b8372d2adb17df0019b4dfdcbb0de9ab7638cbbe2ee5ebb1871b93f0a1ea5af2",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/reimport-three-quarter.png",
+      "sourceSha256": "116b585ae78d333e78a07997bf4c65f09eaae74f839b0b37c7b50c8e7641b36e",
+      "sourceBytes": 118795,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/reimport-three-quarter.webp",
+      "sha256": "c1e84a36e8ab3004ebdb3048fd050eb90bbfa7e824a5254b186471e3d42e1566",
+      "bytes": 58400,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "a292ddde3255dcb08cb10e58ddd17ac1e82be6be42700c21a57417187e1efdfc",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-back.png",
+      "sourceSha256": "7ccf7a9cdcab7425d53d53bb1336ee998571e8fd561d61d2b1e0f2476769b5f6",
+      "sourceBytes": 107543,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-back.webp",
+      "sha256": "e0ff7c8ced65ab0e3b22d57f382c49b6af2464d0d5d6945dd656b0c926dfee38",
+      "bytes": 46434,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c85bb207fd17880649adf8bfb385adf8e125ed9a608be43825c30a3ce5f4cefa",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-front.png",
+      "sourceSha256": "4cb0a05f4cb69ec9c94200e880fd93bb73c7dbae9e5a67f414b40f1082d483a4",
+      "sourceBytes": 115212,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-front.webp",
+      "sha256": "0e3bafd841cf448c445fce9a0bb5a9cec5bb1ddb68e98fff6cbd72cdfe94d353",
+      "bytes": 56356,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "cc1633505563a4c6cf4d0785403b3ea7640cca72c422ce4bcfeec21a822c774b",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-side.png",
+      "sourceSha256": "00502833f698531ba103ac8a8bb1e93e3bdad8f6e0afd89f957db27f3acf81f4",
+      "sourceBytes": 110425,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-side.webp",
+      "sha256": "c85b8fcbeaa47cd9894c2612ff3bd1d2a7753a748ba626874a1c214f276d5740",
+      "bytes": 52758,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "5041f0ef9dd34fbb014cfa478f02fecf6998cbc589d49d43e80d546987a0ba20",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-three-quarter.png",
+      "sourceSha256": "2ffc5dd36209b09495125d51cbad0c9b63cf02e6cd38646baced133b30547fa3",
+      "sourceBytes": 118966,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-three-quarter.webp",
+      "sha256": "c1e84a36e8ab3004ebdb3048fd050eb90bbfa7e824a5254b186471e3d42e1566",
+      "bytes": 58400,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "a292ddde3255dcb08cb10e58ddd17ac1e82be6be42700c21a57417187e1efdfc",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-wireframe.png",
+      "sourceSha256": "24fd4aeda64c43891ff0cf762486a5002fbfde3adece995210d779187a7fa0b9",
+      "sourceBytes": 119280,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-wireframe.webp",
+      "sha256": "8f43a9a57acbbe123d7a6b62df19ddd800bf18a0e89deded7eed2ea7647584de",
+      "bytes": 52164,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "71b4d3ee53354c6708a671554142d453e5ce2a7ea3e81c3afefd9622e9b544c5",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/reimport-three-quarter.png",
+      "sourceSha256": "51ebdd3b34832975e941ab1a20a87377cb80e30021c4d66677e82eb96545e345",
+      "sourceBytes": 97900,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/reimport-three-quarter.webp",
+      "sha256": "e608d39f7b66dbfd7436129a7697e6f0a06feed887a06c530a6676a768618877",
+      "bytes": 43930,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "305fe862c5749e63f7e87a0851c0c5b1e3cc41b31e49b5ff9e032e85d1f56d38",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/source-back.png",
+      "sourceSha256": "0a31d319b6302a1ecac0f0175d715ebfde77055212c78f19179633b8c791a8ec",
+      "sourceBytes": 89878,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/source-back.webp",
+      "sha256": "dc54f190f822766d78194a7154b6b7234f21424673acc0f3e8bfa730760e21ca",
+      "bytes": 31756,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "635f3d60a5caff924e49882fdc6680acac1cb33c089f9bdb8b02a93ff5ba4964",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/source-front.png",
+      "sourceSha256": "c000a3e0a61d79a0317292609d626337dc1cc3984e19636e9ac6d7580711134e",
+      "sourceBytes": 89061,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/source-front.webp",
+      "sha256": "aa22c8edb71598deedf27d972ae0d56abbd79afccf73175e6b214eef977d68e1",
+      "bytes": 31350,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "ac44bdf26847df111913ac8c01f0f0ea8a6f35e8b45aeb40a15c714de881306d",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/source-side.png",
+      "sourceSha256": "cdbc8052aa3a7d40c939576978b73c74155c451a4d89f7efe3499ebab11e5b38",
+      "sourceBytes": 88193,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/source-side.webp",
+      "sha256": "684205c41d331c3324e31bf61c61bc4098cde02cecec59b48c08cafb4e7e1c10",
+      "bytes": 30992,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "79436528fc47d1b3917da523ad814050379e9a44c0fb163fcb3d83879c1fbb30",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/source-three-quarter.png",
+      "sourceSha256": "fec34185e181fbeee36a429a68f9aaa906e3c92b8b0b340d45ca3090c57890a6",
+      "sourceBytes": 98082,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/source-three-quarter.webp",
+      "sha256": "e608d39f7b66dbfd7436129a7697e6f0a06feed887a06c530a6676a768618877",
+      "bytes": 43930,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "305fe862c5749e63f7e87a0851c0c5b1e3cc41b31e49b5ff9e032e85d1f56d38",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/source-wireframe.png",
+      "sourceSha256": "e3dd6d23859123c12f68ccbecf05f1bb37969944e083c2aaf74b379c7308a5d1",
+      "sourceBytes": 100857,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/renders/source-wireframe.webp",
+      "sha256": "3e343e269ffa055f467cf1d70ff68089eb6d54ab903f69f5b3a200209b7d5b52",
+      "bytes": 34808,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c185884864ba3fcfd12924d41e88d4023747cab00fa9250caa6d46c9a62a4327",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-01.png",
+      "sourceSha256": "6306511c720e8f3a357eb18efb6d9daeb095ae82637fbc840dcb484f3da1d33c",
+      "sourceBytes": 1122045,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-01.webp",
+      "sha256": "21b457a899ee88b7ce7420f54ccaf2965e8d5054c25110df16572950c9f294e1",
+      "bytes": 822772,
+      "size": [
+        1920,
+        1580
+      ],
+      "decodedRgbaSha256": "84959353f7020115de999b10c128f4c1c677303e257ce0e65205941956324b2a",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-02.png",
+      "sourceSha256": "7e48f91f974691199ee6acc0d34926efe102bcd250df489e794028f595769101",
+      "sourceBytes": 1615621,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-02.webp",
+      "sha256": "fd87096eeb27664867ef5639743863af20994e8263cb4228e6adbdaa378f9ff3",
+      "bytes": 1205616,
+      "size": [
+        1920,
+        1580
+      ],
+      "decodedRgbaSha256": "96369307b1bd5ae03dd82297b1af5ae3131b650710cdb3e7a77ea734e7c3240e",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-03.png",
+      "sourceSha256": "92770011ae25c3dd9e2a8cdfe39d6b94666c8dec6af9b274445af1dc11a22384",
+      "sourceBytes": 1395608,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-03.webp",
+      "sha256": "57963d1e9ca650ec9b7e6b31569e7e0792df59b5c14ab440f87cf588aefb7761",
+      "bytes": 1052924,
+      "size": [
+        1920,
+        1580
+      ],
+      "decodedRgbaSha256": "29299ee3c09ca7693db1865060fa3189d8e1fd034a7f59c7378e89963f57bd44",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-04.png",
+      "sourceSha256": "5caa25168021f363154895f91c40ad1554563f850ae9cb3a6de7d9422560b9f8",
+      "sourceBytes": 1360324,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-04.webp",
+      "sha256": "ecc134bc66c8fada7ed2aae79c9ea357ad143dbcbcb01544b91b994e863ee339",
+      "bytes": 1035706,
+      "size": [
+        1920,
+        1580
+      ],
+      "decodedRgbaSha256": "d289a4f2819021e92aceb98b513cd3a113d689ba239f9f79c0051314d4cfd317",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-05.png",
+      "sourceSha256": "6f4894585155a4ad98d13f79e731c4ab1e51c42771a772b0f7d73e8dc8989860",
+      "sourceBytes": 194553,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-05.webp",
+      "sha256": "d83cccc889a5587781245b94ea86194742eb36ba0f843451926b65b69a4066fe",
+      "bytes": 151426,
+      "size": [
+        1920,
+        316
+      ],
+      "decodedRgbaSha256": "522585a46f94e9049662e16a62bd49ce589c727c2f885097e316497e57dd4f29",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/reimport-three-quarter.png",
+      "sourceSha256": "f37d25185b4b1c9b6e7fa2eec63ee951b8480640e8f1c63f232cac080fec1c85",
+      "sourceBytes": 113953,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/reimport-three-quarter.webp",
+      "sha256": "b0f79408f99756cae80bf93cb8e9e6abff8500982562025853142a4862489566",
+      "bytes": 48486,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "46dbaa88375d1430062212d50445a0e717927e52b750cd0f7f54a82547918165",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/source-back.png",
+      "sourceSha256": "caef3199f50fc465ba8b6f5105f0ed594c7efedde7da1b2570daa7e4409ec845",
+      "sourceBytes": 106983,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/source-back.webp",
+      "sha256": "4e652f7645115539a8e8abc19fcc7364aff518294cc065fdec3a2e7baf2584ad",
+      "bytes": 44790,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "47b4c67c2200fb50538bce1d511600f9ad639fff449032a28fea71d2ede6bd21",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/source-front.png",
+      "sourceSha256": "99224f54fdad8fde9c52a9651ff559e0a50354505bc6999a10eef8c814a9be77",
+      "sourceBytes": 110185,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/source-front.webp",
+      "sha256": "7ff50acf53e7877d3e45c033b41facea9ba692f0451ff6439392f7c15ce9531b",
+      "bytes": 51926,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "febbf6824297856c5a9422219fb16da2459d70a66d6d2e81a8e3f6d50c875ffc",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/source-side.png",
+      "sourceSha256": "f911e0c990ed10bb5430f5cd9dcba4fbfcf55c6bda85f5117d659a86c1eccd4a",
+      "sourceBytes": 107250,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/source-side.webp",
+      "sha256": "338ba7f7d571c587e2d0806dbd044b07d04c497c6954f6b5b6d08119dcd2637e",
+      "bytes": 45332,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "8c38a0bd69d22ab748d786362747f65748fb6f27807bca1848914897fda1beac",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/source-three-quarter.png",
+      "sourceSha256": "3988fb6d3a49eb86aa1d87441d2ef275212a5c83562217635a1d97a0abac9b80",
+      "sourceBytes": 114149,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/source-three-quarter.webp",
+      "sha256": "a8d123e9013f8baa659d9131a11cc374267e9597a00dddeb9c2b7c1ea4118a70",
+      "bytes": 48494,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "5adedda50948e4d0fb92a202c67f5c899f85d42721eed2c4b2f651338f51f3de",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/source-wireframe.png",
+      "sourceSha256": "336eeb8260c783ebc14304b6477204882d49b7b8de800d5e6788084308d22143",
+      "sourceBytes": 130368,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/renders/source-wireframe.webp",
+      "sha256": "930999710ee1bc128070e7f7399ab75aadee4523cc508f86714f875e137ab2aa",
+      "bytes": 61110,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "20987a293fd7337752dba61b9ebceb1adee5db9ff958f27405ead72da058535c",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/reimport-three-quarter.png",
+      "sourceSha256": "21683433bb1d5819ea1e0886dfa831814085cf3716da05a5a5303d6428aaa507",
+      "sourceBytes": 88929,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/reimport-three-quarter.webp",
+      "sha256": "d5852a0de02beb9da30f72aed880278c36b42a4ccd74ed655d190c525b0c8659",
+      "bytes": 30174,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "f5809fe35137b8b5b7817313e05825c0046f4dd34ef0a1709ca63ea4ce12fe52",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-back.png",
+      "sourceSha256": "25511ebb3bae8e537b0113ae74c7c79eb58efb2bb74a47126e7e80f72b359758",
+      "sourceBytes": 85921,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-back.webp",
+      "sha256": "1722d61359da6f2be9fdf32ee4f45591c2dc848f1bbdfe09860258704fabd5b1",
+      "bytes": 28216,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "95064a6b9e7daea5a544aa00fca48f2d3c17f31b9d3ef51c5efbcc628a37b99a",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-front.png",
+      "sourceSha256": "8a1f58788a321b773086843844f373538256941cf18e6bc87d7d09150ec40ed2",
+      "sourceBytes": 88312,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-front.webp",
+      "sha256": "d6f7af4a067c917f60d43d3c2b4a72e3146ff64206e7cbaddb83cd617d291c23",
+      "bytes": 29208,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "c16cb393c9b9eb2f8a49d87d53c7db36c01aeeee1454432d60f2d614cce80150",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-side.png",
+      "sourceSha256": "621a1c718f6c2f2c5305e3f7db71b31a7df60eb0a9a11233aeff16567f035a59",
+      "sourceBytes": 85173,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-side.webp",
+      "sha256": "28e7dbcf4c492dee025b8791bc375759ede285ee34df80a548ede1389697ae7b",
+      "bytes": 27858,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "802e3cb009143af63ddc74a93a966830961cb04436d4d0f21416c15558ba1396",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-three-quarter.png",
+      "sourceSha256": "6b04555a55f88ccf6d5cec14b60588a54f1d11b487b4da8c8dbb8e1b1977a0f2",
+      "sourceBytes": 89097,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-three-quarter.webp",
+      "sha256": "d5852a0de02beb9da30f72aed880278c36b42a4ccd74ed655d190c525b0c8659",
+      "bytes": 30174,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "f5809fe35137b8b5b7817313e05825c0046f4dd34ef0a1709ca63ea4ce12fe52",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-wireframe.png",
+      "sourceSha256": "be514e6282e70fc22a3ff03d7855499f1e7205f1aade798db3ad186f1e9428f7",
+      "sourceBytes": 94488,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-wireframe.webp",
+      "sha256": "2a457592b0d73c111e0ce30580e00f261da7ad5df468af0103b85cd122007e5b",
+      "bytes": 33386,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "7d905581ec2d17601281832e20177afa6b588c50334836dd9c9e3b5d019a00c4",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/reimport-three-quarter.png",
+      "sourceSha256": "2c0dbaadf5e65f6f5b6b675a1438c679a39782620629d365af155755d88fbe31",
+      "sourceBytes": 107829,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/reimport-three-quarter.webp",
+      "sha256": "5b317dccd5dda357de97a3eb2a399aa4a9af6bbe7e26763d1fa887b321ad964f",
+      "bytes": 48962,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "238987bb115ac014678054a88e1d80cec4168d0953fac39df16da8032d7becf7",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-back.png",
+      "sourceSha256": "b6879a2344b155d7cc4baf3bfdd7303c4b6624e2e23ce53f51c995177c449ffa",
+      "sourceBytes": 96068,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-back.webp",
+      "sha256": "08b09126eedbee03a8820564a8c2aae54f8278a257c5488c9837ef9b9ebcaf26",
+      "bytes": 42424,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "541fe27c1cbcf95b6711c51c91df50edc1d4a682dc7bf00e78fd6239be330c6f",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-front.png",
+      "sourceSha256": "378e92b27f23aa67abcb4d961f5d2272c9f60c0a7f40f72db039b20f10acb260",
+      "sourceBytes": 102277,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-front.webp",
+      "sha256": "a7cdb69c6dfdb474f4bdd784d94331d76847a1d5c42b02ab03805308843018ab",
+      "bytes": 41474,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "25d6e7278c41865a1458d3923b6effeaac6c9de20489b942a610302aa5aafec0",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-side.png",
+      "sourceSha256": "17e6feff9b91dbdd2ef6a025120544e9eb24de83e813061335226276163e3057",
+      "sourceBytes": 95592,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-side.webp",
+      "sha256": "d651002746350e22c03c910a9a660f85de2c219d8d18fe7c221a6d132ffe607c",
+      "bytes": 41908,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "8825d4670da7e4e998279dc5b930009143483ebb5aec8bf9b8071161d692c0a0",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-three-quarter.png",
+      "sourceSha256": "2b81e88b59e8f1ecb99f3fdd760ddb99e679829b6b4325cebddde53769cc9096",
+      "sourceBytes": 108002,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-three-quarter.webp",
+      "sha256": "5b317dccd5dda357de97a3eb2a399aa4a9af6bbe7e26763d1fa887b321ad964f",
+      "bytes": 48962,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "238987bb115ac014678054a88e1d80cec4168d0953fac39df16da8032d7becf7",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-wireframe.png",
+      "sourceSha256": "9b50105035213aac4885cddb3ecffed678de1218541b787a0477b3c3346a81a3",
+      "sourceBytes": 91818,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/renders/source-wireframe.webp",
+      "sha256": "a3d386274a7902e586252339cef2291537aeeb25efa0b9ff8003b570b694ae60",
+      "bytes": 34470,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "090df8703649c8d67b9219cae418953849350797f42388ef4059aa9193e3ec43",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/reimport-three-quarter.png",
+      "sourceSha256": "b5c24f20f96591e403539172cebf2c097374c2ac048f9cf2ae877cfc3824c53e",
+      "sourceBytes": 119401,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/reimport-three-quarter.webp",
+      "sha256": "e4bbda97bf69914b763e02595bac250b2701dbe4ae4943ae70e6152f294389b2",
+      "bytes": 57480,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "17d9723ca11ae55482e0b2def5cf52a23631880edb61a0b06c71d29059fc1125",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/source-back.png",
+      "sourceSha256": "8c4805d56d0a179d4116954c608b1ec67e8dd9d2e4a0172d6a7e6cb64f8d16d2",
+      "sourceBytes": 104639,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/source-back.webp",
+      "sha256": "919a45c497212f4abebf75673844eb95ab0f4737a47c5419a6b3d5a67e0e0ad0",
+      "bytes": 46358,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "0a9437271ff50ebb0030b051f8d0a4432b261d3c4d8ae1ecfefdd77e0a7071a6",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/source-front.png",
+      "sourceSha256": "129b4e26d112f5fd925d1b2c1d7bfe40da34c185d0e1351806103b50e3692966",
+      "sourceBytes": 113142,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/source-front.webp",
+      "sha256": "49f1eba61a6c78b65dd81a133edea7ced8fecd596bf83c3f99f3de9e41108b6d",
+      "bytes": 54166,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "814b58392534f4aaa9848142c39127fad686ae61d7059098d5f626ab3451de11",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/source-side.png",
+      "sourceSha256": "f6739efb8d01bebcc048919d628361537b7c15f508f4af9c59bf460ec096ed08",
+      "sourceBytes": 95010,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/source-side.webp",
+      "sha256": "1d177146d3dbc4ce53949c60e476fb93efac060e6bc9440e6f9eca238711325c",
+      "bytes": 34324,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "7287a5e47872b91c07fb0710a8d2e3d96bd3940f8c22a0340bbcbdc387f767d1",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/source-three-quarter.png",
+      "sourceSha256": "a8e8ab404882e750c7af0bad9762a868f87682d1d12352c0efed07dc145db6fe",
+      "sourceBytes": 119574,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/source-three-quarter.webp",
+      "sha256": "e4bbda97bf69914b763e02595bac250b2701dbe4ae4943ae70e6152f294389b2",
+      "bytes": 57480,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "17d9723ca11ae55482e0b2def5cf52a23631880edb61a0b06c71d29059fc1125",
+      "pixelEquality": "PASS"
+    },
+    {
+      "sourceFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/source-wireframe.png",
+      "sourceSha256": "bc3afb6040b8d1303eda778e30f332808d850fe1c866e9957b117014168396e8",
+      "sourceBytes": 89471,
+      "file": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_02/renders/source-wireframe.webp",
+      "sha256": "aad57d928afe515438dbc60cf0ea10a133c5630d2c0312a348683ca1d375eb2d",
+      "bytes": 41290,
+      "size": [
+        320,
+        286
+      ],
+      "decodedRgbaSha256": "5fe6714c54171eb5beb45cfee387d2aad36acf44a451dce36d8d704ba857b951",
+      "pixelEquality": "PASS"
+    }
+  ],
+  "bytesSaved": 8928028
+}
