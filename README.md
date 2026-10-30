@@ -34,6 +34,12 @@ Para preparar un clon con scripts, skills y dependencias opcionales, seguir
 [SETUP.md](SETUP.md). El [laboratorio de creación](creation-lab/START-HERE.md)
 y el de rigging se ejecutan dentro de este repositorio.
 
+La [auditoría del laboratorio del 29 de octubre](docs/reviews/2026-10-29-3d-lab-audit.md)
+revisa skills, configuración, pipelines y las capacidades de Meshy, Tripo,
+UniRig, SkinTokens y Blender. El [diseño de integración propuesto](docs/superpowers/specs/2026-10-29-unified-3d-lab-design.md)
+plantea autoría por código con Codex y un visor interactivo; está pendiente de
+aprobación y no representa funciones ya implementadas.
+
 ## Abrir localmente
 
 Requiere Python 3.10 o posterior, sin dependencias de Python ni npm.
