@@ -92,7 +92,7 @@ def create_run(workspace: Path, operation: str, inputs: dict) -> Path:
         raise ValueError('operation and input object required')
     workspace = Path(workspace).resolve()
     run_id = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ') + '-' + uuid.uuid4().hex[:10]
-    run = workspace / 'runs' / run_id
+    run = checked_path(workspace, 'runs/' + run_id, False)
     run.mkdir(parents=True, exist_ok=False)
     (run / 'events').mkdir()
     write_json(run / 'run.json', {'schemaVersion':1, 'kind':'run', 'id':run_id,
@@ -102,12 +102,12 @@ def create_run(workspace: Path, operation: str, inputs: dict) -> Path:
 
 
 def record_event(run: Path, event: dict) -> Path:
-    if not (Path(run) / 'run.json').is_file():
+    if not checked_path(Path(run), 'run.json').is_file():
         raise ValueError('unknown run')
     data = {**event, 'recordedAt':now(), 'eventId':uuid.uuid4().hex}
     encoded = json.dumps(data, ensure_ascii=False, indent=2, allow_nan=False) + '\n'
     name = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ') + '-' + hashlib.sha256(encoded.encode()).hexdigest()[:16] + '.json'
-    path = Path(run) / 'events' / name
+    path = checked_path(Path(run), 'events/' + name, False)
     with path.open('x', encoding='utf-8') as handle:
         handle.write(encoded)
     return path
@@ -158,15 +158,19 @@ def validate_record(data: dict) -> dict:
         if not _number(data['duration']) or not 0 < data['duration'] <= 300 or data['mode'] not in ('interactive','timeline'):
             raise ValueError('invalid scene duration or mode')
         if not isinstance(data['title'],str) or not data['title'].strip(): raise ValueError('scene title required')
-        if not isinstance(data['instances'],list) or not data['instances'] or len(data['instances']) > 1000:
-            raise ValueError('scene requires 1..1000 instances')
+        if not isinstance(data['instances'],list) or not data['instances'] or len(data['instances']) > 100:
+            raise ValueError('scene requires 1..100 instances')
         ids = set()
         for instance in data['instances']:
             _required(instance,'id','asset','position','rotation','scale')
             _identifier(instance['id'])
             if instance['id'] in ids: raise ValueError('duplicate instance ID')
             ids.add(instance['id'])
-            if not isinstance(instance['asset'],str) or not instance['asset']: raise ValueError('asset identifier required')
+            if not isinstance(instance['asset'],str): raise ValueError('asset identifier required')
+            asset = instance['asset']
+            if asset not in ('button','servo','character') and not re.fullmatch(r'(?:[a-zA-Z0-9_-]+/)*[a-zA-Z0-9_.-]+\.glb',asset):
+                raise ValueError('asset must be a built-in or relative GLB path')
+            if '..' in asset.split('/'): raise ValueError('asset escapes project')
             _vector(instance['position']); _vector(instance['rotation']); _vector(instance['scale'],True)
         channels = set()
         for track in data.get('tracks',[]):
@@ -175,6 +179,9 @@ def validate_record(data: dict) -> dict:
             if track['target'] not in ids or track['channel'] not in ('pressed','angle') or channel in channels:
                 raise ValueError('unknown or multiply-owned track channel')
             channels.add(channel)
+            owner = next(item['asset'] for item in data['instances'] if item['id']==track['target'])
+            if (track['channel']=='pressed' and owner!='button') or (track['channel']=='angle' and owner!='servo'):
+                raise ValueError('track channel not supported by asset')
             frames = track['keyframes']
             if not isinstance(frames,list) or not frames: raise ValueError('keyframes required')
             previous = -1
@@ -183,6 +190,7 @@ def validate_record(data: dict) -> dict:
                 if not _number(frame['time']) or not previous < frame['time'] <= data['duration'] or frame['time'] < 0 or not _number(frame['value']):
                     raise ValueError('keyframe times must strictly increase within duration')
                 if track['channel']=='pressed' and not 0 <= frame['value'] <= 1: raise ValueError('pressed value out of range')
+                if track['channel']=='angle' and not -180 <= frame['value'] <= 180: raise ValueError('angle value out of range')
                 previous = frame['time']
     elif kind == 'project':
         _required(data,'title','scene','files','provenance')

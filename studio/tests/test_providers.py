@@ -237,6 +237,23 @@ class ProviderFinalBoundaryTests(unittest.TestCase):
         for operation,body in [('rig',{'input_task_id':42}),('image-to-3d',{'ai_model':'meshy-7.1','input_task_id':42}),('text-to-3d',{'prompt':'robot','ai_model':'meshy-7.1','target_formats':[{}]})]:
             with self.subTest(body=body),self.assertRaises(ValueError):self.prepare(operation=operation,body=body,context={'bodyType':'humanoid','textured':True,'faceCount':4000})
 
+    def test_tripo_texture_quality_is_validated_per_operation(self):
+        with self.assertRaises(ValueError):
+            self.prepare(provider='tripo',body={'prompt':'robot','modelVersion':'v3.1-20260211','textureQuality':'none'})
+        self.assertFalse((self.root/'provider-jobs').exists())
+        for quality in ('standard','detailed'):
+            text=self.prepare(provider='tripo',body={'prompt':'robot','modelVersion':'v3.1-20260211','textureQuality':quality})
+            self.assertEqual(text['request']['arguments']['textureQuality'],quality)
+        bare=self.prepare(provider='tripo',body={'prompt':'robot','modelVersion':'v3.1-20260211','texture':False})
+        self.assertFalse(bare['request']['arguments']['texture'])
+        image=self.prepare(provider='tripo',operation='image-to-3d',body={'creationIdentifier':'image-1','model':'tripo-v31','textureQuality':'none','generateParts':True})
+        self.assertEqual(image['request']['arguments']['textureQuality'],'none')
+        for quality in ('standard','detailed'):
+            image=self.prepare(provider='tripo',operation='image-to-3d',body={'creationIdentifier':'image-1','model':'tripo-v31','textureQuality':quality})
+            self.assertEqual(image['request']['arguments']['textureQuality'],quality)
+        with self.assertRaises(ValueError):
+            self.prepare(provider='tripo',operation='image-to-3d',body={'creationIdentifier':'image-1','model':'tripo-p1','textureQuality':'detailed'})
+
     def test_capability_exposure_is_separate_from_implementation(self):
         descriptors=p.describe({})
         text=next(d for d in descriptors if d['provider']=='meshy' and d['operation']=='text-to-3d')

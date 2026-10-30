@@ -66,4 +66,26 @@ class CoreTests(unittest.TestCase):
             with self.assertRaises(ValueError): core.build_package(self.root,manifest,self.root/'third.zip')
         finally: output.unlink(missing_ok=True)
 
+    def test_run_and_event_directories_reject_symlink_escape(self):
+        outside=self.root/'outside'; outside.mkdir()
+        workspace=self.root/'workspace'; workspace.mkdir()
+        (workspace/'runs').symlink_to(outside,target_is_directory=True)
+        with self.assertRaises(ValueError): core.create_run(workspace,'bad',{})
+        self.assertEqual(list(outside.iterdir()),[])
+        (workspace/'runs').unlink()
+        run=core.create_run(workspace,'safe',{})
+        (run/'events').rmdir(); (run/'events').symlink_to(outside,target_is_directory=True)
+        with self.assertRaises(ValueError): core.record_event(run,{'status':'FAIL'})
+        self.assertEqual(list(outside.iterdir()),[])
+
+    def test_scene_boundary_matches_browser_contract(self):
+        scene={'schemaVersion':1,'kind':'scene','id':'x','title':'X','duration':2,'mode':'timeline','instances':[{'id':'servo','asset':'servo','position':[0,0,0],'rotation':[0,0,0],'scale':[1,1,1]}],'tracks':[]}
+        scene['instances'][0]['asset']='https://outside/model.glb'
+        with self.assertRaises(ValueError): core.validate_record(scene)
+        scene['instances'][0]['asset']='servo'
+        scene['tracks']=[{'target':'servo','channel':'angle','keyframes':[{'time':0,'value':181}]}]
+        with self.assertRaises(ValueError): core.validate_record(scene)
+        scene['tracks']=[{'target':'servo','channel':'pressed','keyframes':[{'time':0,'value':1}]}]
+        with self.assertRaises(ValueError): core.validate_record(scene)
+
 if __name__ == '__main__': unittest.main()

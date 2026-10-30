@@ -45,7 +45,7 @@ def project_init(args):
             source=core.checked_path(scene_path.parent,asset)
             core.validate_glb(source)
             sources.append((asset,source))
-    project=args.workspace.resolve()/'projects'/args.id
+    project=core.checked_path(args.workspace, 'projects/'+args.id, False)
     if project.exists(): raise ValueError('project already exists; choose a new ID')
     project.mkdir(parents=True,exist_ok=False)
     core.write_json(project/'scene.json',scene)
@@ -88,7 +88,7 @@ def validate(args):
 
 
 def run_list(args):
-    directory=args.workspace/'runs'
+    directory=core.checked_path(args.workspace, 'runs', False)
     runs=[]
     if directory.exists():
         for path in sorted(directory.glob('*/run.json')):
@@ -100,7 +100,8 @@ def run_list(args):
 
 def run_show(args):
     path=core.checked_path(args.workspace/'runs',args.id+'/run.json')
-    return {'run':core.read_json(path),'events':[core.read_json(event) for event in sorted((path.parent/'events').glob('*.json'))]}
+    events=core.checked_path(path.parent,'events',False)
+    return {'run':core.read_json(path),'events':[core.read_json(core.checked_path(path.parent,'events/'+event.name)) for event in sorted(events.glob('*.json'))]}
 
 
 def serve(args):

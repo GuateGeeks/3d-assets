@@ -33,4 +33,19 @@ class CliTests(unittest.TestCase):
         self.assertIn('capabilities',data)
         self.assertTrue(data['capabilities'])
 
+    def test_project_and_run_show_reject_internal_symlinks(self):
+        outside=self.workspace/'outside'; outside.mkdir()
+        (self.workspace/'projects').symlink_to(outside,target_is_directory=True)
+        result,data=self.invoke('project','init','escape')
+        self.assertNotEqual(result.returncode,0)
+        self.assertEqual(list(outside.iterdir()),[])
+        sys.path.insert(0,str(ROOT))
+        from studio import core
+        run=core.create_run(self.workspace,'test',{})
+        (run/'events').rmdir(); (run/'events').symlink_to(outside,target_is_directory=True)
+        (outside/'secret.json').write_text('{"secret":"outside"}')
+        result,data=self.invoke('run','show',run.name)
+        self.assertNotEqual(result.returncode,0)
+        self.assertNotIn('outside',json.dumps(data.get('events',[])))
+
 if __name__=='__main__': unittest.main()

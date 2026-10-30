@@ -133,7 +133,7 @@ def _validate(workspace,provider,operation,body,context):
         if key=='target_formats' and any(not isinstance(x,str) for x in value):raise ValueError('format names must be strings')
         if key in booleans and not isinstance(value,bool):raise ValueError('boolean required: '+key)
         if key in integers and (not isinstance(value,int) or isinstance(value,bool)):raise ValueError('integer required: '+key)
-    for key,choices in {'pose_mode':('a-pose','t-pose'),'origin_at':('bottom','center'),'geometryQuality':('standard','detailed'),'textureQuality':('none','standard','detailed')}.items():
+    for key,choices in {'pose_mode':('a-pose','t-pose'),'origin_at':('bottom','center'),'geometryQuality':('standard','detailed')}.items():
         if key in body and body[key] not in choices:raise ValueError('invalid '+key)
     if 'decimation_mode' in body:_number(body['decimation_mode'],'decimation_mode',1,4)
     if 'height_meters' in body:_number(body['height_meters'],'height_meters',0.001,1000)
@@ -188,9 +188,11 @@ def _validate(workspace,provider,operation,body,context):
             if body.get('provider','tripo')!='tripo':raise ValueError('no implicit provider/transport switch')
             body['provider']='tripo'
         if operation=='text-to-3d':
+            if 'textureQuality' in body and body['textureQuality'] not in ('standard','detailed'):raise ValueError('Tripo text textureQuality must be standard or detailed; use texture false for bare geometry')
             if body.get('modelVersion') not in ('v3.1-20260211','v3.0-20250812','v2.5-20250123'):raise ValueError('explicit Tripo version required')
             if body.get('generateParts') and (body['modelVersion']=='v2.5-20250123' or body.get('texture') is not False):raise ValueError('parts require v3 and explicitly disabled textures')
         if operation=='image-to-3d':
+            if 'textureQuality' in body and body['textureQuality'] not in ('none','standard','detailed'):raise ValueError('invalid Tripo image textureQuality')
             if body.get('model') not in ('tripo-v31','tripo-p1','tripo-p2'):raise ValueError('explicit Tripo model required')
             _one(body,['creationIdentifier','views'])
             if 'views' in body:
