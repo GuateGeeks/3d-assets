@@ -230,3 +230,25 @@ class BlenderLineageTests(unittest.TestCase):
             run=next((root/'runs').iterdir())
             self.assertEqual(local.read_json(run/'blender-inputs.json')['inputs']['input']['sha256'],expected)
             self.assertFalse((run/'blender-outputs.json').exists())
+
+@unittest.skipUnless(__import__('os').environ.get('STUDIO_BPY_PYTHON'),'Real CPU bpy runtime required')
+class GlbTargetRegressionTests(unittest.TestCase):
+    def test_glb_target_isolated_from_temporary_motion_metadata_scene(self):
+        import os,subprocess,json
+        python=os.environ['STUDIO_BPY_PYTHON']; env=os.environ.copy()
+        env.update(CUDA_VISIBLE_DEVICES='',OMP_NUM_THREADS='2',PYTHONDONTWRITEBYTECODE='1')
+        worker=Path(local.__file__).with_name('blender_worker.py'); fixture=Path(__file__).with_name('local_fixture.py')
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d)
+            def execute(command):
+                p=subprocess.run(command,env=env,capture_output=True,text=True,timeout=120)
+                self.assertEqual(p.returncode,0,p.stdout+p.stderr)
+            execute([python,str(fixture),str(root/'fixture')])
+            execute([python,str(worker),'export','--input',str(root/'fixture/target.blend'),'--output-dir',str(root/'exported')])
+            execute([python,str(worker),'retarget','--input',str(root/'exported/asset.glb'),'--motion',str(root/'fixture/motion.blend'),'--mapping',str(root/'fixture/mapping.json'),'--output-dir',str(root/'retarget')])
+            report=json.loads((root/'retarget/inspection.json').read_text())
+            self.assertEqual(report['inspection']['armatures'],1)
+            self.assertEqual(report['reimported']['armatures'],1)
+            self.assertEqual(report['reimported']['meshes'],1)
+            self.assertAlmostEqual(report['reimported']['clips'][0]['durationSeconds'],1)
+            self.assertEqual(report['motion']['sourceMetadata'],{'fps':24,'unitScale':1})

@@ -88,6 +88,9 @@ def retarget(target_path,motion_path,mapping_path):
     # read-only; opening the target then replaces this temporary source scene.
     import_asset(motion_path)
     source_metadata=scene_metadata()
+    # .blend opens replace the scene, whereas GLB/FBX imports add to it.
+    # Keep only captured metadata before loading either target format.
+    bpy.ops.wm.read_factory_settings(use_empty=True)
     import_asset(target_path)
     target_metadata=scene_metadata()
     if abs(source_metadata['fps']-target_metadata['fps'])>1e-6:
