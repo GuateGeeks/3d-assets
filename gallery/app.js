@@ -1,4 +1,4 @@
-import {chooseInitialModel,chooseDisplayVariant} from './selection.mjs';
+import {chooseInitialModel,chooseDisplayVariant} from './selection.mjs?v=29581a15d302';
 import {ModelViewerElement} from './vendor/model-viewer.min.js';
 ModelViewerElement.dracoDecoderLocation = new URL('./vendor/draco/', import.meta.url).href;
 const $ = (id) => document.getElementById(id);

@@ -24,3 +24,11 @@ test('compatible display is bound to the unchanged original and passing QA',asyn
  for(const change of [{sourceSha256:'other'},{sourceFile:'other.glb'},{file:'https://outside.test/model.glb'},{file:'gallery/compat/models/../model.glb'},{qa:{technical:'PASS',visual:'NOT_RUN'}}])assert.equal(chooseDisplayVariant(model,[{...good,...change}]),null);
  assert.equal(chooseDisplayVariant(model,[]),null);
 });
+
+test('gallery import changes URL when the selection module changes',()=>{
+ const fs=require('node:fs');const {createHash}=require('node:crypto');
+ const helper=fs.readFileSync(path.join(__dirname,'../gallery/selection.mjs'));
+ const version=createHash('sha256').update(helper).digest('hex').slice(0,12);
+ const app=fs.readFileSync(path.join(__dirname,'../gallery/app.js'),'utf8');
+ assert.ok(app.includes("from './selection.mjs?v="+version+"'"),'Use a content-versioned import to avoid stale module exports after deployment');
+});
