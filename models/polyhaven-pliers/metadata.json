@@ -1,0 +1,158 @@
+{
+  "id": "polyhaven-pliers",
+  "assetId": "polyhaven:pliers",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Alicates con cortador de alambre",
+  "titleOriginal": "Pliers",
+  "author": "PierreB3D",
+  "authorUrl": "https://polyhaven.com/a/pliers",
+  "sourceUrl": "https://polyhaven.com/a/pliers",
+  "metadataUrl": "https://api.polyhaven.com/info/pliers",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pliers/pliers_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Hand Tools/Pliers & Grippers",
+  "tags": [
+    "rusted",
+    "plastic",
+    "metal",
+    "combination pliers",
+    "wire cutters",
+    "hand tool",
+    "Pliers",
+    "workshop-pliers"
+  ],
+  "areas": [
+    "robotica-electronica",
+    "oficios-productividad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pliers\", por PierreB3D / Poly Haven. https://polyhaven.com/a/pliers. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-pliers/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/pliers/metadata.json",
+  "originalDownload": "models/polyhaven-pliers/originals.zip",
+  "bytes": 2014204,
+  "sha256": "6a78918f164d96d9c5c6185419cc284bcdf6ac8581137aa3f5f72c9deffb1287",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 3,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:34:27.561875+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "pliers_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-pliers/original/pliers_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pliers/pliers_1k.gltf",
+        "bytes": 5560,
+        "md5": "1c83e0be2aeebf33e2a750a16c33b2ed",
+        "sha256": "7d347749569fc43cb256db9b077ba4eae16586c927b3ac8c3af119561a00bc34"
+      },
+      {
+        "file": "models/polyhaven-pliers/original/textures/pliers_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pliers/pliers_nor_gl_1k.jpg",
+        "bytes": 420328,
+        "md5": "71640ca861416cf5a94337b6b1bc8070",
+        "sha256": "603a2b5b3b8731ea650378b966d858752d2ecf4b07f0a3446e81fe40b77fa644"
+      },
+      {
+        "file": "models/polyhaven-pliers/original/textures/pliers_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pliers/pliers_diff_1k.jpg",
+        "bytes": 669794,
+        "md5": "554ebf0ee29a92b8e17e0ab1b1013424",
+        "sha256": "57d3be6ebd943ef734b9073180f8bce5f30cb34e49e3bdcdd5a2eec231acc3a4"
+      },
+      {
+        "file": "models/polyhaven-pliers/original/textures/pliers_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pliers/pliers_arm_1k.jpg",
+        "bytes": 774330,
+        "md5": "1241ca682bb58e3e1395f0818f4331f6",
+        "sha256": "9b2727ee86ad98c170b6637618d45a347edc34001dbff493403c39b74b6212b6"
+      },
+      {
+        "file": "models/polyhaven-pliers/original/pliers.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pliers/pliers.bin",
+        "bytes": 146348,
+        "md5": "4e7ed7bcaa7b0444ab15ce25742adeb3",
+        "sha256": "df719ce479fb60a35d2424ef678b2c3a47f15d7c5968928da737614df7395ce8"
+      }
+    ],
+    "originalDownloadSha256": "cf5894f9c4b5cbc27dfd746d3ea15c345792a722e9c95cfa5b78192c69698d7b",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pliers/metadata.json",
+    "metadataEvidenceSha256": "8b4964e88c7e0182581afdabc0075045531898294a4c6193593c2ca119ab50cf",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pliers/files.json",
+    "fileManifestEvidenceSha256": "b8541a653a7c3a6c9b909e926b6acd2105e0472919d8c75f98f2623b7db59932",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pliers/technical-review.json",
+    "technicalReviewEvidenceSha256": "06b35e46701c8bb6b5f09aa889eb625e0316d39628afa9a8d78cce64bdf8fedf",
+    "providerReportedPolycount": 4540,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.05528969317674637,
+      0.017985451966524124,
+      0.17978322505950928
+    ],
+    "reimportDimensionsBlender": [
+      0.05528969317674637,
+      0.017985451966524124,
+      0.17978322505950928
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "b083c6786b1358298ed4c446c94774269f1eb1487b52b9a212e1e9f05b5c7ae7",
+      "triangles": 4540
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

@@ -1,0 +1,1034 @@
+{
+  "Diffuse": {
+    "8k": {
+      "jpg": {
+        "size": 20850005,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_8k.jpg",
+        "md5": "5f4ef3da3779058ff19d0fed5aeaeaa9"
+      },
+      "png": {
+        "size": 121871192,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_8k.png",
+        "md5": "01a0f4000eb2d6638fa9ebcf4f2a941f"
+      },
+      "exr": {
+        "size": 38876284,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_8k.exr",
+        "md5": "bf8ebc9f45e1c52866a0fca75c9ed1b6"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 6343220,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_4k.jpg",
+        "md5": "96bfcf6de35a4a824ed9f90ce85a2b37"
+      },
+      "png": {
+        "size": 48653923,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_4k.png",
+        "md5": "6f2cf3d30711c80695916db837ee88a3"
+      },
+      "exr": {
+        "size": 11263492,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_4k.exr",
+        "md5": "cb58dfec13302f666e352236d58f41c4"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1936133,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_2k.jpg",
+        "md5": "13a59f2dec6f3bedf802e44be8385442"
+      },
+      "png": {
+        "size": 14751975,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_2k.png",
+        "md5": "b6ad58fb9ef25cf3623e95bbc84a1e95"
+      },
+      "exr": {
+        "size": 3474159,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_2k.exr",
+        "md5": "721b0ce00d74a3991ac0377622b0fae3"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 579649,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_1k.jpg",
+        "md5": "b8d0792ea77af6db8023f09377e81d5e"
+      },
+      "png": {
+        "size": 4315422,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_1k.png",
+        "md5": "e8679193011903bd4102765b0a63947c"
+      },
+      "exr": {
+        "size": 1070125,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_1k.exr",
+        "md5": "ce734001211facbe1405a6eb48b9cfba"
+      }
+    }
+  },
+  "nor_dx": {
+    "8k": {
+      "jpg": {
+        "size": 11475589,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_8k.jpg",
+        "md5": "4f0f0e8db63976c6657c9c1a19991b7d"
+      },
+      "png": {
+        "size": 103627085,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_8k.png",
+        "md5": "255d728a91a8b1fbed7ba4cc82c38c87"
+      },
+      "exr": {
+        "size": 20306795,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_8k.exr",
+        "md5": "618db8d022fec9ac4ee18958eb3b787a"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 3842599,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_4k.jpg",
+        "md5": "8a6658e39199c7d8965c4c123649c351"
+      },
+      "png": {
+        "size": 32172981,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_4k.png",
+        "md5": "901fed1da6e50171c7b864fddab1df24"
+      },
+      "exr": {
+        "size": 7136663,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_4k.exr",
+        "md5": "9a8fa4d450ffaac60c4d47004a860286"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1242422,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_2k.jpg",
+        "md5": "b91f7dc3e10a34bacc0ee544bfee322d"
+      },
+      "png": {
+        "size": 10051834,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_2k.png",
+        "md5": "63382ddc6bc66c45f066cfb90121334b"
+      },
+      "exr": {
+        "size": 2416089,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_2k.exr",
+        "md5": "231addf8a139ac954cecfcca1bb8c800"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 390151,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_1k.jpg",
+        "md5": "2574c5cee8636442e059680fcd750846"
+      },
+      "png": {
+        "size": 3104918,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_1k.png",
+        "md5": "f133567fb604bca9768fc071ad4e4bb8"
+      },
+      "exr": {
+        "size": 779455,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_dx_1k.exr",
+        "md5": "ccd6e4abb6a9a45caae99a336ac41006"
+      }
+    }
+  },
+  "nor_gl": {
+    "8k": {
+      "jpg": {
+        "size": 11271296,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_8k.jpg",
+        "md5": "c7fd06e3486110c8deef1c8f68c8e823"
+      },
+      "png": {
+        "size": 103632028,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_8k.png",
+        "md5": "02503e3fc8eeb45b804a46716eab715a"
+      },
+      "exr": {
+        "size": 20396161,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_8k.exr",
+        "md5": "32165a0ede952916fa8a64df677edcae"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 3799990,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_4k.jpg",
+        "md5": "429e577444fc1c90fc3ffa542142f113"
+      },
+      "png": {
+        "size": 32169930,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_4k.png",
+        "md5": "e2deab04f7413ef0014e28cd0435476d"
+      },
+      "exr": {
+        "size": 7150372,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_4k.exr",
+        "md5": "92f303d05f56fb6caf37ddd1366e7485"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1240434,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_2k.jpg",
+        "md5": "eae2ea37e6842204d2eb5d56b2c983b6"
+      },
+      "png": {
+        "size": 10050561,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_2k.png",
+        "md5": "758d68b58bebb8c0e6e03ab7dd27c39b"
+      },
+      "exr": {
+        "size": 2419088,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_2k.exr",
+        "md5": "8621ae33eb78f4b16543451a9fefcbd5"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 389959,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_1k.jpg",
+        "md5": "8c359f828d3192568af375254e7532bc"
+      },
+      "png": {
+        "size": 3103761,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_1k.png",
+        "md5": "b0bf8893a3bfd91759f036d15f27ff73"
+      },
+      "exr": {
+        "size": 781316,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_1k.exr",
+        "md5": "7c764535cbb40c232372c459603e015b"
+      }
+    }
+  },
+  "blend": {
+    "8k": {
+      "blend": {
+        "include": {
+          "textures/modular_pipes_plastic_01_metal_8k.exr": {
+            "size": 246330,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_8k.exr",
+            "md5": "db101b9bb1fe1c8b858fbba824d86843"
+          },
+          "textures/modular_pipes_plastic_01_diff_8k.jpg": {
+            "size": 20850005,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_8k.jpg",
+            "md5": "5f4ef3da3779058ff19d0fed5aeaeaa9"
+          },
+          "textures/modular_pipes_plastic_01_rough_8k.exr": {
+            "size": 26891830,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_8k.exr",
+            "md5": "d130ff7a5024c32d14c5fa00f96828fe"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_8k.exr": {
+            "size": 20396161,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_8k.exr",
+            "md5": "32165a0ede952916fa8a64df677edcae"
+          }
+        },
+        "size": 1081439,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_8k.blend",
+        "md5": "2f5092332b19c1107bedfbaf2d116822"
+      }
+    },
+    "4k": {
+      "blend": {
+        "include": {
+          "textures/modular_pipes_plastic_01_diff_4k.jpg": {
+            "size": 6343220,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_4k.jpg",
+            "md5": "96bfcf6de35a4a824ed9f90ce85a2b37"
+          },
+          "textures/modular_pipes_plastic_01_metal_4k.exr": {
+            "size": 93487,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_4k.exr",
+            "md5": "79bf2d6af1aded1c2bf05b7d54b0f0c2"
+          },
+          "textures/modular_pipes_plastic_01_rough_4k.exr": {
+            "size": 10103972,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_4k.exr",
+            "md5": "58666ae07717112fea2cf14b727154e2"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_4k.exr": {
+            "size": 7150372,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_4k.exr",
+            "md5": "92f303d05f56fb6caf37ddd1366e7485"
+          }
+        },
+        "size": 1081522,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_4k.blend",
+        "md5": "e4adc8c70d8176cb809a5ce5b0a9de60"
+      }
+    },
+    "2k": {
+      "blend": {
+        "include": {
+          "textures/modular_pipes_plastic_01_metal_2k.exr": {
+            "size": 48297,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_2k.exr",
+            "md5": "009de0e86a50394f576ac47c0800c76a"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_2k.exr": {
+            "size": 2419088,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_2k.exr",
+            "md5": "8621ae33eb78f4b16543451a9fefcbd5"
+          },
+          "textures/modular_pipes_plastic_01_rough_2k.exr": {
+            "size": 3241764,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_2k.exr",
+            "md5": "782d3b951cbd005058c7f0f30a2e1c4f"
+          },
+          "textures/modular_pipes_plastic_01_diff_2k.jpg": {
+            "size": 1936133,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_2k.jpg",
+            "md5": "13a59f2dec6f3bedf802e44be8385442"
+          }
+        },
+        "size": 1081609,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_2k.blend",
+        "md5": "6154a781dddaa046af5ca56103aba66d"
+      }
+    },
+    "1k": {
+      "blend": {
+        "include": {
+          "textures/modular_pipes_plastic_01_rough_1k.exr": {
+            "size": 975867,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_1k.exr",
+            "md5": "d18dc340fa4e184972a0e20eb1e68302"
+          },
+          "textures/modular_pipes_plastic_01_diff_1k.jpg": {
+            "size": 579649,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_1k.jpg",
+            "md5": "b8d0792ea77af6db8023f09377e81d5e"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_1k.exr": {
+            "size": 781316,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_1k.exr",
+            "md5": "7c764535cbb40c232372c459603e015b"
+          },
+          "textures/modular_pipes_plastic_01_metal_1k.exr": {
+            "size": 28758,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_1k.exr",
+            "md5": "b2e0b5e0496b744180b1095ce6c8fd20"
+          }
+        },
+        "size": 1081561,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_1k.blend",
+        "md5": "043c7796b54f5009cf5db9c30e4e5fbe"
+      }
+    }
+  },
+  "gltf": {
+    "8k": {
+      "gltf": {
+        "include": {
+          "textures/modular_pipes_plastic_01_nor_gl_8k.jpg": {
+            "size": 11271296,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_8k.jpg",
+            "md5": "c7fd06e3486110c8deef1c8f68c8e823"
+          },
+          "textures/modular_pipes_plastic_01_diff_8k.jpg": {
+            "size": 20850005,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_8k.jpg",
+            "md5": "5f4ef3da3779058ff19d0fed5aeaeaa9"
+          },
+          "textures/modular_pipes_plastic_01_arm_8k.jpg": {
+            "size": 21455151,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_8k.jpg",
+            "md5": "4649cafc01d3671bcbe4bfca74d41b48"
+          },
+          "modular_pipes_plastic_01.bin": {
+            "size": 1506248,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_pipes_plastic_01/modular_pipes_plastic_01.bin",
+            "md5": "e2b25c31fa282f466a451310588fdc5f"
+          }
+        },
+        "size": 24759,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_8k.gltf",
+        "md5": "9caacf8b045970745ecf9a52301e1137"
+      }
+    },
+    "4k": {
+      "gltf": {
+        "include": {
+          "textures/modular_pipes_plastic_01_arm_4k.jpg": {
+            "size": 6412500,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_4k.jpg",
+            "md5": "f40feaefadeacd987d09fb868af693c8"
+          },
+          "textures/modular_pipes_plastic_01_diff_4k.jpg": {
+            "size": 6343220,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_4k.jpg",
+            "md5": "96bfcf6de35a4a824ed9f90ce85a2b37"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_4k.jpg": {
+            "size": 3799990,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_4k.jpg",
+            "md5": "429e577444fc1c90fc3ffa542142f113"
+          },
+          "modular_pipes_plastic_01.bin": {
+            "size": 1506248,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_pipes_plastic_01/modular_pipes_plastic_01.bin",
+            "md5": "e2b25c31fa282f466a451310588fdc5f"
+          }
+        },
+        "size": 24759,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_4k.gltf",
+        "md5": "d676ac5ef63b0413cf99552991699da3"
+      }
+    },
+    "2k": {
+      "gltf": {
+        "include": {
+          "textures/modular_pipes_plastic_01_arm_2k.jpg": {
+            "size": 2005942,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_2k.jpg",
+            "md5": "811c1cf7e6f70bc68e394b39e15cf549"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_2k.jpg": {
+            "size": 1240434,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_2k.jpg",
+            "md5": "eae2ea37e6842204d2eb5d56b2c983b6"
+          },
+          "modular_pipes_plastic_01.bin": {
+            "size": 1506248,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_pipes_plastic_01/modular_pipes_plastic_01.bin",
+            "md5": "e2b25c31fa282f466a451310588fdc5f"
+          },
+          "textures/modular_pipes_plastic_01_diff_2k.jpg": {
+            "size": 1936133,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_2k.jpg",
+            "md5": "13a59f2dec6f3bedf802e44be8385442"
+          }
+        },
+        "size": 24759,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_2k.gltf",
+        "md5": "035e51de334a53b35b864171a2ff6d4d"
+      }
+    },
+    "1k": {
+      "gltf": {
+        "include": {
+          "textures/modular_pipes_plastic_01_diff_1k.jpg": {
+            "size": 579649,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_1k.jpg",
+            "md5": "b8d0792ea77af6db8023f09377e81d5e"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_1k.jpg": {
+            "size": 389959,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_1k.jpg",
+            "md5": "8c359f828d3192568af375254e7532bc"
+          },
+          "modular_pipes_plastic_01.bin": {
+            "size": 1506248,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_pipes_plastic_01/modular_pipes_plastic_01.bin",
+            "md5": "e2b25c31fa282f466a451310588fdc5f"
+          },
+          "textures/modular_pipes_plastic_01_arm_1k.jpg": {
+            "size": 619390,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_1k.jpg",
+            "md5": "9e10b42ec4373baa43ceb85ddbd29686"
+          }
+        },
+        "size": 24759,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_1k.gltf",
+        "md5": "419e42f829f3a4e80ebfa724c2a3a0ca"
+      }
+    }
+  },
+  "usd": {
+    "8k": {
+      "usd": {
+        "include": {
+          "textures/modular_pipes_plastic_01_metal_8k.exr": {
+            "size": 246330,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_8k.exr",
+            "md5": "db101b9bb1fe1c8b858fbba824d86843"
+          },
+          "textures/modular_pipes_plastic_01_diff_8k.jpg": {
+            "size": 20850005,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_8k.jpg",
+            "md5": "5f4ef3da3779058ff19d0fed5aeaeaa9"
+          },
+          "textures/modular_pipes_plastic_01_rough_8k.exr": {
+            "size": 26891830,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_8k.exr",
+            "md5": "d130ff7a5024c32d14c5fa00f96828fe"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_8k.exr": {
+            "size": 20396161,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_8k.exr",
+            "md5": "32165a0ede952916fa8a64df677edcae"
+          }
+        },
+        "size": 2492412,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_8k.usdc",
+        "md5": "9f496ffce354e239718c086557177d1b"
+      }
+    },
+    "4k": {
+      "usd": {
+        "include": {
+          "textures/modular_pipes_plastic_01_diff_4k.jpg": {
+            "size": 6343220,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_4k.jpg",
+            "md5": "96bfcf6de35a4a824ed9f90ce85a2b37"
+          },
+          "textures/modular_pipes_plastic_01_metal_4k.exr": {
+            "size": 93487,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_4k.exr",
+            "md5": "79bf2d6af1aded1c2bf05b7d54b0f0c2"
+          },
+          "textures/modular_pipes_plastic_01_rough_4k.exr": {
+            "size": 10103972,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_4k.exr",
+            "md5": "58666ae07717112fea2cf14b727154e2"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_4k.exr": {
+            "size": 7150372,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_4k.exr",
+            "md5": "92f303d05f56fb6caf37ddd1366e7485"
+          }
+        },
+        "size": 2492413,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_4k.usdc",
+        "md5": "9b36f115afaaa843913994f74e31e2a1"
+      }
+    },
+    "2k": {
+      "usd": {
+        "include": {
+          "textures/modular_pipes_plastic_01_metal_2k.exr": {
+            "size": 48297,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_2k.exr",
+            "md5": "009de0e86a50394f576ac47c0800c76a"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_2k.exr": {
+            "size": 2419088,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_2k.exr",
+            "md5": "8621ae33eb78f4b16543451a9fefcbd5"
+          },
+          "textures/modular_pipes_plastic_01_rough_2k.exr": {
+            "size": 3241764,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_2k.exr",
+            "md5": "782d3b951cbd005058c7f0f30a2e1c4f"
+          },
+          "textures/modular_pipes_plastic_01_diff_2k.jpg": {
+            "size": 1936133,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_2k.jpg",
+            "md5": "13a59f2dec6f3bedf802e44be8385442"
+          }
+        },
+        "size": 2492413,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_2k.usdc",
+        "md5": "dc59bc323678bce0a9abc028d6e5fe87"
+      }
+    },
+    "1k": {
+      "usd": {
+        "include": {
+          "textures/modular_pipes_plastic_01_rough_1k.exr": {
+            "size": 975867,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_1k.exr",
+            "md5": "d18dc340fa4e184972a0e20eb1e68302"
+          },
+          "textures/modular_pipes_plastic_01_diff_1k.jpg": {
+            "size": 579649,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_1k.jpg",
+            "md5": "b8d0792ea77af6db8023f09377e81d5e"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_1k.exr": {
+            "size": 781316,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_1k.exr",
+            "md5": "7c764535cbb40c232372c459603e015b"
+          },
+          "textures/modular_pipes_plastic_01_metal_1k.exr": {
+            "size": 28758,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_1k.exr",
+            "md5": "b2e0b5e0496b744180b1095ce6c8fd20"
+          }
+        },
+        "size": 2492409,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_1k.usdc",
+        "md5": "eb77e0457bf5e996c5a083755e177b27"
+      }
+    }
+  },
+  "Metal": {
+    "8k": {
+      "jpg": {
+        "size": 1160707,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_8k.jpg",
+        "md5": "547ba2dfd75347fb59a39fc521c31227"
+      },
+      "png": {
+        "size": 190824,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_8k.png",
+        "md5": "54382729dab218033c7051389997fd4b"
+      },
+      "exr": {
+        "size": 246330,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_8k.exr",
+        "md5": "db101b9bb1fe1c8b858fbba824d86843"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 380346,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_4k.jpg",
+        "md5": "88983398af7b13a2a282e63ccb7775bd"
+      },
+      "png": {
+        "size": 77630,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_4k.png",
+        "md5": "bd88980beaa1825990dbf9844a1cc998"
+      },
+      "exr": {
+        "size": 93487,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_4k.exr",
+        "md5": "79bf2d6af1aded1c2bf05b7d54b0f0c2"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 141421,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_2k.jpg",
+        "md5": "ee97596e8afc175e51140e8f27b843b2"
+      },
+      "png": {
+        "size": 36914,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_2k.png",
+        "md5": "c1493a23cad1695485d3fb2be770df6e"
+      },
+      "exr": {
+        "size": 48297,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_2k.exr",
+        "md5": "009de0e86a50394f576ac47c0800c76a"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 60458,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_1k.jpg",
+        "md5": "2fe139918669d5d2d5691fbf1f3d0c19"
+      },
+      "png": {
+        "size": 19217,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_1k.png",
+        "md5": "72a6b4c64f40d33a0beb8c4563773487"
+      },
+      "exr": {
+        "size": 28758,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_1k.exr",
+        "md5": "b2e0b5e0496b744180b1095ce6c8fd20"
+      }
+    }
+  },
+  "arm": {
+    "8k": {
+      "jpg": {
+        "size": 21455151,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_8k.jpg",
+        "md5": "4649cafc01d3671bcbe4bfca74d41b48"
+      },
+      "png": {
+        "size": 39719650,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_8k.png",
+        "md5": "416ef289c2a0e6f22646d70fecea5355"
+      },
+      "exr": {
+        "size": 47132118,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_8k.exr",
+        "md5": "a5417f0a03e41b0f36a16b237248c53f"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 6412500,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_4k.jpg",
+        "md5": "f40feaefadeacd987d09fb868af693c8"
+      },
+      "png": {
+        "size": 10196883,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_4k.png",
+        "md5": "4b63e93941b597e964c38394d951381e"
+      },
+      "exr": {
+        "size": 13551298,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_4k.exr",
+        "md5": "d81425c5278b7e69a0b572f592acef4f"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2005942,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_2k.jpg",
+        "md5": "811c1cf7e6f70bc68e394b39e15cf549"
+      },
+      "png": {
+        "size": 2933630,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_2k.png",
+        "md5": "493d5371194880ec3d9d9860ffc7bb3c"
+      },
+      "exr": {
+        "size": 4402067,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_2k.exr",
+        "md5": "958a6b544cb29ceb1dabb9968458ec1e"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 619390,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_1k.jpg",
+        "md5": "9e10b42ec4373baa43ceb85ddbd29686"
+      },
+      "png": {
+        "size": 895209,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_1k.png",
+        "md5": "c17b0b1847eeec3ed5ea92303bf9a6cf"
+      },
+      "exr": {
+        "size": 1397686,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_arm_1k.exr",
+        "md5": "d1a7bd7b72701212734ee3d4908c19ad"
+      }
+    }
+  },
+  "fbx": {
+    "8k": {
+      "fbx": {
+        "include": {
+          "textures/modular_pipes_plastic_01_metal_8k.exr": {
+            "size": 246330,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_8k.exr",
+            "md5": "db101b9bb1fe1c8b858fbba824d86843"
+          },
+          "textures/modular_pipes_plastic_01_diff_8k.jpg": {
+            "size": 20850005,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_8k.jpg",
+            "md5": "5f4ef3da3779058ff19d0fed5aeaeaa9"
+          },
+          "textures/modular_pipes_plastic_01_rough_8k.exr": {
+            "size": 26891830,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_8k.exr",
+            "md5": "d130ff7a5024c32d14c5fa00f96828fe"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_8k.exr": {
+            "size": 20396161,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_8k.exr",
+            "md5": "32165a0ede952916fa8a64df677edcae"
+          }
+        },
+        "size": 1473804,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_8k.fbx",
+        "md5": "dd0c7a9ba796aeb6ef0f791ccddbcec7"
+      }
+    },
+    "4k": {
+      "fbx": {
+        "include": {
+          "textures/modular_pipes_plastic_01_diff_4k.jpg": {
+            "size": 6343220,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_4k.jpg",
+            "md5": "96bfcf6de35a4a824ed9f90ce85a2b37"
+          },
+          "textures/modular_pipes_plastic_01_metal_4k.exr": {
+            "size": 93487,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_4k.exr",
+            "md5": "79bf2d6af1aded1c2bf05b7d54b0f0c2"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_4k.exr": {
+            "size": 7150372,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_4k.exr",
+            "md5": "92f303d05f56fb6caf37ddd1366e7485"
+          },
+          "textures/modular_pipes_plastic_01_rough_4k.exr": {
+            "size": 10103972,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_4k.exr",
+            "md5": "58666ae07717112fea2cf14b727154e2"
+          }
+        },
+        "size": 1473804,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_4k.fbx",
+        "md5": "3b94577a6960b727601aad886c063d48"
+      }
+    },
+    "2k": {
+      "fbx": {
+        "include": {
+          "textures/modular_pipes_plastic_01_metal_2k.exr": {
+            "size": 48297,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_2k.exr",
+            "md5": "009de0e86a50394f576ac47c0800c76a"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_2k.exr": {
+            "size": 2419088,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_2k.exr",
+            "md5": "8621ae33eb78f4b16543451a9fefcbd5"
+          },
+          "textures/modular_pipes_plastic_01_rough_2k.exr": {
+            "size": 3241764,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_2k.exr",
+            "md5": "782d3b951cbd005058c7f0f30a2e1c4f"
+          },
+          "textures/modular_pipes_plastic_01_diff_2k.jpg": {
+            "size": 1936133,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_2k.jpg",
+            "md5": "13a59f2dec6f3bedf802e44be8385442"
+          }
+        },
+        "size": 1473804,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_2k.fbx",
+        "md5": "a8ae32639ef9be42610a1bfc55c6417f"
+      }
+    },
+    "1k": {
+      "fbx": {
+        "include": {
+          "textures/modular_pipes_plastic_01_rough_1k.exr": {
+            "size": 975867,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_1k.exr",
+            "md5": "d18dc340fa4e184972a0e20eb1e68302"
+          },
+          "textures/modular_pipes_plastic_01_diff_1k.jpg": {
+            "size": 579649,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_diff_1k.jpg",
+            "md5": "b8d0792ea77af6db8023f09377e81d5e"
+          },
+          "textures/modular_pipes_plastic_01_nor_gl_1k.exr": {
+            "size": 781316,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_nor_gl_1k.exr",
+            "md5": "7c764535cbb40c232372c459603e015b"
+          },
+          "textures/modular_pipes_plastic_01_metal_1k.exr": {
+            "size": 28758,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_metal_1k.exr",
+            "md5": "b2e0b5e0496b744180b1095ce6c8fd20"
+          }
+        },
+        "size": 1473804,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_1k.fbx",
+        "md5": "98786efc8f0cf8d4dd7dedafe858aefc"
+      }
+    }
+  },
+  "Rough": {
+    "8k": {
+      "jpg": {
+        "size": 17112820,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_8k.jpg",
+        "md5": "765c6d6f70a6a78c75996a75a6139949"
+      },
+      "png": {
+        "size": 21241997,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_8k.png",
+        "md5": "a50a709ee8b850b620dc086eba73df96"
+      },
+      "exr": {
+        "size": 26891830,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_8k.exr",
+        "md5": "d130ff7a5024c32d14c5fa00f96828fe"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 4835527,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_4k.jpg",
+        "md5": "4cc055322d915fc6f5226c643919ecde"
+      },
+      "png": {
+        "size": 12886065,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_4k.png",
+        "md5": "318cd57529573f0600ca8b502c2dfb02"
+      },
+      "exr": {
+        "size": 10103972,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_4k.exr",
+        "md5": "58666ae07717112fea2cf14b727154e2"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1476830,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_2k.jpg",
+        "md5": "5b9eb47b5fb621648a38366819e0a014"
+      },
+      "png": {
+        "size": 4457012,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_2k.png",
+        "md5": "1c266911b41df14a62877249ac75f3e8"
+      },
+      "exr": {
+        "size": 3241764,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_2k.exr",
+        "md5": "782d3b951cbd005058c7f0f30a2e1c4f"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 450043,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_1k.jpg",
+        "md5": "10538db809d7e8be0357701fac3ef713"
+      },
+      "png": {
+        "size": 1343050,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_1k.png",
+        "md5": "7aa18a0de73acec29c11b9f389faec6d"
+      },
+      "exr": {
+        "size": 975867,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_rough_1k.exr",
+        "md5": "d18dc340fa4e184972a0e20eb1e68302"
+      }
+    }
+  },
+  "AO": {
+    "8k": {
+      "jpg": {
+        "size": 14775628,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_8k.jpg",
+        "md5": "5aea77d16972dfc37fbcd304fde4adb5"
+      },
+      "png": {
+        "size": 19378343,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_8k.png",
+        "md5": "9eebd3c0c67bae1f8be5ceed27d233b4"
+      },
+      "exr": {
+        "size": 24865852,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_8k.exr",
+        "md5": "ae64813a45c362ddaccd5560aa5723c1"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 3628171,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_4k.jpg",
+        "md5": "961b25f32b27630d0cd8daa605127d17"
+      },
+      "png": {
+        "size": 10969714,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_4k.png",
+        "md5": "ff66670f06a6de38bc8dd7cc4e39e8ac"
+      },
+      "exr": {
+        "size": 9038778,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_4k.exr",
+        "md5": "59b5ddbb08b28fb6e0174519d9c0ec43"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1101069,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_2k.jpg",
+        "md5": "5a9f8c9f98f2e32b8d45d5657644f21c"
+      },
+      "png": {
+        "size": 3951181,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_2k.png",
+        "md5": "0f1d5d48aca3a8ca968c5028c3af3431"
+      },
+      "exr": {
+        "size": 2943038,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_2k.exr",
+        "md5": "fdb1cf4df111d0386170cdc29d41f0fd"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 369414,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_1k.jpg",
+        "md5": "ad15ec350249a05437619e4b42984f69"
+      },
+      "png": {
+        "size": 1270808,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_1k.png",
+        "md5": "60f5bea448944ab82f8fdd396a7ae83b"
+      },
+      "exr": {
+        "size": 888188,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_ao_1k.exr",
+        "md5": "d0daf446ca08de557dcda81468274e47"
+      }
+    }
+  },
+  "Displacement": {
+    "8k": {
+      "jpg": {
+        "size": 1133301,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_8k.jpg",
+        "md5": "e9fb54f21d80d058e36ac4cfd4e40bb6"
+      },
+      "png": {
+        "size": 6112180,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_8k.png",
+        "md5": "63c16ef9e3fc78d6dcf7274d1e094d31"
+      },
+      "exr": {
+        "size": 2271068,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_8k.exr",
+        "md5": "23b9709b4fa41edcb62b9d7046b803e7"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 325597,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_4k.jpg",
+        "md5": "38ad1a36a67cbbc684f366ce2dd4d6a4"
+      },
+      "png": {
+        "size": 2136987,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_4k.png",
+        "md5": "3c214c2fac09565004233791f2b30600"
+      },
+      "exr": {
+        "size": 831177,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_4k.exr",
+        "md5": "df035d2c05be289eccc4b3fff4f6281b"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 93849,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_2k.jpg",
+        "md5": "7cd862891a88b507fe7150d030879fa3"
+      },
+      "png": {
+        "size": 641300,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_2k.png",
+        "md5": "250981d4cf6f1c27f2d517786bf4aab6"
+      },
+      "exr": {
+        "size": 272748,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_2k.exr",
+        "md5": "b2c7e262392897e924b791d5833f22a8"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 29829,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_1k.jpg",
+        "md5": "14fb7a1b5835daceac565176d0e81877"
+      },
+      "png": {
+        "size": 198094,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_1k.png",
+        "md5": "6c3919f603a6a1b47b3dcc2787e69ac9"
+      },
+      "exr": {
+        "size": 92177,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_pipes_plastic_01/modular_pipes_plastic_01_disp_1k.exr",
+        "md5": "099ffb19d5b1a5c1b99e2467d5204bde"
+      }
+    }
+  }
+}

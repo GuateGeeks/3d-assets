@@ -1,0 +1,1044 @@
+{
+  "mask01": {
+    "8k": {
+      "jpg": {
+        "size": 1039693,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_8k.jpg",
+        "md5": "7b202dacd88ba55900edf64ca4ba4615"
+      },
+      "png": {
+        "size": 355308,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_8k.png",
+        "md5": "844ceb6f3c41a93d695c885343ada852"
+      },
+      "exr": {
+        "size": 433313,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_8k.exr",
+        "md5": "3e43a958fc942321945d1ef1612e6dd9"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 309060,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_4k.jpg",
+        "md5": "8c11ab3bfe9526c9a8063c7ed7e5815e"
+      },
+      "png": {
+        "size": 138165,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_4k.png",
+        "md5": "783c269148211b30583d22ea4cce0408"
+      },
+      "exr": {
+        "size": 164851,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_4k.exr",
+        "md5": "858c2fb6ed94d70b260f350f684bc247"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 102432,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_2k.jpg",
+        "md5": "42364068088acd585add7acb50e3076a"
+      },
+      "png": {
+        "size": 52436,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_2k.png",
+        "md5": "3e005a716f617c20380a7552a7114908"
+      },
+      "exr": {
+        "size": 66040,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_2k.exr",
+        "md5": "849f99935433e2d9fcf7c3dcc1083d5b"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 38250,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_1k.jpg",
+        "md5": "c991d35a0166af6d514a33c1cdc5e9a0"
+      },
+      "png": {
+        "size": 22433,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_1k.png",
+        "md5": "728b53f7f728589e5c1dd18400ae6eff"
+      },
+      "exr": {
+        "size": 29230,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask01_1k.exr",
+        "md5": "504af9b96f83a389d5012efec6114150"
+      }
+    }
+  },
+  "Diffuse": {
+    "8k": {
+      "jpg": {
+        "size": 14847007,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_8k.jpg",
+        "md5": "39de716e600cd4eab2b89508efa3ed5a"
+      },
+      "png": {
+        "size": 97960404,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_8k.png",
+        "md5": "f91cdcae05708e6c386178f2d7d482cd"
+      },
+      "exr": {
+        "size": 29298193,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_8k.exr",
+        "md5": "4e1ffb7323349ec85153c1c64f058a75"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 4175840,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_4k.jpg",
+        "md5": "610a84daf0b5e895d2970382da83591e"
+      },
+      "png": {
+        "size": 44702600,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_4k.png",
+        "md5": "adc6640e806a7eb03b85869180b2fd87"
+      },
+      "exr": {
+        "size": 7650348,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_4k.exr",
+        "md5": "85b5994cf1e44a0db003a1aa17d942b9"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1225345,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_2k.jpg",
+        "md5": "ed976dd3d1f9b39a95bb2360016453ec"
+      },
+      "png": {
+        "size": 14565317,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_2k.png",
+        "md5": "680436c0268e6330d7a647b85f8b491d"
+      },
+      "exr": {
+        "size": 2224513,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_2k.exr",
+        "md5": "e3e79506cd0d667e8fab5a8c2a944d23"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 366299,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_1k.jpg",
+        "md5": "13b0a9d6926c0735a71ed84964648d23"
+      },
+      "png": {
+        "size": 4138193,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_1k.png",
+        "md5": "2ca680fd942ff465bef5a7cc266cfec6"
+      },
+      "exr": {
+        "size": 669044,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_1k.exr",
+        "md5": "12e0aad9b7647fd3219faf7ef2d3af40"
+      }
+    }
+  },
+  "mask02": {
+    "8k": {
+      "jpg": {
+        "size": 914544,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_8k.jpg",
+        "md5": "9ee3129bdf17a2978f02e7fe11b4274a"
+      },
+      "png": {
+        "size": 166420,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_8k.png",
+        "md5": "d6bbd273fb8a5535b559642057683b1b"
+      },
+      "exr": {
+        "size": 197659,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_8k.exr",
+        "md5": "56690f23a72c8f841ace188df2547944"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 259170,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_4k.jpg",
+        "md5": "6b2e5502e04b9d2b99d4a7ad9003bfe2"
+      },
+      "png": {
+        "size": 55556,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_4k.png",
+        "md5": "6ee05d2981576eb413ba62bedf867b7e"
+      },
+      "exr": {
+        "size": 68567,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_4k.exr",
+        "md5": "331a7c1aa50f3356c4d7a5846871d086"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 80719,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_2k.jpg",
+        "md5": "7393dd33918fb02b21590f5311b8be2e"
+      },
+      "png": {
+        "size": 21724,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_2k.png",
+        "md5": "c4cb0a1a4950841c869898778eb25afe"
+      },
+      "exr": {
+        "size": 29079,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_2k.exr",
+        "md5": "64586416c197404d82780392327070ce"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 27778,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_1k.jpg",
+        "md5": "678e57c5ac5037c17f69c16ea8151527"
+      },
+      "png": {
+        "size": 9965,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_1k.png",
+        "md5": "7a88381a57e10d46061a1d43160547fb"
+      },
+      "exr": {
+        "size": 15254,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_mask02_1k.exr",
+        "md5": "86b318380215f451d560a0a9a11cc25b"
+      }
+    }
+  },
+  "nor_dx": {
+    "8k": {
+      "jpg": {
+        "size": 9688731,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_8k.jpg",
+        "md5": "24ddd6ffdfbf9a80aafff942acd3185a"
+      },
+      "png": {
+        "size": 147000046,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_8k.png",
+        "md5": "d282532f9ee9d8e28c48da0a12d46e4e"
+      },
+      "exr": {
+        "size": 13842838,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_8k.exr",
+        "md5": "29454f84a91982114c07b58b04ecb02e"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 3071816,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_4k.jpg",
+        "md5": "dbe08d440ccea11d9df9a05aa5c4ed13"
+      },
+      "png": {
+        "size": 44550355,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_4k.png",
+        "md5": "4f1d2212061d837a8fbd43e77a9108c4"
+      },
+      "exr": {
+        "size": 4998194,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_4k.exr",
+        "md5": "482c242e6e55560f000599b312a78b4f"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1019328,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_2k.jpg",
+        "md5": "86428f1cb15c94afce92cd03901c5273"
+      },
+      "png": {
+        "size": 13338891,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_2k.png",
+        "md5": "3eac4f186e61f4c4c40d708da64b7837"
+      },
+      "exr": {
+        "size": 1823105,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_2k.exr",
+        "md5": "ccb1724d9b69b6940679ee14f77448ff"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 312857,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_1k.jpg",
+        "md5": "4543d58f5834639f8ab086b081371454"
+      },
+      "png": {
+        "size": 3852110,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_1k.png",
+        "md5": "b900ef6a1e37e72053f0cf18a9991c5c"
+      },
+      "exr": {
+        "size": 619626,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_dx_1k.exr",
+        "md5": "dce693bd0217076315f52847bf853d47"
+      }
+    }
+  },
+  "blend": {
+    "8k": {
+      "blend": {
+        "include": {
+          "textures/multi_cleaner_5_litre_rough_8k.exr": {
+            "size": 28928453,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_8k.exr",
+            "md5": "3710dbc52dde7b62e498739b1445cbca"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_8k.exr": {
+            "size": 13883845,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_8k.exr",
+            "md5": "37bc984de69f05f10057be61a8a1c290"
+          },
+          "textures/multi_cleaner_5_litre_diff_8k.jpg": {
+            "size": 14847007,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_8k.jpg",
+            "md5": "39de716e600cd4eab2b89508efa3ed5a"
+          }
+        },
+        "size": 207966,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_8k.blend",
+        "md5": "63275caefb554f228d05c4d8417e21c1"
+      }
+    },
+    "4k": {
+      "blend": {
+        "include": {
+          "textures/multi_cleaner_5_litre_nor_gl_4k.exr": {
+            "size": 4995088,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_4k.exr",
+            "md5": "4fbe63146008112fc934c306f4a779eb"
+          },
+          "textures/multi_cleaner_5_litre_rough_4k.exr": {
+            "size": 10784883,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_4k.exr",
+            "md5": "0eccfd50bb69d7d952b3b2240fa92bcd"
+          },
+          "textures/multi_cleaner_5_litre_diff_4k.jpg": {
+            "size": 4175840,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_4k.jpg",
+            "md5": "610a84daf0b5e895d2970382da83591e"
+          }
+        },
+        "size": 207843,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_4k.blend",
+        "md5": "946f53135acb16e1aa337eaf0f908074"
+      }
+    },
+    "2k": {
+      "blend": {
+        "include": {
+          "textures/multi_cleaner_5_litre_rough_2k.exr": {
+            "size": 3502066,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_2k.exr",
+            "md5": "096b8756c05807726cf15df0988be9d9"
+          },
+          "textures/multi_cleaner_5_litre_diff_2k.jpg": {
+            "size": 1225345,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_2k.jpg",
+            "md5": "ed976dd3d1f9b39a95bb2360016453ec"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_2k.exr": {
+            "size": 1822618,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_2k.exr",
+            "md5": "dff8611d2516efff77ceab649699cafb"
+          }
+        },
+        "size": 208008,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_2k.blend",
+        "md5": "ba35277132b18470a349b931a048187e"
+      }
+    },
+    "1k": {
+      "blend": {
+        "include": {
+          "textures/multi_cleaner_5_litre_diff_1k.jpg": {
+            "size": 366299,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_1k.jpg",
+            "md5": "13b0a9d6926c0735a71ed84964648d23"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_1k.exr": {
+            "size": 619364,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_1k.exr",
+            "md5": "1378e94a33a9a61733d6116d65470441"
+          },
+          "textures/multi_cleaner_5_litre_rough_1k.exr": {
+            "size": 999441,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_1k.exr",
+            "md5": "7e7de2935cd41f2aa2a8063086159df4"
+          }
+        },
+        "size": 207913,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_1k.blend",
+        "md5": "8966890f36b6457baeaafdd125ecf987"
+      }
+    }
+  },
+  "gltf": {
+    "8k": {
+      "gltf": {
+        "include": {
+          "textures/multi_cleaner_5_litre_nor_gl_8k.jpg": {
+            "size": 9381712,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_8k.jpg",
+            "md5": "97f8703c79bc239f7d3cdda9f4d4de01"
+          },
+          "textures/multi_cleaner_5_litre_arm_8k.jpg": {
+            "size": 21443898,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_8k.jpg",
+            "md5": "3a002a1459c1583327ab3b0e680889bc"
+          },
+          "multi_cleaner_5_litre.bin": {
+            "size": 116488,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/multi_cleaner_5_litre/multi_cleaner_5_litre.bin",
+            "md5": "8feef729541069546d59c3de08f4b6fb"
+          },
+          "textures/multi_cleaner_5_litre_diff_8k.jpg": {
+            "size": 14847007,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_8k.jpg",
+            "md5": "39de716e600cd4eab2b89508efa3ed5a"
+          }
+        },
+        "size": 4406,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_8k.gltf",
+        "md5": "cbaa3a0499525fa8819f7860af6147f3"
+      }
+    },
+    "4k": {
+      "gltf": {
+        "include": {
+          "textures/multi_cleaner_5_litre_arm_4k.jpg": {
+            "size": 6122919,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_4k.jpg",
+            "md5": "a71d218d839954e15e34170c6fdb0928"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_4k.jpg": {
+            "size": 3066434,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_4k.jpg",
+            "md5": "c62c708e407f0c6e09f02e5f1108197e"
+          },
+          "multi_cleaner_5_litre.bin": {
+            "size": 116488,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/multi_cleaner_5_litre/multi_cleaner_5_litre.bin",
+            "md5": "8feef729541069546d59c3de08f4b6fb"
+          },
+          "textures/multi_cleaner_5_litre_diff_4k.jpg": {
+            "size": 4175840,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_4k.jpg",
+            "md5": "610a84daf0b5e895d2970382da83591e"
+          }
+        },
+        "size": 4406,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_4k.gltf",
+        "md5": "a530aedbde38075805ff5692ab3b5635"
+      }
+    },
+    "2k": {
+      "gltf": {
+        "include": {
+          "textures/multi_cleaner_5_litre_arm_2k.jpg": {
+            "size": 1862915,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_2k.jpg",
+            "md5": "fbbbf9ee98fc9058c2c1f16999e01860"
+          },
+          "multi_cleaner_5_litre.bin": {
+            "size": 116488,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/multi_cleaner_5_litre/multi_cleaner_5_litre.bin",
+            "md5": "8feef729541069546d59c3de08f4b6fb"
+          },
+          "textures/multi_cleaner_5_litre_diff_2k.jpg": {
+            "size": 1225345,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_2k.jpg",
+            "md5": "ed976dd3d1f9b39a95bb2360016453ec"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_2k.jpg": {
+            "size": 1019427,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_2k.jpg",
+            "md5": "ce4fb8167122ccfde5f822779e86125d"
+          }
+        },
+        "size": 4406,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_2k.gltf",
+        "md5": "423ad3e36164853dddb203e74388225a"
+      }
+    },
+    "1k": {
+      "gltf": {
+        "include": {
+          "textures/multi_cleaner_5_litre_diff_1k.jpg": {
+            "size": 366299,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_1k.jpg",
+            "md5": "13b0a9d6926c0735a71ed84964648d23"
+          },
+          "textures/multi_cleaner_5_litre_arm_1k.jpg": {
+            "size": 568077,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_1k.jpg",
+            "md5": "3c3d0772e48198abc9a7a19374a5e3d1"
+          },
+          "multi_cleaner_5_litre.bin": {
+            "size": 116488,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/multi_cleaner_5_litre/multi_cleaner_5_litre.bin",
+            "md5": "8feef729541069546d59c3de08f4b6fb"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_1k.jpg": {
+            "size": 311822,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_1k.jpg",
+            "md5": "cc3f9aabe2940ce110e0482bf0090620"
+          }
+        },
+        "size": 4406,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_1k.gltf",
+        "md5": "5bfa8ea24458a4bd2a5e07ed049363fa"
+      }
+    }
+  },
+  "usd": {
+    "8k": {
+      "usd": {
+        "include": {
+          "textures/multi_cleaner_5_litre_rough_8k.exr": {
+            "size": 28928453,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_8k.exr",
+            "md5": "3710dbc52dde7b62e498739b1445cbca"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_8k.exr": {
+            "size": 13883845,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_8k.exr",
+            "md5": "37bc984de69f05f10057be61a8a1c290"
+          },
+          "textures/multi_cleaner_5_litre_diff_8k.jpg": {
+            "size": 14847007,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_8k.jpg",
+            "md5": "39de716e600cd4eab2b89508efa3ed5a"
+          }
+        },
+        "size": 219986,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_8k.usdc",
+        "md5": "528c36838b44bac7871ad2ae3e36acf5"
+      }
+    },
+    "4k": {
+      "usd": {
+        "include": {
+          "textures/multi_cleaner_5_litre_nor_gl_4k.exr": {
+            "size": 4995088,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_4k.exr",
+            "md5": "4fbe63146008112fc934c306f4a779eb"
+          },
+          "textures/multi_cleaner_5_litre_rough_4k.exr": {
+            "size": 10784883,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_4k.exr",
+            "md5": "0eccfd50bb69d7d952b3b2240fa92bcd"
+          },
+          "textures/multi_cleaner_5_litre_diff_4k.jpg": {
+            "size": 4175840,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_4k.jpg",
+            "md5": "610a84daf0b5e895d2970382da83591e"
+          }
+        },
+        "size": 219992,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_4k.usdc",
+        "md5": "dd7f657b46b990d19fbd341a32b3264c"
+      }
+    },
+    "2k": {
+      "usd": {
+        "include": {
+          "textures/multi_cleaner_5_litre_rough_2k.exr": {
+            "size": 3502066,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_2k.exr",
+            "md5": "096b8756c05807726cf15df0988be9d9"
+          },
+          "textures/multi_cleaner_5_litre_diff_2k.jpg": {
+            "size": 1225345,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_2k.jpg",
+            "md5": "ed976dd3d1f9b39a95bb2360016453ec"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_2k.exr": {
+            "size": 1822618,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_2k.exr",
+            "md5": "dff8611d2516efff77ceab649699cafb"
+          }
+        },
+        "size": 219989,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_2k.usdc",
+        "md5": "523bc7899ac80f8e1685a750fc293439"
+      }
+    },
+    "1k": {
+      "usd": {
+        "include": {
+          "textures/multi_cleaner_5_litre_diff_1k.jpg": {
+            "size": 366299,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_1k.jpg",
+            "md5": "13b0a9d6926c0735a71ed84964648d23"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_1k.exr": {
+            "size": 619364,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_1k.exr",
+            "md5": "1378e94a33a9a61733d6116d65470441"
+          },
+          "textures/multi_cleaner_5_litre_rough_1k.exr": {
+            "size": 999441,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_1k.exr",
+            "md5": "7e7de2935cd41f2aa2a8063086159df4"
+          }
+        },
+        "size": 219961,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_1k.usdc",
+        "md5": "001286edff4dc38dddddb98a40493149"
+      }
+    }
+  },
+  "Metal": {
+    "8k": {
+      "jpg": {
+        "size": 786830,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_8k.jpg",
+        "md5": "a616a778e71eb5a0429077c626282b4f"
+      },
+      "png": {
+        "size": 130732,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_8k.png",
+        "md5": "000d871f6e52179ea8541ed5ebbb5e7a"
+      },
+      "exr": {
+        "size": 150384,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_8k.exr",
+        "md5": "9823ef85c1d6a98cb20e6d3d1e3faf38"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 197006,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_4k.jpg",
+        "md5": "672591b42c64e5042e82d8e39f6d8922"
+      },
+      "png": {
+        "size": 32763,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_4k.png",
+        "md5": "261834d04201f95d9188ee9c24a90bff"
+      },
+      "exr": {
+        "size": 42864,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_4k.exr",
+        "md5": "76c05a231e1d84a2707c3f0912e9f2fe"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 49550,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_2k.jpg",
+        "md5": "4ef1e5c3958eea6901d85dbd005b7617"
+      },
+      "png": {
+        "size": 8264,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_2k.png",
+        "md5": "d1b4236811cde253fe1d58c79386c101"
+      },
+      "exr": {
+        "size": 13296,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_2k.exr",
+        "md5": "2e466e1ecbb31a2d1a09d0e25c055171"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 12686,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_1k.jpg",
+        "md5": "2586d4417893b6ac021b0359155fdd49"
+      },
+      "png": {
+        "size": 2155,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_1k.png",
+        "md5": "3984ebd3e0aff11d149c2c40985d22f3"
+      },
+      "exr": {
+        "size": 4784,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_metal_1k.exr",
+        "md5": "f7d6054ab06548383df299a0c732d9e2"
+      }
+    }
+  },
+  "Rough": {
+    "8k": {
+      "jpg": {
+        "size": 19277588,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_8k.jpg",
+        "md5": "a91f7e7d1118c77466aeb70c1a4a5251"
+      },
+      "png": {
+        "size": 26477154,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_8k.png",
+        "md5": "bb9eba671762141d305de483bea72d84"
+      },
+      "exr": {
+        "size": 28928453,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_8k.exr",
+        "md5": "3710dbc52dde7b62e498739b1445cbca"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 5165390,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_4k.jpg",
+        "md5": "d148eeeed3f0b24d6ef8d47320452825"
+      },
+      "png": {
+        "size": 14216370,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_4k.png",
+        "md5": "f57180e18fd5b38e5de847f93dcc9f33"
+      },
+      "exr": {
+        "size": 10784883,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_4k.exr",
+        "md5": "0eccfd50bb69d7d952b3b2240fa92bcd"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1477411,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_2k.jpg",
+        "md5": "3db1e5bfc4ce64f945a8484979b14cf8"
+      },
+      "png": {
+        "size": 5246193,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_2k.png",
+        "md5": "2bdd733f92af9119455a0b397008b73c"
+      },
+      "exr": {
+        "size": 3502066,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_2k.exr",
+        "md5": "096b8756c05807726cf15df0988be9d9"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 431309,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_1k.jpg",
+        "md5": "3b82a016918e26251555d70a7cd311f8"
+      },
+      "png": {
+        "size": 1552709,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_1k.png",
+        "md5": "59c804012ad2b890de5b133017f4d76c"
+      },
+      "exr": {
+        "size": 999441,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_1k.exr",
+        "md5": "7e7de2935cd41f2aa2a8063086159df4"
+      }
+    }
+  },
+  "AO": {
+    "8k": {
+      "jpg": {
+        "size": 4656676,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_8k.jpg",
+        "md5": "1a89f1a56b047c72893acd44b30a9da2"
+      },
+      "png": {
+        "size": 22476409,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_8k.png",
+        "md5": "b8fa55c262da67eb80464031413739ce"
+      },
+      "exr": {
+        "size": 11348323,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_8k.exr",
+        "md5": "d6a94b29a6666e0d05a676f9b04ef4dd"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 1198886,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_4k.jpg",
+        "md5": "9393300af63b1b95d59d552a28c809fd"
+      },
+      "png": {
+        "size": 6116325,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_4k.png",
+        "md5": "5e836cf400c4257e9500dab4d65fd9c8"
+      },
+      "exr": {
+        "size": 2715635,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_4k.exr",
+        "md5": "60c0bceb683a127e885d26f5247186aa"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 407026,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_2k.jpg",
+        "md5": "d242288b405975b5411b443616bf2958"
+      },
+      "png": {
+        "size": 1611449,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_2k.png",
+        "md5": "acdccc2d997305d8d621ab4543c6bd80"
+      },
+      "exr": {
+        "size": 722462,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_2k.exr",
+        "md5": "599f87176cba93253fb9687bc46a5e25"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 161776,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_1k.jpg",
+        "md5": "53a7b77a6db0cceaa29d585a80cc699f"
+      },
+      "png": {
+        "size": 438868,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_1k.png",
+        "md5": "0469837fcfa67c30ca4fb114e9f44cf1"
+      },
+      "exr": {
+        "size": 226621,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_ao_1k.exr",
+        "md5": "dea505a90cefd75b9e697eea64e4bcee"
+      }
+    }
+  },
+  "nor_gl": {
+    "8k": {
+      "jpg": {
+        "size": 9381712,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_8k.jpg",
+        "md5": "97f8703c79bc239f7d3cdda9f4d4de01"
+      },
+      "png": {
+        "size": 147003833,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_8k.png",
+        "md5": "319b5a938ee34c5273375b6f6788c8d9"
+      },
+      "exr": {
+        "size": 13883845,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_8k.exr",
+        "md5": "37bc984de69f05f10057be61a8a1c290"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 3066434,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_4k.jpg",
+        "md5": "c62c708e407f0c6e09f02e5f1108197e"
+      },
+      "png": {
+        "size": 44550817,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_4k.png",
+        "md5": "632c6ce21a7ead785c24fc1f0e362e2f"
+      },
+      "exr": {
+        "size": 4995088,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_4k.exr",
+        "md5": "4fbe63146008112fc934c306f4a779eb"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1019427,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_2k.jpg",
+        "md5": "ce4fb8167122ccfde5f822779e86125d"
+      },
+      "png": {
+        "size": 13338509,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_2k.png",
+        "md5": "75ffa64daec1752a744e7397039fab0a"
+      },
+      "exr": {
+        "size": 1822618,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_2k.exr",
+        "md5": "dff8611d2516efff77ceab649699cafb"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 311822,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_1k.jpg",
+        "md5": "cc3f9aabe2940ce110e0482bf0090620"
+      },
+      "png": {
+        "size": 3852310,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_1k.png",
+        "md5": "4e606ce08e7e7ef4c3f682d7e010047a"
+      },
+      "exr": {
+        "size": 619364,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_1k.exr",
+        "md5": "1378e94a33a9a61733d6116d65470441"
+      }
+    }
+  },
+  "arm": {
+    "8k": {
+      "jpg": {
+        "size": 21443898,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_8k.jpg",
+        "md5": "3a002a1459c1583327ab3b0e680889bc"
+      },
+      "png": {
+        "size": 70039093,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_8k.png",
+        "md5": "5d6c6c496c95058d5d8c546d6b252921"
+      },
+      "exr": {
+        "size": 43356406,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_8k.exr",
+        "md5": "be6c4672f15995e19523535c2beeaa21"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 6122919,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_4k.jpg",
+        "md5": "a71d218d839954e15e34170c6fdb0928"
+      },
+      "png": {
+        "size": 26457355,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_4k.png",
+        "md5": "557f28c369fb298fa50ac12580bcf485"
+      },
+      "exr": {
+        "size": 11949424,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_4k.exr",
+        "md5": "67e81826e69dc1e744df12f30e7b9294"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1862915,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_2k.jpg",
+        "md5": "fbbbf9ee98fc9058c2c1f16999e01860"
+      },
+      "png": {
+        "size": 8899410,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_2k.png",
+        "md5": "9911afb25d4ed312ae3716f77f502cc1"
+      },
+      "exr": {
+        "size": 3750748,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_2k.exr",
+        "md5": "5b3ac4694b549ca82426dce9b315b7c9"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 568077,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_1k.jpg",
+        "md5": "3c3d0772e48198abc9a7a19374a5e3d1"
+      },
+      "png": {
+        "size": 2509492,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_1k.png",
+        "md5": "7dec2708413000797597d438cdc30056"
+      },
+      "exr": {
+        "size": 1212871,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_1k.exr",
+        "md5": "e61d5d6c59a79ce1ab62f4e70d18b7e2"
+      }
+    }
+  },
+  "fbx": {
+    "8k": {
+      "fbx": {
+        "include": {
+          "textures/multi_cleaner_5_litre_rough_8k.exr": {
+            "size": 28928453,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_8k.exr",
+            "md5": "3710dbc52dde7b62e498739b1445cbca"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_8k.exr": {
+            "size": 13883845,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_8k.exr",
+            "md5": "37bc984de69f05f10057be61a8a1c290"
+          },
+          "textures/multi_cleaner_5_litre_diff_8k.jpg": {
+            "size": 14847007,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_8k.jpg",
+            "md5": "39de716e600cd4eab2b89508efa3ed5a"
+          }
+        },
+        "size": 157196,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/8k/multi_cleaner_5_litre/multi_cleaner_5_litre_8k.fbx",
+        "md5": "6a14342b90a274e597d8b605b13a17f1"
+      }
+    },
+    "4k": {
+      "fbx": {
+        "include": {
+          "textures/multi_cleaner_5_litre_nor_gl_4k.exr": {
+            "size": 4995088,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_4k.exr",
+            "md5": "4fbe63146008112fc934c306f4a779eb"
+          },
+          "textures/multi_cleaner_5_litre_rough_4k.exr": {
+            "size": 10784883,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_4k.exr",
+            "md5": "0eccfd50bb69d7d952b3b2240fa92bcd"
+          },
+          "textures/multi_cleaner_5_litre_diff_4k.jpg": {
+            "size": 4175840,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_4k.jpg",
+            "md5": "610a84daf0b5e895d2970382da83591e"
+          }
+        },
+        "size": 157196,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/multi_cleaner_5_litre/multi_cleaner_5_litre_4k.fbx",
+        "md5": "8b4979979047e64ac538f36396793930"
+      }
+    },
+    "2k": {
+      "fbx": {
+        "include": {
+          "textures/multi_cleaner_5_litre_rough_2k.exr": {
+            "size": 3502066,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_2k.exr",
+            "md5": "096b8756c05807726cf15df0988be9d9"
+          },
+          "textures/multi_cleaner_5_litre_diff_2k.jpg": {
+            "size": 1225345,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_2k.jpg",
+            "md5": "ed976dd3d1f9b39a95bb2360016453ec"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_2k.exr": {
+            "size": 1822618,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_2k.exr",
+            "md5": "dff8611d2516efff77ceab649699cafb"
+          }
+        },
+        "size": 157196,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/multi_cleaner_5_litre/multi_cleaner_5_litre_2k.fbx",
+        "md5": "70eddc1c2acd5b3e9a04b3a49b0ab0d7"
+      }
+    },
+    "1k": {
+      "fbx": {
+        "include": {
+          "textures/multi_cleaner_5_litre_diff_1k.jpg": {
+            "size": 366299,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_1k.jpg",
+            "md5": "13b0a9d6926c0735a71ed84964648d23"
+          },
+          "textures/multi_cleaner_5_litre_nor_gl_1k.exr": {
+            "size": 619364,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_1k.exr",
+            "md5": "1378e94a33a9a61733d6116d65470441"
+          },
+          "textures/multi_cleaner_5_litre_rough_1k.exr": {
+            "size": 999441,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_rough_1k.exr",
+            "md5": "7e7de2935cd41f2aa2a8063086159df4"
+          }
+        },
+        "size": 157196,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_1k.fbx",
+        "md5": "6102e239adecaa18f38b4abebfddd5c1"
+      }
+    }
+  }
+}

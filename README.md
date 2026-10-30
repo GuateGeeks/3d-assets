@@ -1,6 +1,6 @@
 # GuateGeeks · Biblioteca 3D
 
-Galería de **1152 modelos GLB** para Code Studio y Sócrates, organizados en **23 áreas**. Incluye miniaturas locales, vista 3D con cámara y animaciones, búsqueda en español y filtros por área, fuente, kit, licencia y movimiento. Los créditos se consultan en cada ficha.
+Galería de **1173 modelos GLB** para Code Studio y Sócrates, organizados en **23 áreas**. Incluye miniaturas locales, vista 3D con cámara y animaciones, búsqueda en español y filtros por área, fuente, kit, licencia y movimiento. Los créditos se consultan en cada ficha.
 
 ## Studio: autoría por código y escenas
 
@@ -79,7 +79,7 @@ La validación se ejecuta automáticamente en cada push y pull request. El despl
 
 ## Licencias e inventario
 
-- **748 modelos CC0 1.0**, **274 CC BY 3.0**, **103 CC BY 4.0**, **10 CC BY-SA 4.0**, **4 CC BY-NC 4.0**, **3 CC BY-NC-SA 4.0** y **10 bajo NASA Media Usage Guidelines**, según [audit.json](audit.json).
+- **769 modelos CC0 1.0**, **274 CC BY 3.0**, **103 CC BY 4.0**, **10 CC BY-SA 4.0**, **4 CC BY-NC 4.0**, **3 CC BY-NC-SA 4.0** y **10 bajo NASA Media Usage Guidelines**, según [audit.json](audit.json).
 - **32 modelos con esqueleto** y **40 con animaciones** comprobadas dentro del GLB.
 - [Índice navegable de archivos](INDEX.md), [CSV](index.csv), [créditos](ATTRIBUTIONS.md) y [cobertura pendiente](COVERAGE.md).
 - `models/<ID>/`: GLB original, metadatos del catálogo, ficha normalizada y licencia.
@@ -99,11 +99,13 @@ Los GLB nativos de Kenney conservan su geometría; cuando era necesario se incru
 
 ## Ampliación Poly Haven
 
-Se incorporaron **28 modelos CC0** de laboratorio, óptica, electrónica, medición, accesibilidad, seguridad, jardinería, oficios y música. Los originales glTF de 1K y sus texturas se conservan por modelo; el GLB incrusta esos componentes sin decimar, reescalar ni modificar materiales, UV o rigs. El tornillo de banco conserva su rig mecánico. El catálogo actual suma **1045 modelos**; el desglose vigente de todas las fuentes está en [Licencias e inventario](#licencias-e-inventario) y [audit.json](audit.json).
+Se incorporaron **28 modelos CC0** de laboratorio, óptica, electrónica, medición, accesibilidad, seguridad, jardinería, oficios y música. Los originales glTF de 1K y sus texturas se conservan por modelo; el GLB incrusta esos componentes sin decimar, reescalar ni modificar materiales, UV o rigs. El tornillo de banco conserva su rig mecánico. Este corte histórico llevó el catálogo a **1021 modelos**; el desglose vigente de todas las fuentes está en [Licencias e inventario](#licencias-e-inventario) y [audit.json](audit.json).
 
 La adquisición usa la API oficial con identificador de aplicación, caché, comprobación MD5/SHA-256 y reintentos limitados. La galería funciona con archivos locales; no consulta la API ni utiliza sus imágenes de muestra. Los créditos preservan los autores individuales aunque CC0 no exija atribución.
 
 [Selección](enrichment/polyhaven-selection.json), [informe](enrichment/reports/polyhaven-20261022.json), [comparación de duplicados y variantes](enrichment/reports/POLYHAVEN-DUPLICATES.md) y [familias](groups/polyhaven.json). No se encontraron coincidencias binarias ni geométricas con los 993 anteriores. Las familias funcionales permiten comparar microscopios, portátiles y llaves con versiones existentes sin afirmar que sean copias idénticas. La revisión curricular permanece pendiente.
+
+El 30 de octubre de 2026 se añadieron **21 modelos y kits completos CC0** de tuberías y válvulas, conductos de ventilación, cables y tableros eléctricos, generador, cilindros de gas, envases químicos y herramientas. Poly Haven suma **49 fichas** y el catálogo completo **1173**. Se conservaron los 6533 archivos originales anteriores y se revisaron seis vistas por incorporación. Los kits mantienen todas sus piezas en el conjunto original; la descarga fuente permite reutilizarlas. [Selección](enrichment/polyhaven-science-selection-20261030.json) · [informe y lista](docs/POLYHAVEN-SCIENCE-20261030.md).
 
 ## Actualizar el catálogo
 

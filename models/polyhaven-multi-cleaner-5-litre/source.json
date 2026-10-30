@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Multi Cleaner 5 Litre\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/multi_cleaner_5_litre. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "James Ray Cock"
+  },
+  "Title": "Multi Cleaner 5 Litre",
+  "sourceUrl": "https://polyhaven.com/a/multi_cleaner_5_litre",
+  "assetId": "multi_cleaner_5_litre",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-multi-cleaner-5-litre/original/multi_cleaner_5_litre_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_1k.gltf",
+      "bytes": 4406,
+      "md5": "5bfa8ea24458a4bd2a5e07ed049363fa",
+      "sha256": "449a1f5ad8d511f635aafe4233b1d1e216eacf0c987cc2202b2052ce2ec879c3"
+    },
+    {
+      "file": "models/polyhaven-multi-cleaner-5-litre/original/textures/multi_cleaner_5_litre_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_1k.jpg",
+      "bytes": 366299,
+      "md5": "13b0a9d6926c0735a71ed84964648d23",
+      "sha256": "dc59d4cdb8f85c6ef09b3730f17d2bdb7ec2b819de29b8e03e56e69cc0d76a9e"
+    },
+    {
+      "file": "models/polyhaven-multi-cleaner-5-litre/original/textures/multi_cleaner_5_litre_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_1k.jpg",
+      "bytes": 568077,
+      "md5": "3c3d0772e48198abc9a7a19374a5e3d1",
+      "sha256": "570f40e4989ccd5ed4f59385c9dce05605d7c5f855ba7e422de3a4b38b235ed0"
+    },
+    {
+      "file": "models/polyhaven-multi-cleaner-5-litre/original/multi_cleaner_5_litre.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/multi_cleaner_5_litre/multi_cleaner_5_litre.bin",
+      "bytes": 116488,
+      "md5": "8feef729541069546d59c3de08f4b6fb",
+      "sha256": "11f978c7be90faa675e3020b3b09e20e35083ce5c591d3c89ad2d2f7250c1ec7"
+    },
+    {
+      "file": "models/polyhaven-multi-cleaner-5-litre/original/textures/multi_cleaner_5_litre_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_1k.jpg",
+      "bytes": 311822,
+      "md5": "cc3f9aabe2940ce110e0482bf0090620",
+      "sha256": "893673ea82d00f4afe84fbcf29ac0d92cde7057a13fb6b5f8b0d719530bfca2b"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

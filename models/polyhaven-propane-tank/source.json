@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Propane Tank\", por Slinc / Poly Haven. https://polyhaven.com/a/propane_tank. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Slinc"
+  },
+  "Title": "Propane Tank",
+  "sourceUrl": "https://polyhaven.com/a/propane_tank",
+  "assetId": "propane_tank",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-propane-tank/original/propane_tank_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/propane_tank/propane_tank_1k.gltf",
+      "bytes": 2733,
+      "md5": "4579fb704d4d97e1aca048c126f6d921",
+      "sha256": "b62862832ab6bfb3262563749b9196cf6dd2b011ca86a7ccb1b35f007e5685b5"
+    },
+    {
+      "file": "models/polyhaven-propane-tank/original/textures/propane_tank_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_nor_gl_1k.jpg",
+      "bytes": 659305,
+      "md5": "d6f11926f096f3373f091bb35f83ddd3",
+      "sha256": "e17827f800150fb069dbe36ff4464eaf9f8c4d2d4608f1cc87a48dea0fe3d8f0"
+    },
+    {
+      "file": "models/polyhaven-propane-tank/original/textures/propane_tank_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_diff_1k.jpg",
+      "bytes": 702492,
+      "md5": "935d42c466adae18710e1f0fc79b306b",
+      "sha256": "09ae9f12f41ed0c8c7fb8e22f16871727b9b6ed7e06cde98ec9b8052395f46a4"
+    },
+    {
+      "file": "models/polyhaven-propane-tank/original/textures/propane_tank_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_arm_1k.jpg",
+      "bytes": 675391,
+      "md5": "23773169952447a34c90944eb17563a0",
+      "sha256": "c56b34618f8d3a2681f559e66bbd4616010ba092b8266ee4249940e1dfecf820"
+    },
+    {
+      "file": "models/polyhaven-propane-tank/original/propane_tank.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/propane_tank/propane_tank.bin",
+      "bytes": 174180,
+      "md5": "bb8e4a72c3f655bfa3dec7456a343451",
+      "sha256": "1e139c9a5a04de7b44a665cb504670c2e899d1f8f62ad84a238165874d4eea6c"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

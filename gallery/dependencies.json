@@ -10247,6 +10247,216 @@
       "sha256": "c89940cda0622c6505e1e7a198c3fb82663354e957916af5d04b5ade80aa55e3",
       "modelLicense": "CC-BY 4.0",
       "origin": "Own CPU render of native GLB; same model license and credit"
+    },
+    {
+      "id": "polyhaven-modular-industrial-pipes-01",
+      "file": "gallery/thumbnails/polyhaven-modular-industrial-pipes-01.webp",
+      "url": null,
+      "generatedFrom": "61a0ef932ed6c87036214c84a2e3711e0acb2cbcc5ba195138efbcb93dcd413e",
+      "sha256": "7edc07b6bb7dfa0616cea36d4a0ba2f9920616c24958002972c551985539db81",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Modular Industrial Pipes 01\", por Jorge Camacho / Poly Haven. https://polyhaven.com/a/modular_industrial_pipes_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-modular-pipes",
+      "file": "gallery/thumbnails/polyhaven-modular-pipes.webp",
+      "url": null,
+      "generatedFrom": "b58797beae4536b15e399464efd8d12a3e30379ede4b6eaec260cfa64b0751cf",
+      "sha256": "2d6b8e4078f91f3475b3b98347df2548f5cd9d5192b7b402d0c31b4b0b7b80d3",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Modular Pipes\", por Kuutti Siitonen / Poly Haven. https://polyhaven.com/a/modular_pipes. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-modular-pipes-plastic-01",
+      "file": "gallery/thumbnails/polyhaven-modular-pipes-plastic-01.webp",
+      "url": null,
+      "generatedFrom": "ac87d530fd321b69e947d1516b30b857b7c751b485b144c40d8851fb50337cc5",
+      "sha256": "498589001f31819ab02d77e14b9cee897e44d99d78b46dd67aa4214bb534b830",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Modular Pipes Plastic 01\", por Amal Kumar / Poly Haven. https://polyhaven.com/a/modular_pipes_plastic_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-modular-airduct-circular-01",
+      "file": "gallery/thumbnails/polyhaven-modular-airduct-circular-01.webp",
+      "url": null,
+      "generatedFrom": "bc33193d72f734b4304b808e4d969ab8ca6833a0ced48f0f3a6104983287ed94",
+      "sha256": "88dc5750bfa968e33186dbac4216788299103e7e018a77995edbd9188726ef99",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Modular Airduct Circular 01\", por Riley Queen / Poly Haven. https://polyhaven.com/a/modular_airduct_circular_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-modular-airduct-rectangular-01",
+      "file": "gallery/thumbnails/polyhaven-modular-airduct-rectangular-01.webp",
+      "url": null,
+      "generatedFrom": "b9573d7fdd6f914a08f533460af88010ecf7b6adf176ff42b1a6a97288665517",
+      "sha256": "902f8078daf0924aa810729726dcad460d2b511a04108d9ebe4f144efd8dbbcc",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Modular Airduct Rectangular 01\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/modular_airduct_rectangular_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-modular-electric-cables",
+      "file": "gallery/thumbnails/polyhaven-modular-electric-cables.webp",
+      "url": null,
+      "generatedFrom": "dc373b91755db044ccbb06b27884adbbb6ce7c2284c3fe8faf705bf9ddf64f2c",
+      "sha256": "39baaf4b5eceeeca6c9d901c29ba2e0a8684f9e7df42ec888b10e3a2b963f412",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Modular Electric Cables\", por Kuutti Siitonen / Poly Haven. https://polyhaven.com/a/modular_electric_cables. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-power-box-01",
+      "file": "gallery/thumbnails/polyhaven-power-box-01.webp",
+      "url": null,
+      "generatedFrom": "cfc3a8d9e37a45e05c891b72a6f74f7beb0d183d4f6abf87baed9dea76e403e8",
+      "sha256": "241d7d5f84fce454151df735a91a2b40105586c9ccc41c8cb24f5297249163a6",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Power Box 01\", por Rico Cilliers, Yann Kervran / Poly Haven. https://polyhaven.com/a/power_box_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-utility-box-01",
+      "file": "gallery/thumbnails/polyhaven-utility-box-01.webp",
+      "url": null,
+      "generatedFrom": "fe56486a579a4779f3b946f3e3b9d695943109a58c4527480746fdf38a8c093d",
+      "sha256": "a4318e1cdebd71a55d280508a570ebc9bf70ec83b6ab7589d00ccf2541bb7b8c",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Utility Box 01\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/utility_box_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-utility-box-02",
+      "file": "gallery/thumbnails/polyhaven-utility-box-02.webp",
+      "url": null,
+      "generatedFrom": "ab94ded063a8075c81e28794ef9c7ce9f812d3a2e5983ec04b29833f2c7a0275",
+      "sha256": "eb689ec3a019358911d3c18494560a9f2de88140a4cb324b27d7a9982efef4b7",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Utility Box 02\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/utility_box_02. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-portable-generator",
+      "file": "gallery/thumbnails/polyhaven-portable-generator.webp",
+      "url": null,
+      "generatedFrom": "5bc360ee19d7f341a489b3139829506c2cc77fa691b86a2295f8b189c0af4c2a",
+      "sha256": "870f723647a874d0aca2697cdb2d122ad5362df4255ebb0973177f1192d538fe",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Portable Generator\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/portable_generator. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-pull-chain-light-socket",
+      "file": "gallery/thumbnails/polyhaven-pull-chain-light-socket.webp",
+      "url": null,
+      "generatedFrom": "56484acc38245c40e52e7fb7245d493003f8877c01e116f4edc00f3f17c8af0f",
+      "sha256": "4d3042be9f8fb51ba66a3240b4046c1c3f33dd25ea34d841b5015a4df8021f17",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Pull Chain Light Socket\", por Josh Dean / Poly Haven. https://polyhaven.com/a/pull_chain_light_socket. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-propane-tank",
+      "file": "gallery/thumbnails/polyhaven-propane-tank.webp",
+      "url": null,
+      "generatedFrom": "ba56f0cb2997582558ff66dc92bfcd9949ab0d50c9fb4c8d972568c4c1693e1a",
+      "sha256": "56de5603e21c26970fc8eec814fe1e0fe1b99bbbb688ed685ff38daf261b9391",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Propane Tank\", por Slinc / Poly Haven. https://polyhaven.com/a/propane_tank. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-small-lpg-tank",
+      "file": "gallery/thumbnails/polyhaven-small-lpg-tank.webp",
+      "url": null,
+      "generatedFrom": "b4b49890c41264903c0700f61084f62601aa1ae397dccbae511b2060de4b2ffb",
+      "sha256": "c8a53de5eda05f4588875af83165dc39820811e35a286f85c72945d71b7a76dd",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Small Lpg Tank\", por Ulan Cabanilla / Poly Haven. https://polyhaven.com/a/small_lpg_tank. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-portable-welding-cart",
+      "file": "gallery/thumbnails/polyhaven-portable-welding-cart.webp",
+      "url": null,
+      "generatedFrom": "13294de49c791dad21b86b6a368753470a9dc2958fb50e8cdb966da2df791b65",
+      "sha256": "dc71d63a88035cc175fa48ccfc3b928ac8a188fdbd7d780485af63a456aa5055",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Portable Welding Cart\", por Georgii Gorbunov / Poly Haven. https://polyhaven.com/a/portable_welding_cart. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-bleach-bottle",
+      "file": "gallery/thumbnails/polyhaven-bleach-bottle.webp",
+      "url": null,
+      "generatedFrom": "a689c6eb8d2743b966d08af2b194234179fefdc49873af6225582475793b2284",
+      "sha256": "cf4cb383c5d21fc318ab5110d5f23c7ca2b1e6944bf3f7be9af460f622d9afb3",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Bleach Bottle\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/bleach_bottle. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-drain-cleaner",
+      "file": "gallery/thumbnails/polyhaven-drain-cleaner.webp",
+      "url": null,
+      "generatedFrom": "d92109525ad55bc1bb84eda8db489328cceb8c6974508cf08db7b1fdc567850c",
+      "sha256": "b2fafc240669e18814d421f73cc548013bcc3db12eff3a2e4812ab4c0aeac966",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Drain Cleaner\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/drain_cleaner. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-all-purpose-cleaner",
+      "file": "gallery/thumbnails/polyhaven-all-purpose-cleaner.webp",
+      "url": null,
+      "generatedFrom": "cf972671bbb23330124ca6445e92d3f25e15bd3704fc4e55b21683d65790ca3c",
+      "sha256": "a681cbb48f67521ed80834b04f22e0c85170dbe1b608fb79c32d45e32a80c9e9",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"All Purpose Cleaner\", por Kuutti Siitonen / Poly Haven. https://polyhaven.com/a/all_purpose_cleaner. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-multi-cleaner-5-litre",
+      "file": "gallery/thumbnails/polyhaven-multi-cleaner-5-litre.webp",
+      "url": null,
+      "generatedFrom": "f9b63342f6450ad74ef591912bfaadc953954d13a7a7eafc36adc6e212a9b9d2",
+      "sha256": "196a8471f4958d041750af8e5457bc3d134ddb62393df807bb12a12d3c95ffa0",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Multi Cleaner 5 Litre\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/multi_cleaner_5_litre. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-tire-pump",
+      "file": "gallery/thumbnails/polyhaven-tire-pump.webp",
+      "url": null,
+      "generatedFrom": "94c3a7ba88a383434ac043f292f0099c316c4a4fb726587932132abff68f821d",
+      "sha256": "5406ff8c1430f9f0a92a79d8c97c79a4ea82c7f4f2e74b0233b1298e82cbeaee",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Tire Pump\", por Garrison Gager / Poly Haven. https://polyhaven.com/a/tire_pump. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-pipe-wrench",
+      "file": "gallery/thumbnails/polyhaven-pipe-wrench.webp",
+      "url": null,
+      "generatedFrom": "fd0c2316f85cfb5426584a03ee1f3433392047889b33f944e485aa4575f484d5",
+      "sha256": "46c80e53b373cb833991cd028216cd900690df0649f2945f44c26afa312cec77",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Pipe Wrench\", por Will Evarts / Poly Haven. https://polyhaven.com/a/pipe_wrench. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
+    },
+    {
+      "id": "polyhaven-pliers",
+      "file": "gallery/thumbnails/polyhaven-pliers.webp",
+      "url": null,
+      "generatedFrom": "6a78918f164d96d9c5c6185419cc284bcdf6ac8581137aa3f5f72c9deffb1287",
+      "sha256": "6288ee2fab00dfa651c460011301338e3132238f6c0381a529659de99c9aa8da",
+      "modelLicense": "CC0 1.0",
+      "method": "Own Blender CPU render",
+      "attribution": "\"Pliers\", por PierreB3D / Poly Haven. https://polyhaven.com/a/pliers. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks."
     }
   ],
   "note": "Original catalog previews; per-model license and credits remain in index.json. No API key is used.",

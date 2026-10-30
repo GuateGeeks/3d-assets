@@ -1,0 +1,59 @@
+{
+  "donated": true,
+  "name": "Tire Pump",
+  "type": 2,
+  "info": null,
+  "date_published": 1675382400,
+  "authors": {
+    "Garrison Gager": "All"
+  },
+  "categories": [
+    "tools",
+    "props",
+    "collection: the_shed"
+  ],
+  "tags": [
+    "shed",
+    "garage",
+    "wheel",
+    "tire",
+    "pump",
+    "inflate",
+    "matress"
+  ],
+  "max_resolution": [
+    8192,
+    8192
+  ],
+  "polycount": 6572,
+  "texel_density": 16458.11547570911,
+  "dimensions": [
+    254.89504635334015,
+    100.97793117165565,
+    579.5293497430976
+  ],
+  "files_hash": "a9eab957cd4549a29f6ce0f0db13efdd99b28a5c",
+  "description": "Free 8K model: tall steel-and-plastic floor pump with wide T-handle, flexible hose and tripod base, and realistic surface details.",
+  "category_id": "f70d08a1-456d-56c0-8b66-78c0998fec35",
+  "category": "Tools & Equipment/Workshop Equipment/Pumps",
+  "collections": [
+    "the_shed"
+  ],
+  "attributes": {
+    "condition": [
+      "worn"
+    ],
+    "material": [
+      "steel",
+      "plastic",
+      "rubber"
+    ]
+  },
+  "img_version": "5e26789d",
+  "sponsors": [
+    "3237733",
+    "128081732"
+  ],
+  "download_count": 2629,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/tire_pump.png?width=256&height=256&format=webp&v=5e26789d"
+}

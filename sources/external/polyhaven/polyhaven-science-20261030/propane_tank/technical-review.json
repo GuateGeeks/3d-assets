@@ -1,0 +1,63 @@
+{
+  "dimensionsBlender": [
+    0.3373616933822632,
+    0.3373616933822632,
+    0.5537950396537781
+  ],
+  "boundsMinBlender": [
+    -0.1686808466911316,
+    -0.1686808466911316,
+    2.718903124332428e-05
+  ],
+  "boundsMaxBlender": [
+    0.1686808466911316,
+    0.1686808466911316,
+    0.5538222193717957
+  ],
+  "meshObjects": 1,
+  "polygons": 5238,
+  "vertices": 4461,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "polyhaven-propane-tank",
+  "sourceFile": "propane_tank_1k.gltf",
+  "glbSha256": "ba56f0cb2997582558ff66dc92bfcd9949ab0d50c9fb4c8d972568c4c1693e1a",
+  "reimport": {
+    "dimensionsBlender": [
+      0.3373616933822632,
+      0.3373616933822632,
+      0.5537950396537781
+    ],
+    "boundsMinBlender": [
+      -0.1686808466911316,
+      -0.1686808466911316,
+      2.718903124332428e-05
+    ],
+    "boundsMaxBlender": [
+      0.1686808466911316,
+      0.1686808466911316,
+      0.5538222193717957
+    ],
+    "meshObjects": 1,
+    "polygons": 5238,
+    "vertices": 4461,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 5.537950396537781e-05,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-back.webp": "e0ff7c8ced65ab0e3b22d57f382c49b6af2464d0d5d6945dd656b0c926dfee38",
+    "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-side.webp": "c85b8fcbeaa47cd9894c2612ff3bd1d2a7753a748ba626874a1c214f276d5740",
+    "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-front.webp": "0e3bafd841cf448c445fce9a0bb5a9cec5bb1ddb68e98fff6cbd72cdfe94d353",
+    "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/reimport-three-quarter.webp": "c1e84a36e8ab3004ebdb3048fd050eb90bbfa7e824a5254b186471e3d42e1566",
+    "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-three-quarter.webp": "c1e84a36e8ab3004ebdb3048fd050eb90bbfa7e824a5254b186471e3d42e1566",
+    "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/renders/source-wireframe.webp": "8f43a9a57acbbe123d7a6b62df19ddd800bf18a0e89deded7eed2ea7647584de"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "publicationImages": "Lossless WebP; decoded RGBA pixel equality verified. Original PNG hashes retained in image-encoding.json and staging."
+}

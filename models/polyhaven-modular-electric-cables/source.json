@@ -1,0 +1,69 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Modular Electric Cables\", por Kuutti Siitonen / Poly Haven. https://polyhaven.com/a/modular_electric_cables. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Kuutti Siitonen"
+  },
+  "Title": "Modular Electric Cables",
+  "sourceUrl": "https://polyhaven.com/a/modular_electric_cables",
+  "assetId": "modular_electric_cables",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-modular-electric-cables/original/modular_electric_cables_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_electric_cables/modular_electric_cables_1k.gltf",
+      "bytes": 82607,
+      "md5": "452d8189381a17d02467785ec1691f2b",
+      "sha256": "f9292a9eff5bea32dde06356633da84615c508c9c0ee0246fc96c301cfd71fe8"
+    },
+    {
+      "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_nor_gl_1k.jpg",
+      "bytes": 848440,
+      "md5": "089c0dda6a7b06fc587eb23a9367fda2",
+      "sha256": "c32eeb9c064afc0265f38b7f133f41bebee559e416d7064d441098c4821c7dcd"
+    },
+    {
+      "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_diff_1k.jpg",
+      "bytes": 474284,
+      "md5": "bf807ef977dc49143dd8ed97c0ffec3c",
+      "sha256": "181c8811d6f3d3f5a0ea02497cd6c375868c558aedf70a8221f301d323430c1a"
+    },
+    {
+      "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_arm_1k.jpg",
+      "bytes": 797169,
+      "md5": "196560790b8dcb085c569a7755648d7b",
+      "sha256": "d8d48ae3499f575be301fe0b9ae91d4e0316a51c1e1234e186e0e0e9409f1a32"
+    },
+    {
+      "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_boxes_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_1k.jpg",
+      "bytes": 749676,
+      "md5": "cf66abe69419fdaac4afc36c940502d4",
+      "sha256": "5e3d896e8bceaa8d843b30941c8d6f50779d4fbde534080dd3837f499471af5a"
+    },
+    {
+      "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_boxes_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_diff_1k.jpg",
+      "bytes": 646895,
+      "md5": "b561a3ec8790af4033504609e70baa12",
+      "sha256": "7dba8bfdd0a9c46294b5ec4930b4420b102a817469bf002d24136f8c3310c519"
+    },
+    {
+      "file": "models/polyhaven-modular-electric-cables/original/textures/modular_electric_cables_boxes_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_electric_cables/modular_electric_cables_boxes_arm_1k.jpg",
+      "bytes": 856332,
+      "md5": "a0c541de1da2bd138152e45be9383e72",
+      "sha256": "3e1e8f5e854cdae94c5f5eee57241e4679c4198aa95d800873ca2cab87bd6bcc"
+    },
+    {
+      "file": "models/polyhaven-modular-electric-cables/original/modular_electric_cables.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_electric_cables/modular_electric_cables.bin",
+      "bytes": 1563316,
+      "md5": "1444b0e21d201c344a99e86937bbe5fc",
+      "sha256": "3990f8b60c244ecfc64f80b1242d2a0fef0a3e39288c9ba9fd31becad4734d8a"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

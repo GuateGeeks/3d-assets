@@ -1,6 +1,6 @@
 # Cuerpo humano y salud
 
-29 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+31 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -19,6 +19,8 @@
 | [Pickup Heart](https://poly.pizza/m/Zj4GUkxCG9) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/Zj4GUkxCG9/model.glb) | 0 / 0 |
 | [skull003](https://poly.pizza/m/bjf0z6Qb9Tv) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Jake K-H | [GLB](../../models/bjf0z6Qb9Tv/model.glb) | 0 / 0 |
 | [Skeleton](https://poly.pizza/m/frU5VxsCGZJ) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Alexander Brodin | [GLB](../../models/frU5VxsCGZJ/model.glb) | 0 / 0 |
+| [Envase de limpiador multiuso](https://polyhaven.com/a/all_purpose_cleaner) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kuutti Siitonen | [GLB](../../models/polyhaven-all-purpose-cleaner/model.glb) | 0 / 0 |
+| [Botella de blanqueador](https://polyhaven.com/a/bleach_bottle) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | James Ray Cock | [GLB](../../models/polyhaven-bleach-bottle/model.glb) | 0 / 0 |
 | [Caja de primeros auxilios](https://polyhaven.com/a/medical_box) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Ulan Cabanilla | [GLB](../../models/polyhaven-medical-box/model.glb) | 0 / 0 |
 | [Silla de ruedas](https://polyhaven.com/a/wheelchair_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Garreth Dean | [GLB](../../models/polyhaven-wheelchair-01/model.glb) | 0 / 0 |
 | [Cerebro y tronco encefálico](https://sketchfab.com/3d-models/0aa0e33c5c854d1bab7bac9e1c7acaec) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | FrankJohansson | [GLB](../../models/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/model.glb) | 0 / 0 |

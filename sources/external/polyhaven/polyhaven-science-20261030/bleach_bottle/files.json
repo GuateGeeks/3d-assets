@@ -1,0 +1,834 @@
+{
+  "01_ao": {
+    "8k": {
+      "jpg": {
+        "size": 4007088,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/bleach_bottle/bleach_bottle_01_ao_8k.jpg",
+        "md5": "a4284d684e7d88b087e8aff4294dee4f"
+      },
+      "png": {
+        "size": 25089093,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_ao_8k.png",
+        "md5": "ee946b7a03974532aff1003ca6dbab70"
+      },
+      "exr": {
+        "size": 10142974,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/bleach_bottle/bleach_bottle_01_ao_8k.exr",
+        "md5": "4cacf34f0911a5051da3cc72be338fda"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 1287680,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/bleach_bottle/bleach_bottle_01_ao_4k.jpg",
+        "md5": "5d4bfff6d0150c5cff408322432de843"
+      },
+      "png": {
+        "size": 7163576,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_ao_4k.png",
+        "md5": "73732b011957c7bcd178cef87c9945d2"
+      },
+      "exr": {
+        "size": 3425268,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/bleach_bottle/bleach_bottle_01_ao_4k.exr",
+        "md5": "28696508256a36e26a7609499cc6a441"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 453406,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bleach_bottle/bleach_bottle_01_ao_2k.jpg",
+        "md5": "de590f6969310d159e92cf5c11d74bf2"
+      },
+      "png": {
+        "size": 2404264,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_ao_2k.png",
+        "md5": "db651bd2d0b9219cf5143fc0ae3beb4b"
+      },
+      "exr": {
+        "size": 1119753,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/bleach_bottle/bleach_bottle_01_ao_2k.exr",
+        "md5": "748f1b63e1572c090542a8b8d4e08104"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 119127,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_ao_1k.jpg",
+        "md5": "bcc14e913d01924afdc3daa3a526ddb9"
+      },
+      "png": {
+        "size": 641206,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_ao_1k.png",
+        "md5": "4e7e334dab77ef964439f342095bbbde"
+      },
+      "exr": {
+        "size": 303204,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/bleach_bottle/bleach_bottle_01_ao_1k.exr",
+        "md5": "1fb3330310451c04a5847ef1b00183d1"
+      }
+    }
+  },
+  "01_diff": {
+    "8k": {
+      "jpg": {
+        "size": 15269661,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/bleach_bottle/bleach_bottle_01_diff_8k.jpg",
+        "md5": "3e4ee11aa1d7541e2ad552f6793899c7"
+      },
+      "png": {
+        "size": 95122790,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_diff_8k.png",
+        "md5": "88bc7851804d96b1ee56b6c4730ce981"
+      },
+      "exr": {
+        "size": 31767074,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/bleach_bottle/bleach_bottle_01_diff_8k.exr",
+        "md5": "75eb50f39d78544cbff7105f3905eaee"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 4312651,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/bleach_bottle/bleach_bottle_01_diff_4k.jpg",
+        "md5": "be37bacb72e0b8f9451ebb97272176d3"
+      },
+      "png": {
+        "size": 47270051,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_diff_4k.png",
+        "md5": "410d9dc5d819c7e191364340fae52c80"
+      },
+      "exr": {
+        "size": 8422030,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/bleach_bottle/bleach_bottle_01_diff_4k.exr",
+        "md5": "6f684b894849ea92c4d746253f0023d8"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1273918,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bleach_bottle/bleach_bottle_01_diff_2k.jpg",
+        "md5": "5420750940073b5ff138e4a38772e787"
+      },
+      "png": {
+        "size": 15358426,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_diff_2k.png",
+        "md5": "7f65d4281e90dae075515c939f671fb9"
+      },
+      "exr": {
+        "size": 2515622,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/bleach_bottle/bleach_bottle_01_diff_2k.exr",
+        "md5": "6fd6446710d9e60518ec137a651ce0b5"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 380740,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_diff_1k.jpg",
+        "md5": "60e7803b48d42b7d15b1ff6542f9bdd0"
+      },
+      "png": {
+        "size": 4256500,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_diff_1k.png",
+        "md5": "7d5ca898749307d5bca6bce4cfb7e537"
+      },
+      "exr": {
+        "size": 773079,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/bleach_bottle/bleach_bottle_01_diff_1k.exr",
+        "md5": "76e028ce8ec8f52c20a6669a3f813265"
+      }
+    }
+  },
+  "01_nor_dx": {
+    "8k": {
+      "jpg": {
+        "size": 8382554,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/bleach_bottle/bleach_bottle_01_nor_dx_8k.jpg",
+        "md5": "72178c451ccdcdfe5680311804487a24"
+      },
+      "png": {
+        "size": 150360546,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_nor_dx_8k.png",
+        "md5": "f686e343a6cff481f75cc7082623776d"
+      },
+      "exr": {
+        "size": 12671497,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/bleach_bottle/bleach_bottle_01_nor_dx_8k.exr",
+        "md5": "9d309988a08dd8dfa2626a38716e0edd"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 2724488,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/bleach_bottle/bleach_bottle_01_nor_dx_4k.jpg",
+        "md5": "67289c303fe8e138804fdc36c3982b6e"
+      },
+      "png": {
+        "size": 46476016,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_nor_dx_4k.png",
+        "md5": "19dbe8aefa42f754ef6ce37345aab825"
+      },
+      "exr": {
+        "size": 4426461,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/bleach_bottle/bleach_bottle_01_nor_dx_4k.exr",
+        "md5": "3e087b882f7a4059ea6a73a0e635db3e"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 903311,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bleach_bottle/bleach_bottle_01_nor_dx_2k.jpg",
+        "md5": "286fd14fc7e549ed344b52984557b6a3"
+      },
+      "png": {
+        "size": 13359398,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_nor_dx_2k.png",
+        "md5": "14f8dab037a003bce3d3b0b1f1332ba7"
+      },
+      "exr": {
+        "size": 1595980,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/bleach_bottle/bleach_bottle_01_nor_dx_2k.exr",
+        "md5": "837e3b1558a7953872c8b684274ea74b"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 287439,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_nor_dx_1k.jpg",
+        "md5": "e0dba3b972e1cfcbbcb01b7760951452"
+      },
+      "png": {
+        "size": 3740236,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_nor_dx_1k.png",
+        "md5": "6b582fbd4a8da10c9a02c906ae4c4d3a"
+      },
+      "exr": {
+        "size": 557914,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/bleach_bottle/bleach_bottle_01_nor_dx_1k.exr",
+        "md5": "8c043215a609f7663f2f0b01af584033"
+      }
+    }
+  },
+  "01_nor_gl": {
+    "8k": {
+      "jpg": {
+        "size": 8237819,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/bleach_bottle/bleach_bottle_01_nor_gl_8k.jpg",
+        "md5": "64c8c4c7c0369fa08e284afffeb1c1ff"
+      },
+      "png": {
+        "size": 150359710,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_nor_gl_8k.png",
+        "md5": "04c18c1a580c5cc230461faddea1a81b"
+      },
+      "exr": {
+        "size": 12791337,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/bleach_bottle/bleach_bottle_01_nor_gl_8k.exr",
+        "md5": "ebbb930dabb2e69709a4553a3cc6751e"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 2708400,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/bleach_bottle/bleach_bottle_01_nor_gl_4k.jpg",
+        "md5": "94b9c8bb18a346e9bdad54cf580fee4c"
+      },
+      "png": {
+        "size": 46469712,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_nor_gl_4k.png",
+        "md5": "c49be16babd92f3ae1a9bebbc4f70271"
+      },
+      "exr": {
+        "size": 4460220,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/bleach_bottle/bleach_bottle_01_nor_gl_4k.exr",
+        "md5": "d4fe2de55696b73ae5feba8bf3cd82d7"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 901333,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bleach_bottle/bleach_bottle_01_nor_gl_2k.jpg",
+        "md5": "1d952da6e6adc5033ccd1597e43ee068"
+      },
+      "png": {
+        "size": 13358392,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_nor_gl_2k.png",
+        "md5": "fec6f3401a61e0d517a84aa85d8272a8"
+      },
+      "exr": {
+        "size": 1603532,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/bleach_bottle/bleach_bottle_01_nor_gl_2k.exr",
+        "md5": "c4ba5e94541aae045c866f336fb8baba"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 286558,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_nor_gl_1k.jpg",
+        "md5": "4682b3d1ba972b32992f23aea2db9b4b"
+      },
+      "png": {
+        "size": 3739360,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_nor_gl_1k.png",
+        "md5": "dc1e1f19f560b7081e6f67d8d78b405d"
+      },
+      "exr": {
+        "size": 559874,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/bleach_bottle/bleach_bottle_01_nor_gl_1k.exr",
+        "md5": "9c3cec1e59c5c2eeb1dce52658d42645"
+      }
+    }
+  },
+  "blend": {
+    "8k": {
+      "blend": {
+        "include": {
+          "textures/bleach_bottle_01_nor_gl_8k.png": {
+            "size": 150359710,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_nor_gl_8k.png",
+            "md5": "04c18c1a580c5cc230461faddea1a81b"
+          },
+          "textures/bleach_bottle_01_diff_8k.png": {
+            "size": 95122790,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_diff_8k.png",
+            "md5": "88bc7851804d96b1ee56b6c4730ce981"
+          },
+          "textures/bleach_bottle_01_rough_8k.png": {
+            "size": 25091019,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_rough_8k.png",
+            "md5": "e07138b52881ee61bf019e850e0540dd"
+          }
+        },
+        "size": 197642,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/8k/bleach_bottle/bleach_bottle_8k.blend",
+        "md5": "5cda7a3bf9911fe215c3bd20496e0ee9"
+      }
+    },
+    "4k": {
+      "blend": {
+        "include": {
+          "textures/bleach_bottle_01_rough_4k.png": {
+            "size": 14562585,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_rough_4k.png",
+            "md5": "98762ea085ab187a46e3dfc389c908a2"
+          },
+          "textures/bleach_bottle_01_nor_gl_4k.png": {
+            "size": 46469712,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_nor_gl_4k.png",
+            "md5": "c49be16babd92f3ae1a9bebbc4f70271"
+          },
+          "textures/bleach_bottle_01_diff_4k.png": {
+            "size": 47270051,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_diff_4k.png",
+            "md5": "410d9dc5d819c7e191364340fae52c80"
+          }
+        },
+        "size": 197609,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/bleach_bottle/bleach_bottle_4k.blend",
+        "md5": "ba2f9a21d040a8badf7cc590a11ad859"
+      }
+    },
+    "2k": {
+      "blend": {
+        "include": {
+          "textures/bleach_bottle_01_nor_gl_2k.png": {
+            "size": 13358392,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_nor_gl_2k.png",
+            "md5": "fec6f3401a61e0d517a84aa85d8272a8"
+          },
+          "textures/bleach_bottle_01_rough_2k.png": {
+            "size": 5310870,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_rough_2k.png",
+            "md5": "779c745c40db22722b0a02271f3e9ec0"
+          },
+          "textures/bleach_bottle_01_diff_2k.png": {
+            "size": 15358426,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_diff_2k.png",
+            "md5": "7f65d4281e90dae075515c939f671fb9"
+          }
+        },
+        "size": 197863,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/bleach_bottle/bleach_bottle_2k.blend",
+        "md5": "18fe701ccdf43b5a26bd1a4c3a512aa2"
+      }
+    },
+    "1k": {
+      "blend": {
+        "include": {
+          "textures/bleach_bottle_01_nor_gl_1k.png": {
+            "size": 3739360,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_nor_gl_1k.png",
+            "md5": "dc1e1f19f560b7081e6f67d8d78b405d"
+          },
+          "textures/bleach_bottle_01_rough_1k.png": {
+            "size": 1546648,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_rough_1k.png",
+            "md5": "f9a643eccde457c92db8f51406eaace5"
+          },
+          "textures/bleach_bottle_01_diff_1k.png": {
+            "size": 4256500,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_diff_1k.png",
+            "md5": "7d5ca898749307d5bca6bce4cfb7e537"
+          }
+        },
+        "size": 197930,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/bleach_bottle/bleach_bottle_1k.blend",
+        "md5": "8ee082ecc2cbb6606a5213ad1e398bc4"
+      }
+    }
+  },
+  "gltf": {
+    "8k": {
+      "gltf": {
+        "include": {
+          "bleach_bottle.bin": {
+            "size": 106328,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/bleach_bottle/bleach_bottle.bin",
+            "md5": "7bd04de253508368caf8b94398b4866b"
+          },
+          "textures/bleach_bottle_01_nor_gl_8k.jpg": {
+            "size": 8237819,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/bleach_bottle/bleach_bottle_01_nor_gl_8k.jpg",
+            "md5": "64c8c4c7c0369fa08e284afffeb1c1ff"
+          },
+          "textures/bleach_bottle_01_arm_8k.jpg": {
+            "size": 19330014,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/bleach_bottle/bleach_bottle_01_arm_8k.jpg",
+            "md5": "39d55dbbcee65eee8bdc5fd8faaf6e22"
+          },
+          "textures/bleach_bottle_01_diff_8k.jpg": {
+            "size": 15269661,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/bleach_bottle/bleach_bottle_01_diff_8k.jpg",
+            "md5": "3e4ee11aa1d7541e2ad552f6793899c7"
+          }
+        },
+        "size": 2784,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/bleach_bottle/bleach_bottle_8k.gltf",
+        "md5": "9496d08e8b1eaf616a3ed918d9242100"
+      }
+    },
+    "4k": {
+      "gltf": {
+        "include": {
+          "textures/bleach_bottle_01_arm_4k.jpg": {
+            "size": 5465915,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/bleach_bottle/bleach_bottle_01_arm_4k.jpg",
+            "md5": "2e44de7094f50ae74de12b49760824ab"
+          },
+          "textures/bleach_bottle_01_nor_gl_4k.jpg": {
+            "size": 2708400,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/bleach_bottle/bleach_bottle_01_nor_gl_4k.jpg",
+            "md5": "94b9c8bb18a346e9bdad54cf580fee4c"
+          },
+          "textures/bleach_bottle_01_diff_4k.jpg": {
+            "size": 4312651,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/bleach_bottle/bleach_bottle_01_diff_4k.jpg",
+            "md5": "be37bacb72e0b8f9451ebb97272176d3"
+          },
+          "bleach_bottle.bin": {
+            "size": 106328,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/bleach_bottle/bleach_bottle.bin",
+            "md5": "7bd04de253508368caf8b94398b4866b"
+          }
+        },
+        "size": 2784,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/bleach_bottle/bleach_bottle_4k.gltf",
+        "md5": "43a99a7208f244ba77f357ed903f0393"
+      }
+    },
+    "2k": {
+      "gltf": {
+        "include": {
+          "textures/bleach_bottle_01_diff_2k.jpg": {
+            "size": 1273918,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bleach_bottle/bleach_bottle_01_diff_2k.jpg",
+            "md5": "5420750940073b5ff138e4a38772e787"
+          },
+          "textures/bleach_bottle_01_arm_2k.jpg": {
+            "size": 1644609,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bleach_bottle/bleach_bottle_01_arm_2k.jpg",
+            "md5": "e5a5ff0d5a765b535a9b387ea69290d3"
+          },
+          "bleach_bottle.bin": {
+            "size": 106328,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/bleach_bottle/bleach_bottle.bin",
+            "md5": "7bd04de253508368caf8b94398b4866b"
+          },
+          "textures/bleach_bottle_01_nor_gl_2k.jpg": {
+            "size": 901333,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bleach_bottle/bleach_bottle_01_nor_gl_2k.jpg",
+            "md5": "1d952da6e6adc5033ccd1597e43ee068"
+          }
+        },
+        "size": 2784,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/bleach_bottle/bleach_bottle_2k.gltf",
+        "md5": "08431a9a05e7ee4f34df650d75060771"
+      }
+    },
+    "1k": {
+      "gltf": {
+        "include": {
+          "textures/bleach_bottle_01_nor_gl_1k.jpg": {
+            "size": 286558,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_nor_gl_1k.jpg",
+            "md5": "4682b3d1ba972b32992f23aea2db9b4b"
+          },
+          "bleach_bottle.bin": {
+            "size": 106328,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/bleach_bottle/bleach_bottle.bin",
+            "md5": "7bd04de253508368caf8b94398b4866b"
+          },
+          "textures/bleach_bottle_01_diff_1k.jpg": {
+            "size": 380740,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_diff_1k.jpg",
+            "md5": "60e7803b48d42b7d15b1ff6542f9bdd0"
+          },
+          "textures/bleach_bottle_01_arm_1k.jpg": {
+            "size": 492206,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_arm_1k.jpg",
+            "md5": "7cff1041765fc4594bfbb511b248c111"
+          }
+        },
+        "size": 2784,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bleach_bottle/bleach_bottle_1k.gltf",
+        "md5": "4e73c623f3344086c701ba2693ec852b"
+      }
+    }
+  },
+  "usd": {
+    "8k": {
+      "usd": {
+        "include": {
+          "textures/bleach_bottle_01_nor_gl_8k.png": {
+            "size": 150359710,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_nor_gl_8k.png",
+            "md5": "04c18c1a580c5cc230461faddea1a81b"
+          },
+          "textures/bleach_bottle_01_diff_8k.png": {
+            "size": 95122790,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_diff_8k.png",
+            "md5": "88bc7851804d96b1ee56b6c4730ce981"
+          },
+          "textures/bleach_bottle_01_rough_8k.png": {
+            "size": 25091019,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_rough_8k.png",
+            "md5": "e07138b52881ee61bf019e850e0540dd"
+          }
+        },
+        "size": 200900,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/8k/bleach_bottle/bleach_bottle_8k.usdc",
+        "md5": "d2546e4369fdccf7307a6faa65da96e6"
+      }
+    },
+    "4k": {
+      "usd": {
+        "include": {
+          "textures/bleach_bottle_01_rough_4k.png": {
+            "size": 14562585,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_rough_4k.png",
+            "md5": "98762ea085ab187a46e3dfc389c908a2"
+          },
+          "textures/bleach_bottle_01_nor_gl_4k.png": {
+            "size": 46469712,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_nor_gl_4k.png",
+            "md5": "c49be16babd92f3ae1a9bebbc4f70271"
+          },
+          "textures/bleach_bottle_01_diff_4k.png": {
+            "size": 47270051,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_diff_4k.png",
+            "md5": "410d9dc5d819c7e191364340fae52c80"
+          }
+        },
+        "size": 200923,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/bleach_bottle/bleach_bottle_4k.usdc",
+        "md5": "73ce553c4368d91c21136598053e48a6"
+      }
+    },
+    "2k": {
+      "usd": {
+        "include": {
+          "textures/bleach_bottle_01_nor_gl_2k.png": {
+            "size": 13358392,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_nor_gl_2k.png",
+            "md5": "fec6f3401a61e0d517a84aa85d8272a8"
+          },
+          "textures/bleach_bottle_01_rough_2k.png": {
+            "size": 5310870,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_rough_2k.png",
+            "md5": "779c745c40db22722b0a02271f3e9ec0"
+          },
+          "textures/bleach_bottle_01_diff_2k.png": {
+            "size": 15358426,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_diff_2k.png",
+            "md5": "7f65d4281e90dae075515c939f671fb9"
+          }
+        },
+        "size": 200900,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/bleach_bottle/bleach_bottle_2k.usdc",
+        "md5": "8aff5c952489e9ee319f0d4e02befa7b"
+      }
+    },
+    "1k": {
+      "usd": {
+        "include": {
+          "textures/bleach_bottle_01_nor_gl_1k.png": {
+            "size": 3739360,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_nor_gl_1k.png",
+            "md5": "dc1e1f19f560b7081e6f67d8d78b405d"
+          },
+          "textures/bleach_bottle_01_rough_1k.png": {
+            "size": 1546648,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_rough_1k.png",
+            "md5": "f9a643eccde457c92db8f51406eaace5"
+          },
+          "textures/bleach_bottle_01_diff_1k.png": {
+            "size": 4256500,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_diff_1k.png",
+            "md5": "7d5ca898749307d5bca6bce4cfb7e537"
+          }
+        },
+        "size": 200900,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/bleach_bottle/bleach_bottle_1k.usdc",
+        "md5": "527f6dd0bdecbc3c2d81328df6fc6236"
+      }
+    }
+  },
+  "01_arm": {
+    "8k": {
+      "jpg": {
+        "size": 19330014,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/bleach_bottle/bleach_bottle_01_arm_8k.jpg",
+        "md5": "39d55dbbcee65eee8bdc5fd8faaf6e22"
+      },
+      "png": {
+        "size": 68027306,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_arm_8k.png",
+        "md5": "201117c65a67227ee5b96a95e67a2c3a"
+      },
+      "exr": {
+        "size": 39365913,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/bleach_bottle/bleach_bottle_01_arm_8k.exr",
+        "md5": "e11b2f438c817d99201f1dc059efef8e"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 5465915,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/bleach_bottle/bleach_bottle_01_arm_4k.jpg",
+        "md5": "2e44de7094f50ae74de12b49760824ab"
+      },
+      "png": {
+        "size": 29082606,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_arm_4k.png",
+        "md5": "f6d053ad55501035989b475df3792586"
+      },
+      "exr": {
+        "size": 10589107,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/bleach_bottle/bleach_bottle_01_arm_4k.exr",
+        "md5": "69e0f9bb6a1350618ef6bee5e9dce7c7"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1644609,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bleach_bottle/bleach_bottle_01_arm_2k.jpg",
+        "md5": "e5a5ff0d5a765b535a9b387ea69290d3"
+      },
+      "png": {
+        "size": 9749097,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_arm_2k.png",
+        "md5": "c9c65d387283c2e8ce1180536f773555"
+      },
+      "exr": {
+        "size": 3294956,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/bleach_bottle/bleach_bottle_01_arm_2k.exr",
+        "md5": "4b218353467e7025dc32bf4b1a299161"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 492206,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_arm_1k.jpg",
+        "md5": "7cff1041765fc4594bfbb511b248c111"
+      },
+      "png": {
+        "size": 2720877,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_arm_1k.png",
+        "md5": "ea4a00e2a3c5af54d0119b8d86970c1d"
+      },
+      "exr": {
+        "size": 1069187,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/bleach_bottle/bleach_bottle_01_arm_1k.exr",
+        "md5": "ae378f4a5aab9f5f5c6f658a74d0012a"
+      }
+    }
+  },
+  "01_rough": {
+    "8k": {
+      "jpg": {
+        "size": 18348736,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/bleach_bottle/bleach_bottle_01_rough_8k.jpg",
+        "md5": "de72d1b6a396928f50280acaffbadd00"
+      },
+      "png": {
+        "size": 25091019,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_rough_8k.png",
+        "md5": "e07138b52881ee61bf019e850e0540dd"
+      },
+      "exr": {
+        "size": 28619837,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/bleach_bottle/bleach_bottle_01_rough_8k.exr",
+        "md5": "59fdd8ba0e43bf2672ce2458b9c995df"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 4918053,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/bleach_bottle/bleach_bottle_01_rough_4k.jpg",
+        "md5": "96dd9b588d53185edc48cf1caf358446"
+      },
+      "png": {
+        "size": 14562585,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_rough_4k.png",
+        "md5": "98762ea085ab187a46e3dfc389c908a2"
+      },
+      "exr": {
+        "size": 11085611,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/bleach_bottle/bleach_bottle_01_rough_4k.exr",
+        "md5": "4e1e7e7ef8645bca0e892d789f1b0ad6"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1407362,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/bleach_bottle/bleach_bottle_01_rough_2k.jpg",
+        "md5": "114493111011e59b58e1b70fbc9d6000"
+      },
+      "png": {
+        "size": 5310870,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_rough_2k.png",
+        "md5": "779c745c40db22722b0a02271f3e9ec0"
+      },
+      "exr": {
+        "size": 3726024,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/bleach_bottle/bleach_bottle_01_rough_2k.exr",
+        "md5": "11b4adf78d4a637382dcf10d4df7ea10"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 418379,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_rough_1k.jpg",
+        "md5": "34d386e3e66767954b67d5d9f061d055"
+      },
+      "png": {
+        "size": 1546648,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_rough_1k.png",
+        "md5": "f9a643eccde457c92db8f51406eaace5"
+      },
+      "exr": {
+        "size": 1038368,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/bleach_bottle/bleach_bottle_01_rough_1k.exr",
+        "md5": "6386bba152c9d53cfdfa89f7b084880e"
+      }
+    }
+  },
+  "fbx": {
+    "8k": {
+      "fbx": {
+        "include": {
+          "textures/bleach_bottle_01_nor_gl_8k.png": {
+            "size": 150359710,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_nor_gl_8k.png",
+            "md5": "04c18c1a580c5cc230461faddea1a81b"
+          },
+          "textures/bleach_bottle_01_diff_8k.png": {
+            "size": 95122790,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_diff_8k.png",
+            "md5": "88bc7851804d96b1ee56b6c4730ce981"
+          },
+          "textures/bleach_bottle_01_rough_8k.png": {
+            "size": 25091019,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/bleach_bottle/bleach_bottle_01_rough_8k.png",
+            "md5": "e07138b52881ee61bf019e850e0540dd"
+          }
+        },
+        "size": 141132,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/8k/bleach_bottle/bleach_bottle_8k.fbx",
+        "md5": "0b7899a6ebab579e4830a8328a86e41b"
+      }
+    },
+    "4k": {
+      "fbx": {
+        "include": {
+          "textures/bleach_bottle_01_rough_4k.png": {
+            "size": 14562585,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_rough_4k.png",
+            "md5": "98762ea085ab187a46e3dfc389c908a2"
+          },
+          "textures/bleach_bottle_01_nor_gl_4k.png": {
+            "size": 46469712,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_nor_gl_4k.png",
+            "md5": "c49be16babd92f3ae1a9bebbc4f70271"
+          },
+          "textures/bleach_bottle_01_diff_4k.png": {
+            "size": 47270051,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/bleach_bottle/bleach_bottle_01_diff_4k.png",
+            "md5": "410d9dc5d819c7e191364340fae52c80"
+          }
+        },
+        "size": 141132,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/bleach_bottle/bleach_bottle_4k.fbx",
+        "md5": "e32b5688cafc488eb68c3b6e717b5b65"
+      }
+    },
+    "2k": {
+      "fbx": {
+        "include": {
+          "textures/bleach_bottle_01_nor_gl_2k.png": {
+            "size": 13358392,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_nor_gl_2k.png",
+            "md5": "fec6f3401a61e0d517a84aa85d8272a8"
+          },
+          "textures/bleach_bottle_01_rough_2k.png": {
+            "size": 5310870,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_rough_2k.png",
+            "md5": "779c745c40db22722b0a02271f3e9ec0"
+          },
+          "textures/bleach_bottle_01_diff_2k.png": {
+            "size": 15358426,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/bleach_bottle/bleach_bottle_01_diff_2k.png",
+            "md5": "7f65d4281e90dae075515c939f671fb9"
+          }
+        },
+        "size": 141132,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/bleach_bottle/bleach_bottle_2k.fbx",
+        "md5": "28f9ae05e559454e20d5d0058076563b"
+      }
+    },
+    "1k": {
+      "fbx": {
+        "include": {
+          "textures/bleach_bottle_01_rough_1k.png": {
+            "size": 1546648,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_rough_1k.png",
+            "md5": "f9a643eccde457c92db8f51406eaace5"
+          },
+          "textures/bleach_bottle_01_nor_gl_1k.png": {
+            "size": 3739360,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_nor_gl_1k.png",
+            "md5": "dc1e1f19f560b7081e6f67d8d78b405d"
+          },
+          "textures/bleach_bottle_01_diff_1k.png": {
+            "size": 4256500,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/bleach_bottle/bleach_bottle_01_diff_1k.png",
+            "md5": "7d5ca898749307d5bca6bce4cfb7e537"
+          }
+        },
+        "size": 141132,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/bleach_bottle/bleach_bottle_1k.fbx",
+        "md5": "360229ddf5be7e89de7a7f2279433604"
+      }
+    }
+  }
+}

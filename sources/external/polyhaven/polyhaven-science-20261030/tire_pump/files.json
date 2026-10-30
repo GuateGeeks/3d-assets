@@ -1,0 +1,964 @@
+{
+  "Diffuse": {
+    "8k": {
+      "jpg": {
+        "size": 24761075,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_diff_8k.jpg",
+        "md5": "528cd21cb4c68877c8460ecc5afcf29e"
+      },
+      "png": {
+        "size": 85014825,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/tire_pump/tire_pump_diff_8k.png",
+        "md5": "1d96c73cd0931e9110ad3eed9fa6b952"
+      },
+      "exr": {
+        "size": 34725655,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_diff_8k.exr",
+        "md5": "98efe0731e1602194be49d9fc5ad9981"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 5497389,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_diff_4k.jpg",
+        "md5": "a40701796edfee9afe48954e785343df"
+      },
+      "png": {
+        "size": 28120948,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/tire_pump/tire_pump_diff_4k.png",
+        "md5": "745ad83ecb7d1b9463d53dded4aff5be"
+      },
+      "exr": {
+        "size": 8034861,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_diff_4k.exr",
+        "md5": "9d99e4c5754144c4dd409622b733641b"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1298757,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_diff_2k.jpg",
+        "md5": "5be5790878f3dcb4a690d9fa0012183f"
+      },
+      "png": {
+        "size": 7903644,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/tire_pump/tire_pump_diff_2k.png",
+        "md5": "96e83db46c0fcd61aca8478735ba2c88"
+      },
+      "exr": {
+        "size": 1972164,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_diff_2k.exr",
+        "md5": "df2ac1c9a4d8f0b52a297e416d64545e"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 337653,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_diff_1k.jpg",
+        "md5": "8ae7aa6d3a944df392c143489e687e80"
+      },
+      "png": {
+        "size": 2144540,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/tire_pump/tire_pump_diff_1k.png",
+        "md5": "a014efb624c8db0bbb1b3dc072bd8d89"
+      },
+      "exr": {
+        "size": 530766,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_diff_1k.exr",
+        "md5": "8e17b50e4260c3bc95f42a4a806d6fda"
+      }
+    }
+  },
+  "nor_dx": {
+    "8k": {
+      "jpg": {
+        "size": 50330701,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_nor_dx_8k.jpg",
+        "md5": "86b999157e5b102189599c09bdce8e7f"
+      },
+      "png": {
+        "size": 262559898,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/tire_pump/tire_pump_nor_dx_8k.png",
+        "md5": "2e3f679cb57cc73aaacd2b88b12a25b0"
+      },
+      "exr": {
+        "size": 108216651,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_nor_dx_8k.exr",
+        "md5": "86c107deba71e62179889107955528c3"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 10433774,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_nor_dx_4k.jpg",
+        "md5": "c7ff5ed762f5b4e8a8c1ab4bc23c9a7f"
+      },
+      "png": {
+        "size": 72089920,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/tire_pump/tire_pump_nor_dx_4k.png",
+        "md5": "9788625ac5b9aa80e7134aa77927caef"
+      },
+      "exr": {
+        "size": 24364523,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_nor_dx_4k.exr",
+        "md5": "a9bfca3d8dca303dae1bdbb376c56e14"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2294089,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_nor_dx_2k.jpg",
+        "md5": "fc8164196cae98665b66e74fde121060"
+      },
+      "png": {
+        "size": 18849247,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/tire_pump/tire_pump_nor_dx_2k.png",
+        "md5": "2936e140a0205acdbafaa8af0981245d"
+      },
+      "exr": {
+        "size": 5510297,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_nor_dx_2k.exr",
+        "md5": "4bfb1cedb4f28df37c2061e48427b936"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 568486,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_nor_dx_1k.jpg",
+        "md5": "f6db17047a36c46a9f081e18c9f4b494"
+      },
+      "png": {
+        "size": 4758682,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/tire_pump/tire_pump_nor_dx_1k.png",
+        "md5": "ec186aa634a9618c1d1e0b0916a5faae"
+      },
+      "exr": {
+        "size": 1281518,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_nor_dx_1k.exr",
+        "md5": "a0631575b692144a7446a4f676852f6c"
+      }
+    }
+  },
+  "nor_gl": {
+    "8k": {
+      "jpg": {
+        "size": 50093466,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_nor_gl_8k.jpg",
+        "md5": "d2b5cd5311f1997220fc60e848ed7bdf"
+      },
+      "png": {
+        "size": 261256069,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/tire_pump/tire_pump_nor_gl_8k.png",
+        "md5": "6c6eb9b0641d26d078ef48115b55fcd8"
+      },
+      "exr": {
+        "size": 108041328,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_nor_gl_8k.exr",
+        "md5": "a170099f2e87ba729c831742bd3c4b2e"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 10409061,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_nor_gl_4k.jpg",
+        "md5": "600d6a9c2c78511ef570c70ad90ce919"
+      },
+      "png": {
+        "size": 71593810,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/tire_pump/tire_pump_nor_gl_4k.png",
+        "md5": "2290f69a9868ca033e40caf43cf5b8c3"
+      },
+      "exr": {
+        "size": 24443279,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_nor_gl_4k.exr",
+        "md5": "585f46de133a6977984506a640b8a73b"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2291924,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_nor_gl_2k.jpg",
+        "md5": "a428b33d26d701713ac4d790d576e6fc"
+      },
+      "png": {
+        "size": 18634458,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/tire_pump/tire_pump_nor_gl_2k.png",
+        "md5": "1c6fca73dbbad7dfda4cdceb64135ffb"
+      },
+      "exr": {
+        "size": 5519802,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_nor_gl_2k.exr",
+        "md5": "6d11b11d9c19eeeea60a1e554fd4e310"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 569506,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_nor_gl_1k.jpg",
+        "md5": "c32ed52dff5d84feaaf9d5b9f484afef"
+      },
+      "png": {
+        "size": 4723488,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/tire_pump/tire_pump_nor_gl_1k.png",
+        "md5": "1432b043a51947b7ed016ee8f914ce03"
+      },
+      "exr": {
+        "size": 1282360,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_nor_gl_1k.exr",
+        "md5": "d6630d1feb366976d77b4212de81df76"
+      }
+    }
+  },
+  "blend": {
+    "8k": {
+      "blend": {
+        "include": {
+          "textures/tire_pump_metal_8k.exr": {
+            "size": 645843,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_metal_8k.exr",
+            "md5": "2593652bb3cdc576003b019a9206665a"
+          },
+          "textures/tire_pump_diff_8k.jpg": {
+            "size": 24761075,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_diff_8k.jpg",
+            "md5": "528cd21cb4c68877c8460ecc5afcf29e"
+          },
+          "textures/tire_pump_rough_8k.exr": {
+            "size": 41038913,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_rough_8k.exr",
+            "md5": "a7bcaa42aaea65846c42f7f73f5c0d5a"
+          },
+          "textures/tire_pump_nor_gl_8k.exr": {
+            "size": 108041328,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_nor_gl_8k.exr",
+            "md5": "a170099f2e87ba729c831742bd3c4b2e"
+          }
+        },
+        "size": 266198,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/8k/tire_pump/tire_pump_8k.blend",
+        "md5": "1216a03c739a82f1a63c96b61fb54572"
+      }
+    },
+    "4k": {
+      "blend": {
+        "include": {
+          "textures/tire_pump_rough_4k.exr": {
+            "size": 13333810,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_rough_4k.exr",
+            "md5": "69c4d3cd6a332e980ab4fdaf6755b415"
+          },
+          "textures/tire_pump_nor_gl_4k.exr": {
+            "size": 24443279,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_nor_gl_4k.exr",
+            "md5": "585f46de133a6977984506a640b8a73b"
+          },
+          "textures/tire_pump_metal_4k.exr": {
+            "size": 275444,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_metal_4k.exr",
+            "md5": "7e2bc8523fde073e891489df2c2522c0"
+          },
+          "textures/tire_pump_diff_4k.jpg": {
+            "size": 5497389,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_diff_4k.jpg",
+            "md5": "a40701796edfee9afe48954e785343df"
+          }
+        },
+        "size": 265850,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/tire_pump/tire_pump_4k.blend",
+        "md5": "d631d7c74da027511bd0c215ccd3a4e6"
+      }
+    },
+    "2k": {
+      "blend": {
+        "include": {
+          "textures/tire_pump_diff_2k.jpg": {
+            "size": 1298757,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_diff_2k.jpg",
+            "md5": "5be5790878f3dcb4a690d9fa0012183f"
+          },
+          "textures/tire_pump_rough_2k.exr": {
+            "size": 3937206,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_rough_2k.exr",
+            "md5": "6054eb19e971dd1d42bcaa1162d2024f"
+          },
+          "textures/tire_pump_nor_gl_2k.exr": {
+            "size": 5519802,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_nor_gl_2k.exr",
+            "md5": "6d11b11d9c19eeeea60a1e554fd4e310"
+          },
+          "textures/tire_pump_metal_2k.exr": {
+            "size": 116734,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_metal_2k.exr",
+            "md5": "de013e286e93035d8c4d2def1c0ec325"
+          }
+        },
+        "size": 266143,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/tire_pump/tire_pump_2k.blend",
+        "md5": "08e010df283db95dfe64b22075d31528"
+      }
+    },
+    "1k": {
+      "blend": {
+        "include": {
+          "textures/tire_pump_nor_gl_1k.exr": {
+            "size": 1282360,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_nor_gl_1k.exr",
+            "md5": "d6630d1feb366976d77b4212de81df76"
+          },
+          "textures/tire_pump_diff_1k.jpg": {
+            "size": 337653,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_diff_1k.jpg",
+            "md5": "8ae7aa6d3a944df392c143489e687e80"
+          },
+          "textures/tire_pump_metal_1k.exr": {
+            "size": 49591,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_metal_1k.exr",
+            "md5": "792302a6a2826f81fd816ce63090fa91"
+          },
+          "textures/tire_pump_rough_1k.exr": {
+            "size": 1020085,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_rough_1k.exr",
+            "md5": "e3710ba614da070cae13847119c0307b"
+          }
+        },
+        "size": 266102,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/tire_pump/tire_pump_1k.blend",
+        "md5": "c94751bd8482cad9666eb7131644722a"
+      }
+    }
+  },
+  "gltf": {
+    "8k": {
+      "gltf": {
+        "include": {
+          "textures/tire_pump_diff_8k.jpg": {
+            "size": 24761075,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_diff_8k.jpg",
+            "md5": "528cd21cb4c68877c8460ecc5afcf29e"
+          },
+          "tire_pump.bin": {
+            "size": 193896,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/tire_pump/tire_pump.bin",
+            "md5": "cba7becc59603a3eea1eceafe6db8718"
+          },
+          "textures/tire_pump_nor_gl_8k.jpg": {
+            "size": 50093466,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_nor_gl_8k.jpg",
+            "md5": "d2b5cd5311f1997220fc60e848ed7bdf"
+          },
+          "textures/tire_pump_arm_8k.jpg": {
+            "size": 31776805,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_arm_8k.jpg",
+            "md5": "f24e62adb7b7f9528709127211292c6e"
+          }
+        },
+        "size": 2735,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/tire_pump/tire_pump_8k.gltf",
+        "md5": "0ef5a9f376553ad59d601d97f897c02e"
+      }
+    },
+    "4k": {
+      "gltf": {
+        "include": {
+          "textures/tire_pump_nor_gl_4k.jpg": {
+            "size": 10409061,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_nor_gl_4k.jpg",
+            "md5": "600d6a9c2c78511ef570c70ad90ce919"
+          },
+          "textures/tire_pump_arm_4k.jpg": {
+            "size": 7939315,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_arm_4k.jpg",
+            "md5": "7e319fcc2ccdd1903f45162e6d6dbf87"
+          },
+          "tire_pump.bin": {
+            "size": 193896,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/tire_pump/tire_pump.bin",
+            "md5": "cba7becc59603a3eea1eceafe6db8718"
+          },
+          "textures/tire_pump_diff_4k.jpg": {
+            "size": 5497389,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_diff_4k.jpg",
+            "md5": "a40701796edfee9afe48954e785343df"
+          }
+        },
+        "size": 2735,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/tire_pump/tire_pump_4k.gltf",
+        "md5": "e500cb5acbc2e4fe60722c6f9e99765e"
+      }
+    },
+    "2k": {
+      "gltf": {
+        "include": {
+          "textures/tire_pump_diff_2k.jpg": {
+            "size": 1298757,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_diff_2k.jpg",
+            "md5": "5be5790878f3dcb4a690d9fa0012183f"
+          },
+          "textures/tire_pump_nor_gl_2k.jpg": {
+            "size": 2291924,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_nor_gl_2k.jpg",
+            "md5": "a428b33d26d701713ac4d790d576e6fc"
+          },
+          "tire_pump.bin": {
+            "size": 193896,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/tire_pump/tire_pump.bin",
+            "md5": "cba7becc59603a3eea1eceafe6db8718"
+          },
+          "textures/tire_pump_arm_2k.jpg": {
+            "size": 2032154,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_arm_2k.jpg",
+            "md5": "c8863808acae8f15472076f1050a21b0"
+          }
+        },
+        "size": 2735,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/tire_pump/tire_pump_2k.gltf",
+        "md5": "67887270624abbe575a75de5864b2029"
+      }
+    },
+    "1k": {
+      "gltf": {
+        "include": {
+          "textures/tire_pump_nor_gl_1k.jpg": {
+            "size": 569506,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_nor_gl_1k.jpg",
+            "md5": "c32ed52dff5d84feaaf9d5b9f484afef"
+          },
+          "tire_pump.bin": {
+            "size": 193896,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/tire_pump/tire_pump.bin",
+            "md5": "cba7becc59603a3eea1eceafe6db8718"
+          },
+          "textures/tire_pump_diff_1k.jpg": {
+            "size": 337653,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_diff_1k.jpg",
+            "md5": "8ae7aa6d3a944df392c143489e687e80"
+          },
+          "textures/tire_pump_arm_1k.jpg": {
+            "size": 562270,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_arm_1k.jpg",
+            "md5": "2abfded0197ac1a387597a225bca2365"
+          }
+        },
+        "size": 2735,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/tire_pump/tire_pump_1k.gltf",
+        "md5": "2f9c8a311f28624f5d3cd432e1ef0bc9"
+      }
+    }
+  },
+  "usd": {
+    "8k": {
+      "usd": {
+        "include": {
+          "textures/tire_pump_metal_8k.exr": {
+            "size": 645843,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_metal_8k.exr",
+            "md5": "2593652bb3cdc576003b019a9206665a"
+          },
+          "textures/tire_pump_diff_8k.jpg": {
+            "size": 24761075,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_diff_8k.jpg",
+            "md5": "528cd21cb4c68877c8460ecc5afcf29e"
+          },
+          "textures/tire_pump_rough_8k.exr": {
+            "size": 41038913,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_rough_8k.exr",
+            "md5": "a7bcaa42aaea65846c42f7f73f5c0d5a"
+          },
+          "textures/tire_pump_nor_gl_8k.exr": {
+            "size": 108041328,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_nor_gl_8k.exr",
+            "md5": "a170099f2e87ba729c831742bd3c4b2e"
+          }
+        },
+        "size": 331073,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/8k/tire_pump/tire_pump_8k.usdc",
+        "md5": "e736a4a809756c580318755c2fe8e97f"
+      }
+    },
+    "4k": {
+      "usd": {
+        "include": {
+          "textures/tire_pump_rough_4k.exr": {
+            "size": 13333810,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_rough_4k.exr",
+            "md5": "69c4d3cd6a332e980ab4fdaf6755b415"
+          },
+          "textures/tire_pump_nor_gl_4k.exr": {
+            "size": 24443279,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_nor_gl_4k.exr",
+            "md5": "585f46de133a6977984506a640b8a73b"
+          },
+          "textures/tire_pump_metal_4k.exr": {
+            "size": 275444,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_metal_4k.exr",
+            "md5": "7e2bc8523fde073e891489df2c2522c0"
+          },
+          "textures/tire_pump_diff_4k.jpg": {
+            "size": 5497389,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_diff_4k.jpg",
+            "md5": "a40701796edfee9afe48954e785343df"
+          }
+        },
+        "size": 331073,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/tire_pump/tire_pump_4k.usdc",
+        "md5": "b6e67e6888ed35d4c0bc8635a5ea41c3"
+      }
+    },
+    "2k": {
+      "usd": {
+        "include": {
+          "textures/tire_pump_diff_2k.jpg": {
+            "size": 1298757,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_diff_2k.jpg",
+            "md5": "5be5790878f3dcb4a690d9fa0012183f"
+          },
+          "textures/tire_pump_rough_2k.exr": {
+            "size": 3937206,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_rough_2k.exr",
+            "md5": "6054eb19e971dd1d42bcaa1162d2024f"
+          },
+          "textures/tire_pump_nor_gl_2k.exr": {
+            "size": 5519802,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_nor_gl_2k.exr",
+            "md5": "6d11b11d9c19eeeea60a1e554fd4e310"
+          },
+          "textures/tire_pump_metal_2k.exr": {
+            "size": 116734,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_metal_2k.exr",
+            "md5": "de013e286e93035d8c4d2def1c0ec325"
+          }
+        },
+        "size": 331087,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/tire_pump/tire_pump_2k.usdc",
+        "md5": "dbb1b0c3a404b9331f46de70c6a1134d"
+      }
+    },
+    "1k": {
+      "usd": {
+        "include": {
+          "textures/tire_pump_nor_gl_1k.exr": {
+            "size": 1282360,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_nor_gl_1k.exr",
+            "md5": "d6630d1feb366976d77b4212de81df76"
+          },
+          "textures/tire_pump_diff_1k.jpg": {
+            "size": 337653,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_diff_1k.jpg",
+            "md5": "8ae7aa6d3a944df392c143489e687e80"
+          },
+          "textures/tire_pump_metal_1k.exr": {
+            "size": 49591,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_metal_1k.exr",
+            "md5": "792302a6a2826f81fd816ce63090fa91"
+          },
+          "textures/tire_pump_rough_1k.exr": {
+            "size": 1020085,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_rough_1k.exr",
+            "md5": "e3710ba614da070cae13847119c0307b"
+          }
+        },
+        "size": 331087,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/tire_pump/tire_pump_1k.usdc",
+        "md5": "13db2025c3aeeed5d6229aa138652579"
+      }
+    }
+  },
+  "Metal": {
+    "8k": {
+      "jpg": {
+        "size": 1228216,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_metal_8k.jpg",
+        "md5": "3a48aecbc805700d2846024ba3e73b1b"
+      },
+      "png": {
+        "size": 504114,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/tire_pump/tire_pump_metal_8k.png",
+        "md5": "fc890a634eeed19cfbb90d5f6e7e58d4"
+      },
+      "exr": {
+        "size": 645843,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_metal_8k.exr",
+        "md5": "2593652bb3cdc576003b019a9206665a"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 373137,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_metal_4k.jpg",
+        "md5": "6e9e608bed92311f22807b81dfd163ff"
+      },
+      "png": {
+        "size": 237532,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/tire_pump/tire_pump_metal_4k.png",
+        "md5": "732612198bbdbdca205c5fb948a9d3fa"
+      },
+      "exr": {
+        "size": 275444,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_metal_4k.exr",
+        "md5": "7e2bc8523fde073e891489df2c2522c0"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 114981,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_metal_2k.jpg",
+        "md5": "2866bc3b9f2e3842742a7e61eaa8d1a2"
+      },
+      "png": {
+        "size": 92918,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/tire_pump/tire_pump_metal_2k.png",
+        "md5": "d6e776ce7581642a3a3532ae08c90d50"
+      },
+      "exr": {
+        "size": 116734,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_metal_2k.exr",
+        "md5": "de013e286e93035d8c4d2def1c0ec325"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 34855,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_metal_1k.jpg",
+        "md5": "8927905b14ce6e204e2acf6a72fe154d"
+      },
+      "png": {
+        "size": 38213,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/tire_pump/tire_pump_metal_1k.png",
+        "md5": "1b0aefb28ff80c2933ae64ff32c33ad5"
+      },
+      "exr": {
+        "size": 49591,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_metal_1k.exr",
+        "md5": "792302a6a2826f81fd816ce63090fa91"
+      }
+    }
+  },
+  "arm": {
+    "8k": {
+      "jpg": {
+        "size": 31776805,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_arm_8k.jpg",
+        "md5": "f24e62adb7b7f9528709127211292c6e"
+      },
+      "png": {
+        "size": 53499854,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/tire_pump/tire_pump_arm_8k.png",
+        "md5": "9da0ca71f417ec40f7d74026f5a16221"
+      },
+      "exr": {
+        "size": 77723046,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_arm_8k.exr",
+        "md5": "88479db74d6159afa0ed34c879ce7724"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 7939315,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_arm_4k.jpg",
+        "md5": "7e319fcc2ccdd1903f45162e6d6dbf87"
+      },
+      "png": {
+        "size": 15640497,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/tire_pump/tire_pump_arm_4k.png",
+        "md5": "f7df04b87c478649f48c415ef8b82224"
+      },
+      "exr": {
+        "size": 19357868,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_arm_4k.exr",
+        "md5": "e87775dba264ea7a7bcf0e95e810203a"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2032154,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_arm_2k.jpg",
+        "md5": "c8863808acae8f15472076f1050a21b0"
+      },
+      "png": {
+        "size": 3913664,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/tire_pump/tire_pump_arm_2k.png",
+        "md5": "7e1e2659245fffd640e714e79b7d3e58"
+      },
+      "exr": {
+        "size": 4715815,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_arm_2k.exr",
+        "md5": "bb986ac12f4e90930c6097ed78897bd8"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 562270,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_arm_1k.jpg",
+        "md5": "2abfded0197ac1a387597a225bca2365"
+      },
+      "png": {
+        "size": 998791,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/tire_pump/tire_pump_arm_1k.png",
+        "md5": "52789e15437ce5d8e5234d73f4568f2e"
+      },
+      "exr": {
+        "size": 1272972,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_arm_1k.exr",
+        "md5": "b6f4626ffe50eacb3be10f40dec59325"
+      }
+    }
+  },
+  "fbx": {
+    "8k": {
+      "fbx": {
+        "include": {
+          "textures/tire_pump_metal_8k.exr": {
+            "size": 645843,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_metal_8k.exr",
+            "md5": "2593652bb3cdc576003b019a9206665a"
+          },
+          "textures/tire_pump_diff_8k.jpg": {
+            "size": 24761075,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_diff_8k.jpg",
+            "md5": "528cd21cb4c68877c8460ecc5afcf29e"
+          },
+          "textures/tire_pump_rough_8k.exr": {
+            "size": 41038913,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_rough_8k.exr",
+            "md5": "a7bcaa42aaea65846c42f7f73f5c0d5a"
+          },
+          "textures/tire_pump_nor_gl_8k.exr": {
+            "size": 108041328,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_nor_gl_8k.exr",
+            "md5": "a170099f2e87ba729c831742bd3c4b2e"
+          }
+        },
+        "size": 227068,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/8k/tire_pump/tire_pump_8k.fbx",
+        "md5": "3102c85ba794b7aa536f862ab7e33d70"
+      }
+    },
+    "4k": {
+      "fbx": {
+        "include": {
+          "textures/tire_pump_rough_4k.exr": {
+            "size": 13333810,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_rough_4k.exr",
+            "md5": "69c4d3cd6a332e980ab4fdaf6755b415"
+          },
+          "textures/tire_pump_nor_gl_4k.exr": {
+            "size": 24443279,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_nor_gl_4k.exr",
+            "md5": "585f46de133a6977984506a640b8a73b"
+          },
+          "textures/tire_pump_metal_4k.exr": {
+            "size": 275444,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_metal_4k.exr",
+            "md5": "7e2bc8523fde073e891489df2c2522c0"
+          },
+          "textures/tire_pump_diff_4k.jpg": {
+            "size": 5497389,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_diff_4k.jpg",
+            "md5": "a40701796edfee9afe48954e785343df"
+          }
+        },
+        "size": 227068,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/tire_pump/tire_pump_4k.fbx",
+        "md5": "b3f60e86e0f511adfad27521bd367f15"
+      }
+    },
+    "2k": {
+      "fbx": {
+        "include": {
+          "textures/tire_pump_diff_2k.jpg": {
+            "size": 1298757,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_diff_2k.jpg",
+            "md5": "5be5790878f3dcb4a690d9fa0012183f"
+          },
+          "textures/tire_pump_nor_gl_2k.exr": {
+            "size": 5519802,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_nor_gl_2k.exr",
+            "md5": "6d11b11d9c19eeeea60a1e554fd4e310"
+          },
+          "textures/tire_pump_rough_2k.exr": {
+            "size": 3937206,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_rough_2k.exr",
+            "md5": "6054eb19e971dd1d42bcaa1162d2024f"
+          },
+          "textures/tire_pump_metal_2k.exr": {
+            "size": 116734,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_metal_2k.exr",
+            "md5": "de013e286e93035d8c4d2def1c0ec325"
+          }
+        },
+        "size": 227068,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/tire_pump/tire_pump_2k.fbx",
+        "md5": "1cfbf6b8d4f179019e581e658c692316"
+      }
+    },
+    "1k": {
+      "fbx": {
+        "include": {
+          "textures/tire_pump_nor_gl_1k.exr": {
+            "size": 1282360,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_nor_gl_1k.exr",
+            "md5": "d6630d1feb366976d77b4212de81df76"
+          },
+          "textures/tire_pump_diff_1k.jpg": {
+            "size": 337653,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_diff_1k.jpg",
+            "md5": "8ae7aa6d3a944df392c143489e687e80"
+          },
+          "textures/tire_pump_metal_1k.exr": {
+            "size": 49591,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_metal_1k.exr",
+            "md5": "792302a6a2826f81fd816ce63090fa91"
+          },
+          "textures/tire_pump_rough_1k.exr": {
+            "size": 1020085,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_rough_1k.exr",
+            "md5": "e3710ba614da070cae13847119c0307b"
+          }
+        },
+        "size": 227068,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/tire_pump/tire_pump_1k.fbx",
+        "md5": "554de7e37b0c59bf671da4ee2bf84182"
+      }
+    }
+  },
+  "Rough": {
+    "8k": {
+      "jpg": {
+        "size": 28375462,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_rough_8k.jpg",
+        "md5": "39dfc653b35c0098b61f199acc8b1511"
+      },
+      "png": {
+        "size": 37512377,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/tire_pump/tire_pump_rough_8k.png",
+        "md5": "ebd8b273446da396617d48e964597242"
+      },
+      "exr": {
+        "size": 41038913,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_rough_8k.exr",
+        "md5": "a7bcaa42aaea65846c42f7f73f5c0d5a"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 6957054,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_rough_4k.jpg",
+        "md5": "bd6f8bf9a17fcff1ea192bddbd333bd3"
+      },
+      "png": {
+        "size": 18984453,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/tire_pump/tire_pump_rough_4k.png",
+        "md5": "0fd8b29f63d2fb5f88304cc8fd6c97f6"
+      },
+      "exr": {
+        "size": 13333810,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_rough_4k.exr",
+        "md5": "69c4d3cd6a332e980ab4fdaf6755b415"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1682560,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_rough_2k.jpg",
+        "md5": "1602d71a46df881f78e8db7ccd06b179"
+      },
+      "png": {
+        "size": 5965615,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/tire_pump/tire_pump_rough_2k.png",
+        "md5": "672e7229766c7e40dd87c3a33c3916f0"
+      },
+      "exr": {
+        "size": 3937206,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_rough_2k.exr",
+        "md5": "6054eb19e971dd1d42bcaa1162d2024f"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 424131,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_rough_1k.jpg",
+        "md5": "70e01d3719a0a8da7dd133789b67f9fb"
+      },
+      "png": {
+        "size": 1644285,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/tire_pump/tire_pump_rough_1k.png",
+        "md5": "be538d383610a76bd977f6ab8dcb15dd"
+      },
+      "exr": {
+        "size": 1020085,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_rough_1k.exr",
+        "md5": "e3710ba614da070cae13847119c0307b"
+      }
+    }
+  },
+  "AO": {
+    "8k": {
+      "jpg": {
+        "size": 12927090,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/tire_pump/tire_pump_ao_8k.jpg",
+        "md5": "9680855a955c593779f205e5c2daabe1"
+      },
+      "png": {
+        "size": 17689333,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/tire_pump/tire_pump_ao_8k.png",
+        "md5": "99fa564dc6c1f66fab6034b1cf54f249"
+      },
+      "exr": {
+        "size": 22628331,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/tire_pump/tire_pump_ao_8k.exr",
+        "md5": "0621f3e327d96b802b4c4678d9991d28"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 4713333,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/tire_pump/tire_pump_ao_4k.jpg",
+        "md5": "d10287efb8e09793e17af0c5c4ec6cab"
+      },
+      "png": {
+        "size": 13911757,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/tire_pump/tire_pump_ao_4k.png",
+        "md5": "1ba8621f8a3e98fbd410d0b23aaa2f45"
+      },
+      "exr": {
+        "size": 11037305,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/tire_pump/tire_pump_ao_4k.exr",
+        "md5": "8ea943d3acb778fb1f16712b80e06c35"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1221103,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/tire_pump/tire_pump_ao_2k.jpg",
+        "md5": "5230e3d1e45af473614a0a1de5391994"
+      },
+      "png": {
+        "size": 4958809,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/tire_pump/tire_pump_ao_2k.png",
+        "md5": "54a7d001f331534474502a47672da9fd"
+      },
+      "exr": {
+        "size": 3312911,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/tire_pump/tire_pump_ao_2k.exr",
+        "md5": "4477a3be5ab6c2c542a727a0b4465a91"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 337177,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tire_pump/tire_pump_ao_1k.jpg",
+        "md5": "00106a77b09fac2684e0d01b9d2f6e6d"
+      },
+      "png": {
+        "size": 1461922,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/tire_pump/tire_pump_ao_1k.png",
+        "md5": "a7e659af064ad2e5912f69c38815d2b2"
+      },
+      "exr": {
+        "size": 903190,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/tire_pump/tire_pump_ao_1k.exr",
+        "md5": "8036cff6bc25ba1b4b1cb8921746b3ee"
+      }
+    }
+  }
+}

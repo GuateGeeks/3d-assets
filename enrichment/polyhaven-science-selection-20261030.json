@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "resolution": "1k",
+  "scope": "Complementos de ciencia, química, tuberías y electricidad seleccionados del catálogo público vigente; los kits modulares se conservan completos con todas sus piezas.",
+  "items": [
+    {
+      "asset": "modular_industrial_pipes_01",
+      "title": "Tuberías industriales modulares",
+      "areas": [
+        "fisica-energia",
+        "oficios-productividad"
+      ],
+      "family": "plumbing-modular-pipes"
+    },
+    {
+      "asset": "modular_pipes",
+      "title": "Tuberías metálicas modulares",
+      "areas": [
+        "agua-oceanos",
+        "oficios-productividad"
+      ],
+      "family": "plumbing-modular-pipes"
+    },
+    {
+      "asset": "modular_pipes_plastic_01",
+      "title": "Tuberías plásticas y válvulas modulares",
+      "areas": [
+        "agua-oceanos",
+        "oficios-productividad"
+      ],
+      "family": "plumbing-modular-pipes"
+    },
+    {
+      "asset": "modular_airduct_circular_01",
+      "title": "Conductos circulares de ventilación",
+      "areas": [
+        "fisica-energia",
+        "oficios-productividad"
+      ],
+      "family": "ventilation-modular-ducts"
+    },
+    {
+      "asset": "modular_airduct_rectangular_01",
+      "title": "Conductos rectangulares de ventilación",
+      "areas": [
+        "fisica-energia",
+        "oficios-productividad"
+      ],
+      "family": "ventilation-modular-ducts"
+    },
+    {
+      "asset": "modular_electric_cables",
+      "title": "Cables eléctricos modulares",
+      "areas": [
+        "robotica-electronica",
+        "fisica-energia"
+      ],
+      "family": "electrical-modular-cables"
+    },
+    {
+      "asset": "power_box_01",
+      "title": "Tablero eléctrico con interruptores",
+      "areas": [
+        "robotica-electronica",
+        "fisica-energia"
+      ],
+      "family": "electrical-distribution-boxes"
+    },
+    {
+      "asset": "utility_box_01",
+      "title": "Gabinete de distribución eléctrica 01",
+      "areas": [
+        "robotica-electronica",
+        "fisica-energia"
+      ],
+      "family": "electrical-distribution-boxes"
+    },
+    {
+      "asset": "utility_box_02",
+      "title": "Gabinete de distribución eléctrica 02",
+      "areas": [
+        "robotica-electronica",
+        "fisica-energia"
+      ],
+      "family": "electrical-distribution-boxes"
+    },
+    {
+      "asset": "portable_generator",
+      "title": "Generador eléctrico portátil",
+      "areas": [
+        "fisica-energia",
+        "robotica-electronica"
+      ],
+      "family": "electrical-generators"
+    },
+    {
+      "asset": "pull_chain_light_socket",
+      "title": "Portalámparas con interruptor de cadena",
+      "areas": [
+        "fisica-energia",
+        "robotica-electronica"
+      ],
+      "family": "lighting-light-sockets"
+    },
+    {
+      "asset": "propane_tank",
+      "title": "Cilindro de propano",
+      "areas": [
+        "laboratorio-ciencia",
+        "fisica-energia"
+      ],
+      "family": "chemistry-gas-cylinders"
+    },
+    {
+      "asset": "small_lpg_tank",
+      "title": "Cilindro pequeño de gas LP",
+      "areas": [
+        "laboratorio-ciencia",
+        "fisica-energia"
+      ],
+      "family": "chemistry-gas-cylinders"
+    },
+    {
+      "asset": "portable_welding_cart",
+      "title": "Carro de soldadura con cilindros y mangueras",
+      "areas": [
+        "laboratorio-ciencia",
+        "oficios-productividad"
+      ],
+      "family": "workshop-welding-equipment"
+    },
+    {
+      "asset": "bleach_bottle",
+      "title": "Botella de blanqueador",
+      "areas": [
+        "laboratorio-ciencia",
+        "cuerpo-salud"
+      ],
+      "family": "chemistry-household-containers"
+    },
+    {
+      "asset": "drain_cleaner",
+      "title": "Envase de limpiador de desagües",
+      "areas": [
+        "laboratorio-ciencia",
+        "oficios-productividad"
+      ],
+      "family": "chemistry-household-containers"
+    },
+    {
+      "asset": "all_purpose_cleaner",
+      "title": "Envase de limpiador multiuso",
+      "areas": [
+        "laboratorio-ciencia",
+        "cuerpo-salud"
+      ],
+      "family": "chemistry-household-containers"
+    },
+    {
+      "asset": "multi_cleaner_5_litre",
+      "title": "Bidón de limpiador de cinco litros",
+      "areas": [
+        "laboratorio-ciencia",
+        "matematicas-medicion"
+      ],
+      "family": "chemistry-household-containers"
+    },
+    {
+      "asset": "tire_pump",
+      "title": "Bomba manual de aire",
+      "areas": [
+        "fisica-energia",
+        "matematicas-medicion"
+      ],
+      "family": "pneumatics-air-pumps"
+    },
+    {
+      "asset": "pipe_wrench",
+      "title": "Llave para tubos",
+      "areas": [
+        "oficios-productividad",
+        "fisica-energia"
+      ],
+      "family": "workshop-wrenches"
+    },
+    {
+      "asset": "pliers",
+      "title": "Alicates con cortador de alambre",
+      "areas": [
+        "robotica-electronica",
+        "oficios-productividad"
+      ],
+      "family": "workshop-pliers"
+    }
+  ],
+  "familyTitles": {
+    "plumbing-modular-pipes": "Tuberías y válvulas modulares",
+    "ventilation-modular-ducts": "Conductos de ventilación",
+    "electrical-distribution-boxes": "Tableros y gabinetes eléctricos",
+    "chemistry-gas-cylinders": "Cilindros de gas",
+    "chemistry-household-containers": "Envases de productos químicos",
+    "workshop-wrenches": "Llaves de taller",
+    "electrical-generators": "Generadores eléctricos"
+  },
+  "existingFamilyMembers": {
+    "electrical-generators": [
+      "ZPlQHwiqTp"
+    ]
+  },
+  "groupingNote": "Familias funcionales y variantes; los kits modulares incluyen piezas complementarias y no son duplicados exactos. Los originales se conservan completos."
+}

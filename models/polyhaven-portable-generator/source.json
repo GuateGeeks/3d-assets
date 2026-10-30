@@ -1,0 +1,55 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Portable Generator\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/portable_generator. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "James Ray Cock"
+  },
+  "Title": "Portable Generator",
+  "sourceUrl": "https://polyhaven.com/a/portable_generator",
+  "assetId": "portable_generator",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-portable-generator/original/portable_generator_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/portable_generator/portable_generator_1k.gltf",
+      "bytes": 10130,
+      "md5": "13c2380487daae6726443b9f38dd7e53",
+      "sha256": "d5afe27834f824dfe753391713c45be03479e8100831f320796030531f61b848"
+    },
+    {
+      "file": "models/polyhaven-portable-generator/original/textures/portable_generator_spec_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_spec_1k.jpg",
+      "bytes": 23119,
+      "md5": "b3044dbc984897ed902bd47a450f742f",
+      "sha256": "acf30e81c367898eb846f353d77e404f6831ac23bf071e0e718fddb8881b86cb"
+    },
+    {
+      "file": "models/polyhaven-portable-generator/original/textures/portable_generator_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_nor_gl_1k.jpg",
+      "bytes": 818829,
+      "md5": "89a51a982488c21eddec2c6e02249591",
+      "sha256": "8a868edab1a2f5ffa50b2b1680c2c342491b3eeeac443734178c445c7286c25d"
+    },
+    {
+      "file": "models/polyhaven-portable-generator/original/textures/portable_generator_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_diff_1k.jpg",
+      "bytes": 755079,
+      "md5": "3d572e1716148ca5d641d8a199fe9192",
+      "sha256": "32acc300105a2df2290d872889b24e1b29ff1ca2c56c0a0cf8fbba0c5966a063"
+    },
+    {
+      "file": "models/polyhaven-portable-generator/original/textures/portable_generator_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_generator/portable_generator_arm_1k.jpg",
+      "bytes": 887711,
+      "md5": "7dbb8b9f0aa4e9d3ce6ad37e0326299f",
+      "sha256": "10236e967baddd90ec7d4ab68969b06fb419f98782a2796db94edc0249b0dad2"
+    },
+    {
+      "file": "models/polyhaven-portable-generator/original/portable_generator.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/portable_generator/portable_generator.bin",
+      "bytes": 939572,
+      "md5": "81b2f4c4c6d0b0d7388ae9aa1123563a",
+      "sha256": "fb7dcfedec1331ad541569e4ca8d4157284b2164084b7fe5a97928d4abc0ea2d"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

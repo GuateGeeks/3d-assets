@@ -54,4 +54,20 @@ class NativeLines(unittest.TestCase):
         self.assertEqual(result['sha256'],fingerprint(self.fixture(True,10))['sha256'])
         self.assertEqual(original,before)
 
+class PolyHavenBatchSelection(unittest.TestCase):
+    def test_run_local_selection_overrides_the_legacy_selection(self):
+        import json, tempfile
+        from pathlib import Path
+        import polyhaven
+        with tempfile.TemporaryDirectory() as directory:
+            run=Path(directory)
+            (run/'selection.json').write_text(json.dumps({'items':[{'asset':'modular_pipes'}]}))
+            self.assertEqual(polyhaven.selection_for(run)['items'], [{'asset':'modular_pipes'}])
+    def test_existing_runs_still_use_the_legacy_selection(self):
+        import tempfile
+        from pathlib import Path
+        import polyhaven
+        with tempfile.TemporaryDirectory() as directory:
+            self.assertEqual(polyhaven.selection_for(Path(directory)), polyhaven.read(polyhaven.ROOT/'enrichment/polyhaven-selection.json'))
+
 if __name__=='__main__':unittest.main()

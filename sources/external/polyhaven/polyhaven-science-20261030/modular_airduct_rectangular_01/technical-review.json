@@ -1,0 +1,63 @@
+{
+  "dimensionsBlender": [
+    7.663504123687744,
+    2.5866451263427734,
+    1.2561511993408203
+  ],
+  "boundsMinBlender": [
+    -3.3323869705200195,
+    -1.5369805097579956,
+    -0.7063335180282593
+  ],
+  "boundsMaxBlender": [
+    4.331117153167725,
+    1.0496647357940674,
+    0.549817681312561
+  ],
+  "meshObjects": 18,
+  "polygons": 45090,
+  "vertices": 47643,
+  "materials": 2,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "polyhaven-modular-airduct-rectangular-01",
+  "sourceFile": "modular_airduct_rectangular_01_1k.gltf",
+  "glbSha256": "b9573d7fdd6f914a08f533460af88010ecf7b6adf176ff42b1a6a97288665517",
+  "reimport": {
+    "dimensionsBlender": [
+      7.663504123687744,
+      2.5866451263427734,
+      1.2561511993408203
+    ],
+    "boundsMinBlender": [
+      -3.3323869705200195,
+      -1.5369805097579956,
+      -0.7063335180282593
+    ],
+    "boundsMaxBlender": [
+      4.331117153167725,
+      1.0496647357940674,
+      0.549817681312561
+    ],
+    "meshObjects": 18,
+    "polygons": 45090,
+    "vertices": 47643,
+    "materials": 2,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0007663504123687745,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-back.webp": "29df5f03f3500cb2d2fdadd7d6db6c79aabeb2f9d31daa6106bc7e324d222db7",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-side.webp": "b97ec57b87d4d60d247b1f0950ac6d0e52f8f933a144cc13533b179bab9cc436",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-front.webp": "01c1d3036b6018f76ebe82bb212ab01e62348199bce93009e24ea4d637d188b6",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/reimport-three-quarter.webp": "21994080091b43d31cf5c7d8566aa74770c68c154865c04cf0c29799d824b859",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-three-quarter.webp": "21994080091b43d31cf5c7d8566aa74770c68c154865c04cf0c29799d824b859",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/renders/source-wireframe.webp": "07ca0271f3b861eedfd5d5be634eed607330c5eb48ea3a47f0064ad0191db4fc"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "publicationImages": "Lossless WebP; decoded RGBA pixel equality verified. Original PNG hashes retained in image-encoding.json and staging."
+}

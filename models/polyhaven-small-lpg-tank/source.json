@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Small Lpg Tank\", por Ulan Cabanilla / Poly Haven. https://polyhaven.com/a/small_lpg_tank. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Ulan Cabanilla"
+  },
+  "Title": "Small Lpg Tank",
+  "sourceUrl": "https://polyhaven.com/a/small_lpg_tank",
+  "assetId": "small_lpg_tank",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-small-lpg-tank/original/small_lpg_tank_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/small_lpg_tank/small_lpg_tank_1k.gltf",
+      "bytes": 2792,
+      "md5": "1660bf4ea12c6ed9fd7523a54720c54a",
+      "sha256": "fbe2e6c9c5f9f14d42c34b61f664decdb8a0e1c224776812d3a07a9175a98e05"
+    },
+    {
+      "file": "models/polyhaven-small-lpg-tank/original/textures/small_lpg_tank_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/small_lpg_tank/small_lpg_tank_nor_gl_1k.jpg",
+      "bytes": 750461,
+      "md5": "11d55dbb80f58c0eb3e344f32c6ea307",
+      "sha256": "1e6690a7e7c64da080b2047fb316c5a439cbd3c720729f686f0b07d02ae8122f"
+    },
+    {
+      "file": "models/polyhaven-small-lpg-tank/original/textures/small_lpg_tank_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/small_lpg_tank/small_lpg_tank_diff_1k.jpg",
+      "bytes": 712049,
+      "md5": "074120d4d0db683233da0ccd6db6680a",
+      "sha256": "7c998ddf9bf0824d5e7d7e0ba4dc171b2f39c6ac124f583d98dc0e8bb62d4f1b"
+    },
+    {
+      "file": "models/polyhaven-small-lpg-tank/original/textures/small_lpg_tank_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/small_lpg_tank/small_lpg_tank_arm_1k.jpg",
+      "bytes": 926422,
+      "md5": "7a8c9b8ff1eb2a921ae46e2d768f9c4e",
+      "sha256": "419ece07a7dd6800e25b38357c0ac55f94664aa4d3253234abf78b3225a094a1"
+    },
+    {
+      "file": "models/polyhaven-small-lpg-tank/original/small_lpg_tank.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/small_lpg_tank/small_lpg_tank.bin",
+      "bytes": 388716,
+      "md5": "786464f59e40ece95700db135626de59",
+      "sha256": "9f79b87d9aa4474f54bfd558075b03d04c9af99fb370170ab1bda0eefd5f9c40"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}
