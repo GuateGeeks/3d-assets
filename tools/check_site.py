@@ -87,4 +87,6 @@ if SITE.exists():
     if (SITE/'sources/context.json').exists() or (SITE/'.git').exists(): raise SystemExit('Private files in site')
     for name in ['lab','creation-lab','procedural-web','.agents','derived','packs']:
         if (SITE/name).exists(): raise SystemExit('Unlisted laboratory files in site: '+name)
-print(json.dumps({'models':len(models),'licenses':sorted({m['licenseRaw'] for m in models}),'thumbnails':len(manifest['thumbnails']),'integrity':'passed','paths':'passed','credentialScan':'passed','siteChecked':SITE.exists()}))
+from compatibility import verify_display_variants
+display_variants=verify_display_variants(ROOT,SITE if SITE.exists() else None,models)
+print(json.dumps({'models':len(models),'licenses':sorted({m['licenseRaw'] for m in models}),'thumbnails':len(manifest['thumbnails']),'displayVariants':display_variants,'integrity':'passed','paths':'passed','credentialScan':'passed','siteChecked':SITE.exists()}))

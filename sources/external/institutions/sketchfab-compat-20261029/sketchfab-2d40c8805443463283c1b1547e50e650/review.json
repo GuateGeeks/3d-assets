@@ -1,0 +1,64 @@
+{
+  "id": "sketchfab-2d40c8805443463283c1b1547e50e650",
+  "originalFile": "models/sketchfab-2d40c8805443463283c1b1547e50e650/model.glb",
+  "originalSha256": "42a80e978aa468f8ed0f6c9156d28a53dda47dd0eeab46e9adfe4d96c7cc1559",
+  "displaySha256": "1389375fad134e37150d06cb30768f43074be8428de99345dcf5ccdf236788b0",
+  "displayBytes": 987852,
+  "tool": "Blender 5.2.3 LTS",
+  "source": {
+    "dimensionsBlender": [
+      2.421666145324707,
+      2.000000238418579,
+      2.983999490737915
+    ],
+    "boundsMinBlender": [
+      -1.261051058769226,
+      -0.9999998807907104,
+      -0.002508100587874651
+    ],
+    "boundsMaxBlender": [
+      1.1606149673461914,
+      1.0000003576278687,
+      2.9814913272857666
+    ],
+    "meshObjects": 1,
+    "polygons": 2228,
+    "vertices": 1701,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "reimport": {
+    "dimensionsBlender": [
+      2.421666145324707,
+      1.999999761581421,
+      2.983999013900757
+    ],
+    "boundsMinBlender": [
+      -1.261051058769226,
+      -0.9999993443489075,
+      -0.0025082258507609367
+    ],
+    "boundsMaxBlender": [
+      1.1606149673461914,
+      1.0000004768371582,
+      2.9814908504486084
+    ],
+    "meshObjects": 1,
+    "polygons": 2228,
+    "vertices": 1764,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.00029839994907379153,
+  "nativeBytesUnchanged": true,
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "images": {
+    "source-back.png": "5272af721b3124b41dbc258e52ebc02131aec1e7b92f66d991572d90d88d2e92",
+    "source-side.png": "a22f8bc7db1d78b16bda9fe8cff30cc1591605e761e24fa1601b74c036327f3b",
+    "source-front.png": "534b6072641cb7cef511fb52553d71f3958e2ce0787b2979843e67637251e762",
+    "reimport-three-quarter.png": "fcc11ca54d766033037a6394cb5e399f7f6ca7ff74fb0bfe15b63f2053c775be",
+    "source-three-quarter.png": "20224143acd21337b672b536aa0a710e6205fc0ea6dc302b3d5328b5810f41d0",
+    "source-wireframe.png": "0682a94a34428e7b9f9132f9f5e32a157edc0b01eb3e22a4c8849e6c5fde2489"
+  }
+}

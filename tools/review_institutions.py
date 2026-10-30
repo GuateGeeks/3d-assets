@@ -126,69 +126,75 @@ def render(path, azimuth=35, elevation=25, wire=False):
     return stats
 
 
-run = Path(sys.argv[sys.argv.index('--') + 1])
-acquired = json.loads((run / 'acquisition.json').read_text(encoding='utf-8'))
-wire_only = '--wireframe-only' in sys.argv
-review_directory = sys.argv[sys.argv.index('--review-directory') + 1] if '--review-directory' in sys.argv else 'prepared'
-only_asset = sys.argv[sys.argv.index('--only-asset') + 1] if '--only-asset' in sys.argv else None
-for item in acquired['items']:
-    if only_asset and item['asset'] != only_asset:
-        continue
-    folder = run / review_directory / item['id']
-    folder.mkdir(parents=True, exist_ok=True)
-    if wire_only and (folder / 'review-v2.json').exists():
-        continue
-    if (folder / 'review.json').exists() and not wire_only:
-        continue
-    try:
-        source = run / 'downloads' / item['id'] / item['entryFile']
-        glb = run / 'prepared' / item['id'] / 'model.glb'
-        before = sha(glb)
-        bpy.ops.wm.read_factory_settings(use_empty=True)
-        excluded_source = import_model(source)
-        _, lo, hi, stats = geometry()
-        if wire_only:
-            assessment = json.loads((folder / 'review.json').read_text(encoding='utf-8'))
-            assert assessment['glbSha256'] == before
-            assert all(abs(a-b) < 1e-6 for a,b in zip(stats['dimensionsBlender'], assessment['dimensionsBlender']))
-            render(folder / 'source-wireframe-v2.png', wire=True)
-            assessment['images'].pop('source-wireframe.png', None)
-            assessment['images']['source-wireframe-v2.png'] = sha(folder / 'source-wireframe-v2.png')
-            assessment['wireframeDiagnostic'] = 'Clay wire shader; no geometry modifier. Earlier modifier diagnostic retained only in staging.'
-            (folder / 'review-v2.json').write_text(json.dumps(assessment, indent=2) + '\n', encoding='utf-8')
-            print('REFERENCE_WIRE_REVIEW', item['id'], flush=True)
+
+def main():
+    run = Path(sys.argv[sys.argv.index('--') + 1])
+    acquired = json.loads((run / 'acquisition.json').read_text(encoding='utf-8'))
+    wire_only = '--wireframe-only' in sys.argv
+    review_directory = sys.argv[sys.argv.index('--review-directory') + 1] if '--review-directory' in sys.argv else 'prepared'
+    only_asset = sys.argv[sys.argv.index('--only-asset') + 1] if '--only-asset' in sys.argv else None
+    for item in acquired['items']:
+        if only_asset and item['asset'] != only_asset:
             continue
-        bpy.ops.file.pack_all()
-        bpy.ops.wm.save_as_mainfile(filepath=str(folder / 'source-review.blend'))
-        bpy.ops.wm.open_mainfile(filepath=str(folder / 'source-review.blend'))
-        for name, azimuth, elevation, wire in [
-            ('source-three-quarter', 35, 25, False), ('source-front', 0, 0, False),
-            ('source-side', 90, 0, False), ('source-back', 180, 0, False),
-            ('source-wireframe', 35, 25, True)
-        ]:
-            render(folder / (name + '.png'), azimuth, elevation, wire)
-        bpy.ops.wm.read_factory_settings(use_empty=True)
-        excluded_reimport = import_model(glb)
-        _, rlo, rhi, reopened = geometry()
-        tolerance = max(max(hi - lo) * .0001, .00001)
-        if any(abs(a - b) > tolerance for a, b in zip(list(lo) + list(hi), list(rlo) + list(rhi))):
-            raise ValueError('Source/reimport bounds changed')
-        if any(stats[key] != reopened[key] for key in ['meshObjects', 'vertices', 'polygons', 'materials']):
-            raise ValueError('Source/reimport structure changed')
-        render(folder / 'reimport-three-quarter.png')
-        assert sha(glb) == before
-        stats.update(id=item['id'], sourceFile=item['entryFile'], glbSha256=before,
-                     reimport=reopened, dimensionTolerance=tolerance,
-                     importerHelpersExcluded={'source': excluded_source, 'reimport': excluded_reimport},
-                     images={p.name: sha(p) for p in folder.glob('*.png')},
-                     technical='PASS', visual='NOT_RUN',
-                     reviewLighting='AgX, reduced exposure lights' if '--calibrated-lighting' in sys.argv else 'Standard')
-        (folder / 'review.json').write_text(json.dumps(stats, indent=2) + '\n', encoding='utf-8')
-        print('REFERENCE_REVIEW', item['id'], flush=True)
-    except Exception as error:
-        (folder / 'failure.json').write_text(json.dumps({'technical': 'FAIL', 'error': str(error)}) + '\n')
-        print('REFERENCE_FAILED', item['id'], str(error), flush=True)
-print('REFERENCE_REVIEW_COMPLETE', flush=True)
-sys.stdout.flush()
-sys.stderr.flush()
-os._exit(0)
+        folder = run / review_directory / item['id']
+        folder.mkdir(parents=True, exist_ok=True)
+        if wire_only and (folder / 'review-v2.json').exists():
+            continue
+        if (folder / 'review.json').exists() and not wire_only:
+            continue
+        try:
+            source = run / 'downloads' / item['id'] / item['entryFile']
+            glb = run / 'prepared' / item['id'] / 'model.glb'
+            before = sha(glb)
+            bpy.ops.wm.read_factory_settings(use_empty=True)
+            excluded_source = import_model(source)
+            _, lo, hi, stats = geometry()
+            if wire_only:
+                assessment = json.loads((folder / 'review.json').read_text(encoding='utf-8'))
+                assert assessment['glbSha256'] == before
+                assert all(abs(a-b) < 1e-6 for a,b in zip(stats['dimensionsBlender'], assessment['dimensionsBlender']))
+                render(folder / 'source-wireframe-v2.png', wire=True)
+                assessment['images'].pop('source-wireframe.png', None)
+                assessment['images']['source-wireframe-v2.png'] = sha(folder / 'source-wireframe-v2.png')
+                assessment['wireframeDiagnostic'] = 'Clay wire shader; no geometry modifier. Earlier modifier diagnostic retained only in staging.'
+                (folder / 'review-v2.json').write_text(json.dumps(assessment, indent=2) + '\n', encoding='utf-8')
+                print('REFERENCE_WIRE_REVIEW', item['id'], flush=True)
+                continue
+            bpy.ops.file.pack_all()
+            bpy.ops.wm.save_as_mainfile(filepath=str(folder / 'source-review.blend'))
+            bpy.ops.wm.open_mainfile(filepath=str(folder / 'source-review.blend'))
+            for name, azimuth, elevation, wire in [
+                ('source-three-quarter', 35, 25, False), ('source-front', 0, 0, False),
+                ('source-side', 90, 0, False), ('source-back', 180, 0, False),
+                ('source-wireframe', 35, 25, True)
+            ]:
+                render(folder / (name + '.png'), azimuth, elevation, wire)
+            bpy.ops.wm.read_factory_settings(use_empty=True)
+            excluded_reimport = import_model(glb)
+            _, rlo, rhi, reopened = geometry()
+            tolerance = max(max(hi - lo) * .0001, .00001)
+            if any(abs(a - b) > tolerance for a, b in zip(list(lo) + list(hi), list(rlo) + list(rhi))):
+                raise ValueError('Source/reimport bounds changed')
+            if any(stats[key] != reopened[key] for key in ['meshObjects', 'vertices', 'polygons', 'materials']):
+                raise ValueError('Source/reimport structure changed')
+            render(folder / 'reimport-three-quarter.png')
+            assert sha(glb) == before
+            stats.update(id=item['id'], sourceFile=item['entryFile'], glbSha256=before,
+                         reimport=reopened, dimensionTolerance=tolerance,
+                         importerHelpersExcluded={'source': excluded_source, 'reimport': excluded_reimport},
+                         images={p.name: sha(p) for p in folder.glob('*.png')},
+                         technical='PASS', visual='NOT_RUN',
+                         reviewLighting='AgX, reduced exposure lights' if '--calibrated-lighting' in sys.argv else 'Standard')
+            (folder / 'review.json').write_text(json.dumps(stats, indent=2) + '\n', encoding='utf-8')
+            print('REFERENCE_REVIEW', item['id'], flush=True)
+        except Exception as error:
+            (folder / 'failure.json').write_text(json.dumps({'technical': 'FAIL', 'error': str(error)}) + '\n')
+            print('REFERENCE_FAILED', item['id'], str(error), flush=True)
+    print('REFERENCE_REVIEW_COMPLETE', flush=True)
+    sys.stdout.flush()
+    sys.stderr.flush()
+    os._exit(0)
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,64 @@
+{
+  "id": "sketchfab-7d547122a8eb44f0a615492f454c1cf0",
+  "originalFile": "models/sketchfab-7d547122a8eb44f0a615492f454c1cf0/model.glb",
+  "originalSha256": "3f8a657850e17de9b7ccbade6f62ad148b7ccba408c1880c0e26ec321277548e",
+  "displaySha256": "5f7ef76c0e41d61b20bb4ed6d25dffc3bcd230d7c5d4f3ef6736023fc9a761bf",
+  "displayBytes": 1035396,
+  "tool": "Blender 5.2.3 LTS",
+  "source": {
+    "dimensionsBlender": [
+      5.6061601638793945,
+      5.397918224334717,
+      3.4333343505859375
+    ],
+    "boundsMinBlender": [
+      -3.457587957382202,
+      -3.814584493637085,
+      -4.884981308350689e-15
+    ],
+    "boundsMaxBlender": [
+      2.1485722064971924,
+      1.5833336114883423,
+      3.4333343505859375
+    ],
+    "meshObjects": 109,
+    "polygons": 34960,
+    "vertices": 22777,
+    "materials": 10,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "reimport": {
+    "dimensionsBlender": [
+      5.6061601638793945,
+      5.397916793823242,
+      3.433333396911621
+    ],
+    "boundsMinBlender": [
+      -3.457587957382202,
+      -3.8145835399627686,
+      0.0
+    ],
+    "boundsMaxBlender": [
+      2.1485722064971924,
+      1.5833332538604736,
+      3.433333396911621
+    ],
+    "meshObjects": 109,
+    "polygons": 34960,
+    "vertices": 22938,
+    "materials": 10,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0005606160163879395,
+  "nativeBytesUnchanged": true,
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "images": {
+    "source-back.png": "f2930266e40d6f4cf99230e534d592e65ebdca86041ee783472bbbfa30f19966",
+    "source-side.png": "e30acba28e4f9571000fc645fdb341a98f613f47fe8298362271aa581d9f2c93",
+    "source-front.png": "1c53a745c06e80e1c80d88acc1d612fb5f3070a733d92f54aa43e8474f3c635d",
+    "reimport-three-quarter.png": "e078c6e8eb8a0a40437dc86b4af011dca84d53dd62c3f01354ccbf89a4393f61",
+    "source-three-quarter.png": "e12edd80921bf376050772325cf8a53ce9fc25a9b1f1b1b50e834478c388af3f",
+    "source-wireframe.png": "c7f2cc701d86ce763687a5662d5337e3fac36492953c430f2ca59f557a7d4184"
+  }
+}

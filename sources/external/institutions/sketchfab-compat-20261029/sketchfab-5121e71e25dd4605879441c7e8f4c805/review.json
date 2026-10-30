@@ -1,0 +1,64 @@
+{
+  "id": "sketchfab-5121e71e25dd4605879441c7e8f4c805",
+  "originalFile": "models/sketchfab-5121e71e25dd4605879441c7e8f4c805/model.glb",
+  "originalSha256": "57af387aa27c2de175735e931d75a93c6c718854049e7a810fc69bcc9e4a516b",
+  "displaySha256": "260f2542bbd4bc9469d441c1194ae0e7046b8849c6433e01aaa43a8054002f54",
+  "displayBytes": 659424,
+  "tool": "Blender 5.2.3 LTS",
+  "source": {
+    "dimensionsBlender": [
+      5.348452568054199,
+      3.642730712890625,
+      2.9508047103881836
+    ],
+    "boundsMinBlender": [
+      -0.09636851400136948,
+      -3.3536250591278076,
+      0.0
+    ],
+    "boundsMaxBlender": [
+      5.252084255218506,
+      0.289105623960495,
+      2.9508047103881836
+    ],
+    "meshObjects": 46,
+    "polygons": 8104,
+    "vertices": 10102,
+    "materials": 46,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "reimport": {
+    "dimensionsBlender": [
+      5.348452568054199,
+      3.6427297592163086,
+      2.9508039951324463
+    ],
+    "boundsMinBlender": [
+      -0.09636851400136948,
+      -3.3536243438720703,
+      0.0
+    ],
+    "boundsMaxBlender": [
+      5.252084255218506,
+      0.28910553455352783,
+      2.9508039951324463
+    ],
+    "meshObjects": 46,
+    "polygons": 8104,
+    "vertices": 12650,
+    "materials": 46,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.00053484525680542,
+  "nativeBytesUnchanged": true,
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "images": {
+    "source-back.png": "a71995381ecdc1523e5fb0dfdb679f07d630401033fd51e764aa6e35a569e36c",
+    "source-side.png": "340a501de5ff34638527524309a113ee3f1ea66a2f0f268ae781ea0fcd0a17ca",
+    "source-front.png": "277d32e9166eb4adb7057ad839dc4501ecb7f2af4989d3520505131e936832a4",
+    "reimport-three-quarter.png": "44e354ad7c6b7241e58067e4a7d5f5af28d94b2a049378c5321825eaa96f5ede",
+    "source-three-quarter.png": "6eec388d9ee5ce89887b0821dfe74f5194aa17c3c16113f91a7eacdb605ad120",
+    "source-wireframe.png": "91cb18b582b075a196be1aef8d00fdb6dff71ca2534ce3511cb0979c7414f5b6"
+  }
+}
