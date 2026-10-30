@@ -92,9 +92,14 @@ def download(url, target, expected=None):
     return raw
 
 
+def selection_for(run):
+    snapshot = run / "selection.json"
+    return read(snapshot if snapshot.exists() else ROOT / "enrichment/polyhaven-selection.json")
+
+
 def acquire(run):
     run.mkdir(parents=True, exist_ok=True)
-    selection = read(ROOT / 'enrichment/polyhaven-selection.json')
+    selection = selection_for(run)
     if not (run / 'baseline-index.json').exists():
         shutil.copyfile(ROOT / 'index.json', run / 'baseline-index.json')
         save(run / 'original-inventory.json', {
@@ -255,11 +260,12 @@ def promote(run):
     for row in dedup['comparisons']:
         if not row['exactMatches'] and not row['exactPeerMatches'] and (ROOT / 'models' / row['id']).exists():
             raise ValueError('Model already promoted; use a new acquisition run')
-    selection = read(ROOT / 'enrichment/polyhaven-selection.json')
+    selection = selection_for(run)
     area_plan = read(ROOT / 'selection.json')
     dependencies = read(ROOT / 'gallery/dependencies.json')
     source_root = ROOT / 'sources/external/polyhaven' / run.name
     source_root.mkdir(parents=True, exist_ok=False)
+    save(source_root / 'selection.json', selection_for(run))
     # Full website capture stays private. Public evidence records the declaration and its hash.
     save(source_root / 'license-evidence.json', {
         'license': 'CC0 1.0', 'licenseUrl': LICENSE_URL, 'sourceUrl': 'https://polyhaven.com/license',
@@ -392,7 +398,7 @@ def promote(run):
     save(ROOT / 'gallery/dependencies.json', dependencies)
     save(ROOT / 'enrichment/reports' / (run.name + '.json'), {
         'provider': 'Poly Haven', 'added': len(added), 'modelIds': added, 'aliases': aliases, 'held': acquired['held'],
-        'baselineModels': dedup['baselineModels'], 'selection': 'enrichment/polyhaven-selection.json',
+        'baselineModels': dedup['baselineModels'], 'selection': (source_root / 'selection.json').relative_to(ROOT).as_posix(),
         'rights': 'CC0 1.0', 'licenseUrl': 'https://polyhaven.com/license',
         'webPreparation': 'Native glTF components preserved inside GLB; no remeshing, decimation or scale normalization.',
         'renderQA': 'Source multi-view and clean GLB reimport; own thumbnails. Educational review pending.'})

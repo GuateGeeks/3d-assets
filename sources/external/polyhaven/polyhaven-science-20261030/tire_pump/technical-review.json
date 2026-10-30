@@ -1,0 +1,63 @@
+{
+  "dimensionsBlender": [
+    0.25489503145217896,
+    0.10097792744636536,
+    0.579529345035553
+  ],
+  "boundsMinBlender": [
+    -0.12744753062725067,
+    -0.04125527665019035,
+    6.573921564267948e-05
+  ],
+  "boundsMaxBlender": [
+    0.12744751572608948,
+    0.0597226545214653,
+    0.5795950889587402
+  ],
+  "meshObjects": 1,
+  "polygons": 6572,
+  "vertices": 4827,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "polyhaven-tire-pump",
+  "sourceFile": "tire_pump_1k.gltf",
+  "glbSha256": "94c3a7ba88a383434ac043f292f0099c316c4a4fb726587932132abff68f821d",
+  "reimport": {
+    "dimensionsBlender": [
+      0.25489503145217896,
+      0.10097792744636536,
+      0.579529345035553
+    ],
+    "boundsMinBlender": [
+      -0.12744753062725067,
+      -0.04125527665019035,
+      6.573921564267948e-05
+    ],
+    "boundsMaxBlender": [
+      0.12744751572608948,
+      0.0597226545214653,
+      0.5795950889587402
+    ],
+    "meshObjects": 1,
+    "polygons": 6572,
+    "vertices": 4827,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 5.79529345035553e-05,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-back.webp": "1722d61359da6f2be9fdf32ee4f45591c2dc848f1bbdfe09860258704fabd5b1",
+    "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-side.webp": "28e7dbcf4c492dee025b8791bc375759ede285ee34df80a548ede1389697ae7b",
+    "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-front.webp": "d6f7af4a067c917f60d43d3c2b4a72e3146ff64206e7cbaddb83cd617d291c23",
+    "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/reimport-three-quarter.webp": "d5852a0de02beb9da30f72aed880278c36b42a4ccd74ed655d190c525b0c8659",
+    "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-three-quarter.webp": "d5852a0de02beb9da30f72aed880278c36b42a4ccd74ed655d190c525b0c8659",
+    "sources/external/polyhaven/polyhaven-science-20261030/tire_pump/renders/source-wireframe.webp": "2a457592b0d73c111e0ce30580e00f261da7ad5df468af0103b85cd122007e5b"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "publicationImages": "Lossless WebP; decoded RGBA pixel equality verified. Original PNG hashes retained in image-encoding.json and staging."
+}

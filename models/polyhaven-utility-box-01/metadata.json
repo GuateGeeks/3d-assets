@@ -1,0 +1,167 @@
+{
+  "id": "polyhaven-utility-box-01",
+  "assetId": "polyhaven:utility_box_01",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Gabinete de distribución eléctrica 01",
+  "titleOriginal": "Utility Box 01",
+  "author": "James Ray Cock",
+  "authorUrl": "https://polyhaven.com/a/utility_box_01",
+  "sourceUrl": "https://polyhaven.com/a/utility_box_01",
+  "metadataUrl": "https://api.polyhaven.com/info/utility_box_01",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/utility_box_01/utility_box_01_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Industrial & Infrastructure/Electrical/Utility & Power Boxes",
+  "tags": [
+    "utility",
+    "box",
+    "electrical",
+    "power",
+    "circuit",
+    "breakers",
+    "transformer",
+    "distributionpanel",
+    "junction box",
+    "control panel",
+    "utility box",
+    "infrastructure",
+    "urban",
+    "city",
+    "road",
+    "Utility Box 01",
+    "electrical-distribution-boxes"
+  ],
+  "areas": [
+    "robotica-electronica",
+    "fisica-energia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Utility Box 01\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/utility_box_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-utility-box-01/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/metadata.json",
+  "originalDownload": "models/polyhaven-utility-box-01/originals.zip",
+  "bytes": 1976064,
+  "sha256": "fe56486a579a4779f3b946f3e3b9d695943109a58c4527480746fdf38a8c093d",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:33:51.964752+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "utility_box_01_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-utility-box-01/original/utility_box_01_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/utility_box_01/utility_box_01_1k.gltf",
+        "bytes": 2766,
+        "md5": "a9154d210827ea508c59cb5917ca1d0f",
+        "sha256": "5b9f8c45f2640c9dd831dc3450529e45b24c987208ddcf73010fe717ce8c454e"
+      },
+      {
+        "file": "models/polyhaven-utility-box-01/original/textures/utility_box_01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_01/utility_box_01_diff_1k.jpg",
+        "bytes": 558681,
+        "md5": "3e76f9da5032c98ed48e1b3e4cad2511",
+        "sha256": "6a703a4cdf20c3fc3d0400fa815e5a1834836c96c207bdb57ba9e4a5db3a5532"
+      },
+      {
+        "file": "models/polyhaven-utility-box-01/original/textures/utility_box_01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_01/utility_box_01_nor_gl_1k.jpg",
+        "bytes": 557001,
+        "md5": "688a6e1925ad7bbcd562cb714165330e",
+        "sha256": "1c4e377906c13e864c9c7ffbd31a7d86075f28b948bf54872d6ad3ab38a08124"
+      },
+      {
+        "file": "models/polyhaven-utility-box-01/original/textures/utility_box_01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_01/utility_box_01_arm_1k.jpg",
+        "bytes": 716061,
+        "md5": "f2b9e218e14b40108b5b84344c3d26ec",
+        "sha256": "e65428774e94b6a8aeb7a23802e0af8f1568952ea79e21a7a3475b957e34956b"
+      },
+      {
+        "file": "models/polyhaven-utility-box-01/original/utility_box_01.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/utility_box_01/utility_box_01.bin",
+        "bytes": 142552,
+        "md5": "5fa84789b367c3f04786e3ba92333c50",
+        "sha256": "e4249eb754d7802154eed36bb12070dc24c90fc331f355d60ef7570d61fc0f5c"
+      }
+    ],
+    "originalDownloadSha256": "686c1df7db91fa2ca2cda9dd2add426499ac3a9b00543e9c905044d86a540680",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/metadata.json",
+    "metadataEvidenceSha256": "df763c9ffaf1bc94f7366c11396339930ee1d1a53136764792263c0f49bdf465",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/files.json",
+    "fileManifestEvidenceSha256": "27c8e14af675beaefd5c321fc7bf9e1ff751d05550114a6c5c150ccf896f4325",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/utility_box_01/technical-review.json",
+    "technicalReviewEvidenceSha256": "e41bc7ad6d91dd612323755ef9e34f0872300f53a7ea21dac3efd9b80873f9d0",
+    "providerReportedPolycount": 4404,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.5200002193450928,
+      0.43199998140335083,
+      1.1203334331512451
+    ],
+    "reimportDimensionsBlender": [
+      0.5200002193450928,
+      0.43199998140335083,
+      1.1203334331512451
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "734292dce6a283686d7ef15d9b8f9d8e8499896c9844fcb33d610723de9e2f22",
+      "triangles": 4404
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "polyhaven-small-lpg-tank",
+  "assetId": "polyhaven:small_lpg_tank",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Cilindro pequeño de gas LP",
+  "titleOriginal": "Small Lpg Tank",
+  "author": "Ulan Cabanilla",
+  "authorUrl": "https://polyhaven.com/a/small_lpg_tank",
+  "sourceUrl": "https://polyhaven.com/a/small_lpg_tank",
+  "metadataUrl": "https://api.polyhaven.com/info/small_lpg_tank",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/small_lpg_tank/small_lpg_tank_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Containers & Storage/Tanks & Jerrycans/Gas Cylinders",
+  "tags": [
+    "worn",
+    "metal",
+    "red barrel",
+    "scratched",
+    "cylinder",
+    "lpg",
+    "fuel",
+    "propane",
+    "Small Lpg Tank",
+    "chemistry-gas-cylinders"
+  ],
+  "areas": [
+    "laboratorio-ciencia",
+    "fisica-energia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Small Lpg Tank\", por Ulan Cabanilla / Poly Haven. https://polyhaven.com/a/small_lpg_tank. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-small-lpg-tank/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/metadata.json",
+  "originalDownload": "models/polyhaven-small-lpg-tank/originals.zip",
+  "bytes": 2779440,
+  "sha256": "b4b49890c41264903c0700f61084f62601aa1ae397dccbae511b2060de4b2ffb",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:34:07.032939+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "small_lpg_tank_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-small-lpg-tank/original/small_lpg_tank_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/small_lpg_tank/small_lpg_tank_1k.gltf",
+        "bytes": 2792,
+        "md5": "1660bf4ea12c6ed9fd7523a54720c54a",
+        "sha256": "fbe2e6c9c5f9f14d42c34b61f664decdb8a0e1c224776812d3a07a9175a98e05"
+      },
+      {
+        "file": "models/polyhaven-small-lpg-tank/original/textures/small_lpg_tank_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/small_lpg_tank/small_lpg_tank_nor_gl_1k.jpg",
+        "bytes": 750461,
+        "md5": "11d55dbb80f58c0eb3e344f32c6ea307",
+        "sha256": "1e6690a7e7c64da080b2047fb316c5a439cbd3c720729f686f0b07d02ae8122f"
+      },
+      {
+        "file": "models/polyhaven-small-lpg-tank/original/textures/small_lpg_tank_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/small_lpg_tank/small_lpg_tank_diff_1k.jpg",
+        "bytes": 712049,
+        "md5": "074120d4d0db683233da0ccd6db6680a",
+        "sha256": "7c998ddf9bf0824d5e7d7e0ba4dc171b2f39c6ac124f583d98dc0e8bb62d4f1b"
+      },
+      {
+        "file": "models/polyhaven-small-lpg-tank/original/textures/small_lpg_tank_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/small_lpg_tank/small_lpg_tank_arm_1k.jpg",
+        "bytes": 926422,
+        "md5": "7a8c9b8ff1eb2a921ae46e2d768f9c4e",
+        "sha256": "419ece07a7dd6800e25b38357c0ac55f94664aa4d3253234abf78b3225a094a1"
+      },
+      {
+        "file": "models/polyhaven-small-lpg-tank/original/small_lpg_tank.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/small_lpg_tank/small_lpg_tank.bin",
+        "bytes": 388716,
+        "md5": "786464f59e40ece95700db135626de59",
+        "sha256": "9f79b87d9aa4474f54bfd558075b03d04c9af99fb370170ab1bda0eefd5f9c40"
+      }
+    ],
+    "originalDownloadSha256": "54911a15fcfccff30e85ea2e6dcefcef4903a188a738cd26d42c4eadee7b2c7d",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/metadata.json",
+    "metadataEvidenceSha256": "0540f44436dec5ad6844a0add6e84a6886b89436640b6f8d398ad8f8f957a34d",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/files.json",
+    "fileManifestEvidenceSha256": "3845401d43b52914d9ceaf390e5f82285dc418a1dfe1eba956fcdc00149d8783",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/small_lpg_tank/technical-review.json",
+    "technicalReviewEvidenceSha256": "52450bf478397ac8929c0d0b49438af6f92471d94f6931e8c58eeba5639fefba",
+    "providerReportedPolycount": 15042,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.4100192189216614,
+      0.4091912806034088,
+      0.6419749855995178
+    ],
+    "reimportDimensionsBlender": [
+      0.4100192189216614,
+      0.4091912806034088,
+      0.6419749855995178
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "b5494d73a47b95035d0915a21e02f0e8a0c3dc7f028129f03d08a3b0e807ae84",
+      "triangles": 15042
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

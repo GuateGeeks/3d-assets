@@ -1,0 +1,165 @@
+{
+  "id": "polyhaven-multi-cleaner-5-litre",
+  "assetId": "polyhaven:multi_cleaner_5_litre",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Bidón de limpiador de cinco litros",
+  "titleOriginal": "Multi Cleaner 5 Litre",
+  "author": "James Ray Cock",
+  "authorUrl": "https://polyhaven.com/a/multi_cleaner_5_litre",
+  "sourceUrl": "https://polyhaven.com/a/multi_cleaner_5_litre",
+  "metadataUrl": "https://api.polyhaven.com/info/multi_cleaner_5_litre",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Containers & Storage/Cans, Tins & Bottles/Cleaning & Chemical Bottles",
+  "tags": [
+    "shed",
+    "storage",
+    "cleaning",
+    "plastic",
+    "bottle",
+    "dirty",
+    "cleaner",
+    "multipurpose",
+    "household",
+    "cleaning supplies",
+    "janitorial",
+    "sanitation",
+    "gallon",
+    "allpurpose",
+    "Multi Cleaner 5 Litre",
+    "chemistry-household-containers"
+  ],
+  "areas": [
+    "laboratorio-ciencia",
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Multi Cleaner 5 Litre\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/multi_cleaner_5_litre. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-multi-cleaner-5-litre/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/metadata.json",
+  "originalDownload": "models/polyhaven-multi-cleaner-5-litre/originals.zip",
+  "bytes": 1365416,
+  "sha256": "f9b63342f6450ad74ef591912bfaadc953954d13a7a7eafc36adc6e212a9b9d2",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:34:19.076900+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "multi_cleaner_5_litre_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-multi-cleaner-5-litre/original/multi_cleaner_5_litre_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_1k.gltf",
+        "bytes": 4406,
+        "md5": "5bfa8ea24458a4bd2a5e07ed049363fa",
+        "sha256": "449a1f5ad8d511f635aafe4233b1d1e216eacf0c987cc2202b2052ce2ec879c3"
+      },
+      {
+        "file": "models/polyhaven-multi-cleaner-5-litre/original/textures/multi_cleaner_5_litre_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_diff_1k.jpg",
+        "bytes": 366299,
+        "md5": "13b0a9d6926c0735a71ed84964648d23",
+        "sha256": "dc59d4cdb8f85c6ef09b3730f17d2bdb7ec2b819de29b8e03e56e69cc0d76a9e"
+      },
+      {
+        "file": "models/polyhaven-multi-cleaner-5-litre/original/textures/multi_cleaner_5_litre_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_arm_1k.jpg",
+        "bytes": 568077,
+        "md5": "3c3d0772e48198abc9a7a19374a5e3d1",
+        "sha256": "570f40e4989ccd5ed4f59385c9dce05605d7c5f855ba7e422de3a4b38b235ed0"
+      },
+      {
+        "file": "models/polyhaven-multi-cleaner-5-litre/original/multi_cleaner_5_litre.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/multi_cleaner_5_litre/multi_cleaner_5_litre.bin",
+        "bytes": 116488,
+        "md5": "8feef729541069546d59c3de08f4b6fb",
+        "sha256": "11f978c7be90faa675e3020b3b09e20e35083ce5c591d3c89ad2d2f7250c1ec7"
+      },
+      {
+        "file": "models/polyhaven-multi-cleaner-5-litre/original/textures/multi_cleaner_5_litre_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/multi_cleaner_5_litre/multi_cleaner_5_litre_nor_gl_1k.jpg",
+        "bytes": 311822,
+        "md5": "cc3f9aabe2940ce110e0482bf0090620",
+        "sha256": "893673ea82d00f4afe84fbcf29ac0d92cde7057a13fb6b5f8b0d719530bfca2b"
+      }
+    ],
+    "originalDownloadSha256": "2495b0448f95ad9ea1b17e4cfc7ca7b41484a5a939a2e6a3a1ad2d9003660014",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/metadata.json",
+    "metadataEvidenceSha256": "cb0ff77374b6af2f885d397cc84e13deda802e5cddeeb9e47b429d3f5857e547",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/files.json",
+    "fileManifestEvidenceSha256": "9b9891841d39220705c0cd34a413cd04cf2bbda109e51154e34308df48ea778a",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/multi_cleaner_5_litre/technical-review.json",
+    "technicalReviewEvidenceSha256": "b9f07b6f837be47bd57a5ac849f51fa714d64d6f15e2537e7948a02abdd8f2e6",
+    "providerReportedPolycount": 4332,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.21929194033145905,
+      0.10577977448701859,
+      0.3003377318382263
+    ],
+    "reimportDimensionsBlender": [
+      0.21929194033145905,
+      0.10577977448701859,
+      0.3003377318382263
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "c6629a0c212edd8a629d64cf68a6489df2a6140c72d0f274c85cc08bfe1fb4f8",
+      "triangles": 4332
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

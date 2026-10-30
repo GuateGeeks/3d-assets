@@ -1,0 +1,63 @@
+{
+  "dimensionsBlender": [
+    0.815658450126648,
+    0.36176106333732605,
+    0.07573375105857849
+  ],
+  "boundsMinBlender": [
+    -0.38865378499031067,
+    -0.19625145196914673,
+    -0.02748725190758705
+  ],
+  "boundsMaxBlender": [
+    0.42700469493865967,
+    0.16550961136817932,
+    0.04824650287628174
+  ],
+  "meshObjects": 15,
+  "polygons": 47788,
+  "vertices": 38110,
+  "materials": 1,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "polyhaven-modular-pipes-plastic-01",
+  "sourceFile": "modular_pipes_plastic_01_1k.gltf",
+  "glbSha256": "ac87d530fd321b69e947d1516b30b857b7c751b485b144c40d8851fb50337cc5",
+  "reimport": {
+    "dimensionsBlender": [
+      0.815658450126648,
+      0.36176106333732605,
+      0.07573375105857849
+    ],
+    "boundsMinBlender": [
+      -0.38865378499031067,
+      -0.19625145196914673,
+      -0.02748725190758705
+    ],
+    "boundsMaxBlender": [
+      0.42700469493865967,
+      0.16550961136817932,
+      0.04824650287628174
+    ],
+    "meshObjects": 15,
+    "polygons": 47788,
+    "vertices": 38110,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 8.15658450126648e-05,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-back.webp": "b133b5ad4cb7d4a098d3c81f63254b7f626b3a0680008a3920757a046b09c294",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-side.webp": "7dd9b143a1db65c5ba58b4fe105acb41ec3714daf0a2d1efbb6bf14b6221b13a",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-front.webp": "726738a534e4f1a20d11efad874b8373a46df105f613731b0231de12419740a0",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/reimport-three-quarter.webp": "5a4e10706f7047aafac51497e03b59cf5b92ddebfb4bd3447b78cc6fa6cf454b",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-three-quarter.webp": "5a4e10706f7047aafac51497e03b59cf5b92ddebfb4bd3447b78cc6fa6cf454b",
+    "sources/external/polyhaven/polyhaven-science-20261030/modular_pipes_plastic_01/renders/source-wireframe.webp": "0d9065c1edd7dff639f5742034c6d5b99629e5d37a04c489f15f0498d1de86b4"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "publicationImages": "Lossless WebP; decoded RGBA pixel equality verified. Original PNG hashes retained in image-encoding.json and staging."
+}

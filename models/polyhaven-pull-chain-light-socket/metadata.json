@@ -1,0 +1,160 @@
+{
+  "id": "polyhaven-pull-chain-light-socket",
+  "assetId": "polyhaven:pull_chain_light_socket",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Portalámparas con interruptor de cadena",
+  "titleOriginal": "Pull Chain Light Socket",
+  "author": "Josh Dean",
+  "authorUrl": "https://polyhaven.com/a/pull_chain_light_socket",
+  "sourceUrl": "https://polyhaven.com/a/pull_chain_light_socket",
+  "metadataUrl": "https://api.polyhaven.com/info/pull_chain_light_socket",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pull_chain_light_socket/pull_chain_light_socket_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Lighting/Bulbs & Fittings/Sockets & Fittings",
+  "tags": [
+    "light",
+    "fitting",
+    "socket",
+    "bulb",
+    "fixture",
+    "ceiling",
+    "lamp",
+    "chord",
+    "Pull Chain Light Socket",
+    "lighting-light-sockets"
+  ],
+  "areas": [
+    "fisica-energia",
+    "robotica-electronica"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pull Chain Light Socket\", por Josh Dean / Poly Haven. https://polyhaven.com/a/pull_chain_light_socket. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-pull-chain-light-socket/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/metadata.json",
+  "originalDownload": "models/polyhaven-pull-chain-light-socket/originals.zip",
+  "bytes": 2046864,
+  "sha256": "56484acc38245c40e52e7fb7245d493003f8877c01e116f4edc00f3f17c8af0f",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 2,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:34:00.919615+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "pull_chain_light_socket_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-pull-chain-light-socket/original/pull_chain_light_socket_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pull_chain_light_socket/pull_chain_light_socket_1k.gltf",
+        "bytes": 4348,
+        "md5": "bf3a19bf800db09f2741c08360123f72",
+        "sha256": "093c38e382efeaf605be0133bec7a93a8b2c935c40a5d0f311468053681d8258"
+      },
+      {
+        "file": "models/polyhaven-pull-chain-light-socket/original/textures/pull_chain_light_socket_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pull_chain_light_socket/pull_chain_light_socket_diff_1k.jpg",
+        "bytes": 458455,
+        "md5": "5f06d967f5c2b2544d9aafedb2365ead",
+        "sha256": "92675203e71250358db8e200a8a367ff39839f231db93050135718769b155552"
+      },
+      {
+        "file": "models/polyhaven-pull-chain-light-socket/original/textures/pull_chain_light_socket_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pull_chain_light_socket/pull_chain_light_socket_arm_1k.jpg",
+        "bytes": 729658,
+        "md5": "ff67fb67d6e7b402a5298b5194e76e1b",
+        "sha256": "35a97a7025587b8d11cbe32e385b8383fe8e7cb05e1e84c74f58cf31c5f1c295"
+      },
+      {
+        "file": "models/polyhaven-pull-chain-light-socket/original/pull_chain_light_socket.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/pull_chain_light_socket/pull_chain_light_socket.bin",
+        "bytes": 283524,
+        "md5": "2386405ddd9115f0e6b91c1966f93247",
+        "sha256": "a258aff9c893175c7ddcd09a904900ff10047a1a3ad51688b867c95208b45b4e"
+      },
+      {
+        "file": "models/polyhaven-pull-chain-light-socket/original/textures/pull_chain_light_socket_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pull_chain_light_socket/pull_chain_light_socket_nor_gl_1k.jpg",
+        "bytes": 572512,
+        "md5": "3a3808406e6153229cfe57701846fdbc",
+        "sha256": "8af515ce9ad355961bfc086830c54e065a579a737f233cea627735f850256860"
+      }
+    ],
+    "originalDownloadSha256": "0c22838a5572256dae6462a4957bacc87ceae8c835bef214d48997f5765ad9e2",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/metadata.json",
+    "metadataEvidenceSha256": "92963d8ebe7b95376c8e2596cb882f2bc75c3eaec91625756528a979407aa553",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/files.json",
+    "fileManifestEvidenceSha256": "41fdd34cea4af336b411ea3e260cede316ef282250b28cd16c9677b4751704d7",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pull_chain_light_socket/technical-review.json",
+    "technicalReviewEvidenceSha256": "4a2ce62d411e6a537318bd0b348f778d3a884f48f749a5f39d1cde9ce50ed1a5",
+    "providerReportedPolycount": 10902,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.110263392329216,
+      0.1102633848786354,
+      0.1654157191514969
+    ],
+    "reimportDimensionsBlender": [
+      0.110263392329216,
+      0.1102633848786354,
+      0.1654157191514969
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "75bff12483aefcd9b89462de4c102268eb0ae0b38d1d3f464260dbc5c1b4107f",
+      "triangles": 10902
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

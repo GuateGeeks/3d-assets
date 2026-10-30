@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
-  "models": 1152,
-  "csvRows": 1152,
-  "subsetIndices": 99,
+  "models": 1173,
+  "csvRows": 1173,
+  "subsetIndices": 110,
   "providers": {
     "Poly Pizza": 342,
     "Kenney": 637,
     "NASA 3D Resources": 10,
     "OpenGameArt": 14,
-    "Poly Haven": 28,
+    "Poly Haven": 49,
     "Sketchfab": 115,
     "Smithsonian Open Access": 6
   },
   "licenseCounts": {
     "CC-BY 3.0": 274,
-    "CC0 1.0": 748,
+    "CC0 1.0": 769,
     "NASA Media Usage Guidelines": 10,
     "CC-BY-SA 4.0": 10,
     "CC-BY 4.0": 103,

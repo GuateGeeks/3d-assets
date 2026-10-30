@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Bleach Bottle\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/bleach_bottle. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "James Ray Cock"
+  },
+  "Title": "Bleach Bottle",
+  "sourceUrl": "https://polyhaven.com/a/bleach_bottle",
+  "assetId": "bleach_bottle",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-bleach-bottle/original/bleach_bottle_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/bleach_bottle/bleach_bottle_1k.gltf",
+      "bytes": 2784,
+      "md5": "4e73c623f3344086c701ba2693ec852b",
+      "sha256": "0a0dc6e370afd86f5fc1b2c3fded4edf8e4b0fc8ab1947e0454752fb3e62c80f"
+    },
+    {
+      "file": "models/polyhaven-bleach-bottle/original/textures/bleach_bottle_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_nor_gl_1k.jpg",
+      "bytes": 286558,
+      "md5": "4682b3d1ba972b32992f23aea2db9b4b",
+      "sha256": "cc16f4c13f17c7f511e36a614a91b2e932cdf85263788bba9ea58d2a94e049bf"
+    },
+    {
+      "file": "models/polyhaven-bleach-bottle/original/bleach_bottle.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/bleach_bottle/bleach_bottle.bin",
+      "bytes": 106328,
+      "md5": "7bd04de253508368caf8b94398b4866b",
+      "sha256": "2b223425b640f6da3924698a5b94ed4ad31e7fef08fa9cfa0004a096b0b5727e"
+    },
+    {
+      "file": "models/polyhaven-bleach-bottle/original/textures/bleach_bottle_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_diff_1k.jpg",
+      "bytes": 380740,
+      "md5": "60e7803b48d42b7d15b1ff6542f9bdd0",
+      "sha256": "340329a562c3b5a1d5441577cb9ecbb4e1bbbd3e5221439681a392db566b08a1"
+    },
+    {
+      "file": "models/polyhaven-bleach-bottle/original/textures/bleach_bottle_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/bleach_bottle/bleach_bottle_01_arm_1k.jpg",
+      "bytes": 492206,
+      "md5": "7cff1041765fc4594bfbb511b248c111",
+      "sha256": "7aec58d92d982aaeb8a23b6ebc3486aa959641badf848eaf2893c271ec767112"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

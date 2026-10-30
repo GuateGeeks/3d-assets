@@ -1,0 +1,158 @@
+{
+  "id": "polyhaven-propane-tank",
+  "assetId": "polyhaven:propane_tank",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Cilindro de propano",
+  "titleOriginal": "Propane Tank",
+  "author": "Slinc",
+  "authorUrl": "https://polyhaven.com/a/propane_tank",
+  "sourceUrl": "https://polyhaven.com/a/propane_tank",
+  "metadataUrl": "https://api.polyhaven.com/info/propane_tank",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/propane_tank/propane_tank_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Containers & Storage/Tanks & Jerrycans/Gas Cylinders",
+  "tags": [
+    "worn",
+    "metal",
+    "red barrel",
+    "scratched",
+    "cylinder",
+    "lpg",
+    "fuel",
+    "Propane Tank",
+    "chemistry-gas-cylinders"
+  ],
+  "areas": [
+    "laboratorio-ciencia",
+    "fisica-energia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Propane Tank\", por Slinc / Poly Haven. https://polyhaven.com/a/propane_tank. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-propane-tank/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/metadata.json",
+  "originalDownload": "models/polyhaven-propane-tank/originals.zip",
+  "bytes": 2213112,
+  "sha256": "ba56f0cb2997582558ff66dc92bfcd9949ab0d50c9fb4c8d972568c4c1693e1a",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:34:04.444215+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "propane_tank_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-propane-tank/original/propane_tank_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/propane_tank/propane_tank_1k.gltf",
+        "bytes": 2733,
+        "md5": "4579fb704d4d97e1aca048c126f6d921",
+        "sha256": "b62862832ab6bfb3262563749b9196cf6dd2b011ca86a7ccb1b35f007e5685b5"
+      },
+      {
+        "file": "models/polyhaven-propane-tank/original/textures/propane_tank_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_nor_gl_1k.jpg",
+        "bytes": 659305,
+        "md5": "d6f11926f096f3373f091bb35f83ddd3",
+        "sha256": "e17827f800150fb069dbe36ff4464eaf9f8c4d2d4608f1cc87a48dea0fe3d8f0"
+      },
+      {
+        "file": "models/polyhaven-propane-tank/original/textures/propane_tank_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_diff_1k.jpg",
+        "bytes": 702492,
+        "md5": "935d42c466adae18710e1f0fc79b306b",
+        "sha256": "09ae9f12f41ed0c8c7fb8e22f16871727b9b6ed7e06cde98ec9b8052395f46a4"
+      },
+      {
+        "file": "models/polyhaven-propane-tank/original/textures/propane_tank_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/propane_tank/propane_tank_arm_1k.jpg",
+        "bytes": 675391,
+        "md5": "23773169952447a34c90944eb17563a0",
+        "sha256": "c56b34618f8d3a2681f559e66bbd4616010ba092b8266ee4249940e1dfecf820"
+      },
+      {
+        "file": "models/polyhaven-propane-tank/original/propane_tank.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/propane_tank/propane_tank.bin",
+        "bytes": 174180,
+        "md5": "bb8e4a72c3f655bfa3dec7456a343451",
+        "sha256": "1e139c9a5a04de7b44a665cb504670c2e899d1f8f62ad84a238165874d4eea6c"
+      }
+    ],
+    "originalDownloadSha256": "9eaba3b32e4593ca031116a8ae5da6f5f3e9357c164e48630bec3b9a790b9d3b",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/metadata.json",
+    "metadataEvidenceSha256": "2157abe724da423e3e54110a4ef7384deca44c8feb48aedcceb8981be65a4e3c",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/files.json",
+    "fileManifestEvidenceSha256": "766ef41e6f9ef21fb196ccd8e67b81ec06c244fc83033550ee4eddcae88b2a10",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/propane_tank/technical-review.json",
+    "technicalReviewEvidenceSha256": "e698d4e697d4259d10ee76d3c7f0776f95316a20ad957f4beeba26068518271a",
+    "providerReportedPolycount": 5238,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.3373616933822632,
+      0.3373616933822632,
+      0.5537950396537781
+    ],
+    "reimportDimensionsBlender": [
+      0.3373616933822632,
+      0.3373616933822632,
+      0.5537950396537781
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "0c966061fa7dc43a0bea34abbf2539462590c15899d9d5316856d4be5d0fc1ef",
+      "triangles": 5238
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

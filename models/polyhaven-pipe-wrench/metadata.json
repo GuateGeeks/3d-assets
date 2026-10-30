@@ -1,0 +1,164 @@
+{
+  "id": "polyhaven-pipe-wrench",
+  "assetId": "polyhaven:pipe_wrench",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Llave para tubos",
+  "titleOriginal": "Pipe Wrench",
+  "author": "Will Evarts",
+  "authorUrl": "https://polyhaven.com/a/pipe_wrench",
+  "sourceUrl": "https://polyhaven.com/a/pipe_wrench",
+  "metadataUrl": "https://api.polyhaven.com/info/pipe_wrench",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pipe_wrench/pipe_wrench_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Hand Tools/Wrenches & Spanners",
+  "tags": [
+    "wrench",
+    "garage",
+    "workshop",
+    "construction",
+    "plumbing",
+    "automotive",
+    "used",
+    "mechanics toolbox",
+    "hardware",
+    "adjustable wrench",
+    "monkey wrench",
+    "spanner",
+    "Pipe Wrench",
+    "workshop-wrenches"
+  ],
+  "areas": [
+    "oficios-productividad",
+    "fisica-energia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pipe Wrench\", por Will Evarts / Poly Haven. https://polyhaven.com/a/pipe_wrench. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-pipe-wrench/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/metadata.json",
+  "originalDownload": "models/polyhaven-pipe-wrench/originals.zip",
+  "bytes": 3014168,
+  "sha256": "fd0c2316f85cfb5426584a03ee1f3433392047889b33f944e485aa4575f484d5",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:34:24.192261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "pipe_wrench_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-pipe-wrench/original/pipe_wrench_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pipe_wrench/pipe_wrench_1k.gltf",
+        "bytes": 2756,
+        "md5": "b15215e590b08501397b3303c17c236e",
+        "sha256": "f6b9b8bcb40842411a9b8d4c74b7e5d5623f64e55c04f54b7e4747759dcba9ed"
+      },
+      {
+        "file": "models/polyhaven-pipe-wrench/original/textures/pipe_wrench_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_arm_1k.jpg",
+        "bytes": 820365,
+        "md5": "60d631b218bccdc289330840adcb1e07",
+        "sha256": "1d6a908b19d21a5d592a3faba3cb6d2536b2d24b9048873f34d4bfa9fcd7392a"
+      },
+      {
+        "file": "models/polyhaven-pipe-wrench/original/textures/pipe_wrench_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_diff_1k.jpg",
+        "bytes": 886835,
+        "md5": "8ba0690b6ead89564c63810c2fcfe957",
+        "sha256": "f9a43727c70db8344ee780ce73064681a7a4c97e918c16b071c08cdc3c7a1fdd"
+      },
+      {
+        "file": "models/polyhaven-pipe-wrench/original/textures/pipe_wrench_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_nor_gl_1k.jpg",
+        "bytes": 1020433,
+        "md5": "02e9be9fee27d6faa6fea4d63d5b2a7c",
+        "sha256": "504c2d5b09c87e2fbf5aca5e3cddfb9c77eb9966531fe5c6219f9813b176b44a"
+      },
+      {
+        "file": "models/polyhaven-pipe-wrench/original/pipe_wrench.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pipe_wrench/pipe_wrench.bin",
+        "bytes": 284764,
+        "md5": "1c6c1974d94fc2656055d3d7830dd9fb",
+        "sha256": "6d21de348f1fb4b2194b1f91a4529e48cac721debaaec9cb6fba37939d503bfc"
+      }
+    ],
+    "originalDownloadSha256": "be8a547bb4160fa446764e2f780bb9e9f84eddd26f469804e07d59cb8ff98cc5",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/metadata.json",
+    "metadataEvidenceSha256": "12122516f1f8b7b5ceec320a3f1ddfb703c45dad68411e78b30373946dd9b7de",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/files.json",
+    "fileManifestEvidenceSha256": "b9edb813170c97f3d8ced666e8e5f114b4c014c2db1173ea0dd9d3aeaa038678",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/pipe_wrench/technical-review.json",
+    "technicalReviewEvidenceSha256": "f248df2a3b04c5ec27e1b6a363271072b9bc18ae15d8c8f2df8454f1374ea90a",
+    "providerReportedPolycount": 10746,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.08397936820983887,
+      0.03434488922357559,
+      0.40466517210006714
+    ],
+    "reimportDimensionsBlender": [
+      0.08397936820983887,
+      0.03434488922357559,
+      0.40466517210006714
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "7571add260c3a6537d0fdaa04ef49e01fc7dc5ed1925b412ec7ee691fdabd9b4",
+      "triangles": 10746
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

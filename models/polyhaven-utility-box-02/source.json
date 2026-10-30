@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Utility Box 02\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/utility_box_02. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "James Ray Cock"
+  },
+  "Title": "Utility Box 02",
+  "sourceUrl": "https://polyhaven.com/a/utility_box_02",
+  "assetId": "utility_box_02",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-utility-box-02/original/utility_box_02_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/utility_box_02/utility_box_02_1k.gltf",
+      "bytes": 2764,
+      "md5": "e73af61886eedd147d66e7e295543142",
+      "sha256": "d3f87ce0852709498602f6a096be99a9e13f0ac2619f99edcebad9e89f9faf00"
+    },
+    {
+      "file": "models/polyhaven-utility-box-02/original/textures/utility_box_02_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_02/utility_box_02_diff_1k.jpg",
+      "bytes": 553096,
+      "md5": "119987b82e0faac169e2109ff5961743",
+      "sha256": "78a0c93b1d8d394beee5989c0d3470a9c8c4e902f708acf3c11cd4edafbe08b1"
+    },
+    {
+      "file": "models/polyhaven-utility-box-02/original/textures/utility_box_02_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_02/utility_box_02_arm_1k.jpg",
+      "bytes": 720694,
+      "md5": "062e9ea1df88d177e332b1595bb27a12",
+      "sha256": "f85575f891c97354d2fff11d5d0e2bc5f7d3aeab853ff3d75100c30c177a9cc5"
+    },
+    {
+      "file": "models/polyhaven-utility-box-02/original/textures/utility_box_02_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/utility_box_02/utility_box_02_nor_gl_1k.jpg",
+      "bytes": 552902,
+      "md5": "6704e7af3075eaf58ff7b7fb791f6610",
+      "sha256": "e7c85b37fa5420591b6fa5dcef7875c927c8dc51f38c39c5844d53284ef37c74"
+    },
+    {
+      "file": "models/polyhaven-utility-box-02/original/utility_box_02.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/utility_box_02/utility_box_02.bin",
+      "bytes": 199784,
+      "md5": "bff3e7d9375d8c5ea5723ad007e45258",
+      "sha256": "0f0a3f8ecc0358e36e97120aa752c2456a78bf922671e6f77e402b0aa58ecfce"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"Portable Welding Cart\", por Georgii Gorbunov / Poly Haven. https://polyhaven.com/a/portable_welding_cart. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Georgii Gorbunov"
+  },
+  "Title": "Portable Welding Cart",
+  "sourceUrl": "https://polyhaven.com/a/portable_welding_cart",
+  "assetId": "portable_welding_cart",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-portable-welding-cart/original/portable_welding_cart_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/portable_welding_cart/portable_welding_cart_1k.gltf",
+      "bytes": 4797,
+      "md5": "33d94dec3e6fd1e1b59015a07e581ce1",
+      "sha256": "2ee1f60ab9985755bd4a18bd6296bbfa60939909ffce802b6fd0dcbac3e6e113"
+    },
+    {
+      "file": "models/polyhaven-portable-welding-cart/original/textures/portable_welding_cart_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_welding_cart/portable_welding_cart_nor_gl_1k.jpg",
+      "bytes": 469656,
+      "md5": "ec56de2a7156316fdc92f135ea0a44a2",
+      "sha256": "1ed87f8854486f3ba5fd426b1947584cdae3374e27f441ef46ef513fbfbc39a2"
+    },
+    {
+      "file": "models/polyhaven-portable-welding-cart/original/textures/portable_welding_cart_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_welding_cart/portable_welding_cart_diff_1k.jpg",
+      "bytes": 705644,
+      "md5": "b9db0a0e0170ae91c9a0e5bc117155f2",
+      "sha256": "3efec798f2f63c7dc68bd22deee74d12de0453195ee7f568f9e171d848624208"
+    },
+    {
+      "file": "models/polyhaven-portable-welding-cart/original/textures/portable_welding_cart_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_welding_cart/portable_welding_cart_arm_1k.jpg",
+      "bytes": 756251,
+      "md5": "d4a089568b13d8f8d52201c4c13e3f59",
+      "sha256": "6b5036f5ff4d8aa1b25da4aeb504a92d1a29373e22299080b3186b6385b6504d"
+    },
+    {
+      "file": "models/polyhaven-portable-welding-cart/original/portable_welding_cart.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/portable_welding_cart/portable_welding_cart.bin",
+      "bytes": 864348,
+      "md5": "a866823984530a1c01a03e0849f72887",
+      "sha256": "b5b073932eeb1d39f9b33893d5b96432e24a067000db8a15e53a0508516700a6"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

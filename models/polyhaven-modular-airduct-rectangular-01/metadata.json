@@ -1,0 +1,184 @@
+{
+  "id": "polyhaven-modular-airduct-rectangular-01",
+  "assetId": "polyhaven:modular_airduct_rectangular_01",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Conductos rectangulares de ventilación",
+  "titleOriginal": "Modular Airduct Rectangular 01",
+  "author": "James Ray Cock",
+  "authorUrl": "https://polyhaven.com/a/modular_airduct_rectangular_01",
+  "sourceUrl": "https://polyhaven.com/a/modular_airduct_rectangular_01",
+  "metadataUrl": "https://api.polyhaven.com/info/modular_airduct_rectangular_01",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Industrial & Infrastructure/Pipes & Ducts/HVAC Ducts",
+  "tags": [
+    "vent",
+    "airduct",
+    "modular",
+    "pieces",
+    "workshop",
+    "warehouse",
+    "rectangular",
+    "metal",
+    "airvent",
+    "utility",
+    "infrastructure",
+    "Modular Airduct Rectangular 01",
+    "ventilation-modular-ducts"
+  ],
+  "areas": [
+    "fisica-energia",
+    "oficios-productividad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Modular Airduct Rectangular 01\", por James Ray Cock / Poly Haven. https://polyhaven.com/a/modular_airduct_rectangular_01. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-modular-airduct-rectangular-01/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/metadata.json",
+  "originalDownload": "models/polyhaven-modular-airduct-rectangular-01/originals.zip",
+  "bytes": 2751576,
+  "sha256": "b9573d7fdd6f914a08f533460af88010ecf7b6adf176ff42b1a6a97288665517",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 18,
+    "nodes": 18,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:33:42.311588+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "modular_airduct_rectangular_01_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-modular-airduct-rectangular-01/original/modular_airduct_rectangular_01_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_1k.gltf",
+        "bytes": 37157,
+        "md5": "80509f1d78f7853669d6f7d101cececd",
+        "sha256": "61468e734df89c1a84f6aa5f2f60ea2d1486d927f640d1912bdc929be7673643"
+      },
+      {
+        "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts01_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_1k.jpg",
+        "bytes": 63936,
+        "md5": "2742e16a52c9b188d60984ae880d4e24",
+        "sha256": "e659e0dbe8ec88e33d2578fdb59af3b5aec308957914a6847ce076fe16e8c3c5"
+      },
+      {
+        "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts02_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_1k.jpg",
+        "bytes": 88121,
+        "md5": "1d7ae142cf19bec3526af4138cc2efc2",
+        "sha256": "b41b75e92307d9c37433dd27766eb3328aa09394bf4bf501e6a42da80bbf3010"
+      },
+      {
+        "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts02_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_1k.jpg",
+        "bytes": 158760,
+        "md5": "b7abe74284ac15a8245f3ad09ff4857b",
+        "sha256": "e17a732494acf18dc4f1d9518a1297758d1437acad7d98110a4550a537428b17"
+      },
+      {
+        "file": "models/polyhaven-modular-airduct-rectangular-01/original/modular_airduct_rectangular_01.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01.bin",
+        "bytes": 1795116,
+        "md5": "e9d9ce22429985630952fc26fe24e2f5",
+        "sha256": "9cd2aef6a787922571a9b4830dd3fd57ba5b535db88b9980ecf9a255a59aa2a6"
+      },
+      {
+        "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts01_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_1k.jpg",
+        "bytes": 247732,
+        "md5": "62dd69fb3c04f8665ff5a6d51686b4eb",
+        "sha256": "8225a69b7a5cb20e0e091899955b5765c82cdea781ffd28da51d7a5cc3d12ddd"
+      },
+      {
+        "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts02_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_1k.jpg",
+        "bytes": 188686,
+        "md5": "a9ff2f1df22d2f6de80b51b15e2c1a87",
+        "sha256": "718ee754ffb882cff87d3470b641b94d6c09ed62a51fe81575149321cf104278"
+      },
+      {
+        "file": "models/polyhaven-modular-airduct-rectangular-01/original/textures/modular_airduct_rectangular_01_parts01_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_1k.jpg",
+        "bytes": 187245,
+        "md5": "c73cefa3a76becf5963cc4e1c483368d",
+        "sha256": "b86936922be53c2a4591bbdd88a0d63fcc7583bb534ce9fc569d5be3fb9306c0"
+      }
+    ],
+    "originalDownloadSha256": "1507c44a7aba397997588971c1dcae0285bcab17dcf101f47b96e5f8bd28c918",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/metadata.json",
+    "metadataEvidenceSha256": "bf85a8b1ae0c0473f198fabb2ed8a6762bd6f762781ee05b91afa75d941c85ad",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/files.json",
+    "fileManifestEvidenceSha256": "2917802642e6aeda6cc6c21f39771511271626d140dcff2a5d8c2fbed92f17dd",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/modular_airduct_rectangular_01/technical-review.json",
+    "technicalReviewEvidenceSha256": "e854215afabafae54854ff0442bdc7a8e6f770d01b3c5ac1948a312f15462c6b",
+    "providerReportedPolycount": 45090,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      7.663504123687744,
+      2.5866451263427734,
+      1.2561511993408203
+    ],
+    "reimportDimensionsBlender": [
+      7.663504123687744,
+      2.5866451263427734,
+      1.2561511993408203
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "14c4eba2b861b490aaf176a662768624842c472cce6ed600d959af7d93f95050",
+      "triangles": 45090
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

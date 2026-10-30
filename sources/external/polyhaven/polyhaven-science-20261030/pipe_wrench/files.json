@@ -1,0 +1,729 @@
+{
+  "Diffuse": {
+    "4k": {
+      "jpg": {
+        "size": 10987684,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_diff_4k.jpg",
+        "md5": "6de076ba36d13166ca48ef02c790c9a0"
+      },
+      "png": {
+        "size": 48484862,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pipe_wrench/pipe_wrench_diff_4k.png",
+        "md5": "b87471544a73af9502ede1152637124f"
+      },
+      "exr": {
+        "size": 24965886,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_diff_4k.exr",
+        "md5": "e71b813e845fef5a933a938df3363d02"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 3067542,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_diff_2k.jpg",
+        "md5": "2e86675d31aebbad402b6e81b7be24c3"
+      },
+      "png": {
+        "size": 15912335,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pipe_wrench/pipe_wrench_diff_2k.png",
+        "md5": "6284f162c06031337633d0f43428cc51"
+      },
+      "exr": {
+        "size": 6747585,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_diff_2k.exr",
+        "md5": "990df5785b5448a9a773308d2aa9e55d"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 886835,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_diff_1k.jpg",
+        "md5": "8ba0690b6ead89564c63810c2fcfe957"
+      },
+      "png": {
+        "size": 4622430,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pipe_wrench/pipe_wrench_diff_1k.png",
+        "md5": "7c4a27e2ef40376e1294e4b3aa63fb7d"
+      },
+      "exr": {
+        "size": 1941850,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_diff_1k.exr",
+        "md5": "61aabf5183c27cd07636c21bc8ad0302"
+      }
+    }
+  },
+  "nor_dx": {
+    "4k": {
+      "jpg": {
+        "size": 18288389,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_nor_dx_4k.jpg",
+        "md5": "30ad0b5afc66a9f65ec6cd9678de1aec"
+      },
+      "png": {
+        "size": 73246485,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pipe_wrench/pipe_wrench_nor_dx_4k.png",
+        "md5": "e36a9d710e73129c28fd8d1d68fe5124"
+      },
+      "exr": {
+        "size": 35397652,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_nor_dx_4k.exr",
+        "md5": "9743d105193abc2cc73913baeb3727fa"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 4324996,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_nor_dx_2k.jpg",
+        "md5": "275137ee90de0c09f86d2968fba85c0d"
+      },
+      "png": {
+        "size": 19539068,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pipe_wrench/pipe_wrench_nor_dx_2k.png",
+        "md5": "3d762177adcc752ffcc241a3cbb667fd"
+      },
+      "exr": {
+        "size": 8835990,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_nor_dx_2k.exr",
+        "md5": "99084944b4849609ee8cadbc86ba88e6"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 1032510,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_nor_dx_1k.jpg",
+        "md5": "ee182174ef64254c7e648dabad2c060f"
+      },
+      "png": {
+        "size": 5200333,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pipe_wrench/pipe_wrench_nor_dx_1k.png",
+        "md5": "54d625d48d7ce0805c65c39df7a1333e"
+      },
+      "exr": {
+        "size": 2219691,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_nor_dx_1k.exr",
+        "md5": "09a56ab5ed1904d452af1e85c7a8dccb"
+      }
+    }
+  },
+  "nor_gl": {
+    "4k": {
+      "jpg": {
+        "size": 17243203,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_nor_gl_4k.jpg",
+        "md5": "2fc1e20f05c771dcd3f2a2123f2602c0"
+      },
+      "png": {
+        "size": 73249235,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pipe_wrench/pipe_wrench_nor_gl_4k.png",
+        "md5": "5432e063952b267932372cda140d55e2"
+      },
+      "exr": {
+        "size": 35403523,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_nor_gl_4k.exr",
+        "md5": "b904f9f07dee5373c420a920ce4e6df8"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 4228959,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_nor_gl_2k.jpg",
+        "md5": "0115bba6f32858859dd8f789f7921af6"
+      },
+      "png": {
+        "size": 19538508,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pipe_wrench/pipe_wrench_nor_gl_2k.png",
+        "md5": "39e8d3a05fb61d299d5cedcaf16aec7c"
+      },
+      "exr": {
+        "size": 8833526,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_nor_gl_2k.exr",
+        "md5": "788bfedcb20a90318ac292ee95647be3"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 1020433,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_nor_gl_1k.jpg",
+        "md5": "02e9be9fee27d6faa6fea4d63d5b2a7c"
+      },
+      "png": {
+        "size": 5200404,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pipe_wrench/pipe_wrench_nor_gl_1k.png",
+        "md5": "70be3ed1f68bc1f310775d689eae9e4f"
+      },
+      "exr": {
+        "size": 2220046,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_nor_gl_1k.exr",
+        "md5": "db2a682f5f91ae3855d02b19e3109bf6"
+      }
+    }
+  },
+  "blend": {
+    "4k": {
+      "blend": {
+        "include": {
+          "textures/pipe_wrench_nor_gl_4k.exr": {
+            "size": 35403523,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_nor_gl_4k.exr",
+            "md5": "b904f9f07dee5373c420a920ce4e6df8"
+          },
+          "textures/pipe_wrench_diff_4k.jpg": {
+            "size": 10987684,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_diff_4k.jpg",
+            "md5": "6de076ba36d13166ca48ef02c790c9a0"
+          },
+          "textures/pipe_wrench_metal_4k.exr": {
+            "size": 7857094,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_metal_4k.exr",
+            "md5": "884e8279ace2d9af8e60fa73d165756e"
+          },
+          "textures/pipe_wrench_rough_4k.exr": {
+            "size": 8590709,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_rough_4k.exr",
+            "md5": "7019af8f31aa5c086edaf11500a694ce"
+          }
+        },
+        "size": 402651,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/pipe_wrench/pipe_wrench_4k.blend",
+        "md5": "14d7ea8b884c3218f0bece46a278f47b"
+      }
+    },
+    "2k": {
+      "blend": {
+        "include": {
+          "textures/pipe_wrench_rough_2k.exr": {
+            "size": 2322527,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_rough_2k.exr",
+            "md5": "c1645fd5b7280111e6ae13a3ee948165"
+          },
+          "textures/pipe_wrench_nor_gl_2k.exr": {
+            "size": 8833526,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_nor_gl_2k.exr",
+            "md5": "788bfedcb20a90318ac292ee95647be3"
+          },
+          "textures/pipe_wrench_diff_2k.jpg": {
+            "size": 3067542,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_diff_2k.jpg",
+            "md5": "2e86675d31aebbad402b6e81b7be24c3"
+          },
+          "textures/pipe_wrench_metal_2k.exr": {
+            "size": 2510369,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_metal_2k.exr",
+            "md5": "9bced24d8dc29abcc5dbded6fc4c39dc"
+          }
+        },
+        "size": 439217,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/pipe_wrench/pipe_wrench_2k.blend",
+        "md5": "4f1f79807f3f7c390c1fc4e7f081a9fd"
+      }
+    },
+    "1k": {
+      "blend": {
+        "include": {
+          "textures/pipe_wrench_nor_gl_1k.exr": {
+            "size": 2220046,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_nor_gl_1k.exr",
+            "md5": "db2a682f5f91ae3855d02b19e3109bf6"
+          },
+          "textures/pipe_wrench_rough_1k.exr": {
+            "size": 662145,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_rough_1k.exr",
+            "md5": "9a1a88f86d5f4c10b93124861755ba99"
+          },
+          "textures/pipe_wrench_diff_1k.jpg": {
+            "size": 886835,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_diff_1k.jpg",
+            "md5": "8ba0690b6ead89564c63810c2fcfe957"
+          },
+          "textures/pipe_wrench_metal_1k.exr": {
+            "size": 810310,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_metal_1k.exr",
+            "md5": "32a1ffcacb7cb3f1efb7ed0b65dccce9"
+          }
+        },
+        "size": 432813,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/pipe_wrench/pipe_wrench_1k.blend",
+        "md5": "8b1ba09743bf0e749343dd4c4527711e"
+      }
+    }
+  },
+  "gltf": {
+    "4k": {
+      "gltf": {
+        "include": {
+          "textures/pipe_wrench_nor_gl_4k.jpg": {
+            "size": 17243203,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_nor_gl_4k.jpg",
+            "md5": "2fc1e20f05c771dcd3f2a2123f2602c0"
+          },
+          "textures/pipe_wrench_diff_4k.jpg": {
+            "size": 10987684,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_diff_4k.jpg",
+            "md5": "6de076ba36d13166ca48ef02c790c9a0"
+          },
+          "textures/pipe_wrench_arm_4k.jpg": {
+            "size": 10586000,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_arm_4k.jpg",
+            "md5": "bc43b13c93b108528cd8fca0bf3d5a7e"
+          },
+          "pipe_wrench.bin": {
+            "size": 284764,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pipe_wrench/pipe_wrench.bin",
+            "md5": "1c6c1974d94fc2656055d3d7830dd9fb"
+          }
+        },
+        "size": 2756,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pipe_wrench/pipe_wrench_4k.gltf",
+        "md5": "30cd9fc7cb8998aa1a3b043900eee687"
+      }
+    },
+    "2k": {
+      "gltf": {
+        "include": {
+          "textures/pipe_wrench_nor_gl_2k.jpg": {
+            "size": 4228959,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_nor_gl_2k.jpg",
+            "md5": "0115bba6f32858859dd8f789f7921af6"
+          },
+          "textures/pipe_wrench_diff_2k.jpg": {
+            "size": 3067542,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_diff_2k.jpg",
+            "md5": "2e86675d31aebbad402b6e81b7be24c3"
+          },
+          "pipe_wrench.bin": {
+            "size": 284764,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pipe_wrench/pipe_wrench.bin",
+            "md5": "1c6c1974d94fc2656055d3d7830dd9fb"
+          },
+          "textures/pipe_wrench_arm_2k.jpg": {
+            "size": 2889323,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_arm_2k.jpg",
+            "md5": "0a60c2ce87d655413eee5931dcb961cd"
+          }
+        },
+        "size": 2756,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/pipe_wrench/pipe_wrench_2k.gltf",
+        "md5": "8991e4014478e7150533c346f757c43f"
+      }
+    },
+    "1k": {
+      "gltf": {
+        "include": {
+          "textures/pipe_wrench_arm_1k.jpg": {
+            "size": 820365,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_arm_1k.jpg",
+            "md5": "60d631b218bccdc289330840adcb1e07"
+          },
+          "textures/pipe_wrench_diff_1k.jpg": {
+            "size": 886835,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_diff_1k.jpg",
+            "md5": "8ba0690b6ead89564c63810c2fcfe957"
+          },
+          "textures/pipe_wrench_nor_gl_1k.jpg": {
+            "size": 1020433,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_nor_gl_1k.jpg",
+            "md5": "02e9be9fee27d6faa6fea4d63d5b2a7c"
+          },
+          "pipe_wrench.bin": {
+            "size": 284764,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pipe_wrench/pipe_wrench.bin",
+            "md5": "1c6c1974d94fc2656055d3d7830dd9fb"
+          }
+        },
+        "size": 2756,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pipe_wrench/pipe_wrench_1k.gltf",
+        "md5": "b15215e590b08501397b3303c17c236e"
+      }
+    }
+  },
+  "usd": {
+    "4k": {
+      "usd": {
+        "include": {
+          "textures/pipe_wrench_nor_gl_4k.exr": {
+            "size": 35403523,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_nor_gl_4k.exr",
+            "md5": "b904f9f07dee5373c420a920ce4e6df8"
+          },
+          "textures/pipe_wrench_diff_4k.jpg": {
+            "size": 10987684,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_diff_4k.jpg",
+            "md5": "6de076ba36d13166ca48ef02c790c9a0"
+          },
+          "textures/pipe_wrench_metal_4k.exr": {
+            "size": 7857094,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_metal_4k.exr",
+            "md5": "884e8279ace2d9af8e60fa73d165756e"
+          },
+          "textures/pipe_wrench_rough_4k.exr": {
+            "size": 8590709,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_rough_4k.exr",
+            "md5": "7019af8f31aa5c086edaf11500a694ce"
+          }
+        },
+        "size": 533043,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/pipe_wrench/pipe_wrench_4k.usdc",
+        "md5": "d47a02d1de4b5e481e45f80e363aba23"
+      }
+    },
+    "2k": {
+      "usd": {
+        "include": {
+          "textures/pipe_wrench_rough_2k.exr": {
+            "size": 2322527,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_rough_2k.exr",
+            "md5": "c1645fd5b7280111e6ae13a3ee948165"
+          },
+          "textures/pipe_wrench_nor_gl_2k.exr": {
+            "size": 8833526,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_nor_gl_2k.exr",
+            "md5": "788bfedcb20a90318ac292ee95647be3"
+          },
+          "textures/pipe_wrench_diff_2k.jpg": {
+            "size": 3067542,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_diff_2k.jpg",
+            "md5": "2e86675d31aebbad402b6e81b7be24c3"
+          },
+          "textures/pipe_wrench_metal_2k.exr": {
+            "size": 2510369,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_metal_2k.exr",
+            "md5": "9bced24d8dc29abcc5dbded6fc4c39dc"
+          }
+        },
+        "size": 533043,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/pipe_wrench/pipe_wrench_2k.usdc",
+        "md5": "0761793201ec0d505f69dd91925c0c36"
+      }
+    },
+    "1k": {
+      "usd": {
+        "include": {
+          "textures/pipe_wrench_nor_gl_1k.exr": {
+            "size": 2220046,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_nor_gl_1k.exr",
+            "md5": "db2a682f5f91ae3855d02b19e3109bf6"
+          },
+          "textures/pipe_wrench_rough_1k.exr": {
+            "size": 662145,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_rough_1k.exr",
+            "md5": "9a1a88f86d5f4c10b93124861755ba99"
+          },
+          "textures/pipe_wrench_diff_1k.jpg": {
+            "size": 886835,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_diff_1k.jpg",
+            "md5": "8ba0690b6ead89564c63810c2fcfe957"
+          },
+          "textures/pipe_wrench_metal_1k.exr": {
+            "size": 810310,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_metal_1k.exr",
+            "md5": "32a1ffcacb7cb3f1efb7ed0b65dccce9"
+          }
+        },
+        "size": 533061,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/pipe_wrench/pipe_wrench_1k.usdc",
+        "md5": "db7c59ec1bdf28fedbbd8cf5505420e8"
+      }
+    }
+  },
+  "Metal": {
+    "4k": {
+      "jpg": {
+        "size": 7244699,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_metal_4k.jpg",
+        "md5": "5ada40336b866f0d8fd0dd8a98f1ff31"
+      },
+      "png": {
+        "size": 7837283,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pipe_wrench/pipe_wrench_metal_4k.png",
+        "md5": "0c5fc63526c10c073f21d521b5c40a19"
+      },
+      "exr": {
+        "size": 7857094,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_metal_4k.exr",
+        "md5": "884e8279ace2d9af8e60fa73d165756e"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2135993,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_metal_2k.jpg",
+        "md5": "af638a2f073783e8d9deaa775fb12d08"
+      },
+      "png": {
+        "size": 3367097,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pipe_wrench/pipe_wrench_metal_2k.png",
+        "md5": "0db398f1b5bbd33c65ffd65c4361eafb"
+      },
+      "exr": {
+        "size": 2510369,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_metal_2k.exr",
+        "md5": "9bced24d8dc29abcc5dbded6fc4c39dc"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 649205,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_metal_1k.jpg",
+        "md5": "9ac1214cf7dafb027bb9de01f658ee06"
+      },
+      "png": {
+        "size": 1108873,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pipe_wrench/pipe_wrench_metal_1k.png",
+        "md5": "14bdc44c9bad7311e546656ce5e55d77"
+      },
+      "exr": {
+        "size": 810310,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_metal_1k.exr",
+        "md5": "32a1ffcacb7cb3f1efb7ed0b65dccce9"
+      }
+    }
+  },
+  "arm": {
+    "4k": {
+      "jpg": {
+        "size": 10586000,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_arm_4k.jpg",
+        "md5": "bc43b13c93b108528cd8fca0bf3d5a7e"
+      },
+      "png": {
+        "size": 16734060,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pipe_wrench/pipe_wrench_arm_4k.png",
+        "md5": "6f707c7e7d46410feb67f072d8af55d4"
+      },
+      "exr": {
+        "size": 25067551,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_arm_4k.exr",
+        "md5": "b0b0c902147588f71888be792cb3d1b6"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2889323,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_arm_2k.jpg",
+        "md5": "0a60c2ce87d655413eee5931dcb961cd"
+      },
+      "png": {
+        "size": 4855890,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pipe_wrench/pipe_wrench_arm_2k.png",
+        "md5": "fc421a240bd48db928b4ee1623ac036f"
+      },
+      "exr": {
+        "size": 6869553,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_arm_2k.exr",
+        "md5": "fe1e39dcde9dd867b7aadd4a9b3b4ad9"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 820365,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_arm_1k.jpg",
+        "md5": "60d631b218bccdc289330840adcb1e07"
+      },
+      "png": {
+        "size": 1397033,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pipe_wrench/pipe_wrench_arm_1k.png",
+        "md5": "bd19218e1fa6b2fcf0640954e24cf5a8"
+      },
+      "exr": {
+        "size": 1989413,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_arm_1k.exr",
+        "md5": "17c217faa1de827321646250ed98bd12"
+      }
+    }
+  },
+  "fbx": {
+    "4k": {
+      "fbx": {
+        "include": {
+          "textures/pipe_wrench_nor_gl_4k.exr": {
+            "size": 35403523,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_nor_gl_4k.exr",
+            "md5": "b904f9f07dee5373c420a920ce4e6df8"
+          },
+          "textures/pipe_wrench_diff_4k.jpg": {
+            "size": 10987684,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_diff_4k.jpg",
+            "md5": "6de076ba36d13166ca48ef02c790c9a0"
+          },
+          "textures/pipe_wrench_metal_4k.exr": {
+            "size": 7857094,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_metal_4k.exr",
+            "md5": "884e8279ace2d9af8e60fa73d165756e"
+          },
+          "textures/pipe_wrench_rough_4k.exr": {
+            "size": 8590709,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_rough_4k.exr",
+            "md5": "7019af8f31aa5c086edaf11500a694ce"
+          }
+        },
+        "size": 365068,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/pipe_wrench/pipe_wrench_4k.fbx",
+        "md5": "af2aa7b6518473ba81469e8e0c712a73"
+      }
+    },
+    "2k": {
+      "fbx": {
+        "include": {
+          "textures/pipe_wrench_rough_2k.exr": {
+            "size": 2322527,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_rough_2k.exr",
+            "md5": "c1645fd5b7280111e6ae13a3ee948165"
+          },
+          "textures/pipe_wrench_nor_gl_2k.exr": {
+            "size": 8833526,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_nor_gl_2k.exr",
+            "md5": "788bfedcb20a90318ac292ee95647be3"
+          },
+          "textures/pipe_wrench_diff_2k.jpg": {
+            "size": 3067542,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_diff_2k.jpg",
+            "md5": "2e86675d31aebbad402b6e81b7be24c3"
+          },
+          "textures/pipe_wrench_metal_2k.exr": {
+            "size": 2510369,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_metal_2k.exr",
+            "md5": "9bced24d8dc29abcc5dbded6fc4c39dc"
+          }
+        },
+        "size": 365068,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/pipe_wrench/pipe_wrench_2k.fbx",
+        "md5": "bb79531dc29934c1c8676fe5a8b2747d"
+      }
+    },
+    "1k": {
+      "fbx": {
+        "include": {
+          "textures/pipe_wrench_nor_gl_1k.exr": {
+            "size": 2220046,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_nor_gl_1k.exr",
+            "md5": "db2a682f5f91ae3855d02b19e3109bf6"
+          },
+          "textures/pipe_wrench_rough_1k.exr": {
+            "size": 662145,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_rough_1k.exr",
+            "md5": "9a1a88f86d5f4c10b93124861755ba99"
+          },
+          "textures/pipe_wrench_diff_1k.jpg": {
+            "size": 886835,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_diff_1k.jpg",
+            "md5": "8ba0690b6ead89564c63810c2fcfe957"
+          },
+          "textures/pipe_wrench_metal_1k.exr": {
+            "size": 810310,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_metal_1k.exr",
+            "md5": "32a1ffcacb7cb3f1efb7ed0b65dccce9"
+          }
+        },
+        "size": 365068,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/pipe_wrench/pipe_wrench_1k.fbx",
+        "md5": "931546abb7dafeb3551c2da55966cd6d"
+      }
+    }
+  },
+  "AO": {
+    "4k": {
+      "jpg": {
+        "size": 3149409,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_ao_4k.jpg",
+        "md5": "dae3f9aa5487429c677b5914ee3a5a25"
+      },
+      "png": {
+        "size": 4237032,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pipe_wrench/pipe_wrench_ao_4k.png",
+        "md5": "c7b7ea67f1309ac6a90519f2e3d0cc17"
+      },
+      "exr": {
+        "size": 5945143,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_ao_4k.exr",
+        "md5": "54912881b51a83df12163c7db67c7274"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 831609,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_ao_2k.jpg",
+        "md5": "0d466e175c47b5af7ea2bb389eb507af"
+      },
+      "png": {
+        "size": 2438715,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pipe_wrench/pipe_wrench_ao_2k.png",
+        "md5": "9aff6a186f5b0f4b795e22f036a84d9b"
+      },
+      "exr": {
+        "size": 2230962,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_ao_2k.exr",
+        "md5": "d349721c0298a91346441ff7f93eb42d"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 275996,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_ao_1k.jpg",
+        "md5": "33d1bc1bcabeafcf55ca2c6df0c8b5ad"
+      },
+      "png": {
+        "size": 890468,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pipe_wrench/pipe_wrench_ao_1k.png",
+        "md5": "2882ad10fabad43bf91d5d7fb2f70577"
+      },
+      "exr": {
+        "size": 729774,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_ao_1k.exr",
+        "md5": "7578c3b0b7fb33069f07d59363d539b5"
+      }
+    }
+  },
+  "Rough": {
+    "4k": {
+      "jpg": {
+        "size": 8177055,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pipe_wrench/pipe_wrench_rough_4k.jpg",
+        "md5": "525c35b9b212b95609916b77f8a80a55"
+      },
+      "png": {
+        "size": 12309818,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pipe_wrench/pipe_wrench_rough_4k.png",
+        "md5": "0f6f8de1ceb1894337db6d88bc72826d"
+      },
+      "exr": {
+        "size": 8590709,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pipe_wrench/pipe_wrench_rough_4k.exr",
+        "md5": "7019af8f31aa5c086edaf11500a694ce"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2158130,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pipe_wrench/pipe_wrench_rough_2k.jpg",
+        "md5": "47f794526917affc5ac92250e5e3fd13"
+      },
+      "png": {
+        "size": 5962699,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pipe_wrench/pipe_wrench_rough_2k.png",
+        "md5": "9a2ee2d1487f0dcd0b800b2394efe299"
+      },
+      "exr": {
+        "size": 2322527,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pipe_wrench/pipe_wrench_rough_2k.exr",
+        "md5": "c1645fd5b7280111e6ae13a3ee948165"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 597523,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pipe_wrench/pipe_wrench_rough_1k.jpg",
+        "md5": "319d81e1df714a304149340def82f4f7"
+      },
+      "png": {
+        "size": 1785146,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pipe_wrench/pipe_wrench_rough_1k.png",
+        "md5": "1de1431568ec893a5340453920139daf"
+      },
+      "exr": {
+        "size": 662145,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pipe_wrench/pipe_wrench_rough_1k.exr",
+        "md5": "9a1a88f86d5f4c10b93124861755ba99"
+      }
+    }
+  }
+}

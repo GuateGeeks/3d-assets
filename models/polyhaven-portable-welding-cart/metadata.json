@@ -1,0 +1,161 @@
+{
+  "id": "polyhaven-portable-welding-cart",
+  "assetId": "polyhaven:portable_welding_cart",
+  "providerId": "polyhaven",
+  "provider": "Poly Haven",
+  "title": "Carro de soldadura con cilindros y mangueras",
+  "titleOriginal": "Portable Welding Cart",
+  "author": "Georgii Gorbunov",
+  "authorUrl": "https://polyhaven.com/a/portable_welding_cart",
+  "sourceUrl": "https://polyhaven.com/a/portable_welding_cart",
+  "metadataUrl": "https://api.polyhaven.com/info/portable_welding_cart",
+  "downloadUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/portable_welding_cart/portable_welding_cart_1k.gltf",
+  "thumbnailUrl": null,
+  "description": "Modelo detallado de Poly Haven. Escala y uso curricular pendientes de revisión docente.",
+  "category": "Tools & Equipment/Workshop Equipment/Welding Equipment",
+  "tags": [
+    "fuel",
+    "welding",
+    "cart",
+    "gas torch",
+    "oxygen tank",
+    "acetylene tank",
+    "hand truck",
+    "cylinder",
+    "hoses",
+    "Portable Welding Cart",
+    "workshop-welding-equipment"
+  ],
+  "areas": [
+    "laboratorio-ciencia",
+    "oficios-productividad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Portable Welding Cart\", por Georgii Gorbunov / Poly Haven. https://polyhaven.com/a/portable_welding_cart. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "modifications": "glTF 1k empaquetado en GLB; búferes geométricos e imágenes conservados byte a byte; escenas, materiales, UV, ejes y escala sin cambios. Sin decimación ni redimensionado de texturas.",
+  "file": "models/polyhaven-portable-welding-cart/model.glb",
+  "sourceMetadataFile": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/metadata.json",
+  "originalDownload": "models/polyhaven-portable-welding-cart/originals.zip",
+  "bytes": 3504552,
+  "sha256": "13294de49c791dad21b86b6a368753470a9dc2958fb50e8cdb966da2df791b65",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 1,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T19:34:09.614261+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular concreto pendiente.",
+  "reviewFlags": [
+    "detailed-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Poly Haven native glTF 1k",
+    "sourceMember": "portable_welding_cart_1k.gltf",
+    "originalFiles": [
+      {
+        "file": "models/polyhaven-portable-welding-cart/original/portable_welding_cart_1k.gltf",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/portable_welding_cart/portable_welding_cart_1k.gltf",
+        "bytes": 4797,
+        "md5": "33d94dec3e6fd1e1b59015a07e581ce1",
+        "sha256": "2ee1f60ab9985755bd4a18bd6296bbfa60939909ffce802b6fd0dcbac3e6e113"
+      },
+      {
+        "file": "models/polyhaven-portable-welding-cart/original/textures/portable_welding_cart_nor_gl_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_welding_cart/portable_welding_cart_nor_gl_1k.jpg",
+        "bytes": 469656,
+        "md5": "ec56de2a7156316fdc92f135ea0a44a2",
+        "sha256": "1ed87f8854486f3ba5fd426b1947584cdae3374e27f441ef46ef513fbfbc39a2"
+      },
+      {
+        "file": "models/polyhaven-portable-welding-cart/original/textures/portable_welding_cart_diff_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_welding_cart/portable_welding_cart_diff_1k.jpg",
+        "bytes": 705644,
+        "md5": "b9db0a0e0170ae91c9a0e5bc117155f2",
+        "sha256": "3efec798f2f63c7dc68bd22deee74d12de0453195ee7f568f9e171d848624208"
+      },
+      {
+        "file": "models/polyhaven-portable-welding-cart/original/textures/portable_welding_cart_arm_1k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/portable_welding_cart/portable_welding_cart_arm_1k.jpg",
+        "bytes": 756251,
+        "md5": "d4a089568b13d8f8d52201c4c13e3f59",
+        "sha256": "6b5036f5ff4d8aa1b25da4aeb504a92d1a29373e22299080b3186b6385b6504d"
+      },
+      {
+        "file": "models/polyhaven-portable-welding-cart/original/portable_welding_cart.bin",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/portable_welding_cart/portable_welding_cart.bin",
+        "bytes": 864348,
+        "md5": "a866823984530a1c01a03e0849f72887",
+        "sha256": "b5b073932eeb1d39f9b33893d5b96432e24a067000db8a15e53a0508516700a6"
+      }
+    ],
+    "originalDownloadSha256": "05139d270ae0916f99beabdaf43635eb88005c0b10f4fa9ff0d40019a24751b2",
+    "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json",
+    "licenseEvidenceSha256": "eec15830b5eb2f1c8416ad05656fa0ca2e3352d9abe61c5568750769e613cd22",
+    "metadataEvidence": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/metadata.json",
+    "metadataEvidenceSha256": "4f6ebebc30d964ff9d19e6fbd5b65bdd129f336a02e7bb43b847317c6a967ac7",
+    "fileManifestEvidence": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/files.json",
+    "fileManifestEvidenceSha256": "d6b6456e25a21c82288fd356eff5d972c5da3f34275962c7859a0dda6bdde4d1",
+    "technicalReviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/technical-review.json",
+    "technicalReviewEvidenceSha256": "fcc94a395fe9f526faf1c50fa9bdd87a31ca794f17e99e7e45b87e25bb79e9e1",
+    "providerReportedPolycount": 29418,
+    "conversionTool": "GuateGeeks glTF container packer v1",
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.8382881879806519,
+      0.6549038887023926,
+      1.5631701946258545
+    ],
+    "reimportDimensionsBlender": [
+      0.8382881879806519,
+      0.6549038887023926,
+      1.5631701946258545
+    ],
+    "scaleChange": false,
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "ba04016ba150d02e2653accb2bfd4ce01fae061abeacc555634fd51bdb427bea",
+      "triangles": 29418
+    },
+    "sourceGeometryViewsByteIdentical": true,
+    "sourceSceneAndMaterialsUnchanged": true
+  },
+  "qa": {
+    "rights": "PASS",
+    "technical": "PASS",
+    "visual": "PASS",
+    "educational": "NOT_RUN",
+    "reviewEvidence": "sources/external/polyhaven/polyhaven-science-20261030/visual-review.json"
+  }
+}

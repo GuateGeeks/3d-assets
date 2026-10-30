@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "scope": "Opened all five contact sheets: four textured source views, wire shader diagnostic without mesh modifiers, and clean GLB reimport for each model. Source and packaged appearance compared.",
+  "modelsReviewed": 21,
+  "images": {
+    "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-01.webp": "21b457a899ee88b7ce7420f54ccaf2965e8d5054c25110df16572950c9f294e1",
+    "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-02.webp": "fd87096eeb27664867ef5639743863af20994e8263cb4228e6adbdaa378f9ff3",
+    "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-03.webp": "57963d1e9ca650ec9b7e6b31569e7e0792df59b5c14ab440f87cf588aefb7761",
+    "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-04.webp": "ecc134bc66c8fada7ed2aae79c9ea357ad143dbcbcb01544b91b994e863ee339",
+    "sources/external/polyhaven/polyhaven-science-20261030/review/review-sheet-05.webp": "d83cccc889a5587781245b94ea86194742eb36ba0f843451926b65b69a4066fe"
+  },
+  "observations": [
+    "All 21 native glTF sources and packed GLBs retain matching appearance, orientation, dimensions and mesh/material counts.",
+    "Six modular kits retain the full author layout, including spatially arranged pieces; source-side views can be edge-on. Use orbit/zoom for inspection; original archives preserve every component.",
+    "Chemical products are modeled containers and labels; scientific contents, regional markings, instrument accuracy and curricular use remain NOT_RUN.",
+    "Electrical generators and workshop wrenches join existing semantic families; functional variants are not treated as binary duplicates."
+  ],
+  "educational": "NOT_RUN",
+  "browser": "Pending separate gallery verification",
+  "publicationImages": "Lossless WebP; decoded RGBA pixel equality verified. Original PNG hashes retained in image-encoding.json and staging."
+}

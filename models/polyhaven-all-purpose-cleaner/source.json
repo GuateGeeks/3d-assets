@@ -1,0 +1,48 @@
+{
+  "Licence": "CC0 1.0",
+  "Attribution": "\"All Purpose Cleaner\", por Kuutti Siitonen / Poly Haven. https://polyhaven.com/a/all_purpose_cleaner. CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/. Empaquetado GLB y miniatura: GuateGeeks.",
+  "Creator": {
+    "Username": "Kuutti Siitonen"
+  },
+  "Title": "All Purpose Cleaner",
+  "sourceUrl": "https://polyhaven.com/a/all_purpose_cleaner",
+  "assetId": "all_purpose_cleaner",
+  "originalFiles": [
+    {
+      "file": "models/polyhaven-all-purpose-cleaner/original/all_purpose_cleaner_1k.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/all_purpose_cleaner/all_purpose_cleaner_1k.gltf",
+      "bytes": 3211,
+      "md5": "c5edb27b703201445cbae47e47bed07b",
+      "sha256": "935c5a4ea198cb5d2731a211e483c27fc21fe213f8f7f1421521e7d6cc012535"
+    },
+    {
+      "file": "models/polyhaven-all-purpose-cleaner/original/textures/all_purpose_cleaner_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/all_purpose_cleaner/all_purpose_cleaner_diff_1k.jpg",
+      "bytes": 355694,
+      "md5": "12f1d13a4dbbb0ddddd190cc7c3ed95d",
+      "sha256": "6b65e99cc43028a69de9f0825f44f0584f7e0bb7126e9cbfe74fc28dbf4c452c"
+    },
+    {
+      "file": "models/polyhaven-all-purpose-cleaner/original/textures/all_purpose_cleaner_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/all_purpose_cleaner/all_purpose_cleaner_arm_1k.jpg",
+      "bytes": 432313,
+      "md5": "1565e255630205029322614f8e661407",
+      "sha256": "dfa102c5c0a5124e3079275f9c87c039d27e7543383b61b1f686693b0fd4cc55"
+    },
+    {
+      "file": "models/polyhaven-all-purpose-cleaner/original/textures/all_purpose_cleaner_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/all_purpose_cleaner/all_purpose_cleaner_nor_gl_1k.jpg",
+      "bytes": 146701,
+      "md5": "6ab9c098fa44bc8c7228a3eec7ca21ba",
+      "sha256": "d7a1d07a94b2ddf987c614c690e649d1848549578b1be7d06083aab9e4380221"
+    },
+    {
+      "file": "models/polyhaven-all-purpose-cleaner/original/all_purpose_cleaner.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/all_purpose_cleaner/all_purpose_cleaner.bin",
+      "bytes": 117216,
+      "md5": "2a246d2def6557c4b97a1acddec7909d",
+      "sha256": "d6778f2b88314bce956824f419a31a3333b988ddf6a0360b5045a06c6c20c3a2"
+    }
+  ],
+  "licenseEvidence": "sources/external/polyhaven/polyhaven-science-20261030/license-evidence.json"
+}

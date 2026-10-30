@@ -1,0 +1,63 @@
+{
+  "dimensionsBlender": [
+    0.8382881879806519,
+    0.6549038887023926,
+    1.5631701946258545
+  ],
+  "boundsMinBlender": [
+    -0.4227015972137451,
+    -0.26767003536224365,
+    -0.0018960833549499512
+  ],
+  "boundsMaxBlender": [
+    0.41558659076690674,
+    0.3872338831424713,
+    1.5612741708755493
+  ],
+  "meshObjects": 1,
+  "polygons": 29418,
+  "vertices": 21495,
+  "materials": 2,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "polyhaven-portable-welding-cart",
+  "sourceFile": "portable_welding_cart_1k.gltf",
+  "glbSha256": "13294de49c791dad21b86b6a368753470a9dc2958fb50e8cdb966da2df791b65",
+  "reimport": {
+    "dimensionsBlender": [
+      0.8382881879806519,
+      0.6549038887023926,
+      1.5631701946258545
+    ],
+    "boundsMinBlender": [
+      -0.4227015972137451,
+      -0.26767003536224365,
+      -0.0018960833549499512
+    ],
+    "boundsMaxBlender": [
+      0.41558659076690674,
+      0.3872338831424713,
+      1.5612741708755493
+    ],
+    "meshObjects": 1,
+    "polygons": 29418,
+    "vertices": 21495,
+    "materials": 2,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.00015631701946258546,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-back.webp": "b3177669a68547d581b4774430ed3a1d1f5986bae4af15eb6ff95f31517832f0",
+    "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-side.webp": "5a0ae082fdc6497661971d5633de1fa534c6418f320286afa96332ed941c1239",
+    "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-front.webp": "9be956ba15a81845badd7253d113e9412ba827cf61541845744a180c0b0318ed",
+    "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/reimport-three-quarter.webp": "cb4e5e37a725d2e85c1c4f5fe9002bb0cbf7c05e5185dc97506952e63df8f990",
+    "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-three-quarter.webp": "cb4e5e37a725d2e85c1c4f5fe9002bb0cbf7c05e5185dc97506952e63df8f990",
+    "sources/external/polyhaven/polyhaven-science-20261030/portable_welding_cart/renders/source-wireframe.webp": "89ed3852dc039fde18736fb3e2b22d45e7e17eee12b97241393c122f16de945f"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "publicationImages": "Lossless WebP; decoded RGBA pixel equality verified. Original PNG hashes retained in image-encoding.json and staging."
+}

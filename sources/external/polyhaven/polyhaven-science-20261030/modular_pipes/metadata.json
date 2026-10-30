@@ -1,0 +1,61 @@
+{
+  "type": 2,
+  "name": "Modular Pipes",
+  "categories": [
+    "industrial",
+    "structures"
+  ],
+  "tags": [
+    "construction",
+    "piping",
+    "plumbing",
+    "infrastructure",
+    "metal",
+    "plastic",
+    "rusted",
+    "water supply",
+    "drainage",
+    "maintenance",
+    "engineering",
+    "utility",
+    "underground",
+    "sewer",
+    "drain"
+  ],
+  "authors": {
+    "Kuutti Siitonen": "All"
+  },
+  "donated": true,
+  "max_resolution": [
+    8192,
+    8192
+  ],
+  "polycount": 47428,
+  "texel_density": 2880.0832306626785,
+  "dimensions": [
+    4187.440872192383,
+    457.7658101916313,
+    2434.948639709063
+  ],
+  "date_published": 1751241600,
+  "files_hash": "948d48a946e0b01a42ca63332cb85763d21ea9c5",
+  "sponsors": [
+    "11109006",
+    "121968951"
+  ],
+  "description": "Free 8K modular pipes model: metal & plastic pipes, fittings and valves with rusted, weathered finish - modular kit for industrial, utility and sewer scenes.",
+  "category_id": "b703c8b8-a174-5bb6-977f-cce9baa4b27d",
+  "category": "Industrial & Infrastructure/Pipes & Ducts/Modular Pipes",
+  "attributes": {
+    "condition": [
+      "rusted"
+    ],
+    "material": [
+      "metal",
+      "plastic"
+    ]
+  },
+  "img_version": "dea83d68",
+  "download_count": 10516,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/modular_pipes.png?width=256&height=256&format=webp&v=dea83d68"
+}

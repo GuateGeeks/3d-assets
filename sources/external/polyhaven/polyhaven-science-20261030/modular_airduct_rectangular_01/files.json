@@ -1,0 +1,1754 @@
+{
+  "blend": {
+    "8k": {
+      "blend": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_8k.png": {
+            "size": 157849389,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_8k.png",
+            "md5": "be7f6d83e16a80d8f5b3b7e94c138efa"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_8k.png": {
+            "size": 201872200,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_8k.png",
+            "md5": "18c803a55372dc6c6b422452ac7e03e3"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_8k.png": {
+            "size": 992793,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_8k.png",
+            "md5": "05f6ab289230d2ee706202b4fae79cad"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_8k.png": {
+            "size": 33233964,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_8k.png",
+            "md5": "3e9d6bfd5361a94a6d118e651e18ca33"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_8k.png": {
+            "size": 152327491,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_8k.png",
+            "md5": "c08bb0dc8307f36a36f8356551ee9478"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_8k.png": {
+            "size": 218696448,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_8k.png",
+            "md5": "75c26cbed398e60c2dedfb79a933fa5d"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_metal_8k.png": {
+            "size": 1892464,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_8k.png",
+            "md5": "e326ec29ca4f5680d4fde6b58b45d9d2"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_8k.png": {
+            "size": 27772725,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_8k.png",
+            "md5": "79eb09bb8e1d203217493fe9604bc1bf"
+          }
+        },
+        "size": 1486805,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_8k.blend",
+        "md5": "9da1f347ece742eda062cd5843e751be"
+      }
+    },
+    "4k": {
+      "blend": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts02_metal_4k.png": {
+            "size": 1160233,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_4k.png",
+            "md5": "6e0e5db34cefd64135238d375e079cc9"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_4k.png": {
+            "size": 59404133,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_4k.png",
+            "md5": "bff574bb2915b2dfa572314aabeba618"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_4k.png": {
+            "size": 18706214,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_4k.png",
+            "md5": "4de48b7e8e6df911794d7ac79e294d3b"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_4k.png": {
+            "size": 602859,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_4k.png",
+            "md5": "9b0118de2ab782123835ccb28eb0e27e"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_4k.png": {
+            "size": 52109012,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_4k.png",
+            "md5": "1b2360ab9947812caa9ebe98704cd7c4"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_4k.png": {
+            "size": 69029609,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_4k.png",
+            "md5": "1078903d03e74afd16df58e379b415aa"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_4k.png": {
+            "size": 44907833,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_4k.png",
+            "md5": "2fac996d2001dd1123e444326647d11e"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_4k.png": {
+            "size": 15530441,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_4k.png",
+            "md5": "963210e2fa5573dd8d656c6547f87794"
+          }
+        },
+        "size": 1487132,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_4k.blend",
+        "md5": "47a29980ba40ce7118d049c35ea2f832"
+      }
+    },
+    "2k": {
+      "blend": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts02_metal_2k.png": {
+            "size": 441474,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_2k.png",
+            "md5": "1d77d26cf837420eba5c168e1e57abb9"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_2k.png": {
+            "size": 226109,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_2k.png",
+            "md5": "f672f374663f34bc2eabae9de6120f42"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_2k.png": {
+            "size": 12390168,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_2k.png",
+            "md5": "cb16f257d6795d4defd548c5800cc57b"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_2k.png": {
+            "size": 5120777,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_2k.png",
+            "md5": "d0d4b61ef79c6b38fbb82c1b65029c8f"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_2k.png": {
+            "size": 15525309,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_2k.png",
+            "md5": "bf371b9b2289c4bf65b8f62dae882a1f"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_2k.png": {
+            "size": 5988868,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_2k.png",
+            "md5": "a6a67a5b0ebb4f02c20c9dd22063f77f"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_2k.png": {
+            "size": 18276946,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_2k.png",
+            "md5": "ba5b3b1b506e941b39b23ca055524d22"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_2k.png": {
+            "size": 14711020,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_2k.png",
+            "md5": "aa55ad48562d89fa7f730dc864650763"
+          }
+        },
+        "size": 1486990,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_2k.blend",
+        "md5": "526c53f51a5de58a32af381db17c3c2c"
+      }
+    },
+    "1k": {
+      "blend": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts01_diff_1k.png": {
+            "size": 4278427,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_1k.png",
+            "md5": "3ab7dbb0b51a1a955847dcafa769561b"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_1k.png": {
+            "size": 3537701,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_1k.png",
+            "md5": "a93fed3b1cee4367947a7b5201bbfb86"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_metal_1k.png": {
+            "size": 155756,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_1k.png",
+            "md5": "7ba91ef9262eb06607d38cc3622e21e7"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_1k.png": {
+            "size": 1512380,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_1k.png",
+            "md5": "6089e019630f21cc2be912b752258a2e"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_1k.png": {
+            "size": 81065,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_1k.png",
+            "md5": "f908ab0adf459454a44e6cda95040d40"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_1k.png": {
+            "size": 4850306,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_1k.png",
+            "md5": "3dfb67514bb6fff09a69919ea3d57a85"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_1k.png": {
+            "size": 4124577,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_1k.png",
+            "md5": "69bb45602f3755dc020966844c9cdc37"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_1k.png": {
+            "size": 1644031,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_1k.png",
+            "md5": "04e6cfe6b74e9de48053fe3af5b64ecf"
+          }
+        },
+        "size": 1486784,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_1k.blend",
+        "md5": "1bba82258e5b3d3654a6ead195d16799"
+      }
+    }
+  },
+  "parts01_arm": {
+    "8k": {
+      "jpg": {
+        "size": 7074522,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_8k.jpg",
+        "md5": "7d615c21af97430c37ddd0c19a3cb31a"
+      },
+      "png": {
+        "size": 84996305,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_8k.png",
+        "md5": "9e066fa82a45b6e598ed564e3780eb7c"
+      },
+      "exr": {
+        "size": 64537071,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_8k.exr",
+        "md5": "9955a7e74b1ce4a3e78827cb50b2d86b"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 2314108,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_4k.jpg",
+        "md5": "3de5a3f17fabb746afd3fde9614105cf"
+      },
+      "png": {
+        "size": 32707277,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_4k.png",
+        "md5": "cc47439c75414e07b7097b1685f60bc9"
+      },
+      "exr": {
+        "size": 18053629,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_4k.exr",
+        "md5": "c31bda23d1277af01526650f1e6427ff"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 775803,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_2k.jpg",
+        "md5": "05888ab8f1a6db7cb41613e18e4ec74f"
+      },
+      "png": {
+        "size": 9905744,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_2k.png",
+        "md5": "fb0e90b4901c1dd8a8209e201ea28e46"
+      },
+      "exr": {
+        "size": 5711050,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_2k.exr",
+        "md5": "0921d4b982f9cb27df7609c759f1fb42"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 247732,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_1k.jpg",
+        "md5": "62dd69fb3c04f8665ff5a6d51686b4eb"
+      },
+      "png": {
+        "size": 2856386,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_1k.png",
+        "md5": "208d35db21847fba2ecf28423b5017db"
+      },
+      "exr": {
+        "size": 1761598,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_1k.exr",
+        "md5": "d37fb65dfa7d5fbe8797934a9eb2740f"
+      }
+    }
+  },
+  "parts02_diff": {
+    "8k": {
+      "jpg": {
+        "size": 6494591,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_8k.jpg",
+        "md5": "7ca12c1777c1ccbd2ba5206f55067521"
+      },
+      "png": {
+        "size": 201872200,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_8k.png",
+        "md5": "18c803a55372dc6c6b422452ac7e03e3"
+      },
+      "exr": {
+        "size": 41364604,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_8k.exr",
+        "md5": "be92aeb391c6dc858b1813c45b3065b0"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 1873819,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_4k.jpg",
+        "md5": "443b0abcbc1106eaa3d08220d32b03e8"
+      },
+      "png": {
+        "size": 69029609,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_4k.png",
+        "md5": "1078903d03e74afd16df58e379b415aa"
+      },
+      "exr": {
+        "size": 10555710,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_4k.exr",
+        "md5": "0786ffdd8266147c647366616b7ebdb1"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 544079,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_2k.jpg",
+        "md5": "9b43cd770eeaac1523037a3ceeb42c83"
+      },
+      "png": {
+        "size": 18276946,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_2k.png",
+        "md5": "ba5b3b1b506e941b39b23ca055524d22"
+      },
+      "exr": {
+        "size": 2961500,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_2k.exr",
+        "md5": "6cdf7cb6ddfef13f165d6c0282f44224"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 158760,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_1k.jpg",
+        "md5": "b7abe74284ac15a8245f3ad09ff4857b"
+      },
+      "png": {
+        "size": 4850306,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_1k.png",
+        "md5": "3dfb67514bb6fff09a69919ea3d57a85"
+      },
+      "exr": {
+        "size": 841284,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_1k.exr",
+        "md5": "54ac26c6fd5b26684a358e610e5d6058"
+      }
+    }
+  },
+  "gltf": {
+    "8k": {
+      "gltf": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_8k.jpg": {
+            "size": 2278085,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_8k.jpg",
+            "md5": "37f59ebe67bbb0f7d72eadcdebb8bded"
+          },
+          "modular_airduct_rectangular_01.bin": {
+            "size": 1795116,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01.bin",
+            "md5": "e9d9ce22429985630952fc26fe24e2f5"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_8k.jpg": {
+            "size": 6494591,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_8k.jpg",
+            "md5": "7ca12c1777c1ccbd2ba5206f55067521"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_8k.jpg": {
+            "size": 2668863,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_8k.jpg",
+            "md5": "09d16e0dece6914c48624e740710f929"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_arm_8k.jpg": {
+            "size": 7074522,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_8k.jpg",
+            "md5": "7d615c21af97430c37ddd0c19a3cb31a"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_8k.jpg": {
+            "size": 5673067,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_8k.jpg",
+            "md5": "9a5004b0994d1d33a47e9e9ad5feeb30"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_arm_8k.jpg": {
+            "size": 5863380,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_8k.jpg",
+            "md5": "adbf6439a4f8d968bf3e546e243d966f"
+          }
+        },
+        "size": 37157,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_8k.gltf",
+        "md5": "1a8fa749e2142a4358d2fb30c920a621"
+      }
+    },
+    "4k": {
+      "gltf": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_4k.jpg": {
+            "size": 679187,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_4k.jpg",
+            "md5": "7efd08a2e6e1cc67c523b7dbcc6eaf7b"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_4k.jpg": {
+            "size": 1873819,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_4k.jpg",
+            "md5": "443b0abcbc1106eaa3d08220d32b03e8"
+          },
+          "modular_airduct_rectangular_01.bin": {
+            "size": 1795116,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01.bin",
+            "md5": "e9d9ce22429985630952fc26fe24e2f5"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_arm_4k.jpg": {
+            "size": 2314108,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_4k.jpg",
+            "md5": "3de5a3f17fabb746afd3fde9614105cf"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_4k.jpg": {
+            "size": 1844875,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_4k.jpg",
+            "md5": "ce4a609ab0aee0f57d800472464020d5"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_4k.jpg": {
+            "size": 841927,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_4k.jpg",
+            "md5": "6ef68b492a348e051efd96a0abb298be"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_arm_4k.jpg": {
+            "size": 1794432,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_4k.jpg",
+            "md5": "98f2c862e612b0b4431cc411e8ee9ef0"
+          }
+        },
+        "size": 37157,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_4k.gltf",
+        "md5": "7f0bb00badb257a5fc0a3bf34da3995f"
+      }
+    },
+    "2k": {
+      "gltf": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts01_arm_2k.jpg": {
+            "size": 775803,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_2k.jpg",
+            "md5": "05888ab8f1a6db7cb41613e18e4ec74f"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_2k.jpg": {
+            "size": 276798,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_2k.jpg",
+            "md5": "4639550b8bb5f31fbe53beb2418d0b1a"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_2k.jpg": {
+            "size": 544079,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_2k.jpg",
+            "md5": "9b43cd770eeaac1523037a3ceeb42c83"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_2k.jpg": {
+            "size": 602952,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_2k.jpg",
+            "md5": "743e4e6d4ddb2aba2d59d87e2e938a90"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_arm_2k.jpg": {
+            "size": 583018,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_2k.jpg",
+            "md5": "8b98774d639d973869489b726e5b484c"
+          },
+          "modular_airduct_rectangular_01.bin": {
+            "size": 1795116,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01.bin",
+            "md5": "e9d9ce22429985630952fc26fe24e2f5"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_2k.jpg": {
+            "size": 210877,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_2k.jpg",
+            "md5": "341769bc5d610d6097451df744e21af8"
+          }
+        },
+        "size": 37157,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_2k.gltf",
+        "md5": "6573f5173aba875fedfb714d1babc1a4"
+      }
+    },
+    "1k": {
+      "gltf": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_1k.jpg": {
+            "size": 63936,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_1k.jpg",
+            "md5": "2742e16a52c9b188d60984ae880d4e24"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_1k.jpg": {
+            "size": 88121,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_1k.jpg",
+            "md5": "1d7ae142cf19bec3526af4138cc2efc2"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_1k.jpg": {
+            "size": 158760,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_1k.jpg",
+            "md5": "b7abe74284ac15a8245f3ad09ff4857b"
+          },
+          "modular_airduct_rectangular_01.bin": {
+            "size": 1795116,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01.bin",
+            "md5": "e9d9ce22429985630952fc26fe24e2f5"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_arm_1k.jpg": {
+            "size": 247732,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_1k.jpg",
+            "md5": "62dd69fb3c04f8665ff5a6d51686b4eb"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_arm_1k.jpg": {
+            "size": 188686,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_1k.jpg",
+            "md5": "a9ff2f1df22d2f6de80b51b15e2c1a87"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_1k.jpg": {
+            "size": 187245,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_1k.jpg",
+            "md5": "c73cefa3a76becf5963cc4e1c483368d"
+          }
+        },
+        "size": 37157,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_1k.gltf",
+        "md5": "80509f1d78f7853669d6f7d101cececd"
+      }
+    }
+  },
+  "usd": {
+    "8k": {
+      "usd": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_8k.png": {
+            "size": 157849389,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_8k.png",
+            "md5": "be7f6d83e16a80d8f5b3b7e94c138efa"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_8k.png": {
+            "size": 201872200,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_8k.png",
+            "md5": "18c803a55372dc6c6b422452ac7e03e3"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_8k.png": {
+            "size": 992793,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_8k.png",
+            "md5": "05f6ab289230d2ee706202b4fae79cad"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_8k.png": {
+            "size": 33233964,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_8k.png",
+            "md5": "3e9d6bfd5361a94a6d118e651e18ca33"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_8k.png": {
+            "size": 152327491,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_8k.png",
+            "md5": "c08bb0dc8307f36a36f8356551ee9478"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_8k.png": {
+            "size": 218696448,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_8k.png",
+            "md5": "75c26cbed398e60c2dedfb79a933fa5d"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_metal_8k.png": {
+            "size": 1892464,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_8k.png",
+            "md5": "e326ec29ca4f5680d4fde6b58b45d9d2"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_8k.png": {
+            "size": 27772725,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_8k.png",
+            "md5": "79eb09bb8e1d203217493fe9604bc1bf"
+          }
+        },
+        "size": 2296916,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_8k.usdc",
+        "md5": "6baaff5776e91120d9f2068b90af30f7"
+      }
+    },
+    "4k": {
+      "usd": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts02_metal_4k.png": {
+            "size": 1160233,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_4k.png",
+            "md5": "6e0e5db34cefd64135238d375e079cc9"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_4k.png": {
+            "size": 59404133,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_4k.png",
+            "md5": "bff574bb2915b2dfa572314aabeba618"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_4k.png": {
+            "size": 18706214,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_4k.png",
+            "md5": "4de48b7e8e6df911794d7ac79e294d3b"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_4k.png": {
+            "size": 602859,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_4k.png",
+            "md5": "9b0118de2ab782123835ccb28eb0e27e"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_4k.png": {
+            "size": 52109012,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_4k.png",
+            "md5": "1b2360ab9947812caa9ebe98704cd7c4"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_4k.png": {
+            "size": 69029609,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_4k.png",
+            "md5": "1078903d03e74afd16df58e379b415aa"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_4k.png": {
+            "size": 44907833,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_4k.png",
+            "md5": "2fac996d2001dd1123e444326647d11e"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_4k.png": {
+            "size": 15530441,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_4k.png",
+            "md5": "963210e2fa5573dd8d656c6547f87794"
+          }
+        },
+        "size": 2296933,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_4k.usdc",
+        "md5": "c0e4d212319d81bbeb5c56cdacd115f6"
+      }
+    },
+    "2k": {
+      "usd": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts02_metal_2k.png": {
+            "size": 441474,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_2k.png",
+            "md5": "1d77d26cf837420eba5c168e1e57abb9"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_2k.png": {
+            "size": 226109,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_2k.png",
+            "md5": "f672f374663f34bc2eabae9de6120f42"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_2k.png": {
+            "size": 12390168,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_2k.png",
+            "md5": "cb16f257d6795d4defd548c5800cc57b"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_2k.png": {
+            "size": 5120777,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_2k.png",
+            "md5": "d0d4b61ef79c6b38fbb82c1b65029c8f"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_2k.png": {
+            "size": 15525309,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_2k.png",
+            "md5": "bf371b9b2289c4bf65b8f62dae882a1f"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_2k.png": {
+            "size": 5988868,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_2k.png",
+            "md5": "a6a67a5b0ebb4f02c20c9dd22063f77f"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_2k.png": {
+            "size": 18276946,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_2k.png",
+            "md5": "ba5b3b1b506e941b39b23ca055524d22"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_2k.png": {
+            "size": 14711020,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_2k.png",
+            "md5": "aa55ad48562d89fa7f730dc864650763"
+          }
+        },
+        "size": 2296927,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_2k.usdc",
+        "md5": "59986f450dd8a30f2b55e1727d148ae7"
+      }
+    },
+    "1k": {
+      "usd": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts01_diff_1k.png": {
+            "size": 4278427,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_1k.png",
+            "md5": "3ab7dbb0b51a1a955847dcafa769561b"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_1k.png": {
+            "size": 3537701,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_1k.png",
+            "md5": "a93fed3b1cee4367947a7b5201bbfb86"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_metal_1k.png": {
+            "size": 155756,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_1k.png",
+            "md5": "7ba91ef9262eb06607d38cc3622e21e7"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_1k.png": {
+            "size": 1512380,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_1k.png",
+            "md5": "6089e019630f21cc2be912b752258a2e"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_1k.png": {
+            "size": 81065,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_1k.png",
+            "md5": "f908ab0adf459454a44e6cda95040d40"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_1k.png": {
+            "size": 4850306,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_1k.png",
+            "md5": "3dfb67514bb6fff09a69919ea3d57a85"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_1k.png": {
+            "size": 4124577,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_1k.png",
+            "md5": "69bb45602f3755dc020966844c9cdc37"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_1k.png": {
+            "size": 1644031,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_1k.png",
+            "md5": "04e6cfe6b74e9de48053fe3af5b64ecf"
+          }
+        },
+        "size": 2296938,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_1k.usdc",
+        "md5": "87af265b1d424d8b6c1c93516fcdb873"
+      }
+    }
+  },
+  "parts02_ao": {
+    "8k": {
+      "jpg": {
+        "size": 1277337,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_8k.jpg",
+        "md5": "6402fe1d6eb71a7992615f99d388cba7"
+      },
+      "png": {
+        "size": 7475689,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_8k.png",
+        "md5": "4159649f7e75664a2642d4de66284b09"
+      },
+      "exr": {
+        "size": 3146186,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_8k.exr",
+        "md5": "af6d5c07db666b0e4d1a6c311abd5e35"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 396279,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_4k.jpg",
+        "md5": "4040858aeba01315dab8a4fd3da9f57d"
+      },
+      "png": {
+        "size": 2211246,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_4k.png",
+        "md5": "66df863f66a0342405a9b652dc6500df"
+      },
+      "exr": {
+        "size": 1061974,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_4k.exr",
+        "md5": "951536e240bc4819427d7eaebe737dd7"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 137607,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_2k.jpg",
+        "md5": "0d038d4a7971e895aa2dc0d8e3b6b6f5"
+      },
+      "png": {
+        "size": 627986,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_2k.png",
+        "md5": "e656f5377c6fa0c4087049103adedaaa"
+      },
+      "exr": {
+        "size": 366766,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_2k.exr",
+        "md5": "b408fd06a805879bac922fd2aedcf170"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 52145,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_1k.jpg",
+        "md5": "f345ff5e6d8d32c08d3eceaa54f21ffa"
+      },
+      "png": {
+        "size": 185913,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_1k.png",
+        "md5": "47e97e2ee654c297d84675bc0436d5bb"
+      },
+      "exr": {
+        "size": 121133,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_ao_1k.exr",
+        "md5": "f7fa5081be44f138b28eaa34b2df1e76"
+      }
+    }
+  },
+  "parts01_nor_dx": {
+    "8k": {
+      "jpg": {
+        "size": 2383242,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_8k.jpg",
+        "md5": "dc45b83cb426a523b4c6d3e1a51c3e93"
+      },
+      "png": {
+        "size": 157882564,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_8k.png",
+        "md5": "992e1ec282abed259b7f6dec53b8ff37"
+      },
+      "exr": {
+        "size": 20469916,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_8k.exr",
+        "md5": "9c1c91df0e0f8e039f9de386a478e683"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 710814,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_4k.jpg",
+        "md5": "0cae5cd6b3007cdf3048b606e9b804ed"
+      },
+      "png": {
+        "size": 44933573,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_4k.png",
+        "md5": "9e11aa60714627b88e47f7493b2703e7"
+      },
+      "exr": {
+        "size": 6086497,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_4k.exr",
+        "md5": "a9ab75e7c2808cf6c8bc4624242e9f30"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 220124,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_2k.jpg",
+        "md5": "d402547efb42210d34e61233a2575a36"
+      },
+      "png": {
+        "size": 12397201,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_2k.png",
+        "md5": "b302a1aa30952d0f8bb97c36f4cff54c"
+      },
+      "exr": {
+        "size": 1892581,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_2k.exr",
+        "md5": "472898b3037d193d2b9bce5ce6262b40"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 67022,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_1k.jpg",
+        "md5": "941a855d41556e5c608ab2a754990eac"
+      },
+      "png": {
+        "size": 3537810,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_1k.png",
+        "md5": "80be5cda82365786e1816aeb2fd7546c"
+      },
+      "exr": {
+        "size": 585128,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_dx_1k.exr",
+        "md5": "71f28ad32adc215b7cab373aa503fdb3"
+      }
+    }
+  },
+  "parts01_ao": {
+    "8k": {
+      "jpg": {
+        "size": 2879849,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_8k.jpg",
+        "md5": "a9cdbb98c35cfcc50e5800341c304d90"
+      },
+      "png": {
+        "size": 31074479,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_8k.png",
+        "md5": "cfe71b8b941bd716a641fe70eac255f8"
+      },
+      "exr": {
+        "size": 15315476,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_8k.exr",
+        "md5": "c69e946d0f0b4703f1d1a9cdc28d3233"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 997479,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_4k.jpg",
+        "md5": "8448db4fdc35cd4aa79757e51d3eb770"
+      },
+      "png": {
+        "size": 8908612,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_4k.png",
+        "md5": "fadc8e2b33a6b7f250deb345561bca9e"
+      },
+      "exr": {
+        "size": 4545408,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_4k.exr",
+        "md5": "1e0c523c838c809963d097efac13444c"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 394077,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_2k.jpg",
+        "md5": "e12aae8967b893e43ba1b73f07a0bfbf"
+      },
+      "png": {
+        "size": 2512977,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_2k.png",
+        "md5": "1eca4a8099d74e026c20a4c96c86e2f3"
+      },
+      "exr": {
+        "size": 1417360,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_2k.exr",
+        "md5": "3a454c42b806c58a575441953e3fbb3b"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 149601,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_1k.jpg",
+        "md5": "d1b3922aa49b0fc94f8bd50931a5ccfe"
+      },
+      "png": {
+        "size": 710167,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_1k.png",
+        "md5": "2731cdd07a615d6d4bb6ca79a536fb6d"
+      },
+      "exr": {
+        "size": 442818,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_ao_1k.exr",
+        "md5": "adbaebcb7cffffa013a808c24ed24e9d"
+      }
+    }
+  },
+  "parts02_nor_dx": {
+    "8k": {
+      "jpg": {
+        "size": 2766956,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_8k.jpg",
+        "md5": "7b3f7bd84d6b12ca1c1c63811990cab8"
+      },
+      "png": {
+        "size": 218700106,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_8k.png",
+        "md5": "f4f0762f132cc3a397b81fb6511e4753"
+      },
+      "exr": {
+        "size": 23824110,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_8k.exr",
+        "md5": "be08ecbfb8571243094557c1d2fb8377"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 867746,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_4k.jpg",
+        "md5": "2fa110ebd48e40c2beb8710afb4f21da"
+      },
+      "png": {
+        "size": 59411206,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_4k.png",
+        "md5": "503a6595ee137633fac6b3ada1a7b52c"
+      },
+      "exr": {
+        "size": 7063552,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_4k.exr",
+        "md5": "972b3f2ca6ab5573049abe0c451ac6df"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 283054,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_2k.jpg",
+        "md5": "5518103f1d5a1dd813587660dad890ab"
+      },
+      "png": {
+        "size": 15527221,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_2k.png",
+        "md5": "2c49dc5e8aa60a48018eae22e7e7638e"
+      },
+      "exr": {
+        "size": 2178311,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_2k.exr",
+        "md5": "f96c9f69960d0443df0ee0385135dfb0"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 89415,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_1k.jpg",
+        "md5": "10cbe0aad8716880a4480bcec50574af"
+      },
+      "png": {
+        "size": 4125000,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_1k.png",
+        "md5": "0a6a97cf393a970d3ecb4ce389b3cae0"
+      },
+      "exr": {
+        "size": 681016,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_dx_1k.exr",
+        "md5": "ba86fdc33eb93cb6edc4014f1a2146a8"
+      }
+    }
+  },
+  "parts02_metal": {
+    "8k": {
+      "jpg": {
+        "size": 1516957,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_8k.jpg",
+        "md5": "5233c3a51a9f6a18c2e24c47710b3b11"
+      },
+      "png": {
+        "size": 1892464,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_8k.png",
+        "md5": "e326ec29ca4f5680d4fde6b58b45d9d2"
+      },
+      "exr": {
+        "size": 2948132,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_8k.exr",
+        "md5": "b57652d7227423fbd1d7580039cd12da"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 454194,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_4k.jpg",
+        "md5": "ac3609bc833a52cd03a0bd334b847f23"
+      },
+      "png": {
+        "size": 1160233,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_4k.png",
+        "md5": "6e0e5db34cefd64135238d375e079cc9"
+      },
+      "exr": {
+        "size": 1181613,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_4k.exr",
+        "md5": "7534f098cc0eceeb406d1cbdf12cadee"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 158098,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_2k.jpg",
+        "md5": "701a0f15df5cecf773e53fd76c09874b"
+      },
+      "png": {
+        "size": 441474,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_2k.png",
+        "md5": "1d77d26cf837420eba5c168e1e57abb9"
+      },
+      "exr": {
+        "size": 415009,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_2k.exr",
+        "md5": "411f17d7942017200c545a4b0b244025"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 64114,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_1k.jpg",
+        "md5": "6aca2e94ece437d47b373ce791c3374a"
+      },
+      "png": {
+        "size": 155756,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_1k.png",
+        "md5": "7ba91ef9262eb06607d38cc3622e21e7"
+      },
+      "exr": {
+        "size": 143159,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_1k.exr",
+        "md5": "b9af2b850086d714320ed6fe24403f72"
+      }
+    }
+  },
+  "parts01_diff": {
+    "8k": {
+      "jpg": {
+        "size": 5673067,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_8k.jpg",
+        "md5": "9a5004b0994d1d33a47e9e9ad5feeb30"
+      },
+      "png": {
+        "size": 152327491,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_8k.png",
+        "md5": "c08bb0dc8307f36a36f8356551ee9478"
+      },
+      "exr": {
+        "size": 34299174,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_8k.exr",
+        "md5": "09c2f9080329b049488383bf843c6d5f"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 1844875,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_4k.jpg",
+        "md5": "ce4a609ab0aee0f57d800472464020d5"
+      },
+      "png": {
+        "size": 52109012,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_4k.png",
+        "md5": "1b2360ab9947812caa9ebe98704cd7c4"
+      },
+      "exr": {
+        "size": 9567793,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_4k.exr",
+        "md5": "18fdf5b19c69ecb6c1d89d809d662498"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 602952,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_2k.jpg",
+        "md5": "743e4e6d4ddb2aba2d59d87e2e938a90"
+      },
+      "png": {
+        "size": 14711020,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_2k.png",
+        "md5": "aa55ad48562d89fa7f730dc864650763"
+      },
+      "exr": {
+        "size": 3096594,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_2k.exr",
+        "md5": "020310264a5ab4ab867ffaa71987be35"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 187245,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_1k.jpg",
+        "md5": "c73cefa3a76becf5963cc4e1c483368d"
+      },
+      "png": {
+        "size": 4278427,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_1k.png",
+        "md5": "3ab7dbb0b51a1a955847dcafa769561b"
+      },
+      "exr": {
+        "size": 973057,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_1k.exr",
+        "md5": "f25f1ed871494cbf4895579041a710c1"
+      }
+    }
+  },
+  "parts02_arm": {
+    "8k": {
+      "jpg": {
+        "size": 5863380,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_8k.jpg",
+        "md5": "adbf6439a4f8d968bf3e546e243d966f"
+      },
+      "png": {
+        "size": 56141358,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_8k.png",
+        "md5": "ef2ed55d02b5b0ab36a90f8937771994"
+      },
+      "exr": {
+        "size": 69411928,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_8k.exr",
+        "md5": "d9f79b12e1c1f6b9a637a773cf1bdc39"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 1794432,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_4k.jpg",
+        "md5": "98f2c862e612b0b4431cc411e8ee9ef0"
+      },
+      "png": {
+        "size": 29179967,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_4k.png",
+        "md5": "a3ebbd8d4e7f8bb3f4dab9e21a926332"
+      },
+      "exr": {
+        "size": 17786478,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_4k.exr",
+        "md5": "41b71ec3ea01af5e006173b57a1ab390"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 583018,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_2k.jpg",
+        "md5": "8b98774d639d973869489b726e5b484c"
+      },
+      "png": {
+        "size": 8988195,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_2k.png",
+        "md5": "1a47c7b05c3d9128c1164a2ff5e0a0fd"
+      },
+      "exr": {
+        "size": 5141675,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_2k.exr",
+        "md5": "78f3d0c03c70efcfb94fa93b2ea8865f"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 188686,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_1k.jpg",
+        "md5": "a9ff2f1df22d2f6de80b51b15e2c1a87"
+      },
+      "png": {
+        "size": 2480212,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_1k.png",
+        "md5": "6444752f35653015419fe502a1098589"
+      },
+      "exr": {
+        "size": 1534066,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_1k.exr",
+        "md5": "f4cb6b788c82b896d5cec29ed7790d55"
+      }
+    }
+  },
+  "parts02_rough": {
+    "8k": {
+      "jpg": {
+        "size": 6312537,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_8k.jpg",
+        "md5": "d32e9f8b4ebdf328c7ebf4efe5c15abd"
+      },
+      "png": {
+        "size": 33233964,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_8k.png",
+        "md5": "3e9d6bfd5361a94a6d118e651e18ca33"
+      },
+      "exr": {
+        "size": 42374776,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_8k.exr",
+        "md5": "f9d5b0c1075c10ce747fd702753a5834"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 1804872,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_4k.jpg",
+        "md5": "4a4570cdb51c1d74f5ddaed84b1ddb81"
+      },
+      "png": {
+        "size": 18706214,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_4k.png",
+        "md5": "4de48b7e8e6df911794d7ac79e294d3b"
+      },
+      "exr": {
+        "size": 13959791,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_4k.exr",
+        "md5": "666b65b46b9f9b21a2e19388a6ce1113"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 541362,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_2k.jpg",
+        "md5": "c3a108442503c66648ee999b2442f9da"
+      },
+      "png": {
+        "size": 5988868,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_2k.png",
+        "md5": "a6a67a5b0ebb4f02c20c9dd22063f77f"
+      },
+      "exr": {
+        "size": 4315278,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_2k.exr",
+        "md5": "ba8bd18e7245c0a352be2ac5b22a0646"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 167885,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_1k.jpg",
+        "md5": "cf42e8791bcb69745a268dd0ec11ce41"
+      },
+      "png": {
+        "size": 1644031,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_1k.png",
+        "md5": "04e6cfe6b74e9de48053fe3af5b64ecf"
+      },
+      "exr": {
+        "size": 1169218,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_1k.exr",
+        "md5": "2bdc85225a068d4ee03c5ca828192bff"
+      }
+    }
+  },
+  "parts01_rough": {
+    "8k": {
+      "jpg": {
+        "size": 6633218,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_8k.jpg",
+        "md5": "1c25d1a7556472ed8ad3248041d613e6"
+      },
+      "png": {
+        "size": 27772725,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_8k.png",
+        "md5": "79eb09bb8e1d203217493fe9604bc1bf"
+      },
+      "exr": {
+        "size": 35064912,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_8k.exr",
+        "md5": "b0daa2c6714e918d004a843884bd0bd6"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 2063943,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_4k.jpg",
+        "md5": "1e739c463ceed45d7f32eae22ea7ca63"
+      },
+      "png": {
+        "size": 15530441,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_4k.png",
+        "md5": "963210e2fa5573dd8d656c6547f87794"
+      },
+      "exr": {
+        "size": 11971259,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_4k.exr",
+        "md5": "ca02fd09bebd217c749c8dfa7401900b"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 678452,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_2k.jpg",
+        "md5": "dc04c98fdc496bf629a7dc6cd3d77fdc"
+      },
+      "png": {
+        "size": 5120777,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_2k.png",
+        "md5": "d0d4b61ef79c6b38fbb82c1b65029c8f"
+      },
+      "exr": {
+        "size": 3801216,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_2k.exr",
+        "md5": "0f51b51289a606a2206cb9ae7a5dcc0f"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 215763,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_1k.jpg",
+        "md5": "19bc0ea24fbbb4f14161db541ff6e9e0"
+      },
+      "png": {
+        "size": 1512380,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_1k.png",
+        "md5": "6089e019630f21cc2be912b752258a2e"
+      },
+      "exr": {
+        "size": 1137720,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_1k.exr",
+        "md5": "f595f24319ec5306c5531af903b624ee"
+      }
+    }
+  },
+  "parts01_nor_gl": {
+    "8k": {
+      "jpg": {
+        "size": 2278085,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_8k.jpg",
+        "md5": "37f59ebe67bbb0f7d72eadcdebb8bded"
+      },
+      "png": {
+        "size": 157849389,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_8k.png",
+        "md5": "be7f6d83e16a80d8f5b3b7e94c138efa"
+      },
+      "exr": {
+        "size": 20320133,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_8k.exr",
+        "md5": "9134aa91901c977b7fd36cdfbba0adec"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 679187,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_4k.jpg",
+        "md5": "7efd08a2e6e1cc67c523b7dbcc6eaf7b"
+      },
+      "png": {
+        "size": 44907833,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_4k.png",
+        "md5": "2fac996d2001dd1123e444326647d11e"
+      },
+      "exr": {
+        "size": 6052586,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_4k.exr",
+        "md5": "4d8da988ec1787b4903440a4639a3a6b"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 210877,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_2k.jpg",
+        "md5": "341769bc5d610d6097451df744e21af8"
+      },
+      "png": {
+        "size": 12390168,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_2k.png",
+        "md5": "cb16f257d6795d4defd548c5800cc57b"
+      },
+      "exr": {
+        "size": 1885364,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_2k.exr",
+        "md5": "72a0c69cd1296ca203d8d37d820c26c5"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 63936,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_1k.jpg",
+        "md5": "2742e16a52c9b188d60984ae880d4e24"
+      },
+      "png": {
+        "size": 3537701,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_1k.png",
+        "md5": "a93fed3b1cee4367947a7b5201bbfb86"
+      },
+      "exr": {
+        "size": 583627,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_1k.exr",
+        "md5": "a58487ec2f64bacc7be2886a93409cc6"
+      }
+    }
+  },
+  "parts01_metal": {
+    "8k": {
+      "jpg": {
+        "size": 1151569,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_8k.jpg",
+        "md5": "3687411b99c7082b49f874ff85cc9f1b"
+      },
+      "png": {
+        "size": 992793,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_8k.png",
+        "md5": "05f6ab289230d2ee706202b4fae79cad"
+      },
+      "exr": {
+        "size": 1511766,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_8k.exr",
+        "md5": "e3e2c0f233c6da985c6fb3fada3830f7"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 327528,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_4k.jpg",
+        "md5": "e7f455e4795f467d212152b324fc7839"
+      },
+      "png": {
+        "size": 602859,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_4k.png",
+        "md5": "9b0118de2ab782123835ccb28eb0e27e"
+      },
+      "exr": {
+        "size": 611978,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_4k.exr",
+        "md5": "a16938ba447aef720fe52ee5e2f24553"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 108096,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_2k.jpg",
+        "md5": "e2d4346802a05d16737050f9dd6ebf9a"
+      },
+      "png": {
+        "size": 226109,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_2k.png",
+        "md5": "f672f374663f34bc2eabae9de6120f42"
+      },
+      "exr": {
+        "size": 216724,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_2k.exr",
+        "md5": "925d74013d735469cd2eda48348b2840"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 38216,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_1k.jpg",
+        "md5": "9c34ab9d7a9036cd27ea58b80a1ae8b3"
+      },
+      "png": {
+        "size": 81065,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_1k.png",
+        "md5": "f908ab0adf459454a44e6cda95040d40"
+      },
+      "exr": {
+        "size": 76402,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_1k.exr",
+        "md5": "3cc7f1f8d21fca11eac91d8728c31159"
+      }
+    }
+  },
+  "fbx": {
+    "8k": {
+      "fbx": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_8k.png": {
+            "size": 157849389,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_8k.png",
+            "md5": "be7f6d83e16a80d8f5b3b7e94c138efa"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_8k.png": {
+            "size": 201872200,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_8k.png",
+            "md5": "18c803a55372dc6c6b422452ac7e03e3"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_8k.png": {
+            "size": 992793,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_8k.png",
+            "md5": "05f6ab289230d2ee706202b4fae79cad"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_8k.png": {
+            "size": 33233964,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_8k.png",
+            "md5": "3e9d6bfd5361a94a6d118e651e18ca33"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_8k.png": {
+            "size": 152327491,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_8k.png",
+            "md5": "c08bb0dc8307f36a36f8356551ee9478"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_8k.png": {
+            "size": 218696448,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_8k.png",
+            "md5": "75c26cbed398e60c2dedfb79a933fa5d"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_metal_8k.png": {
+            "size": 1892464,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_8k.png",
+            "md5": "e326ec29ca4f5680d4fde6b58b45d9d2"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_8k.png": {
+            "size": 27772725,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_8k.png",
+            "md5": "79eb09bb8e1d203217493fe9604bc1bf"
+          }
+        },
+        "size": 1493324,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_8k.fbx",
+        "md5": "c82f9136bc83c5cbec5b7f639e3344da"
+      }
+    },
+    "4k": {
+      "fbx": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_4k.png": {
+            "size": 59404133,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_4k.png",
+            "md5": "bff574bb2915b2dfa572314aabeba618"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_metal_4k.png": {
+            "size": 1160233,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_4k.png",
+            "md5": "6e0e5db34cefd64135238d375e079cc9"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_4k.png": {
+            "size": 18706214,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_4k.png",
+            "md5": "4de48b7e8e6df911794d7ac79e294d3b"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_4k.png": {
+            "size": 602859,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_4k.png",
+            "md5": "9b0118de2ab782123835ccb28eb0e27e"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_4k.png": {
+            "size": 52109012,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_4k.png",
+            "md5": "1b2360ab9947812caa9ebe98704cd7c4"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_4k.png": {
+            "size": 69029609,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_4k.png",
+            "md5": "1078903d03e74afd16df58e379b415aa"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_4k.png": {
+            "size": 44907833,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_4k.png",
+            "md5": "2fac996d2001dd1123e444326647d11e"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_4k.png": {
+            "size": 15530441,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_4k.png",
+            "md5": "963210e2fa5573dd8d656c6547f87794"
+          }
+        },
+        "size": 1493324,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_4k.fbx",
+        "md5": "df5d1a193bb0ebdaf359ead62c9e754c"
+      }
+    },
+    "2k": {
+      "fbx": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts02_metal_2k.png": {
+            "size": 441474,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_2k.png",
+            "md5": "1d77d26cf837420eba5c168e1e57abb9"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_2k.png": {
+            "size": 226109,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_2k.png",
+            "md5": "f672f374663f34bc2eabae9de6120f42"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_2k.png": {
+            "size": 12390168,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_2k.png",
+            "md5": "cb16f257d6795d4defd548c5800cc57b"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_2k.png": {
+            "size": 5120777,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_2k.png",
+            "md5": "d0d4b61ef79c6b38fbb82c1b65029c8f"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_2k.png": {
+            "size": 15525309,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_2k.png",
+            "md5": "bf371b9b2289c4bf65b8f62dae882a1f"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_2k.png": {
+            "size": 5988868,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_2k.png",
+            "md5": "a6a67a5b0ebb4f02c20c9dd22063f77f"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_2k.png": {
+            "size": 18276946,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_2k.png",
+            "md5": "ba5b3b1b506e941b39b23ca055524d22"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_diff_2k.png": {
+            "size": 14711020,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_2k.png",
+            "md5": "aa55ad48562d89fa7f730dc864650763"
+          }
+        },
+        "size": 1493324,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_2k.fbx",
+        "md5": "e9617e13cae960d5b4e42acba6e04f25"
+      }
+    },
+    "1k": {
+      "fbx": {
+        "include": {
+          "textures/modular_airduct_rectangular_01_parts01_diff_1k.png": {
+            "size": 4278427,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_1k.png",
+            "md5": "3ab7dbb0b51a1a955847dcafa769561b"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_nor_gl_1k.png": {
+            "size": 3537701,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_1k.png",
+            "md5": "a93fed3b1cee4367947a7b5201bbfb86"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_metal_1k.png": {
+            "size": 155756,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_metal_1k.png",
+            "md5": "7ba91ef9262eb06607d38cc3622e21e7"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_rough_1k.png": {
+            "size": 1512380,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_rough_1k.png",
+            "md5": "6089e019630f21cc2be912b752258a2e"
+          },
+          "textures/modular_airduct_rectangular_01_parts01_metal_1k.png": {
+            "size": 81065,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_metal_1k.png",
+            "md5": "f908ab0adf459454a44e6cda95040d40"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_diff_1k.png": {
+            "size": 4850306,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_1k.png",
+            "md5": "3dfb67514bb6fff09a69919ea3d57a85"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_nor_gl_1k.png": {
+            "size": 4124577,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_1k.png",
+            "md5": "69bb45602f3755dc020966844c9cdc37"
+          },
+          "textures/modular_airduct_rectangular_01_parts02_rough_1k.png": {
+            "size": 1644031,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_rough_1k.png",
+            "md5": "04e6cfe6b74e9de48053fe3af5b64ecf"
+          }
+        },
+        "size": 1493324,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_1k.fbx",
+        "md5": "358f02400d5989c95adb26432b5f7f48"
+      }
+    }
+  },
+  "parts02_nor_gl": {
+    "8k": {
+      "jpg": {
+        "size": 2668863,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_8k.jpg",
+        "md5": "09d16e0dece6914c48624e740710f929"
+      },
+      "png": {
+        "size": 218696448,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_8k.png",
+        "md5": "75c26cbed398e60c2dedfb79a933fa5d"
+      },
+      "exr": {
+        "size": 23613301,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_8k.exr",
+        "md5": "18cf1f69693ffd41a643b85e31db05b4"
+      }
+    },
+    "4k": {
+      "jpg": {
+        "size": 841927,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_4k.jpg",
+        "md5": "6ef68b492a348e051efd96a0abb298be"
+      },
+      "png": {
+        "size": 59404133,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_4k.png",
+        "md5": "bff574bb2915b2dfa572314aabeba618"
+      },
+      "exr": {
+        "size": 7017278,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_4k.exr",
+        "md5": "2ba3387e34cbd1ff79e3a241da517c78"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 276798,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_2k.jpg",
+        "md5": "4639550b8bb5f31fbe53beb2418d0b1a"
+      },
+      "png": {
+        "size": 15525309,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_2k.png",
+        "md5": "bf371b9b2289c4bf65b8f62dae882a1f"
+      },
+      "exr": {
+        "size": 2171514,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_2k.exr",
+        "md5": "535e536e272d1d6f1b0d5530c6d90f66"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 88121,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_1k.jpg",
+        "md5": "1d7ae142cf19bec3526af4138cc2efc2"
+      },
+      "png": {
+        "size": 4124577,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_1k.png",
+        "md5": "69bb45602f3755dc020966844c9cdc37"
+      },
+      "exr": {
+        "size": 678863,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_1k.exr",
+        "md5": "dc3b28779aa34bac47037193dd62977e"
+      }
+    }
+  }
+}
