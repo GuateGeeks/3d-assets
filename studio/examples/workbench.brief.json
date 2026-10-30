@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "brief",
+  "id": "workbench-demo",
+  "goal": "Inspect original press, rotary and skeletal-animation examples in one local scene",
+  "targetRuntime": "web",
+  "coordinates": {"units":"m","up":"Y","front":"+Z"},
+  "dimensionsMeters": [6,3,3],
+  "budgets": {"triangles":100000,"drawCalls":200,"textureSize":2048},
+  "references": [],
+  "style": "Original geometric demonstration, deliberately simple for inspecting behavior",
+  "provenance": {"author":"GuateGeeks","license":"MIT","source":"Original Studio examples"},
+  "acceptanceGates": ["technical","visual","content","provenance"],
+  "notes": "Dimensions are the maximum intended scene envelope; budgets are authoring constraints, not a claim of measured hardware performance. This is a demonstration brief, not approval of a production asset."
+}

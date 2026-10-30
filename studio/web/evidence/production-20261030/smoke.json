@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:4395/?scene=project/scene.json",
+  "errors": [],
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "checks": [
+    "production CSP/build",
+    "inventoried project scene",
+    "bound channel ownership",
+    "timeline seek",
+    "paired capture hash and metadata"
+  ]
+}

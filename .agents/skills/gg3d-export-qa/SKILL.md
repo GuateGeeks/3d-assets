@@ -5,6 +5,11 @@ description: Verifica exports de creation-lab, estructura GLB, reimportación li
 
 # QA de exportación
 
+Para módulos interactivos y rigs importados, consulta primero
+[gg3d-studio](../gg3d-studio/SKILL.md). Este protocolo se aplica cuando se produce
+un artefacto de intercambio; las funciones, controles y simulación de un módulo
+web se entregan y verifican aparte. Un GLB válido no demuestra su interactividad.
+
 Para composición, componentes y correcciones lee el
 [workflow iterativo Sol/Luna](../../../creation-lab/docs/ITERATIVE-WORKFLOW.md).
 Es la referencia única de roles, dos rondas por defecto y gates separados;

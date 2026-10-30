@@ -2,6 +2,14 @@
 
 Galería de **1173 modelos GLB** para Code Studio y Sócrates, organizados en **23 áreas**. Incluye miniaturas locales, vista 3D con cámara y animaciones, búsqueda en español y filtros por área, fuente, kit, licencia y movimiento. Los créditos se consultan en cada ficha.
 
+## Studio: autoría por código y escenas
+
+El [Studio local](studio/README.md) reúne proyectos y evidencia, modelos interactivos
+Three.js, preview de escenas/animación, jobs reanudables Meshy/Tripo y adaptadores
+Blender/UniRig/SkinTokens. Empieza con `python studio/studio.py capabilities` y
+consulta [lo verificado y sus límites](studio/docs/STATUS.md). No despliega ni
+publica candidatos automáticamente.
+
 ## Laboratorio local de rigging
 
 El [plan del laboratorio](docs/RIGGING-LAB-PLAN.md) define el flujo completo dentro
@@ -33,6 +41,12 @@ puente web y la conservación de experimentos tras la integración del 26 de oct
 Para preparar un clon con scripts, skills y dependencias opcionales, seguir
 [SETUP.md](SETUP.md). El [laboratorio de creación](creation-lab/START-HERE.md)
 y el de rigging se ejecutan dentro de este repositorio.
+
+La [auditoría del laboratorio del 29 de octubre](docs/reviews/2026-10-29-3d-lab-audit.md)
+revisa skills, configuración, pipelines y las capacidades de Meshy, Tripo,
+UniRig, SkinTokens y Blender. El [diseño de integración propuesto](docs/superpowers/specs/2026-10-29-unified-3d-lab-design.md)
+guía la implementación aprobada de autoría por código con Codex y un visor interactivo;
+el estado actual y las capacidades verificadas están en Studio.
 
 ## Abrir localmente
 

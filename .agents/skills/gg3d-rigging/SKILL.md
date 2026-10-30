@@ -5,6 +5,13 @@ description: Prepara y riggea assets en el laboratorio local de 3d-assets con Un
 
 # Rigging local de GuateGeeks
 
+Para un GLB que ya tiene skin o clips, empieza por la ruta de inspección Blender de
+[gg3d-studio](../gg3d-studio/SKILL.md); conserva su rig. No lo entregues al contrato
+estático de candidatos para quitarle huesos o animación. Studio delega `ingest`
+y `rig --candidate` al runner existente, conservando su bloqueo y restauración.
+SkinTokens tiene un adaptador separado y preflight de memoria; revisa el estado
+actual de Studio antes de declarar una inferencia disponible.
+
 Trabaja desde la raíz de `3d-assets`; no dependas del workspace padre. Lee primero [AGENTS.md](../../../AGENTS.md), el [estado vigente](../../../lab/STATUS.md) y la sección pertinente del [manual](../../../lab/README.md). El estado enlaza evidencia fechada; comprueba `lab/lab.py --help`, recibos y hashes antes de afirmar que una capacidad sigue operativa.
 
 Para recibir geometría del workflow Sol/Luna, consulta el

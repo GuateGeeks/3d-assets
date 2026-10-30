@@ -1,4 +1,4 @@
-name: Validate gallery
+name: Validate gallery and Studio
 on:
   push:
     branches: [main]
@@ -16,6 +16,9 @@ jobs:
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
       - name: Validate JavaScript
         run: |
           node --check gallery/app.js
@@ -58,3 +61,21 @@ jobs:
           npm ci --prefix creation-lab/benchmarks/animal-cell-20261022 --ignore-scripts --no-audit --no-fund
           python creation-lab/benchmarks/animal-cell-20261022/restore.py
           node creation-lab/benchmarks/animal-cell-20261022/validate.cjs
+      - name: Test Studio contracts and provider/engine adapters without paid APIs or GPU
+        run: |
+          python studio/studio.py --help
+          python -m unittest discover -s studio/tests -v
+      - name: Install pinned Studio preview dependencies
+        run: npm ci --prefix studio/web --no-audit --no-fund
+      - name: Verify Studio runtime and production build
+        run: |
+          npm run typecheck --prefix studio/web
+          npm test --prefix studio/web
+          npm run build --prefix studio/web
+      - name: Install Chromium for Studio functional checks
+        working-directory: studio/web
+        run: npx playwright install --with-deps chromium
+      - name: Test Studio browser interaction and animation
+        run: npm run test:browser --prefix studio/web
+      - name: Confirm Studio remains excluded from public gallery
+        run: python tools/check_site.py

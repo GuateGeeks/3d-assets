@@ -5,6 +5,11 @@ description: Crea y verifica modelos 3D procedurales para la web (Three.js, colo
 
 # Modelos procedurales para la web
 
+Este skill conserva la especialización papercraft del cotizador. Para objetos
+interactivos generales, materiales/texturas, controles o escenas Three.js usa
+[gg3d-studio](../gg3d-studio/SKILL.md). Sus contratos no heredan las restricciones
+de color por vértice, 12 huesos o una influencia de esta ruta especializada.
+
 Ruta distinta de Blender/GLB: la geometría se genera en JavaScript al cargar la
 página, sin texturas ni UV, con color por vértice, sombreado plano y un rig de
 una influencia por vértice. Caso de referencia: el campus papercraft del

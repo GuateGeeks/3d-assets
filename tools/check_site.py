@@ -70,14 +70,14 @@ for directory,dirs,files in os.walk(ROOT,followlinks=False):
     included=[]
     for name in dirs:
         p=base/name
-        if p.relative_to(ROOT).as_posix() in {'.git','_site','lab/.local'}: continue
+        if p.relative_to(ROOT).as_posix() in {'.git','_site','lab/.local','studio/.local','studio/web/node_modules','studio/web/dist','studio/web/test-results','studio/web/playwright-report','.superpowers'}: continue
         if p.is_symlink(): raise SystemExit('Unlisted symlink in source tree: '+str(p.relative_to(ROOT)))
         included.append(name)
     dirs[:]=included
     for name in files:
         p=base/name
         if p.is_symlink(): raise SystemExit('Unlisted symlink in source tree: '+str(p.relative_to(ROOT)))
-        if not p.is_file() or p.suffix not in {'.md','.txt','.json','.js','.html','.py','.yml','.yaml','.css'}: continue
+        if not p.is_file() or p.suffix not in {'.md','.txt','.json','.js','.html','.py','.yml','.yaml','.css','.ts','.tsx','.toml'}: continue
         text=p.read_text(encoding='utf-8-sig')
         if secret.search(text) or ('chatgpt'+'-conversation:') in text: raise SystemExit('Private material found: '+str(p.relative_to(ROOT)))
 if SITE.exists():
@@ -85,7 +85,7 @@ if SITE.exists():
         if (ROOT/path).read_bytes()!=(SITE/path).read_bytes(): raise SystemExit('Stale site asset: '+path)
     if not (SITE/'index.html').is_file() or not (SITE/'.nojekyll').exists(): raise SystemExit('Missing Pages entry point')
     if (SITE/'sources/context.json').exists() or (SITE/'.git').exists(): raise SystemExit('Private files in site')
-    for name in ['lab','creation-lab','procedural-web','.agents','derived','packs']:
+    for name in ['lab','creation-lab','procedural-web','studio','.agents','.superpowers','derived','packs']:
         if (SITE/name).exists(): raise SystemExit('Unlisted laboratory files in site: '+name)
 from compatibility import verify_display_variants
 display_variants=verify_display_variants(ROOT,SITE if SITE.exists() else None,models)

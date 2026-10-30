@@ -1,6 +1,11 @@
 # Creación iterativa con Sol y Luna
 
-Este es el flujo predeterminado para nuevas creaciones procedurales. Los agentes
+El contrato Python/bpy y sus entregables pertenecen a la ruta Blender. La autoría
+interactiva por código y la coordinación de proveedores viven en
+[Studio](../../studio/README.md), con [gates por ruta](../../studio/docs/ACCEPTANCE.md).
+Se comparten procedencia, revisión independiente, presupuestos y preservación de evidencia.
+
+Este es el flujo predeterminado para nuevas creaciones procedurales en Blender. Los agentes
 escriben Python; Blender construye, renderiza y exporta. Reejecutar un script
 aprobado no requiere otra llamada a un modelo. El piloto de célula animal de
 2026 conserva su protocolo original de primera versión y reparación técnica;
