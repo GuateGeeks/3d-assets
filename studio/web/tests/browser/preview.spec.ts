@@ -8,7 +8,7 @@ test('controls, ownership, scene swap, failed load and lifecycle',async({page})=
  await expect(page.getByTestId('channel-value')).toHaveText('Pressed');await page.keyboard.up('Space');
  await expect(page.getByTestId('channel-value')).toHaveText('Released');
  await page.getByRole('button',{name:'Servo / 02'}).click();
- await page.getByLabel('Servo angle').fill('90');await expect(page.getByTestId('channel-value')).toHaveText('90°');
+ await expect(page.getByLabel('Servo angle')).toBeDisabled();await expect(page.getByText('Button controls this channel.')).toBeVisible();
  await page.getByLabel('Mode').selectOption('timeline');await expect(page.getByLabel('Servo angle')).toBeDisabled();
  await page.getByLabel('Timeline position').fill('2');await expect(page.getByTestId('channel-value')).toHaveText('90°');
  await page.getByRole('button',{name:'Reset scene'}).click();await expect(page.getByLabel('Timeline position')).toHaveValue('0');
@@ -67,7 +67,7 @@ test('inspection overlays, speed, loop, motion override and capture are usable',
  await page.getByLabel('Allow motion').check();await page.getByRole('button',{name:'Play timeline'}).click();
  await expect.poll(async()=>Number(await page.getByLabel('Timeline position').inputValue())).toBeGreaterThan(0);
  await expect(page.getByTestId('diagnostics')).toContainText('draw calls');
- const download=page.waitForEvent('download');await page.getByRole('button',{name:'Capture PNG'}).click();expect((await download).suggestedFilename()).toBe('3d-lab-preview.png');
+ const download=page.waitForEvent('download');await page.getByRole('button',{name:'Capture PNG'}).click();expect((await download).suggestedFilename()).toMatch(/^3d-lab-.*\.png$/);
 });
 
 

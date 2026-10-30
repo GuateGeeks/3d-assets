@@ -3,7 +3,8 @@ export type Channel='pressed'|'angle';
 export type Mode='interactive'|'timeline';
 export interface Instance {id:string;asset:string;position:[number,number,number];rotation:[number,number,number];scale:[number,number,number]}
 export interface Track {target:string;channel:Channel;keyframes:{time:number;value:number}[]}
-export interface SceneSpec {schemaVersion:1;kind:'scene';id:string;title:string;duration:number;mode:Mode;instances:Instance[];tracks:Track[]}
+export interface ControlBinding {source:string;sourceChannel:'pressed';target:string;targetChannel:'angle';released:number;pressed:number}
+export interface SceneSpec {schemaVersion:1;kind:'scene';id:string;title:string;duration:number;mode:Mode;instances:Instance[];tracks:Track[];bindings?:ControlBinding[]}
 export interface Asset {root:THREE.Group;anchors:Record<string,THREE.Vector3>;channels:Channel[];clips:THREE.AnimationClip[];clipIndex:number;setClip(index:number):void;set(channel:Channel,value:number):void;seek(time:number):void;dispose():void}
 export function validateScene(raw:unknown):SceneSpec {
  const s=raw as SceneSpec; const fail=()=>{throw new Error('Invalid scene: check version, instances, transforms and tracks.')};
@@ -18,6 +19,14 @@ export function validateScene(raw:unknown):SceneSpec {
   const key=t.target+':'+t.channel;if(!ids.has(t.target)||!['pressed','angle'].includes(t.channel)||owned.has(key)||!Array.isArray(t.keyframes)||!t.keyframes.length)fail();owned.add(key);
   let last=-1;for(const k of t.keyframes){if(!Number.isFinite(k.time)||k.time<0||k.time>s.duration||k.time<=last||!Number.isFinite(k.value)||(t.channel==='pressed'&&(k.value<0||k.value>1))||(t.channel==='angle'&&(k.value< -180||k.value>180)))fail();last=k.time}
   const asset=s.instances.find(a=>a.id===t.target)!.asset;if((t.channel==='pressed'&&asset!=='button')||(t.channel==='angle'&&asset!=='servo'))fail();
+ }
+ const bindings=s.bindings??[];if(s.bindings!==undefined&&(!Array.isArray(s.bindings)||s.bindings.length>100))fail();
+ const targets=new Set<string>();for(const b of bindings){
+  if(!b||typeof b!=='object'||Object.keys(b).sort().join(',')!=='pressed,released,source,sourceChannel,target,targetChannel'
+   ||s.instances.find(i=>i.id===b.source)?.asset!=='button'||s.instances.find(i=>i.id===b.target)?.asset!=='servo'
+   ||b.sourceChannel!=='pressed'||b.targetChannel!=='angle'||targets.has(b.target)
+   ||![b.released,b.pressed].every(v=>Number.isFinite(v)&&typeof v==='number'&&v>=-180&&v<=180))fail();
+  targets.add(b.target);
  }
  return s;
 }
@@ -34,13 +43,22 @@ export class Runtime{
   asset.root.position.fromArray(i.position);asset.root.rotation.fromArray([...i.rotation,'XYZ']);asset.root.scale.fromArray(i.scale);asset.root.userData.instanceId=id;this.assets.set(id,asset);this.seek(this.time)}
  value(id:string,c:Channel){return this.values.get(id+':'+c)??0}
  private apply(id:string,c:Channel,v:number){this.values.set(id+':'+c,v);this.assets.get(id)?.set(c,v)}
+ owner(id:string,c:Channel):{kind:'timeline'}|{kind:'binding';source:string}|undefined {
+  if(this.mode==='timeline'&&this.spec.tracks.some(t=>t.target===id&&t.channel===c))return {kind:'timeline'};
+  const binding=this.spec.bindings?.find(b=>b.target===id&&b.targetChannel===c);
+  return binding?{kind:'binding',source:binding.source}:undefined;
+ }
+ private applyBindings(){for(const b of this.spec.bindings??[]){
+  if(this.owner(b.target,b.targetChannel)?.kind==='timeline')continue;
+  this.apply(b.target,b.targetChannel,THREE.MathUtils.lerp(b.released,b.pressed,this.value(b.source,b.sourceChannel)));
+ }}
  input(id:string,c:Channel,v:number){if(!Number.isFinite(v)||!this.assets.get(id)?.channels.includes(c))return;
-  if(this.mode==='timeline'&&this.spec.tracks.some(t=>t.target===id&&t.channel===c))return;this.apply(id,c,THREE.MathUtils.clamp(v,c==='pressed'?0:-180,c==='pressed'?1:180))}
+  if(this.owner(id,c))return;this.apply(id,c,THREE.MathUtils.clamp(v,c==='pressed'?0:-180,c==='pressed'?1:180));this.applyBindings()}
  release(){for(const [id,a]of this.assets)if(a.channels.includes('pressed'))this.input(id,'pressed',0)}
  reset(){this.playing=false;this.values.clear();for(const [id,asset]of this.assets){for(const channel of asset.channels)this.apply(id,channel,0);asset.setClip(0)}this.seek(0)}
- setMode(mode:Mode){this.release();this.mode=mode;this.seek(this.time)}
+ setMode(mode:Mode){this.mode=mode;this.release();this.seek(this.time)}
  seek(time:number){this.time=THREE.MathUtils.clamp(time,0,this.spec.duration);for(const a of this.assets.values())a.seek(this.time);
-  if(this.mode==='timeline')for(const t of this.spec.tracks)this.apply(t.target,t.channel,sample(t,this.time))}
+  if(this.mode==='timeline')for(const t of this.spec.tracks)this.apply(t.target,t.channel,sample(t,this.time));this.applyBindings()}
  play(){if(!this.reducedMotion)this.playing=true}
  advance(dt:number){if(this.playing&&!this.reducedMotion){const next=this.time+(Number.isFinite(dt)?Math.max(0,dt):0)*this.speed;if(next>=this.spec.duration&&!this.loop){this.seek(this.spec.duration);this.playing=false}else this.seek(next%this.spec.duration)}}
  dispose(){this.playing=false;for(const a of this.assets.values())a.dispose();this.assets.clear();this.values.clear()}

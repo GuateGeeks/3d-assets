@@ -4,19 +4,62 @@ import os
 from pathlib import Path
 import signal
 import subprocess
-import sys
+import time
 
 
-def groups(pid):
-    pending=[pid]; result=set()
+def identity(pid):
+    """Linux process identity survives parent exit and guards against PID reuse."""
+    try:
+        fields=Path(f'/proc/{pid}/stat').read_text().rsplit(')',1)[1].split()
+        return fields[19],fields[0]
+    except (FileNotFoundError,ProcessLookupError): return None
+
+
+def owned_processes(pid):
+    pending=[pid]; owned={}
     while pending:
         current=pending.pop()
+        if current in owned: continue
+        current_identity=identity(current)
+        if current_identity is None: continue
+        owned[current]=current_identity[0]
         try:
-            for value in Path(f'/proc/{current}/task/{current}/children').read_text().split():
-                child=int(value); pending.append(child); group=os.getpgid(child)
-                if group!=pid: result.add(group)
-        except OSError: pass
+            pending.extend(int(value) for value in Path(f'/proc/{current}/task/{current}/children').read_text().split())
+        except (FileNotFoundError,ProcessLookupError): pass
+    return owned
+
+
+def live_owned(owned):
+    result=[]
+    for pid,started in owned.items():
+        current=identity(pid)
+        if current is not None and current[0]==started and current[1]!='Z': result.append(pid)
     return result
+
+
+def wait_owned(owned,timeout=5):
+    deadline=time.monotonic()+timeout
+    while live:=live_owned(owned):
+        remaining=deadline-time.monotonic()
+        if remaining<=0: raise RuntimeError('Cleanup failed: owned processes still live: '+','.join(map(str,live)))
+        time.sleep(min(.01,remaining))
+
+
+def signal_owned(owned,signum):
+    for pid in live_owned(owned):
+        try: os.kill(pid,signum)
+        except ProcessLookupError: pass
+
+
+def terminate_owned(proc):
+    owned=owned_processes(proc.pid)
+    signal_owned(owned,signal.SIGTERM)
+    try: proc.wait(timeout=5)
+    except subprocess.TimeoutExpired: pass
+    signal_owned(owned,signal.SIGKILL)
+    try: proc.wait(timeout=5)
+    except subprocess.TimeoutExpired as error: raise RuntimeError('Cleanup failed: direct child did not exit') from error
+    wait_owned(owned)
 
 
 def main():
@@ -29,15 +72,7 @@ def main():
     signal.signal(signal.SIGTERM,interrupt); signal.signal(signal.SIGHUP,interrupt)
     try: return proc.wait(timeout=args.timeout)
     except (subprocess.TimeoutExpired,InterruptedError,KeyboardInterrupt):
-        owned=groups(proc.pid)|{proc.pid}
-        for group in owned:
-            try: os.killpg(group,signal.SIGTERM)
-            except ProcessLookupError: pass
-        try: proc.wait(timeout=5)
-        except subprocess.TimeoutExpired: pass
-        for group in owned:
-            try: os.killpg(group,signal.SIGKILL)
-            except ProcessLookupError: pass
-        proc.wait(); return 124
+        terminate_owned(proc)
+        return 124
 
 if __name__=='__main__': raise SystemExit(main())

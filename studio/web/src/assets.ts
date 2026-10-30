@@ -8,7 +8,12 @@ function mesh(root:THREE.Object3D,geometry:THREE.BufferGeometry,mat:THREE.Materi
 }
 function base(root:THREE.Group,scope:ResourceScope,channels:Channel[],anchors:Record<string,THREE.Vector3>,set:Asset['set'],clips:THREE.AnimationClip[]=[],mixer?:THREE.AnimationMixer):Asset{
  scope.track(root);
- return {root,channels,anchors,clips,clipIndex:0,set,setClip(index){if(mixer&&clips[index]){this.clipIndex=index;mixer.stopAllAction();mixer.clipAction(clips[index]).reset().play()}},seek(time){mixer?.setTime(time)},dispose(){mixer?.stopAllAction();mixer?.uncacheRoot(root);scope.dispose();root.removeFromParent()}};
+ // Scene time controls repetition. Every clip samples once and holds its endpoint.
+ const asset:Asset={root,channels,anchors,clips,clipIndex:0,set,
+  setClip(index){if(mixer&&clips[index]){this.clipIndex=index;mixer.stopAllAction();const action=mixer.clipAction(clips[index]);action.reset();action.setLoop(THREE.LoopOnce,1);action.clampWhenFinished=true;action.play()}},
+  seek(time){if(mixer&&clips[this.clipIndex]){const action=mixer.clipAction(clips[this.clipIndex]);action.paused=false;action.enabled=true;mixer.setTime(THREE.MathUtils.clamp(time,0,clips[this.clipIndex].duration))}},
+  dispose(){mixer?.stopAllAction();mixer?.uncacheRoot(root);scope.dispose();root.removeFromParent()}};
+ asset.setClip(0);return asset;
 }
 export function createBuiltin(kind:string):Asset{
  const root=new THREE.Group(),scope=new ResourceScope();

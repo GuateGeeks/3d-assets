@@ -1,7 +1,7 @@
-import {describe,it,expect} from 'vitest';
+import {describe,it,expect,vi} from 'vitest';
 import * as THREE from 'three';
 import {Runtime,ResourceScope,validateScene,bindHold,projectAnchor} from '../src/runtime';
-import {createBuiltin} from '../src/assets';
+import {createBuiltin,loadGLB} from '../src/assets';
 const scene = () => ({schemaVersion:1,kind:'scene',id:'test',title:'Test',duration:4,mode:'timeline',instances:[{id:'b',asset:'button',position:[2,0,0],rotation:[0,0,0],scale:[2,2,2]}],tracks:[{target:'b',channel:'pressed',keyframes:[{time:0,value:0},{time:2,value:1},{time:4,value:0}]}]});
 describe('deterministic runtime',()=>{
  it('seeks independently of earlier frames and preserves instance transform',()=>{
@@ -90,4 +90,56 @@ it('reset clears every interactive channel, clip pose, time and playback while p
 it('timeline reset reapplies authored time-zero values after clearing prior input',()=>{
  const s=scene();s.tracks[0].keyframes[0].value=.25;const r=new Runtime(validateScene(s));r.add('b',createBuiltin('button'));r.seek(2);r.play();r.reset();
  expect(r.value('b','pressed')).toBe(.25);expect(r.time).toBe(0);expect(r.playing).toBe(false);r.dispose();
+});
+
+it('holds built-in clip endpoint beyond duration and restores backwards sampling',()=>{
+ const a=createBuiltin('character'),arm=a.root.getObjectByName('LeftArm')!;
+ a.seek(4);expect(arm.quaternion.z).toBeCloseTo(0);a.seek(5);expect(arm.quaternion.z).toBeCloseTo(0);
+ a.seek(1);expect(Math.abs(arm.quaternion.z)).toBeGreaterThan(.1);a.seek(4);expect(arm.quaternion.z).toBeCloseTo(0);a.dispose();
+});
+const linked=()=>({schemaVersion:1,kind:'scene',id:'link',title:'Link',duration:4,mode:'interactive',instances:[
+ {id:'b',asset:'button',position:[0,0,0],rotation:[0,0,0],scale:[1,1,1]},
+ {id:'s',asset:'servo',position:[2,0,0],rotation:[0,0,0],scale:[1,1,1]}],
+ bindings:[{source:'b',sourceChannel:'pressed',target:'s',targetChannel:'angle',released:0,pressed:90}],
+ tracks:[{target:'b',channel:'pressed',keyframes:[{time:0,value:0},{time:2,value:1},{time:4,value:0}]}]});
+it('button drives linked servo in both modes with deterministic ownership, release and reset',()=>{
+ const r=new Runtime(validateScene(linked()));r.add('b',createBuiltin('button'));r.add('s',createBuiltin('servo'));
+ r.input('b','pressed',1);expect(r.value('s','angle')).toBe(90);const horn=r.assets.get('s')!.root.children.find(c=>c.type==='Group')!;expect(horn.rotation.y).toBeCloseTo(Math.PI/2);r.input('s','angle',-45);expect(r.value('s','angle')).toBe(90);
+ r.release();expect(r.value('s','angle')).toBe(0);expect(horn.rotation.y).toBe(0);r.input('b','pressed',1);r.reset();expect(r.value('s','angle')).toBe(0);expect(horn.rotation.y).toBe(0);
+ r.setMode('timeline');r.seek(2);expect(r.value('s','angle')).toBe(90);r.seek(1);expect(r.value('s','angle')).toBe(45);
+ r.input('s','angle',-90);expect(r.value('s','angle')).toBe(45);r.release();expect(r.value('s','angle')).toBe(45);
+ r.setMode('interactive');expect(r.value('b','pressed')).toBe(0);expect(r.value('s','angle')).toBe(0);r.dispose();
+});
+it('timeline target track takes precedence over the binding only in timeline mode',()=>{
+ const s=linked();s.tracks.push({target:'s',channel:'angle',keyframes:[{time:0,value:-30},{time:4,value:30}]});
+ const r=new Runtime(validateScene(s));r.add('b',createBuiltin('button'));r.add('s',createBuiltin('servo'));
+ r.input('b','pressed',1);expect(r.value('s','angle')).toBe(90);r.setMode('timeline');r.seek(2);expect(r.value('s','angle')).toBe(0);
+ r.input('b','pressed',0);expect(r.value('s','angle')).toBe(0);r.setMode('interactive');r.input('b','pressed',1);expect(r.value('s','angle')).toBe(90);r.dispose();
+});
+it('rejects unsafe, unsupported and duplicate bindings',()=>{
+ for(const change of [(s:any)=>s.bindings[0].target='missing',(s:any)=>s.bindings[0].source='s',(s:any)=>s.bindings[0].sourceChannel='angle',
+ (s:any)=>s.bindings[0].targetChannel='pressed',(s:any)=>s.bindings[0].pressed=181,(s:any)=>s.bindings[0].released=true,
+ (s:any)=>s.bindings[0].code='eval()',(s:any)=>s.bindings.push(s.bindings[0]),(s:any)=>s.bindings=null]){
+ const s=linked();change(s);expect(()=>validateScene(s)).toThrow();
+ }
+});
+
+it('loaded GLB holds a nonmatching endpoint and permits backwards seek',async()=>{
+ const floats=new Float32Array([0,1,0,0,0,2,0,0]);
+ const doc={asset:{version:'2.0'},scene:0,scenes:[{nodes:[0]}],nodes:[{name:'Moving'}],buffers:[{byteLength:floats.byteLength}],
+ bufferViews:[{buffer:0,byteOffset:0,byteLength:8},{buffer:0,byteOffset:8,byteLength:24}],
+ accessors:[{bufferView:0,componentType:5126,count:2,type:'SCALAR',min:[0],max:[1]},{bufferView:1,componentType:5126,count:2,type:'VEC3'}],
+ animations:[{name:'Move',samplers:[{input:0,output:1}],channels:[{sampler:0,target:{node:0,path:'translation'}}]}]};
+ const json=new TextEncoder().encode(JSON.stringify(doc));const padded=(json.length+3)&~3;const glb=new ArrayBuffer(28+padded+floats.byteLength),view=new DataView(glb);
+ [0x46546c67,2,glb.byteLength,padded,0x4e4f534a].forEach((v,i)=>view.setUint32(i*4,v,true));new Uint8Array(glb,20,padded).fill(32);new Uint8Array(glb,20,json.length).set(json);
+ view.setUint32(20+padded,floats.byteLength,true);view.setUint32(24+padded,0x004e4942,true);new Uint8Array(glb,28+padded).set(new Uint8Array(floats.buffer));
+ vi.stubGlobal('fetch',async()=>new Response(glb));
+ try{const a=await loadGLB('http://localhost/test.glb',new AbortController().signal),moving=a.root.getObjectByName('Moving')!;
+ a.seek(1);expect(moving.position.x).toBe(2);a.seek(2);expect(moving.position.x).toBe(2);a.seek(.5);expect(moving.position.x).toBe(1);a.dispose();}finally{vi.unstubAllGlobals()}
+});
+
+it('treats a button named timeline as a binding source, without a reserved ID collision',()=>{
+ const s=linked();s.instances[0].id='timeline';s.bindings[0].source='timeline';s.tracks[0].target='timeline';
+ const r=new Runtime(validateScene(s));r.add('timeline',createBuiltin('button'));r.add('s',createBuiltin('servo'));
+ r.input('timeline','pressed',1);expect(r.value('s','angle')).toBe(90);r.setMode('timeline');r.seek(1);expect(r.value('s','angle')).toBe(45);r.dispose();
 });

@@ -1,6 +1,7 @@
 import {test,expect} from '@playwright/test';
 test('interactive reset restores servo channel and rendered pose',async({page})=>{
- await page.goto('/');await expect(page.getByText('Ready · 3 objects')).toBeVisible();
+ await page.route('**/unbound.json',async route=>{const response=await route.fetch({url:new URL('/demo.scene.json',route.request().url()).href});const spec=await response.json();delete spec.bindings;await route.fulfill({json:spec})});
+ await page.goto('/?scene=unbound.json');await expect(page.getByText('Ready · 3 objects')).toBeVisible();
  await page.getByRole('button',{name:'Servo / 02'}).click();
  const canvas=page.locator('canvas');const initial=await canvas.screenshot();
  await page.getByLabel('Servo angle').fill('90');await expect(page.getByTestId('channel-value')).toHaveText('90°');

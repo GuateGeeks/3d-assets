@@ -6,6 +6,7 @@ import json
 import os
 from pathlib import Path
 import shutil
+import subprocess
 import sys
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -159,8 +160,11 @@ def main(argv=None):
         result=args.handler(args)
         _emit(result)
         return 1 if isinstance(result,dict) and result.get('status') in ('FAIL','BLOCKED') else 0
-    except (ValueError,OSError,KeyError,TypeError) as error:
-        _emit({'status':'FAIL','error':str(error)})
+    except (ValueError,OSError,KeyError,TypeError,subprocess.SubprocessError,RuntimeError) as error:
+        result={'status':'FAIL','error':str(error)}
+        for key in ('run','log'):
+            if hasattr(error,key): result[key]=getattr(error,key)
+        _emit(result)
         return 1
 
 if __name__=='__main__': raise SystemExit(main())

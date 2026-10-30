@@ -10,15 +10,38 @@ See studio/examples/interactive.scene.json and character.scene.json. All transfo
 
 schemaVersion is 1; kind is scene; id and title are strings; duration is seconds in (0, 300]; mode is interactive or timeline. IDs match ^[a-zA-Z0-9][a-zA-Z0-9_.-]{0,95}$ and title must be nonempty. instances is an array (1–100) of unique id, asset, position, rotation, scale. Assets are button, servo, character, or a relative self-contained .glb path. GLB paths resolve relative to the scene JSON URL. Scene URLs must share this server's origin. No executable module can be provided in JSON; GLB external buffer/texture references are rejected.
 
-tracks is optional. Each track has target (instance id), channel (pressed or angle), and strictly increasing keyframes with time in scene seconds and numeric value. pressed ranges from 0 to 1 and belongs to button; angle ranges from -180 to 180 degrees and belongs to servo. Values interpolate linearly and clamp to first/last keys. Duplicate tracks for a channel are rejected. Timeline owns tracked channels; interactive mode permits direct input. Button input releases on pointer-up, cancel, lost pointer capture, key-up, element blur, window blur and scene teardown.
+tracks is optional. Each track has target (instance id), channel (pressed or angle), and strictly increasing keyframes with time in scene seconds and numeric value. pressed ranges from 0 to 1 and belongs to button; angle ranges from -180 to 180 degrees and belongs to servo. Values interpolate linearly and clamp to first/last keys. Duplicate tracks for a channel are rejected. Timeline owns tracked channels; interactive mode permits direct input on unbound channels. Button input releases on pointer-up, cancel, lost pointer capture, key-up, element blur, window blur and scene teardown.
 
-The character built-in is an original articulated SkinnedMesh with seven named bones and Wave/Idle clips. original-character.glb is the equivalent original GLB sample; see PROVENANCE.md. A GLB's first clip is selected initially; the inspector can select another. Clip time and channels are evaluated from absolute scene time, including backwards seeks. Bone or clip channels are not accepted in JSON version 1.
+`bindings` optionally contains up to 100 bounded mechanical relationships. Each has exactly
+`source`, `sourceChannel: "pressed"`, `target`, `targetChannel: "angle"`, `released`
+and `pressed`. The source must be a button and the target a servo; the two numeric
+angles must be finite in -180..180 degrees. Each target has one binding owner.
+This restricted one-way relationship cannot form cycles or execute code. It is
+an analytical visual mechanism, with no electrical or physics simulation.
+
+The original workbench binds Button to Servo: a hold rotates the visible horn to
+90 degrees; release restores 0. The bound servo slider is disabled and names its
+owner. Separate unbound servos retain their rotary slider. In timeline mode an
+explicit target track takes precedence; otherwise the binding samples the source
+button's current value (including its track). A seek applies tracks before bindings.
+Interactive input cannot write a bound target. Mode changes release the button
+when live input gains ownership; release/cancel/reset updates the linked mechanism.
+Reset clears channels, then reapplies time-zero tracks and bindings, so a nonzero
+`released` angle remains the authored resting pose.
+
+The character built-in is an original articulated SkinnedMesh with seven named bones and Wave/Idle clips. original-character.glb is the equivalent original GLB sample; see PROVENANCE.md. A GLB's first clip is selected initially; the inspector can select another. Clip time and channels are evaluated from absolute scene time, including backwards seeks. Clips explicitly sample once and hold the final pose at and beyond their duration; the scene Loop option repeats scene time. Short clips do not implicitly repeat inside a longer scene. Bone or clip channels are not accepted in JSON version 1.
 
 ## Controls and inspection
 
-Choose objects in the object list, via labels, or by clicking geometry. Drag the canvas to orbit and scroll to zoom. The inspector exposes momentary button and servo slider controls; timeline-owned channels disable direct input. Playback has play/pause, reset, scrub, speed (0.5/1/2), and loop. Reset pauses playback, clears every interactive channel to zero, restores the initial animation clip and pose, and seeks to time zero. In timeline mode, authored time-zero keyframes are reapplied. Reset preserves the current mode, root transforms and playback/view preferences. Reduced-motion preference prevents automatic playback; explicit seeking remains available. Allow motion opts into playback during this session.
+Choose objects in the object list, via labels, or by clicking geometry. Drag the canvas to orbit and scroll to zoom. The inspector exposes momentary button and servo slider controls; timeline-owned and binding-owned channels disable direct input. Playback has play/pause, reset, scrub, speed (0.5/1/2), and loop. Reset pauses playback, clears every interactive channel to zero, restores the initial animation clip and pose, and seeks to time zero. In timeline mode, authored time-zero keyframes are reapplied. Reset preserves the current mode, root transforms and playback/view preferences. Reduced-motion preference prevents automatic playback; explicit seeking remains available. Allow motion opts into playback during this session.
 
-View options provides anchors, world-space bounds, the real rig helper, live WebGL draw-call/triangle counters, and Capture PNG. Counters describe the rendered frame and do not establish hardware performance budgets. Frame scene fits the visible assets. PNG capture downloads the current rendered canvas without UI.
+View options provides anchors, world-space bounds, the real rig helper, live WebGL draw-call/triangle counters, and Capture PNG. Counters describe the rendered frame and do not establish hardware performance budgets. Frame scene fits the visible assets. Capture downloads a paired PNG and JSON receipt with a shared timestamp identifier.
+The receipt binds the exact PNG SHA-256 and byte count to the scene specification,
+current time/mode/channels/transforms/clip selections, camera projection/transform/
+orbit target, CSS and drawing-buffer sizes, device and effective renderer DPR,
+WebGL identity/settings, Three.js and preview versions, user agent and overlays.
+It describes the frame at capture time, including during playback; it is evidence,
+not a visual approval. Keep both files together. The PNG contains the canvas without UI.
 
 mountPreview(host) from src/preview.ts mounts the complete viewer and returns an idempotent unmount callback. One requestAnimationFrame scheduler advances animation and rendering. The runtime uses analytical absolute-time evaluation, not a physics simulation: frames accumulate the full elapsed seconds without a silent delta cap, then sample tracks and clips at the resulting time. Equal total elapsed time partitioned across frames produces the same pose (within floating-point precision). Backgrounding pauses playback; no catch-up simulation is implied. Scene swaps prepare a replacement before disposing the current assets, and stale async results are discarded. Resource scopes count shared GPU resources, release geometry/material/texture/skeleton resources, and dispose late async allocations. Unmount removes listeners/ResizeObserver, cancels pending loads and the scheduler, disposes OrbitControls/renderer/assets and releases the WebGL context.
 

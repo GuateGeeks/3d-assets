@@ -145,3 +145,12 @@ STUDIO_BPY_PYTHON=/absolute/existing/python python3 -m unittest studio.tests.tes
 The second command runs real CPU bpy fixtures in temporary directories. It does
 not run inference, install dependencies, inspect user assets, or claim visual QA.
 Implementation evidence is linked by the assigned SDD task report.
+
+Timeouts and interruptions keep the engine lock while terminating the owned process
+identities (including detached Linux descendants). Cleanup confirms each captured
+PID/start identity is gone or zombie within a five-second confirmation deadline;
+a reused PID is excluded. Both the local and staged SSH supervisor share this
+policy. An unconfirmed cleanup is an explicit failure. The CLI returns JSON FAIL
+and a nonzero exit for subprocess failures; execution timeouts include the run and
+log references, and retain the failure event. A preflight timeout has no run if
+execution had not begun.

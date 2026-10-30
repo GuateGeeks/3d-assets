@@ -202,6 +202,21 @@ def validate_record(data: dict) -> dict:
                 if track['channel']=='pressed' and not 0 <= frame['value'] <= 1: raise ValueError('pressed value out of range')
                 if track['channel']=='angle' and not -180 <= frame['value'] <= 180: raise ValueError('angle value out of range')
                 previous = frame['time']
+        bindings=data.get('bindings',[])
+        if not isinstance(bindings,list) or len(bindings)>100: raise ValueError('bindings must be an array of at most 100 controls')
+        owners={item['id']:item['asset'] for item in data['instances']}
+        targets=set()
+        for binding in bindings:
+            fields={'source','sourceChannel','target','targetChannel','released','pressed'}
+            if not isinstance(binding,dict) or set(binding)!=fields: raise ValueError('invalid binding fields')
+            if (not isinstance(binding['source'],str) or not isinstance(binding['target'],str)
+                or owners.get(binding['source'])!='button' or owners.get(binding['target'])!='servo'
+                or binding['sourceChannel']!='pressed' or binding['targetChannel']!='angle'):
+                raise ValueError('bindings support only button pressed to servo angle')
+            if binding['target'] in targets: raise ValueError('binding target has multiple owners')
+            targets.add(binding['target'])
+            if any(not _number(binding[key]) or not -180<=binding[key]<=180 for key in ('released','pressed')):
+                raise ValueError('binding angles must be finite within -180..180')
     elif kind == 'project':
         _required(data,'title','scene','files','provenance')
         _inventory(data['files'])
@@ -310,25 +325,38 @@ def build_package(root: Path, manifest: dict, output: Path) -> dict:
     paths=verify_inventory(root,manifest['files'])
     expected={entry['path']:entry['sha256'] for entry in manifest['files']}
     entries={entry['path']:path for entry,path in zip(manifest['files'],paths)}
+    hashes=dict(expected)
     for gate in GATES:
         review=manifest['reviews'][gate]
         path=checked_path(root,review['path'])
-        if sha256(path)!=review['sha256']: raise ValueError('review hash mismatch')
-        report=read_json(path)
-        if report.get('status')!='PASS' or report.get('subjects')!=expected:
+        reviewed=path.read_bytes()
+        if hashlib.sha256(reviewed).hexdigest()!=review['sha256']: raise ValueError('review hash mismatch')
+        report=json.loads(reviewed.decode('utf-8-sig'),object_pairs_hook=_pairs,parse_constant=_reject_constant)
+        if not isinstance(report,dict) or report.get('status')!='PASS' or report.get('subjects')!=expected:
             raise ValueError('review must approve this exact artifact inventory')
+        if review['path'] in hashes and hashes[review['path']]!=review['sha256']: raise ValueError('conflicting review hash')
         entries[review['path']]=path
+        hashes[review['path']]=review['sha256']
     for name in entries:
         if name=='package.json' or any(part.startswith('.') or part in ('node_modules','__pycache__') for part in name.split('/')):
             raise ValueError('private/build path cannot enter package')
     output=Path(output)
     output.parent.mkdir(parents=True,exist_ok=True)
-    # Exclusive creation prevents replacing any prior delivery.
+    # Hash the very chunks written into the archive, not a previous read of the path.
+    # Exclusive creation preserves earlier deliveries; only our partial output is removed.
+    try: destination=output.open('xb')
+    except FileExistsError: raise ValueError('package output already exists') from None
     try:
-        with output.open('xb') as destination:
-            with zipfile.ZipFile(destination,'w',compression=zipfile.ZIP_DEFLATED) as archive:
-                archive.writestr('package.json',json.dumps(manifest,indent=2,allow_nan=False))
-                for name,path in entries.items(): archive.write(path,name)
-    except FileExistsError:
-        raise ValueError('package output already exists') from None
+        with destination, zipfile.ZipFile(destination,'w',compression=zipfile.ZIP_DEFLATED) as archive:
+            archive.writestr('package.json',json.dumps(manifest,indent=2,allow_nan=False))
+            for name in entries:
+                path=checked_path(root,name)
+                digest=hashlib.sha256()
+                with path.open('rb') as source, archive.open(name,'w') as member:
+                    while chunk:=source.read(1024*1024):
+                        digest.update(chunk); member.write(chunk)
+                if digest.hexdigest()!=hashes[name]: raise ValueError('artifact hash mismatch during archive: '+name)
+    except BaseException:
+        output.unlink(missing_ok=True)
+        raise
     return {'status':'PASS','path':str(output),'sha256':sha256(output),'files':len(entries), 'published':False}

@@ -5,10 +5,10 @@ import os
 from pathlib import Path, PurePosixPath
 import re
 import shlex
-import signal
 import shutil
 import subprocess
 import sys
+from studio.adapters.remote_runner import terminate_owned
 from studio.core import read_json, write_json, sha256, checked_path, create_run, record_event, validate_glb
 
 WORKER = Path(__file__).with_name('blender_worker.py')
@@ -71,43 +71,27 @@ def blender_command(config, source, run, operation, **extra):
         if value is not None: cmd+=['--'+key.replace('_','-'),str(value)]
     return [str(x) for x in cmd]
 
-def descendant_sessions(pid):
-    """Track sessions owned by descendants, including upstream bpy setsid()."""
-    pending=[pid]; sessions=set()
-    while pending:
-        current=pending.pop()
-        try:
-            children=Path(f'/proc/{current}/task/{current}/children').read_text().split()
-            for value in children:
-                child=int(value); pending.append(child)
-                group=os.getpgid(child)
-                if group!=pid: sessions.add(group)
-        except (OSError,ProcessLookupError): pass
-    return sessions
-
 def execute(command, run, cwd=None, timeout=300, name='process', env=None):
-    """Terminate the whole owned process group on timeout, preserve nonzero receipts."""
+    """Terminate and confirm owned descendants on timeout, preserve failure receipts."""
     if not 1<=timeout<=7200: raise ValueError('Timeout must be 1..7200 seconds')
     options={'cwd':cwd,'env':env,'start_new_session':True} if os.name!='nt' else {'cwd':cwd,'env':env,'creationflags':subprocess.CREATE_NO_WINDOW}
     with (run/(name+'.log')).open('w') as log:
         proc=subprocess.Popen(command,stdout=log,stderr=subprocess.STDOUT,**options)
         try: code=proc.wait(timeout=timeout)
-        except BaseException:
-            sessions=descendant_sessions(proc.pid) if os.name!='nt' else set()
-            for group in sessions:
-                try: os.killpg(group,signal.SIGTERM)
-                except ProcessLookupError: pass
-            if os.name!='nt': os.killpg(proc.pid,signal.SIGTERM)
-            else: proc.terminate()
-            try: proc.wait(timeout=5)
-            except subprocess.TimeoutExpired:
-                if os.name!='nt': os.killpg(proc.pid,signal.SIGKILL)
-                else: proc.kill()
-                proc.wait()
-            for group in sessions:
-                try: os.killpg(group,signal.SIGKILL)
-                except ProcessLookupError: pass
+        except BaseException as error:
+            try:
+                if os.name!='nt': terminate_owned(proc)
+                else:
+                    proc.terminate()
+                    try: proc.wait(timeout=5)
+                    except subprocess.TimeoutExpired:
+                        proc.kill(); proc.wait(timeout=5)
+            except (RuntimeError,subprocess.TimeoutExpired,OSError) as cleanup_error:
+                record_event(run,{'stage':name,'status':'FAIL','reason':'cleanup failed','error':str(cleanup_error)})
+                failure=RuntimeError(str(cleanup_error));failure.run=str(run);failure.log=name+'.log'
+                raise failure from error
             record_event(run,{'stage':name,'status':'FAIL','reason':'timeout or interruption'})
+            error.run=str(run);error.log=name+'.log'
             raise
     record_event(run,{'stage':name,'exitCode':code,'command':command,'log':name+'.log'})
     if code: raise ValueError(f'{name} exited {code}; see {run/(name+".log")}')

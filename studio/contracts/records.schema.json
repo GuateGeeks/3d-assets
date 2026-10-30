@@ -136,6 +136,46 @@
                 }
               }
             }
+          },
+          "bindings": {
+            "type": "array",
+            "maxItems": 100,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "source",
+                "sourceChannel",
+                "target",
+                "targetChannel",
+                "released",
+                "pressed"
+              ],
+              "properties": {
+                "source": {
+                  "type": "string"
+                },
+                "sourceChannel": {
+                  "const": "pressed"
+                },
+                "target": {
+                  "type": "string"
+                },
+                "targetChannel": {
+                  "const": "angle"
+                },
+                "released": {
+                  "type": "number",
+                  "minimum": -180,
+                  "maximum": 180
+                },
+                "pressed": {
+                  "type": "number",
+                  "minimum": -180,
+                  "maximum": 180
+                }
+              }
+            }
           }
         }
       }

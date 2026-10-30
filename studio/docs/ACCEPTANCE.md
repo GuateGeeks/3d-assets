@@ -24,7 +24,9 @@ A package manifest inventories every file by path and SHA-256. Each of technical
 visual, content and provenance references a hashed JSON review with status PASS and
 `subjects` mapping every inventoried path to its exact hash. Changed files invalidate
 those reviews. `package` refuses missing/stale reviews, private paths, path escapes and
-existing output files. This mechanism preserves approvals; it does not authenticate a
+existing output files. Artifact and review bytes are hashed as those exact chunks enter
+the archive; a mismatch removes the newly created partial ZIP and preserves any
+previous delivery. This mechanism preserves approvals; it does not authenticate a
 human reviewer or replace actually performing the review.
 
 The creation-lab canary and six-view Blender checks remain scoped to Blender creation.

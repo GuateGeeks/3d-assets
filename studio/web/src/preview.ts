@@ -37,9 +37,9 @@ export function mountPreview(host:HTMLElement):()=>void{
   for(const node of q('#objects').querySelectorAll('button'))node.setAttribute('aria-pressed',String(node.dataset.id===id));
   for(const node of labels.querySelectorAll('button'))node.classList.toggle('selected',node.dataset.id===id);
   const asset=runtime.assets.get(id)!;q('#selection').textContent=id;const clip=q<HTMLSelectElement>('#clip');clip.replaceChildren();asset.clips.forEach((c,index)=>{const option=document.createElement('option');option.value=String(index);option.textContent=c.name;clip.append(option)});if(!asset.clips.length){const none=document.createElement('option');none.value='0';none.textContent='None';clip.append(none)}clip.value=String(asset.clipIndex);clip.disabled=!asset.clips.length;
-  const channel=asset.channels[0],owned=runtime.mode==='timeline'&&runtime.spec.tracks.some(t=>t.target===id&&t.channel===channel);
+  const channel=asset.channels[0],owner=runtime.owner(id,channel),owned=!!owner;
   q('#description').textContent=channel==='pressed'?'A momentary mechanical switch.':channel==='angle'?'A rotary actuator with a moving horn.':'An articulated character with a skeletal animation clip.';
-  q('#ownership').textContent=owned?'Timeline controls this channel.':reduced.matches?'Reduced motion: use the scrubber to inspect each pose.':'Interactive controls are ready.';
+  q('#ownership').textContent=owner?.kind==='timeline'?'Timeline controls this channel.':owner?owner.source+' controls this channel.':reduced.matches?'Reduced motion: use the scrubber to inspect each pose.':'Interactive controls are ready.';
   const control=q('#control');control.replaceChildren();
   if(channel==='pressed'){
    const b=document.createElement('button');b.textContent='Hold button';b.className='hold';b.disabled=owned;control.append(b);
@@ -96,7 +96,28 @@ export function mountPreview(host:HTMLElement):()=>void{
  on(q('#clip'),'change',()=>{runtime?.assets.get(selected)?.setClip(Number(q<HTMLSelectElement>('#clip').value));runtime?.seek(runtime.time)});
  on(q('#speed'),'change',()=>{if(runtime)runtime.speed=Number(q<HTMLSelectElement>('#speed').value)});on(q('#loop'),'change',()=>{if(runtime)runtime.loop=q<HTMLInputElement>('#loop').checked});
  on(q('#allow-motion'),'change',()=>{if(runtime){runtime.reducedMotion=reduced.matches&&!q<HTMLInputElement>('#allow-motion').checked;if(runtime.reducedMotion)runtime.playing=false}sync()});
- on(q('#capture'),'click',()=>{renderer.render(scene,camera);renderer.domElement.toBlob(blob=>{if(!blob||disposed)return;const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='3d-lab-preview.png';a.click();URL.revokeObjectURL(url)},'image/png')});
+ function download(blob:Blob,name:string){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();URL.revokeObjectURL(url)}
+ on(q('#capture'),'click',()=>{
+  if(!runtime)return;
+  scene.updateMatrixWorld(true);camera.updateMatrixWorld(true);renderer.render(scene,camera);
+  const gl=renderer.getContext(),stamp=new Date().toISOString(),name='3d-lab-'+stamp.replace(/[:.]/g,'-');
+  const size=renderer.getDrawingBufferSize(new THREE.Vector2());
+  // Freeze the receipt beside the pixels before asynchronous PNG encoding.
+  const receipt={schemaVersion:1,kind:'preview-capture',capturedAt:stamp,
+   viewport:{cssWidth:renderer.domElement.clientWidth,cssHeight:renderer.domElement.clientHeight,pixelWidth:size.x,pixelHeight:size.y,devicePixelRatio:window.devicePixelRatio,rendererPixelRatio:renderer.getPixelRatio()},
+   camera:{type:camera.type,position:camera.position.toArray(),quaternion:camera.quaternion.toArray(),target:controls.target.toArray(),fov:camera.fov,aspect:camera.aspect,near:camera.near,far:camera.far,matrixWorld:camera.matrixWorld.toArray(),projectionMatrix:camera.projectionMatrix.toArray()},
+   renderer:{webglVersion:gl.getParameter(gl.VERSION),renderer:gl.getParameter(gl.RENDERER),vendor:gl.getParameter(gl.VENDOR),antialias:gl.getContextAttributes()?.antialias,outputColorSpace:renderer.outputColorSpace,toneMapping:renderer.toneMapping,toneMappingExposure:renderer.toneMappingExposure,shadows:renderer.shadowMap.enabled,shadowType:renderer.shadowMap.type},
+   runtime:{three:THREE.REVISION,preview:'1.0.0',userAgent:navigator.userAgent},
+   overlays:{anchors:q<HTMLInputElement>('#anchors').checked,bounds:q<HTMLInputElement>('#bounds').checked,rig:q<HTMLInputElement>('#rig').checked},
+   scene:{spec:structuredClone(runtime.spec),time:runtime.time,mode:runtime.mode,speed:runtime.speed,loop:runtime.loop,playing:runtime.playing,reducedMotion:runtime.reducedMotion,selected,
+    instances:[...runtime.assets].map(([id,a])=>({id,position:a.root.position.toArray(),rotation:a.root.rotation.toArray(),scale:a.root.scale.toArray(),clipIndex:a.clipIndex,clip:a.clips[a.clipIndex]?.name??null,channels:Object.fromEntries(a.channels.map(c=>[c,runtime!.value(id,c)]))}))}};
+  renderer.domElement.toBlob(blob=>{if(!blob||disposed)return;
+   void blob.arrayBuffer().then(bytes=>crypto.subtle.digest('SHA-256',bytes)).then(hash=>{
+    if(disposed)return;const image={name:name+'.png',sha256:Array.from(new Uint8Array(hash),b=>b.toString(16).padStart(2,'0')).join(''),bytes:blob.size};
+    download(blob,image.name);download(new Blob([JSON.stringify({...receipt,image},null,2)],{type:'application/json'}),name+'.json');
+   }).catch(fail);
+  },'image/png');
+ });
  const raycaster=new THREE.Raycaster(),pointer=new THREE.Vector2();let startX=0,startY=0;
  on(renderer.domElement,'pointerdown',e=>{const p=e as PointerEvent;startX=p.clientX;startY=p.clientY});
  on(renderer.domElement,'pointerup',e=>{
