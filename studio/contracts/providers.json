@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://guategeeks.local/studio/providers.schema.json",
+  "title": "Provider job snapshot",
+  "type": "object",
+  "required": ["schemaVersion", "adapterVersion", "id", "provider", "transport", "operation", "fingerprint", "request", "inputs", "state", "task_id", "outputs"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "adapterVersion": {"const": "1.0"},
+    "id": {"type": "string", "pattern": "^[a-f0-9]{32}$"},
+    "provider": {"enum": ["meshy", "tripo"]},
+    "transport": {"enum": ["native-mcp", "magnific-mcp"]},
+    "operation": {"enum": ["text-to-3d", "image-to-3d", "remesh", "rig", "animate"]},
+    "fingerprint": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "request": {
+      "type": "object", "required": ["tool", "arguments"], "additionalProperties": false,
+      "properties": {"tool": {"type": "string"}, "arguments": {"type": "object"}}
+    },
+    "inputs": {"type": "array", "items": {"$ref": "#/$defs/input"}},
+    "context": {"type": "object"},
+    "state": {"enum": ["prepared", "submission-intent", "reconciliation-required", "pending", "running", "succeeded", "failed", "canceled"]},
+    "task_id": {"type": ["string", "null"]},
+    "task_type": {"type": "string"},
+    "raw_status": {"type": "string"},
+    "actual_cost": {"type": "object", "required": ["amount", "unit"], "properties": {"amount": {"type": "number", "minimum": 0}, "unit": {"enum": ["meshy credits", "magnific credits"]}}},
+    "outputs": {"type": "array", "items": {"type": "object", "required": ["path", "sha256", "task_id", "validation"], "properties": {"path": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "task_id": {"type": "string"}, "validation": {"type": "object"}}}}
+  },
+  "allOf": [
+    {"if": {"properties": {"provider": {"const": "meshy"}}}, "then": {"properties": {"transport": {"const": "native-mcp"}}}},
+    {"if": {"properties": {"provider": {"const": "tripo"}}}, "then": {"properties": {"transport": {"const": "magnific-mcp"}, "operation": {"enum": ["text-to-3d", "image-to-3d", "remesh", "rig"]}}}}
+  ],
+  "$defs": {"input": {"type": "object", "required": ["path", "sha256"], "properties": {"path": {"type": "string"}, "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}, "additionalProperties": false}}
+}
