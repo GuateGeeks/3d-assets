@@ -1,0 +1,112 @@
+{
+  "id": "sketchfab-88590cf1e42e44bfb85ce3b6b1959648",
+  "assetId": "sketchfab:88590cf1e42e44bfb85ce3b6b1959648",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Balón de fútbol",
+  "titleOriginal": "Soccer Ball",
+  "author": "tinmanjuggernaut",
+  "authorUrl": "https://sketchfab.com/tinmanjuggernaut",
+  "sourceUrl": "https://sketchfab.com/3d-models/88590cf1e42e44bfb85ce3b6b1959648",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/88590cf1e42e44bfb85ce3b6b1959648",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/88590cf1e42e44bfb85ce3b6b1959648/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para soccer ball. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Soccer Ball",
+    "sketchfab-edu-soccer-ball"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Soccer Ball\", por tinmanjuggernaut / Sketchfab. https://sketchfab.com/3d-models/88590cf1e42e44bfb85ce3b6b1959648. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-88590cf1e42e44bfb85ce3b6b1959648/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-88590cf1e42e44bfb85ce3b6b1959648/metadata.json",
+  "originalDownload": "models/sketchfab-88590cf1e42e44bfb85ce3b6b1959648/originals.zip",
+  "bytes": 331752,
+  "sha256": "6d9aff64e4c8218dd7d53efb5a03c0f7fe239777172ef1cf3460e1dfd07a6633",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 5,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.351216+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-88590cf1e42e44bfb85ce3b6b1959648/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/88590cf1e42e44bfb85ce3b6b1959648/download",
+        "bytes": 331752,
+        "sha256": "6d9aff64e4c8218dd7d53efb5a03c0f7fe239777172ef1cf3460e1dfd07a6633"
+      }
+    ],
+    "originalDownloadSha256": "1b98da8efdca5ba0a05c20673142b4c6baa8a277d1a81ec03c5fa702506506fa",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      2.023159980773926,
+      2.0198779106140137,
+      2.0263023376464844
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-88590cf1e42e44bfb85ce3b6b1959648/license-evidence.json",
+    "licenseEvidenceSha256": "2c0669e6c8b610cb04189ef8e3bc25d05ce740ab9135d16a423ccb18a7ebed82",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-88590cf1e42e44bfb85ce3b6b1959648/metadata.json",
+    "metadataEvidenceSha256": "96874d86e057d9620709c94ee57b098b40504a0d48e24c48f0902b94836f1bf1",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-88590cf1e42e44bfb85ce3b6b1959648/technical-review.json",
+    "technicalReviewEvidenceSha256": "9772fa22596a3af7bbdd40a1fd13fe0a9ee0ce22cc1b76b6e5abaec41b73a587",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "8b83c8ea41a2d83f5f674c7724caf6dfd008d2f8da25811f628969745e0e25c3",
+      "triangles": 8960
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # GuateGeeks · Biblioteca 3D
 
-Galería de **1045 modelos GLB** para Code Studio y Sócrates, organizados en **23 áreas**. Incluye miniaturas locales, vista 3D con cámara y animaciones, búsqueda en español y filtros por área, fuente, kit, licencia y movimiento. Los créditos se consultan en cada ficha.
+Galería de **1152 modelos GLB** para Code Studio y Sócrates, organizados en **23 áreas**. Incluye miniaturas locales, vista 3D con cámara y animaciones, búsqueda en español y filtros por área, fuente, kit, licencia y movimiento. Los créditos se consultan en cada ficha.
 
 ## Laboratorio local de rigging
 
@@ -71,8 +71,8 @@ La validación se ejecuta automáticamente en cada push y pull request. El despl
 
 ## Licencias e inventario
 
-- **745 modelos CC0 1.0**, **274 CC BY 3.0**, **8 CC BY-SA 4.0**, **7 CC BY 4.0**, **1 CC BY-NC-SA 4.0** y **10 bajo NASA Media Usage Guidelines**, según [audit.json](audit.json).
-- **19 modelos con esqueleto** y **19 con animaciones** comprobadas dentro del GLB.
+- **748 modelos CC0 1.0**, **274 CC BY 3.0**, **103 CC BY 4.0**, **10 CC BY-SA 4.0**, **4 CC BY-NC 4.0**, **3 CC BY-NC-SA 4.0** y **10 bajo NASA Media Usage Guidelines**, según [audit.json](audit.json).
+- **32 modelos con esqueleto** y **40 con animaciones** comprobadas dentro del GLB.
 - [Índice navegable de archivos](INDEX.md), [CSV](index.csv), [créditos](ATTRIBUTIONS.md) y [cobertura pendiente](COVERAGE.md).
 - `models/<ID>/`: GLB original, metadatos del catálogo, ficha normalizada y licencia.
 - [LICENSE.md](LICENSE.md): alcance de licencias de los modelos, la interfaz y los componentes.
@@ -123,3 +123,10 @@ Abrir `http://127.0.0.1:4390/gallery.html?lab=1` después de generar las vistas 
 ## Referencias científicas y nuevas fuentes
 
 La ampliación de NASA, Smithsonian y Sketchfab incorpora 24 GLB nativos, licencias por archivo y 20 familias con variantes entre fuentes. La galería incluye Draco 1.5.6 local. El [informe de pendientes](sources/external/institutions/multisource-20261022/pending.json) identifica recursos excluidos y el acceso/derechos pendientes de Quaternius. No se modifican los 1021 originales anteriores.
+
+
+## Ampliación educativa de Sketchfab · 29 de octubre de 2026
+
+Se incorporaron **107 GLB nativos**: Sketchfab pasa de **8 a 115 referencias**, y el catálogo de **1045 a 1152**. Las incorporaciones abarcan las **23 áreas** y conservan autores, licencias, atribuciones, ZIP de originales y evidencias. Cinco candidatos descargados quedan retenidos por legibilidad o encuadre.
+
+El [informe de revisión](docs/SKETCHFAB-20261029.md), el [inventario de 3150 candidatos](sources/external/institutions/sketchfab-20261029/discovery.json) y las [decisiones visuales](sources/external/institutions/sketchfab-20261029/review-notes.json) permiten inspeccionar selección y descartes. La búsqueda revisó 134 términos del plan y tres consultas de contexto; quedan páginas adicionales en Sketchfab. La asociación temática y la escala siguen pendientes de revisión docente.

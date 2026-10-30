@@ -1,0 +1,1401 @@
+{
+  "baselineModels": 1045,
+  "baselineFingerprintCount": 1045,
+  "comparisons": [
+    {
+      "id": "sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32",
+      "sha256": "05abaed54f4d1ae00ed5ef3d9dd86df44e2de01e9f4386c04cd15e09b5e59fa6",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "21ad4ab6cd28cacfc611ae8720a56c6764ca3f06b97c0a2c395e403b5345558b",
+        "triangles": 2058
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-8fffaef7902c4823834dd783a99c4316",
+      "sha256": "1e14e6bb82a25c5fdf9e5845c9239bd6656ee8713da159d48971137aaead964b",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "76b6e6876a3ca954fa76700e4fc43df19b324efe0902db7ae02e3fddf74d9db6",
+        "triangles": 1778
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-f604e800dc3d457f999f8284458c9cf1",
+      "sha256": "29503e109372959d4dfa1f903fe6051e324339ed8e557e460abda2d639adab61",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "bbefa5d98630967d973c77107fc31bf7a431e469e6a3e221798a11e81e26e31f",
+        "triangles": 1384
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-eccebebd5a60484eaa49036f8a4b6ed7",
+      "sha256": "4af4d2849628cd21a9bbbeb191331713ec2fa4045be71cd43d2a1db3b436a63c",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "cc5227598c1a16f12632a7692cc5886afb56baeccd82be3e6b43150bab48472f",
+        "triangles": 794
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-e93a906eb38343c4a14458a637136329",
+      "sha256": "8c16800911a4e683d95b7fc48362266594b6c9f32e2bd4cdd78624a52d220d5d",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "31e03b667058df6094f012c2d04682d28e9174eae4cf3466aee252a4ac73e7f4",
+        "triangles": 810
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-b3fb06508c5649fd8ecb30d79e2b9050",
+      "sha256": "26f83ea75dac652acd040cfaeda70b9281a3ad2aa78102fa36c536bdac7ee9a5",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "e534cd4283ca799828cde0cda126ead853109a185077ba7bc5defd0bb34fb291",
+        "triangles": 1822
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-d4fbcbaab845402999f30c5aa75851e6",
+      "sha256": "1bc3e6ec5963e83e21fba288590fc2a5fcc66abe2477531f2fea304bdfcc64fb",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "3d39eefbc91b4bc87b9c150e58a05a045a13260dde28e181d94ae13cbd1d4552",
+        "triangles": 2144
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-6a165b82bda8458b96f57224d1867606",
+      "sha256": "285c0412ab527e962f6db9b55ec0894497ba7d24f6c55eca85cc9193fb50545d",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "c4611af5a494a569236c37626d58a862b7c8bb867a8aa75745c02ff2d8910426",
+        "triangles": 256
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-0a0f5b4e595940649ea3cabeb7a4b1e1",
+      "sha256": "2ff6413670c795a41032d85b2c4e5df581db957d26450768e5df218e8a0aefad",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "36936a94fe3454ef9537d0680a18a7af79ef247cd05cdb92633e43b3a6562e3c",
+        "triangles": 368
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-e0b559690e384fc0a9f3a05913f609c4",
+      "sha256": "de75082a7e83c12696ea5ed48c2104da43f1e3dedb961d22831329dd0030360a",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "555d5fa77ab3432cf3450da3ad9622118bc8304cf40071bcd62ec03da40f8c00",
+        "triangles": 3079
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-6f404e05d47d42998be25eb58f46c205",
+      "sha256": "3b70445a4556eceb683b3d103c3da42a74144b69adfe205ea09c820a01bc2e0e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "c28c6b2f4c0772da419a4513c851b0395fd132c58667e2c223aac6b09f19e14d",
+        "triangles": 1770
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-f9dbd4c34a4f4389bf3901527ecc89a0",
+      "sha256": "63cd0969ebe0d04e1085b3764b7857b77101c5a2f6a8fccd60494929d1c30d9e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "a346babc06bd162f01ebe30a2657aa9a1520165700cfdda2ce5583bcce550a49",
+        "triangles": 9370
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-64adc2e5a4be471e8279532b9610c878",
+      "sha256": "5c74dedda5054db20d7f219d63e53018d6298a231decc221edf71d6feb35dcb2",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "a0f7c4ce2c9bcf52f4c1310352d43587a32ab7ef21ad1145c76988772a303437",
+        "triangles": 534
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-c26e47859f0945d69a4e2944ee80b995",
+      "sha256": "597bb6c732b56c70e51cffd6772a23ccec97acf60d1c04e65e606e97950c5f4c",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "fc2a446e4e78801e5578b7360530fb9c519a39ed95eaf2a097b23caa9db686a4",
+        "triangles": 6510
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-9871233e3bee4bc1a90a02cc44f7a329",
+      "sha256": "216ec640ce6f7e6b9e3c087f6af58e55c0b0ce63bfd96748c0dffc2969fc3b8f",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "83e31ee10f4120f52bbd2fe3778e92692e3d034009f087022a8448babb12ecb4",
+        "triangles": 3784
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-efa1c4c1f2a947659ded2e61e20eff31",
+      "sha256": "e1d86f51dd59d0c5b20ed4bba113fa43f509f9aa40bc23382aab2d1efbbc8ec2",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "4b124b80cf00395acf311dcdf2c123644d0a16e82dda0892a407cc4d08908e44",
+        "triangles": 10296
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-7d9569d4f7f74e6aa2674e6c53c8c618",
+      "sha256": "a728a80ecbc82bef5c913f3581b2deef47cdb05c013d1f898699877d6d1e05fa",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "4c854f215068d5f0dd831fa913a6a33ce20c2906d9899e354b745cc9918c7103",
+        "triangles": 134
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-516e0bd4e78d4f5caed3f00f056e2e3a",
+      "sha256": "c40832b7e139566482c7cff8fe8bc109bad45c1b1183a560b6bb83f69a12243d",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "1561543b4f8c8ee87f6e573827ccd5763b242da148ccf69ac29d2fc793a84bb4",
+        "triangles": 15415
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-dd826f1f05c544ccb671949ebca59721",
+      "sha256": "74e2d3c9e833eeaf2ab51aab8ceea45cf8ba070f7eb7202d22f5467061c17e15",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "f5b39764696a1bc02352fc499c97f92821efe13abc5d8036397612aedf7f64e1",
+        "triangles": 78408
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-3dd8d58630ff4d5e913b1ea045d3fe48",
+      "sha256": "ffa40270f5db62226420defa752c6a20fc4d9099d2f459823da2d01b8692b2ab",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "a13a687b8cccca8368589e268fe884123c1d705274159aa482ac0f1c4497d87b",
+        "triangles": 5918
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-2d40c8805443463283c1b1547e50e650",
+      "sha256": "42a80e978aa468f8ed0f6c9156d28a53dda47dd0eeab46e9adfe4d96c7cc1559",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "f2cc2e0c35d73ead5209aa0e6236adacc775ded269c2dd21cf2decf9d4150097",
+        "triangles": 2228
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-1d790c7e712f4500b417e9c13639e79f",
+      "sha256": "7b0599297a46e3bda5e7ea61b877795358a7e3421629c09a7448bb51f013e4de",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "efc5dc1aea6b75b24fcf09db88aa1fc2d7cda9e267c774e93ac710edb1053a0b",
+        "triangles": 22344
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-c26ae86c07404779a54f3621170714bf",
+      "sha256": "00bdc50c04ddc2779a4634ccbf6571609607570b843c9adce81dc530049eb11a",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "da7110928fc03eac7b674138fe2d6e4500a48872210b1040c52b1dcbed5e707d",
+        "triangles": 11448
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-17b34b975dc3449da83f2ee7802004f3",
+      "sha256": "3c282e141c8cd7d78d8ce828f589ef8ccac8b252e7213bf6f7895ad270f61835",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "d43dc7c54d6df4322549f6754e3fc95acc8960aa1daf7356e7548a55060dc7f2",
+        "triangles": 17528
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-fb1790ba160f4f07a2b41bd075b76174",
+      "sha256": "ddb5f3412eca32f3d48e1677ad553b82ea412bba188e67f080961e2074f1f796",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "b18430ab63ffebae36de5c8008f2704d3dcdd34f00de1452736b7d7b8af30492",
+        "triangles": 1774
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-dd9e73d51edb43198bd40d0bbd2dd54e",
+      "sha256": "4358a60e7695f0c958ee456611b42d48163e4ee1604b8a59d1bba95614e76894",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "d9b97dcbce35fd37aa29d5faf10d405189dabd397b5d81fae5093f0d29409973",
+        "triangles": 10640
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-f933e29ea9114b0cbcd8bec005833f5a",
+      "sha256": "1dc74c64b5976996e81f6a4a82ddad2d76767cb43e06b6a726d7f02fe3c0688e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "a177213001ac201a75dd9f5c7265ad0643b71fb9dd3d390ba1cd3c4e61b3ce99",
+        "triangles": 3260
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-d05cd9f3d4d940e0b298f5cb1895f913",
+      "sha256": "f62e0a989440084942934630d46f4c86b940feaa56c0a7129648c1939a2a5977",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "0e05eb5e7c23c3bb7a2ba6a061ba527aef38b8324c11a49ff43ef8f16e97ac87",
+        "triangles": 4240
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-5a83a0f4018542d1afd69725ae9d80c8",
+      "sha256": "43db0cb3320b37d84df3a5b7c136f1c7f78afdfbee21065680ed18ce1d3425d8",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "be3b18d1a36f59a5b6cb047dc6068774deff3e9e37bde1a4923cbf5c3338f0ac",
+        "triangles": 486
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-14f17cd9b48f4fe89aea6e69f80980d2",
+      "sha256": "f684471dd4f0bb8b66914ccf4dd5f4d124e3360cd22ec158d86f54329f236299",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "3b29578a1a3bb29c6674efde65d8ef4a37099dc8e92edd873b19f86c36a158a4",
+        "triangles": 180
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-e4d36352db5e414ca1d734845375308b",
+      "sha256": "452852bf96d4530b34d04fcf823b94116a1a19e060db428231c6460362c79841",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "22f96a7a672bb66577fbdbf78bf9ab9cb8d466ed63d423fb10c21d2d8c5a8efa",
+        "triangles": 97474
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-69c10f308a0c44f88a0d08c6614e95d0",
+      "sha256": "596604a79809f9fe226a853b316c6774e4be77cd56b235f2be11822f70aa511b",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "6d4968a233059a69d7976a94eec2a82c72df8671f6694dd79858da56975dc348",
+        "triangles": 252
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-444884ba91f24d51bc34bb44779ef689",
+      "sha256": "521c478ad9e18651560effafb43bd135ba89b975297b21bf319784722711d87c",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "6c17d48db337cade9d88c99df14f9e1701793537273bfaec2405365d9762c4b9",
+        "triangles": 81481
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-e24e96b6bc39423b871b10f098876b8f",
+      "sha256": "3316e44917764547de441cbceb6f977af64b71aa2433f1ee5b354fdb23e31947",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "5c979e1a8173ad5f8f6788459a2ec87555bd15a36e567531db35779058c52a79",
+        "triangles": 30304
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-10187bc37c9e42ef8770b28452ee7cd3",
+      "sha256": "48ac9cddf68f15889cf988d58c8d311dee5395ab76f879a8a449b024c5c97f83",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "cc7e9c61bc1600cbeda51f34a46be54bb63ac524c7f332093191dc4e458d4d7f",
+        "triangles": 2570
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-92ed8116d60343a1b43d0f93d7175500",
+      "sha256": "c58f4944ce83a6b0cb5c174803bb64b63886daf78d6fbe9a8b43066e55dbb96b",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "d6bfb02f3e4726527889a939cc8746bdf10b7e9c155e7c80c4e648261fca891a",
+        "triangles": 177
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-089c5e90917b44a188e0c0db259e0782",
+      "sha256": "63feb99c31e70a11ac7829e525e852bb0057177a854c560b607027f9a15db90c",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "dd2662d182b0cb72f1fb54e1693f953b9127adbb0e309948cf2833cd59a7dc41",
+        "triangles": 5544
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-5030d74f8f954a3aace5bd1c3a5e9d65",
+      "sha256": "2936dcec749101412be21da060f37cb92cc210d69f0c3113ba806acaf9bdb4f2",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "2daca5046f3eb6b291a44b485fe86a944855f587713de2483e502d924915d8c4",
+        "triangles": 573
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-fe97d02daaac44bea0caffc4f1cb93a4",
+      "sha256": "f45f75c3dd28dcc4606a1e4860ba29dd7a166312c9648cda911773857d483dfe",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "2afce98ea565126233750617861d215913fe2446677ae954d10753182d2ce20a",
+        "triangles": 2186
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-3b955af797e140eca0947ede57f412ba",
+      "sha256": "d235028e7f7d14df115fe93c6839ea45eb7354b9ebae61aee1f621012a0f1352",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "bf42b5fbbcdebbc3a16cb05aee11653021e58f22ac39c30484c9b8bee738182f",
+        "triangles": 300
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-3ea2d33bbe264ea0be0dcdf166406e8c",
+      "sha256": "3e38eb3eb5fef8a75d2f9ddb7766334b6fa8ea72873e6ee02f0fd4e877e6ebd1",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "e57d913cf06fce4b05a569c2bf32364f4fbd83de16efe7d4412cf0c8f6692494",
+        "triangles": 12
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-23b2d0e81d414836877c555e5b5fc18d",
+      "sha256": "ae517030576583c3025aaa191a9c9c187d4911dff63c5e41ee4e47bfb436e353",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "fd97d72f9d96a67fdbcc365157d1ffc05cd770352ba345ed0b9103ff4ea0f35f",
+        "triangles": 300
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-8c2273cb25154b50874739111aa51e8a",
+      "sha256": "702bcd0f16ab8565b7972114ec5bac2789c357cd085caf99e533870e73ca866e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "65704d98b34fe87d2c13fbed66ec09d06c9943efb24a6b17be39e3432524fb92",
+        "triangles": 132
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-2d80f07dc73e4cb0813a15e5daba3ced",
+      "sha256": "e9ff6529c865118229cc6005bb417355d86440ee74fd1cd5a07d49de596d7746",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "d5fde5351774389e9dead66e60b4b0a9ec163ac95515d7845dd09096de7d84e9",
+        "triangles": 1728
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-8cc7d1b1b3a0496285451af115df006f",
+      "sha256": "ade66b3d07093abf2789b9cce15071905664052dc86bc0a7140964caa0d37081",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "55e996e5ffadc470858664b28a1c18302b80181e7f5c812ed65a6fdbd8d775ed",
+        "triangles": 3962
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-cccf3dcca7be4365b22ff59433024586",
+      "sha256": "75b0ccd334b45fcc9c4dff3673feec3408e59c7c1c6bf3c15f69d466543b0b81",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "7a3050e86def7d4d517aaabcdd843228aa498bb50521183e6bd12dadb31688ba",
+        "triangles": 272
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-497ee275a25e4166b98c7be3105b4ad9",
+      "sha256": "5df8082fe40a8b44baa1f7e65f384373245e96693b51d39d34703af1a3a9e365",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "5fd4464b7715316af0a0c2fe084bda9403eb89929c5091c54634c5ee3f5e300c",
+        "triangles": 12
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-ad0e1d85295847409e961de33c2ee0bf",
+      "sha256": "e9c1715f787b663fee38de93066425f4190ac51c78a3e542d5e372c9a13328cb",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "0eff21bdf1cadb993d4895a998acd6c7cde4760f26965a5eccf9122c75abc91d",
+        "triangles": 1096
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-048b9dc3095e44c0883b6b7944ad4916",
+      "sha256": "b451951b2c27ca316193071640e88b4f1650795b035665656e3ae4961374dcf9",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "08b6ddf575c7398f1d035c2cffaed71c933c0cb060a1d2f8727e8cc82c3b28cc",
+        "triangles": 44728
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-32d02fa06d474f4db5a433aa134be612",
+      "sha256": "4e1024e6ff922c926310df86bbd4bb5998e61f5cc28fbbcaeac1b73b7eb1402a",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "9a086168831b2a2b490dd2e6b414ffdc8db2c3c826de7f2b73d02e3fe9b1ab03",
+        "triangles": 792
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-ab309ab0cf094372b6f1b26b91c35eca",
+      "sha256": "92070221dfc272e804a26e2b254770bf40edf748fd8a63a99b69965b5d88fb7d",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "ac57b18edda3bd9d7302c3c07cec39fe38081fa00e1e7768a8f9abdac2786fd8",
+        "triangles": 3694
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-ba869e8681974cf088736173b8b86fef",
+      "sha256": "be85bbfdda89209355a2cc3f96e55d95434f76503b48e61802b1724e00d4e4a4",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "689b7be9f4e323cb2d53922310b7d07077e29fc82f3623ca4740b6e9013135f4",
+        "triangles": 8322
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-b6b33b14220a460a94176412ff284012",
+      "sha256": "fa694f65e4954aad2a01c4eafb770164fde69d33d3d7758207e15ca0fd1762a9",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "89191fa40be85b25f2006d24eabd5945a3ca1a70703b18ec729f16a9e1c27f44",
+        "triangles": 36
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-754e568abf1846ca96cee73e87d88c60",
+      "sha256": "6cc39ee36ab3a5a086aef06c8cf3254eaece69e0e4fc82a7101a6242db22da07",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "931f1cb84f5372d665fe06f656ab1336d918fe4eca734fb9c4bdae98d5f62d57",
+        "triangles": 90
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-7df50342811d44fba81c7e953838d069",
+      "sha256": "e1b21abab07802a148312f44ba127ac9d213088b8d2b7c6b3127877ec9f699d2",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "3ddb1642c7fcf6e51f959b0f5a1eea17aeafc019a62acaeb60c0c08ff6881750",
+        "triangles": 11802
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-fc1b43e332d147edb7dca8f89cffa4d7",
+      "sha256": "3efe5956afeb335cd3d46972a1fdf1015bd2293712f04bfc57abe635102cb5f6",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "b3d9a05a1403d1a40a77dca0268a2170b80975236713e0b2039a7ac749ed53ba",
+        "triangles": 204
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-e67db84c8d2442519353afbae5220de0",
+      "sha256": "db5d051137ae9da7b72b19770630397b2967809fbe87513e61beaaab66f78277",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "aa6d88986f5fe29aba65d51b74ad28c1cc806355c33bf4e94c4ff43dc9023a9d",
+        "triangles": 220
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-2ad86321197a49feb54b7726743d7fd0",
+      "sha256": "0ece783f31f64d52cf9428acbbcb0e131d83c332b96ff6990fb9779a64abf1e0",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "f3e3ff8e9d830db1963a16eb4869e13c9acc0ef1ba74dd6007564874ca8f01b2",
+        "triangles": 1532
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-ed62a64f51bf4d80a13e1344093c3909",
+      "sha256": "7280cd321d9447390aa50376bf08bd49f327df1e5114821c3e873b46417925a4",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "2f950237129f27a8e81e17db1bc25acc75d895503e8fed0016adfe62e232e372",
+        "triangles": 10736
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-5646e6a3c8834022a0e289465f0bbc5d",
+      "sha256": "99e573be09a516a13496c31d8df9fab0f37f192cd9397ee42458dfe0f4bc0e7e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "f85d52ed3d4a45909df911bcf7fa0d822f38127404615d4f44788e46e5007daa",
+        "triangles": 4882
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-46e99d254ff34f45ad8ae7cb40321406",
+      "sha256": "34747ad8547068f8179f4ea00f664ccc9685f5b3b9a63851a857eb1a9db256b2",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "dbf57f6b282cbaa1d30e5aad1005b2b9d6d007d48f1315231cd764d4f632904f",
+        "triangles": 740
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-688b7c17a0e54a05b0b2d51a8aee061b",
+      "sha256": "6746bcd3a4940f17181f505fd3853f001ef789cdee2329824e23e734f5252e51",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "5de8ae6d61fe2fea63e60d25bc50d07ff32fde0cd003034b33ba0ac7f237311f",
+        "triangles": 14334
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-8db89d219a60466da1995316d83af100",
+      "sha256": "461fa817b33c68e333efbbe44847bea0dff4681f04f0b23c0d9dd51adf43b0ab",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "0e15f8496db2abf460cfe6bdcc049e6e53b6b0675d5c3c657f43ffd9bd092d61",
+        "triangles": 4128
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-8fa6c9cf27f8494db2e52a8d27804eff",
+      "sha256": "a8350201e788c34dfe84928c6e56a55e79507c3345b607c55d9706cb82154148",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "58bddc8919c362b0d01e3d56ea3b1f02a34f9f8c7550695fb1d049e115d1e525",
+        "triangles": 1640
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-08ad831c653b4a54b4d3d96daf07b7d6",
+      "sha256": "66523762749a5f95401a0775b8562e63a39735d96615a394c410295cb4b73f6e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "6d3df1253f928f026e75f30ba5f2eb1e4a080be45b67cac713e535d5dd5a203f",
+        "triangles": 1572
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-5539b4d5610b4f53858b88daa4f9a749",
+      "sha256": "67325f9918c68863a65cb76e352719af90d1590104c9d516d42f0aa032d10b1b",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "0bd1195adea2a81d38f4e2236ce5a89b89bbeaa14fbe057d6a6a2cf1b74bdabf",
+        "triangles": 7900
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-628232dd846249f6a89ed3fb2e1cd4f5",
+      "sha256": "81cc026a95ff137b2a32a70930ee0da7c92445be8ad57323c4daf278d409f35b",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "b50e9c172fcae91f2c1329179f244d5de1a5c16b1798045be48cce634e8f739f",
+        "triangles": 648
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-2e0a99016e5a4ac5a9b56caf6a802b06",
+      "sha256": "5c1088e9aaf028b85ecde149902182b8433e3aa20950c13f32efdbd1bfb5674a",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "c6dc7a0d1333149b397378a7642f8adf2e8b7f32a13aaf24e371b8dc25580abc",
+        "triangles": 6
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c",
+      "sha256": "6036c62bb58de87d4857b10ba0d4370fa84795ccf3fa23603fd6d34bea648c9d",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "bb91bf1f5c86619544b9e951c6fb9acf6e8c9045e7a9d272330fe275c31b2377",
+        "triangles": 13345
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-6b3eb4e27e03485a886ce5304e95f897",
+      "sha256": "d34d69d854a45fddf4a2edcc77e14801d884069eacd351cab58fe01960403ead",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "1045fa56c6a825b0be05acee40cc12b600d8fc6f079427dcfcb3e9e83dcfa2ec",
+        "triangles": 2138
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-a157e3341d2d476e9c40299c79cfeafc",
+      "sha256": "a1b52210e0092e8d249c61d202ffcaf07f4ec26aa09a7dfd10978e33db174a80",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "7d8c7ac5e5ec3ae7693d0a0f14114d2edaa51e9e97f1d98965a7946711f4ab5c",
+        "triangles": 1412
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-6fdfd05ed18c4c8796f54b44e572e873",
+      "sha256": "dcd30ff59181a7628b12c66e3174d7371832344a68f1b785e509be12ccda3cf9",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "d24c4228aacba6e7fb99855e3cbd88b4b0c74b710a1efdcf46e467628557165b",
+        "triangles": 3574
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-407e105a0c11478f8ddea478edca5c4d",
+      "sha256": "91766b442dd304eca8fb9d83b93e9a8a3ddbc0947a19be3fae578678be9981c8",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "6e77c5d246f26b96ffb7aa131a6d083a1bd0306487730734be034692f639772b",
+        "triangles": 910
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-88590cf1e42e44bfb85ce3b6b1959648",
+      "sha256": "6d9aff64e4c8218dd7d53efb5a03c0f7fe239777172ef1cf3460e1dfd07a6633",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "8b83c8ea41a2d83f5f674c7724caf6dfd008d2f8da25811f628969745e0e25c3",
+        "triangles": 8960
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-2343abdae7674f46ad85071858db93c6",
+      "sha256": "cd342ddf7b826b459ddd8099fa0682fab76ae92e9b871b906eb2187c309ef6a2",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "1174ff487dad89ff4312db47098296bf29abdaf3b9612bbc2fc68352b10b25ea",
+        "triangles": 1184
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-8145070b505c4d16aff1c46b026c3cd3",
+      "sha256": "882bc7448fc46689789f4264eb973027ee970b9a3b121af26adb1b909aa89b9e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "d887b1253505f8155ff63320b566c3a1567786ea19d1c56ba3f5f5706c505fca",
+        "triangles": 3968
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-4bd311032f364db18dafffb866ddb9f3",
+      "sha256": "2b4558321dbddca3c58d92c7bfd633f624b3ca51d05d4ba2d2204c29411935d8",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "3fa5ba66453b703f74500bdb8939f928c1725454988d3e5e44c3a67f74284f2d",
+        "triangles": 474
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-7d547122a8eb44f0a615492f454c1cf0",
+      "sha256": "3f8a657850e17de9b7ccbade6f62ad148b7ccba408c1880c0e26ec321277548e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "148ab33dcbe706f5260c3ff43090d8e4bc0e18aaad24b4f97fcf8b3600f76f1b",
+        "triangles": 34960
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-2c63eb21f4ed436a8424da6f1e1cd479",
+      "sha256": "e3709446db97cb1f5a2cf7731d82f63b821b53cb7ee985fd355378c6e78312f4",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "4508ea6b8ce4d9898eea04367f78b93f79c0ccefda4a28eddf4f759e18dd13fa",
+        "triangles": 5745
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-e64814cd71114a469fca8b6c12567fae",
+      "sha256": "dde70b25552c85b86ac23605c6c12230d60343697aee2240d0f1b9e80ff5d36c",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "db9e91d6c289eb480075caf8592f6d1d831e434a14d443c3f08527de64ea525d",
+        "triangles": 21760
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-2f707919a3164f1ab3f2c5da6a07fb5d",
+      "sha256": "bba8d6f3cad515c6d1805d63c74e8facec93fac619b79a7a35e0cbcceda84ad4",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "8d1dd6f3f96ecec0ddf57c5d9873fc5865a00c18fa94c0fcced6098f873645c9",
+        "triangles": 1244
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-f2235c3149cd43bd981d433f172c3710",
+      "sha256": "4e1dc13856ebec77726ad837856980f04f14bdf69feff1c4f0127d5743e92d19",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "0245e9592d3e1977dd25e29de5c56b997d0f5aed1701ae8d69746bcd25d04533",
+        "triangles": 934
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-5121e71e25dd4605879441c7e8f4c805",
+      "sha256": "57af387aa27c2de175735e931d75a93c6c718854049e7a810fc69bcc9e4a516b",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "da0484d2fff2a96805182443834fea43cbcb7152e55f792ae8cf932965d39a49",
+        "triangles": 8104
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-cfe67988a51e44598678a48260cef82b",
+      "sha256": "8a7998d4c854e847781205808fdcc5a6f6b744dbe3a7fe33979ba4e8dce66ce1",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "f73043b6bd16a579251f54567e95aef29c0c39ef114c4c53c7c5831d79217ef1",
+        "triangles": 356
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-a9890d981db54c18be494d4e058e57b7",
+      "sha256": "fca5a74f91f1a97be00546bd281639b6936dc9ade5c3f4251b6992bc7d77e676",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "dcc2378b2208860c4ec89f04892415398cdf21e15e2746fe3394f458565315cd",
+        "triangles": 1627
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-792ee69625a04ed2ab52de807ca88077",
+      "sha256": "b719a32de30e7053d4eadebee0faf93763dc83ddbf2960428a16199656a95ec9",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "73d499a54e2c9082e0f2f2474b302bfaa332e2d679338350206278869f169009",
+        "triangles": 30950
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-ed577ce3d4db49a283924c2ec27e65e8",
+      "sha256": "e7c130075f98f2679ae5bb1c05163d2258a82d8ee714312e37c30966d218f126",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "a7cbe8de9e767e8774af6b110ea9b59acdeefc01f435cb68482af813dbf6aa39",
+        "triangles": 704
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-6619a9cd8b104da3a785ff93293b7925",
+      "sha256": "35c4a744a2d56b90f430bf5ff199ae5b95d1f6e47f65527abb265de4ac262374",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "71e1a4d8d80ed84529f368b57c9d260f1575dba6db19b8291443cf688f5c53f2",
+        "triangles": 5192
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-366f09aae65847c6b9c5856109f58226",
+      "sha256": "ab86607de1eeddf5ee7769c24be093ef5a93c3a67a850f4cf2c113bcff89f9b2",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "da2b03c1e24738f128744f5ba828659e48bdeccfc0db1b23c2840a3cc00ff100",
+        "triangles": 3840
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-2980f275af704e579f10869e5b0b3ae5",
+      "sha256": "6780bdb8ba6e9febaffd40c07733332475fea2c18c26d31aadd00f0f90f3794f",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "4a4a139ba7ad6e949e9518a66ed04d54ad8b385589f056d656a6e9b48c9cf044",
+        "triangles": 1756
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-a6cdadcf543b4214b85ecbb0e09a5af6",
+      "sha256": "6518be307cd402ffc657a879f00f720587f0189f79570021a1dbf6b1942f4ecf",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "b7635a27296daff9105ee8c1d998974319148939303675c050e4ca23ece26a65",
+        "triangles": 944
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-adf292f437f24151918a3b16ecef52d2",
+      "sha256": "7d559c20a52b9ab86ae2cdc19cd79803a8d01cd24c2a0c51669b0375fff17358",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "0aba829cac07a4146f41dd26c0e20e9e23218465a5838aa7b877243ef3804e1e",
+        "triangles": 1577
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-07b5bfaf6d5849d79a4d7ba256423c89",
+      "sha256": "2761ec63536dd597d8a9d0be8490bcd35b504de55c3fc497a153630a804dac91",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "8fee7d907526cd33235a383201322f818397350981243ce819df021e4f7358a7",
+        "triangles": 108
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-9ee18ac16745473b8c002a5f4b98d8cd",
+      "sha256": "63d9890846d0984cd6d2b1b2c1f7e5cf2ddb4b50c6feba0a372957dd03449441",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "e2938778376d5b24c5e67d3a3dd6b65ba6adf9b61c556d1aaef69ff42217e2e2",
+        "triangles": 13820
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-d1adc06424204191a00c9e9efb98ef0e",
+      "sha256": "c3b52e120bd1b628afd544f137dfbe26c4c5383652bcd3f9bf4011138b7fd128",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "893311d98fac626736493c31d17db5de5b6a5c5341b9d2d30f38ee32981ecdc2",
+        "triangles": 310056
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-f5ad9201efb44f538b466626d70c119a",
+      "sha256": "abb82f695eed8c0b969e4e89b2407d53207a518379a4e1f91102a52f4ae84c14",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "d47facf022a196b266a38475d9c50329986efe4a2019c17001bfccc580ad907e",
+        "triangles": 644
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-8b6e79f84f98456484fb38fe164340d1",
+      "sha256": "87d7108730fd9749ab136615248d242cbd18a32dd08659232b49e5ca95318660",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "53459156f097ddd5c9a6824bf435db5bf735eee459b555683e2bbdd7bd3de75f",
+        "triangles": 1756
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-cae1ee999031436389b356017287724f",
+      "sha256": "7d34d33483e2d6455aa49f6c02fb607c95fbca1b960cf1200e3714c0f993e111",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "de0af85483d288e30d0e816f261057abbd54cb4c14077fb6bb061a8caa05982b",
+        "triangles": 4506
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-0c5c4cd4e79b4015811914203d599b9d",
+      "sha256": "5e81e4995579e3bd4cf97436a7d2a0c8c8d4d01fbd6a205fc2c88b4b9d663619",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "2740bd650af6c554d31a31709cce1aa43f7725b9eca804c537f8c4bbda9c602f",
+        "triangles": 5244
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-12cd728323744540af4f49d20de67e6f",
+      "sha256": "9a47cc704e32016756dbe6461e4945f3c7f8404d55bcff7e8eb24a1142cebb7e",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "389227e5ec8e6b6917e15eb3d66a20eb826a6b31a83381bf15ec94e93455231b",
+        "triangles": 22192
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-025ccd2d93374a7e8805f8c4ccd3cd9d",
+      "sha256": "549aee8978c85eb5770d6120f0a74c3c5c93b85f49274fc3f34d30f4b65c0b23",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "1285838feee268a4119a6e87b3f6d26de32378298d3993d030e18d22938fdf74",
+        "triangles": 9248
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-e04eaa09bb1a4700a754881da843a40e",
+      "sha256": "5a49eb21ff4c017c02ea8004bb0f64940d2f06c9352323d73450b1500b37db32",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "6ed66920e0a15c3a4d806afadc6a5ebfc5cf3370040813ee4278959740b3c7ec",
+        "triangles": 787
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-0bc7834d6f254cd3b5aedabafa8171d1",
+      "sha256": "443a05377eeb0b35ac266c6c46520b989fb48deca87b8089d5d9f194be31850d",
+      "geometryFingerprint": {
+        "method": "triangle-and-line-distribution-v1",
+        "sha256": "e2b5fe6e97a3fff7afb52d56958901f97da10e9d9b5f546479ce8952e195c447",
+        "triangles": 8364,
+        "lines": 15
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-0fa93c551d8449808cc1f85c4238bf93",
+      "sha256": "6ec23833b0ff8aff6f43d145feeb481d6dd56b16c4af26d6c3a9708f1e4f35b8",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "35d9f08a2d83d0ba405598b1c995ff26a3a9bdd9d187b4ab7dd936959d869413",
+        "triangles": 1044
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-28cbfa4fa9b0490ea70b2d9eb5867bb6",
+      "sha256": "0c58150833ce2f73f84f04ffdd6356b6895b9ad99cb6c27257b5594f0ee28fb5",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "75410a3f27753e15ec1f83fedb014becf71d0674e76df6a34563fbe91a0fda38",
+        "triangles": 644
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-d681fe491a1e405faec920838ea3f11f",
+      "sha256": "00b00d279f2e59bc7f6c522e84cd745560fa2e2c1d776cf319ef1379c8108f39",
+      "geometryFingerprint": {
+        "method": "triangle-edge-distribution-v1",
+        "sha256": "b34468ed77432f5d3a1b99d6bc18ae1e853acdee987a95145358496c72be51a6",
+        "triangles": 600
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    },
+    {
+      "id": "sketchfab-ddba040cd93348d1b7ad13006ccbf3f7",
+      "sha256": "e62a1958c3c2c179ad34ce67efdc6f101a5f797e5c5ae8163fa875cc573bd614",
+      "geometryFingerprint": {
+        "method": "triangle-and-line-distribution-v1",
+        "sha256": "a5cac7c9611b93eb86c751f677dc7cc686cd838f1e99ba415db73960168e46f1",
+        "triangles": 7160,
+        "lines": 19
+      },
+      "exactMatches": [],
+      "geometryMatches": [],
+      "exactPeerMatches": [],
+      "geometryPeerMatches": []
+    }
+  ],
+  "unsupported": [],
+  "methodNote": "Native GLB SHA-256 plus triangle-edge-distribution-v1 (or triangle-and-line-distribution-v1 for native line segments); Draco decoded locally with Google Draco 1.5.6 without modifying source bytes. Geometry matches need individual review; nonmatches do not exclude semantic variants."
+}

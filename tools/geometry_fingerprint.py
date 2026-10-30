@@ -1,5 +1,7 @@
 """Conservative, rotation/translation/uniform-scale invariant triangle fingerprint for GLB.
-It compares triangle edge-length distributions, including node transforms. A match
+It compares triangle edge-length distributions, including node transforms.
+Native LINES primitives add a separate length signature; pure triangle hashes
+remain compatible with the original v1 method. A match
 is a duplicate candidate, not proof of authorship; nonmatches can still be variants.
 """
 import json,struct,math,hashlib
@@ -18,7 +20,7 @@ def transform(n):
     x,y,z,w=n.get('rotation',[0,0,0,1]);sx,sy,sz=n.get('scale',[1,1,1]);tx,ty,tz=n.get('translation',[0,0,0])
     return [(1-2*y*y-2*z*z)*sx,(2*x*y+2*z*w)*sx,(2*x*z-2*y*w)*sx,0,(2*x*y-2*z*w)*sy,(1-2*x*x-2*z*z)*sy,(2*y*z+2*x*w)*sy,0,(2*x*z+2*y*w)*sz,(2*y*z-2*x*w)*sz,(1-2*x*x-2*y*y)*sz,0,tx,ty,tz,1]
 def fingerprint(data,decoded=None):
-    doc,binary=document(data);triangles=[]
+    doc,binary=document(data);triangles=[];lines=[]
     def accessor(idx):
         a=doc['accessors'][idx]
         if 'sparse' in a:raise ValueError('Sparse accessor not fingerprinted')
@@ -32,13 +34,20 @@ def fingerprint(data,decoded=None):
         node=doc['nodes'][idx];m=mul(parent,transform(node))
         if 'mesh' in node:
             for primitive_index,p in enumerate(doc['meshes'][node['mesh']]['primitives']):
-                if p.get('mode',4)!=4:raise ValueError('Non-triangle primitive')
+                mode=p.get('mode',4)
+                if mode not in (1,4):raise ValueError('Unsupported primitive mode')
                 compression=p.get('extensions',{}).get('KHR_draco_mesh_compression')
                 geometry=decoded[f"{node['mesh']}:{primitive_index}"] if compression and decoded is not None else None
                 if compression and geometry is None:raise ValueError('Draco geometry requires decoded comparison input')
                 verts=geometry['positions'] if geometry else accessor(p['attributes']['POSITION'])
                 world=[tuple(sum(m[k*4+j]*v[k] for k in range(3))+m[12+j] for j in range(3)) for v in verts]
                 ix=geometry['indices'] if geometry else [v[0] for v in accessor(p['indices'])] if 'indices' in p else list(range(len(verts)))
+                if mode==1:
+                    if len(ix)%2:raise ValueError('Incomplete line segment')
+                    for k in range(0,len(ix),2):
+                        a,b=[world[t] for t in ix[k:k+2]]
+                        lines.append(sum((a[j]-b[j])**2 for j in range(3)))
+                    continue
                 for k in range(0,len(ix),3):
                     a,b,c=[world[t] for t in ix[k:k+3]]
                     edges=sorted(sum((v[j]-w[j])**2 for j in range(3)) for v,w in [(a,b),(b,c),(c,a)])
@@ -48,6 +57,10 @@ def fingerprint(data,decoded=None):
     for n in roots:walk(n,I)
     if not triangles:raise ValueError('No triangles')
     largest=max(t[2] for t in triangles)
+    if lines:largest=max(largest,max(lines))
     if not largest:raise ValueError('Zero geometry')
     rounded=sorted(tuple(round(e/largest*1e6) for e in t) for t in triangles)
+    if lines:
+        signature={'triangles':rounded,'lines':sorted(round(e/largest*1e6) for e in lines)}
+        return {'method':'triangle-and-line-distribution-v1','sha256':hashlib.sha256(json.dumps(signature,separators=(',',':')).encode()).hexdigest(),'triangles':len(triangles),'lines':len(lines)}
     return {'method':'triangle-edge-distribution-v1','sha256':hashlib.sha256(json.dumps(rounded,separators=(',',':')).encode()).hexdigest(),'triangles':len(triangles)}

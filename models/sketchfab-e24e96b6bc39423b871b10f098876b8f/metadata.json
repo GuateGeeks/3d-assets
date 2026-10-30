@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-e24e96b6bc39423b871b10f098876b8f",
+  "assetId": "sketchfab:e24e96b6bc39423b871b10f098876b8f",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Mano: esqueleto y piel",
+  "titleOriginal": "Hand Skeleton&Skin",
+  "author": "1225659838@qq.com",
+  "authorUrl": "https://sketchfab.com/Novaky",
+  "sourceUrl": "https://sketchfab.com/3d-models/e24e96b6bc39423b871b10f098876b8f",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/e24e96b6bc39423b871b10f098876b8f",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/e24e96b6bc39423b871b10f098876b8f/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para hand skeleton. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Hand Skeleton&Skin",
+    "sketchfab-edu-hand-skeleton"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Hand Skeleton&Skin\", por 1225659838@qq.com / Sketchfab. https://sketchfab.com/3d-models/e24e96b6bc39423b871b10f098876b8f. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-e24e96b6bc39423b871b10f098876b8f/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-e24e96b6bc39423b871b10f098876b8f/metadata.json",
+  "originalDownload": "models/sketchfab-e24e96b6bc39423b871b10f098876b8f/originals.zip",
+  "bytes": 777960,
+  "sha256": "3316e44917764547de441cbceb6f977af64b71aa2433f1ee5b354fdb23e31947",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 4,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:42.898212+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-e24e96b6bc39423b871b10f098876b8f/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/e24e96b6bc39423b871b10f098876b8f/download",
+        "bytes": 777960,
+        "sha256": "3316e44917764547de441cbceb6f977af64b71aa2433f1ee5b354fdb23e31947"
+      }
+    ],
+    "originalDownloadSha256": "0aeeb94717e49ce8acc512c810f2925b33f642e58a6ee7ad7531c076faa770b5",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      12.48505973815918,
+      2.191239356994629,
+      9.413869857788086
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-e24e96b6bc39423b871b10f098876b8f/license-evidence.json",
+    "licenseEvidenceSha256": "96498341fd287ac150df1b5c4272c34d9ac33fdf0b518f35c43beb86a213d78a",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-e24e96b6bc39423b871b10f098876b8f/metadata.json",
+    "metadataEvidenceSha256": "af75304f05fd5f506fe61dcf75327e8bf34fded869c387123588e82bc4e999da",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-e24e96b6bc39423b871b10f098876b8f/technical-review.json",
+    "technicalReviewEvidenceSha256": "d66630c741e7f63e522dc82f024e10e78a9cc183ae4d3208515c665e68c80540",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "5c979e1a8173ad5f8f6788459a2ec87555bd15a36e567531db35779058c52a79",
+      "triangles": 30304
+    }
+  }
+}

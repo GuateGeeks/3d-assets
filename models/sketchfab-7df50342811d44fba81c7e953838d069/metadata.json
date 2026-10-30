@@ -1,0 +1,112 @@
+{
+  "id": "sketchfab-7df50342811d44fba81c7e953838d069",
+  "assetId": "sketchfab:7df50342811d44fba81c7e953838d069",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Antena parabólica: estructura",
+  "titleOriginal": "Satellite Dish",
+  "author": "MRowa",
+  "authorUrl": "https://sketchfab.com/MRowa",
+  "sourceUrl": "https://sketchfab.com/3d-models/7df50342811d44fba81c7e953838d069",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/7df50342811d44fba81c7e953838d069",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/7df50342811d44fba81c7e953838d069/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para satellite. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Satellite Dish",
+    "sketchfab-edu-satellite"
+  ],
+  "areas": [
+    "computacion-redes"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC-BY-SA 4.0",
+  "license": {
+    "id": "CC-BY-SA-4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": true
+  },
+  "attribution": "\"Satellite Dish\", por MRowa / Sketchfab. https://sketchfab.com/3d-models/7df50342811d44fba81c7e953838d069. CC-BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-7df50342811d44fba81c7e953838d069/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-7df50342811d44fba81c7e953838d069/metadata.json",
+  "originalDownload": "models/sketchfab-7df50342811d44fba81c7e953838d069/originals.zip",
+  "bytes": 912576,
+  "sha256": "e1b21abab07802a148312f44ba127ac9d213088b8d2b7c6b3127877ec9f699d2",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 13,
+    "nodes": 30,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.097837+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-7df50342811d44fba81c7e953838d069/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/7df50342811d44fba81c7e953838d069/download",
+        "bytes": 912576,
+        "sha256": "e1b21abab07802a148312f44ba127ac9d213088b8d2b7c6b3127877ec9f699d2"
+      }
+    ],
+    "originalDownloadSha256": "07afd1e0f6574bcc122bb2f32cf6bf6b061a0acf8cd99c036ad65483d7690b2f",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      6769.595703125,
+      5824.1611328125,
+      6818.96142578125
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-7df50342811d44fba81c7e953838d069/license-evidence.json",
+    "licenseEvidenceSha256": "7d8cb50e4b82ec8a6ff0deb1bdcbc1052480a4537a3fd5d3dfb69c8088ca3528",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-7df50342811d44fba81c7e953838d069/metadata.json",
+    "metadataEvidenceSha256": "9fa26609d7aaffbfdad9f2d81fff3fcf7896459f07a70c11efc35fd27882bb29",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-7df50342811d44fba81c7e953838d069/technical-review.json",
+    "technicalReviewEvidenceSha256": "819ddc9c8c61310b080d557c86e8b970eac0435c898b29fa98a1a709495b7ed4",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "3ddb1642c7fcf6e51f959b0f5a1eea17aeafc019a62acaeb60c0c08ff6881750",
+      "triangles": 11802
+    }
+  }
+}

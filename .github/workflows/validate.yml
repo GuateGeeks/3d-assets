@@ -20,6 +20,9 @@ jobs:
         run: |
           node --check gallery/app.js
           node --check gallery/lab.js
+          node --test tests/gallery_selection.test.cjs
+      - name: Test reference rights and family preservation
+        run: python -m unittest discover -s tools -p test_reference_policies.py -v
       - name: Build static site
         run: python tools/build_site.py
       - name: Verify models, credits, thumbnails and publication paths

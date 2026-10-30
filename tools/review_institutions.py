@@ -74,16 +74,19 @@ def render(path, azimuth=35, elevation=25, wire=False):
     scene.render.resolution_percentage = 100
     scene.render.image_settings.file_format = 'PNG'
     scene.render.film_transparent = False
-    scene.view_settings.view_transform = 'Standard'
+    scene.view_settings.view_transform = 'AgX' if '--calibrated-lighting' in sys.argv else 'Standard'
     world = bpy.data.worlds.new('ReviewWorld')
     world.use_nodes = True
     world.node_tree.nodes['Background'].inputs[0].default_value = (.94, .93, .91, 1)
     world.node_tree.nodes['Background'].inputs[1].default_value = .7
+    if '--calibrated-lighting' in sys.argv:
+        world.node_tree.nodes['Background'].inputs[1].default_value = .35
     scene.world = world
     created = []
     for name, offset, power in [('Key', (2, -3, 4), 450), ('Fill', (-3, -1, 2), 250)]:
         data = bpy.data.lights.new(name, 'AREA')
-        data.energy, data.shape, data.size = power * extent * extent, 'DISK', extent * 3
+        factor = .35 if '--calibrated-lighting' in sys.argv else 1
+        data.energy, data.shape, data.size = factor * power * extent * extent, 'DISK', extent * 3
         obj = bpy.data.objects.new(name, data)
         scene.collection.objects.link(obj)
         obj.location = center + Vector(offset) * extent
@@ -178,7 +181,8 @@ for item in acquired['items']:
                      reimport=reopened, dimensionTolerance=tolerance,
                      importerHelpersExcluded={'source': excluded_source, 'reimport': excluded_reimport},
                      images={p.name: sha(p) for p in folder.glob('*.png')},
-                     technical='PASS', visual='NOT_RUN')
+                     technical='PASS', visual='NOT_RUN',
+                     reviewLighting='AgX, reduced exposure lights' if '--calibrated-lighting' in sys.argv else 'Standard')
         (folder / 'review.json').write_text(json.dumps(stats, indent=2) + '\n', encoding='utf-8')
         print('REFERENCE_REVIEW', item['id'], flush=True)
     except Exception as error:

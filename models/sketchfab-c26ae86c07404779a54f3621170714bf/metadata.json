@@ -1,0 +1,116 @@
+{
+  "id": "sketchfab-c26ae86c07404779a54f3621170714bf",
+  "assetId": "sketchfab:c26ae86c07404779a54f3621170714bf",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Luna creciente con rostro (fantasía)",
+  "titleOriginal": "MOON model",
+  "author": "CookieDough",
+  "authorUrl": "https://sketchfab.com/CookieDough",
+  "sourceUrl": "https://sketchfab.com/3d-models/c26ae86c07404779a54f3621170714bf",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/c26ae86c07404779a54f3621170714bf",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/c26ae86c07404779a54f3621170714bf/download",
+  "thumbnailUrl": null,
+  "description": "Luna antropomorfa de fantasía para narración. No representa la superficie ni la forma astronómica de la Luna. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "MOON model",
+    "sketchfab-edu-moon"
+  ],
+  "areas": [
+    "personajes-animacion",
+    "arte-musica"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"MOON model\", por CookieDough / Sketchfab. https://sketchfab.com/3d-models/c26ae86c07404779a54f3621170714bf. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-c26ae86c07404779a54f3621170714bf/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-c26ae86c07404779a54f3621170714bf/metadata.json",
+  "originalDownload": "models/sketchfab-c26ae86c07404779a54f3621170714bf/originals.zip",
+  "bytes": 327224,
+  "sha256": "00bdc50c04ddc2779a4634ccbf6571609607570b843c9adce81dc530049eb11a",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 3,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:42.829131+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-c26ae86c07404779a54f3621170714bf/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/c26ae86c07404779a54f3621170714bf/download",
+        "bytes": 327224,
+        "sha256": "00bdc50c04ddc2779a4634ccbf6571609607570b843c9adce81dc530049eb11a"
+      }
+    ],
+    "originalDownloadSha256": "b925a5e44b28474943de7b367027550a3988f51a343b356d74f017440d9626cf",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      5.900001525878906,
+      2.5094594955444336,
+      8.730979919433594
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-c26ae86c07404779a54f3621170714bf/license-evidence.json",
+    "licenseEvidenceSha256": "8922142ebd51f595e500046430c22db75d835678963fcdee107f6ba10d3acaef",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-c26ae86c07404779a54f3621170714bf/metadata.json",
+    "metadataEvidenceSha256": "313947426e67bc41a500dfee32d04bc6b231924f572784c803b9acc8c6893f2c",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-c26ae86c07404779a54f3621170714bf/technical-review.json",
+    "technicalReviewEvidenceSha256": "343758e26a4bf08221cb55aad84f8bfd66239cd3cd0247b6be6ab164b98562d7",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "da7110928fc03eac7b674138fe2d6e4500a48872210b1040c52b1dcbed5e707d",
+      "triangles": 11448
+    }
+  }
+}

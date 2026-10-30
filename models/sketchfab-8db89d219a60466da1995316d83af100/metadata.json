@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-8db89d219a60466da1995316d83af100",
+  "assetId": "sketchfab:8db89d219a60466da1995316d83af100",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Semáforo",
+  "titleOriginal": "Traffic Light (Low Poly)",
+  "author": "game_travel",
+  "authorUrl": "https://sketchfab.com/game_travel",
+  "sourceUrl": "https://sketchfab.com/3d-models/8db89d219a60466da1995316d83af100",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/8db89d219a60466da1995316d83af100",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/8db89d219a60466da1995316d83af100/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para traffic light. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Traffic Light (Low Poly)",
+    "sketchfab-edu-traffic-light"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Traffic Light (Low Poly)\", por game_travel / Sketchfab. https://sketchfab.com/3d-models/8db89d219a60466da1995316d83af100. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-8db89d219a60466da1995316d83af100/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-8db89d219a60466da1995316d83af100/metadata.json",
+  "originalDownload": "models/sketchfab-8db89d219a60466da1995316d83af100/originals.zip",
+  "bytes": 224428,
+  "sha256": "461fa817b33c68e333efbbe44847bea0dff4681f04f0b23c0d9dd51adf43b0ab",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 3,
+    "nodes": 10,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.204148+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-8db89d219a60466da1995316d83af100/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/8db89d219a60466da1995316d83af100/download",
+        "bytes": 224428,
+        "sha256": "461fa817b33c68e333efbbe44847bea0dff4681f04f0b23c0d9dd51adf43b0ab"
+      }
+    ],
+    "originalDownloadSha256": "a159a5cdbf512cd3ca764079e080ba9417ff157d895bb1421d8c72604b056b14",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      4.101679801940918,
+      0.8803200721740723,
+      6.578451156616211
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-8db89d219a60466da1995316d83af100/license-evidence.json",
+    "licenseEvidenceSha256": "1eb7457e82ee91f6a069112ba45a6fa78619d46b9b0183889b064ca888b276ef",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-8db89d219a60466da1995316d83af100/metadata.json",
+    "metadataEvidenceSha256": "2858426d399dde73f0b59a3044d5212b09bebe1d15e37245c570e30257b3b6a4",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-8db89d219a60466da1995316d83af100/technical-review.json",
+    "technicalReviewEvidenceSha256": "0cbad70fe849145416418a157725e76a1750a13423e9fed551db63bfe46c3e2c",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "0e15f8496db2abf460cfe6bdcc049e6e53b6b0675d5c3c657f43ffd9bd092d61",
+      "triangles": 4128
+    }
+  }
+}

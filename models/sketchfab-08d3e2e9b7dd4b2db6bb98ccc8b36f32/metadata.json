@@ -1,0 +1,120 @@
+{
+  "id": "sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32",
+  "assetId": "sketchfab:08d3e2e9b7dd4b2db6bb98ccc8b36f32",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Brazo robótico animado",
+  "titleOriginal": "Low Poly Robot Arm / Animated",
+  "author": "Myjato",
+  "authorUrl": "https://sketchfab.com/Myjato",
+  "sourceUrl": "https://sketchfab.com/3d-models/08d3e2e9b7dd4b2db6bb98ccc8b36f32",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/08d3e2e9b7dd4b2db6bb98ccc8b36f32",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/08d3e2e9b7dd4b2db6bb98ccc8b36f32/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para animated robot. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Low Poly Robot Arm / Animated",
+    "sketchfab-edu-animated-robot"
+  ],
+  "areas": [
+    "personajes-animacion",
+    "robotica-electronica"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Low Poly Robot Arm / Animated\", por Myjato / Sketchfab. https://sketchfab.com/3d-models/08d3e2e9b7dd4b2db6bb98ccc8b36f32. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32/metadata.json",
+  "originalDownload": "models/sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32/originals.zip",
+  "bytes": 161868,
+  "sha256": "05abaed54f4d1ae00ed5ef3d9dd86df44e2de01e9f4386c04cd15e09b5e59fa6",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 17,
+    "nodes": 83,
+    "materials": 2,
+    "skins": 1,
+    "joints": 8,
+    "rigged": true,
+    "animated": true,
+    "animations": 1,
+    "animationNames": [
+      "Take 001"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:42.663575+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/08d3e2e9b7dd4b2db6bb98ccc8b36f32/download",
+        "bytes": 161868,
+        "sha256": "05abaed54f4d1ae00ed5ef3d9dd86df44e2de01e9f4386c04cd15e09b5e59fa6"
+      }
+    ],
+    "originalDownloadSha256": "a729c6b12c01d49a2d3a28843da558235fd21682ad2c45539f1086fdf5b4b5ee",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.02407842129468918,
+      0.03551267459988594,
+      0.035372234880924225
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32/license-evidence.json",
+    "licenseEvidenceSha256": "f7c21e286f63f5dec5293a335a37b1505d29d8638e524826e4ac55502fe9ec49",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32/metadata.json",
+    "metadataEvidenceSha256": "f0232adcd1d01d6885e7dafd8d19136519fba09b05f81586526838d4d66e6b5c",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32/technical-review.json",
+    "technicalReviewEvidenceSha256": "e3a21c4b17ebb5bddde3e9adc4478c4664bcb5f5885fcd503444e2e460a24c6b",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "21ad4ab6cd28cacfc611ae8720a56c6764ca3f06b97c0a2c395e403b5345558b",
+      "triangles": 2058
+    }
+  }
+}

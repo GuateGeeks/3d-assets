@@ -1,6 +1,6 @@
 # Laboratorio e investigación
 
-21 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+26 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -24,4 +24,9 @@
 | [Binoculares antiguos](https://polyhaven.com/a/vintage_binocular) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Luke | [GLB](../../models/polyhaven-vintage-binocular/model.glb) | 0 / 0 |
 | [Microscopio antiguo](https://polyhaven.com/a/vintage_microscope) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Luis José Fernández Rodríguez | [GLB](../../models/polyhaven-vintage-microscope/model.glb) | 0 / 0 |
 | [Microscope](https://poly.pizza/m/q9zNs4U5NG) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Username12 | [GLB](../../models/q9zNs4U5NG/model.glb) | 0 / 0 |
+| [Imán](https://sketchfab.com/3d-models/14f17cd9b48f4fe89aea6e69f80980d2) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | aidanp | [GLB](../../models/sketchfab-14f17cd9b48f4fe89aea6e69f80980d2/model.glb) | 0 / 0 |
+| [Lupa](https://sketchfab.com/3d-models/5a83a0f4018542d1afd69725ae9d80c8) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Simon Mulrennan | [GLB](../../models/sketchfab-5a83a0f4018542d1afd69725ae9d80c8/model.glb) | 0 / 0 |
+| [Matraz Erlenmeyer](https://sketchfab.com/3d-models/d05cd9f3d4d940e0b298f5cb1895f913) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Phillip Stephens | [GLB](../../models/sketchfab-d05cd9f3d4d940e0b298f5cb1895f913/model.glb) | 0 / 0 |
+| [Microscopio](https://sketchfab.com/3d-models/dd9e73d51edb43198bd40d0bbd2dd54e) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | lionclaw0612 | [GLB](../../models/sketchfab-dd9e73d51edb43198bd40d0bbd2dd54e/model.glb) | 0 / 0 |
+| [Tubo de ensayo con tapón](https://sketchfab.com/3d-models/f933e29ea9114b0cbcd8bec005833f5a) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Smoothie 3D | [GLB](../../models/sketchfab-f933e29ea9114b0cbcd8bec005833f5a/model.glb) | 0 / 0 |
 | [Bobina de inducción Page](https://3d.si.edu/object/3d/40cf5b52-0b21-4063-95fc-aa07998eb4dd) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / National Museum of American History | [GLB](../../models/smithsonian-induction-coils/model.glb) | 0 / 0 |

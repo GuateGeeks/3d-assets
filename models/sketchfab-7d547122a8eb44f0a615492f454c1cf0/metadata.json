@@ -1,0 +1,115 @@
+{
+  "id": "sketchfab-7d547122a8eb44f0a615492f454c1cf0",
+  "assetId": "sketchfab:7d547122a8eb44f0a615492f454c1cf0",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Área de juegos",
+  "titleOriginal": "Playground",
+  "author": "theJamieAnne",
+  "authorUrl": "https://sketchfab.com/theJamieAnne",
+  "sourceUrl": "https://sketchfab.com/3d-models/7d547122a8eb44f0a615492f454c1cf0",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/7d547122a8eb44f0a615492f454c1cf0",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/7d547122a8eb44f0a615492f454c1cf0/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para playground. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Playground",
+    "sketchfab-edu-playground"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "licenseRaw": "CC-BY-NC 4.0",
+  "license": {
+    "id": "CC-BY-NC-4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "attributionRequired": true,
+    "commercialUse": false,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Playground\", por theJamieAnne / Sketchfab. https://sketchfab.com/3d-models/7d547122a8eb44f0a615492f454c1cf0. CC-BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-7d547122a8eb44f0a615492f454c1cf0/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-7d547122a8eb44f0a615492f454c1cf0/metadata.json",
+  "originalDownload": "models/sketchfab-7d547122a8eb44f0a615492f454c1cf0/originals.zip",
+  "bytes": 1345536,
+  "sha256": "3f8a657850e17de9b7ccbade6f62ad148b7ccba408c1880c0e26ec321277548e",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 109,
+    "nodes": 233,
+    "materials": 10,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": [
+      "KHR_materials_pbrSpecularGlossiness"
+    ]
+  },
+  "retrievedAt": "2026-10-30T05:03:43.395502+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review",
+    "noncommercial-license"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-7d547122a8eb44f0a615492f454c1cf0/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/7d547122a8eb44f0a615492f454c1cf0/download",
+        "bytes": 1345536,
+        "sha256": "3f8a657850e17de9b7ccbade6f62ad148b7ccba408c1880c0e26ec321277548e"
+      }
+    ],
+    "originalDownloadSha256": "a86415b068da1b403743dc47f27cd1ea2dc1f62c99bb8812d97b0f16efe1aebb",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      5.6061601638793945,
+      5.397918224334717,
+      3.4333343505859375
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-7d547122a8eb44f0a615492f454c1cf0/license-evidence.json",
+    "licenseEvidenceSha256": "9ee91d5c5c74649296adf28234da67b6294d44aa66078a278bfc13bda4b25a91",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-7d547122a8eb44f0a615492f454c1cf0/metadata.json",
+    "metadataEvidenceSha256": "c508e2b8ea8e8d855c8894b4be7f9262a51a411e0ecf4b13526e7545a5f81d20",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-7d547122a8eb44f0a615492f454c1cf0/technical-review.json",
+    "technicalReviewEvidenceSha256": "e3c4ede8ebe8d75f19c4487ea2735ea9f00908e08285414212655f63b6b182bf",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "148ab33dcbe706f5260c3ff43090d8e4bc0e18aaad24b4f97fcf8b3600f76f1b",
+      "triangles": 34960
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Transporte y movilidad
 
-18 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+21 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -22,3 +22,6 @@
 | [Motorcycle](https://poly.pizza/m/dse64pqMKAR) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/dse64pqMKAR/model.glb) | 0 / 0 |
 | [Montreal Bus](https://poly.pizza/m/fFCCghvRImG) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Nick Ladd | [GLB](../../models/fFCCghvRImG/model.glb) | 0 / 0 |
 | [Train](https://poly.pizza/m/fm-ioGYuEhx) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/fm-ioGYuEhx/model.glb) | 0 / 0 |
+| [Autobuses de ciudad estilizados](https://sketchfab.com/3d-models/08ad831c653b4a54b4d3d96daf07b7d6) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Apokalips123 | [GLB](../../models/sketchfab-08ad831c653b4a54b4d3d96daf07b7d6/model.glb) | 0 / 0 |
+| [Bicicleta](https://sketchfab.com/3d-models/5539b4d5610b4f53858b88daa4f9a749) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Justiinsa | [GLB](../../models/sketchfab-5539b4d5610b4f53858b88daa4f9a749/model.glb) | 0 / 0 |
+| [Avión](https://sketchfab.com/3d-models/628232dd846249f6a89ed3fb2e1cd4f5) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Omar_Mohamed | [GLB](../../models/sketchfab-628232dd846249f6a89ed3fb2e1cd4f5/model.glb) | 0 / 8 |

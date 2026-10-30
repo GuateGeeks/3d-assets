@@ -1,0 +1,115 @@
+{
+  "id": "sketchfab-64adc2e5a4be471e8279532b9610c878",
+  "assetId": "sketchfab:64adc2e5a4be471e8279532b9610c878",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Pez animado de baja poligonización",
+  "titleOriginal": "Animated Low poly Fish",
+  "author": "Atlas",
+  "authorUrl": "https://sketchfab.com/Atlasmodels",
+  "sourceUrl": "https://sketchfab.com/3d-models/64adc2e5a4be471e8279532b9610c878",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/64adc2e5a4be471e8279532b9610c878",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/64adc2e5a4be471e8279532b9610c878/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para fish. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Animated Low poly Fish",
+    "sketchfab-edu-fish"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Animated Low poly Fish\", por Atlas / Sketchfab. https://sketchfab.com/3d-models/64adc2e5a4be471e8279532b9610c878. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-64adc2e5a4be471e8279532b9610c878/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-64adc2e5a4be471e8279532b9610c878/metadata.json",
+  "originalDownload": "models/sketchfab-64adc2e5a4be471e8279532b9610c878/originals.zip",
+  "bytes": 98184,
+  "sha256": "5c74dedda5054db20d7f219d63e53018d6298a231decc221edf71d6feb35dcb2",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 12,
+    "materials": 1,
+    "skins": 1,
+    "joints": 5,
+    "rigged": true,
+    "animated": true,
+    "animations": 1,
+    "animationNames": [
+      "ArmatureAction"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:42.751584+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-64adc2e5a4be471e8279532b9610c878/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/64adc2e5a4be471e8279532b9610c878/download",
+        "bytes": 98184,
+        "sha256": "5c74dedda5054db20d7f219d63e53018d6298a231decc221edf71d6feb35dcb2"
+      }
+    ],
+    "originalDownloadSha256": "5c6d6b92043f21ab74492bfa25afc75b89570713ce42d6ccffe4c4d04189e5a9",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      1.5772526264190674,
+      1.2578696012496948,
+      0.8576228618621826
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-64adc2e5a4be471e8279532b9610c878/license-evidence.json",
+    "licenseEvidenceSha256": "4d910b14f9234f98186a4fa05c0288fdc78e1d49aa4eaf7eb2c881ed862f1c40",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-64adc2e5a4be471e8279532b9610c878/metadata.json",
+    "metadataEvidenceSha256": "5962e6e6348e4b03a0aeda1ef2e0d063ade25f9c54a3080a3c44c741aa04324a",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-64adc2e5a4be471e8279532b9610c878/technical-review.json",
+    "technicalReviewEvidenceSha256": "24ea044996d040aefea75bc5cd9a8e58ddf43e016864ae05e6b35676b801299f",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "a0f7c4ce2c9bcf52f4c1310352d43587a32ab7ef21ad1145c76988772a303437",
+      "triangles": 534
+    }
+  }
+}

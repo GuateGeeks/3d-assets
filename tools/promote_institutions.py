@@ -9,6 +9,25 @@ from acquire_institutions import ROOT, read, save, sha
 from catalog import inspect, license_info
 
 
+def merge_groups(existing, incoming):
+    result = copy.deepcopy(existing)
+    result.setdefault('schemaVersion', 1)
+    groups = {group['id']: group for group in result.setdefault('groups', [])}
+    for group in incoming.get('groups', []):
+        if group['id'] in groups:
+            old = groups[group['id']]
+            old['modelIds'] = list(dict.fromkeys(old['modelIds'] + group['modelIds']))
+        else:
+            addition = copy.deepcopy(group)
+            result['groups'].append(addition)
+            groups[group['id']] = addition
+    aliases = result.setdefault('aliases', [])
+    for alias in incoming.get('aliases', []):
+        if alias not in aliases:
+            aliases.append(copy.deepcopy(alias))
+    return result
+
+
 def promote(run):
     from PIL import Image
     acquisition = read(run / 'acquisition.json')
@@ -174,7 +193,9 @@ def promote(run):
                                            'origin': 'Own CPU render of native GLB; same model license and credit'})
         added.append(mid)
     save(ROOT / 'gallery/dependencies.json', dependencies)
-    save(ROOT / 'groups/institutions.json', {'schemaVersion': 1, 'groups': list(groups.values()), 'aliases': aliases})
+    group_path = ROOT / 'groups/institutions.json'
+    existing = read(group_path) if group_path.exists() else {'schemaVersion': 1, 'groups': [], 'aliases': []}
+    save(group_path, merge_groups(existing, {'groups': list(groups.values()), 'aliases': aliases}))
     save(evidence / 'promotion.json', {'added': added, 'aliases': aliases, 'baselineModels': duplicate['baselineModels'],
                                       'nativeBytesUnchanged': True, 'educationalReview': 'NOT_RUN'})
     print('PROMOTED', len(added), 'ALIASES', len(aliases))

@@ -1,0 +1,115 @@
+{
+  "id": "sketchfab-dd826f1f05c544ccb671949ebca59721",
+  "assetId": "sketchfab:dd826f1f05c544ccb671949ebca59721",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Montaña",
+  "titleOriginal": "Great Mountain",
+  "author": "Gesy",
+  "authorUrl": "https://sketchfab.com/mrgesy",
+  "sourceUrl": "https://sketchfab.com/3d-models/dd826f1f05c544ccb671949ebca59721",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/dd826f1f05c544ccb671949ebca59721",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/dd826f1f05c544ccb671949ebca59721/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para mountain. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Great Mountain",
+    "sketchfab-edu-mountain"
+  ],
+  "areas": [
+    "tierra-geografia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Great Mountain\", por Gesy / Sketchfab. https://sketchfab.com/3d-models/dd826f1f05c544ccb671949ebca59721. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-dd826f1f05c544ccb671949ebca59721/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-dd826f1f05c544ccb671949ebca59721/metadata.json",
+  "originalDownload": "models/sketchfab-dd826f1f05c544ccb671949ebca59721/originals.zip",
+  "bytes": 2800452,
+  "sha256": "74e2d3c9e833eeaf2ab51aab8ceea45cf8ba070f7eb7202d22f5467061c17e15",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 3,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": [
+      "KHR_materials_pbrSpecularGlossiness"
+    ]
+  },
+  "retrievedAt": "2026-10-30T05:03:42.794594+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-dd826f1f05c544ccb671949ebca59721/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/dd826f1f05c544ccb671949ebca59721/download",
+        "bytes": 2800452,
+        "sha256": "74e2d3c9e833eeaf2ab51aab8ceea45cf8ba070f7eb7202d22f5467061c17e15"
+      }
+    ],
+    "originalDownloadSha256": "4f71ed98b1eb26ef5165debee439e14e3de4282bec115e6cd5df87c5bd166856",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      4965.2314453125,
+      4965.2314453125,
+      1255.04736328125
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-dd826f1f05c544ccb671949ebca59721/license-evidence.json",
+    "licenseEvidenceSha256": "981da38799b31fd417ddfa2bfdbb5149c4c3151629305605007b8e452d977de5",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-dd826f1f05c544ccb671949ebca59721/metadata.json",
+    "metadataEvidenceSha256": "e8067af786e77380cb9c53d563ef8c89ac83de52ae733daf8c281f5c21ea5480",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-dd826f1f05c544ccb671949ebca59721/technical-review.json",
+    "technicalReviewEvidenceSha256": "22d76a9effef17feaa0a1255af2c15f12469916786e9f890524f4047b2f2f227",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "f5b39764696a1bc02352fc499c97f92821efe13abc5d8036397612aedf7f64e1",
+      "triangles": 78408
+    }
+  }
+}

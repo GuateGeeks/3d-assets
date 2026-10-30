@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-497ee275a25e4166b98c7be3105b4ad9",
+  "assetId": "sketchfab:497ee275a25e4166b98c7be3105b4ad9",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Protoboard para electrónica",
+  "titleOriginal": "Arduino Breadboard - Low poly",
+  "author": "Matys",
+  "authorUrl": "https://sketchfab.com/Matysino",
+  "sourceUrl": "https://sketchfab.com/3d-models/497ee275a25e4166b98c7be3105b4ad9",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/497ee275a25e4166b98c7be3105b4ad9",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/497ee275a25e4166b98c7be3105b4ad9/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para arduino. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Arduino Breadboard - Low poly",
+    "sketchfab-edu-breadboard"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Arduino Breadboard - Low poly\", por Matys / Sketchfab. https://sketchfab.com/3d-models/497ee275a25e4166b98c7be3105b4ad9. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-497ee275a25e4166b98c7be3105b4ad9/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-497ee275a25e4166b98c7be3105b4ad9/metadata.json",
+  "originalDownload": "models/sketchfab-497ee275a25e4166b98c7be3105b4ad9/originals.zip",
+  "bytes": 184552,
+  "sha256": "5df8082fe40a8b44baa1f7e65f384373245e96693b51d39d34703af1a3a9e365",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 5,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.010054+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-497ee275a25e4166b98c7be3105b4ad9/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/497ee275a25e4166b98c7be3105b4ad9/download",
+        "bytes": 184552,
+        "sha256": "5df8082fe40a8b44baa1f7e65f384373245e96693b51d39d34703af1a3a9e365"
+      }
+    ],
+    "originalDownloadSha256": "19f0f4cf11fe070ac401d13a96af598baaa36e4d1c7bc0847baed51dde99db9f",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      1624.859130859375,
+      549.2916259765625,
+      96.41706848144531
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-497ee275a25e4166b98c7be3105b4ad9/license-evidence.json",
+    "licenseEvidenceSha256": "c5b72ab881c4fb8578dcf3a905074b350de77122762831f0f317a480cb64c778",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-497ee275a25e4166b98c7be3105b4ad9/metadata.json",
+    "metadataEvidenceSha256": "85f6069aefd94635078c9b84546c6fa7cdf066522027ef068f91bf2f17124115",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-497ee275a25e4166b98c7be3105b4ad9/technical-review.json",
+    "technicalReviewEvidenceSha256": "9a91c5dbecda64ef971c7530c4b9dbdd28be6de2b88661bce4c091735c0f7296",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "5fd4464b7715316af0a0c2fe084bda9403eb89929c5091c54634c5ee3f5e300c",
+      "triangles": 12
+    }
+  }
+}

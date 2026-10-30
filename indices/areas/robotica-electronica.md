@@ -1,6 +1,6 @@
 # Robótica y electrónica STEAM
 
-29 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+34 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -33,3 +33,8 @@
 | [Bombilla incandescente](https://polyhaven.com/a/lightbulb_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Josh Dean | [GLB](../../models/polyhaven-lightbulb-01/model.glb) | 0 / 0 |
 | [Bombilla LED](https://polyhaven.com/a/lightbulb_led) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Josh Dean | [GLB](../../models/polyhaven-lightbulb-led/model.glb) | 0 / 0 |
 | [Multímetro analógico](https://polyhaven.com/a/retro_multimeter) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | elli moeller | [GLB](../../models/polyhaven-retro-multimeter/model.glb) | 0 / 0 |
+| [Motor eléctrico](https://sketchfab.com/3d-models/048b9dc3095e44c0883b6b7944ad4916) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Scarecrow_original | [GLB](../../models/sketchfab-048b9dc3095e44c0883b6b7944ad4916/model.glb) | 0 / 0 |
+| [Brazo robótico animado](https://sketchfab.com/3d-models/08d3e2e9b7dd4b2db6bb98ccc8b36f32) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Myjato | [GLB](../../models/sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32/model.glb) | 1 / 1 |
+| [Interruptor de luz sencillo](https://sketchfab.com/3d-models/32d02fa06d474f4db5a433aa134be612) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | BillieBones | [GLB](../../models/sketchfab-32d02fa06d474f4db5a433aa134be612/model.glb) | 0 / 0 |
+| [Protoboard para electrónica](https://sketchfab.com/3d-models/497ee275a25e4166b98c7be3105b4ad9) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Matys | [GLB](../../models/sketchfab-497ee275a25e4166b98c7be3105b4ad9/model.glb) | 0 / 0 |
+| [Dron de ciencia ficción](https://sketchfab.com/3d-models/ad0e1d85295847409e961de33c2ee0bf) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | ElliotGriffiths | [GLB](../../models/sketchfab-ad0e1d85295847409e961de33c2ee0bf/model.glb) | 0 / 0 |

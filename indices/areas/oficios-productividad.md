@@ -1,6 +1,6 @@
 # Oficios, herramientas y productividad
 
-23 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+29 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -27,3 +27,9 @@
 | [Pala de jardinería](https://polyhaven.com/a/rusted_spade_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Blemonade | [GLB](../../models/polyhaven-rusted-spade-01/model.glb) | 0 / 0 |
 | [Palita de jardinería](https://polyhaven.com/a/trowel_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-trowel-01/model.glb) | 0 / 0 |
 | [Hand Saw](https://poly.pizza/m/rbZHkFchEk) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | CreativeTrio | [GLB](../../models/rbZHkFchEk/model.glb) | 0 / 0 |
+| [Martillo](https://sketchfab.com/3d-models/2c63eb21f4ed436a8424da6f1e1cd479) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | FXbuterfly | [GLB](../../models/sketchfab-2c63eb21f4ed436a8424da6f1e1cd479/model.glb) | 0 / 0 |
+| [Sierra de disco estilizada](https://sketchfab.com/3d-models/2f707919a3164f1ab3f2c5da6a07fb5d) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | tomkranis | [GLB](../../models/sketchfab-2f707919a3164f1ab3f2c5da6a07fb5d/model.glb) | 0 / 0 |
+| [Tienda](https://sketchfab.com/3d-models/5121e71e25dd4605879441c7e8f4c805) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | alexandr.s.rudenko | [GLB](../../models/sketchfab-5121e71e25dd4605879441c7e8f4c805/model.glb) | 0 / 0 |
+| [Taller de alfarería con horno](https://sketchfab.com/3d-models/7eb1e12bf7f2444d8daa219f2443ab6c) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Dante Deketele | [GLB](../../models/sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c/model.glb) | 0 / 0 |
+| [Llave de caja](https://sketchfab.com/3d-models/e64814cd71114a469fca8b6c12567fae) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | ROY | [GLB](../../models/sketchfab-e64814cd71114a469fca8b6c12567fae/model.glb) | 0 / 0 |
+| [Carretilla](https://sketchfab.com/3d-models/f2235c3149cd43bd981d433f172c3710) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | vikramgd | [GLB](../../models/sketchfab-f2235c3149cd43bd981d433f172c3710/model.glb) | 0 / 0 |

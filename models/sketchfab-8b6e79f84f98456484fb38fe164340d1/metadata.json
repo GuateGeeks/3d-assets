@@ -1,0 +1,119 @@
+{
+  "id": "sketchfab-8b6e79f84f98456484fb38fe164340d1",
+  "assetId": "sketchfab:8b6e79f84f98456484fb38fe164340d1",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Tapir estilizado de patrón blanco y negro",
+  "titleOriginal": "Tapir",
+  "author": "planeta-elefante",
+  "authorUrl": "https://sketchfab.com/planeta-elefante",
+  "sourceUrl": "https://sketchfab.com/3d-models/8b6e79f84f98456484fb38fe164340d1",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/8b6e79f84f98456484fb38fe164340d1",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/8b6e79f84f98456484fb38fe164340d1/download",
+  "thumbnailUrl": null,
+  "description": "Referencia de morfología animal; identificación de especie y procedencia geográfica pendientes de revisión. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Tapir",
+    "sketchfab-edu-tapir"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Tapir\", por planeta-elefante / Sketchfab. https://sketchfab.com/3d-models/8b6e79f84f98456484fb38fe164340d1. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-8b6e79f84f98456484fb38fe164340d1/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-8b6e79f84f98456484fb38fe164340d1/metadata.json",
+  "originalDownload": "models/sketchfab-8b6e79f84f98456484fb38fe164340d1/originals.zip",
+  "bytes": 787732,
+  "sha256": "87d7108730fd9749ab136615248d242cbd18a32dd08659232b49e5ca95318660",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 38,
+    "materials": 1,
+    "skins": 1,
+    "joints": 28,
+    "rigged": true,
+    "animated": true,
+    "animations": 6,
+    "animationNames": [
+      "idle1",
+      "idle2",
+      "walk",
+      "run",
+      "death",
+      "getHit"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.700993+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-8b6e79f84f98456484fb38fe164340d1/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/8b6e79f84f98456484fb38fe164340d1/download",
+        "bytes": 787732,
+        "sha256": "87d7108730fd9749ab136615248d242cbd18a32dd08659232b49e5ca95318660"
+      }
+    ],
+    "originalDownloadSha256": "ed99db484de9101b0b8925d02df990b196f0c8e40823d48dcce460e4a2487a60",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.00398632138967514,
+      0.012821752578020096,
+      0.006891142576932907
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-8b6e79f84f98456484fb38fe164340d1/license-evidence.json",
+    "licenseEvidenceSha256": "0624891db4c52f4297d471e54c3b0e66cbe06d355609c7821b01a0b89708e950",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-8b6e79f84f98456484fb38fe164340d1/metadata.json",
+    "metadataEvidenceSha256": "bf6dc3f403cdcad8559bb3b2a7b77ff54a9262839d59e321a7cccbd4f5262c01",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-8b6e79f84f98456484fb38fe164340d1/technical-review.json",
+    "technicalReviewEvidenceSha256": "2512f987c3ff0077066ca29d528a58dc6ed122f02cf00e7c4be44d77d22a9772",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "53459156f097ddd5c9a6824bf435db5bf735eee459b555683e2bbdd7bd3de75f",
+      "triangles": 1756
+    }
+  }
+}

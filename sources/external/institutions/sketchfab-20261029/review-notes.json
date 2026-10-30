@@ -1,0 +1,188 @@
+{
+  "hold": {
+    "sketchfab-18ba27a4a60b4b70be6d80234ae62413": "The native material renders as a flat white silhouette in source and reimport; insufficient visual readability for this selection.",
+    "sketchfab-d631da94d5c14b85b44d9a737fef883f": "Native asset is a collection of very small trees on a large ground plane; inadequate individual-tree framing in the gallery. Retained in private cache, not promoted.",
+    "sketchfab-bcee47f9119f46a1a758064690f21941": "Native materials render as a flat blue silhouette in source and reimport; insufficient plant readability.",
+    "sketchfab-d1c9637d62454d8e91a6cb17b536a4fd": "Native turbine is too small on a very large ground plane; source and reimport do not provide a readable gallery reference.",
+    "sketchfab-e34246f2fcdd4c81b0d982a2053b854c": "Native drum occupies a tiny part of very large source bounds; unreadable in automatic gallery framing."
+  },
+  "corrections": {
+    "sketchfab-e93a906eb38343c4a14458a637136329": {
+      "title": "Bandada de aves en vuelo"
+    },
+    "sketchfab-c26ae86c07404779a54f3621170714bf": {
+      "title": "Luna creciente con rostro (fantasía)",
+      "areas": [
+        "personajes-animacion",
+        "arte-musica"
+      ],
+      "reason": "Luna antropomorfa de fantasía para narración. No representa la superficie ni la forma astronómica de la Luna."
+    },
+    "sketchfab-d05cd9f3d4d940e0b298f5cb1895f913": {
+      "title": "Matraz Erlenmeyer",
+      "family": "sketchfab-edu-laboratory-glassware"
+    },
+    "sketchfab-f933e29ea9114b0cbcd8bec005833f5a": {
+      "title": "Tubo de ensayo con tapón"
+    },
+    "sketchfab-f9dbd4c34a4f4389bf3901527ecc89a0": {
+      "title": "Conjunto de hongos estilizados"
+    },
+    "sketchfab-92ed8116d60343a1b43d0f93d7175500": {
+      "title": "Aguacate y utensilios de preparación"
+    },
+    "sketchfab-1d790c7e712f4500b417e9c13639e79f": {
+      "title": "Sol y planetas: proporciones esquemáticas",
+      "reason": "Conjunto de cuerpos del sistema solar; el Sol domina el encuadre y los planetas requieren acercamiento. Proporciones, escala e identificación pendientes de revisión docente."
+    },
+    "sketchfab-792ee69625a04ed2ab52de807ca88077": {
+      "family": "solar-panels",
+      "areas": [
+        "ambiente-sostenibilidad",
+        "fisica-energia"
+      ]
+    },
+    "sketchfab-d1c9637d62454d8e91a6cb17b536a4fd": {
+      "family": "wind-turbines",
+      "areas": [
+        "fisica-energia",
+        "ambiente-sostenibilidad"
+      ]
+    },
+    "sketchfab-8c2273cb25154b50874739111aa51e8a": {
+      "title": "Caja de pizza",
+      "areas": [
+        "alimentos-agricultura",
+        "escuela-lenguaje"
+      ],
+      "reason": "Caja de pizza para vocabulario y escenas cotidianas. El modelo no representa porciones para medir fracciones."
+    },
+    "sketchfab-497ee275a25e4166b98c7be3105b4ad9": {
+      "title": "Protoboard para electrónica",
+      "family": "sketchfab-edu-breadboard"
+    },
+    "sketchfab-ad0e1d85295847409e961de33c2ee0bf": {
+      "title": "Dron de ciencia ficción"
+    },
+    "sketchfab-7df50342811d44fba81c7e953838d069": {
+      "title": "Antena parabólica: estructura"
+    },
+    "sketchfab-23b2d0e81d414836877c555e5b5fc18d": {
+      "title": "Radio con reloj digital"
+    },
+    "sketchfab-5030d74f8f954a3aace5bd1c3a5e9d65": {
+      "title": "Manzana de estilo voxel"
+    },
+    "sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c": {
+      "title": "Taller de alfarería con horno",
+      "areas": [
+        "historia-patrimonio",
+        "oficios-productividad"
+      ]
+    },
+    "sketchfab-2e0a99016e5a4ac5a9b56caf6a802b06": {
+      "title": "Pirámide de base cuadrada estilizada",
+      "areas": [
+        "historia-patrimonio",
+        "matematicas-medicion"
+      ]
+    },
+    "sketchfab-8b6e79f84f98456484fb38fe164340d1": {
+      "title": "Tapir estilizado de patrón blanco y negro",
+      "areas": [
+        "animales-biodiversidad"
+      ],
+      "reason": "Referencia de morfología animal; identificación de especie y procedencia geográfica pendientes de revisión."
+    },
+    "sketchfab-ed577ce3d4db49a283924c2ec27e65e8": {
+      "title": "Aerogenerador de tres palas",
+      "family": "wind-turbines",
+      "areas": [
+        "ambiente-sostenibilidad",
+        "fisica-energia"
+      ]
+    },
+    "sketchfab-a6cdadcf543b4214b85ecbb0e09a5af6": {
+      "title": "Banca de asientos para sala de espera",
+      "areas": [
+        "escenarios-videojuegos",
+        "comunidad-ciudadania"
+      ]
+    },
+    "sketchfab-2f707919a3164f1ab3f2c5da6a07fb5d": {
+      "title": "Sierra de disco estilizada"
+    },
+    "sketchfab-07b5bfaf6d5849d79a4d7ba256423c89": {
+      "areas": [
+        "guatemala-contexto",
+        "animales-biodiversidad"
+      ]
+    },
+    "sketchfab-9ee18ac16745473b8c002a5f4b98d8cd": {
+      "areas": [
+        "guatemala-contexto",
+        "animales-biodiversidad"
+      ]
+    },
+    "sketchfab-d1adc06424204191a00c9e9efb98ef0e": {
+      "areas": [
+        "guatemala-contexto",
+        "animales-biodiversidad"
+      ]
+    },
+    "sketchfab-f5ad9201efb44f538b466626d70c119a": {
+      "areas": [
+        "guatemala-contexto",
+        "animales-biodiversidad"
+      ]
+    },
+    "sketchfab-cae1ee999031436389b356017287724f": {
+      "areas": [
+        "guatemala-contexto",
+        "bosques-plantas"
+      ]
+    },
+    "sketchfab-0c5c4cd4e79b4015811914203d599b9d": {
+      "areas": [
+        "guatemala-contexto",
+        "bosques-plantas",
+        "alimentos-agricultura"
+      ]
+    },
+    "sketchfab-12cd728323744540af4f49d20de67e6f": {
+      "areas": [
+        "guatemala-contexto",
+        "alimentos-agricultura"
+      ]
+    },
+    "sketchfab-025ccd2d93374a7e8805f8c4ccd3cd9d": {
+      "areas": [
+        "guatemala-contexto",
+        "arte-musica"
+      ],
+      "title": "Marimba esquemática con rótulo",
+      "reason": "Representación esquemática de una marimba con texto tridimensional; construcción y procedencia cultural pendientes de revisión docente."
+    },
+    "sketchfab-e04eaa09bb1a4700a754881da843a40e": {
+      "areas": [
+        "guatemala-contexto",
+        "historia-patrimonio"
+      ]
+    },
+    "sketchfab-0bc7834d6f254cd3b5aedabafa8171d1": {
+      "areas": [
+        "guatemala-contexto",
+        "historia-patrimonio"
+      ]
+    },
+    "sketchfab-ddba040cd93348d1b7ad13006ccbf3f7": {
+      "areas": [
+        "guatemala-contexto",
+        "historia-patrimonio"
+      ]
+    }
+  },
+  "resolved": {
+    "sketchfab-0bc7834d6f254cd3b5aedabafa8171d1": "Geometry audit now includes native line segments separately; source GLB unchanged. Existing triangle-only hashes stay compatible."
+  }
+}

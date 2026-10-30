@@ -1,6 +1,6 @@
 # Geometría, tiempo y medición
 
-138 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+142 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -142,3 +142,7 @@
 | [Cinta métrica](https://polyhaven.com/a/measuring_tape_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kuutti Siitonen | [GLB](../../models/polyhaven-measuring-tape-01/model.glb) | 0 / 0 |
 | [Multímetro analógico](https://polyhaven.com/a/retro_multimeter) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | elli moeller | [GLB](../../models/polyhaven-retro-multimeter/model.glb) | 0 / 0 |
 | [Brújula de navegación](https://polyhaven.com/a/seadogs_compass) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Benny Weimer | [GLB](../../models/polyhaven-seadogs-compass/model.glb) | 0 / 0 |
+| [Radio con reloj digital](https://sketchfab.com/3d-models/23b2d0e81d414836877c555e5b5fc18d) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | NoMoreFeelings | [GLB](../../models/sketchfab-23b2d0e81d414836877c555e5b5fc18d/model.glb) | 0 / 0 |
+| [Pirámide de base cuadrada estilizada](https://sketchfab.com/3d-models/2e0a99016e5a4ac5a9b56caf6a802b06) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | MarloesB | [GLB](../../models/sketchfab-2e0a99016e5a4ac5a9b56caf6a802b06/model.glb) | 0 / 0 |
+| [Dado](https://sketchfab.com/3d-models/3b955af797e140eca0947ede57f412ba) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | tnRaro | [GLB](../../models/sketchfab-3b955af797e140eca0947ede57f412ba/model.glb) | 0 / 0 |
+| [Regla](https://sketchfab.com/3d-models/3ea2d33bbe264ea0be0dcdf166406e8c) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Baldi_BaldimoreYT | [GLB](../../models/sketchfab-3ea2d33bbe264ea0be0dcdf166406e8c/model.glb) | 1 / 0 |

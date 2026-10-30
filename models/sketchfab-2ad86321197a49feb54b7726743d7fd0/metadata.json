@@ -1,0 +1,114 @@
+{
+  "id": "sketchfab-2ad86321197a49feb54b7726743d7fd0",
+  "assetId": "sketchfab:2ad86321197a49feb54b7726743d7fd0",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Mochila",
+  "titleOriginal": "A Backpack For An Adventure",
+  "author": "Thomas Lean",
+  "authorUrl": "https://sketchfab.com/thomaslean",
+  "sourceUrl": "https://sketchfab.com/3d-models/2ad86321197a49feb54b7726743d7fd0",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/2ad86321197a49feb54b7726743d7fd0",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/2ad86321197a49feb54b7726743d7fd0/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para backpack. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "A Backpack For An Adventure",
+    "sketchfab-edu-backpack"
+  ],
+  "areas": [
+    "escuela-lenguaje"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"A Backpack For An Adventure\", por Thomas Lean / Sketchfab. https://sketchfab.com/3d-models/2ad86321197a49feb54b7726743d7fd0. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-2ad86321197a49feb54b7726743d7fd0/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-2ad86321197a49feb54b7726743d7fd0/metadata.json",
+  "originalDownload": "models/sketchfab-2ad86321197a49feb54b7726743d7fd0/originals.zip",
+  "bytes": 1865624,
+  "sha256": "0ece783f31f64d52cf9428acbbcb0e131d83c332b96ff6990fb9779a64abf1e0",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 4,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.127961+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-2ad86321197a49feb54b7726743d7fd0/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/2ad86321197a49feb54b7726743d7fd0/download",
+        "bytes": 1865624,
+        "sha256": "0ece783f31f64d52cf9428acbbcb0e131d83c332b96ff6990fb9779a64abf1e0"
+      }
+    ],
+    "originalDownloadSha256": "dda710cec226238476ff8af9fcad4b2fd7e0091017430f48cea2abb3e1d0a473",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.9449013471603394,
+      0.8376457691192627,
+      0.9168408513069153
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-2ad86321197a49feb54b7726743d7fd0/license-evidence.json",
+    "licenseEvidenceSha256": "0def629ed36b45f5339fb1b0ffb470852b2486e69bd5c78d611d358ec871cf8f",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-2ad86321197a49feb54b7726743d7fd0/metadata.json",
+    "metadataEvidenceSha256": "bfe7213df812e4829b5869f1c7441614c9aaa2b59a3b50c579b949302c04f693",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-2ad86321197a49feb54b7726743d7fd0/technical-review.json",
+    "technicalReviewEvidenceSha256": "0b8008872484b6ca07213e28b2859e8124f40dba62e6f0266de935a0304946e4",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "f3e3ff8e9d830db1963a16eb4869e13c9acc0ef1ba74dd6007564874ca8f01b2",
+      "triangles": 1532
+    }
+  }
+}

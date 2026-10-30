@@ -1,6 +1,6 @@
 # Agua y ecosistemas acuáticos
 
-33 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+39 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -37,3 +37,9 @@
 | [lily · small](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-lily-small/model.glb) | 0 / 0 |
 | [Chaleco salvavidas](https://polyhaven.com/a/life_jacket) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | PierreB3D | [GLB](../../models/polyhaven-life-jacket/model.glb) | 0 / 0 |
 | [Aro salvavidas](https://polyhaven.com/a/lifebuoy) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Hank Kaamura | [GLB](../../models/polyhaven-lifebuoy/model.glb) | 0 / 0 |
+| [Pez animado de baja poligonización](https://sketchfab.com/3d-models/64adc2e5a4be471e8279532b9610c878) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Atlas | [GLB](../../models/sketchfab-64adc2e5a4be471e8279532b9610c878/model.glb) | 1 / 1 |
+| [Bote de baja poligonización](https://sketchfab.com/3d-models/7d9569d4f7f74e6aa2674e6c53c8c618) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | mitia | [GLB](../../models/sketchfab-7d9569d4f7f74e6aa2674e6c53c8c618/model.glb) | 0 / 0 |
+| [Ballena con anatomía esquemática](https://sketchfab.com/3d-models/9871233e3bee4bc1a90a02cc44f7a329) | Sketchfab | [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) | photogrammetryblender3D | [GLB](../../models/sketchfab-9871233e3bee4bc1a90a02cc44f7a329/model.glb) | 0 / 0 |
+| [Coral](https://sketchfab.com/3d-models/c26e47859f0945d69a4e2944ee80b995) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Sandra_s | [GLB](../../models/sketchfab-c26e47859f0945d69a4e2944ee80b995/model.glb) | 0 / 0 |
+| [Pez de baja poligonización](https://sketchfab.com/3d-models/d681fe491a1e405faec920838ea3f11f) | Sketchfab | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Avramania | [GLB](../../models/sketchfab-d681fe491a1e405faec920838ea3f11f/model.glb) | 0 / 0 |
+| [Botella plástica de agua](https://sketchfab.com/3d-models/efa1c4c1f2a947659ded2e61e20eff31) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Jeremy E. Grayson | [GLB](../../models/sketchfab-efa1c4c1f2a947659ded2e61e20eff31/model.glb) | 0 / 0 |

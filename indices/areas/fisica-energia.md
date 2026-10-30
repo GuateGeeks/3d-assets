@@ -1,6 +1,6 @@
 # Física, máquinas y energía
 
-34 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+39 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -35,6 +35,11 @@
 | [Llave de carraca](https://polyhaven.com/a/ratchet_wrench) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | John Hutcheson | [GLB](../../models/polyhaven-ratchet-wrench/model.glb) | 0 / 0 |
 | [Multímetro analógico](https://polyhaven.com/a/retro_multimeter) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | elli moeller | [GLB](../../models/polyhaven-retro-multimeter/model.glb) | 0 / 0 |
 | [Aerogenerador](https://sketchfab.com/3d-models/285032402a8543ae8bf3e3c4d8c9f98a) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Shivansh Singh | [GLB](../../models/sketchfab-285032402a8543ae8bf3e3c4d8c9f98a/model.glb) | 0 / 0 |
+| [Engranajes](https://sketchfab.com/3d-models/2d80f07dc73e4cb0813a15e5daba3ced) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | ROY | [GLB](../../models/sketchfab-2d80f07dc73e4cb0813a15e5daba3ced/model.glb) | 0 / 1 |
+| [Paneles solares](https://sketchfab.com/3d-models/792ee69625a04ed2ab52de807ca88077) | Sketchfab | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | MRowa | [GLB](../../models/sketchfab-792ee69625a04ed2ab52de807ca88077/model.glb) | 0 / 0 |
 | [Panel solar](https://sketchfab.com/3d-models/83483a66f8974d7e8f2e7bbde518d606) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | rivetech | [GLB](../../models/sketchfab-83483a66f8974d7e8f2e7bbde518d606/model.glb) | 0 / 0 |
+| [Polea](https://sketchfab.com/3d-models/8cc7d1b1b3a0496285451af115df006f) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | LeakyRUS | [GLB](../../models/sketchfab-8cc7d1b1b3a0496285451af115df006f/model.glb) | 0 / 0 |
+| [Batería](https://sketchfab.com/3d-models/cccf3dcca7be4365b22ff59433024586) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | SCP-173 | [GLB](../../models/sketchfab-cccf3dcca7be4365b22ff59433024586/model.glb) | 0 / 0 |
 | [Aerogenerador animado](https://sketchfab.com/3d-models/e0678e6615a74ed29c1376a591262159) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Glowbox 3D | [GLB](../../models/sketchfab-e0678e6615a74ed29c1376a591262159/model.glb) | 0 / 1 |
+| [Aerogenerador de tres palas](https://sketchfab.com/3d-models/ed577ce3d4db49a283924c2ec27e65e8) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | FLAREMEDIA | [GLB](../../models/sketchfab-ed577ce3d4db49a283924c2ec27e65e8/model.glb) | 0 / 0 |
 | [Bobina de inducción Page](https://3d.si.edu/object/3d/40cf5b52-0b21-4063-95fc-aa07998eb4dd) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / National Museum of American History | [GLB](../../models/smithsonian-induction-coils/model.glb) | 0 / 0 |

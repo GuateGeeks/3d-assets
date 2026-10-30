@@ -1,6 +1,6 @@
 # Comunidad, servicios y ciudadanía
 
-128 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+134 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -132,3 +132,9 @@
 | [Aro salvavidas](https://polyhaven.com/a/lifebuoy) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Hank Kaamura | [GLB](../../models/polyhaven-lifebuoy/model.glb) | 0 / 0 |
 | [Caja de primeros auxilios](https://polyhaven.com/a/medical_box) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Ulan Cabanilla | [GLB](../../models/polyhaven-medical-box/model.glb) | 0 / 0 |
 | [Silla de ruedas](https://polyhaven.com/a/wheelchair_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Garreth Dean | [GLB](../../models/polyhaven-wheelchair-01/model.glb) | 0 / 0 |
+| [Puerta de hospital](https://sketchfab.com/3d-models/46e99d254ff34f45ad8ae7cb40321406) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | anasrar | [GLB](../../models/sketchfab-46e99d254ff34f45ad8ae7cb40321406/model.glb) | 0 / 0 |
+| [Casa en el bosque](https://sketchfab.com/3d-models/5646e6a3c8834022a0e289465f0bbc5d) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Wesai | [GLB](../../models/sketchfab-5646e6a3c8834022a0e289465f0bbc5d/model.glb) | 0 / 0 |
+| [Camión de bomberos de baja poligonización](https://sketchfab.com/3d-models/688b7c17a0e54a05b0b2d51a8aee061b) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | JG3D | [GLB](../../models/sketchfab-688b7c17a0e54a05b0b2d51a8aee061b/model.glb) | 0 / 0 |
+| [Semáforo](https://sketchfab.com/3d-models/8db89d219a60466da1995316d83af100) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | game_travel | [GLB](../../models/sketchfab-8db89d219a60466da1995316d83af100/model.glb) | 0 / 0 |
+| [Puente de madera](https://sketchfab.com/3d-models/8fa6c9cf27f8494db2e52a8d27804eff) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Akshat | [GLB](../../models/sketchfab-8fa6c9cf27f8494db2e52a8d27804eff/model.glb) | 0 / 0 |
+| [Banca de asientos para sala de espera](https://sketchfab.com/3d-models/a6cdadcf543b4214b85ecbb0e09a5af6) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Billy Jackman | [GLB](../../models/sketchfab-a6cdadcf543b4214b85ecbb0e09a5af6/model.glb) | 0 / 0 |

@@ -1,0 +1,114 @@
+{
+  "id": "sketchfab-a9890d981db54c18be494d4e058e57b7",
+  "assetId": "sketchfab:a9890d981db54c18be494d4e058e57b7",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Basurero",
+  "titleOriginal": "Trash Bin",
+  "author": "NoTimeForAdventure",
+  "authorUrl": "https://sketchfab.com/NoTimeForAdventure",
+  "sourceUrl": "https://sketchfab.com/3d-models/a9890d981db54c18be494d4e058e57b7",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/a9890d981db54c18be494d4e058e57b7",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/a9890d981db54c18be494d4e058e57b7/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para trash bin. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Trash Bin",
+    "sketchfab-edu-trash-bin"
+  ],
+  "areas": [
+    "ambiente-sostenibilidad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Trash Bin\", por NoTimeForAdventure / Sketchfab. https://sketchfab.com/3d-models/a9890d981db54c18be494d4e058e57b7. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-a9890d981db54c18be494d4e058e57b7/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-a9890d981db54c18be494d4e058e57b7/metadata.json",
+  "originalDownload": "models/sketchfab-a9890d981db54c18be494d4e058e57b7/originals.zip",
+  "bytes": 76080,
+  "sha256": "fca5a74f91f1a97be00546bd281639b6936dc9ade5c3f4251b6992bc7d77e676",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 5,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.483428+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-a9890d981db54c18be494d4e058e57b7/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/a9890d981db54c18be494d4e058e57b7/download",
+        "bytes": 76080,
+        "sha256": "fca5a74f91f1a97be00546bd281639b6936dc9ade5c3f4251b6992bc7d77e676"
+      }
+    ],
+    "originalDownloadSha256": "df237bb0c6abffae1211d06ac15af046664fc365e4247a25de5a5a729836e531",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.6881366968154907,
+      0.6000480055809021,
+      1.3984028100967407
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-a9890d981db54c18be494d4e058e57b7/license-evidence.json",
+    "licenseEvidenceSha256": "07d6245230c85cacae68369eb7ae5e3723ad6778a2326b6bade4f53bf2f8817b",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-a9890d981db54c18be494d4e058e57b7/metadata.json",
+    "metadataEvidenceSha256": "f574a9be4744ccfd127f09803c1c1cd71d8ac095e9f174e4975a3bab01cdb8d3",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-a9890d981db54c18be494d4e058e57b7/technical-review.json",
+    "technicalReviewEvidenceSha256": "2dd647dab77021bff398afa0d5b1a85a21ee445966de22984ed6f686f7df544e",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "dcc2378b2208860c4ec89f04892415398cdf21e15e2746fe3394f458565315cd",
+      "triangles": 1627
+    }
+  }
+}
