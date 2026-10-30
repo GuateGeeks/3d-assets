@@ -46,7 +46,7 @@ Un GLB puede figurar en varias áreas. Algunos GLB de autor contienen conjuntos 
 
 ## Controles
 
-`python tools/reindex.py`, `python tools/audit_catalog.py`, `python tools/build_site.py`, `python tools/check_site.py`, siete pruebas de políticas/huellas y siete de selección de galería. Los controles de laboratorios y fuentes conservadas también se verifican en CI. La comprobación final del sitio público se realiza después del despliegue.
+`python tools/reindex.py`, `python tools/audit_catalog.py`, `python tools/build_site.py`, `python tools/check_site.py`, siete pruebas de políticas/huellas y ocho de selección de galería. Los controles de laboratorios y fuentes conservadas también se verifican en CI. La comprobación final del sitio público se realiza después del despliegue.
 
 La galería corrige la selección inicial al abrir un filtro de fuente: el visor selecciona un resultado del filtro, respeta su orden y muestra un estado sin carga cuando no hay resultados.
 
@@ -58,3 +58,5 @@ La comprobación de los 115 modelos en el sitio público detectó seis referenci
 Se comprobó geometría mediante dimensiones, recuentos de polígonos/objetos y distancias de vértices en ambas direcciones (tolerancia relativa 1e-5, mínimo absoluto 1e-6). Los cambios menores de serialización flotante pueden cambiar la huella redondeada de triángulos; se conserva la medición explícita de distancias. Se abrieron las seis comparaciones de originales y reimportación. La descarga nativa no cambia.
 
 Una conversión exploratoria de un modelo anatómico anterior cambió dimensiones y quedó excluida; se conserva su vista nativa. La selección reproducible está en `enrichment/material-compat-selection-20261029.json`. `tools/review_material_compat.py` se ejecuta dentro de Blender con un run nuevo, `selection.json` copiado de esa selección, `--calibrated-lighting` y una segunda comprobación `--geometry-only`. La promoción usa aprobación visual y un manifiesto explícito que verifica `tools/check_site.py`.
+
+El import del módulo de selección incluye la versión de su contenido para que los navegadores que visitaron la galería antes del despliegue carguen los exports actuales. Una prueba conserva ese contrato de caché.
