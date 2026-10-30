@@ -88,4 +88,12 @@ class CoreTests(unittest.TestCase):
         scene['tracks']=[{'target':'servo','channel':'pressed','keyframes':[{'time':0,'value':1}]}]
         with self.assertRaises(ValueError): core.validate_record(scene)
 
+    def test_brief_requires_measurable_constraints_and_rights(self):
+        brief={'schemaVersion':1,'kind':'brief','id':'mechanism','goal':'Press controls a mechanism','targetRuntime':'web','coordinates':{'units':'m','up':'Y','front':'+Z'},'dimensionsMeters':[2,1,1],'budgets':{'triangles':10000,'drawCalls':100,'textureSize':2048},'references':[],'style':'original teaching model','provenance':{'author':'test','source':'original','license':'MIT'},'acceptanceGates':['technical','visual','content','provenance']}
+        core.validate_record(brief)
+        brief['budgets']['triangles']=0
+        with self.assertRaises(ValueError): core.validate_record(brief)
+        brief['budgets']['triangles']=10000; brief['dimensionsMeters'][1]=-1
+        with self.assertRaises(ValueError): core.validate_record(brief)
+
 if __name__ == '__main__': unittest.main()

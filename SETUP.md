@@ -173,3 +173,20 @@ paramétrico; su ejecución requiere Blender y las opciones explícitas de la gu
 Los tests de contratos/geometría se ejecutan con el mismo comando de creación:
 `python -m unittest discover -s creation-lab/tests -v`. Los probes Blender son
 opt-in mediante `CREATION_TEST_BLENDER` apuntando a su ejecutable.
+
+## Studio: código interactivo, proveedores y escenas
+
+Seguir [studio/README.md](studio/README.md) para instalar las dependencias Node fijadas,
+construir el visor local e iniciar un proyecto. Python >=3.10 y Node >=22.12;
+CI utiliza Node 24. La galería original sigue sin requerir npm para su uso.
+
+Configurar los ejecutables opcionales en un JSON local y pasarlo con `--config`
+antes del subcomando. Studio no instala Blender, UniRig ni pesos automáticamente,
+y no activa pagos. SkinTokens necesita un executor elegible separado del equipo
+local de 8 GiB. No sustituir el Python de UniRig por el del frontend.
+
+`python -m unittest discover -s studio/tests -v` verifica contratos y fixtures sin
+pagos/GPU. El fixture real de Blender es opt-in mediante `STUDIO_BPY_PYTHON`.
+Los tests Chromium verifican interacción con renderizado software; las medidas
+hardware y las inferencias reales tienen sus propios recibos. Revisar
+[studio/docs/STATUS.md](studio/docs/STATUS.md) antes de reutilizar evidencia histórica.

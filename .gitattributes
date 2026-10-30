@@ -29,3 +29,8 @@ creation-lab/benchmarks/** -text -whitespace
 
 # Experiments keep their generators, receipts and hashed evidence byte-for-byte.
 creation-lab/experiments/** -text -whitespace
+
+# Studio TypeScript and ESM sources are portable across Windows and WSL.
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf

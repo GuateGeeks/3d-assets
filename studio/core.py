@@ -153,7 +153,17 @@ def validate_record(data: dict) -> dict:
     _finite(data)
     kind = data.get('kind')
     _identifier(data.get('id'))
-    if kind == 'scene':
+    if kind == 'brief':
+        _required(data,'goal','targetRuntime','coordinates','dimensionsMeters','budgets','references','style','provenance','acceptanceGates')
+        if not all(isinstance(data[key],str) and data[key].strip() for key in ('goal','targetRuntime','style')):
+            raise ValueError('brief goal, target runtime and style required')
+        _coordinates(data['coordinates']); _vector(data['dimensionsMeters'],True); _provenance(data['provenance'])
+        for key in ('triangles','drawCalls','textureSize'):
+            value=data['budgets'].get(key)
+            if not isinstance(value,int) or isinstance(value,bool) or value<=0: raise ValueError('positive integer budget required: '+key)
+        if not isinstance(data['references'],list) or set(data['acceptanceGates'])!=set(GATES):
+            raise ValueError('brief references and all acceptance gates required')
+    elif kind == 'scene':
         _required(data, 'title', 'duration', 'mode', 'instances')
         if not _number(data['duration']) or not 0 < data['duration'] <= 300 or data['mode'] not in ('interactive','timeline'):
             raise ValueError('invalid scene duration or mode')
@@ -197,6 +207,7 @@ def validate_record(data: dict) -> dict:
         _inventory(data['files'])
         if data['scene'] not in [entry['path'] for entry in data['files']]: raise ValueError('scene absent from inventory')
         _provenance(data['provenance'])
+        if data.get('brief') and data['brief'] not in [entry['path'] for entry in data['files']]: raise ValueError('brief absent from inventory')
     elif kind == 'asset':
         _required(data,'revision','artifacts','coordinates','bounds','provenance','capabilities')
         _identifier(data['revision']); _inventory(data['artifacts']); _coordinates(data['coordinates'])

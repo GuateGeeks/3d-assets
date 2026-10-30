@@ -44,7 +44,7 @@ otro presupuesto debe fijarse explícitamente antes de comenzar.
 La prueba orgánica evalúa anatomía estilizada, articulaciones y continuidad
 por separado. Una prueba hard-surface satisfactoria no demuestra esa capacidad.
 
-## Puente interactivo
+## Puente interactivo de herramientas Blender
 
 Solo un controlador de la escena. Blender Lab MCP es el preferido; consulta
 la auditoría antes de instalar. Prueba de salida: descubrir herramientas reales,
@@ -59,3 +59,6 @@ en comparación entre modelos. Evaluación de sistemas completos se informa
 separada. Registrar calidad visual ciega, cumplimiento, editabilidad, exportación,
 tiempo observado, intervención humana y gasto observable. Conservar fallos.
 Sin acceso o presupuesto para un competidor, registrar `NOT_RUN`.
+
+
+Para aceptación de objetos/escenas interactivas y jobs de proveedores, consulta los [gates de Studio](../../studio/docs/ACCEPTANCE.md). La conexión MCP descrita arriba prueba una herramienta, no la interacción de un asset.

@@ -1,5 +1,12 @@
 # Trabajo en 3d-assets
 
+La entrada común para nuevas creaciones, escenas y proveedores es
+[studio/README.md](studio/README.md) con [estado/evidencia](studio/docs/STATUS.md)
+y el skill [gg3d-studio](.agents/skills/gg3d-studio/SKILL.md). No confundir un
+adapter implementado con una cuenta conectada o una inferencia verificada.
+Mantén Studio, sus dependencias y runs fuera del inventario público; los módulos
+privados de consumidores no se copian a este repositorio.
+
 Este repositorio contiene la biblioteca original, el laboratorio de rigging en `lab/`
 el laboratorio de creación en `creation-lab/` y el puente del cotizador en
 `procedural-web/`. Para este último lee `.agents/skills/gg3d-blender-web/SKILL.md`

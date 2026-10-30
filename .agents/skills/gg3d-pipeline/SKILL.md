@@ -5,6 +5,12 @@ description: Coordina el flujo de creación 3D de GuateGeeks, desde el brief has
 
 # Flujo de creación 3D
 
+Para elegir entre código interactivo, proveedores y rigs existentes, usa
+[gg3d-studio](../gg3d-studio/SKILL.md) y `python studio/studio.py capabilities`.
+Studio reúne las rutas y sus recibos; los párrafos siguientes describen la
+ruta de creación Blender. Un módulo interactivo conserva su fuente y runtime:
+no necesita convertirse en GLB para existir ni pierde su comportamiento al entregar.
+
 Para composición, componentes y correcciones lee el
 [workflow iterativo Sol/Luna](../../../creation-lab/docs/ITERATIVE-WORKFLOW.md).
 Es la referencia única de roles, dos rondas por defecto y gates separados;

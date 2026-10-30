@@ -45,12 +45,17 @@ def project_init(args):
             source=core.checked_path(scene_path.parent,asset)
             core.validate_glb(source)
             sources.append((asset,source))
+    brief=core.validate_record(core.read_json(args.brief)) if args.brief else None
+    if brief is not None and brief['kind']!='brief': raise ValueError('brief record required')
     project=core.checked_path(args.workspace, 'projects/'+args.id, False)
     if project.exists(): raise ValueError('project already exists; choose a new ID')
     project.mkdir(parents=True,exist_ok=False)
     core.write_json(project/'scene.json',scene)
     files=[{'path':'scene.json','sha256':core.sha256(project/'scene.json')}]
-    copied={'scene.json'}
+    if brief is not None:
+        core.write_json(project/'brief.json',brief)
+        files.append({'path':'brief.json','sha256':core.sha256(project/'brief.json')})
+    copied={'scene.json','brief.json'}
     for relative,source in sources:
         if relative in copied: continue
         target=core.checked_path(project,relative,False)
@@ -58,6 +63,8 @@ def project_init(args):
         files.append({'path':relative,'sha256':core.sha256(target)}); copied.add(relative)
     manifest={'schemaVersion':1,'kind':'project','id':args.id,'title':scene['title'],'scene':'scene.json','files':files,
               'provenance':{'author':args.author,'license':args.license,'source':str(scene_path.resolve())}}
+    manifest['briefStatus']='PROVIDED' if brief else 'NOT_PROVIDED'
+    if brief: manifest['brief']='brief.json'
     core.validate_record(manifest)
     core.write_json(project/'project.json',manifest)
     run=core.create_run(args.workspace,'project.init',{'project':args.id,'sourceHash':core.sha256(scene_path)})
@@ -75,6 +82,9 @@ def validate(args):
         core.verify_inventory(path.parent,record['files'])
         scene=core.validate_record(core.read_json(core.checked_path(path.parent,record['scene'])))
         if scene['kind']!='scene': raise ValueError('project scene has wrong kind')
+        if record.get('brief'):
+            brief=core.validate_record(core.read_json(core.checked_path(path.parent,record['brief'])))
+            if brief['kind']!='brief': raise ValueError('project brief has wrong kind')
         inventory={item['path'] for item in record['files']}
         for instance in scene['instances']:
             asset=instance['asset']
@@ -128,7 +138,7 @@ def parser():
     commands.add_parser('capabilities',help='List implemented routes and verification boundaries').set_defaults(handler=capabilities)
     project=commands.add_parser('project').add_subparsers(dest='project_command',required=True)
     init=project.add_parser('init',help='Create a new immutable-input project from a scene')
-    init.add_argument('id'); init.add_argument('--scene',type=Path)
+    init.add_argument('id'); init.add_argument('--scene',type=Path); init.add_argument('--brief',type=Path)
     init.add_argument('--author',default='local author'); init.add_argument('--license',default='UNREVIEWED')
     init.set_defaults(handler=project_init)
     runs=commands.add_parser('run').add_subparsers(dest='run_command',required=True)
