@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "kind": "preview-capture",
+  "capturedAt": "2026-10-30T20:42:52.337Z",
+  "viewport": {
+    "cssWidth": 1152,
+    "cssHeight": 820,
+    "pixelWidth": 1152,
+    "pixelHeight": 820,
+    "devicePixelRatio": 1,
+    "rendererPixelRatio": 1
+  },
+  "camera": {
+    "type": "PerspectiveCamera",
+    "position": [
+      6.639511979793539,
+      5.536672434940774,
+      8.340927575290683
+    ],
+    "quaternion": [
+      -0.20037083590593638,
+      0.293929727369861,
+      0.06316134188535716,
+      0.9324524054223232
+    ],
+    "target": [
+      0.903747027890033,
+      1.029999972730875,
+      0.14697764399995855
+    ],
+    "fov": 38,
+    "aspect": 1.4048780487804877,
+    "near": 0.05,
+    "far": 100,
+    "matrixWorld": [
+      0.8192319205190404,
+      -4.163336342344337e-17,
+      -0.5734623443633284,
+      0,
+      -0.2355797806828121,
+      0.9117243460191947,
+      -0.33654254383258875,
+      0,
+      0.5228395808812898,
+      0.41080252783529925,
+      0.746913686973271,
+      0,
+      6.639511979793539,
+      5.536672434940774,
+      8.340927575290683,
+      1
+    ],
+    "projectionMatrix": [
+      2.0672334372345267,
+      0,
+      0,
+      0,
+      0,
+      2.9042108776758226,
+      0,
+      0,
+      0,
+      0,
+      -1.001000500250125,
+      -1,
+      0,
+      0,
+      -0.10005002501250625,
+      0
+    ]
+  },
+  "renderer": {
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "WebKit WebGL",
+    "vendor": "WebKit",
+    "antialias": true,
+    "outputColorSpace": "srgb",
+    "toneMapping": 4,
+    "toneMappingExposure": 1.2,
+    "shadows": true,
+    "shadowType": 2
+  },
+  "runtime": {
+    "three": "180",
+    "preview": "1.0.0",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.37 Safari/537.36"
+  },
+  "overlays": {
+    "anchors": true,
+    "bounds": false,
+    "rig": false
+  },
+  "scene": {
+    "spec": {
+      "schemaVersion": 1,
+      "kind": "scene",
+      "id": "interactive-workbench",
+      "title": "Interactive workbench",
+      "duration": 4,
+      "mode": "interactive",
+      "instances": [
+        {
+          "id": "Button",
+          "asset": "button",
+          "position": [
+            -1.9,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "Servo",
+          "asset": "servo",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "Character",
+          "asset": "character",
+          "position": [
+            1.9,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            -0.25,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "target": "Button",
+          "channel": "pressed",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 1,
+              "value": 1
+            },
+            {
+              "time": 2,
+              "value": 0
+            },
+            {
+              "time": 4,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Servo",
+          "channel": "angle",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 2,
+              "value": 90
+            },
+            {
+              "time": 4,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "bindings": [
+        {
+          "source": "Button",
+          "sourceChannel": "pressed",
+          "target": "Servo",
+          "targetChannel": "angle",
+          "released": 0,
+          "pressed": 90
+        }
+      ]
+    },
+    "time": 1,
+    "mode": "timeline",
+    "speed": 1,
+    "loop": true,
+    "playing": false,
+    "reducedMotion": false,
+    "selected": "Character",
+    "instances": [
+      {
+        "id": "Button",
+        "position": [
+          -1.9,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "clipIndex": 0,
+        "clip": null,
+        "channels": {
+          "pressed": 1
+        }
+      },
+      {
+        "id": "Servo",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "clipIndex": 0,
+        "clip": null,
+        "channels": {
+          "angle": 45
+        }
+      },
+      {
+        "id": "Character",
+        "position": [
+          1.9,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          -0.25,
+          0,
+          "XYZ"
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "clipIndex": 0,
+        "clip": "Wave",
+        "channels": {}
+      }
+    ]
+  },
+  "image": {
+    "name": "3d-lab-2026-10-30T20-42-52-337Z.png",
+    "sha256": "1fd5c8ecf2d0f8d7428ea77cf6233d09d7c3520af1461d678f8106881bc455e2",
+    "bytes": 234989
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "kind": "implementation-verification",
+  "date": "2026-10-30",
+  "implementationCommit": "fa14c0d",
+  "branch": "codex/unified-3d-lab",
+  "environment": {
+    "ciPython": "3.12",
+    "npm": "10.9.9",
+    "rendering": "Chromium software rendering",
+    "node": "24.22.2",
+    "python": "3.14.4",
+    "blenderBpy": "4.2"
+  },
+  "checks": {
+    "productionPreview": "PASS",
+    "cleanupStress": {
+      "probes": 20,
+      "status": "PASS",
+      "persistentlyLive": 0,
+      "initiallyLive": 0
+    },
+    "typecheck": "PASS",
+    "runtime": {
+      "status": "PASS",
+      "tests": 23
+    },
+    "benchmarkGlbs": {
+      "files": 10,
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0
+    },
+    "skills": {
+      "skills": 13,
+      "status": "PASS",
+      "localLinks": 84
+    },
+    "browser": {
+      "status": "PASS",
+      "tests": 11
+    },
+    "build": "PASS",
+    "gallery": {
+      "credentialScan": "PASS",
+      "status": "PASS",
+      "models": 1152,
+      "displayVariants": 6
+    },
+    "captureImageHash": "PASS",
+    "studioPython": {
+      "skips": 0,
+      "status": "PASS",
+      "tests": 72,
+      "cpuBlender": true
+    }
+  },
+  "boundaries": {
+    "paidGeneration": "NOT_RUN",
+    "remoteSkinTokens": "NOT_RUN",
+    "remoteGitHubActions": "NOT_RUN",
+    "localSkinTokens": "BLOCKED: 8 GiB available, 14 GiB required",
+    "deployment": "NOT_RUN",
+    "newUniRigInference": "NOT_RUN",
+    "hardwarePerformance": "NOT_RUN"
+  },
+  "artifacts": [
+    {
+      "sha256": "00b95ef446e02429c5dacf99b24abff24810e24cc9d8d9451916a981b5019ab7",
+      "path": "web/evidence/production-20261030/overview.png"
+    },
+    {
+      "sha256": "5f916687eac9a07e357759af3d42eb6ddc008faef10e05581cb7e030fc2c0395",
+      "path": "web/evidence/production-20261030/capture.json"
+    },
+    {
+      "sha256": "b466e41f368c1f308323bcf27a376c3e5a26231693c4d966b608b111e787e370",
+      "path": "web/evidence/production-20261030/smoke.json"
+    },
+    {
+      "sha256": "a1a060650a09e127ca5dce719d344595878fbe485193a58322e4b806a84a30fd",
+      "path": "web/public/original-character.glb"
+    }
+  ],
+  "review": {
+    "addressedFindings": 6,
+    "status": "PASS",
+    "requestedModel": "gpt-6-astra",
+    "scope": "bf718a4..fa14c0d",
+    "specCompliance": "PASS",
+    "observedBackendModel": "unavailable",
+    "codeQuality": "PASS",
+    "requestedEffort": "high"
+  }
+}

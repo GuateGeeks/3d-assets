@@ -1,26 +1,30 @@
 # Studio status — 2026-10-30
 
-Implementation checkpoint on `codex/unified-3d-lab`; integration review in progress.
+Implemented on `codex/unified-3d-lab`; independent final correction review passes
+spec compliance and code quality. All six final findings are addressed. See the
+[verification record](VERIFICATION.md) for preserved checks, environments and limits.
 
 | Capability | Current evidence |
 | --- | --- |
-| Contracts, project/run records, preview and package gates | Implemented; Python behavior tests exercise paths, symlinks, hashes, malformed data and exact-inventory reviews |
-| Meshy/Tripo job adapters | Implemented; 26 offline fixture/persistence tests. No paid generation, live output or cancellation executed |
-| Provider account connectivity | Free native Meshy balance and Magnific balance tools returned structured responses; amounts/account information omitted. This verifies account access only |
-| Interactive runtime | 15 unit tests, 7 Chromium browser tests, TypeScript and production build passed on Node 22.23.4; analytical absolute-time playback, not a physics engine |
-| Original example skin and clips | Seven bones, Wave and Idle clips; browser GLB export/load roundtrip tested |
-| Browser visual inspection | Desktop, mobile and rig captures opened; [desktop](../web/evidence/desktop.png), [mobile](../web/evidence/mobile.png), [rig](../web/evidence/rig.png) |
-| Blender adapter | Real bpy 4.2 CPU rigid export/save/reopen/reimport and explicit humanoid mapping fixture passed. No new organic rig visual approval |
-| UniRig | Delegates existing candidate runner/lock/restoration; command and receipt handling tested. No new GPU inference in this cut |
-| SkinTokens | Pinned isolated local/SSH adapter and preflight implemented. Local GPU 8 GiB is below required 14 GiB: BLOCKED. GPU/SSH inference NOT_RUN |
-| Production performance | Hardware renderer benchmark NOT_RUN; browser software rendering is functional evidence only |
-| Publication | No merge to main, push or deployment in this implementation cut |
+| Contracts, project/run records, preview and package gates | 72 Python tests pass, including actual CPU Blender tests. Archive output hashes the exact bytes written; separate reviews bind the full inventory |
+| Meshy/Tripo jobs | 26 provider fixture/persistence tests included above; request, authorized intent, receipt, unknown-outcome reconciliation, resume and GLB intake implemented |
+| Provider connectivity | Free native Meshy and Magnific account checks returned structured responses; no paid generation, rigging or animation executed |
+| Interactive objects and scenes | Original button drives servo; safe declarative bindings, channel ownership, reset/release and analytical absolute-time playback. No physics engine |
+| Browser runtime | Node 24.22.2: 23 unit tests, 11 Chromium browser tests, TypeScript and production build passed |
+| Original skin and clips | Seven-bone character, Wave/Idle clips and GLB roundtrip tested; endpoint hold and backward seek covered |
+| Production preview | Loopback Python server with inventoried project passed build/CSP, ownership, timeline and capture checks; zero browser errors |
+| Captures | Paired PNG/SHA-256 receipt records scene state, camera, viewport/DPR and renderer/runtime; [final view](../web/evidence/production-20261030/overview.png), [receipt](../web/evidence/production-20261030/capture.json), [smoke](../web/evidence/production-20261030/smoke.json) |
+| Blender | Real bpy 4.2 CPU rigid export/save/reopen/reimport and explicit humanoid motion mapping pass, including GLB target, FPS/units/effective-transform rejection and hash lineage |
+| UniRig | Existing candidate runner/lock/restoration delegated and tested; no new GPU inference in this cut |
+| SkinTokens | Pinned isolated local/SSH adapter and memory preflight implemented. Local 8 GiB GPU is below required 14 GiB: BLOCKED. Remote GPU inference NOT_RUN |
+| Publication | Existing 1,152 models and six display variants preserved. Gallery build/path/credential checks pass and exclude Studio. No main merge, push or deployment in this cut |
 
-The current frontend build reports an approximately 639 KB JavaScript chunk before
-compression. The initial preview favors a small dependency surface and direct loading;
-performance on target hardware needs a separate measured run.
+The final production JavaScript bundle is approximately 643 KB before compression;
+Vite reports its size warning. Hardware performance is NOT_RUN; software-rendered
+browser tests are functional evidence only. No new organic asset receives production
+visual/deformation/contact approval from these implementation tests.
 
-Historical UniRig corpus issues and benchmarks remain unchanged. Review of old evidence
-is not a new runtime verification. Credentials, private source and run artifacts remain
-outside public inventory. Final receipts and review outcomes will be recorded when the
-integration checks finish.
+Desktop, mobile and rig captures from the initial implementation remain preserved
+alongside the final production view. Final production image and metadata were opened
+and checked; the capture receipt is evidence, not an automatic visual PASS.
+Historical UniRig corpus issues and benchmark verdicts remain unchanged.
