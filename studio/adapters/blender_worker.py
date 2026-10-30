@@ -63,9 +63,37 @@ def rigid_demo():
     bpy.context.scene.frame_set(1)
 
 
+def scene_metadata():
+    import bpy
+    scene=bpy.context.scene
+    return {'fps':scene.render.fps/scene.render.fps_base,'unitScale':scene.unit_settings.scale_length}
+
+
+def validate_rig_transform(rig):
+    import bpy
+    from mathutils import Matrix
+    if rig.constraints or any(bone.constraints for bone in rig.pose.bones):
+        raise ValueError('Unsupported rig/pose transform constraints')
+    bpy.context.view_layer.update()
+    effective=rig.evaluated_get(bpy.context.evaluated_depsgraph_get()).matrix_world.to_3x3()
+    identity=Matrix.Identity(3)
+    if any(not math.isfinite(effective[i][j]) or abs(effective[i][j]-identity[i][j])>1e-6 for i in range(3) for j in range(3)):
+        raise ValueError('Apply effective rig object/parent rotation and scale transform before retarget')
+
 def retarget(target_path,motion_path,mapping_path):
     import bpy
+    if motion_path.suffix.lower()!='.blend':
+        raise ValueError('Retarget motion requires .blend with explicit source scene FPS and units')
+    # Read source scene metadata before object append discards it. Loading is
+    # read-only; opening the target then replaces this temporary source scene.
+    import_asset(motion_path)
+    source_metadata=scene_metadata()
     import_asset(target_path)
+    target_metadata=scene_metadata()
+    if abs(source_metadata['fps']-target_metadata['fps'])>1e-6:
+        raise ValueError('Source/target FPS mismatch')
+    if abs(source_metadata['unitScale']-target_metadata['unitScale'])>1e-6 or abs(target_metadata['unitScale']-1)>1e-6:
+        raise ValueError('Source/target units mismatch: explicit matching meters required')
     targets=[o for o in bpy.context.scene.objects if o.type=='ARMATURE']
     if len(targets)!=1: raise ValueError('Exactly one target armature required')
     target=targets[0]; target_objects=list(bpy.context.scene.objects)
@@ -87,14 +115,14 @@ def retarget(target_path,motion_path,mapping_path):
         if (b.parent.name if b.parent else None)!=parent: raise ValueError('Mapped hierarchy differs: '+src)
         qa=a.matrix_local.to_quaternion(); qb=b.matrix_local.to_quaternion()
         if qa.rotation_difference(qb).angle>0.001: raise ValueError('Rest axes mismatch: '+src)
-    for rig in (source,target):
-        if any(abs(x-1)>1e-6 for x in rig.scale) or any(abs(x)>1e-6 for x in rig.rotation_euler): raise ValueError('Apply rig object scale/rotation before retarget')
+    for rig in (source,target): validate_rig_transform(rig)
     target.animation_data_clear(); target.animation_data_create()
     action=bpy.data.actions.new('Retarget_'+available[0].name); target.animation_data.action=action
     source.animation_data.action=available[0]
     start,end=(int(v) for v in available[0].frame_range)
     for frame in range(start,end+1):
         bpy.context.scene.frame_set(frame)
+        for rig in (source,target): validate_rig_transform(rig)
         for src,dst in mapping.items():
             a=source.pose.bones[src]; b=target.pose.bones[dst]
             b.rotation_mode='QUATERNION'; b.rotation_quaternion=a.matrix_basis.to_quaternion()
@@ -105,7 +133,7 @@ def retarget(target_path,motion_path,mapping_path):
     for obj in imported: bpy.data.objects.remove(obj,do_unlink=True)
     if available[0].users==0: bpy.data.actions.remove(available[0])
     bpy.context.scene.frame_start=start; bpy.context.scene.frame_end=end; bpy.context.scene.frame_set(start)
-    return {'mapping':mapping,'sourceAction':source_action_name,'policy':'matching rest axes and mapped hierarchy; root translation in meters; target bone lengths preserved'}
+    return {'mapping':mapping,'sourceAction':source_action_name,'sourceMetadata':source_metadata,'targetMetadata':target_metadata,'policy':'matching rest axes and mapped hierarchy; root translation in meters; target bone lengths preserved'}
 
 
 def run(args):

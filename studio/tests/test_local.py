@@ -159,3 +159,74 @@ class RemoteSupervisorTests(unittest.TestCase):
         self.assertEqual(p.returncode,124)
         state=Path('/proc')/p.stdout.strip()/'stat'
         if state.exists(): self.assertEqual(state.read_text().rsplit(')',1)[1].split()[0],'Z')
+
+@unittest.skipUnless(__import__('os').environ.get('STUDIO_BPY_PYTHON'),'Real CPU bpy runtime required')
+class ReviewRegressionTests(unittest.TestCase):
+    def test_reject_motion_metadata_and_effective_object_transform_mismatches(self):
+        import os,subprocess
+        python=os.environ['STUDIO_BPY_PYTHON']; env=os.environ.copy()
+        env.update(CUDA_VISIBLE_DEVICES='',OMP_NUM_THREADS='2',PYTHONDONTWRITEBYTECODE='1')
+        worker=Path(local.__file__).with_name('blender_worker.py')
+        fixture=Path(__file__).with_name('local_fixture.py')
+        variants={
+            'fps':"bpy.context.scene.render.fps=60",
+            'units':"bpy.context.scene.unit_settings.scale_length=.01",
+            'quaternion':"rig.rotation_mode='QUATERNION'; rig.rotation_quaternion=Quaternion((0,0,1),1.57079632679)",
+            'parent':"parent=bpy.data.objects.new('Parent',None); bpy.context.scene.collection.objects.link(parent); rig.parent=parent; parent.rotation_euler.z=1.57079632679",
+            'axis_angle':"rig.rotation_mode='AXIS_ANGLE'; rig.rotation_axis_angle=(1.57079632679,0,0,1)",
+        }
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d)
+            p=subprocess.run([python,str(fixture),str(root/'fixture')],env=env,capture_output=True,text=True,timeout=120)
+            self.assertEqual(p.returncode,0,p.stdout+p.stderr)
+            for name,mutation in variants.items():
+                with self.subTest(name=name):
+                    motion=root/(name+'.blend')
+                    script="import bpy,os; from mathutils import Quaternion; bpy.ops.wm.open_mainfile(filepath="+repr(str(root/'fixture/motion.blend'))+"); rig=next(o for o in bpy.context.scene.objects if o.type=='ARMATURE'); "+mutation+"; bpy.ops.wm.save_as_mainfile(filepath="+repr(str(motion))+"); os._exit(0)"
+                    p=subprocess.run([python,'-c',script],env=env,capture_output=True,text=True,timeout=120)
+                    self.assertEqual(p.returncode,0,p.stdout+p.stderr)
+                    output=root/name
+                    p=subprocess.run([python,str(worker),'retarget','--input',str(root/'fixture/target.blend'),'--motion',str(motion),'--mapping',str(root/'fixture/mapping.json'),'--output-dir',str(output)],env=env,capture_output=True,text=True,timeout=120)
+                    self.assertNotEqual(p.returncode,0,p.stdout+p.stderr)
+                    self.assertFalse((output/'inspection.json').exists())
+                    self.assertIn('mismatch' if name in ('fps','units') else 'transform',p.stderr.lower())
+
+    def test_every_blender_adapter_run_records_hashes(self):
+        import os,subprocess,json
+        from types import SimpleNamespace
+        python=os.environ['STUDIO_BPY_PYTHON']
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d)
+            env=os.environ.copy(); env.update(CUDA_VISIBLE_DEVICES='',OMP_NUM_THREADS='2',PYTHONDONTWRITEBYTECODE='1')
+            fixture=Path(__file__).with_name('local_fixture.py')
+            p=subprocess.run([python,str(fixture),str(root/'incoming')],env=env,capture_output=True,text=True,timeout=120)
+            self.assertEqual(p.returncode,0,p.stdout+p.stderr)
+            args=SimpleNamespace(workspace=root,settings={'blender':{'python':python}},engine='blender',operation='retarget',input='incoming/target.blend',motion='incoming/motion.blend',mapping='incoming/mapping.json',timeout=120,dry_run=False,use_skeleton=False)
+            result=local.handler(args); run=Path(result['run'])
+            inputs=local.read_json(run/'blender-inputs.json')
+            self.assertEqual(set(inputs['inputs']),{'input','motion','mapping'})
+            for role,entry in inputs['inputs'].items(): self.assertEqual(entry['sha256'],local.sha256(root/getattr(args,role)))
+            outputs=local.read_json(run/'blender-outputs.json')
+            self.assertEqual({e['path'] for e in outputs['outputs']},{'scene.blend','asset.glb','inspection.json'})
+            for entry in outputs['outputs']: self.assertEqual(entry['sha256'],local.sha256(run/entry['path']))
+            self.assertEqual(outputs['inputManifestSha256'],local.sha256(run/'blender-inputs.json'))
+
+class BlenderLineageTests(unittest.TestCase):
+    def test_input_changed_by_process_is_rejected_and_original_hash_retained(self):
+        import sys,json
+        from types import SimpleNamespace
+        original_worker=local.WORKER
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d); source=root/'input.glb'; source.write_bytes(b'original')
+            expected=local.sha256(source)
+            worker=root/'worker.py'
+            worker.write_text("import sys,json; from pathlib import Path; a=sys.argv; p=Path(a[a.index('--input')+1]); p.write_bytes(b'changed'); out=Path(a[a.index('--output-dir')+1]); (out/'inspection.json').write_text(json.dumps({'status':'PASS'}))")
+            (root/'retarget.py').write_text('# fixture code')
+            args=SimpleNamespace(workspace=root,settings={'blender':{'python':sys.executable}},engine='blender',operation='inspect',input='input.glb',motion=None,mapping=None,timeout=10,dry_run=False,use_skeleton=False)
+            try:
+                local.WORKER=worker
+                with self.assertRaisesRegex(ValueError,'input changed'): local.handler(args)
+            finally: local.WORKER=original_worker
+            run=next((root/'runs').iterdir())
+            self.assertEqual(local.read_json(run/'blender-inputs.json')['inputs']['input']['sha256'],expected)
+            self.assertFalse((run/'blender-outputs.json').exists())

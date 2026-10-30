@@ -1,7 +1,7 @@
 # Local engines and motion interchange
 
 The backend group separates implementation, configuration, and runtime evidence.
-Adapter `describe(settings)` is exposed through unified capability discovery; configured
+Adapter `describe(settings)` is exposed through `python studio/studio.py capabilities`; configured
 paths do not imply a verified environment. A successful process or structural
 container check does not approve deformation, appearance, content, or rights.
 
@@ -23,7 +23,7 @@ inference. `export` and `retarget` save a new scene.blend and asset.glb, reopen 
 blend, then import the GLB into an empty scene. Checks compare mesh/armature counts,
 physical bounds and clip durations in seconds at the same FPS. Bone-display helper
 meshes are excluded from asset geometry counts. Exports scope the active scene and
-active actions. No visual review is implied. FBX, OBJ, GLB/glTF and blend can be
+active actions. Every Blender adapter invocation records blender-inputs.json with hashes of the primary input, motion and explicit map plus worker/code hashes. After execution it rejects changed inputs, then records blender-outputs.json with scene.blend, asset.glb and inspection.json hashes (inspection-only runs hash their inspection JSON). The output manifest binds the input-manifest hash, and an immutable event binds both manifests. These technical lineage records do not approve provenance rights or visual quality. No visual review is implied. FBX, OBJ, GLB/glTF and blend can be
 inspected/exported. Self-contained GLB is the preferred interchange artifact.
 
 The bpy 4.2 wheel on this host exits nonzero during teardown after successful glTF
@@ -53,7 +53,7 @@ parent hierarchy, applied object rotation/scale, one source action and one sourc
 and target armature. Different rest axes are rejected. Each integer source frame
 bakes local quaternion rotations; target bone lengths stay fixed, and root
 translation is copied in scene units. Source and target must already use meters
-and the same scene FPS. Arbitrary BVH conventions, rest-pose correction, IK,
+and the same scene FPS. Motion input currently requires .blend so source scene FPS and unit scale can be read before append; other motion formats are rejected until they have an explicit supported convention. Both source and target must use unit scale 1 and matching effective FPS. Effective evaluated rig world rotation/scale (including quaternion, axis-angle and inherited parent transforms) is validated at every sampled frame; rig and pose constraints are rejected. Arbitrary BVH conventions, rest-pose correction, IK,
 foot-contact cleanup, fingers and automatic skeleton matching are outside this
 profile. The CPU fixture verifies an actual pi/4 midpoint arm rotation, not only
 clip names. Production movement and deformation need visual review.

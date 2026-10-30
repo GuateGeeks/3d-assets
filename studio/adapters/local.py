@@ -232,11 +232,28 @@ def handler(args):
         if source is None: raise ValueError('Input required')
         return run_skin(args,source,run)
     if args.engine=='blender':
-        cmd=blender_command(args.settings.get('blender',{}),source,run,args.operation,motion=checked_path(args.workspace,args.motion) if args.motion else None,mapping=checked_path(args.workspace,args.mapping) if args.mapping else None)
-        if args.dry_run: return {'status':'NOT_RUN','command':cmd}
+        motion=checked_path(args.workspace,args.motion) if args.motion else None
+        mapping=checked_path(args.workspace,args.mapping) if args.mapping else None
+        inputs={role:{'path':str(path),'sha256':sha256(path),'bytes':path.stat().st_size} for role,path in [('input',source),('motion',motion),('mapping',mapping)] if path is not None}
+        input_manifest={'schemaVersion':1,'operation':args.operation,'inputs':inputs,'workerSha256':sha256(WORKER),'retargetCodeSha256':sha256(WORKER.with_name('retarget.py'))}
+        write_json(run/'blender-inputs.json',input_manifest)
+        cmd=blender_command(args.settings.get('blender',{}),source,run,args.operation,motion=motion,mapping=mapping)
+        if args.dry_run: return {'status':'NOT_RUN','command':cmd,'inputManifest':str(run/'blender-inputs.json'),'inputManifestSha256':sha256(run/'blender-inputs.json')}
         env=os.environ.copy(); env.update(CUDA_VISIBLE_DEVICES='',PYTHONDONTWRITEBYTECODE='1',OMP_NUM_THREADS='2')
         execute(cmd,run,timeout=args.timeout,env=env,name='blender')
-        return dict(read_json(run/'inspection.json'),run=str(run))
+        for entry in inputs.values():
+            path=Path(entry['path'])
+            if not path.is_file() or sha256(path)!=entry['sha256']:
+                record_event(run,{'stage':'blender-lineage','status':'FAIL','reason':'Input changed during execution','path':str(path)})
+                raise ValueError('Blender input changed during execution: '+str(path))
+        report=read_json(run/'inspection.json')
+        names=['inspection.json']+report.get('artifacts',[])
+        outputs=[{'path':name,'sha256':sha256(checked_path(run,name)),'bytes':checked_path(run,name).stat().st_size} for name in names]
+        output_manifest={'schemaVersion':1,'status':'PASS','inputsUnchanged':True,'inputManifestSha256':sha256(run/'blender-inputs.json'),'outputs':outputs}
+        write_json(run/'blender-outputs.json',output_manifest)
+        lineage={'inputManifest':str(run/'blender-inputs.json'),'inputManifestSha256':sha256(run/'blender-inputs.json'),'outputManifest':str(run/'blender-outputs.json'),'outputManifestSha256':sha256(run/'blender-outputs.json')}
+        record_event(run,{'stage':'blender-lineage','status':'PASS',**lineage})
+        return dict(report,run=str(run),lineage=lineage)
     config=args.settings.get('unirig',{})
     if source is None: raise ValueError('Candidate manifest required')
     cmd=unirig_command(config,source,args.operation,args.timeout)
