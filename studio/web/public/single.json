@@ -1,0 +1,1 @@
+{"schemaVersion":1,"kind":"scene","id":"solo","title":"Single object","duration":4,"mode":"interactive","instances":[{"id":"Solo","asset":"button","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"tracks":[{"target":"Solo","channel":"pressed","keyframes":[{"time":0,"value":0},{"time":2,"value":1},{"time":4,"value":0}]}]}
