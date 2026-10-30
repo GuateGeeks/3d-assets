@@ -1,0 +1,32 @@
+{
+  "result": "PASS",
+  "eligibleIds": [
+    "sketchfab-2d40c8805443463283c1b1547e50e650",
+    "sketchfab-5121e71e25dd4605879441c7e8f4c805",
+    "sketchfab-7d547122a8eb44f0a615492f454c1cf0",
+    "sketchfab-8145070b505c4d16aff1c46b026c3cd3",
+    "sketchfab-8c2273cb25154b50874739111aa51e8a",
+    "sketchfab-dd826f1f05c544ccb671949ebca59721"
+  ],
+  "sourceSha256ById": {
+    "sketchfab-2d40c8805443463283c1b1547e50e650": "42a80e978aa468f8ed0f6c9156d28a53dda47dd0eeab46e9adfe4d96c7cc1559",
+    "sketchfab-5121e71e25dd4605879441c7e8f4c805": "57af387aa27c2de175735e931d75a93c6c718854049e7a810fc69bcc9e4a516b",
+    "sketchfab-7d547122a8eb44f0a615492f454c1cf0": "3f8a657850e17de9b7ccbade6f62ad148b7ccba408c1880c0e26ec321277548e",
+    "sketchfab-8145070b505c4d16aff1c46b026c3cd3": "882bc7448fc46689789f4264eb973027ee970b9a3b121af26adb1b909aa89b9e",
+    "sketchfab-8c2273cb25154b50874739111aa51e8a": "702bcd0f16ab8565b7972114ec5bac2789c357cd085caf99e533870e73ca866e",
+    "sketchfab-dd826f1f05c544ccb671949ebca59721": "74e2d3c9e833eeaf2ab51aab8ceea45cf8ba070f7eb7202d22f5467061c17e15"
+  },
+  "displaySha256ById": {
+    "sketchfab-2d40c8805443463283c1b1547e50e650": "1389375fad134e37150d06cb30768f43074be8428de99345dcf5ccdf236788b0",
+    "sketchfab-5121e71e25dd4605879441c7e8f4c805": "260f2542bbd4bc9469d441c1194ae0e7046b8849c6433e01aaa43a8054002f54",
+    "sketchfab-7d547122a8eb44f0a615492f454c1cf0": "5f7ef76c0e41d61b20bb4ed6d25dffc3bcd230d7c5d4f3ef6736023fc9a761bf",
+    "sketchfab-8145070b505c4d16aff1c46b026c3cd3": "47f65dd0ac2196cf8b5bbe9d6031a6dc86a6c7c6f651e16534be6cb0c5a9f15c",
+    "sketchfab-8c2273cb25154b50874739111aa51e8a": "85308789e960da215195ceedcbd81f2ba30881b94f488ad70993ebf380b3fbb7",
+    "sketchfab-dd826f1f05c544ccb671949ebca59721": "df927afb92605de7dd7c3df4e44dd198e7da1de6aaf22a4c065005c883a569f1"
+  },
+  "images": {
+    "sources/external/institutions/sketchfab-compat-20261029/compatibility-contact.jpg": "ac4dcc13e6fe503e2388de6bcc0d168182e8c27145d0600cfd59e16864a3c105"
+  },
+  "method": "Opened and compared all six source/derived rows across six views. Same geometry/appearance in Blender; browser material verification follows.",
+  "educationalReview": "NOT_RUN"
+}

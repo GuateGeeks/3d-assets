@@ -23,3 +23,8 @@ Google Draco 1.5.6: Apache-2.0, [licencia conservada](gallery/vendor/draco/LICEN
 ## Renders de revisión de Sketchfab (29 de octubre de 2026)
 
 Las hojas de contacto conservadas en `sources/external/institutions/sketchfab-20261029/review/` muestran referencias con licencias individuales, incluidas cinco retenidas fuera de la galería. Los [créditos, autores, fuentes, licencias y cambios de cada render](sources/external/institutions/sketchfab-20261029/review-attributions.json) se conservan junto a las imágenes. Las condiciones NC y SA corresponden a las obras que las indiquen.
+
+
+## Vistas compatibles de materiales
+
+Seis referencias de Sketchfab usan derivados estáticos únicamente para mostrarse en el visor. El [inventario de compatibilidad](gallery/compat/index.json) conserva autor, atribución, licencia individual, cambios, hash del original y evidencias. Incluye una obra CC BY-NC 4.0 y cinco CC BY 4.0; las condiciones originales siguen vigentes. Los GLB nativos de descarga permanecen intactos.

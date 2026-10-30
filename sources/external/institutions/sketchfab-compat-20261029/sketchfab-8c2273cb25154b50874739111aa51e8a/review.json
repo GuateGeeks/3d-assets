@@ -1,0 +1,64 @@
+{
+  "id": "sketchfab-8c2273cb25154b50874739111aa51e8a",
+  "originalFile": "models/sketchfab-8c2273cb25154b50874739111aa51e8a/model.glb",
+  "originalSha256": "702bcd0f16ab8565b7972114ec5bac2789c357cd085caf99e533870e73ca866e",
+  "displaySha256": "85308789e960da215195ceedcbd81f2ba30881b94f488ad70993ebf380b3fbb7",
+  "displayBytes": 294632,
+  "tool": "Blender 5.2.3 LTS",
+  "source": {
+    "dimensionsBlender": [
+      415.9838562011719,
+      428.3380432128906,
+      62.35500717163086
+    ],
+    "boundsMinBlender": [
+      -172.07493591308594,
+      298.0298156738281,
+      25.152576446533203
+    ],
+    "boundsMaxBlender": [
+      243.90892028808594,
+      726.3678588867188,
+      87.50758361816406
+    ],
+    "meshObjects": 3,
+    "polygons": 132,
+    "vertices": 288,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "reimport": {
+    "dimensionsBlender": [
+      415.98388671875,
+      428.3379211425781,
+      62.355010986328125
+    ],
+    "boundsMinBlender": [
+      -172.07493591308594,
+      298.0296936035156,
+      25.152563095092773
+    ],
+    "boundsMaxBlender": [
+      243.90895080566406,
+      726.3676147460938,
+      87.50757598876953
+    ],
+    "meshObjects": 3,
+    "polygons": 132,
+    "vertices": 288,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.04283380432128907,
+  "nativeBytesUnchanged": true,
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "images": {
+    "source-back.png": "6e0f142720d59f0e6d95e3766e7c5faf22e2255389639722dd51ac47a75be010",
+    "source-side.png": "fbb8ebf0cf78cfc07a035b58d04921f5e3228241f9b7b9eff72e622e88275ae5",
+    "source-front.png": "f288257f516a3c936bac406608d51646193eaf394e13535812969f75b81d65d1",
+    "reimport-three-quarter.png": "3d2a907f2b75f31b1d7cb0b78b907dd15ddd9e781a683a234153e24a6c384a08",
+    "source-three-quarter.png": "794de319c64d9e8ff5b38811716396652bf3658d4b6c10102273beec51e2d03b",
+    "source-wireframe.png": "2459cf8b9d98fc556c6388ed9a54d2791683b5788480a2545513d284053aaa02"
+  }
+}

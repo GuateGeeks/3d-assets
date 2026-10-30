@@ -1,0 +1,64 @@
+{
+  "id": "sketchfab-dd826f1f05c544ccb671949ebca59721",
+  "originalFile": "models/sketchfab-dd826f1f05c544ccb671949ebca59721/model.glb",
+  "originalSha256": "74e2d3c9e833eeaf2ab51aab8ceea45cf8ba070f7eb7202d22f5467061c17e15",
+  "displaySha256": "df927afb92605de7dd7c3df4e44dd198e7da1de6aaf22a4c065005c883a569f1",
+  "displayBytes": 2330076,
+  "tool": "Blender 5.2.3 LTS",
+  "source": {
+    "dimensionsBlender": [
+      4965.2314453125,
+      4965.2314453125,
+      1255.04736328125
+    ],
+    "boundsMinBlender": [
+      -2482.616943359375,
+      -2482.6171875,
+      -644.5299072265625
+    ],
+    "boundsMaxBlender": [
+      2482.6142578125,
+      2482.614501953125,
+      610.5175170898438
+    ],
+    "meshObjects": 1,
+    "polygons": 78408,
+    "vertices": 39601,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "reimport": {
+    "dimensionsBlender": [
+      4965.2314453125,
+      4965.23046875,
+      1255.047607421875
+    ],
+    "boundsMinBlender": [
+      -2482.616943359375,
+      -2482.61669921875,
+      -644.5299682617188
+    ],
+    "boundsMaxBlender": [
+      2482.6142578125,
+      2482.614013671875,
+      610.5176391601562
+    ],
+    "meshObjects": 1,
+    "polygons": 78408,
+    "vertices": 39622,
+    "materials": 1,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.49652314453125,
+  "nativeBytesUnchanged": true,
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "images": {
+    "source-back.png": "7d8c97b60b5507458664f029664cf35f52abdf21aa83b889229a88fab6aedb4b",
+    "source-side.png": "ceb2eeeabe19c87757785b8e3f858104d2f58433fbc2eacf045fdd5a2169eddb",
+    "source-front.png": "c4173b9e6ec1c42df374c9a69c88a33a7697f1082ce152b82b3261b4df677b29",
+    "reimport-three-quarter.png": "dd27e6f09f9b280ca88fab598b64b1f571be9ced7de7b03eafb923b6316e0cfa",
+    "source-three-quarter.png": "05b59d2e65e56920b591c724e9b4e04d4a53709aba3728826b1ee4a2a16820dc",
+    "source-wireframe.png": "2a90ef3cdd07e50ddbc3347b0c9d50e4b1cccbcfed3fbafef608d9450ecf8f36"
+  }
+}

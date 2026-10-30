@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "id": "sketchfab-5121e71e25dd4605879441c7e8f4c805",
+  "sourceSha256": "57af387aa27c2de175735e931d75a93c6c718854049e7a810fc69bcc9e4a516b",
+  "displaySha256": "260f2542bbd4bc9469d441c1194ae0e7046b8849c6433e01aaa43a8054002f54",
+  "sourceVertices": 10102,
+  "displayVertices": 12650,
+  "polygons": 8104,
+  "meshObjects": 46,
+  "maxNearestVertexDistances": [
+    1.0115243185282452e-06,
+    1.0115243185282452e-06
+  ],
+  "absoluteTolerance": 5.3484525680541995e-05,
+  "method": "Bidirectional nearest world-space vertex distance, preserved polygon and object counts; accounts for floating-point serialization and split vertices."
+}

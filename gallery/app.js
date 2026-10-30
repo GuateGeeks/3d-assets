@@ -1,4 +1,4 @@
-import {chooseInitialModel} from './selection.mjs';
+import {chooseInitialModel,chooseDisplayVariant} from './selection.mjs';
 import {ModelViewerElement} from './vendor/model-viewer.min.js';
 ModelViewerElement.dracoDecoderLocation = new URL('./vendor/draco/', import.meta.url).href;
 const $ = (id) => document.getElementById(id);
@@ -10,7 +10,7 @@ const collator = new Intl.Collator('es', {sensitivity:'base',numeric:true});
 const number = n => new Intl.NumberFormat('es-GT').format(n);
 const size = bytes => bytes < 1048576 ? Math.round(bytes/1024)+' KB' : (bytes/1048576).toFixed(1)+' MB';
 const state = {area:'',provider:'',kit:'',view:'grouped',license:'',motion:'',sort:'featured',q:'',page:1};
-let kits=[],models=[], areas=[], selected=null, matches=[], loadSerial=0, toastTimer;
+let displayVariants=[],kits=[],models=[], areas=[], selected=null, matches=[], loadSerial=0, toastTimer;
 const aliases = {dog:'perro',cat:'gato',bird:'ave pajaro',frog:'rana',butterfly:'mariposa',turtle:'tortuga',tree:'arbol',flower:'flor flores',plant:'planta',mushroom:'hongo',fish:'pez peces',whale:'ballena',water:'agua',boat:'barco',volcano:'volcan',mountain:'montana',island:'isla',rock:'roca piedra',globe:'globo terraqueo',earth:'tierra',moon:'luna',planet:'planeta',rocket:'cohete',telescope:'telescopio',microscope:'microscopio',brain:'cerebro',heart:'corazon',skeleton:'esqueleto',skull:'craneo',tooth:'diente',corn:'maiz elote',banana:'banano platano',avocado:'aguacate',carrot:'zanahoria',apple:'manzana',cube:'cubo',sphere:'esfera',cone:'cono',dice:'dados dado',ruler:'regla',clock:'reloj',gear:'engranaje',battery:'bateria',computer:'computadora ordenador',keyboard:'teclado',book:'libro',pencil:'lapiz',backpack:'mochila',school:'escuela',desk:'escritorio',house:'casa',traffic:'trafico vial',bridge:'puente',bus:'autobus',bicycle:'bicicleta',car:'carro automovil',train:'tren',airplane:'avion',pyramid:'piramide',temple:'templo',guitar:'guitarra',drum:'tambor bateria',trumpet:'trompeta',paint:'pintura',soccer:'futbol',hammer:'martillo',wrench:'llave herramienta',saw:'sierra',recycle:'reciclaje',trash:'basura',farm:'granja',fence:'cerca',bench:'banca banco',door:'puerta',chest:'cofre',coffee:'cafe',toucan:'tucan',parrot:'loro'};
 const flagLabels = {'modular-assembly-piece':'Pieza para ensamblar: puede incluir superficies abiertas o de una sola cara. Revisa uniones, orientación y escala.','adult-beverage-classroom-review':'El kit incluye una bebida de uso adulto; revisar su adecuación a la actividad.','stylized-educational-model':'Representación estilizada; revisar su precisión y escala para la actividad.','gear-mechanics-review':'Engranaje de ilustración: verificar perfil, paso y pivote antes de simular transmisión mecánica.','third-party-animation-mentioned':'La descripción menciona una animación de terceros. Revisa su procedencia.','fantasy-or-combat-classroom-review':'Contenido de fantasía o combate: revisar su adecuación para la actividad.','brand-or-third-party-character-review':'Revisar marcas o personajes de terceros.','anatomy-accuracy-review':'La precisión anatómica necesita revisión docente.','cultural-or-species-identification-review':'Validar la identificación cultural, geográfica o de la especie.','api-animation-metadata-disagrees-with-glb':'El estado de animación del catálogo difiere del archivo. Aquí se usa lo encontrado en el GLB.','unrecognized-license':'La licencia requiere interpretación manual.','requested-object-not-confirmed':'El recurso no acredita uno o más objetos solicitados durante la búsqueda.'};
 Object.assign(flagLabels,{'detailed-reference-review':'Modelo detallado de un objeto real: revisar escala, precisión y adecuación a la actividad.','regional-label-review':'La rotulación del objeto pertenece a otra región; revisar su adecuación al contexto local.'});
@@ -71,7 +71,7 @@ async function selectModel(m,fromTile=false){
  $('play').setAttribute('aria-pressed','false');$('play').textContent='Reproducir';$('animation-row').hidden=true;$('viewer-error').hidden=true;$('loading').hidden=false;$('loading').textContent='Cargando vista 3D…';
  $('model-title').textContent=m.title;$('model-author').replaceChildren(document.createTextNode('Por '),Object.assign(el('a',m.author),{href:m.authorUrl,target:'_blank',rel:'noopener'}));
  viewer.alt='Modelo 3D de '+m.title+'. Arrastra o usa las flechas para rotar; usa los controles para acercar.';
- viewer.poster='gallery/thumbnails/'+encodeURIComponent(m.id)+'.webp';resetCamera();viewer.src=m.file;
+ viewer.poster='gallery/thumbnails/'+encodeURIComponent(m.id)+'.webp';resetCamera();const displayVariant=chooseDisplayVariant(m,displayVariants);viewer.src=displayVariant?.file||m.file;$('display-note').hidden=!displayVariant;
  $('model-facts').replaceChildren(el('span',size(m.bytes)),el('span',m.gltf.rigged?'Con esqueleto':'Sin esqueleto'),el('span',m.gltf.animations?m.gltf.animations+' clips':'Sin animaciones'));
  $('download').href=m.file;$('download').download=m.title.replace(/[^\p{L}\p{N}_-]/gu,'_')+'.glb';
  $('license-link').textContent=m.licenseRaw;$('license-link').href=m.license.url||'models/'+m.id+'/LICENSE.txt';
@@ -111,8 +111,8 @@ document.querySelectorAll('a[href="#catalog"]').forEach(link=>link.addEventListe
 document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&!e.altKey&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){e.preventDefault();$('search').focus();}});
 async function init(){
  if(location.protocol==='file:')throw new Error('Abre esta galería con el servidor local: python tools/serve_gallery.py. Después entra a http://127.0.0.1:4376/gallery.html');
- const [catalog,plan]=await Promise.all(['index.json','selection.json'].map(async path=>{const response=await fetch(path,{cache:'no-cache'});if(!response.ok)throw new Error('No se pudo cargar '+path);return response.json();}));
- models=catalog.models;kits=catalog.kits||[];areas=plan.areas;for(const m of models){m.providerId ||= 'poly-pizza';m.provider ||= 'Poly Pizza';}
+ const [catalog,plan,compatibility]=await Promise.all(['index.json','selection.json','gallery/compat/index.json'].map(async path=>{const response=await fetch(path,{cache:'no-cache'});if(!response.ok)throw new Error('No se pudo cargar '+path);return response.json();}));
+ displayVariants=compatibility.variants;models=catalog.models;kits=catalog.kits||[];areas=plan.areas;for(const m of models){m.providerId ||= 'poly-pizza';m.provider ||= 'Poly Pizza';}
  const params=new URLSearchParams(location.hash.slice(1));for(const key of ['area','provider','kit','view','license','motion','sort','q'])if(params.has(key))state[key]=params.get(key);state.page=Math.max(1,Number(params.get('page'))||1);
  if(!areas.some(a=>a.id===state.area))state.area='';
  const providers=[...new Map(models.map(m=>[m.providerId,m.provider])).entries()].sort((a,b)=>collator.compare(a[1],b[1]));

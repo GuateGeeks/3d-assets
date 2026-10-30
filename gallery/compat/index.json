@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Reviewed display-only material compatibility; native catalog and downloads unchanged. Licenses apply individually.",
+  "variants": [
+    {
+      "id": "sketchfab-2d40c8805443463283c1b1547e50e650",
+      "sourceFile": "models/sketchfab-2d40c8805443463283c1b1547e50e650/model.glb",
+      "sourceSha256": "42a80e978aa468f8ed0f6c9156d28a53dda47dd0eeab46e9adfe4d96c7cc1559",
+      "file": "gallery/compat/models/sketchfab-2d40c8805443463283c1b1547e50e650.glb",
+      "sha256": "1389375fad134e37150d06cb30768f43074be8428de99345dcf5ccdf236788b0",
+      "bytes": 987852,
+      "licenseRaw": "CC-BY 4.0",
+      "attribution": "\"Globe\", por padmadev2005 / Sketchfab. https://sketchfab.com/3d-models/2d40c8805443463283c1b1547e50e650. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "sourceUrl": "https://sketchfab.com/3d-models/2d40c8805443463283c1b1547e50e650",
+      "modifications": "Blender 5.2.3 LTS re-export to core PBR metallic/roughness for display compatibility. Static scene; unchanged native GLB remains the download. Geometry verified bidirectionally, source/reimport bounds and counts preserved.",
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS"
+      },
+      "technicalEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-2d40c8805443463283c1b1547e50e650/review.json",
+      "technicalEvidenceSha256": "ea922e0d55db5f9574d5e966491e4166057a044e141551323ee89a43d368a07b",
+      "geometryEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-2d40c8805443463283c1b1547e50e650/geometry-comparison.json",
+      "geometryEvidenceSha256": "a4a373056de65e1d3951531edcc97470e9223217cbf80782c9d9f77002148c03",
+      "visualEvidence": "sources/external/institutions/sketchfab-compat-20261029/visual-review.json",
+      "visualEvidenceSha256": "a66c21af2ba9e38c07f2664165130c41a161079341953466d357f5537ca26458"
+    },
+    {
+      "id": "sketchfab-5121e71e25dd4605879441c7e8f4c805",
+      "sourceFile": "models/sketchfab-5121e71e25dd4605879441c7e8f4c805/model.glb",
+      "sourceSha256": "57af387aa27c2de175735e931d75a93c6c718854049e7a810fc69bcc9e4a516b",
+      "file": "gallery/compat/models/sketchfab-5121e71e25dd4605879441c7e8f4c805.glb",
+      "sha256": "260f2542bbd4bc9469d441c1194ae0e7046b8849c6433e01aaa43a8054002f54",
+      "bytes": 659424,
+      "licenseRaw": "CC-BY 4.0",
+      "attribution": "\"Shop\", por alexandr.s.rudenko / Sketchfab. https://sketchfab.com/3d-models/5121e71e25dd4605879441c7e8f4c805. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "sourceUrl": "https://sketchfab.com/3d-models/5121e71e25dd4605879441c7e8f4c805",
+      "modifications": "Blender 5.2.3 LTS re-export to core PBR metallic/roughness for display compatibility. Static scene; unchanged native GLB remains the download. Geometry verified bidirectionally, source/reimport bounds and counts preserved.",
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS"
+      },
+      "technicalEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-5121e71e25dd4605879441c7e8f4c805/review.json",
+      "technicalEvidenceSha256": "e98fd05d99cc47e6ba74f633cb7fbf0e697430f4233ee30f42a6b592a467b54a",
+      "geometryEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-5121e71e25dd4605879441c7e8f4c805/geometry-comparison.json",
+      "geometryEvidenceSha256": "ea56a31b1cb3ef9329daeefb7d5e4bcac5bcf2d29009f5c22e1737e6721ed3f1",
+      "visualEvidence": "sources/external/institutions/sketchfab-compat-20261029/visual-review.json",
+      "visualEvidenceSha256": "a66c21af2ba9e38c07f2664165130c41a161079341953466d357f5537ca26458"
+    },
+    {
+      "id": "sketchfab-7d547122a8eb44f0a615492f454c1cf0",
+      "sourceFile": "models/sketchfab-7d547122a8eb44f0a615492f454c1cf0/model.glb",
+      "sourceSha256": "3f8a657850e17de9b7ccbade6f62ad148b7ccba408c1880c0e26ec321277548e",
+      "file": "gallery/compat/models/sketchfab-7d547122a8eb44f0a615492f454c1cf0.glb",
+      "sha256": "5f7ef76c0e41d61b20bb4ed6d25dffc3bcd230d7c5d4f3ef6736023fc9a761bf",
+      "bytes": 1035396,
+      "licenseRaw": "CC-BY-NC 4.0",
+      "attribution": "\"Playground\", por theJamieAnne / Sketchfab. https://sketchfab.com/3d-models/7d547122a8eb44f0a615492f454c1cf0. CC-BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/.",
+      "sourceUrl": "https://sketchfab.com/3d-models/7d547122a8eb44f0a615492f454c1cf0",
+      "modifications": "Blender 5.2.3 LTS re-export to core PBR metallic/roughness for display compatibility. Static scene; unchanged native GLB remains the download. Geometry verified bidirectionally, source/reimport bounds and counts preserved.",
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS"
+      },
+      "technicalEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-7d547122a8eb44f0a615492f454c1cf0/review.json",
+      "technicalEvidenceSha256": "ddf1b3134c45431590eccbd8874de11e9b65bfa2d92919c94f6dc492787d3f1d",
+      "geometryEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-7d547122a8eb44f0a615492f454c1cf0/geometry-comparison.json",
+      "geometryEvidenceSha256": "b232b2c62c8d84353165e70e3a1a85f53379950dbd94e12696b6eb4fa20e043e",
+      "visualEvidence": "sources/external/institutions/sketchfab-compat-20261029/visual-review.json",
+      "visualEvidenceSha256": "a66c21af2ba9e38c07f2664165130c41a161079341953466d357f5537ca26458"
+    },
+    {
+      "id": "sketchfab-8145070b505c4d16aff1c46b026c3cd3",
+      "sourceFile": "models/sketchfab-8145070b505c4d16aff1c46b026c3cd3/model.glb",
+      "sourceSha256": "882bc7448fc46689789f4264eb973027ee970b9a3b121af26adb1b909aa89b9e",
+      "file": "gallery/compat/models/sketchfab-8145070b505c4d16aff1c46b026c3cd3.glb",
+      "sha256": "47f65dd0ac2196cf8b5bbe9d6031a6dc86a6c7c6f651e16534be6cb0c5a9f15c",
+      "bytes": 316516,
+      "licenseRaw": "CC-BY 4.0",
+      "attribution": "\"Tennis Racquet\", por Jakob Henerey / Sketchfab. https://sketchfab.com/3d-models/8145070b505c4d16aff1c46b026c3cd3. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "sourceUrl": "https://sketchfab.com/3d-models/8145070b505c4d16aff1c46b026c3cd3",
+      "modifications": "Blender 5.2.3 LTS re-export to core PBR metallic/roughness for display compatibility. Static scene; unchanged native GLB remains the download. Geometry verified bidirectionally, source/reimport bounds and counts preserved.",
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS"
+      },
+      "technicalEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-8145070b505c4d16aff1c46b026c3cd3/review.json",
+      "technicalEvidenceSha256": "21104166758295318cfb05e8be045801116aa3c7cf3f466de8998c4520c12c92",
+      "geometryEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-8145070b505c4d16aff1c46b026c3cd3/geometry-comparison.json",
+      "geometryEvidenceSha256": "eb1b15d48d0bcfa177205bf63f457979335029fd80ac4c85cb100fc178819585",
+      "visualEvidence": "sources/external/institutions/sketchfab-compat-20261029/visual-review.json",
+      "visualEvidenceSha256": "a66c21af2ba9e38c07f2664165130c41a161079341953466d357f5537ca26458"
+    },
+    {
+      "id": "sketchfab-8c2273cb25154b50874739111aa51e8a",
+      "sourceFile": "models/sketchfab-8c2273cb25154b50874739111aa51e8a/model.glb",
+      "sourceSha256": "702bcd0f16ab8565b7972114ec5bac2789c357cd085caf99e533870e73ca866e",
+      "file": "gallery/compat/models/sketchfab-8c2273cb25154b50874739111aa51e8a.glb",
+      "sha256": "85308789e960da215195ceedcbd81f2ba30881b94f488ad70993ebf380b3fbb7",
+      "bytes": 294632,
+      "licenseRaw": "CC-BY 4.0",
+      "attribution": "\"Pizza\", por Ruslan Malovsky / Sketchfab. https://sketchfab.com/3d-models/8c2273cb25154b50874739111aa51e8a. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "sourceUrl": "https://sketchfab.com/3d-models/8c2273cb25154b50874739111aa51e8a",
+      "modifications": "Blender 5.2.3 LTS re-export to core PBR metallic/roughness for display compatibility. Static scene; unchanged native GLB remains the download. Geometry verified bidirectionally, source/reimport bounds and counts preserved.",
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS"
+      },
+      "technicalEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-8c2273cb25154b50874739111aa51e8a/review.json",
+      "technicalEvidenceSha256": "b2626174a00cb42808d072296fa1fdbe519d27294929874ed0c9e28885170f02",
+      "geometryEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-8c2273cb25154b50874739111aa51e8a/geometry-comparison.json",
+      "geometryEvidenceSha256": "a26db55c1a20dce07f6e002b9fa6e093386fba0d7dbb00ded07f80566304fa12",
+      "visualEvidence": "sources/external/institutions/sketchfab-compat-20261029/visual-review.json",
+      "visualEvidenceSha256": "a66c21af2ba9e38c07f2664165130c41a161079341953466d357f5537ca26458"
+    },
+    {
+      "id": "sketchfab-dd826f1f05c544ccb671949ebca59721",
+      "sourceFile": "models/sketchfab-dd826f1f05c544ccb671949ebca59721/model.glb",
+      "sourceSha256": "74e2d3c9e833eeaf2ab51aab8ceea45cf8ba070f7eb7202d22f5467061c17e15",
+      "file": "gallery/compat/models/sketchfab-dd826f1f05c544ccb671949ebca59721.glb",
+      "sha256": "df927afb92605de7dd7c3df4e44dd198e7da1de6aaf22a4c065005c883a569f1",
+      "bytes": 2330076,
+      "licenseRaw": "CC-BY 4.0",
+      "attribution": "\"Great Mountain\", por Gesy / Sketchfab. https://sketchfab.com/3d-models/dd826f1f05c544ccb671949ebca59721. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+      "sourceUrl": "https://sketchfab.com/3d-models/dd826f1f05c544ccb671949ebca59721",
+      "modifications": "Blender 5.2.3 LTS re-export to core PBR metallic/roughness for display compatibility. Static scene; unchanged native GLB remains the download. Geometry verified bidirectionally, source/reimport bounds and counts preserved.",
+      "qa": {
+        "technical": "PASS",
+        "visual": "PASS",
+        "rights": "PASS"
+      },
+      "technicalEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-dd826f1f05c544ccb671949ebca59721/review.json",
+      "technicalEvidenceSha256": "1b484cced5c127e2f64f97cebbb140a85b9b87c3ab85c136c1c2e562745baf39",
+      "geometryEvidence": "sources/external/institutions/sketchfab-compat-20261029/sketchfab-dd826f1f05c544ccb671949ebca59721/geometry-comparison.json",
+      "geometryEvidenceSha256": "816155fdff3094ba77c3b24a371ad90595551d847181103451d4de44b5988b37",
+      "visualEvidence": "sources/external/institutions/sketchfab-compat-20261029/visual-review.json",
+      "visualEvidenceSha256": "a66c21af2ba9e38c07f2664165130c41a161079341953466d357f5537ca26458"
+    }
+  ]
+}

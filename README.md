@@ -130,3 +130,5 @@ La ampliación de NASA, Smithsonian y Sketchfab incorpora 24 GLB nativos, licenc
 Se incorporaron **107 GLB nativos**: Sketchfab pasa de **8 a 115 referencias**, y el catálogo de **1045 a 1152**. Las incorporaciones abarcan las **23 áreas** y conservan autores, licencias, atribuciones, ZIP de originales y evidencias. Cinco candidatos descargados quedan retenidos por legibilidad o encuadre.
 
 El [informe de revisión](docs/SKETCHFAB-20261029.md), el [inventario de 3150 candidatos](sources/external/institutions/sketchfab-20261029/discovery.json) y las [decisiones visuales](sources/external/institutions/sketchfab-20261029/review-notes.json) permiten inspeccionar selección y descartes. La búsqueda revisó 134 términos del plan y tres consultas de contexto; quedan páginas adicionales en Sketchfab. La asociación temática y la escala siguen pendientes de revisión docente.
+
+Seis modelos con materiales heredados disponen de [vistas compatibles revisadas](gallery/compat/index.json). La galería las utiliza para conservar colores y texturas; el botón Descargar GLB entrega siempre el original. Estos derivados no aumentan el recuento del catálogo.
