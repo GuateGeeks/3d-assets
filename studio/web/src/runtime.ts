@@ -37,6 +37,7 @@ export class Runtime{
  input(id:string,c:Channel,v:number){if(!Number.isFinite(v)||!this.assets.get(id)?.channels.includes(c))return;
   if(this.mode==='timeline'&&this.spec.tracks.some(t=>t.target===id&&t.channel===c))return;this.apply(id,c,THREE.MathUtils.clamp(v,c==='pressed'?0:-180,c==='pressed'?1:180))}
  release(){for(const [id,a]of this.assets)if(a.channels.includes('pressed'))this.input(id,'pressed',0)}
+ reset(){this.playing=false;this.values.clear();for(const [id,asset]of this.assets){for(const channel of asset.channels)this.apply(id,channel,0);asset.setClip(0)}this.seek(0)}
  setMode(mode:Mode){this.release();this.mode=mode;this.seek(this.time)}
  seek(time:number){this.time=THREE.MathUtils.clamp(time,0,this.spec.duration);for(const a of this.assets.values())a.seek(this.time);
   if(this.mode==='timeline')for(const t of this.spec.tracks)this.apply(t.target,t.channel,sample(t,this.time))}

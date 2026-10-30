@@ -76,3 +76,18 @@ it('enforces schema IDs, a nonempty title and one or more instances',()=>{
   const s=scene();change(s);expect(()=>validateScene(s)).toThrow();
  }
 });
+it('reset clears every interactive channel, clip pose, time and playback while preserving scene transforms',()=>{
+ const spec=validateScene({schemaVersion:1,kind:'scene',id:'reset',title:'Reset',duration:4,mode:'interactive',instances:[
+ {id:'servo',asset:'servo',position:[2,0,0],rotation:[0,.5,0],scale:[2,2,2]},
+ {id:'button',asset:'button',position:[0,0,0],rotation:[0,0,0],scale:[1,1,1]},
+ {id:'rig',asset:'character',position:[-2,0,0],rotation:[0,0,0],scale:[1,1,1]}],tracks:[]});
+ const r=new Runtime(spec);for(const i of spec.instances)r.add(i.id,createBuiltin(i.asset));
+ r.input('servo','angle',90);r.input('button','pressed',1);r.assets.get('rig')!.setClip(1);r.seek(1);r.play();r.reset();
+ expect(r.value('servo','angle')).toBe(0);expect(r.value('button','pressed')).toBe(0);expect(r.time).toBe(0);expect(r.playing).toBe(false);
+ expect(r.assets.get('rig')!.clipIndex).toBe(0);expect(r.assets.get('rig')!.root.getObjectByName('LeftArm')!.quaternion.z).toBeCloseTo(0);
+ expect(r.assets.get('servo')!.root.position.x).toBe(2);expect(r.assets.get('servo')!.root.rotation.y).toBe(.5);expect(r.assets.get('servo')!.root.scale.x).toBe(2);r.dispose();
+});
+it('timeline reset reapplies authored time-zero values after clearing prior input',()=>{
+ const s=scene();s.tracks[0].keyframes[0].value=.25;const r=new Runtime(validateScene(s));r.add('b',createBuiltin('button'));r.seek(2);r.play();r.reset();
+ expect(r.value('b','pressed')).toBe(.25);expect(r.time).toBe(0);expect(r.playing).toBe(false);r.dispose();
+});

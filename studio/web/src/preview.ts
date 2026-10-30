@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
-import demo from '../public/demo.scene.json';
+import demo from './demo.scene.json';
 import {createBuiltin,loadGLB} from './assets';
 import {Runtime,ResourceScope,bindHold,projectAnchor,validateScene,type Asset,type Mode,type SceneSpec} from './runtime';
 export function mountPreview(host:HTMLElement):()=>void{
@@ -19,11 +19,11 @@ export function mountPreview(host:HTMLElement):()=>void{
  const scope=new ResourceScope();scope.own(sun.shadow);
  const ground=new THREE.Mesh(scope.own(new THREE.PlaneGeometry(200,200)),scope.own(new THREE.MeshStandardMaterial({color:0xdde2dc,roughness:.9})));ground.rotation.x=-Math.PI/2;ground.position.y=-.012;ground.receiveShadow=true;scene.add(ground);
  const grid=new THREE.GridHelper(30,60,0xbdc9bf,0xd0d8cf);grid.position.y=-.008;scene.add(grid);scope.own(grid.geometry);for(const m of Array.isArray(grid.material)?grid.material:[grid.material])scope.own(m);
- let runtime:Runtime|undefined,selected='',disposed=false,generation=0,requestGeneration=0,loadController:AbortController|undefined,unbindHold:(()=>void)|undefined;
+ let runtime:Runtime|undefined,selected='',disposed=false,generation=0,requestGeneration=0,loadController:AbortController|undefined,jsonController:AbortController|undefined,unbindHold:(()=>void)|undefined;
  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
  const listeners:(()=>void)[]=[];const on=(target:EventTarget,type:string,fn:EventListener)=>{target.addEventListener(type,fn);listeners.push(()=>target.removeEventListener(type,fn))};
  const timeline=q<HTMLInputElement>('#timeline'),mode=q<HTMLSelectElement>('#mode'),play=q<HTMLButtonElement>('#play'),dialog=q<HTMLDialogElement>('dialog');
- function fail(e:unknown){error.hidden=false;error.textContent=e instanceof Error?e.message:String(e)}
+ function fail(e:unknown){if(disposed||(e instanceof DOMException&&e.name==='AbortError'))return;error.hidden=false;error.textContent=e instanceof Error?e.message:String(e)}
  function sync(){
   if(!runtime)return;timeline.value=String(runtime.time);q('#clock').textContent=runtime.time.toFixed(2);
   play.textContent=runtime.playing?'Ⅱ':'▶';play.setAttribute('aria-label',runtime.playing?'Pause timeline':'Play timeline');
@@ -36,7 +36,7 @@ export function mountPreview(host:HTMLElement):()=>void{
   if(!runtime)return;unbindHold?.();selected=id;
   for(const node of q('#objects').querySelectorAll('button'))node.setAttribute('aria-pressed',String(node.dataset.id===id));
   for(const node of labels.querySelectorAll('button'))node.classList.toggle('selected',node.dataset.id===id);
-  const asset=runtime.assets.get(id)!;q('#selection').textContent=id;const clip=q<HTMLSelectElement>('#clip');clip.replaceChildren();asset.clips.forEach((c,index)=>{const option=document.createElement('option');option.value=String(index);option.textContent=c.name;clip.append(option)});clip.value=String(asset.clipIndex);clip.disabled=!asset.clips.length;
+  const asset=runtime.assets.get(id)!;q('#selection').textContent=id;const clip=q<HTMLSelectElement>('#clip');clip.replaceChildren();asset.clips.forEach((c,index)=>{const option=document.createElement('option');option.value=String(index);option.textContent=c.name;clip.append(option)});if(!asset.clips.length){const none=document.createElement('option');none.value='0';none.textContent='None';clip.append(none)}clip.value=String(asset.clipIndex);clip.disabled=!asset.clips.length;
   const channel=asset.channels[0],owned=runtime.mode==='timeline'&&runtime.spec.tracks.some(t=>t.target===id&&t.channel===channel);
   q('#description').textContent=channel==='pressed'?'A momentary mechanical switch.':channel==='angle'?'A rotary actuator with a moving horn.':'An articulated character with a skeletal animation clip.';
   q('#ownership').textContent=owned?'Timeline controls this channel.':reduced.matches?'Reduced motion: use the scrubber to inspect each pose.':'Interactive controls are ready.';
@@ -73,16 +73,16 @@ export function mountPreview(host:HTMLElement):()=>void{
    error.hidden=true;refreshOverlays();frame();
   }catch(e){next.dispose();if(!(e instanceof DOMException&&e.name==='AbortError'))throw e}
  }
- async function openURL(relative:string){const request=++requestGeneration;
+ async function openURL(relative:string){const request=++requestGeneration;jsonController?.abort();const controller=new AbortController();jsonController=controller;
   const url=new URL(relative,location.href);if(url.origin!==location.origin||!['http:','https:'].includes(url.protocol))throw new Error('Choose a scene URL on this server.');
-  const response=await fetch(url);if(request!==requestGeneration||disposed)return;if(!response.ok||!response.headers.get('content-type')?.includes('json'))throw new Error('Scene request failed: '+response.status);const raw=await response.json();if(request!==requestGeneration||disposed)return;await load(raw,url.href);
+  const response=await fetch(url,{signal:controller.signal});if(request!==requestGeneration||disposed)return;if(!response.ok||!response.headers.get('content-type')?.includes('json'))throw new Error('Scene request failed: '+response.status);const raw=await response.json();if(request!==requestGeneration||disposed)return;await load(raw,url.href);
  }
  on(q('#load'),'click',()=>dialog.showModal());on(q('#close-dialog'),'click',()=>dialog.close());
  on(q('form'),'submit',e=>{e.preventDefault();dialog.close();openURL(q<HTMLInputElement>('#scene-url').value).catch(fail)});
  on(q('#frame'),'click',frame);on(mode,'change',()=>{runtime?.setMode(mode.value as Mode);if(selected)select(selected)});
  on(timeline,'input',()=>{runtime?.seek(Number(timeline.value));sync()});
  on(play,'click',()=>{if(runtime){if(runtime.playing)runtime.playing=false;else runtime.play();sync()}});
- on(q('#reset'),'click',()=>{if(runtime){runtime.playing=false;runtime.release();runtime.seek(0);sync()}});
+ on(q('#reset'),'click',()=>{if(runtime){runtime.reset();if(selected)select(selected);sync()}});
  on(window,'blur',()=>{runtime?.release();if(runtime)runtime.playing=false;sync()});
  on(document,'visibilitychange',()=>{if(document.hidden){runtime?.release();if(runtime)runtime.playing=false;sync()}});
  on(reduced,'change',()=>{if(runtime){runtime.playing=false;runtime.reducedMotion=reduced.matches&&!q<HTMLInputElement>('#allow-motion').checked}sync()});
@@ -110,5 +110,5 @@ export function mountPreview(host:HTMLElement):()=>void{
   for(const o of overlays)if(o instanceof THREE.BoxHelper)o.update();renderer.render(scene,camera);q('#diagnostics').textContent='WebGL 2 · '+renderer.info.render.calls+' draw calls · '+renderer.info.render.triangles.toLocaleString()+' triangles';handle=requestAnimationFrame(tick)
  }handle=requestAnimationFrame(tick);
  const initial=new URLSearchParams(location.search).get('scene');(initial?openURL(initial):load(demo,location.href)).catch(fail);
- return()=>{if(disposed)return;disposed=true;generation++;loadController?.abort();cancelAnimationFrame(handle);unbindHold?.();for(const unbind of listeners)unbind();resize.disconnect();controls.dispose();clearOverlays();runtime?.dispose();scope.dispose();renderer.dispose();renderer.forceContextLoss();host.replaceChildren()};
+ return()=>{if(disposed)return;disposed=true;generation++;requestGeneration++;jsonController?.abort();loadController?.abort();cancelAnimationFrame(handle);unbindHold?.();for(const unbind of listeners)unbind();resize.disconnect();controls.dispose();clearOverlays();runtime?.dispose();scope.dispose();renderer.dispose();renderer.forceContextLoss();host.replaceChildren()};
 }
