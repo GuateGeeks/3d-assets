@@ -1,6 +1,6 @@
 # Bosques y plantas
 
-130 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+138 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -132,5 +132,13 @@
 | [Pine Trees](https://poly.pizza/m/oYtDty0fR6) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oYtDty0fR6/model.glb) | 0 / 0 |
 | [Bandeja de semillero](https://polyhaven.com/a/seeding_tray_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-seeding-tray-01/model.glb) | 0 / 0 |
 | [Regadera metálica](https://polyhaven.com/a/watering_can_metal_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Charles Nderitu | [GLB](../../models/polyhaven-watering-can-metal-01/model.glb) | 0 / 0 |
+| [Flor](https://sketchfab.com/3d-models/0a0f5b4e595940649ea3cabeb7a4b1e1) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | alexerhart | [GLB](../../models/sketchfab-0a0f5b4e595940649ea3cabeb7a4b1e1/model.glb) | 0 / 0 |
+| [Planta de café](https://sketchfab.com/3d-models/0c5c4cd4e79b4015811914203d599b9d) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | neutralize | [GLB](../../models/sketchfab-0c5c4cd4e79b4015811914203d599b9d/model.glb) | 0 / 0 |
+| [Manzano de baja poligonización](https://sketchfab.com/3d-models/0fa93c551d8449808cc1f85c4238bf93) | Sketchfab | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Avramania | [GLB](../../models/sketchfab-0fa93c551d8449808cc1f85c4238bf93/model.glb) | 0 / 0 |
+| [Flores de baja poligonización](https://sketchfab.com/3d-models/28cbfa4fa9b0490ea70b2d9eb5867bb6) | Sketchfab | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Avramania | [GLB](../../models/sketchfab-28cbfa4fa9b0490ea70b2d9eb5867bb6/model.glb) | 0 / 0 |
+| [Cactus](https://sketchfab.com/3d-models/6f404e05d47d42998be25eb58f46c205) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Victoria Reinhold | [GLB](../../models/sketchfab-6f404e05d47d42998be25eb58f46c205/model.glb) | 0 / 0 |
+| [Ceiba: representación estilizada](https://sketchfab.com/3d-models/cae1ee999031436389b356017287724f) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 010074164 | [GLB](../../models/sketchfab-cae1ee999031436389b356017287724f/model.glb) | 0 / 0 |
+| [Planta de tomate](https://sketchfab.com/3d-models/e0b559690e384fc0a9f3a05913f609c4) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | zvanstone | [GLB](../../models/sketchfab-e0b559690e384fc0a9f3a05913f609c4/model.glb) | 0 / 0 |
+| [Conjunto de hongos estilizados](https://sketchfab.com/3d-models/f9dbd4c34a4f4389bf3901527ecc89a0) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | leha_pu | [GLB](../../models/sketchfab-f9dbd4c34a4f4389bf3901527ecc89a0/model.glb) | 0 / 0 |
 | [Lycaste virginalis · planta en maceta](https://3d.si.edu/object/3d/5ff6e90a-4ddb-4eea-a69c-40970f85fbcb) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / Smithsonian Gardens | [GLB](../../models/smithsonian-lycaste-virginalis-1/model.glb) | 0 / 0 |
 | [Lycaste virginalis · flor](https://3d.si.edu/object/3d/42e8e95f-1b67-4135-8728-cdc7aa277997) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / Smithsonian Gardens | [GLB](../../models/smithsonian-lycaste-virginalis-2/model.glb) | 0 / 0 |

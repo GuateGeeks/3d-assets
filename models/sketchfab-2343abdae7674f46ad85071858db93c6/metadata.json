@@ -1,0 +1,112 @@
+{
+  "id": "sketchfab-2343abdae7674f46ad85071858db93c6",
+  "assetId": "sketchfab:2343abdae7674f46ad85071858db93c6",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Balón de baloncesto",
+  "titleOriginal": "Basketball",
+  "author": "afurokn",
+  "authorUrl": "https://sketchfab.com/afurokn",
+  "sourceUrl": "https://sketchfab.com/3d-models/2343abdae7674f46ad85071858db93c6",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/2343abdae7674f46ad85071858db93c6",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/2343abdae7674f46ad85071858db93c6/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para basketball. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Basketball",
+    "sketchfab-edu-basketball"
+  ],
+  "areas": [
+    "deporte-recreacion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Educación Física"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Basketball\", por afurokn / Sketchfab. https://sketchfab.com/3d-models/2343abdae7674f46ad85071858db93c6. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-2343abdae7674f46ad85071858db93c6/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-2343abdae7674f46ad85071858db93c6/metadata.json",
+  "originalDownload": "models/sketchfab-2343abdae7674f46ad85071858db93c6/originals.zip",
+  "bytes": 47428,
+  "sha256": "cd342ddf7b826b459ddd8099fa0682fab76ae92e9b871b906eb2187c309ef6a2",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 5,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.356736+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-2343abdae7674f46ad85071858db93c6/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/2343abdae7674f46ad85071858db93c6/download",
+        "bytes": 47428,
+        "sha256": "cd342ddf7b826b459ddd8099fa0682fab76ae92e9b871b906eb2187c309ef6a2"
+      }
+    ],
+    "originalDownloadSha256": "03dad9282e73a50633a0f918b8ee7a24a0088dc76ec1499296416cfc3d63aebb",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      1.9401999711990356,
+      1.9402002096176147,
+      1.9386802911758423
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-2343abdae7674f46ad85071858db93c6/license-evidence.json",
+    "licenseEvidenceSha256": "a23b20c4b69844353b52ac69ee9984b5813e0e56358d25edadc03b16ad99f577",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-2343abdae7674f46ad85071858db93c6/metadata.json",
+    "metadataEvidenceSha256": "b7f22c763736efed1dafb63aab9aefc1b0306aaed0bc6c229d163c87f6f04588",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-2343abdae7674f46ad85071858db93c6/technical-review.json",
+    "technicalReviewEvidenceSha256": "c91856e96e9bed58dc60178aaf8685c63aed3ff982ca0187ffc3eb1f48b13fda",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "1174ff487dad89ff4312db47098296bf29abdaf3b9612bbc2fc68352b10b25ea",
+      "triangles": 1184
+    }
+  }
+}

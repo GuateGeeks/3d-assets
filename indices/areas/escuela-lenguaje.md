@@ -1,6 +1,6 @@
 # Escuela, lectura y vocabulario
 
-16 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+21 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -17,6 +17,11 @@
 | [school desk](https://poly.pizza/m/eP6XIy9ox83) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Jonathan Granskog | [GLB](../../models/eP6XIy9ox83/model.glb) | 0 / 0 |
 | [Schoolhouse](https://poly.pizza/m/ftnL_OvlkCx) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/ftnL_OvlkCx/model.glb) | 0 / 0 |
 | [Lupa](https://polyhaven.com/a/magnifying_glass_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Nazar Borodavka | [GLB](../../models/polyhaven-magnifying-glass-01/model.glb) | 0 / 0 |
+| [Mochila](https://sketchfab.com/3d-models/2ad86321197a49feb54b7726743d7fd0) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Thomas Lean | [GLB](../../models/sketchfab-2ad86321197a49feb54b7726743d7fd0/model.glb) | 0 / 0 |
+| [Caja de pizza](https://sketchfab.com/3d-models/8c2273cb25154b50874739111aa51e8a) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Ruslan Malovsky | [GLB](../../models/sketchfab-8c2273cb25154b50874739111aa51e8a/model.glb) | 0 / 0 |
+| [Lápiz](https://sketchfab.com/3d-models/e67db84c8d2442519353afbae5220de0) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Akshat | [GLB](../../models/sketchfab-e67db84c8d2442519353afbae5220de0/model.glb) | 0 / 0 |
+| [Escritorio de baja poligonización](https://sketchfab.com/3d-models/ed62a64f51bf4d80a13e1344093c3909) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Pedro Belthori | [GLB](../../models/sketchfab-ed62a64f51bf4d80a13e1344093c3909/model.glb) | 0 / 0 |
+| [Libro](https://sketchfab.com/3d-models/fc1b43e332d147edb7dca8f89cffa4d7) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Eric Fan | [GLB](../../models/sketchfab-fc1b43e332d147edb7dca8f89cffa4d7/model.glb) | 0 / 0 |
 | [Backpack](https://poly.pizza/m/uRRsiIZKHG) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | J-Toastie | [GLB](../../models/uRRsiIZKHG/model.glb) | 0 / 0 |
 | [Standing Desk](https://poly.pizza/m/uxIo5ge0pw) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | dook | [GLB](../../models/uxIo5ge0pw/model.glb) | 0 / 0 |
 | [Backpack](https://poly.pizza/m/vF7TuXCPDH) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/vF7TuXCPDH/model.glb) | 0 / 0 |

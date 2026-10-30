@@ -1,3 +1,4 @@
+import {chooseInitialModel} from './selection.mjs';
 import {ModelViewerElement} from './vendor/model-viewer.min.js';
 ModelViewerElement.dracoDecoderLocation = new URL('./vendor/draco/', import.meta.url).href;
 const $ = (id) => document.getElementById(id);
@@ -129,7 +130,7 @@ async function init(){
   m.searchText=fold([m.title,m.author,m.provider,...m.tags,...m.queries.filter(q=>!m.unfulfilledQueries?.includes(q)),...m.subjects,...m.areas.map(id=>areas.find(a=>a.id===id)?.title||''),...translated].join(' '));
  }
  $('total').textContent=number(models.length)+' modelos para Code Studio y Sócrates · '+areas.length+' áreas';
- areaNav();const first=models.find(m=>m.id===params.get('model'))||models.find(m=>m.id===preferred[0])||models[0];selected=first||null;render();if(first)selectModel(first);
+ areaNav();selected=models.find(m=>m.id===params.get('model'))||null;render();const first=chooseInitialModel(models,{requestedId:params.get('model'),preferredId:preferred[0],eligibleIds:matches.map(m=>m.id)});if(first)selectModel(first);else{$('loading').hidden=true;$('model-title').textContent='Selecciona un modelo de la galería';}
 }
 if(new URLSearchParams(location.search).get('lab')!=='1')init().catch(error=>{$('fatal').hidden=false;$('fatal').textContent=error.message;$('total').textContent='No se pudo abrir el catálogo';$('loading').hidden=true;});
 

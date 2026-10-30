@@ -1,0 +1,114 @@
+{
+  "id": "sketchfab-e93a906eb38343c4a14458a637136329",
+  "assetId": "sketchfab:e93a906eb38343c4a14458a637136329",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Bandada de aves en vuelo",
+  "titleOriginal": "Bird",
+  "author": "Blender Artist",
+  "authorUrl": "https://sketchfab.com/moizmuhammad373",
+  "sourceUrl": "https://sketchfab.com/3d-models/e93a906eb38343c4a14458a637136329",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/e93a906eb38343c4a14458a637136329",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/e93a906eb38343c4a14458a637136329/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para bird. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Bird",
+    "sketchfab-edu-bird"
+  ],
+  "areas": [
+    "animales-biodiversidad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Bird\", por Blender Artist / Sketchfab. https://sketchfab.com/3d-models/e93a906eb38343c4a14458a637136329. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-e93a906eb38343c4a14458a637136329/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-e93a906eb38343c4a14458a637136329/metadata.json",
+  "originalDownload": "models/sketchfab-e93a906eb38343c4a14458a637136329/originals.zip",
+  "bytes": 190828,
+  "sha256": "8c16800911a4e683d95b7fc48362266594b6c9f32e2bd4cdd78624a52d220d5d",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 10,
+    "nodes": 84,
+    "materials": 2,
+    "skins": 5,
+    "joints": 50,
+    "rigged": true,
+    "animated": true,
+    "animations": 1,
+    "animationNames": [
+      "Scene"
+    ],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:42.688677+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-e93a906eb38343c4a14458a637136329/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/e93a906eb38343c4a14458a637136329/download",
+        "bytes": 190828,
+        "sha256": "8c16800911a4e683d95b7fc48362266594b6c9f32e2bd4cdd78624a52d220d5d"
+      }
+    ],
+    "originalDownloadSha256": "9a76f4dfd48235a0b51dc4c648d30a088910e0de279e1f53c6ea9dfa539cd857",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      1.0646641254425049,
+      1.1825569868087769,
+      0.22888733446598053
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-e93a906eb38343c4a14458a637136329/license-evidence.json",
+    "licenseEvidenceSha256": "cdcba5aceb6d51125ce75eb87859db604fe5b554e278903bb3616ac4b8efc8cf",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-e93a906eb38343c4a14458a637136329/metadata.json",
+    "metadataEvidenceSha256": "c14e44807bf8d43a992e07afc7a94f8d47e7a566d580ccb73413edafdec6bf26",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-e93a906eb38343c4a14458a637136329/technical-review.json",
+    "technicalReviewEvidenceSha256": "e33da9d24e91d5fb30d664827a292da54fa7f66e7ea017b4e5df422bca4534b8",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "31e03b667058df6094f012c2d04682d28e9174eae4cf3466aee252a4ac73e7f4",
+      "triangles": 810
+    }
+  }
+}

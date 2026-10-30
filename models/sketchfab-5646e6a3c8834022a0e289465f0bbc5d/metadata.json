@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-5646e6a3c8834022a0e289465f0bbc5d",
+  "assetId": "sketchfab:5646e6a3c8834022a0e289465f0bbc5d",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Casa en el bosque",
+  "titleOriginal": "Forest House",
+  "author": "Wesai",
+  "authorUrl": "https://sketchfab.com/Wesai",
+  "sourceUrl": "https://sketchfab.com/3d-models/5646e6a3c8834022a0e289465f0bbc5d",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/5646e6a3c8834022a0e289465f0bbc5d",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/5646e6a3c8834022a0e289465f0bbc5d/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para house. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Forest House",
+    "sketchfab-edu-house"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Forest House\", por Wesai / Sketchfab. https://sketchfab.com/3d-models/5646e6a3c8834022a0e289465f0bbc5d. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-5646e6a3c8834022a0e289465f0bbc5d/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-5646e6a3c8834022a0e289465f0bbc5d/metadata.json",
+  "originalDownload": "models/sketchfab-5646e6a3c8834022a0e289465f0bbc5d/originals.zip",
+  "bytes": 545976,
+  "sha256": "99e573be09a516a13496c31d8df9fab0f37f192cd9397ee42458dfe0f4bc0e7e",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 158,
+    "nodes": 326,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.173795+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-5646e6a3c8834022a0e289465f0bbc5d/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/5646e6a3c8834022a0e289465f0bbc5d/download",
+        "bytes": 545976,
+        "sha256": "99e573be09a516a13496c31d8df9fab0f37f192cd9397ee42458dfe0f4bc0e7e"
+      }
+    ],
+    "originalDownloadSha256": "4b72fb8da4c8a8f825881449578a475b40028c365aefc4d955a7302f91fb8a7f",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      15.105643272399902,
+      15.056682586669922,
+      12.56615161895752
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-5646e6a3c8834022a0e289465f0bbc5d/license-evidence.json",
+    "licenseEvidenceSha256": "90dfba97fc9e51c015b14b0e59a2dd3be210c26a62cbeda2f6a12c43671957a9",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-5646e6a3c8834022a0e289465f0bbc5d/metadata.json",
+    "metadataEvidenceSha256": "313fe7de6c1e882056a7f1b712352171d46cec63f24b97dae5e397172da08cc2",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-5646e6a3c8834022a0e289465f0bbc5d/technical-review.json",
+    "technicalReviewEvidenceSha256": "8d25c5e0a802874d8cf34df875c89f6bf13c710bb9019dde17fd929852777037",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "f85d52ed3d4a45909df911bcf7fa0d822f38127404615d4f44788e46e5007daa",
+      "triangles": 4882
+    }
+  }
+}

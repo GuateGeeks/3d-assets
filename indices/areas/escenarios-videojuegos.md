@@ -1,6 +1,6 @@
 # Escenarios y juegos para Code Studio
 
-436 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+440 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -439,4 +439,8 @@
 | [tree · thin · dark](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-tree-thin-dark/model.glb) | 0 / 0 |
 | [tree · thin · fall](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-tree-thin-fall/model.glb) | 0 / 0 |
 | [StoneBrook Race Circuit](https://poly.pizza/m/m8O6mE0anP) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Lostinside | [GLB](../../models/m8O6mE0anP/model.glb) | 0 / 0 |
+| [Cercas](https://sketchfab.com/3d-models/2980f275af704e579f10869e5b0b3ae5) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | HenryBoadle | [GLB](../../models/sketchfab-2980f275af704e579f10869e5b0b3ae5/model.glb) | 0 / 0 |
+| [Plataforma para escenarios](https://sketchfab.com/3d-models/366f09aae65847c6b9c5856109f58226) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Paris Mutter | [GLB](../../models/sketchfab-366f09aae65847c6b9c5856109f58226/model.glb) | 0 / 0 |
+| [Banca de asientos para sala de espera](https://sketchfab.com/3d-models/a6cdadcf543b4214b85ecbb0e09a5af6) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Billy Jackman | [GLB](../../models/sketchfab-a6cdadcf543b4214b85ecbb0e09a5af6/model.glb) | 0 / 0 |
+| [Puerta](https://sketchfab.com/3d-models/adf292f437f24151918a3b16ecef52d2) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | hoschu | [GLB](../../models/sketchfab-adf292f437f24151918a3b16ecef52d2/model.glb) | 0 / 0 |
 | [Valley Terrain](https://poly.pizza/m/u78ByZHYB2) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Zsky | [GLB](../../models/u78ByZHYB2/model.glb) | 0 / 0 |

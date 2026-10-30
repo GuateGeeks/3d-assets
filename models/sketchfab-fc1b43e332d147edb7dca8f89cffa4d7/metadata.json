@@ -1,0 +1,114 @@
+{
+  "id": "sketchfab-fc1b43e332d147edb7dca8f89cffa4d7",
+  "assetId": "sketchfab:fc1b43e332d147edb7dca8f89cffa4d7",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Libro",
+  "titleOriginal": "Book",
+  "author": "Eric Fan",
+  "authorUrl": "https://sketchfab.com/ericfan1992",
+  "sourceUrl": "https://sketchfab.com/3d-models/fc1b43e332d147edb7dca8f89cffa4d7",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/fc1b43e332d147edb7dca8f89cffa4d7",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/fc1b43e332d147edb7dca8f89cffa4d7/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para book. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Book",
+    "sketchfab-edu-book"
+  ],
+  "areas": [
+    "escuela-lenguaje"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Lenguaje L1",
+    "Lenguaje L2",
+    "Lenguaje L3"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Book\", por Eric Fan / Sketchfab. https://sketchfab.com/3d-models/fc1b43e332d147edb7dca8f89cffa4d7. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-fc1b43e332d147edb7dca8f89cffa4d7/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-fc1b43e332d147edb7dca8f89cffa4d7/metadata.json",
+  "originalDownload": "models/sketchfab-fc1b43e332d147edb7dca8f89cffa4d7/originals.zip",
+  "bytes": 11612,
+  "sha256": "3efe5956afeb335cd3d46972a1fdf1015bd2293712f04bfc57abe635102cb5f6",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 5,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.104520+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-fc1b43e332d147edb7dca8f89cffa4d7/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/fc1b43e332d147edb7dca8f89cffa4d7/download",
+        "bytes": 11612,
+        "sha256": "3efe5956afeb335cd3d46972a1fdf1015bd2293712f04bfc57abe635102cb5f6"
+      }
+    ],
+    "originalDownloadSha256": "91c4e5db0d5157cd1f221dc9c320232d4175f764f87d5278d3b0832d1c205da7",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.7338399887084961,
+      1.0000001192092896,
+      0.09035014361143112
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-fc1b43e332d147edb7dca8f89cffa4d7/license-evidence.json",
+    "licenseEvidenceSha256": "e7ae16ffcbba5ad1da8f57f8fa01f6a240a46c0e232cf5c8f675a9b5407d77de",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-fc1b43e332d147edb7dca8f89cffa4d7/metadata.json",
+    "metadataEvidenceSha256": "e170786d30b85fe01e7f9ec21c84049cc4f3b5a004e9e7799ef2f52afaf412cd",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-fc1b43e332d147edb7dca8f89cffa4d7/technical-review.json",
+    "technicalReviewEvidenceSha256": "b10a6ad6ec4e723947373bb649267192ab05fff1b39f39def7cb633b608f2b4a",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "b3d9a05a1403d1a40a77dca0268a2170b80975236713e0b2039a7ac749ed53ba",
+      "triangles": 204
+    }
+  }
+}

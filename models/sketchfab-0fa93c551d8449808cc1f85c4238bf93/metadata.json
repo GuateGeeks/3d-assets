@@ -1,0 +1,112 @@
+{
+  "id": "sketchfab-0fa93c551d8449808cc1f85c4238bf93",
+  "assetId": "sketchfab:0fa93c551d8449808cc1f85c4238bf93",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Manzano de baja poligonización",
+  "titleOriginal": "Apple Tree - Low Poly Medieval, CC0",
+  "author": "Avramania",
+  "authorUrl": "https://sketchfab.com/Avramania",
+  "sourceUrl": "https://sketchfab.com/3d-models/0fa93c551d8449808cc1f85c4238bf93",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/0fa93c551d8449808cc1f85c4238bf93",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/0fa93c551d8449808cc1f85c4238bf93/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para tree. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Apple Tree - Low Poly Medieval, CC0",
+    "sketchfab-edu-tree"
+  ],
+  "areas": [
+    "bosques-plantas"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología"
+  ],
+  "licenseRaw": "CC0 1.0",
+  "license": {
+    "id": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionRequired": false,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Apple Tree - Low Poly Medieval, CC0\", por Avramania / Sketchfab. https://sketchfab.com/3d-models/0fa93c551d8449808cc1f85c4238bf93. CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-0fa93c551d8449808cc1f85c4238bf93/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-0fa93c551d8449808cc1f85c4238bf93/metadata.json",
+  "originalDownload": "models/sketchfab-0fa93c551d8449808cc1f85c4238bf93/originals.zip",
+  "bytes": 98932,
+  "sha256": "6ec23833b0ff8aff6f43d145feeb481d6dd56b16c4af26d6c3a9708f1e4f35b8",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 5,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.767733+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-0fa93c551d8449808cc1f85c4238bf93/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/0fa93c551d8449808cc1f85c4238bf93/download",
+        "bytes": 98932,
+        "sha256": "6ec23833b0ff8aff6f43d145feeb481d6dd56b16c4af26d6c3a9708f1e4f35b8"
+      }
+    ],
+    "originalDownloadSha256": "f8e7770807ddf18c12578934f045f79f797ad7df787d947bb4dc86c080166d80",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      3.5999999046325684,
+      3.4200005531311035,
+      4.400001049041748
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-0fa93c551d8449808cc1f85c4238bf93/license-evidence.json",
+    "licenseEvidenceSha256": "9621e60ebb6409349b819723a6cb3b9b502e6a5f1c6d56715d581fe96dcd23ce",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-0fa93c551d8449808cc1f85c4238bf93/metadata.json",
+    "metadataEvidenceSha256": "14262fc534f37234e20d42f3e302f81d47a965b821ad987f52fd5df99ec76d0b",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-0fa93c551d8449808cc1f85c4238bf93/technical-review.json",
+    "technicalReviewEvidenceSha256": "88fd2b10868bd6705fec09f6d82095c455ec40cc97a7fd266c9bf1e1685dc096",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "35d9f08a2d83d0ba405598b1c995ff26a3a9bdd9d187b4ab7dd936959d869413",
+      "triangles": 1044
+    }
+  }
+}

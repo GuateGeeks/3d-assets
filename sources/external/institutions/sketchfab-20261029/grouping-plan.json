@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "relation": "functional-family-or-variant",
+  "note": "Agrupación semántica para navegar variantes; no afirma identidad geométrica ni sustituye licencias individuales. No cambia el contenido de los modelos ni miembros originales de kits.",
+  "existingFamilyMerges": {
+    "sketchfab-edu-microscope": "science-microscopes"
+  },
+  "addUngroupedBaselineMembers": {
+    "sketchfab-edu-magnet": [
+      "7dHLjQ8eZhu",
+      "dD2RIIea6WR",
+      "e6JzvzwGt7v"
+    ],
+    "sketchfab-edu-ruler": [
+      "1zzYwVp-KDv",
+      "3CqPcG3ATQs",
+      "JQ6JqMl1gw"
+    ],
+    "sketchfab-edu-dice": [
+      "1GYd3tw5LqW",
+      "2pU6Ie7DcmX",
+      "dLS2cGjYw6C"
+    ],
+    "sketchfab-edu-gear": [
+      "4hAw8zQHeMJ",
+      "cMM3raHMCug"
+    ],
+    "sketchfab-edu-battery": [
+      "2TKK0wpiWPw",
+      "6H0Jwpn96xr",
+      "9gnjbN0VUUn",
+      "hLVNyFYOOX"
+    ],
+    "sketchfab-edu-butterfly": [
+      "2ZwYwkTVnfG",
+      "814CINpG3H1",
+      "e9NAQQrCbLu"
+    ],
+    "sketchfab-edu-cat": [
+      "6dM1J6f6pm9",
+      "dYKICaHpK0c"
+    ],
+    "sketchfab-edu-fish": [
+      "BEcU9rjiAq",
+      "aEyLrUMMoUK"
+    ],
+    "sketchfab-edu-flower": [
+      "9dubDMkAcZ5",
+      "NBUxHir6FJ",
+      "fg5U0dl1Sd3"
+    ],
+    "sketchfab-edu-tree": [
+      "6Yjt8nIwLsD",
+      "etFGNvsiFv"
+    ],
+    "sketchfab-edu-pencil": [
+      "3Sd2klX0_s4",
+      "5R0mBgid5-k",
+      "b03PQ_a7ojX"
+    ],
+    "sketchfab-edu-computer": [
+      "2EHvZLax4Y3",
+      "5cN7W4ufoII",
+      "doMMnviJrGi"
+    ],
+    "sketchfab-edu-keyboard": [
+      "3oFfQCSsUmQ",
+      "aPwr5p1dluw",
+      "fOy2zvPJAj-"
+    ],
+    "sketchfab-edu-book": [
+      "1WggoIFq8tx",
+      "FsCIGEfTEs",
+      "dxt7dETAy9"
+    ],
+    "sketchfab-edu-soccer-ball": [
+      "9z5905buuy3",
+      "fnDmeCySRhV"
+    ],
+    "sketchfab-edu-basketball": [
+      "eopD_12UuB8",
+      "wNXXIhP0ip"
+    ],
+    "sketchfab-edu-tennis": [
+      "72XCHXgHlg7"
+    ],
+    "sketchfab-edu-skateboard": [
+      "7Dfn4VtTCWY",
+      "7xIavsUAq7z",
+      "cms3_9IcYbB"
+    ],
+    "sketchfab-edu-piano": [
+      "1YoE664mJTd",
+      "5vbJ5vildOq",
+      "7U-93vxPOER"
+    ],
+    "sketchfab-edu-guitar": [
+      "eoSib2-NN9Y"
+    ],
+    "sketchfab-edu-trumpet": [
+      "0Mj5XgeGtKJ",
+      "dKjB2Gm4-rj",
+      "dXISS4OsDQv"
+    ]
+  }
+}

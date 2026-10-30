@@ -1,0 +1,118 @@
+{
+  "id": "sketchfab-0bc7834d6f254cd3b5aedabafa8171d1",
+  "assetId": "sketchfab:0bc7834d6f254cd3b5aedabafa8171d1",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Templo I de Tikal: representación",
+  "titleOriginal": "Temple Maya Tikal 1",
+  "author": "boui",
+  "authorUrl": "https://sketchfab.com/boui",
+  "sourceUrl": "https://sketchfab.com/3d-models/0bc7834d6f254cd3b5aedabafa8171d1",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/0bc7834d6f254cd3b5aedabafa8171d1",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/0bc7834d6f254cd3b5aedabafa8171d1/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para tikal temple. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Temple Maya Tikal 1",
+    "sketchfab-edu-tikal-temple"
+  ],
+  "areas": [
+    "guatemala-contexto",
+    "historia-patrimonio"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Lenguaje L1",
+    "Lenguaje L2"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Temple Maya Tikal 1\", por boui / Sketchfab. https://sketchfab.com/3d-models/0bc7834d6f254cd3b5aedabafa8171d1. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-0bc7834d6f254cd3b5aedabafa8171d1/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-0bc7834d6f254cd3b5aedabafa8171d1/metadata.json",
+  "originalDownload": "models/sketchfab-0bc7834d6f254cd3b5aedabafa8171d1/originals.zip",
+  "bytes": 429796,
+  "sha256": "443a05377eeb0b35ac266c6c46520b989fb48deca87b8089d5d9f194be31850d",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 8,
+    "nodes": 10,
+    "materials": 8,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.760015+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-0bc7834d6f254cd3b5aedabafa8171d1/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/0bc7834d6f254cd3b5aedabafa8171d1/download",
+        "bytes": 429796,
+        "sha256": "443a05377eeb0b35ac266c6c46520b989fb48deca87b8089d5d9f194be31850d"
+      }
+    ],
+    "originalDownloadSha256": "0e38a6cd0184e105533c6b9ecf8c911e0b08a0a3c7c0b81651b98f0943fb2fad",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      1756.2991943359375,
+      2615.8759765625,
+      1879.990234375
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-0bc7834d6f254cd3b5aedabafa8171d1/license-evidence.json",
+    "licenseEvidenceSha256": "d964a68d4ac65090a5242e31981c995b32bc75068ed64c6008c3a1e2cbaabe21",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-0bc7834d6f254cd3b5aedabafa8171d1/metadata.json",
+    "metadataEvidenceSha256": "f6db4ee5f32d25ad9d5bd41913e000b2b437d1576c2e76a555579afad2bbae88",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-0bc7834d6f254cd3b5aedabafa8171d1/technical-review.json",
+    "technicalReviewEvidenceSha256": "7522d11acdb70e250f1146b319887033aff7f3aa2ea777cb3fb09d86351b001a",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-and-line-distribution-v1",
+      "sha256": "e2b5fe6e97a3fff7afb52d56958901f97da10e9d9b5f546479ce8952e195c447",
+      "triangles": 8364,
+      "lines": 15
+    }
+  }
+}

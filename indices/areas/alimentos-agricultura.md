@@ -1,6 +1,6 @@
 # Alimentos, agricultura y nutrición
 
-243 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+252 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -247,3 +247,12 @@
 | [Bandeja de semillero](https://polyhaven.com/a/seeding_tray_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-seeding-tray-01/model.glb) | 0 / 0 |
 | [Palita de jardinería](https://polyhaven.com/a/trowel_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Satyaki Mandal | [GLB](../../models/polyhaven-trowel-01/model.glb) | 0 / 0 |
 | [Regadera metálica](https://polyhaven.com/a/watering_can_metal_01) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Charles Nderitu | [GLB](../../models/polyhaven-watering-can-metal-01/model.glb) | 0 / 0 |
+| [Zanahoria](https://sketchfab.com/3d-models/089c5e90917b44a188e0c0db259e0782) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | NeoT1 | [GLB](../../models/sketchfab-089c5e90917b44a188e0c0db259e0782/model.glb) | 0 / 0 |
+| [Planta de café](https://sketchfab.com/3d-models/0c5c4cd4e79b4015811914203d599b9d) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | neutralize | [GLB](../../models/sketchfab-0c5c4cd4e79b4015811914203d599b9d/model.glb) | 0 / 0 |
+| [Maíz](https://sketchfab.com/3d-models/10187bc37c9e42ef8770b28452ee7cd3) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Tiia Tuulia | [GLB](../../models/sketchfab-10187bc37c9e42ef8770b28452ee7cd3/model.glb) | 0 / 1 |
+| [Vaina de cacao](https://sketchfab.com/3d-models/12cd728323744540af4f49d20de67e6f) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Mario.Quintanilla | [GLB](../../models/sketchfab-12cd728323744540af4f49d20de67e6f/model.glb) | 0 / 0 |
+| [Manzana de estilo voxel](https://sketchfab.com/3d-models/5030d74f8f954a3aace5bd1c3a5e9d65) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | delta2520 | [GLB](../../models/sketchfab-5030d74f8f954a3aace5bd1c3a5e9d65/model.glb) | 0 / 0 |
+| [Caja de pizza](https://sketchfab.com/3d-models/8c2273cb25154b50874739111aa51e8a) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Ruslan Malovsky | [GLB](../../models/sketchfab-8c2273cb25154b50874739111aa51e8a/model.glb) | 0 / 0 |
+| [Aguacate y utensilios de preparación](https://sketchfab.com/3d-models/92ed8116d60343a1b43d0f93d7175500) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | mothmane | [GLB](../../models/sketchfab-92ed8116d60343a1b43d0f93d7175500/model.glb) | 0 / 1 |
+| [Planta de tomate](https://sketchfab.com/3d-models/e0b559690e384fc0a9f3a05913f609c4) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | zvanstone | [GLB](../../models/sketchfab-e0b559690e384fc0a9f3a05913f609c4/model.glb) | 0 / 0 |
+| [Tractor](https://sketchfab.com/3d-models/fe97d02daaac44bea0caffc4f1cb93a4) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | piscopancer | [GLB](../../models/sketchfab-fe97d02daaac44bea0caffc4f1cb93a4/model.glb) | 0 / 0 |

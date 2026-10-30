@@ -1,0 +1,112 @@
+{
+  "id": "sketchfab-23b2d0e81d414836877c555e5b5fc18d",
+  "assetId": "sketchfab:23b2d0e81d414836877c555e5b5fc18d",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Radio con reloj digital",
+  "titleOriginal": "Digital Radio Clock",
+  "author": "NoMoreFeelings",
+  "authorUrl": "https://sketchfab.com/NoMoreFeelings",
+  "sourceUrl": "https://sketchfab.com/3d-models/23b2d0e81d414836877c555e5b5fc18d",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/23b2d0e81d414836877c555e5b5fc18d",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/23b2d0e81d414836877c555e5b5fc18d/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para clock. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Digital Radio Clock",
+    "sketchfab-edu-clock"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Digital Radio Clock\", por NoMoreFeelings / Sketchfab. https://sketchfab.com/3d-models/23b2d0e81d414836877c555e5b5fc18d. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-23b2d0e81d414836877c555e5b5fc18d/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-23b2d0e81d414836877c555e5b5fc18d/metadata.json",
+  "originalDownload": "models/sketchfab-23b2d0e81d414836877c555e5b5fc18d/originals.zip",
+  "bytes": 317920,
+  "sha256": "ae517030576583c3025aaa191a9c9c187d4911dff63c5e41ee4e47bfb436e353",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 3,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:42.962182+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-23b2d0e81d414836877c555e5b5fc18d/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/23b2d0e81d414836877c555e5b5fc18d/download",
+        "bytes": 317920,
+        "sha256": "ae517030576583c3025aaa191a9c9c187d4911dff63c5e41ee4e47bfb436e353"
+      }
+    ],
+    "originalDownloadSha256": "32aa15e062cd09365ea15edaf5d9ab9edf7aa6e68f7108bc00cb2c3e637ac768",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      1.9248270988464355,
+      2.1146042346954346,
+      0.740645170211792
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-23b2d0e81d414836877c555e5b5fc18d/license-evidence.json",
+    "licenseEvidenceSha256": "e2672fa77f3577e958d731dd8715ca50d124de8ab9fead7627d518ec08f54d0e",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-23b2d0e81d414836877c555e5b5fc18d/metadata.json",
+    "metadataEvidenceSha256": "c8896f55569ebbcf4f0b30ef3d698baefa0318a1cc55cadc9cb2ff0889961786",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-23b2d0e81d414836877c555e5b5fc18d/technical-review.json",
+    "technicalReviewEvidenceSha256": "d950fadf626e280e3a33da179e84404cba0c561cd5fe24038e100aaac7a2cc19",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "fd97d72f9d96a67fdbcc365157d1ffc05cd770352ba345ed0b9103ff4ea0f35f",
+      "triangles": 300
+    }
+  }
+}

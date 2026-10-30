@@ -1,0 +1,63 @@
+{
+  "dimensionsBlender": [
+    5.998144626617432,
+    0.7991188764572144,
+    3.331563949584961
+  ],
+  "boundsMinBlender": [
+    -1.1531611680984497,
+    -0.47316431999206543,
+    -2.467217445373535
+  ],
+  "boundsMaxBlender": [
+    4.8449835777282715,
+    0.32595452666282654,
+    0.8643465042114258
+  ],
+  "meshObjects": 2,
+  "polygons": 792,
+  "vertices": 572,
+  "materials": 2,
+  "blenderVersion": "5.2.3 LTS",
+  "id": "sketchfab-32d02fa06d474f4db5a433aa134be612",
+  "sourceFile": "model.glb",
+  "glbSha256": "4e1024e6ff922c926310df86bbd4bb5998e61f5cc28fbbcaeac1b73b7eb1402a",
+  "reimport": {
+    "dimensionsBlender": [
+      5.998144626617432,
+      0.7991188764572144,
+      3.331563949584961
+    ],
+    "boundsMinBlender": [
+      -1.1531611680984497,
+      -0.47316431999206543,
+      -2.467217445373535
+    ],
+    "boundsMaxBlender": [
+      4.8449835777282715,
+      0.32595452666282654,
+      0.8643465042114258
+    ],
+    "meshObjects": 2,
+    "polygons": 792,
+    "vertices": 572,
+    "materials": 2,
+    "blenderVersion": "5.2.3 LTS"
+  },
+  "dimensionTolerance": 0.0005998144626617432,
+  "importerHelpersExcluded": {
+    "source": [],
+    "reimport": []
+  },
+  "images": {
+    "sources/external/institutions/sketchfab-20261029/sketchfab-32d02fa06d474f4db5a433aa134be612/renders/source-back.png": "8c5e9c4abf29580dd76e275a997068fab977fe7df08ff2eed7d07fa1372adba0",
+    "sources/external/institutions/sketchfab-20261029/sketchfab-32d02fa06d474f4db5a433aa134be612/renders/source-side.png": "3ec056e6ab9f7c5f61881ee6653e99a4d7fd1be721f3a1fe76fc9d6cedddd5bf",
+    "sources/external/institutions/sketchfab-20261029/sketchfab-32d02fa06d474f4db5a433aa134be612/renders/source-front.png": "3727907ca9dd006a78094b8bc486ff0dd511b7c2e9bd4b2e3284e5ddf457ccd9",
+    "sources/external/institutions/sketchfab-20261029/sketchfab-32d02fa06d474f4db5a433aa134be612/renders/reimport-three-quarter.png": "a06b367e182bb48f6cde58ca4f9a77946cf8b8261255ce85c5a7b077e082b0dd",
+    "sources/external/institutions/sketchfab-20261029/sketchfab-32d02fa06d474f4db5a433aa134be612/renders/source-three-quarter.png": "994c123d81ed75167c7f8360fb121581448e7affcf292959a37e942f6859242e",
+    "sources/external/institutions/sketchfab-20261029/sketchfab-32d02fa06d474f4db5a433aa134be612/renders/source-wireframe.png": "fa239bd318b50946416aadd39f3776bf7b8a1b26148c0fa3a953cca42642f044"
+  },
+  "technical": "PASS",
+  "visual": "NOT_RUN",
+  "reviewLighting": "AgX, reduced exposure lights"
+}

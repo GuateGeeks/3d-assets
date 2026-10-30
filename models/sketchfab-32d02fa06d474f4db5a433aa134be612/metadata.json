@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-32d02fa06d474f4db5a433aa134be612",
+  "assetId": "sketchfab:32d02fa06d474f4db5a433aa134be612",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Interruptor de luz sencillo",
+  "titleOriginal": "Simple Light Switch",
+  "author": "BillieBones",
+  "authorUrl": "https://sketchfab.com/BillieBones",
+  "sourceUrl": "https://sketchfab.com/3d-models/32d02fa06d474f4db5a433aa134be612",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/32d02fa06d474f4db5a433aa134be612",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/32d02fa06d474f4db5a433aa134be612/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para switch. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Simple Light Switch",
+    "sketchfab-edu-switch"
+  ],
+  "areas": [
+    "robotica-electronica"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Simple Light Switch\", por BillieBones / Sketchfab. https://sketchfab.com/3d-models/32d02fa06d474f4db5a433aa134be612. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-32d02fa06d474f4db5a433aa134be612/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-32d02fa06d474f4db5a433aa134be612/metadata.json",
+  "originalDownload": "models/sketchfab-32d02fa06d474f4db5a433aa134be612/originals.zip",
+  "bytes": 336668,
+  "sha256": "4e1024e6ff922c926310df86bbd4bb5998e61f5cc28fbbcaeac1b73b7eb1402a",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 2,
+    "nodes": 6,
+    "materials": 2,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.046691+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-32d02fa06d474f4db5a433aa134be612/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/32d02fa06d474f4db5a433aa134be612/download",
+        "bytes": 336668,
+        "sha256": "4e1024e6ff922c926310df86bbd4bb5998e61f5cc28fbbcaeac1b73b7eb1402a"
+      }
+    ],
+    "originalDownloadSha256": "99a0d53ee3200c27fe299fcad6621fced0a9367bd324c2231ac5cda9cb4c1412",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      5.998144626617432,
+      0.7991188764572144,
+      3.331563949584961
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-32d02fa06d474f4db5a433aa134be612/license-evidence.json",
+    "licenseEvidenceSha256": "479046f622a28ce83c604adc962ba6e7714c9f307642b367e976a32b6588e231",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-32d02fa06d474f4db5a433aa134be612/metadata.json",
+    "metadataEvidenceSha256": "70e8767166208f7bbafb0ab4d4c564c58520b3111dc084bfad171fe52b0d1f6f",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-32d02fa06d474f4db5a433aa134be612/technical-review.json",
+    "technicalReviewEvidenceSha256": "f295f7f5a19120352c309bc9e42dd12943617771e8b025a974c8a7a72664b135",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "9a086168831b2a2b490dd2e6b414ffdc8db2c3c826de7f2b73d02e3fe9b1ab03",
+      "triangles": 792
+    }
+  }
+}

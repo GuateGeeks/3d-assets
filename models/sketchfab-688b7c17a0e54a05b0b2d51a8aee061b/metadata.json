@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-688b7c17a0e54a05b0b2d51a8aee061b",
+  "assetId": "sketchfab:688b7c17a0e54a05b0b2d51a8aee061b",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Camión de bomberos de baja poligonización",
+  "titleOriginal": "Low Poly Fire Truck",
+  "author": "JG3D",
+  "authorUrl": "https://sketchfab.com/jg-3d",
+  "sourceUrl": "https://sketchfab.com/3d-models/688b7c17a0e54a05b0b2d51a8aee061b",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/688b7c17a0e54a05b0b2d51a8aee061b",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/688b7c17a0e54a05b0b2d51a8aee061b/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para fire truck. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Low Poly Fire Truck",
+    "sketchfab-edu-fire-truck"
+  ],
+  "areas": [
+    "comunidad-ciudadania"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Formación Ciudadana"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Low Poly Fire Truck\", por JG3D / Sketchfab. https://sketchfab.com/3d-models/688b7c17a0e54a05b0b2d51a8aee061b. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-688b7c17a0e54a05b0b2d51a8aee061b/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-688b7c17a0e54a05b0b2d51a8aee061b/metadata.json",
+  "originalDownload": "models/sketchfab-688b7c17a0e54a05b0b2d51a8aee061b/originals.zip",
+  "bytes": 686804,
+  "sha256": "6746bcd3a4940f17181f505fd3853f001ef789cdee2329824e23e734f5252e51",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 20,
+    "nodes": 24,
+    "materials": 20,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.197963+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-688b7c17a0e54a05b0b2d51a8aee061b/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/688b7c17a0e54a05b0b2d51a8aee061b/download",
+        "bytes": 686804,
+        "sha256": "6746bcd3a4940f17181f505fd3853f001ef789cdee2329824e23e734f5252e51"
+      }
+    ],
+    "originalDownloadSha256": "a12610632300da24dd0ae560493f8d3435ebd4e8057b25ed3c07cf4ee3f68477",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      7.281745910644531,
+      3.072462797164917,
+      3.0512938499450684
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-688b7c17a0e54a05b0b2d51a8aee061b/license-evidence.json",
+    "licenseEvidenceSha256": "95e790bda6a0f1a3bb0f5a6dc07ac01e2d9a73d9232487baee1b4dcf76632c2c",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-688b7c17a0e54a05b0b2d51a8aee061b/metadata.json",
+    "metadataEvidenceSha256": "5e0261bd2801dc7b9f2ffc63d70d9bb6b49495e41e8fd1b8d042b6711616947a",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-688b7c17a0e54a05b0b2d51a8aee061b/technical-review.json",
+    "technicalReviewEvidenceSha256": "b57b6386709fbcf4f3c583b226d0fa13f859f3f27df242ee5e7bcc0ab3e850d5",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "5de8ae6d61fe2fea63e60d25bc50d07ff32fde0cd003034b33ba0ac7f237311f",
+      "triangles": 14334
+    }
+  }
+}

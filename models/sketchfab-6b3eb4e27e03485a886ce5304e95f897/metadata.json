@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-6b3eb4e27e03485a886ce5304e95f897",
+  "assetId": "sketchfab:6b3eb4e27e03485a886ce5304e95f897",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Ruinas de templo",
+  "titleOriginal": "Temple ruins",
+  "author": "Deyama",
+  "authorUrl": "https://sketchfab.com/deyama",
+  "sourceUrl": "https://sketchfab.com/3d-models/6b3eb4e27e03485a886ce5304e95f897",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/6b3eb4e27e03485a886ce5304e95f897",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/6b3eb4e27e03485a886ce5304e95f897/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para ruins. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Temple ruins",
+    "sketchfab-edu-ruins"
+  ],
+  "areas": [
+    "historia-patrimonio"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Temple ruins\", por Deyama / Sketchfab. https://sketchfab.com/3d-models/6b3eb4e27e03485a886ce5304e95f897. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-6b3eb4e27e03485a886ce5304e95f897/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-6b3eb4e27e03485a886ce5304e95f897/metadata.json",
+  "originalDownload": "models/sketchfab-6b3eb4e27e03485a886ce5304e95f897/originals.zip",
+  "bytes": 132912,
+  "sha256": "d34d69d854a45fddf4a2edcc77e14801d884069eacd351cab58fe01960403ead",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 12,
+    "nodes": 25,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.286435+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-6b3eb4e27e03485a886ce5304e95f897/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/6b3eb4e27e03485a886ce5304e95f897/download",
+        "bytes": 132912,
+        "sha256": "d34d69d854a45fddf4a2edcc77e14801d884069eacd351cab58fe01960403ead"
+      }
+    ],
+    "originalDownloadSha256": "64ca4558c739abdd01523f949c79e49b0e6e518c729c2b15f2dfacf9ca92b0a1",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      5.465758323669434,
+      5.486458778381348,
+      1.3387303352355957
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-6b3eb4e27e03485a886ce5304e95f897/license-evidence.json",
+    "licenseEvidenceSha256": "56bb2c2b236a1f6db4620251f477b1df6ed76d75eba9269e5e20122c1540de43",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-6b3eb4e27e03485a886ce5304e95f897/metadata.json",
+    "metadataEvidenceSha256": "290999165288a639d24cdf3d5dcef8f4bc5fd10c6e0c9c4c2181169fb49fc60d",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-6b3eb4e27e03485a886ce5304e95f897/technical-review.json",
+    "technicalReviewEvidenceSha256": "eb1748d01bce2e9f8a9a8e4aa49ac333f9a43fa548605065e971c91ac093cdc0",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "1045fa56c6a825b0be05acee40cc12b600d8fc6f079427dcfcb3e9e83dcfa2ec",
+      "triangles": 2138
+    }
+  }
+}

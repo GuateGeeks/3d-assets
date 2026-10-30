@@ -1,6 +1,6 @@
 # Personajes, narrativa y animación
 
-15 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+18 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -19,3 +19,6 @@
 | [Piranha](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-animals-piranha/model.glb) | 1 / 2 |
 | [Wolf](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-animals-wolf/model.glb) | 1 / 2 |
 | [Robot](https://opengameart.org/node/89467) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-robot-robot/model.glb) | 1 / 14 |
+| [Brazo robótico animado](https://sketchfab.com/3d-models/08d3e2e9b7dd4b2db6bb98ccc8b36f32) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Myjato | [GLB](../../models/sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32/model.glb) | 1 / 1 |
+| [Pollito animado](https://sketchfab.com/3d-models/8fffaef7902c4823834dd783a99c4316) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | FourthGreen | [GLB](../../models/sketchfab-8fffaef7902c4823834dd783a99c4316/model.glb) | 1 / 1 |
+| [Luna creciente con rostro (fantasía)](https://sketchfab.com/3d-models/c26ae86c07404779a54f3621170714bf) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | CookieDough | [GLB](../../models/sketchfab-c26ae86c07404779a54f3621170714bf/model.glb) | 0 / 0 |

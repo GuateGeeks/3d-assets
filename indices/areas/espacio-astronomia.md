@@ -1,6 +1,6 @@
 # Espacio y astronomía
 
-28 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+31 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -32,3 +32,6 @@
 | [Rover Perseverance](https://science.nasa.gov/3d-resources/mars-2020-perseverance-rover/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Jet Propulsion Laboratory | [GLB](../../models/nasa-mars-2020-perseverance-rover/model.glb) | 1 / 23 |
 | [Cohete Saturno V](https://science.nasa.gov/3d-resources/saturn-v/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Michael D. Carbajal | [GLB](../../models/nasa-saturn-v/model.glb) | 0 / 23 |
 | [Sonda Voyager · A](https://science.nasa.gov/3d-resources/voyager-probe-a/) | NASA 3D Resources | [NASA Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/) | NASA/Christopher R. Meaney | [GLB](../../models/nasa-voyager-probe-a/model.glb) | 0 / 0 |
+| [Saturno](https://sketchfab.com/3d-models/17b34b975dc3449da83f2ee7802004f3) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Freemodels | [GLB](../../models/sketchfab-17b34b975dc3449da83f2ee7802004f3/model.glb) | 0 / 0 |
+| [Sol y planetas: proporciones esquemáticas](https://sketchfab.com/3d-models/1d790c7e712f4500b417e9c13639e79f) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | engine9 | [GLB](../../models/sketchfab-1d790c7e712f4500b417e9c13639e79f/model.glb) | 0 / 0 |
+| [Telescopio](https://sketchfab.com/3d-models/fb1790ba160f4f07a2b41bd075b76174) | Sketchfab | [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | Théo Richard | [GLB](../../models/sketchfab-fb1790ba160f4f07a2b41bd075b76174/model.glb) | 0 / 0 |

@@ -1,0 +1,112 @@
+{
+  "id": "sketchfab-3b955af797e140eca0947ede57f412ba",
+  "assetId": "sketchfab:3b955af797e140eca0947ede57f412ba",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Dado",
+  "titleOriginal": "Dice",
+  "author": "tnRaro",
+  "authorUrl": "https://sketchfab.com/tnRaro",
+  "sourceUrl": "https://sketchfab.com/3d-models/3b955af797e140eca0947ede57f412ba",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/3b955af797e140eca0947ede57f412ba",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/3b955af797e140eca0947ede57f412ba/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para dice. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Dice",
+    "sketchfab-edu-dice"
+  ],
+  "areas": [
+    "matematicas-medicion"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Matemáticas"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Dice\", por tnRaro / Sketchfab. https://sketchfab.com/3d-models/3b955af797e140eca0947ede57f412ba. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-3b955af797e140eca0947ede57f412ba/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-3b955af797e140eca0947ede57f412ba/metadata.json",
+  "originalDownload": "models/sketchfab-3b955af797e140eca0947ede57f412ba/originals.zip",
+  "bytes": 90660,
+  "sha256": "d235028e7f7d14df115fe93c6839ea45eb7354b9ebae61aee1f621012a0f1352",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 5,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:42.954428+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-3b955af797e140eca0947ede57f412ba/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/3b955af797e140eca0947ede57f412ba/download",
+        "bytes": 90660,
+        "sha256": "d235028e7f7d14df115fe93c6839ea45eb7354b9ebae61aee1f621012a0f1352"
+      }
+    ],
+    "originalDownloadSha256": "4e2d8c8d6196a53633e1f12d2168d8b6702fdd279def7f8173bfdd9bcb118925",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      0.846439778804779,
+      0.8464399576187134,
+      0.8464400172233582
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-3b955af797e140eca0947ede57f412ba/license-evidence.json",
+    "licenseEvidenceSha256": "0068f50ce80948be07a9d053415156c7479d483471cbc56a64189e7bfc253ab2",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-3b955af797e140eca0947ede57f412ba/metadata.json",
+    "metadataEvidenceSha256": "bae7ef07f3f666a767c4f42fbe52166e494537e894fa2527eb4d14eede180511",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-3b955af797e140eca0947ede57f412ba/technical-review.json",
+    "technicalReviewEvidenceSha256": "ee791056d39809035e6f3a8f1721e342af01fb00a78a11fe27d87a1b19c2dec1",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "bf42b5fbbcdebbc3a16cb05aee11653021e58f22ac39c30484c9b8bee738182f",
+      "triangles": 300
+    }
+  }
+}

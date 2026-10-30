@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-516e0bd4e78d4f5caed3f00f056e2e3a",
+  "assetId": "sketchfab:516e0bd4e78d4f5caed3f00f056e2e3a",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Volcán de baja poligonización",
+  "titleOriginal": "( FREE ) Volcano Low poly",
+  "author": "SDC PERFORMANCE™️",
+  "authorUrl": "https://sketchfab.com/Lambo_SC04",
+  "sourceUrl": "https://sketchfab.com/3d-models/516e0bd4e78d4f5caed3f00f056e2e3a",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/516e0bd4e78d4f5caed3f00f056e2e3a",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/516e0bd4e78d4f5caed3f00f056e2e3a/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para volcano. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "( FREE ) Volcano Low poly",
+    "sketchfab-edu-volcano"
+  ],
+  "areas": [
+    "tierra-geografia"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Ciencias Sociales"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"( FREE ) Volcano Low poly\", por SDC PERFORMANCE™️ / Sketchfab. https://sketchfab.com/3d-models/516e0bd4e78d4f5caed3f00f056e2e3a. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-516e0bd4e78d4f5caed3f00f056e2e3a/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-516e0bd4e78d4f5caed3f00f056e2e3a/metadata.json",
+  "originalDownload": "models/sketchfab-516e0bd4e78d4f5caed3f00f056e2e3a/originals.zip",
+  "bytes": 1281232,
+  "sha256": "c40832b7e139566482c7cff8fe8bc109bad45c1b1183a560b6bb83f69a12243d",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 6,
+    "nodes": 11,
+    "materials": 5,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:42.783348+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-516e0bd4e78d4f5caed3f00f056e2e3a/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/516e0bd4e78d4f5caed3f00f056e2e3a/download",
+        "bytes": 1281232,
+        "sha256": "c40832b7e139566482c7cff8fe8bc109bad45c1b1183a560b6bb83f69a12243d"
+      }
+    ],
+    "originalDownloadSha256": "f93e24108deb70b87865ab2e4a5288e7fe33182763b3358ba44b90a22c81da1d",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      2.1328253746032715,
+      2.195427894592285,
+      1.2092785835266113
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-516e0bd4e78d4f5caed3f00f056e2e3a/license-evidence.json",
+    "licenseEvidenceSha256": "821b56536ffedb6b2b155ce527f7b4ed257a2dde11721ef3a1d8eb7a46974638",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-516e0bd4e78d4f5caed3f00f056e2e3a/metadata.json",
+    "metadataEvidenceSha256": "94939fceb06f522e9f7552563974a490180cce29bad44bda06bfefd61ba8dedd",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-516e0bd4e78d4f5caed3f00f056e2e3a/technical-review.json",
+    "technicalReviewEvidenceSha256": "9399df8afa8d588c9fb1185673e63caea5657bc8705410e081a1552cff3fab8f",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "1561543b4f8c8ee87f6e573827ccd5763b242da148ccf69ac29d2fc793a84bb4",
+      "triangles": 15415
+    }
+  }
+}

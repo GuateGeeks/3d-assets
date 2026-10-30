@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-c26e47859f0945d69a4e2944ee80b995",
+  "assetId": "sketchfab:c26e47859f0945d69a4e2944ee80b995",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Coral",
+  "titleOriginal": "Coral",
+  "author": "Sandra_s",
+  "authorUrl": "https://sketchfab.com/Sandra_sm",
+  "sourceUrl": "https://sketchfab.com/3d-models/c26e47859f0945d69a4e2944ee80b995",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/c26e47859f0945d69a4e2944ee80b995",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/c26e47859f0945d69a4e2944ee80b995/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para coral. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Coral",
+    "sketchfab-edu-coral"
+  ],
+  "areas": [
+    "agua-oceanos"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Formación Ciudadana"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Coral\", por Sandra_s / Sketchfab. https://sketchfab.com/3d-models/c26e47859f0945d69a4e2944ee80b995. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-c26e47859f0945d69a4e2944ee80b995/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-c26e47859f0945d69a4e2944ee80b995/metadata.json",
+  "originalDownload": "models/sketchfab-c26e47859f0945d69a4e2944ee80b995/originals.zip",
+  "bytes": 685172,
+  "sha256": "597bb6c732b56c70e51cffd6772a23ccec97acf60d1c04e65e606e97950c5f4c",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 5,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:42.760297+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-c26e47859f0945d69a4e2944ee80b995/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/c26e47859f0945d69a4e2944ee80b995/download",
+        "bytes": 685172,
+        "sha256": "597bb6c732b56c70e51cffd6772a23ccec97acf60d1c04e65e606e97950c5f4c"
+      }
+    ],
+    "originalDownloadSha256": "35221fb8fa6a5cafa2745ef80d25d1d31d1ecd06f18e9974c286761ede13e9af",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      15.958372116088867,
+      13.965761184692383,
+      18.483875274658203
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-c26e47859f0945d69a4e2944ee80b995/license-evidence.json",
+    "licenseEvidenceSha256": "a2c521b21f6894fdaa7daf5b1f168e8619af648bd9312f6ed08de39259ebac72",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-c26e47859f0945d69a4e2944ee80b995/metadata.json",
+    "metadataEvidenceSha256": "a9a92042f465e99f04f675b17ba476cb4689a87956455fd94043d94028cdc82f",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-c26e47859f0945d69a4e2944ee80b995/technical-review.json",
+    "technicalReviewEvidenceSha256": "105def283d97ea8c26f5f2899cea6ef1e2664793b8f494220f4542178e443d09",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "fc2a446e4e78801e5578b7360530fb9c519a39ed95eaf2a097b23caa9db686a4",
+      "triangles": 6510
+    }
+  }
+}

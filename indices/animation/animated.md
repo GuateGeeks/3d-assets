@@ -1,6 +1,6 @@
 # animation/animated
 
-23 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+40 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -24,6 +24,23 @@
 | [Piranha](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-animals-piranha/model.glb) | 1 / 2 |
 | [Wolf](https://opengameart.org/content/animated-animales-low-poly) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-animals-wolf/model.glb) | 1 / 2 |
 | [Robot](https://opengameart.org/node/89467) | OpenGameArt | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/oga-robot-robot/model.glb) | 1 / 14 |
+| [Quetzal: representación estilizada](https://sketchfab.com/3d-models/07b5bfaf6d5849d79a4d7ba256423c89) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | alejandroariasleonardo | [GLB](../../models/sketchfab-07b5bfaf6d5849d79a4d7ba256423c89/model.glb) | 0 / 1 |
+| [Brazo robótico animado](https://sketchfab.com/3d-models/08d3e2e9b7dd4b2db6bb98ccc8b36f32) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Myjato | [GLB](../../models/sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32/model.glb) | 1 / 1 |
+| [Maíz](https://sketchfab.com/3d-models/10187bc37c9e42ef8770b28452ee7cd3) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Tiia Tuulia | [GLB](../../models/sketchfab-10187bc37c9e42ef8770b28452ee7cd3/model.glb) | 0 / 1 |
+| [Engranajes](https://sketchfab.com/3d-models/2d80f07dc73e4cb0813a15e5daba3ced) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | ROY | [GLB](../../models/sketchfab-2d80f07dc73e4cb0813a15e5daba3ced/model.glb) | 0 / 1 |
+| [Isla](https://sketchfab.com/3d-models/3dd8d58630ff4d5e913b1ea045d3fe48) | Sketchfab | [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | BConnolly | [GLB](../../models/sketchfab-3dd8d58630ff4d5e913b1ea045d3fe48/model.glb) | 1 / 1 |
+| [Avión](https://sketchfab.com/3d-models/628232dd846249f6a89ed3fb2e1cd4f5) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Omar_Mohamed | [GLB](../../models/sketchfab-628232dd846249f6a89ed3fb2e1cd4f5/model.glb) | 0 / 8 |
+| [Pez animado de baja poligonización](https://sketchfab.com/3d-models/64adc2e5a4be471e8279532b9610c878) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Atlas | [GLB](../../models/sketchfab-64adc2e5a4be471e8279532b9610c878/model.glb) | 1 / 1 |
+| [Tortuga estilizada](https://sketchfab.com/3d-models/6a165b82bda8458b96f57224d1867606) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Bonvikt | [GLB](../../models/sketchfab-6a165b82bda8458b96f57224d1867606/model.glb) | 1 / 2 |
+| [Tapir estilizado de patrón blanco y negro](https://sketchfab.com/3d-models/8b6e79f84f98456484fb38fe164340d1) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | planeta-elefante | [GLB](../../models/sketchfab-8b6e79f84f98456484fb38fe164340d1/model.glb) | 1 / 6 |
+| [Pollito animado](https://sketchfab.com/3d-models/8fffaef7902c4823834dd783a99c4316) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | FourthGreen | [GLB](../../models/sketchfab-8fffaef7902c4823834dd783a99c4316/model.glb) | 1 / 1 |
+| [Aguacate y utensilios de preparación](https://sketchfab.com/3d-models/92ed8116d60343a1b43d0f93d7175500) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | mothmane | [GLB](../../models/sketchfab-92ed8116d60343a1b43d0f93d7175500/model.glb) | 0 / 1 |
+| [Rana](https://sketchfab.com/3d-models/b3fb06508c5649fd8ecb30d79e2b9050) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | gooseg489 | [GLB](../../models/sketchfab-b3fb06508c5649fd8ecb30d79e2b9050/model.glb) | 1 / 1 |
+| [Teclado](https://sketchfab.com/3d-models/ba869e8681974cf088736173b8b86fef) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 45P3R4 | [GLB](../../models/sketchfab-ba869e8681974cf088736173b8b86fef/model.glb) | 0 / 1 |
+| [Mariposa animada](https://sketchfab.com/3d-models/d4fbcbaab845402999f30c5aa75851e6) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Artistic_side | [GLB](../../models/sketchfab-d4fbcbaab845402999f30c5aa75851e6/model.glb) | 1 / 2 |
 | [Aerogenerador animado](https://sketchfab.com/3d-models/e0678e6615a74ed29c1376a591262159) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Glowbox 3D | [GLB](../../models/sketchfab-e0678e6615a74ed29c1376a591262159/model.glb) | 0 / 1 |
+| [Bandada de aves en vuelo](https://sketchfab.com/3d-models/e93a906eb38343c4a14458a637136329) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Blender Artist | [GLB](../../models/sketchfab-e93a906eb38343c4a14458a637136329/model.glb) | 5 / 1 |
+| [Gato articulado](https://sketchfab.com/3d-models/eccebebd5a60484eaa49036f8a4b6ed7) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Vr-cvantorium | [GLB](../../models/sketchfab-eccebebd5a60484eaa49036f8a4b6ed7/model.glb) | 1 / 3 |
+| [Perro](https://sketchfab.com/3d-models/f604e800dc3d457f999f8284458c9cf1) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Paleo Modelist | [GLB](../../models/sketchfab-f604e800dc3d457f999f8284458c9cf1/model.glb) | 1 / 1 |
 | [Skeleton](https://poly.pizza/m/wODZYCgX5Z) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/wODZYCgX5Z/model.glb) | 1 / 5 |
 | [Skeleton](https://poly.pizza/m/yq5ATpujSt) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/yq5ATpujSt/model.glb) | 1 / 15 |

@@ -74,6 +74,16 @@ def fetch(url, target=None, token=None, limit=LIMIT):
             time.sleep(int(wait) if wait.isdigit() else 2 ** attempt)
 
 
+def sketchfab_license(url):
+    url = url.replace('http://', 'https://')
+    if url == 'https://creativecommons.org/publicdomain/zero/1.0/':
+        return 'CC0 1.0'
+    match = re.fullmatch(r'https://creativecommons.org/licenses/(by(?:-nc)?(?:-sa)?)/(\d\.\d)/', url)
+    if not match:
+        raise ValueError('License needs individual review')
+    return 'CC-' + match[1].upper() + ' ' + match[2]
+
+
 def acquire(run, selection):
     if not (run / 'baseline-index.json').exists():
         save(run / 'baseline-index.json', read(ROOT / 'index.json'))
@@ -100,10 +110,7 @@ def acquire(run, selection):
                 if not meta.get('isDownloadable') or meta.get('isAgeRestricted'):
                     raise ValueError('Not downloadable or age restricted')
                 license_url = meta['license']['url'].replace('http://', 'https://')
-                match = re.fullmatch(r'https://creativecommons.org/licenses/(by(?:-nc)?(?:-sa|-nd)?)/(\d\.\d)/', license_url)
-                if not match or '-nd' in match[1]:
-                    raise ValueError('License needs individual review')
-                row.update(licenseRaw='CC-' + match[1].upper() + ' ' + match[2],
+                row.update(licenseRaw=sketchfab_license(license_url),
                            licenseUrl=license_url, titleOriginal=meta['name'],
                            author=meta['user']['displayName'], authorUrl=meta['user']['profileUrl'])
                 url = proposal.get('downloadUrl')

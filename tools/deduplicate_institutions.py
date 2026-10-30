@@ -48,7 +48,7 @@ def compare(run, node):
         row['geometryPeerMatches'] = [other['id'] for other in rows if other['id'] != row['id'] and other['geometryFingerprint']['sha256'] == row['geometryFingerprint']['sha256']]
     save(run / 'deduplication.json', {'baselineModels': len(baseline), 'baselineFingerprintCount': len(baseline),
          'comparisons': rows, 'unsupported': [],
-         'methodNote': 'Native GLB SHA-256 plus triangle-edge-distribution-v1; Draco decoded locally with Google Draco 1.5.6 without modifying source bytes. Geometry matches need individual review; nonmatches do not exclude semantic variants.'})
+         'methodNote': 'Native GLB SHA-256 plus triangle-edge-distribution-v1 (or triangle-and-line-distribution-v1 for native line segments); Draco decoded locally with Google Draco 1.5.6 without modifying source bytes. Geometry matches need individual review; nonmatches do not exclude semantic variants.'})
 
 
 if __name__ == '__main__':

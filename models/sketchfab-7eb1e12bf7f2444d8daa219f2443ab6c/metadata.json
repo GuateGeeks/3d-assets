@@ -1,0 +1,116 @@
+{
+  "id": "sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c",
+  "assetId": "sketchfab:7eb1e12bf7f2444d8daa219f2443ab6c",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Taller de alfarería con horno",
+  "titleOriginal": "Pottery - Bazaar",
+  "author": "Dante Deketele",
+  "authorUrl": "https://sketchfab.com/dantedeketele",
+  "sourceUrl": "https://sketchfab.com/3d-models/7eb1e12bf7f2444d8daa219f2443ab6c",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/7eb1e12bf7f2444d8daa219f2443ab6c",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/7eb1e12bf7f2444d8daa219f2443ab6c/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para pottery. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Pottery - Bazaar",
+    "sketchfab-edu-pottery"
+  ],
+  "areas": [
+    "historia-patrimonio",
+    "oficios-productividad"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Sociales",
+    "Expresión Artística",
+    "Matemáticas",
+    "Productividad y Desarrollo"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"Pottery - Bazaar\", por Dante Deketele / Sketchfab. https://sketchfab.com/3d-models/7eb1e12bf7f2444d8daa219f2443ab6c. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c/metadata.json",
+  "originalDownload": "models/sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c/originals.zip",
+  "bytes": 1184096,
+  "sha256": "6036c62bb58de87d4857b10ba0d4370fa84795ccf3fa23603fd6d34bea648c9d",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 203,
+    "nodes": 415,
+    "materials": 3,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:43.277017+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/7eb1e12bf7f2444d8daa219f2443ab6c/download",
+        "bytes": 1184096,
+        "sha256": "6036c62bb58de87d4857b10ba0d4370fa84795ccf3fa23603fd6d34bea648c9d"
+      }
+    ],
+    "originalDownloadSha256": "07d341d28b4b2039fa9e33c8bdbefbe2cf8197f473fcea8ab617539f442468df",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      2.3661580085754395,
+      1.7818734645843506,
+      2.355778932571411
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c/license-evidence.json",
+    "licenseEvidenceSha256": "58cfdca774f81e1c00b41a16ad3c4371d08c9c905a21434aaad0774b47e98e8e",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c/metadata.json",
+    "metadataEvidenceSha256": "96951e2db679b0ee94531c0b1c867b12c14ad57bd04509c738f3455e9e796195",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c/technical-review.json",
+    "technicalReviewEvidenceSha256": "e4421261a086f72ae97ac6a79ec9f6af3dc7c8385c25904f7622c3c8c71134c0",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "bb91bf1f5c86619544b9e951c6fb9acf6e8c9045e7a9d272330fe275c31b2377",
+      "triangles": 13345
+    }
+  }
+}

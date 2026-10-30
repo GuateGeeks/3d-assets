@@ -1,0 +1,113 @@
+{
+  "id": "sketchfab-69c10f308a0c44f88a0d08c6614e95d0",
+  "assetId": "sketchfab:69c10f308a0c44f88a0d08c6614e95d0",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Botiquín de primeros auxilios",
+  "titleOriginal": "First-Aid Kit",
+  "author": "Parelaxel",
+  "authorUrl": "https://sketchfab.com/parelaxel",
+  "sourceUrl": "https://sketchfab.com/3d-models/69c10f308a0c44f88a0d08c6614e95d0",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/69c10f308a0c44f88a0d08c6614e95d0",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/69c10f308a0c44f88a0d08c6614e95d0/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para first aid. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "First-Aid Kit",
+    "sketchfab-edu-first-aid"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "licenseRaw": "CC-BY 4.0",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attributionRequired": true,
+    "commercialUse": true,
+    "derivatives": true,
+    "shareAlike": false
+  },
+  "attribution": "\"First-Aid Kit\", por Parelaxel / Sketchfab. https://sketchfab.com/3d-models/69c10f308a0c44f88a0d08c6614e95d0. CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-69c10f308a0c44f88a0d08c6614e95d0/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-69c10f308a0c44f88a0d08c6614e95d0/metadata.json",
+  "originalDownload": "models/sketchfab-69c10f308a0c44f88a0d08c6614e95d0/originals.zip",
+  "bytes": 151248,
+  "sha256": "596604a79809f9fe226a853b316c6774e4be77cd56b235f2be11822f70aa511b",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 5,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:42.881968+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-69c10f308a0c44f88a0d08c6614e95d0/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/69c10f308a0c44f88a0d08c6614e95d0/download",
+        "bytes": 151248,
+        "sha256": "596604a79809f9fe226a853b316c6774e4be77cd56b235f2be11822f70aa511b"
+      }
+    ],
+    "originalDownloadSha256": "c03f023e7f478d61c4fe8e521642c9eceb50d2be8fc645c26b910984652e9a80",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      7.454632759094238,
+      5.72104024887085,
+      1.5407414436340332
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-69c10f308a0c44f88a0d08c6614e95d0/license-evidence.json",
+    "licenseEvidenceSha256": "623c06623361e44004a0cc0fbdf4e2612b67858e52924b231870adeec6c2fa71",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-69c10f308a0c44f88a0d08c6614e95d0/metadata.json",
+    "metadataEvidenceSha256": "df7069651879b4918033e5a8df42f87bd03d9078ba6acc92ae2bd00ddcce8029",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-69c10f308a0c44f88a0d08c6614e95d0/technical-review.json",
+    "technicalReviewEvidenceSha256": "779cd74b8d32d17745a992d350a8384e1296fc14fb59cd7aa24a7b2ec49b2cd1",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "6d4968a233059a69d7976a94eec2a82c72df8671f6694dd79858da56975dc348",
+      "triangles": 252
+    }
+  }
+}

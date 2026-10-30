@@ -1,6 +1,6 @@
 # Tierra, relieve y geografía
 
-134 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+138 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -135,6 +135,10 @@
 | [stone · tall I](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-stone-talli/model.glb) | 0 / 0 |
 | [stone · tall J](https://kenney.nl/assets/nature-kit) | Kenney | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Kenney | [GLB](../../models/kenney-nature-stone-tallj/model.glb) | 0 / 0 |
 | [Brújula de navegación](https://polyhaven.com/a/seadogs_compass) | Poly Haven | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Benny Weimer | [GLB](../../models/polyhaven-seadogs-compass/model.glb) | 0 / 0 |
+| [Globo terráqueo](https://sketchfab.com/3d-models/2d40c8805443463283c1b1547e50e650) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | padmadev2005 | [GLB](../../models/sketchfab-2d40c8805443463283c1b1547e50e650/model.glb) | 0 / 0 |
+| [Isla](https://sketchfab.com/3d-models/3dd8d58630ff4d5e913b1ea045d3fe48) | Sketchfab | [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | BConnolly | [GLB](../../models/sketchfab-3dd8d58630ff4d5e913b1ea045d3fe48/model.glb) | 1 / 1 |
+| [Volcán de baja poligonización](https://sketchfab.com/3d-models/516e0bd4e78d4f5caed3f00f056e2e3a) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | SDC PERFORMANCE™️ | [GLB](../../models/sketchfab-516e0bd4e78d4f5caed3f00f056e2e3a/model.glb) | 0 / 0 |
+| [Montaña](https://sketchfab.com/3d-models/dd826f1f05c544ccb671949ebca59721) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Gesy | [GLB](../../models/sketchfab-dd826f1f05c544ccb671949ebca59721/model.glb) | 0 / 0 |
 | [Trilobite Poliella prima](https://3d.si.edu/object/3d/fcec58e8-ac1f-425d-9d83-8b16ca72b60c) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / NMNH - Paleobiology Dept. | [GLB](../../models/smithsonian-trilobite-fossils/model.glb) | 0 / 0 |
 | [Excavación de ballena fósil MPC 675](https://3d.si.edu/object/3d/1f1ec6af-193f-4969-9185-dc5dd587239d) | Smithsonian Open Access | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Smithsonian Institution / NMNH - Paleobiology Dept. | [GLB](../../models/smithsonian-whale-fossils/model.glb) | 0 / 0 |
 | [Mountains](https://poly.pizza/m/w9VBrh7Nz0) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/w9VBrh7Nz0/model.glb) | 0 / 0 |

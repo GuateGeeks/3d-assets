@@ -1,6 +1,6 @@
 # Ambiente y sostenibilidad
 
-13 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
+19 modelos. Créditos: [ATTRIBUTIONS.md](../../ATTRIBUTIONS.md).
 
 | Modelo | Fuente | Licencia | Autor | GLB | Rig / clips |
 | --- | --- | --- | --- | --- | --- |
@@ -17,3 +17,9 @@
 | [Windmill](https://poly.pizza/m/ctIRaIM3zXu) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/ctIRaIM3zXu/model.glb) | 0 / 0 |
 | [Farm](https://poly.pizza/m/dSjXKezYeBo) | Poly Pizza | [CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/) | Poly by Google | [GLB](../../models/dSjXKezYeBo/model.glb) | 0 / 0 |
 | [Trashcan Small](https://poly.pizza/m/i7HDuYDLkx) | Poly Pizza | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | Quaternius | [GLB](../../models/i7HDuYDLkx/model.glb) | 0 / 0 |
+| [Granja](https://sketchfab.com/3d-models/6619a9cd8b104da3a785ff93293b7925) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | WAYNOT | [GLB](../../models/sketchfab-6619a9cd8b104da3a785ff93293b7925/model.glb) | 0 / 0 |
+| [Paneles solares](https://sketchfab.com/3d-models/792ee69625a04ed2ab52de807ca88077) | Sketchfab | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | MRowa | [GLB](../../models/sketchfab-792ee69625a04ed2ab52de807ca88077/model.glb) | 0 / 0 |
+| [Basurero](https://sketchfab.com/3d-models/a9890d981db54c18be494d4e058e57b7) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | NoTimeForAdventure | [GLB](../../models/sketchfab-a9890d981db54c18be494d4e058e57b7/model.glb) | 0 / 0 |
+| [Contenedor de reciclaje](https://sketchfab.com/3d-models/cfe67988a51e44598678a48260cef82b) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | systemmanager | [GLB](../../models/sketchfab-cfe67988a51e44598678a48260cef82b/model.glb) | 0 / 0 |
+| [Aerogenerador de tres palas](https://sketchfab.com/3d-models/ed577ce3d4db49a283924c2ec27e65e8) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | FLAREMEDIA | [GLB](../../models/sketchfab-ed577ce3d4db49a283924c2ec27e65e8/model.glb) | 0 / 0 |
+| [Botella plástica de agua](https://sketchfab.com/3d-models/efa1c4c1f2a947659ded2e61e20eff31) | Sketchfab | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Jeremy E. Grayson | [GLB](../../models/sketchfab-efa1c4c1f2a947659ded2e61e20eff31/model.glb) | 0 / 0 |

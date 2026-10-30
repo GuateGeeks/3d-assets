@@ -1,32 +1,32 @@
 # Índice de modelos
 
-1045 modelos · 342.2 MiB.
+1152 modelos · 407.0 MiB.
 
 | Área | Modelos |
 | --- | ---: |
-| [Personajes, narrativa y animación](indices/areas/personajes-animacion.md) | 15 |
-| [Animales y biodiversidad](indices/areas/animales-biodiversidad.md) | 30 |
-| [Bosques y plantas](indices/areas/bosques-plantas.md) | 130 |
-| [Agua y ecosistemas acuáticos](indices/areas/agua-oceanos.md) | 33 |
-| [Tierra, relieve y geografía](indices/areas/tierra-geografia.md) | 134 |
-| [Espacio y astronomía](indices/areas/espacio-astronomia.md) | 28 |
-| [Laboratorio e investigación](indices/areas/laboratorio-ciencia.md) | 21 |
-| [Cuerpo humano y salud](indices/areas/cuerpo-salud.md) | 25 |
-| [Alimentos, agricultura y nutrición](indices/areas/alimentos-agricultura.md) | 243 |
-| [Geometría, tiempo y medición](indices/areas/matematicas-medicion.md) | 138 |
-| [Física, máquinas y energía](indices/areas/fisica-energia.md) | 34 |
-| [Robótica y electrónica STEAM](indices/areas/robotica-electronica.md) | 29 |
-| [Computación y redes](indices/areas/computacion-redes.md) | 15 |
-| [Escuela, lectura y vocabulario](indices/areas/escuela-lenguaje.md) | 16 |
-| [Comunidad, servicios y ciudadanía](indices/areas/comunidad-ciudadania.md) | 128 |
-| [Transporte y movilidad](indices/areas/transporte-movilidad.md) | 18 |
-| [Historia y patrimonio](indices/areas/historia-patrimonio.md) | 8 |
-| [Arte y música](indices/areas/arte-musica.md) | 20 |
-| [Deporte y recreación](indices/areas/deporte-recreacion.md) | 13 |
-| [Oficios, herramientas y productividad](indices/areas/oficios-productividad.md) | 23 |
-| [Ambiente y sostenibilidad](indices/areas/ambiente-sostenibilidad.md) | 13 |
-| [Escenarios y juegos para Code Studio](indices/areas/escenarios-videojuegos.md) | 436 |
-| [Contexto guatemalteco y mesoamericano](indices/areas/guatemala-contexto.md) | 11 |
+| [Personajes, narrativa y animación](indices/areas/personajes-animacion.md) | 18 |
+| [Animales y biodiversidad](indices/areas/animales-biodiversidad.md) | 42 |
+| [Bosques y plantas](indices/areas/bosques-plantas.md) | 138 |
+| [Agua y ecosistemas acuáticos](indices/areas/agua-oceanos.md) | 39 |
+| [Tierra, relieve y geografía](indices/areas/tierra-geografia.md) | 138 |
+| [Espacio y astronomía](indices/areas/espacio-astronomia.md) | 31 |
+| [Laboratorio e investigación](indices/areas/laboratorio-ciencia.md) | 26 |
+| [Cuerpo humano y salud](indices/areas/cuerpo-salud.md) | 29 |
+| [Alimentos, agricultura y nutrición](indices/areas/alimentos-agricultura.md) | 252 |
+| [Geometría, tiempo y medición](indices/areas/matematicas-medicion.md) | 142 |
+| [Física, máquinas y energía](indices/areas/fisica-energia.md) | 39 |
+| [Robótica y electrónica STEAM](indices/areas/robotica-electronica.md) | 34 |
+| [Computación y redes](indices/areas/computacion-redes.md) | 20 |
+| [Escuela, lectura y vocabulario](indices/areas/escuela-lenguaje.md) | 21 |
+| [Comunidad, servicios y ciudadanía](indices/areas/comunidad-ciudadania.md) | 134 |
+| [Transporte y movilidad](indices/areas/transporte-movilidad.md) | 21 |
+| [Historia y patrimonio](indices/areas/historia-patrimonio.md) | 14 |
+| [Arte y música](indices/areas/arte-musica.md) | 25 |
+| [Deporte y recreación](indices/areas/deporte-recreacion.md) | 18 |
+| [Oficios, herramientas y productividad](indices/areas/oficios-productividad.md) | 29 |
+| [Ambiente y sostenibilidad](indices/areas/ambiente-sostenibilidad.md) | 19 |
+| [Escenarios y juegos para Code Studio](indices/areas/escenarios-videojuegos.md) | 440 |
+| [Contexto guatemalteco y mesoamericano](indices/areas/guatemala-contexto.md) | 23 |
 
 | Modelo | Fuente | Autor | Licencia | Archivo |
 | --- | --- | --- | --- | --- |
@@ -1051,14 +1051,121 @@
 | [Microscope](https://poly.pizza/m/q9zNs4U5NG) | Poly Pizza | Username12 | CC-BY 3.0 | [GLB](models/q9zNs4U5NG/model.glb) |
 | [Drum Set](https://poly.pizza/m/qWU9Q4flfQ) | Poly Pizza | Zsky | CC-BY 3.0 | [GLB](models/qWU9Q4flfQ/model.glb) |
 | [Hand Saw](https://poly.pizza/m/rbZHkFchEk) | Poly Pizza | CreativeTrio | CC0 1.0 | [GLB](models/rbZHkFchEk/model.glb) |
+| [Marimba esquemática con rótulo](https://sketchfab.com/3d-models/025ccd2d93374a7e8805f8c4ccd3cd9d) | Sketchfab | Shirley García | CC-BY 4.0 | [GLB](models/sketchfab-025ccd2d93374a7e8805f8c4ccd3cd9d/model.glb) |
+| [Motor eléctrico](https://sketchfab.com/3d-models/048b9dc3095e44c0883b6b7944ad4916) | Sketchfab | Scarecrow_original | CC-BY 4.0 | [GLB](models/sketchfab-048b9dc3095e44c0883b6b7944ad4916/model.glb) |
+| [Quetzal: representación estilizada](https://sketchfab.com/3d-models/07b5bfaf6d5849d79a4d7ba256423c89) | Sketchfab | alejandroariasleonardo | CC-BY 4.0 | [GLB](models/sketchfab-07b5bfaf6d5849d79a4d7ba256423c89/model.glb) |
+| [Zanahoria](https://sketchfab.com/3d-models/089c5e90917b44a188e0c0db259e0782) | Sketchfab | NeoT1 | CC-BY 4.0 | [GLB](models/sketchfab-089c5e90917b44a188e0c0db259e0782/model.glb) |
+| [Autobuses de ciudad estilizados](https://sketchfab.com/3d-models/08ad831c653b4a54b4d3d96daf07b7d6) | Sketchfab | Apokalips123 | CC-BY 4.0 | [GLB](models/sketchfab-08ad831c653b4a54b4d3d96daf07b7d6/model.glb) |
+| [Brazo robótico animado](https://sketchfab.com/3d-models/08d3e2e9b7dd4b2db6bb98ccc8b36f32) | Sketchfab | Myjato | CC-BY 4.0 | [GLB](models/sketchfab-08d3e2e9b7dd4b2db6bb98ccc8b36f32/model.glb) |
+| [Flor](https://sketchfab.com/3d-models/0a0f5b4e595940649ea3cabeb7a4b1e1) | Sketchfab | alexerhart | CC-BY 4.0 | [GLB](models/sketchfab-0a0f5b4e595940649ea3cabeb7a4b1e1/model.glb) |
 | [Cerebro y tronco encefálico](https://sketchfab.com/3d-models/0aa0e33c5c854d1bab7bac9e1c7acaec) | Sketchfab | FrankJohansson | CC-BY 4.0 | [GLB](models/sketchfab-0aa0e33c5c854d1bab7bac9e1c7acaec/model.glb) |
+| [Templo I de Tikal: representación](https://sketchfab.com/3d-models/0bc7834d6f254cd3b5aedabafa8171d1) | Sketchfab | boui | CC-BY 4.0 | [GLB](models/sketchfab-0bc7834d6f254cd3b5aedabafa8171d1/model.glb) |
+| [Planta de café](https://sketchfab.com/3d-models/0c5c4cd4e79b4015811914203d599b9d) | Sketchfab | neutralize | CC-BY 4.0 | [GLB](models/sketchfab-0c5c4cd4e79b4015811914203d599b9d/model.glb) |
+| [Manzano de baja poligonización](https://sketchfab.com/3d-models/0fa93c551d8449808cc1f85c4238bf93) | Sketchfab | Avramania | CC0 1.0 | [GLB](models/sketchfab-0fa93c551d8449808cc1f85c4238bf93/model.glb) |
+| [Maíz](https://sketchfab.com/3d-models/10187bc37c9e42ef8770b28452ee7cd3) | Sketchfab | Tiia Tuulia | CC-BY 4.0 | [GLB](models/sketchfab-10187bc37c9e42ef8770b28452ee7cd3/model.glb) |
+| [Vaina de cacao](https://sketchfab.com/3d-models/12cd728323744540af4f49d20de67e6f) | Sketchfab | Mario.Quintanilla | CC-BY 4.0 | [GLB](models/sketchfab-12cd728323744540af4f49d20de67e6f/model.glb) |
+| [Imán](https://sketchfab.com/3d-models/14f17cd9b48f4fe89aea6e69f80980d2) | Sketchfab | aidanp | CC-BY 4.0 | [GLB](models/sketchfab-14f17cd9b48f4fe89aea6e69f80980d2/model.glb) |
+| [Saturno](https://sketchfab.com/3d-models/17b34b975dc3449da83f2ee7802004f3) | Sketchfab | Freemodels | CC-BY 4.0 | [GLB](models/sketchfab-17b34b975dc3449da83f2ee7802004f3/model.glb) |
+| [Sol y planetas: proporciones esquemáticas](https://sketchfab.com/3d-models/1d790c7e712f4500b417e9c13639e79f) | Sketchfab | engine9 | CC-BY 4.0 | [GLB](models/sketchfab-1d790c7e712f4500b417e9c13639e79f/model.glb) |
+| [Balón de baloncesto](https://sketchfab.com/3d-models/2343abdae7674f46ad85071858db93c6) | Sketchfab | afurokn | CC-BY 4.0 | [GLB](models/sketchfab-2343abdae7674f46ad85071858db93c6/model.glb) |
+| [Radio con reloj digital](https://sketchfab.com/3d-models/23b2d0e81d414836877c555e5b5fc18d) | Sketchfab | NoMoreFeelings | CC-BY 4.0 | [GLB](models/sketchfab-23b2d0e81d414836877c555e5b5fc18d/model.glb) |
 | [Aerogenerador](https://sketchfab.com/3d-models/285032402a8543ae8bf3e3c4d8c9f98a) | Sketchfab | Shivansh Singh | CC-BY 4.0 | [GLB](models/sketchfab-285032402a8543ae8bf3e3c4d8c9f98a/model.glb) |
+| [Flores de baja poligonización](https://sketchfab.com/3d-models/28cbfa4fa9b0490ea70b2d9eb5867bb6) | Sketchfab | Avramania | CC0 1.0 | [GLB](models/sketchfab-28cbfa4fa9b0490ea70b2d9eb5867bb6/model.glb) |
+| [Cercas](https://sketchfab.com/3d-models/2980f275af704e579f10869e5b0b3ae5) | Sketchfab | HenryBoadle | CC-BY 4.0 | [GLB](models/sketchfab-2980f275af704e579f10869e5b0b3ae5/model.glb) |
+| [Mochila](https://sketchfab.com/3d-models/2ad86321197a49feb54b7726743d7fd0) | Sketchfab | Thomas Lean | CC-BY 4.0 | [GLB](models/sketchfab-2ad86321197a49feb54b7726743d7fd0/model.glb) |
+| [Martillo](https://sketchfab.com/3d-models/2c63eb21f4ed436a8424da6f1e1cd479) | Sketchfab | FXbuterfly | CC-BY 4.0 | [GLB](models/sketchfab-2c63eb21f4ed436a8424da6f1e1cd479/model.glb) |
+| [Globo terráqueo](https://sketchfab.com/3d-models/2d40c8805443463283c1b1547e50e650) | Sketchfab | padmadev2005 | CC-BY 4.0 | [GLB](models/sketchfab-2d40c8805443463283c1b1547e50e650/model.glb) |
+| [Engranajes](https://sketchfab.com/3d-models/2d80f07dc73e4cb0813a15e5daba3ced) | Sketchfab | ROY | CC-BY 4.0 | [GLB](models/sketchfab-2d80f07dc73e4cb0813a15e5daba3ced/model.glb) |
+| [Pirámide de base cuadrada estilizada](https://sketchfab.com/3d-models/2e0a99016e5a4ac5a9b56caf6a802b06) | Sketchfab | MarloesB | CC-BY 4.0 | [GLB](models/sketchfab-2e0a99016e5a4ac5a9b56caf6a802b06/model.glb) |
+| [Sierra de disco estilizada](https://sketchfab.com/3d-models/2f707919a3164f1ab3f2c5da6a07fb5d) | Sketchfab | tomkranis | CC-BY 4.0 | [GLB](models/sketchfab-2f707919a3164f1ab3f2c5da6a07fb5d/model.glb) |
+| [Interruptor de luz sencillo](https://sketchfab.com/3d-models/32d02fa06d474f4db5a433aa134be612) | Sketchfab | BillieBones | CC-BY 4.0 | [GLB](models/sketchfab-32d02fa06d474f4db5a433aa134be612/model.glb) |
+| [Plataforma para escenarios](https://sketchfab.com/3d-models/366f09aae65847c6b9c5856109f58226) | Sketchfab | Paris Mutter | CC-BY 4.0 | [GLB](models/sketchfab-366f09aae65847c6b9c5856109f58226/model.glb) |
+| [Dado](https://sketchfab.com/3d-models/3b955af797e140eca0947ede57f412ba) | Sketchfab | tnRaro | CC-BY 4.0 | [GLB](models/sketchfab-3b955af797e140eca0947ede57f412ba/model.glb) |
+| [Isla](https://sketchfab.com/3d-models/3dd8d58630ff4d5e913b1ea045d3fe48) | Sketchfab | BConnolly | CC-BY-NC 4.0 | [GLB](models/sketchfab-3dd8d58630ff4d5e913b1ea045d3fe48/model.glb) |
+| [Regla](https://sketchfab.com/3d-models/3ea2d33bbe264ea0be0dcdf166406e8c) | Sketchfab | Baldi_BaldimoreYT | CC-BY 4.0 | [GLB](models/sketchfab-3ea2d33bbe264ea0be0dcdf166406e8c/model.glb) |
 | [Corazón humano](https://sketchfab.com/3d-models/3f8072336ce94d18b3d0d055a1ece089) | Sketchfab | neshallads | CC-BY 4.0 | [GLB](models/sketchfab-3f8072336ce94d18b3d0d055a1ece089/model.glb) |
+| [Trompeta](https://sketchfab.com/3d-models/407e105a0c11478f8ddea478edca5c4d) | Sketchfab | Wacky | CC-BY 4.0 | [GLB](models/sketchfab-407e105a0c11478f8ddea478edca5c4d/model.glb) |
+| [Cráneo humano](https://sketchfab.com/3d-models/444884ba91f24d51bc34bb44779ef689) | Sketchfab | Filip | CC-BY 4.0 | [GLB](models/sketchfab-444884ba91f24d51bc34bb44779ef689/model.glb) |
+| [Puerta de hospital](https://sketchfab.com/3d-models/46e99d254ff34f45ad8ae7cb40321406) | Sketchfab | anasrar | CC-BY 4.0 | [GLB](models/sketchfab-46e99d254ff34f45ad8ae7cb40321406/model.glb) |
+| [Protoboard para electrónica](https://sketchfab.com/3d-models/497ee275a25e4166b98c7be3105b4ad9) | Sketchfab | Matys | CC-BY 4.0 | [GLB](models/sketchfab-497ee275a25e4166b98c7be3105b4ad9/model.glb) |
+| [Patineta](https://sketchfab.com/3d-models/4bd311032f364db18dafffb866ddb9f3) | Sketchfab | Ren | CC-BY 4.0 | [GLB](models/sketchfab-4bd311032f364db18dafffb866ddb9f3/model.glb) |
+| [Manzana de estilo voxel](https://sketchfab.com/3d-models/5030d74f8f954a3aace5bd1c3a5e9d65) | Sketchfab | delta2520 | CC-BY 4.0 | [GLB](models/sketchfab-5030d74f8f954a3aace5bd1c3a5e9d65/model.glb) |
+| [Tienda](https://sketchfab.com/3d-models/5121e71e25dd4605879441c7e8f4c805) | Sketchfab | alexandr.s.rudenko | CC-BY 4.0 | [GLB](models/sketchfab-5121e71e25dd4605879441c7e8f4c805/model.glb) |
+| [Volcán de baja poligonización](https://sketchfab.com/3d-models/516e0bd4e78d4f5caed3f00f056e2e3a) | Sketchfab | SDC PERFORMANCE™️ | CC-BY 4.0 | [GLB](models/sketchfab-516e0bd4e78d4f5caed3f00f056e2e3a/model.glb) |
+| [Bicicleta](https://sketchfab.com/3d-models/5539b4d5610b4f53858b88daa4f9a749) | Sketchfab | Justiinsa | CC-BY 4.0 | [GLB](models/sketchfab-5539b4d5610b4f53858b88daa4f9a749/model.glb) |
+| [Casa en el bosque](https://sketchfab.com/3d-models/5646e6a3c8834022a0e289465f0bbc5d) | Sketchfab | Wesai | CC-BY 4.0 | [GLB](models/sketchfab-5646e6a3c8834022a0e289465f0bbc5d/model.glb) |
+| [Lupa](https://sketchfab.com/3d-models/5a83a0f4018542d1afd69725ae9d80c8) | Sketchfab | Simon Mulrennan | CC-BY 4.0 | [GLB](models/sketchfab-5a83a0f4018542d1afd69725ae9d80c8/model.glb) |
+| [Avión](https://sketchfab.com/3d-models/628232dd846249f6a89ed3fb2e1cd4f5) | Sketchfab | Omar_Mohamed | CC-BY 4.0 | [GLB](models/sketchfab-628232dd846249f6a89ed3fb2e1cd4f5/model.glb) |
+| [Pez animado de baja poligonización](https://sketchfab.com/3d-models/64adc2e5a4be471e8279532b9610c878) | Sketchfab | Atlas | CC-BY 4.0 | [GLB](models/sketchfab-64adc2e5a4be471e8279532b9610c878/model.glb) |
+| [Granja](https://sketchfab.com/3d-models/6619a9cd8b104da3a785ff93293b7925) | Sketchfab | WAYNOT | CC-BY 4.0 | [GLB](models/sketchfab-6619a9cd8b104da3a785ff93293b7925/model.glb) |
+| [Camión de bomberos de baja poligonización](https://sketchfab.com/3d-models/688b7c17a0e54a05b0b2d51a8aee061b) | Sketchfab | JG3D | CC-BY 4.0 | [GLB](models/sketchfab-688b7c17a0e54a05b0b2d51a8aee061b/model.glb) |
+| [Botiquín de primeros auxilios](https://sketchfab.com/3d-models/69c10f308a0c44f88a0d08c6614e95d0) | Sketchfab | Parelaxel | CC-BY 4.0 | [GLB](models/sketchfab-69c10f308a0c44f88a0d08c6614e95d0/model.glb) |
+| [Tortuga estilizada](https://sketchfab.com/3d-models/6a165b82bda8458b96f57224d1867606) | Sketchfab | Bonvikt | CC-BY 4.0 | [GLB](models/sketchfab-6a165b82bda8458b96f57224d1867606/model.glb) |
+| [Ruinas de templo](https://sketchfab.com/3d-models/6b3eb4e27e03485a886ce5304e95f897) | Sketchfab | Deyama | CC-BY 4.0 | [GLB](models/sketchfab-6b3eb4e27e03485a886ce5304e95f897/model.glb) |
+| [Cactus](https://sketchfab.com/3d-models/6f404e05d47d42998be25eb58f46c205) | Sketchfab | Victoria Reinhold | CC-BY 4.0 | [GLB](models/sketchfab-6f404e05d47d42998be25eb58f46c205/model.glb) |
+| [Piano](https://sketchfab.com/3d-models/6fdfd05ed18c4c8796f54b44e572e873) | Sketchfab | AEN | CC-BY 4.0 | [GLB](models/sketchfab-6fdfd05ed18c4c8796f54b44e572e873/model.glb) |
+| [Servidor](https://sketchfab.com/3d-models/754e568abf1846ca96cee73e87d88c60) | Sketchfab | JmPrsh153 | CC-BY 4.0 | [GLB](models/sketchfab-754e568abf1846ca96cee73e87d88c60/model.glb) |
+| [Paneles solares](https://sketchfab.com/3d-models/792ee69625a04ed2ab52de807ca88077) | Sketchfab | MRowa | CC-BY-SA 4.0 | [GLB](models/sketchfab-792ee69625a04ed2ab52de807ca88077/model.glb) |
+| [Área de juegos](https://sketchfab.com/3d-models/7d547122a8eb44f0a615492f454c1cf0) | Sketchfab | theJamieAnne | CC-BY-NC 4.0 | [GLB](models/sketchfab-7d547122a8eb44f0a615492f454c1cf0/model.glb) |
+| [Bote de baja poligonización](https://sketchfab.com/3d-models/7d9569d4f7f74e6aa2674e6c53c8c618) | Sketchfab | mitia | CC-BY 4.0 | [GLB](models/sketchfab-7d9569d4f7f74e6aa2674e6c53c8c618/model.glb) |
+| [Antena parabólica: estructura](https://sketchfab.com/3d-models/7df50342811d44fba81c7e953838d069) | Sketchfab | MRowa | CC-BY-SA 4.0 | [GLB](models/sketchfab-7df50342811d44fba81c7e953838d069/model.glb) |
+| [Taller de alfarería con horno](https://sketchfab.com/3d-models/7eb1e12bf7f2444d8daa219f2443ab6c) | Sketchfab | Dante Deketele | CC-BY 4.0 | [GLB](models/sketchfab-7eb1e12bf7f2444d8daa219f2443ab6c/model.glb) |
+| [Raqueta de tenis](https://sketchfab.com/3d-models/8145070b505c4d16aff1c46b026c3cd3) | Sketchfab | Jakob Henerey | CC-BY 4.0 | [GLB](models/sketchfab-8145070b505c4d16aff1c46b026c3cd3/model.glb) |
 | [Panel solar](https://sketchfab.com/3d-models/83483a66f8974d7e8f2e7bbde518d606) | Sketchfab | rivetech | CC-BY 4.0 | [GLB](models/sketchfab-83483a66f8974d7e8f2e7bbde518d606/model.glb) |
+| [Balón de fútbol](https://sketchfab.com/3d-models/88590cf1e42e44bfb85ce3b6b1959648) | Sketchfab | tinmanjuggernaut | CC-BY 4.0 | [GLB](models/sketchfab-88590cf1e42e44bfb85ce3b6b1959648/model.glb) |
+| [Tapir estilizado de patrón blanco y negro](https://sketchfab.com/3d-models/8b6e79f84f98456484fb38fe164340d1) | Sketchfab | planeta-elefante | CC-BY 4.0 | [GLB](models/sketchfab-8b6e79f84f98456484fb38fe164340d1/model.glb) |
+| [Caja de pizza](https://sketchfab.com/3d-models/8c2273cb25154b50874739111aa51e8a) | Sketchfab | Ruslan Malovsky | CC-BY 4.0 | [GLB](models/sketchfab-8c2273cb25154b50874739111aa51e8a/model.glb) |
+| [Polea](https://sketchfab.com/3d-models/8cc7d1b1b3a0496285451af115df006f) | Sketchfab | LeakyRUS | CC-BY 4.0 | [GLB](models/sketchfab-8cc7d1b1b3a0496285451af115df006f/model.glb) |
+| [Semáforo](https://sketchfab.com/3d-models/8db89d219a60466da1995316d83af100) | Sketchfab | game_travel | CC-BY 4.0 | [GLB](models/sketchfab-8db89d219a60466da1995316d83af100/model.glb) |
+| [Puente de madera](https://sketchfab.com/3d-models/8fa6c9cf27f8494db2e52a8d27804eff) | Sketchfab | Akshat | CC-BY 4.0 | [GLB](models/sketchfab-8fa6c9cf27f8494db2e52a8d27804eff/model.glb) |
+| [Pollito animado](https://sketchfab.com/3d-models/8fffaef7902c4823834dd783a99c4316) | Sketchfab | FourthGreen | CC-BY 4.0 | [GLB](models/sketchfab-8fffaef7902c4823834dd783a99c4316/model.glb) |
+| [Aguacate y utensilios de preparación](https://sketchfab.com/3d-models/92ed8116d60343a1b43d0f93d7175500) | Sketchfab | mothmane | CC-BY 4.0 | [GLB](models/sketchfab-92ed8116d60343a1b43d0f93d7175500/model.glb) |
 | [Esqueleto humano](https://sketchfab.com/3d-models/950d0a46531f492ab8715777e312a5bf) | Sketchfab | PolyOne Studio | CC-BY 4.0 | [GLB](models/sketchfab-950d0a46531f492ab8715777e312a5bf/model.glb) |
+| [Ballena con anatomía esquemática](https://sketchfab.com/3d-models/9871233e3bee4bc1a90a02cc44f7a329) | Sketchfab | photogrammetryblender3D | CC-BY-NC-SA 4.0 | [GLB](models/sketchfab-9871233e3bee4bc1a90a02cc44f7a329/model.glb) |
+| [Quetzal: segunda representación](https://sketchfab.com/3d-models/9ee18ac16745473b8c002a5f4b98d8cd) | Sketchfab | Omar | CC-BY 4.0 | [GLB](models/sketchfab-9ee18ac16745473b8c002a5f4b98d8cd/model.glb) |
+| [Guitarra eléctrica de baja poligonización](https://sketchfab.com/3d-models/a157e3341d2d476e9c40299c79cfeafc) | Sketchfab | 3D Bear | CC-BY-NC 4.0 | [GLB](models/sketchfab-a157e3341d2d476e9c40299c79cfeafc/model.glb) |
+| [Banca de asientos para sala de espera](https://sketchfab.com/3d-models/a6cdadcf543b4214b85ecbb0e09a5af6) | Sketchfab | Billy Jackman | CC-BY 4.0 | [GLB](models/sketchfab-a6cdadcf543b4214b85ecbb0e09a5af6/model.glb) |
+| [Basurero](https://sketchfab.com/3d-models/a9890d981db54c18be494d4e058e57b7) | Sketchfab | NoTimeForAdventure | CC-BY 4.0 | [GLB](models/sketchfab-a9890d981db54c18be494d4e058e57b7/model.glb) |
+| [Computadora personal](https://sketchfab.com/3d-models/ab309ab0cf094372b6f1b26b91c35eca) | Sketchfab | Tobalation | CC-BY 4.0 | [GLB](models/sketchfab-ab309ab0cf094372b6f1b26b91c35eca/model.glb) |
+| [Dron de ciencia ficción](https://sketchfab.com/3d-models/ad0e1d85295847409e961de33c2ee0bf) | Sketchfab | ElliotGriffiths | CC-BY 4.0 | [GLB](models/sketchfab-ad0e1d85295847409e961de33c2ee0bf/model.glb) |
 | [Anatomía de las vías respiratorias](https://sketchfab.com/3d-models/ad7d7e16b98f421db0cda79f265fcc8d) | Sketchfab | E-learning UMCG | CC-BY-NC-SA 4.0 | [GLB](models/sketchfab-ad7d7e16b98f421db0cda79f265fcc8d/model.glb) |
+| [Puerta](https://sketchfab.com/3d-models/adf292f437f24151918a3b16ecef52d2) | Sketchfab | hoschu | CC-BY 4.0 | [GLB](models/sketchfab-adf292f437f24151918a3b16ecef52d2/model.glb) |
+| [Rana](https://sketchfab.com/3d-models/b3fb06508c5649fd8ecb30d79e2b9050) | Sketchfab | gooseg489 | CC-BY 4.0 | [GLB](models/sketchfab-b3fb06508c5649fd8ecb30d79e2b9050/model.glb) |
+| [Computadora portátil estilizada](https://sketchfab.com/3d-models/b6b33b14220a460a94176412ff284012) | Sketchfab | Tomitos | CC-BY 4.0 | [GLB](models/sketchfab-b6b33b14220a460a94176412ff284012/model.glb) |
+| [Teclado](https://sketchfab.com/3d-models/ba869e8681974cf088736173b8b86fef) | Sketchfab | 45P3R4 | CC-BY 4.0 | [GLB](models/sketchfab-ba869e8681974cf088736173b8b86fef/model.glb) |
+| [Luna creciente con rostro (fantasía)](https://sketchfab.com/3d-models/c26ae86c07404779a54f3621170714bf) | Sketchfab | CookieDough | CC-BY 4.0 | [GLB](models/sketchfab-c26ae86c07404779a54f3621170714bf/model.glb) |
+| [Coral](https://sketchfab.com/3d-models/c26e47859f0945d69a4e2944ee80b995) | Sketchfab | Sandra_s | CC-BY 4.0 | [GLB](models/sketchfab-c26e47859f0945d69a4e2944ee80b995/model.glb) |
+| [Ceiba: representación estilizada](https://sketchfab.com/3d-models/cae1ee999031436389b356017287724f) | Sketchfab | 010074164 | CC-BY 4.0 | [GLB](models/sketchfab-cae1ee999031436389b356017287724f/model.glb) |
+| [Batería](https://sketchfab.com/3d-models/cccf3dcca7be4365b22ff59433024586) | Sketchfab | SCP-173 | CC-BY 4.0 | [GLB](models/sketchfab-cccf3dcca7be4365b22ff59433024586/model.glb) |
 | [Pulmones humanos](https://sketchfab.com/3d-models/ce09f4099a68467880f46e61eb9a3531) | Sketchfab | neshallads | CC-BY 4.0 | [GLB](models/sketchfab-ce09f4099a68467880f46e61eb9a3531/model.glb) |
+| [Contenedor de reciclaje](https://sketchfab.com/3d-models/cfe67988a51e44598678a48260cef82b) | Sketchfab | systemmanager | CC-BY 4.0 | [GLB](models/sketchfab-cfe67988a51e44598678a48260cef82b/model.glb) |
+| [Matraz Erlenmeyer](https://sketchfab.com/3d-models/d05cd9f3d4d940e0b298f5cb1895f913) | Sketchfab | Phillip Stephens | CC-BY 4.0 | [GLB](models/sketchfab-d05cd9f3d4d940e0b298f5cb1895f913/model.glb) |
+| [Jaguar](https://sketchfab.com/3d-models/d1adc06424204191a00c9e9efb98ef0e) | Sketchfab | Paul Marxx | CC-BY 4.0 | [GLB](models/sketchfab-d1adc06424204191a00c9e9efb98ef0e/model.glb) |
+| [Mariposa animada](https://sketchfab.com/3d-models/d4fbcbaab845402999f30c5aa75851e6) | Sketchfab | Artistic_side | CC-BY 4.0 | [GLB](models/sketchfab-d4fbcbaab845402999f30c5aa75851e6/model.glb) |
+| [Pez de baja poligonización](https://sketchfab.com/3d-models/d681fe491a1e405faec920838ea3f11f) | Sketchfab | Avramania | CC0 1.0 | [GLB](models/sketchfab-d681fe491a1e405faec920838ea3f11f/model.glb) |
+| [Montaña](https://sketchfab.com/3d-models/dd826f1f05c544ccb671949ebca59721) | Sketchfab | Gesy | CC-BY 4.0 | [GLB](models/sketchfab-dd826f1f05c544ccb671949ebca59721/model.glb) |
+| [Microscopio](https://sketchfab.com/3d-models/dd9e73d51edb43198bd40d0bbd2dd54e) | Sketchfab | lionclaw0612 | CC-BY 4.0 | [GLB](models/sketchfab-dd9e73d51edb43198bd40d0bbd2dd54e/model.glb) |
+| [Templo I de Tikal: segunda representación](https://sketchfab.com/3d-models/ddba040cd93348d1b7ad13006ccbf3f7) | Sketchfab | elodiaa | CC-BY 4.0 | [GLB](models/sketchfab-ddba040cd93348d1b7ad13006ccbf3f7/model.glb) |
+| [Pirámide maya estilizada: procedencia por validar](https://sketchfab.com/3d-models/e04eaa09bb1a4700a754881da843a40e) | Sketchfab | SeattleTroy | CC-BY 4.0 | [GLB](models/sketchfab-e04eaa09bb1a4700a754881da843a40e/model.glb) |
 | [Aerogenerador animado](https://sketchfab.com/3d-models/e0678e6615a74ed29c1376a591262159) | Sketchfab | Glowbox 3D | CC-BY 4.0 | [GLB](models/sketchfab-e0678e6615a74ed29c1376a591262159/model.glb) |
+| [Planta de tomate](https://sketchfab.com/3d-models/e0b559690e384fc0a9f3a05913f609c4) | Sketchfab | zvanstone | CC-BY 4.0 | [GLB](models/sketchfab-e0b559690e384fc0a9f3a05913f609c4/model.glb) |
+| [Mano: esqueleto y piel](https://sketchfab.com/3d-models/e24e96b6bc39423b871b10f098876b8f) | Sketchfab | 1225659838@qq.com | CC-BY 4.0 | [GLB](models/sketchfab-e24e96b6bc39423b871b10f098876b8f/model.glb) |
+| [Morfología de dientes adultos](https://sketchfab.com/3d-models/e4d36352db5e414ca1d734845375308b) | Sketchfab | ushefdentistry | CC-BY-NC-SA 4.0 | [GLB](models/sketchfab-e4d36352db5e414ca1d734845375308b/model.glb) |
+| [Llave de caja](https://sketchfab.com/3d-models/e64814cd71114a469fca8b6c12567fae) | Sketchfab | ROY | CC-BY 4.0 | [GLB](models/sketchfab-e64814cd71114a469fca8b6c12567fae/model.glb) |
+| [Lápiz](https://sketchfab.com/3d-models/e67db84c8d2442519353afbae5220de0) | Sketchfab | Akshat | CC-BY 4.0 | [GLB](models/sketchfab-e67db84c8d2442519353afbae5220de0/model.glb) |
+| [Bandada de aves en vuelo](https://sketchfab.com/3d-models/e93a906eb38343c4a14458a637136329) | Sketchfab | Blender Artist | CC-BY 4.0 | [GLB](models/sketchfab-e93a906eb38343c4a14458a637136329/model.glb) |
+| [Gato articulado](https://sketchfab.com/3d-models/eccebebd5a60484eaa49036f8a4b6ed7) | Sketchfab | Vr-cvantorium | CC-BY 4.0 | [GLB](models/sketchfab-eccebebd5a60484eaa49036f8a4b6ed7/model.glb) |
+| [Aerogenerador de tres palas](https://sketchfab.com/3d-models/ed577ce3d4db49a283924c2ec27e65e8) | Sketchfab | FLAREMEDIA | CC-BY 4.0 | [GLB](models/sketchfab-ed577ce3d4db49a283924c2ec27e65e8/model.glb) |
+| [Escritorio de baja poligonización](https://sketchfab.com/3d-models/ed62a64f51bf4d80a13e1344093c3909) | Sketchfab | Pedro Belthori | CC-BY 4.0 | [GLB](models/sketchfab-ed62a64f51bf4d80a13e1344093c3909/model.glb) |
+| [Botella plástica de agua](https://sketchfab.com/3d-models/efa1c4c1f2a947659ded2e61e20eff31) | Sketchfab | Jeremy E. Grayson | CC-BY 4.0 | [GLB](models/sketchfab-efa1c4c1f2a947659ded2e61e20eff31/model.glb) |
+| [Carretilla](https://sketchfab.com/3d-models/f2235c3149cd43bd981d433f172c3710) | Sketchfab | vikramgd | CC-BY 4.0 | [GLB](models/sketchfab-f2235c3149cd43bd981d433f172c3710/model.glb) |
+| [Tucán](https://sketchfab.com/3d-models/f5ad9201efb44f538b466626d70c119a) | Sketchfab | zekeyspaceylizard | CC-BY 4.0 | [GLB](models/sketchfab-f5ad9201efb44f538b466626d70c119a/model.glb) |
+| [Perro](https://sketchfab.com/3d-models/f604e800dc3d457f999f8284458c9cf1) | Sketchfab | Paleo Modelist | CC-BY 4.0 | [GLB](models/sketchfab-f604e800dc3d457f999f8284458c9cf1/model.glb) |
+| [Tubo de ensayo con tapón](https://sketchfab.com/3d-models/f933e29ea9114b0cbcd8bec005833f5a) | Sketchfab | Smoothie 3D | CC-BY 4.0 | [GLB](models/sketchfab-f933e29ea9114b0cbcd8bec005833f5a/model.glb) |
+| [Conjunto de hongos estilizados](https://sketchfab.com/3d-models/f9dbd4c34a4f4389bf3901527ecc89a0) | Sketchfab | leha_pu | CC-BY 4.0 | [GLB](models/sketchfab-f9dbd4c34a4f4389bf3901527ecc89a0/model.glb) |
+| [Telescopio](https://sketchfab.com/3d-models/fb1790ba160f4f07a2b41bd075b76174) | Sketchfab | Théo Richard | CC-BY-NC 4.0 | [GLB](models/sketchfab-fb1790ba160f4f07a2b41bd075b76174/model.glb) |
+| [Libro](https://sketchfab.com/3d-models/fc1b43e332d147edb7dca8f89cffa4d7) | Sketchfab | Eric Fan | CC-BY 4.0 | [GLB](models/sketchfab-fc1b43e332d147edb7dca8f89cffa4d7/model.glb) |
+| [Tractor](https://sketchfab.com/3d-models/fe97d02daaac44bea0caffc4f1cb93a4) | Sketchfab | piscopancer | CC-BY 4.0 | [GLB](models/sketchfab-fe97d02daaac44bea0caffc4f1cb93a4/model.glb) |
 | [Bobina de inducción Page](https://3d.si.edu/object/3d/40cf5b52-0b21-4063-95fc-aa07998eb4dd) | Smithsonian Open Access | Smithsonian Institution / National Museum of American History | CC0 1.0 | [GLB](models/smithsonian-induction-coils/model.glb) |
 | [Lycaste virginalis · planta en maceta](https://3d.si.edu/object/3d/5ff6e90a-4ddb-4eea-a69c-40970f85fbcb) | Smithsonian Open Access | Smithsonian Institution / Smithsonian Gardens | CC0 1.0 | [GLB](models/smithsonian-lycaste-virginalis-1/model.glb) |
 | [Lycaste virginalis · flor](https://3d.si.edu/object/3d/42e8e95f-1b67-4135-8728-cdc7aa277997) | Smithsonian Open Access | Smithsonian Institution / Smithsonian Gardens | CC0 1.0 | [GLB](models/smithsonian-lycaste-virginalis-2/model.glb) |

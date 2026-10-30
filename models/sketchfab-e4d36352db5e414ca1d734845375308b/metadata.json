@@ -1,0 +1,114 @@
+{
+  "id": "sketchfab-e4d36352db5e414ca1d734845375308b",
+  "assetId": "sketchfab:e4d36352db5e414ca1d734845375308b",
+  "providerId": "sketchfab",
+  "provider": "Sketchfab",
+  "title": "Morfología de dientes adultos",
+  "titleOriginal": "Adult Tooth Morphology",
+  "author": "ushefdentistry",
+  "authorUrl": "https://sketchfab.com/ushefdentistry",
+  "sourceUrl": "https://sketchfab.com/3d-models/e4d36352db5e414ca1d734845375308b",
+  "metadataUrl": "https://api.sketchfab.com/v3/models/e4d36352db5e414ca1d734845375308b",
+  "downloadUrl": "https://api.sketchfab.com/v3/models/e4d36352db5e414ca1d734845375308b/download",
+  "thumbnailUrl": null,
+  "description": "Referencia complementaria para tooth. Identificación, escala y uso curricular sujetos a revisión docente. Uso curricular y exactitud científica pendientes de revisión docente.",
+  "category": "Referencias científicas y educativas",
+  "tags": [
+    "Adult Tooth Morphology",
+    "sketchfab-edu-tooth"
+  ],
+  "areas": [
+    "cuerpo-salud"
+  ],
+  "queries": [],
+  "products": [
+    "code-studio",
+    "socrates"
+  ],
+  "subjects": [
+    "Ciencias Naturales y Tecnología",
+    "Educación Física"
+  ],
+  "licenseRaw": "CC-BY-NC-SA 4.0",
+  "license": {
+    "id": "CC-BY-NC-SA-4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "attributionRequired": true,
+    "commercialUse": false,
+    "derivatives": true,
+    "shareAlike": true
+  },
+  "attribution": "\"Adult Tooth Morphology\", por ushefdentistry / Sketchfab. https://sketchfab.com/3d-models/e4d36352db5e414ca1d734845375308b. CC-BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/.",
+  "modifications": "Ninguna: GLB nativo sin conversión, decimación, cambios de textura, escala, ejes, materiales ni animaciones. Miniatura renderizada por GuateGeeks.",
+  "file": "models/sketchfab-e4d36352db5e414ca1d734845375308b/model.glb",
+  "sourceMetadataFile": "sources/external/institutions/sketchfab-20261029/sketchfab-e4d36352db5e414ca1d734845375308b/metadata.json",
+  "originalDownload": "models/sketchfab-e4d36352db5e414ca1d734845375308b/originals.zip",
+  "bytes": 2507556,
+  "sha256": "452852bf96d4530b34d04fcf823b94116a1a19e060db428231c6460362c79841",
+  "apiTriangleCount": null,
+  "apiAnimated": null,
+  "gltf": {
+    "version": 2,
+    "meshes": 1,
+    "nodes": 3,
+    "materials": 1,
+    "skins": 0,
+    "joints": 0,
+    "rigged": false,
+    "animated": false,
+    "animations": 0,
+    "animationNames": [],
+    "externalDependencies": [],
+    "selfContained": true,
+    "extensionsRequired": []
+  },
+  "retrievedAt": "2026-10-30T05:03:42.873688+00:00",
+  "reviewStatus": "pending",
+  "educationalReview": "Uso curricular, escala y precisión científica pendientes de revisión docente.",
+  "reviewFlags": [
+    "scientific-reference-review",
+    "noncommercial-license"
+  ],
+  "unfulfilledQueries": [],
+  "provenance": {
+    "pack": "Sketchfab native GLB",
+    "sourceMember": "model.glb",
+    "originalFiles": [
+      {
+        "file": "models/sketchfab-e4d36352db5e414ca1d734845375308b/model.glb",
+        "url": "https://api.sketchfab.com/v3/models/e4d36352db5e414ca1d734845375308b/download",
+        "bytes": 2507556,
+        "sha256": "452852bf96d4530b34d04fcf823b94116a1a19e060db428231c6460362c79841"
+      }
+    ],
+    "originalDownloadSha256": "a002bc77b159f0ba4bc5b409fc59e248a95b223bd7ba0f91235fca042cdf38e0",
+    "nativeBytesUnchanged": true,
+    "conversionTool": null,
+    "renderTool": "Blender 5.2.3 LTS",
+    "dimensionsBlender": [
+      163.01998901367188,
+      142.218017578125,
+      30.402999877929688
+    ],
+    "scaleInterpretation": "Native numeric dimensions retained; do not assume scientifically verified real-world scale.",
+    "licenseEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-e4d36352db5e414ca1d734845375308b/license-evidence.json",
+    "licenseEvidenceSha256": "fc31878915440534e3e0a09166e5462acfad5a928499a5fb954dc9359cae33de",
+    "metadataEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-e4d36352db5e414ca1d734845375308b/metadata.json",
+    "metadataEvidenceSha256": "559842051e5c57bb8ccff451b26a9459ccf47b167bc2598e7b2e0c4f35879a7d",
+    "technicalReviewEvidence": "sources/external/institutions/sketchfab-20261029/sketchfab-e4d36352db5e414ca1d734845375308b/technical-review.json",
+    "technicalReviewEvidenceSha256": "f794460a02ff2d18455ccbaaa8c0e4931fe706a6bf153a5c1c207880952996e6",
+    "visualReviewEvidence": "sources/external/institutions/sketchfab-20261029/visual-review.json",
+    "visualReviewEvidenceSha256": "cc95e32c00fc8d0984aaeda92ff874c9ede8fc658ffb7aae2fe4cd6b7a023b0f"
+  },
+  "qa": {
+    "technical": "PASS",
+    "visual": "PASS",
+    "rights": "PASS",
+    "educational": "NOT_RUN",
+    "geometryFingerprint": {
+      "method": "triangle-edge-distribution-v1",
+      "sha256": "22f96a7a672bb66577fbdbf78bf9ab9cb8d466ed63d423fb10c21d2d8c5a8efa",
+      "triangles": 97474
+    }
+  }
+}
