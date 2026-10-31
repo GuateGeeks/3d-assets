@@ -65,7 +65,7 @@ none stands in for another. Vocabulary: `PASS`, `FAIL`, `BLOCKED`, `NOT_RUN`.
 | `npm run build --prefix studio/web` | builds; the JavaScript bundle is 654.91 kB before compression (Vite's size warning remains) |
 | `python3 -m unittest discover -s studio/tests -v` | 80 tests OK, 4 skipped (the real CPU Blender tests need `STUDIO_BPY_PYTHON`, which this run did not set) |
 | `python3 -m unittest discover -s creation-lab/tests -v` | 92 tests OK, 4 skipped (the real Blender tests need `CREATION_TEST_BLENDER`, not set in this run) |
-| `python3 tools/check_skills.py` | PASS, 13 skills, 84 local links |
+| `python3 tools/check_skills.py` | PASS, 13 skills, 85 local links |
 | `python3 creation-lab/registry/verify_sources.py` | PASS, 255 files verified (`runtimeExecuted` false) |
 | `python3 creation-lab/experiments/microbit-v2/check_contract.py studio/examples/microbit/microbit.glb` | PASS |
 
