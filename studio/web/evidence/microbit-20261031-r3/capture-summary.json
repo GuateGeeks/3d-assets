@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "kind": "microbit-evidence-summary",
+  "url": "http://127.0.0.1:4395/?scene=project/scene.json",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "rendering": "SwiftShader software WebGL via headless Chromium; GPU performance NOT_RUN",
+  "checks": [
+    {
+      "name": "project scene loaded from the project inventory",
+      "status": "PASS",
+      "detail": [
+        {
+          "url": "http://127.0.0.1:4395/project/microbit.glb",
+          "status": 200,
+          "contentType": "model/gltf-binary",
+          "sha256": "b12143d94deda3faaae36c154bc2177a5c9f1c6deccb102947d5e27a7fe13687",
+          "bytes": 1117164
+        }
+      ]
+    },
+    {
+      "name": "rest: no LED lit",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "a-held: pointer hold lights the a pattern",
+      "status": "PASS",
+      "detail": {
+        "readout": "A released · B released · Logo released · 0 LEDs lit",
+        "lit": [
+          "0,1",
+          "0,2",
+          "1,0",
+          "1,1",
+          "1,2",
+          "1,3",
+          "2,1",
+          "2,2",
+          "2,3",
+          "2,4",
+          "3,0",
+          "3,1",
+          "3,2",
+          "3,3",
+          "4,1",
+          "4,2"
+        ]
+      }
+    },
+    {
+      "name": "b-held: pointer hold lights the b pattern",
+      "status": "PASS",
+      "detail": {
+        "readout": "A released · B released · Logo released · 0 LEDs lit",
+        "lit": [
+          "0,3",
+          "1,1",
+          "1,4",
+          "2,4",
+          "3,1",
+          "3,4",
+          "4,3"
+        ]
+      }
+    },
+    {
+      "name": "logo-held: pointer hold lights the logo pattern",
+      "status": "PASS",
+      "detail": {
+        "readout": "A released · B released · Logo released · 0 LEDs lit",
+        "lit": [
+          "0,3",
+          "1,4",
+          "2,3",
+          "3,2",
+          "4,1"
+        ]
+      }
+    },
+    {
+      "name": "closeup: keyboard hold of A lights the heart with Anchors on",
+      "status": "PASS",
+      "detail": {
+        "overlays": {
+          "anchors": true,
+          "bounds": false,
+          "rig": false
+        },
+        "distance": 0.04213
+      }
+    },
+    {
+      "name": "closeup is closer than the default framing",
+      "status": "PASS",
+      "detail": {
+        "closeup": 0.04213,
+        "rest": 0.08425
+      }
+    },
+    {
+      "name": "every receipt records the SHA-256 and size of its PNG",
+      "status": "PASS",
+      "detail": [
+        "rest",
+        "a-held",
+        "b-held",
+        "logo-held",
+        "closeup-a-held"
+      ]
+    },
+    {
+      "name": "no console errors or warnings other than Chromium's software-WebGL notice",
+      "status": "PASS",
+      "detail": [
+        "warning: [GroupMarkerNotSet(crbug.com/242999)!:A0F02B004C100000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "name": "rest",
+      "png": "rest/3d-lab-2026-10-31T07-55-08-343Z.png",
+      "receipt": "rest/3d-lab-2026-10-31T07-55-08-343Z.json",
+      "sha256": "ef932360a08bf22fec2a92fa38db2574f2a7c2a1aaa08bd26eb07759b8567ba9",
+      "bytes": 106511,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 0,
+        "b": 0,
+        "logo": 0
+      },
+      "litLeds": [],
+      "cameraDistanceM": 0.08425,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      }
+    },
+    {
+      "name": "a-held",
+      "png": "a-held/3d-lab-2026-10-31T07-55-09-202Z.png",
+      "receipt": "a-held/3d-lab-2026-10-31T07-55-09-202Z.json",
+      "sha256": "859135a21d99725eadd6bcca90eab0ec4cb6db5780501c7e4059b732fd90199c",
+      "bytes": 104742,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 1,
+        "b": 0,
+        "logo": 0
+      },
+      "litLeds": [
+        "0,1",
+        "0,2",
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3",
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "3,0",
+        "3,1",
+        "3,2",
+        "3,3",
+        "4,1",
+        "4,2"
+      ],
+      "cameraDistanceM": 0.08425,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      }
+    },
+    {
+      "name": "b-held",
+      "png": "b-held/3d-lab-2026-10-31T07-55-10-211Z.png",
+      "receipt": "b-held/3d-lab-2026-10-31T07-55-10-211Z.json",
+      "sha256": "474f30a38b413149bff49140784910e162344f153991db4692f238364d1a02c9",
+      "bytes": 106359,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 0,
+        "b": 1,
+        "logo": 0
+      },
+      "litLeds": [
+        "0,3",
+        "1,1",
+        "1,4",
+        "2,4",
+        "3,1",
+        "3,4",
+        "4,3"
+      ],
+      "cameraDistanceM": 0.08425,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      }
+    },
+    {
+      "name": "logo-held",
+      "png": "logo-held/3d-lab-2026-10-31T07-55-10-991Z.png",
+      "receipt": "logo-held/3d-lab-2026-10-31T07-55-10-991Z.json",
+      "sha256": "626cdcbc3eababaec50f45c5b1ddd997e2041ebacbe37432ad2db3900630d214",
+      "bytes": 105945,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 0,
+        "b": 0,
+        "logo": 1
+      },
+      "litLeds": [
+        "0,3",
+        "1,4",
+        "2,3",
+        "3,2",
+        "4,1"
+      ],
+      "cameraDistanceM": 0.08425,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      }
+    },
+    {
+      "name": "closeup-a-held",
+      "png": "closeup-a-held/3d-lab-2026-10-31T07-55-15-642Z.png",
+      "receipt": "closeup-a-held/3d-lab-2026-10-31T07-55-15-642Z.json",
+      "sha256": "256f05a2e0bebc91e54b0fc96e55edd6b26c23d7637fff28de27b18c7464a0e7",
+      "bytes": 136134,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 1,
+        "b": 0,
+        "logo": 0
+      },
+      "litLeds": [
+        "0,1",
+        "0,2",
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3",
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "3,0",
+        "3,1",
+        "3,2",
+        "3,3",
+        "4,1",
+        "4,2"
+      ],
+      "cameraDistanceM": 0.04213,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      }
+    }
+  ],
+  "console": [
+    "warning: [GroupMarkerNotSet(crbug.com/242999)!:A0F02B004C100000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+  ],
+  "glbRequests": [
+    {
+      "url": "http://127.0.0.1:4395/project/microbit.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "sha256": "b12143d94deda3faaae36c154bc2177a5c9f1c6deccb102947d5e27a7fe13687",
+      "bytes": 1117164
+    }
+  ],
+  "pagePng": {
+    "path": "closeup-a-held/page-with-labels.png",
+    "sha256": "23b135b85a84dd60a1b7175dda3bf8db74ccf90320e6a7e442536af49a162931"
+  },
+  "status": "PASS"
+}

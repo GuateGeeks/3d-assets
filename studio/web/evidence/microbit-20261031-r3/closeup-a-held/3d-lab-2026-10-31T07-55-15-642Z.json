@@ -1,0 +1,1382 @@
+{
+  "schemaVersion": 1,
+  "kind": "preview-capture",
+  "capturedAt": "2026-10-31T07:55:15.642Z",
+  "viewport": {
+    "cssWidth": 1152,
+    "cssHeight": 820,
+    "pixelWidth": 1152,
+    "pixelHeight": 820,
+    "devicePixelRatio": 1,
+    "rendererPixelRatio": 1
+  },
+  "camera": {
+    "type": "PerspectiveCamera",
+    "position": [
+      0,
+      0.04332007168104654,
+      0.01915197003122062
+    ],
+    "quaternion": [
+      -0.5150380749100543,
+      0,
+      0,
+      0.8571673007021123
+    ],
+    "target": [
+      0,
+      0.006125000108405948,
+      -0.000625000335276127
+    ],
+    "fov": 38,
+    "aspect": 1.4048780487804877,
+    "near": 0.001290000043809414,
+    "far": 2.580000087618828,
+    "matrixWorld": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0.46947156278589064,
+      -0.8829475928589271,
+      0,
+      0,
+      0.8829475928589271,
+      0.46947156278589064,
+      0,
+      0,
+      0.04332007168104654,
+      0.01915197003122062,
+      1
+    ],
+    "projectionMatrix": [
+      2.0672334372345267,
+      0,
+      0,
+      0,
+      0,
+      2.9042108776758226,
+      0,
+      0,
+      0,
+      0,
+      -1.001000500250125,
+      -1,
+      0,
+      0,
+      -0.0025812907329853204,
+      0
+    ]
+  },
+  "renderer": {
+    "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "WebKit WebGL",
+    "vendor": "WebKit",
+    "antialias": true,
+    "outputColorSpace": "srgb",
+    "toneMapping": 4,
+    "toneMappingExposure": 1.2,
+    "shadows": true,
+    "shadowType": 2
+  },
+  "runtime": {
+    "three": "180",
+    "preview": "1.0.0",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.37 Safari/537.36"
+  },
+  "overlays": {
+    "anchors": true,
+    "bounds": false,
+    "rig": false
+  },
+  "scene": {
+    "spec": {
+      "schemaVersion": 1,
+      "kind": "scene",
+      "id": "microbit-v2-demo",
+      "title": "micro:bit V2 interactive",
+      "duration": 6,
+      "mode": "interactive",
+      "instances": [
+        {
+          "id": "Board",
+          "asset": "microbit.glb",
+          "behavior": "microbit",
+          "position": [
+            0,
+            0.0066,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "camera": {
+        "elevation": 62,
+        "azimuth": 0
+      },
+      "patternBindings": [
+        {
+          "source": "a",
+          "target": "Board",
+          "released": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "pressed": [
+            [
+              0,
+              255,
+              0,
+              255,
+              0
+            ],
+            [
+              255,
+              255,
+              255,
+              255,
+              255
+            ],
+            [
+              255,
+              255,
+              255,
+              255,
+              255
+            ],
+            [
+              0,
+              255,
+              255,
+              255,
+              0
+            ],
+            [
+              0,
+              0,
+              255,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "source": "b",
+          "target": "Board",
+          "released": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "pressed": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              255,
+              0,
+              255,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              255,
+              0,
+              0,
+              0,
+              255
+            ],
+            [
+              0,
+              80,
+              80,
+              80,
+              0
+            ]
+          ]
+        },
+        {
+          "source": "logo",
+          "target": "Board",
+          "released": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "pressed": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              255
+            ],
+            [
+              0,
+              0,
+              0,
+              255,
+              0
+            ],
+            [
+              255,
+              0,
+              255,
+              0,
+              0
+            ],
+            [
+              0,
+              255,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "target": "Board",
+          "channel": "led.0.0",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 0
+            },
+            {
+              "time": 1.6,
+              "value": 0
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.0.1",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.0.2",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.0.3",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 0
+            },
+            {
+              "time": 1.6,
+              "value": 0
+            },
+            {
+              "time": 2.4,
+              "value": 255
+            },
+            {
+              "time": 3.6,
+              "value": 255
+            },
+            {
+              "time": 4.4,
+              "value": 255
+            },
+            {
+              "time": 5.6,
+              "value": 255
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.0.4",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 0
+            },
+            {
+              "time": 1.6,
+              "value": 0
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.1.0",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.1.1",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 255
+            },
+            {
+              "time": 3.6,
+              "value": 255
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.1.2",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.1.3",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.1.4",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 0
+            },
+            {
+              "time": 1.6,
+              "value": 0
+            },
+            {
+              "time": 2.4,
+              "value": 80
+            },
+            {
+              "time": 3.6,
+              "value": 80
+            },
+            {
+              "time": 4.4,
+              "value": 255
+            },
+            {
+              "time": 5.6,
+              "value": 255
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.2.0",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 0
+            },
+            {
+              "time": 1.6,
+              "value": 0
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.2.1",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.2.2",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.2.3",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 255
+            },
+            {
+              "time": 5.6,
+              "value": 255
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.2.4",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 80
+            },
+            {
+              "time": 3.6,
+              "value": 80
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.3.0",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.3.1",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 255
+            },
+            {
+              "time": 3.6,
+              "value": 255
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.3.2",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 255
+            },
+            {
+              "time": 5.6,
+              "value": 255
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.3.3",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.3.4",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 0
+            },
+            {
+              "time": 1.6,
+              "value": 0
+            },
+            {
+              "time": 2.4,
+              "value": 80
+            },
+            {
+              "time": 3.6,
+              "value": 80
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.4.0",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 0
+            },
+            {
+              "time": 1.6,
+              "value": 0
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.4.1",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 255
+            },
+            {
+              "time": 5.6,
+              "value": 255
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.4.2",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 255
+            },
+            {
+              "time": 1.6,
+              "value": 255
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.4.3",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 0
+            },
+            {
+              "time": 1.6,
+              "value": 0
+            },
+            {
+              "time": 2.4,
+              "value": 255
+            },
+            {
+              "time": 3.6,
+              "value": 255
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        },
+        {
+          "target": "Board",
+          "channel": "led.4.4",
+          "keyframes": [
+            {
+              "time": 0,
+              "value": 0
+            },
+            {
+              "time": 0.4,
+              "value": 0
+            },
+            {
+              "time": 1.6,
+              "value": 0
+            },
+            {
+              "time": 2.4,
+              "value": 0
+            },
+            {
+              "time": 3.6,
+              "value": 0
+            },
+            {
+              "time": 4.4,
+              "value": 0
+            },
+            {
+              "time": 5.6,
+              "value": 0
+            },
+            {
+              "time": 6,
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    "time": 0,
+    "mode": "interactive",
+    "speed": 1,
+    "loop": true,
+    "playing": false,
+    "reducedMotion": false,
+    "selected": "Board",
+    "instances": [
+      {
+        "id": "Board",
+        "position": [
+          0,
+          0.0066,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "clipIndex": 0,
+        "clip": null,
+        "channels": {
+          "a": 1,
+          "b": 0,
+          "logo": 0,
+          "led.0.0": 0,
+          "led.1.0": 255,
+          "led.2.0": 0,
+          "led.3.0": 255,
+          "led.4.0": 0,
+          "led.0.1": 255,
+          "led.1.1": 255,
+          "led.2.1": 255,
+          "led.3.1": 255,
+          "led.4.1": 255,
+          "led.0.2": 255,
+          "led.1.2": 255,
+          "led.2.2": 255,
+          "led.3.2": 255,
+          "led.4.2": 255,
+          "led.0.3": 0,
+          "led.1.3": 255,
+          "led.2.3": 255,
+          "led.3.3": 255,
+          "led.4.3": 0,
+          "led.0.4": 0,
+          "led.1.4": 0,
+          "led.2.4": 255,
+          "led.3.4": 0,
+          "led.4.4": 0
+        }
+      }
+    ]
+  },
+  "image": {
+    "name": "3d-lab-2026-10-31T07-55-15-642Z.png",
+    "sha256": "256f05a2e0bebc91e54b0fc96e55edd6b26c23d7637fff28de27b18c7464a0e7",
+    "bytes": 136134
+  }
+}
