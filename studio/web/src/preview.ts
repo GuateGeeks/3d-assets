@@ -89,7 +89,10 @@ export function mountPreview(host:HTMLElement):()=>void{
   grid.scale.setScalar(stage.gridSize/30);ground.scale.setScalar(f);ground.position.y=stage.groundY;grid.position.y=stage.gridY;
   return stage;
  }
- function frame(){if(!runtime)return;if(!runtime.assets.size){applyStage(0);return}const box=new THREE.Box3();for(const a of runtime.assets.values())box.expandByObject(a.root);const center=box.getCenter(new THREE.Vector3()),size=box.getSize(new THREE.Vector3());const stage=applyStage(Math.max(size.x,size.y,size.z));const aspect=viewport.clientWidth/Math.max(viewport.clientHeight,1);
+ function frame(){if(!runtime)return;
+  // The board carries components on both faces, so a micro:bit scene may orbit below the horizon; other scenes stay above the ground.
+  controls.maxPolarAngle=runtime.spec.instances.some(i=>i.behavior==='microbit')?Math.PI:Math.PI/2-.03;
+  if(!runtime.assets.size){applyStage(0);return}const box=new THREE.Box3();for(const a of runtime.assets.values())box.expandByObject(a.root);const center=box.getCenter(new THREE.Vector3()),size=box.getSize(new THREE.Vector3());const stage=applyStage(Math.max(size.x,size.y,size.z));const aspect=viewport.clientWidth/Math.max(viewport.clientHeight,1);
   // An authored view (scene.camera) replaces the default direction and fits the projected bounds; the stage limits follow so the first frame is never clamped.
   // A viewport with no size (hidden tab, display:none host) has aspect 0, which would fit the view at an enormous distance and widen maxDistance until the next frame(). Keep the previous view instead, as the resize observer does; Frame scene works again once the viewport is visible.
   const view=runtime.spec.camera;if(view){if(!(viewport.clientWidth>0&&viewport.clientHeight>0))return;const fit=fitCamera(box,aspect,camera.fov,view.elevation,view.azimuth,.8);controls.minDistance=Math.min(stage.minDistance,fit.distance*.5);controls.maxDistance=Math.max(stage.maxDistance,fit.distance*4);controls.target.copy(fit.target);camera.position.copy(fit.position);controls.update();return}
@@ -149,7 +152,7 @@ export function mountPreview(host:HTMLElement):()=>void{
  function download(blob:Blob,name:string){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();URL.revokeObjectURL(url)}
  on(q('#capture'),'click',()=>{
   if(!runtime)return;
-  scene.updateMatrixWorld(true);camera.updateMatrixWorld(true);renderer.render(scene,camera);
+  grid.visible=camera.position.y>=grid.position.y;scene.updateMatrixWorld(true);camera.updateMatrixWorld(true);renderer.render(scene,camera);
   const gl=renderer.getContext(),stamp=new Date().toISOString(),name='3d-lab-'+stamp.replace(/[:.]/g,'-');
   const size=renderer.getDrawingBufferSize(new THREE.Vector2());
   // Freeze the receipt beside the pixels before asynchronous PNG encoding.
@@ -197,7 +200,7 @@ export function mountPreview(host:HTMLElement):()=>void{
   if(runtime){for(const tag of labels.querySelectorAll<HTMLElement>('button')){const a=runtime.assets.get(tag.dataset.id!)!;const p=projectAnchor(a.root,a.anchors.control,camera,viewport.clientWidth,viewport.clientHeight);tag.style.transform='translate(-50%,-100%) translate('+p.x+'px,'+p.y+'px)';tag.hidden=!p.visible}
    for(const {tag,asset,anchor} of partTags){const p=projectAnchor(asset.root,anchor,camera,viewport.clientWidth,viewport.clientHeight);tag.style.transform='translate(-50%,-50%) translate('+p.x+'px,'+p.y+'px)';tag.classList.toggle('off',!p.visible)}
    sync()}
-  for(const o of overlays)if(o instanceof THREE.BoxHelper)o.update();renderer.render(scene,camera);q('#diagnostics').textContent='WebGL 2 · '+renderer.info.render.calls+' draw calls · '+renderer.info.render.triangles.toLocaleString()+' triangles';handle=requestAnimationFrame(tick)
+  grid.visible=camera.position.y>=grid.position.y;for(const o of overlays)if(o instanceof THREE.BoxHelper)o.update();renderer.render(scene,camera);q('#diagnostics').textContent='WebGL 2 · '+renderer.info.render.calls+' draw calls · '+renderer.info.render.triangles.toLocaleString()+' triangles';handle=requestAnimationFrame(tick)
  }handle=requestAnimationFrame(tick);
  const initial=new URLSearchParams(location.search).get('scene');(initial?openURL(initial):load(demo,location.href)).catch(fail);
  return()=>{if(disposed)return;disposed=true;generation++;requestGeneration++;jsonController?.abort();loadController?.abort();cancelAnimationFrame(handle);dropHolds();unbindHold?.();for(const unbind of listeners)unbind();resize.disconnect();controls.dispose();clearOverlays();runtime?.dispose();scope.dispose();renderer.dispose();renderer.forceContextLoss();host.replaceChildren()};
