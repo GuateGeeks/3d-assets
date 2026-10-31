@@ -53,18 +53,18 @@ none stands in for another. Vocabulary: `PASS`, `FAIL`, `BLOCKED`, `NOT_RUN`.
 | Technical | PASS | Counts below, `check_contract.py` PASS (46 parts, 25 distinct LED materials, size within `displayScale`), run 003 technical PASS (46 meshes, 22,560 triangles, 43 materials, GLB 1,117,164 bytes, reopen and reimport PASS, Blender 5.2.3 LTS). The GLB sha256 is `b12143d94deda3faaae36c154bc2177a5c9f1c6deccb102947d5e27a7fe13687`, identical in `studio/examples/microbit/`, `studio/web/public/microbit/` and the lab run |
 | Visual | PASS (third review) | Three fresh-context reviewers judged product captures at the viewer's default camera: round 1 FAIL, round 2 FAIL, round 3 PASS. Verdicts and reasons in the [review records](../web/evidence/microbit-visual-reviews/README.md). The lab review of the Blender renders (run 003, visual PASS) is a different judgement of different images |
 | Content | PASS (third review) | The round-3 reviewer's content PASS (heart 16, smile 7, check 5 LEDs recognisable without zooming and matching the receipt channels), plus the lab content PASS for run 003 (all six brief checks PASS). Rounds 1 and 2 were content FAIL |
-| Provenance | PASS | Original geometry by GuateGeeks, MIT; outline from the official V2.2 hardware page (51.60 x 42.00 x 11.65 mm); reference photos used for proportions only, not included here; no BBC or micro:bit logo, FCC ID or silkscreen text; component positions and sizes are estimates, flagged as such. Reviewer identities are requested, not confirmed (below) |
+| Provenance | PASS (self-assessed: no independent rights review) | Original geometry by GuateGeeks, MIT; outline from the official V2.2 hardware page (51.60 x 42.00 x 11.65 mm); reference photos used for proportions only, not included here; no BBC or micro:bit logo, FCC ID or silkscreen text; component positions and sizes are estimates, flagged as such. Reviewer identities are requested, not confirmed (below) |
 
 ### Technical evidence (run in this session, Node 22.23.4, Python 3.14)
 
 | Check | Result |
 | --- | --- |
 | `npm run typecheck --prefix studio/web` | passes, no errors |
-| `npm test --prefix studio/web` (vitest) | 140 passed, 5 files |
-| `npm run test:browser --prefix studio/web` (Playwright, software WebGL) | 42 passed |
+| `npm test --prefix studio/web` (vitest) | 144 passed, 6 files |
+| `npm run test:browser --prefix studio/web` (Playwright, software WebGL) | 43 passed |
 | `npm run build --prefix studio/web` | builds; the JavaScript bundle is 654.91 kB before compression (Vite's size warning remains) |
 | `python3 -m unittest discover -s studio/tests -v` | 80 tests OK, 4 skipped (the real CPU Blender tests need `STUDIO_BPY_PYTHON`, which this run did not set) |
-| `python3 -m unittest discover -s creation-lab/tests -v` | 92 tests OK, 4 skipped (the real Blender tests need `CREATION_TEST_BLENDER`, not set in this run) |
+| `python3 -m unittest discover -s creation-lab/tests -v` | 100 tests OK, 4 skipped (the real Blender tests need `CREATION_TEST_BLENDER`, not set in this run) |
 | `python3 tools/check_skills.py` | PASS, 13 skills, 85 local links |
 | `python3 creation-lab/registry/verify_sources.py` | PASS, 255 files verified (`runtimeExecuted` false) |
 | `python3 creation-lab/experiments/microbit-v2/check_contract.py studio/examples/microbit/microbit.glb` | PASS |

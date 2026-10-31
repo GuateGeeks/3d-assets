@@ -1,4 +1,5 @@
 """Evidence and transition regressions, independent of Blender or a model API."""
+import ast
 import contextlib
 import importlib.util
 import io
@@ -434,6 +435,14 @@ class ExtraViewTests(unittest.TestCase):
         self.assertIsNone(flow.parser().parse_args(self.command()).extra_views)
         args = flow.parser().parse_args(self.command('--extra-view', 'top-down', '--extra-view', 'underside'))
         self.assertEqual(args.extra_views, ['top-down', 'underside'])
+
+    def test_worker_camera_catalogue_matches_extra_views(self):
+        # The Blender worker keeps its own EXTRA_CAMERAS; parse it with ast (no bpy) so the two catalogues cannot drift apart.
+        tree = ast.parse((BASE / 'scripts' / 'iteration_worker.py').read_text(encoding='utf-8'))
+        cameras = [n.value for n in tree.body if isinstance(n, ast.Assign) and any(getattr(t, 'id', None) == 'EXTRA_CAMERAS' for t in n.targets)]
+        self.assertEqual(len(cameras), 1)
+        self.assertIsInstance(cameras[0], ast.Dict)
+        self.assertEqual({k.value for k in cameras[0].keys}, set(flow.EXTRA_VIEWS))
 
     def test_unknown_and_duplicate_rejected_before_any_launch(self):
         for extra in (['--extra-view', 'sideways'], ['--extra-view', 'underside', '--extra-view', 'underside'],
