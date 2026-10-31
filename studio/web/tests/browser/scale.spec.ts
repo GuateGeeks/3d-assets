@@ -25,4 +25,6 @@ test('the default workbench keeps its camera constants',async({page})=>{
  expect(camera.near).toBe(.05);expect(d).toBeGreaterThanOrEqual(2);expect(d).toBeLessThanOrEqual(22);
  await page.locator('canvas').hover();for(let i=0;i<20;i++)await page.mouse.wheel(0,-400);await page.waitForTimeout(300);
  expect(distance((await receipt(page)).camera)).toBeCloseTo(2,5);
+ await page.locator('canvas').hover();for(let i=0;i<40;i++)await page.mouse.wheel(0,600);await page.waitForTimeout(300);
+ expect(distance((await receipt(page)).camera)).toBeCloseTo(22,5);
 });

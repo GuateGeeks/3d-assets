@@ -58,7 +58,7 @@ export function mountPreview(host:HTMLElement):()=>void{
   controls.minDistance=stage.minDistance;controls.maxDistance=stage.maxDistance;
   sun.position.set(-3,7,5).multiplyScalar(f);const sc=sun.shadow.camera;sc.left=-stage.shadowExtent;sc.right=stage.shadowExtent;sc.top=stage.shadowExtent;sc.bottom=-stage.shadowExtent;sc.near=.5*f;sc.far=500*f;sc.updateProjectionMatrix();sun.shadow.normalBias=.03*f;
   (scene.fog as THREE.Fog).near=stage.fogNear;(scene.fog as THREE.Fog).far=stage.fogFar;
-  grid.scale.setScalar(stage.gridSize/30);ground.scale.setScalar(f);
+  grid.scale.setScalar(stage.gridSize/30);ground.scale.setScalar(f);ground.position.y=stage.groundY;grid.position.y=stage.gridY;
   return stage;
  }
  function frame(){if(!runtime)return;if(!runtime.assets.size){applyStage(0);return}const box=new THREE.Box3();for(const a of runtime.assets.values())box.expandByObject(a.root);const center=box.getCenter(new THREE.Vector3()),size=box.getSize(new THREE.Vector3());const stage=applyStage(Math.max(size.x,size.y,size.z));const aspect=viewport.clientWidth/Math.max(viewport.clientHeight,1);const distance=Math.max(size.y,size.x/aspect,size.z,stage.frameFloor)/(2*Math.tan(THREE.MathUtils.degToRad(camera.fov/2)))*1.55;controls.target.copy(center);camera.position.copy(center).add(new THREE.Vector3(.7,.55,1).normalize().multiplyScalar(distance));controls.update()}
