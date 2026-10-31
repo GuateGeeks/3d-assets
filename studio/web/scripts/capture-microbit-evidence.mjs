@@ -3,9 +3,9 @@
 // Software rendering (SwiftShader): functional evidence only. It proves what the app reports and draws, not GPU performance and not a visual approval.
 import {chromium} from '@playwright/test';
 import {createHash} from 'node:crypto';
-import {mkdir,readFile,writeFile} from 'node:fs/promises';
+import {mkdir,readFile,rm,writeFile} from 'node:fs/promises';
 import {join,resolve} from 'node:path';
-const out=resolve(process.argv[2]||'evidence/microbit-20261031');
+const out=resolve(process.argv[2]||'evidence/microbit-20261031-r2');
 const base=process.env.PREVIEW_URL||'http://127.0.0.1:4395/';
 const url=new URL('?scene=project/scene.json',base).href;
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
@@ -56,8 +56,28 @@ try{
   check(name+': pointer hold lights the '+source+' pattern',same(entry.litLeds,EXPECT[source])&&entry.channels[source]===1,{readout:await readout(),lit:entry.litLeds});
   await page.waitForFunction(()=>/ 0 LEDs lit/.test(document.querySelector('#value').textContent));
  }
+ // Extra evidence view (not a product default): orbit by mouse drags in empty canvas until the camera looks almost straight down at the LED face,
+ // then hold each of A, B and logo from the keyboard. OrbitControls stops short of the zenith, so the final elevation is recorded.
+ const canvasBox=await page.locator('canvas').boundingBox();
+ const elevation=r=>{const [px,py,pz]=r.camera.position,[tx,ty,tz]=r.camera.target;return Math.asin((py-ty)/Math.hypot(px-tx,py-ty,pz-tz))*180/Math.PI};
+ const latest=async()=>{const n=summary.captures.length;await capture('probe-camera');const c=summary.captures.pop();const r=JSON.parse(await readFile(join(out,c.receipt),'utf8'));await rm(join(out,'probe-camera'),{recursive:true,force:true});return r};
+ let top=await latest();
+ for(let i=0;i<8&&elevation(top)<80;i++){
+  const x=canvasBox.x+canvasBox.width*.9,y=canvasBox.y+canvasBox.height*.15;
+  await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x,y+250,{steps:10});await page.mouse.up();await page.waitForTimeout(300);top=await latest();
+ }
+ const topElevation=+elevation(top).toFixed(1);check('top-down view reached (camera elevation above 80 degrees)',topElevation>80,{elevationDegrees:topElevation});
+ for(const [name,button,source] of [['topdown-a-held','Hold A','a'],['topdown-b-held','Hold B','b'],['topdown-logo-held','Hold logo','logo']]){
+  await page.getByRole('button',{name:button}).focus();await page.keyboard.down('Space');
+  await page.waitForFunction(()=>!/ 0 LEDs lit/.test(document.querySelector('#value').textContent));
+  const entry=await capture(name);await page.keyboard.up('Space');entry.cameraElevationDegrees=topElevation;
+  check(name+': keyboard hold lights the '+source+' pattern in the top-down view',same(entry.litLeds,EXPECT[source])&&entry.channels[source]===1,{lit:entry.litLeds});
+  await page.waitForFunction(()=>/ 0 LEDs lit/.test(document.querySelector('#value').textContent));
+ }
+ // Close-up from the default orientation again: reload.
+ await page.goto(url);await page.getByRole('button',{name:'Hold A'}).waitFor();await page.waitForFunction(()=>document.querySelectorAll('.part-label').length===46);
  // Close-up: wheel-zoom towards the board centre and hold A from the keyboard (the pressed cap and the lit LEDs stay in view). Anchors stay on.
- const box=await page.locator('canvas').boundingBox();await page.mouse.move(box.x+box.width/2,box.y+box.height/2);
+ await page.waitForTimeout(500);const box=await page.locator('canvas').boundingBox();await page.mouse.move(box.x+box.width/2,box.y+box.height/2);
  for(let i=0;i<9;i++){await page.mouse.wheel(0,-300);await page.waitForTimeout(60)}
  await page.waitForTimeout(400);
  await page.getByRole('button',{name:'Hold A'}).focus();await page.keyboard.down('Space');
