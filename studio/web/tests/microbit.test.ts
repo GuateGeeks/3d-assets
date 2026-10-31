@@ -77,3 +77,24 @@ describe('createMicrobit',()=>{
   asset.dispose();expect(geo).toHaveBeenCalledTimes(1);expect(mat).toHaveBeenCalledTimes(1);
  });
 });
+describe('logo feedback never mutates a shared material',()=>{
+ const state=(m:THREE.MeshStandardMaterial)=>({e:m.emissive.getHex(),i:m.emissiveIntensity});
+ for(const other of ['pcb','btn_a_cap','pin_1']){
+  it(`logo sharing ${other}'s material lights only the logo and restores exactly`,()=>{
+   const board=makeContractBoard(),shared=part(board,other).material as THREE.MeshStandardMaterial;part(board,'logo_touch').material=shared;
+   const before=state(shared),asset=createMicrobit(board),logo=part(asset.root,'logo_touch'),logoMat=logo.material as THREE.MeshStandardMaterial,otherMat=part(asset.root,other).material as THREE.MeshStandardMaterial;
+   expect(otherMat).toBe(shared);expect(logoMat).not.toBe(shared);const rest=state(logoMat);
+   asset.set('logo',1);expect(state(logoMat)).not.toEqual(rest);expect(state(shared)).toEqual(before);
+   asset.set('logo',0);expect(state(logoMat)).toEqual(rest);expect(state(shared)).toEqual(before);
+  });
+ }
+ it('disposes the shared material and the logo clone exactly once each',()=>{
+  const board=makeContractBoard(),shared=part(board,'pcb').material as THREE.MeshStandardMaterial;part(board,'logo_touch').material=shared;
+  const asset=createMicrobit(board),clone=part(asset.root,'logo_touch').material as THREE.MeshStandardMaterial,a=vi.spyOn(shared,'dispose'),b=vi.spyOn(clone,'dispose');
+  asset.dispose();asset.dispose();expect(a).toHaveBeenCalledTimes(1);expect(b).toHaveBeenCalledTimes(1);
+ });
+ it('rejects a logo whose material cannot take an emissive colour',()=>{
+  const board=makeContractBoard();part(board,'logo_touch').material=new THREE.MeshBasicMaterial();
+  expect(()=>createMicrobit(board)).toThrow(/logo_touch.*MeshStandardMaterial/);
+ });
+});

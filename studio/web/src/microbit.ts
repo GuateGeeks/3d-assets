@@ -27,6 +27,7 @@ export function createMicrobit(source:THREE.Object3D):Asset{
  for(const p of contract.parts){
   const node=nodes.get(p.id)!,isLed=LED_PART.test(p.id);
   if(isLed&&!(node instanceof THREE.Mesh&&!Array.isArray(node.material)&&hasEmissive(node.material)))throw new Error('Invalid micro:bit model: '+p.id+' must be a mesh with a single emissive material');
+  if(p.id==='logo_touch'&&!(node instanceof THREE.Mesh&&!Array.isArray(node.material)&&node.material instanceof THREE.MeshStandardMaterial))throw new Error('Invalid micro:bit model: logo_touch must be a mesh with a single MeshStandardMaterial (needs an emissive colour for touch feedback)');
   if(node instanceof THREE.Mesh&&!Array.isArray(node.material)){
    const prior=owners.get(node.material);
    if(prior!==undefined&&(isLed||LED_PART.test(prior)))throw new Error('Invalid micro:bit model: '+p.id+' and '+prior+' must use a distinct material each');
@@ -41,7 +42,13 @@ export function createMicrobit(source:THREE.Object3D):Asset{
  const plungers=new Map<Channel,Plunger[]>(),press=(channel:Channel,plunger:Plunger)=>plungers.set(channel,[...(plungers.get(channel)??[]),plunger]);
  for(const [id,channel] of Object.entries(contract.caps))press(channel as Channel,new Plunger(nodes.get(id)!,contract.pressTravelMeters));
  const logoNode=nodes.get('logo_touch')!,logoPlunger=new Plunger(logoNode,contract.pressTravelMeters*LOGO_TRAVEL);
- const logoMaterial=logoNode instanceof THREE.Mesh&&!Array.isArray(logoNode.material)&&hasEmissive(logoNode.material)&&owners.get(logoNode.material)==='logo_touch'?logoNode.material:undefined;
+ // The logo must never tint a material another mesh uses (exporters deduplicate freely), so a shared one is replaced by a private clone.
+ // The clone lives on the mesh before base() tracks the root, so the asset scope disposes it with everything else.
+ if(!(logoNode instanceof THREE.Mesh&&logoNode.material instanceof THREE.MeshStandardMaterial))throw new Error('unreachable');
+ const uses=new Map<THREE.Material,number>();
+ source.traverse(o=>{if(o instanceof THREE.Mesh)for(const m of Array.isArray(o.material)?o.material:[o.material])uses.set(m,(uses.get(m)??0)+1)});
+ if((uses.get(logoNode.material)??0)>1)logoNode.material=logoNode.material.clone();
+ const logoMaterial=logoNode.material as THREE.MeshStandardMaterial;
  const logoRest=logoMaterial&&{color:logoMaterial.emissive.clone(),intensity:logoMaterial.emissiveIntensity};
  const channels:Channel[]=['a','b','logo'];
  for(let y=0;y<5;y++)for(let x=0;x<5;x++)channels.push(`led.${x}.${y}` as Channel);
