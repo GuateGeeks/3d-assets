@@ -23,25 +23,36 @@ def load(name, path):
     return module
 
 
-def synthetic(width=0.052, shared_led_material=False, duplicate=None, omit=None, parent_scale=1.0):
-    """Minimal glTF dict: one box node per contract part; the PCB sets the extent (X = width)."""
+def synthetic(width=0.052, shared_led_material=False, duplicate=None, omit=None, parent_scale=1.0,
+              led_shares_with=None, led_two_primitives=False, caps_share_material=False):
+    """Minimal glTF dict: one box node per contract part, each on its own material; the PCB sets the extent.
+
+    shared_led_material: led_1_0 reuses led_0_0's material (LED vs LED only).
+    led_shares_with: that part reuses led_0_0's material (LED vs a non-LED part).
+    led_two_primitives: led_0_0's mesh has two primitives that share one material.
+    caps_share_material: btn_b_cap reuses btn_a_cap's material (non-LED sharing is allowed).
+    """
     ids = [p['id'] for p in CONTRACT['parts'] if p['id'] != omit]
     if duplicate:
         ids.append(duplicate)
     nodes, meshes, accessors, materials = [], [], [], []
-    led = 0
+    material_of = {}
+    for part in ids:
+        materials.append({'name': part if part.startswith('led_') else 'other_'+part})
+        material_of[part] = len(materials)-1
+    if shared_led_material:
+        material_of['led_1_0'] = material_of['led_0_0']
+    if led_shares_with:
+        material_of[led_shares_with] = material_of['led_0_0']
+    if caps_share_material:
+        material_of['btn_b_cap'] = material_of['btn_a_cap']
     for part in ids:
         accessors.append({'componentType': 5126, 'count': 8, 'type': 'VEC3',
                           'min': [-width/2, -0.001, -0.021] if part == 'pcb' else [-0.001]*3,
                           'max': [width/2, 0.001, 0.021] if part == 'pcb' else [0.001]*3})
-        if part.startswith('led_'):
-            materials.append({'name': part})
-            material = 0 if shared_led_material and part in ('led_0_0', 'led_1_0') else len(materials)-1
-            led += 1
-        else:
-            materials.append({'name': 'other_'+part})
-            material = len(materials)-1
-        meshes.append({'name': part, 'primitives': [{'attributes': {'POSITION': len(accessors)-1}, 'material': material}]})
+        primitive = {'attributes': {'POSITION': len(accessors)-1}, 'material': material_of[part]}
+        primitives = [primitive, dict(primitive)] if led_two_primitives and part == 'led_0_0' else [primitive]
+        meshes.append({'name': part, 'primitives': primitives})
         nodes.append({'name': part+'__node', 'mesh': len(meshes)-1, 'extras': {'part_id': part}})
     gltf = {'asset': {'version': '2.0'}, 'scene': 0, 'scenes': [{'nodes': [len(nodes)]}],
             'nodes': nodes, 'meshes': meshes, 'accessors': accessors, 'materials': materials}
@@ -78,8 +89,32 @@ class MicrobitContract(unittest.TestCase):
         self.assertTrue(any('btn_a' in p and 'duplicate' in p.lower() for p in problems), problems)
 
     def test_shared_led_material_is_reported(self):
-        problems = self.problems(synthetic(shared_led_material=True))
-        self.assertTrue(any('distinct material' in p for p in problems), problems)
+        gltf = synthetic(shared_led_material=True)
+        # The helper isolates LED-vs-LED sharing: no non-LED part uses that material.
+        shared = gltf['meshes'][[n['extras']['part_id'] for n in gltf['nodes'][:-1]].index('led_0_0')]['primitives'][0]['material']
+        users = [n['extras']['part_id'] for n in gltf['nodes'][:-1]
+                 if gltf['meshes'][n['mesh']]['primitives'][0]['material'] == shared]
+        self.assertEqual(users, ['led_0_0', 'led_1_0'])
+        problems = self.problems(gltf)
+        self.assertEqual(len(problems), 1, problems)
+        self.assertIn('distinct material', problems[0])
+        self.assertIn('led_0_0', problems[0])
+        self.assertIn('led_1_0', problems[0])
+
+    def test_led_sharing_material_with_a_non_led_part_is_reported(self):
+        for other in ('btn_a', 'pcb', 'logo_touch'):
+            problems = self.problems(synthetic(led_shares_with=other))
+            self.assertEqual(len(problems), 1, (other, problems))
+            self.assertIn('led_0_0', problems[0])
+            self.assertIn(other, problems[0])
+            self.assertIn('shares material', problems[0])
+
+    def test_led_mesh_with_two_primitives_is_reported(self):
+        problems = self.problems(synthetic(led_two_primitives=True))
+        self.assertTrue(any('led_0_0' in p and 'exactly one primitive' in p for p in problems), problems)
+
+    def test_non_led_parts_may_share_a_material(self):
+        self.assertEqual(self.problems(synthetic(caps_share_material=True)), [])
 
     def test_box_twenty_percent_too_large(self):
         problems = self.problems(synthetic(width=0.052*1.2))

@@ -4,8 +4,9 @@
 
 Exits 1 and prints one problem per line when the GLB breaks the contract:
 every contract ``part_id`` must appear exactly once in a node's ``extras``
-(Blender custom property ``part_id`` exported with ``export_extras``), the 25
-LED nodes must reference 25 distinct materials, and the board's bounding box
+(Blender custom property ``part_id`` exported with ``export_extras``), each of
+the 25 LED nodes must be a single-primitive mesh on a material that no other node
+(LED or not) uses, as the Studio factory requires, and the board's bounding box
 must match the brief's ``displayScale`` on its longest dimension.
 
 Bounding box: each mesh primitive's POSITION accessor min/max (the eight box
@@ -122,19 +123,30 @@ def check_contract(gltf, contract, display_scale=None):
             names = ', '.join(str(nodes[i].get('name', i)) for i in found)
             problems.append(f"duplicate part_id {part['id']} on {len(found)} nodes ({names})")
 
+    # Material ownership over every mesh node, as the Studio factory enforces it: an LED needs
+    # exactly one primitive and a material that no other node (LED or not) uses.
     meshes = gltf.get('meshes', [])
     owners = {}
-    for part, found in sorted(by_part.items()):
-        if not LED_PART.match(part) or len(found) != 1 or 'mesh' not in nodes[found[0]]:
+    for index, node in enumerate(nodes):
+        if 'mesh' not in node:
             continue
-        materials = {p.get('material') for p in meshes[nodes[found[0]]['mesh']].get('primitives', [])}
-        if len(materials) != 1 or None in materials:
-            problems.append(f'{part} must use exactly one material')
-            continue
-        owners.setdefault(materials.pop(), []).append(part)
-    for material, parts in sorted(owners.items()):
-        if len(parts) > 1:
-            problems.append(f"LEDs need a distinct material each; material {material} is shared by {', '.join(parts)}")
+        part = (node.get('extras') or {}).get('part_id')
+        name = part if isinstance(part, str) else f"node {node.get('name', index)}"
+        primitives = meshes[node['mesh']].get('primitives', [])
+        if isinstance(part, str) and LED_PART.match(part) and len(primitives) != 1:
+            problems.append(f'{part} must be a mesh with exactly one primitive (found {len(primitives)})')
+        for material in sorted({p.get('material') for p in primitives if p.get('material') is not None}):
+            owners.setdefault(material, []).append(name)
+        if isinstance(part, str) and LED_PART.match(part) and not any(p.get('material') is not None for p in primitives):
+            problems.append(f'{part} has no material')
+    for material, names in sorted(owners.items()):
+        leds = [n for n in names if LED_PART.match(n)]
+        others = [n for n in names if not LED_PART.match(n)]
+        if len(leds) > 1:
+            problems.append(f"LEDs need a distinct material each; material {material} is shared by {', '.join(leds)}")
+        if leds and others:
+            for led in leds:
+                problems.append(f"{led} shares material {material} with {', '.join(others)}; each LED needs its own")
 
     if display_scale is not None:
         box = bounding_box(gltf, problems)

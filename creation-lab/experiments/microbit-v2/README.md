@@ -23,7 +23,7 @@ from reference photos, not measured.
 | --- | --- |
 | `brief.json` | Lab brief: parts = the node contract, `displayScale` 0.052 m +/- 2 %, budgets, blockout and content checks |
 | `generator_blockout.py` | Blockout generator (`build()`), simple volumes at true positions, plates with clean Delaunay caps; the later detail generator refines them |
-| `check_contract.py` | Stdlib GLB checker: each `part_id` once, 25 distinct LED materials, size within `displayScale` |
+| `check_contract.py` | Stdlib GLB checker: each `part_id` once, each LED a single-primitive mesh on a material no other node uses, size within `displayScale` |
 | `../../tests/test_microbit_contract.py` | Tests for the checker and the brief (synthetic GLBs, no Blender) |
 
 Blender conventions: metres, Z up, front -Y. The board lies flat, LED face +Z
@@ -58,7 +58,7 @@ coordinator `claude-sonnet-5-5` medium, id `512a9441-9706-4b43-af04-b90df11ad0bc
 
 | Run ID | Stage | Author (requested) | Technical | Visual | Content | `asset.glb` sha256 |
 | --- | --- | --- | --- | --- | --- | --- |
-| `001-0c91b4d0cb9e` | blockout | `aff01f0d2db1ac83d`, `claude-sonnet-5-5` medium | PASS (46 meshes, 14400 triangles, 41 materials, 51.6 x 42.8 x 11.65 mm; `check_contract.py` PASS) | BLOCKED (independent review: six views never show the underside; see correction run 1) | BLOCKED | `e134696aa431b3db921574c5c3206311f8c94f40edd7f41d9fac4a3ff28deaa9` |
+| `001-0c91b4d0cb9e` | blockout | `aff01f0d2db1ac83d`, `claude-sonnet-5-5` medium | PASS (46 meshes, 14400 triangles, 41 materials, 51.6 x 42.8 x 11.65 mm; `check_contract.py` PASS) | BLOCKED (recorded review: the six common views never show the underside) | BLOCKED (same reason; all six blockout checks PASS using the supplementary views) | `e134696aa431b3db921574c5c3206311f8c94f40edd7f41d9fac4a3ff28deaa9` |
 
 Run `001-0c91b4d0cb9e` image hashes (sha256):
 
@@ -87,9 +87,23 @@ edited in place (git keeps run 001's version).
 
 | Run ID | Stage | Author (requested) | Technical | Visual | Content | `asset.glb` sha256 |
 | --- | --- | --- | --- | --- | --- | --- |
-| `002-47a9ec5ebe91` | blockout, correction 1 | `aff01f0d2db1ac83d`, `claude-sonnet-5-5` medium | PASS (46 meshes, 16116 triangles, 41 materials, 51.6 x 42.8 x 11.65 mm; reopen PASS, reimport PASS; `check_contract.py` PASS) | NOT_RUN (awaiting independent review) | NOT_RUN | `b9639f821566ea846393df715c57d066762d05cb434b37cc5355d4dde73bc2ca` |
+| `002-47a9ec5ebe91` | blockout, correction 1 | `aff01f0d2db1ac83d`, `claude-sonnet-5-5` medium | PASS (46 meshes, 16116 triangles, 41 materials, 51.6 x 42.8 x 11.65 mm; reopen PASS, reimport PASS; `check_contract.py` PASS) | PASS (recorded review) | PASS (recorded review) | `b9639f821566ea846393df715c57d066762d05cb434b37cc5355d4dde73bc2ca` |
 
 `source.blend` sha256 `3b6c0dcdc5bf19d9f5cec4348099cb18f26dce2e23d0d63e4587a733512b13cd`.
+
+Recorded reviews (`creation-lab/.local/iterations/20261031T054439Z-105b17e2/reviews/<run id>.json`):
+both by a fresh-context reviewer with actor id `unknown-subagent-fresh-context`,
+model `claude-opus-5-5`, effort `medium` as requested; the runtime did not confirm
+the model or effort. Run 001: visual BLOCKED, content BLOCKED. Run 002: visual PASS,
+content PASS, all eight images listed as opened (the six common views plus
+`underside` and `top-down`); session status READY_FOR_DETAIL, corrections used 1 of 2.
+The run 002 review lists these minor defects for the detail stage (none breaks a blockout check):
+`mic_led` reads as a 26th LED (red square above LED column 4; make it smaller and
+round or a different colour); back-face gold ring pads and finger strip missing
+(add them to the existing `pin_*` / `edge_connector` parts); reset button about
+4.4 mm against about 6 mm in photo 3.webp; antenna about 7 x 9 mm against about
+10 x 13 mm in the photo (keep it a thin trace).
+
 Image hashes (sha256), under `creation-lab/.local/iterations/20261031T054439Z-105b17e2/runs/002-47a9ec5ebe91/renders/`:
 
 | Image | sha256 |
