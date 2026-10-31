@@ -126,6 +126,42 @@ el presupuesto, conserva `BLOCKED` y los defectos pendientes. No amplíes el lí
 ni bajes tolerancias para conseguir PASS. Una aprobación anterior no se hereda
 tras cambiar el asset. No se sobrescriben revisiones; un cambio exige otro run.
 
+## Vistas extra opcionales (activos planos)
+
+Las seis vistas comunes nunca muestran la cara inferior de un activo plano (una
+placa, por ejemplo), así que las piezas de ese lado quedan `hidden`/`unclear` y la
+revisión no puede darles PASS. En vez de relajar esa regla, un run puede pedir más
+evidencia oficial con `--extra-view NAME` (repetible):
+
+```sh
+python creation-lab/iterate.py run --session SESION --generator GEN.py --stage blockout --blender /ruta/blender --actor-id AUTOR_REAL --model gpt-6.1-sol --extra-view underside --extra-view top-down
+```
+
+- Catálogo (`EXTRA_VIEWS` en `iterate.py`): `underside` (cámara bajo el modelo
+  mirando hacia +Z) y `top-down` (cámara sobre el modelo mirando hacia -Z). Ambas
+  son ortográficas, con la misma distancia, encuadre, mundo y luces fijas que las
+  vistas comunes, y mantienen el borde -Y (conector de la placa) abajo del cuadro.
+  Un nombre desconocido o repetido se rechaza antes de lanzar Blender.
+- Es opción **por run**: se guarda en `request.json` y en `manifest.json`
+  (`extraViews`), el worker renderiza esas vistas tras las seis comunes en
+  `renders/NAME.png` y cada imagen entra en `artifacts` con su sha256. Sin la
+  opción no aparece la clave ni cambia ningún archivo, hash de manifest ni forma
+  de plantilla; los runs históricos se cargan igual.
+- Luz de relleno determinista, solo para vistas extra: una luz de área (disco de
+  .55 × factor de presentación) del lado de la cámara en un punto fijo, que se crea
+  para cada render extra y se elimina después. `underside` usa potencia 10 (la luz
+  clave está encima del modelo, y desde abajo solo llegaría el mundo) y `top-down`
+  potencia 4, en la misma escala que la luz clave. Los ajustes del renderer (Cycles
+  CPU, dos hilos, 24 muestras, 768 px, AgX) son los mismos.
+- `review-template` de un run con extras incluye sus vistas en `images` (mapa de
+  hashes) tras las seis comunes, y `parts[].views` y `defects[].view` aceptan sus
+  nombres. `review` exige el conjunto de imágenes de ESE run (seis + sus extras) y
+  rechaza nombres que el run no pidió. `openedImages` conserva su semántica: abre
+  también las imágenes extra.
+- No relaja ninguna regla: una parte `hidden`/`unclear` sigue sin poder recibir
+  PASS, y si las vistas extra siguen sin mostrarla el resultado honesto es `BLOCKED`
+  con defectos. Consumen el presupuesto de correcciones como cualquier run.
+
 ## Evidencia y entrega
 
 Cada run conserva código, biblioteca, brief, worker, verificador de superficies,

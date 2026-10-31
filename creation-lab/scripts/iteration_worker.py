@@ -52,6 +52,33 @@ def render(run, view, reimport=False):
     scene.render.filepath=str(run/'renders'/(name+'.png'));bpy.ops.render.render(write_still=True)
     for obj,modifier in modifiers:obj.modifiers.remove(modifier)
 
+# Optional per-run extra views (iterate.py EXTRA_VIEWS), rendered after the six default views.
+# Orthographic camera, same distance, framing (ortho_scale), clip range, world, lights and renderer
+# settings as the default views. Blender: Z up, front -Y; the edge connector side (-Y) is kept at the
+# bottom of the frame. camera: (position in presentation-factor units, rotation_euler). 'fill': position
+# and power (same scale as the Key light; lights scale with factor squared) of a deterministic extra fill
+# light on the camera side, used for these views only. The fixed key light sits above the model, so the
+# underside would otherwise be lit by the world alone; top-down already has the key and needs less.
+EXTRA_CAMERAS={
+    'underside':{'camera':((0,0,-.7),(0,math.pi,0)),'fill':(.20,-.12,-.55),'power':10},   # below, looking up (+Z)
+    'top-down':{'camera':((0,0,.7),(0,0,0)),'fill':(.20,-.12,.55),'power':4},            # above, looking straight down (-Z)
+}
+
+def render_extra(run, view):
+    scene=bpy.context.scene;factor=scene.get('presentation_scale',1);spec=EXTRA_CAMERAS[view]
+    scene.camera.location=Vector(spec['camera'][0])*factor;scene.camera.rotation_euler=spec['camera'][1]
+    data=bpy.data.lights.new('Extra view fill','AREA');data.energy=spec['power']*factor*factor;data.shape='DISK';data.size=.55*factor
+    light=bpy.data.objects.new('Extra view fill',data);scene.collection.objects.link(light)
+    light.location=Vector(spec['fill'])*factor;point_at(light,(0,0,0))
+    scene.render.filepath=str(run/'renders'/(view+'.png'));bpy.ops.render.render(write_still=True)
+    bpy.data.objects.remove(light);bpy.data.lights.remove(data)
+
+def requested_extra_views(run):
+    names=json.loads((run/'request.json').read_text(encoding='utf-8')).get('extraViews',[])
+    if not isinstance(names,list) or len(names)!=len(set(names)) or not set(names)<=set(EXTRA_CAMERAS):
+        raise ValueError('Invalid extraViews in request.json: '+str(names))
+    return names
+
 def part_inventory(brief):
     expected={p['id'] for p in brief['parts']};inventory={key:[] for key in expected}
     for obj in bpy.context.scene.objects:
@@ -137,7 +164,9 @@ def main():
         if not all(inventory.values()):raise ValueError('Parts missing on reopen')
         (run/'renders').mkdir()
         for view in VIEWS:render(run,view)
-        write(run/'reopen-result.json',{'status':'PASS' if all(c['status']=='passed' for c in checks) else 'FAIL','checks':checks,'metrics':geometry.summary(after),'blendSha256':digest(run/'source.blend'),'version':bpy.app.version_string})
+        extra=requested_extra_views(run)
+        for view in extra:render_extra(run,view)
+        write(run/'reopen-result.json',{'status':'PASS' if all(c['status']=='passed' for c in checks) else 'FAIL','checks':checks,'metrics':geometry.summary(after),'blendSha256':digest(run/'source.blend'),'version':bpy.app.version_string,**({'extraViews':extra} if extra else {})})
     elif stage=='reimport':
         geometry.load(run/'asset.glb',static=True)
         before=json.loads((run/'source-surfaces.json').read_text());after=geometry.measure();checks=[]

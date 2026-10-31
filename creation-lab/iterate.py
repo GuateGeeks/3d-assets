@@ -32,6 +32,9 @@ CLAUDE_REVIEWER_DEFAULT = 'claude-opus-5-5'
 # Aliases can move to another version; a profile must name exact model IDs.
 MODEL_ALIASES = {'haiku', 'sonnet', 'opus', 'fable', 'opusplan', 'default', 'best', 'sol', 'luna'}
 VIEWS = ('front', 'side', 'back', 'three-quarter', 'wireframe', 'reimport-three-quarter')
+# Optional per-run extra views (flat assets whose far face the six views never show).
+# The worker renders them after the default views; names are recorded in the run.
+EXTRA_VIEWS = ('underside', 'top-down')
 
 
 def read(path):
@@ -219,6 +222,21 @@ def session_lock(path):
         lock.unlink()
 
 
+def validate_extra_views(names):
+    """Names chosen with --extra-view (or a run's recorded extraViews): catalogue only, no duplicates."""
+    require(names is None or isinstance(names, list), 'Invalid extra views: expected a list of names')
+    names = names or []
+    for name in names:
+        require(name in EXTRA_VIEWS, f'Unknown extra view {name!r}; choose from: ' + ', '.join(EXTRA_VIEWS))
+    require(len(names) == len(set(names)), 'Duplicate extra view')
+    return names
+
+
+def run_views(run):
+    """Official image set of one run: the six default views plus the extras it requested."""
+    return (*VIEWS, *validate_extra_views(run.get('extraViews')))
+
+
 def load_run(session_path, run_id):
     require(slug(run_id), 'Invalid run ID')
     path = session_path / 'runs' / run_id
@@ -228,6 +246,7 @@ def load_run(session_path, run_id):
     session = read(session_path / 'session.json')
     require(manifest.get('sessionSha256') == digest(session_path / 'session.json'), 'Run belongs to another session')
     require(manifest.get('schemaVersion') == 1 and manifest.get('stage') in {'blockout', 'detail'} and manifest.get('technical') in STATES, 'Invalid run schema')
+    run_views(manifest)
     session_actor(manifest.get('author'), session, 'author')
     require(digest(contained(path, 'brief.json')) == session['briefSha256'], 'Run brief differs from session')
     for name, checksum in manifest['artifacts'].items():
@@ -255,8 +274,10 @@ def validate_review(path, session, run_path, run, review):
     authors = {r['author']['actorId'] for _, r in load_runs(path)}
     require(reviewer['actorId'] not in authors, 'Reviewer must use a context independent of every author in this session')
     require(review.get('openedImages') is True, 'Open the actual images before reviewing')
-    expected = {view: run['artifacts'].get('renders/' + view + '.png') for view in VIEWS}
-    require(all(expected.values()) and review.get('images') == expected, 'Review must bind all six actual image hashes')
+    views = run_views(run)
+    expected = {view: run['artifacts'].get('renders/' + view + '.png') for view in views}
+    require(all(expected.values()) and review.get('images') == expected,
+            'Review must bind all six actual image hashes' + (' and those of the run extra views' if len(views) > len(VIEWS) else ''))
     for view, checksum in expected.items():
         require(digest(contained(run_path, 'renders/' + view + '.png')) == checksum, 'Image changed')
     for gate in ('visual', 'content'):
@@ -269,7 +290,7 @@ def validate_review(path, session, run_path, run, review):
     require(len(ids) == len(set(ids)) and set(ids) == {p['id'] for p in brief['parts']}, 'Observe every required part exactly once')
     for item in observations:
         require(item.get('visibility') in {'visible', 'hidden', 'unclear'} and nonempty(item.get('reason')), 'Part visibility and reason required')
-        require(isinstance(item.get('views'), list) and item['views'] and set(item['views']) <= set(VIEWS), 'Evidence views required per part')
+        require(isinstance(item.get('views'), list) and item['views'] and set(item['views']) <= set(views), 'Evidence views required per part')
     checks = content_checks(brief, run['stage'])
     observed = review.get('checks')
     require(isinstance(observed, list) and [c.get('check') for c in observed] == checks, 'Review every content check in brief order')
@@ -282,7 +303,7 @@ def validate_review(path, session, run_path, run, review):
     defects = review.get('defects')
     require(isinstance(defects, list), 'defects must be a list')
     for defect in defects:
-        require(defect.get('view') in VIEWS and nonempty(defect.get('detail')) and nonempty(defect.get('requestedChange')), 'Each defect needs view, detail and requestedChange')
+        require(defect.get('view') in views and nonempty(defect.get('detail')) and nonempty(defect.get('requestedChange')), 'Each defect needs view, detail and requestedChange')
     if any(review[g]['status'] in {'FAIL', 'BLOCKED'} for g in ('visual', 'content')):
         require(bool(defects), 'Failed review needs actionable defects')
     return review
@@ -357,6 +378,7 @@ def check_generator(path):
 def run_generator(args):
     path, session = load_session(args.session)
     author = actor_args(args)
+    extra_views = validate_extra_views(getattr(args, 'extra_views', None))
     blender = Path(args.blender).resolve(strict=True)
     require(blender.is_file(), 'Blender executable required')
     generator = Path(args.generator).resolve(strict=True)
@@ -369,7 +391,8 @@ def run_generator(args):
         manifest = {'schemaVersion': 1, 'runId': rid, 'sequence': len(runs)+1, 'stage': args.stage,
                     'parentRunId': runs[-1][1]['runId'] if runs else None,
                     'sessionSha256': digest(path / 'session.json'), 'author': author,
-                    'technical': 'NOT_RUN', 'modelUsage': None, 'stages': [], 'artifacts': {}}
+                    'technical': 'NOT_RUN', 'modelUsage': None, 'stages': [], 'artifacts': {},
+                    **({'extraViews': extra_views} if extra_views else {})}
         target.mkdir()
         write(target / 'request.json', manifest)
         shutil.copy2(path / 'brief.json', target / 'brief.json')
@@ -446,7 +469,7 @@ def review_template(path, run_id):
         model, effort = LUNA if session['mode'] == 'luna' else SOL, 'medium'
     return {'schemaVersion': 1, 'runId': run_id, 'manifestSha256': digest(run_path / 'manifest.json'),
             'reviewer': {'actorId': '', 'model': model, 'reasoningEffort': effort},
-            'openedImages': False, 'images': {v: run['artifacts'].get('renders/' + v + '.png') for v in VIEWS},
+            'openedImages': False, 'images': {v: run['artifacts'].get('renders/' + v + '.png') for v in run_views(run)},
             'visual': {'status': 'NOT_RUN', 'reason': ''}, 'content': {'status': 'NOT_RUN', 'reason': ''},
             'parts': [{'id': p['id'], 'visibility': 'unclear', 'views': [], 'reason': ''} for p in brief['parts']],
             'checks': [{'check': c, 'status': 'NOT_RUN', 'reason': ''} for c in content_checks(brief, run['stage'])],
@@ -478,7 +501,10 @@ def parser():
     init.add_argument('--max-corrections', type=int, default=2); add_actor(init)
     run = sub.add_parser('run'); run.add_argument('--session', required=True, type=Path)
     run.add_argument('--generator', required=True, type=Path); run.add_argument('--stage', choices=['blockout', 'detail'], required=True)
-    run.add_argument('--blender', required=True, type=Path); run.add_argument('--timeout', type=int, default=600); add_actor(run)
+    run.add_argument('--blender', required=True, type=Path); run.add_argument('--timeout', type=int, default=600)
+    run.add_argument('--extra-view', action='append', dest='extra_views', metavar='NAME',
+                     help='Optional extra official view for this run only; repeatable. One of: ' + ', '.join(EXTRA_VIEWS))
+    add_actor(run)
     template = sub.add_parser('review-template'); template.add_argument('--session', required=True, type=Path)
     template.add_argument('--run', required=True); template.add_argument('--output', required=True, type=Path)
     review = sub.add_parser('review'); review.add_argument('--session', required=True, type=Path); review.add_argument('--input', required=True, type=Path)
