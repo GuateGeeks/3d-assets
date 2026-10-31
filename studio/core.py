@@ -137,6 +137,25 @@ def _vector(value, positive=False):
         raise ValueError('expected a finite three-vector' + (' with positive scale' if positive else ''))
 
 
+BUILTIN_ASSETS = ('button','servo','character')
+MICROBIT_BUTTONS = ('a','b','logo')
+LED_CHANNEL = re.compile(r'led\.[0-4]\.[0-4]')
+
+
+def _channel(value):
+    return isinstance(value,str) and (value in ('pressed','angle') + MICROBIT_BUTTONS or LED_CHANNEL.fullmatch(value) is not None)
+
+
+def _channel_range(channel):
+    if channel == 'angle': return (-180,180)
+    return (0,1) if channel in ('pressed',) + MICROBIT_BUTTONS else (0,255)
+
+
+def _grid(value):
+    return (isinstance(value,list) and len(value)==5 and all(isinstance(row,list) and len(row)==5
+            and all(_number(cell) and 0<=cell<=255 for cell in row) for row in value))
+
+
 def _identifier(value):
     if not isinstance(value, str) or not ID.fullmatch(value):
         raise ValueError('invalid identifier')
@@ -172,35 +191,45 @@ def validate_record(data: dict) -> dict:
             raise ValueError('scene requires 1..100 instances')
         ids = set()
         for instance in data['instances']:
+            if not isinstance(instance,dict): raise ValueError('instance must be an object')
             _required(instance,'id','asset','position','rotation','scale')
             _identifier(instance['id'])
             if instance['id'] in ids: raise ValueError('duplicate instance ID')
             ids.add(instance['id'])
             if not isinstance(instance['asset'],str): raise ValueError('asset identifier required')
             asset = instance['asset']
-            if asset not in ('button','servo','character') and not re.fullmatch(r'(?:[a-zA-Z0-9_-]+/)*[a-zA-Z0-9_.-]+\.glb',asset):
+            if asset not in BUILTIN_ASSETS and not re.fullmatch(r'(?:[a-zA-Z0-9_-]+/)*[a-zA-Z0-9_.-]+\.glb',asset):
                 raise ValueError('asset must be a built-in or relative GLB path')
             if '..' in asset.split('/'): raise ValueError('asset escapes project')
+            if 'behavior' in instance and (instance['behavior']!='microbit' or asset in BUILTIN_ASSETS):
+                raise ValueError("behavior must be 'microbit' on a GLB asset")
             _vector(instance['position']); _vector(instance['rotation']); _vector(instance['scale'],True)
         channels = set()
-        for track in data.get('tracks',[]):
+        tracks = data.get('tracks',[])
+        if not isinstance(tracks,list): raise ValueError('tracks must be an array')
+        for track in tracks:
+            if not isinstance(track,dict): raise ValueError('track must be an object')
             _required(track,'target','channel','keyframes')
+            if not isinstance(track['target'],str) or not _channel(track['channel']): raise ValueError('unknown track channel')
             channel = (track['target'],track['channel'])
-            if track['target'] not in ids or track['channel'] not in ('pressed','angle') or channel in channels:
+            if track['target'] not in ids or channel in channels:
                 raise ValueError('unknown or multiply-owned track channel')
             channels.add(channel)
-            owner = next(item['asset'] for item in data['instances'] if item['id']==track['target'])
-            if (track['channel']=='pressed' and owner!='button') or (track['channel']=='angle' and owner!='servo'):
+            owner = next(item for item in data['instances'] if item['id']==track['target'])
+            kind_of = track['channel']
+            if (kind_of=='pressed' and owner['asset']!='button') or (kind_of=='angle' and owner['asset']!='servo') \
+               or (kind_of not in ('pressed','angle') and owner.get('behavior')!='microbit'):
                 raise ValueError('track channel not supported by asset')
+            low,high = _channel_range(kind_of)
             frames = track['keyframes']
             if not isinstance(frames,list) or not frames: raise ValueError('keyframes required')
             previous = -1
             for frame in frames:
+                if not isinstance(frame,dict): raise ValueError('keyframe must be an object')
                 _required(frame,'time','value')
                 if not _number(frame['time']) or not previous < frame['time'] <= data['duration'] or frame['time'] < 0 or not _number(frame['value']):
                     raise ValueError('keyframe times must strictly increase within duration')
-                if track['channel']=='pressed' and not 0 <= frame['value'] <= 1: raise ValueError('pressed value out of range')
-                if track['channel']=='angle' and not -180 <= frame['value'] <= 180: raise ValueError('angle value out of range')
+                if not low <= frame['value'] <= high: raise ValueError(f'{kind_of} value out of range')
                 previous = frame['time']
         bindings=data.get('bindings',[])
         if not isinstance(bindings,list) or len(bindings)>100: raise ValueError('bindings must be an array of at most 100 controls')
@@ -217,6 +246,18 @@ def validate_record(data: dict) -> dict:
             targets.add(binding['target'])
             if any(not _number(binding[key]) or not -180<=binding[key]<=180 for key in ('released','pressed')):
                 raise ValueError('binding angles must be finite within -180..180')
+        patterns=data.get('patternBindings',[])
+        if not isinstance(patterns,list) or len(patterns)>100: raise ValueError('patternBindings must be an array of at most 100 entries')
+        behaviors={item['id']:item.get('behavior') for item in data['instances']}
+        pairs=set()
+        for pattern in patterns:
+            if not isinstance(pattern,dict) or set(pattern)!={'source','target','released','pressed'}: raise ValueError('invalid pattern binding fields')
+            if pattern['source'] not in MICROBIT_BUTTONS or not isinstance(pattern['target'],str) or behaviors.get(pattern['target'])!='microbit':
+                raise ValueError('pattern binding needs source a|b|logo and a microbit target')
+            pair=(pattern['source'],pattern['target'])
+            if pair in pairs: raise ValueError('duplicate pattern binding for source and target')
+            pairs.add(pair)
+            if not _grid(pattern['released']) or not _grid(pattern['pressed']): raise ValueError('pattern grids must be 5x5 numbers within 0..255')
     elif kind == 'project':
         _required(data,'title','scene','files','provenance')
         _inventory(data['files'])

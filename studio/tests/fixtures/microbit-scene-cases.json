@@ -8,7 +8,7 @@
       "angle": "-180..180, servo instances only"
     },
     "behavior": "optional; only the value 'microbit'; only on an asset whose path ends in .glb",
-    "non_finite_numbers": "Python json.loads accepts the bare literals NaN, Infinity and -Infinity, which strict JSON (and JSON.parse) rejects. A Python validator must therefore reject non-finite numbers itself with math.isfinite, and treat bool as a non-number (true/false are not numbers). Those checks are covered by a Python unit test, not by this fixture.",
+    "non_finite_numbers": "Python json.loads accepts the bare literals NaN, Infinity and -Infinity, which strict JSON (and JSON.parse) rejects. A Python validator must therefore reject non-finite numbers itself with math.isfinite, and treat bool as a non-number (true/false are not numbers). Those checks are not in this fixture; they are covered by the Python unit test studio/tests/test_core.py::CoreTests.test_microbit_grid_and_track_values_reject_bool_and_nonfinite.",
     "patternBindings": "optional array of at most 100; object with exactly keys source,target,released,pressed; source in a|b|logo; target a microbit instance; (source,target) unique; released and pressed are 5 rows (y) of 5 columns (x) of finite numbers 0..255"
   },
   "valid": [

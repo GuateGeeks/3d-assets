@@ -1,3 +1,4 @@
+import copy
 import json
 import struct
 import tempfile
@@ -87,6 +88,53 @@ class CoreTests(unittest.TestCase):
         with self.assertRaises(ValueError): core.validate_record(scene)
         scene['tracks']=[{'target':'servo','channel':'pressed','keyframes':[{'time':0,'value':1}]}]
         with self.assertRaises(ValueError): core.validate_record(scene)
+
+    def _microbit_cases(self):
+        path = Path(__file__).resolve().parent / 'fixtures' / 'microbit-scene-cases.json'
+        return json.loads(path.read_text(encoding='utf-8'))
+
+    def test_microbit_scene_cases_match_typescript(self):
+        cases = self._microbit_cases()
+        self.assertTrue(cases['valid'] and cases['invalid'])
+        for case in cases['valid']:
+            with self.subTest(valid=case['name']):
+                core.validate_record(copy.deepcopy(case['scene']))
+        for case in cases['invalid']:
+            with self.subTest(invalid=case['name']):
+                with self.assertRaises(ValueError):
+                    core.validate_record(copy.deepcopy(case['scene']))
+
+    def test_microbit_grid_and_track_values_reject_bool_and_nonfinite(self):
+        base = copy.deepcopy(self._microbit_cases()['valid'][0]['scene'])
+        core.validate_record(copy.deepcopy(base))
+        for bad in (True, False, float('nan'), float('inf'), float('-inf')):
+            for label, mutate in (
+                ('grid pressed', lambda s, v: s['patternBindings'][0]['pressed'][2].__setitem__(2, v)),
+                ('grid released', lambda s, v: s['patternBindings'][0]['released'][0].__setitem__(0, v)),
+                ('track value', lambda s, v: s['tracks'][0]['keyframes'][1].__setitem__('value', v)),
+                ('track time', lambda s, v: s['tracks'][0]['keyframes'][1].__setitem__('time', v)),
+            ):
+                with self.subTest(bad=repr(bad), where=label):
+                    scene = copy.deepcopy(base)
+                    mutate(scene, bad)
+                    with self.assertRaises(ValueError):
+                        core.validate_record(scene)
+
+    def test_schema_lists_microbit_channels(self):
+        schema = json.loads((Path(__file__).resolve().parents[1] / 'contracts' / 'records.schema.json').read_text(encoding='utf-8'))
+        scene = next(branch['then'] for branch in schema['allOf'] if branch.get('if', {}).get('properties', {}).get('kind', {}).get('const') == 'scene')
+        properties = scene['properties']
+        channel = properties['tracks']['items']['properties']['channel']
+        names = set(channel.get('enum', []))
+        for name in ('pressed', 'angle', 'a', 'b', 'logo'):
+            self.assertIn(name, names)
+        led = {f'led.{x}.{y}' for x in range(5) for y in range(5)}
+        self.assertTrue(led <= names)
+        self.assertEqual(len(names), 5 + 25)
+        self.assertEqual(properties['instances']['items']['properties']['behavior'], {'enum': ['microbit']})
+        pattern = properties['patternBindings']['items']
+        self.assertFalse(pattern['additionalProperties'])
+        self.assertEqual(set(pattern['required']), {'source', 'target', 'released', 'pressed'})
 
     def test_brief_requires_measurable_constraints_and_rights(self):
         brief={'schemaVersion':1,'kind':'brief','id':'mechanism','goal':'Press controls a mechanism','targetRuntime':'web','coordinates':{'units':'m','up':'Y','front':'+Z'},'dimensionsMeters':[2,1,1],'budgets':{'triangles':10000,'drawCalls':100,'textureSize':2048},'references':[],'style':'original teaching model','provenance':{'author':'test','source':'original','license':'MIT'},'acceptanceGates':['technical','visual','content','provenance']}

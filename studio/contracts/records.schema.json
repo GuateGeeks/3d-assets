@@ -91,6 +91,11 @@
                 },
                 "scale": {
                   "$ref": "#/$defs/positiveVector"
+                },
+                "behavior": {
+                  "enum": [
+                    "microbit"
+                  ]
                 }
               }
             }
@@ -111,7 +116,35 @@
                 "channel": {
                   "enum": [
                     "pressed",
-                    "angle"
+                    "angle",
+                    "a",
+                    "b",
+                    "logo",
+                    "led.0.0",
+                    "led.1.0",
+                    "led.2.0",
+                    "led.3.0",
+                    "led.4.0",
+                    "led.0.1",
+                    "led.1.1",
+                    "led.2.1",
+                    "led.3.1",
+                    "led.4.1",
+                    "led.0.2",
+                    "led.1.2",
+                    "led.2.2",
+                    "led.3.2",
+                    "led.4.2",
+                    "led.0.3",
+                    "led.1.3",
+                    "led.2.3",
+                    "led.3.3",
+                    "led.4.3",
+                    "led.0.4",
+                    "led.1.4",
+                    "led.2.4",
+                    "led.3.4",
+                    "led.4.4"
                   ]
                 },
                 "keyframes": {
@@ -173,6 +206,62 @@
                   "type": "number",
                   "minimum": -180,
                   "maximum": 180
+                }
+              }
+            }
+          },
+          "patternBindings": {
+            "type": "array",
+            "maxItems": 100,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "source",
+                "target",
+                "released",
+                "pressed"
+              ],
+              "properties": {
+                "source": {
+                  "enum": [
+                    "a",
+                    "b",
+                    "logo"
+                  ]
+                },
+                "target": {
+                  "type": "string"
+                },
+                "released": {
+                  "type": "array",
+                  "minItems": 5,
+                  "maxItems": 5,
+                  "items": {
+                    "type": "array",
+                    "minItems": 5,
+                    "maxItems": 5,
+                    "items": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 255
+                    }
+                  }
+                },
+                "pressed": {
+                  "type": "array",
+                  "minItems": 5,
+                  "maxItems": 5,
+                  "items": {
+                    "type": "array",
+                    "minItems": 5,
+                    "maxItems": 5,
+                    "items": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 255
+                    }
+                  }
                 }
               }
             }
