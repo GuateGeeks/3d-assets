@@ -6,6 +6,7 @@
  "duration": 6,
  "mode": "interactive",
  "instances": [{"id":"Board","asset":"microbit.glb","behavior":"microbit","position":[0,0.0066,0],"rotation":[0,0,0],"scale":[1,1,1]}],
+ "camera": {"elevation":62,"azimuth":0},
  "patternBindings": [
   {"source":"a","target":"Board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
   {"source":"b","target":"Board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,0,0,0,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,80,80,80,0]]},

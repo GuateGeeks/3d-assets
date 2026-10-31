@@ -11,6 +11,7 @@ const PATTERNS={
  check:['.....','....#','...#.','#.#..','.#...']
 };
 const grid=name=>PATTERNS[name].map(row=>[...row].map(c=>LEVEL[c]));
+const CAMERA_ELEVATION=62,CAMERA_AZIMUTH=0;
 const SEQUENCE=['heart','smile','check'];
 const DURATION=6,SLOT=DURATION/SEQUENCE.length;
 // Each LED fades in, holds and cross-fades into the next pattern, then fades out at the end.
@@ -29,6 +30,8 @@ export function buildScene(){
   schemaVersion:1,kind:'scene',id:'microbit-v2-demo',title:'micro:bit V2 interactive',duration:DURATION,mode:'interactive',
   // The board is 51.6 mm wide and is never rescaled; the underside parts reach 6.3 mm below the origin, so it rests just above the stage ground.
   instances:[{id:'Board',asset:'microbit.glb',behavior:'microbit',position:[0,.0066,0],rotation:[0,0,0],scale:[1,1,1]}],
+  // Authored opening view (degrees): looking down at the LED face from the edge-connector side, so the LED rows run horizontally and the USB end is at the top of the screen.
+  camera:{elevation:CAMERA_ELEVATION,azimuth:CAMERA_AZIMUTH},
   patternBindings:[
    {source:'a',target:'Board',released:grid('heart').map(r=>r.map(()=>0)),pressed:grid('heart')},
    {source:'b',target:'Board',released:grid('smile').map(r=>r.map(()=>0)),pressed:grid('smile')},

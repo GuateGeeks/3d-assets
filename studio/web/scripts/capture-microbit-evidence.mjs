@@ -1,11 +1,11 @@
 // Functional captures of the micro:bit project through the production preview served by `studio.py preview --project`.
-// Run from studio/web: PREVIEW_URL=http://127.0.0.1:4395/ node scripts/capture-microbit-evidence.mjs <output-directory>
+// The opening view is the scene's authored camera. Set CAPTURE_TOPDOWN=1 for the extra top-down views. Run from studio/web: PREVIEW_URL=http://127.0.0.1:4395/ node scripts/capture-microbit-evidence.mjs <output-directory>
 // Software rendering (SwiftShader): functional evidence only. It proves what the app reports and draws, not GPU performance and not a visual approval.
 import {chromium} from '@playwright/test';
 import {createHash} from 'node:crypto';
 import {mkdir,readFile,rm,writeFile} from 'node:fs/promises';
 import {join,resolve} from 'node:path';
-const out=resolve(process.argv[2]||'evidence/microbit-20261031-r2');
+const out=resolve(process.argv[2]||'evidence/microbit-20261031-r3');
 const base=process.env.PREVIEW_URL||'http://127.0.0.1:4395/';
 const url=new URL('?scene=project/scene.json',base).href;
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
@@ -56,7 +56,8 @@ try{
   check(name+': pointer hold lights the '+source+' pattern',same(entry.litLeds,EXPECT[source])&&entry.channels[source]===1,{readout:await readout(),lit:entry.litLeds});
   await page.waitForFunction(()=>/ 0 LEDs lit/.test(document.querySelector('#value').textContent));
  }
- // Extra evidence view (not a product default): orbit by mouse drags in empty canvas until the camera looks almost straight down at the LED face,
+if(process.env.CAPTURE_TOPDOWN){
+ // Optional (CAPTURE_TOPDOWN=1) extra evidence view (not a product default): orbit by mouse drags in empty canvas until the camera looks almost straight down at the LED face,
  // then hold each of A, B and logo from the keyboard. OrbitControls stops short of the zenith, so the final elevation is recorded.
  const canvasBox=await page.locator('canvas').boundingBox();
  const elevation=r=>{const [px,py,pz]=r.camera.position,[tx,ty,tz]=r.camera.target;return Math.asin((py-ty)/Math.hypot(px-tx,py-ty,pz-tz))*180/Math.PI};
@@ -76,6 +77,7 @@ try{
  }
  // Close-up from the default orientation again: reload.
  await page.goto(url);await page.getByRole('button',{name:'Hold A'}).waitFor();await page.waitForFunction(()=>document.querySelectorAll('.part-label').length===46);
+ }
  // Close-up: wheel-zoom towards the board centre and hold A from the keyboard (the pressed cap and the lit LEDs stay in view). Anchors stay on.
  await page.waitForTimeout(500);const box=await page.locator('canvas').boundingBox();await page.mouse.move(box.x+box.width/2,box.y+box.height/2);
  for(let i=0;i<9;i++){await page.mouse.wheel(0,-300);await page.waitForTimeout(60)}

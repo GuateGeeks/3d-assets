@@ -74,8 +74,10 @@ test('the Board anchor label does not sit in the way of a press at the default f
 });
 // The instance label sits above the board's top-centre anchor; at the default framing it overlaps the left end of the logo ring. Scanning the
 // label's own rectangle must find presses that reach a part, so the label (pointer-events:auto for plain assets) does not swallow them.
+// The authored camera moves the label clear of the parts, so this scans the old oblique default view (the same scene without its camera) where the overlap was proven.
 for(const viewport of [{width:1280,height:800},{width:390,height:844}])
 test(`the Board label does not swallow presses on the part beneath it (${viewport.width}px)`,async({page})=>{
+ await page.route('**/microbit/microbit.scene.json',async route=>{const scene=await (await route.fetch()).json();delete scene.camera;await route.fulfill({json:scene})});
  await page.setViewportSize(viewport);await open(page);
  await expect.poll(()=>page.locator('.part-label[data-part="logo_touch"]').evaluate(el=>(el as HTMLElement).style.transform)).not.toBe('');
  const label=await page.locator('.anchor-label[data-id="Board"]').evaluate(el=>{const r=el.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height}});
@@ -144,4 +146,39 @@ test('mount and unmount three times with the real model, once while holding a pa
  }
  await expect(readout(page)).toContainText('0 LEDs lit');
  expect(out).toEqual([]);
+});
+
+// The scene authors its own view: the camera is placed from camera.elevation and camera.azimuth, not from the default oblique direction.
+const elevationOf=(c:{position:number[];target:number[]})=>{const d=c.position.map((v,i)=>v-c.target[i]);return Math.asin(d[1]/Math.hypot(d[0],d[1],d[2]))*180/Math.PI};
+const azimuthOf=(c:{position:number[];target:number[]})=>{const d=c.position.map((v,i)=>v-c.target[i]);return Math.atan2(d[0],d[2])*180/Math.PI};
+const authored=async(page:Page)=>(await (await page.request.get('/'+SCENE)).json()).camera as {elevation:number;azimuth:number};
+test('the authored scene camera sets the opening view: authored elevation, camera on the +Z side of the board',async({page})=>{
+ await open(page);const view=await authored(page);expect(view).toBeDefined();
+ const camera=(await receipt(page)).camera;
+ expect(elevationOf(camera)).toBeCloseTo(view.elevation,3);expect(azimuthOf(camera)).toBeCloseTo(view.azimuth,3);
+ // Azimuth 0: the camera is on the +Z side (the edge connector side) of the board and level with it left to right.
+ expect(camera.position[2]-camera.target[2]).toBeGreaterThan(0);
+ expect(Math.abs(camera.target[0])).toBeLessThan(.002);
+});
+test('the micro:bit board fills most of the canvas width in the authored view (1152 x 820 canvas)',async({page})=>{
+ await page.setViewportSize({width:1440,height:1000});await open(page);
+ const left=await partPoint(page,'pin_0'),right=await partPoint(page,'pin_gnd'),canvas=(await page.locator('canvas').boundingBox())!;
+ // Pin 0 and GND are the outermost pin rings, about three quarters of the 51.6 mm board apart; the board itself covers 70-80 % of the canvas width.
+ expect(canvas.width).toBe(1152);expect((right.x-left.x)/canvas.width).toBeGreaterThan(.5);
+ expect(left.x).toBeGreaterThan(canvas.x);expect(right.x).toBeLessThan(canvas.x+canvas.width);
+});
+test('Frame scene returns to the authored view after an orbit drag',async({page})=>{
+ await open(page);const authoredCamera=(await receipt(page)).camera,box=(await page.locator('canvas').boundingBox())!,x=box.x+box.width*.9,y=box.y+box.height*.15;
+ await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x-160,y+90,{steps:8});await page.mouse.up();
+ const dragged=(await receipt(page)).camera;expect(dragged.position.some((v:number,i:number)=>Math.abs(v-authoredCamera.position[i])>1e-5)).toBe(true);
+ await page.locator('#frame').click();
+ const back=(await receipt(page)).camera;back.position.forEach((v:number,i:number)=>expect(v).toBeCloseTo(authoredCamera.position[i],6));back.target.forEach((v:number,i:number)=>expect(v).toBeCloseTo(authoredCamera.target[i],6));
+});
+test('a scene without a camera keeps the default workbench view exactly',async({page})=>{
+ await page.goto('/');await expect(page.getByText('Ready · 3 objects')).toBeVisible();
+ const camera=(await receipt(page)).camera;
+ // Recorded from the unchanged default framing (992 x 540 canvas at 1280 x 720).
+ const expected={position:[5.290185685049913,4.476487489070782,6.413318582799788],target:[0.903747027890033,1.029999972730875,0.14697764399995855]};
+ camera.position.forEach((v:number,i:number)=>expect(v).toBeCloseTo(expected.position[i],6));camera.target.forEach((v:number,i:number)=>expect(v).toBeCloseTo(expected.target[i],6));
+ expect(camera.near).toBe(.05);
 });
