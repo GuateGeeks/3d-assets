@@ -23,7 +23,8 @@ from reference photos, not measured.
 | --- | --- |
 | `brief.json` | Lab brief: parts = the node contract, `displayScale` 0.052 m +/- 2 %, budgets, blockout and content checks |
 | `generator_blockout.py` | Blockout generator (`build()`), simple volumes at true positions, plates with clean Delaunay caps; the later detail generator refines them |
-| `check_contract.py` | Stdlib GLB checker: each `part_id` once, each LED a single-primitive mesh on a material no other node uses, size within `displayScale` |
+| `generator_detail.py` | Detail generator (`build()`): one object per contract part (pieces joined, flat hierarchy, identity transforms), single-material LEDs and touch logo, PCB caps from `components.refined_plate` |
+| `check_contract.py` | Stdlib GLB checker: each `part_id` once and on a mesh node, each LED a single-primitive mesh on a material no other node uses, press caps and their ancestors unrotated and unscaled, size within `displayScale` |
 | `../../tests/test_microbit_contract.py` | Tests for the checker and the brief (synthetic GLBs, no Blender) |
 
 Blender conventions: metres, Z up, front -Y. The board lies flat, LED face +Z
@@ -41,11 +42,12 @@ export GG3D_WINDOWS_BLENDER=/path/to/blender.exe
 python3 creation-lab/create.py doctor --blender $PWD/creation-lab/benchmarks/claude-animal-cell/wsl-blender.sh
 python3 creation-lab/iterate.py init --brief creation-lab/experiments/microbit-v2/brief.json --mode claude --actor-id COORDINATOR_ID --model claude-sonnet-5-5 --effort medium
 python3 creation-lab/iterate.py run --session SESSION --generator creation-lab/experiments/microbit-v2/generator_blockout.py --stage blockout --blender $PWD/creation-lab/benchmarks/claude-animal-cell/wsl-blender.sh --actor-id AUTHOR_ID --model claude-sonnet-5-5 --effort medium
+python3 creation-lab/iterate.py run --session SESSION --generator creation-lab/experiments/microbit-v2/generator_detail.py --stage detail --blender $PWD/creation-lab/benchmarks/claude-animal-cell/wsl-blender.sh --actor-id AUTHOR_ID --model claude-opus-5-5 --effort medium --extra-view underside --extra-view top-down
 python3 creation-lab/iterate.py review-template --session SESSION --run RUN_ID --output NEW_TEMPLATE.json
 python3 creation-lab/experiments/microbit-v2/check_contract.py SESSION/runs/RUN_ID/asset.glb
 ```
 
-An independent reviewer context opens the six images and fills the template;
+An independent reviewer context opens the six images (eight with the extra views) and fills the template;
 `iterate.py review` records it. Tests: `python3 -m unittest discover -s creation-lab/tests -p test_microbit_contract.py -v`.
 
 ## Runs
@@ -155,4 +157,68 @@ Historical (run 001, superseded by the official extra views in run 002), folder 
 | `back-three-quarter-rear.png` | below, from the USB / battery side | `591a33396f5027d95956132c356e3af00b556c458231aa5b2f0ee3a133b5ef51` |
 | `supplementary.json` | manifest (renderer settings, image hashes) | `fb1f1f67dd849dbe59074ae269df30553cb67ebb40ecf0c84bea91a0b3ab3360` |
 
-Later tasks append the review, detail and Studio capture runs here.
+### Detail run (first detail, no correction spent)
+
+Same session, after READY_FOR_DETAIL. Generator `generator_detail.py` (sha256
+`fc6d780c0c9a6e81fb3f385eae691d5873512ae9f9946f106c4526be46df26e8`); the
+components snapshot in the run's `code/` includes the new `refined_plate`.
+
+| Run ID | Stage | Author (requested) | Technical | Visual | Content | `asset.glb` sha256 |
+| --- | --- | --- | --- | --- | --- | --- |
+| `003-9621bf5caaca` | detail | `af51c59431c74119a`, `claude-opus-5-5` medium (not confirmed by the runtime) | PASS (46 meshes, 22560 triangles, 43 materials, 51.6 x 43.25 x 11.65 mm, GLB 1117164 bytes; reopen PASS, reimport PASS; `check_contract.py` PASS) | NOT_RUN (pending independent review) | NOT_RUN (pending independent review) | `b12143d94deda3faaae36c154bc2177a5c9f1c6deccb102947d5e27a7fe13687` |
+
+`source.blend` sha256 `ae02eacd2d1f90fa4371dddb3bc084af21c268cb9689e8a409bbfa75a24bf328`.
+Review template (unfilled): `creation-lab/.local/iterations/20261031T054439Z-105b17e2/review-detail-001.json`
+(sha256 `be2cc8411c2d47f6af97c037c3d6ec263b613a9943425ec8367be5fd8e3b97b0`).
+
+Image hashes (sha256), under `creation-lab/.local/iterations/20261031T054439Z-105b17e2/runs/003-9621bf5caaca/renders/`:
+
+| Image | sha256 |
+| --- | --- |
+| `front.png` | `420226df6644aa87fe266a69eba562bf1d6bc803c55806414da29c71514a7da9` |
+| `side.png` | `6c47f37751a573b9cda26c6e9447d53e56edc58b11a6df7c9f134b0da9edd30c` |
+| `back.png` | `6e496980554028e785d9cde2f3a261939a8260f3a897ea8a2eb88eb1caa1dd76` |
+| `three-quarter.png` | `7605aa9fdd07657c9a612980384bf6ae34e1644ed9135b5801d0ca466b04c96b` |
+| `wireframe.png` | `951edb92684efa07612fb6ea896a3cc8a260d3ef17f238c8636d6289eff0410c` |
+| `reimport-three-quarter.png` | `875ff49909a8d2244a25a6fabc13a5fe441291e04bd8301984f6d7495c9539a7` |
+| `underside.png` (extra view) | `d531bafd5384c43e90a9896a6061d72296677b5dfe30710df0c3865a8742697a` |
+| `top-down.png` (extra view) | `851534a482076b12c76e044e8310376e90712727585a364f32a4906dfb7e0d33` |
+
+Run 002 review defects addressed: `mic_led` is a 0.9 mm round amber dome (not LED
+red) at the indicator position of the photos; gold tombstone pads and fingers are
+on both faces (back pieces joined into each `pin_*` and `edge_connector`, with a
+plated barrel through each hole); reset is a 6.0 x 5.8 mm switch; the antenna is
+a 0.55 mm meander trace about 11 x 12.5 mm on a 45-degree axis, as in the photo.
+
+Decisions (detail):
+
+- Every contract part is one object; extra pieces are joined, so non-LED parts
+  can be multi-material (multi-primitive in glTF). LEDs and `logo_touch` stay
+  single-material because the Studio factory requires a single material on them.
+  Unlabelled components (USB interface chip, crystal, three SOT-23 regulators,
+  two status LEDs, 60 passives, USB through-hole pads, front microphone port) are
+  joined into `pcb`, so labels of the named parts stay on their own bounds.
+- Palette: the blockout's 16 non-LED materials, retuned toward the photos (black
+  plungers, steel switch covers, dark chips, grey speaker), plus 2 new ones
+  (`mat_black_plastic`, `mat_passive`) and the 25 private LED materials (warm
+  white packages, distinct values): 43 of 45.
+- The touch logo is 0.3 mm proud (real copper is flush) so the 0.2 mm Studio
+  logo press (`pressTravelMeters` x 0.4) does not sink it below the board.
+- Geometry with coplanar same-facing overlaps renders dark Cycles specks (seen on
+  the antenna stub in a scratch smoke test); the stub now starts at the
+  meander's edge.
+
+Estimates (from the reference photos at 16.2 px/mm and 8.0 px/mm, not measured
+on a board; tech.microbit.org gives only the outline and the three depths): LED
+pitch 4.0 x 4.0 mm (blockout 3.75 x 3.8) centred at y = -1.0 mm; pin holes 4.2 mm
+with 5.2 mm pads at x = +-21.8, +-11.45, 0 mm, y = -14.1 mm; corner radii 3.2 mm
+(top) and 1 mm (bottom); mounting holes 1.2 mm at x = +-24.5 mm; buttons at x =
++-20.3 mm; speaker 8.5 mm square (consistent with an 8.5 x 8.5 x 3 mm magnetic
+transducer, not confirmed); processor 6.5 mm, interface chip 5.0 mm, accelerometer
+2.0 mm; USB 7.7 x 5.6 mm with 1.25 mm overhang (bounding box 43.25 mm in Y);
+JST 8.3 x 6.0 x 5.5 mm; reset 6.0 x 5.8 mm. The microphone's port hole is drawn
+on the lid and as a ring on the LED face; which side the real port faces is not
+confirmed. Edge connector: 14 narrow fingers per face at 1.27 mm pitch (the real
+board has more, narrower fingers).
+
+Later tasks append the review and Studio capture runs here.
