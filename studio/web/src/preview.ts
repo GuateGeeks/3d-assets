@@ -28,7 +28,8 @@ export function mountPreview(host:HTMLElement):()=>void{
  const holds=new Map<string,Set<string|number>>(),pointerHolds=new Map<number,{id:string;channel:Channel}>();let partTags:{tag:HTMLElement;asset:Asset;anchor:THREE.Vector3}[]=[];
  function hold(id:string,channel:Channel,source:string|number,on:boolean){const k=id+':'+channel,set=holds.get(k)??new Set<string|number>();if(on)set.add(source);else set.delete(source);if(set.size)holds.set(k,set);else holds.delete(k);runtime?.input(id,channel,set.size?1:0)}
  function releasePointer(pointerId:number){const h=pointerHolds.get(pointerId);if(!h)return;pointerHolds.delete(pointerId);hold(h.id,h.channel,pointerId,false);if(!pointerHolds.size)controls.enabled=true;sync()}
- function dropHolds(){for(const pointerId of pointerHolds.keys())try{renderer.domElement.releasePointerCapture(pointerId)}catch{}holds.clear();pointerHolds.clear();controls.enabled=true;runtime?.release()}
+ // The canvas capture is deliberately kept: OrbitControls owns it and ends it on the pointer's own pointerup, even one outside the canvas.
+ function dropHolds(){holds.clear();pointerHolds.clear();controls.enabled=true;runtime?.release()}
  // bindHold releases on any window pointerup. A board control must only follow the pointer that pressed it, so a hold made with the keyboard
  // (or by another pointer) survives unrelated releases; every other release path of bindHold still applies.
  function ownPointer(button:HTMLElement):EventTarget{

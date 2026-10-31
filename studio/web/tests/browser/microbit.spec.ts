@@ -131,6 +131,26 @@ for(const kind of ['pointercancel','blur','visibilitychange'] as const){
   expect(errors).toEqual([]);
  });
 }
+// Regression: releasing the canvas capture on blur/hidden let a later mouse-up outside the canvas skip OrbitControls' own pointerup,
+// leaving it rotating on plain hover.
+for(const kind of ['blur','visibilitychange'] as const){
+ test(kind+' while holding, then mouse up outside the canvas, does not leave orbit dragging on hover',async({page})=>{
+  const errors=errorsOf(page);await openBoard(page);
+  await mouseHold(page,'btn_a');await expect(readout(page)).toContainText('5 LEDs lit');
+  await page.evaluate(kind=>{
+   if(kind==='blur')window.dispatchEvent(new Event('blur'));
+   else{Object.defineProperty(document,'hidden',{configurable:true,get:()=>true});document.dispatchEvent(new Event('visibilitychange'));Object.defineProperty(document,'hidden',{configurable:true,get:()=>false})}
+  },kind);
+  await expect(readout(page)).toContainText('0 LEDs lit');
+  await page.mouse.move(2,2);await page.mouse.up();
+  const before=(await receipt(page)).camera.position,box=(await page.locator('canvas').boundingBox())!;
+  await page.mouse.move(box.x+box.width*.5,box.y+box.height*.3,{steps:8});await page.mouse.move(box.x+box.width*.8,box.y+box.height*.6,{steps:8});
+  await page.evaluate(()=>new Promise<void>(r=>requestAnimationFrame(()=>requestAnimationFrame(()=>requestAnimationFrame(()=>r())))));
+  expect((await receipt(page)).camera.position).toEqual(before);
+  expect(await emptyDrag(page)).toBe(true);
+  expect(errors).toEqual([]);
+ });
+}
 test('pointer leaving the canvas while holding still releases on mouse up',async({page})=>{
  await openBoard(page);await mouseHold(page,'btn_a');await expect(readout(page)).toContainText('5 LEDs lit');
  await page.mouse.move(2,2,{steps:8});await expect(readout(page)).toContainText('5 LEDs lit');
