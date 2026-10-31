@@ -10,7 +10,7 @@ import unittest
 LAB = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(LAB))
 from components import CutawayProfile, FlattenedCisterna, MeshData, sphere, validate_mesh
-from components import circle_outline, cylinder, extruded_outline, rounded_box, rounded_rect_outline
+from components import circle_outline, cylinder, extruded_outline, refined_plate, rounded_box, rounded_rect_outline
 
 
 class GeometryComponents(unittest.TestCase):
@@ -265,6 +265,121 @@ class BoardShapeComponents(unittest.TestCase):
             with self.subTest(operation=operation):
                 with self.assertRaises(ValueError):
                     operation()
+
+
+def _cap_triangles(mesh, z):
+    """Top-cap triangles (all three vertices at height z) as 2D point triples."""
+    return [[mesh.vertices[i][:2] for i in face] for face in mesh.faces
+            if all(abs(mesh.vertices[i][2]-z) < 1e-12 for i in face)]
+
+
+def _min_angle(triangles):
+    worst = 180.0
+    for tri in triangles:
+        for k in range(3):
+            a, b, c = tri[k], tri[(k+1) % 3], tri[(k+2) % 3]
+            u, v = (b[0]-a[0], b[1]-a[1]), (c[0]-a[0], c[1]-a[1])
+            cosine = (u[0]*v[0]+u[1]*v[1])/(math.hypot(*u)*math.hypot(*v))
+            worst = min(worst, math.degrees(math.acos(max(-1.0, min(1.0, cosine)))))
+    return worst
+
+
+def _microbit_pcb():
+    """Brief values: 52 x 42 mm, r = 3 mm, five holes r = 3.4 mm at y = -16.5 mm."""
+    outline = rounded_rect_outline(0.052, 0.042, 0.003)
+    holes = [circle_outline(0.0034, 24, (x, -0.0165)) for x in (-0.0225, -0.01125, 0.0, 0.01125, 0.0225)]
+    return outline, holes
+
+
+def _blockout_pcb():
+    """The approved blockout's PCB (generator_blockout.board_outline and holes), for the oracle numbers."""
+    r, hx, hy = 0.0035, 0.0258, 0.021
+    outline = [(-hx, -hy), (hx, -hy)]
+    for cx, start in ((hx-r, 0.0), (-hx+r, 90.0)):
+        for k in range(7):
+            angle = math.radians(start+90.0*k/6)
+            outline.append((cx+r*math.cos(angle), hy-r+r*math.sin(angle)))
+    holes = [circle_outline(0.0024, 24, (x, -0.0143)) for x in (-0.022, -0.011, 0.0, 0.011, 0.022)]
+    return outline, holes
+
+
+class RefinedPlate(unittest.TestCase):
+    def test_microbit_pcb_closed_same_volume_and_well_shaped(self):
+        outline, holes = _microbit_pcb()
+        mesh = refined_plate(outline, holes, thickness=0.0016, z0=-0.0008, spacing=0.0026)
+        metrics = validate_mesh(mesh)
+        self.assertEqual(metrics['boundary_edges'], 0)
+        reference = validate_mesh(extruded_outline(outline, holes, thickness=0.0016, z0=-0.0008))
+        self.assertAlmostEqual(metrics['signed_volume']/reference['signed_volume'], 1, delta=1e-9)
+        self.assertLess(mesh.triangles, 3000)
+        self.assertGreaterEqual(_min_angle(_cap_triangles(mesh, 0.0008)), 5.0)
+        self.assertGreaterEqual(_min_angle(_cap_triangles(mesh, -0.0008)), 5.0)
+        # The ear-clipped reference really is the sliver case this function exists for.
+        self.assertLess(_min_angle(_cap_triangles(extruded_outline(outline, holes, thickness=0.0016, z0=-0.0008), 0.0008)), 1.0)
+        self.assertAlmostEqual(min(v[2] for v in mesh.vertices), -0.0008)
+        self.assertAlmostEqual(max(v[2] for v in mesh.vertices), 0.0008)
+
+    def test_holes_stay_open(self):
+        outline, holes = _microbit_pcb()
+        mesh = refined_plate(outline, holes, thickness=0.0016, spacing=0.0026)
+        caps = _cap_triangles(mesh, 0.0016)
+
+        def inside(p, tri):
+            (ax, ay), (bx, by), (cx, cy) = tri
+            d = [(bx-ax)*(p[1]-ay)-(by-ay)*(p[0]-ax), (cx-bx)*(p[1]-by)-(cy-by)*(p[0]-bx), (ax-cx)*(p[1]-cy)-(ay-cy)*(p[0]-cx)]
+            return min(d) >= 0 or max(d) <= 0
+        for x in (-0.0225, -0.01125, 0.0, 0.01125, 0.0225):
+            for dx, dy in ((0, 0), (0.002, 0), (0, -0.002), (-0.0015, 0.0015)):
+                point = (x+dx, -0.0165+dy)
+                self.assertFalse(any(inside(point, tri) for tri in caps), point)
+        # Every hole point is still a wall vertex: the hole outlines are unchanged.
+        tops = {v[:2] for v in mesh.vertices if abs(v[2]-0.0016) < 1e-12}
+        for hole in holes:
+            for point in hole:
+                self.assertIn(point, tops)
+        # The top cap area equals the outline minus the holes.
+        area = sum(abs(_signed_area(t)) for t in caps)
+        self.assertAlmostEqual(area/(_signed_area(outline)-sum(_signed_area(h) for h in holes)), 1, delta=1e-9)
+
+    def test_blockout_pcb_matches_reviewer_oracle(self):
+        outline, holes = _blockout_pcb()
+        mesh = refined_plate(outline, holes, thickness=0.0016, z0=-0.0008, spacing=0.0026)
+        metrics = validate_mesh(mesh)
+        self.assertAlmostEqual(metrics['signed_volume']/3.315641e-06, 1, delta=1e-6)
+        area = sum(abs(_signed_area(t)) for t in _cap_triangles(mesh, 0.0008))
+        self.assertAlmostEqual(area/2.072275e-03, 1, delta=1e-6)
+        self.assertGreaterEqual(_min_angle(_cap_triangles(mesh, 0.0008)), 5.0)
+
+    def test_without_spacing_keeps_points_and_volume(self):
+        outline, holes = _pcb_parts(12)
+        mesh = refined_plate(outline, holes, thickness=0.002)
+        reference = extruded_outline(outline, holes, thickness=0.002)
+        self.assertEqual(sorted(mesh.vertices), sorted(reference.vertices))
+        self.assertEqual(mesh.triangles, reference.triangles)
+        metrics = validate_mesh(mesh)
+        self.assertAlmostEqual(metrics['signed_volume']/validate_mesh(reference)['signed_volume'], 1, delta=1e-9)
+        self.assertGreaterEqual(_min_angle(_cap_triangles(mesh, 0.002)), _min_angle(_cap_triangles(reference, 0.002)))
+
+    def test_small_plates_and_concave_outline(self):
+        l_shape = [(0, 0), (0.04, 0), (0.04, 0.01), (0.01, 0.01), (0.01, 0.03), (0, 0.03)]
+        for spacing in (None, 0.004):
+            mesh = refined_plate(l_shape, thickness=0.002, spacing=spacing)
+            self.assertAlmostEqual(validate_mesh(mesh)['signed_volume'], _signed_area(l_shape)*0.002, places=15)
+        ring = refined_plate(circle_outline(0.0026, 32), [circle_outline(0.0021, 32)], thickness=0.00006, spacing=0.0005)
+        validate_mesh(ring)
+
+    def test_bad_input_raises(self):
+        outline = rounded_rect_outline(0.052, 0.042, 0.003)
+        bad = [
+            dict(holes=[circle_outline(0.0035, 24, (0.0225, -0.0165))]),          # crosses the outline
+            dict(holes=[circle_outline(0.004, 24, (0, 0)), circle_outline(0.004, 24, (0.006, 0))]),
+            dict(holes=[circle_outline(0.003, 24, (0.1, 0))]),
+            dict(spacing=0), dict(spacing=-0.001), dict(spacing=math.nan), dict(thickness=0),
+        ]
+        for kwargs in bad:
+            with self.subTest(kwargs=kwargs):
+                with self.assertRaises(ValueError):
+                    refined_plate(outline, **kwargs)
 
 
 @unittest.skipUnless(os.environ.get('CREATION_TEST_BLENDER'), 'Set CREATION_TEST_BLENDER for real bpy adapter checks')

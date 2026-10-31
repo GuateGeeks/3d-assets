@@ -290,6 +290,142 @@ def extruded_outline(outline, holes=(), thickness=0.001, z0=0.0):
     return MeshData(tuple(vertices), tuple(faces))
 
 
+def _point_segment(p, a, b):
+    dx, dy = b[0]-a[0], b[1]-a[1]
+    t = max(0.0, min(1.0, ((p[0]-a[0])*dx+(p[1]-a[1])*dy)/(dx*dx+dy*dy)))
+    return math.hypot(p[0]-a[0]-t*dx, p[1]-a[1]-t*dy)
+
+
+def _subdivided(loop, spacing, holes=()):
+    """Insert collinear points so no edge of the closed loop is longer than spacing.
+
+    Each edge is first cut into equal pieces of at most ``spacing``; a piece is then
+    halved while it is longer than three times its distance to the nearest hole edge,
+    so a hole close to the outline meets short outline edges (no thin slivers there).
+    """
+    hole_edges = [(h[i], h[(i+1) % len(h)]) for h in holes for i in range(len(h))]
+
+    def gap(a, b):
+        return min((min(_point_segment(a, c, d), _point_segment(b, c, d), _point_segment(c, a, b), _point_segment(d, a, b))
+                    for c, d in hole_edges), default=math.inf)
+
+    def split(a, b, out, depth=0):
+        if depth < 12 and math.dist(a, b) > 3*gap(a, b):
+            m = ((a[0]+b[0])/2, (a[1]+b[1])/2)
+            split(a, m, out, depth+1)
+            split(m, b, out, depth+1)
+        else:
+            out.append(a)
+
+    result = []
+    for i, (x0, y0) in enumerate(loop):
+        x1, y1 = loop[(i+1) % len(loop)]
+        pieces = max(1, math.ceil(math.hypot(x1-x0, y1-y0)/spacing-1e-9))
+        points = [(x0+(x1-x0)*k/pieces, y0+(y1-y0)*k/pieces) for k in range(pieces)]+[(x1, y1)]
+        for a, b in zip(points, points[1:]):
+            split(a, b, result)
+    return result
+
+
+def refined_plate(outline, holes=(), thickness=0.001, z0=0.0, spacing=None):
+    """``extruded_outline`` with well-shaped caps (same inputs, walls and volume).
+
+    The ear-clipped caps of ``extruded_outline`` can hold long sliver triangles
+    (0.007 degrees on a 52 x 42 mm board). Here the caps are re-triangulated by
+    Lawson edge flips (constrained Delaunay: boundary edges never flip). With
+    ``spacing`` (metres) the outline (not the holes) is also subdivided to that
+    edge length, and further near a hole (an outline edge is at most three times
+    its distance to the nearest hole edge), and interior Steiner points are added
+    on a hex grid, keeping 0.6 * spacing away from every loop, so the caps become
+    near-equilateral instead of long fans. Hole outlines are kept exactly.
+    Validation and errors are those of ``extruded_outline``; spacing must be
+    finite and positive. Steiner insertion is O(points x triangles): meant for
+    hundreds of points.
+    """
+    if spacing is not None:
+        spacing = _positive(spacing, "spacing")
+    outline, holes = list(outline), [list(h) for h in holes]
+    extruded_outline(outline, holes, thickness=thickness, z0=z0)   # validate the inputs as given
+    if spacing:
+        outline = _subdivided([_point2(p, "outline point") for p in outline], spacing,
+                              [[_point2(p, "hole point") for p in h] for h in holes])
+    mesh = extruded_outline(outline, holes, thickness=thickness, z0=z0)
+    n = len(mesh.vertices)//2
+    bottom_z, top_z = mesh.vertices[0][2], mesh.vertices[n][2]
+    tris = [tuple(i-n for i in f) for f in mesh.faces if min(f) >= n]
+    walls = [f for f in mesh.faces if min(f) < n <= max(f)]
+    pts = [v[:2] for v in mesh.vertices[:n]]
+    loops = [list(outline)]+holes
+    scale = max(max(p[k] for p in pts)-min(p[k] for p in pts) for k in (0, 1))
+
+    def orient(a, b, c):
+        return (pts[b][0]-pts[a][0])*(pts[c][1]-pts[a][1])-(pts[b][1]-pts[a][1])*(pts[c][0]-pts[a][0])
+
+    def incircle(a, b, c, d):
+        rows = []
+        for q in (a, b, c):
+            dx, dy = pts[q][0]-pts[d][0], pts[q][1]-pts[d][1]
+            rows.append((dx, dy, dx*dx+dy*dy))
+        (a1, a2, a3), (b1, b2, b3), (c1, c2, c3) = rows
+        return a1*(b2*c3-b3*c2)-a2*(b1*c3-b3*c1)+a3*(b1*c2-b2*c1)
+
+    if spacing:
+        xs, ys = [p[0] for p in pts], [p[1] for p in pts]
+        rows = int((max(ys)-min(ys))/(spacing*0.866))+1
+        for r in range(rows):
+            y = min(ys)+spacing*0.866*(r+0.5)
+            k = 0
+            while True:
+                # Tiny deterministic jitter keeps grid points off exact cocircular configurations.
+                x = min(xs)+spacing*(k+0.5*(r % 2)+0.25)+1.37e-5*((7*r+3*k) % 11)
+                k += 1
+                if x > max(xs):
+                    break
+                p = (x, y+0.91e-5*((5*r+k) % 13))
+                if any(_point_segment(p, lp[i], lp[(i+1) % len(lp)]) < 0.6*spacing for lp in loops for i in range(len(lp))):
+                    continue
+                for t, (ia, ib, ic) in enumerate(tris):
+                    pts.append(p)
+                    s = len(pts)-1
+                    o = (orient(ia, ib, s), orient(ib, ic, s), orient(ic, ia, s))
+                    if min(o) > scale**2*1e-12:
+                        tris[t:t+1] = [(ia, ib, s), (ib, ic, s), (ic, ia, s)]
+                        break
+                    pts.pop()
+
+    eps_o, eps_c = scale**2*1e-9, scale**4*1e-12
+    for _ in range(200):
+        edges = {}
+        for t, tri in enumerate(tris):
+            for k in range(3):
+                edges[(tri[k], tri[(k+1) % 3])] = t
+        flipped = False
+        for (u, v), t1 in list(edges.items()):
+            t2 = edges.get((v, u))
+            if t2 is None:
+                continue   # boundary edge: constrained
+            tri1, tri2 = tris[t1], tris[t2]
+            if not any((tri1[k], tri1[(k+1) % 3]) == (u, v) for k in range(3)) or not any((tri2[k], tri2[(k+1) % 3]) == (v, u) for k in range(3)):
+                continue   # stale after an earlier flip in this pass
+            p = next(i for i in tri1 if i not in (u, v))
+            q = next(i for i in tri2 if i not in (u, v))
+            ou, ov = orient(p, q, u), orient(p, q, v)
+            if ou*ov >= 0 or abs(ou) < eps_o or abs(ov) < eps_o:
+                continue   # quad not strictly convex: the diagonal cannot flip
+            if incircle(u, v, p, q) > eps_c:
+                tris[t1], tris[t2] = (u, q, p), (q, v, p)
+                flipped = True
+        if not flipped:
+            break
+    # Vertex layout: bottom (n loop points + Steiner points), then top (the same again).
+    total = len(pts)
+    vertices = [(x, y, bottom_z) for x, y in pts]+[(x, y, top_z) for x, y in pts]
+    remap = lambda i: i if i < n else i-n+total
+    faces = [tuple(remap(i) for i in f) for f in walls]
+    faces += [tuple(i+total for i in t) for t in tris]+[(c, b, a) for a, b, c in tris]
+    return MeshData(tuple(vertices), tuple(faces))
+
+
 # --- boxes and cylinders ---------------------------------------------------
 
 def rounded_box(size, radius, center=(0, 0, 0), segments=3):

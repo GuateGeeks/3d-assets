@@ -7,7 +7,11 @@ every contract ``part_id`` must appear exactly once in a node's ``extras``
 (Blender custom property ``part_id`` exported with ``export_extras``), each of
 the 25 LED nodes must be a single-primitive mesh on a material that no other node
 (LED or not) uses, as the Studio factory requires, and the board's bounding box
-must match the brief's ``displayScale`` on its longest dimension.
+must match the brief's ``displayScale`` on its longest dimension. Every part must
+sit on a node that carries a mesh, and the press caps (the contract's ``caps``,
+``btn_a_cap`` and ``btn_b_cap``) and all their ancestors must have identity
+rotation and scale: Studio presses a cap along its local Y, which is only the
+board's normal when nothing above it is rotated or scaled.
 
 Bounding box: each mesh primitive's POSITION accessor min/max (the eight box
 corners) is carried through the node's full world transform (matrix or
@@ -28,6 +32,7 @@ HERE = Path(__file__).resolve().parent
 DEFAULT_CONTRACT = HERE.parents[2] / 'studio' / 'examples' / 'microbit' / 'node-contract.json'
 DEFAULT_BRIEF = HERE / 'brief.json'
 LED_PART = re.compile(r'^led_[0-4]_[0-4]$')
+CAP_PARTS = ('btn_a_cap', 'btn_b_cap')
 MAGIC, JSON_CHUNK = 0x46546C67, 0x4E4F534A
 
 
@@ -60,6 +65,16 @@ def _local_matrix(node):
             2*(x*y-z*w)*sy, (1-2*(x*x+z*z))*sy, 2*(y*z+x*w)*sy, 0,
             2*(x*z+y*w)*sz, 2*(y*z-x*w)*sz, (1-2*(x*x+y*y))*sz, 0,
             tx, ty, tz, 1]
+
+
+def _unrotated_unscaled(node, tolerance=1e-6):
+    """True when the node's own transform is a pure translation (TRS or matrix)."""
+    if 'matrix' in node:
+        m = [float(x) for x in node['matrix']]
+        return all(abs(m[col*4+row]-(1.0 if row == col else 0.0)) <= tolerance for col in range(3) for row in range(3))
+    x, y, z, w = node.get('rotation', (0, 0, 0, 1))
+    return (abs(abs(w)-1) <= tolerance and max(abs(x), abs(y), abs(z)) <= tolerance
+            and all(abs(v-1) <= tolerance for v in node.get('scale', (1, 1, 1))))
 
 
 def _apply(m, p):
@@ -122,6 +137,23 @@ def check_contract(gltf, contract, display_scale=None):
         elif len(found) > 1:
             names = ', '.join(str(nodes[i].get('name', i)) for i in found)
             problems.append(f"duplicate part_id {part['id']} on {len(found)} nodes ({names})")
+
+    # Every part is a mesh; press caps (and everything above them) are unrotated and unscaled.
+    parents = {child: index for index, node in enumerate(nodes) for child in node.get('children', [])}
+    for part in contract['parts']:
+        for index in by_part.get(part['id'], []):
+            if 'mesh' not in nodes[index]:
+                problems.append(f"{part['id']} is on a node without a mesh ({nodes[index].get('name', index)}); every part must be a mesh")
+    for cap in (contract.get('caps') or CAP_PARTS):
+        for index in by_part.get(cap, []):
+            current, seen = index, set()
+            while current is not None and current not in seen:
+                seen.add(current)
+                if not _unrotated_unscaled(nodes[current]):
+                    where = 'its node' if current == index else 'ancestor'
+                    problems.append(f"{cap} must have identity rotation and scale (Studio presses it along local Y); "
+                                    f"{where} {nodes[current].get('name', current)} is rotated or scaled")
+                current = parents.get(current)
 
     # Material ownership over every mesh node, as the Studio factory enforces it: an LED needs
     # exactly one primitive and a material that no other node (LED or not) uses.

@@ -2,6 +2,7 @@
 import copy
 import importlib.util
 import json
+import math
 import struct
 import subprocess
 import sys
@@ -60,6 +61,10 @@ def synthetic(width=0.052, shared_led_material=False, duplicate=None, omit=None,
     return gltf
 
 
+def node_of(gltf, part):
+    return next(n for n in gltf['nodes'] if (n.get('extras') or {}).get('part_id') == part)
+
+
 def write_glb(path, gltf):
     body = json.dumps(gltf).encode()
     body += b' '*(-len(body) % 4)
@@ -115,6 +120,61 @@ class MicrobitContract(unittest.TestCase):
 
     def test_non_led_parts_may_share_a_material(self):
         self.assertEqual(self.problems(synthetic(caps_share_material=True)), [])
+
+    def test_unrotated_unscaled_translated_caps_pass(self):
+        gltf = synthetic()
+        for part in ('btn_a_cap', 'btn_b_cap'):
+            node = node_of(gltf, part)
+            node.update(translation=[0.02, 0.006, 0.0], rotation=[0, 0, 0, 1], scale=[1, 1, 1])
+        self.assertEqual(self.problems(gltf), [])
+
+    def test_rotated_or_scaled_cap_is_reported(self):
+        quarter = [0, 0, math.sin(math.pi/4), math.cos(math.pi/4)]
+        for change in ({'rotation': quarter}, {'scale': [1, 1.5, 1]},
+                       {'matrix': [0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, 0.02, 0, 0, 1]}):
+            for part in ('btn_a_cap', 'btn_b_cap'):
+                with self.subTest(change=change, part=part):
+                    gltf = synthetic()
+                    node_of(gltf, part).update(change)
+                    problems = self.problems(gltf)
+                    self.assertEqual(len(problems), 1, problems)
+                    self.assertIn(part, problems[0])
+                    self.assertIn('rotation', problems[0])
+                    self.assertIn('scale', problems[0])
+
+    def test_cap_under_rotated_or_scaled_parent_is_reported(self):
+        for change in ({'rotation': [0.7071068, 0, 0, 0.7071068]}, {'scale': [2, 2, 2]}):
+            with self.subTest(change=change):
+                gltf = synthetic()
+                cap = gltf['nodes'].index(node_of(gltf, 'btn_a_cap'))
+                wrapper = gltf['nodes'][-1]
+                wrapper['children'].remove(cap)
+                gltf['nodes'].append({'name': 'tilted holder', 'children': [cap], **change})
+                wrapper['children'].append(len(gltf['nodes'])-1)
+                problems = [p for p in self.problems(gltf) if 'longest dimension' not in p]
+                self.assertEqual(len(problems), 1, problems)
+                self.assertIn('btn_a_cap', problems[0])
+                self.assertIn('tilted holder', problems[0])
+
+    def test_other_parts_may_be_rotated(self):
+        gltf = synthetic()
+        node_of(gltf, 'btn_a')['rotation'] = [0, 0, math.sin(math.pi/8), math.cos(math.pi/8)]
+        node_of(gltf, 'speaker')['rotation'] = [0, math.sin(math.pi/8), 0, math.cos(math.pi/8)]
+        self.assertEqual(self.problems(gltf), [])
+
+    def test_part_on_a_node_without_mesh_is_reported(self):
+        for part in ('pcb', 'logo_touch', 'led_2_2', 'btn_b_cap'):
+            with self.subTest(part=part):
+                gltf = synthetic()
+                node = node_of(gltf, part)
+                child = dict(node, extras={})
+                del node['mesh']
+                gltf['nodes'].append(child)
+                node['children'] = [len(gltf['nodes'])-1]
+                problems = [p for p in self.problems(gltf) if 'longest dimension' not in p and 'measurable' not in p]
+                self.assertEqual(len(problems), 1, problems)
+                self.assertIn(part, problems[0])
+                self.assertIn('without a mesh', problems[0])
 
     def test_box_twenty_percent_too_large(self):
         problems = self.problems(synthetic(width=0.052*1.2))
