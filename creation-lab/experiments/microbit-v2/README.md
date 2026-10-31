@@ -10,8 +10,12 @@ Provenance: original geometry from the official hardware specification
 (https://tech.microbit.org/hardware/, outline from the V2.2 revision page: 51.60 x
 42.00 x 11.65 mm). Photos were used as proportion references only: never textures,
 never copied here. No BBC or micro:bit logos, FCC ID or silkscreen text. MIT.
-PCB thickness (1.6 mm) and component coordinates are not published on those pages
-and are estimated from photos (unconfirmed).
+The official V2.2 outline is 51.60 x 42.00 x 11.65 mm
+(https://tech.microbit.org/hardware/2-2-revision/); the model is built at that
+size, and the brief's `displayScale` 0.052 m (+/- 2 %) is a nominal value that
+contains it (0.77 % off). PCB thickness (1.6 mm, consistent with the published
+4.55 + 1.6 + 5.50 mm depths) and all component positions and sizes are estimated
+from reference photos, not measured.
 
 ## Files
 
@@ -30,7 +34,7 @@ LED face with the edge connector at the bottom.
 ## Running
 
 From the repository root (WSL with the native Windows Blender, adapter from the
-Claude animal-cell benchmark; it must be executable):
+Claude animal-cell benchmark; the adapter must be executable on the host, `chmod +x` it locally, the repo file mode is left alone):
 
 ```sh
 export GG3D_WINDOWS_BLENDER=/path/to/blender.exe
@@ -68,8 +72,34 @@ Run `001-0c91b4d0cb9e` image hashes (sha256):
 | `renders/reimport-three-quarter.png` | `3b168f3be7b313ca3ff611b9dfac1adb81bb3b2a509c5ecee15501fce4af0747` |
 
 `source.blend` sha256 `390e5a5f95a7f3d106ba4f980638a04fdfa7a95815129cd1dbd182e6a3d6ea75`.
-The shared worker renders low, fixed cameras (`front` and `back` look along the board
-at 0.10 elevation); the back-face parts (USB, reset, battery socket, speaker,
-microphone) sit below the PCB and are not visible in any of the six images, so
-their placement is verified from geometry and the contract checker, not from images.
+The common six-view renderer uses fixed low or 3/4-from-above cameras, so the
+back-face parts (USB, reset, battery socket, speaker, microphone, chips, antenna)
+sit below the PCB and are not visible in those six images. Supplementary views
+cover them without changing the worker or the run.
+
+### Supplementary views (supplementary, not part of the common six-view renderer)
+
+`render_extra_views.py` (sha256 `c2fac1322f7742c7e703c65db0bda811d4cd437d541dd088c36bbe61e34bd653`)
+opens the run's saved `source.blend` read-only and renders with the worker's
+settings (Cycles CPU, 2 threads, 24 samples, 768 px, AgX, same lights and world).
+Output goes to a new folder `<session>/supplementary/<run id>/`; nothing in the
+run folder is touched. Run through the same adapter, with the supplementary root
+existing beforehand:
+
+```sh
+mkdir -p SESSION/supplementary
+$PWD/creation-lab/benchmarks/claude-animal-cell/wsl-blender.sh --background --factory-startup --disable-autoexec --python-exit-code 1 --python $PWD/creation-lab/experiments/microbit-v2/render_extra_views.py -- SESSION/runs/RUN_ID SESSION/supplementary
+```
+
+Run `001-0c91b4d0cb9e`, folder `creation-lab/.local/iterations/20261031T054439Z-105b17e2/supplementary/001-0c91b4d0cb9e/`
+(source.blend sha256 unchanged, `390e5a5f...`):
+
+| Image | View | sha256 |
+| --- | --- | --- |
+| `back-face.png` | below, looking up, edge connector at the bottom (board mirrored left-right) | `95a75089c6214b6d720e83ec524740a17129737648b29f393fcf85f3c1e4a56b` |
+| `top-down.png` | LED face straight on, edge connector at the bottom | `10495a4e07ebcc7afc3d06503385b420412fb8e9cc5fce95b08ad60f562b1713` |
+| `back-three-quarter.png` | below, from the edge-connector side | `9c05a1c28fd607ab54408745cdb1fd75906c65238b07b271fd85f470c8f22491` |
+| `back-three-quarter-rear.png` | below, from the USB / battery side | `591a33396f5027d95956132c356e3af00b556c458231aa5b2f0ee3a133b5ef51` |
+| `supplementary.json` | manifest (renderer settings, image hashes) | `fb1f1f67dd849dbe59074ae269df30553cb67ebb40ecf0c84bea91a0b3ab3360` |
+
 Later tasks append the review, detail and Studio capture runs here.
