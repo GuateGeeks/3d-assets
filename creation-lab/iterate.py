@@ -1,7 +1,9 @@
 """Local, evidence-bound Sol/Luna iterations. Does not invoke a model API.
 
-Default modes accept only Sol/Luna. The explicit `benchmark` mode records an
-isolated, user-requested comparison profile frozen inside the session.
+Default modes accept only Sol/Luna. The explicit `claude` mode accepts only the
+exact Claude IDs in CLAUDE_MODELS; it is an authoring choice, not a benchmark.
+The explicit `benchmark` mode records an isolated, user-requested comparison
+profile frozen inside the session.
 """
 import argparse
 import ast
@@ -21,7 +23,12 @@ ROOT = BASE.parent
 SOL, LUNA = 'gpt-6.1-sol', 'gpt-6-luna'
 STATES = {'PASS', 'FAIL', 'BLOCKED', 'NOT_RUN'}
 EFFORTS = {'low', 'medium', 'high', 'xhigh', 'max'}
-MODES = {'sol', 'mixed', 'luna', 'benchmark'}
+MODES = {'sol', 'mixed', 'luna', 'claude', 'benchmark'}
+# Exact IDs only; aliases (sonnet, opus, ...) never match these sets.
+CLAUDE_MODELS = {'coordinator': {'claude-sonnet-5-5', 'claude-opus-5-5'},
+                 'author': {'claude-sonnet-5-5', 'claude-opus-5-5', 'claude-haiku-5-5'},
+                 'reviewer': {'claude-opus-5-5', 'claude-sonnet-5-5'}}
+CLAUDE_REVIEWER_DEFAULT = 'claude-opus-5-5'
 # Aliases can move to another version; a profile must name exact model IDs.
 MODEL_ALIASES = {'haiku', 'sonnet', 'opus', 'fable', 'opusplan', 'default', 'best', 'sol', 'luna'}
 VIEWS = ('front', 'side', 'back', 'three-quarter', 'wireframe', 'reimport-three-quarter')
@@ -123,12 +130,15 @@ def validate_profile(profile):
 
 
 def allowed(mode, role, benchmark=None):
-    """(models, efforts) for a role. Defaults stay Sol/Luna-only."""
+    """(models, efforts) for a role. Defaults stay Sol/Luna-only; `claude` is an explicit extra mode."""
     if mode == 'benchmark':
         require(isinstance(benchmark, dict), 'Benchmark mode requires a frozen profile')
         profile, condition = benchmark['profile'], benchmark['condition']
         item = profile['conditions'][condition]['author'] if role == 'author' else profile['roles'][role]
         return set(item['models']), set(item['efforts'])
+    if mode == 'claude':
+        require(role in CLAUDE_MODELS, 'Invalid role')
+        return set(CLAUDE_MODELS[role]), EFFORTS
     require(mode in {'sol', 'mixed', 'luna'}, 'Invalid mode')
     models = {SOL} if mode == 'sol' or (mode == 'mixed' and role in ('coordinator', 'reviewer')) else {LUNA} if mode == 'luna' else {SOL, LUNA}
     return models, EFFORTS
@@ -430,6 +440,8 @@ def review_template(path, run_id):
     if session['mode'] == 'benchmark':
         reviewer = session['benchmark']['profile']['roles']['reviewer']
         model, effort = reviewer['models'][0], reviewer['efforts'][0]
+    elif session['mode'] == 'claude':
+        model, effort = CLAUDE_REVIEWER_DEFAULT, 'medium'
     else:
         model, effort = LUNA if session['mode'] == 'luna' else SOL, 'medium'
     return {'schemaVersion': 1, 'runId': run_id, 'manifestSha256': digest(run_path / 'manifest.json'),
@@ -456,11 +468,11 @@ def parser():
     sub = p.add_subparsers(dest='command', required=True)
     def add_actor(item):
         item.add_argument('--actor-id', required=True, help='Actual agent/context ID; recorded, not inferred')
-        # Validated against the session mode/profile: Sol/Luna unless benchmark.
-        item.add_argument('--model', required=True, help=f'Exact model ID; {SOL} or {LUNA} outside benchmark mode')
+        # Validated against the session mode/profile: Sol/Luna unless claude or benchmark.
+        item.add_argument('--model', required=True, help=f'Exact model ID; {SOL} or {LUNA} in sol/mixed/luna; claude-* IDs in claude mode; profile IDs in benchmark mode')
         item.add_argument('--effort', default='medium', choices=sorted(EFFORTS))
     init = sub.add_parser('init'); init.add_argument('--brief', required=True, type=Path)
-    init.add_argument('--output', type=Path); init.add_argument('--mode', choices=['sol', 'mixed', 'luna', 'benchmark'], default='mixed')
+    init.add_argument('--output', type=Path); init.add_argument('--mode', choices=['sol', 'mixed', 'luna', 'claude', 'benchmark'], default='mixed')
     init.add_argument('--profile', type=Path, help='Benchmark mode only: frozen model profile JSON')
     init.add_argument('--condition', help='Benchmark mode only: condition defined by the profile')
     init.add_argument('--max-corrections', type=int, default=2); add_actor(init)

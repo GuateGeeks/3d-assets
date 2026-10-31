@@ -48,7 +48,8 @@ y otro contexto Sol `medium` para revisión independiente con imágenes abiertas
 Escala a Sol `high` únicamente para diagnóstico difícil. Registra modelo y esfuerzo
 solicitados y reales de todos los roles; si no están disponibles, registra el bloqueo,
 sin sustituirlos silenciosamente. Los perfiles son planificación, no enforcement
-remoto ni resultados de benchmark. Lee el
+remoto ni resultados de benchmark. El modo `claude` de `iterate.py` (IDs Claude
+exactos) existe solo por elección explícita y no cambia el default Sol/Luna. Lee el
 [workflow iterativo](creation-lab/docs/ITERATIVE-WORKFLOW.md) para el protocolo. Una petición explícita de benchmark con otros modelos define
 una condición aislada; conserva el default de producción y registra sus diferencias.
 

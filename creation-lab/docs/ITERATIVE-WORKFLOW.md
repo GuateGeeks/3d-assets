@@ -30,8 +30,18 @@ crea por sí mismo autores o revisores independientes.
 | `mixed` (predeterminado) | Sol | Sol o Luna | Sol, contexto independiente |
 | `sol` | Sol | Sol | Sol, contexto independiente |
 | `luna` | Luna | Luna | Luna, contexto independiente |
+| `claude` (elección explícita) | Sonnet u Opus | Haiku, Sonnet u Opus | Opus o Sonnet, contexto nuevo e independiente |
 
-Los IDs admitidos son `gpt-6.1-sol` y `gpt-6-luna`. Para cambiar versiones,
+Los IDs admitidos en `sol`, `mixed` y `luna` son `gpt-6.1-sol` y `gpt-6-luna`.
+El modo `claude` es una cuarta opción explícita (`init --mode claude`), no un
+benchmark ni un cambio del predeterminado: solo acepta los IDs exactos
+`claude-sonnet-5-5` o `claude-opus-5-5` (coordinación), `claude-sonnet-5-5`,
+`claude-opus-5-5` o `claude-haiku-5-5` (autoría) y `claude-opus-5-5` o
+`claude-sonnet-5-5` (revisión, plantilla con Opus). Rechaza IDs Sol/Luna y
+alias como `sonnet` u `opus`, igual que los modos Sol/Luna rechazan IDs Claude.
+Los esfuerzos son los mismos. Registra modelo y esfuerzo solicitados y reales por
+rol; el modo no atestigua qué backend respondió ni afirma superioridad medida
+sobre Sol/Luna. Para cambiar versiones,
 actualiza política, pruebas y recibos de forma explícita. Una evaluación externa
 común puede comparar los modos puros después, sin presentarla como parte de su
 ejecución exclusiva. El [prompt de Claude](../prompts/08-claude-benchmark.txt)

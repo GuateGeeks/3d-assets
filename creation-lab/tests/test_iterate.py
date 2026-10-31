@@ -292,5 +292,84 @@ class BenchmarkProfileTests(unittest.TestCase):
         self.assertEqual(flow.status(self.bench)['status'], 'READY_FOR_DETAIL')
 
 
+class ClaudeModeTests(unittest.TestCase):
+    """Non-benchmark `claude` mode: exact Claude IDs; Sol/Luna defaults unchanged."""
+    HAIKU, SONNET, OPUS = 'claude-haiku-5-5', 'claude-sonnet-5-5', 'claude-opus-5-5'
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        IterationTests.setUp(self)  # Reuse the synthetic brief fixture.
+
+    def who(self, model, effort='medium'):
+        return {'actorId': 'ctx-' + model, 'model': model, 'reasoningEffort': effort}
+
+    def test_claude_mode_role_models(self):
+        for model in (self.SONNET, self.OPUS):
+            flow.actor(self.who(model), 'claude', 'coordinator')
+        with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+            flow.actor(self.who(self.HAIKU), 'claude', 'coordinator')
+        for model in (self.HAIKU, self.SONNET, self.OPUS):
+            flow.actor(self.who(model), 'claude', 'author')
+        for model in (self.OPUS, self.SONNET):
+            flow.actor(self.who(model), 'claude', 'reviewer')
+        with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+            flow.actor(self.who(self.HAIKU), 'claude', 'reviewer')
+        with self.assertRaisesRegex(ValueError, 'reasoning effort'):
+            flow.actor(self.who(self.SONNET, 'turbo'), 'claude', 'author')
+
+    def test_claude_ids_rejected_in_sol_luna_modes(self):
+        for mode in ('mixed', 'sol', 'luna'):
+            for role in ('coordinator', 'author', 'reviewer'):
+                with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+                    flow.actor(self.who(self.SONNET), mode, role)
+
+    def test_sol_luna_ids_rejected_in_claude_mode(self):
+        for model in (flow.SOL, flow.LUNA):
+            for role in ('coordinator', 'author', 'reviewer'):
+                with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+                    flow.actor(self.who(model), 'claude', role)
+
+    def test_aliases_rejected_in_claude_mode(self):
+        for alias in ('sonnet', 'opus', 'haiku', ' claude-sonnet-5-5'):
+            for role in ('coordinator', 'author', 'reviewer'):
+                with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+                    flow.actor(self.who(alias), 'claude', role)
+
+    def test_init_session_claude_mode(self):
+        coordinator = self.who(self.SONNET)
+        path = flow.init_session(self.root / 'brief.json', self.root / 'claude', 'claude', coordinator)
+        session = flow.read(path / 'session.json')
+        self.assertEqual(session['mode'], 'claude')
+        self.assertNotIn('benchmark', session)
+        flow.session_actor(self.who(self.HAIKU), session, 'author')
+        with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+            flow.session_actor(self.who(flow.LUNA), session, 'author')
+        self.assertEqual(flow.status(path)['mode'], 'claude')
+        with self.assertRaisesRegex(ValueError, 'apply only to benchmark'):
+            flow.init_session(self.root / 'brief.json', self.root / 'c2', 'claude', coordinator,
+                              profile_path=self.root / 'profile.json', condition='x')
+        with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+            flow.init_session(self.root / 'brief.json', self.root / 'c3', 'claude', self.who(self.HAIKU))
+
+    def test_claude_review_template_defaults_to_opus(self):
+        path = flow.init_session(self.root / 'brief.json', self.root / 'claude2', 'claude', self.who(self.SONNET))
+        self.path, self.session, self.author = path, flow.read(path / 'session.json'), self.who(self.HAIKU)
+        rid, _ = IterationTests.add_run(self)
+        value = flow.review_template(path, rid)
+        self.assertEqual(value['reviewer']['model'], self.OPUS)
+        flow.save_review(path, IterationTests.review(self, rid))
+
+    def test_cli_accepts_claude_mode(self):
+        flow.main(['init', '--brief', str(self.root / 'brief.json'), '--output', str(self.root / 'c4'),
+                   '--mode', 'claude', '--actor-id', 'x', '--model', self.OPUS])
+        self.assertEqual(flow.read(self.root / 'c4' / 'session.json')['mode'], 'claude')
+        with self.assertRaises(SystemExit):
+            flow.main(['init', '--brief', str(self.root / 'brief.json'), '--output', str(self.root / 'c5'),
+                       '--mode', 'claude', '--actor-id', 'x', '--model', flow.SOL])
+        self.assertFalse((self.root / 'c5').exists())
+
+
 if __name__ == '__main__':
     unittest.main()
