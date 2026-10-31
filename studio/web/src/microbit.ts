@@ -78,6 +78,8 @@ export function createMicrobit(source:THREE.Object3D):Asset{
 }
 export async function loadMicrobit(url:string,signal:AbortSignal):Promise<Asset>{
  const gltf=await parseGLB(url,signal);let asset:Asset;
+ // A scene replaced during parsing must surface as an abort, never as a contract error about a model nobody wants any more.
+ if(signal.aborted){const scope=new ResourceScope();scope.track(gltf.scene);scope.dispose();throw new DOMException('Scene replaced','AbortError')}
  try{asset=createMicrobit(gltf.scene)}
  catch(error){const scope=new ResourceScope();scope.track(gltf.scene);scope.dispose();throw error}
  if(signal.aborted){asset.dispose();throw new DOMException('Scene replaced','AbortError')}
