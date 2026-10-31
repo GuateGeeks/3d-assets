@@ -1,3 +1,4 @@
+import {stageForBounds,stageScale} from './stage';
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import demo from './demo.scene.json';
@@ -50,7 +51,17 @@ export function mountPreview(host:HTMLElement):()=>void{
   }else{const p=document.createElement('p');p.className='hint';p.textContent='Scrub the timeline to inspect the selected clip.';control.append(p)}
   sync();
  }
- function frame(){if(!runtime?.assets.size)return;const box=new THREE.Box3();for(const a of runtime.assets.values())box.expandByObject(a.root);const center=box.getCenter(new THREE.Vector3()),size=box.getSize(new THREE.Vector3());const aspect=viewport.clientWidth/Math.max(viewport.clientHeight,1);const distance=Math.max(size.y,size.x/aspect,size.z,1.4)/(2*Math.tan(THREE.MathUtils.degToRad(camera.fov/2)))*1.55;controls.target.copy(center);camera.position.copy(center).add(new THREE.Vector3(.7,.55,1).normalize().multiplyScalar(distance));controls.update()}
+ // The stage (camera near, zoom limits, shadow, fog, grid) follows the scene's world size; scenes >= 2 m keep the original constants.
+ function applyStage(longest:number){
+  const stage=stageForBounds(longest),f=stageScale(longest);
+  camera.near=stage.near;camera.far=100*f;camera.updateProjectionMatrix();
+  controls.minDistance=stage.minDistance;controls.maxDistance=stage.maxDistance;
+  sun.position.set(-3,7,5).multiplyScalar(f);const sc=sun.shadow.camera;sc.left=-stage.shadowExtent;sc.right=stage.shadowExtent;sc.top=stage.shadowExtent;sc.bottom=-stage.shadowExtent;sc.near=.5*f;sc.far=500*f;sc.updateProjectionMatrix();sun.shadow.normalBias=.03*f;
+  (scene.fog as THREE.Fog).near=stage.fogNear;(scene.fog as THREE.Fog).far=stage.fogFar;
+  grid.scale.setScalar(stage.gridSize/30);ground.scale.setScalar(f);
+  return stage;
+ }
+ function frame(){if(!runtime)return;if(!runtime.assets.size){applyStage(0);return}const box=new THREE.Box3();for(const a of runtime.assets.values())box.expandByObject(a.root);const center=box.getCenter(new THREE.Vector3()),size=box.getSize(new THREE.Vector3());const stage=applyStage(Math.max(size.x,size.y,size.z));const aspect=viewport.clientWidth/Math.max(viewport.clientHeight,1);const distance=Math.max(size.y,size.x/aspect,size.z,stage.frameFloor)/(2*Math.tan(THREE.MathUtils.degToRad(camera.fov/2)))*1.55;controls.target.copy(center);camera.position.copy(center).add(new THREE.Vector3(.7,.55,1).normalize().multiplyScalar(distance));controls.update()}
  async function load(raw:unknown,baseURL:string){
   const spec=validateScene(raw),ticket=++generation;loadController?.abort();const controller=new AbortController();loadController=controller;
   const next=new Runtime(spec,reduced.matches&&!q<HTMLInputElement>('#allow-motion').checked);next.speed=Number(q<HTMLSelectElement>('#speed').value);next.loop=q<HTMLInputElement>('#loop').checked;
