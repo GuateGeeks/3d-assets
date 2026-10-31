@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "reviewer": {
+    "actorId": "unknown-subagent-fresh-context",
+    "model": "claude-opus-5-5",
+    "reasoningEffort": "medium",
+    "note": "requested values; actual served model unconfirmed"
+  },
+  "openedImages": [
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031/rest/3d-lab-2026-10-31T07-24-59-522Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031/a-held/3d-lab-2026-10-31T07-25-00-526Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031/b-held/3d-lab-2026-10-31T07-25-01-633Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031/logo-held/3d-lab-2026-10-31T07-25-02-687Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031/closeup-a-held/3d-lab-2026-10-31T07-25-06-987Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031/closeup-a-held/page-with-labels.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/1.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/2.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/3.webp",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/4.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/5.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/scratchpad/crop_grid.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/scratchpad/rv_buttons.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/scratchpad/rv_logo.png"
+  ],
+  "visual": {
+    "status": "FAIL",
+    "reason": "Lit LEDs are rendered as a barely tinted off-white (sampled about RGB 255,237,229) against unlit LEDs that are also bright off-white (about 237,233,228), a difference of about 18 in the red channel only. At normal viewing size (a-held, b-held, logo-held at 1152x820) the lit LEDs look almost the same as rest; a student cannot reliably tell lit from unlit. The board itself is clean (no z-fighting, clipping or missing major geometry), exposure is fine and the touch-logo tint is visible, but the main teaching signal fails on contrast."
+  },
+  "content": {
+    "status": "FAIL",
+    "reason": "The receipts' channels match the rendered LEDs exactly (16/7/5 lit at the right X,Y positions, verified on 2x crops), so the logic is right, but the heart, smiley and check mark are not recognisable at normal viewing size: lit LEDs are pale pink instead of red, unlit LEDs are bright white instead of dark, and the oblique 3/4 camera skews the 5x5 grid into diagonals. Real micro:bit lit LEDs are saturated red on dark parts (reference 2.png). The board reads as a micro:bit (layout of buttons, logo, 5x5 matrix, gold edge connector with 5 rings is right), but the pattern reaction, the core of the lesson, is not reliably observable."
+  },
+  "checks": [
+    {
+      "check": "Evidence integrity: PNG sha256 match README table",
+      "status": "PASS",
+      "reason": "All six PNG hashes computed with sha256sum match the README values.",
+      "evidence": "README.md, all *.png"
+    },
+    {
+      "check": "Rest: board reads as micro:bit V2, 25 LEDs unlit",
+      "status": "PASS",
+      "reason": "Board outline with rounded corners, two tactile buttons A (left) and B (right), gold oval touch logo above the matrix, 5x5 LED grid, gold edge connector with five ring pads and finger strips. Receipt channels are empty and all 25 LEDs show the same unlit colour. Caveat: unlit LEDs are bright white blocks, while real unlit LEDs are small dark/clear parts; and they are landscape rectangles whereas the real LEDs are portrait slits (4.png). Silkscreen labels (A, B, 0/1/2/3V/GND), teal corner art and the USB connector at the top edge are absent.",
+      "evidence": "rest/3d-lab-2026-10-31T07-24-59-522Z.png, images/1.png, 2.png, 4.png"
+    },
+    {
+      "check": "Rest: staging (ground, shadow, grid, scale)",
+      "status": "FAIL",
+      "reason": "The board has no visible contact shadow, so it sits on a featureless plane without grounding. The grid appears only as a band of near-horizontal lines at the top of the frame, far behind the board, not under it; it reads as a stray artefact rather than a reference floor. Nothing clips; scale of the board in frame is fine.",
+      "evidence": "rest/3d-lab-2026-10-31T07-24-59-522Z.png"
+    },
+    {
+      "check": "A held: heart, 16 lit LEDs, matches channels",
+      "status": "FAIL",
+      "reason": "On a 2x crop the lit set matches the receipt exactly (led.1.0, 3.0, row 1 all, row 2 all, 1.3-3.3, 2.4 = 16). At normal size the 16 lit LEDs are pale pink barely distinguishable from the white unlit ones; the heart is not recognisable without zoom and side-by-side comparison with rest.",
+      "evidence": "a-held/3d-lab-2026-10-31T07-25-00-526Z.png, scratchpad/crop_grid.png"
+    },
+    {
+      "check": "B held: smiley, 7 lit LEDs, matches channels",
+      "status": "FAIL",
+      "reason": "Lit set matches receipt (led.1.1, 3.1, 0.3, 4.3 at 255; 1.4, 2.4, 3.4 at 80). The 80-value mouth LEDs look as pale as the 255 eyes (no visible brightness distinction), and the whole pattern is too faint to read as a smiley at normal size.",
+      "evidence": "b-held/3d-lab-2026-10-31T07-25-01-633Z.png, scratchpad/crop_grid.png"
+    },
+    {
+      "check": "Logo held: check mark, 5 lit LEDs, matches channels",
+      "status": "FAIL",
+      "reason": "Lit set matches receipt (led.4.1, 3.2, 2.3, 0.3, 1.4). Pattern is a faint pink diagonal; with the oblique camera it is not recognisable as a check mark at normal size.",
+      "evidence": "logo-held/3d-lab-2026-10-31T07-25-02-687Z.png, scratchpad/crop_grid.png"
+    },
+    {
+      "check": "Patterns distinguishable from each other and from rest",
+      "status": "FAIL",
+      "reason": "Pixel difference vs rest exists only in the LED (and pressed part) regions and is small in magnitude; at normal size all four main captures look nearly identical. Only careful side-by-side zoom separates them.",
+      "evidence": "rest, a-held, b-held, logo-held PNGs"
+    },
+    {
+      "check": "Button A/B pressed feedback",
+      "status": "PASS",
+      "reason": "Pixel diff confirms only the held button changes. At 4x zoom the cap of the held button is visibly lower than at rest. At normal size the travel is essentially not discernible; this does not block the teaching goal if the LEDs react clearly and the UI shows 'A pressed', but today the LEDs do not provide that clear feedback either.",
+      "evidence": "a-held, b-held PNGs, scratchpad/rv_buttons.png"
+    },
+    {
+      "check": "Touch logo pressed feedback",
+      "status": "PASS",
+      "reason": "Logo turns a brighter, flatter yellow when held; noticeable at normal size when compared with rest, though it also loses its shading (looks unlit/flat).",
+      "evidence": "logo-held PNG, scratchpad/rv_logo.png"
+    },
+    {
+      "check": "Close-up with labels legible and not hiding parts",
+      "status": "FAIL",
+      "reason": "Labels are small (about 9 px text) but readable. 'Button A cap' and 'Button A' labels sit stacked on top of button A and hide its cap; 'Button B cap'/'Button B' labels cover button B's cap; 'Touch logo' sits over the middle of the logo. The 'Frame scene' control text overlaps the gold pad at the bottom right and is partly illegible. In the close-up the pale pink lit LEDs are distinguishable from white ones and the heart can be traced with effort, which shows the colour problem persists even at maximum zoom. Inspector readout 'A pressed - B released - Logo released - 16 LEDs lit' is clear.",
+      "evidence": "closeup-a-held/page-with-labels.png, closeup-a-held/3d-lab-2026-10-31T07-25-06-987Z.png"
+    },
+    {
+      "check": "Overall lighting, exposure, colours, artefacts",
+      "status": "PASS",
+      "reason": "Even exposure, no clipping of highlights on the board, no z-fighting, odd reflections or missing large parts observed. Board colour is a slate grey rather than the real near-black, which lowers the overall contrast budget for the LEDs, but this is non-blocking on its own.",
+      "evidence": "all capture PNGs"
+    }
+  ],
+  "defects": [
+    {
+      "view": "a-held, b-held, logo-held, closeup-a-held",
+      "severity": "blocking",
+      "what": "Lit LEDs are a pale pink (about 255,237,229) almost indistinguishable from unlit LEDs (about 237,233,228); patterns are not recognisable at normal viewing size.",
+      "requestedChange": "Render lit LEDs as saturated red with emission (e.g. base/emissive around #ff2a1a with a visible glow or bloom) so lit LEDs read clearly at the default camera distance; re-capture and confirm heart/smile/check are identifiable without zoom."
+    },
+    {
+      "view": "rest and all states",
+      "severity": "blocking",
+      "what": "Unlit LEDs are bright white blocks, so there is no dark-vs-lit contrast; real unlit micro:bit LEDs are small dark/clear parts on a black board.",
+      "requestedChange": "Make unlit LEDs dark (near-black or dark translucent grey with a slight specular) so lit red LEDs stand out against both the LED off-state and the board."
+    },
+    {
+      "view": "b-held",
+      "severity": "non-blocking",
+      "what": "Brightness 80 (mouth) is rendered the same as 255 (eyes); intensity levels are not visible.",
+      "requestedChange": "Map channel value to emissive intensity so lower values look dimmer once the red colour is fixed."
+    },
+    {
+      "view": "rest, a-held, b-held, logo-held (default camera)",
+      "severity": "non-blocking",
+      "what": "Oblique 3/4 default camera skews the 5x5 grid into diagonals, making patterns harder to read for students.",
+      "requestedChange": "Provide a default or one-click 'front' view looking more directly at the LED face (USB end up) so patterns read upright."
+    },
+    {
+      "view": "rest and all states",
+      "severity": "non-blocking",
+      "what": "No contact shadow under the board; grid visible only as a stray band of lines far behind the board at the top of the frame.",
+      "requestedChange": "Add a soft contact shadow and scale/position the grid so it lies visibly under the board (or remove it)."
+    },
+    {
+      "view": "rest and all states",
+      "severity": "non-blocking",
+      "what": "Fidelity gaps vs reference: LEDs are landscape rectangles (real are portrait slits), no A/B or pin silkscreen labels, no teal corner art, no USB connector at the top edge, board slate grey instead of near-black.",
+      "requestedChange": "Rotate LED parts to portrait, add A/B and 0/1/2/3V/GND labels and the USB connector, darken the board."
+    },
+    {
+      "view": "closeup-a-held/page-with-labels.png",
+      "severity": "non-blocking",
+      "what": "Part labels sit on top of button caps and the touch logo, hiding the parts they name; 'Frame scene' text overlaps a gold pad and is partly illegible.",
+      "requestedChange": "Offset labels with leader lines away from the part, and give the 'Frame scene' control a solid background."
+    },
+    {
+      "view": "a-held, b-held",
+      "severity": "non-blocking",
+      "what": "Button cap travel is only visible at 4x zoom; not discernible at normal size.",
+      "requestedChange": "Optional: exaggerate cap travel or add a brief highlight on the pressed button; not required if LED feedback becomes clear."
+    }
+  ]
+}

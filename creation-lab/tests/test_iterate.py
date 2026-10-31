@@ -1,7 +1,12 @@
 """Evidence and transition regressions, independent of Blender or a model API."""
+import ast
+import contextlib
 import importlib.util
+import io
 import json
 import shutil
+import stat
+import sys
 from pathlib import Path
 import tempfile
 import unittest
@@ -29,20 +34,22 @@ class IterationTests(unittest.TestCase):
         self.path = flow.init_session(self.root / 'brief.json', self.root / 'session', 'mixed', self.author)
         self.session = flow.read(self.path / 'session.json')
 
-    def add_run(self, stage='blockout', technical='PASS', with_images=True):
+    def add_run(self, stage='blockout', technical='PASS', with_images=True, extra_views=None):
         index = len(list((self.path / 'runs').iterdir())) + 1
         rid = f'{index:03d}-test'
         path = self.path / 'runs' / rid
         path.mkdir(); (path / 'renders').mkdir()
         shutil.copy2(self.path / 'brief.json', path / 'brief.json')
         if with_images:
-            for view in flow.VIEWS:
+            for view in (*flow.VIEWS, *(extra_views or ())):
                 (path / 'renders' / (view + '.png')).write_bytes(b'test-fixture-' + view.encode())
         manifest = {'schemaVersion': 1, 'runId': rid, 'sequence': index, 'stage': stage,
                     'parentRunId': f'{index-1:03d}-test' if index > 1 else None,
                     'sessionSha256': flow.digest(self.path / 'session.json'),
                     'author': self.author, 'technical': technical,
                     'artifacts': {p.relative_to(path).as_posix(): flow.digest(p) for p in path.rglob('*') if p.is_file()}}
+        if extra_views is not None:
+            manifest['extraViews'] = list(extra_views)
         flow.write(path / 'manifest.json', manifest)
         (path / 'COMPLETE').write_text(flow.digest(path / 'manifest.json'))
         return rid, path
@@ -290,6 +297,251 @@ class BenchmarkProfileTests(unittest.TestCase):
         review = IterationTests.review(self, rid)
         flow.save_review(self.bench, review)
         self.assertEqual(flow.status(self.bench)['status'], 'READY_FOR_DETAIL')
+
+
+class ClaudeModeTests(unittest.TestCase):
+    """Non-benchmark `claude` mode: exact Claude IDs; Sol/Luna defaults unchanged."""
+    HAIKU, SONNET, OPUS = 'claude-haiku-5-5', 'claude-sonnet-5-5', 'claude-opus-5-5'
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        IterationTests.setUp(self)  # Reuse the synthetic brief fixture.
+
+    def who(self, model, effort='medium'):
+        return {'actorId': 'ctx-' + model, 'model': model, 'reasoningEffort': effort}
+
+    def test_claude_mode_role_models(self):
+        for model in (self.SONNET, self.OPUS):
+            flow.actor(self.who(model), 'claude', 'coordinator')
+        with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+            flow.actor(self.who(self.HAIKU), 'claude', 'coordinator')
+        for model in (self.HAIKU, self.SONNET, self.OPUS):
+            flow.actor(self.who(model), 'claude', 'author')
+        for model in (self.OPUS, self.SONNET):
+            flow.actor(self.who(model), 'claude', 'reviewer')
+        with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+            flow.actor(self.who(self.HAIKU), 'claude', 'reviewer')
+        with self.assertRaisesRegex(ValueError, 'reasoning effort'):
+            flow.actor(self.who(self.SONNET, 'turbo'), 'claude', 'author')
+
+    def test_claude_ids_rejected_in_sol_luna_modes(self):
+        for mode in ('mixed', 'sol', 'luna'):
+            for role in ('coordinator', 'author', 'reviewer'):
+                with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+                    flow.actor(self.who(self.SONNET), mode, role)
+
+    def test_sol_luna_ids_rejected_in_claude_mode(self):
+        for model in (flow.SOL, flow.LUNA):
+            for role in ('coordinator', 'author', 'reviewer'):
+                with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+                    flow.actor(self.who(model), 'claude', role)
+
+    def test_aliases_rejected_in_claude_mode(self):
+        for alias in ('sonnet', 'opus', 'haiku', ' claude-sonnet-5-5'):
+            for role in ('coordinator', 'author', 'reviewer'):
+                with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+                    flow.actor(self.who(alias), 'claude', role)
+
+    def test_init_session_claude_mode(self):
+        coordinator = self.who(self.SONNET)
+        path = flow.init_session(self.root / 'brief.json', self.root / 'claude', 'claude', coordinator)
+        session = flow.read(path / 'session.json')
+        self.assertEqual(session['mode'], 'claude')
+        self.assertNotIn('benchmark', session)
+        flow.session_actor(self.who(self.HAIKU), session, 'author')
+        with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+            flow.session_actor(self.who(flow.LUNA), session, 'author')
+        self.assertEqual(flow.status(path)['mode'], 'claude')
+        with self.assertRaisesRegex(ValueError, 'apply only to benchmark'):
+            flow.init_session(self.root / 'brief.json', self.root / 'c2', 'claude', coordinator,
+                              profile_path=self.root / 'profile.json', condition='x')
+        with self.assertRaisesRegex(ValueError, 'Model not allowed'):
+            flow.init_session(self.root / 'brief.json', self.root / 'c3', 'claude', self.who(self.HAIKU))
+
+    def test_claude_review_template_defaults_to_opus(self):
+        path = flow.init_session(self.root / 'brief.json', self.root / 'claude2', 'claude', self.who(self.SONNET))
+        self.path, self.session, self.author = path, flow.read(path / 'session.json'), self.who(self.HAIKU)
+        rid, _ = IterationTests.add_run(self)
+        value = flow.review_template(path, rid)
+        self.assertEqual(value['reviewer']['model'], self.OPUS)
+        self.assertEqual(value['reviewer']['reasoningEffort'], 'medium')
+        flow.save_review(path, IterationTests.review(self, rid))
+
+    def test_cli_accepts_claude_mode(self):
+        quiet = io.StringIO()
+        with contextlib.redirect_stdout(quiet), contextlib.redirect_stderr(quiet):
+            flow.main(['init', '--brief', str(self.root / 'brief.json'), '--output', str(self.root / 'c4'),
+                       '--mode', 'claude', '--actor-id', 'x', '--model', self.OPUS])
+            self.assertEqual(flow.read(self.root / 'c4' / 'session.json')['mode'], 'claude')
+            with self.assertRaises(SystemExit):
+                flow.main(['init', '--brief', str(self.root / 'brief.json'), '--output', str(self.root / 'c5'),
+                           '--mode', 'claude', '--actor-id', 'x', '--model', flow.SOL])
+        self.assertFalse((self.root / 'c5').exists())
+
+
+# Stand-in for Blender: records each launch and writes the files the real worker
+# would, including one image per default view and per extra view named in request.json.
+FAKE_BLENDER = """#!{python}
+import json, sys
+from pathlib import Path
+args = sys.argv[sys.argv.index('--') + 1:]
+step, run = args[0], Path(args[1])
+with (Path(__file__).parent / 'launches.log').open('a') as log:
+    log.write(step + '\\n')
+if step == 'build':
+    (run / 'asset.glb').write_bytes(b'glb')
+elif step == 'reopen':
+    (run / 'renders').mkdir()
+    extra = json.loads((run / 'request.json').read_text()).get('extraViews', [])
+    for view in ['front', 'side', 'back', 'three-quarter', 'wireframe'] + extra:
+        (run / 'renders' / (view + '.png')).write_bytes(b'fake-' + view.encode())
+else:
+    (run / 'renders').mkdir(exist_ok=True)
+    (run / 'renders' / 'reimport-three-quarter.png').write_bytes(b'fake-reimport')
+(run / (step + '-result.json')).write_text(json.dumps({{'status': 'PASS'}}))
+"""
+
+
+class ExtraViewTests(unittest.TestCase):
+    """Optional per-run extra views; without the option nothing changes."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        IterationTests.setUp(self)
+        self.blender = self.root / 'fake-blender'
+        self.blender.write_text(FAKE_BLENDER.format(python=sys.executable))
+        self.blender.chmod(self.blender.stat().st_mode | stat.S_IXUSR)
+        self.generator = self.root / 'generator.py'
+        self.generator.write_text('import bpy\n\ndef build():\n    return {}\n')
+
+    def command(self, *extra):
+        return ['run', '--session', str(self.path), '--generator', str(self.generator), '--stage', 'blockout',
+                '--blender', str(self.blender), '--actor-id', 'author-1', '--model', flow.SOL, *extra]
+
+    def execute(self, *extra):
+        result = flow.run_generator(flow.parser().parse_args(self.command(*extra)))
+        return Path(result['run']), flow.read(Path(result['run']) / 'manifest.json')
+
+    def launches(self):
+        log = self.root / 'launches.log'
+        return log.read_text().split() if log.exists() else []
+
+    def test_catalogue_and_parsing(self):
+        self.assertEqual(flow.EXTRA_VIEWS, ('underside', 'top-down'))
+        self.assertIsNone(flow.parser().parse_args(self.command()).extra_views)
+        args = flow.parser().parse_args(self.command('--extra-view', 'top-down', '--extra-view', 'underside'))
+        self.assertEqual(args.extra_views, ['top-down', 'underside'])
+
+    def test_worker_camera_catalogue_matches_extra_views(self):
+        # The Blender worker keeps its own EXTRA_CAMERAS; parse it with ast (no bpy) so the two catalogues cannot drift apart.
+        tree = ast.parse((BASE / 'scripts' / 'iteration_worker.py').read_text(encoding='utf-8'))
+        cameras = [n.value for n in tree.body if isinstance(n, ast.Assign) and any(getattr(t, 'id', None) == 'EXTRA_CAMERAS' for t in n.targets)]
+        self.assertEqual(len(cameras), 1)
+        self.assertIsInstance(cameras[0], ast.Dict)
+        self.assertEqual({k.value for k in cameras[0].keys}, set(flow.EXTRA_VIEWS))
+
+    def test_unknown_and_duplicate_rejected_before_any_launch(self):
+        for extra in (['--extra-view', 'sideways'], ['--extra-view', 'underside', '--extra-view', 'underside'],
+                      ['--extra-view', 'front'], ['--extra-view', 'underside', '--extra-view', 'x']):
+            with contextlib.redirect_stderr(io.StringIO()) as err, self.assertRaises(SystemExit):
+                flow.main(self.command(*extra))
+            self.assertIn('extra view', err.getvalue())
+            self.assertEqual(self.launches(), [])
+            self.assertEqual(list((self.path / 'runs').iterdir()), [])
+            self.assertFalse((self.path / '.writer.lock').exists())
+
+    def test_run_without_option_is_unchanged(self):
+        run, manifest = self.execute()
+        self.assertNotIn('extraViews', manifest)
+        self.assertNotIn('extraViews', flow.read(run / 'request.json'))
+        self.assertEqual(sorted(p.name for p in (run / 'renders').iterdir()),
+                         sorted(v + '.png' for v in flow.VIEWS))
+        self.assertEqual(self.launches(), ['build', 'reopen', 'reimport'])
+        flow.load_run(self.path, manifest['runId'])
+        self.assertEqual(list(flow.review_template(self.path, manifest['runId'])['images']), list(flow.VIEWS))
+
+    def test_extra_views_recorded_and_hashed(self):
+        run, manifest = self.execute('--extra-view', 'underside', '--extra-view', 'top-down')
+        self.assertEqual(manifest['extraViews'], ['underside', 'top-down'])
+        self.assertEqual(flow.read(run / 'request.json')['extraViews'], ['underside', 'top-down'])
+        for view in ('underside', 'top-down'):
+            self.assertEqual(manifest['artifacts']['renders/' + view + '.png'], flow.digest(run / 'renders' / (view + '.png')))
+        flow.load_run(self.path, manifest['runId'])
+        images = flow.review_template(self.path, manifest['runId'])['images']
+        self.assertEqual(list(images), [*flow.VIEWS, 'underside', 'top-down'])
+        self.assertTrue(all(images.values()))
+
+    def test_manifest_with_invalid_extra_views_is_refused(self):
+        for bad in (['sideways'], ['underside', 'underside'], 'underside', [3]):
+            rid, run = self.add_run(extra_views=['underside'])
+            manifest = flow.read(run / 'manifest.json')
+            manifest['extraViews'] = bad
+            (run / 'manifest.json').unlink(); (run / 'COMPLETE').unlink()
+            flow.write(run / 'manifest.json', manifest)
+            (run / 'COMPLETE').write_text(flow.digest(run / 'manifest.json'))
+            with self.assertRaisesRegex(ValueError, 'extra view'):
+                flow.load_run(self.path, rid)
+            shutil.rmtree(run)
+
+    def add_run(self, **kwargs):
+        return IterationTests.add_run(self, **kwargs)
+
+    def review(self, rid, passed=True):
+        return IterationTests.review(self, rid, passed)
+
+    def test_review_template_and_validation_use_the_runs_own_views(self):
+        rid, _ = self.add_run(extra_views=['underside'])
+        review = self.review(rid)
+        self.assertEqual(list(review['images']), [*flow.VIEWS, 'underside'])
+        review['parts'][0]['views'] = ['underside']
+        flow.save_review(self.path, review)
+        self.assertEqual(flow.status(self.path)['status'], 'READY_FOR_DETAIL')
+
+    def test_extra_view_not_in_run_is_rejected(self):
+        rid, _ = self.add_run()
+        review = self.review(rid)
+        review['parts'][0]['views'] = ['underside']
+        with self.assertRaisesRegex(ValueError, 'Evidence views'):
+            flow.save_review(self.path, review)
+        review = self.review(rid)
+        review['images']['underside'] = flow.digest(self.path / 'brief.json')
+        with self.assertRaisesRegex(ValueError, 'six actual'):
+            flow.save_review(self.path, review)
+        review = self.review(rid, False)
+        review['defects'][0]['view'] = 'top-down'
+        with self.assertRaisesRegex(ValueError, 'Each defect'):
+            flow.save_review(self.path, review)
+
+    def test_run_with_extras_requires_their_hashes_and_ignores_other_extras(self):
+        rid, _ = self.add_run(extra_views=['underside'])
+        review = self.review(rid)
+        review['images'].pop('underside')
+        with self.assertRaisesRegex(ValueError, 'six actual'):
+            flow.save_review(self.path, review)
+        review = self.review(rid)
+        review['parts'][0]['views'] = ['top-down']
+        with self.assertRaisesRegex(ValueError, 'Evidence views'):
+            flow.save_review(self.path, review)
+        review = self.review(rid, False)
+        review['defects'][0]['view'] = 'underside'
+        flow.save_review(self.path, review)
+
+    def test_extra_views_do_not_relax_hidden_part_gate(self):
+        rid, _ = self.add_run(extra_views=['underside', 'top-down'])
+        for visibility in ('hidden', 'unclear'):
+            review = self.review(rid)
+            review['parts'][0].update(visibility=visibility, views=['underside', 'top-down'])
+            with self.assertRaisesRegex(ValueError, 'Hidden/unclear'):
+                flow.save_review(self.path, review)
+        # The honest outcome is still available: BLOCKED with actionable defects.
+        review['visual']['status'] = review['content']['status'] = 'BLOCKED'
+        review['defects'] = [{'view': 'underside', 'detail': 'Still unclear', 'requestedChange': 'Show it'}]
+        flow.save_review(self.path, review)
+        self.assertEqual(flow.status(self.path)['content'], 'BLOCKED')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,95 @@
+import * as THREE from 'three';
+import contractJson from '../../examples/microbit/node-contract.json';
+import {ResourceScope,type Asset,type Channel,type PartInfo} from './runtime';
+import {base,parseGLB} from './assets';
+interface Contract {schemaVersion:1;units:'m';parts:{id:string;label:string}[];pickable:Record<string,string>;caps:Record<string,string>;pressTravelMeters:number;ledRest:{color:string;roughness:number};ledEmissive:{color:string;maxIntensity:number;brightnessGamma:number};ledGrid:{columns:number;rows:number;maxBrightness:number}}
+const contract=contractJson as Contract;
+const LED_PART=/^led_([0-4])_([0-4])$/;
+// Logo touch feedback: a fraction of the button travel plus a warm emissive tint when its material is private.
+const LOGO_TRAVEL=.4,LOGO_TINT=0xffb000,LOGO_TINT_INTENSITY=.6;
+type Std=THREE.Material&{color:THREE.Color;emissive:THREE.Color;emissiveIntensity:number};
+const hasEmissive=(m:unknown):m is Std=>m instanceof THREE.Material&&(m as Partial<Std>).color instanceof THREE.Color&&(m as Partial<Std>).emissive instanceof THREE.Color&&typeof (m as Partial<Std>).emissiveIntensity==='number';
+// Depress along the node's local Y (expressed in its parent's space) from a stored rest position; never accumulates.
+class Plunger{
+ private rest:THREE.Vector3;private axis:THREE.Vector3;
+ constructor(private node:THREE.Object3D,private travel:number){this.rest=node.position.clone();this.axis=new THREE.Vector3(0,1,0).applyQuaternion(node.quaternion)}
+ set(v:number){if(v<=0)this.node.position.copy(this.rest);else this.node.position.copy(this.rest).addScaledVector(this.axis,-this.travel*Math.min(v,1))}
+}
+export function createMicrobit(source:THREE.Object3D):Asset{
+ const nodes=new Map<string,THREE.Object3D>(),known=new Set(contract.parts.map(p=>p.id));
+ source.traverse(o=>{
+  const id=o.userData.part_id;if(typeof id!=='string'||!known.has(id))return;
+  if(nodes.has(id))throw new Error('Invalid micro:bit model: duplicate part_id '+id);nodes.set(id,o);
+ });
+ for(const p of contract.parts)if(!nodes.has(p.id))throw new Error('Invalid micro:bit model: missing part_id '+p.id);
+ // Every LED needs its own material, otherwise lighting one LED would light the others (or other parts).
+ const owners=new Map<THREE.Material,string>(),ledMaterials=new Map<string,Std>();
+ for(const p of contract.parts){
+  const node=nodes.get(p.id)!,isLed=LED_PART.test(p.id);
+  if(isLed&&!(node instanceof THREE.Mesh&&!Array.isArray(node.material)&&hasEmissive(node.material)))throw new Error('Invalid micro:bit model: '+p.id+' must be a mesh with a single emissive material');
+  if(p.id==='logo_touch'&&!(node instanceof THREE.Mesh&&!Array.isArray(node.material)&&node.material instanceof THREE.MeshStandardMaterial))throw new Error('Invalid micro:bit model: logo_touch must be a mesh with a single MeshStandardMaterial (needs an emissive colour for touch feedback)');
+  if(node instanceof THREE.Mesh&&!Array.isArray(node.material)){
+   const prior=owners.get(node.material);
+   if(prior!==undefined&&(isLed||LED_PART.test(prior)))throw new Error('Invalid micro:bit model: '+p.id+' and '+prior+' must use a distinct material each');
+   owners.set(node.material,p.id);if(isLed)ledMaterials.set(p.id,node.material as Std);
+  }
+ }
+ const ledColor=new THREE.Color(contract.ledEmissive.color),maxIntensity=contract.ledEmissive.maxIntensity,maxBrightness=contract.ledGrid.maxBrightness;
+ // The LED look is applied here, not stored in the GLB: a dark body (the exported packages are near-white and would wash the red out) and an unlit emissive.
+ const restColor=new THREE.Color(contract.ledRest.color);
+ for(const m of ledMaterials.values()){m.color.copy(restColor);if(m instanceof THREE.MeshStandardMaterial)m.roughness=contract.ledRest.roughness;m.emissive.copy(ledColor);m.emissiveIntensity=0}
+ const root=new THREE.Group();root.add(source);root.updateMatrixWorld(true);
+ const scope=new ResourceScope();
+ // Drive tables are built before the anchors are measured so the rest pose is what gets measured.
+ const plungers=new Map<Channel,Plunger[]>(),press=(channel:Channel,plunger:Plunger)=>plungers.set(channel,[...(plungers.get(channel)??[]),plunger]);
+ for(const [id,channel] of Object.entries(contract.caps))press(channel as Channel,new Plunger(nodes.get(id)!,contract.pressTravelMeters));
+ const logoNode=nodes.get('logo_touch')!,logoPlunger=new Plunger(logoNode,contract.pressTravelMeters*LOGO_TRAVEL);
+ // The logo must never tint a material another mesh uses (exporters deduplicate freely), so a shared one is replaced by a private clone.
+ // The clone lives on the mesh before base() tracks the root, so the asset scope disposes it with everything else.
+ if(!(logoNode instanceof THREE.Mesh&&logoNode.material instanceof THREE.MeshStandardMaterial))throw new Error('unreachable');
+ const uses=new Map<THREE.Material,number>();
+ source.traverse(o=>{if(o instanceof THREE.Mesh)for(const m of Array.isArray(o.material)?o.material:[o.material])uses.set(m,(uses.get(m)??0)+1)});
+ if((uses.get(logoNode.material)??0)>1)logoNode.material=logoNode.material.clone();
+ // The real logo is an open ring, so a press at its centre would fall through the hole onto the board. An invisible box over the ring's footprint,
+ // parented to the logo so it moves with it, makes the whole footprint pressable. The node contract and the visible geometry are unchanged.
+ logoNode.geometry.computeBoundingBox();
+ const footprint=logoNode.geometry.boundingBox!,hit=new THREE.Mesh(new THREE.BoxGeometry(...footprint.getSize(new THREE.Vector3()).toArray()),new THREE.MeshBasicMaterial({visible:false}));
+ hit.position.copy(footprint.getCenter(new THREE.Vector3()));logoNode.add(hit);
+ const logoMaterial=logoNode.material as THREE.MeshStandardMaterial;
+ const logoRest=logoMaterial&&{color:logoMaterial.emissive.clone(),intensity:logoMaterial.emissiveIntensity};
+ const channels:Channel[]=['a','b','logo'];
+ for(let y=0;y<5;y++)for(let x=0;x<5;x++)channels.push(`led.${x}.${y}` as Channel);
+ const topAnchor=(object:THREE.Object3D)=>{
+  const box=new THREE.Box3().setFromObject(object),top=new THREE.Vector3((box.min.x+box.max.x)/2,box.max.y,(box.min.z+box.max.z)/2);
+  return root.worldToLocal(top);
+ };
+ const parts:PartInfo[]=contract.parts.map(p=>{
+  const info:PartInfo={id:p.id,label:p.label,anchor:topAnchor(nodes.get(p.id)!)},channel=contract.pickable[p.id];
+  if(channel)info.channel=channel as Channel;return info;
+ });
+ const pickable=contract.pickable as Record<string,Channel>;
+ // Brightness is shaped by a gamma so a dim LED (80/255) reads clearly dimmer than a full one after the viewer's tone mapping.
+ const set=(channel:Channel,value:number)=>{
+  const v=Number.isFinite(value)?value:0,led=/^led\.([0-4])\.([0-4])$/.exec(channel);
+  if(led){ledMaterials.get(`led_${led[1]}_${led[2]}`)!.emissiveIntensity=(THREE.MathUtils.clamp(v,0,maxBrightness)/maxBrightness)**contract.ledEmissive.brightnessGamma*maxIntensity;return}
+  const level=THREE.MathUtils.clamp(v,0,1);
+  if(channel==='a'||channel==='b')for(const p of plungers.get(channel)??[])p.set(level);
+  else if(channel==='logo'){
+   logoPlunger.set(level);
+   if(logoMaterial&&logoRest){if(level>0){logoMaterial.emissive.set(LOGO_TINT);logoMaterial.emissiveIntensity=LOGO_TINT_INTENSITY*level}else{logoMaterial.emissive.copy(logoRest.color);logoMaterial.emissiveIntensity=logoRest.intensity}}
+  }
+ };
+ const asset=base(root,scope,channels,{control:topAnchor(root)},set);
+ asset.parts=parts;
+ asset.pick=object=>{for(let o:THREE.Object3D|null=object;o;o=o.parent){const id=o.userData.part_id;if(typeof id==='string'&&Object.prototype.hasOwnProperty.call(pickable,id))return pickable[id]}return undefined};
+ return asset;
+}
+export async function loadMicrobit(url:string,signal:AbortSignal):Promise<Asset>{
+ const gltf=await parseGLB(url,signal);let asset:Asset;
+ // A scene replaced during parsing must surface as an abort, never as a contract error about a model nobody wants any more.
+ if(signal.aborted){const scope=new ResourceScope();scope.track(gltf.scene);scope.dispose();throw new DOMException('Scene replaced','AbortError')}
+ try{asset=createMicrobit(gltf.scene)}
+ catch(error){const scope=new ResourceScope();scope.track(gltf.scene);scope.dispose();throw error}
+ if(signal.aborted){asset.dispose();throw new DOMException('Scene replaced','AbortError')}
+ return asset;
+}

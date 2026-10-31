@@ -6,7 +6,7 @@ const material=(color:number,metalness=.1)=>new THREE.MeshStandardMaterial({colo
 function mesh(root:THREE.Object3D,geometry:THREE.BufferGeometry,mat:THREE.Material,x=0,y=0,z=0){
  const m=new THREE.Mesh(geometry,mat);m.position.set(x,y,z);m.castShadow=true;m.receiveShadow=true;root.add(m);return m;
 }
-function base(root:THREE.Group,scope:ResourceScope,channels:Channel[],anchors:Record<string,THREE.Vector3>,set:Asset['set'],clips:THREE.AnimationClip[]=[],mixer?:THREE.AnimationMixer):Asset{
+export function base(root:THREE.Group,scope:ResourceScope,channels:Channel[],anchors:Record<string,THREE.Vector3>,set:Asset['set'],clips:THREE.AnimationClip[]=[],mixer?:THREE.AnimationMixer):Asset{
  scope.track(root);
  // Scene time controls repetition. Every clip samples once and holds its endpoint.
  const asset:Asset={root,channels,anchors,clips,clipIndex:0,set,
@@ -69,12 +69,16 @@ export function createBuiltin(kind:string):Asset{
  const mixer=new THREE.AnimationMixer(root);mixer.clipAction(clip).play();
  return base(root,scope,[],{control:new THREE.Vector3(0,2.2,0)},()=>{},[clip,idle],mixer);
 }
-export async function loadGLB(url:string,signal:AbortSignal):Promise<Asset>{
+export async function parseGLB(url:string,signal:AbortSignal):Promise<{scene:THREE.Group;animations:THREE.AnimationClip[]}>{
  const response=await fetch(url,{signal});if(!response.ok)throw new Error('GLB request failed: '+response.status);
  const data=await response.arrayBuffer();const loader=new GLTFLoader();
  // GLB may contain textures and buffers internally; prohibit all external dependencies.
  loader.manager.setURLModifier(path=>{if(path.startsWith('blob:')||path.startsWith('data:'))return path;throw new Error('Use a self-contained GLB without external dependencies')});
  const gltf=await loader.parseAsync(data,'');
+ return {scene:gltf.scene,animations:gltf.animations};
+}
+export async function loadGLB(url:string,signal:AbortSignal):Promise<Asset>{
+ const gltf=await parseGLB(url,signal);
  const root=new THREE.Group();root.add(gltf.scene);const scope=new ResourceScope();scope.track(root);
  const mixer=new THREE.AnimationMixer(root);if(gltf.animations[0])mixer.clipAction(gltf.animations[0]).play();
  const asset=base(root,scope,[],{control:new THREE.Vector3(0,2,0)},()=>{},gltf.animations,mixer);

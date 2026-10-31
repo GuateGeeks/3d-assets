@@ -1,6 +1,7 @@
 import {describe,it,expect,vi} from 'vitest';
 import * as THREE from 'three';
-import {Runtime,ResourceScope,validateScene,bindHold,projectAnchor} from '../src/runtime';
+import fixtureJson from '../../tests/fixtures/microbit-scene-cases.json';
+import {Runtime,ResourceScope,validateScene,bindHold,projectAnchor,MOMENTARY,channelRange,type Asset,type Channel} from '../src/runtime';
 import {createBuiltin,loadGLB} from '../src/assets';
 const scene = () => ({schemaVersion:1,kind:'scene',id:'test',title:'Test',duration:4,mode:'timeline',instances:[{id:'b',asset:'button',position:[2,0,0],rotation:[0,0,0],scale:[2,2,2]}],tracks:[{target:'b',channel:'pressed',keyframes:[{time:0,value:0},{time:2,value:1},{time:4,value:0}]}]});
 describe('deterministic runtime',()=>{
@@ -142,4 +143,81 @@ it('treats a button named timeline as a binding source, without a reserved ID co
  const s=linked();s.instances[0].id='timeline';s.bindings[0].source='timeline';s.tracks[0].target='timeline';
  const r=new Runtime(validateScene(s));r.add('timeline',createBuiltin('button'));r.add('s',createBuiltin('servo'));
  r.input('timeline','pressed',1);expect(r.value('s','angle')).toBe(90);r.setMode('timeline');r.seek(1);expect(r.value('s','angle')).toBe(45);r.dispose();
+});
+
+const LEDS=Array.from({length:25},(_,i)=>`led.${i%5}.${Math.floor(i/5)}` as Channel);
+const grid=(fill=0,cells:Record<string,number>={})=>Array.from({length:5},(_,y)=>Array.from({length:5},(_,x)=>cells[x+','+y]??fill));
+const stubBoard=():Asset&{sets:[Channel,number][]}=>{const sets:[Channel,number][]=[];return {sets,root:new THREE.Group(),anchors:{},channels:['a','b','logo',...LEDS],clips:[],clipIndex:0,setClip(){},set(c,v){sets.push([c,v])},seek(){},dispose(){}}};
+const boardScene=(extra:Record<string,unknown>={})=>({schemaVersion:1,kind:'scene',id:'mb',title:'MB',duration:4,mode:'interactive',
+ instances:[{id:'mb',asset:'microbit/microbit.glb',behavior:'microbit',position:[0,0,0],rotation:[0,0,0],scale:[1,1,1]}],tracks:[],
+ patternBindings:[{source:'a',target:'mb',released:grid(),pressed:grid(0,{'2,2':255})}],...extra});
+const boardRuntime=(extra:Record<string,unknown>={})=>{const r=new Runtime(validateScene(boardScene(extra)));const a=stubBoard();r.add('mb',a);return {r,a}};
+describe('micro:bit channels and pattern bindings',()=>{
+ it('pattern binding lights LEDs only while source pressed',()=>{
+  const {r}=boardRuntime();expect(r.value('mb','led.2.2')).toBe(0);
+  r.input('mb','a',1);expect(r.value('mb','led.2.2')).toBe(255);
+  r.input('mb','a',0);expect(r.value('mb','led.2.2')).toBe(0);
+ });
+ it('overlapping patterns combine by per-LED maximum',()=>{
+  const {r}=boardRuntime({patternBindings:[{source:'a',target:'mb',released:grid(),pressed:grid(0,{'0,0':100})},{source:'b',target:'mb',released:grid(),pressed:grid(0,{'0,0':200})}]});
+  r.input('mb','a',1);r.input('mb','b',1);expect(r.value('mb','led.0.0')).toBe(200);
+  r.input('mb','b',0);expect(r.value('mb','led.0.0')).toBe(100);
+  r.input('mb','a',0);expect(r.value('mb','led.0.0')).toBe(0);
+ });
+ it('interpolates between released and pressed grids by source value',()=>{
+  const {r}=boardRuntime({patternBindings:[{source:'logo',target:'mb',released:grid(40),pressed:grid(200)}]});
+  expect(r.value('mb','led.4.4')).toBe(40);r.input('mb','logo',.5);expect(r.value('mb','led.4.4')).toBe(120);
+ });
+ it('nonzero released grid is the authored rest pose and survives reset()',()=>{
+  const {r,a}=boardRuntime({patternBindings:[{source:'a',target:'mb',released:grid(0,{'1,3':80}),pressed:grid(255)}]});
+  expect(r.value('mb','led.1.3')).toBe(80);expect(a.sets.some(([c,v])=>c==='led.1.3'&&v===80)).toBe(true);
+  r.input('mb','a',1);expect(r.value('mb','led.1.3')).toBe(255);r.reset();
+  expect(r.value('mb','a')).toBe(0);expect(r.value('mb','led.1.3')).toBe(80);expect(r.value('mb','led.0.0')).toBe(0);
+ });
+ it('interactive input cannot write a pattern-owned LED',()=>{
+  const {r}=boardRuntime();r.input('mb','led.0.0',50);expect(r.value('mb','led.0.0')).toBe(0);
+  expect(r.owner('mb','led.0.0')).toEqual({kind:'pattern',source:'a'});expect(r.owner('mb','a')).toBeUndefined();
+  const free=boardRuntime({patternBindings:[]});free.r.input('mb','led.0.0',999);expect(free.r.value('mb','led.0.0')).toBe(255);
+  free.r.input('mb','a',7);expect(free.r.value('mb','a')).toBe(1);free.r.input('mb','a',-3);expect(free.r.value('mb','a')).toBe(0);
+ });
+ it('timeline track on an LED takes precedence in timeline mode; pattern resumes in interactive mode',()=>{
+  const {r}=boardRuntime({mode:'timeline',tracks:[{target:'mb',channel:'led.2.2',keyframes:[{time:0,value:0},{time:4,value:200}]}]});
+  r.seek(2);expect(r.owner('mb','led.2.2')).toEqual({kind:'timeline'});expect(r.value('mb','led.2.2')).toBe(100);
+  r.input('mb','a',1);expect(r.value('mb','led.2.2')).toBe(100);
+  r.setMode('interactive');expect(r.owner('mb','led.2.2')).toEqual({kind:'pattern',source:'a'});expect(r.value('mb','led.2.2')).toBe(0);
+  r.input('mb','a',1);expect(r.value('mb','led.2.2')).toBe(255);
+ });
+ it('release() frees pressed, a, b and logo',()=>{
+  expect([...MOMENTARY]).toEqual(['pressed','a','b','logo']);
+  const {r}=boardRuntime({patternBindings:[]});for(const c of ['a','b','logo'] as const)r.input('mb',c,1);
+  r.release();for(const c of ['a','b','logo'] as const)expect(r.value('mb',c)).toBe(0);
+  const btn=new Runtime(validateScene(scene()));btn.setMode('interactive');btn.add('b',createBuiltin('button'));btn.input('b','pressed',1);btn.release();expect(btn.value('b','pressed')).toBe(0);
+ });
+ it('A held with B then B released leaves A pattern, never a blank board',()=>{
+  const {r}=boardRuntime({patternBindings:[{source:'a',target:'mb',released:grid(),pressed:grid(0,{'0,0':255})},{source:'b',target:'mb',released:grid(),pressed:grid(0,{'4,4':255})}]});
+  r.input('mb','a',1);r.input('mb','b',1);r.input('mb','b',0);expect(r.value('mb','led.0.0')).toBe(255);expect(r.value('mb','led.4.4')).toBe(0);
+ });
+ it('channel ranges',()=>{
+  expect(channelRange('pressed')).toEqual([0,1]);expect(channelRange('a')).toEqual([0,1]);expect(channelRange('b')).toEqual([0,1]);expect(channelRange('logo')).toEqual([0,1]);
+  expect(channelRange('angle')).toEqual([-180,180]);expect(channelRange('led.3.1')).toEqual([0,255]);
+ });
+});
+describe('shared scene validation fixture',()=>{
+ const fixture=fixtureJson as unknown as {valid:{name:string;scene:unknown}[];invalid:{name:string;scene:unknown}[]};
+ it('every case in both groups has a unique name and a scene object',()=>{
+  expect(fixture.valid.length).toBe(9);expect(fixture.invalid.length).toBe(44);
+  for(const group of [fixture.valid,fixture.invalid])for(const c of group){expect(typeof c.name).toBe('string');expect(c.name.length).toBeGreaterThan(0);expect(typeof c.scene).toBe('object');expect(c.scene).not.toBeNull()}
+  const names=[...fixture.valid,...fixture.invalid].map(c=>c.name);expect(new Set(names).size).toBe(names.length);
+ });
+ for(const c of fixture.valid)it('accepts valid: '+c.name,()=>{expect(()=>validateScene(structuredClone(c.scene))).not.toThrow()});
+ for(const c of fixture.invalid)it('rejects invalid: '+c.name,()=>{expect(()=>validateScene(structuredClone(c.scene))).toThrow()});
+});
+describe('scene camera (authored view)',()=>{
+ const scene=(camera:unknown)=>({schemaVersion:1,kind:'scene',id:'cam',title:'Cam',duration:4,mode:'interactive',instances:[{id:'Board',asset:'microbit.glb',behavior:'microbit',position:[0,0,0],rotation:[0,0,0],scale:[1,1,1]}],tracks:[],camera});
+ it('keeps a valid camera and treats an absent one as the default view',()=>{
+  expect(validateScene(scene({elevation:62,azimuth:0})).camera).toEqual({elevation:62,azimuth:0});
+  const plain=scene(undefined);delete (plain as {camera?:unknown}).camera;expect(validateScene(plain).camera).toBeUndefined();
+ });
+ for(const bad of [{elevation:Number.NaN,azimuth:0},{elevation:Number.POSITIVE_INFINITY,azimuth:0},{elevation:60,azimuth:Number.NEGATIVE_INFINITY},{elevation:60,azimuth:Number.NaN}])
+  it('rejects a non-finite camera value '+JSON.stringify(bad),()=>{expect(()=>validateScene(scene(bad))).toThrow()});
 });

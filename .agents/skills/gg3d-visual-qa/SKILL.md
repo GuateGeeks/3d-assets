@@ -15,6 +15,8 @@ Este protocolo es el QA visual de creación. Para comparar control/UniRig, poses
 
 Compara el asset con el brief y la dirección aprobada; consulta los [criterios](../../../creation-lab/docs/ACCEPTANCE.md). Abre las cinco vistas fuente: `front`, `side`, `back`, `three-quarter` y `wireframe`, más `reimport-three-quarter.png` (seis imágenes en total). La última permite comparar el resultado reimportado. Comprueba escala, silueta, rasgos, lectura de materiales, intersecciones, sombreado y presentación. Un viewport o boceto no cuenta como render final.
 
+Para un activo plano (placa, lámina), las seis vistas nunca muestran la cara inferior y las piezas de ese lado quedan `hidden`/`unclear`: pídelas con `iterate.py run ... --extra-view underside --extra-view top-down` (por run; ver el [workflow](../../../creation-lab/docs/ITERATIVE-WORKFLOW.md), vistas extra) en vez de relajar la regla. El modo `claude` de `iterate.py` es una elección explícita; el revisor sigue siendo un contexto nuevo con imágenes abiertas.
+
 Usa un revisor/contexto distinto del autor y registra modelo y esfuerzo solicitados y reales de todos los roles según el workflow. Registra los estados visual y de contenido aparte del técnico con `PASS`, `FAIL`, `BLOCKED` o `NOT_RUN`, una razón breve y el SHA256 de cada imagen revisada. Identifica cada defecto y la vista que lo demuestra. No apruebes renders ausentes ni conceptos pendientes.
 
 Para modelos educativos, distingue apariencia de exactitud del contenido:

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "reviewer": {
+    "actorId": "unknown-subagent-fresh-context",
+    "model": "claude-opus-5-5",
+    "reasoningEffort": "medium",
+    "note": "requested values; actual served model unconfirmed"
+  },
+  "evidenceFolder": "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r3/",
+  "evidenceHashesVerified": "sha256 of all six PNGs recomputed and equal to the README table (rest ef932360..., a-held 859135a2..., b-held 474f30a3..., logo-held 626cdcbc..., closeup 256f05a2..., page-with-labels 23b135b8...)",
+  "openedImages": [
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r3/rest/3d-lab-2026-10-31T07-55-08-343Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r3/a-held/3d-lab-2026-10-31T07-55-09-202Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r3/b-held/3d-lab-2026-10-31T07-55-10-211Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r3/logo-held/3d-lab-2026-10-31T07-55-10-991Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r3/closeup-a-held/3d-lab-2026-10-31T07-55-15-642Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r3/closeup-a-held/page-with-labels.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/1.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/2.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/3.webp",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/4.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/5.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/scratchpad/r3review_leds_x2.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/scratchpad/r3review_parts_x2.png"
+  ],
+  "visual": {
+    "status": "PASS",
+    "reason": "At the native 1152x820 default view the board is front-facing (USB end up, LED rows horizontal), fills about 73% of the width and two thirds of the height, and is evenly lit with no blown highlights. Lit LEDs (bright orange-red, about RGB 255,104,67) stand out clearly against the near-black unlit LEDs (about 44,31,27) on a slate-grey PCB (83,87,93). There is no clipping or floating geometry that distracts. The remaining problems are cosmetic and non-blocking: the PCB is grey rather than micro:bit black, there is no A/B or pin silkscreen, the background shows only horizontal grid lines with no contact shadow, the press feedback is subtle, and the close-up 'Board' label partly covers an LED."
+  },
+  "content": {
+    "status": "PASS",
+    "reason": "All 25 LEDs, both buttons and the gold touch logo are present in the authored default view. Rest shows 0 lit. A shows a clearly recognisable heart (16 lit), B a smiley (7 lit, with the bottom three mouth LEDs visibly dimmer, deep red) and the logo a check mark (5 lit). All of these are readable without zooming, are distinct from each other and from rest, and match the receipt channels LED for LED. Layout and LED behaviour agree with the reference photos. A teacher could use this in front of a class. The lack of an A/B marking on the board is the main content gap; it is non-blocking because the Hold A/B controls are named and the convention (A on the left) can be taught."
+  },
+  "checks": [
+    {
+      "check": "REST reads as a micro:bit with all 25 LEDs unlit",
+      "status": "PASS",
+      "reason": "This is clearly the micro:bit V2 front: a 5x5 LED matrix in the centre, tactile buttons left and right, the oval gold touch logo at the top with the mic hole and indicator dot to its right, and the edge connector with five ringed pads and fingers at the bottom. Sampling all 25 cells gives 0 lit. The view has no clipping. The side mounting notches next to the buttons match the reference. Differences from the reference: the PCB is mid-grey instead of black, the A/B labels, pin labels 0/1/2/3V/GND and teal corner triangles are missing, and the edge connector has fewer fingers.",
+      "evidence": "rest/3d-lab-2026-10-31T07-55-08-343Z.png, images/1.png, images/3.webp, images/4.png"
+    },
+    {
+      "check": "A held: heart recognisable at default camera, count matches receipt",
+      "status": "PASS",
+      "reason": "Sampled pattern by row: .#.#. / ##### / ##### / .###. / ..#.. = 16 lit. This equals the receipt (a=1, 16 LEDs at 255). It reads as a heart at native size without zooming.",
+      "evidence": "a-held/3d-lab-2026-10-31T07-55-09-202Z.png, scratchpad r3review_leds_x2.png"
+    },
+    {
+      "check": "B held: smiley recognisable, dim mouth distinguishable",
+      "status": "PASS",
+      "reason": "Sampled pattern by row: ..... / .#.#. / ..... / #...# / .+++. = 7 lit, which matches the receipt (eyes and mouth corners at 255, bottom mouth led.1-3.4 at 80). The three dim mouth LEDs render deep red (about 160,38,37). That is easy to tell apart from unlit (44,31,27) and from bright (255,104,67) at native size. Note that the mouth corners are as bright as the eyes, so only the bottom of the mouth is dimmer. That agrees with the receipt, but it is only a partial reading of 'eyes brighter than mouth'.",
+      "evidence": "b-held/3d-lab-2026-10-31T07-55-10-211Z.png, b-held/3d-lab-2026-10-31T07-55-10-211Z.json"
+    },
+    {
+      "check": "Logo held: check mark recognisable, count matches receipt",
+      "status": "PASS",
+      "reason": "Sampled pattern by row: ..... / ....# / ...#. / #.#.. / .#... = 5 lit. This matches the receipt (led.4.1, 3.2, 2.3, 0.3, 1.4) and reads as a check mark at native size.",
+      "evidence": "logo-held/3d-lab-2026-10-31T07-55-10-991Z.png"
+    },
+    {
+      "check": "Patterns distinct from each other and from rest",
+      "status": "PASS",
+      "reason": "Rest (0), heart (16), smiley (7, two brightness levels) and check (5) are different shapes and counts, and the difference is obvious at a glance.",
+      "evidence": "all four default-camera PNGs"
+    },
+    {
+      "check": "Pressed-part feedback (button travel, logo tint)",
+      "status": "PASS",
+      "reason": "Logo: when held, the gold goes noticeably paler and brighter (about 213,191,107 to 239,218,133). That is visible side by side and faintly visible at native size. Buttons: a pixel diff confirms the cap changes (about 500 px differ), and enlarged it sits slightly lower. At native size the 0.5 mm travel is not discernible. This does not matter for the teaching goal, because the LED reaction is the feedback a student watches. It would help to make the cue clearer (see defects).",
+      "evidence": "rest/, a-held/, b-held/, logo-held/ PNGs; scratchpad r3review_parts_x2.png"
+    },
+    {
+      "check": "Close-up with labels: legibility and occlusion",
+      "status": "PASS",
+      "reason": "The close-up heart is very clear (16 lit, matches the receipt). The 'Touch logo' and 'Board' labels are legible. The 'Board' label sits over LED (2,1) and partly covers it. The buttons are cropped out at minimum zoom, so their labels cannot be checked in this screenshot. The overlay texts 'Ready · 1 object', 'Drag to orbit · Scroll to zoom' and 'Frame scene' have very low contrast against the scene. The inspector readout 'A pressed · B released · Logo released · 16 LEDs lit' is legible and correct.",
+      "evidence": "closeup-a-held/3d-lab-2026-10-31T07-55-15-642Z.png, closeup-a-held/page-with-labels.png"
+    },
+    {
+      "check": "Default framing and orientation",
+      "status": "PASS",
+      "reason": "The USB end is at the top and the LED rows are horizontal. Both buttons and the logo are visible, and the board spans x 158-995 and y 170-718 of the 1152x820 canvas. The 62-degree elevation adds mild keystoning (the lower LED rows are wider), but this does not hurt legibility. The board sits a little low: 170 px of empty space above, 100 px below.",
+      "evidence": "rest/3d-lab-2026-10-31T07-55-08-343Z.png"
+    },
+    {
+      "check": "Ground, grid, shadow, background, exposure",
+      "status": "PASS",
+      "reason": "The light grey background (238,239,237) gives good contrast with the board and the exposure is even. The background shows only horizontal grid lines (like ruled paper), and the board has no contact shadow, so it reads slightly as floating. Both are cosmetic.",
+      "evidence": "all default-camera PNGs"
+    }
+  ],
+  "defects": [
+    {
+      "view": "default (all states)",
+      "severity": "non-blocking",
+      "what": "The board has no 'A' / 'B' marking, unlike the real board (reference 1, 2, 4), so a student cannot tell from the board itself which button is A. The pin labels 0/1/2/3V/GND are also missing.",
+      "requestedChange": "Add A and B silkscreen labels (white, next to each button, as on the real board), and ideally the pin labels, or show persistent 'A'/'B' anchor labels in the default view."
+    },
+    {
+      "view": "default (all states)",
+      "severity": "non-blocking",
+      "what": "The PCB is mid slate-grey (83,87,93) rather than the near-black of the real micro:bit, which makes it look less like the real board.",
+      "requestedChange": "Darken the PCB toward near-black while keeping unlit LEDs distinguishable from the board, for example by giving the unlit LED housings a slight sheen or a slightly lighter dark-brown."
+    },
+    {
+      "view": "a-held / b-held (native size)",
+      "severity": "non-blocking",
+      "what": "Button cap travel (0.5 mm) is not discernible at the default camera. Only the LEDs show that a press happened.",
+      "requestedChange": "Optionally add a visible press cue on the cap (a tint or highlight while held), as the logo already has."
+    },
+    {
+      "view": "b-held",
+      "severity": "non-blocking",
+      "what": "Only the bottom three mouth LEDs are dimmed. The mouth corners (0,3) and (4,3) are as bright as the eyes, so 'eyes brighter than mouth' holds only partly.",
+      "requestedChange": "If the intent is that the whole mouth is dimmer, set led.0.3 and led.4.3 to the dim level too. Otherwise, document the intended brightness map."
+    },
+    {
+      "view": "closeup-a-held page-with-labels",
+      "severity": "non-blocking",
+      "what": "The 'Board' anchor label partly covers lit LED (2,1). The overlay texts 'Ready · 1 object', 'Drag to orbit · Scroll to zoom' and 'Frame scene' have very low contrast against the dark board and gold pads.",
+      "requestedChange": "Anchor the 'Board' label off the LED matrix (for example on the PCB margin). Give the hint and status overlays a solid or translucent backing for contrast."
+    },
+    {
+      "view": "default (all states)",
+      "severity": "non-blocking",
+      "what": "The background shows only horizontal ground-grid lines and the board has no contact shadow, so the board reads slightly as floating on ruled paper. The board also sits slightly low in the frame (170 px above, 100 px below).",
+      "requestedChange": "Hide the grid or render it fully (both axes, faded) for this scene, add a soft contact shadow, and nudge the camera target so the margins above and below are equal."
+    }
+  ]
+}

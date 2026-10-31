@@ -38,6 +38,30 @@ Build the preview first as documented. Create a new project/run for a changed so
 preserve the previous input inventory and evidence. A GLB is optional interchange;
 executable interaction remains source plus runtime and scene data.
 
+## Real-asset part contracts (micro:bit V2 lessons)
+
+For a GLB whose parts the runtime drives (`behavior: "microbit"`, contract in
+`studio/examples/microbit/node-contract.json`), these decisions held up:
+
+- Contract by `extras.part_id`, each id exactly once on a node, one Blender object per
+  part, each LED one primitive on a material no other node uses (an exporter that
+  merges materials breaks per-LED light). Press caps need unrotated, unscaled
+  ancestors. Run `python3 creation-lab/experiments/microbit-v2/check_contract.py GLB`
+  before installing; the factory rejects a bad GLB by part name.
+- The LED rest look (`ledRest`) and brightness mapping (`ledEmissive`, intensity
+  = `maxIntensity * (value/255)^brightnessGamma`) are applied by the factory at load.
+  They are not in the GLB, so a lab visual PASS on renders does not cover them.
+- Scene fields: `behavior`, `patternBindings` (heart/smile/check stand-ins, not
+  simulator output) and an authored `camera` `{elevation, azimuth}`. Centimetre-size
+  assets rely on the scale-aware stage (near plane, zoom limits, shadow follow the
+  world size); do not rescale the asset to make the viewer cooperate.
+- Test the real asset on first contact, not only a synthetic board: the open-ring
+  touch logo let a click at its centre fall through to the PCB until the factory
+  parented an invisible hit box to it.
+- Judge product captures at the viewer's default camera with a fresh blind reviewer.
+  The lab renders passing did not mean the interactive product read: two of three
+  Studio rounds failed on LED look and default camera before passing.
+
 ## Provider recovery
 
 Prepare the exact transport request and persist submission intent before a paid call.

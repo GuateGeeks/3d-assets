@@ -1,6 +1,7 @@
 # Modelos y esfuerzo
 
-El workflow activo usa exclusivamente Sol/Luna. La asignación es una propuesta
+El workflow activo usa Sol/Luna por defecto (el modo `claude` existe solo por
+elección explícita; ver más abajo). La asignación es una propuesta
 operativa para iterar; aún no es un resultado de benchmark completo. Los pilotos
 históricos conservan sus autores, modelos, esfuerzos y calificaciones originales.
 El protocolo detallado vive en [ITERATIVE-WORKFLOW.md](ITERATIVE-WORKFLOW.md).
@@ -46,6 +47,20 @@ ejecución blockout y la primera detail. Se recomiendan al menos tres autorías 
 para un piloto; no equivalen al benchmark completo de seis briefs. Volver a ejecutar
 un script existente no crea una autoría nueva. Separa los gates técnico, visual y
 de contenido, conserva fallos y no infieras costo/tokens sin telemetría disponible.
+
+El modo `claude` (`iterate.py init --mode claude`) es una elección explícita que no
+cambia el default Sol/Luna ni constituye un benchmark. Solo admite IDs exactos:
+
+| Rol | IDs admitidos en `claude` |
+| --- | --- |
+| Coordinación | `claude-sonnet-5-5`, `claude-opus-5-5` |
+| Autoría | `claude-sonnet-5-5`, `claude-opus-5-5`, `claude-haiku-5-5` |
+| Revisión (contexto nuevo e independiente) | `claude-opus-5-5`, `claude-sonnet-5-5` |
+
+Los esfuerzos son los de siempre. Los IDs Claude siguen rechazados en `sol`,
+`mixed` y `luna`; los IDs Sol/Luna y los alias (`sonnet`, `opus`, ...) se rechazan
+en `claude`. No se afirma superioridad medida; registra modelo y esfuerzo
+solicitados y reales por rol, sin inventar IDs de agente, uso ni coste.
 
 El modo operativo mixto usa Sol para coordinación/revisión y permite autores
 Sol o Luna; los modos puros usan solo Sol o solo Luna también para su revisión

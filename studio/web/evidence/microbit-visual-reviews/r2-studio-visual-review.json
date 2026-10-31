@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "reviewer": {
+    "actorId": "unknown-subagent-fresh-context",
+    "model": "claude-opus-5-5",
+    "reasoningEffort": "medium",
+    "note": "requested values; actual served model unconfirmed"
+  },
+  "openedImages": [
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r2/rest/3d-lab-2026-10-31T07-41-56-224Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r2/a-held/3d-lab-2026-10-31T07-41-57-240Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r2/b-held/3d-lab-2026-10-31T07-41-58-319Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r2/logo-held/3d-lab-2026-10-31T07-41-59-366Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r2/topdown-a-held/3d-lab-2026-10-31T07-42-04-043Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r2/topdown-b-held/3d-lab-2026-10-31T07-42-05-108Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r2/topdown-logo-held/3d-lab-2026-10-31T07-42-05-892Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r2/closeup-a-held/3d-lab-2026-10-31T07-42-11-543Z.png",
+    "/home/adawolfs/projects/makecode/3d-assets-microbit-v2/studio/web/evidence/microbit-20261031-r2/closeup-a-held/page-with-labels.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/1.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/2.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/3.webp",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/4.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/images/5.png",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/scratchpad/r2review_default_leds_grid.png (my 3x crop of the LED area, default camera, rest/A/B/logo)",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/scratchpad/r2review_default_1x.png (my 1x side-by-side of the four default-camera states)",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/scratchpad/r2review_topdown_leds.png (my first top-down crop; rotation direction was wrong, discarded)",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/scratchpad/r2review_topdown_leds_upright.png (my 2x top-down crops rotated 34 degrees so USB is up)",
+    "/tmp/claude-1000/-home-adawolfs-projects-makecode-3d-assets/512a9441-9706-4b43-af04-b90df11ad0bc/scratchpad/r2review_feedback_parts.png (my 3x crops of button A, button B and logo across rest/A/B/logo)"
+  ],
+  "visual": {
+    "status": "FAIL",
+    "reason": "Rendering quality is good: clean exposure, no clipping or floating, lit LEDs (orange-red) are easy to tell from unlit LEDs (dark brown) against the grey board at normal size, and the B mouth LEDs read as a darker crimson than the eyes. It fails on legibility at the viewer's DEFAULT camera: the camera sits only about 24 degrees above the board and about 35 degrees off-axis (receipt camera position 0.051, 0.046, 0.072 m around a target near the board centre), and the 5x5 matrix covers only about 300 x 130 px of the 1152 x 820 canvas. The grid is foreshortened into a skewed parallelogram, so the patterns themselves cannot be reliably read at normal size. In the top-down extra views all three patterns are clear."
+  },
+  "content": {
+    "status": "FAIL",
+    "reason": "All 25 LEDs, buttons A/B and the touch logo are present. Each input drives exactly the LEDs the receipt lists (16 / 7 / 5 lit, positions checked against led.X.Y in the upright top-down crops), and the three states are clearly different from each other and from rest. The teaching goal, however, is that a student recognises a heart, a smiley and a check mark, and at the default camera they do not. A: the heart reads as a red diamond-shaped blob, and you only see it as a heart if you already expect one. B: four bright LEDs and three dim ones scattered across the skewed grid do not read as a face. Logo: the check mark's long stroke is nearly horizontal on screen and reads as a row of four plus one, not a tick. The patterns are recognisable only in the top-down extra view, which is not the product default (and is still turned about 34 degrees on screen)."
+  },
+  "checks": [
+    {
+      "check": "Rest: board reads as a micro:bit V2 with 25 unlit LEDs",
+      "status": "PASS",
+      "reason": "Outline, 5 ring pads with edge-connector fingers, two tactile buttons either side of a 5x5 matrix, gold oval touch logo above the matrix, mic/LED dots and USB at the top match reference photos 1/2/4. All 25 LEDs are dark brown and unlit. The simplifications (grey rather than near-black PCB, no silkscreen, no A/B or 0/1/2/3V/GND labels, no green corner triangles) still leave it recognisable.",
+      "evidence": "rest/3d-lab-2026-10-31T07-41-56-224Z.png, topdown-*.png, images/1.png, 2.png, 4.png"
+    },
+    {
+      "check": "Rest: artefacts (floating, clipping, ground, shadow, grid, scale)",
+      "status": "PASS",
+      "reason": "I saw no clipping, floating or z-fighting. The board sits on the ground at a plausible relative scale. Minor: there is no visible contact shadow, and at the default camera the ground grid shows only as a band of compressed horizontal lines in the top quarter, with nothing near the board. Neither is blocking.",
+      "evidence": "rest/3d-lab-2026-10-31T07-41-56-224Z.png, topdown-a-held/3d-lab-2026-10-31T07-42-04-043Z.png"
+    },
+    {
+      "check": "Lit LED count matches receipt channels (all captures)",
+      "status": "PASS",
+      "reason": "Counts: A 16 in default, top-down and close-up. B 7 (4 bright at led.1.1, 3.1, 0.3, 4.3 plus 3 dim at led.1.4, 2.4, 3.4 = 80). Logo 5 (led.4.1, 3.2, 2.3, 1.4, 0.3). Rest 0. In the upright top-down crops the positions match the receipt grid exactly: heart, smile with dim mouth, and check mark.",
+      "evidence": "a-held, b-held, logo-held, topdown-a/b/logo-held, closeup-a-held PNG+JSON; scratchpad r2review_topdown_leds_upright.png"
+    },
+    {
+      "check": "Lit vs unlit LED contrast at normal viewing size",
+      "status": "PASS",
+      "reason": "Saturated orange-red emissive against dark-brown unlit packages on a mid-grey board is easy to tell apart at 1x in every capture. The previous round's legibility problem is fixed for individual LED state.",
+      "evidence": "a-held, b-held, logo-held PNGs; scratchpad r2review_default_1x.png"
+    },
+    {
+      "check": "Pattern recognisable at the DEFAULT camera (heart / smiley / check)",
+      "status": "FAIL",
+      "reason": "The low, off-axis default camera shears the 5x5 grid into a parallelogram whose rows run diagonally. At normal size the heart is borderline (it reads as a diamond blob). The smiley is not recognisable, and the check mark is not recognisable (its long arm looks horizontal). A student would see that something lit up, and would see a different amount for each button, but not which shape.",
+      "evidence": "a-held/3d-lab-2026-10-31T07-41-57-240Z.png, b-held/3d-lab-2026-10-31T07-41-58-319Z.png, logo-held/3d-lab-2026-10-31T07-41-59-366Z.png; scratchpad r2review_default_leds_grid.png"
+    },
+    {
+      "check": "Pattern recognisable in the top-down EXTRA views",
+      "status": "PASS",
+      "reason": "Viewed from straight above, the heart, the smiley (eyes, mouth corners and dim mouth) and the check mark are all clearly recognisable, even with the board rotated about 34 degrees on screen. Mentally rotating it helps, but it is not required for the heart or the check.",
+      "evidence": "topdown-a-held, topdown-b-held, topdown-logo-held PNGs; scratchpad r2review_topdown_leds_upright.png"
+    },
+    {
+      "check": "Three patterns distinguishable from each other and from rest",
+      "status": "PASS",
+      "reason": "This holds even at the default camera: 16 vs 7 (with visibly darker crimson LEDs) vs 5 lit LEDs, in different regions of the matrix, against all-dark at rest.",
+      "evidence": "scratchpad r2review_default_1x.png"
+    },
+    {
+      "check": "B: dim mouth LEDs distinguishable from bright eyes",
+      "status": "PASS",
+      "reason": "The mouth LEDs (value 80) render deep crimson, the eyes and corners (255) bright orange-red, and unlit LEDs dark brown. The difference is clear in the top-down view and visible but subtle at 1x at the default camera.",
+      "evidence": "b-held/3d-lab-2026-10-31T07-41-58-319Z.png, topdown-b-held/3d-lab-2026-10-31T07-42-05-108Z.png"
+    },
+    {
+      "check": "Pressed-part feedback (button cap travel, logo tint)",
+      "status": "PASS",
+      "reason": "In 3x crops the A cap and B cap sit visibly lower when held (pixel diff is confined to the cap). At normal size the 0.5 mm travel is effectively invisible, as expected on a 5 cm board. The logo turns a paler, brighter yellow when held, which is subtle but noticeable at 1x. For the teaching goal the LED response and the inspector's channel readout carry the feedback, so the invisible cap travel is acceptable.",
+      "evidence": "a-held, b-held, logo-held vs rest PNGs; scratchpad r2review_feedback_parts.png"
+    },
+    {
+      "check": "Close-up with labels: legibility and occlusion",
+      "status": "PASS",
+      "reason": "The labels (Button A cap, Button A, Board, Touch logo, Button B cap, Button B) are small but legible dark-on-light pills, and none covers an LED. 'Touch logo' sits over the logo's centre and 'Button A' over the A housing, which is acceptable. The inspector shows 'A pressed . B released . Logo released . 16 LEDs lit', and the Hold A control has a visible focus ring. The heart at the minimum zoom distance is still oblique and reads as a diamond-ish cluster rather than a clean heart. Minor: the canvas's 'Frame scene' text at lower right is low-contrast against the gold pad and dark board.",
+      "evidence": "closeup-a-held/page-with-labels.png, closeup-a-held/3d-lab-2026-10-31T07-42-11-543Z.png"
+    },
+    {
+      "check": "Overall lighting, exposure, colours, background",
+      "status": "PASS",
+      "reason": "Even, neutral lighting with no blown highlights or crushed blacks. The gold pads and logo read as gold, and the light grey background separates the board well. The board is mid-grey rather than the real board's near-black, which lowers realism but helps LED contrast.",
+      "evidence": "all evidence PNGs"
+    }
+  ],
+  "defects": [
+    {
+      "view": "default camera (rest, a-held, b-held, logo-held)",
+      "severity": "blocking",
+      "what": "The default camera is low (about 24 degrees elevation) and off-axis (about 35 degrees azimuth), with the LED matrix only about 300 x 130 px of an 1152 x 820 canvas. The 5x5 grid is foreshortened and sheared, so the heart is borderline and the smiley and check mark are not recognisable at normal viewing size.",
+      "requestedChange": "Make the default framing look at the LED face from roughly 55 to 70 degrees elevation, with the azimuth aligned so the board's USB end is at the top of the screen and the matrix rows are horizontal. Frame it tighter so the matrix fills a larger share of the canvas while still showing both buttons and the logo. Then recapture rest/A/B/logo as new evidence and confirm all three patterns are recognisable at 1x."
+    },
+    {
+      "view": "topdown extra views",
+      "severity": "non-blocking",
+      "what": "Even at 90 degrees elevation the board is rotated about 34 degrees on screen, so the patterns are tilted.",
+      "requestedChange": "If a top-down or front preset is offered, align its azimuth with the board's long axis so the USB end is up."
+    },
+    {
+      "view": "default camera button feedback",
+      "severity": "non-blocking",
+      "what": "The 0.5 mm button-cap travel is not discernible at normal size; it is visible only at 3x zoom.",
+      "requestedChange": "Optional: add a brief tint or rim highlight on the pressed cap, similar to the logo tint, so the pressed button is identifiable at normal size."
+    },
+    {
+      "view": "rest / default camera",
+      "severity": "non-blocking",
+      "what": "There is no contact shadow under the board, and at the default camera the ground grid appears only as a band of compressed stripes far behind the board.",
+      "requestedChange": "Optional: add a soft contact shadow, and fade or space the grid so it does not form a stripe band at the top of the frame."
+    },
+    {
+      "view": "rest / all",
+      "severity": "non-blocking",
+      "what": "The front face has no silkscreen: no 'A'/'B' markings next to the buttons and no 0/1/2/3V/GND pin labels, both of which the real board shows (reference 1/2/4). Students lose an on-board cue for which button is A.",
+      "requestedChange": "Optional (asset change, needs its own provenance): add A/B and pin labels to the front face, or rely on the viewer's part labels."
+    },
+    {
+      "view": "closeup-a-held page-with-labels",
+      "severity": "non-blocking",
+      "what": "The 'Frame scene' canvas control text at lower right is low-contrast where it overlaps the gold pad and dark board.",
+      "requestedChange": "Give the control a solid background chip."
+    }
+  ]
+}
