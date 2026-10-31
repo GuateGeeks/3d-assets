@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "kind": "microbit-evidence-summary",
+  "url": "http://127.0.0.1:4395/?scene=project/scene.json",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "rendering": "SwiftShader software WebGL via headless Chromium; GPU performance NOT_RUN",
+  "checks": [
+    {
+      "name": "project scene loaded from the project inventory",
+      "status": "PASS",
+      "detail": [
+        {
+          "url": "http://127.0.0.1:4395/project/microbit.glb",
+          "status": 200,
+          "contentType": "model/gltf-binary",
+          "sha256": "b12143d94deda3faaae36c154bc2177a5c9f1c6deccb102947d5e27a7fe13687",
+          "bytes": 1117164
+        },
+        {
+          "url": "http://127.0.0.1:4395/project/microbit.glb",
+          "status": 200,
+          "contentType": "model/gltf-binary",
+          "sha256": "b12143d94deda3faaae36c154bc2177a5c9f1c6deccb102947d5e27a7fe13687",
+          "bytes": 1117164
+        }
+      ]
+    },
+    {
+      "name": "rest: no LED lit",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "a-held: pointer hold lights the a pattern",
+      "status": "PASS",
+      "detail": {
+        "readout": "A released · B released · Logo released · 0 LEDs lit",
+        "lit": [
+          "0,1",
+          "0,2",
+          "1,0",
+          "1,1",
+          "1,2",
+          "1,3",
+          "2,1",
+          "2,2",
+          "2,3",
+          "2,4",
+          "3,0",
+          "3,1",
+          "3,2",
+          "3,3",
+          "4,1",
+          "4,2"
+        ]
+      }
+    },
+    {
+      "name": "b-held: pointer hold lights the b pattern",
+      "status": "PASS",
+      "detail": {
+        "readout": "A released · B released · Logo released · 0 LEDs lit",
+        "lit": [
+          "0,3",
+          "1,1",
+          "1,4",
+          "2,4",
+          "3,1",
+          "3,4",
+          "4,3"
+        ]
+      }
+    },
+    {
+      "name": "logo-held: pointer hold lights the logo pattern",
+      "status": "PASS",
+      "detail": {
+        "readout": "A released · B released · Logo released · 0 LEDs lit",
+        "lit": [
+          "0,3",
+          "1,4",
+          "2,3",
+          "3,2",
+          "4,1"
+        ]
+      }
+    },
+    {
+      "name": "top-down view reached (camera elevation above 80 degrees)",
+      "status": "PASS",
+      "detail": {
+        "elevationDegrees": 90
+      }
+    },
+    {
+      "name": "topdown-a-held: keyboard hold lights the a pattern in the top-down view",
+      "status": "PASS",
+      "detail": {
+        "lit": [
+          "0,1",
+          "0,2",
+          "1,0",
+          "1,1",
+          "1,2",
+          "1,3",
+          "2,1",
+          "2,2",
+          "2,3",
+          "2,4",
+          "3,0",
+          "3,1",
+          "3,2",
+          "3,3",
+          "4,1",
+          "4,2"
+        ]
+      }
+    },
+    {
+      "name": "topdown-b-held: keyboard hold lights the b pattern in the top-down view",
+      "status": "PASS",
+      "detail": {
+        "lit": [
+          "0,3",
+          "1,1",
+          "1,4",
+          "2,4",
+          "3,1",
+          "3,4",
+          "4,3"
+        ]
+      }
+    },
+    {
+      "name": "topdown-logo-held: keyboard hold lights the logo pattern in the top-down view",
+      "status": "PASS",
+      "detail": {
+        "lit": [
+          "0,3",
+          "1,4",
+          "2,3",
+          "3,2",
+          "4,1"
+        ]
+      }
+    },
+    {
+      "name": "closeup: keyboard hold of A lights the heart with Anchors on",
+      "status": "PASS",
+      "detail": {
+        "overlays": {
+          "anchors": true,
+          "bounds": false,
+          "rig": false
+        },
+        "distance": 0.0516
+      }
+    },
+    {
+      "name": "closeup is closer than the default framing",
+      "status": "PASS",
+      "detail": {
+        "closeup": 0.0516,
+        "rest": 0.09735
+      }
+    },
+    {
+      "name": "every receipt records the SHA-256 and size of its PNG",
+      "status": "PASS",
+      "detail": [
+        "rest",
+        "a-held",
+        "b-held",
+        "logo-held",
+        "topdown-a-held",
+        "topdown-b-held",
+        "topdown-logo-held",
+        "closeup-a-held"
+      ]
+    },
+    {
+      "name": "no console errors or warnings other than Chromium's software-WebGL notice",
+      "status": "PASS",
+      "detail": [
+        "warning: [GroupMarkerNotSet(crbug.com/242999)!:A0F02B0064310000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+        "warning: [GroupMarkerNotSet(crbug.com/242999)!:A0F0220464310000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "name": "rest",
+      "png": "rest/3d-lab-2026-10-31T07-41-56-224Z.png",
+      "receipt": "rest/3d-lab-2026-10-31T07-41-56-224Z.json",
+      "sha256": "881665bcc4d1dbfb047c92e201ea55b86b55bbc7acf7e869c4344f083292f4f0",
+      "bytes": 116304,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 0,
+        "b": 0,
+        "logo": 0
+      },
+      "litLeds": [],
+      "cameraDistanceM": 0.09735,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      }
+    },
+    {
+      "name": "a-held",
+      "png": "a-held/3d-lab-2026-10-31T07-41-57-240Z.png",
+      "receipt": "a-held/3d-lab-2026-10-31T07-41-57-240Z.json",
+      "sha256": "d61638c59f6f24ee93da5900e439d0630bafe6560f24ef4514dd00ae437e90cf",
+      "bytes": 114968,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 1,
+        "b": 0,
+        "logo": 0
+      },
+      "litLeds": [
+        "0,1",
+        "0,2",
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3",
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "3,0",
+        "3,1",
+        "3,2",
+        "3,3",
+        "4,1",
+        "4,2"
+      ],
+      "cameraDistanceM": 0.09735,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      }
+    },
+    {
+      "name": "b-held",
+      "png": "b-held/3d-lab-2026-10-31T07-41-58-319Z.png",
+      "receipt": "b-held/3d-lab-2026-10-31T07-41-58-319Z.json",
+      "sha256": "af38c327a9112736a62d10a01b6869fb740360358ef2e3717bc5d76043a28661",
+      "bytes": 116446,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 0,
+        "b": 1,
+        "logo": 0
+      },
+      "litLeds": [
+        "0,3",
+        "1,1",
+        "1,4",
+        "2,4",
+        "3,1",
+        "3,4",
+        "4,3"
+      ],
+      "cameraDistanceM": 0.09735,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      }
+    },
+    {
+      "name": "logo-held",
+      "png": "logo-held/3d-lab-2026-10-31T07-41-59-366Z.png",
+      "receipt": "logo-held/3d-lab-2026-10-31T07-41-59-366Z.json",
+      "sha256": "674a931e115826497c3d2f821a4bdb2dcc75a58835a445fc945ea297550d0d7a",
+      "bytes": 115784,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 0,
+        "b": 0,
+        "logo": 1
+      },
+      "litLeds": [
+        "0,3",
+        "1,4",
+        "2,3",
+        "3,2",
+        "4,1"
+      ],
+      "cameraDistanceM": 0.09735,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      }
+    },
+    {
+      "name": "topdown-a-held",
+      "png": "topdown-a-held/3d-lab-2026-10-31T07-42-04-043Z.png",
+      "receipt": "topdown-a-held/3d-lab-2026-10-31T07-42-04-043Z.json",
+      "sha256": "71b78d577de3a83acb633b34f284582604ad734d28cf25ec1950658a3883a2d0",
+      "bytes": 206207,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 1,
+        "b": 0,
+        "logo": 0
+      },
+      "litLeds": [
+        "0,1",
+        "0,2",
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3",
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "3,0",
+        "3,1",
+        "3,2",
+        "3,3",
+        "4,1",
+        "4,2"
+      ],
+      "cameraDistanceM": 0.09735,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      },
+      "cameraElevationDegrees": 90
+    },
+    {
+      "name": "topdown-b-held",
+      "png": "topdown-b-held/3d-lab-2026-10-31T07-42-05-108Z.png",
+      "receipt": "topdown-b-held/3d-lab-2026-10-31T07-42-05-108Z.json",
+      "sha256": "c352c3c808fd4c5e8306047a63ba1bbfcb885e4d37eace72c6706eb5aeaa8bb8",
+      "bytes": 207756,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 0,
+        "b": 1,
+        "logo": 0
+      },
+      "litLeds": [
+        "0,3",
+        "1,1",
+        "1,4",
+        "2,4",
+        "3,1",
+        "3,4",
+        "4,3"
+      ],
+      "cameraDistanceM": 0.09735,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      },
+      "cameraElevationDegrees": 90
+    },
+    {
+      "name": "topdown-logo-held",
+      "png": "topdown-logo-held/3d-lab-2026-10-31T07-42-05-892Z.png",
+      "receipt": "topdown-logo-held/3d-lab-2026-10-31T07-42-05-892Z.json",
+      "sha256": "5671c22b5f821f001e26463c7a47051b34ffb2e9ae68bdbd7b3b2749b2546dbb",
+      "bytes": 207255,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 0,
+        "b": 0,
+        "logo": 1
+      },
+      "litLeds": [
+        "0,3",
+        "1,4",
+        "2,3",
+        "3,2",
+        "4,1"
+      ],
+      "cameraDistanceM": 0.09735,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      },
+      "cameraElevationDegrees": 90
+    },
+    {
+      "name": "closeup-a-held",
+      "png": "closeup-a-held/3d-lab-2026-10-31T07-42-11-543Z.png",
+      "receipt": "closeup-a-held/3d-lab-2026-10-31T07-42-11-543Z.json",
+      "sha256": "b1e80feb0ed4ba3a083c215177b96e70963a3e675dcdcd5c10bc219fc78249e9",
+      "bytes": 145212,
+      "receiptMatchesPng": true,
+      "channels": {
+        "a": 1,
+        "b": 0,
+        "logo": 0
+      },
+      "litLeds": [
+        "0,1",
+        "0,2",
+        "1,0",
+        "1,1",
+        "1,2",
+        "1,3",
+        "2,1",
+        "2,2",
+        "2,3",
+        "2,4",
+        "3,0",
+        "3,1",
+        "3,2",
+        "3,3",
+        "4,1",
+        "4,2"
+      ],
+      "cameraDistanceM": 0.0516,
+      "anchorsOverlay": {
+        "anchors": true,
+        "bounds": false,
+        "rig": false
+      },
+      "viewport": {
+        "cssWidth": 1152,
+        "cssHeight": 820,
+        "pixelWidth": 1152,
+        "pixelHeight": 820,
+        "devicePixelRatio": 1,
+        "rendererPixelRatio": 1
+      }
+    }
+  ],
+  "console": [
+    "warning: [GroupMarkerNotSet(crbug.com/242999)!:A0F02B0064310000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+    "warning: [GroupMarkerNotSet(crbug.com/242999)!:A0F0220464310000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+  ],
+  "glbRequests": [
+    {
+      "url": "http://127.0.0.1:4395/project/microbit.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "sha256": "b12143d94deda3faaae36c154bc2177a5c9f1c6deccb102947d5e27a7fe13687",
+      "bytes": 1117164
+    },
+    {
+      "url": "http://127.0.0.1:4395/project/microbit.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "sha256": "b12143d94deda3faaae36c154bc2177a5c9f1c6deccb102947d5e27a7fe13687",
+      "bytes": 1117164
+    }
+  ],
+  "pagePng": {
+    "path": "closeup-a-held/page-with-labels.png",
+    "sha256": "326eda53e0f55935ac824f88c33520e5d4b9afe9ec68a7a02f874dff3cdf7bc4"
+  },
+  "status": "PASS"
+}
