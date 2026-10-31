@@ -11,6 +11,10 @@ describe('micro:bit node contract',()=>{
   for(const id of ['pcb','edge_connector','pin_3v','pin_gnd','btn_a_cap','btn_b_cap','logo_touch','led_0_0','led_4_4','usb','reset_btn','battery_socket','speaker','mic','mic_led','processor','antenna','accel_compass'])expect(ids).toContain(id);
   for(const p of contract.parts)expect(p.label.length).toBeGreaterThan(0);
  });
+ it('ledGrid.columns and rows are 5 and match the led_x_y parts (the 5x5 size is hard-coded elsewhere, so the contract must not drift)',()=>{
+  expect(contract.ledGrid.columns).toBe(5);expect(contract.ledGrid.rows).toBe(5);
+  expect(contract.parts.filter(p=>/^led_\d+_\d+$/.test(p.id)).length).toBe(contract.ledGrid.columns*contract.ledGrid.rows);
+ });
  it('fixture builds a board of about 52 x 42 mm',()=>{
   const size=new THREE.Box3().setFromObject(makeContractBoard()).getSize(new THREE.Vector3());
   expect(size.x).toBeCloseTo(.052,3);expect(size.z).toBeCloseTo(.042,3);expect(size.y).toBeLessThan(.01);

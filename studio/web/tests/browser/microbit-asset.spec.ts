@@ -174,6 +174,19 @@ test('Frame scene returns to the authored view after an orbit drag',async({page}
  await page.locator('#frame').click();
  const back=(await receipt(page)).camera;back.position.forEach((v:number,i:number)=>expect(v).toBeCloseTo(authoredCamera.position[i],6));back.target.forEach((v:number,i:number)=>expect(v).toBeCloseTo(authoredCamera.target[i],6));
 });
+test('Frame scene with a zero-size viewport keeps the previous view, and works again once the viewport is back',async({page})=>{
+ await open(page);const authoredCamera=(await receipt(page)).camera,box=(await page.locator('canvas').boundingBox())!,x=box.x+box.width*.9,y=box.y+box.height*.15;
+ await page.mouse.move(x,y);await page.mouse.down();await page.mouse.move(x-160,y+90,{steps:8});await page.mouse.up();
+ const dragged=(await receipt(page)).camera;
+ // display:none gives the host clientWidth = clientHeight = 0 (aspect 0): the fit must be skipped, not sent to an enormous distance.
+ await page.locator('#viewport').evaluate(el=>{(el as HTMLElement).style.display='none'});
+ expect(await page.locator('#viewport').evaluate(el=>[el.clientWidth,el.clientHeight])).toEqual([0,0]);
+ await page.locator('#frame').click();
+ const hidden=(await receipt(page)).camera;hidden.position.forEach((v:number,i:number)=>expect(v).toBeCloseTo(dragged.position[i],6));hidden.target.forEach((v:number,i:number)=>expect(v).toBeCloseTo(dragged.target[i],6));
+ await page.locator('#viewport').evaluate(el=>{(el as HTMLElement).style.display=''});
+ await page.locator('#frame').click();
+ const back=(await receipt(page)).camera;back.position.forEach((v:number,i:number)=>expect(v).toBeCloseTo(authoredCamera.position[i],6));
+});
 test('a scene without a camera keeps the default workbench view exactly',async({page})=>{
  await page.goto('/');await expect(page.getByText('Ready · 3 objects')).toBeVisible();
  const camera=(await receipt(page)).camera;
