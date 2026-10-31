@@ -22,7 +22,7 @@ from reference photos, not measured.
 | File | Purpose |
 | --- | --- |
 | `brief.json` | Lab brief: parts = the node contract, `displayScale` 0.052 m +/- 2 %, budgets, blockout and content checks |
-| `generator_blockout.py` | Blockout generator (`build()`), simple volumes at true positions; the later detail generator refines them |
+| `generator_blockout.py` | Blockout generator (`build()`), simple volumes at true positions, plates with clean Delaunay caps; the later detail generator refines them |
 | `check_contract.py` | Stdlib GLB checker: each `part_id` once, 25 distinct LED materials, size within `displayScale` |
 | `../../tests/test_microbit_contract.py` | Tests for the checker and the brief (synthetic GLBs, no Blender) |
 
@@ -58,7 +58,7 @@ coordinator `claude-sonnet-5-5` medium, id `512a9441-9706-4b43-af04-b90df11ad0bc
 
 | Run ID | Stage | Author (requested) | Technical | Visual | Content | `asset.glb` sha256 |
 | --- | --- | --- | --- | --- | --- | --- |
-| `001-0c91b4d0cb9e` | blockout | `aff01f0d2db1ac83d`, `claude-sonnet-5-5` medium | PASS (46 meshes, 14400 triangles, 41 materials, 51.6 x 42.8 x 11.65 mm; `check_contract.py` PASS) | NOT_RUN (awaiting independent review) | NOT_RUN | `e134696aa431b3db921574c5c3206311f8c94f40edd7f41d9fac4a3ff28deaa9` |
+| `001-0c91b4d0cb9e` | blockout | `aff01f0d2db1ac83d`, `claude-sonnet-5-5` medium | PASS (46 meshes, 14400 triangles, 41 materials, 51.6 x 42.8 x 11.65 mm; `check_contract.py` PASS) | BLOCKED (independent review: six views never show the underside; see correction run 1) | BLOCKED | `e134696aa431b3db921574c5c3206311f8c94f40edd7f41d9fac4a3ff28deaa9` |
 
 Run `001-0c91b4d0cb9e` image hashes (sha256):
 
@@ -77,6 +77,45 @@ back-face parts (USB, reset, battery socket, speaker, microphone, chips, antenna
 sit below the PCB and are not visible in those six images. Supplementary views
 cover them without changing the worker or the run.
 
+### Correction run 1 (blockout)
+
+Same session, new run; spends correction 1 of 2. Reviewer verdict for run 001 was
+visual BLOCKED and content BLOCKED (the six common views never show the underside).
+Run 002 requests the official extra views `--extra-view underside --extra-view top-down`
+(see `docs/ITERATIVE-WORKFLOW.md`, extra views). Generator `generator_blockout.py`
+edited in place (git keeps run 001's version).
+
+| Run ID | Stage | Author (requested) | Technical | Visual | Content | `asset.glb` sha256 |
+| --- | --- | --- | --- | --- | --- | --- |
+| `002-47a9ec5ebe91` | blockout, correction 1 | `aff01f0d2db1ac83d`, `claude-sonnet-5-5` medium | PASS (46 meshes, 16116 triangles, 41 materials, 51.6 x 42.8 x 11.65 mm; reopen PASS, reimport PASS; `check_contract.py` PASS) | NOT_RUN (awaiting independent review) | NOT_RUN | `b9639f821566ea846393df715c57d066762d05cb434b37cc5355d4dde73bc2ca` |
+
+`source.blend` sha256 `3b6c0dcdc5bf19d9f5cec4348099cb18f26dce2e23d0d63e4587a733512b13cd`.
+Image hashes (sha256), under `creation-lab/.local/iterations/20261031T054439Z-105b17e2/runs/002-47a9ec5ebe91/renders/`:
+
+| Image | sha256 |
+| --- | --- |
+| `front.png` | `e1e0b2a5632e7fa305975b8b487649a4757b4a556c023bd30865711968bb447c` |
+| `side.png` | `7615703056fbcbcfdfd1afd1323c98b39dc9841cf66cfdaaf3ea9bb864428f9b` |
+| `back.png` | `e6c529ca002ef52278598095380d8e8b5481ce2fabffa9917a5cc16ab67e236a` |
+| `three-quarter.png` | `e7e1e07d93e261680194b84fa901d108bb44495a0f7ddb55b083a2ec933d533a` |
+| `wireframe.png` | `985eac74a3ffb0a496f455eb7b3849d822e14a004f3e4ee2652bff3b594e2c9c` |
+| `reimport-three-quarter.png` | `bb8c472d638fa4242cc681f0f3633dafe0fb5fc9d76f8754a9cd9141acad3eab` |
+| `underside.png` (extra view) | `727c427bce9afa29e7692ee62eb706a221fe7ec1ea82faf5f3a321b07dd80b35` |
+| `top-down.png` (extra view) | `ae4f2b985e6eb3ac96066c9e132135c19865042e06d7ca14fe414723b0637340` |
+
+Changes from run 001 (reviewer defects): speaker enlarged to a 10 mm diamond and
+processor reduced to 5.5 mm; antenna is now a thin zigzag trace (0.7 mm wide)
+instead of an 8 x 9 mm pad; reset body 4.5 mm; distinct blockout tones for the
+back components; `mic_led` 1.3 mm and red; PCB caps re-triangulated (constrained
+Delaunay with a 2.6 mm hex Steiner grid, subdivided outline; smallest cap angle
+7.6 degrees instead of 0.007). The stray wire lines outside the board in run 001's
+wireframe were the WIREFRAME modifier's even-offset spikes on those sliver
+triangles, not stray geometry; the sliver fan was real and is fixed.
+
+`deferred` (detail stage): gold fingers and ring pads on the back face of the edge
+connector and pin parts (reviewer defect 3); front/side/back low-elevation views are
+a renderer matter, covered by the extra views.
+
 ### Supplementary views (supplementary, not part of the common six-view renderer)
 
 `render_extra_views.py` (sha256 `c2fac1322f7742c7e703c65db0bda811d4cd437d541dd088c36bbe61e34bd653`)
@@ -91,7 +130,7 @@ mkdir -p SESSION/supplementary
 $PWD/creation-lab/benchmarks/claude-animal-cell/wsl-blender.sh --background --factory-startup --disable-autoexec --python-exit-code 1 --python $PWD/creation-lab/experiments/microbit-v2/render_extra_views.py -- SESSION/runs/RUN_ID SESSION/supplementary
 ```
 
-Run `001-0c91b4d0cb9e`, folder `creation-lab/.local/iterations/20261031T054439Z-105b17e2/supplementary/001-0c91b4d0cb9e/`
+Historical (run 001, superseded by the official extra views in run 002), folder `creation-lab/.local/iterations/20261031T054439Z-105b17e2/supplementary/001-0c91b4d0cb9e/`
 (source.blend sha256 unchanged, `390e5a5f...`):
 
 | Image | View | sha256 |
