@@ -8,6 +8,7 @@ Importar `components` funciona con Python sin Blender. Solo el adaptador requier
 
 ```python
 from components import CutawayProfile, FlattenedCisterna, sphere
+from components import circle_outline, cylinder, extruded_outline, rounded_box, rounded_rect_outline
 from components import material, mesh_object, validate_mesh
 
 profile = CutawayProfile(radii=(.12, .10, .08), cut_fraction=.15,
@@ -29,6 +30,11 @@ obj = mesh_object('Borde continuo', 'envoltura', shell, mat, smooth=False)
 | `sheet.surface(theta, phi)` | Punto y normal exterior unitaria; theta en `[0,pi]`, phi en radianes. |
 | `sheet.anchor(theta, phi, offset=0)` | Centro desplazado según esa normal, por ejemplo en el radio de un ribosoma. |
 | `validate_mesh(mesh, closed=True, max_triangles=None)` | Finito, sin degenerados, índices válidos, uso de vértices, manifold, winding y volumen exterior. Devuelve conteos y volumen firmado. |
+| `rounded_rect_outline(width, height, radius, segments=6, center=(0, 0))` | Lista `(x, y)` antihoraria, en metros. `radius` de 0 (cuatro esquinas vivas) a `min(width, height)/2`; cada arco de esquina tiene `segments` subdivisiones. Valores no finitos o no positivos lanzan `ValueError`. |
+| `circle_outline(radius, segments=24, center=(0, 0))` | Polígono regular antihorario inscrito en el círculo, primer punto en ángulo 0; `segments >= 3`. |
+| `extruded_outline(outline, holes=(), thickness=0.001, z0=0.0)` | `MeshData` cerrada, manifold y exterior de un contorno plano extruido de `z0` a `z0 + thickness`. El contorno puede ser cóncavo; un contorno horario se normaliza a antihorario y los agujeros pueden venir en cualquier sentido. Los agujeros deben quedar estrictamente dentro y no tocarse, cruzarse ni anidarse (también se rechazan contornos con menos de 3 puntos, puntos repetidos, área nula o autointersección): `ValueError`. Tapas por ear clipping tras puentear cada agujero al contorno; paredes de dos triángulos, con las de los agujeros hacia el hueco. Comparte vértices entre tapas y paredes (`2 * (N contorno + N agujeros)` vértices, sin vértices sin usar). Los puentes son diagonales internas, no huecos. |
+| `rounded_box(size, radius, center=(0, 0, 0), segments=3)` | Caja con todas las aristas y esquinas redondeadas por `radius` (`radius < min(size)/2`; 0 da la caja de 12 triángulos). Cubo subdividido con vértices sobre el sólido redondeado, es decir inscrito: el volumen queda por debajo del analítico (aprox. 0.2 % con `segments=3` y 0.6 % con 2 en las pruebas). Volumen analítico: `(a-2r)(b-2r)(c-2r) + 2r[(a-2r)(b-2r)+(b-2r)(c-2r)+(a-2r)(c-2r)] + pi r^2 [(a-2r)+(b-2r)+(c-2r)] + 4/3 pi r^3`. |
+| `cylinder(radius, height, center=(0, 0, 0), segments=24)` | Cilindro cerrado con eje Z centrado en `center`; exactamente `4 * segments` triángulos (abanico en cada tapa desde un vértice central, más `2 * segments` laterales). Los vértices están en el círculo circunscrito. |
 | `mesh_object(name, part_id, mesh, mat, ..., max_triangles=None)` | Objeto final `MESH`, sin modificadores; metadatos `part_id` y versión; Principled obligatorio y normales de esquina fijadas. |
 
 `wall_fraction` reduce proporcionalmente los tres radios interiores; no es grosor
@@ -43,6 +49,16 @@ malla real. Otros ángulos muestrean la superficie analítica; no garantizan
 contacto con el plano facetado. Si se transforma después el objeto, transformar
 también anclajes y normales en ese mismo marco. El radio del anclaje y la
 curvatura pueden exigir separación adicional; comprobarlo en renders.
+
+Las formas de placa (`shapes.py`) son Python puro y devuelven `MeshData` que
+pasa `validate_mesh`. Ejemplo: una placa de 52 x 42 mm con esquinas de 3 mm y
+cinco agujeros: `extruded_outline(rounded_rect_outline(.052, .042, .003),
+[circle_outline(.003, 24, (x, -.0165)) for x in (-.0225, -.01125, 0, .01125, .0225)],
+thickness=.0016)` da 608 triángulos. Un agujero de radio .0035 en x = ±.0225
+sería tangente al borde de 0.026 y se rechaza. Límites: el volumen es el del
+polígono extruido (un círculo de 24 lados pierde ~1.1 % de su área); el ear
+clipping es O(n^3) y está pensado para cientos de puntos, no para miles; no hay
+chaflanes, redondeo por arista ni agujeros que toquen el contorno.
 
 No se incluye tubo todavía: esta biblioteca cubre los fallos repetidos de polos,
 borde/relleno y apoyo de anclajes. No prueba ausencia de cualquier
