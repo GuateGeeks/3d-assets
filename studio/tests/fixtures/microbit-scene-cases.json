@@ -1,0 +1,636 @@
+{
+  "description": "Shared scene-validation cases for the micro:bit channel contract. TypeScript (studio/web/tests/runtime.test.ts) and Python (studio/core.py) must accept every valid case and reject every invalid case. Each case is a complete minimal scene under 'scene'.",
+  "contract": {
+    "channels": {
+      "a|b|logo": "0..1, only on instances with behavior 'microbit'",
+      "led.X.Y": "X column, Y row, each 0..4, origin top-left, value 0..255, only on behavior 'microbit'",
+      "pressed": "0..1, button instances only",
+      "angle": "-180..180, servo instances only"
+    },
+    "behavior": "optional; only the value 'microbit'; only on an asset whose path ends in .glb",
+    "patternBindings": "optional array of at most 100; object with exactly keys source,target,released,pressed; source in a|b|logo; target a microbit instance; (source,target) unique; released and pressed are 5 rows (y) of 5 columns (x) of finite numbers 0..255"
+  },
+  "valid": [
+    {
+      "name": "microbit scene with two pattern bindings and an LED track",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "microbit scene without tracks or pattern bindings",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ]
+      }
+    },
+    {
+      "name": "boundary values: LED 0 and 255, fractional grid values, a and logo tracks at 0 and 1",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.0.0","keyframes":[{"time":0,"value":0},{"time":1,"value":255}]},
+          {"target":"board","channel":"led.4.4","keyframes":[{"time":0,"value":127.5}]},
+          {"target":"board","channel":"a","keyframes":[{"time":0,"value":0},{"time":4,"value":1}]},
+          {"target":"board","channel":"logo","keyframes":[{"time":0,"value":1}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0.5,255,255,255,255],[255,255,255,255,255],[255,255,255,255,255],[255,255,255,255,255],[255,255,255,255,255]]},
+          {"source":"logo","target":"board","released":[[12.5,12.5,12.5,12.5,12.5],[12.5,12.5,12.5,12.5,12.5],[12.5,12.5,12.5,12.5,12.5],[12.5,12.5,12.5,12.5,12.5],[12.5,12.5,12.5,12.5,12.5]],"pressed":[[255,255,255,255,255],[255,255,255,255,255],[255,255,255,255,255],[255,255,255,255,255],[255,255,255,255,255]]}
+        ]
+      }
+    },
+    {
+      "name": "existing button and servo scene is unaffected",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "legacy",
+        "title": "Legacy",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"btn","asset":"button","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]},
+          {"id":"srv","asset":"servo","position":[2,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"btn","channel":"pressed","keyframes":[{"time":0,"value":0},{"time":1,"value":1}]},
+          {"target":"srv","channel":"angle","keyframes":[{"time":0,"value":-180},{"time":4,"value":180}]}
+        ],
+        "bindings": [
+          {"source":"btn","sourceChannel":"pressed","target":"srv","targetChannel":"angle","released":0,"pressed":90}
+        ]
+      }
+    }
+  ],
+  "invalid": [
+    {
+      "name": "LED column 5 is out of range (led.5.0)",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.5.0","keyframes":[{"time":0,"value":10}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "LED row 5 is out of range (led.0.5)",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.0.5","keyframes":[{"time":0,"value":10}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "LED value 256 exceeds 255",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.0.0","keyframes":[{"time":0,"value":256}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "LED value -1 is below 0",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.0.0","keyframes":[{"time":0,"value":-1}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "a value 2 exceeds 1",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"a","keyframes":[{"time":0,"value":2}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "a track on an instance without behavior microbit",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"a","keyframes":[{"time":0,"value":1}]}
+        ],
+        "patternBindings": []
+      }
+    },
+    {
+      "name": "pressed track is button-only, not allowed on a microbit instance",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"pressed","keyframes":[{"time":0,"value":1}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "angle track is servo-only, not allowed on a microbit instance",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"angle","keyframes":[{"time":0,"value":10}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "behavior microbit on a built-in asset",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"button","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [],
+        "patternBindings": []
+      }
+    },
+    {
+      "name": "unknown behavior value",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"arduino","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern grid with 4 rows",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern grid with 4 columns",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255],[255,255,255,255],[255,255,255,255],[0,255,255,255],[0,0,255,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern grid value -1",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[-1,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern grid value 256",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,256]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern grid with a non-finite value (JSON has no NaN; a string stands in for it)",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,"NaN",255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern grid rows are not arrays",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":"heart"},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern binding without pressed grid",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern binding without released grid",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern target is not a microbit instance (plain GLB)",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]},
+          {"id":"plain","asset":"props/plain.glb","position":[1,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"plain","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern target is a built-in button",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]},
+          {"id":"btn","asset":"button","position":[1,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"btn","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern target is an unknown instance",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"ghost","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern source pressed is not a micro:bit channel",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"pressed","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "pattern source led.0.0 is not a momentary channel",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"led.0.0","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "duplicate (source, target) pattern binding",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]},
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]]}
+        ]
+      }
+    },
+    {
+      "name": "extra key on a pattern binding",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": [
+          {"source":"a","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[255,255,255,255,255],[255,255,255,255,255],[0,255,255,255,0],[0,0,255,0,0]],"code":"eval()"},
+          {"source":"b","target":"board","released":[[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],"pressed":[[0,255,0,255,0],[0,255,0,255,0],[0,0,0,0,0],[255,0,0,0,255],[0,255,255,255,0]]}
+        ]
+      }
+    },
+    {
+      "name": "patternBindings is not an array",
+      "scene": {
+        "schemaVersion": 1,
+        "kind": "scene",
+        "id": "microbit-case",
+        "title": "micro:bit case",
+        "duration": 4,
+        "mode": "interactive",
+        "instances": [
+          {"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}
+        ],
+        "tracks": [
+          {"target":"board","channel":"led.2.2","keyframes":[{"time":0,"value":0},{"time":2,"value":255},{"time":4,"value":0}]}
+        ],
+        "patternBindings": null
+      }
+    }
+  ]
+}
