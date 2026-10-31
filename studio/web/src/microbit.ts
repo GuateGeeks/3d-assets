@@ -48,6 +48,11 @@ export function createMicrobit(source:THREE.Object3D):Asset{
  const uses=new Map<THREE.Material,number>();
  source.traverse(o=>{if(o instanceof THREE.Mesh)for(const m of Array.isArray(o.material)?o.material:[o.material])uses.set(m,(uses.get(m)??0)+1)});
  if((uses.get(logoNode.material)??0)>1)logoNode.material=logoNode.material.clone();
+ // The real logo is an open ring, so a press at its centre would fall through the hole onto the board. An invisible box over the ring's footprint,
+ // parented to the logo so it moves with it, makes the whole footprint pressable. The node contract and the visible geometry are unchanged.
+ logoNode.geometry.computeBoundingBox();
+ const footprint=logoNode.geometry.boundingBox!,hit=new THREE.Mesh(new THREE.BoxGeometry(...footprint.getSize(new THREE.Vector3()).toArray()),new THREE.MeshBasicMaterial({visible:false}));
+ hit.position.copy(footprint.getCenter(new THREE.Vector3()));logoNode.add(hit);
  const logoMaterial=logoNode.material as THREE.MeshStandardMaterial;
  const logoRest=logoMaterial&&{color:logoMaterial.emissive.clone(),intensity:logoMaterial.emissiveIntensity};
  const channels:Channel[]=['a','b','logo'];

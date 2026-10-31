@@ -105,7 +105,9 @@ export function mountPreview(host:HTMLElement):()=>void{
    spec.instances.forEach((i,index)=>{
     const b=document.createElement('button');b.dataset.id=i.id;b.setAttribute('aria-label',i.id+' / '+String(index+1).padStart(2,'0'));
     const name=document.createElement('span');name.textContent=i.id;const number=document.createElement('small');number.textContent=String(index+1).padStart(2,'0');b.append(name,number);b.addEventListener('click',()=>select(i.id));q('#objects').append(b);
-    const tag=document.createElement('button');tag.className='anchor-label';tag.dataset.id=i.id;tag.textContent=i.id;tag.addEventListener('click',()=>select(i.id));labels.append(tag);
+    const tag=document.createElement('button');tag.className='anchor-label';tag.dataset.id=i.id;tag.textContent=i.id;
+    // A board with pickable parts is pressed through its own surface, so its instance label (which hovers over the model) must not intercept those presses; the object list still selects it.
+    if(next.assets.get(i.id)?.parts)tag.style.pointerEvents='none';tag.addEventListener('click',()=>select(i.id));labels.append(tag);
    });
    // One label per part of an asset that declares parts. The per-instance loop above assumes one anchor per instance, so these live in their own layer.
    for(const [id,a] of next.assets)for(const part of a.parts??[]){

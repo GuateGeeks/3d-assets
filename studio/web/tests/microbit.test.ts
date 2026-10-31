@@ -98,3 +98,33 @@ describe('logo feedback never mutates a shared material',()=>{
   expect(()=>createMicrobit(board)).toThrow(/logo_touch.*MeshStandardMaterial/);
  });
 });
+describe('touch logo hit area',()=>{
+ // A ring: the natural place to press is an open hole, so the factory must add an invisible hit area over the footprint.
+ const ringBoard=()=>{
+  const board=makeContractBoard(),logo=part(board,'logo_touch'),shape=new THREE.Shape().absarc(0,0,.003,0,Math.PI*2,false);
+  shape.holes.push(new THREE.Path().absarc(0,0,.0018,0,Math.PI*2,true));
+  const geometry=new THREE.ExtrudeGeometry(shape,{depth:.0003,bevelEnabled:false});geometry.rotateX(-Math.PI/2);geometry.translate(logo.position.x,.0008,logo.position.z);
+  logo.geometry.dispose();logo.geometry=geometry;logo.position.set(0,0,0);return board;
+ };
+ const down=(root:THREE.Object3D,x:number,z:number)=>{const r=new THREE.Raycaster(new THREE.Vector3(x,.1,z),new THREE.Vector3(0,-1,0));return r.intersectObject(root,true)[0]};
+ it('the ring fixture is open at its centre: a ray straight down reaches the board',()=>{
+  const board=ringBoard();board.updateMatrixWorld(true);expect(down(board,0,-.016).object.userData.part_id).toBe('pcb');
+ });
+ it('a ray through the hole of the logo ring picks the logo; rays well outside it still pick nothing',()=>{
+  const asset=createMicrobit(ringBoard());asset.root.updateMatrixWorld(true);
+  const hit=down(asset.root,0,-.016);expect(asset.pick!(hit.object)).toBe('logo');
+  expect(asset.pick!(down(asset.root,0,-.0075).object)).toBeUndefined();expect(asset.pick!(down(asset.root,.0105,-.016).object)).toBeUndefined();
+ });
+ it('the hit area is invisible, does not change the bounds, follows the press, and is disposed once with the asset',()=>{
+  const board=ringBoard(),before=new THREE.Box3().setFromObject(board),asset=createMicrobit(board),logo=part(asset.root,'logo_touch');
+  const proxies=logo.children.filter(o=>o instanceof THREE.Mesh) as THREE.Mesh[];expect(proxies.length).toBe(1);
+  const proxy=proxies[0],material=proxy.material as THREE.Material;expect(material.visible).toBe(false);
+  const after=new THREE.Box3().setFromObject(asset.root);expect(after.min.distanceTo(before.min)).toBeLessThan(1e-9);expect(after.max.distanceTo(before.max)).toBeLessThan(1e-9);
+  const low=()=>{asset.root.updateMatrixWorld(true);return new THREE.Box3().setFromObject(proxy).min.y},rest=low();asset.set('logo',1);expect(low()).toBeLessThan(rest);asset.set('logo',0);expect(low()).toBe(rest);
+  const g=vi.spyOn(proxy.geometry,'dispose'),m=vi.spyOn(material,'dispose');asset.dispose();asset.dispose();expect(g).toHaveBeenCalledTimes(1);expect(m).toHaveBeenCalledTimes(1);
+ });
+ it('adds nothing to the node contract: no part_id on the hit area and still one logo_touch',()=>{
+  const asset=createMicrobit(ringBoard());let logos=0;asset.root.traverse(o=>{if(o.userData.part_id==='logo_touch')logos++});expect(logos).toBe(1);
+  expect(asset.parts!.length).toBe(46);
+ });
+});
