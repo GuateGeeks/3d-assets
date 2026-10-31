@@ -1,11 +1,16 @@
 // Functional captures of the micro:bit project through the production preview served by `studio.py preview --project`.
 // The opening view is the scene's authored camera. Set CAPTURE_TOPDOWN=1 for the extra top-down views. Run from studio/web: PREVIEW_URL=http://127.0.0.1:4395/ node scripts/capture-microbit-evidence.mjs <output-directory>
+// The output directory is REQUIRED and must not exist yet or must be empty: the script refuses to write into a folder that already holds files, so reviewed evidence is never overwritten or extended. Use a new folder name for every run.
 // Software rendering (SwiftShader): functional evidence only. It proves what the app reports and draws, not GPU performance and not a visual approval.
 import {chromium} from '@playwright/test';
 import {createHash} from 'node:crypto';
-import {mkdir,readFile,rm,writeFile} from 'node:fs/promises';
+import {mkdir,readdir,readFile,rm,writeFile} from 'node:fs/promises';
 import {join,resolve} from 'node:path';
-const out=resolve(process.argv[2]||'evidence/microbit-20261031-r3');
+if(!process.argv[2]){console.error('usage: node scripts/capture-microbit-evidence.mjs <new-output-directory>  (required; the directory must not exist or must be empty)');process.exit(2)}
+const out=resolve(process.argv[2]);
+// Guard before anything else (the browser is launched further down): never write into a folder that already holds files.
+const existing=await readdir(out).catch(e=>{if(e.code==='ENOENT')return [];throw e});
+if(existing.length){console.error('refusing to run: '+out+' already exists and is not empty ('+existing.length+' entries). Reviewed evidence is never overwritten; choose a new output directory.');process.exit(3)}
 const base=process.env.PREVIEW_URL||'http://127.0.0.1:4395/';
 const url=new URL('?scene=project/scene.json',base).href;
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
