@@ -1,0 +1,211 @@
+{
+ "schemaVersion": 1,
+ "units": "m",
+ "parts": [
+  {
+   "id": "pcb",
+   "label": "Circuit board"
+  },
+  {
+   "id": "edge_connector",
+   "label": "Edge connector"
+  },
+  {
+   "id": "pin_0",
+   "label": "Pin 0"
+  },
+  {
+   "id": "pin_1",
+   "label": "Pin 1"
+  },
+  {
+   "id": "pin_2",
+   "label": "Pin 2"
+  },
+  {
+   "id": "pin_3v",
+   "label": "Pin 3V"
+  },
+  {
+   "id": "pin_gnd",
+   "label": "Pin GND"
+  },
+  {
+   "id": "btn_a",
+   "label": "Button A"
+  },
+  {
+   "id": "btn_b",
+   "label": "Button B"
+  },
+  {
+   "id": "btn_a_cap",
+   "label": "Button A cap"
+  },
+  {
+   "id": "btn_b_cap",
+   "label": "Button B cap"
+  },
+  {
+   "id": "logo_touch",
+   "label": "Touch logo"
+  },
+  {
+   "id": "led_0_0",
+   "label": "LED 0,0"
+  },
+  {
+   "id": "led_1_0",
+   "label": "LED 1,0"
+  },
+  {
+   "id": "led_2_0",
+   "label": "LED 2,0"
+  },
+  {
+   "id": "led_3_0",
+   "label": "LED 3,0"
+  },
+  {
+   "id": "led_4_0",
+   "label": "LED 4,0"
+  },
+  {
+   "id": "led_0_1",
+   "label": "LED 0,1"
+  },
+  {
+   "id": "led_1_1",
+   "label": "LED 1,1"
+  },
+  {
+   "id": "led_2_1",
+   "label": "LED 2,1"
+  },
+  {
+   "id": "led_3_1",
+   "label": "LED 3,1"
+  },
+  {
+   "id": "led_4_1",
+   "label": "LED 4,1"
+  },
+  {
+   "id": "led_0_2",
+   "label": "LED 0,2"
+  },
+  {
+   "id": "led_1_2",
+   "label": "LED 1,2"
+  },
+  {
+   "id": "led_2_2",
+   "label": "LED 2,2"
+  },
+  {
+   "id": "led_3_2",
+   "label": "LED 3,2"
+  },
+  {
+   "id": "led_4_2",
+   "label": "LED 4,2"
+  },
+  {
+   "id": "led_0_3",
+   "label": "LED 0,3"
+  },
+  {
+   "id": "led_1_3",
+   "label": "LED 1,3"
+  },
+  {
+   "id": "led_2_3",
+   "label": "LED 2,3"
+  },
+  {
+   "id": "led_3_3",
+   "label": "LED 3,3"
+  },
+  {
+   "id": "led_4_3",
+   "label": "LED 4,3"
+  },
+  {
+   "id": "led_0_4",
+   "label": "LED 0,4"
+  },
+  {
+   "id": "led_1_4",
+   "label": "LED 1,4"
+  },
+  {
+   "id": "led_2_4",
+   "label": "LED 2,4"
+  },
+  {
+   "id": "led_3_4",
+   "label": "LED 3,4"
+  },
+  {
+   "id": "led_4_4",
+   "label": "LED 4,4"
+  },
+  {
+   "id": "usb",
+   "label": "USB connector"
+  },
+  {
+   "id": "reset_btn",
+   "label": "Reset button"
+  },
+  {
+   "id": "battery_socket",
+   "label": "Battery socket"
+  },
+  {
+   "id": "speaker",
+   "label": "Speaker"
+  },
+  {
+   "id": "mic",
+   "label": "Microphone"
+  },
+  {
+   "id": "mic_led",
+   "label": "Microphone LED"
+  },
+  {
+   "id": "processor",
+   "label": "Processor"
+  },
+  {
+   "id": "antenna",
+   "label": "Radio antenna"
+  },
+  {
+   "id": "accel_compass",
+   "label": "Accelerometer and compass"
+  }
+ ],
+ "pickable": {
+  "btn_a": "a",
+  "btn_b": "b",
+  "btn_a_cap": "a",
+  "btn_b_cap": "b",
+  "logo_touch": "logo"
+ },
+ "caps": {
+  "btn_a_cap": "a",
+  "btn_b_cap": "b"
+ },
+ "pressTravelMeters": 0.0005,
+ "ledEmissive": {
+  "color": "#ff2a1a",
+  "maxIntensity": 3
+ },
+ "ledGrid": {
+  "columns": 5,
+  "rows": 5,
+  "maxBrightness": 255
+ }
+}
