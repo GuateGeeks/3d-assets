@@ -22,8 +22,9 @@ from reference photos, not measured.
 | File | Purpose |
 | --- | --- |
 | `brief.json` | Lab brief: parts = the node contract, `displayScale` 0.052 m +/- 2 %, budgets, blockout and content checks |
-| `generator_blockout.py` | Blockout generator (`build()`), simple volumes at true positions, plates with clean Delaunay caps; the later detail generator refines them |
+| `generator_blockout.py` | Blockout generator (`build()`), simple volumes at true positions, plates with clean Delaunay caps. It keeps its own frozen local `plate()` because the run snapshots that produced reviewed evidence contain it; the reusable version is `refined_plate` in `creation-lab/components/shapes.py`, used by the detail generator |
 | `generator_detail.py` | Detail generator (`build()`): one object per contract part (pieces joined, flat hierarchy, identity transforms), single-material LEDs and touch logo, PCB caps from `components.refined_plate` |
+| `render_extra_views.py` | HISTORICAL. Supplementary renders of run 001 only (the section below). Superseded by the official per-run `--extra-view underside` / `--extra-view top-down` of `iterate.py run`; kept as evidence of how run 001's supplementary images were made. Not part of the flow |
 | `check_contract.py` | Stdlib GLB checker: each `part_id` once and on a mesh node, each LED a single-primitive mesh on a material no other node uses, press caps and their ancestors unrotated and unscaled, size within `displayScale` |
 | `../../tests/test_microbit_contract.py` | Tests for the checker and the brief (synthetic GLBs, no Blender) |
 
@@ -42,12 +43,15 @@ export GG3D_WINDOWS_BLENDER=/path/to/blender.exe
 python3 creation-lab/create.py doctor --blender $PWD/creation-lab/benchmarks/claude-animal-cell/wsl-blender.sh
 python3 creation-lab/iterate.py init --brief creation-lab/experiments/microbit-v2/brief.json --mode claude --actor-id COORDINATOR_ID --model claude-sonnet-5-5 --effort medium
 python3 creation-lab/iterate.py run --session SESSION --generator creation-lab/experiments/microbit-v2/generator_blockout.py --stage blockout --blender $PWD/creation-lab/benchmarks/claude-animal-cell/wsl-blender.sh --actor-id AUTHOR_ID --model claude-sonnet-5-5 --effort medium
+python3 creation-lab/iterate.py run --session SESSION --generator creation-lab/experiments/microbit-v2/generator_blockout.py --stage blockout --blender $PWD/creation-lab/benchmarks/claude-animal-cell/wsl-blender.sh --actor-id AUTHOR_ID --model claude-sonnet-5-5 --effort medium --extra-view underside --extra-view top-down
 python3 creation-lab/iterate.py run --session SESSION --generator creation-lab/experiments/microbit-v2/generator_detail.py --stage detail --blender $PWD/creation-lab/benchmarks/claude-animal-cell/wsl-blender.sh --actor-id AUTHOR_ID --model claude-opus-5-5 --effort medium --extra-view underside --extra-view top-down
 python3 creation-lab/iterate.py review-template --session SESSION --run RUN_ID --output NEW_TEMPLATE.json
 python3 creation-lab/experiments/microbit-v2/check_contract.py SESSION/runs/RUN_ID/asset.glb
 ```
 
-An independent reviewer context opens the six images (eight with the extra views) and fills the template;
+The first blockout command is the run 001 form (six common views only); the second, with
+`--extra-view`, is the form used for correction run 002, and the detail command above
+also passes the two extra views. An independent reviewer context opens the six images (eight with the extra views) and fills the template;
 `iterate.py review` records it. Tests: `python3 -m unittest discover -s creation-lab/tests -p test_microbit_contract.py -v`.
 
 ## Runs
@@ -134,7 +138,9 @@ a renderer matter, covered by the extra views.
 
 ### Supplementary views (supplementary, not part of the common six-view renderer)
 
-`render_extra_views.py` (sha256 `c2fac1322f7742c7e703c65db0bda811d4cd437d541dd088c36bbe61e34bd653`)
+`render_extra_views.py` (sha256 `c2fac1322f7742c7e703c65db0bda811d4cd437d541dd088c36bbe61e34bd653`
+is the version in commit `c10a15c` that rendered run 001's images; its docstring was
+later marked HISTORICAL and its code is unchanged, so the file's current hash differs)
 opens the run's saved `source.blend` read-only and renders with the worker's
 settings (Cycles CPU, 2 threads, 24 samples, 768 px, AgX, same lights and world).
 Output goes to a new folder `<session>/supplementary/<run id>/`; nothing in the
@@ -165,11 +171,51 @@ components snapshot in the run's `code/` includes the new `refined_plate`.
 
 | Run ID | Stage | Author (requested) | Technical | Visual | Content | `asset.glb` sha256 |
 | --- | --- | --- | --- | --- | --- | --- |
-| `003-9621bf5caaca` | detail | `af51c59431c74119a`, `claude-opus-5-5` medium (not confirmed by the runtime) | PASS (46 meshes, 22560 triangles, 43 materials, 51.6 x 43.25 x 11.65 mm, GLB 1117164 bytes; reopen PASS, reimport PASS; `check_contract.py` PASS) | NOT_RUN (pending independent review) | NOT_RUN (pending independent review) | `b12143d94deda3faaae36c154bc2177a5c9f1c6deccb102947d5e27a7fe13687` |
+| `003-9621bf5caaca` | detail | `af51c59431c74119a`, `claude-opus-5-5` medium (not confirmed by the runtime) | PASS (46 meshes, 22560 triangles, 43 materials, 51.6 x 43.25 x 11.65 mm, GLB 1117164 bytes; reopen PASS, reimport PASS; `check_contract.py` PASS) | PASS (recorded review) | PASS (recorded review) | `b12143d94deda3faaae36c154bc2177a5c9f1c6deccb102947d5e27a7fe13687` |
 
 `source.blend` sha256 `ae02eacd2d1f90fa4371dddb3bc084af21c268cb9689e8a409bbfa75a24bf328`.
-Review template (unfilled): `creation-lab/.local/iterations/20261031T054439Z-105b17e2/review-detail-001.json`
+Review template (as generated, before the reviewer filled its copy): `creation-lab/.local/iterations/20261031T054439Z-105b17e2/review-detail-001.json`
 (sha256 `be2cc8411c2d47f6af97c037c3d6ec263b613a9943425ec8367be5fd8e3b97b0`).
+
+**Recorded review of run 003.** File `creation-lab/.local/iterations/20261031T054439Z-105b17e2/reviews/003-9621bf5caaca.json`
+(git-ignored, not copied; sha256 `1e6aa5c99a0d552fe6ea821fd0ff908285a13c6386abe3723325de2357fb138d`).
+Visual PASS, content PASS; all six brief checks PASS; the eight images were opened
+(six common views plus `underside` and `top-down`) together with the reference photos
+and enlarged crops. Reviewer: fresh context, actor id `unknown-subagent-fresh-context`,
+model `claude-opus-5-5`, effort `medium` as requested; the runtime did not confirm the
+model or effort that was served (so "requested, unconfirmed"). Session status after the
+review: **PASS, next `handoff`, corrections used 1 of 2.**
+
+Provenance verdict (separate from technical, visual and content): **PASS**. Author
+GuateGeeks; original geometry from the official hardware specification (outline,
+`tech.microbit.org`) with the reference photos used for proportions only (never
+textures, not included in this repository); MIT licence; no BBC or micro:bit logo, no
+FCC ID and no silkscreen text; every component position and size is an estimate and is
+flagged as such under "Estimates" below. Details in `studio/examples/microbit/PROVENANCE.md`.
+
+Non-blocking defects listed by the reviewer (no correction was spent on them):
+
+1. The edge connector has 14 gold fingers (3/4/4/3 between the pads); the real board
+   has about 20 narrower ones, and none sit outside pins 0 and GND.
+2. On the underside, a small dark component between the reset button and the battery
+   socket touches the reset housing and the JST socket wall (about 0.3 mm of clearance
+   was requested; a possible solid intersection).
+3. The gold ring around each pin hole is about 0.6 mm wide, against about 1 mm on the
+   real board.
+
+Limits stated by the reviewer: the speaker, microphone, processor, antenna and
+accelerometer/compass are visible only in `underside.png` (the standard views show the
+speaker as a sliver); per-LED materials, `part_id` uniqueness and the LED index
+mapping are data-contract properties that renders cannot show, so those rest on the
+technical gate (`check_contract.py` and the Studio factory), not on the renders.
+
+**Final state of the session.** Status PASS, next `handoff`; corrections used 1 of 2.
+The last correction was deliberately not spent (a coordinator decision): the three
+defects above are non-blocking, so no further Blender run was made. The Studio-side changes made
+afterwards (LED rest/lit look, authored scene camera) did not touch the GLB, which is
+unchanged and still has the sha256 above. The Studio product captures were reviewed
+separately and FAILED twice before passing; see `studio/docs/STATUS.md` and
+`studio/web/evidence/microbit-visual-reviews/README.md`.
 
 Image hashes (sha256), under `creation-lab/.local/iterations/20261031T054439Z-105b17e2/runs/003-9621bf5caaca/renders/`:
 
@@ -220,5 +266,3 @@ JST 8.3 x 6.0 x 5.5 mm; reset 6.0 x 5.8 mm. The microphone's port hole is drawn
 on the lid and as a ring on the LED face; which side the real port faces is not
 confirmed. Edge connector: 14 narrow fingers per face at 1.27 mm pitch (the real
 board has more, narrower fingers).
-
-Later tasks append the review and Studio capture runs here.

@@ -1,4 +1,10 @@
-"""Supplementary renders of a finished run: back face, top-down, back three-quarter.
+"""HISTORICAL: supplementary renders of run 001 (back face, top-down, back three-quarter).
+
+Superseded by the official per-run extra views of the iterative flow
+(`iterate.py run ... --extra-view underside --extra-view top-down`, see
+creation-lab/docs/ITERATIVE-WORKFLOW.md), which are hashed into the run manifest and the
+review template. This script is kept unchanged in behaviour only as the record of how the
+run 001 supplementary images were made; new work should not use it.
 
 NOT part of the common six-view renderer (scripts/iteration_worker.py is not
 changed). Run it with Blender on the same adapter, against an existing run:
