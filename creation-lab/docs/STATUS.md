@@ -26,6 +26,7 @@ El detalle de comandos está en [README](../README.md).
 | Relevo desde un clon nuevo | Skills, scripts, locks y diez runs restaurables incluidos; [instalación](../../SETUP.md) y [verificación del repositorio](repository-handoff.json) |
 | API de imágenes y comparación con Claude | NOT_RUN; sin gasto iniciado |
 | Puente MCP oficial | PASS en proceso propio: consulta, creación, render y limpieza; entrada local configurada, carga en este chat NOT_RUN |
+| Modelo micro:bit V2 interactivo (modo `claude`) | Técnico PASS; visual y contenido PASS tras revisión independiente del run de detalle `003-9621bf5caaca`; sesión PASS, siguiente `handoff`, correcciones 1 de 2. Hash GLB `b12143d9…3687`. Los runs `claude` no son benchmark; [experimento](../experiments/microbit-v2/README.md) y [sección de Studio](../../studio/docs/STATUS.md#microbit-v2-interactive-model--2026-10-31) |
 
 ## Evidencia técnica y visual
 
@@ -117,3 +118,22 @@ El [mapa de áreas de trabajo](../../docs/WORKSPACES.md) describe el historial y
 la evidencia local preservada. Las comprobaciones de este corte se registran en
 [el informe de integración](../../docs/integration-20261026.json); no representan
 una nueva revisión visual ni una inferencia UniRig.
+
+## Modelo micro:bit V2 interactivo · 31 de octubre de 2026
+
+Primer uso del modo `claude` de `iterate.py` y de las vistas extra por run
+(`--extra-view underside` y `top-down`, necesarias porque las seis vistas comunes no
+muestran la cara inferior de una placa plana). Blockout: run 001 BLOCKED/BLOCKED
+(visual y contenido), corrección 1 con run 002 PASS/PASS; detalle: run 003 técnico,
+visual y contenido PASS. Estado de la sesión: PASS, siguiente `handoff`, correcciones
+usadas 1 de 2; la última corrección no se gastó a propósito. Los revisores son
+contextos nuevos con modelo `claude-opus-5-5` y esfuerzo `medium` solicitados, sin
+confirmar por el runtime. Tres defectos no bloqueantes (14 dedos del conector frente a
+unos 20, un componente trasero que roza el botón de reset y el zócalo JST, anillos de
+oro más finos) se documentan sin gastar corrección. El asset se instaló en Studio sin
+cambiar el GLB; allí las capturas del producto fallaron dos revisiones visuales (aspecto
+de los LED, cámara por defecto) antes de pasar la tercera, y esos arreglos fueron de
+Studio, no del laboratorio. Detalle, hashes y defectos en el
+[README del experimento](../experiments/microbit-v2/README.md) y en la
+[sección de Studio](../../studio/docs/STATUS.md#microbit-v2-interactive-model--2026-10-31).
+Es un uso concreto, no un benchmark: no dice nada sobre calidad ni coste frente a Sol/Luna.

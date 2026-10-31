@@ -49,4 +49,4 @@ Studio / glTF: Y up, LED face +Y, edge connector toward +Z. Nodes are resolved b
 
 ## Status of this evidence
 
-Visual and content judgements above belong to the lab review of the Blender renders. The Studio captures in `studio/web/evidence/microbit-20261031/` are functional evidence from software rendering; GPU performance is `NOT_RUN`, as is any live MakeCode simulator wiring.
+Visual and content judgements above belong to the lab review of the Blender renders. The Studio product captures were judged separately by three fresh-context reviewers: `studio/web/evidence/microbit-20261031/` (FAIL, FAIL), `-r2` (FAIL, FAIL) and `-r3` (PASS, PASS, at the scene's authored camera); the verdict files and their hashes are in `studio/web/evidence/microbit-visual-reviews/` and the summary in `studio/docs/STATUS.md`. The captures are functional evidence from software rendering; GPU performance is `NOT_RUN`, as is any live MakeCode simulator wiring.
