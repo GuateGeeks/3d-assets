@@ -25,13 +25,17 @@ def load(name, path):
 
 
 def synthetic(width=0.052, shared_led_material=False, duplicate=None, omit=None, parent_scale=1.0,
-              led_shares_with=None, led_two_primitives=False, caps_share_material=False):
+              led_shares_with=None, led_two_primitives=False, caps_share_material=False,
+              logo_two_primitives=False, led_unlit=None, extensions_used=None):
     """Minimal glTF dict: one box node per contract part, each on its own material; the PCB sets the extent.
 
     shared_led_material: led_1_0 reuses led_0_0's material (LED vs LED only).
     led_shares_with: that part reuses led_0_0's material (LED vs a non-LED part).
     led_two_primitives: led_0_0's mesh has two primitives that share one material.
     caps_share_material: btn_b_cap reuses btn_a_cap's material (non-LED sharing is allowed).
+    logo_two_primitives: logo_touch's mesh has two primitives that share one material.
+    led_unlit: that LED's material carries KHR_materials_unlit.
+    extensions_used: written to the glTF's extensionsUsed.
     """
     ids = [p['id'] for p in CONTRACT['parts'] if p['id'] != omit]
     if duplicate:
@@ -52,12 +56,17 @@ def synthetic(width=0.052, shared_led_material=False, duplicate=None, omit=None,
                           'min': [-width/2, -0.001, -0.021] if part == 'pcb' else [-0.001]*3,
                           'max': [width/2, 0.001, 0.021] if part == 'pcb' else [0.001]*3})
         primitive = {'attributes': {'POSITION': len(accessors)-1}, 'material': material_of[part]}
-        primitives = [primitive, dict(primitive)] if led_two_primitives and part == 'led_0_0' else [primitive]
+        two = (led_two_primitives and part == 'led_0_0') or (logo_two_primitives and part == 'logo_touch')
+        primitives = [primitive, dict(primitive)] if two else [primitive]
         meshes.append({'name': part, 'primitives': primitives})
         nodes.append({'name': part+'__node', 'mesh': len(meshes)-1, 'extras': {'part_id': part}})
     gltf = {'asset': {'version': '2.0'}, 'scene': 0, 'scenes': [{'nodes': [len(nodes)]}],
             'nodes': nodes, 'meshes': meshes, 'accessors': accessors, 'materials': materials}
     nodes.append({'name': 'wrapper', 'children': list(range(len(nodes))), 'scale': [parent_scale]*3})
+    if led_unlit:
+        materials[material_of[led_unlit]]['extensions'] = {'KHR_materials_unlit': {}}
+    if extensions_used:
+        gltf['extensionsUsed'] = list(extensions_used)
     return gltf
 
 
@@ -117,6 +126,23 @@ class MicrobitContract(unittest.TestCase):
     def test_led_mesh_with_two_primitives_is_reported(self):
         problems = self.problems(synthetic(led_two_primitives=True))
         self.assertTrue(any('led_0_0' in p and 'exactly one primitive' in p for p in problems), problems)
+
+    def test_logo_touch_mesh_with_two_primitives_is_reported(self):
+        problems = self.problems(synthetic(logo_two_primitives=True))
+        self.assertEqual(len(problems), 1, problems)
+        self.assertIn('logo_touch must be a mesh with exactly one primitive (found 2)', problems[0])
+
+    def test_unlit_led_material_is_reported(self):
+        for extensions_used in (None, ['KHR_materials_unlit']):
+            with self.subTest(extensions_used=extensions_used):
+                problems = self.problems(synthetic(led_unlit='led_2_3', extensions_used=extensions_used))
+                self.assertEqual(len(problems), 1, problems)
+                self.assertIn('led_2_3', problems[0])
+                self.assertIn('KHR_materials_unlit', problems[0])
+                self.assertIn('emissive', problems[0])
+
+    def test_unlit_extension_listed_but_unused_by_leds_passes(self):
+        self.assertEqual(self.problems(synthetic(extensions_used=['KHR_materials_unlit'])), [])
 
     def test_non_led_parts_may_share_a_material(self):
         self.assertEqual(self.problems(synthetic(caps_share_material=True)), [])
@@ -200,6 +226,57 @@ class MicrobitContract(unittest.TestCase):
             failed = subprocess.run([sys.executable, script, str(bad)], capture_output=True, text=True)
             self.assertEqual(failed.returncode, 1)
             self.assertIn('led_3_4', failed.stdout+failed.stderr)
+
+    def run_cli(self, *args):
+        return subprocess.run([sys.executable, str(EXPERIMENT / 'check_contract.py'), *map(str, args)], capture_output=True, text=True)
+
+    def assert_one_line_fail(self, result):
+        self.assertEqual(result.returncode, 1, result.stdout+result.stderr)
+        self.assertNotIn('Traceback', result.stdout+result.stderr)
+        lines = (result.stdout+result.stderr).strip().splitlines()
+        self.assertEqual(len(lines), 1, lines)
+        self.assertTrue(lines[0].startswith('FAIL '), lines)
+
+    def test_unreadable_input_prints_one_fail_line_without_a_traceback(self):
+        good = write_glb  # alias for readability below
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp = Path(tmp)
+            (tmp/'empty.glb').write_bytes(b'')
+            (tmp/'text.glb').write_bytes(b'this is definitely not a binary glTF, just text padding it out')
+            full = tmp/'full.glb'
+            good(full, synthetic())
+            (tmp/'truncated.glb').write_bytes(full.read_bytes()[:200])
+            (tmp/'cut_header.glb').write_bytes(full.read_bytes()[:10])
+            body = b'{not json}'
+            body += b' '*(-len(body) % 4)
+            (tmp/'badjson.glb').write_bytes(struct.pack('<III', 0x46546C67, 2, 20+len(body))+struct.pack('<II', len(body), 0x4E4F534A)+body)
+            nokey = synthetic()
+            nokey['meshes'][0]['primitives'][0]['attributes'] = {}
+            good(tmp/'nokey.glb', nokey)
+            for name in ('empty.glb', 'text.glb', 'truncated.glb', 'cut_header.glb', 'badjson.glb', 'nokey.glb', 'missing.glb'):
+                with self.subTest(name=name):
+                    self.assert_one_line_fail(self.run_cli(tmp/name))
+            self.assertIn('Not a glTF 2.0 binary', self.run_cli(tmp/'text.glb').stdout)
+            self.assertIn('missing.glb', self.run_cli(tmp/'missing.glb').stdout)
+
+    def test_missing_contract_or_brief_file_prints_one_fail_line(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            glb = Path(tmp, 'good.glb')
+            write_glb(glb, synthetic())
+            self.assert_one_line_fail(self.run_cli(glb, '--contract', Path(tmp, 'nope.json')))
+            self.assert_one_line_fail(self.run_cli(glb, '--brief', Path(tmp, 'nope.json')))
+
+    def test_real_glb_still_passes(self):
+        result = self.run_cli(ROOT / 'studio/examples/microbit/microbit.glb')
+        self.assertEqual(result.returncode, 0, result.stdout+result.stderr)
+        self.assertTrue(result.stdout.startswith('PASS'))
+
+    def test_contract_led_grid_is_five_by_five(self):
+        # ledGrid.columns/rows are not read by the code (the 5x5 size is hard-coded in microbit.ts, runtime.ts, core.py and the schema); pin them so the contract cannot drift.
+        grid = CONTRACT['ledGrid']
+        self.assertEqual((grid['columns'], grid['rows']), (5, 5))
+        leds = [p['id'] for p in CONTRACT['parts'] if p['id'].startswith('led_')]
+        self.assertEqual(len(leds), grid['columns']*grid['rows'])
 
     def test_brief_is_valid_and_matches_contract(self):
         iterate = load('iterate', LAB / 'iterate.py')

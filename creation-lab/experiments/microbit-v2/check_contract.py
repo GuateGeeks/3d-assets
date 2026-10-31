@@ -2,16 +2,21 @@
 
     python3 check_contract.py GLB [--contract PATH] [--brief PATH]
 
-Exits 1 and prints one problem per line when the GLB breaks the contract:
-every contract ``part_id`` must appear exactly once in a node's ``extras``
-(Blender custom property ``part_id`` exported with ``export_extras``), each of
-the 25 LED nodes must be a single-primitive mesh on a material that no other node
-(LED or not) uses, as the Studio factory requires, and the board's bounding box
-must match the brief's ``displayScale`` on its longest dimension. Every part must
-sit on a node that carries a mesh, and the press caps (the contract's ``caps``,
-``btn_a_cap`` and ``btn_b_cap``) and all their ancestors must have identity
-rotation and scale: Studio presses a cap along its local Y, which is only the
+Exits 1 and prints one problem per line when the GLB breaks the contract: every
+contract ``part_id`` must appear exactly once in a node's ``extras`` (Blender custom
+property ``part_id`` exported with ``export_extras``); each of the 25 LED nodes must be
+a single-primitive mesh on a material that no other node (LED or not) uses and that is
+not ``KHR_materials_unlit`` (it has no emissive); ``logo_touch`` must be a
+single-primitive mesh; and the board's bounding box must match the brief's
+``displayScale`` on its longest dimension. These are the rules the Studio factory
+enforces. Every part must sit on a node that carries a mesh, and the press caps (the
+contract's ``caps``, ``btn_a_cap`` and ``btn_b_cap``) and all their ancestors must have
+identity rotation and scale: Studio presses a cap along its local Y, which is only the
 board's normal when nothing above it is rotated or scaled.
+
+An input that cannot be read or parsed at all (missing, empty or truncated file, bad
+magic, bad JSON, a glTF missing a key the checks need) prints a single ``FAIL <reason>``
+line and exits 1, never a traceback.
 
 Bounding box: each mesh primitive's POSITION accessor min/max (the eight box
 corners) is carried through the node's full world transform (matrix or
@@ -165,8 +170,13 @@ def check_contract(gltf, contract, display_scale=None):
         part = (node.get('extras') or {}).get('part_id')
         name = part if isinstance(part, str) else f"node {node.get('name', index)}"
         primitives = meshes[node['mesh']].get('primitives', [])
-        if isinstance(part, str) and LED_PART.match(part) and len(primitives) != 1:
+        if isinstance(part, str) and (LED_PART.match(part) or part == 'logo_touch') and len(primitives) != 1:
             problems.append(f'{part} must be a mesh with exactly one primitive (found {len(primitives)})')
+        if isinstance(part, str) and LED_PART.match(part):
+            for material in sorted({p.get('material') for p in primitives if p.get('material') is not None}):
+                if 'KHR_materials_unlit' in (gltf.get('materials', [])[material].get('extensions') or {}):
+                    problems.append(f'{part} material {material} uses KHR_materials_unlit, which has no emissive; '
+                                    f'the Studio factory rejects it (an LED needs an emissive material)')
         for material in sorted({p.get('material') for p in primitives if p.get('material') is not None}):
             owners.setdefault(material, []).append(name)
         if isinstance(part, str) and LED_PART.match(part) and not any(p.get('material') is not None for p in primitives):
@@ -199,9 +209,17 @@ def main(argv=None):
     parser.add_argument('--contract', type=Path, default=DEFAULT_CONTRACT)
     parser.add_argument('--brief', type=Path, default=DEFAULT_BRIEF)
     args = parser.parse_args(argv)
-    contract = json.loads(args.contract.read_text(encoding='utf-8'))
-    scale = json.loads(args.brief.read_text(encoding='utf-8'))['displayScale']
-    problems = check_contract(read_glb_json(args.glb), contract, scale)
+    try:
+        contract = json.loads(args.contract.read_text(encoding='utf-8'))
+        scale = json.loads(args.brief.read_text(encoding='utf-8'))['displayScale']
+        gltf = read_glb_json(args.glb)
+        problems = check_contract(gltf, contract, scale)
+    except (OSError, ValueError, struct.error) as error:  # missing/unreadable file, bad magic, truncation, bad JSON or encoding
+        print('FAIL', f'cannot read or parse input: {error}')
+        return 1
+    except (KeyError, IndexError, TypeError, AttributeError) as error:  # input lacks a key or shape the checks need
+        print('FAIL', f'malformed input, missing or invalid {error!r} (is this a complete glTF, contract and brief?)')
+        return 1
     for problem in problems:
         print('FAIL', problem)
     if problems:
