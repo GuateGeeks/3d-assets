@@ -120,6 +120,31 @@ class CoreTests(unittest.TestCase):
                     with self.assertRaises(ValueError):
                         core.validate_record(scene)
 
+    def test_scene_camera_rejects_bool_and_nonfinite_and_absent_means_default(self):
+        base = copy.deepcopy(self._microbit_cases()['valid'][1]['scene'])
+        self.assertNotIn('camera', base)
+        core.validate_record(copy.deepcopy(base))
+        for good in ({'elevation': 62, 'azimuth': 0}, {'elevation': 5.5, 'azimuth': -180}, {'elevation': 89, 'azimuth': 180.0}):
+            with self.subTest(good=good):
+                scene = copy.deepcopy(base); scene['camera'] = good
+                core.validate_record(scene)
+        for bad in (True, False, float('nan'), float('inf'), float('-inf')):
+            for key in ('elevation', 'azimuth'):
+                with self.subTest(bad=repr(bad), key=key):
+                    scene = copy.deepcopy(base); scene['camera'] = {'elevation': 60, 'azimuth': 0}; scene['camera'][key] = bad
+                    with self.assertRaises(ValueError):
+                        core.validate_record(scene)
+
+    def test_schema_describes_the_scene_camera(self):
+        schema = json.loads((Path(__file__).resolve().parents[1] / 'contracts' / 'records.schema.json').read_text(encoding='utf-8'))
+        scene = next(branch['then'] for branch in schema['allOf'] if branch.get('if', {}).get('properties', {}).get('kind', {}).get('const') == 'scene')
+        camera = scene['properties']['camera']
+        self.assertFalse(camera['additionalProperties'])
+        self.assertEqual(set(camera['required']), {'elevation', 'azimuth'})
+        self.assertEqual((camera['properties']['elevation']['minimum'], camera['properties']['elevation']['maximum']), (5, 89))
+        self.assertEqual((camera['properties']['azimuth']['minimum'], camera['properties']['azimuth']['maximum']), (-180, 180))
+        self.assertNotIn('camera', scene.get('required', []))
+
     def test_schema_lists_microbit_channels(self):
         schema = json.loads((Path(__file__).resolve().parents[1] / 'contracts' / 'records.schema.json').read_text(encoding='utf-8'))
         scene = next(branch['then'] for branch in schema['allOf'] if branch.get('if', {}).get('properties', {}).get('kind', {}).get('const') == 'scene')

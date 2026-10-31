@@ -205,10 +205,19 @@ describe('micro:bit channels and pattern bindings',()=>{
 describe('shared scene validation fixture',()=>{
  const fixture=fixtureJson as unknown as {valid:{name:string;scene:unknown}[];invalid:{name:string;scene:unknown}[]};
  it('every case in both groups has a unique name and a scene object',()=>{
-  expect(fixture.valid.length).toBe(6);expect(fixture.invalid.length).toBe(30);
+  expect(fixture.valid.length).toBe(9);expect(fixture.invalid.length).toBe(44);
   for(const group of [fixture.valid,fixture.invalid])for(const c of group){expect(typeof c.name).toBe('string');expect(c.name.length).toBeGreaterThan(0);expect(typeof c.scene).toBe('object');expect(c.scene).not.toBeNull()}
   const names=[...fixture.valid,...fixture.invalid].map(c=>c.name);expect(new Set(names).size).toBe(names.length);
  });
  for(const c of fixture.valid)it('accepts valid: '+c.name,()=>{expect(()=>validateScene(structuredClone(c.scene))).not.toThrow()});
  for(const c of fixture.invalid)it('rejects invalid: '+c.name,()=>{expect(()=>validateScene(structuredClone(c.scene))).toThrow()});
+});
+describe('scene camera (authored view)',()=>{
+ const scene=(camera:unknown)=>({schemaVersion:1,kind:'scene',id:'cam',title:'Cam',duration:4,mode:'interactive',instances:[{id:'Board',asset:'microbit.glb',behavior:'microbit',position:[0,0,0],rotation:[0,0,0],scale:[1,1,1]}],tracks:[],camera});
+ it('keeps a valid camera and treats an absent one as the default view',()=>{
+  expect(validateScene(scene({elevation:62,azimuth:0})).camera).toEqual({elevation:62,azimuth:0});
+  const plain=scene(undefined);delete (plain as {camera?:unknown}).camera;expect(validateScene(plain).camera).toBeUndefined();
+ });
+ for(const bad of [{elevation:Number.NaN,azimuth:0},{elevation:Number.POSITIVE_INFINITY,azimuth:0},{elevation:60,azimuth:Number.NEGATIVE_INFINITY},{elevation:60,azimuth:Number.NaN}])
+  it('rejects a non-finite camera value '+JSON.stringify(bad),()=>{expect(()=>validateScene(scene(bad))).toThrow()});
 });

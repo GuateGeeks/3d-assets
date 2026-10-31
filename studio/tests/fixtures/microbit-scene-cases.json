@@ -9,7 +9,8 @@
     },
     "behavior": "optional; only the value 'microbit'; only on an asset whose path ends in .glb",
     "non_finite_numbers": "Python json.loads accepts the bare literals NaN, Infinity and -Infinity, which strict JSON (and JSON.parse) rejects. A Python validator must therefore reject non-finite numbers itself with math.isfinite, and treat bool as a non-number (true/false are not numbers). Those checks are not in this fixture; they are covered by the Python unit test studio/tests/test_core.py::CoreTests.test_microbit_grid_and_track_values_reject_bool_and_nonfinite.",
-    "patternBindings": "optional array of at most 100; object with exactly keys source,target,released,pressed; source in a|b|logo; target a microbit instance; (source,target) unique; released and pressed are 5 rows (y) of 5 columns (x) of finite numbers 0..255"
+    "patternBindings": "optional array of at most 100; object with exactly keys source,target,released,pressed; source in a|b|logo; target a microbit instance; (source,target) unique; released and pressed are 5 rows (y) of 5 columns (x) of finite numbers 0..255",
+    "camera": "optional; object with exactly keys elevation and azimuth; elevation a finite number in 5..89 (degrees above the ground plane); azimuth a finite number in -180..180 (0 = camera on the +Z side looking toward -Z; positive turns the camera counter-clockwise seen from above); bool, strings and null are rejected"
   },
   "valid": [
     {
@@ -262,8 +263,21 @@
           {"source":"btn","sourceChannel":"pressed","target":"srv","targetChannel":"angle","released":0,"pressed":90}
         ]
       }
+    },
+    {
+      "name": "authored camera: elevation 62, azimuth 0",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":62,"azimuth":0}}
+    },
+    {
+      "name": "authored camera boundaries: elevation 5 / azimuth -180 and elevation 89 / azimuth 180 are accepted",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":5,"azimuth":-180}}
+    },
+    {
+      "name": "authored camera on a scene without a micro:bit (the field belongs to the scene)",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"board.glb","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":89,"azimuth":180}}
     }
   ],
+
   "invalid": [
     {
       "name": "LED column 5 is out of range (led.5.0)",
@@ -1016,6 +1030,62 @@
         ],
         "patternBindings": null
       }
+    },
+    {
+      "name": "camera elevation 4 is below 5",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":4,"azimuth":0}}
+    },
+    {
+      "name": "camera elevation 90 is above 89",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":90,"azimuth":0}}
+    },
+    {
+      "name": "camera elevation 89.5 is above 89",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":89.5,"azimuth":0}}
+    },
+    {
+      "name": "camera azimuth 181 is above 180",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":60,"azimuth":181}}
+    },
+    {
+      "name": "camera azimuth -181 is below -180",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":60,"azimuth":-181}}
+    },
+    {
+      "name": "camera elevation true (bool is not a number)",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":true,"azimuth":0}}
+    },
+    {
+      "name": "camera azimuth true (bool is not a number)",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":60,"azimuth":true}}
+    },
+    {
+      "name": "camera elevation is a string",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":"60","azimuth":0}}
+    },
+    {
+      "name": "camera with an extra key",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":60,"azimuth":0,"distance":1}}
+    },
+    {
+      "name": "camera missing azimuth",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"elevation":60}}
+    },
+    {
+      "name": "camera missing elevation",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":{"azimuth":0}}
+    },
+    {
+      "name": "camera null",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":null}
+    },
+    {
+      "name": "camera is an array",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":[60,0]}
+    },
+    {
+      "name": "camera is a string",
+      "scene": {"schemaVersion":1,"kind":"scene","id":"microbit-case","title":"micro:bit case","duration":4,"mode":"interactive","instances":[{"id":"board","asset":"microbit/microbit.glb","behavior":"microbit","position":[0,0,0],"rotation":[0,0,0],"scale":[1,1,1]}],"camera":"top"}
     }
   ]
 }

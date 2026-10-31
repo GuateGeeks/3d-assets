@@ -258,6 +258,11 @@ def validate_record(data: dict) -> dict:
             if pair in pairs: raise ValueError('duplicate pattern binding for source and target')
             pairs.add(pair)
             if not _grid(pattern['released']) or not _grid(pattern['pressed']): raise ValueError('pattern grids must be 5x5 numbers within 0..255')
+        if 'camera' in data:
+            camera=data['camera']
+            if (not isinstance(camera,dict) or set(camera)!={'elevation','azimuth'} or not _number(camera['elevation']) or not _number(camera['azimuth'])
+                or not 5<=camera['elevation']<=89 or not -180<=camera['azimuth']<=180):
+                raise ValueError('camera needs finite elevation 5..89 and azimuth -180..180 degrees')
     elif kind == 'project':
         _required(data,'title','scene','files','provenance')
         _inventory(data['files'])

@@ -11,7 +11,8 @@ export type Mode='interactive'|'timeline';
 export interface Instance {id:string;asset:string;position:[number,number,number];rotation:[number,number,number];scale:[number,number,number];behavior?:'microbit'}
 export interface Track {target:string;channel:Channel;keyframes:{time:number;value:number}[]}
 export interface ControlBinding {source:string;sourceChannel:'pressed';target:string;targetChannel:'angle';released:number;pressed:number}
-export interface SceneSpec {schemaVersion:1;kind:'scene';id:string;title:string;duration:number;mode:Mode;instances:Instance[];tracks:Track[];bindings?:ControlBinding[];patternBindings?:PatternBinding[]}
+export interface CameraSpec {elevation:number;azimuth:number}
+export interface SceneSpec {schemaVersion:1;kind:'scene';id:string;title:string;duration:number;mode:Mode;instances:Instance[];tracks:Track[];bindings?:ControlBinding[];patternBindings?:PatternBinding[];camera?:CameraSpec}
 export interface PartInfo {id:string;label:string;anchor:THREE.Vector3;channel?:Channel}
 export interface Asset {parts?:PartInfo[];pick?(object:THREE.Object3D):Channel|undefined;root:THREE.Group;anchors:Record<string,THREE.Vector3>;channels:Channel[];clips:THREE.AnimationClip[];clipIndex:number;setClip(index:number):void;set(channel:Channel,value:number):void;seek(time:number):void;dispose():void}
 export function validateScene(raw:unknown):SceneSpec {
@@ -43,6 +44,10 @@ export function validateScene(raw:unknown):SceneSpec {
   if(!p||typeof p!=='object'||Object.keys(p).sort().join(',')!=='pressed,released,source,target'||!['a','b','logo'].includes(p.source)||typeof p.target!=='string'
    ||s.instances.find(i=>i.id===p.target)?.behavior!=='microbit'||pairs.has(p.source+':'+p.target)||!grid(p.released)||!grid(p.pressed))fail();
   pairs.add(p.source+':'+p.target);
+ }
+ // Optional authored view: elevation above the ground plane (5..89 degrees) and azimuth (-180..180, 0 = camera on the +Z side). Absent means the default view.
+ if(s.camera!==undefined){const c=s.camera as unknown as Record<string,unknown>,num=(v:unknown,lo:number,hi:number)=>typeof v==='number'&&Number.isFinite(v)&&v>=lo&&v<=hi;
+  if(c===null||typeof c!=='object'||Array.isArray(c)||Object.keys(c).sort().join(',')!=='azimuth,elevation'||!num(c.elevation,5,89)||!num(c.azimuth,-180,180))fail();
  }
  return s;
 }
