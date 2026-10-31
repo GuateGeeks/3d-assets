@@ -199,9 +199,14 @@
   "btn_b_cap": "b"
  },
  "pressTravelMeters": 0.0005,
+ "ledRest": {
+  "color": "#1a0e0d",
+  "roughness": 0.6
+ },
  "ledEmissive": {
   "color": "#ff2a1a",
-  "maxIntensity": 3
+  "maxIntensity": 1.2,
+  "brightnessGamma": 1.5
  },
  "ledGrid": {
   "columns": 5,

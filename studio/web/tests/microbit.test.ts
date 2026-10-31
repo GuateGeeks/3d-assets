@@ -33,14 +33,27 @@ describe('createMicrobit',()=>{
   const asset=createMicrobit(makeContractBoard());
   for(let y=0;y<5;y++)for(let x=0;x<5;x++){const m=led(asset.root,x,y);expect(m.emissiveIntensity).toBe(0);expect('#'+m.emissive.getHexString()).toBe(contract.ledEmissive.color)}
  });
+ it('rest look: all 25 LEDs get the contract base colour and roughness at load, whatever the GLB carried',()=>{
+  const board=makeContractBoard();led(board,3,3).color.set(0xffffff);led(board,3,3).roughness=.1;
+  const asset=createMicrobit(board),rest=new THREE.Color(contract.ledRest.color);
+  for(let y=0;y<5;y++)for(let x=0;x<5;x++){const m=led(asset.root,x,y);expect(m.color.getHex()).toBe(rest.getHex());expect(m.roughness).toBe(contract.ledRest.roughness)}
+  expect(rest.r+rest.g+rest.b).toBeLessThan(.1);// a dark body, so the red emission is not washed out
+ });
+ it('lit intensity is monotonic in the channel value and 80 reads clearly dimmer than 255',()=>{
+  const asset=createMicrobit(makeContractBoard()),at=(v:number)=>{asset.set('led.2.2',v);return led(asset.root,2,2).emissiveIntensity};
+  const levels=[0,1,40,80,128,200,255].map(at);for(let i=1;i<levels.length;i++)expect(levels[i]).toBeGreaterThan(levels[i-1]);
+  expect(at(80)/at(255)).toBeLessThanOrEqual(.4);expect(at(255)).toBe(contract.ledEmissive.maxIntensity);expect(at(300)).toBe(contract.ledEmissive.maxIntensity);expect(at(-5)).toBe(0);
+  // Lighting an LED never changes its body colour.
+  asset.set('led.2.2',255);expect(led(asset.root,2,2).color.getHex()).toBe(new THREE.Color(contract.ledRest.color).getHex());
+ });
  it("set('led.1.2',255) lights only that LED to maxIntensity; set(...,0) restores 0",()=>{
   const asset=createMicrobit(makeContractBoard());asset.set('led.1.2',255);
   for(let y=0;y<5;y++)for(let x=0;x<5;x++)expect(led(asset.root,x,y).emissiveIntensity).toBe(x===1&&y===2?contract.ledEmissive.maxIntensity:0);
   asset.set('led.1.2',0);expect(led(asset.root,1,2).emissiveIntensity).toBe(0);
  });
- it("set('led.1.2',128) is half intensity",()=>{
+ it("set('led.1.2',128) follows the contract's brightness curve",()=>{
   const asset=createMicrobit(makeContractBoard());asset.set('led.1.2',128);
-  expect(led(asset.root,1,2).emissiveIntensity).toBeCloseTo(128/255*contract.ledEmissive.maxIntensity,6);
+  expect(led(asset.root,1,2).emissiveIntensity).toBeCloseTo((128/255)**contract.ledEmissive.brightnessGamma*contract.ledEmissive.maxIntensity,6);
  });
  it("set('a',1) moves btn_a_cap down by pressTravelMeters along local Y; set('a',0) restores the exact original position; btn_b_cap untouched",()=>{
   const board=makeContractBoard(),asset=createMicrobit(board);

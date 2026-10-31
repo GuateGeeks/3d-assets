@@ -33,9 +33,10 @@ describe('real Blender micro:bit GLB through the factory',()=>{
   const ids=new Map<string,number>();asset.root.traverse(o=>{const id=o.userData.part_id;if(typeof id==='string')ids.set(id,(ids.get(id)??0)+1)});
   expect(ids.size).toBe(46);for(const n of ids.values())expect(n).toBe(1);
  });
- it('keeps the 25 LED materials distinct, at rest dark with the contract emissive colour',()=>{
+ it('keeps the 25 LED materials distinct, at rest dark with the contract rest look and emissive colour',()=>{
   const seen=new Set<THREE.Material>();
-  for(let y=0;y<5;y++)for(let x=0;x<5;x++){const m=led(asset.root,x,y);seen.add(m);expect(m.emissiveIntensity).toBe(0);expect('#'+m.emissive.getHexString()).toBe(contract.ledEmissive.color)}
+  const rest=new THREE.Color(contract.ledRest.color).getHex();
+  for(let y=0;y<5;y++)for(let x=0;x<5;x++){const m=led(asset.root,x,y);seen.add(m);expect(m.emissiveIntensity).toBe(0);expect('#'+m.emissive.getHexString()).toBe(contract.ledEmissive.color);expect(m.color.getHex()).toBe(rest);expect(m.roughness).toBe(contract.ledRest.roughness)}
   expect(seen.size).toBe(25);
   // No other part shares an LED material.
   asset.root.traverse(o=>{if(o instanceof THREE.Mesh&&!/^led_/.test(o.userData.part_id))expect(seen.has(o.material as THREE.Material)).toBe(false)});

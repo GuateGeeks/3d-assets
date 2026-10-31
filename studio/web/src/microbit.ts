@@ -2,13 +2,13 @@ import * as THREE from 'three';
 import contractJson from '../../examples/microbit/node-contract.json';
 import {ResourceScope,type Asset,type Channel,type PartInfo} from './runtime';
 import {base,parseGLB} from './assets';
-interface Contract {schemaVersion:1;units:'m';parts:{id:string;label:string}[];pickable:Record<string,string>;caps:Record<string,string>;pressTravelMeters:number;ledEmissive:{color:string;maxIntensity:number};ledGrid:{columns:number;rows:number;maxBrightness:number}}
+interface Contract {schemaVersion:1;units:'m';parts:{id:string;label:string}[];pickable:Record<string,string>;caps:Record<string,string>;pressTravelMeters:number;ledRest:{color:string;roughness:number};ledEmissive:{color:string;maxIntensity:number;brightnessGamma:number};ledGrid:{columns:number;rows:number;maxBrightness:number}}
 const contract=contractJson as Contract;
 const LED_PART=/^led_([0-4])_([0-4])$/;
 // Logo touch feedback: a fraction of the button travel plus a warm emissive tint when its material is private.
 const LOGO_TRAVEL=.4,LOGO_TINT=0xffb000,LOGO_TINT_INTENSITY=.6;
-type Std=THREE.Material&{emissive:THREE.Color;emissiveIntensity:number};
-const hasEmissive=(m:unknown):m is Std=>m instanceof THREE.Material&&(m as Partial<Std>).emissive instanceof THREE.Color&&typeof (m as Partial<Std>).emissiveIntensity==='number';
+type Std=THREE.Material&{color:THREE.Color;emissive:THREE.Color;emissiveIntensity:number};
+const hasEmissive=(m:unknown):m is Std=>m instanceof THREE.Material&&(m as Partial<Std>).color instanceof THREE.Color&&(m as Partial<Std>).emissive instanceof THREE.Color&&typeof (m as Partial<Std>).emissiveIntensity==='number';
 // Depress along the node's local Y (expressed in its parent's space) from a stored rest position; never accumulates.
 class Plunger{
  private rest:THREE.Vector3;private axis:THREE.Vector3;
@@ -35,7 +35,9 @@ export function createMicrobit(source:THREE.Object3D):Asset{
   }
  }
  const ledColor=new THREE.Color(contract.ledEmissive.color),maxIntensity=contract.ledEmissive.maxIntensity,maxBrightness=contract.ledGrid.maxBrightness;
- for(const m of ledMaterials.values()){m.emissive.copy(ledColor);m.emissiveIntensity=0}
+ // The LED look is applied here, not stored in the GLB: a dark body (the exported packages are near-white and would wash the red out) and an unlit emissive.
+ const restColor=new THREE.Color(contract.ledRest.color);
+ for(const m of ledMaterials.values()){m.color.copy(restColor);if(m instanceof THREE.MeshStandardMaterial)m.roughness=contract.ledRest.roughness;m.emissive.copy(ledColor);m.emissiveIntensity=0}
  const root=new THREE.Group();root.add(source);root.updateMatrixWorld(true);
  const scope=new ResourceScope();
  // Drive tables are built before the anchors are measured so the rest pose is what gets measured.
@@ -66,9 +68,10 @@ export function createMicrobit(source:THREE.Object3D):Asset{
   if(channel)info.channel=channel as Channel;return info;
  });
  const pickable=contract.pickable as Record<string,Channel>;
+ // Brightness is shaped by a gamma so a dim LED (80/255) reads clearly dimmer than a full one after the viewer's tone mapping.
  const set=(channel:Channel,value:number)=>{
   const v=Number.isFinite(value)?value:0,led=/^led\.([0-4])\.([0-4])$/.exec(channel);
-  if(led){ledMaterials.get(`led_${led[1]}_${led[2]}`)!.emissiveIntensity=THREE.MathUtils.clamp(v,0,maxBrightness)/maxBrightness*maxIntensity;return}
+  if(led){ledMaterials.get(`led_${led[1]}_${led[2]}`)!.emissiveIntensity=(THREE.MathUtils.clamp(v,0,maxBrightness)/maxBrightness)**contract.ledEmissive.brightnessGamma*maxIntensity;return}
   const level=THREE.MathUtils.clamp(v,0,1);
   if(channel==='a'||channel==='b')for(const p of plungers.get(channel)??[])p.set(level);
   else if(channel==='logo'){

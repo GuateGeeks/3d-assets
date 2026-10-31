@@ -35,6 +35,10 @@ The two copies of the GLB (this folder and `studio/web/public/microbit/`) are by
 2. A small dark component on the back, between the reset button and the battery socket, touches the reset housing and the socket wall (possible intersection).
 3. The gold ring around each pin hole is about 0.6 mm wide, thinner than the real rings (about 1 mm).
 
+## LED look is applied by Studio, not stored in the GLB
+
+The GLB is unchanged from the lab-approved run: its 25 LED materials are near-white with no emissive. The micro:bit factory applies the LED look at load from `node-contract.json` (`ledRest`: dark body colour and roughness; `ledEmissive`: red emissive colour, maximum intensity and brightness gamma), so a lit LED reads as a red glow on a dark package. This is a Studio rendering choice, not a property of the Blender asset, and the lab verdicts above do not cover it.
+
 ## Orientation and node contract
 
 Studio / glTF: Y up, LED face +Y, edge connector toward +Z. Nodes are resolved by `extras.part_id` per `node-contract.json` (46 parts, 25 LEDs `led_x_y` with x = column and y = row, origin top-left, each with its own material).
