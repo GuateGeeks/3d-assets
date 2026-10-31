@@ -204,7 +204,11 @@ describe('micro:bit channels and pattern bindings',()=>{
 });
 describe('shared scene validation fixture',()=>{
  const fixture=fixtureJson as unknown as {valid:{name:string;scene:unknown}[];invalid:{name:string;scene:unknown}[]};
- it('has cases in both groups',()=>{expect(fixture.valid.length).toBeGreaterThan(0);expect(fixture.invalid.length).toBeGreaterThanOrEqual(14)});
+ it('every case in both groups has a unique name and a scene object',()=>{
+  expect(fixture.valid.length).toBe(6);expect(fixture.invalid.length).toBe(30);
+  for(const group of [fixture.valid,fixture.invalid])for(const c of group){expect(typeof c.name).toBe('string');expect(c.name.length).toBeGreaterThan(0);expect(typeof c.scene).toBe('object');expect(c.scene).not.toBeNull()}
+  const names=[...fixture.valid,...fixture.invalid].map(c=>c.name);expect(new Set(names).size).toBe(names.length);
+ });
  for(const c of fixture.valid)it('accepts valid: '+c.name,()=>{expect(()=>validateScene(structuredClone(c.scene))).not.toThrow()});
  for(const c of fixture.invalid)it('rejects invalid: '+c.name,()=>{expect(()=>validateScene(structuredClone(c.scene))).toThrow()});
 });
